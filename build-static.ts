@@ -141,9 +141,10 @@ function buildGraph(nodes: RawNode[]): Graph {
   for (const n of nodes) {
     if (!n.downstream) continue;
     for (const edge of n.downstream) {
+      const w = edge.quantity || 1;
       if (edge.corridor_id && nodeMap.has(edge.corridor_id) && n.id !== edge.corridor_id) {
         graph.mergeEdge(n.id, edge.corridor_id, {
-          weight: edge.quantity ?? 1,
+          weight: w,
           resource: edge.resource,
         });
       }
@@ -153,7 +154,7 @@ function buildGraph(nodes: RawNode[]): Graph {
           : n.id;
       if (nodeMap.has(edge.target_id) && srcId !== edge.target_id) {
         graph.mergeEdge(srcId, edge.target_id, {
-          weight: edge.quantity ?? 1,
+          weight: w,
           resource: edge.resource,
         });
       }
