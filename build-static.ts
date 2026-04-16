@@ -1,4 +1,17 @@
-import express from "express";
+/**
+ * build-static.ts
+ *
+ * Builds the GitHub Pages site into ./docs/ by:
+ *   1. Copying viewer/ static assets (index.html, app.js, styles.css)
+ *   2. Generating data/ JSON files (nodes, pair-index, graph analysis)
+ *   3. Generating search-data.js
+ *
+ * The viewer/ directory is the single source of truth for all frontend
+ * files — this script never duplicates logic that lives there.
+ *
+ * Usage:  npm run build:static
+ */
+
 import * as fs from "fs";
 import * as path from "path";
 import Graph from "graphology";
@@ -6,16 +19,15 @@ import betweennessCentrality from "graphology-metrics/centrality/betweenness";
 import pagerank from "graphology-metrics/centrality/pagerank";
 import louvain from "graphology-communities-louvain";
 
-const app = express();
-const PORT = 3000;
-
-const OUTPUT_DIR = path.join(__dirname, "../src/output/by-country");
-const VIEWER_DIR = __dirname;
-const DATA_DIR = path.join(VIEWER_DIR, "data");
+// ── Paths ────────────────────────────────────────────────────────────
+const OUTPUT_DIR = path.join(__dirname, "src/output/by-country");
+const VIEWER_DIR = path.join(__dirname, "viewer");
+const DOCS_DIR = path.join(__dirname, "docs");
+const DATA_DIR = path.join(DOCS_DIR, "data");
 
 // ── Helpers ──────────────────────────────────────────────────────────
 function unslugify(slug: string): string {
-  return slug.replace(/-/g, " ").replace(/\b\w/g, c => c.toUpperCase());
+  return slug.replace(/-/g, " ").replace(/\b\w/g, (c) => c.toUpperCase());
 }
 
 function ensureDir(dir: string) {
@@ -42,7 +54,7 @@ interface RawNode {
   range?: string;
 }
 
-// ── Data generation (same logic as build-static.ts) ──────────────────
+// ── Data collection ──────────────────────────────────────────────────
 function loadAllNodes(): RawNode[] {
   const seenIds = new Set<string>();
   const nodes: RawNode[] = [];
@@ -61,7 +73,7 @@ function loadAllNodes(): RawNode[] {
           seenIds.add(node.id);
           nodes.push(node);
         }
-      } catch { /* skip */ }
+      } catch { /* skip malformed */ }
     }
   }
   return nodes;
@@ -74,7 +86,7 @@ function deriveSearchData(): { countries: string[]; resources: string[] } {
   for (const dir of fs.readdirSync(OUTPUT_DIR).sort()) {
     const dirPath = path.join(OUTPUT_DIR, dir);
     if (!fs.statSync(dirPath).isDirectory()) continue;
-    const jsonFiles = fs.readdirSync(dirPath).filter(f => f.endsWith(".json"));
+    const jsonFiles = fs.readdirSync(dirPath).filter((f) => f.endsWith(".json"));
     if (jsonFiles.length === 0) continue;
     countries.push(unslugify(dir));
     for (const f of jsonFiles) {
@@ -111,6 +123,7 @@ function buildPairIndex(): Record<string, string[]> {
   return index;
 }
 
+// ── Graph analysis ───────────────────────────────────────────────────
 function buildGraph(nodes: RawNode[]): Graph {
   const graph = new Graph({ type: "directed", allowSelfLoops: false });
   const nodeMap = new Map<string, RawNode>();
@@ -122,8 +135,6 @@ function buildGraph(nodes: RawNode[]): Graph {
       tier: n.tier,
       country: n.country_iso2,
       company: n.canonical_company,
-      lat: n.coordinates?.lat,
-      lon: n.coordinates?.lon,
     });
   }
 
@@ -161,38 +172,48 @@ function graphNodeAttrs(graph: Graph, id: string) {
   };
 }
 
-// ── Generate data/ directory ─────────────────────────────────────────
-function generateData() {
-  console.log("Generating viewer/data/ ...");
+// ── Main ─────────────────────────────────────────────────────────────
+function main() {
+  console.log("Building static site into docs/ ...");
+
+  ensureDir(DOCS_DIR);
   ensureDir(DATA_DIR);
 
-  // Nodes
+  // ── 1. Copy viewer static assets ──────────────────────────────────
+  const STATIC_FILES = ["index.html", "app.js", "styles.css"];
+  for (const file of STATIC_FILES) {
+    fs.copyFileSync(path.join(VIEWER_DIR, file), path.join(DOCS_DIR, file));
+  }
+  console.log(`  Copied ${STATIC_FILES.join(", ")} from viewer/`);
+
+  // ── 2. Generate data files ────────────────────────────────────────
   const nodes = loadAllNodes();
+  console.log(`  Loaded ${nodes.length} unique nodes`);
   fs.writeFileSync(path.join(DATA_DIR, "nodes.json"), JSON.stringify(nodes));
-  console.log(`  ${nodes.length} nodes`);
 
   // Search data
   const searchData = deriveSearchData();
   const searchDataJs = `window.__SEARCH_DATA__ = ${JSON.stringify(searchData)};`;
-  fs.writeFileSync(path.join(VIEWER_DIR, "search-data.js"), searchDataJs);
-  console.log(`  ${searchData.countries.length} countries, ${searchData.resources.length} resources`);
+  fs.writeFileSync(path.join(DOCS_DIR, "search-data.js"), searchDataJs);
+  console.log(`  Search data: ${searchData.countries.length} countries, ${searchData.resources.length} resources`);
 
   // Pair index
   const pairIndex = buildPairIndex();
   fs.writeFileSync(path.join(DATA_DIR, "pair-index.json"), JSON.stringify(pairIndex));
-  console.log(`  ${Object.keys(pairIndex).length} country-resource pairs`);
+  console.log(`  Pair index: ${Object.keys(pairIndex).length} country-resource pairs`);
 
   // Graph analysis
   if (nodes.length > 0) {
+    console.log("  Computing graph analysis...");
     const graph = buildGraph(nodes);
-    console.log(`  Graph: ${graph.order} nodes, ${graph.size} edges`);
+    console.log(`    Graph: ${graph.order} nodes, ${graph.size} edges`);
 
     // Betweenness
     const betweennessResults = Object.entries(betweennessCentrality(graph, { normalized: true }))
       .map(([id, score]) => ({ ...graphNodeAttrs(graph, id), score: score as number }))
       .sort((a, b) => b.score - a.score);
     fs.writeFileSync(path.join(DATA_DIR, "betweenness.json"), JSON.stringify(betweennessResults));
-    console.log(`  Betweenness: ${betweennessResults.length} entries`);
+    console.log(`    Betweenness: ${betweennessResults.length} entries`);
 
     // PageRank
     try {
@@ -200,9 +221,9 @@ function generateData() {
         .map(([id, score]) => ({ ...graphNodeAttrs(graph, id), score: score as number }))
         .sort((a, b) => b.score - a.score);
       fs.writeFileSync(path.join(DATA_DIR, "pagerank.json"), JSON.stringify(pagerankResults));
-      console.log(`  PageRank: ${pagerankResults.length} entries`);
+      console.log(`    PageRank: ${pagerankResults.length} entries`);
     } catch (e: any) {
-      console.warn(`  PageRank: skipped (${e.message})`);
+      console.warn(`    PageRank: skipped (${e.message})`);
       fs.writeFileSync(path.join(DATA_DIR, "pagerank.json"), "[]");
     }
 
@@ -223,7 +244,7 @@ function generateData() {
       .sort((a, b) => b[1].length - a[1].length)
       .map(([community, members]) => ({ community, size: members.length, members }));
     fs.writeFileSync(path.join(DATA_DIR, "louvain.json"), JSON.stringify(louvainResults));
-    console.log(`  Louvain: ${louvainResults.length} communities`);
+    console.log(`    Louvain: ${louvainResults.length} communities`);
 
     // Degree
     const degreeResults: Array<any> = [];
@@ -239,26 +260,11 @@ function generateData() {
     });
     degreeResults.sort((a, b) => b.score - a.score);
     fs.writeFileSync(path.join(DATA_DIR, "degree.json"), JSON.stringify(degreeResults));
-    console.log(`  Degree: ${degreeResults.length} entries`);
+    console.log(`    Degree: ${degreeResults.length} entries`);
   }
 
-  console.log("Data generation complete.");
+  console.log("\nDone! Static site is in docs/");
+  console.log("Enable GitHub Pages → Source: main branch, /docs folder.");
 }
 
-// ── Generate data then start server ──────────────────────────────────
-generateData();
-
-// Serve everything under viewer/ as static files (index.html, app.js,
-// styles.css, search-data.js, and the data/ subdirectory)
-app.use(express.static(VIEWER_DIR));
-
-app.listen(PORT, () => {
-  console.log(`ChainLink viewer running at http://localhost:${PORT}`);
-}).on("error", (err: NodeJS.ErrnoException) => {
-  if (err.code === "EADDRINUSE") {
-    console.error(`Port ${PORT} is already in use. Kill the existing process and retry.`);
-  } else {
-    console.error("Server error:", err);
-  }
-  process.exit(1);
-});
+main();

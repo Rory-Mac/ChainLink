@@ -6,7 +6,8 @@
   "scripts": {
     "orchestrate": "ts-node src/orchestrate.ts",
     "orchestrate:dry": "ts-node src/orchestrate.ts --dry-run",
-    "viewer": "ts-node viewer/server.ts"
+    "viewer": "ts-node viewer/server.ts",
+    "build:static": "ts-node build-static.ts"
   },
   "dependencies": {
     "@anthropic-ai/sdk": "^0.54.0",
