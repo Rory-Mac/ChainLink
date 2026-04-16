@@ -1,0 +1,1844 @@
+[
+  {
+    "id": "AU_nsw_western_plains_kangaroo_harvest",
+    "name": "NSW Western Plains Kangaroo Harvest Zone",
+    "tier": "harvester",
+    "country_iso2": "AU",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": -31.5,
+      "lon": 145.5
+    },
+    "downstream": [
+      {
+        "target_id": "AU_macro_meats",
+        "corridor_id": "AU_road_nsw-western-plains-to-bourke",
+        "resource": "kangaroo carcasses (red and grey kangaroo)",
+        "quantity": 4500,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_macro_group_processors",
+        "corridor_id": "AU_road_nsw-western-plains-to-dubbo",
+        "resource": "kangaroo carcasses (red and grey kangaroo)",
+        "quantity": 3000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Wild-Game"
+    ]
+  },
+  {
+    "id": "AU_sa_arid_lands_kangaroo_harvest",
+    "name": "South Australia Arid Lands Kangaroo Harvest Zone",
+    "tier": "harvester",
+    "country_iso2": "AU",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": -31,
+      "lon": 138.5
+    },
+    "downstream": [
+      {
+        "target_id": "AU_macro_meats",
+        "corridor_id": "AU_road_sa-arid-to-adelaide",
+        "resource": "kangaroo carcasses (red kangaroo)",
+        "quantity": 5000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_southern_game_meats",
+        "corridor_id": "AU_road_sa-arid-to-adelaide",
+        "resource": "kangaroo carcasses (red kangaroo)",
+        "quantity": 2000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Wild-Game"
+    ]
+  },
+  {
+    "id": "AU_qld_western_kangaroo_harvest",
+    "name": "Queensland Western Kangaroo Harvest Zone",
+    "tier": "harvester",
+    "country_iso2": "AU",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": -24,
+      "lon": 145
+    },
+    "downstream": [
+      {
+        "target_id": "AU_macro_meats",
+        "corridor_id": "AU_road_qld-western-to-toowoomba",
+        "resource": "kangaroo carcasses (red and grey kangaroo)",
+        "quantity": 4000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_inland_game_meats",
+        "corridor_id": "AU_road_qld-western-to-charleville",
+        "resource": "kangaroo carcasses (red and grey kangaroo)",
+        "quantity": 2500,
+        "metric": "t"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Wild-Game"
+    ]
+  },
+  {
+    "id": "AU_wa_pastoral_kangaroo_harvest",
+    "name": "Western Australia Pastoral Kangaroo Harvest Zone",
+    "tier": "harvester",
+    "country_iso2": "AU",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": -26.5,
+      "lon": 120
+    },
+    "downstream": [
+      {
+        "target_id": "AU_macro_meats",
+        "corridor_id": "AU_road_wa-pastoral-to-perth",
+        "resource": "kangaroo carcasses (red and western grey kangaroo)",
+        "quantity": 2000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_wa_game_processing",
+        "corridor_id": "AU_road_wa-pastoral-to-perth",
+        "resource": "kangaroo carcasses (western grey kangaroo)",
+        "quantity": 1500,
+        "metric": "t"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Wild-Game"
+    ]
+  },
+  {
+    "id": "AU_nsw_central_west_feral_deer_harvest",
+    "name": "NSW Central West Feral Deer Harvest Zone",
+    "tier": "harvester",
+    "country_iso2": "AU",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": -33.2,
+      "lon": 149
+    },
+    "downstream": [
+      {
+        "target_id": "AU_gourmet_game",
+        "corridor_id": "AU_road_nsw-central-west-to-sydney",
+        "resource": "feral deer carcasses (fallow, red, sambar)",
+        "quantity": 600,
+        "metric": "t"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Wild-Game"
+    ]
+  },
+  {
+    "id": "AU_vic_alpine_feral_deer_harvest",
+    "name": "Victorian Alpine & Gippsland Feral Deer Harvest Zone",
+    "tier": "harvester",
+    "country_iso2": "AU",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": -37.3,
+      "lon": 146.5
+    },
+    "downstream": [
+      {
+        "target_id": "AU_gourmet_game",
+        "corridor_id": "AU_road_vic-alpine-to-melbourne",
+        "resource": "feral deer carcasses (sambar, fallow)",
+        "quantity": 500,
+        "metric": "t"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Wild-Game"
+    ]
+  },
+  {
+    "id": "AU_nsw_feral_goat_harvest",
+    "name": "NSW Western Feral Goat Harvest Zone",
+    "tier": "harvester",
+    "country_iso2": "AU",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": -31,
+      "lon": 146
+    },
+    "downstream": [
+      {
+        "target_id": "AU_western_meat_exporters",
+        "corridor_id": "AU_road_nsw-western-to-cobar",
+        "resource": "feral goat carcasses",
+        "quantity": 8000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_oz_game_meats",
+        "corridor_id": "AU_road_nsw-western-to-bourke",
+        "resource": "feral goat carcasses",
+        "quantity": 4000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Wild-Game"
+    ]
+  },
+  {
+    "id": "AU_sa_feral_goat_harvest",
+    "name": "South Australia Feral Goat Harvest Zone",
+    "tier": "harvester",
+    "country_iso2": "AU",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": -31.5,
+      "lon": 139.5
+    },
+    "downstream": [
+      {
+        "target_id": "AU_western_meat_exporters",
+        "corridor_id": "AU_road_sa-pastoral-to-broken-hill",
+        "resource": "feral goat carcasses",
+        "quantity": 3000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Wild-Game"
+    ]
+  },
+  {
+    "id": "AU_qld_feral_pig_harvest",
+    "name": "Queensland Feral Pig Harvest Zone",
+    "tier": "harvester",
+    "country_iso2": "AU",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": -22,
+      "lon": 147
+    },
+    "downstream": [
+      {
+        "target_id": "AU_oz_game_meats",
+        "corridor_id": "AU_road_qld-central-to-rockhampton",
+        "resource": "feral pig carcasses",
+        "quantity": 1500,
+        "metric": "t"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Wild-Game"
+    ]
+  },
+  {
+    "id": "AU_nsw_feral_pig_harvest",
+    "name": "NSW Feral Pig Harvest Zone",
+    "tier": "harvester",
+    "country_iso2": "AU",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": -30,
+      "lon": 148
+    },
+    "downstream": [
+      {
+        "target_id": "AU_oz_game_meats",
+        "corridor_id": "AU_road_nsw-northwest-to-dubbo",
+        "resource": "feral pig carcasses",
+        "quantity": 1000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Wild-Game"
+    ]
+  },
+  {
+    "id": "AU_tas_wild_wallaby_harvest",
+    "name": "Tasmania Wild Wallaby Harvest Zone",
+    "tier": "harvester",
+    "country_iso2": "AU",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": -41.8,
+      "lon": 146.5
+    },
+    "downstream": [
+      {
+        "target_id": "AU_lenah_game_meats",
+        "corridor_id": "AU_road_tas-midlands-to-launceston",
+        "resource": "wallaby carcasses (Bennett's wallaby)",
+        "quantity": 400,
+        "metric": "t"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Wild-Game"
+    ]
+  },
+  {
+    "id": "AU_macro_meats",
+    "name": "Macro Meats (Macro Group)",
+    "tier": "landing_processor",
+    "country_iso2": "AU",
+    "canonical_company": "Macro Meats",
+    "coordinates": {
+      "lat": -34.85,
+      "lon": 138.6
+    },
+    "downstream": [
+      {
+        "target_id": "AU_macro_meats_packing",
+        "corridor_id": "AU_road_adelaide-processing-local",
+        "resource": "processed kangaroo meat (bone-in and boneless cuts, mince)",
+        "quantity": 9000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_macro_meats_petfood_packing",
+        "corridor_id": "AU_road_adelaide-processing-local",
+        "resource": "kangaroo pet-food grade meat",
+        "quantity": 6500,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_nsw_western_plains_kangaroo_harvest",
+      "AU_sa_arid_lands_kangaroo_harvest",
+      "AU_qld_western_kangaroo_harvest",
+      "AU_wa_pastoral_kangaroo_harvest"
+    ],
+    "resources": [
+      "Wild-Game"
+    ]
+  },
+  {
+    "id": "AU_macro_group_processors",
+    "name": "Macro Group NSW Processing (Dubbo)",
+    "tier": "landing_processor",
+    "country_iso2": "AU",
+    "canonical_company": "Macro Meats",
+    "coordinates": {
+      "lat": -32.25,
+      "lon": 148.6
+    },
+    "downstream": [
+      {
+        "target_id": "AU_macro_meats_packing",
+        "corridor_id": "AU_road_dubbo-to-adelaide",
+        "resource": "processed kangaroo meat (primal cuts)",
+        "quantity": 3000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_nsw_western_plains_kangaroo_harvest"
+    ],
+    "resources": [
+      "Wild-Game"
+    ]
+  },
+  {
+    "id": "AU_southern_game_meats",
+    "name": "Southern Game Meats",
+    "tier": "landing_processor",
+    "country_iso2": "AU",
+    "canonical_company": "Southern Game Meats",
+    "coordinates": {
+      "lat": -34.7,
+      "lon": 138.7
+    },
+    "downstream": [
+      {
+        "target_id": "AU_southern_game_meats_packing",
+        "corridor_id": "AU_road_adelaide-processing-local",
+        "resource": "processed kangaroo meat (cuts and mince)",
+        "quantity": 2000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_sa_arid_lands_kangaroo_harvest"
+    ],
+    "resources": [
+      "Wild-Game"
+    ]
+  },
+  {
+    "id": "AU_inland_game_meats",
+    "name": "Inland Game Meats (Charleville)",
+    "tier": "landing_processor",
+    "country_iso2": "AU",
+    "canonical_company": "Inland Game Meats",
+    "coordinates": {
+      "lat": -26.4,
+      "lon": 146.25
+    },
+    "downstream": [
+      {
+        "target_id": "AU_inland_game_packing",
+        "corridor_id": "AU_road_charleville-to-brisbane",
+        "resource": "processed kangaroo meat (primal cuts, mince)",
+        "quantity": 2500,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_qld_western_kangaroo_harvest"
+    ],
+    "resources": [
+      "Wild-Game"
+    ]
+  },
+  {
+    "id": "AU_wa_game_processing",
+    "name": "WA Game Processing (Perth region)",
+    "tier": "landing_processor",
+    "country_iso2": "AU",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": -31.85,
+      "lon": 116
+    },
+    "downstream": [
+      {
+        "target_id": "AU_wa_game_packing",
+        "corridor_id": "AU_road_perth-processing-local",
+        "resource": "processed kangaroo meat (cuts)",
+        "quantity": 1500,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_wa_pastoral_kangaroo_harvest"
+    ],
+    "resources": [
+      "Wild-Game"
+    ]
+  },
+  {
+    "id": "AU_gourmet_game",
+    "name": "Gourmet Game",
+    "tier": "landing_processor",
+    "country_iso2": "AU",
+    "canonical_company": "Gourmet Game",
+    "coordinates": {
+      "lat": -33.8,
+      "lon": 151
+    },
+    "downstream": [
+      {
+        "target_id": "AU_gourmet_game_packing",
+        "corridor_id": "AU_road_sydney-processing-local",
+        "resource": "processed wild deer, game bird, and mixed game meat",
+        "quantity": 1100,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_nsw_central_west_feral_deer_harvest",
+      "AU_vic_alpine_feral_deer_harvest"
+    ],
+    "resources": [
+      "Wild-Game"
+    ]
+  },
+  {
+    "id": "AU_western_meat_exporters",
+    "name": "Western Meat Exporters (Charleville)",
+    "tier": "landing_processor",
+    "country_iso2": "AU",
+    "canonical_company": "Western Meat Exporters",
+    "coordinates": {
+      "lat": -26.4,
+      "lon": 146.24
+    },
+    "downstream": [
+      {
+        "target_id": "AU_western_meat_exporters_packing",
+        "corridor_id": "AU_road_charleville-processing-local",
+        "resource": "processed feral goat meat (carcass, primal cuts)",
+        "quantity": 11000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_nsw_feral_goat_harvest",
+      "AU_sa_feral_goat_harvest"
+    ],
+    "resources": [
+      "Wild-Game"
+    ]
+  },
+  {
+    "id": "AU_oz_game_meats",
+    "name": "Oz Game Meats",
+    "tier": "landing_processor",
+    "country_iso2": "AU",
+    "canonical_company": "Oz Game Meats",
+    "coordinates": {
+      "lat": -30.1,
+      "lon": 146.9
+    },
+    "downstream": [
+      {
+        "target_id": "AU_oz_game_meats_packing",
+        "corridor_id": "AU_road_bourke-processing-local",
+        "resource": "processed feral goat and feral pig meat",
+        "quantity": 6500,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_nsw_feral_goat_harvest",
+      "AU_qld_feral_pig_harvest",
+      "AU_nsw_feral_pig_harvest"
+    ],
+    "resources": [
+      "Wild-Game"
+    ]
+  },
+  {
+    "id": "AU_lenah_game_meats",
+    "name": "Lenah Game Meats",
+    "tier": "landing_processor",
+    "country_iso2": "AU",
+    "canonical_company": "Lenah Game Meats",
+    "coordinates": {
+      "lat": -41.45,
+      "lon": 147.15
+    },
+    "downstream": [
+      {
+        "target_id": "AU_lenah_packing",
+        "corridor_id": "AU_road_launceston-processing-local",
+        "resource": "processed wallaby meat (loin, leg cuts)",
+        "quantity": 400,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_tas_wild_wallaby_harvest"
+    ],
+    "resources": [
+      "Wild-Game"
+    ]
+  },
+  {
+    "id": "AU_macro_meats_packing",
+    "name": "Macro Meats Packing (Athol Park, Adelaide)",
+    "tier": "packer",
+    "country_iso2": "AU",
+    "canonical_company": "Macro Meats",
+    "coordinates": {
+      "lat": -34.85,
+      "lon": 138.55
+    },
+    "downstream": [
+      {
+        "target_id": "AU_woolworths_distribution",
+        "corridor_id": "AU_road_adelaide-to-national-dc",
+        "resource": "vacuum-packed kangaroo meat (retail packs, branded K-Roo)",
+        "quantity": 2500,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_coles_distribution",
+        "corridor_id": "AU_road_adelaide-to-national-dc",
+        "resource": "vacuum-packed kangaroo meat (retail packs)",
+        "quantity": 2000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_export_distributor_intl",
+        "corridor_id": "AU_road_adelaide-to-port-adelaide",
+        "resource": "frozen kangaroo meat (export grade, boxed cuts)",
+        "quantity": 5500,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_foodservice_distributor",
+        "corridor_id": "AU_road_adelaide-to-national-dc",
+        "resource": "kangaroo meat (foodservice portions)",
+        "quantity": 2000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_macro_meats",
+      "AU_macro_group_processors"
+    ],
+    "resources": [
+      "Wild-Game"
+    ]
+  },
+  {
+    "id": "AU_macro_meats_petfood_packing",
+    "name": "Macro Meats Pet Food Packing",
+    "tier": "packer",
+    "country_iso2": "AU",
+    "canonical_company": "Macro Meats",
+    "coordinates": {
+      "lat": -34.86,
+      "lon": 138.56
+    },
+    "downstream": [
+      {
+        "target_id": "AU_petfood_distributor",
+        "corridor_id": "AU_road_adelaide-to-national-dc",
+        "resource": "kangaroo pet-food (raw pet mince, treats, chews)",
+        "quantity": 6500,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_macro_meats"
+    ],
+    "resources": [
+      "Wild-Game"
+    ]
+  },
+  {
+    "id": "AU_southern_game_meats_packing",
+    "name": "Southern Game Meats Packing",
+    "tier": "packer",
+    "country_iso2": "AU",
+    "canonical_company": "Southern Game Meats",
+    "coordinates": {
+      "lat": -34.72,
+      "lon": 138.72
+    },
+    "downstream": [
+      {
+        "target_id": "AU_export_distributor_intl",
+        "corridor_id": "AU_road_adelaide-to-port-adelaide",
+        "resource": "frozen kangaroo meat (export boxed cuts)",
+        "quantity": 1200,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_foodservice_distributor",
+        "corridor_id": "AU_road_adelaide-to-national-dc",
+        "resource": "kangaroo meat (foodservice portions)",
+        "quantity": 800,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_southern_game_meats"
+    ],
+    "resources": [
+      "Wild-Game"
+    ]
+  },
+  {
+    "id": "AU_inland_game_packing",
+    "name": "Inland Game Meats Packing (Brisbane depot)",
+    "tier": "packer",
+    "country_iso2": "AU",
+    "canonical_company": "Inland Game Meats",
+    "coordinates": {
+      "lat": -27.45,
+      "lon": 153
+    },
+    "downstream": [
+      {
+        "target_id": "AU_export_distributor_intl",
+        "corridor_id": "AU_road_brisbane-to-port-brisbane",
+        "resource": "frozen kangaroo meat (export grade)",
+        "quantity": 1500,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_foodservice_distributor",
+        "corridor_id": "AU_road_brisbane-to-national-dc",
+        "resource": "kangaroo meat (retail and foodservice packs)",
+        "quantity": 1000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_inland_game_meats"
+    ],
+    "resources": [
+      "Wild-Game"
+    ]
+  },
+  {
+    "id": "AU_wa_game_packing",
+    "name": "WA Game Packing (Perth)",
+    "tier": "packer",
+    "country_iso2": "AU",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": -31.9,
+      "lon": 115.9
+    },
+    "downstream": [
+      {
+        "target_id": "AU_woolworths_distribution",
+        "corridor_id": "AU_road_perth-to-wa-dc",
+        "resource": "vacuum-packed kangaroo meat (retail packs)",
+        "quantity": 600,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_export_distributor_intl",
+        "corridor_id": "AU_road_perth-to-fremantle",
+        "resource": "frozen kangaroo meat (export grade)",
+        "quantity": 900,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_wa_game_processing"
+    ],
+    "resources": [
+      "Wild-Game"
+    ]
+  },
+  {
+    "id": "AU_gourmet_game_packing",
+    "name": "Gourmet Game Packing (Sydney)",
+    "tier": "packer",
+    "country_iso2": "AU",
+    "canonical_company": "Gourmet Game",
+    "coordinates": {
+      "lat": -33.82,
+      "lon": 151.05
+    },
+    "downstream": [
+      {
+        "target_id": "AU_foodservice_distributor",
+        "corridor_id": "AU_road_sydney-to-national-dc",
+        "resource": "game meat specialty packs (venison, mixed game)",
+        "quantity": 700,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_export_distributor_intl",
+        "corridor_id": "AU_road_sydney-to-port-botany",
+        "resource": "frozen game meat (venison, mixed wild game export)",
+        "quantity": 400,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_gourmet_game"
+    ],
+    "resources": [
+      "Wild-Game"
+    ]
+  },
+  {
+    "id": "AU_western_meat_exporters_packing",
+    "name": "Western Meat Exporters Packing (Charleville)",
+    "tier": "packer",
+    "country_iso2": "AU",
+    "canonical_company": "Western Meat Exporters",
+    "coordinates": {
+      "lat": -26.41,
+      "lon": 146.25
+    },
+    "downstream": [
+      {
+        "target_id": "AU_goat_export_distributor",
+        "corridor_id": "AU_road_charleville-to-brisbane",
+        "resource": "frozen feral goat carcasses and cuts (export grade)",
+        "quantity": 9500,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_foodservice_distributor",
+        "corridor_id": "AU_road_charleville-to-brisbane",
+        "resource": "goat meat (domestic foodservice portions)",
+        "quantity": 1500,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_western_meat_exporters"
+    ],
+    "resources": [
+      "Wild-Game"
+    ]
+  },
+  {
+    "id": "AU_oz_game_meats_packing",
+    "name": "Oz Game Meats Packing",
+    "tier": "packer",
+    "country_iso2": "AU",
+    "canonical_company": "Oz Game Meats",
+    "coordinates": {
+      "lat": -30.1,
+      "lon": 147
+    },
+    "downstream": [
+      {
+        "target_id": "AU_goat_export_distributor",
+        "corridor_id": "AU_road_bourke-to-sydney",
+        "resource": "frozen feral goat carcasses (export grade)",
+        "quantity": 4500,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_foodservice_distributor",
+        "corridor_id": "AU_road_bourke-to-sydney",
+        "resource": "feral goat and feral pig meat (domestic)",
+        "quantity": 2000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_oz_game_meats"
+    ],
+    "resources": [
+      "Wild-Game"
+    ]
+  },
+  {
+    "id": "AU_lenah_packing",
+    "name": "Lenah Game Meats Packing (Launceston)",
+    "tier": "packer",
+    "country_iso2": "AU",
+    "canonical_company": "Lenah Game Meats",
+    "coordinates": {
+      "lat": -41.44,
+      "lon": 147.14
+    },
+    "downstream": [
+      {
+        "target_id": "AU_foodservice_distributor",
+        "corridor_id": "AU_ocean_launceston-to-melbourne",
+        "resource": "wallaby meat (premium loin, leg, sausages)",
+        "quantity": 250,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_export_distributor_intl",
+        "corridor_id": "AU_ocean_launceston-to-melbourne",
+        "resource": "frozen wallaby meat (export grade)",
+        "quantity": 150,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_lenah_game_meats"
+    ],
+    "resources": [
+      "Wild-Game"
+    ]
+  },
+  {
+    "id": "AU_woolworths_distribution",
+    "name": "Woolworths Supermarkets Distribution",
+    "tier": "distributor",
+    "country_iso2": "AU",
+    "canonical_company": "Woolworths Group",
+    "coordinates": {
+      "lat": -33.88,
+      "lon": 151.21
+    },
+    "downstream": [
+      {
+        "target_id": "AU_woolworths_retail",
+        "corridor_id": "AU_road_woolworths-national-dc-to-stores",
+        "resource": "retail-packed kangaroo meat",
+        "quantity": 3100,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_macro_meats_packing",
+      "AU_wa_game_packing"
+    ],
+    "resources": [
+      "Wild-Game"
+    ]
+  },
+  {
+    "id": "AU_coles_distribution",
+    "name": "Coles Supermarkets Distribution",
+    "tier": "distributor",
+    "country_iso2": "AU",
+    "canonical_company": "Coles Group",
+    "coordinates": {
+      "lat": -37.82,
+      "lon": 144.96
+    },
+    "downstream": [
+      {
+        "target_id": "AU_coles_retail",
+        "corridor_id": "AU_road_coles-national-dc-to-stores",
+        "resource": "retail-packed kangaroo meat",
+        "quantity": 2000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_macro_meats_packing"
+    ],
+    "resources": [
+      "Wild-Game"
+    ]
+  },
+  {
+    "id": "AU_foodservice_distributor",
+    "name": "Australian Foodservice Distributors (Bidvest, PFD, etc.)",
+    "tier": "distributor",
+    "country_iso2": "AU",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": -33.86,
+      "lon": 151.2
+    },
+    "downstream": [
+      {
+        "target_id": "AU_hospitality_retail",
+        "corridor_id": "AU_road_foodservice-dc-to-hospitality",
+        "resource": "game meat (kangaroo, goat, venison, wallaby) foodservice portions",
+        "quantity": 8250,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_macro_meats_packing",
+      "AU_southern_game_meats_packing",
+      "AU_inland_game_packing",
+      "AU_gourmet_game_packing",
+      "AU_western_meat_exporters_packing",
+      "AU_oz_game_meats_packing",
+      "AU_lenah_packing"
+    ],
+    "resources": [
+      "Wild-Game"
+    ]
+  },
+  {
+    "id": "AU_petfood_distributor",
+    "name": "Australian Pet Food Distributors",
+    "tier": "distributor",
+    "country_iso2": "AU",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": -37.8,
+      "lon": 144.95
+    },
+    "downstream": [
+      {
+        "target_id": "AU_petfood_retail",
+        "corridor_id": "AU_road_petfood-dc-to-retail",
+        "resource": "kangaroo-based pet food products",
+        "quantity": 6500,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_macro_meats_petfood_packing"
+    ],
+    "resources": [
+      "Wild-Game"
+    ]
+  },
+  {
+    "id": "AU_export_distributor_intl",
+    "name": "International Wild Game Export Distributor (Port Adelaide / Port Botany)",
+    "tier": "distributor",
+    "country_iso2": "AU",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": -34.78,
+      "lon": 138.5
+    },
+    "downstream": [
+      {
+        "target_id": "EU_industrial",
+        "corridor_id": "INTL_ocean_adelaide-rotterdam",
+        "resource": "frozen kangaroo, venison, and wallaby meat",
+        "quantity": 3500,
+        "metric": "t"
+      },
+      {
+        "target_id": "RU_industrial",
+        "corridor_id": "INTL_ocean_adelaide-vladivostok",
+        "resource": "frozen kangaroo meat",
+        "quantity": 2500,
+        "metric": "t"
+      },
+      {
+        "target_id": "ZA_industrial",
+        "corridor_id": "INTL_ocean_adelaide-capetown",
+        "resource": "frozen kangaroo meat",
+        "quantity": 800,
+        "metric": "t"
+      },
+      {
+        "target_id": "US_industrial",
+        "corridor_id": "INTL_ocean_sydney-losangeles",
+        "resource": "frozen kangaroo and game meat",
+        "quantity": 850,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_macro_meats_packing",
+      "AU_southern_game_meats_packing",
+      "AU_inland_game_packing",
+      "AU_wa_game_packing",
+      "AU_gourmet_game_packing",
+      "AU_lenah_packing"
+    ],
+    "resources": [
+      "Wild-Game"
+    ]
+  },
+  {
+    "id": "AU_goat_export_distributor",
+    "name": "Feral Goat Export Distributor (Brisbane / Sydney ports)",
+    "tier": "distributor",
+    "country_iso2": "AU",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": -27.38,
+      "lon": 153.17
+    },
+    "downstream": [
+      {
+        "target_id": "US_commercial",
+        "corridor_id": "INTL_ocean_brisbane-losangeles",
+        "resource": "frozen feral goat carcasses and cuts",
+        "quantity": 7000,
+        "metric": "t"
+      },
+      {
+        "target_id": "TW_commercial",
+        "corridor_id": "INTL_ocean_brisbane-kaohsiung",
+        "resource": "frozen feral goat meat",
+        "quantity": 2000,
+        "metric": "t"
+      },
+      {
+        "target_id": "KR_commercial",
+        "corridor_id": "INTL_ocean_brisbane-busan",
+        "resource": "frozen feral goat meat",
+        "quantity": 1500,
+        "metric": "t"
+      },
+      {
+        "target_id": "TT_commercial",
+        "corridor_id": "INTL_ocean_sydney-portofspain",
+        "resource": "frozen feral goat carcasses",
+        "quantity": 1500,
+        "metric": "t"
+      },
+      {
+        "target_id": "CA_commercial",
+        "corridor_id": "INTL_ocean_brisbane-vancouver",
+        "resource": "frozen feral goat meat",
+        "quantity": 2000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_western_meat_exporters_packing",
+      "AU_oz_game_meats_packing"
+    ],
+    "resources": [
+      "Wild-Game"
+    ]
+  },
+  {
+    "id": "AU_woolworths_retail",
+    "name": "Woolworths Supermarket Stores (national)",
+    "tier": "retailer",
+    "country_iso2": "AU",
+    "canonical_company": "Woolworths Group",
+    "coordinates": {
+      "lat": -33.87,
+      "lon": 151.21
+    },
+    "downstream": [
+      {
+        "target_id": "AU_residential",
+        "corridor_id": "AU_road_woolworths-stores-to-consumers",
+        "resource": "kangaroo meat (retail packs)",
+        "quantity": 3100,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_woolworths_distribution"
+    ],
+    "resources": [
+      "Wild-Game"
+    ]
+  },
+  {
+    "id": "AU_coles_retail",
+    "name": "Coles Supermarket Stores (national)",
+    "tier": "retailer",
+    "country_iso2": "AU",
+    "canonical_company": "Coles Group",
+    "coordinates": {
+      "lat": -37.81,
+      "lon": 144.96
+    },
+    "downstream": [
+      {
+        "target_id": "AU_residential",
+        "corridor_id": "AU_road_coles-stores-to-consumers",
+        "resource": "kangaroo meat (retail packs)",
+        "quantity": 2000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_coles_distribution"
+    ],
+    "resources": [
+      "Wild-Game"
+    ]
+  },
+  {
+    "id": "AU_hospitality_retail",
+    "name": "Australian Hospitality & Restaurant Sector",
+    "tier": "retailer",
+    "country_iso2": "AU",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": -33.87,
+      "lon": 151.2
+    },
+    "downstream": [
+      {
+        "target_id": "AU_commercial",
+        "corridor_id": "AU_road_hospitality-to-consumers",
+        "resource": "prepared game meat dishes (kangaroo, goat, venison, wallaby)",
+        "quantity": 8250,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_foodservice_distributor"
+    ],
+    "resources": [
+      "Wild-Game"
+    ]
+  },
+  {
+    "id": "AU_petfood_retail",
+    "name": "Australian Pet Food Retail (Petbarn, independents, online)",
+    "tier": "retailer",
+    "country_iso2": "AU",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": -33.86,
+      "lon": 151.19
+    },
+    "downstream": [
+      {
+        "target_id": "AU_residential",
+        "corridor_id": "AU_road_petfood-retail-to-consumers",
+        "resource": "kangaroo-based pet food",
+        "quantity": 6500,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_petfood_distributor"
+    ],
+    "resources": [
+      "Wild-Game"
+    ]
+  },
+  {
+    "id": "AU_road_nsw-western-plains-to-bourke",
+    "tier": "transport",
+    "name": "Road: NSW Western Plains to Bourke chiller depots",
+    "country_iso2": "AU",
+    "operator_id": "AU_contract_transport",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "regional",
+    "coordinates": {
+      "lat": -30.5,
+      "lon": 146
+    }
+  },
+  {
+    "id": "AU_road_nsw-western-plains-to-dubbo",
+    "tier": "transport",
+    "name": "Road: NSW Western Plains to Dubbo processing",
+    "country_iso2": "AU",
+    "operator_id": "AU_contract_transport",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "regional",
+    "coordinates": {
+      "lat": -31.5,
+      "lon": 147.5
+    }
+  },
+  {
+    "id": "AU_road_sa-arid-to-adelaide",
+    "tier": "transport",
+    "name": "Road: SA Arid Lands to Adelaide processors",
+    "country_iso2": "AU",
+    "operator_id": "AU_contract_transport",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "regional",
+    "coordinates": {
+      "lat": -32.5,
+      "lon": 138.5
+    }
+  },
+  {
+    "id": "AU_road_qld-western-to-toowoomba",
+    "tier": "transport",
+    "name": "Road: QLD Western zones to Toowoomba / Brisbane",
+    "country_iso2": "AU",
+    "operator_id": "AU_contract_transport",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "regional",
+    "coordinates": {
+      "lat": -25.5,
+      "lon": 149
+    }
+  },
+  {
+    "id": "AU_road_qld-western-to-charleville",
+    "tier": "transport",
+    "name": "Road: QLD Western harvest to Charleville processor",
+    "country_iso2": "AU",
+    "operator_id": "AU_contract_transport",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "regional",
+    "coordinates": {
+      "lat": -25.5,
+      "lon": 146
+    }
+  },
+  {
+    "id": "AU_road_wa-pastoral-to-perth",
+    "tier": "transport",
+    "name": "Road: WA Pastoral regions to Perth processing",
+    "country_iso2": "AU",
+    "operator_id": "AU_contract_transport",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "regional",
+    "coordinates": {
+      "lat": -29,
+      "lon": 118
+    }
+  },
+  {
+    "id": "AU_road_nsw-central-west-to-sydney",
+    "tier": "transport",
+    "name": "Road: NSW Central West deer harvest to Sydney",
+    "country_iso2": "AU",
+    "operator_id": "AU_contract_transport",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "regional",
+    "coordinates": {
+      "lat": -33.5,
+      "lon": 150
+    }
+  },
+  {
+    "id": "AU_road_vic-alpine-to-melbourne",
+    "tier": "transport",
+    "name": "Road: Victorian Alpine / Gippsland deer harvest to Melbourne",
+    "country_iso2": "AU",
+    "operator_id": "AU_contract_transport",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "regional",
+    "coordinates": {
+      "lat": -37.8,
+      "lon": 146
+    }
+  },
+  {
+    "id": "AU_road_nsw-western-to-cobar",
+    "tier": "transport",
+    "name": "Road: NSW Western goat harvest to Cobar / Charleville",
+    "country_iso2": "AU",
+    "operator_id": "AU_contract_transport",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "regional",
+    "coordinates": {
+      "lat": -31,
+      "lon": 146.5
+    }
+  },
+  {
+    "id": "AU_road_nsw-western-to-bourke",
+    "tier": "transport",
+    "name": "Road: NSW Western goat harvest to Bourke processing",
+    "country_iso2": "AU",
+    "operator_id": "AU_contract_transport",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "regional",
+    "coordinates": {
+      "lat": -30.5,
+      "lon": 146.5
+    }
+  },
+  {
+    "id": "AU_road_sa-pastoral-to-broken-hill",
+    "tier": "transport",
+    "name": "Road: SA Pastoral goat harvest to Broken Hill / Charleville",
+    "country_iso2": "AU",
+    "operator_id": "AU_contract_transport",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "regional",
+    "coordinates": {
+      "lat": -31.5,
+      "lon": 141
+    }
+  },
+  {
+    "id": "AU_road_qld-central-to-rockhampton",
+    "tier": "transport",
+    "name": "Road: QLD Central pig harvest to Rockhampton / Bourke",
+    "country_iso2": "AU",
+    "operator_id": "AU_contract_transport",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "regional",
+    "coordinates": {
+      "lat": -23,
+      "lon": 148
+    }
+  },
+  {
+    "id": "AU_road_nsw-northwest-to-dubbo",
+    "tier": "transport",
+    "name": "Road: NSW Northwest pig harvest to Dubbo / Bourke",
+    "country_iso2": "AU",
+    "operator_id": "AU_contract_transport",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "regional",
+    "coordinates": {
+      "lat": -30.5,
+      "lon": 148
+    }
+  },
+  {
+    "id": "AU_road_tas-midlands-to-launceston",
+    "tier": "transport",
+    "name": "Road: Tasmania Midlands wallaby harvest to Launceston",
+    "country_iso2": "AU",
+    "operator_id": "AU_contract_transport",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "local",
+    "coordinates": {
+      "lat": -41.6,
+      "lon": 147
+    }
+  },
+  {
+    "id": "AU_road_adelaide-processing-local",
+    "tier": "transport",
+    "name": "Road: Adelaide intra-city processing logistics",
+    "country_iso2": "AU",
+    "operator_id": "AU_contract_transport",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "local",
+    "coordinates": {
+      "lat": -34.85,
+      "lon": 138.6
+    }
+  },
+  {
+    "id": "AU_road_dubbo-to-adelaide",
+    "tier": "transport",
+    "name": "Road: Dubbo to Adelaide inter-state transfer",
+    "country_iso2": "AU",
+    "operator_id": "AU_contract_transport",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "regional",
+    "coordinates": {
+      "lat": -33,
+      "lon": 144
+    }
+  },
+  {
+    "id": "AU_road_charleville-to-brisbane",
+    "tier": "transport",
+    "name": "Road: Charleville to Brisbane (Warrego Highway)",
+    "country_iso2": "AU",
+    "operator_id": "AU_contract_transport",
+    "mode": "road",
+    "form": "containerised",
+    "range": "regional",
+    "coordinates": {
+      "lat": -26.5,
+      "lon": 150
+    }
+  },
+  {
+    "id": "AU_road_perth-processing-local",
+    "tier": "transport",
+    "name": "Road: Perth metro processing logistics",
+    "country_iso2": "AU",
+    "operator_id": "AU_contract_transport",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "local",
+    "coordinates": {
+      "lat": -31.9,
+      "lon": 115.95
+    }
+  },
+  {
+    "id": "AU_road_sydney-processing-local",
+    "tier": "transport",
+    "name": "Road: Sydney metro processing logistics",
+    "country_iso2": "AU",
+    "operator_id": "AU_contract_transport",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "local",
+    "coordinates": {
+      "lat": -33.82,
+      "lon": 151.05
+    }
+  },
+  {
+    "id": "AU_road_charleville-processing-local",
+    "tier": "transport",
+    "name": "Road: Charleville local processing logistics",
+    "country_iso2": "AU",
+    "operator_id": "AU_contract_transport",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "local",
+    "coordinates": {
+      "lat": -26.4,
+      "lon": 146.25
+    }
+  },
+  {
+    "id": "AU_road_bourke-processing-local",
+    "tier": "transport",
+    "name": "Road: Bourke local processing logistics",
+    "country_iso2": "AU",
+    "operator_id": "AU_contract_transport",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "local",
+    "coordinates": {
+      "lat": -30.1,
+      "lon": 146.9
+    }
+  },
+  {
+    "id": "AU_road_launceston-processing-local",
+    "tier": "transport",
+    "name": "Road: Launceston local processing logistics",
+    "country_iso2": "AU",
+    "operator_id": "AU_contract_transport",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "local",
+    "coordinates": {
+      "lat": -41.45,
+      "lon": 147.15
+    }
+  },
+  {
+    "id": "AU_road_adelaide-to-national-dc",
+    "tier": "transport",
+    "name": "Road: Adelaide to national distribution centres",
+    "country_iso2": "AU",
+    "operator_id": "AU_linfox",
+    "mode": "road",
+    "form": "containerised",
+    "range": "regional",
+    "coordinates": {
+      "lat": -35,
+      "lon": 140
+    }
+  },
+  {
+    "id": "AU_road_adelaide-to-port-adelaide",
+    "tier": "transport",
+    "name": "Road: Adelaide processors to Port Adelaide",
+    "country_iso2": "AU",
+    "operator_id": "AU_contract_transport",
+    "mode": "road",
+    "form": "containerised",
+    "range": "local",
+    "coordinates": {
+      "lat": -34.82,
+      "lon": 138.5
+    }
+  },
+  {
+    "id": "AU_road_brisbane-to-port-brisbane",
+    "tier": "transport",
+    "name": "Road: Brisbane packing to Port of Brisbane",
+    "country_iso2": "AU",
+    "operator_id": "AU_contract_transport",
+    "mode": "road",
+    "form": "containerised",
+    "range": "local",
+    "coordinates": {
+      "lat": -27.4,
+      "lon": 153.15
+    }
+  },
+  {
+    "id": "AU_road_brisbane-to-national-dc",
+    "tier": "transport",
+    "name": "Road: Brisbane to national distribution centres",
+    "country_iso2": "AU",
+    "operator_id": "AU_linfox",
+    "mode": "road",
+    "form": "containerised",
+    "range": "regional",
+    "coordinates": {
+      "lat": -28,
+      "lon": 152
+    }
+  },
+  {
+    "id": "AU_road_perth-to-wa-dc",
+    "tier": "transport",
+    "name": "Road: Perth packing to WA distribution centres",
+    "country_iso2": "AU",
+    "operator_id": "AU_contract_transport",
+    "mode": "road",
+    "form": "containerised",
+    "range": "local",
+    "coordinates": {
+      "lat": -31.9,
+      "lon": 115.95
+    }
+  },
+  {
+    "id": "AU_road_perth-to-fremantle",
+    "tier": "transport",
+    "name": "Road: Perth to Fremantle Port",
+    "country_iso2": "AU",
+    "operator_id": "AU_contract_transport",
+    "mode": "road",
+    "form": "containerised",
+    "range": "local",
+    "coordinates": {
+      "lat": -32.05,
+      "lon": 115.75
+    }
+  },
+  {
+    "id": "AU_road_sydney-to-national-dc",
+    "tier": "transport",
+    "name": "Road: Sydney packing to national DC",
+    "country_iso2": "AU",
+    "operator_id": "AU_linfox",
+    "mode": "road",
+    "form": "containerised",
+    "range": "regional",
+    "coordinates": {
+      "lat": -33.9,
+      "lon": 151
+    }
+  },
+  {
+    "id": "AU_road_sydney-to-port-botany",
+    "tier": "transport",
+    "name": "Road: Sydney to Port Botany",
+    "country_iso2": "AU",
+    "operator_id": "AU_contract_transport",
+    "mode": "road",
+    "form": "containerised",
+    "range": "local",
+    "coordinates": {
+      "lat": -33.96,
+      "lon": 151.22
+    }
+  },
+  {
+    "id": "AU_road_bourke-to-sydney",
+    "tier": "transport",
+    "name": "Road: Bourke / western NSW to Sydney",
+    "country_iso2": "AU",
+    "operator_id": "AU_contract_transport",
+    "mode": "road",
+    "form": "containerised",
+    "range": "regional",
+    "coordinates": {
+      "lat": -32,
+      "lon": 148.5
+    }
+  },
+  {
+    "id": "AU_ocean_launceston-to-melbourne",
+    "tier": "transport",
+    "name": "Sea freight: Launceston (Bell Bay) to Melbourne",
+    "country_iso2": "AU",
+    "operator_id": "AU_toll_shipping",
+    "mode": "ocean_freight",
+    "form": "containerised",
+    "range": "regional",
+    "coordinates": {
+      "lat": -39.5,
+      "lon": 145.5
+    }
+  },
+  {
+    "id": "AU_road_woolworths-national-dc-to-stores",
+    "tier": "transport",
+    "name": "Road: Woolworths DC to stores (national)",
+    "country_iso2": "AU",
+    "operator_id": "AU_woolworths_logistics",
+    "mode": "road",
+    "form": "containerised",
+    "range": "regional",
+    "coordinates": {
+      "lat": -33.8,
+      "lon": 151
+    }
+  },
+  {
+    "id": "AU_road_coles-national-dc-to-stores",
+    "tier": "transport",
+    "name": "Road: Coles DC to stores (national)",
+    "country_iso2": "AU",
+    "operator_id": "AU_coles_logistics",
+    "mode": "road",
+    "form": "containerised",
+    "range": "regional",
+    "coordinates": {
+      "lat": -37.8,
+      "lon": 145
+    }
+  },
+  {
+    "id": "AU_road_foodservice-dc-to-hospitality",
+    "tier": "transport",
+    "name": "Road: Foodservice DC to restaurants / hospitality",
+    "country_iso2": "AU",
+    "operator_id": "AU_bidvest",
+    "mode": "road",
+    "form": "containerised",
+    "range": "regional",
+    "coordinates": {
+      "lat": -33.85,
+      "lon": 151.15
+    }
+  },
+  {
+    "id": "AU_road_petfood-dc-to-retail",
+    "tier": "transport",
+    "name": "Road: Pet food DC to pet stores and supermarkets",
+    "country_iso2": "AU",
+    "operator_id": "AU_contract_transport",
+    "mode": "road",
+    "form": "containerised",
+    "range": "regional",
+    "coordinates": {
+      "lat": -37.8,
+      "lon": 145
+    }
+  },
+  {
+    "id": "INTL_ocean_adelaide-rotterdam",
+    "tier": "transport",
+    "name": "Ocean freight: Adelaide to Rotterdam (EU)",
+    "country_iso2": "INTL",
+    "operator_id": "INTL_maersk",
+    "mode": "ocean_freight",
+    "form": "containerised",
+    "range": "international",
+    "coordinates": {
+      "lat": -10,
+      "lon": 80
+    }
+  },
+  {
+    "id": "INTL_ocean_adelaide-vladivostok",
+    "tier": "transport",
+    "name": "Ocean freight: Adelaide to Vladivostok / St Petersburg (Russia)",
+    "country_iso2": "INTL",
+    "operator_id": "INTL_msc",
+    "mode": "ocean_freight",
+    "form": "containerised",
+    "range": "international",
+    "coordinates": {
+      "lat": -5,
+      "lon": 110
+    }
+  },
+  {
+    "id": "INTL_ocean_adelaide-capetown",
+    "tier": "transport",
+    "name": "Ocean freight: Adelaide to Cape Town (South Africa)",
+    "country_iso2": "INTL",
+    "operator_id": "INTL_maersk",
+    "mode": "ocean_freight",
+    "form": "containerised",
+    "range": "international",
+    "coordinates": {
+      "lat": -35,
+      "lon": 100
+    }
+  },
+  {
+    "id": "INTL_ocean_brisbane-kaohsiung",
+    "tier": "transport",
+    "name": "Ocean freight: Brisbane to Kaohsiung (Taiwan)",
+    "country_iso2": "INTL",
+    "operator_id": "INTL_evergreen",
+    "mode": "ocean_freight",
+    "form": "containerised",
+    "range": "international",
+    "coordinates": {
+      "lat": -5,
+      "lon": 140
+    },
+    "resources": [
+      "Noble Gases"
+    ],
+    "upstream": [],
+    "downstream": []
+  },
+  {
+    "id": "INTL_ocean_brisbane-busan",
+    "tier": "transport",
+    "name": "Ocean freight: Brisbane to Busan (South Korea)",
+    "country_iso2": "INTL",
+    "operator_id": "INTL_hmm",
+    "mode": "ocean_freight",
+    "form": "containerised",
+    "range": "international",
+    "coordinates": {
+      "lat": -2,
+      "lon": 145
+    },
+    "resources": [
+      "Pastureland"
+    ],
+    "upstream": [],
+    "downstream": []
+  },
+  {
+    "id": "INTL_ocean_sydney-portofspain",
+    "tier": "transport",
+    "name": "Ocean freight: Sydney to Port of Spain (Trinidad & Tobago)",
+    "country_iso2": "INTL",
+    "operator_id": "INTL_msc",
+    "mode": "ocean_freight",
+    "form": "containerised",
+    "range": "international",
+    "coordinates": {
+      "lat": -20,
+      "lon": -120
+    }
+  },
+  {
+    "id": "INTL_ocean_brisbane-vancouver",
+    "tier": "transport",
+    "name": "Ocean freight: Brisbane to Vancouver (Canada)",
+    "country_iso2": "INTL",
+    "operator_id": "INTL_cosco",
+    "mode": "ocean_freight",
+    "form": "containerised",
+    "range": "international",
+    "coordinates": {
+      "lat": -10,
+      "lon": -170
+    }
+  },
+  {
+    "id": "AU_road_woolworths-stores-to-consumers",
+    "tier": "transport",
+    "name": "Road: Woolworths stores last-mile to consumers",
+    "country_iso2": "AU",
+    "operator_id": "AU_woolworths_logistics",
+    "mode": "road",
+    "form": "unit_load",
+    "range": "local",
+    "coordinates": {
+      "lat": -33.87,
+      "lon": 151.21
+    }
+  },
+  {
+    "id": "AU_road_coles-stores-to-consumers",
+    "tier": "transport",
+    "name": "Road: Coles stores last-mile to consumers",
+    "country_iso2": "AU",
+    "operator_id": "AU_coles_logistics",
+    "mode": "road",
+    "form": "unit_load",
+    "range": "local",
+    "coordinates": {
+      "lat": -37.81,
+      "lon": 144.96
+    }
+  },
+  {
+    "id": "AU_road_hospitality-to-consumers",
+    "tier": "transport",
+    "name": "Road: Restaurant / hospitality last-mile to consumers",
+    "country_iso2": "AU",
+    "operator_id": "AU_contract_transport",
+    "mode": "road",
+    "form": "unit_load",
+    "range": "local",
+    "coordinates": {
+      "lat": -33.87,
+      "lon": 151.2
+    }
+  },
+  {
+    "id": "AU_road_petfood-retail-to-consumers",
+    "tier": "transport",
+    "name": "Road: Pet food retail last-mile to consumers",
+    "country_iso2": "AU",
+    "operator_id": "AU_contract_transport",
+    "mode": "road",
+    "form": "unit_load",
+    "range": "local",
+    "coordinates": {
+      "lat": -33.86,
+      "lon": 151.19
+    }
+  }
+]

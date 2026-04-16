@@ -1,0 +1,2409 @@
+[
+  {
+    "id": "AU_woodside_north_west_shelf",
+    "name": "North West Shelf Gas Field (Woodside-operated)",
+    "tier": "extraction",
+    "country_iso2": "AU",
+    "canonical_company": "Woodside Energy",
+    "coordinates": {
+      "lat": -19.59,
+      "lon": 116.08
+    },
+    "downstream": [
+      {
+        "target_id": "AU_nws_karratha_lng",
+        "corridor_id": "AU_pipeline_nws_to_karratha",
+        "resource": "raw natural gas",
+        "quantity": 18000000,
+        "metric": "kL"
+      },
+      {
+        "target_id": "AU_dbngp_pipeline_operator",
+        "corridor_id": "AU_pipeline_dampier_to_bunbury",
+        "resource": "pipeline-specification natural gas",
+        "quantity": 12000000,
+        "metric": "kL"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Natural Gas"
+    ]
+  },
+  {
+    "id": "AU_woodside_pluto",
+    "name": "Pluto Gas Field (Woodside-operated)",
+    "tier": "extraction",
+    "country_iso2": "AU",
+    "canonical_company": "Woodside Energy",
+    "coordinates": {
+      "lat": -19.88,
+      "lon": 115
+    },
+    "downstream": [
+      {
+        "target_id": "AU_pluto_lng",
+        "corridor_id": "AU_pipeline_pluto_to_karratha",
+        "resource": "raw natural gas",
+        "quantity": 10000000,
+        "metric": "kL"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Natural Gas"
+    ]
+  },
+  {
+    "id": "AU_chevron_gorgon",
+    "name": "Gorgon Gas Field (Chevron-operated)",
+    "tier": "extraction",
+    "country_iso2": "AU",
+    "canonical_company": "Chevron Australia",
+    "coordinates": {
+      "lat": -20.5,
+      "lon": 114.1
+    },
+    "downstream": [
+      {
+        "target_id": "AU_gorgon_lng",
+        "corridor_id": "AU_pipeline_gorgon_subsea",
+        "resource": "raw natural gas",
+        "quantity": 22000000,
+        "metric": "kL"
+      },
+      {
+        "target_id": "AU_dbngp_pipeline_operator",
+        "corridor_id": "AU_pipeline_gorgon_to_dbngp",
+        "resource": "pipeline-specification natural gas",
+        "quantity": 4500000,
+        "metric": "kL"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Natural Gas"
+    ]
+  },
+  {
+    "id": "AU_chevron_wheatstone_field",
+    "name": "Wheatstone / Iago Gas Fields (Chevron-operated)",
+    "tier": "extraction",
+    "country_iso2": "AU",
+    "canonical_company": "Chevron Australia",
+    "coordinates": {
+      "lat": -19.8,
+      "lon": 115.4
+    },
+    "downstream": [
+      {
+        "target_id": "AU_wheatstone_lng",
+        "corridor_id": "AU_pipeline_wheatstone_subsea",
+        "resource": "raw natural gas",
+        "quantity": 14000000,
+        "metric": "kL"
+      },
+      {
+        "target_id": "AU_dbngp_pipeline_operator",
+        "corridor_id": "AU_pipeline_wheatstone_to_dbngp",
+        "resource": "pipeline-specification natural gas",
+        "quantity": 3000000,
+        "metric": "kL"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Natural Gas"
+    ]
+  },
+  {
+    "id": "AU_inpex_ichthys",
+    "name": "Ichthys Gas Field (INPEX-operated)",
+    "tier": "extraction",
+    "country_iso2": "AU",
+    "canonical_company": "INPEX",
+    "coordinates": {
+      "lat": -11.8,
+      "lon": 123.6
+    },
+    "downstream": [
+      {
+        "target_id": "AU_ichthys_lng",
+        "corridor_id": "AU_pipeline_ichthys_subsea",
+        "resource": "raw natural gas",
+        "quantity": 14000000,
+        "metric": "kL"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Natural Gas"
+    ]
+  },
+  {
+    "id": "AU_conocophillips_darwin",
+    "name": "Bayu-Undan Gas Field (ConocoPhillips/Santos-operated)",
+    "tier": "extraction",
+    "country_iso2": "AU",
+    "canonical_company": "Santos",
+    "coordinates": {
+      "lat": -10.16,
+      "lon": 126.9
+    },
+    "downstream": [
+      {
+        "target_id": "AU_darwin_lng",
+        "corridor_id": "AU_pipeline_bayu_undan_to_darwin",
+        "resource": "raw natural gas",
+        "quantity": 4000000,
+        "metric": "kL"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Natural Gas"
+    ]
+  },
+  {
+    "id": "AU_santos_cooper_basin",
+    "name": "Cooper Basin Gas Fields (Santos-operated)",
+    "tier": "extraction",
+    "country_iso2": "AU",
+    "canonical_company": "Santos",
+    "coordinates": {
+      "lat": -28,
+      "lon": 140.2
+    },
+    "downstream": [
+      {
+        "target_id": "AU_moomba_processing",
+        "corridor_id": "AU_pipeline_cooper_to_moomba",
+        "resource": "raw natural gas",
+        "quantity": 7500000,
+        "metric": "kL"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Natural Gas"
+    ]
+  },
+  {
+    "id": "AU_santos_glng_field",
+    "name": "GLNG Coal Seam Gas Fields (Santos-operated, Surat Basin)",
+    "tier": "extraction",
+    "country_iso2": "AU",
+    "canonical_company": "Santos",
+    "coordinates": {
+      "lat": -26.4,
+      "lon": 149.8
+    },
+    "downstream": [
+      {
+        "target_id": "AU_glng",
+        "corridor_id": "AU_pipeline_glng_field_to_gladstone",
+        "resource": "coal seam gas",
+        "quantity": 11000000,
+        "metric": "kL"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Natural Gas"
+    ]
+  },
+  {
+    "id": "AU_origin_aplng_field",
+    "name": "APLNG Coal Seam Gas Fields (Origin/ConocoPhillips, Surat & Bowen Basins)",
+    "tier": "extraction",
+    "country_iso2": "AU",
+    "canonical_company": "Origin Energy",
+    "coordinates": {
+      "lat": -26.2,
+      "lon": 149.6
+    },
+    "downstream": [
+      {
+        "target_id": "AU_aplng",
+        "corridor_id": "AU_pipeline_aplng_field_to_gladstone",
+        "resource": "coal seam gas",
+        "quantity": 15000000,
+        "metric": "kL"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Natural Gas"
+    ]
+  },
+  {
+    "id": "AU_shell_qclng_field",
+    "name": "QCLNG Coal Seam Gas Fields (Shell-operated, Surat Basin)",
+    "tier": "extraction",
+    "country_iso2": "AU",
+    "canonical_company": "Shell",
+    "coordinates": {
+      "lat": -26.55,
+      "lon": 149.9
+    },
+    "downstream": [
+      {
+        "target_id": "AU_qclng",
+        "corridor_id": "AU_pipeline_qclng_field_to_gladstone",
+        "resource": "coal seam gas",
+        "quantity": 13000000,
+        "metric": "kL"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Natural Gas"
+    ]
+  },
+  {
+    "id": "AU_exxon_bass_strait",
+    "name": "Bass Strait Gas Fields (ExxonMobil/BHP-operated)",
+    "tier": "extraction",
+    "country_iso2": "AU",
+    "canonical_company": "Esso Australia (ExxonMobil)",
+    "coordinates": {
+      "lat": -38.6,
+      "lon": 148.3
+    },
+    "downstream": [
+      {
+        "target_id": "AU_longford_processing",
+        "corridor_id": "AU_pipeline_bass_strait_to_longford",
+        "resource": "raw natural gas",
+        "quantity": 6000000,
+        "metric": "kL"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Natural Gas"
+    ]
+  },
+  {
+    "id": "AU_beach_otway",
+    "name": "Otway Basin Gas Fields (Beach Energy-operated)",
+    "tier": "extraction",
+    "country_iso2": "AU",
+    "canonical_company": "Beach Energy",
+    "coordinates": {
+      "lat": -38.75,
+      "lon": 143.1
+    },
+    "downstream": [
+      {
+        "target_id": "AU_otway_processing",
+        "corridor_id": "AU_pipeline_otway_to_iona",
+        "resource": "raw natural gas",
+        "quantity": 1800000,
+        "metric": "kL"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Natural Gas"
+    ]
+  },
+  {
+    "id": "AU_woodside_scarborough",
+    "name": "Scarborough Gas Field (Woodside-operated, under development)",
+    "tier": "extraction",
+    "country_iso2": "AU",
+    "canonical_company": "Woodside Energy",
+    "coordinates": {
+      "lat": -19.8,
+      "lon": 113.3
+    },
+    "downstream": [
+      {
+        "target_id": "AU_pluto_lng",
+        "corridor_id": "AU_pipeline_scarborough_to_pluto",
+        "resource": "raw natural gas",
+        "quantity": 3000000,
+        "metric": "kL"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Natural Gas"
+    ]
+  },
+  {
+    "id": "AU_nws_karratha_lng",
+    "name": "NWS Karratha LNG Plant",
+    "tier": "refinery",
+    "country_iso2": "AU",
+    "canonical_company": "Woodside Energy",
+    "coordinates": {
+      "lat": -20.73,
+      "lon": 116.78
+    },
+    "downstream": [
+      {
+        "target_id": "AU_woodside_lng_trading",
+        "corridor_id": "AU_road_karratha_lng_to_port",
+        "resource": "liquefied natural gas (LNG)",
+        "quantity": 16500000,
+        "metric": "kL"
+      }
+    ],
+    "upstream": [
+      "AU_woodside_north_west_shelf"
+    ],
+    "resources": [
+      "Natural Gas"
+    ]
+  },
+  {
+    "id": "AU_pluto_lng",
+    "name": "Pluto LNG Plant (Karratha)",
+    "tier": "refinery",
+    "country_iso2": "AU",
+    "canonical_company": "Woodside Energy",
+    "coordinates": {
+      "lat": -20.72,
+      "lon": 116.78
+    },
+    "downstream": [
+      {
+        "target_id": "AU_woodside_lng_trading",
+        "corridor_id": "AU_road_pluto_lng_to_port",
+        "resource": "liquefied natural gas (LNG)",
+        "quantity": 12000000,
+        "metric": "kL"
+      }
+    ],
+    "upstream": [
+      "AU_woodside_pluto",
+      "AU_woodside_scarborough"
+    ],
+    "resources": [
+      "Natural Gas"
+    ]
+  },
+  {
+    "id": "AU_gorgon_lng",
+    "name": "Gorgon LNG Plant (Barrow Island)",
+    "tier": "refinery",
+    "country_iso2": "AU",
+    "canonical_company": "Chevron Australia",
+    "coordinates": {
+      "lat": -20.79,
+      "lon": 115.39
+    },
+    "downstream": [
+      {
+        "target_id": "AU_chevron_lng_trading",
+        "corridor_id": "AU_conveyor_gorgon_lng_to_jetty",
+        "resource": "liquefied natural gas (LNG)",
+        "quantity": 21000000,
+        "metric": "kL"
+      }
+    ],
+    "upstream": [
+      "AU_chevron_gorgon"
+    ],
+    "resources": [
+      "Natural Gas"
+    ]
+  },
+  {
+    "id": "AU_wheatstone_lng",
+    "name": "Wheatstone LNG Plant (Onslow)",
+    "tier": "refinery",
+    "country_iso2": "AU",
+    "canonical_company": "Chevron Australia",
+    "coordinates": {
+      "lat": -21.79,
+      "lon": 114.99
+    },
+    "downstream": [
+      {
+        "target_id": "AU_chevron_lng_trading",
+        "corridor_id": "AU_conveyor_wheatstone_lng_to_jetty",
+        "resource": "liquefied natural gas (LNG)",
+        "quantity": 12500000,
+        "metric": "kL"
+      },
+      {
+        "target_id": "AU_dbngp_pipeline_operator",
+        "corridor_id": "AU_pipeline_wheatstone_domgas_to_dbngp",
+        "resource": "pipeline-specification natural gas (domestic gas)",
+        "quantity": 1500000,
+        "metric": "kL"
+      }
+    ],
+    "upstream": [
+      "AU_chevron_wheatstone_field"
+    ],
+    "resources": [
+      "Natural Gas"
+    ]
+  },
+  {
+    "id": "AU_ichthys_lng",
+    "name": "Ichthys LNG Plant (Darwin/Bladin Point)",
+    "tier": "refinery",
+    "country_iso2": "AU",
+    "canonical_company": "INPEX",
+    "coordinates": {
+      "lat": -12.51,
+      "lon": 130.87
+    },
+    "downstream": [
+      {
+        "target_id": "AU_inpex_lng_trading",
+        "corridor_id": "AU_road_ichthys_lng_to_darwin_port",
+        "resource": "liquefied natural gas (LNG)",
+        "quantity": 13000000,
+        "metric": "kL"
+      }
+    ],
+    "upstream": [
+      "AU_inpex_ichthys"
+    ],
+    "resources": [
+      "Natural Gas"
+    ]
+  },
+  {
+    "id": "AU_darwin_lng",
+    "name": "Darwin LNG Plant (Wickham Point)",
+    "tier": "refinery",
+    "country_iso2": "AU",
+    "canonical_company": "Santos",
+    "coordinates": {
+      "lat": -12.52,
+      "lon": 130.82
+    },
+    "downstream": [
+      {
+        "target_id": "AU_santos_lng_trading",
+        "corridor_id": "AU_road_darwin_lng_to_port",
+        "resource": "liquefied natural gas (LNG)",
+        "quantity": 3500000,
+        "metric": "kL"
+      }
+    ],
+    "upstream": [
+      "AU_conocophillips_darwin"
+    ],
+    "resources": [
+      "Natural Gas"
+    ]
+  },
+  {
+    "id": "AU_glng",
+    "name": "GLNG Plant (Curtis Island, Gladstone)",
+    "tier": "refinery",
+    "country_iso2": "AU",
+    "canonical_company": "Santos",
+    "coordinates": {
+      "lat": -23.77,
+      "lon": 151.29
+    },
+    "downstream": [
+      {
+        "target_id": "AU_santos_lng_trading",
+        "corridor_id": "AU_road_glng_to_gladstone_port",
+        "resource": "liquefied natural gas (LNG)",
+        "quantity": 10000000,
+        "metric": "kL"
+      }
+    ],
+    "upstream": [
+      "AU_santos_glng_field"
+    ],
+    "resources": [
+      "Natural Gas"
+    ]
+  },
+  {
+    "id": "AU_aplng",
+    "name": "APLNG Plant (Curtis Island, Gladstone)",
+    "tier": "refinery",
+    "country_iso2": "AU",
+    "canonical_company": "Origin Energy",
+    "coordinates": {
+      "lat": -23.78,
+      "lon": 151.28
+    },
+    "downstream": [
+      {
+        "target_id": "AU_conocophillips_lng_trading",
+        "corridor_id": "AU_road_aplng_to_gladstone_port",
+        "resource": "liquefied natural gas (LNG)",
+        "quantity": 12500000,
+        "metric": "kL"
+      },
+      {
+        "target_id": "AU_origin_domestic_gas",
+        "corridor_id": "AU_pipeline_aplng_to_wallumbilla",
+        "resource": "pipeline-specification natural gas (domestic gas)",
+        "quantity": 2500000,
+        "metric": "kL"
+      }
+    ],
+    "upstream": [
+      "AU_origin_aplng_field"
+    ],
+    "resources": [
+      "Natural Gas"
+    ]
+  },
+  {
+    "id": "AU_qclng",
+    "name": "QCLNG Plant (Curtis Island, Gladstone)",
+    "tier": "refinery",
+    "country_iso2": "AU",
+    "canonical_company": "Shell",
+    "coordinates": {
+      "lat": -23.76,
+      "lon": 151.3
+    },
+    "downstream": [
+      {
+        "target_id": "AU_shell_lng_trading",
+        "corridor_id": "AU_road_qclng_to_gladstone_port",
+        "resource": "liquefied natural gas (LNG)",
+        "quantity": 12000000,
+        "metric": "kL"
+      }
+    ],
+    "upstream": [
+      "AU_shell_qclng_field"
+    ],
+    "resources": [
+      "Natural Gas"
+    ]
+  },
+  {
+    "id": "AU_moomba_processing",
+    "name": "Moomba Gas Processing Plant",
+    "tier": "refinery",
+    "country_iso2": "AU",
+    "canonical_company": "Santos",
+    "coordinates": {
+      "lat": -28.1,
+      "lon": 140.2
+    },
+    "downstream": [
+      {
+        "target_id": "AU_apa_east_coast_gas",
+        "corridor_id": "AU_pipeline_moomba_to_sydney",
+        "resource": "pipeline-specification natural gas",
+        "quantity": 4000000,
+        "metric": "kL"
+      },
+      {
+        "target_id": "AU_apa_east_coast_gas",
+        "corridor_id": "AU_pipeline_moomba_to_adelaide",
+        "resource": "pipeline-specification natural gas",
+        "quantity": 3500000,
+        "metric": "kL"
+      }
+    ],
+    "upstream": [
+      "AU_santos_cooper_basin"
+    ],
+    "resources": [
+      "Natural Gas"
+    ]
+  },
+  {
+    "id": "AU_longford_processing",
+    "name": "Longford Gas Processing Plant (Gippsland)",
+    "tier": "refinery",
+    "country_iso2": "AU",
+    "canonical_company": "Esso Australia (ExxonMobil)",
+    "coordinates": {
+      "lat": -38.33,
+      "lon": 147.04
+    },
+    "downstream": [
+      {
+        "target_id": "AU_apa_east_coast_gas",
+        "corridor_id": "AU_pipeline_longford_to_melbourne",
+        "resource": "pipeline-specification natural gas",
+        "quantity": 5500000,
+        "metric": "kL"
+      }
+    ],
+    "upstream": [
+      "AU_exxon_bass_strait"
+    ],
+    "resources": [
+      "Natural Gas"
+    ]
+  },
+  {
+    "id": "AU_otway_processing",
+    "name": "Otway Gas Plant / Iona Underground Storage",
+    "tier": "refinery",
+    "country_iso2": "AU",
+    "canonical_company": "Beach Energy",
+    "coordinates": {
+      "lat": -38.2,
+      "lon": 141.5
+    },
+    "downstream": [
+      {
+        "target_id": "AU_apa_east_coast_gas",
+        "corridor_id": "AU_pipeline_otway_to_melbourne",
+        "resource": "pipeline-specification natural gas",
+        "quantity": 1800000,
+        "metric": "kL"
+      }
+    ],
+    "upstream": [
+      "AU_beach_otway"
+    ],
+    "resources": [
+      "Natural Gas"
+    ]
+  },
+  {
+    "id": "AU_dbngp_pipeline_operator",
+    "name": "DBNGP (Dampier to Bunbury Natural Gas Pipeline) System Operator",
+    "tier": "distributor",
+    "country_iso2": "AU",
+    "canonical_company": "AGIG (Australian Gas Infrastructure Group)",
+    "coordinates": {
+      "lat": -25.5,
+      "lon": 115.5
+    },
+    "downstream": [
+      {
+        "target_id": "AU_alinta_energy",
+        "corridor_id": "AU_pipeline_dbngp_to_perth",
+        "resource": "pipeline-specification natural gas",
+        "quantity": 10000000,
+        "metric": "kL"
+      },
+      {
+        "target_id": "AU_atco_gas",
+        "corridor_id": "AU_pipeline_dbngp_to_perth",
+        "resource": "pipeline-specification natural gas",
+        "quantity": 5000000,
+        "metric": "kL"
+      },
+      {
+        "target_id": "AU_synergy",
+        "corridor_id": "AU_pipeline_dbngp_to_perth",
+        "resource": "pipeline-specification natural gas for power generation",
+        "quantity": 5000000,
+        "metric": "kL"
+      }
+    ],
+    "upstream": [
+      "AU_woodside_north_west_shelf",
+      "AU_chevron_gorgon",
+      "AU_chevron_wheatstone_field",
+      "AU_wheatstone_lng"
+    ],
+    "resources": [
+      "Natural Gas"
+    ]
+  },
+  {
+    "id": "AU_woodside_lng_trading",
+    "name": "Woodside Energy LNG Trading & Export",
+    "tier": "distributor",
+    "country_iso2": "AU",
+    "canonical_company": "Woodside Energy",
+    "coordinates": {
+      "lat": -20.73,
+      "lon": 116.78
+    },
+    "downstream": [
+      {
+        "target_id": "JP_jera",
+        "corridor_id": "INTL_ocean_karratha_tokyo",
+        "resource": "liquefied natural gas (LNG)",
+        "quantity": 10000000,
+        "metric": "kL"
+      },
+      {
+        "target_id": "CN_cnooc_receiving",
+        "corridor_id": "INTL_ocean_karratha_guangdong",
+        "resource": "liquefied natural gas (LNG)",
+        "quantity": 8000000,
+        "metric": "kL"
+      },
+      {
+        "target_id": "KR_kogas",
+        "corridor_id": "INTL_ocean_karratha_incheon",
+        "resource": "liquefied natural gas (LNG)",
+        "quantity": 5000000,
+        "metric": "kL"
+      },
+      {
+        "target_id": "TW_cpc",
+        "corridor_id": "INTL_ocean_karratha_taichung",
+        "resource": "liquefied natural gas (LNG)",
+        "quantity": 5500000,
+        "metric": "kL"
+      }
+    ],
+    "upstream": [
+      "AU_nws_karratha_lng",
+      "AU_pluto_lng"
+    ],
+    "resources": [
+      "Natural Gas"
+    ]
+  },
+  {
+    "id": "AU_chevron_lng_trading",
+    "name": "Chevron Australia LNG Trading & Export",
+    "tier": "distributor",
+    "country_iso2": "AU",
+    "canonical_company": "Chevron Australia",
+    "coordinates": {
+      "lat": -20.79,
+      "lon": 115.39
+    },
+    "downstream": [
+      {
+        "target_id": "JP_jera",
+        "corridor_id": "INTL_ocean_barrow_island_tokyo",
+        "resource": "liquefied natural gas (LNG)",
+        "quantity": 12000000,
+        "metric": "kL"
+      },
+      {
+        "target_id": "CN_cnooc_receiving",
+        "corridor_id": "INTL_ocean_barrow_island_guangdong",
+        "resource": "liquefied natural gas (LNG)",
+        "quantity": 8000000,
+        "metric": "kL"
+      },
+      {
+        "target_id": "KR_kogas",
+        "corridor_id": "INTL_ocean_barrow_island_incheon",
+        "resource": "liquefied natural gas (LNG)",
+        "quantity": 6500000,
+        "metric": "kL"
+      },
+      {
+        "target_id": "IN_petronet",
+        "corridor_id": "INTL_ocean_barrow_island_dahej",
+        "resource": "liquefied natural gas (LNG)",
+        "quantity": 5000000,
+        "metric": "kL"
+      },
+      {
+        "target_id": "TW_cpc",
+        "corridor_id": "INTL_ocean_onslow_taichung",
+        "resource": "liquefied natural gas (LNG)",
+        "quantity": 2000000,
+        "metric": "kL"
+      }
+    ],
+    "upstream": [
+      "AU_gorgon_lng",
+      "AU_wheatstone_lng"
+    ],
+    "resources": [
+      "Natural Gas"
+    ]
+  },
+  {
+    "id": "AU_inpex_lng_trading",
+    "name": "INPEX LNG Trading & Export (Darwin)",
+    "tier": "distributor",
+    "country_iso2": "AU",
+    "canonical_company": "INPEX",
+    "coordinates": {
+      "lat": -12.51,
+      "lon": 130.87
+    },
+    "downstream": [
+      {
+        "target_id": "JP_jera",
+        "corridor_id": "INTL_ocean_darwin_tokyo",
+        "resource": "liquefied natural gas (LNG)",
+        "quantity": 9000000,
+        "metric": "kL"
+      },
+      {
+        "target_id": "CN_cnooc_receiving",
+        "corridor_id": "INTL_ocean_darwin_guangdong",
+        "resource": "liquefied natural gas (LNG)",
+        "quantity": 4000000,
+        "metric": "kL"
+      }
+    ],
+    "upstream": [
+      "AU_ichthys_lng"
+    ],
+    "resources": [
+      "Natural Gas"
+    ]
+  },
+  {
+    "id": "AU_santos_lng_trading",
+    "name": "Santos LNG Trading & Export",
+    "tier": "distributor",
+    "country_iso2": "AU",
+    "canonical_company": "Santos",
+    "coordinates": {
+      "lat": -23.77,
+      "lon": 151.29
+    },
+    "downstream": [
+      {
+        "target_id": "JP_jera",
+        "corridor_id": "INTL_ocean_gladstone_tokyo",
+        "resource": "liquefied natural gas (LNG)",
+        "quantity": 5000000,
+        "metric": "kL"
+      },
+      {
+        "target_id": "CN_cnooc_receiving",
+        "corridor_id": "INTL_ocean_gladstone_guangdong",
+        "resource": "liquefied natural gas (LNG)",
+        "quantity": 4000000,
+        "metric": "kL"
+      },
+      {
+        "target_id": "KR_kogas",
+        "corridor_id": "INTL_ocean_gladstone_incheon",
+        "resource": "liquefied natural gas (LNG)",
+        "quantity": 2500000,
+        "metric": "kL"
+      },
+      {
+        "target_id": "MY_petronas_receiving",
+        "corridor_id": "INTL_ocean_gladstone_bintulu",
+        "resource": "liquefied natural gas (LNG)",
+        "quantity": 2000000,
+        "metric": "kL"
+      }
+    ],
+    "upstream": [
+      "AU_darwin_lng",
+      "AU_glng"
+    ],
+    "resources": [
+      "Natural Gas"
+    ]
+  },
+  {
+    "id": "AU_conocophillips_lng_trading",
+    "name": "ConocoPhillips / APLNG LNG Trading & Export",
+    "tier": "distributor",
+    "country_iso2": "AU",
+    "canonical_company": "ConocoPhillips",
+    "coordinates": {
+      "lat": -23.78,
+      "lon": 151.28
+    },
+    "downstream": [
+      {
+        "target_id": "CN_sinopec_receiving",
+        "corridor_id": "INTL_ocean_gladstone_qingdao",
+        "resource": "liquefied natural gas (LNG)",
+        "quantity": 8000000,
+        "metric": "kL"
+      },
+      {
+        "target_id": "JP_jera",
+        "corridor_id": "INTL_ocean_gladstone_tokyo",
+        "resource": "liquefied natural gas (LNG)",
+        "quantity": 3000000,
+        "metric": "kL"
+      },
+      {
+        "target_id": "KR_kogas",
+        "corridor_id": "INTL_ocean_gladstone_incheon",
+        "resource": "liquefied natural gas (LNG)",
+        "quantity": 1500000,
+        "metric": "kL"
+      }
+    ],
+    "upstream": [
+      "AU_aplng"
+    ],
+    "resources": [
+      "Natural Gas"
+    ]
+  },
+  {
+    "id": "AU_shell_lng_trading",
+    "name": "Shell QCLNG Trading & Export",
+    "tier": "distributor",
+    "country_iso2": "AU",
+    "canonical_company": "Shell",
+    "coordinates": {
+      "lat": -23.76,
+      "lon": 151.3
+    },
+    "downstream": [
+      {
+        "target_id": "CN_cnooc_receiving",
+        "corridor_id": "INTL_ocean_gladstone_shenzhen",
+        "resource": "liquefied natural gas (LNG)",
+        "quantity": 5000000,
+        "metric": "kL"
+      },
+      {
+        "target_id": "JP_jera",
+        "corridor_id": "INTL_ocean_gladstone_tokyo",
+        "resource": "liquefied natural gas (LNG)",
+        "quantity": 4000000,
+        "metric": "kL"
+      },
+      {
+        "target_id": "KR_kogas",
+        "corridor_id": "INTL_ocean_gladstone_incheon",
+        "resource": "liquefied natural gas (LNG)",
+        "quantity": 3000000,
+        "metric": "kL"
+      }
+    ],
+    "upstream": [
+      "AU_qclng"
+    ],
+    "resources": [
+      "Natural Gas"
+    ]
+  },
+  {
+    "id": "AU_apa_east_coast_gas",
+    "name": "APA Group East Coast Gas Transmission",
+    "tier": "distributor",
+    "country_iso2": "AU",
+    "canonical_company": "APA Group",
+    "coordinates": {
+      "lat": -33.87,
+      "lon": 151.21
+    },
+    "downstream": [
+      {
+        "target_id": "AU_agl_energy",
+        "corridor_id": "AU_pipeline_apa_to_sydney",
+        "resource": "pipeline-specification natural gas",
+        "quantity": 4000000,
+        "metric": "kL"
+      },
+      {
+        "target_id": "AU_origin_domestic_gas",
+        "corridor_id": "AU_pipeline_apa_to_brisbane",
+        "resource": "pipeline-specification natural gas",
+        "quantity": 2500000,
+        "metric": "kL"
+      },
+      {
+        "target_id": "AU_energyaustralia",
+        "corridor_id": "AU_pipeline_apa_to_melbourne",
+        "resource": "pipeline-specification natural gas",
+        "quantity": 3800000,
+        "metric": "kL"
+      },
+      {
+        "target_id": "AU_ags_sa",
+        "corridor_id": "AU_pipeline_apa_to_adelaide",
+        "resource": "pipeline-specification natural gas",
+        "quantity": 3500000,
+        "metric": "kL"
+      }
+    ],
+    "upstream": [
+      "AU_moomba_processing",
+      "AU_longford_processing",
+      "AU_otway_processing"
+    ],
+    "resources": [
+      "Natural Gas"
+    ]
+  },
+  {
+    "id": "AU_origin_domestic_gas",
+    "name": "Origin Energy Domestic Gas Retail & Wholesale",
+    "tier": "distributor",
+    "country_iso2": "AU",
+    "canonical_company": "Origin Energy",
+    "coordinates": {
+      "lat": -27.47,
+      "lon": 153.02
+    },
+    "downstream": [
+      {
+        "target_id": "AU_origin_energy_retail",
+        "corridor_id": "AU_pipeline_origin_qld_distribution",
+        "resource": "reticulated natural gas",
+        "quantity": 5000000,
+        "metric": "kL"
+      }
+    ],
+    "upstream": [
+      "AU_aplng",
+      "AU_apa_east_coast_gas"
+    ],
+    "resources": [
+      "Natural Gas"
+    ]
+  },
+  {
+    "id": "AU_ags_sa",
+    "name": "Australian Gas Networks South Australia",
+    "tier": "utility",
+    "country_iso2": "AU",
+    "canonical_company": "AGIG (Australian Gas Infrastructure Group)",
+    "coordinates": {
+      "lat": -34.93,
+      "lon": 138.6
+    },
+    "downstream": [
+      {
+        "target_id": "AU_residential",
+        "corridor_id": "AU_pipeline_agn_adelaide_reticulation",
+        "resource": "reticulated natural gas",
+        "quantity": 1200000,
+        "metric": "kL"
+      },
+      {
+        "target_id": "AU_commercial",
+        "corridor_id": "AU_pipeline_agn_adelaide_reticulation",
+        "resource": "reticulated natural gas",
+        "quantity": 600000,
+        "metric": "kL"
+      },
+      {
+        "target_id": "AU_industrial",
+        "corridor_id": "AU_pipeline_agn_adelaide_reticulation",
+        "resource": "natural gas for industrial use",
+        "quantity": 1700000,
+        "metric": "kL"
+      }
+    ],
+    "upstream": [
+      "AU_apa_east_coast_gas"
+    ],
+    "resources": [
+      "Natural Gas"
+    ]
+  },
+  {
+    "id": "AU_alinta_energy",
+    "name": "Alinta Energy WA Retail",
+    "tier": "utility",
+    "country_iso2": "AU",
+    "canonical_company": "Alinta Energy",
+    "coordinates": {
+      "lat": -31.95,
+      "lon": 115.86
+    },
+    "downstream": [
+      {
+        "target_id": "AU_residential",
+        "corridor_id": "AU_pipeline_alinta_perth_reticulation",
+        "resource": "reticulated natural gas",
+        "quantity": 2000000,
+        "metric": "kL"
+      },
+      {
+        "target_id": "AU_commercial",
+        "corridor_id": "AU_pipeline_alinta_perth_reticulation",
+        "resource": "reticulated natural gas",
+        "quantity": 1000000,
+        "metric": "kL"
+      },
+      {
+        "target_id": "AU_industrial",
+        "corridor_id": "AU_pipeline_alinta_perth_reticulation",
+        "resource": "natural gas for industrial use",
+        "quantity": 7000000,
+        "metric": "kL"
+      }
+    ],
+    "upstream": [
+      "AU_dbngp_pipeline_operator"
+    ],
+    "resources": [
+      "Natural Gas"
+    ]
+  },
+  {
+    "id": "AU_atco_gas",
+    "name": "ATCO Gas Australia (WA Gas Distribution)",
+    "tier": "utility",
+    "country_iso2": "AU",
+    "canonical_company": "ATCO",
+    "coordinates": {
+      "lat": -31.95,
+      "lon": 115.86
+    },
+    "downstream": [
+      {
+        "target_id": "AU_residential",
+        "corridor_id": "AU_pipeline_atco_perth_reticulation",
+        "resource": "reticulated natural gas",
+        "quantity": 2000000,
+        "metric": "kL"
+      },
+      {
+        "target_id": "AU_commercial",
+        "corridor_id": "AU_pipeline_atco_perth_reticulation",
+        "resource": "reticulated natural gas",
+        "quantity": 1500000,
+        "metric": "kL"
+      },
+      {
+        "target_id": "AU_industrial",
+        "corridor_id": "AU_pipeline_atco_perth_reticulation",
+        "resource": "natural gas for industrial use",
+        "quantity": 1500000,
+        "metric": "kL"
+      }
+    ],
+    "upstream": [
+      "AU_dbngp_pipeline_operator"
+    ],
+    "resources": [
+      "Natural Gas"
+    ]
+  },
+  {
+    "id": "AU_synergy",
+    "name": "Synergy (WA Government-owned Electricity Utility)",
+    "tier": "utility",
+    "country_iso2": "AU",
+    "canonical_company": "Synergy",
+    "coordinates": {
+      "lat": -31.95,
+      "lon": 115.86
+    },
+    "downstream": [
+      {
+        "target_id": "AU_residential",
+        "corridor_id": "AU_electrical_grid_swis",
+        "resource": "gas-fired electricity",
+        "quantity": 2000000,
+        "metric": "kL"
+      },
+      {
+        "target_id": "AU_commercial",
+        "corridor_id": "AU_electrical_grid_swis",
+        "resource": "gas-fired electricity",
+        "quantity": 1500000,
+        "metric": "kL"
+      },
+      {
+        "target_id": "AU_industrial",
+        "corridor_id": "AU_electrical_grid_swis",
+        "resource": "gas-fired electricity",
+        "quantity": 1500000,
+        "metric": "kL"
+      }
+    ],
+    "upstream": [
+      "AU_dbngp_pipeline_operator"
+    ],
+    "resources": [
+      "Natural Gas"
+    ]
+  },
+  {
+    "id": "JP_jera",
+    "name": "JERA Co. (Japan LNG Buyer)",
+    "tier": "utility",
+    "country_iso2": "JP",
+    "canonical_company": "JERA",
+    "coordinates": {
+      "lat": 35.45,
+      "lon": 139.64
+    },
+    "downstream": [
+      {
+        "target_id": "JP_industrial",
+        "corridor_id": "JP_pipeline_jera_kanto_distribution",
+        "resource": "regasified natural gas / LNG for power generation",
+        "quantity": 25000000,
+        "metric": "kL"
+      },
+      {
+        "target_id": "JP_residential",
+        "corridor_id": "JP_pipeline_jera_kanto_distribution",
+        "resource": "city gas",
+        "quantity": 18000000,
+        "metric": "kL"
+      }
+    ],
+    "upstream": [
+      "AU_woodside_lng_trading",
+      "AU_chevron_lng_trading",
+      "AU_inpex_lng_trading",
+      "AU_santos_lng_trading",
+      "AU_conocophillips_lng_trading",
+      "AU_shell_lng_trading"
+    ],
+    "resources": [
+      "Natural Gas"
+    ]
+  },
+  {
+    "id": "CN_cnooc_receiving",
+    "name": "CNOOC LNG Receiving Terminals (Guangdong / Fujian)",
+    "tier": "utility",
+    "country_iso2": "CN",
+    "canonical_company": "CNOOC",
+    "coordinates": {
+      "lat": 22.72,
+      "lon": 114.5
+    },
+    "downstream": [
+      {
+        "target_id": "CN_industrial",
+        "corridor_id": "CN_pipeline_cnooc_south_china_distribution",
+        "resource": "regasified natural gas",
+        "quantity": 15000000,
+        "metric": "kL"
+      },
+      {
+        "target_id": "CN_residential",
+        "corridor_id": "CN_pipeline_cnooc_south_china_distribution",
+        "resource": "city gas",
+        "quantity": 10000000,
+        "metric": "kL"
+      }
+    ],
+    "upstream": [
+      "AU_woodside_lng_trading",
+      "AU_chevron_lng_trading",
+      "AU_inpex_lng_trading",
+      "AU_santos_lng_trading",
+      "AU_shell_lng_trading"
+    ],
+    "resources": [
+      "Natural Gas"
+    ]
+  },
+  {
+    "id": "CN_sinopec_receiving",
+    "name": "Sinopec LNG Receiving Terminals (Qingdao / Beihai)",
+    "tier": "utility",
+    "country_iso2": "CN",
+    "canonical_company": "Sinopec",
+    "coordinates": {
+      "lat": 36.07,
+      "lon": 120.38
+    },
+    "downstream": [
+      {
+        "target_id": "CN_industrial",
+        "corridor_id": "CN_pipeline_sinopec_east_china_distribution",
+        "resource": "regasified natural gas",
+        "quantity": 5000000,
+        "metric": "kL"
+      },
+      {
+        "target_id": "CN_residential",
+        "corridor_id": "CN_pipeline_sinopec_east_china_distribution",
+        "resource": "city gas",
+        "quantity": 3000000,
+        "metric": "kL"
+      }
+    ],
+    "upstream": [
+      "AU_conocophillips_lng_trading"
+    ],
+    "resources": [
+      "Natural Gas"
+    ]
+  },
+  {
+    "id": "KR_kogas",
+    "name": "KOGAS (Korea Gas Corporation)",
+    "tier": "utility",
+    "country_iso2": "KR",
+    "canonical_company": "KOGAS",
+    "coordinates": {
+      "lat": 37.4,
+      "lon": 126.66
+    },
+    "downstream": [
+      {
+        "target_id": "KR_industrial",
+        "corridor_id": "KR_pipeline_kogas_national_grid",
+        "resource": "regasified natural gas",
+        "quantity": 10000000,
+        "metric": "kL"
+      },
+      {
+        "target_id": "KR_residential",
+        "corridor_id": "KR_pipeline_kogas_national_grid",
+        "resource": "city gas",
+        "quantity": 8500000,
+        "metric": "kL"
+      }
+    ],
+    "upstream": [
+      "AU_woodside_lng_trading",
+      "AU_chevron_lng_trading",
+      "AU_santos_lng_trading",
+      "AU_conocophillips_lng_trading",
+      "AU_shell_lng_trading"
+    ],
+    "resources": [
+      "Natural Gas"
+    ]
+  },
+  {
+    "id": "TW_cpc",
+    "name": "CPC Corporation Taiwan",
+    "tier": "utility",
+    "country_iso2": "TW",
+    "canonical_company": "CPC Corporation",
+    "coordinates": {
+      "lat": 24.28,
+      "lon": 120.53
+    },
+    "downstream": [
+      {
+        "target_id": "TW_industrial",
+        "corridor_id": "TW_pipeline_cpc_west_coast_distribution",
+        "resource": "regasified natural gas",
+        "quantity": 5000000,
+        "metric": "kL"
+      },
+      {
+        "target_id": "TW_residential",
+        "corridor_id": "TW_pipeline_cpc_west_coast_distribution",
+        "resource": "city gas",
+        "quantity": 2500000,
+        "metric": "kL"
+      }
+    ],
+    "upstream": [
+      "AU_woodside_lng_trading",
+      "AU_chevron_lng_trading"
+    ],
+    "resources": [
+      "Natural Gas"
+    ]
+  },
+  {
+    "id": "IN_petronet",
+    "name": "Petronet LNG (Dahej Terminal)",
+    "tier": "utility",
+    "country_iso2": "IN",
+    "canonical_company": "Petronet LNG",
+    "coordinates": {
+      "lat": 21.67,
+      "lon": 72.58
+    },
+    "downstream": [
+      {
+        "target_id": "IN_industrial",
+        "corridor_id": "IN_pipeline_petronet_dahej_distribution",
+        "resource": "regasified natural gas",
+        "quantity": 3500000,
+        "metric": "kL"
+      },
+      {
+        "target_id": "IN_residential",
+        "corridor_id": "IN_pipeline_petronet_dahej_distribution",
+        "resource": "city gas",
+        "quantity": 1500000,
+        "metric": "kL"
+      }
+    ],
+    "upstream": [
+      "AU_chevron_lng_trading"
+    ],
+    "resources": [
+      "Natural Gas"
+    ]
+  },
+  {
+    "id": "MY_petronas_receiving",
+    "name": "Petronas Receiving Terminal (Bintulu)",
+    "tier": "utility",
+    "country_iso2": "MY",
+    "canonical_company": "Petronas",
+    "coordinates": {
+      "lat": 3.17,
+      "lon": 113.03
+    },
+    "downstream": [
+      {
+        "target_id": "MY_industrial",
+        "corridor_id": "MY_pipeline_petronas_sarawak_distribution",
+        "resource": "regasified natural gas",
+        "quantity": 1500000,
+        "metric": "kL"
+      },
+      {
+        "target_id": "MY_commercial",
+        "corridor_id": "MY_pipeline_petronas_sarawak_distribution",
+        "resource": "natural gas",
+        "quantity": 500000,
+        "metric": "kL"
+      }
+    ],
+    "upstream": [
+      "AU_santos_lng_trading"
+    ],
+    "resources": [
+      "Natural Gas"
+    ]
+  },
+  {
+    "id": "AU_pipeline_nws_to_karratha",
+    "tier": "transport",
+    "name": "NWS Subsea/Onshore Pipeline to Karratha",
+    "country_iso2": "AU",
+    "operator_id": "AU_woodside_energy",
+    "mode": "pipeline",
+    "form": "gas",
+    "range": "regional",
+    "coordinates": {
+      "lat": -20.2,
+      "lon": 116.4
+    }
+  },
+  {
+    "id": "AU_pipeline_dampier_to_bunbury",
+    "tier": "transport",
+    "name": "Dampier to Bunbury Natural Gas Pipeline (DBNGP)",
+    "country_iso2": "AU",
+    "operator_id": "AU_agig",
+    "mode": "pipeline",
+    "form": "gas",
+    "range": "regional",
+    "coordinates": {
+      "lat": -25.5,
+      "lon": 115.5
+    }
+  },
+  {
+    "id": "AU_pipeline_pluto_to_karratha",
+    "tier": "transport",
+    "name": "Pluto Subsea Pipeline to Karratha",
+    "country_iso2": "AU",
+    "operator_id": "AU_woodside_energy",
+    "mode": "pipeline",
+    "form": "gas",
+    "range": "regional",
+    "coordinates": {
+      "lat": -20.3,
+      "lon": 115.9
+    }
+  },
+  {
+    "id": "AU_pipeline_gorgon_subsea",
+    "tier": "transport",
+    "name": "Gorgon Subsea Pipeline to Barrow Island",
+    "country_iso2": "AU",
+    "operator_id": "AU_chevron_australia",
+    "mode": "pipeline",
+    "form": "gas",
+    "range": "regional",
+    "coordinates": {
+      "lat": -20.65,
+      "lon": 114.75
+    }
+  },
+  {
+    "id": "AU_pipeline_gorgon_to_dbngp",
+    "tier": "transport",
+    "name": "Gorgon Domestic Gas Pipeline to DBNGP",
+    "country_iso2": "AU",
+    "operator_id": "AU_chevron_australia",
+    "mode": "pipeline",
+    "form": "gas",
+    "range": "regional",
+    "coordinates": {
+      "lat": -20.9,
+      "lon": 115.2
+    }
+  },
+  {
+    "id": "AU_pipeline_wheatstone_subsea",
+    "tier": "transport",
+    "name": "Wheatstone Subsea Pipeline to Onslow",
+    "country_iso2": "AU",
+    "operator_id": "AU_chevron_australia",
+    "mode": "pipeline",
+    "form": "gas",
+    "range": "regional",
+    "coordinates": {
+      "lat": -20.8,
+      "lon": 115.2
+    }
+  },
+  {
+    "id": "AU_pipeline_wheatstone_to_dbngp",
+    "tier": "transport",
+    "name": "Wheatstone Domestic Gas Pipeline to DBNGP",
+    "country_iso2": "AU",
+    "operator_id": "AU_chevron_australia",
+    "mode": "pipeline",
+    "form": "gas",
+    "range": "regional",
+    "coordinates": {
+      "lat": -21.5,
+      "lon": 115.1
+    }
+  },
+  {
+    "id": "AU_pipeline_wheatstone_domgas_to_dbngp",
+    "tier": "transport",
+    "name": "Wheatstone LNG Plant Domestic Gas Offtake to DBNGP",
+    "country_iso2": "AU",
+    "operator_id": "AU_chevron_australia",
+    "mode": "pipeline",
+    "form": "gas",
+    "range": "regional",
+    "coordinates": {
+      "lat": -21.6,
+      "lon": 115.05
+    }
+  },
+  {
+    "id": "AU_pipeline_ichthys_subsea",
+    "tier": "transport",
+    "name": "Ichthys Subsea Export Pipeline (890 km) to Darwin",
+    "country_iso2": "AU",
+    "operator_id": "AU_inpex",
+    "mode": "pipeline",
+    "form": "gas",
+    "range": "regional",
+    "coordinates": {
+      "lat": -12.1,
+      "lon": 127.2
+    }
+  },
+  {
+    "id": "AU_pipeline_bayu_undan_to_darwin",
+    "tier": "transport",
+    "name": "Bayu-Undan to Darwin Pipeline",
+    "country_iso2": "AU",
+    "operator_id": "AU_santos",
+    "mode": "pipeline",
+    "form": "gas",
+    "range": "regional",
+    "coordinates": {
+      "lat": -11.3,
+      "lon": 128.9
+    }
+  },
+  {
+    "id": "AU_pipeline_cooper_to_moomba",
+    "tier": "transport",
+    "name": "Cooper Basin Gathering System to Moomba",
+    "country_iso2": "AU",
+    "operator_id": "AU_santos",
+    "mode": "pipeline",
+    "form": "gas",
+    "range": "local",
+    "coordinates": {
+      "lat": -28.05,
+      "lon": 140.2
+    }
+  },
+  {
+    "id": "AU_pipeline_glng_field_to_gladstone",
+    "tier": "transport",
+    "name": "GLNG Surat Basin to Curtis Island Pipeline",
+    "country_iso2": "AU",
+    "operator_id": "AU_santos",
+    "mode": "pipeline",
+    "form": "gas",
+    "range": "regional",
+    "coordinates": {
+      "lat": -25.1,
+      "lon": 150.6
+    }
+  },
+  {
+    "id": "AU_pipeline_aplng_field_to_gladstone",
+    "tier": "transport",
+    "name": "APLNG Main Transmission Pipeline to Curtis Island",
+    "country_iso2": "AU",
+    "operator_id": "AU_origin_energy",
+    "mode": "pipeline",
+    "form": "gas",
+    "range": "regional",
+    "coordinates": {
+      "lat": -25,
+      "lon": 150.5
+    }
+  },
+  {
+    "id": "AU_pipeline_qclng_field_to_gladstone",
+    "tier": "transport",
+    "name": "QCLNG Pipeline Surat Basin to Curtis Island",
+    "country_iso2": "AU",
+    "operator_id": "AU_shell",
+    "mode": "pipeline",
+    "form": "gas",
+    "range": "regional",
+    "coordinates": {
+      "lat": -25.15,
+      "lon": 150.65
+    }
+  },
+  {
+    "id": "AU_pipeline_bass_strait_to_longford",
+    "tier": "transport",
+    "name": "Bass Strait Subsea Pipeline to Longford",
+    "country_iso2": "AU",
+    "operator_id": "AU_exxonmobil",
+    "mode": "pipeline",
+    "form": "gas",
+    "range": "regional",
+    "coordinates": {
+      "lat": -38.5,
+      "lon": 147.7
+    }
+  },
+  {
+    "id": "AU_pipeline_otway_to_iona",
+    "tier": "transport",
+    "name": "Otway Gas Plant to Iona Pipeline",
+    "country_iso2": "AU",
+    "operator_id": "AU_beach_energy",
+    "mode": "pipeline",
+    "form": "gas",
+    "range": "local",
+    "coordinates": {
+      "lat": -38.5,
+      "lon": 142.3
+    }
+  },
+  {
+    "id": "AU_pipeline_scarborough_to_pluto",
+    "tier": "transport",
+    "name": "Scarborough Subsea Trunkline to Pluto LNG",
+    "country_iso2": "AU",
+    "operator_id": "AU_woodside_energy",
+    "mode": "pipeline",
+    "form": "gas",
+    "range": "regional",
+    "coordinates": {
+      "lat": -20.25,
+      "lon": 114.65
+    }
+  },
+  {
+    "id": "AU_road_karratha_lng_to_port",
+    "tier": "transport",
+    "name": "NWS Karratha LNG Loading Jetty",
+    "country_iso2": "AU",
+    "operator_id": "AU_woodside_energy",
+    "mode": "conveyor",
+    "form": "bulk_liquid",
+    "range": "local",
+    "coordinates": {
+      "lat": -20.73,
+      "lon": 116.78
+    }
+  },
+  {
+    "id": "AU_road_pluto_lng_to_port",
+    "tier": "transport",
+    "name": "Pluto LNG Loading Jetty",
+    "country_iso2": "AU",
+    "operator_id": "AU_woodside_energy",
+    "mode": "conveyor",
+    "form": "bulk_liquid",
+    "range": "local",
+    "coordinates": {
+      "lat": -20.72,
+      "lon": 116.78
+    }
+  },
+  {
+    "id": "AU_conveyor_gorgon_lng_to_jetty",
+    "tier": "transport",
+    "name": "Gorgon LNG Loading Jetty (Barrow Island)",
+    "country_iso2": "AU",
+    "operator_id": "AU_chevron_australia",
+    "mode": "conveyor",
+    "form": "bulk_liquid",
+    "range": "local",
+    "coordinates": {
+      "lat": -20.79,
+      "lon": 115.39
+    }
+  },
+  {
+    "id": "AU_conveyor_wheatstone_lng_to_jetty",
+    "tier": "transport",
+    "name": "Wheatstone LNG Loading Jetty (Onslow)",
+    "country_iso2": "AU",
+    "operator_id": "AU_chevron_australia",
+    "mode": "conveyor",
+    "form": "bulk_liquid",
+    "range": "local",
+    "coordinates": {
+      "lat": -21.79,
+      "lon": 114.99
+    }
+  },
+  {
+    "id": "AU_road_ichthys_lng_to_darwin_port",
+    "tier": "transport",
+    "name": "Ichthys LNG Loading Jetty (Bladin Point, Darwin)",
+    "country_iso2": "AU",
+    "operator_id": "AU_inpex",
+    "mode": "conveyor",
+    "form": "bulk_liquid",
+    "range": "local",
+    "coordinates": {
+      "lat": -12.51,
+      "lon": 130.87
+    }
+  },
+  {
+    "id": "AU_road_darwin_lng_to_port",
+    "tier": "transport",
+    "name": "Darwin LNG Loading Jetty (Wickham Point)",
+    "country_iso2": "AU",
+    "operator_id": "AU_santos",
+    "mode": "conveyor",
+    "form": "bulk_liquid",
+    "range": "local",
+    "coordinates": {
+      "lat": -12.52,
+      "lon": 130.82
+    }
+  },
+  {
+    "id": "AU_road_glng_to_gladstone_port",
+    "tier": "transport",
+    "name": "GLNG Curtis Island LNG Loading",
+    "country_iso2": "AU",
+    "operator_id": "AU_santos",
+    "mode": "conveyor",
+    "form": "bulk_liquid",
+    "range": "local",
+    "coordinates": {
+      "lat": -23.77,
+      "lon": 151.29
+    }
+  },
+  {
+    "id": "AU_road_aplng_to_gladstone_port",
+    "tier": "transport",
+    "name": "APLNG Curtis Island LNG Loading",
+    "country_iso2": "AU",
+    "operator_id": "AU_origin_energy",
+    "mode": "conveyor",
+    "form": "bulk_liquid",
+    "range": "local",
+    "coordinates": {
+      "lat": -23.78,
+      "lon": 151.28
+    }
+  },
+  {
+    "id": "AU_road_qclng_to_gladstone_port",
+    "tier": "transport",
+    "name": "QCLNG Curtis Island LNG Loading",
+    "country_iso2": "AU",
+    "operator_id": "AU_shell",
+    "mode": "conveyor",
+    "form": "bulk_liquid",
+    "range": "local",
+    "coordinates": {
+      "lat": -23.76,
+      "lon": 151.3
+    }
+  },
+  {
+    "id": "AU_pipeline_moomba_to_sydney",
+    "tier": "transport",
+    "name": "Moomba to Sydney Pipeline (MSP)",
+    "country_iso2": "AU",
+    "operator_id": "AU_apa_group",
+    "mode": "pipeline",
+    "form": "gas",
+    "range": "regional",
+    "coordinates": {
+      "lat": -31,
+      "lon": 145
+    }
+  },
+  {
+    "id": "AU_pipeline_moomba_to_adelaide",
+    "tier": "transport",
+    "name": "Moomba to Adelaide Pipeline System (MAPS)",
+    "country_iso2": "AU",
+    "operator_id": "AU_epic_energy",
+    "mode": "pipeline",
+    "form": "gas",
+    "range": "regional",
+    "coordinates": {
+      "lat": -31.5,
+      "lon": 139.5
+    }
+  },
+  {
+    "id": "AU_pipeline_longford_to_melbourne",
+    "tier": "transport",
+    "name": "Longford to Melbourne Pipeline (Eastern Gas Pipeline)",
+    "country_iso2": "AU",
+    "operator_id": "AU_apa_group",
+    "mode": "pipeline",
+    "form": "gas",
+    "range": "regional",
+    "coordinates": {
+      "lat": -38.1,
+      "lon": 146
+    }
+  },
+  {
+    "id": "AU_pipeline_otway_to_melbourne",
+    "tier": "transport",
+    "name": "South West Pipeline (Iona to Melbourne)",
+    "country_iso2": "AU",
+    "operator_id": "AU_apa_group",
+    "mode": "pipeline",
+    "form": "gas",
+    "range": "regional",
+    "coordinates": {
+      "lat": -38,
+      "lon": 143.5
+    }
+  },
+  {
+    "id": "AU_pipeline_aplng_to_wallumbilla",
+    "tier": "transport",
+    "name": "APLNG Wallumbilla Domestic Gas Offtake",
+    "country_iso2": "AU",
+    "operator_id": "AU_origin_energy",
+    "mode": "pipeline",
+    "form": "gas",
+    "range": "local",
+    "coordinates": {
+      "lat": -26.58,
+      "lon": 149.17
+    }
+  },
+  {
+    "id": "AU_pipeline_dbngp_to_perth",
+    "tier": "transport",
+    "name": "DBNGP Southern Section to Perth Metro",
+    "country_iso2": "AU",
+    "operator_id": "AU_agig",
+    "mode": "pipeline",
+    "form": "gas",
+    "range": "regional",
+    "coordinates": {
+      "lat": -29,
+      "lon": 115.5
+    }
+  },
+  {
+    "id": "AU_pipeline_apa_to_sydney",
+    "tier": "transport",
+    "name": "APA NSW Gas Transmission to Sydney",
+    "country_iso2": "AU",
+    "operator_id": "AU_apa_group",
+    "mode": "pipeline",
+    "form": "gas",
+    "range": "regional",
+    "coordinates": {
+      "lat": -33.5,
+      "lon": 150
+    }
+  },
+  {
+    "id": "AU_pipeline_apa_to_brisbane",
+    "tier": "transport",
+    "name": "APA Queensland Gas Transmission to Brisbane",
+    "country_iso2": "AU",
+    "operator_id": "AU_apa_group",
+    "mode": "pipeline",
+    "form": "gas",
+    "range": "regional",
+    "coordinates": {
+      "lat": -27.5,
+      "lon": 152
+    }
+  },
+  {
+    "id": "AU_pipeline_apa_to_melbourne",
+    "tier": "transport",
+    "name": "APA Victorian Gas Transmission to Melbourne",
+    "country_iso2": "AU",
+    "operator_id": "AU_apa_group",
+    "mode": "pipeline",
+    "form": "gas",
+    "range": "regional",
+    "coordinates": {
+      "lat": -37.5,
+      "lon": 145.5
+    }
+  },
+  {
+    "id": "AU_pipeline_apa_to_adelaide",
+    "tier": "transport",
+    "name": "APA / SEA Gas Pipeline to Adelaide",
+    "country_iso2": "AU",
+    "operator_id": "AU_apa_group",
+    "mode": "pipeline",
+    "form": "gas",
+    "range": "regional",
+    "coordinates": {
+      "lat": -36,
+      "lon": 140
+    }
+  },
+  {
+    "id": "AU_pipeline_origin_qld_distribution",
+    "tier": "transport",
+    "name": "Origin Energy Queensland Gas Distribution Network",
+    "country_iso2": "AU",
+    "operator_id": "AU_origin_energy",
+    "mode": "pipeline",
+    "form": "gas",
+    "range": "regional",
+    "coordinates": {
+      "lat": -27.47,
+      "lon": 153.02
+    }
+  },
+  {
+    "id": "AU_pipeline_agl_sydney_reticulation",
+    "tier": "transport",
+    "name": "Jemena / AGL Sydney Gas Reticulation",
+    "country_iso2": "AU",
+    "operator_id": "AU_jemena",
+    "mode": "pipeline",
+    "form": "gas",
+    "range": "local",
+    "coordinates": {
+      "lat": -33.87,
+      "lon": 151.21
+    }
+  },
+  {
+    "id": "AU_pipeline_origin_qld_reticulation",
+    "tier": "transport",
+    "name": "Origin Energy QLD Gas Reticulation",
+    "country_iso2": "AU",
+    "operator_id": "AU_apn_energex",
+    "mode": "pipeline",
+    "form": "gas",
+    "range": "local",
+    "coordinates": {
+      "lat": -27.47,
+      "lon": 153.02
+    }
+  },
+  {
+    "id": "AU_pipeline_ea_melbourne_reticulation",
+    "tier": "transport",
+    "name": "Australian Gas Networks Melbourne Reticulation",
+    "country_iso2": "AU",
+    "operator_id": "AU_agig",
+    "mode": "pipeline",
+    "form": "gas",
+    "range": "local",
+    "coordinates": {
+      "lat": -37.81,
+      "lon": 144.96
+    }
+  },
+  {
+    "id": "AU_pipeline_agn_adelaide_reticulation",
+    "tier": "transport",
+    "name": "Australian Gas Networks Adelaide Reticulation",
+    "country_iso2": "AU",
+    "operator_id": "AU_agig",
+    "mode": "pipeline",
+    "form": "gas",
+    "range": "local",
+    "coordinates": {
+      "lat": -34.93,
+      "lon": 138.6
+    }
+  },
+  {
+    "id": "AU_pipeline_alinta_perth_reticulation",
+    "tier": "transport",
+    "name": "ATCO / Alinta Perth Gas Reticulation",
+    "country_iso2": "AU",
+    "operator_id": "AU_atco",
+    "mode": "pipeline",
+    "form": "gas",
+    "range": "local",
+    "coordinates": {
+      "lat": -31.95,
+      "lon": 115.86
+    }
+  },
+  {
+    "id": "AU_pipeline_atco_perth_reticulation",
+    "tier": "transport",
+    "name": "ATCO Perth Metro Gas Distribution",
+    "country_iso2": "AU",
+    "operator_id": "AU_atco",
+    "mode": "pipeline",
+    "form": "gas",
+    "range": "local",
+    "coordinates": {
+      "lat": -31.95,
+      "lon": 115.86
+    }
+  },
+  {
+    "id": "AU_electrical_grid_swis",
+    "tier": "transport",
+    "name": "South West Interconnected System (SWIS) Electrical Grid",
+    "country_iso2": "AU",
+    "operator_id": "AU_western_power",
+    "mode": "electrical_grid",
+    "form": "electrical",
+    "range": "regional",
+    "coordinates": {
+      "lat": -31.95,
+      "lon": 115.86
+    }
+  },
+  {
+    "id": "INTL_ocean_karratha_tokyo",
+    "tier": "transport",
+    "name": "LNG Shipping Route: Karratha → Tokyo Bay",
+    "country_iso2": "INTL",
+    "operator_id": "INTL_misc_lng_carriers",
+    "mode": "ocean_freight",
+    "form": "bulk_liquid",
+    "range": "international",
+    "coordinates": {
+      "lat": -5,
+      "lon": 125
+    }
+  },
+  {
+    "id": "INTL_ocean_karratha_guangdong",
+    "tier": "transport",
+    "name": "LNG Shipping Route: Karratha → Guangdong",
+    "country_iso2": "INTL",
+    "operator_id": "INTL_misc_lng_carriers",
+    "mode": "ocean_freight",
+    "form": "bulk_liquid",
+    "range": "international",
+    "coordinates": {
+      "lat": -2,
+      "lon": 115
+    }
+  },
+  {
+    "id": "INTL_ocean_karratha_incheon",
+    "tier": "transport",
+    "name": "LNG Shipping Route: Karratha → Incheon",
+    "country_iso2": "INTL",
+    "operator_id": "INTL_misc_lng_carriers",
+    "mode": "ocean_freight",
+    "form": "bulk_liquid",
+    "range": "international",
+    "coordinates": {
+      "lat": 5,
+      "lon": 120
+    }
+  },
+  {
+    "id": "INTL_ocean_karratha_taichung",
+    "tier": "transport",
+    "name": "LNG Shipping Route: Karratha → Taichung",
+    "country_iso2": "INTL",
+    "operator_id": "INTL_misc_lng_carriers",
+    "mode": "ocean_freight",
+    "form": "bulk_liquid",
+    "range": "international",
+    "coordinates": {
+      "lat": 2,
+      "lon": 118
+    }
+  },
+  {
+    "id": "INTL_ocean_barrow_island_tokyo",
+    "tier": "transport",
+    "name": "LNG Shipping Route: Barrow Island → Tokyo Bay",
+    "country_iso2": "INTL",
+    "operator_id": "INTL_misc_lng_carriers",
+    "mode": "ocean_freight",
+    "form": "bulk_liquid",
+    "range": "international",
+    "coordinates": {
+      "lat": -5,
+      "lon": 125
+    }
+  },
+  {
+    "id": "INTL_ocean_barrow_island_guangdong",
+    "tier": "transport",
+    "name": "LNG Shipping Route: Barrow Island → Guangdong",
+    "country_iso2": "INTL",
+    "operator_id": "INTL_misc_lng_carriers",
+    "mode": "ocean_freight",
+    "form": "bulk_liquid",
+    "range": "international",
+    "coordinates": {
+      "lat": -2,
+      "lon": 115
+    }
+  },
+  {
+    "id": "INTL_ocean_barrow_island_incheon",
+    "tier": "transport",
+    "name": "LNG Shipping Route: Barrow Island → Incheon",
+    "country_iso2": "INTL",
+    "operator_id": "INTL_misc_lng_carriers",
+    "mode": "ocean_freight",
+    "form": "bulk_liquid",
+    "range": "international",
+    "coordinates": {
+      "lat": 5,
+      "lon": 120
+    }
+  },
+  {
+    "id": "INTL_ocean_barrow_island_dahej",
+    "tier": "transport",
+    "name": "LNG Shipping Route: Barrow Island → Dahej (India)",
+    "country_iso2": "INTL",
+    "operator_id": "INTL_misc_lng_carriers",
+    "mode": "ocean_freight",
+    "form": "bulk_liquid",
+    "range": "international",
+    "coordinates": {
+      "lat": -5,
+      "lon": 90
+    }
+  },
+  {
+    "id": "INTL_ocean_onslow_taichung",
+    "tier": "transport",
+    "name": "LNG Shipping Route: Onslow → Taichung",
+    "country_iso2": "INTL",
+    "operator_id": "INTL_misc_lng_carriers",
+    "mode": "ocean_freight",
+    "form": "bulk_liquid",
+    "range": "international",
+    "coordinates": {
+      "lat": 2,
+      "lon": 118
+    }
+  },
+  {
+    "id": "INTL_ocean_darwin_tokyo",
+    "tier": "transport",
+    "name": "LNG Shipping Route: Darwin → Tokyo Bay",
+    "country_iso2": "INTL",
+    "operator_id": "INTL_misc_lng_carriers",
+    "mode": "ocean_freight",
+    "form": "bulk_liquid",
+    "range": "international",
+    "coordinates": {
+      "lat": 0,
+      "lon": 130
+    }
+  },
+  {
+    "id": "INTL_ocean_darwin_guangdong",
+    "tier": "transport",
+    "name": "LNG Shipping Route: Darwin → Guangdong",
+    "country_iso2": "INTL",
+    "operator_id": "INTL_misc_lng_carriers",
+    "mode": "ocean_freight",
+    "form": "bulk_liquid",
+    "range": "international",
+    "coordinates": {
+      "lat": -2,
+      "lon": 125
+    }
+  },
+  {
+    "id": "INTL_ocean_gladstone_tokyo",
+    "tier": "transport",
+    "name": "LNG Shipping Route: Gladstone → Tokyo Bay",
+    "country_iso2": "INTL",
+    "operator_id": "INTL_misc_lng_carriers",
+    "mode": "ocean_freight",
+    "form": "bulk_liquid",
+    "range": "international",
+    "coordinates": {
+      "lat": -5,
+      "lon": 155
+    }
+  },
+  {
+    "id": "INTL_ocean_gladstone_guangdong",
+    "tier": "transport",
+    "name": "LNG Shipping Route: Gladstone → Guangdong",
+    "country_iso2": "INTL",
+    "operator_id": "INTL_misc_lng_carriers",
+    "mode": "ocean_freight",
+    "form": "bulk_liquid",
+    "range": "international",
+    "coordinates": {
+      "lat": -5,
+      "lon": 145
+    }
+  },
+  {
+    "id": "INTL_ocean_gladstone_incheon",
+    "tier": "transport",
+    "name": "LNG Shipping Route: Gladstone → Incheon",
+    "country_iso2": "INTL",
+    "operator_id": "INTL_misc_lng_carriers",
+    "mode": "ocean_freight",
+    "form": "bulk_liquid",
+    "range": "international",
+    "coordinates": {
+      "lat": 5,
+      "lon": 145
+    }
+  },
+  {
+    "id": "INTL_ocean_gladstone_qingdao",
+    "tier": "transport",
+    "name": "LNG Shipping Route: Gladstone → Qingdao",
+    "country_iso2": "INTL",
+    "operator_id": "INTL_misc_lng_carriers",
+    "mode": "ocean_freight",
+    "form": "bulk_liquid",
+    "range": "international",
+    "coordinates": {
+      "lat": 5,
+      "lon": 140
+    }
+  },
+  {
+    "id": "INTL_ocean_gladstone_shenzhen",
+    "tier": "transport",
+    "name": "LNG Shipping Route: Gladstone → Shenzhen/Dapeng",
+    "country_iso2": "INTL",
+    "operator_id": "INTL_misc_lng_carriers",
+    "mode": "ocean_freight",
+    "form": "bulk_liquid",
+    "range": "international",
+    "coordinates": {
+      "lat": -5,
+      "lon": 140
+    }
+  },
+  {
+    "id": "INTL_ocean_gladstone_bintulu",
+    "tier": "transport",
+    "name": "LNG Shipping Route: Gladstone → Bintulu",
+    "country_iso2": "INTL",
+    "operator_id": "INTL_misc_lng_carriers",
+    "mode": "ocean_freight",
+    "form": "bulk_liquid",
+    "range": "international",
+    "coordinates": {
+      "lat": -10,
+      "lon": 145
+    }
+  },
+  {
+    "id": "JP_pipeline_jera_kanto_distribution",
+    "tier": "transport",
+    "name": "JERA Kanto Region Gas/Power Distribution",
+    "country_iso2": "JP",
+    "operator_id": "JP_jera",
+    "mode": "pipeline",
+    "form": "gas",
+    "range": "regional",
+    "coordinates": {
+      "lat": 35.45,
+      "lon": 139.64
+    }
+  },
+  {
+    "id": "CN_pipeline_cnooc_south_china_distribution",
+    "tier": "transport",
+    "name": "CNOOC South China Gas Pipeline Distribution",
+    "country_iso2": "CN",
+    "operator_id": "CN_cnooc",
+    "mode": "pipeline",
+    "form": "gas",
+    "range": "regional",
+    "coordinates": {
+      "lat": 22.72,
+      "lon": 114.5
+    }
+  },
+  {
+    "id": "CN_pipeline_sinopec_east_china_distribution",
+    "tier": "transport",
+    "name": "Sinopec East China Gas Pipeline Distribution",
+    "country_iso2": "CN",
+    "operator_id": "CN_sinopec",
+    "mode": "pipeline",
+    "form": "gas",
+    "range": "regional",
+    "coordinates": {
+      "lat": 36.07,
+      "lon": 120.38
+    }
+  },
+  {
+    "id": "KR_pipeline_kogas_national_grid",
+    "tier": "transport",
+    "name": "KOGAS National Gas Pipeline Grid",
+    "country_iso2": "KR",
+    "operator_id": "KR_kogas",
+    "mode": "pipeline",
+    "form": "gas",
+    "range": "regional",
+    "coordinates": {
+      "lat": 37.4,
+      "lon": 126.66
+    }
+  },
+  {
+    "id": "TW_pipeline_cpc_west_coast_distribution",
+    "tier": "transport",
+    "name": "CPC Taiwan West Coast Gas Distribution",
+    "country_iso2": "TW",
+    "operator_id": "TW_cpc",
+    "mode": "pipeline",
+    "form": "gas",
+    "range": "regional",
+    "coordinates": {
+      "lat": 24.28,
+      "lon": 120.53
+    }
+  },
+  {
+    "id": "IN_pipeline_petronet_dahej_distribution",
+    "tier": "transport",
+    "name": "Petronet Dahej Gas Distribution Pipeline",
+    "country_iso2": "IN",
+    "operator_id": "IN_petronet_lng",
+    "mode": "pipeline",
+    "form": "gas",
+    "range": "regional",
+    "coordinates": {
+      "lat": 21.67,
+      "lon": 72.58
+    }
+  },
+  {
+    "id": "MY_pipeline_petronas_sarawak_distribution",
+    "tier": "transport",
+    "name": "Petronas Sarawak Gas Distribution",
+    "country_iso2": "MY",
+    "operator_id": "MY_petronas",
+    "mode": "pipeline",
+    "form": "gas",
+    "range": "regional",
+    "coordinates": {
+      "lat": 3.17,
+      "lon": 113.03
+    }
+  }
+]

@@ -1,0 +1,2788 @@
+[
+  {
+    "id": "AU_bhp_mt_arthur",
+    "name": "Mt Arthur Coal Mine",
+    "tier": "extraction",
+    "country_iso2": "AU",
+    "canonical_company": "BHP",
+    "coordinates": {
+      "lat": -32.33,
+      "lon": 150.87
+    },
+    "downstream": [
+      {
+        "target_id": "AU_port_of_newcastle",
+        "corridor_id": "AU_rail_hunter-valley-newcastle",
+        "resource": "thermal coal",
+        "quantity": 12000000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_agl_energy",
+        "corridor_id": "AU_rail_hunter-valley-local",
+        "resource": "thermal coal",
+        "quantity": 2000000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_bhp_coal_nsw_management",
+        "corridor_id": "AU_rail_hunter-valley-newcastle",
+        "resource": "thermal coal bearing overburden and ore",
+        "quantity": 14000000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Coal",
+      "Mineral-Bearing Land"
+    ]
+  },
+  {
+    "id": "AU_glencore_hunter_valley_operations",
+    "name": "Hunter Valley Operations (Glencore)",
+    "tier": "extraction",
+    "country_iso2": "AU",
+    "canonical_company": "Glencore",
+    "coordinates": {
+      "lat": -32.37,
+      "lon": 150.92
+    },
+    "downstream": [
+      {
+        "target_id": "AU_port_of_newcastle",
+        "corridor_id": "AU_rail_hunter-valley-newcastle",
+        "resource": "thermal coal",
+        "quantity": 14000000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Coal"
+    ]
+  },
+  {
+    "id": "AU_glencore_mangoola",
+    "name": "Mangoola Coal Mine (Glencore)",
+    "tier": "extraction",
+    "country_iso2": "AU",
+    "canonical_company": "Glencore",
+    "coordinates": {
+      "lat": -32.17,
+      "lon": 150.72
+    },
+    "downstream": [
+      {
+        "target_id": "AU_port_of_newcastle",
+        "corridor_id": "AU_rail_hunter-valley-newcastle",
+        "resource": "thermal coal",
+        "quantity": 10000000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Coal"
+    ]
+  },
+  {
+    "id": "AU_glencore_mount_owen",
+    "name": "Mount Owen Coal Mine (Glencore)",
+    "tier": "extraction",
+    "country_iso2": "AU",
+    "canonical_company": "Glencore",
+    "coordinates": {
+      "lat": -32.4,
+      "lon": 151.07
+    },
+    "downstream": [
+      {
+        "target_id": "AU_port_of_newcastle",
+        "corridor_id": "AU_rail_hunter-valley-newcastle",
+        "resource": "semi-soft coking coal and thermal coal",
+        "quantity": 7000000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Coal"
+    ]
+  },
+  {
+    "id": "AU_glencore_ravensworth",
+    "name": "Ravensworth Coal Mine (Glencore)",
+    "tier": "extraction",
+    "country_iso2": "AU",
+    "canonical_company": "Glencore",
+    "coordinates": {
+      "lat": -32.41,
+      "lon": 151.06
+    },
+    "downstream": [
+      {
+        "target_id": "AU_port_of_newcastle",
+        "corridor_id": "AU_rail_hunter-valley-newcastle",
+        "resource": "thermal coal",
+        "quantity": 5000000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Coal"
+    ]
+  },
+  {
+    "id": "AU_glencore_ulan",
+    "name": "Ulan Coal Mine (Glencore)",
+    "tier": "extraction",
+    "country_iso2": "AU",
+    "canonical_company": "Glencore",
+    "coordinates": {
+      "lat": -32.28,
+      "lon": 149.72
+    },
+    "downstream": [
+      {
+        "target_id": "AU_port_of_newcastle",
+        "corridor_id": "AU_rail_hunter-valley-newcastle",
+        "resource": "thermal coal",
+        "quantity": 7000000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Coal"
+    ]
+  },
+  {
+    "id": "AU_yancoal_moolarben",
+    "name": "Moolarben Coal Mine (Yancoal)",
+    "tier": "extraction",
+    "country_iso2": "AU",
+    "canonical_company": "Yancoal",
+    "coordinates": {
+      "lat": -32.27,
+      "lon": 149.77
+    },
+    "downstream": [
+      {
+        "target_id": "AU_port_of_newcastle",
+        "corridor_id": "AU_rail_hunter-valley-newcastle",
+        "resource": "thermal coal",
+        "quantity": 17000000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Coal"
+    ]
+  },
+  {
+    "id": "AU_yancoal_mt_thorley_warkworth",
+    "name": "Mount Thorley Warkworth Coal Mine (Yancoal)",
+    "tier": "extraction",
+    "country_iso2": "AU",
+    "canonical_company": "Yancoal",
+    "coordinates": {
+      "lat": -32.55,
+      "lon": 151.1
+    },
+    "downstream": [
+      {
+        "target_id": "AU_port_of_newcastle",
+        "corridor_id": "AU_rail_hunter-valley-newcastle",
+        "resource": "thermal coal and semi-soft coking coal",
+        "quantity": 12000000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Coal"
+    ]
+  },
+  {
+    "id": "AU_whitehaven_maules_creek",
+    "name": "Maules Creek Coal Mine (Whitehaven)",
+    "tier": "extraction",
+    "country_iso2": "AU",
+    "canonical_company": "Whitehaven Coal",
+    "coordinates": {
+      "lat": -30.53,
+      "lon": 149.97
+    },
+    "downstream": [
+      {
+        "target_id": "AU_port_of_newcastle",
+        "corridor_id": "AU_rail_gunnedah-newcastle",
+        "resource": "high-CV thermal coal",
+        "quantity": 10000000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_whitehaven_coal_management",
+        "corridor_id": "AU_rail_gunnedah-newcastle",
+        "resource": "high-quality thermal/metallurgical coal bearing material",
+        "quantity": 13000000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Coal",
+      "Mineral-Bearing Land"
+    ]
+  },
+  {
+    "id": "AU_whitehaven_narrabri",
+    "name": "Narrabri Underground Coal Mine (Whitehaven)",
+    "tier": "extraction",
+    "country_iso2": "AU",
+    "canonical_company": "Whitehaven Coal",
+    "coordinates": {
+      "lat": -30.47,
+      "lon": 149.82
+    },
+    "downstream": [
+      {
+        "target_id": "AU_port_of_newcastle",
+        "corridor_id": "AU_rail_gunnedah-newcastle",
+        "resource": "thermal coal",
+        "quantity": 5000000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Coal"
+    ]
+  },
+  {
+    "id": "AU_whitehaven_vickery",
+    "name": "Vickery Extension Project (Whitehaven)",
+    "tier": "extraction",
+    "country_iso2": "AU",
+    "canonical_company": "Whitehaven Coal",
+    "coordinates": {
+      "lat": -30.55,
+      "lon": 150.02
+    },
+    "downstream": [
+      {
+        "target_id": "AU_port_of_newcastle",
+        "corridor_id": "AU_rail_gunnedah-newcastle",
+        "resource": "thermal coal",
+        "quantity": 3000000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Coal"
+    ]
+  },
+  {
+    "id": "AU_bhp_mt_pleasant",
+    "name": "Mt Pleasant Coal Mine (MACH Energy / BHP JV)",
+    "tier": "extraction",
+    "country_iso2": "AU",
+    "canonical_company": "MACH Energy",
+    "coordinates": {
+      "lat": -32.25,
+      "lon": 150.8
+    },
+    "downstream": [
+      {
+        "target_id": "AU_port_of_newcastle",
+        "corridor_id": "AU_rail_hunter-valley-newcastle",
+        "resource": "thermal coal",
+        "quantity": 10500000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Coal"
+    ]
+  },
+  {
+    "id": "AU_bhp_broadmeadow",
+    "name": "BHP Mitsubishi Alliance – Broadmeadow Mine",
+    "tier": "extraction",
+    "country_iso2": "AU",
+    "canonical_company": "BHP Mitsubishi Alliance",
+    "coordinates": {
+      "lat": -21.85,
+      "lon": 148.2
+    },
+    "downstream": [
+      {
+        "target_id": "AU_dalrymple_bay_coal_terminal",
+        "corridor_id": "AU_rail_bowen-basin-dbct",
+        "resource": "hard coking coal",
+        "quantity": 5000000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Coal"
+    ]
+  },
+  {
+    "id": "AU_bma_goonyella_riverside",
+    "name": "Goonyella Riverside Mine (BMA)",
+    "tier": "extraction",
+    "country_iso2": "AU",
+    "canonical_company": "BHP Mitsubishi Alliance",
+    "coordinates": {
+      "lat": -21.79,
+      "lon": 148.11
+    },
+    "downstream": [
+      {
+        "target_id": "AU_dalrymple_bay_coal_terminal",
+        "corridor_id": "AU_rail_bowen-basin-dbct",
+        "resource": "hard coking coal",
+        "quantity": 13000000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Coal"
+    ]
+  },
+  {
+    "id": "AU_bma_peak_downs",
+    "name": "Peak Downs Mine (BMA)",
+    "tier": "extraction",
+    "country_iso2": "AU",
+    "canonical_company": "BHP Mitsubishi Alliance",
+    "coordinates": {
+      "lat": -22.17,
+      "lon": 148.18
+    },
+    "downstream": [
+      {
+        "target_id": "AU_dalrymple_bay_coal_terminal",
+        "corridor_id": "AU_rail_bowen-basin-dbct",
+        "resource": "hard coking coal",
+        "quantity": 10000000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Coal"
+    ]
+  },
+  {
+    "id": "AU_bma_saraji",
+    "name": "Saraji Mine (BMA)",
+    "tier": "extraction",
+    "country_iso2": "AU",
+    "canonical_company": "BHP Mitsubishi Alliance",
+    "coordinates": {
+      "lat": -22.44,
+      "lon": 148.23
+    },
+    "downstream": [
+      {
+        "target_id": "AU_dalrymple_bay_coal_terminal",
+        "corridor_id": "AU_rail_bowen-basin-dbct",
+        "resource": "hard coking coal",
+        "quantity": 8000000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Coal"
+    ]
+  },
+  {
+    "id": "AU_bma_caval_ridge",
+    "name": "Caval Ridge Mine (BMA)",
+    "tier": "extraction",
+    "country_iso2": "AU",
+    "canonical_company": "BHP Mitsubishi Alliance",
+    "coordinates": {
+      "lat": -22.05,
+      "lon": 148.12
+    },
+    "downstream": [
+      {
+        "target_id": "AU_dalrymple_bay_coal_terminal",
+        "corridor_id": "AU_rail_bowen-basin-dbct",
+        "resource": "pulverised coal injection (PCI) coal",
+        "quantity": 6000000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Coal"
+    ]
+  },
+  {
+    "id": "AU_bma_daunia",
+    "name": "Daunia Mine (BMA)",
+    "tier": "extraction",
+    "country_iso2": "AU",
+    "canonical_company": "BHP Mitsubishi Alliance",
+    "coordinates": {
+      "lat": -22.02,
+      "lon": 148.22
+    },
+    "downstream": [
+      {
+        "target_id": "AU_dalrymple_bay_coal_terminal",
+        "corridor_id": "AU_rail_bowen-basin-dbct",
+        "resource": "hard coking coal",
+        "quantity": 4500000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Coal"
+    ]
+  },
+  {
+    "id": "AU_bma_blackwater",
+    "name": "Blackwater Mine (BMA)",
+    "tier": "extraction",
+    "country_iso2": "AU",
+    "canonical_company": "BHP Mitsubishi Alliance",
+    "coordinates": {
+      "lat": -23.46,
+      "lon": 148.89
+    },
+    "downstream": [
+      {
+        "target_id": "AU_rg_tanna_coal_terminal",
+        "corridor_id": "AU_rail_blackwater-gladstone",
+        "resource": "hard coking coal and thermal coal",
+        "quantity": 9000000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Coal"
+    ]
+  },
+  {
+    "id": "AU_anglo_american_moranbah_north",
+    "name": "Moranbah North Mine (Anglo American)",
+    "tier": "extraction",
+    "country_iso2": "AU",
+    "canonical_company": "Anglo American",
+    "coordinates": {
+      "lat": -21.93,
+      "lon": 148.11
+    },
+    "downstream": [
+      {
+        "target_id": "AU_dalrymple_bay_coal_terminal",
+        "corridor_id": "AU_rail_bowen-basin-dbct",
+        "resource": "hard coking coal",
+        "quantity": 5500000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Coal"
+    ]
+  },
+  {
+    "id": "AU_anglo_american_grosvenor",
+    "name": "Grosvenor Mine (Anglo American)",
+    "tier": "extraction",
+    "country_iso2": "AU",
+    "canonical_company": "Anglo American",
+    "coordinates": {
+      "lat": -21.93,
+      "lon": 148.16
+    },
+    "downstream": [
+      {
+        "target_id": "AU_dalrymple_bay_coal_terminal",
+        "corridor_id": "AU_rail_bowen-basin-dbct",
+        "resource": "hard coking coal",
+        "quantity": 4000000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Coal"
+    ]
+  },
+  {
+    "id": "AU_anglo_american_aquila",
+    "name": "Aquila Mine (Anglo American)",
+    "tier": "extraction",
+    "country_iso2": "AU",
+    "canonical_company": "Anglo American",
+    "coordinates": {
+      "lat": -22.34,
+      "lon": 148.31
+    },
+    "downstream": [
+      {
+        "target_id": "AU_dalrymple_bay_coal_terminal",
+        "corridor_id": "AU_rail_bowen-basin-dbct",
+        "resource": "hard coking coal",
+        "quantity": 3500000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Coal"
+    ]
+  },
+  {
+    "id": "AU_anglo_american_capcoal",
+    "name": "Capcoal (Grasstree & Aquila complex, Anglo American)",
+    "tier": "extraction",
+    "country_iso2": "AU",
+    "canonical_company": "Anglo American",
+    "coordinates": {
+      "lat": -23.1,
+      "lon": 148.5
+    },
+    "downstream": [
+      {
+        "target_id": "AU_dalrymple_bay_coal_terminal",
+        "corridor_id": "AU_rail_bowen-basin-dbct",
+        "resource": "hard coking coal",
+        "quantity": 3000000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Coal"
+    ]
+  },
+  {
+    "id": "AU_glencore_collinsville",
+    "name": "Collinsville Coal Mine (Glencore)",
+    "tier": "extraction",
+    "country_iso2": "AU",
+    "canonical_company": "Glencore",
+    "coordinates": {
+      "lat": -20.55,
+      "lon": 147.85
+    },
+    "downstream": [
+      {
+        "target_id": "AU_abbot_point_coal_terminal",
+        "corridor_id": "AU_rail_collinsville-abbot-point",
+        "resource": "thermal coal",
+        "quantity": 3000000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Coal"
+    ]
+  },
+  {
+    "id": "AU_glencore_hail_creek",
+    "name": "Hail Creek Mine (Glencore)",
+    "tier": "extraction",
+    "country_iso2": "AU",
+    "canonical_company": "Glencore",
+    "coordinates": {
+      "lat": -21.52,
+      "lon": 148.37
+    },
+    "downstream": [
+      {
+        "target_id": "AU_dalrymple_bay_coal_terminal",
+        "corridor_id": "AU_rail_bowen-basin-dbct",
+        "resource": "hard coking coal and thermal coal",
+        "quantity": 8000000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Coal"
+    ]
+  },
+  {
+    "id": "AU_glencore_oaky_creek",
+    "name": "Oaky Creek Mine (Glencore)",
+    "tier": "extraction",
+    "country_iso2": "AU",
+    "canonical_company": "Glencore",
+    "coordinates": {
+      "lat": -22.07,
+      "lon": 148.33
+    },
+    "downstream": [
+      {
+        "target_id": "AU_dalrymple_bay_coal_terminal",
+        "corridor_id": "AU_rail_bowen-basin-dbct",
+        "resource": "hard coking coal",
+        "quantity": 5000000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Coal"
+    ]
+  },
+  {
+    "id": "AU_glencore_rolleston",
+    "name": "Rolleston Coal Mine (Glencore)",
+    "tier": "extraction",
+    "country_iso2": "AU",
+    "canonical_company": "Glencore",
+    "coordinates": {
+      "lat": -24.37,
+      "lon": 148.62
+    },
+    "downstream": [
+      {
+        "target_id": "AU_rg_tanna_coal_terminal",
+        "corridor_id": "AU_rail_blackwater-gladstone",
+        "resource": "thermal coal",
+        "quantity": 9000000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Coal"
+    ]
+  },
+  {
+    "id": "AU_glencore_curragh",
+    "name": "Curragh Coal Mine (Coronado Global Resources)",
+    "tier": "extraction",
+    "country_iso2": "AU",
+    "canonical_company": "Coronado Global Resources",
+    "coordinates": {
+      "lat": -23.46,
+      "lon": 148.93
+    },
+    "downstream": [
+      {
+        "target_id": "AU_rg_tanna_coal_terminal",
+        "corridor_id": "AU_rail_blackwater-gladstone",
+        "resource": "metallurgical coal and thermal coal",
+        "quantity": 12000000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Coal"
+    ]
+  },
+  {
+    "id": "AU_new_hope_new_acland",
+    "name": "New Acland Coal Mine (New Hope Group)",
+    "tier": "extraction",
+    "country_iso2": "AU",
+    "canonical_company": "New Hope Group",
+    "coordinates": {
+      "lat": -27.32,
+      "lon": 151.73
+    },
+    "downstream": [
+      {
+        "target_id": "AU_port_of_brisbane_coal",
+        "corridor_id": "AU_rail_darling-downs-brisbane",
+        "resource": "thermal coal",
+        "quantity": 5000000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Coal"
+    ]
+  },
+  {
+    "id": "AU_new_hope_bengalla",
+    "name": "Bengalla Coal Mine (New Hope Group)",
+    "tier": "extraction",
+    "country_iso2": "AU",
+    "canonical_company": "New Hope Group",
+    "coordinates": {
+      "lat": -32.35,
+      "lon": 150.85
+    },
+    "downstream": [
+      {
+        "target_id": "AU_port_of_newcastle",
+        "corridor_id": "AU_rail_hunter-valley-newcastle",
+        "resource": "thermal coal",
+        "quantity": 12000000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Coal"
+    ]
+  },
+  {
+    "id": "AU_peabody_wambo",
+    "name": "Wambo Coal Mine (Peabody Energy)",
+    "tier": "extraction",
+    "country_iso2": "AU",
+    "canonical_company": "Peabody Energy",
+    "coordinates": {
+      "lat": -32.5,
+      "lon": 151.05
+    },
+    "downstream": [
+      {
+        "target_id": "AU_port_of_newcastle",
+        "corridor_id": "AU_rail_hunter-valley-newcastle",
+        "resource": "thermal coal",
+        "quantity": 6000000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Coal"
+    ]
+  },
+  {
+    "id": "AU_peabody_coppabella",
+    "name": "Coppabella Mine (Peabody Energy)",
+    "tier": "extraction",
+    "country_iso2": "AU",
+    "canonical_company": "Peabody Energy",
+    "coordinates": {
+      "lat": -21.82,
+      "lon": 148.38
+    },
+    "downstream": [
+      {
+        "target_id": "AU_dalrymple_bay_coal_terminal",
+        "corridor_id": "AU_rail_bowen-basin-dbct",
+        "resource": "PCI coal",
+        "quantity": 4000000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Coal"
+    ]
+  },
+  {
+    "id": "AU_peabody_moorvale",
+    "name": "Moorvale Mine (Peabody Energy)",
+    "tier": "extraction",
+    "country_iso2": "AU",
+    "canonical_company": "Peabody Energy",
+    "coordinates": {
+      "lat": -21.87,
+      "lon": 148.37
+    },
+    "downstream": [
+      {
+        "target_id": "AU_dalrymple_bay_coal_terminal",
+        "corridor_id": "AU_rail_bowen-basin-dbct",
+        "resource": "PCI coal",
+        "quantity": 2500000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Coal"
+    ]
+  },
+  {
+    "id": "AU_stanmore_south_walker_creek",
+    "name": "South Walker Creek Mine (Stanmore Resources)",
+    "tier": "extraction",
+    "country_iso2": "AU",
+    "canonical_company": "Stanmore Resources",
+    "coordinates": {
+      "lat": -22.15,
+      "lon": 148.47
+    },
+    "downstream": [
+      {
+        "target_id": "AU_dalrymple_bay_coal_terminal",
+        "corridor_id": "AU_rail_bowen-basin-dbct",
+        "resource": "hard coking coal",
+        "quantity": 6500000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Coal"
+    ]
+  },
+  {
+    "id": "AU_stanmore_poitrel",
+    "name": "Poitrel Mine (Stanmore Resources)",
+    "tier": "extraction",
+    "country_iso2": "AU",
+    "canonical_company": "Stanmore Resources",
+    "coordinates": {
+      "lat": -22.05,
+      "lon": 148.45
+    },
+    "downstream": [
+      {
+        "target_id": "AU_dalrymple_bay_coal_terminal",
+        "corridor_id": "AU_rail_bowen-basin-dbct",
+        "resource": "hard coking coal",
+        "quantity": 4500000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Coal"
+    ]
+  },
+  {
+    "id": "AU_idemitsu_ensham",
+    "name": "Ensham Mine (Idemitsu)",
+    "tier": "extraction",
+    "country_iso2": "AU",
+    "canonical_company": "Idemitsu",
+    "coordinates": {
+      "lat": -23.38,
+      "lon": 148.28
+    },
+    "downstream": [
+      {
+        "target_id": "AU_rg_tanna_coal_terminal",
+        "corridor_id": "AU_rail_blackwater-gladstone",
+        "resource": "thermal coal",
+        "quantity": 4500000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Coal"
+    ]
+  },
+  {
+    "id": "AU_south32_illawarra_coal",
+    "name": "Illawarra Metallurgical Coal (South32)",
+    "tier": "extraction",
+    "country_iso2": "AU",
+    "canonical_company": "South32",
+    "coordinates": {
+      "lat": -34.39,
+      "lon": 150.84
+    },
+    "downstream": [
+      {
+        "target_id": "AU_port_kembla_coal_terminal",
+        "corridor_id": "AU_rail_illawarra-port-kembla",
+        "resource": "metallurgical coal",
+        "quantity": 5500000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_bluescope_steel",
+        "corridor_id": "AU_rail_illawarra-port-kembla",
+        "resource": "coking coal",
+        "quantity": 1500000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Coal"
+    ]
+  },
+  {
+    "id": "AU_centennial_coal_airly",
+    "name": "Airly Mine (Centennial Coal)",
+    "tier": "extraction",
+    "country_iso2": "AU",
+    "canonical_company": "Centennial Coal",
+    "coordinates": {
+      "lat": -33.32,
+      "lon": 150
+    },
+    "downstream": [
+      {
+        "target_id": "AU_port_of_newcastle",
+        "corridor_id": "AU_rail_hunter-valley-newcastle",
+        "resource": "thermal coal",
+        "quantity": 1500000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_energyaustralia",
+        "corridor_id": "AU_rail_western-nsw-local",
+        "resource": "thermal coal",
+        "quantity": 1000000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Coal"
+    ]
+  },
+  {
+    "id": "AU_centennial_coal_mandalong",
+    "name": "Mandalong Mine (Centennial Coal)",
+    "tier": "extraction",
+    "country_iso2": "AU",
+    "canonical_company": "Centennial Coal",
+    "coordinates": {
+      "lat": -33.08,
+      "lon": 151.47
+    },
+    "downstream": [
+      {
+        "target_id": "AU_energyaustralia",
+        "corridor_id": "AU_conveyor_mandalong-eraring",
+        "resource": "thermal coal",
+        "quantity": 4000000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Coal"
+    ]
+  },
+  {
+    "id": "AU_adani_carmichael",
+    "name": "Carmichael Coal Mine (Bravus Mining / Adani)",
+    "tier": "extraction",
+    "country_iso2": "AU",
+    "canonical_company": "Bravus Mining and Resources",
+    "coordinates": {
+      "lat": -22,
+      "lon": 146.4
+    },
+    "downstream": [
+      {
+        "target_id": "AU_abbot_point_coal_terminal",
+        "corridor_id": "AU_rail_carmichael-abbot-point",
+        "resource": "thermal coal",
+        "quantity": 10000000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Coal"
+    ]
+  },
+  {
+    "id": "AU_yancoal_premier",
+    "name": "Premier Coal Mine (Yancoal, Collie WA)",
+    "tier": "extraction",
+    "country_iso2": "AU",
+    "canonical_company": "Yancoal",
+    "coordinates": {
+      "lat": -33.37,
+      "lon": 116.17
+    },
+    "downstream": [
+      {
+        "target_id": "AU_synergy_collie",
+        "corridor_id": "AU_conveyor_collie-local",
+        "resource": "thermal coal",
+        "quantity": 3000000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Coal"
+    ]
+  },
+  {
+    "id": "AU_griffin_coal_collie",
+    "name": "Griffin Coal Mine (Collie WA)",
+    "tier": "extraction",
+    "country_iso2": "AU",
+    "canonical_company": "Lanco Infratech",
+    "coordinates": {
+      "lat": -33.38,
+      "lon": 116.2
+    },
+    "downstream": [
+      {
+        "target_id": "AU_synergy_collie",
+        "corridor_id": "AU_conveyor_collie-local",
+        "resource": "thermal coal",
+        "quantity": 2000000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Coal"
+    ]
+  },
+  {
+    "id": "AU_latrobe_valley_yallourn",
+    "name": "Yallourn Brown Coal Mine (EnergyAustralia)",
+    "tier": "extraction",
+    "country_iso2": "AU",
+    "canonical_company": "EnergyAustralia",
+    "coordinates": {
+      "lat": -38.18,
+      "lon": 146.34
+    },
+    "downstream": [
+      {
+        "target_id": "AU_energyaustralia_yallourn_ps",
+        "corridor_id": "AU_conveyor_yallourn-mine-to-plant",
+        "resource": "brown coal (lignite)",
+        "quantity": 14000000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Coal"
+    ]
+  },
+  {
+    "id": "AU_latrobe_valley_loy_yang",
+    "name": "Loy Yang Brown Coal Mine (AGL)",
+    "tier": "extraction",
+    "country_iso2": "AU",
+    "canonical_company": "AGL Energy",
+    "coordinates": {
+      "lat": -38.24,
+      "lon": 146.58
+    },
+    "downstream": [
+      {
+        "target_id": "AU_agl_loy_yang",
+        "corridor_id": "AU_conveyor_loy-yang-mine-to-plant",
+        "resource": "brown coal (lignite)",
+        "quantity": 28000000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Coal"
+    ]
+  },
+  {
+    "id": "AU_port_of_newcastle",
+    "name": "Port of Newcastle (PWCS & NCIG terminals)",
+    "tier": "refinery",
+    "country_iso2": "AU",
+    "canonical_company": "Port Waratah Coal Services",
+    "coordinates": {
+      "lat": -32.93,
+      "lon": 151.78
+    },
+    "downstream": [
+      {
+        "target_id": "AU_glencore_coal_trading",
+        "corridor_id": "INTL_ocean_newcastle-intl",
+        "resource": "thermal coal (export)",
+        "quantity": 55000000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_agl_energy",
+        "corridor_id": "AU_road_newcastle-local",
+        "resource": "thermal coal (domestic)",
+        "quantity": 5000000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_bhp_coal_marketing",
+        "corridor_id": "INTL_ocean_newcastle-intl",
+        "resource": "thermal coal (export)",
+        "quantity": 20000000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_yancoal_trading",
+        "corridor_id": "INTL_ocean_newcastle-intl",
+        "resource": "thermal coal (export)",
+        "quantity": 25000000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_bhp_mt_arthur",
+      "AU_glencore_hunter_valley_operations",
+      "AU_glencore_mangoola",
+      "AU_glencore_mount_owen",
+      "AU_glencore_ravensworth",
+      "AU_glencore_ulan",
+      "AU_yancoal_moolarben",
+      "AU_yancoal_mt_thorley_warkworth",
+      "AU_whitehaven_maules_creek",
+      "AU_whitehaven_narrabri",
+      "AU_whitehaven_vickery",
+      "AU_bhp_mt_pleasant",
+      "AU_new_hope_bengalla",
+      "AU_peabody_wambo",
+      "AU_centennial_coal_airly"
+    ],
+    "resources": [
+      "Coal"
+    ]
+  },
+  {
+    "id": "AU_dalrymple_bay_coal_terminal",
+    "name": "Dalrymple Bay Coal Terminal (DBCT)",
+    "tier": "refinery",
+    "country_iso2": "AU",
+    "canonical_company": "DBCT Management",
+    "coordinates": {
+      "lat": -21.17,
+      "lon": 149.22
+    },
+    "downstream": [
+      {
+        "target_id": "AU_glencore_coal_trading",
+        "corridor_id": "INTL_ocean_dbct-asia",
+        "resource": "metallurgical coal (export)",
+        "quantity": 35000000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_bhp_coal_marketing",
+        "corridor_id": "INTL_ocean_dbct-asia",
+        "resource": "hard coking coal (export)",
+        "quantity": 30000000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_anglo_american_marketing",
+        "corridor_id": "INTL_ocean_dbct-asia",
+        "resource": "hard coking coal (export)",
+        "quantity": 12000000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_bhp_broadmeadow",
+      "AU_bma_goonyella_riverside",
+      "AU_bma_peak_downs",
+      "AU_bma_saraji",
+      "AU_bma_caval_ridge",
+      "AU_bma_daunia",
+      "AU_anglo_american_moranbah_north",
+      "AU_anglo_american_grosvenor",
+      "AU_anglo_american_aquila",
+      "AU_anglo_american_capcoal",
+      "AU_glencore_hail_creek",
+      "AU_glencore_oaky_creek",
+      "AU_peabody_coppabella",
+      "AU_peabody_moorvale",
+      "AU_stanmore_south_walker_creek",
+      "AU_stanmore_poitrel"
+    ],
+    "resources": [
+      "Coal"
+    ]
+  },
+  {
+    "id": "AU_rg_tanna_coal_terminal",
+    "name": "RG Tanna Coal Terminal (Gladstone)",
+    "tier": "refinery",
+    "country_iso2": "AU",
+    "canonical_company": "Gladstone Ports Corporation",
+    "coordinates": {
+      "lat": -23.85,
+      "lon": 151.27
+    },
+    "downstream": [
+      {
+        "target_id": "AU_glencore_coal_trading",
+        "corridor_id": "INTL_ocean_gladstone-asia",
+        "resource": "thermal and met coal (export)",
+        "quantity": 20000000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_coronado_marketing",
+        "corridor_id": "INTL_ocean_gladstone-asia",
+        "resource": "metallurgical coal (export)",
+        "quantity": 12000000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_bma_blackwater",
+      "AU_glencore_rolleston",
+      "AU_glencore_curragh",
+      "AU_idemitsu_ensham"
+    ],
+    "resources": [
+      "Coal"
+    ]
+  },
+  {
+    "id": "AU_abbot_point_coal_terminal",
+    "name": "Abbot Point Coal Terminal",
+    "tier": "refinery",
+    "country_iso2": "AU",
+    "canonical_company": "North Queensland Bulk Ports",
+    "coordinates": {
+      "lat": -19.87,
+      "lon": 148.08
+    },
+    "downstream": [
+      {
+        "target_id": "AU_bravus_trading",
+        "corridor_id": "INTL_ocean_abbot-point-india",
+        "resource": "thermal coal (export)",
+        "quantity": 10000000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_glencore_coal_trading",
+        "corridor_id": "INTL_ocean_abbot-point-asia",
+        "resource": "thermal coal (export)",
+        "quantity": 3000000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_glencore_collinsville",
+      "AU_adani_carmichael"
+    ],
+    "resources": [
+      "Coal"
+    ]
+  },
+  {
+    "id": "AU_port_kembla_coal_terminal",
+    "name": "Port Kembla Coal Terminal",
+    "tier": "refinery",
+    "country_iso2": "AU",
+    "canonical_company": "Port Kembla Coal Terminal Ltd",
+    "coordinates": {
+      "lat": -34.47,
+      "lon": 150.9
+    },
+    "downstream": [
+      {
+        "target_id": "AU_south32_marketing",
+        "corridor_id": "INTL_ocean_port-kembla-asia",
+        "resource": "metallurgical coal (export)",
+        "quantity": 5500000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_south32_illawarra_coal"
+    ],
+    "resources": [
+      "Coal"
+    ]
+  },
+  {
+    "id": "AU_port_of_brisbane_coal",
+    "name": "Port of Brisbane Coal Export Facility",
+    "tier": "refinery",
+    "country_iso2": "AU",
+    "canonical_company": "New Hope Group",
+    "coordinates": {
+      "lat": -27.38,
+      "lon": 153.17
+    },
+    "downstream": [
+      {
+        "target_id": "AU_new_hope_trading",
+        "corridor_id": "INTL_ocean_brisbane-asia",
+        "resource": "thermal coal (export)",
+        "quantity": 5000000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_new_hope_new_acland"
+    ],
+    "resources": [
+      "Coal"
+    ]
+  },
+  {
+    "id": "AU_glencore_coal_trading",
+    "name": "Glencore Coal Marketing (Australia)",
+    "tier": "distributor",
+    "country_iso2": "AU",
+    "canonical_company": "Glencore",
+    "coordinates": {
+      "lat": -33.87,
+      "lon": 151.21
+    },
+    "downstream": [
+      {
+        "target_id": "JP_japanese_steelmakers",
+        "corridor_id": "INTL_ocean_australia-japan",
+        "resource": "metallurgical coal",
+        "quantity": 20000000,
+        "metric": "t"
+      },
+      {
+        "target_id": "CN_chinese_utilities_and_steel",
+        "corridor_id": "INTL_ocean_australia-china",
+        "resource": "thermal and met coal",
+        "quantity": 18000000,
+        "metric": "t"
+      },
+      {
+        "target_id": "KR_korean_steelmakers",
+        "corridor_id": "INTL_ocean_australia-korea",
+        "resource": "metallurgical coal",
+        "quantity": 12000000,
+        "metric": "t"
+      },
+      {
+        "target_id": "IN_indian_steelmakers",
+        "corridor_id": "INTL_ocean_australia-india",
+        "resource": "metallurgical and thermal coal",
+        "quantity": 15000000,
+        "metric": "t"
+      },
+      {
+        "target_id": "TW_taiwanese_utilities",
+        "corridor_id": "INTL_ocean_australia-taiwan",
+        "resource": "thermal coal",
+        "quantity": 5000000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_port_of_newcastle",
+      "AU_dalrymple_bay_coal_terminal",
+      "AU_rg_tanna_coal_terminal",
+      "AU_abbot_point_coal_terminal"
+    ],
+    "resources": [
+      "Coal"
+    ]
+  },
+  {
+    "id": "AU_bhp_coal_marketing",
+    "name": "BHP Coal Marketing",
+    "tier": "distributor",
+    "country_iso2": "AU",
+    "canonical_company": "BHP",
+    "coordinates": {
+      "lat": -27.47,
+      "lon": 153.03
+    },
+    "downstream": [
+      {
+        "target_id": "JP_japanese_steelmakers",
+        "corridor_id": "INTL_ocean_australia-japan",
+        "resource": "hard coking coal",
+        "quantity": 15000000,
+        "metric": "t"
+      },
+      {
+        "target_id": "KR_korean_steelmakers",
+        "corridor_id": "INTL_ocean_australia-korea",
+        "resource": "hard coking coal",
+        "quantity": 10000000,
+        "metric": "t"
+      },
+      {
+        "target_id": "IN_indian_steelmakers",
+        "corridor_id": "INTL_ocean_australia-india",
+        "resource": "hard coking coal",
+        "quantity": 12000000,
+        "metric": "t"
+      },
+      {
+        "target_id": "CN_chinese_utilities_and_steel",
+        "corridor_id": "INTL_ocean_australia-china",
+        "resource": "hard coking coal and thermal coal",
+        "quantity": 10000000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_port_of_newcastle",
+      "AU_dalrymple_bay_coal_terminal"
+    ],
+    "resources": [
+      "Coal"
+    ]
+  },
+  {
+    "id": "AU_yancoal_trading",
+    "name": "Yancoal Coal Marketing",
+    "tier": "distributor",
+    "country_iso2": "AU",
+    "canonical_company": "Yancoal",
+    "coordinates": {
+      "lat": -33.87,
+      "lon": 151.21
+    },
+    "downstream": [
+      {
+        "target_id": "JP_japanese_steelmakers",
+        "corridor_id": "INTL_ocean_australia-japan",
+        "resource": "thermal coal",
+        "quantity": 8000000,
+        "metric": "t"
+      },
+      {
+        "target_id": "CN_chinese_utilities_and_steel",
+        "corridor_id": "INTL_ocean_australia-china",
+        "resource": "thermal coal",
+        "quantity": 10000000,
+        "metric": "t"
+      },
+      {
+        "target_id": "KR_korean_steelmakers",
+        "corridor_id": "INTL_ocean_australia-korea",
+        "resource": "thermal coal",
+        "quantity": 4000000,
+        "metric": "t"
+      },
+      {
+        "target_id": "TW_taiwanese_utilities",
+        "corridor_id": "INTL_ocean_australia-taiwan",
+        "resource": "thermal coal",
+        "quantity": 3000000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_port_of_newcastle"
+    ],
+    "resources": [
+      "Coal"
+    ]
+  },
+  {
+    "id": "AU_anglo_american_marketing",
+    "name": "Anglo American Coal Marketing",
+    "tier": "distributor",
+    "country_iso2": "AU",
+    "canonical_company": "Anglo American",
+    "coordinates": {
+      "lat": -27.47,
+      "lon": 153.03
+    },
+    "downstream": [
+      {
+        "target_id": "JP_japanese_steelmakers",
+        "corridor_id": "INTL_ocean_australia-japan",
+        "resource": "hard coking coal",
+        "quantity": 5000000,
+        "metric": "t"
+      },
+      {
+        "target_id": "IN_indian_steelmakers",
+        "corridor_id": "INTL_ocean_australia-india",
+        "resource": "hard coking coal",
+        "quantity": 4000000,
+        "metric": "t"
+      },
+      {
+        "target_id": "KR_korean_steelmakers",
+        "corridor_id": "INTL_ocean_australia-korea",
+        "resource": "hard coking coal",
+        "quantity": 3000000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_dalrymple_bay_coal_terminal"
+    ],
+    "resources": [
+      "Coal"
+    ]
+  },
+  {
+    "id": "AU_coronado_marketing",
+    "name": "Coronado Global Resources Marketing",
+    "tier": "distributor",
+    "country_iso2": "AU",
+    "canonical_company": "Coronado Global Resources",
+    "coordinates": {
+      "lat": -27.47,
+      "lon": 153.03
+    },
+    "downstream": [
+      {
+        "target_id": "JP_japanese_steelmakers",
+        "corridor_id": "INTL_ocean_australia-japan",
+        "resource": "metallurgical coal",
+        "quantity": 5000000,
+        "metric": "t"
+      },
+      {
+        "target_id": "IN_indian_steelmakers",
+        "corridor_id": "INTL_ocean_australia-india",
+        "resource": "metallurgical coal",
+        "quantity": 4000000,
+        "metric": "t"
+      },
+      {
+        "target_id": "KR_korean_steelmakers",
+        "corridor_id": "INTL_ocean_australia-korea",
+        "resource": "metallurgical coal",
+        "quantity": 3000000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_rg_tanna_coal_terminal"
+    ],
+    "resources": [
+      "Coal"
+    ]
+  },
+  {
+    "id": "AU_south32_marketing",
+    "name": "South32 Illawarra Coal Marketing",
+    "tier": "distributor",
+    "country_iso2": "AU",
+    "canonical_company": "South32",
+    "coordinates": {
+      "lat": -34.43,
+      "lon": 150.89
+    },
+    "downstream": [
+      {
+        "target_id": "JP_japanese_steelmakers",
+        "corridor_id": "INTL_ocean_port-kembla-japan",
+        "resource": "metallurgical coal",
+        "quantity": 2000000,
+        "metric": "t"
+      },
+      {
+        "target_id": "IN_indian_steelmakers",
+        "corridor_id": "INTL_ocean_port-kembla-india",
+        "resource": "metallurgical coal",
+        "quantity": 2000000,
+        "metric": "t"
+      },
+      {
+        "target_id": "KR_korean_steelmakers",
+        "corridor_id": "INTL_ocean_port-kembla-korea",
+        "resource": "metallurgical coal",
+        "quantity": 1500000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_port_kembla_coal_terminal"
+    ],
+    "resources": [
+      "Coal"
+    ]
+  },
+  {
+    "id": "AU_new_hope_trading",
+    "name": "New Hope Group Coal Marketing",
+    "tier": "distributor",
+    "country_iso2": "AU",
+    "canonical_company": "New Hope Group",
+    "coordinates": {
+      "lat": -27.47,
+      "lon": 152.97
+    },
+    "downstream": [
+      {
+        "target_id": "JP_japanese_steelmakers",
+        "corridor_id": "INTL_ocean_brisbane-japan",
+        "resource": "thermal coal",
+        "quantity": 2000000,
+        "metric": "t"
+      },
+      {
+        "target_id": "KR_korean_steelmakers",
+        "corridor_id": "INTL_ocean_brisbane-korea",
+        "resource": "thermal coal",
+        "quantity": 1500000,
+        "metric": "t"
+      },
+      {
+        "target_id": "TW_taiwanese_utilities",
+        "corridor_id": "INTL_ocean_brisbane-taiwan",
+        "resource": "thermal coal",
+        "quantity": 1500000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_port_of_brisbane_coal"
+    ],
+    "resources": [
+      "Coal"
+    ]
+  },
+  {
+    "id": "AU_bravus_trading",
+    "name": "Bravus Mining & Resources Marketing",
+    "tier": "distributor",
+    "country_iso2": "AU",
+    "canonical_company": "Bravus Mining and Resources",
+    "coordinates": {
+      "lat": -19.87,
+      "lon": 148.08
+    },
+    "downstream": [
+      {
+        "target_id": "IN_indian_steelmakers",
+        "corridor_id": "INTL_ocean_abbot-point-india",
+        "resource": "thermal coal",
+        "quantity": 10000000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_abbot_point_coal_terminal"
+    ],
+    "resources": [
+      "Coal"
+    ]
+  },
+  {
+    "id": "JP_japanese_steelmakers",
+    "name": "Japanese Steel Mills & Utilities (Nippon Steel, JFE, JERA, etc.)",
+    "tier": "utility",
+    "country_iso2": "JP",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": 35.45,
+      "lon": 139.63
+    },
+    "downstream": [
+      {
+        "target_id": "JP_industrial",
+        "corridor_id": "JP_road_domestic-distribution",
+        "resource": "steel products and electricity",
+        "quantity": 45000000,
+        "metric": "t"
+      },
+      {
+        "target_id": "JP_infrastructure",
+        "corridor_id": "JP_road_domestic-distribution",
+        "resource": "steel products",
+        "quantity": 12000000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_glencore_coal_trading",
+      "AU_bhp_coal_marketing",
+      "AU_yancoal_trading",
+      "AU_anglo_american_marketing",
+      "AU_coronado_marketing",
+      "AU_south32_marketing",
+      "AU_new_hope_trading"
+    ],
+    "resources": [
+      "Coal"
+    ]
+  },
+  {
+    "id": "CN_chinese_utilities_and_steel",
+    "name": "Chinese Steel Mills & Utilities (Baowu, CITIC, etc.)",
+    "tier": "utility",
+    "country_iso2": "CN",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": 31.23,
+      "lon": 121.47
+    },
+    "downstream": [
+      {
+        "target_id": "CN_industrial",
+        "corridor_id": "CN_road_domestic-distribution",
+        "resource": "steel products and electricity",
+        "quantity": 28000000,
+        "metric": "t"
+      },
+      {
+        "target_id": "CN_infrastructure",
+        "corridor_id": "CN_road_domestic-distribution",
+        "resource": "steel products",
+        "quantity": 10000000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_glencore_coal_trading",
+      "AU_bhp_coal_marketing",
+      "AU_yancoal_trading"
+    ],
+    "resources": [
+      "Coal"
+    ]
+  },
+  {
+    "id": "KR_korean_steelmakers",
+    "name": "Korean Steel Mills & Utilities (POSCO, KEPCO, etc.)",
+    "tier": "utility",
+    "country_iso2": "KR",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": 35.1,
+      "lon": 129.04
+    },
+    "downstream": [
+      {
+        "target_id": "KR_industrial",
+        "corridor_id": "KR_road_domestic-distribution",
+        "resource": "steel products and electricity",
+        "quantity": 28000000,
+        "metric": "t"
+      },
+      {
+        "target_id": "KR_infrastructure",
+        "corridor_id": "KR_road_domestic-distribution",
+        "resource": "steel products",
+        "quantity": 5500000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_glencore_coal_trading",
+      "AU_bhp_coal_marketing",
+      "AU_yancoal_trading",
+      "AU_anglo_american_marketing",
+      "AU_coronado_marketing",
+      "AU_south32_marketing",
+      "AU_new_hope_trading"
+    ],
+    "resources": [
+      "Coal"
+    ]
+  },
+  {
+    "id": "IN_indian_steelmakers",
+    "name": "Indian Steel Mills & Utilities (Tata Steel, JSW, NTPC, etc.)",
+    "tier": "utility",
+    "country_iso2": "IN",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": 19.08,
+      "lon": 72.88
+    },
+    "downstream": [
+      {
+        "target_id": "IN_industrial",
+        "corridor_id": "IN_rail_domestic-distribution",
+        "resource": "steel products and electricity",
+        "quantity": 35000000,
+        "metric": "t"
+      },
+      {
+        "target_id": "IN_infrastructure",
+        "corridor_id": "IN_rail_domestic-distribution",
+        "resource": "steel products",
+        "quantity": 12000000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_glencore_coal_trading",
+      "AU_bhp_coal_marketing",
+      "AU_anglo_american_marketing",
+      "AU_coronado_marketing",
+      "AU_south32_marketing",
+      "AU_bravus_trading"
+    ],
+    "resources": [
+      "Coal"
+    ]
+  },
+  {
+    "id": "TW_taiwanese_utilities",
+    "name": "Taiwanese Utilities (Taipower, etc.)",
+    "tier": "utility",
+    "country_iso2": "TW",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": 25.03,
+      "lon": 121.57
+    },
+    "downstream": [
+      {
+        "target_id": "TW_industrial",
+        "corridor_id": "TW_electrical-grid_domestic",
+        "resource": "electricity from coal-fired generation",
+        "quantity": 6000000,
+        "metric": "t"
+      },
+      {
+        "target_id": "TW_residential",
+        "corridor_id": "TW_electrical-grid_domestic",
+        "resource": "electricity from coal-fired generation",
+        "quantity": 3500000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_glencore_coal_trading",
+      "AU_yancoal_trading",
+      "AU_new_hope_trading"
+    ],
+    "resources": [
+      "Coal"
+    ]
+  },
+  {
+    "id": "AU_agl_energy",
+    "name": "AGL Energy (NSW Thermal Coal Buyer)",
+    "tier": "utility",
+    "country_iso2": "AU",
+    "canonical_company": "AGL Energy",
+    "coordinates": {
+      "lat": -32.8,
+      "lon": 151.34
+    },
+    "downstream": [
+      {
+        "target_id": "AU_residential",
+        "corridor_id": "AU_electrical-grid_nsw",
+        "resource": "electricity from coal-fired generation",
+        "quantity": 4000000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_commercial",
+        "corridor_id": "AU_electrical-grid_nsw",
+        "resource": "electricity from coal-fired generation",
+        "quantity": 2000000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_industrial",
+        "corridor_id": "AU_electrical-grid_nsw",
+        "resource": "electricity from coal-fired generation",
+        "quantity": 1000000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_residential",
+        "corridor_id": "AU_pipeline_agl_sydney_reticulation",
+        "resource": "reticulated natural gas",
+        "quantity": 1500000,
+        "metric": "kL"
+      },
+      {
+        "target_id": "AU_commercial",
+        "corridor_id": "AU_pipeline_agl_sydney_reticulation",
+        "resource": "reticulated natural gas",
+        "quantity": 800000,
+        "metric": "kL"
+      },
+      {
+        "target_id": "AU_industrial",
+        "corridor_id": "AU_pipeline_agl_sydney_reticulation",
+        "resource": "natural gas for industrial use",
+        "quantity": 1700000,
+        "metric": "kL"
+      }
+    ],
+    "upstream": [
+      "AU_bhp_mt_arthur",
+      "AU_port_of_newcastle",
+      "AU_apa_east_coast_gas"
+    ],
+    "resources": [
+      "Coal",
+      "Natural Gas"
+    ]
+  },
+  {
+    "id": "AU_energyaustralia",
+    "name": "EnergyAustralia (Eraring Power Station)",
+    "tier": "utility",
+    "country_iso2": "AU",
+    "canonical_company": "EnergyAustralia",
+    "coordinates": {
+      "lat": -33.07,
+      "lon": 151.53
+    },
+    "downstream": [
+      {
+        "target_id": "AU_residential",
+        "corridor_id": "AU_electrical-grid_nsw",
+        "resource": "electricity from coal-fired generation",
+        "quantity": 3000000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_commercial",
+        "corridor_id": "AU_electrical-grid_nsw",
+        "resource": "electricity from coal-fired generation",
+        "quantity": 1500000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_industrial",
+        "corridor_id": "AU_electrical-grid_nsw",
+        "resource": "electricity from coal-fired generation",
+        "quantity": 500000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_residential",
+        "corridor_id": "AU_pipeline_ea_melbourne_reticulation",
+        "resource": "reticulated natural gas",
+        "quantity": 1300000,
+        "metric": "kL"
+      },
+      {
+        "target_id": "AU_commercial",
+        "corridor_id": "AU_pipeline_ea_melbourne_reticulation",
+        "resource": "reticulated natural gas",
+        "quantity": 700000,
+        "metric": "kL"
+      },
+      {
+        "target_id": "AU_industrial",
+        "corridor_id": "AU_pipeline_ea_melbourne_reticulation",
+        "resource": "natural gas for industrial use",
+        "quantity": 1800000,
+        "metric": "kL"
+      }
+    ],
+    "upstream": [
+      "AU_centennial_coal_airly",
+      "AU_centennial_coal_mandalong",
+      "AU_apa_east_coast_gas"
+    ],
+    "resources": [
+      "Coal",
+      "Natural Gas"
+    ]
+  },
+  {
+    "id": "AU_agl_loy_yang",
+    "name": "AGL Loy Yang Power Station",
+    "tier": "utility",
+    "country_iso2": "AU",
+    "canonical_company": "AGL Energy",
+    "coordinates": {
+      "lat": -38.25,
+      "lon": 146.59
+    },
+    "downstream": [
+      {
+        "target_id": "AU_residential",
+        "corridor_id": "AU_electrical-grid_vic",
+        "resource": "electricity from brown coal-fired generation",
+        "quantity": 16000000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_commercial",
+        "corridor_id": "AU_electrical-grid_vic",
+        "resource": "electricity from brown coal-fired generation",
+        "quantity": 8000000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_industrial",
+        "corridor_id": "AU_electrical-grid_vic",
+        "resource": "electricity from brown coal-fired generation",
+        "quantity": 4000000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_industrial",
+        "corridor_id": "AU_electrical_grid_vic",
+        "resource": "electricity (limestone consumed in FGD)",
+        "quantity": 200000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_latrobe_valley_loy_yang",
+      "AU_bluescope_limestone_coast"
+    ],
+    "resources": [
+      "Coal",
+      "Limestone"
+    ]
+  },
+  {
+    "id": "AU_energyaustralia_yallourn_ps",
+    "name": "EnergyAustralia Yallourn Power Station",
+    "tier": "utility",
+    "country_iso2": "AU",
+    "canonical_company": "EnergyAustralia",
+    "coordinates": {
+      "lat": -38.18,
+      "lon": 146.35
+    },
+    "downstream": [
+      {
+        "target_id": "AU_residential",
+        "corridor_id": "AU_electrical-grid_vic",
+        "resource": "electricity from brown coal-fired generation",
+        "quantity": 8000000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_commercial",
+        "corridor_id": "AU_electrical-grid_vic",
+        "resource": "electricity from brown coal-fired generation",
+        "quantity": 4000000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_industrial",
+        "corridor_id": "AU_electrical-grid_vic",
+        "resource": "electricity from brown coal-fired generation",
+        "quantity": 2000000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_latrobe_valley_yallourn"
+    ],
+    "resources": [
+      "Coal"
+    ]
+  },
+  {
+    "id": "AU_synergy_collie",
+    "name": "Synergy Collie / Muja Power Station",
+    "tier": "utility",
+    "country_iso2": "AU",
+    "canonical_company": "Synergy",
+    "coordinates": {
+      "lat": -33.38,
+      "lon": 116.28
+    },
+    "downstream": [
+      {
+        "target_id": "AU_residential",
+        "corridor_id": "AU_electrical-grid_wa",
+        "resource": "electricity from coal-fired generation",
+        "quantity": 3000000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_industrial",
+        "corridor_id": "AU_electrical-grid_wa",
+        "resource": "electricity from coal-fired generation",
+        "quantity": 2000000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_yancoal_premier",
+      "AU_griffin_coal_collie"
+    ],
+    "resources": [
+      "Coal"
+    ]
+  },
+  {
+    "id": "AU_bluescope_steel",
+    "name": "BlueScope Steel Port Kembla Steelworks",
+    "tier": "utility",
+    "country_iso2": "AU",
+    "canonical_company": "BlueScope Steel",
+    "coordinates": {
+      "lat": -34.47,
+      "lon": 150.88
+    },
+    "downstream": [
+      {
+        "target_id": "AU_industrial",
+        "corridor_id": "AU_road_port-kembla-domestic",
+        "resource": "flat steel products",
+        "quantity": 1000000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_infrastructure",
+        "corridor_id": "AU_road_port-kembla-domestic",
+        "resource": "steel products for construction",
+        "quantity": 500000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_bluescope_colorbond",
+        "corridor_id": "AU_road_port-kembla-western-sydney",
+        "resource": "flat steel products (manganese-bearing)",
+        "quantity": 80000,
+        "metric": "t"
+      },
+      {
+        "target_id": "INTL_steel_export_buyers",
+        "corridor_id": "INTL_ocean_port-kembla-se-asia",
+        "resource": "steel coil and plate (manganese-bearing)",
+        "quantity": 40000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_lysaght_building",
+        "corridor_id": "AU_road_port-kembla-domestic",
+        "resource": "galvanised steel coil and sheet",
+        "quantity": 100000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_steel_distributors",
+        "corridor_id": "AU_road_port-kembla-domestic",
+        "resource": "galvanised steel coil and sheet",
+        "quantity": 60000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_south32_illawarra_coal",
+      "AU_south32_temco",
+      "AU_sun_metals_townsville",
+      "AU_nyrstar_hobart"
+    ],
+    "resources": [
+      "Coal",
+      "Manganese",
+      "Zinc"
+    ]
+  },
+  {
+    "id": "AU_rail_hunter-valley-newcastle",
+    "tier": "transport",
+    "name": "Hunter Valley Coal Chain – Rail to Newcastle",
+    "country_iso2": "AU",
+    "operator_id": "AU_aurizon",
+    "mode": "rail",
+    "form": "bulk_dry",
+    "range": "regional",
+    "coordinates": {
+      "lat": -32.55,
+      "lon": 151.2
+    },
+    "resources": [
+      "Mineral-Bearing Land"
+    ],
+    "upstream": [],
+    "downstream": []
+  },
+  {
+    "id": "AU_rail_hunter-valley-local",
+    "tier": "transport",
+    "name": "Hunter Valley Local Rail Distribution",
+    "country_iso2": "AU",
+    "operator_id": "AU_aurizon",
+    "mode": "rail",
+    "form": "bulk_dry",
+    "range": "local",
+    "coordinates": {
+      "lat": -32.5,
+      "lon": 151
+    }
+  },
+  {
+    "id": "AU_rail_gunnedah-newcastle",
+    "tier": "transport",
+    "name": "Gunnedah Basin – Rail to Newcastle",
+    "country_iso2": "AU",
+    "operator_id": "AU_aurizon",
+    "mode": "rail",
+    "form": "bulk_dry",
+    "range": "regional",
+    "coordinates": {
+      "lat": -31.5,
+      "lon": 150.4
+    },
+    "resources": [
+      "Mineral-Bearing Land"
+    ],
+    "upstream": [],
+    "downstream": []
+  },
+  {
+    "id": "AU_rail_bowen-basin-dbct",
+    "tier": "transport",
+    "name": "Bowen Basin – Goonyella Rail System to DBCT",
+    "country_iso2": "AU",
+    "operator_id": "AU_aurizon",
+    "mode": "rail",
+    "form": "bulk_dry",
+    "range": "regional",
+    "coordinates": {
+      "lat": -21.5,
+      "lon": 148.6
+    }
+  },
+  {
+    "id": "AU_rail_blackwater-gladstone",
+    "tier": "transport",
+    "name": "Blackwater Rail System to Gladstone",
+    "country_iso2": "AU",
+    "operator_id": "AU_aurizon",
+    "mode": "rail",
+    "form": "bulk_dry",
+    "range": "regional",
+    "coordinates": {
+      "lat": -23.6,
+      "lon": 149.8
+    }
+  },
+  {
+    "id": "AU_rail_collinsville-abbot-point",
+    "tier": "transport",
+    "name": "Collinsville – Rail to Abbot Point",
+    "country_iso2": "AU",
+    "operator_id": "AU_aurizon",
+    "mode": "rail",
+    "form": "bulk_dry",
+    "range": "regional",
+    "coordinates": {
+      "lat": -20.2,
+      "lon": 147.95
+    }
+  },
+  {
+    "id": "AU_rail_carmichael-abbot-point",
+    "tier": "transport",
+    "name": "Carmichael Rail – Galilee Basin to Abbot Point",
+    "country_iso2": "AU",
+    "operator_id": "AU_bravus_mining_and_resources",
+    "mode": "rail",
+    "form": "bulk_dry",
+    "range": "regional",
+    "coordinates": {
+      "lat": -21,
+      "lon": 147.2
+    }
+  },
+  {
+    "id": "AU_rail_darling-downs-brisbane",
+    "tier": "transport",
+    "name": "Darling Downs – Rail to Port of Brisbane",
+    "country_iso2": "AU",
+    "operator_id": "AU_aurizon",
+    "mode": "rail",
+    "form": "bulk_dry",
+    "range": "regional",
+    "coordinates": {
+      "lat": -27.35,
+      "lon": 152.45
+    }
+  },
+  {
+    "id": "AU_rail_illawarra-port-kembla",
+    "tier": "transport",
+    "name": "Illawarra Rail to Port Kembla",
+    "country_iso2": "AU",
+    "operator_id": "AU_sydney_trains_freight",
+    "mode": "rail",
+    "form": "bulk_dry",
+    "range": "local",
+    "coordinates": {
+      "lat": -34.42,
+      "lon": 150.87
+    }
+  },
+  {
+    "id": "AU_rail_western-nsw-local",
+    "tier": "transport",
+    "name": "Western NSW Local Rail",
+    "country_iso2": "AU",
+    "operator_id": "AU_pacific_national",
+    "mode": "rail",
+    "form": "bulk_dry",
+    "range": "local",
+    "coordinates": {
+      "lat": -33.3,
+      "lon": 150.2
+    }
+  },
+  {
+    "id": "AU_conveyor_mandalong-eraring",
+    "tier": "transport",
+    "name": "Mandalong Mine Conveyor to Eraring Power Station",
+    "country_iso2": "AU",
+    "operator_id": "AU_centennial_coal",
+    "mode": "conveyor",
+    "form": "bulk_dry",
+    "range": "local",
+    "coordinates": {
+      "lat": -33.07,
+      "lon": 151.5
+    }
+  },
+  {
+    "id": "AU_conveyor_collie-local",
+    "tier": "transport",
+    "name": "Collie Coal Basin Local Conveyor / Road",
+    "country_iso2": "AU",
+    "operator_id": "AU_synergy",
+    "mode": "conveyor",
+    "form": "bulk_dry",
+    "range": "local",
+    "coordinates": {
+      "lat": -33.37,
+      "lon": 116.2
+    }
+  },
+  {
+    "id": "AU_conveyor_yallourn-mine-to-plant",
+    "tier": "transport",
+    "name": "Yallourn Mine-Mouth Conveyor to Power Station",
+    "country_iso2": "AU",
+    "operator_id": "AU_energyaustralia",
+    "mode": "conveyor",
+    "form": "bulk_dry",
+    "range": "local",
+    "coordinates": {
+      "lat": -38.18,
+      "lon": 146.34
+    }
+  },
+  {
+    "id": "AU_conveyor_loy-yang-mine-to-plant",
+    "tier": "transport",
+    "name": "Loy Yang Mine-Mouth Conveyor to Power Station",
+    "country_iso2": "AU",
+    "operator_id": "AU_agl_energy",
+    "mode": "conveyor",
+    "form": "bulk_dry",
+    "range": "local",
+    "coordinates": {
+      "lat": -38.24,
+      "lon": 146.58
+    }
+  },
+  {
+    "id": "INTL_ocean_newcastle-intl",
+    "tier": "transport",
+    "name": "Ocean Freight – Newcastle to International Markets",
+    "country_iso2": "INTL",
+    "operator_id": "INTL_various_bulk_carriers",
+    "mode": "ocean_freight",
+    "form": "bulk_dry",
+    "range": "international",
+    "coordinates": {
+      "lat": -32.93,
+      "lon": 151.78
+    }
+  },
+  {
+    "id": "INTL_ocean_dbct-asia",
+    "tier": "transport",
+    "name": "Ocean Freight – DBCT to Asian Markets",
+    "country_iso2": "INTL",
+    "operator_id": "INTL_various_bulk_carriers",
+    "mode": "ocean_freight",
+    "form": "bulk_dry",
+    "range": "international",
+    "coordinates": {
+      "lat": -21.17,
+      "lon": 149.22
+    }
+  },
+  {
+    "id": "INTL_ocean_gladstone-asia",
+    "tier": "transport",
+    "name": "Ocean Freight – Gladstone to Asian Markets",
+    "country_iso2": "INTL",
+    "operator_id": "INTL_various_bulk_carriers",
+    "mode": "ocean_freight",
+    "form": "bulk_dry",
+    "range": "international",
+    "coordinates": {
+      "lat": -23.85,
+      "lon": 151.27
+    },
+    "resources": [
+      "Magnesium (mineral)"
+    ],
+    "upstream": [],
+    "downstream": []
+  },
+  {
+    "id": "INTL_ocean_abbot-point-india",
+    "tier": "transport",
+    "name": "Ocean Freight – Abbot Point to India",
+    "country_iso2": "INTL",
+    "operator_id": "INTL_various_bulk_carriers",
+    "mode": "ocean_freight",
+    "form": "bulk_dry",
+    "range": "international",
+    "coordinates": {
+      "lat": -10,
+      "lon": 130
+    }
+  },
+  {
+    "id": "INTL_ocean_abbot-point-asia",
+    "tier": "transport",
+    "name": "Ocean Freight – Abbot Point to Asia",
+    "country_iso2": "INTL",
+    "operator_id": "INTL_various_bulk_carriers",
+    "mode": "ocean_freight",
+    "form": "bulk_dry",
+    "range": "international",
+    "coordinates": {
+      "lat": -15,
+      "lon": 145
+    }
+  },
+  {
+    "id": "INTL_ocean_port-kembla-asia",
+    "tier": "transport",
+    "name": "Ocean Freight – Port Kembla to Asian Markets",
+    "country_iso2": "INTL",
+    "operator_id": "INTL_various_bulk_carriers",
+    "mode": "ocean_freight",
+    "form": "bulk_dry",
+    "range": "international",
+    "coordinates": {
+      "lat": -34.47,
+      "lon": 150.9
+    }
+  },
+  {
+    "id": "INTL_ocean_brisbane-asia",
+    "tier": "transport",
+    "name": "Ocean Freight – Brisbane to Asian Markets",
+    "country_iso2": "INTL",
+    "operator_id": "INTL_various_bulk_carriers",
+    "mode": "ocean_freight",
+    "form": "bulk_dry",
+    "range": "international",
+    "coordinates": {
+      "lat": -27.38,
+      "lon": 153.17
+    }
+  },
+  {
+    "id": "INTL_ocean_australia-japan",
+    "tier": "transport",
+    "name": "Ocean Freight – Australia to Japan",
+    "country_iso2": "INTL",
+    "operator_id": "INTL_various_bulk_carriers",
+    "mode": "ocean_freight",
+    "form": "bulk_dry",
+    "range": "international",
+    "coordinates": {
+      "lat": 10,
+      "lon": 145
+    }
+  },
+  {
+    "id": "INTL_ocean_australia-china",
+    "tier": "transport",
+    "name": "Ocean Freight – Australia to China",
+    "country_iso2": "INTL",
+    "operator_id": "INTL_various_bulk_carriers",
+    "mode": "ocean_freight",
+    "form": "bulk_dry",
+    "range": "international",
+    "coordinates": {
+      "lat": 5,
+      "lon": 135
+    }
+  },
+  {
+    "id": "INTL_ocean_australia-korea",
+    "tier": "transport",
+    "name": "Ocean Freight – Australia to South Korea",
+    "country_iso2": "INTL",
+    "operator_id": "INTL_various_bulk_carriers",
+    "mode": "ocean_freight",
+    "form": "bulk_dry",
+    "range": "international",
+    "coordinates": {
+      "lat": 12,
+      "lon": 140
+    }
+  },
+  {
+    "id": "INTL_ocean_australia-india",
+    "tier": "transport",
+    "name": "Ocean Freight – Australia to India",
+    "country_iso2": "INTL",
+    "operator_id": "INTL_various_bulk_carriers",
+    "mode": "ocean_freight",
+    "form": "bulk_dry",
+    "range": "international",
+    "coordinates": {
+      "lat": -5,
+      "lon": 110
+    }
+  },
+  {
+    "id": "INTL_ocean_australia-taiwan",
+    "tier": "transport",
+    "name": "Ocean Freight – Australia to Taiwan",
+    "country_iso2": "INTL",
+    "operator_id": "INTL_various_bulk_carriers",
+    "mode": "ocean_freight",
+    "form": "bulk_dry",
+    "range": "international",
+    "coordinates": {
+      "lat": 8,
+      "lon": 138
+    }
+  },
+  {
+    "id": "INTL_ocean_port-kembla-japan",
+    "tier": "transport",
+    "name": "Ocean Freight – Port Kembla to Japan",
+    "country_iso2": "INTL",
+    "operator_id": "INTL_various_bulk_carriers",
+    "mode": "ocean_freight",
+    "form": "bulk_dry",
+    "range": "international",
+    "coordinates": {
+      "lat": 0,
+      "lon": 150
+    }
+  },
+  {
+    "id": "INTL_ocean_port-kembla-india",
+    "tier": "transport",
+    "name": "Ocean Freight – Port Kembla to India",
+    "country_iso2": "INTL",
+    "operator_id": "INTL_various_bulk_carriers",
+    "mode": "ocean_freight",
+    "form": "bulk_dry",
+    "range": "international",
+    "coordinates": {
+      "lat": -15,
+      "lon": 120
+    }
+  },
+  {
+    "id": "INTL_ocean_port-kembla-korea",
+    "tier": "transport",
+    "name": "Ocean Freight – Port Kembla to South Korea",
+    "country_iso2": "INTL",
+    "operator_id": "INTL_various_bulk_carriers",
+    "mode": "ocean_freight",
+    "form": "bulk_dry",
+    "range": "international",
+    "coordinates": {
+      "lat": -5,
+      "lon": 148
+    }
+  },
+  {
+    "id": "INTL_ocean_brisbane-japan",
+    "tier": "transport",
+    "name": "Ocean Freight – Brisbane to Japan",
+    "country_iso2": "INTL",
+    "operator_id": "INTL_various_bulk_carriers",
+    "mode": "ocean_freight",
+    "form": "bulk_dry",
+    "range": "international",
+    "coordinates": {
+      "lat": 5,
+      "lon": 150
+    },
+    "resources": [
+      "Quartz",
+      "Pulpwood"
+    ],
+    "upstream": [],
+    "downstream": []
+  },
+  {
+    "id": "INTL_ocean_brisbane-korea",
+    "tier": "transport",
+    "name": "Ocean Freight – Brisbane to South Korea",
+    "country_iso2": "INTL",
+    "operator_id": "INTL_various_bulk_carriers",
+    "mode": "ocean_freight",
+    "form": "bulk_dry",
+    "range": "international",
+    "coordinates": {
+      "lat": 3,
+      "lon": 148
+    }
+  },
+  {
+    "id": "INTL_ocean_brisbane-taiwan",
+    "tier": "transport",
+    "name": "Ocean Freight – Brisbane to Taiwan",
+    "country_iso2": "INTL",
+    "operator_id": "INTL_various_bulk_carriers",
+    "mode": "ocean_freight",
+    "form": "bulk_dry",
+    "range": "international",
+    "coordinates": {
+      "lat": 0,
+      "lon": 145
+    }
+  },
+  {
+    "id": "AU_road_newcastle-local",
+    "tier": "transport",
+    "name": "Road – Newcastle Region Local Coal Distribution",
+    "country_iso2": "AU",
+    "operator_id": "AU_various_road_hauliers",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "local",
+    "coordinates": {
+      "lat": -32.9,
+      "lon": 151.7
+    }
+  },
+  {
+    "id": "AU_electrical-grid_nsw",
+    "tier": "transport",
+    "name": "NSW Electrical Grid (TransGrid / Ausgrid)",
+    "country_iso2": "AU",
+    "operator_id": "AU_transgrid",
+    "mode": "electrical_grid",
+    "form": "electrical",
+    "range": "regional",
+    "coordinates": {
+      "lat": -33.87,
+      "lon": 151.21
+    }
+  },
+  {
+    "id": "AU_electrical-grid_vic",
+    "tier": "transport",
+    "name": "Victoria Electrical Grid (AEMO / AusNet)",
+    "country_iso2": "AU",
+    "operator_id": "AU_ausnet_services",
+    "mode": "electrical_grid",
+    "form": "electrical",
+    "range": "regional",
+    "coordinates": {
+      "lat": -37.81,
+      "lon": 144.96
+    }
+  },
+  {
+    "id": "AU_electrical-grid_wa",
+    "tier": "transport",
+    "name": "Western Australia SWIS Grid (Western Power)",
+    "country_iso2": "AU",
+    "operator_id": "AU_western_power",
+    "mode": "electrical_grid",
+    "form": "electrical",
+    "range": "regional",
+    "coordinates": {
+      "lat": -31.95,
+      "lon": 115.86
+    }
+  },
+  {
+    "id": "AU_road_port-kembla-domestic",
+    "tier": "transport",
+    "name": "Road – Port Kembla Domestic Steel Distribution",
+    "country_iso2": "AU",
+    "operator_id": "AU_various_road_hauliers",
+    "mode": "road",
+    "form": "unit_load",
+    "range": "regional",
+    "coordinates": {
+      "lat": -34,
+      "lon": 150.9
+    },
+    "resources": [
+      "Zinc"
+    ],
+    "upstream": [],
+    "downstream": []
+  },
+  {
+    "id": "JP_road_domestic-distribution",
+    "tier": "transport",
+    "name": "Japan Domestic Road / Rail Distribution",
+    "country_iso2": "JP",
+    "operator_id": "JP_various_logistics",
+    "mode": "road",
+    "form": "unit_load",
+    "range": "regional",
+    "coordinates": {
+      "lat": 35.68,
+      "lon": 139.69
+    }
+  },
+  {
+    "id": "CN_road_domestic-distribution",
+    "tier": "transport",
+    "name": "China Domestic Road / Rail Distribution",
+    "country_iso2": "CN",
+    "operator_id": "CN_various_logistics",
+    "mode": "road",
+    "form": "unit_load",
+    "range": "regional",
+    "coordinates": {
+      "lat": 31.23,
+      "lon": 121.47
+    }
+  },
+  {
+    "id": "KR_road_domestic-distribution",
+    "tier": "transport",
+    "name": "South Korea Domestic Distribution",
+    "country_iso2": "KR",
+    "operator_id": "KR_various_logistics",
+    "mode": "road",
+    "form": "unit_load",
+    "range": "regional",
+    "coordinates": {
+      "lat": 37.57,
+      "lon": 126.98
+    }
+  },
+  {
+    "id": "IN_rail_domestic-distribution",
+    "tier": "transport",
+    "name": "India Domestic Rail Distribution",
+    "country_iso2": "IN",
+    "operator_id": "IN_indian_railways",
+    "mode": "rail",
+    "form": "bulk_dry",
+    "range": "regional",
+    "coordinates": {
+      "lat": 19.08,
+      "lon": 72.88
+    }
+  },
+  {
+    "id": "TW_electrical-grid_domestic",
+    "tier": "transport",
+    "name": "Taiwan Domestic Electrical Grid (Taipower)",
+    "country_iso2": "TW",
+    "operator_id": "TW_taipower",
+    "mode": "electrical_grid",
+    "form": "electrical",
+    "range": "regional",
+    "coordinates": {
+      "lat": 25.03,
+      "lon": 121.57
+    }
+  }
+]

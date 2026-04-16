@@ -1,0 +1,2316 @@
+[
+  {
+    "id": "AU_hanson_bass_point",
+    "name": "Hanson Bass Point Sand Quarry",
+    "tier": "extraction",
+    "country_iso2": "AU",
+    "canonical_company": "Hanson Australia",
+    "coordinates": {
+      "lat": -34.59,
+      "lon": 150.87
+    },
+    "downstream": [
+      {
+        "target_id": "AU_hanson_australia_concrete",
+        "corridor_id": "AU_road_bass-point-sydney",
+        "resource": "washed construction sand",
+        "quantity": 800000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_boral_concrete_nsw",
+        "corridor_id": "AU_road_bass-point-sydney",
+        "resource": "washed construction sand",
+        "quantity": 200000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_hanson_australia_processing_nsw",
+        "corridor_id": "AU_road_bass-point-to-sydney",
+        "resource": "crushed gravel aggregate",
+        "quantity": 2000000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_hanson_concrete_sydney",
+        "corridor_id": "AU_road_bass-point-sydney",
+        "resource": "limestone aggregate",
+        "quantity": 1200000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_hanson_australia_processing",
+        "corridor_id": "AU_road_bass-point-sydney",
+        "resource": "raw granite aggregate",
+        "quantity": 1500000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Sand",
+      "Gravel",
+      "Limestone",
+      "Granite"
+    ]
+  },
+  {
+    "id": "AU_hanson_lochinvar",
+    "name": "Hanson Lochinvar Sand Quarry",
+    "tier": "extraction",
+    "country_iso2": "AU",
+    "canonical_company": "Hanson Australia",
+    "coordinates": {
+      "lat": -32.71,
+      "lon": 151.47
+    },
+    "downstream": [
+      {
+        "target_id": "AU_hanson_australia_concrete",
+        "corridor_id": "AU_road_hunter-valley-sydney",
+        "resource": "washed construction sand",
+        "quantity": 600000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Sand"
+    ]
+  },
+  {
+    "id": "AU_boral_penrith_lakes",
+    "name": "Boral Penrith Lakes Sand Extraction",
+    "tier": "extraction",
+    "country_iso2": "AU",
+    "canonical_company": "Boral Limited",
+    "coordinates": {
+      "lat": -33.73,
+      "lon": 150.66
+    },
+    "downstream": [
+      {
+        "target_id": "AU_boral_concrete_nsw",
+        "corridor_id": "AU_road_penrith-western-sydney",
+        "resource": "fine and coarse sand",
+        "quantity": 700000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_boral_asphalt_nsw",
+        "corridor_id": "AU_road_penrith-western-sydney",
+        "resource": "fine sand",
+        "quantity": 150000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Sand"
+    ]
+  },
+  {
+    "id": "AU_boral_ormeau",
+    "name": "Boral Ormeau Sand Quarry",
+    "tier": "extraction",
+    "country_iso2": "AU",
+    "canonical_company": "Boral Limited",
+    "coordinates": {
+      "lat": -27.77,
+      "lon": 153.24
+    },
+    "downstream": [
+      {
+        "target_id": "AU_boral_concrete_qld",
+        "corridor_id": "AU_road_ormeau-brisbane",
+        "resource": "washed concrete sand",
+        "quantity": 500000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_boral_processing_qld",
+        "corridor_id": "AU_road_ormeau-to-brisbane",
+        "resource": "crushed gravel aggregate",
+        "quantity": 1500000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_boral_limited_processing",
+        "corridor_id": "AU_road_ormeau-brisbane",
+        "resource": "raw granite aggregate",
+        "quantity": 1000000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Sand",
+      "Gravel",
+      "Granite"
+    ]
+  },
+  {
+    "id": "AU_boral_deer_park",
+    "name": "Boral Deer Park Sand Quarry",
+    "tier": "extraction",
+    "country_iso2": "AU",
+    "canonical_company": "Boral Limited",
+    "coordinates": {
+      "lat": -37.77,
+      "lon": 144.77
+    },
+    "downstream": [
+      {
+        "target_id": "AU_boral_concrete_vic",
+        "corridor_id": "AU_road_deer-park-melbourne",
+        "resource": "washed construction sand",
+        "quantity": 450000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Sand"
+    ]
+  },
+  {
+    "id": "AU_holcim_lynwood",
+    "name": "Holcim Lynwood Sand Quarry",
+    "tier": "extraction",
+    "country_iso2": "AU",
+    "canonical_company": "Holcim Australia",
+    "coordinates": {
+      "lat": -34.04,
+      "lon": 150.78
+    },
+    "downstream": [
+      {
+        "target_id": "AU_holcim_concrete_nsw",
+        "corridor_id": "AU_road_lynwood-sydney",
+        "resource": "concrete sand",
+        "quantity": 500000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_holcim_processing_nsw",
+        "corridor_id": "AU_road_lynwood-to-sydney",
+        "resource": "crushed gravel aggregate",
+        "quantity": 1800000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_holcim_concrete_sydney",
+        "corridor_id": "AU_rail_lynwood-sydney",
+        "resource": "limestone aggregate",
+        "quantity": 1200000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Sand",
+      "Gravel",
+      "Limestone"
+    ]
+  },
+  {
+    "id": "AU_holcim_calga",
+    "name": "Holcim Calga Sand Quarry",
+    "tier": "extraction",
+    "country_iso2": "AU",
+    "canonical_company": "Holcim Australia",
+    "coordinates": {
+      "lat": -33.43,
+      "lon": 151.23
+    },
+    "downstream": [
+      {
+        "target_id": "AU_holcim_concrete_nsw",
+        "corridor_id": "AU_road_calga-sydney",
+        "resource": "washed sand",
+        "quantity": 400000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Sand"
+    ]
+  },
+  {
+    "id": "AU_adelaide_brighton_hendon",
+    "name": "Adelaide Brighton / Adbri Hendon Sand Plant",
+    "tier": "extraction",
+    "country_iso2": "AU",
+    "canonical_company": "Adbri Limited",
+    "coordinates": {
+      "lat": -34.88,
+      "lon": 138.56
+    },
+    "downstream": [
+      {
+        "target_id": "AU_adbri_concrete_sa",
+        "corridor_id": "AU_road_hendon-adelaide",
+        "resource": "washed sand",
+        "quantity": 350000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Sand"
+    ]
+  },
+  {
+    "id": "AU_rocla_maroota",
+    "name": "Rocla Maroota Sand Quarry",
+    "tier": "extraction",
+    "country_iso2": "AU",
+    "canonical_company": "Rocla Quarry Products",
+    "coordinates": {
+      "lat": -33.49,
+      "lon": 151
+    },
+    "downstream": [
+      {
+        "target_id": "AU_boral_concrete_nsw",
+        "corridor_id": "AU_road_maroota-sydney",
+        "resource": "concrete sand",
+        "quantity": 350000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_holcim_concrete_nsw",
+        "corridor_id": "AU_road_maroota-sydney",
+        "resource": "concrete sand",
+        "quantity": 150000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Sand"
+    ]
+  },
+  {
+    "id": "AU_csr_piles_creek",
+    "name": "CSR Piles Creek Sand Quarry",
+    "tier": "extraction",
+    "country_iso2": "AU",
+    "canonical_company": "CSR Limited",
+    "coordinates": {
+      "lat": -33.51,
+      "lon": 151.16
+    },
+    "downstream": [
+      {
+        "target_id": "AU_csr_building_products",
+        "corridor_id": "AU_road_piles-creek-sydney",
+        "resource": "brick and masonry sand",
+        "quantity": 200000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Sand"
+    ]
+  },
+  {
+    "id": "AU_hanson_jandakot",
+    "name": "Hanson Jandakot Sand Quarry",
+    "tier": "extraction",
+    "country_iso2": "AU",
+    "canonical_company": "Hanson Australia",
+    "coordinates": {
+      "lat": -32.11,
+      "lon": 115.87
+    },
+    "downstream": [
+      {
+        "target_id": "AU_hanson_concrete_wa",
+        "corridor_id": "AU_road_jandakot-perth",
+        "resource": "washed construction sand",
+        "quantity": 400000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Sand"
+    ]
+  },
+  {
+    "id": "AU_holcim_mundijong",
+    "name": "Holcim Mundijong Sand Quarry",
+    "tier": "extraction",
+    "country_iso2": "AU",
+    "canonical_company": "Holcim Australia",
+    "coordinates": {
+      "lat": -32.29,
+      "lon": 115.88
+    },
+    "downstream": [
+      {
+        "target_id": "AU_holcim_concrete_wa",
+        "corridor_id": "AU_road_mundijong-perth",
+        "resource": "concrete sand",
+        "quantity": 350000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Sand"
+    ]
+  },
+  {
+    "id": "AU_boral_wungong",
+    "name": "Boral Wungong Sand Quarry",
+    "tier": "extraction",
+    "country_iso2": "AU",
+    "canonical_company": "Boral Limited",
+    "coordinates": {
+      "lat": -32.17,
+      "lon": 116.01
+    },
+    "downstream": [
+      {
+        "target_id": "AU_boral_concrete_wa",
+        "corridor_id": "AU_road_wungong-perth",
+        "resource": "washed concrete sand",
+        "quantity": 300000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Sand"
+    ]
+  },
+  {
+    "id": "AU_sibelco_cape_flattery",
+    "name": "Sibelco Cape Flattery Silica Sand Mine",
+    "tier": "extraction",
+    "country_iso2": "AU",
+    "canonical_company": "Sibelco Asia Pacific",
+    "coordinates": {
+      "lat": -14.95,
+      "lon": 145.32
+    },
+    "downstream": [
+      {
+        "target_id": "AU_sibelco_processing_qld",
+        "corridor_id": "AU_conveyor_cape-flattery-port",
+        "resource": "raw silica sand",
+        "quantity": 2500000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Sand"
+    ]
+  },
+  {
+    "id": "AU_doral_kemerton",
+    "name": "Doral Kemerton Mineral Sand & Silica Processing",
+    "tier": "extraction",
+    "country_iso2": "AU",
+    "canonical_company": "Doral Mineral Sands",
+    "coordinates": {
+      "lat": -33.14,
+      "lon": 115.74
+    },
+    "downstream": [
+      {
+        "target_id": "AU_doral_processed_silica",
+        "corridor_id": "AU_road_kemerton-bunbury",
+        "resource": "processed silica sand",
+        "quantity": 300000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Sand"
+    ]
+  },
+  {
+    "id": "AU_hanson_condell_park",
+    "name": "Hanson Condell Park Sand Plant",
+    "tier": "extraction",
+    "country_iso2": "AU",
+    "canonical_company": "Hanson Australia",
+    "coordinates": {
+      "lat": -33.92,
+      "lon": 151.01
+    },
+    "downstream": [
+      {
+        "target_id": "AU_hanson_australia_concrete",
+        "corridor_id": "AU_road_condell-park-sydney",
+        "resource": "manufactured sand",
+        "quantity": 300000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Sand"
+    ]
+  },
+  {
+    "id": "AU_concrush_narangba",
+    "name": "Concrush Narangba Sand Quarry",
+    "tier": "extraction",
+    "country_iso2": "AU",
+    "canonical_company": "Concrush Pty Ltd",
+    "coordinates": {
+      "lat": -27.2,
+      "lon": 152.96
+    },
+    "downstream": [
+      {
+        "target_id": "AU_boral_concrete_qld",
+        "corridor_id": "AU_road_narangba-brisbane",
+        "resource": "washed construction sand",
+        "quantity": 200000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Sand"
+    ]
+  },
+  {
+    "id": "AU_fulton_hogan_rowville",
+    "name": "Fulton Hogan Rowville Sand Quarry",
+    "tier": "extraction",
+    "country_iso2": "AU",
+    "canonical_company": "Fulton Hogan",
+    "coordinates": {
+      "lat": -37.92,
+      "lon": 145.23
+    },
+    "downstream": [
+      {
+        "target_id": "AU_fulton_hogan_concrete_vic",
+        "corridor_id": "AU_road_rowville-melbourne",
+        "resource": "concrete sand",
+        "quantity": 300000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Sand"
+    ]
+  },
+  {
+    "id": "AU_adelaide_resource_maslin",
+    "name": "Adelaide Resource Maslin Beach Sand Quarry",
+    "tier": "extraction",
+    "country_iso2": "AU",
+    "canonical_company": "Adelaide Resource Company",
+    "coordinates": {
+      "lat": -35.23,
+      "lon": 138.49
+    },
+    "downstream": [
+      {
+        "target_id": "AU_adbri_concrete_sa",
+        "corridor_id": "AU_road_maslin-adelaide",
+        "resource": "washed sand",
+        "quantity": 200000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Sand"
+    ]
+  },
+  {
+    "id": "AU_nucrush_karratha",
+    "name": "Nucrush Karratha Sand Quarry",
+    "tier": "extraction",
+    "country_iso2": "AU",
+    "canonical_company": "Nucrush Pty Ltd",
+    "coordinates": {
+      "lat": -20.73,
+      "lon": 116.85
+    },
+    "downstream": [
+      {
+        "target_id": "AU_nucrush_concrete_wa",
+        "corridor_id": "AU_road_karratha-local",
+        "resource": "washed concrete sand",
+        "quantity": 150000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Sand"
+    ]
+  },
+  {
+    "id": "AU_hanson_australia_concrete",
+    "name": "Hanson Australia — Concrete Batching (National)",
+    "tier": "processor",
+    "country_iso2": "AU",
+    "canonical_company": "Hanson Australia",
+    "coordinates": {
+      "lat": -33.87,
+      "lon": 151.21
+    },
+    "downstream": [
+      {
+        "target_id": "AU_hanson_precast_nsw",
+        "corridor_id": "AU_road_sydney-metro-delivery",
+        "resource": "ready-mix concrete (sand component)",
+        "quantity": 950000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_cpb_contractors",
+        "corridor_id": "AU_road_sydney-metro-delivery",
+        "resource": "ready-mix concrete (sand component)",
+        "quantity": 500000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_lendlease_construction",
+        "corridor_id": "AU_road_sydney-metro-delivery",
+        "resource": "ready-mix concrete (sand component)",
+        "quantity": 250000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_hanson_bass_point",
+      "AU_hanson_lochinvar",
+      "AU_hanson_condell_park"
+    ],
+    "resources": [
+      "Sand"
+    ]
+  },
+  {
+    "id": "AU_boral_concrete_nsw",
+    "name": "Boral Concrete — NSW Operations",
+    "tier": "processor",
+    "country_iso2": "AU",
+    "canonical_company": "Boral Limited",
+    "coordinates": {
+      "lat": -33.85,
+      "lon": 151.03
+    },
+    "downstream": [
+      {
+        "target_id": "AU_boral_precast_nsw",
+        "corridor_id": "AU_road_sydney-metro-delivery",
+        "resource": "ready-mix concrete (sand component)",
+        "quantity": 600000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_multiplex_constructions",
+        "corridor_id": "AU_road_sydney-metro-delivery",
+        "resource": "ready-mix concrete (sand component)",
+        "quantity": 350000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_john_holland",
+        "corridor_id": "AU_road_sydney-metro-delivery",
+        "resource": "ready-mix concrete (sand component)",
+        "quantity": 350000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_cpb_contractors",
+        "corridor_id": "AU_road_sydney-metro-distribution",
+        "resource": "ready-mix concrete (gravel aggregate)",
+        "quantity": 800000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_lendlease",
+        "corridor_id": "AU_road_sydney-metro-distribution",
+        "resource": "ready-mix concrete (gravel aggregate)",
+        "quantity": 700000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_hanson_bass_point",
+      "AU_boral_penrith_lakes",
+      "AU_rocla_maroota",
+      "AU_boral_processing_nsw"
+    ],
+    "resources": [
+      "Sand",
+      "Gravel"
+    ]
+  },
+  {
+    "id": "AU_boral_concrete_qld",
+    "name": "Boral Concrete — QLD Operations",
+    "tier": "processor",
+    "country_iso2": "AU",
+    "canonical_company": "Boral Limited",
+    "coordinates": {
+      "lat": -27.47,
+      "lon": 153.03
+    },
+    "downstream": [
+      {
+        "target_id": "AU_boral_precast_qld",
+        "corridor_id": "AU_road_brisbane-metro-delivery",
+        "resource": "ready-mix concrete (sand component)",
+        "quantity": 400000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_georgiou_group",
+        "corridor_id": "AU_road_brisbane-metro-delivery",
+        "resource": "ready-mix concrete (sand component)",
+        "quantity": 300000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_cpb_contractors",
+        "corridor_id": "AU_road_brisbane-metro-distribution",
+        "resource": "ready-mix concrete (gravel aggregate)",
+        "quantity": 400000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_lendlease",
+        "corridor_id": "AU_road_brisbane-metro-distribution",
+        "resource": "ready-mix concrete (gravel aggregate)",
+        "quantity": 400000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_boral_ormeau",
+      "AU_concrush_narangba",
+      "AU_boral_processing_qld"
+    ],
+    "resources": [
+      "Sand",
+      "Gravel"
+    ]
+  },
+  {
+    "id": "AU_boral_concrete_vic",
+    "name": "Boral Concrete — VIC Operations",
+    "tier": "processor",
+    "country_iso2": "AU",
+    "canonical_company": "Boral Limited",
+    "coordinates": {
+      "lat": -37.81,
+      "lon": 144.96
+    },
+    "downstream": [
+      {
+        "target_id": "AU_boral_precast_vic",
+        "corridor_id": "AU_road_melbourne-metro-delivery",
+        "resource": "ready-mix concrete (sand component)",
+        "quantity": 250000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_cpb_contractors",
+        "corridor_id": "AU_road_melbourne-metro-delivery",
+        "resource": "ready-mix concrete (sand component)",
+        "quantity": 200000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_john_holland",
+        "corridor_id": "AU_road_melbourne-metro-distribution",
+        "resource": "ready-mix concrete (gravel aggregate)",
+        "quantity": 300000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_lendlease",
+        "corridor_id": "AU_road_melbourne-metro-distribution",
+        "resource": "ready-mix concrete (gravel aggregate)",
+        "quantity": 300000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_boral_deer_park",
+      "AU_boral_processing_vic"
+    ],
+    "resources": [
+      "Sand",
+      "Gravel"
+    ]
+  },
+  {
+    "id": "AU_boral_concrete_wa",
+    "name": "Boral Concrete — WA Operations",
+    "tier": "processor",
+    "country_iso2": "AU",
+    "canonical_company": "Boral Limited",
+    "coordinates": {
+      "lat": -31.95,
+      "lon": 115.86
+    },
+    "downstream": [
+      {
+        "target_id": "AU_georgiou_group",
+        "corridor_id": "AU_road_perth-metro-delivery",
+        "resource": "ready-mix concrete (sand component)",
+        "quantity": 300000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_georgiou_group",
+        "corridor_id": "AU_road_perth-metro-distribution",
+        "resource": "ready-mix concrete (gravel aggregate)",
+        "quantity": 300000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_cpb_contractors",
+        "corridor_id": "AU_road_perth-metro-distribution",
+        "resource": "ready-mix concrete (gravel aggregate)",
+        "quantity": 200000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_boral_wungong",
+      "AU_boral_processing_wa"
+    ],
+    "resources": [
+      "Sand",
+      "Gravel"
+    ]
+  },
+  {
+    "id": "AU_boral_asphalt_nsw",
+    "name": "Boral Asphalt — NSW Operations",
+    "tier": "processor",
+    "country_iso2": "AU",
+    "canonical_company": "Boral Limited",
+    "coordinates": {
+      "lat": -33.86,
+      "lon": 151.08
+    },
+    "downstream": [
+      {
+        "target_id": "AU_fulton_hogan_road_nsw",
+        "corridor_id": "AU_road_sydney-metro-delivery",
+        "resource": "asphalt mix (sand component)",
+        "quantity": 150000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_cpb_contractors",
+        "corridor_id": "AU_road_sydney-metro-distribution",
+        "resource": "asphalt (gravel-based)",
+        "quantity": 800000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_john_holland",
+        "corridor_id": "AU_road_sydney-metro-distribution",
+        "resource": "asphalt (gravel-based)",
+        "quantity": 400000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_acciona_geotech",
+        "corridor_id": "AU_road_sydney-metro-distribution",
+        "resource": "asphalt (gravel-based)",
+        "quantity": 400000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_boral_penrith_lakes",
+      "AU_hanson_australia_processing_nsw",
+      "AU_boral_processing_nsw"
+    ],
+    "resources": [
+      "Sand",
+      "Gravel"
+    ]
+  },
+  {
+    "id": "AU_holcim_concrete_nsw",
+    "name": "Holcim Concrete — NSW Operations",
+    "tier": "processor",
+    "country_iso2": "AU",
+    "canonical_company": "Holcim Australia",
+    "coordinates": {
+      "lat": -33.89,
+      "lon": 151.1
+    },
+    "downstream": [
+      {
+        "target_id": "AU_holcim_precast_nsw",
+        "corridor_id": "AU_road_sydney-metro-delivery",
+        "resource": "ready-mix concrete (sand component)",
+        "quantity": 500000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_lendlease_construction",
+        "corridor_id": "AU_road_sydney-metro-delivery",
+        "resource": "ready-mix concrete (sand component)",
+        "quantity": 250000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_john_holland",
+        "corridor_id": "AU_road_sydney-metro-delivery",
+        "resource": "ready-mix concrete (sand component)",
+        "quantity": 150000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_acciona_geotech",
+        "corridor_id": "AU_road_sydney-metro-distribution",
+        "resource": "ready-mix concrete (gravel aggregate)",
+        "quantity": 500000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_lendlease",
+        "corridor_id": "AU_road_sydney-metro-distribution",
+        "resource": "ready-mix concrete (gravel aggregate)",
+        "quantity": 400000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_holcim_lynwood",
+      "AU_holcim_calga",
+      "AU_rocla_maroota",
+      "AU_holcim_processing_nsw"
+    ],
+    "resources": [
+      "Sand",
+      "Gravel"
+    ]
+  },
+  {
+    "id": "AU_holcim_concrete_wa",
+    "name": "Holcim Concrete — WA Operations",
+    "tier": "processor",
+    "country_iso2": "AU",
+    "canonical_company": "Holcim Australia",
+    "coordinates": {
+      "lat": -31.95,
+      "lon": 115.86
+    },
+    "downstream": [
+      {
+        "target_id": "AU_multiplex_constructions",
+        "corridor_id": "AU_road_perth-metro-delivery",
+        "resource": "ready-mix concrete (sand component)",
+        "quantity": 350000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_holcim_mundijong"
+    ],
+    "resources": [
+      "Sand"
+    ]
+  },
+  {
+    "id": "AU_hanson_concrete_wa",
+    "name": "Hanson Concrete — WA Operations",
+    "tier": "processor",
+    "country_iso2": "AU",
+    "canonical_company": "Hanson Australia",
+    "coordinates": {
+      "lat": -31.95,
+      "lon": 115.86
+    },
+    "downstream": [
+      {
+        "target_id": "AU_cpb_contractors",
+        "corridor_id": "AU_road_perth-metro-delivery",
+        "resource": "ready-mix concrete (sand component)",
+        "quantity": 400000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_hanson_jandakot"
+    ],
+    "resources": [
+      "Sand"
+    ]
+  },
+  {
+    "id": "AU_adbri_concrete_sa",
+    "name": "Adbri Concrete — SA Operations",
+    "tier": "processor",
+    "country_iso2": "AU",
+    "canonical_company": "Adbri Limited",
+    "coordinates": {
+      "lat": -34.93,
+      "lon": 138.6
+    },
+    "downstream": [
+      {
+        "target_id": "AU_adbri_precast_sa",
+        "corridor_id": "AU_road_adelaide-metro-delivery",
+        "resource": "ready-mix concrete (sand component)",
+        "quantity": 300000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_badge_constructions",
+        "corridor_id": "AU_road_adelaide-metro-delivery",
+        "resource": "ready-mix concrete (sand component)",
+        "quantity": 250000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_mcconnell_dowell",
+        "corridor_id": "AU_road_adelaide-metro-distribution",
+        "resource": "ready-mix concrete (gravel aggregate)",
+        "quantity": 200000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_fulton_hogan_contracting_sa",
+        "corridor_id": "AU_road_adelaide-metro-distribution",
+        "resource": "ready-mix concrete (gravel aggregate)",
+        "quantity": 200000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_adelaide_brighton_hendon",
+      "AU_adelaide_resource_maslin",
+      "AU_adbri_processing_sa"
+    ],
+    "resources": [
+      "Sand",
+      "Gravel"
+    ]
+  },
+  {
+    "id": "AU_fulton_hogan_concrete_vic",
+    "name": "Fulton Hogan Concrete — VIC Operations",
+    "tier": "processor",
+    "country_iso2": "AU",
+    "canonical_company": "Fulton Hogan",
+    "coordinates": {
+      "lat": -37.82,
+      "lon": 145.05
+    },
+    "downstream": [
+      {
+        "target_id": "AU_fulton_hogan_precast_vic",
+        "corridor_id": "AU_road_melbourne-metro-delivery",
+        "resource": "ready-mix concrete (sand component)",
+        "quantity": 300000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_fulton_hogan_rowville"
+    ],
+    "resources": [
+      "Sand"
+    ]
+  },
+  {
+    "id": "AU_nucrush_concrete_wa",
+    "name": "Nucrush Concrete — Pilbara Operations",
+    "tier": "processor",
+    "country_iso2": "AU",
+    "canonical_company": "Nucrush Pty Ltd",
+    "coordinates": {
+      "lat": -20.74,
+      "lon": 116.85
+    },
+    "downstream": [
+      {
+        "target_id": "AU_monadelphous_group",
+        "corridor_id": "AU_road_karratha-local",
+        "resource": "ready-mix concrete (sand component)",
+        "quantity": 150000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_nucrush_karratha"
+    ],
+    "resources": [
+      "Sand"
+    ]
+  },
+  {
+    "id": "AU_sibelco_processing_qld",
+    "name": "Sibelco Cape Flattery Processing & Port",
+    "tier": "processor",
+    "country_iso2": "AU",
+    "canonical_company": "Sibelco Asia Pacific",
+    "coordinates": {
+      "lat": -14.95,
+      "lon": 145.32
+    },
+    "downstream": [
+      {
+        "target_id": "AU_csr_building_products",
+        "corridor_id": "INTL_ocean_cape-flattery-sydney",
+        "resource": "processed silica sand",
+        "quantity": 500000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_sibelco_glass_sand_export",
+        "corridor_id": "INTL_ocean_cape-flattery-asia",
+        "resource": "high-purity silica sand",
+        "quantity": 2000000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_sibelco_cape_flattery"
+    ],
+    "resources": [
+      "Sand"
+    ]
+  },
+  {
+    "id": "AU_doral_processed_silica",
+    "name": "Doral Processed Silica Sand — WA",
+    "tier": "processor",
+    "country_iso2": "AU",
+    "canonical_company": "Doral Mineral Sands",
+    "coordinates": {
+      "lat": -33.14,
+      "lon": 115.74
+    },
+    "downstream": [
+      {
+        "target_id": "AU_csr_building_products",
+        "corridor_id": "AU_road_bunbury-perth",
+        "resource": "processed silica sand for glass",
+        "quantity": 150000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_sibelco_glass_sand_export",
+        "corridor_id": "INTL_ocean_bunbury-asia",
+        "resource": "processed silica sand",
+        "quantity": 150000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_doral_kemerton"
+    ],
+    "resources": [
+      "Sand"
+    ]
+  },
+  {
+    "id": "AU_hanson_precast_nsw",
+    "name": "Hanson Precast Concrete Products — NSW",
+    "tier": "building_products",
+    "country_iso2": "AU",
+    "canonical_company": "Hanson Australia",
+    "coordinates": {
+      "lat": -33.86,
+      "lon": 151.06
+    },
+    "downstream": [
+      {
+        "target_id": "AU_cpb_contractors",
+        "corridor_id": "AU_road_sydney-metro-delivery",
+        "resource": "precast concrete elements",
+        "quantity": 500000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_lendlease_construction",
+        "corridor_id": "AU_road_sydney-metro-delivery",
+        "resource": "precast concrete elements",
+        "quantity": 250000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_john_holland",
+        "corridor_id": "AU_road_sydney-metro-delivery",
+        "resource": "precast concrete elements",
+        "quantity": 200000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_hanson_australia_concrete"
+    ],
+    "resources": [
+      "Sand"
+    ]
+  },
+  {
+    "id": "AU_boral_precast_nsw",
+    "name": "Boral Precast & Masonry — NSW",
+    "tier": "building_products",
+    "country_iso2": "AU",
+    "canonical_company": "Boral Limited",
+    "coordinates": {
+      "lat": -33.89,
+      "lon": 150.97
+    },
+    "downstream": [
+      {
+        "target_id": "AU_multiplex_constructions",
+        "corridor_id": "AU_road_sydney-metro-delivery",
+        "resource": "precast concrete and masonry products",
+        "quantity": 350000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_lendlease_construction",
+        "corridor_id": "AU_road_sydney-metro-delivery",
+        "resource": "precast concrete and masonry products",
+        "quantity": 250000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_boral_concrete_nsw"
+    ],
+    "resources": [
+      "Sand"
+    ]
+  },
+  {
+    "id": "AU_boral_precast_qld",
+    "name": "Boral Precast & Masonry — QLD",
+    "tier": "building_products",
+    "country_iso2": "AU",
+    "canonical_company": "Boral Limited",
+    "coordinates": {
+      "lat": -27.5,
+      "lon": 153.05
+    },
+    "downstream": [
+      {
+        "target_id": "AU_georgiou_group",
+        "corridor_id": "AU_road_brisbane-metro-delivery",
+        "resource": "precast concrete products",
+        "quantity": 400000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_boral_concrete_qld"
+    ],
+    "resources": [
+      "Sand"
+    ]
+  },
+  {
+    "id": "AU_boral_precast_vic",
+    "name": "Boral Precast & Masonry — VIC",
+    "tier": "building_products",
+    "country_iso2": "AU",
+    "canonical_company": "Boral Limited",
+    "coordinates": {
+      "lat": -37.8,
+      "lon": 144.88
+    },
+    "downstream": [
+      {
+        "target_id": "AU_cpb_contractors",
+        "corridor_id": "AU_road_melbourne-metro-delivery",
+        "resource": "precast concrete products",
+        "quantity": 250000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_boral_concrete_vic"
+    ],
+    "resources": [
+      "Sand"
+    ]
+  },
+  {
+    "id": "AU_holcim_precast_nsw",
+    "name": "Holcim Precast Concrete Products — NSW",
+    "tier": "building_products",
+    "country_iso2": "AU",
+    "canonical_company": "Holcim Australia",
+    "coordinates": {
+      "lat": -33.88,
+      "lon": 151.06
+    },
+    "downstream": [
+      {
+        "target_id": "AU_cpb_contractors",
+        "corridor_id": "AU_road_sydney-metro-delivery",
+        "resource": "precast concrete elements",
+        "quantity": 300000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_john_holland",
+        "corridor_id": "AU_road_sydney-metro-delivery",
+        "resource": "precast concrete elements",
+        "quantity": 200000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_holcim_concrete_nsw"
+    ],
+    "resources": [
+      "Sand"
+    ]
+  },
+  {
+    "id": "AU_adbri_precast_sa",
+    "name": "Adbri Precast & Masonry — SA",
+    "tier": "building_products",
+    "country_iso2": "AU",
+    "canonical_company": "Adbri Limited",
+    "coordinates": {
+      "lat": -34.85,
+      "lon": 138.62
+    },
+    "downstream": [
+      {
+        "target_id": "AU_badge_constructions",
+        "corridor_id": "AU_road_adelaide-metro-delivery",
+        "resource": "precast concrete and masonry blocks",
+        "quantity": 300000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_adbri_concrete_sa"
+    ],
+    "resources": [
+      "Sand"
+    ]
+  },
+  {
+    "id": "AU_fulton_hogan_precast_vic",
+    "name": "Fulton Hogan Precast & Road Products — VIC",
+    "tier": "building_products",
+    "country_iso2": "AU",
+    "canonical_company": "Fulton Hogan",
+    "coordinates": {
+      "lat": -37.82,
+      "lon": 145.05
+    },
+    "downstream": [
+      {
+        "target_id": "AU_cpb_contractors",
+        "corridor_id": "AU_road_melbourne-metro-delivery",
+        "resource": "precast road and infrastructure products",
+        "quantity": 300000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_fulton_hogan_concrete_vic"
+    ],
+    "resources": [
+      "Sand"
+    ]
+  },
+  {
+    "id": "AU_fulton_hogan_road_nsw",
+    "name": "Fulton Hogan Road Surfacing — NSW",
+    "tier": "building_products",
+    "country_iso2": "AU",
+    "canonical_company": "Fulton Hogan",
+    "coordinates": {
+      "lat": -33.88,
+      "lon": 151.12
+    },
+    "downstream": [
+      {
+        "target_id": "AU_cpb_contractors",
+        "corridor_id": "AU_road_sydney-metro-delivery",
+        "resource": "asphalt road surfacing product",
+        "quantity": 100000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_infrastructure",
+        "corridor_id": "AU_road_sydney-metro-delivery",
+        "resource": "asphalt road surfacing product",
+        "quantity": 50000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_boral_asphalt_nsw"
+    ],
+    "resources": [
+      "Sand"
+    ]
+  },
+  {
+    "id": "AU_csr_building_products",
+    "name": "CSR Building Products (PGH Bricks, Viridian Glass)",
+    "tier": "building_products",
+    "country_iso2": "AU",
+    "canonical_company": "CSR Limited",
+    "coordinates": {
+      "lat": -33.83,
+      "lon": 151.03
+    },
+    "downstream": [
+      {
+        "target_id": "AU_lendlease_construction",
+        "corridor_id": "AU_road_sydney-metro-delivery",
+        "resource": "bricks, glass and building products",
+        "quantity": 350000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_multiplex_constructions",
+        "corridor_id": "AU_road_sydney-metro-delivery",
+        "resource": "glass and building products",
+        "quantity": 200000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_residential",
+        "corridor_id": "AU_road_sydney-metro-delivery",
+        "resource": "bricks and building products",
+        "quantity": 100000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_lendlease",
+        "corridor_id": "AU_road_sydney-distribution",
+        "resource": "marble-filled building boards and panels",
+        "quantity": 25000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_multiplex",
+        "corridor_id": "AU_road_sydney-distribution",
+        "resource": "marble-filled building materials",
+        "quantity": 15000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_residential",
+        "corridor_id": "AU_road_sydney-distribution",
+        "resource": "marble-based building products (retail)",
+        "quantity": 18000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_construction_manufacturers",
+        "corridor_id": "AU_road_sydney-national",
+        "resource": "mica-reinforced building panels / insulation boards",
+        "quantity": 150,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_csr_piles_creek",
+      "AU_sibelco_processing_qld",
+      "AU_doral_processed_silica",
+      "AU_omya_australia_processing",
+      "AU_sibelco_processing_townsville",
+      "AU_boral_processing_sydney",
+      "AU_hanson_processing_melbourne",
+      "AU_lmag_speciality_minerals"
+    ],
+    "resources": [
+      "Sand",
+      "Marble",
+      "Mica"
+    ]
+  },
+  {
+    "id": "AU_sibelco_glass_sand_export",
+    "name": "Sibelco Glass & Industrial Silica Sand (Export Aggregation)",
+    "tier": "building_products",
+    "country_iso2": "AU",
+    "canonical_company": "Sibelco Asia Pacific",
+    "coordinates": {
+      "lat": -14.95,
+      "lon": 145.32
+    },
+    "downstream": [
+      {
+        "target_id": "INTL_industrial",
+        "corridor_id": "INTL_ocean_cape-flattery-asia",
+        "resource": "high-purity silica sand for glass and foundry",
+        "quantity": 2150000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_sibelco_processing_qld",
+      "AU_doral_processed_silica"
+    ],
+    "resources": [
+      "Sand"
+    ]
+  },
+  {
+    "id": "AU_cpb_contractors",
+    "name": "CPB Contractors (CIMIC Group)",
+    "tier": "contractor",
+    "country_iso2": "AU",
+    "canonical_company": "CPB Contractors",
+    "coordinates": {
+      "lat": -33.8,
+      "lon": 151.06
+    },
+    "downstream": [
+      {
+        "target_id": "AU_infrastructure",
+        "corridor_id": "AU_road_national-infra-delivery",
+        "resource": "sand in constructed infrastructure",
+        "quantity": 1200000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_government",
+        "corridor_id": "AU_road_national-infra-delivery",
+        "resource": "sand in public infrastructure projects",
+        "quantity": 550000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_infrastructure",
+        "corridor_id": "AU_road_sydney-metro-distribution",
+        "resource": "gravel in infrastructure projects",
+        "quantity": 2500000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_government",
+        "corridor_id": "AU_road_sydney-metro-distribution",
+        "resource": "gravel in public works",
+        "quantity": 1200000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_infrastructure",
+        "corridor_id": "AU_road_cpb-project-sites",
+        "resource": "granite-based construction materials (concrete, asphalt, precast)",
+        "quantity": 2200000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_government",
+        "corridor_id": "AU_road_cpb-project-sites",
+        "resource": "granite-based construction materials for public works",
+        "quantity": 900000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_hanson_australia_concrete",
+      "AU_boral_concrete_vic",
+      "AU_hanson_concrete_wa",
+      "AU_hanson_precast_nsw",
+      "AU_boral_precast_vic",
+      "AU_holcim_precast_nsw",
+      "AU_fulton_hogan_precast_vic",
+      "AU_fulton_hogan_road_nsw",
+      "AU_hanson_australia_processing_nsw",
+      "AU_boral_processing_nsw",
+      "AU_hanson_australia_processing_vic",
+      "AU_holcim_processing_vic",
+      "AU_hanson_australia_processing_qld",
+      "AU_holcim_processing_qld",
+      "AU_hanson_australia_processing_wa",
+      "AU_boral_asphalt_nsw",
+      "AU_boral_concrete_nsw",
+      "AU_hanson_premixed_products_vic",
+      "AU_holcim_concrete_vic",
+      "AU_boral_concrete_qld",
+      "AU_hanson_premixed_products_qld",
+      "AU_boral_concrete_wa",
+      "AU_boral_asphalt_wa",
+      "AU_hanson_premixed_products_wa",
+      "AU_hanson_concrete_products",
+      "AU_boral_concrete_products",
+      "AU_holcim_concrete_products",
+      "AU_wagners_concrete_products",
+      "AU_wagners_precast_products"
+    ],
+    "resources": [
+      "Sand",
+      "Gravel",
+      "Granite"
+    ]
+  },
+  {
+    "id": "AU_lendlease_construction",
+    "name": "Lendlease Construction",
+    "tier": "contractor",
+    "country_iso2": "AU",
+    "canonical_company": "Lendlease Group",
+    "coordinates": {
+      "lat": -33.87,
+      "lon": 151.21
+    },
+    "downstream": [
+      {
+        "target_id": "AU_residential",
+        "corridor_id": "AU_road_national-infra-delivery",
+        "resource": "sand in residential buildings",
+        "quantity": 400000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_commercial",
+        "corridor_id": "AU_road_national-infra-delivery",
+        "resource": "sand in commercial buildings",
+        "quantity": 500000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_infrastructure",
+        "corridor_id": "AU_road_national-infra-delivery",
+        "resource": "sand in infrastructure projects",
+        "quantity": 200000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_hanson_australia_concrete",
+      "AU_holcim_concrete_nsw",
+      "AU_hanson_precast_nsw",
+      "AU_boral_precast_nsw",
+      "AU_csr_building_products"
+    ],
+    "resources": [
+      "Sand"
+    ]
+  },
+  {
+    "id": "AU_multiplex_constructions",
+    "name": "Multiplex Constructions",
+    "tier": "contractor",
+    "country_iso2": "AU",
+    "canonical_company": "Multiplex",
+    "coordinates": {
+      "lat": -33.87,
+      "lon": 151.21
+    },
+    "downstream": [
+      {
+        "target_id": "AU_commercial",
+        "corridor_id": "AU_road_national-infra-delivery",
+        "resource": "sand in commercial & high-rise buildings",
+        "quantity": 600000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_residential",
+        "corridor_id": "AU_road_national-infra-delivery",
+        "resource": "sand in residential buildings",
+        "quantity": 300000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_boral_concrete_nsw",
+      "AU_holcim_concrete_wa",
+      "AU_boral_precast_nsw",
+      "AU_csr_building_products"
+    ],
+    "resources": [
+      "Sand"
+    ]
+  },
+  {
+    "id": "AU_john_holland",
+    "name": "John Holland Group",
+    "tier": "contractor",
+    "country_iso2": "AU",
+    "canonical_company": "John Holland Group",
+    "coordinates": {
+      "lat": -37.82,
+      "lon": 144.97
+    },
+    "downstream": [
+      {
+        "target_id": "AU_infrastructure",
+        "corridor_id": "AU_road_national-infra-delivery",
+        "resource": "sand in rail and transport infrastructure",
+        "quantity": 600000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_government",
+        "corridor_id": "AU_road_national-infra-delivery",
+        "resource": "sand in government projects",
+        "quantity": 300000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_infrastructure",
+        "corridor_id": "AU_road_melbourne-metro-distribution",
+        "resource": "gravel in infrastructure projects",
+        "quantity": 1800000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_government",
+        "corridor_id": "AU_road_melbourne-metro-distribution",
+        "resource": "gravel in public works",
+        "quantity": 750000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_infrastructure",
+        "corridor_id": "AU_road_jh-project-sites",
+        "resource": "granite-based construction materials for rail & tunnel projects",
+        "quantity": 700000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_government",
+        "corridor_id": "AU_road_jh-project-sites",
+        "resource": "granite-based construction materials for government projects",
+        "quantity": 300000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_boral_concrete_nsw",
+      "AU_holcim_concrete_nsw",
+      "AU_hanson_precast_nsw",
+      "AU_holcim_precast_nsw",
+      "AU_hanson_australia_processing_nsw",
+      "AU_holcim_processing_nsw",
+      "AU_hanson_australia_processing_vic",
+      "AU_holcim_processing_vic",
+      "AU_boral_asphalt_nsw",
+      "AU_hanson_premixed_products_nsw",
+      "AU_boral_concrete_vic",
+      "AU_boral_asphalt_vic",
+      "AU_holcim_concrete_vic",
+      "AU_hanson_premixed_products_qld",
+      "AU_boral_concrete_products",
+      "AU_holcim_concrete_products"
+    ],
+    "resources": [
+      "Sand",
+      "Gravel",
+      "Granite"
+    ]
+  },
+  {
+    "id": "AU_georgiou_group",
+    "name": "Georgiou Group",
+    "tier": "contractor",
+    "country_iso2": "AU",
+    "canonical_company": "Georgiou Group",
+    "coordinates": {
+      "lat": -31.95,
+      "lon": 115.86
+    },
+    "downstream": [
+      {
+        "target_id": "AU_infrastructure",
+        "corridor_id": "AU_road_perth-metro-delivery",
+        "resource": "sand in built infrastructure",
+        "quantity": 500000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_residential",
+        "corridor_id": "AU_road_brisbane-metro-delivery",
+        "resource": "sand in residential construction",
+        "quantity": 200000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_infrastructure",
+        "corridor_id": "AU_road_perth-metro-distribution",
+        "resource": "gravel in infrastructure projects",
+        "quantity": 1200000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_residential",
+        "corridor_id": "AU_road_perth-metro-distribution",
+        "resource": "gravel in residential construction",
+        "quantity": 600000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_boral_concrete_qld",
+      "AU_boral_concrete_wa",
+      "AU_boral_precast_qld",
+      "AU_boral_processing_qld",
+      "AU_hanson_australia_processing_qld",
+      "AU_boral_processing_wa",
+      "AU_hanson_australia_processing_wa",
+      "AU_boral_asphalt_qld",
+      "AU_holcim_concrete_qld",
+      "AU_boral_asphalt_wa",
+      "AU_hanson_premixed_products_wa"
+    ],
+    "resources": [
+      "Sand",
+      "Gravel"
+    ]
+  },
+  {
+    "id": "AU_badge_constructions",
+    "name": "BADGE Constructions",
+    "tier": "contractor",
+    "country_iso2": "AU",
+    "canonical_company": "BADGE Constructions",
+    "coordinates": {
+      "lat": -34.93,
+      "lon": 138.6
+    },
+    "downstream": [
+      {
+        "target_id": "AU_commercial",
+        "corridor_id": "AU_road_adelaide-metro-delivery",
+        "resource": "sand in commercial buildings",
+        "quantity": 350000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_industrial",
+        "corridor_id": "AU_road_adelaide-metro-delivery",
+        "resource": "sand in industrial buildings",
+        "quantity": 200000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_commercial",
+        "corridor_id": "AU_road_badge-project-sites-sa",
+        "resource": "granite-based construction materials",
+        "quantity": 200000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_institutional",
+        "corridor_id": "AU_road_badge-project-sites-sa",
+        "resource": "granite-based construction materials for institutional buildings",
+        "quantity": 100000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_adbri_concrete_sa",
+      "AU_adbri_precast_sa",
+      "AU_adbri_concrete_products",
+      "AU_adbri_masonry_products"
+    ],
+    "resources": [
+      "Sand",
+      "Granite"
+    ]
+  },
+  {
+    "id": "AU_monadelphous_group",
+    "name": "Monadelphous Group",
+    "tier": "contractor",
+    "country_iso2": "AU",
+    "canonical_company": "Monadelphous Group",
+    "coordinates": {
+      "lat": -31.95,
+      "lon": 115.86
+    },
+    "downstream": [
+      {
+        "target_id": "AU_industrial",
+        "corridor_id": "AU_road_karratha-local",
+        "resource": "sand in resources and industrial construction",
+        "quantity": 150000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_nucrush_concrete_wa"
+    ],
+    "resources": [
+      "Sand"
+    ]
+  },
+  {
+    "id": "AU_road_bass-point-sydney",
+    "tier": "transport",
+    "name": "Road: Bass Point to Sydney Metro",
+    "country_iso2": "AU",
+    "operator_id": "AU_various_haulage",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "regional",
+    "coordinates": {
+      "lat": -34.25,
+      "lon": 150.95
+    },
+    "resources": [
+      "Limestone",
+      "Granite"
+    ],
+    "upstream": [],
+    "downstream": []
+  },
+  {
+    "id": "AU_road_hunter-valley-sydney",
+    "tier": "transport",
+    "name": "Road: Hunter Valley to Sydney",
+    "country_iso2": "AU",
+    "operator_id": "AU_various_haulage",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "regional",
+    "coordinates": {
+      "lat": -33.1,
+      "lon": 151.3
+    }
+  },
+  {
+    "id": "AU_road_penrith-western-sydney",
+    "tier": "transport",
+    "name": "Road: Penrith Lakes to Western Sydney",
+    "country_iso2": "AU",
+    "operator_id": "AU_various_haulage",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "local",
+    "coordinates": {
+      "lat": -33.75,
+      "lon": 150.72
+    }
+  },
+  {
+    "id": "AU_road_ormeau-brisbane",
+    "tier": "transport",
+    "name": "Road: Ormeau to Brisbane Metro",
+    "country_iso2": "AU",
+    "operator_id": "AU_various_haulage",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "regional",
+    "coordinates": {
+      "lat": -27.62,
+      "lon": 153.14
+    },
+    "resources": [
+      "Granite"
+    ],
+    "upstream": [],
+    "downstream": []
+  },
+  {
+    "id": "AU_road_deer-park-melbourne",
+    "tier": "transport",
+    "name": "Road: Deer Park to Melbourne Metro",
+    "country_iso2": "AU",
+    "operator_id": "AU_various_haulage",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "local",
+    "coordinates": {
+      "lat": -37.78,
+      "lon": 144.82
+    },
+    "resources": [
+      "Oxygen"
+    ],
+    "upstream": [],
+    "downstream": []
+  },
+  {
+    "id": "AU_road_lynwood-sydney",
+    "tier": "transport",
+    "name": "Road: Lynwood to Sydney Metro",
+    "country_iso2": "AU",
+    "operator_id": "AU_various_haulage",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "regional",
+    "coordinates": {
+      "lat": -34.04,
+      "lon": 150.78
+    }
+  },
+  {
+    "id": "AU_road_calga-sydney",
+    "tier": "transport",
+    "name": "Road: Calga to Sydney Metro",
+    "country_iso2": "AU",
+    "operator_id": "AU_various_haulage",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "regional",
+    "coordinates": {
+      "lat": -33.46,
+      "lon": 151.2
+    }
+  },
+  {
+    "id": "AU_road_hendon-adelaide",
+    "tier": "transport",
+    "name": "Road: Hendon to Adelaide Metro",
+    "country_iso2": "AU",
+    "operator_id": "AU_various_haulage",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "local",
+    "coordinates": {
+      "lat": -34.89,
+      "lon": 138.57
+    }
+  },
+  {
+    "id": "AU_road_maroota-sydney",
+    "tier": "transport",
+    "name": "Road: Maroota to Sydney Metro",
+    "country_iso2": "AU",
+    "operator_id": "AU_various_haulage",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "regional",
+    "coordinates": {
+      "lat": -33.55,
+      "lon": 151.02
+    }
+  },
+  {
+    "id": "AU_road_piles-creek-sydney",
+    "tier": "transport",
+    "name": "Road: Piles Creek to Sydney",
+    "country_iso2": "AU",
+    "operator_id": "AU_various_haulage",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "local",
+    "coordinates": {
+      "lat": -33.52,
+      "lon": 151.14
+    }
+  },
+  {
+    "id": "AU_road_jandakot-perth",
+    "tier": "transport",
+    "name": "Road: Jandakot to Perth Metro",
+    "country_iso2": "AU",
+    "operator_id": "AU_various_haulage",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "local",
+    "coordinates": {
+      "lat": -32.05,
+      "lon": 115.87
+    },
+    "resources": [
+      "Quartz"
+    ],
+    "upstream": [],
+    "downstream": []
+  },
+  {
+    "id": "AU_road_mundijong-perth",
+    "tier": "transport",
+    "name": "Road: Mundijong to Perth Metro",
+    "country_iso2": "AU",
+    "operator_id": "AU_various_haulage",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "regional",
+    "coordinates": {
+      "lat": -32.2,
+      "lon": 115.88
+    }
+  },
+  {
+    "id": "AU_road_wungong-perth",
+    "tier": "transport",
+    "name": "Road: Wungong to Perth Metro",
+    "country_iso2": "AU",
+    "operator_id": "AU_various_haulage",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "local",
+    "coordinates": {
+      "lat": -32.1,
+      "lon": 115.98
+    }
+  },
+  {
+    "id": "AU_conveyor_cape-flattery-port",
+    "tier": "transport",
+    "name": "Conveyor & Barge: Cape Flattery Mine to Port",
+    "country_iso2": "AU",
+    "operator_id": "AU_sibelco_asia_pacific",
+    "mode": "conveyor",
+    "form": "bulk_dry",
+    "range": "local",
+    "coordinates": {
+      "lat": -14.95,
+      "lon": 145.32
+    }
+  },
+  {
+    "id": "AU_road_kemerton-bunbury",
+    "tier": "transport",
+    "name": "Road: Kemerton to Bunbury Port",
+    "country_iso2": "AU",
+    "operator_id": "AU_various_haulage",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "local",
+    "coordinates": {
+      "lat": -33.2,
+      "lon": 115.72
+    }
+  },
+  {
+    "id": "AU_road_condell-park-sydney",
+    "tier": "transport",
+    "name": "Road: Condell Park to Sydney Metro",
+    "country_iso2": "AU",
+    "operator_id": "AU_various_haulage",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "local",
+    "coordinates": {
+      "lat": -33.92,
+      "lon": 151.03
+    }
+  },
+  {
+    "id": "AU_road_narangba-brisbane",
+    "tier": "transport",
+    "name": "Road: Narangba to Brisbane Metro",
+    "country_iso2": "AU",
+    "operator_id": "AU_various_haulage",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "local",
+    "coordinates": {
+      "lat": -27.25,
+      "lon": 152.98
+    }
+  },
+  {
+    "id": "AU_road_rowville-melbourne",
+    "tier": "transport",
+    "name": "Road: Rowville to Melbourne Metro",
+    "country_iso2": "AU",
+    "operator_id": "AU_various_haulage",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "local",
+    "coordinates": {
+      "lat": -37.88,
+      "lon": 145.19
+    }
+  },
+  {
+    "id": "AU_road_maslin-adelaide",
+    "tier": "transport",
+    "name": "Road: Maslin Beach to Adelaide Metro",
+    "country_iso2": "AU",
+    "operator_id": "AU_various_haulage",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "regional",
+    "coordinates": {
+      "lat": -35.1,
+      "lon": 138.52
+    }
+  },
+  {
+    "id": "AU_road_karratha-local",
+    "tier": "transport",
+    "name": "Road: Karratha Local Delivery",
+    "country_iso2": "AU",
+    "operator_id": "AU_various_haulage",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "local",
+    "coordinates": {
+      "lat": -20.73,
+      "lon": 116.85
+    }
+  },
+  {
+    "id": "AU_road_sydney-metro-delivery",
+    "tier": "transport",
+    "name": "Road: Sydney Metro Concrete & Materials Delivery",
+    "country_iso2": "AU",
+    "operator_id": "AU_various_haulage",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "local",
+    "coordinates": {
+      "lat": -33.87,
+      "lon": 151.1
+    },
+    "resources": [
+      "Noble Gases"
+    ],
+    "upstream": [],
+    "downstream": []
+  },
+  {
+    "id": "AU_road_brisbane-metro-delivery",
+    "tier": "transport",
+    "name": "Road: Brisbane Metro Concrete & Materials Delivery",
+    "country_iso2": "AU",
+    "operator_id": "AU_various_haulage",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "local",
+    "coordinates": {
+      "lat": -27.47,
+      "lon": 153.03
+    },
+    "resources": [
+      "Noble Gases"
+    ],
+    "upstream": [],
+    "downstream": []
+  },
+  {
+    "id": "AU_road_melbourne-metro-delivery",
+    "tier": "transport",
+    "name": "Road: Melbourne Metro Concrete & Materials Delivery",
+    "country_iso2": "AU",
+    "operator_id": "AU_various_haulage",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "local",
+    "coordinates": {
+      "lat": -37.81,
+      "lon": 144.96
+    },
+    "resources": [
+      "Noble Gases"
+    ],
+    "upstream": [],
+    "downstream": []
+  },
+  {
+    "id": "AU_road_perth-metro-delivery",
+    "tier": "transport",
+    "name": "Road: Perth Metro Concrete & Materials Delivery",
+    "country_iso2": "AU",
+    "operator_id": "AU_various_haulage",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "local",
+    "coordinates": {
+      "lat": -31.95,
+      "lon": 115.86
+    },
+    "resources": [
+      "Noble Gases"
+    ],
+    "upstream": [],
+    "downstream": []
+  },
+  {
+    "id": "AU_road_adelaide-metro-delivery",
+    "tier": "transport",
+    "name": "Road: Adelaide Metro Concrete & Materials Delivery",
+    "country_iso2": "AU",
+    "operator_id": "AU_various_haulage",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "local",
+    "coordinates": {
+      "lat": -34.93,
+      "lon": 138.6
+    },
+    "resources": [
+      "Noble Gases"
+    ],
+    "upstream": [],
+    "downstream": []
+  },
+  {
+    "id": "AU_road_national-infra-delivery",
+    "tier": "transport",
+    "name": "Road: National Infrastructure Project Delivery",
+    "country_iso2": "AU",
+    "operator_id": "AU_various_haulage",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "regional",
+    "coordinates": {
+      "lat": -33.87,
+      "lon": 151.21
+    }
+  },
+  {
+    "id": "INTL_ocean_cape-flattery-sydney",
+    "tier": "transport",
+    "name": "Ocean Freight: Cape Flattery to Sydney (domestic coastal)",
+    "country_iso2": "AU",
+    "operator_id": "AU_sea_swift",
+    "mode": "ocean_freight",
+    "form": "bulk_dry",
+    "range": "regional",
+    "coordinates": {
+      "lat": -22,
+      "lon": 152
+    }
+  },
+  {
+    "id": "INTL_ocean_cape-flattery-asia",
+    "tier": "transport",
+    "name": "Ocean Freight: Cape Flattery to East Asia",
+    "country_iso2": "INTL",
+    "operator_id": "INTL_various_bulk_shipping",
+    "mode": "ocean_freight",
+    "form": "bulk_dry",
+    "range": "international",
+    "coordinates": {
+      "lat": -5,
+      "lon": 140
+    }
+  },
+  {
+    "id": "AU_road_bunbury-perth",
+    "tier": "transport",
+    "name": "Road: Bunbury to Perth",
+    "country_iso2": "AU",
+    "operator_id": "AU_various_haulage",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "regional",
+    "coordinates": {
+      "lat": -32.6,
+      "lon": 115.8
+    },
+    "resources": [
+      "Clay"
+    ],
+    "upstream": [],
+    "downstream": []
+  }
+]

@@ -1,0 +1,3345 @@
+[
+  {
+    "id": "AU_western_australian_wheat_belt",
+    "name": "Western Australian Wheat Belt (Broadacre Grain Farms)",
+    "tier": "grower",
+    "country_iso2": "AU",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": -31.5,
+      "lon": 118.5
+    },
+    "downstream": [
+      {
+        "target_id": "AU_cbh_group",
+        "corridor_id": "AU_road_wa_wheatbelt_to_cbh_receival",
+        "resource": "wheat, barley, canola (bulk grain)",
+        "quantity": 15000000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Grain-Crops"
+    ]
+  },
+  {
+    "id": "AU_nsw_northern_grain_belt",
+    "name": "NSW Northern Grain Belt (Liverpool Plains / Moree / Walgett)",
+    "tier": "grower",
+    "country_iso2": "AU",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": -30,
+      "lon": 149.8
+    },
+    "downstream": [
+      {
+        "target_id": "AU_graincorp",
+        "corridor_id": "AU_road_nsw_north_to_graincorp",
+        "resource": "wheat, sorghum, barley (bulk grain)",
+        "quantity": 5500000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Grain-Crops"
+    ]
+  },
+  {
+    "id": "AU_nsw_southern_grain_belt",
+    "name": "NSW Southern / Riverina Grain Belt (Temora / Wagga / Griffith)",
+    "tier": "grower",
+    "country_iso2": "AU",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": -34.5,
+      "lon": 147.5
+    },
+    "downstream": [
+      {
+        "target_id": "AU_graincorp",
+        "corridor_id": "AU_road_nsw_south_to_graincorp",
+        "resource": "wheat, canola, barley (bulk grain)",
+        "quantity": 5000000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Grain-Crops"
+    ]
+  },
+  {
+    "id": "AU_vic_wimmera_mallee",
+    "name": "Victoria Wimmera-Mallee Grain Region",
+    "tier": "grower",
+    "country_iso2": "AU",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": -36,
+      "lon": 142.5
+    },
+    "downstream": [
+      {
+        "target_id": "AU_graincorp",
+        "corridor_id": "AU_road_vic_wimmera_to_graincorp",
+        "resource": "wheat, barley, canola, oats (bulk grain)",
+        "quantity": 4500000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Grain-Crops"
+    ]
+  },
+  {
+    "id": "AU_sa_murray_mallee",
+    "name": "South Australia Murray-Mallee / Yorke / Eyre Peninsula Grain Region",
+    "tier": "grower",
+    "country_iso2": "AU",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": -33.8,
+      "lon": 138.5
+    },
+    "downstream": [
+      {
+        "target_id": "AU_viterra",
+        "corridor_id": "AU_road_sa_to_viterra_receival",
+        "resource": "wheat, barley, lentils, canola (bulk grain and pulses)",
+        "quantity": 7000000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Grain-Crops"
+    ]
+  },
+  {
+    "id": "AU_qld_darling_downs",
+    "name": "Queensland Darling Downs Grain Region (Toowoomba / Dalby / Goondiwindi)",
+    "tier": "grower",
+    "country_iso2": "AU",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": -27.5,
+      "lon": 151
+    },
+    "downstream": [
+      {
+        "target_id": "AU_graincorp",
+        "corridor_id": "AU_road_qld_downs_to_graincorp",
+        "resource": "sorghum, wheat, chickpeas, barley (bulk grain)",
+        "quantity": 3500000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_graincorp",
+        "corridor_id": "AU_road_qld_grain_to_graincorp",
+        "resource": "wheat grain",
+        "quantity": 1500000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_graincorp",
+        "corridor_id": "AU_road_qld_grain_to_graincorp",
+        "resource": "sorghum grain",
+        "quantity": 1800000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_graincorp",
+        "corridor_id": "AU_road_qld_grain_to_graincorp",
+        "resource": "chickpeas",
+        "quantity": 700000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_qld_cotton_ginners",
+        "corridor_id": "AU_road_qld_cotton_to_gin",
+        "resource": "raw cotton",
+        "quantity": 2500000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Grain-Crops",
+      "Arable"
+    ]
+  },
+  {
+    "id": "AU_qld_central",
+    "name": "Queensland Central Highlands Grain Region (Emerald / Clermont)",
+    "tier": "grower",
+    "country_iso2": "AU",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": -23.4,
+      "lon": 148.2
+    },
+    "downstream": [
+      {
+        "target_id": "AU_graincorp",
+        "corridor_id": "AU_road_qld_central_to_graincorp",
+        "resource": "sorghum, chickpeas, wheat (bulk grain)",
+        "quantity": 1500000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Grain-Crops"
+    ]
+  },
+  {
+    "id": "AU_cbh_group",
+    "name": "CBH Group (Receival & Storage Network, WA)",
+    "tier": "elevator_handler",
+    "country_iso2": "AU",
+    "canonical_company": "CBH Group",
+    "coordinates": {
+      "lat": -31.95,
+      "lon": 115.86
+    },
+    "downstream": [
+      {
+        "target_id": "AU_cbh_grain_kwinana_port",
+        "corridor_id": "AU_rail_wa_cbh_to_kwinana",
+        "resource": "wheat, barley, canola (bulk grain for export)",
+        "quantity": 10500000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_interflour_group",
+        "corridor_id": "AU_road_wa_cbh_to_interflour",
+        "resource": "wheat (milling grade)",
+        "quantity": 400000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_milne_feeds",
+        "corridor_id": "AU_road_wa_cbh_to_milne",
+        "resource": "barley, wheat (feed grade)",
+        "quantity": 250000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_cbh_grain_albany_port",
+        "corridor_id": "AU_rail_wa_cbh_to_albany",
+        "resource": "wheat, barley, canola (bulk grain for export)",
+        "quantity": 2500000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_cbh_grain_geraldton_port",
+        "corridor_id": "AU_rail_wa_cbh_to_geraldton",
+        "resource": "wheat, lupins (bulk grain for export)",
+        "quantity": 1350000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_cbh_grain_exports",
+        "corridor_id": "AU_rail_wa_cbh_network",
+        "resource": "wheat grain",
+        "quantity": 10000000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_cbh_grain_exports",
+        "corridor_id": "AU_rail_wa_cbh_network",
+        "resource": "barley grain",
+        "quantity": 4500000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_cbh_grain_exports",
+        "corridor_id": "AU_rail_wa_cbh_network",
+        "resource": "canola seed",
+        "quantity": 2200000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_interflour_group",
+        "corridor_id": "AU_rail_wa_cbh_network",
+        "resource": "wheat grain",
+        "quantity": 3000000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_western_australian_wheat_belt",
+      "AU_western_australia_wheat_belt",
+      "AU_wa_grain_belt_south",
+      "AU_wa_canola_handlers",
+      "AU_wa_barley_handlers"
+    ],
+    "resources": [
+      "Grain-Crops",
+      "Arable"
+    ]
+  },
+  {
+    "id": "AU_graincorp",
+    "name": "GrainCorp (Receival, Storage & Logistics Network, Eastern Australia)",
+    "tier": "elevator_handler",
+    "country_iso2": "AU",
+    "canonical_company": "GrainCorp",
+    "coordinates": {
+      "lat": -33.87,
+      "lon": 151.21
+    },
+    "downstream": [
+      {
+        "target_id": "AU_graincorp_port_kembla",
+        "corridor_id": "AU_rail_nsw_graincorp_to_port_kembla",
+        "resource": "wheat, canola, barley (bulk grain for export)",
+        "quantity": 3000000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_graincorp_newcastle_port",
+        "corridor_id": "AU_rail_nsw_graincorp_to_newcastle",
+        "resource": "wheat, sorghum, barley (bulk grain for export)",
+        "quantity": 2500000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_graincorp_portland_port",
+        "corridor_id": "AU_rail_vic_graincorp_to_portland",
+        "resource": "wheat, barley, canola (bulk grain for export)",
+        "quantity": 1200000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_graincorp_geelong_port",
+        "corridor_id": "AU_rail_vic_graincorp_to_geelong",
+        "resource": "wheat, barley, canola (bulk grain for export)",
+        "quantity": 1800000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_graincorp_brisbane_port",
+        "corridor_id": "AU_rail_qld_graincorp_to_brisbane",
+        "resource": "sorghum, wheat, chickpeas (bulk grain for export)",
+        "quantity": 1800000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_allied_mills",
+        "corridor_id": "AU_road_nsw_graincorp_to_allied_mills",
+        "resource": "wheat (milling grade)",
+        "quantity": 700000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_manildra_group",
+        "corridor_id": "AU_road_nsw_graincorp_to_manildra",
+        "resource": "wheat (milling / starch grade)",
+        "quantity": 500000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_ridley_corporation",
+        "corridor_id": "AU_road_vic_graincorp_to_ridley",
+        "resource": "wheat, barley, sorghum (feed grade)",
+        "quantity": 500000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_inghams_group",
+        "corridor_id": "AU_road_nsw_graincorp_to_inghams",
+        "resource": "wheat, sorghum (feed grade)",
+        "quantity": 400000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_graincorp_malt",
+        "corridor_id": "AU_road_vic_graincorp_to_malt",
+        "resource": "malting barley",
+        "quantity": 600000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_graincorp_ports",
+        "corridor_id": "AU_rail_nsw_graincorp_network",
+        "resource": "wheat grain",
+        "quantity": 8000000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_graincorp_ports",
+        "corridor_id": "AU_rail_nsw_graincorp_network",
+        "resource": "barley grain",
+        "quantity": 2500000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_graincorp_ports",
+        "corridor_id": "AU_rail_nsw_graincorp_network",
+        "resource": "canola seed",
+        "quantity": 2400000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_graincorp_ports",
+        "corridor_id": "AU_rail_nsw_graincorp_network",
+        "resource": "sorghum grain",
+        "quantity": 1800000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_graincorp_malt",
+        "corridor_id": "AU_rail_nsw_graincorp_network",
+        "resource": "malting barley",
+        "quantity": 1000000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_graincorp_oilseeds",
+        "corridor_id": "AU_rail_nsw_graincorp_network",
+        "resource": "canola seed",
+        "quantity": 500000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_allied_mills",
+        "corridor_id": "AU_road_graincorp_to_mills",
+        "resource": "wheat grain",
+        "quantity": 1500000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_manildra_group",
+        "corridor_id": "AU_road_graincorp_to_mills",
+        "resource": "wheat grain",
+        "quantity": 1000000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_graincorp_ports",
+        "corridor_id": "AU_rail_nsw_graincorp_network",
+        "resource": "chickpeas",
+        "quantity": 700000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_nsw_northern_grain_belt",
+      "AU_nsw_southern_grain_belt",
+      "AU_vic_wimmera_mallee",
+      "AU_qld_darling_downs",
+      "AU_qld_central",
+      "AU_nsw_wheat_belt",
+      "AU_vic_grain_belt"
+    ],
+    "resources": [
+      "Grain-Crops",
+      "Arable"
+    ]
+  },
+  {
+    "id": "AU_viterra",
+    "name": "Viterra Australia (Receival, Storage & Port Network, SA)",
+    "tier": "elevator_handler",
+    "country_iso2": "AU",
+    "canonical_company": "Viterra",
+    "coordinates": {
+      "lat": -34.93,
+      "lon": 138.6
+    },
+    "downstream": [
+      {
+        "target_id": "AU_viterra_port_adelaide",
+        "corridor_id": "AU_rail_sa_viterra_to_port_adelaide",
+        "resource": "wheat, barley, canola, lentils (bulk grain for export)",
+        "quantity": 4500000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_viterra_port_lincoln",
+        "corridor_id": "AU_rail_sa_viterra_to_port_lincoln",
+        "resource": "wheat, barley (bulk grain for export)",
+        "quantity": 1500000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_thomas_foods_international",
+        "corridor_id": "AU_road_sa_viterra_to_thomas_foods",
+        "resource": "feed barley, feed wheat",
+        "quantity": 200000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_allied_mills",
+        "corridor_id": "AU_road_sa_viterra_to_allied_mills",
+        "resource": "wheat (milling grade)",
+        "quantity": 300000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_san_remo",
+        "corridor_id": "AU_road_sa_viterra_to_san_remo",
+        "resource": "durum wheat",
+        "quantity": 100000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_viterra_port_adelaide",
+        "corridor_id": "AU_rail_sa_viterra_network",
+        "resource": "wheat grain",
+        "quantity": 4000000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_viterra_port_adelaide",
+        "corridor_id": "AU_rail_sa_viterra_network",
+        "resource": "barley grain",
+        "quantity": 2500000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_viterra_port_adelaide",
+        "corridor_id": "AU_rail_sa_viterra_network",
+        "resource": "lentils and pulses",
+        "quantity": 800000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_coopers_maltings",
+        "corridor_id": "AU_road_sa_to_coopers",
+        "resource": "malting barley",
+        "quantity": 500000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_sa_murray_mallee",
+      "AU_sa_grain_belt"
+    ],
+    "resources": [
+      "Grain-Crops",
+      "Arable"
+    ]
+  },
+  {
+    "id": "AU_cbh_grain_kwinana_port",
+    "name": "CBH Kwinana Grain Terminal",
+    "tier": "elevator_handler",
+    "country_iso2": "AU",
+    "canonical_company": "CBH Group",
+    "coordinates": {
+      "lat": -32.23,
+      "lon": 115.77
+    },
+    "downstream": [
+      {
+        "target_id": "INTL_asian_grain_importers",
+        "corridor_id": "INTL_ocean_kwinana_southeast_asia",
+        "resource": "wheat, barley, canola (bulk grain)",
+        "quantity": 6500000,
+        "metric": "t"
+      },
+      {
+        "target_id": "INTL_middle_east_grain_importers",
+        "corridor_id": "INTL_ocean_kwinana_middle_east",
+        "resource": "wheat, barley (bulk grain)",
+        "quantity": 2500000,
+        "metric": "t"
+      },
+      {
+        "target_id": "INTL_east_african_grain_importers",
+        "corridor_id": "INTL_ocean_kwinana_east_africa",
+        "resource": "wheat (bulk grain)",
+        "quantity": 1500000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_cbh_group"
+    ],
+    "resources": [
+      "Grain-Crops"
+    ]
+  },
+  {
+    "id": "AU_cbh_grain_albany_port",
+    "name": "CBH Albany Grain Terminal",
+    "tier": "elevator_handler",
+    "country_iso2": "AU",
+    "canonical_company": "CBH Group",
+    "coordinates": {
+      "lat": -35.03,
+      "lon": 117.88
+    },
+    "downstream": [
+      {
+        "target_id": "INTL_asian_grain_importers",
+        "corridor_id": "INTL_ocean_albany_asia",
+        "resource": "wheat, canola, barley (bulk grain)",
+        "quantity": 2500000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_cbh_group"
+    ],
+    "resources": [
+      "Grain-Crops"
+    ]
+  },
+  {
+    "id": "AU_cbh_grain_geraldton_port",
+    "name": "CBH Geraldton Grain Terminal",
+    "tier": "elevator_handler",
+    "country_iso2": "AU",
+    "canonical_company": "CBH Group",
+    "coordinates": {
+      "lat": -28.77,
+      "lon": 114.62
+    },
+    "downstream": [
+      {
+        "target_id": "INTL_asian_grain_importers",
+        "corridor_id": "INTL_ocean_geraldton_asia",
+        "resource": "wheat, lupins (bulk grain)",
+        "quantity": 1350000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_cbh_group"
+    ],
+    "resources": [
+      "Grain-Crops"
+    ]
+  },
+  {
+    "id": "AU_graincorp_newcastle_port",
+    "name": "GrainCorp Newcastle Grain Terminal",
+    "tier": "elevator_handler",
+    "country_iso2": "AU",
+    "canonical_company": "GrainCorp",
+    "coordinates": {
+      "lat": -32.92,
+      "lon": 151.78
+    },
+    "downstream": [
+      {
+        "target_id": "INTL_asian_grain_importers",
+        "corridor_id": "INTL_ocean_newcastle_asia",
+        "resource": "wheat, sorghum (bulk grain)",
+        "quantity": 2500000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_graincorp"
+    ],
+    "resources": [
+      "Grain-Crops"
+    ]
+  },
+  {
+    "id": "AU_graincorp_portland_port",
+    "name": "GrainCorp Portland Grain Terminal",
+    "tier": "elevator_handler",
+    "country_iso2": "AU",
+    "canonical_company": "GrainCorp",
+    "coordinates": {
+      "lat": -38.34,
+      "lon": 141.61
+    },
+    "downstream": [
+      {
+        "target_id": "INTL_asian_grain_importers",
+        "corridor_id": "INTL_ocean_portland_asia",
+        "resource": "wheat, barley, canola (bulk grain)",
+        "quantity": 1200000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_graincorp"
+    ],
+    "resources": [
+      "Grain-Crops"
+    ]
+  },
+  {
+    "id": "AU_graincorp_geelong_port",
+    "name": "GrainCorp Geelong Grain Terminal",
+    "tier": "elevator_handler",
+    "country_iso2": "AU",
+    "canonical_company": "GrainCorp",
+    "coordinates": {
+      "lat": -38.15,
+      "lon": 144.36
+    },
+    "downstream": [
+      {
+        "target_id": "INTL_asian_grain_importers",
+        "corridor_id": "INTL_ocean_geelong_asia",
+        "resource": "wheat, barley (bulk grain)",
+        "quantity": 1800000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_graincorp"
+    ],
+    "resources": [
+      "Grain-Crops"
+    ]
+  },
+  {
+    "id": "AU_graincorp_brisbane_port",
+    "name": "GrainCorp Brisbane / Fisherman Islands Grain Terminal",
+    "tier": "elevator_handler",
+    "country_iso2": "AU",
+    "canonical_company": "GrainCorp",
+    "coordinates": {
+      "lat": -27.38,
+      "lon": 153.17
+    },
+    "downstream": [
+      {
+        "target_id": "INTL_asian_grain_importers",
+        "corridor_id": "INTL_ocean_brisbane_asia",
+        "resource": "sorghum, chickpeas, wheat (bulk grain)",
+        "quantity": 1800000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_graincorp"
+    ],
+    "resources": [
+      "Grain-Crops"
+    ]
+  },
+  {
+    "id": "INTL_asian_grain_importers",
+    "name": "Asian Grain Importers (Indonesia, China, Japan, South Korea, Vietnam, Philippines)",
+    "tier": "processor",
+    "country_iso2": "INTL",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": 5,
+      "lon": 115
+    },
+    "downstream": [
+      {
+        "target_id": "INTL_asian_flour_mills",
+        "corridor_id": "INTL_road_asian_ports_to_mills",
+        "resource": "wheat (milling grade)",
+        "quantity": 12000000,
+        "metric": "t"
+      },
+      {
+        "target_id": "INTL_asian_feed_mills",
+        "corridor_id": "INTL_road_asian_ports_to_feed_mills",
+        "resource": "barley, sorghum, wheat (feed grade)",
+        "quantity": 6000000,
+        "metric": "t"
+      },
+      {
+        "target_id": "INTL_asian_oilseed_crushers",
+        "corridor_id": "INTL_road_asian_ports_to_crushers",
+        "resource": "canola seed",
+        "quantity": 2350000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_cbh_grain_kwinana_port",
+      "AU_cbh_grain_albany_port",
+      "AU_cbh_grain_geraldton_port",
+      "AU_graincorp_port_kembla",
+      "AU_graincorp_newcastle_port",
+      "AU_graincorp_portland_port",
+      "AU_graincorp_geelong_port",
+      "AU_graincorp_brisbane_port",
+      "AU_viterra_port_adelaide",
+      "AU_viterra_port_lincoln"
+    ],
+    "resources": [
+      "Grain-Crops"
+    ]
+  },
+  {
+    "id": "INTL_middle_east_grain_importers",
+    "name": "Middle East Grain Importers (Saudi Arabia, UAE, Kuwait, Yemen)",
+    "tier": "processor",
+    "country_iso2": "INTL",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": 24,
+      "lon": 46
+    },
+    "downstream": [
+      {
+        "target_id": "INTL_middle_east_flour_mills",
+        "corridor_id": "INTL_road_me_ports_to_mills",
+        "resource": "wheat (milling grade), barley (feed/malt)",
+        "quantity": 4000000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_cbh_grain_kwinana_port",
+      "AU_viterra_port_adelaide"
+    ],
+    "resources": [
+      "Grain-Crops"
+    ]
+  },
+  {
+    "id": "INTL_east_african_grain_importers",
+    "name": "East African Grain Importers (Kenya, Sudan, Tanzania)",
+    "tier": "processor",
+    "country_iso2": "INTL",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": -1.3,
+      "lon": 36.8
+    },
+    "downstream": [
+      {
+        "target_id": "INTL_east_african_flour_mills",
+        "corridor_id": "INTL_road_ea_ports_to_mills",
+        "resource": "wheat (milling grade)",
+        "quantity": 1500000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_cbh_grain_kwinana_port"
+    ],
+    "resources": [
+      "Grain-Crops"
+    ]
+  },
+  {
+    "id": "AU_allied_mills",
+    "name": "Allied Mills (Allied Pinnacle)",
+    "tier": "processor",
+    "country_iso2": "AU",
+    "canonical_company": "Allied Pinnacle",
+    "coordinates": {
+      "lat": -33.82,
+      "lon": 151
+    },
+    "downstream": [
+      {
+        "target_id": "AU_goodman_fielder",
+        "corridor_id": "AU_road_nsw_allied_to_goodman",
+        "resource": "wheat flour, bakery premixes",
+        "quantity": 450000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_tip_top_bakeries",
+        "corridor_id": "AU_road_nsw_allied_to_tiptop",
+        "resource": "wheat flour (bread grade)",
+        "quantity": 200000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_domestic_food_manufacturers",
+        "corridor_id": "AU_road_nsw_allied_to_manufacturers",
+        "resource": "wheat flour, semolina",
+        "quantity": 350000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_domestic_flour_processors",
+        "corridor_id": "AU_road_nsw_flour_distribution",
+        "resource": "wheat flour",
+        "quantity": 1100000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_graincorp",
+      "AU_viterra"
+    ],
+    "resources": [
+      "Grain-Crops",
+      "Arable"
+    ]
+  },
+  {
+    "id": "AU_manildra_group",
+    "name": "Manildra Group (Shoalhaven Starches / Manildra Flour Mills)",
+    "tier": "processor",
+    "country_iso2": "AU",
+    "canonical_company": "Manildra Group",
+    "coordinates": {
+      "lat": -34.75,
+      "lon": 150.77
+    },
+    "downstream": [
+      {
+        "target_id": "AU_domestic_food_manufacturers",
+        "corridor_id": "AU_road_nsw_manildra_to_manufacturers",
+        "resource": "wheat flour, wheat starch, wheat gluten, ethanol",
+        "quantity": 350000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_industrial",
+        "corridor_id": "AU_road_nsw_manildra_to_industrial",
+        "resource": "wheat starch, industrial ethanol",
+        "quantity": 150000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_domestic_flour_processors",
+        "corridor_id": "AU_road_nsw_flour_distribution",
+        "resource": "wheat flour and starch",
+        "quantity": 750000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_graincorp"
+    ],
+    "resources": [
+      "Grain-Crops",
+      "Arable"
+    ]
+  },
+  {
+    "id": "AU_graincorp_malt",
+    "name": "GrainCorp Malt (Malteries at Geelong, Melbourne, Brisbane)",
+    "tier": "processor",
+    "country_iso2": "AU",
+    "canonical_company": "GrainCorp",
+    "coordinates": {
+      "lat": -38.15,
+      "lon": 144.36
+    },
+    "downstream": [
+      {
+        "target_id": "AU_australian_breweries",
+        "corridor_id": "AU_road_vic_malt_to_breweries",
+        "resource": "malt (barley malt)",
+        "quantity": 250000,
+        "metric": "t"
+      },
+      {
+        "target_id": "INTL_export_malt_buyers",
+        "corridor_id": "INTL_ocean_geelong_asia_malt",
+        "resource": "malt (barley malt, for export)",
+        "quantity": 350000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_domestic_malt_processors",
+        "corridor_id": "AU_road_vic_malt_distribution",
+        "resource": "malt",
+        "quantity": 700000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_graincorp"
+    ],
+    "resources": [
+      "Grain-Crops",
+      "Arable"
+    ]
+  },
+  {
+    "id": "AU_ridley_corporation",
+    "name": "Ridley Corporation (Animal Feed Milling)",
+    "tier": "processor",
+    "country_iso2": "AU",
+    "canonical_company": "Ridley Corporation",
+    "coordinates": {
+      "lat": -37.81,
+      "lon": 144.96
+    },
+    "downstream": [
+      {
+        "target_id": "AU_livestock_feedlots",
+        "corridor_id": "AU_road_vic_ridley_to_feedlots",
+        "resource": "compound animal feed (grain-based)",
+        "quantity": 500000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_graincorp"
+    ],
+    "resources": [
+      "Grain-Crops"
+    ]
+  },
+  {
+    "id": "AU_inghams_group",
+    "name": "Inghams Group (Poultry Feed Mill & Integrator)",
+    "tier": "processor",
+    "country_iso2": "AU",
+    "canonical_company": "Inghams Group",
+    "coordinates": {
+      "lat": -33.7,
+      "lon": 150.77
+    },
+    "downstream": [
+      {
+        "target_id": "AU_inghams_poultry_processing",
+        "corridor_id": "AU_road_nsw_inghams_feed_to_processing",
+        "resource": "poultry (grain-fed chicken)",
+        "quantity": 400000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_graincorp"
+    ],
+    "resources": [
+      "Grain-Crops"
+    ]
+  },
+  {
+    "id": "AU_interflour_group",
+    "name": "Interflour (Perth Flour Mill, WA)",
+    "tier": "processor",
+    "country_iso2": "AU",
+    "canonical_company": "Interflour Group",
+    "coordinates": {
+      "lat": -32.05,
+      "lon": 115.77
+    },
+    "downstream": [
+      {
+        "target_id": "AU_wa_bakeries_food_manufacturers",
+        "corridor_id": "AU_road_wa_interflour_to_bakeries",
+        "resource": "wheat flour",
+        "quantity": 300000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_domestic_flour_processors",
+        "corridor_id": "AU_road_wa_flour_distribution",
+        "resource": "wheat flour",
+        "quantity": 2200000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_cbh_group"
+    ],
+    "resources": [
+      "Grain-Crops",
+      "Arable"
+    ]
+  },
+  {
+    "id": "AU_milne_feeds",
+    "name": "Milne Feeds (Animal Feed, WA)",
+    "tier": "processor",
+    "country_iso2": "AU",
+    "canonical_company": "Milne Feeds",
+    "coordinates": {
+      "lat": -31.96,
+      "lon": 115.94
+    },
+    "downstream": [
+      {
+        "target_id": "AU_wa_livestock_poultry",
+        "corridor_id": "AU_road_wa_milne_to_farms",
+        "resource": "compound animal feed (grain-based)",
+        "quantity": 250000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_cbh_group"
+    ],
+    "resources": [
+      "Grain-Crops"
+    ]
+  },
+  {
+    "id": "AU_thomas_foods_international",
+    "name": "Thomas Foods International (Feedlot / Meat Processing, SA)",
+    "tier": "processor",
+    "country_iso2": "AU",
+    "canonical_company": "Thomas Foods International",
+    "coordinates": {
+      "lat": -35.12,
+      "lon": 138.91
+    },
+    "downstream": [
+      {
+        "target_id": "AU_sa_meat_packers",
+        "corridor_id": "AU_road_sa_thomas_to_packers",
+        "resource": "grain-fed beef (derived from feed grain)",
+        "quantity": 200000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_residential",
+        "corridor_id": "AU_road_tfi-to-domestic-retail",
+        "resource": "chilled boxed beef and lamb",
+        "quantity": 25000,
+        "metric": "t"
+      },
+      {
+        "target_id": "US_residential",
+        "corridor_id": "INTL_ocean_adelaide-los-angeles",
+        "resource": "frozen boxed beef and lamb",
+        "quantity": 15000,
+        "metric": "t"
+      },
+      {
+        "target_id": "INTL_commercial",
+        "corridor_id": "INTL_ocean_adelaide-middle-east",
+        "resource": "frozen boxed lamb and mutton",
+        "quantity": 15000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_viterra",
+      "AU_sa_cattle_sheep_operations"
+    ],
+    "resources": [
+      "Grain-Crops",
+      "Pastureland"
+    ]
+  },
+  {
+    "id": "AU_san_remo",
+    "name": "San Remo (Pasta Manufacturing, SA)",
+    "tier": "processor",
+    "country_iso2": "AU",
+    "canonical_company": "San Remo",
+    "coordinates": {
+      "lat": -34.77,
+      "lon": 138.55
+    },
+    "downstream": [
+      {
+        "target_id": "AU_woolworths",
+        "corridor_id": "AU_road_sa_san_remo_to_woolworths_dc",
+        "resource": "pasta (durum wheat products)",
+        "quantity": 40000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_coles",
+        "corridor_id": "AU_road_sa_san_remo_to_coles_dc",
+        "resource": "pasta (durum wheat products)",
+        "quantity": 35000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_aldi_australia",
+        "corridor_id": "AU_road_sa_san_remo_to_aldi_dc",
+        "resource": "pasta (durum wheat products)",
+        "quantity": 15000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_viterra"
+    ],
+    "resources": [
+      "Grain-Crops"
+    ]
+  },
+  {
+    "id": "INTL_asian_flour_mills",
+    "name": "Asian Flour Mills (Bogasari / Interflour / COFCO / etc.)",
+    "tier": "processor",
+    "country_iso2": "INTL",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": -6.1,
+      "lon": 106.8
+    },
+    "downstream": [
+      {
+        "target_id": "INTL_asian_bakeries_noodle_makers",
+        "corridor_id": "INTL_road_asian_mills_to_bakeries",
+        "resource": "wheat flour, noodle flour",
+        "quantity": 9000000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "INTL_asian_grain_importers"
+    ],
+    "resources": [
+      "Grain-Crops"
+    ]
+  },
+  {
+    "id": "INTL_asian_feed_mills",
+    "name": "Asian Feed Mills (CP Group, Cargill, New Hope, etc.)",
+    "tier": "processor",
+    "country_iso2": "INTL",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": 13.7,
+      "lon": 100.5
+    },
+    "downstream": [
+      {
+        "target_id": "INTL_asian_livestock_producers",
+        "corridor_id": "INTL_road_asian_feed_to_farms",
+        "resource": "compound animal feed (grain-based)",
+        "quantity": 6000000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "INTL_asian_grain_importers"
+    ],
+    "resources": [
+      "Grain-Crops"
+    ]
+  },
+  {
+    "id": "INTL_asian_oilseed_crushers",
+    "name": "Asian Oilseed Crushers (Wilmar, COFCO, ADM etc.)",
+    "tier": "processor",
+    "country_iso2": "INTL",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": 31.2,
+      "lon": 121.5
+    },
+    "downstream": [
+      {
+        "target_id": "INTL_asian_edible_oil_packers",
+        "corridor_id": "INTL_road_asian_crushers_to_packers",
+        "resource": "canola oil (crude and refined), canola meal",
+        "quantity": 2350000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "INTL_asian_grain_importers"
+    ],
+    "resources": [
+      "Grain-Crops"
+    ]
+  },
+  {
+    "id": "INTL_middle_east_flour_mills",
+    "name": "Middle East Flour Mills (GSFMO, IFFCO, etc.)",
+    "tier": "processor",
+    "country_iso2": "INTL",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": 24.5,
+      "lon": 46.7
+    },
+    "downstream": [
+      {
+        "target_id": "INTL_me_bakeries_food_cos",
+        "corridor_id": "INTL_road_me_mills_to_bakeries",
+        "resource": "wheat flour, arabic bread flour",
+        "quantity": 4000000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "INTL_middle_east_grain_importers"
+    ],
+    "resources": [
+      "Grain-Crops"
+    ]
+  },
+  {
+    "id": "INTL_east_african_flour_mills",
+    "name": "East African Flour Mills (Bakhresa, Pembe, etc.)",
+    "tier": "processor",
+    "country_iso2": "INTL",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": -1.3,
+      "lon": 36.8
+    },
+    "downstream": [
+      {
+        "target_id": "INTL_ea_bakeries_food_cos",
+        "corridor_id": "INTL_road_ea_mills_to_bakeries",
+        "resource": "wheat flour",
+        "quantity": 1500000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "INTL_east_african_grain_importers"
+    ],
+    "resources": [
+      "Grain-Crops"
+    ]
+  },
+  {
+    "id": "AU_domestic_food_manufacturers",
+    "name": "Australian Domestic Food Manufacturers (various)",
+    "tier": "brand_packer",
+    "country_iso2": "AU",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": -33.87,
+      "lon": 151.21
+    },
+    "downstream": [
+      {
+        "target_id": "AU_woolworths",
+        "corridor_id": "AU_road_nsw_manufacturers_to_woolworths_dc",
+        "resource": "bread, cereals, biscuits, flour (packaged grain products)",
+        "quantity": 250000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_coles",
+        "corridor_id": "AU_road_nsw_manufacturers_to_coles_dc",
+        "resource": "bread, cereals, biscuits, flour (packaged grain products)",
+        "quantity": 230000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_metcash",
+        "corridor_id": "AU_road_nsw_manufacturers_to_metcash_dc",
+        "resource": "bread, cereals, biscuits, flour (packaged grain products)",
+        "quantity": 100000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_aldi_australia",
+        "corridor_id": "AU_road_nsw_manufacturers_to_aldi_dc",
+        "resource": "packaged grain products",
+        "quantity": 60000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_commercial",
+        "corridor_id": "AU_road_nsw_manufacturers_to_foodservice",
+        "resource": "flour, premixes, bakery products (foodservice)",
+        "quantity": 60000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_allied_mills",
+      "AU_manildra_group"
+    ],
+    "resources": [
+      "Grain-Crops"
+    ]
+  },
+  {
+    "id": "AU_goodman_fielder",
+    "name": "Goodman Fielder (Helga's, Wonder White, etc.)",
+    "tier": "brand_packer",
+    "country_iso2": "AU",
+    "canonical_company": "Goodman Fielder",
+    "coordinates": {
+      "lat": -33.83,
+      "lon": 151.21
+    },
+    "downstream": [
+      {
+        "target_id": "AU_woolworths",
+        "corridor_id": "AU_road_nsw_goodman_to_woolworths_dc",
+        "resource": "bread, wraps, flour (branded)",
+        "quantity": 180000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_coles",
+        "corridor_id": "AU_road_nsw_goodman_to_coles_dc",
+        "resource": "bread, wraps, flour (branded)",
+        "quantity": 160000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_metcash",
+        "corridor_id": "AU_road_nsw_goodman_to_metcash_dc",
+        "resource": "bread, wraps, flour (branded)",
+        "quantity": 60000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_commercial",
+        "corridor_id": "AU_road_nsw_goodman_to_foodservice",
+        "resource": "bread, bakery products (foodservice)",
+        "quantity": 50000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_allied_mills"
+    ],
+    "resources": [
+      "Grain-Crops"
+    ]
+  },
+  {
+    "id": "AU_tip_top_bakeries",
+    "name": "Tip Top Bakeries (George Weston Foods)",
+    "tier": "brand_packer",
+    "country_iso2": "AU",
+    "canonical_company": "George Weston Foods",
+    "coordinates": {
+      "lat": -33.84,
+      "lon": 151.05
+    },
+    "downstream": [
+      {
+        "target_id": "AU_woolworths",
+        "corridor_id": "AU_road_nsw_tiptop_to_woolworths_dc",
+        "resource": "Tip Top branded bread and bakery products",
+        "quantity": 80000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_coles",
+        "corridor_id": "AU_road_nsw_tiptop_to_coles_dc",
+        "resource": "Tip Top branded bread and bakery products",
+        "quantity": 70000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_metcash",
+        "corridor_id": "AU_road_nsw_tiptop_to_metcash_dc",
+        "resource": "Tip Top branded bread and bakery products",
+        "quantity": 30000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_commercial",
+        "corridor_id": "AU_road_nsw_tiptop_to_foodservice",
+        "resource": "bread, rolls (foodservice)",
+        "quantity": 20000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_allied_mills"
+    ],
+    "resources": [
+      "Grain-Crops"
+    ]
+  },
+  {
+    "id": "AU_australian_breweries",
+    "name": "Australian Breweries (CUB / Asahi, Lion / Kirin, Coopers)",
+    "tier": "brand_packer",
+    "country_iso2": "AU",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": -37.81,
+      "lon": 144.96
+    },
+    "downstream": [
+      {
+        "target_id": "AU_woolworths",
+        "corridor_id": "AU_road_vic_breweries_to_woolworths_dc",
+        "resource": "beer (barley-malt based)",
+        "quantity": 80000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_coles",
+        "corridor_id": "AU_road_vic_breweries_to_coles_dc",
+        "resource": "beer (barley-malt based)",
+        "quantity": 60000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_commercial",
+        "corridor_id": "AU_road_vic_breweries_to_hospitality",
+        "resource": "beer (kegs / draught, barley-malt based)",
+        "quantity": 110000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_graincorp_malt"
+    ],
+    "resources": [
+      "Grain-Crops"
+    ]
+  },
+  {
+    "id": "INTL_export_malt_buyers",
+    "name": "International Malt Buyers (Breweries, Distillers — Asia, Americas)",
+    "tier": "brand_packer",
+    "country_iso2": "INTL",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": 35,
+      "lon": 136
+    },
+    "downstream": [
+      {
+        "target_id": "INTL_commercial",
+        "corridor_id": "INTL_road_malt_buyers_to_breweries",
+        "resource": "beer, spirits (malt-based beverages)",
+        "quantity": 350000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_graincorp_malt"
+    ],
+    "resources": [
+      "Grain-Crops"
+    ]
+  },
+  {
+    "id": "AU_wa_bakeries_food_manufacturers",
+    "name": "WA Bakeries & Food Manufacturers",
+    "tier": "brand_packer",
+    "country_iso2": "AU",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": -31.95,
+      "lon": 115.86
+    },
+    "downstream": [
+      {
+        "target_id": "AU_woolworths",
+        "corridor_id": "AU_road_wa_bakeries_to_woolworths_dc",
+        "resource": "bread, bakery products, flour (packaged)",
+        "quantity": 120000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_coles",
+        "corridor_id": "AU_road_wa_bakeries_to_coles_dc",
+        "resource": "bread, bakery products, flour (packaged)",
+        "quantity": 100000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_commercial",
+        "corridor_id": "AU_road_wa_bakeries_to_foodservice",
+        "resource": "bakery products (foodservice)",
+        "quantity": 80000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_interflour_group"
+    ],
+    "resources": [
+      "Grain-Crops"
+    ]
+  },
+  {
+    "id": "AU_livestock_feedlots",
+    "name": "Australian Livestock Feedlots & Poultry Farms (Eastern AU)",
+    "tier": "brand_packer",
+    "country_iso2": "AU",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": -28,
+      "lon": 151
+    },
+    "downstream": [
+      {
+        "target_id": "AU_residential",
+        "corridor_id": "AU_road_qld_feedlots_to_retail",
+        "resource": "grain-fed beef, poultry, pork (retail packs)",
+        "quantity": 350000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_commercial",
+        "corridor_id": "AU_road_qld_feedlots_to_foodservice",
+        "resource": "grain-fed beef, poultry (foodservice)",
+        "quantity": 150000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_ridley_corporation"
+    ],
+    "resources": [
+      "Grain-Crops"
+    ]
+  },
+  {
+    "id": "AU_wa_livestock_poultry",
+    "name": "WA Livestock & Poultry Operations",
+    "tier": "brand_packer",
+    "country_iso2": "AU",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": -32,
+      "lon": 116
+    },
+    "downstream": [
+      {
+        "target_id": "AU_residential",
+        "corridor_id": "AU_road_wa_livestock_to_retail",
+        "resource": "grain-fed meat products (retail)",
+        "quantity": 180000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_commercial",
+        "corridor_id": "AU_road_wa_livestock_to_foodservice",
+        "resource": "grain-fed meat products (foodservice)",
+        "quantity": 70000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_milne_feeds"
+    ],
+    "resources": [
+      "Grain-Crops"
+    ]
+  },
+  {
+    "id": "AU_inghams_poultry_processing",
+    "name": "Inghams Poultry Processing",
+    "tier": "brand_packer",
+    "country_iso2": "AU",
+    "canonical_company": "Inghams Group",
+    "coordinates": {
+      "lat": -33.7,
+      "lon": 150.77
+    },
+    "downstream": [
+      {
+        "target_id": "AU_woolworths",
+        "corridor_id": "AU_road_nsw_inghams_to_woolworths_dc",
+        "resource": "fresh & frozen chicken (Inghams branded)",
+        "quantity": 170000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_coles",
+        "corridor_id": "AU_road_nsw_inghams_to_coles_dc",
+        "resource": "fresh & frozen chicken (Inghams branded)",
+        "quantity": 130000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_commercial",
+        "corridor_id": "AU_road_nsw_inghams_to_foodservice",
+        "resource": "chicken products (foodservice)",
+        "quantity": 100000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_inghams_group"
+    ],
+    "resources": [
+      "Grain-Crops"
+    ]
+  },
+  {
+    "id": "AU_sa_meat_packers",
+    "name": "SA Meat Packers (Thomas Foods, Teys SA etc.)",
+    "tier": "brand_packer",
+    "country_iso2": "AU",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": -35.12,
+      "lon": 138.91
+    },
+    "downstream": [
+      {
+        "target_id": "AU_residential",
+        "corridor_id": "AU_road_sa_packers_to_retail",
+        "resource": "grain-fed beef & lamb (retail packs)",
+        "quantity": 100000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_commercial",
+        "corridor_id": "AU_road_sa_packers_to_foodservice",
+        "resource": "grain-fed beef & lamb (foodservice)",
+        "quantity": 60000,
+        "metric": "t"
+      },
+      {
+        "target_id": "INTL_commercial",
+        "corridor_id": "INTL_ocean_adelaide_export_meat",
+        "resource": "grain-fed beef (export)",
+        "quantity": 40000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_thomas_foods_international"
+    ],
+    "resources": [
+      "Grain-Crops"
+    ]
+  },
+  {
+    "id": "INTL_asian_bakeries_noodle_makers",
+    "name": "Asian Bakeries & Noodle Manufacturers",
+    "tier": "brand_packer",
+    "country_iso2": "INTL",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": -6.2,
+      "lon": 106.8
+    },
+    "downstream": [
+      {
+        "target_id": "INTL_residential",
+        "corridor_id": "INTL_road_asian_bakeries_to_retail",
+        "resource": "bread, instant noodles, baked goods (packaged)",
+        "quantity": 9000000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "INTL_asian_flour_mills"
+    ],
+    "resources": [
+      "Grain-Crops"
+    ]
+  },
+  {
+    "id": "INTL_asian_livestock_producers",
+    "name": "Asian Livestock & Poultry Producers",
+    "tier": "brand_packer",
+    "country_iso2": "INTL",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": 13.7,
+      "lon": 100.5
+    },
+    "downstream": [
+      {
+        "target_id": "INTL_residential",
+        "corridor_id": "INTL_road_asian_livestock_to_retail",
+        "resource": "grain-fed poultry, pork (retail packs)",
+        "quantity": 6000000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "INTL_asian_feed_mills"
+    ],
+    "resources": [
+      "Grain-Crops"
+    ]
+  },
+  {
+    "id": "INTL_asian_edible_oil_packers",
+    "name": "Asian Edible Oil Packers (Wilmar, etc.)",
+    "tier": "brand_packer",
+    "country_iso2": "INTL",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": 1.3,
+      "lon": 103.8
+    },
+    "downstream": [
+      {
+        "target_id": "INTL_residential",
+        "corridor_id": "INTL_road_asian_oil_to_retail",
+        "resource": "canola oil (bottled), canola meal (feed)",
+        "quantity": 2350000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "INTL_asian_oilseed_crushers"
+    ],
+    "resources": [
+      "Grain-Crops"
+    ]
+  },
+  {
+    "id": "INTL_me_bakeries_food_cos",
+    "name": "Middle East Bakeries & Food Companies",
+    "tier": "brand_packer",
+    "country_iso2": "INTL",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": 24.7,
+      "lon": 46.7
+    },
+    "downstream": [
+      {
+        "target_id": "INTL_residential",
+        "corridor_id": "INTL_road_me_bakeries_to_retail",
+        "resource": "bread, flatbread, baked goods (packaged)",
+        "quantity": 4000000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "INTL_middle_east_flour_mills"
+    ],
+    "resources": [
+      "Grain-Crops"
+    ]
+  },
+  {
+    "id": "INTL_ea_bakeries_food_cos",
+    "name": "East African Bakeries & Food Companies",
+    "tier": "brand_packer",
+    "country_iso2": "INTL",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": -1.3,
+      "lon": 36.8
+    },
+    "downstream": [
+      {
+        "target_id": "INTL_residential",
+        "corridor_id": "INTL_road_ea_bakeries_to_retail",
+        "resource": "bread, chapati flour, baked goods",
+        "quantity": 1500000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "INTL_east_african_flour_mills"
+    ],
+    "resources": [
+      "Grain-Crops"
+    ]
+  },
+  {
+    "id": "AU_aldi_australia",
+    "name": "ALDI Australia",
+    "tier": "retailer",
+    "country_iso2": "AU",
+    "canonical_company": "ALDI Australia",
+    "coordinates": {
+      "lat": -33.84,
+      "lon": 151.07
+    },
+    "downstream": [
+      {
+        "target_id": "AU_residential",
+        "corridor_id": "AU_road_nsw_aldi_to_consumers",
+        "resource": "pasta, bread, flour, cereals, grain-based products",
+        "quantity": 75000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_aldi_stores",
+        "corridor_id": "AU_road_aldi-national-dc",
+        "resource": "retail-packed farmed salmon",
+        "quantity": 2000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_residential",
+        "corridor_id": "AU_road_last-mile-urban",
+        "resource": "retail packed wild shellfish (frozen prawns, scallops)",
+        "quantity": 300,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_residential",
+        "corridor_id": "AU_road_aldi_lastmile",
+        "resource": "retail frozen fish fillets, prawns",
+        "quantity": 3000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_san_remo",
+      "AU_domestic_food_manufacturers",
+      "AU_tassal_group_packing",
+      "AU_defelice_bros",
+      "AU_bidvest_australia"
+    ],
+    "resources": [
+      "Grain-Crops",
+      "Fish (farmed)",
+      "Shellfish (wild)",
+      "Fish (wild)"
+    ]
+  },
+  {
+    "id": "AU_road_wa_wheatbelt_to_cbh_receival",
+    "tier": "transport",
+    "name": "WA Wheat Belt farm-gate to CBH receival points (road)",
+    "country_iso2": "AU",
+    "operator_id": "AU_various_wa_hauliers",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "regional",
+    "coordinates": {
+      "lat": -31.5,
+      "lon": 118.5
+    }
+  },
+  {
+    "id": "AU_road_nsw_north_to_graincorp",
+    "tier": "transport",
+    "name": "NSW Northern grain belt to GrainCorp receival (road)",
+    "country_iso2": "AU",
+    "operator_id": "AU_various_nsw_hauliers",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "regional",
+    "coordinates": {
+      "lat": -30.5,
+      "lon": 150
+    }
+  },
+  {
+    "id": "AU_road_nsw_south_to_graincorp",
+    "tier": "transport",
+    "name": "NSW Southern / Riverina to GrainCorp receival (road)",
+    "country_iso2": "AU",
+    "operator_id": "AU_various_nsw_hauliers",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "regional",
+    "coordinates": {
+      "lat": -34.5,
+      "lon": 147.5
+    }
+  },
+  {
+    "id": "AU_road_vic_wimmera_to_graincorp",
+    "tier": "transport",
+    "name": "Victoria Wimmera-Mallee to GrainCorp receival (road)",
+    "country_iso2": "AU",
+    "operator_id": "AU_various_vic_hauliers",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "regional",
+    "coordinates": {
+      "lat": -36,
+      "lon": 142.5
+    }
+  },
+  {
+    "id": "AU_road_sa_to_viterra_receival",
+    "tier": "transport",
+    "name": "SA grain regions to Viterra receival sites (road)",
+    "country_iso2": "AU",
+    "operator_id": "AU_various_sa_hauliers",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "regional",
+    "coordinates": {
+      "lat": -33.8,
+      "lon": 138.5
+    }
+  },
+  {
+    "id": "AU_road_qld_downs_to_graincorp",
+    "tier": "transport",
+    "name": "QLD Darling Downs to GrainCorp receival (road)",
+    "country_iso2": "AU",
+    "operator_id": "AU_various_qld_hauliers",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "regional",
+    "coordinates": {
+      "lat": -27.5,
+      "lon": 151
+    }
+  },
+  {
+    "id": "AU_road_qld_central_to_graincorp",
+    "tier": "transport",
+    "name": "QLD Central Highlands to GrainCorp receival (road)",
+    "country_iso2": "AU",
+    "operator_id": "AU_various_qld_hauliers",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "regional",
+    "coordinates": {
+      "lat": -23.4,
+      "lon": 148.2
+    }
+  },
+  {
+    "id": "AU_rail_wa_cbh_to_kwinana",
+    "tier": "transport",
+    "name": "CBH narrow-gauge rail network to Kwinana terminal",
+    "country_iso2": "AU",
+    "operator_id": "AU_cbh_group",
+    "mode": "rail",
+    "form": "bulk_dry",
+    "range": "regional",
+    "coordinates": {
+      "lat": -31.8,
+      "lon": 117
+    }
+  },
+  {
+    "id": "AU_rail_wa_cbh_to_albany",
+    "tier": "transport",
+    "name": "CBH rail network to Albany grain terminal",
+    "country_iso2": "AU",
+    "operator_id": "AU_cbh_group",
+    "mode": "rail",
+    "form": "bulk_dry",
+    "range": "regional",
+    "coordinates": {
+      "lat": -33.5,
+      "lon": 117.5
+    }
+  },
+  {
+    "id": "AU_rail_wa_cbh_to_geraldton",
+    "tier": "transport",
+    "name": "CBH rail network to Geraldton grain terminal",
+    "country_iso2": "AU",
+    "operator_id": "AU_cbh_group",
+    "mode": "rail",
+    "form": "bulk_dry",
+    "range": "regional",
+    "coordinates": {
+      "lat": -30,
+      "lon": 115.5
+    }
+  },
+  {
+    "id": "AU_rail_nsw_graincorp_to_port_kembla",
+    "tier": "transport",
+    "name": "NSW rail lines to GrainCorp Port Kembla terminal",
+    "country_iso2": "AU",
+    "operator_id": "AU_pacific_national",
+    "mode": "rail",
+    "form": "bulk_dry",
+    "range": "regional",
+    "coordinates": {
+      "lat": -34,
+      "lon": 150
+    }
+  },
+  {
+    "id": "AU_rail_nsw_graincorp_to_newcastle",
+    "tier": "transport",
+    "name": "NSW rail lines to GrainCorp Newcastle terminal",
+    "country_iso2": "AU",
+    "operator_id": "AU_pacific_national",
+    "mode": "rail",
+    "form": "bulk_dry",
+    "range": "regional",
+    "coordinates": {
+      "lat": -32,
+      "lon": 150.5
+    }
+  },
+  {
+    "id": "AU_rail_vic_graincorp_to_portland",
+    "tier": "transport",
+    "name": "VIC rail lines to GrainCorp Portland terminal",
+    "country_iso2": "AU",
+    "operator_id": "AU_pacific_national",
+    "mode": "rail",
+    "form": "bulk_dry",
+    "range": "regional",
+    "coordinates": {
+      "lat": -37.5,
+      "lon": 142
+    }
+  },
+  {
+    "id": "AU_rail_vic_graincorp_to_geelong",
+    "tier": "transport",
+    "name": "VIC rail lines to GrainCorp Geelong terminal",
+    "country_iso2": "AU",
+    "operator_id": "AU_pacific_national",
+    "mode": "rail",
+    "form": "bulk_dry",
+    "range": "regional",
+    "coordinates": {
+      "lat": -37.5,
+      "lon": 143.5
+    }
+  },
+  {
+    "id": "AU_rail_qld_graincorp_to_brisbane",
+    "tier": "transport",
+    "name": "QLD rail lines to GrainCorp Brisbane / Fisherman Islands",
+    "country_iso2": "AU",
+    "operator_id": "AU_aurizon",
+    "mode": "rail",
+    "form": "bulk_dry",
+    "range": "regional",
+    "coordinates": {
+      "lat": -27.5,
+      "lon": 152.5
+    }
+  },
+  {
+    "id": "AU_rail_sa_viterra_to_port_adelaide",
+    "tier": "transport",
+    "name": "SA rail lines to Viterra Port Adelaide / Outer Harbor",
+    "country_iso2": "AU",
+    "operator_id": "AU_genesee_wyoming_australia",
+    "mode": "rail",
+    "form": "bulk_dry",
+    "range": "regional",
+    "coordinates": {
+      "lat": -34.5,
+      "lon": 138.5
+    }
+  },
+  {
+    "id": "AU_rail_sa_viterra_to_port_lincoln",
+    "tier": "transport",
+    "name": "SA Eyre Peninsula rail to Viterra Port Lincoln",
+    "country_iso2": "AU",
+    "operator_id": "AU_genesee_wyoming_australia",
+    "mode": "rail",
+    "form": "bulk_dry",
+    "range": "regional",
+    "coordinates": {
+      "lat": -34,
+      "lon": 136.5
+    }
+  },
+  {
+    "id": "AU_road_wa_cbh_to_interflour",
+    "tier": "transport",
+    "name": "CBH receival to Interflour Perth mill (road)",
+    "country_iso2": "AU",
+    "operator_id": "AU_various_wa_hauliers",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "local",
+    "coordinates": {
+      "lat": -32,
+      "lon": 115.8
+    }
+  },
+  {
+    "id": "AU_road_wa_cbh_to_milne",
+    "tier": "transport",
+    "name": "CBH receival to Milne Feeds mill (road)",
+    "country_iso2": "AU",
+    "operator_id": "AU_various_wa_hauliers",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "local",
+    "coordinates": {
+      "lat": -31.96,
+      "lon": 115.9
+    }
+  },
+  {
+    "id": "AU_road_nsw_graincorp_to_allied_mills",
+    "tier": "transport",
+    "name": "GrainCorp upcountry to Allied Mills plants (road/rail)",
+    "country_iso2": "AU",
+    "operator_id": "AU_various_nsw_hauliers",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "regional",
+    "coordinates": {
+      "lat": -33.8,
+      "lon": 151
+    }
+  },
+  {
+    "id": "AU_road_nsw_graincorp_to_manildra",
+    "tier": "transport",
+    "name": "GrainCorp receival to Manildra mills (road/rail)",
+    "country_iso2": "AU",
+    "operator_id": "AU_various_nsw_hauliers",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "regional",
+    "coordinates": {
+      "lat": -33.8,
+      "lon": 149
+    }
+  },
+  {
+    "id": "AU_road_vic_graincorp_to_ridley",
+    "tier": "transport",
+    "name": "GrainCorp receival to Ridley feed mills (road)",
+    "country_iso2": "AU",
+    "operator_id": "AU_various_vic_hauliers",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "regional",
+    "coordinates": {
+      "lat": -37.5,
+      "lon": 144
+    }
+  },
+  {
+    "id": "AU_road_nsw_graincorp_to_inghams",
+    "tier": "transport",
+    "name": "GrainCorp receival to Inghams feed mill (road)",
+    "country_iso2": "AU",
+    "operator_id": "AU_various_nsw_hauliers",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "regional",
+    "coordinates": {
+      "lat": -33.7,
+      "lon": 150.8
+    }
+  },
+  {
+    "id": "AU_road_vic_graincorp_to_malt",
+    "tier": "transport",
+    "name": "GrainCorp receival to GrainCorp Malt malteries (road/rail)",
+    "country_iso2": "AU",
+    "operator_id": "AU_various_vic_hauliers",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "regional",
+    "coordinates": {
+      "lat": -37.8,
+      "lon": 144.5
+    }
+  },
+  {
+    "id": "AU_road_sa_viterra_to_thomas_foods",
+    "tier": "transport",
+    "name": "Viterra receival to Thomas Foods feedlots (road)",
+    "country_iso2": "AU",
+    "operator_id": "AU_various_sa_hauliers",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "regional",
+    "coordinates": {
+      "lat": -35,
+      "lon": 139
+    }
+  },
+  {
+    "id": "AU_road_sa_viterra_to_allied_mills",
+    "tier": "transport",
+    "name": "Viterra receival to Allied Mills SA plant (road)",
+    "country_iso2": "AU",
+    "operator_id": "AU_various_sa_hauliers",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "regional",
+    "coordinates": {
+      "lat": -34.9,
+      "lon": 138.6
+    }
+  },
+  {
+    "id": "AU_road_sa_viterra_to_san_remo",
+    "tier": "transport",
+    "name": "Viterra receival to San Remo pasta factory (road)",
+    "country_iso2": "AU",
+    "operator_id": "AU_various_sa_hauliers",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "local",
+    "coordinates": {
+      "lat": -34.8,
+      "lon": 138.5
+    }
+  },
+  {
+    "id": "INTL_ocean_kwinana_southeast_asia",
+    "tier": "transport",
+    "name": "Ocean freight Kwinana → Southeast Asia / East Asia",
+    "country_iso2": "INTL",
+    "operator_id": "INTL_various_bulk_carriers",
+    "mode": "ocean_freight",
+    "form": "bulk_dry",
+    "range": "international",
+    "coordinates": {
+      "lat": -15,
+      "lon": 110
+    }
+  },
+  {
+    "id": "INTL_ocean_kwinana_middle_east",
+    "tier": "transport",
+    "name": "Ocean freight Kwinana → Middle East (Persian Gulf)",
+    "country_iso2": "INTL",
+    "operator_id": "INTL_various_bulk_carriers",
+    "mode": "ocean_freight",
+    "form": "bulk_dry",
+    "range": "international",
+    "coordinates": {
+      "lat": -10,
+      "lon": 85
+    }
+  },
+  {
+    "id": "INTL_ocean_kwinana_east_africa",
+    "tier": "transport",
+    "name": "Ocean freight Kwinana → East Africa (Indian Ocean)",
+    "country_iso2": "INTL",
+    "operator_id": "INTL_various_bulk_carriers",
+    "mode": "ocean_freight",
+    "form": "bulk_dry",
+    "range": "international",
+    "coordinates": {
+      "lat": -15,
+      "lon": 65
+    }
+  },
+  {
+    "id": "INTL_ocean_albany_asia",
+    "tier": "transport",
+    "name": "Ocean freight Albany → Asia",
+    "country_iso2": "INTL",
+    "operator_id": "INTL_various_bulk_carriers",
+    "mode": "ocean_freight",
+    "form": "bulk_dry",
+    "range": "international",
+    "coordinates": {
+      "lat": -20,
+      "lon": 110
+    }
+  },
+  {
+    "id": "INTL_ocean_geraldton_asia",
+    "tier": "transport",
+    "name": "Ocean freight Geraldton → Asia",
+    "country_iso2": "INTL",
+    "operator_id": "INTL_various_bulk_carriers",
+    "mode": "ocean_freight",
+    "form": "bulk_dry",
+    "range": "international",
+    "coordinates": {
+      "lat": -18,
+      "lon": 112
+    }
+  },
+  {
+    "id": "INTL_ocean_port_kembla_asia",
+    "tier": "transport",
+    "name": "Ocean freight Port Kembla → Asia",
+    "country_iso2": "INTL",
+    "operator_id": "INTL_various_bulk_carriers",
+    "mode": "ocean_freight",
+    "form": "bulk_dry",
+    "range": "international",
+    "coordinates": {
+      "lat": -15,
+      "lon": 135
+    }
+  },
+  {
+    "id": "INTL_ocean_newcastle_asia",
+    "tier": "transport",
+    "name": "Ocean freight Newcastle → Asia",
+    "country_iso2": "INTL",
+    "operator_id": "INTL_various_bulk_carriers",
+    "mode": "ocean_freight",
+    "form": "bulk_dry",
+    "range": "international",
+    "coordinates": {
+      "lat": -15,
+      "lon": 140
+    },
+    "resources": [
+      "Arable"
+    ],
+    "upstream": [],
+    "downstream": []
+  },
+  {
+    "id": "INTL_ocean_portland_asia",
+    "tier": "transport",
+    "name": "Ocean freight Portland → Asia",
+    "country_iso2": "INTL",
+    "operator_id": "INTL_various_bulk_carriers",
+    "mode": "ocean_freight",
+    "form": "bulk_dry",
+    "range": "international",
+    "coordinates": {
+      "lat": -20,
+      "lon": 130
+    }
+  },
+  {
+    "id": "INTL_ocean_geelong_asia",
+    "tier": "transport",
+    "name": "Ocean freight Geelong → Asia",
+    "country_iso2": "INTL",
+    "operator_id": "INTL_various_bulk_carriers",
+    "mode": "ocean_freight",
+    "form": "bulk_dry",
+    "range": "international",
+    "coordinates": {
+      "lat": -20,
+      "lon": 132
+    }
+  },
+  {
+    "id": "INTL_ocean_brisbane_asia",
+    "tier": "transport",
+    "name": "Ocean freight Brisbane → Asia",
+    "country_iso2": "INTL",
+    "operator_id": "INTL_various_bulk_carriers",
+    "mode": "ocean_freight",
+    "form": "bulk_dry",
+    "range": "international",
+    "coordinates": {
+      "lat": -10,
+      "lon": 140
+    },
+    "resources": [
+      "Arable"
+    ],
+    "upstream": [],
+    "downstream": []
+  },
+  {
+    "id": "INTL_ocean_adelaide_asia",
+    "tier": "transport",
+    "name": "Ocean freight Port Adelaide → Asia",
+    "country_iso2": "INTL",
+    "operator_id": "INTL_various_bulk_carriers",
+    "mode": "ocean_freight",
+    "form": "bulk_dry",
+    "range": "international",
+    "coordinates": {
+      "lat": -18,
+      "lon": 120
+    },
+    "resources": [
+      "Arable"
+    ],
+    "upstream": [],
+    "downstream": []
+  },
+  {
+    "id": "INTL_ocean_adelaide_middle_east",
+    "tier": "transport",
+    "name": "Ocean freight Port Adelaide → Middle East",
+    "country_iso2": "INTL",
+    "operator_id": "INTL_various_bulk_carriers",
+    "mode": "ocean_freight",
+    "form": "bulk_dry",
+    "range": "international",
+    "coordinates": {
+      "lat": -15,
+      "lon": 80
+    }
+  },
+  {
+    "id": "INTL_ocean_port_lincoln_asia",
+    "tier": "transport",
+    "name": "Ocean freight Port Lincoln → Asia",
+    "country_iso2": "INTL",
+    "operator_id": "INTL_various_bulk_carriers",
+    "mode": "ocean_freight",
+    "form": "bulk_dry",
+    "range": "international",
+    "coordinates": {
+      "lat": -20,
+      "lon": 118
+    }
+  },
+  {
+    "id": "INTL_road_asian_ports_to_mills",
+    "tier": "transport",
+    "name": "Asian port discharge to flour mills (road/short-haul)",
+    "country_iso2": "INTL",
+    "operator_id": "INTL_various_local_hauliers",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "local",
+    "coordinates": {
+      "lat": -6.1,
+      "lon": 106.8
+    }
+  },
+  {
+    "id": "INTL_road_asian_ports_to_feed_mills",
+    "tier": "transport",
+    "name": "Asian port discharge to feed mills (road)",
+    "country_iso2": "INTL",
+    "operator_id": "INTL_various_local_hauliers",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "local",
+    "coordinates": {
+      "lat": 13.7,
+      "lon": 100.5
+    }
+  },
+  {
+    "id": "INTL_road_asian_ports_to_crushers",
+    "tier": "transport",
+    "name": "Asian port discharge to oilseed crushers (road)",
+    "country_iso2": "INTL",
+    "operator_id": "INTL_various_local_hauliers",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "local",
+    "coordinates": {
+      "lat": 31.2,
+      "lon": 121.5
+    }
+  },
+  {
+    "id": "INTL_road_me_ports_to_mills",
+    "tier": "transport",
+    "name": "Middle East port discharge to flour mills (road)",
+    "country_iso2": "INTL",
+    "operator_id": "INTL_various_local_hauliers",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "local",
+    "coordinates": {
+      "lat": 24.5,
+      "lon": 46.7
+    }
+  },
+  {
+    "id": "INTL_road_ea_ports_to_mills",
+    "tier": "transport",
+    "name": "East African port discharge to flour mills (road)",
+    "country_iso2": "INTL",
+    "operator_id": "INTL_various_local_hauliers",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "local",
+    "coordinates": {
+      "lat": -4,
+      "lon": 39.7
+    }
+  },
+  {
+    "id": "INTL_road_asian_mills_to_bakeries",
+    "tier": "transport",
+    "name": "Asian flour mills to bakeries / noodle makers (road)",
+    "country_iso2": "INTL",
+    "operator_id": "INTL_various_local_hauliers",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "local",
+    "coordinates": {
+      "lat": -6.2,
+      "lon": 106.8
+    }
+  },
+  {
+    "id": "INTL_road_asian_feed_to_farms",
+    "tier": "transport",
+    "name": "Asian feed mills to livestock farms (road)",
+    "country_iso2": "INTL",
+    "operator_id": "INTL_various_local_hauliers",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "regional",
+    "coordinates": {
+      "lat": 14,
+      "lon": 100.5
+    }
+  },
+  {
+    "id": "INTL_road_asian_crushers_to_packers",
+    "tier": "transport",
+    "name": "Asian crushers to oil packers (road/pipeline)",
+    "country_iso2": "INTL",
+    "operator_id": "INTL_various_local_hauliers",
+    "mode": "road",
+    "form": "bulk_liquid",
+    "range": "local",
+    "coordinates": {
+      "lat": 31.2,
+      "lon": 121.5
+    }
+  },
+  {
+    "id": "INTL_road_me_mills_to_bakeries",
+    "tier": "transport",
+    "name": "Middle East flour mills to bakeries (road)",
+    "country_iso2": "INTL",
+    "operator_id": "INTL_various_local_hauliers",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "local",
+    "coordinates": {
+      "lat": 24.7,
+      "lon": 46.7
+    }
+  },
+  {
+    "id": "INTL_road_ea_mills_to_bakeries",
+    "tier": "transport",
+    "name": "East African flour mills to bakeries (road)",
+    "country_iso2": "INTL",
+    "operator_id": "INTL_various_local_hauliers",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "local",
+    "coordinates": {
+      "lat": -1.3,
+      "lon": 36.8
+    }
+  },
+  {
+    "id": "AU_road_nsw_allied_to_goodman",
+    "tier": "transport",
+    "name": "Allied Mills to Goodman Fielder bakeries (road)",
+    "country_iso2": "AU",
+    "operator_id": "AU_various_nsw_hauliers",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "local",
+    "coordinates": {
+      "lat": -33.83,
+      "lon": 151
+    }
+  },
+  {
+    "id": "AU_road_nsw_allied_to_tiptop",
+    "tier": "transport",
+    "name": "Allied Mills to Tip Top Bakeries (road)",
+    "country_iso2": "AU",
+    "operator_id": "AU_various_nsw_hauliers",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "local",
+    "coordinates": {
+      "lat": -33.84,
+      "lon": 151.05
+    }
+  },
+  {
+    "id": "AU_road_nsw_allied_to_manufacturers",
+    "tier": "transport",
+    "name": "Allied Mills to domestic food manufacturers (road)",
+    "country_iso2": "AU",
+    "operator_id": "AU_various_nsw_hauliers",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "regional",
+    "coordinates": {
+      "lat": -33.85,
+      "lon": 151
+    }
+  },
+  {
+    "id": "AU_road_nsw_manildra_to_manufacturers",
+    "tier": "transport",
+    "name": "Manildra Group to food manufacturers (road)",
+    "country_iso2": "AU",
+    "operator_id": "AU_various_nsw_hauliers",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "regional",
+    "coordinates": {
+      "lat": -34,
+      "lon": 150.5
+    }
+  },
+  {
+    "id": "AU_road_nsw_manildra_to_industrial",
+    "tier": "transport",
+    "name": "Manildra Group to industrial consumers (road)",
+    "country_iso2": "AU",
+    "operator_id": "AU_various_nsw_hauliers",
+    "mode": "road",
+    "form": "bulk_liquid",
+    "range": "regional",
+    "coordinates": {
+      "lat": -34.7,
+      "lon": 150.8
+    }
+  },
+  {
+    "id": "AU_road_vic_malt_to_breweries",
+    "tier": "transport",
+    "name": "GrainCorp Malt to Australian breweries (road)",
+    "country_iso2": "AU",
+    "operator_id": "AU_various_vic_hauliers",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "regional",
+    "coordinates": {
+      "lat": -37.8,
+      "lon": 145
+    }
+  },
+  {
+    "id": "INTL_ocean_geelong_asia_malt",
+    "tier": "transport",
+    "name": "Ocean freight Geelong → Asia (malt export)",
+    "country_iso2": "INTL",
+    "operator_id": "INTL_various_bulk_carriers",
+    "mode": "ocean_freight",
+    "form": "bulk_dry",
+    "range": "international",
+    "coordinates": {
+      "lat": -20,
+      "lon": 132
+    }
+  },
+  {
+    "id": "AU_road_vic_ridley_to_feedlots",
+    "tier": "transport",
+    "name": "Ridley feed mills to livestock feedlots (road)",
+    "country_iso2": "AU",
+    "operator_id": "AU_various_vic_hauliers",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "regional",
+    "coordinates": {
+      "lat": -36,
+      "lon": 146
+    }
+  },
+  {
+    "id": "AU_road_nsw_inghams_feed_to_processing",
+    "tier": "transport",
+    "name": "Inghams feed mill to poultry grow-out & processing (road)",
+    "country_iso2": "AU",
+    "operator_id": "AU_inghams_group",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "local",
+    "coordinates": {
+      "lat": -33.7,
+      "lon": 150.8
+    }
+  },
+  {
+    "id": "AU_road_wa_interflour_to_bakeries",
+    "tier": "transport",
+    "name": "Interflour mill to WA bakeries & food manufacturers (road)",
+    "country_iso2": "AU",
+    "operator_id": "AU_various_wa_hauliers",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "local",
+    "coordinates": {
+      "lat": -31.95,
+      "lon": 115.86
+    }
+  },
+  {
+    "id": "AU_road_wa_milne_to_farms",
+    "tier": "transport",
+    "name": "Milne Feeds to WA livestock & poultry farms (road)",
+    "country_iso2": "AU",
+    "operator_id": "AU_various_wa_hauliers",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "regional",
+    "coordinates": {
+      "lat": -32,
+      "lon": 116
+    }
+  },
+  {
+    "id": "AU_road_sa_thomas_to_packers",
+    "tier": "transport",
+    "name": "Thomas Foods feedlot to meat processing (road)",
+    "country_iso2": "AU",
+    "operator_id": "AU_various_sa_hauliers",
+    "mode": "road",
+    "form": "unit_load",
+    "range": "local",
+    "coordinates": {
+      "lat": -35.12,
+      "lon": 138.91
+    }
+  },
+  {
+    "id": "AU_road_sa_san_remo_to_woolworths_dc",
+    "tier": "transport",
+    "name": "San Remo factory to Woolworths distribution centre (road)",
+    "country_iso2": "AU",
+    "operator_id": "AU_various_sa_hauliers",
+    "mode": "road",
+    "form": "containerised",
+    "range": "regional",
+    "coordinates": {
+      "lat": -34.8,
+      "lon": 138.6
+    }
+  },
+  {
+    "id": "AU_road_sa_san_remo_to_coles_dc",
+    "tier": "transport",
+    "name": "San Remo factory to Coles distribution centre (road)",
+    "country_iso2": "AU",
+    "operator_id": "AU_various_sa_hauliers",
+    "mode": "road",
+    "form": "containerised",
+    "range": "regional",
+    "coordinates": {
+      "lat": -34.8,
+      "lon": 138.6
+    }
+  },
+  {
+    "id": "AU_road_sa_san_remo_to_aldi_dc",
+    "tier": "transport",
+    "name": "San Remo factory to ALDI distribution centre (road)",
+    "country_iso2": "AU",
+    "operator_id": "AU_various_sa_hauliers",
+    "mode": "road",
+    "form": "containerised",
+    "range": "regional",
+    "coordinates": {
+      "lat": -34.8,
+      "lon": 138.6
+    }
+  },
+  {
+    "id": "AU_road_nsw_manufacturers_to_woolworths_dc",
+    "tier": "transport",
+    "name": "Food manufacturers to Woolworths DCs (road)",
+    "country_iso2": "AU",
+    "operator_id": "AU_linfox",
+    "mode": "road",
+    "form": "containerised",
+    "range": "regional",
+    "coordinates": {
+      "lat": -33.87,
+      "lon": 151
+    }
+  },
+  {
+    "id": "AU_road_nsw_manufacturers_to_coles_dc",
+    "tier": "transport",
+    "name": "Food manufacturers to Coles DCs (road)",
+    "country_iso2": "AU",
+    "operator_id": "AU_linfox",
+    "mode": "road",
+    "form": "containerised",
+    "range": "regional",
+    "coordinates": {
+      "lat": -33.87,
+      "lon": 151
+    }
+  },
+  {
+    "id": "AU_road_nsw_manufacturers_to_metcash_dc",
+    "tier": "transport",
+    "name": "Food manufacturers to Metcash DCs (road)",
+    "country_iso2": "AU",
+    "operator_id": "AU_various_nsw_hauliers",
+    "mode": "road",
+    "form": "containerised",
+    "range": "regional",
+    "coordinates": {
+      "lat": -33.8,
+      "lon": 151.1
+    }
+  },
+  {
+    "id": "AU_road_nsw_manufacturers_to_aldi_dc",
+    "tier": "transport",
+    "name": "Food manufacturers to ALDI DCs (road)",
+    "country_iso2": "AU",
+    "operator_id": "AU_various_nsw_hauliers",
+    "mode": "road",
+    "form": "containerised",
+    "range": "regional",
+    "coordinates": {
+      "lat": -33.84,
+      "lon": 151.07
+    }
+  },
+  {
+    "id": "AU_road_nsw_manufacturers_to_foodservice",
+    "tier": "transport",
+    "name": "Food manufacturers to foodservice / commercial (road)",
+    "country_iso2": "AU",
+    "operator_id": "AU_various_nsw_hauliers",
+    "mode": "road",
+    "form": "containerised",
+    "range": "regional",
+    "coordinates": {
+      "lat": -33.87,
+      "lon": 151.2
+    }
+  },
+  {
+    "id": "AU_road_nsw_goodman_to_woolworths_dc",
+    "tier": "transport",
+    "name": "Goodman Fielder to Woolworths DCs (road)",
+    "country_iso2": "AU",
+    "operator_id": "AU_linfox",
+    "mode": "road",
+    "form": "containerised",
+    "range": "regional",
+    "coordinates": {
+      "lat": -33.85,
+      "lon": 151.1
+    }
+  },
+  {
+    "id": "AU_road_nsw_goodman_to_coles_dc",
+    "tier": "transport",
+    "name": "Goodman Fielder to Coles DCs (road)",
+    "country_iso2": "AU",
+    "operator_id": "AU_linfox",
+    "mode": "road",
+    "form": "containerised",
+    "range": "regional",
+    "coordinates": {
+      "lat": -33.85,
+      "lon": 151.1
+    }
+  },
+  {
+    "id": "AU_road_nsw_goodman_to_metcash_dc",
+    "tier": "transport",
+    "name": "Goodman Fielder to Metcash DCs (road)",
+    "country_iso2": "AU",
+    "operator_id": "AU_various_nsw_hauliers",
+    "mode": "road",
+    "form": "containerised",
+    "range": "regional",
+    "coordinates": {
+      "lat": -33.85,
+      "lon": 151.1
+    }
+  },
+  {
+    "id": "AU_road_nsw_goodman_to_foodservice",
+    "tier": "transport",
+    "name": "Goodman Fielder to foodservice (road)",
+    "country_iso2": "AU",
+    "operator_id": "AU_various_nsw_hauliers",
+    "mode": "road",
+    "form": "containerised",
+    "range": "regional",
+    "coordinates": {
+      "lat": -33.85,
+      "lon": 151.2
+    }
+  },
+  {
+    "id": "AU_road_nsw_tiptop_to_woolworths_dc",
+    "tier": "transport",
+    "name": "Tip Top Bakeries to Woolworths DCs (road)",
+    "country_iso2": "AU",
+    "operator_id": "AU_linfox",
+    "mode": "road",
+    "form": "containerised",
+    "range": "regional",
+    "coordinates": {
+      "lat": -33.84,
+      "lon": 151.05
+    }
+  },
+  {
+    "id": "AU_road_nsw_tiptop_to_coles_dc",
+    "tier": "transport",
+    "name": "Tip Top Bakeries to Coles DCs (road)",
+    "country_iso2": "AU",
+    "operator_id": "AU_linfox",
+    "mode": "road",
+    "form": "containerised",
+    "range": "regional",
+    "coordinates": {
+      "lat": -33.84,
+      "lon": 151.05
+    }
+  },
+  {
+    "id": "AU_road_nsw_tiptop_to_metcash_dc",
+    "tier": "transport",
+    "name": "Tip Top Bakeries to Metcash DCs (road)",
+    "country_iso2": "AU",
+    "operator_id": "AU_various_nsw_hauliers",
+    "mode": "road",
+    "form": "containerised",
+    "range": "regional",
+    "coordinates": {
+      "lat": -33.84,
+      "lon": 151.05
+    }
+  },
+  {
+    "id": "AU_road_nsw_tiptop_to_foodservice",
+    "tier": "transport",
+    "name": "Tip Top Bakeries to foodservice (road)",
+    "country_iso2": "AU",
+    "operator_id": "AU_various_nsw_hauliers",
+    "mode": "road",
+    "form": "containerised",
+    "range": "regional",
+    "coordinates": {
+      "lat": -33.84,
+      "lon": 151.05
+    }
+  },
+  {
+    "id": "AU_road_vic_breweries_to_woolworths_dc",
+    "tier": "transport",
+    "name": "Breweries to Woolworths Liquor DCs (road)",
+    "country_iso2": "AU",
+    "operator_id": "AU_linfox",
+    "mode": "road",
+    "form": "containerised",
+    "range": "regional",
+    "coordinates": {
+      "lat": -37.81,
+      "lon": 144.96
+    }
+  },
+  {
+    "id": "AU_road_vic_breweries_to_coles_dc",
+    "tier": "transport",
+    "name": "Breweries to Coles Liquor DCs (road)",
+    "country_iso2": "AU",
+    "operator_id": "AU_linfox",
+    "mode": "road",
+    "form": "containerised",
+    "range": "regional",
+    "coordinates": {
+      "lat": -37.81,
+      "lon": 144.96
+    }
+  },
+  {
+    "id": "AU_road_vic_breweries_to_hospitality",
+    "tier": "transport",
+    "name": "Breweries to hospitality / pubs (road)",
+    "country_iso2": "AU",
+    "operator_id": "AU_various_vic_hauliers",
+    "mode": "road",
+    "form": "containerised",
+    "range": "regional",
+    "coordinates": {
+      "lat": -37.81,
+      "lon": 145
+    }
+  },
+  {
+    "id": "INTL_road_malt_buyers_to_breweries",
+    "tier": "transport",
+    "name": "International malt buyers — distribution (road)",
+    "country_iso2": "INTL",
+    "operator_id": "INTL_various_local_hauliers",
+    "mode": "road",
+    "form": "containerised",
+    "range": "local",
+    "coordinates": {
+      "lat": 35,
+      "lon": 136
+    }
+  },
+  {
+    "id": "AU_road_wa_bakeries_to_woolworths_dc",
+    "tier": "transport",
+    "name": "WA bakeries to Woolworths DC Perth (road)",
+    "country_iso2": "AU",
+    "operator_id": "AU_various_wa_hauliers",
+    "mode": "road",
+    "form": "containerised",
+    "range": "local",
+    "coordinates": {
+      "lat": -31.95,
+      "lon": 115.86
+    }
+  },
+  {
+    "id": "AU_road_wa_bakeries_to_coles_dc",
+    "tier": "transport",
+    "name": "WA bakeries to Coles DC Perth (road)",
+    "country_iso2": "AU",
+    "operator_id": "AU_various_wa_hauliers",
+    "mode": "road",
+    "form": "containerised",
+    "range": "local",
+    "coordinates": {
+      "lat": -31.95,
+      "lon": 115.86
+    }
+  },
+  {
+    "id": "AU_road_wa_bakeries_to_foodservice",
+    "tier": "transport",
+    "name": "WA bakeries to foodservice (road)",
+    "country_iso2": "AU",
+    "operator_id": "AU_various_wa_hauliers",
+    "mode": "road",
+    "form": "containerised",
+    "range": "local",
+    "coordinates": {
+      "lat": -31.95,
+      "lon": 115.86
+    }
+  },
+  {
+    "id": "AU_road_qld_feedlots_to_retail",
+    "tier": "transport",
+    "name": "Feedlots / abattoirs to retail (road, refrigerated)",
+    "country_iso2": "AU",
+    "operator_id": "AU_various_qld_hauliers",
+    "mode": "road",
+    "form": "containerised",
+    "range": "regional",
+    "coordinates": {
+      "lat": -28,
+      "lon": 152
+    }
+  },
+  {
+    "id": "AU_road_qld_feedlots_to_foodservice",
+    "tier": "transport",
+    "name": "Feedlots / abattoirs to foodservice (road, refrigerated)",
+    "country_iso2": "AU",
+    "operator_id": "AU_various_qld_hauliers",
+    "mode": "road",
+    "form": "containerised",
+    "range": "regional",
+    "coordinates": {
+      "lat": -28,
+      "lon": 152
+    }
+  },
+  {
+    "id": "AU_road_wa_livestock_to_retail",
+    "tier": "transport",
+    "name": "WA livestock / abattoirs to retail (road, refrigerated)",
+    "country_iso2": "AU",
+    "operator_id": "AU_various_wa_hauliers",
+    "mode": "road",
+    "form": "containerised",
+    "range": "regional",
+    "coordinates": {
+      "lat": -32,
+      "lon": 116
+    }
+  },
+  {
+    "id": "AU_road_wa_livestock_to_foodservice",
+    "tier": "transport",
+    "name": "WA livestock / abattoirs to foodservice (road, refrigerated)",
+    "country_iso2": "AU",
+    "operator_id": "AU_various_wa_hauliers",
+    "mode": "road",
+    "form": "containerised",
+    "range": "regional",
+    "coordinates": {
+      "lat": -32,
+      "lon": 116
+    }
+  },
+  {
+    "id": "AU_road_nsw_inghams_to_woolworths_dc",
+    "tier": "transport",
+    "name": "Inghams processing to Woolworths DCs (road, refrigerated)",
+    "country_iso2": "AU",
+    "operator_id": "AU_linfox",
+    "mode": "road",
+    "form": "containerised",
+    "range": "regional",
+    "coordinates": {
+      "lat": -33.7,
+      "lon": 150.8
+    }
+  },
+  {
+    "id": "AU_road_nsw_inghams_to_coles_dc",
+    "tier": "transport",
+    "name": "Inghams processing to Coles DCs (road, refrigerated)",
+    "country_iso2": "AU",
+    "operator_id": "AU_linfox",
+    "mode": "road",
+    "form": "containerised",
+    "range": "regional",
+    "coordinates": {
+      "lat": -33.7,
+      "lon": 150.8
+    }
+  },
+  {
+    "id": "AU_road_nsw_inghams_to_foodservice",
+    "tier": "transport",
+    "name": "Inghams processing to foodservice (road, refrigerated)",
+    "country_iso2": "AU",
+    "operator_id": "AU_various_nsw_hauliers",
+    "mode": "road",
+    "form": "containerised",
+    "range": "regional",
+    "coordinates": {
+      "lat": -33.7,
+      "lon": 150.8
+    }
+  },
+  {
+    "id": "AU_road_sa_packers_to_retail",
+    "tier": "transport",
+    "name": "SA meat packers to retail (road, refrigerated)",
+    "country_iso2": "AU",
+    "operator_id": "AU_various_sa_hauliers",
+    "mode": "road",
+    "form": "containerised",
+    "range": "regional",
+    "coordinates": {
+      "lat": -35,
+      "lon": 138.9
+    }
+  },
+  {
+    "id": "AU_road_sa_packers_to_foodservice",
+    "tier": "transport",
+    "name": "SA meat packers to foodservice (road, refrigerated)",
+    "country_iso2": "AU",
+    "operator_id": "AU_various_sa_hauliers",
+    "mode": "road",
+    "form": "containerised",
+    "range": "regional",
+    "coordinates": {
+      "lat": -35,
+      "lon": 138.9
+    }
+  },
+  {
+    "id": "INTL_ocean_adelaide_export_meat",
+    "tier": "transport",
+    "name": "Ocean freight Adelaide → export markets (refrigerated containers)",
+    "country_iso2": "INTL",
+    "operator_id": "INTL_various_container_lines",
+    "mode": "ocean_freight",
+    "form": "containerised",
+    "range": "international",
+    "coordinates": {
+      "lat": -20,
+      "lon": 120
+    }
+  },
+  {
+    "id": "INTL_road_asian_bakeries_to_retail",
+    "tier": "transport",
+    "name": "Asian bakeries / noodle makers to retail outlets (road)",
+    "country_iso2": "INTL",
+    "operator_id": "INTL_various_local_hauliers",
+    "mode": "road",
+    "form": "containerised",
+    "range": "local",
+    "coordinates": {
+      "lat": -6.2,
+      "lon": 106.8
+    }
+  },
+  {
+    "id": "INTL_road_asian_livestock_to_retail",
+    "tier": "transport",
+    "name": "Asian livestock producers to retail (road, refrigerated)",
+    "country_iso2": "INTL",
+    "operator_id": "INTL_various_local_hauliers",
+    "mode": "road",
+    "form": "containerised",
+    "range": "local",
+    "coordinates": {
+      "lat": 13.7,
+      "lon": 100.5
+    }
+  },
+  {
+    "id": "INTL_road_asian_oil_to_retail",
+    "tier": "transport",
+    "name": "Asian oil packers to retail (road)",
+    "country_iso2": "INTL",
+    "operator_id": "INTL_various_local_hauliers",
+    "mode": "road",
+    "form": "containerised",
+    "range": "local",
+    "coordinates": {
+      "lat": 1.3,
+      "lon": 103.8
+    }
+  },
+  {
+    "id": "INTL_road_me_bakeries_to_retail",
+    "tier": "transport",
+    "name": "Middle East bakeries to retail (road)",
+    "country_iso2": "INTL",
+    "operator_id": "INTL_various_local_hauliers",
+    "mode": "road",
+    "form": "containerised",
+    "range": "local",
+    "coordinates": {
+      "lat": 24.7,
+      "lon": 46.7
+    }
+  },
+  {
+    "id": "INTL_road_ea_bakeries_to_retail",
+    "tier": "transport",
+    "name": "East African bakeries to retail (road)",
+    "country_iso2": "INTL",
+    "operator_id": "INTL_various_local_hauliers",
+    "mode": "road",
+    "form": "containerised",
+    "range": "local",
+    "coordinates": {
+      "lat": -1.3,
+      "lon": 36.8
+    }
+  },
+  {
+    "id": "AU_road_nsw_woolworths_to_consumers",
+    "tier": "transport",
+    "name": "Woolworths stores — last mile to consumers",
+    "country_iso2": "AU",
+    "operator_id": "AU_woolworths_group",
+    "mode": "road",
+    "form": "containerised",
+    "range": "local",
+    "coordinates": {
+      "lat": -33.89,
+      "lon": 151.19
+    }
+  },
+  {
+    "id": "AU_road_vic_coles_to_consumers",
+    "tier": "transport",
+    "name": "Coles stores — last mile to consumers",
+    "country_iso2": "AU",
+    "operator_id": "AU_coles_group",
+    "mode": "road",
+    "form": "containerised",
+    "range": "local",
+    "coordinates": {
+      "lat": -37.82,
+      "lon": 144.95
+    }
+  },
+  {
+    "id": "AU_road_nsw_metcash_to_consumers",
+    "tier": "transport",
+    "name": "Metcash / IGA stores — last mile to consumers",
+    "country_iso2": "AU",
+    "operator_id": "AU_metcash",
+    "mode": "road",
+    "form": "containerised",
+    "range": "local",
+    "coordinates": {
+      "lat": -33.77,
+      "lon": 151.12
+    }
+  },
+  {
+    "id": "AU_road_nsw_aldi_to_consumers",
+    "tier": "transport",
+    "name": "ALDI stores — last mile to consumers",
+    "country_iso2": "AU",
+    "operator_id": "AU_aldi_australia",
+    "mode": "road",
+    "form": "containerised",
+    "range": "local",
+    "coordinates": {
+      "lat": -33.84,
+      "lon": 151.07
+    }
+  }
+]

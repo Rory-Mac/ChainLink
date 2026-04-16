@@ -1,0 +1,1945 @@
+[
+  {
+    "id": "AU_western_australia_wheat_belt",
+    "name": "Western Australia Wheat Belt",
+    "tier": "land_holder",
+    "country_iso2": "AU",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": -31.5,
+      "lon": 118.5
+    },
+    "downstream": [
+      {
+        "target_id": "AU_cbh_group",
+        "corridor_id": "AU_road_wa_wheat_belt_to_cbh",
+        "resource": "wheat grain",
+        "quantity": 9500000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_wa_canola_handlers",
+        "corridor_id": "AU_road_wa_wheat_belt_to_cbh",
+        "resource": "canola seed",
+        "quantity": 2200000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_wa_barley_handlers",
+        "corridor_id": "AU_road_wa_wheat_belt_to_cbh",
+        "resource": "barley grain",
+        "quantity": 4000000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Arable"
+    ]
+  },
+  {
+    "id": "AU_nsw_wheat_belt",
+    "name": "New South Wales Wheat Belt (Central West & Riverina)",
+    "tier": "land_holder",
+    "country_iso2": "AU",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": -33.3,
+      "lon": 147.5
+    },
+    "downstream": [
+      {
+        "target_id": "AU_graincorp",
+        "corridor_id": "AU_road_nsw_grain_to_graincorp",
+        "resource": "wheat grain",
+        "quantity": 7500000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_graincorp",
+        "corridor_id": "AU_road_nsw_grain_to_graincorp",
+        "resource": "canola seed",
+        "quantity": 1500000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_graincorp",
+        "corridor_id": "AU_road_nsw_grain_to_graincorp",
+        "resource": "barley grain",
+        "quantity": 1200000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Arable"
+    ]
+  },
+  {
+    "id": "AU_sa_grain_belt",
+    "name": "South Australia Grain Belt (Mallee & Mid North)",
+    "tier": "land_holder",
+    "country_iso2": "AU",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": -33.8,
+      "lon": 138.5
+    },
+    "downstream": [
+      {
+        "target_id": "AU_viterra",
+        "corridor_id": "AU_road_sa_grain_to_viterra",
+        "resource": "wheat grain",
+        "quantity": 4500000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_viterra",
+        "corridor_id": "AU_road_sa_grain_to_viterra",
+        "resource": "barley grain",
+        "quantity": 3000000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_viterra",
+        "corridor_id": "AU_road_sa_grain_to_viterra",
+        "resource": "lentils and pulses",
+        "quantity": 800000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Arable"
+    ]
+  },
+  {
+    "id": "AU_vic_grain_belt",
+    "name": "Victoria Grain Belt (Wimmera & Mallee)",
+    "tier": "land_holder",
+    "country_iso2": "AU",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": -36.3,
+      "lon": 142.5
+    },
+    "downstream": [
+      {
+        "target_id": "AU_graincorp",
+        "corridor_id": "AU_road_vic_grain_to_graincorp",
+        "resource": "wheat grain",
+        "quantity": 3500000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_graincorp",
+        "corridor_id": "AU_road_vic_grain_to_graincorp",
+        "resource": "barley grain",
+        "quantity": 1800000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_graincorp",
+        "corridor_id": "AU_road_vic_grain_to_graincorp",
+        "resource": "canola seed",
+        "quantity": 900000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Arable"
+    ]
+  },
+  {
+    "id": "AU_nsw_cotton_valleys",
+    "name": "NSW Cotton Regions (Namoi, Gwydir, Macquarie Valleys)",
+    "tier": "land_holder",
+    "country_iso2": "AU",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": -30.5,
+      "lon": 149.8
+    },
+    "downstream": [
+      {
+        "target_id": "AU_nsw_cotton_ginners",
+        "corridor_id": "AU_road_nsw_cotton_to_gin",
+        "resource": "raw cotton",
+        "quantity": 2000000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Arable"
+    ]
+  },
+  {
+    "id": "AU_mia_riverina_rice",
+    "name": "Murrumbidgee Irrigation Area & Riverina Rice Lands",
+    "tier": "land_holder",
+    "country_iso2": "AU",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": -34.3,
+      "lon": 146
+    },
+    "downstream": [
+      {
+        "target_id": "AU_sunrice",
+        "corridor_id": "AU_road_mia_to_sunrice",
+        "resource": "paddy rice",
+        "quantity": 600000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Arable"
+    ]
+  },
+  {
+    "id": "AU_qld_sugarcane_coast",
+    "name": "Queensland Sugar Cane Coastal Belt (Mackay to Tully)",
+    "tier": "land_holder",
+    "country_iso2": "AU",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": -19.5,
+      "lon": 147
+    },
+    "downstream": [
+      {
+        "target_id": "AU_wilmar_sugar",
+        "corridor_id": "AU_road_qld_cane_to_mill",
+        "resource": "sugarcane",
+        "quantity": 18000000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_msp_sugar",
+        "corridor_id": "AU_road_qld_cane_to_mill",
+        "resource": "sugarcane",
+        "quantity": 8000000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Arable"
+    ]
+  },
+  {
+    "id": "AU_qld_sugarcane_south",
+    "name": "Queensland Sugar Cane Southern Region (Bundaberg & Isis)",
+    "tier": "land_holder",
+    "country_iso2": "AU",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": -24.9,
+      "lon": 152.3
+    },
+    "downstream": [
+      {
+        "target_id": "AU_isis_central_sugar_mill",
+        "corridor_id": "AU_road_qld_south_cane_to_mill",
+        "resource": "sugarcane",
+        "quantity": 5000000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Arable"
+    ]
+  },
+  {
+    "id": "AU_wa_grain_belt_south",
+    "name": "Western Australia Southern Grain Region (Esperance & Albany Zones)",
+    "tier": "land_holder",
+    "country_iso2": "AU",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": -33.8,
+      "lon": 121
+    },
+    "downstream": [
+      {
+        "target_id": "AU_cbh_group",
+        "corridor_id": "AU_road_wa_south_to_cbh",
+        "resource": "wheat grain",
+        "quantity": 3500000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_cbh_group",
+        "corridor_id": "AU_road_wa_south_to_cbh",
+        "resource": "barley grain",
+        "quantity": 1500000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Arable"
+    ]
+  },
+  {
+    "id": "AU_wa_canola_handlers",
+    "name": "WA Canola Aggregation & Storage",
+    "tier": "land_manager",
+    "country_iso2": "AU",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": -31.95,
+      "lon": 115.86
+    },
+    "downstream": [
+      {
+        "target_id": "AU_cbh_group",
+        "corridor_id": "AU_road_wa_wheat_belt_to_cbh",
+        "resource": "canola seed",
+        "quantity": 2200000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_western_australia_wheat_belt"
+    ],
+    "resources": [
+      "Arable"
+    ]
+  },
+  {
+    "id": "AU_wa_barley_handlers",
+    "name": "WA Barley Aggregation & Storage",
+    "tier": "land_manager",
+    "country_iso2": "AU",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": -31.95,
+      "lon": 115.86
+    },
+    "downstream": [
+      {
+        "target_id": "AU_cbh_group",
+        "corridor_id": "AU_road_wa_wheat_belt_to_cbh",
+        "resource": "barley grain",
+        "quantity": 4000000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_western_australia_wheat_belt"
+    ],
+    "resources": [
+      "Arable"
+    ]
+  },
+  {
+    "id": "AU_qld_cotton_ginners",
+    "name": "Queensland Cotton Ginning Operations",
+    "tier": "land_manager",
+    "country_iso2": "AU",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": -27.5,
+      "lon": 151
+    },
+    "downstream": [
+      {
+        "target_id": "AU_namoi_cotton",
+        "corridor_id": "AU_road_qld_cotton_to_port",
+        "resource": "cotton lint",
+        "quantity": 900000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_qld_darling_downs"
+    ],
+    "resources": [
+      "Arable"
+    ]
+  },
+  {
+    "id": "AU_nsw_cotton_ginners",
+    "name": "NSW Cotton Ginning Operations",
+    "tier": "land_manager",
+    "country_iso2": "AU",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": -30.5,
+      "lon": 149.8
+    },
+    "downstream": [
+      {
+        "target_id": "AU_namoi_cotton",
+        "corridor_id": "AU_road_nsw_cotton_to_port",
+        "resource": "cotton lint",
+        "quantity": 700000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_nsw_cotton_valleys"
+    ],
+    "resources": [
+      "Arable"
+    ]
+  },
+  {
+    "id": "AU_wilmar_sugar",
+    "name": "Wilmar Sugar Australia (Sugar Mills)",
+    "tier": "land_manager",
+    "country_iso2": "AU",
+    "canonical_company": "Wilmar Sugar Australia",
+    "coordinates": {
+      "lat": -19.73,
+      "lon": 147.35
+    },
+    "downstream": [
+      {
+        "target_id": "AU_qsl",
+        "corridor_id": "AU_road_qld_sugar_to_terminal",
+        "resource": "raw sugar",
+        "quantity": 2400000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_qld_sugarcane_coast"
+    ],
+    "resources": [
+      "Arable"
+    ]
+  },
+  {
+    "id": "AU_msp_sugar",
+    "name": "MSF Sugar (Mackay Sugar & Tableland Mill)",
+    "tier": "land_manager",
+    "country_iso2": "AU",
+    "canonical_company": "MSF Sugar",
+    "coordinates": {
+      "lat": -21.15,
+      "lon": 149.19
+    },
+    "downstream": [
+      {
+        "target_id": "AU_qsl",
+        "corridor_id": "AU_road_qld_sugar_to_terminal",
+        "resource": "raw sugar",
+        "quantity": 1100000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_qld_sugarcane_coast"
+    ],
+    "resources": [
+      "Arable"
+    ]
+  },
+  {
+    "id": "AU_isis_central_sugar_mill",
+    "name": "Isis Central Sugar Mill Co",
+    "tier": "land_manager",
+    "country_iso2": "AU",
+    "canonical_company": "Isis Central Sugar Mill",
+    "coordinates": {
+      "lat": -25.18,
+      "lon": 152.33
+    },
+    "downstream": [
+      {
+        "target_id": "AU_qsl",
+        "corridor_id": "AU_road_qld_sugar_to_terminal",
+        "resource": "raw sugar",
+        "quantity": 650000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_qld_sugarcane_south"
+    ],
+    "resources": [
+      "Arable"
+    ]
+  },
+  {
+    "id": "AU_sunrice",
+    "name": "SunRice (Ricegrowers Limited)",
+    "tier": "land_manager",
+    "country_iso2": "AU",
+    "canonical_company": "SunRice",
+    "coordinates": {
+      "lat": -34.59,
+      "lon": 146.41
+    },
+    "downstream": [
+      {
+        "target_id": "AU_sunrice_mill",
+        "corridor_id": "AU_road_mia_to_sunrice_mill",
+        "resource": "paddy rice",
+        "quantity": 600000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_mia_riverina_rice"
+    ],
+    "resources": [
+      "Arable"
+    ]
+  },
+  {
+    "id": "AU_cbh_grain_exports",
+    "name": "CBH Grain Export Terminals (Kwinana, Geraldton, Albany, Esperance)",
+    "tier": "production_user",
+    "country_iso2": "AU",
+    "canonical_company": "CBH Group",
+    "coordinates": {
+      "lat": -32.23,
+      "lon": 115.77
+    },
+    "downstream": [
+      {
+        "target_id": "AU_wheat_export_traders",
+        "corridor_id": "INTL_ocean_kwinana_se_asia",
+        "resource": "wheat grain",
+        "quantity": 10000000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_barley_export_traders",
+        "corridor_id": "INTL_ocean_kwinana_se_asia",
+        "resource": "barley grain",
+        "quantity": 4500000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_canola_export_traders",
+        "corridor_id": "INTL_ocean_kwinana_europe",
+        "resource": "canola seed",
+        "quantity": 2200000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_cbh_group"
+    ],
+    "resources": [
+      "Arable"
+    ]
+  },
+  {
+    "id": "AU_graincorp_ports",
+    "name": "GrainCorp Port Terminals (Newcastle, Brisbane, Portland, Geelong)",
+    "tier": "production_user",
+    "country_iso2": "AU",
+    "canonical_company": "GrainCorp",
+    "coordinates": {
+      "lat": -32.93,
+      "lon": 151.78
+    },
+    "downstream": [
+      {
+        "target_id": "AU_wheat_export_traders",
+        "corridor_id": "INTL_ocean_newcastle_asia",
+        "resource": "wheat grain",
+        "quantity": 8000000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_barley_export_traders",
+        "corridor_id": "INTL_ocean_newcastle_asia",
+        "resource": "barley grain",
+        "quantity": 2500000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_canola_export_traders",
+        "corridor_id": "INTL_ocean_newcastle_europe",
+        "resource": "canola seed",
+        "quantity": 2400000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_sorghum_export_traders",
+        "corridor_id": "INTL_ocean_brisbane_asia",
+        "resource": "sorghum grain",
+        "quantity": 1800000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_pulse_export_traders",
+        "corridor_id": "INTL_ocean_newcastle_south_asia",
+        "resource": "chickpeas",
+        "quantity": 700000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_graincorp"
+    ],
+    "resources": [
+      "Arable"
+    ]
+  },
+  {
+    "id": "AU_coopers_maltings",
+    "name": "Coopers Maltings (SA Malting)",
+    "tier": "production_user",
+    "country_iso2": "AU",
+    "canonical_company": "Coopers Brewery",
+    "coordinates": {
+      "lat": -34.92,
+      "lon": 138.63
+    },
+    "downstream": [
+      {
+        "target_id": "AU_domestic_malt_processors",
+        "corridor_id": "AU_road_sa_malt_distribution",
+        "resource": "malt",
+        "quantity": 350000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_viterra"
+    ],
+    "resources": [
+      "Arable"
+    ]
+  },
+  {
+    "id": "AU_graincorp_oilseeds",
+    "name": "GrainCorp Oilseeds Processing (Numurkah, Pinjarra)",
+    "tier": "production_user",
+    "country_iso2": "AU",
+    "canonical_company": "GrainCorp",
+    "coordinates": {
+      "lat": -36.09,
+      "lon": 145.44
+    },
+    "downstream": [
+      {
+        "target_id": "AU_domestic_edible_oil_processors",
+        "corridor_id": "AU_road_vic_oil_distribution",
+        "resource": "canola oil and meal",
+        "quantity": 500000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_graincorp"
+    ],
+    "resources": [
+      "Arable"
+    ]
+  },
+  {
+    "id": "AU_namoi_cotton",
+    "name": "Namoi Cotton Cooperative & Louis Dreyfus Cotton",
+    "tier": "production_user",
+    "country_iso2": "AU",
+    "canonical_company": "Namoi Cotton",
+    "coordinates": {
+      "lat": -30.33,
+      "lon": 149.78
+    },
+    "downstream": [
+      {
+        "target_id": "AU_cotton_export_port",
+        "corridor_id": "AU_rail_cotton_to_brisbane",
+        "resource": "cotton lint bales",
+        "quantity": 1600000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_qld_cotton_ginners",
+      "AU_nsw_cotton_ginners"
+    ],
+    "resources": [
+      "Arable"
+    ]
+  },
+  {
+    "id": "AU_qsl",
+    "name": "Queensland Sugar Limited (QSL)",
+    "tier": "production_user",
+    "country_iso2": "AU",
+    "canonical_company": "Queensland Sugar Limited",
+    "coordinates": {
+      "lat": -19.26,
+      "lon": 146.8
+    },
+    "downstream": [
+      {
+        "target_id": "AU_sugar_export_terminals",
+        "corridor_id": "AU_road_qld_sugar_to_terminal",
+        "resource": "raw sugar",
+        "quantity": 3200000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_sugar_australia",
+        "corridor_id": "AU_road_qld_sugar_domestic",
+        "resource": "raw sugar",
+        "quantity": 950000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_wilmar_sugar",
+      "AU_msp_sugar",
+      "AU_isis_central_sugar_mill"
+    ],
+    "resources": [
+      "Arable"
+    ]
+  },
+  {
+    "id": "AU_sunrice_mill",
+    "name": "SunRice Leeton & Deniliquin Rice Mills",
+    "tier": "production_user",
+    "country_iso2": "AU",
+    "canonical_company": "SunRice",
+    "coordinates": {
+      "lat": -34.55,
+      "lon": 146.4
+    },
+    "downstream": [
+      {
+        "target_id": "AU_rice_domestic_processor",
+        "corridor_id": "AU_road_rice_to_sydney",
+        "resource": "milled rice",
+        "quantity": 250000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_rice_export_processor",
+        "corridor_id": "AU_road_rice_to_melbourne_port",
+        "resource": "milled rice",
+        "quantity": 150000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_sunrice"
+    ],
+    "resources": [
+      "Arable"
+    ]
+  },
+  {
+    "id": "AU_wheat_export_traders",
+    "name": "Wheat Export Trading (Cargill, Glencore, ADM, Bunge in AU)",
+    "tier": "downstream_processor",
+    "country_iso2": "AU",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": -33.86,
+      "lon": 151.21
+    },
+    "downstream": [
+      {
+        "target_id": "INTL_industrial",
+        "corridor_id": "INTL_ocean_au_to_global_wheat",
+        "resource": "wheat grain",
+        "quantity": 18000000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_industrial",
+        "corridor_id": "AU_road_domestic_wheat_distribution",
+        "resource": "wheat grain",
+        "quantity": 4000000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_cbh_grain_exports",
+      "AU_graincorp_ports",
+      "AU_viterra_port_adelaide"
+    ],
+    "resources": [
+      "Arable"
+    ]
+  },
+  {
+    "id": "AU_barley_export_traders",
+    "name": "Barley Export Trading (International Grain Traders)",
+    "tier": "downstream_processor",
+    "country_iso2": "AU",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": -33.86,
+      "lon": 151.21
+    },
+    "downstream": [
+      {
+        "target_id": "INTL_industrial",
+        "corridor_id": "INTL_ocean_au_to_global_barley",
+        "resource": "barley grain",
+        "quantity": 7000000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_agricultural",
+        "corridor_id": "AU_road_domestic_barley_distribution",
+        "resource": "feed barley",
+        "quantity": 2500000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_cbh_grain_exports",
+      "AU_graincorp_ports",
+      "AU_viterra_port_adelaide"
+    ],
+    "resources": [
+      "Arable"
+    ]
+  },
+  {
+    "id": "AU_canola_export_traders",
+    "name": "Canola Export Trading (Glencore, Cargill, Bunge)",
+    "tier": "downstream_processor",
+    "country_iso2": "AU",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": -33.86,
+      "lon": 151.21
+    },
+    "downstream": [
+      {
+        "target_id": "INTL_industrial",
+        "corridor_id": "INTL_ocean_au_to_eu_canola",
+        "resource": "canola seed",
+        "quantity": 3800000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_industrial",
+        "corridor_id": "AU_road_domestic_canola_distribution",
+        "resource": "canola seed",
+        "quantity": 800000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_cbh_grain_exports",
+      "AU_graincorp_ports"
+    ],
+    "resources": [
+      "Arable"
+    ]
+  },
+  {
+    "id": "AU_sorghum_export_traders",
+    "name": "Sorghum Export Trading",
+    "tier": "downstream_processor",
+    "country_iso2": "AU",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": -27.47,
+      "lon": 153.03
+    },
+    "downstream": [
+      {
+        "target_id": "INTL_industrial",
+        "corridor_id": "INTL_ocean_brisbane_china_sorghum",
+        "resource": "sorghum grain",
+        "quantity": 1200000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_agricultural",
+        "corridor_id": "AU_road_qld_sorghum_feed",
+        "resource": "sorghum grain",
+        "quantity": 600000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_graincorp_ports"
+    ],
+    "resources": [
+      "Arable"
+    ]
+  },
+  {
+    "id": "AU_pulse_export_traders",
+    "name": "Pulse Export Trading (Chickpeas, Lentils)",
+    "tier": "downstream_processor",
+    "country_iso2": "AU",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": -33.86,
+      "lon": 151.21
+    },
+    "downstream": [
+      {
+        "target_id": "INTL_residential",
+        "corridor_id": "INTL_ocean_au_to_south_asia_pulses",
+        "resource": "chickpeas and lentils",
+        "quantity": 1200000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_residential",
+        "corridor_id": "AU_road_domestic_pulse_distribution",
+        "resource": "chickpeas and lentils",
+        "quantity": 300000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_graincorp_ports",
+      "AU_viterra_port_adelaide"
+    ],
+    "resources": [
+      "Arable"
+    ]
+  },
+  {
+    "id": "AU_cotton_export_port",
+    "name": "Cotton Export via Port of Brisbane & Sydney",
+    "tier": "downstream_processor",
+    "country_iso2": "AU",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": -27.38,
+      "lon": 153.17
+    },
+    "downstream": [
+      {
+        "target_id": "INTL_industrial",
+        "corridor_id": "INTL_ocean_brisbane_asia_cotton",
+        "resource": "cotton lint bales",
+        "quantity": 1400000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_industrial",
+        "corridor_id": "AU_road_domestic_cotton_distribution",
+        "resource": "cotton lint",
+        "quantity": 200000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_namoi_cotton"
+    ],
+    "resources": [
+      "Arable"
+    ]
+  },
+  {
+    "id": "AU_sugar_export_terminals",
+    "name": "Sugar Export Terminals (Townsville, Mackay, Bundaberg, Lucinda)",
+    "tier": "downstream_processor",
+    "country_iso2": "AU",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": -19.26,
+      "lon": 146.8
+    },
+    "downstream": [
+      {
+        "target_id": "INTL_industrial",
+        "corridor_id": "INTL_ocean_townsville_asia_sugar",
+        "resource": "raw sugar",
+        "quantity": 2700000,
+        "metric": "t"
+      },
+      {
+        "target_id": "INTL_residential",
+        "corridor_id": "INTL_ocean_townsville_asia_sugar",
+        "resource": "raw sugar",
+        "quantity": 500000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_qsl"
+    ],
+    "resources": [
+      "Arable"
+    ]
+  },
+  {
+    "id": "AU_sugar_australia",
+    "name": "Sugar Australia (Refining – JV Wilmar & Mackay Sugar heritage)",
+    "tier": "downstream_processor",
+    "country_iso2": "AU",
+    "canonical_company": "Sugar Australia",
+    "coordinates": {
+      "lat": -27.95,
+      "lon": 153.4
+    },
+    "downstream": [
+      {
+        "target_id": "AU_residential",
+        "corridor_id": "AU_road_domestic_sugar_distribution",
+        "resource": "refined sugar",
+        "quantity": 550000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_industrial",
+        "corridor_id": "AU_road_domestic_sugar_distribution",
+        "resource": "refined sugar",
+        "quantity": 400000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_qsl"
+    ],
+    "resources": [
+      "Arable"
+    ]
+  },
+  {
+    "id": "AU_domestic_flour_processors",
+    "name": "Domestic Flour & Bakery Processors",
+    "tier": "downstream_processor",
+    "country_iso2": "AU",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": -33.86,
+      "lon": 151
+    },
+    "downstream": [
+      {
+        "target_id": "AU_residential",
+        "corridor_id": "AU_road_domestic_flour_retail",
+        "resource": "flour and bakery products",
+        "quantity": 2200000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_commercial",
+        "corridor_id": "AU_road_domestic_flour_commercial",
+        "resource": "flour and bakery products",
+        "quantity": 1850000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_interflour_group",
+      "AU_allied_mills",
+      "AU_manildra_group"
+    ],
+    "resources": [
+      "Arable"
+    ]
+  },
+  {
+    "id": "AU_domestic_malt_processors",
+    "name": "Domestic Malt & Brewing Industry",
+    "tier": "downstream_processor",
+    "country_iso2": "AU",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": -37.81,
+      "lon": 144.96
+    },
+    "downstream": [
+      {
+        "target_id": "AU_residential",
+        "corridor_id": "AU_road_domestic_malt_retail",
+        "resource": "malt and malt products for brewing",
+        "quantity": 550000,
+        "metric": "t"
+      },
+      {
+        "target_id": "INTL_industrial",
+        "corridor_id": "INTL_ocean_melbourne_asia_malt",
+        "resource": "malt",
+        "quantity": 500000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_graincorp_malt",
+      "AU_coopers_maltings"
+    ],
+    "resources": [
+      "Arable"
+    ]
+  },
+  {
+    "id": "AU_domestic_edible_oil_processors",
+    "name": "Domestic Edible Oil & Meal Processors",
+    "tier": "downstream_processor",
+    "country_iso2": "AU",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": -36.09,
+      "lon": 145.44
+    },
+    "downstream": [
+      {
+        "target_id": "AU_residential",
+        "corridor_id": "AU_road_domestic_oil_retail",
+        "resource": "canola oil",
+        "quantity": 200000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_agricultural",
+        "corridor_id": "AU_road_domestic_meal_feed",
+        "resource": "canola meal",
+        "quantity": 300000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_graincorp_oilseeds"
+    ],
+    "resources": [
+      "Arable"
+    ]
+  },
+  {
+    "id": "AU_rice_domestic_processor",
+    "name": "SunRice Domestic Branded Rice Distribution",
+    "tier": "downstream_processor",
+    "country_iso2": "AU",
+    "canonical_company": "SunRice",
+    "coordinates": {
+      "lat": -33.87,
+      "lon": 151.21
+    },
+    "downstream": [
+      {
+        "target_id": "AU_residential",
+        "corridor_id": "AU_road_domestic_rice_retail",
+        "resource": "packaged milled rice",
+        "quantity": 250000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_sunrice_mill"
+    ],
+    "resources": [
+      "Arable"
+    ]
+  },
+  {
+    "id": "AU_rice_export_processor",
+    "name": "SunRice Export Rice Distribution",
+    "tier": "downstream_processor",
+    "country_iso2": "AU",
+    "canonical_company": "SunRice",
+    "coordinates": {
+      "lat": -37.84,
+      "lon": 144.95
+    },
+    "downstream": [
+      {
+        "target_id": "INTL_residential",
+        "corridor_id": "INTL_ocean_melbourne_pacific_rice",
+        "resource": "milled rice",
+        "quantity": 150000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_sunrice_mill"
+    ],
+    "resources": [
+      "Arable"
+    ]
+  },
+  {
+    "id": "AU_road_wa_wheat_belt_to_cbh",
+    "tier": "transport",
+    "name": "WA Wheat Belt Road Haulage to CBH Receival Sites",
+    "country_iso2": "AU",
+    "operator_id": "AU_wa_road_hauliers",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "regional",
+    "coordinates": {
+      "lat": -31.5,
+      "lon": 118.5
+    }
+  },
+  {
+    "id": "AU_road_wa_south_to_cbh",
+    "tier": "transport",
+    "name": "WA Southern Grain Region Road to CBH Receival Sites",
+    "country_iso2": "AU",
+    "operator_id": "AU_wa_road_hauliers",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "regional",
+    "coordinates": {
+      "lat": -33.8,
+      "lon": 121
+    }
+  },
+  {
+    "id": "AU_road_nsw_grain_to_graincorp",
+    "tier": "transport",
+    "name": "NSW Grain Belt Road/Rail to GrainCorp Receival Sites",
+    "country_iso2": "AU",
+    "operator_id": "AU_nsw_road_hauliers",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "regional",
+    "coordinates": {
+      "lat": -33.3,
+      "lon": 147.5
+    }
+  },
+  {
+    "id": "AU_road_vic_grain_to_graincorp",
+    "tier": "transport",
+    "name": "VIC Grain Belt Road/Rail to GrainCorp Receival Sites",
+    "country_iso2": "AU",
+    "operator_id": "AU_vic_road_hauliers",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "regional",
+    "coordinates": {
+      "lat": -36.3,
+      "lon": 142.5
+    }
+  },
+  {
+    "id": "AU_road_qld_grain_to_graincorp",
+    "tier": "transport",
+    "name": "QLD Darling Downs Road/Rail to GrainCorp Receival Sites",
+    "country_iso2": "AU",
+    "operator_id": "AU_qld_road_hauliers",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "regional",
+    "coordinates": {
+      "lat": -27.5,
+      "lon": 151
+    }
+  },
+  {
+    "id": "AU_road_sa_grain_to_viterra",
+    "tier": "transport",
+    "name": "SA Grain Belt Road to Viterra Receival Sites",
+    "country_iso2": "AU",
+    "operator_id": "AU_sa_road_hauliers",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "regional",
+    "coordinates": {
+      "lat": -33.8,
+      "lon": 138.5
+    }
+  },
+  {
+    "id": "AU_road_qld_cotton_to_gin",
+    "tier": "transport",
+    "name": "QLD Cotton Fields to Gin Road Haulage",
+    "country_iso2": "AU",
+    "operator_id": "AU_qld_road_hauliers",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "local",
+    "coordinates": {
+      "lat": -27.5,
+      "lon": 151
+    }
+  },
+  {
+    "id": "AU_road_nsw_cotton_to_gin",
+    "tier": "transport",
+    "name": "NSW Cotton Fields to Gin Road Haulage",
+    "country_iso2": "AU",
+    "operator_id": "AU_nsw_road_hauliers",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "local",
+    "coordinates": {
+      "lat": -30.5,
+      "lon": 149.8
+    }
+  },
+  {
+    "id": "AU_road_qld_cane_to_mill",
+    "tier": "transport",
+    "name": "QLD Sugarcane Field to Mill Tramway/Road",
+    "country_iso2": "AU",
+    "operator_id": "AU_qld_cane_rail",
+    "mode": "rail",
+    "form": "bulk_dry",
+    "range": "local",
+    "coordinates": {
+      "lat": -19.5,
+      "lon": 147
+    }
+  },
+  {
+    "id": "AU_road_qld_south_cane_to_mill",
+    "tier": "transport",
+    "name": "QLD Southern Sugarcane Field to Mill Tramway/Road",
+    "country_iso2": "AU",
+    "operator_id": "AU_qld_cane_rail",
+    "mode": "rail",
+    "form": "bulk_dry",
+    "range": "local",
+    "coordinates": {
+      "lat": -24.9,
+      "lon": 152.3
+    }
+  },
+  {
+    "id": "AU_road_mia_to_sunrice",
+    "tier": "transport",
+    "name": "MIA Rice Paddies to SunRice Receival Road Haulage",
+    "country_iso2": "AU",
+    "operator_id": "AU_nsw_road_hauliers",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "local",
+    "coordinates": {
+      "lat": -34.3,
+      "lon": 146
+    }
+  },
+  {
+    "id": "AU_rail_wa_cbh_network",
+    "tier": "transport",
+    "name": "CBH Rail Network (WA Grain to Port)",
+    "country_iso2": "AU",
+    "operator_id": "AU_cbh_group",
+    "mode": "rail",
+    "form": "bulk_dry",
+    "range": "regional",
+    "coordinates": {
+      "lat": -31.8,
+      "lon": 117
+    }
+  },
+  {
+    "id": "AU_rail_nsw_graincorp_network",
+    "tier": "transport",
+    "name": "GrainCorp Rail Network (East Coast Grain to Port)",
+    "country_iso2": "AU",
+    "operator_id": "AU_graincorp",
+    "mode": "rail",
+    "form": "bulk_dry",
+    "range": "regional",
+    "coordinates": {
+      "lat": -33.5,
+      "lon": 149
+    }
+  },
+  {
+    "id": "AU_rail_sa_viterra_network",
+    "tier": "transport",
+    "name": "SA Rail Network to Viterra Port Terminals",
+    "country_iso2": "AU",
+    "operator_id": "AU_genesee_wyoming",
+    "mode": "rail",
+    "form": "bulk_dry",
+    "range": "regional",
+    "coordinates": {
+      "lat": -34,
+      "lon": 138
+    }
+  },
+  {
+    "id": "AU_road_sa_to_coopers",
+    "tier": "transport",
+    "name": "SA Barley to Coopers Maltings Road",
+    "country_iso2": "AU",
+    "operator_id": "AU_sa_road_hauliers",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "regional",
+    "coordinates": {
+      "lat": -34.92,
+      "lon": 138.63
+    }
+  },
+  {
+    "id": "AU_road_graincorp_to_mills",
+    "tier": "transport",
+    "name": "GrainCorp to Domestic Flour Mills Road/Rail",
+    "country_iso2": "AU",
+    "operator_id": "AU_nsw_road_hauliers",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "regional",
+    "coordinates": {
+      "lat": -33.86,
+      "lon": 151
+    }
+  },
+  {
+    "id": "AU_road_qld_cotton_to_port",
+    "tier": "transport",
+    "name": "QLD Cotton Gin to Port of Brisbane Road/Rail",
+    "country_iso2": "AU",
+    "operator_id": "AU_qld_road_hauliers",
+    "mode": "road",
+    "form": "containerised",
+    "range": "regional",
+    "coordinates": {
+      "lat": -27.4,
+      "lon": 152
+    }
+  },
+  {
+    "id": "AU_road_nsw_cotton_to_port",
+    "tier": "transport",
+    "name": "NSW Cotton Gin to Port Road/Rail",
+    "country_iso2": "AU",
+    "operator_id": "AU_nsw_road_hauliers",
+    "mode": "road",
+    "form": "containerised",
+    "range": "regional",
+    "coordinates": {
+      "lat": -31,
+      "lon": 150
+    }
+  },
+  {
+    "id": "AU_rail_cotton_to_brisbane",
+    "tier": "transport",
+    "name": "Cotton Rail/Road to Port of Brisbane",
+    "country_iso2": "AU",
+    "operator_id": "AU_aurizon",
+    "mode": "rail",
+    "form": "containerised",
+    "range": "regional",
+    "coordinates": {
+      "lat": -28,
+      "lon": 151
+    }
+  },
+  {
+    "id": "AU_road_qld_sugar_to_terminal",
+    "tier": "transport",
+    "name": "QLD Sugar Mills to Bulk Sugar Terminals",
+    "country_iso2": "AU",
+    "operator_id": "AU_qld_bulk_sugar",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "regional",
+    "coordinates": {
+      "lat": -19.5,
+      "lon": 147
+    }
+  },
+  {
+    "id": "AU_road_qld_sugar_domestic",
+    "tier": "transport",
+    "name": "QLD Raw Sugar to Domestic Refineries",
+    "country_iso2": "AU",
+    "operator_id": "AU_qld_road_hauliers",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "regional",
+    "coordinates": {
+      "lat": -27.5,
+      "lon": 153
+    }
+  },
+  {
+    "id": "AU_road_mia_to_sunrice_mill",
+    "tier": "transport",
+    "name": "MIA Paddy Rice to SunRice Mill Road",
+    "country_iso2": "AU",
+    "operator_id": "AU_nsw_road_hauliers",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "local",
+    "coordinates": {
+      "lat": -34.55,
+      "lon": 146.4
+    }
+  },
+  {
+    "id": "AU_road_rice_to_sydney",
+    "tier": "transport",
+    "name": "SunRice Mill to Sydney Distribution Road",
+    "country_iso2": "AU",
+    "operator_id": "AU_nsw_road_hauliers",
+    "mode": "road",
+    "form": "containerised",
+    "range": "regional",
+    "coordinates": {
+      "lat": -34.2,
+      "lon": 148.5
+    }
+  },
+  {
+    "id": "AU_road_rice_to_melbourne_port",
+    "tier": "transport",
+    "name": "SunRice Mill to Port of Melbourne Road",
+    "country_iso2": "AU",
+    "operator_id": "AU_vic_road_hauliers",
+    "mode": "road",
+    "form": "containerised",
+    "range": "regional",
+    "coordinates": {
+      "lat": -35.5,
+      "lon": 145.5
+    }
+  },
+  {
+    "id": "INTL_ocean_kwinana_se_asia",
+    "tier": "transport",
+    "name": "Ocean Freight Kwinana to SE Asia & Middle East",
+    "country_iso2": "INTL",
+    "operator_id": "INTL_bulk_shipping",
+    "mode": "ocean_freight",
+    "form": "bulk_dry",
+    "range": "international",
+    "coordinates": {
+      "lat": -15,
+      "lon": 115
+    }
+  },
+  {
+    "id": "INTL_ocean_kwinana_europe",
+    "tier": "transport",
+    "name": "Ocean Freight Kwinana to Europe (Canola)",
+    "country_iso2": "INTL",
+    "operator_id": "INTL_bulk_shipping",
+    "mode": "ocean_freight",
+    "form": "bulk_dry",
+    "range": "international",
+    "coordinates": {
+      "lat": -10,
+      "lon": 80
+    }
+  },
+  {
+    "id": "INTL_ocean_newcastle_europe",
+    "tier": "transport",
+    "name": "Ocean Freight Newcastle to Europe (Canola)",
+    "country_iso2": "INTL",
+    "operator_id": "INTL_bulk_shipping",
+    "mode": "ocean_freight",
+    "form": "bulk_dry",
+    "range": "international",
+    "coordinates": {
+      "lat": -5,
+      "lon": 100
+    }
+  },
+  {
+    "id": "INTL_ocean_newcastle_south_asia",
+    "tier": "transport",
+    "name": "Ocean Freight Newcastle to South Asia (Pulses)",
+    "country_iso2": "INTL",
+    "operator_id": "INTL_bulk_shipping",
+    "mode": "ocean_freight",
+    "form": "bulk_dry",
+    "range": "international",
+    "coordinates": {
+      "lat": -5,
+      "lon": 110
+    }
+  },
+  {
+    "id": "INTL_ocean_adelaide_south_asia",
+    "tier": "transport",
+    "name": "Ocean Freight Port Adelaide to South Asia (Pulses)",
+    "country_iso2": "INTL",
+    "operator_id": "INTL_bulk_shipping",
+    "mode": "ocean_freight",
+    "form": "bulk_dry",
+    "range": "international",
+    "coordinates": {
+      "lat": -10,
+      "lon": 95
+    }
+  },
+  {
+    "id": "INTL_ocean_brisbane_asia_cotton",
+    "tier": "transport",
+    "name": "Ocean Freight Brisbane to Asia (Cotton)",
+    "country_iso2": "INTL",
+    "operator_id": "INTL_container_shipping",
+    "mode": "ocean_freight",
+    "form": "containerised",
+    "range": "international",
+    "coordinates": {
+      "lat": -5,
+      "lon": 130
+    }
+  },
+  {
+    "id": "INTL_ocean_townsville_asia_sugar",
+    "tier": "transport",
+    "name": "Ocean Freight Townsville/Mackay to Asia (Raw Sugar)",
+    "country_iso2": "INTL",
+    "operator_id": "INTL_bulk_shipping",
+    "mode": "ocean_freight",
+    "form": "bulk_dry",
+    "range": "international",
+    "coordinates": {
+      "lat": -5,
+      "lon": 140
+    }
+  },
+  {
+    "id": "INTL_ocean_au_to_global_wheat",
+    "tier": "transport",
+    "name": "Ocean Freight Australia to Global Wheat Markets",
+    "country_iso2": "INTL",
+    "operator_id": "INTL_bulk_shipping",
+    "mode": "ocean_freight",
+    "form": "bulk_dry",
+    "range": "international",
+    "coordinates": {
+      "lat": -10,
+      "lon": 120
+    }
+  },
+  {
+    "id": "INTL_ocean_au_to_global_barley",
+    "tier": "transport",
+    "name": "Ocean Freight Australia to Global Barley Markets",
+    "country_iso2": "INTL",
+    "operator_id": "INTL_bulk_shipping",
+    "mode": "ocean_freight",
+    "form": "bulk_dry",
+    "range": "international",
+    "coordinates": {
+      "lat": -10,
+      "lon": 115
+    }
+  },
+  {
+    "id": "INTL_ocean_au_to_eu_canola",
+    "tier": "transport",
+    "name": "Ocean Freight Australia to EU & Japan Canola Markets",
+    "country_iso2": "INTL",
+    "operator_id": "INTL_bulk_shipping",
+    "mode": "ocean_freight",
+    "form": "bulk_dry",
+    "range": "international",
+    "coordinates": {
+      "lat": -5,
+      "lon": 90
+    }
+  },
+  {
+    "id": "INTL_ocean_brisbane_china_sorghum",
+    "tier": "transport",
+    "name": "Ocean Freight Brisbane to China (Sorghum)",
+    "country_iso2": "INTL",
+    "operator_id": "INTL_bulk_shipping",
+    "mode": "ocean_freight",
+    "form": "bulk_dry",
+    "range": "international",
+    "coordinates": {
+      "lat": -5,
+      "lon": 135
+    }
+  },
+  {
+    "id": "INTL_ocean_au_to_south_asia_pulses",
+    "tier": "transport",
+    "name": "Ocean Freight Australia to South Asia (Pulses)",
+    "country_iso2": "INTL",
+    "operator_id": "INTL_bulk_shipping",
+    "mode": "ocean_freight",
+    "form": "bulk_dry",
+    "range": "international",
+    "coordinates": {
+      "lat": -5,
+      "lon": 100
+    }
+  },
+  {
+    "id": "INTL_ocean_melbourne_asia_malt",
+    "tier": "transport",
+    "name": "Ocean Freight Melbourne to Asia (Malt)",
+    "country_iso2": "INTL",
+    "operator_id": "INTL_bulk_shipping",
+    "mode": "ocean_freight",
+    "form": "bulk_dry",
+    "range": "international",
+    "coordinates": {
+      "lat": -15,
+      "lon": 130
+    }
+  },
+  {
+    "id": "INTL_ocean_melbourne_pacific_rice",
+    "tier": "transport",
+    "name": "Ocean Freight Melbourne to Pacific Islands & PNG (Rice)",
+    "country_iso2": "INTL",
+    "operator_id": "INTL_container_shipping",
+    "mode": "ocean_freight",
+    "form": "containerised",
+    "range": "international",
+    "coordinates": {
+      "lat": -20,
+      "lon": 160
+    }
+  },
+  {
+    "id": "AU_road_domestic_wheat_distribution",
+    "tier": "transport",
+    "name": "Domestic Wheat Distribution Road/Rail Network",
+    "country_iso2": "AU",
+    "operator_id": "AU_domestic_logistics",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "regional",
+    "coordinates": {
+      "lat": -33.5,
+      "lon": 148
+    }
+  },
+  {
+    "id": "AU_road_domestic_barley_distribution",
+    "tier": "transport",
+    "name": "Domestic Barley Feed Distribution Road",
+    "country_iso2": "AU",
+    "operator_id": "AU_domestic_logistics",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "regional",
+    "coordinates": {
+      "lat": -34,
+      "lon": 145
+    }
+  },
+  {
+    "id": "AU_road_domestic_canola_distribution",
+    "tier": "transport",
+    "name": "Domestic Canola to Crush Plants Road",
+    "country_iso2": "AU",
+    "operator_id": "AU_domestic_logistics",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "regional",
+    "coordinates": {
+      "lat": -36,
+      "lon": 145
+    }
+  },
+  {
+    "id": "AU_road_qld_sorghum_feed",
+    "tier": "transport",
+    "name": "QLD Sorghum Feed Distribution Road",
+    "country_iso2": "AU",
+    "operator_id": "AU_qld_road_hauliers",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "regional",
+    "coordinates": {
+      "lat": -27.5,
+      "lon": 152
+    }
+  },
+  {
+    "id": "AU_road_domestic_pulse_distribution",
+    "tier": "transport",
+    "name": "Domestic Pulse Distribution Road",
+    "country_iso2": "AU",
+    "operator_id": "AU_domestic_logistics",
+    "mode": "road",
+    "form": "containerised",
+    "range": "regional",
+    "coordinates": {
+      "lat": -34,
+      "lon": 145
+    }
+  },
+  {
+    "id": "AU_road_domestic_cotton_distribution",
+    "tier": "transport",
+    "name": "Domestic Cotton Distribution Road",
+    "country_iso2": "AU",
+    "operator_id": "AU_domestic_logistics",
+    "mode": "road",
+    "form": "containerised",
+    "range": "regional",
+    "coordinates": {
+      "lat": -33.5,
+      "lon": 150
+    }
+  },
+  {
+    "id": "AU_road_domestic_sugar_distribution",
+    "tier": "transport",
+    "name": "Domestic Refined Sugar Distribution Road",
+    "country_iso2": "AU",
+    "operator_id": "AU_domestic_logistics",
+    "mode": "road",
+    "form": "containerised",
+    "range": "regional",
+    "coordinates": {
+      "lat": -28,
+      "lon": 153
+    }
+  },
+  {
+    "id": "AU_road_domestic_flour_retail",
+    "tier": "transport",
+    "name": "Domestic Flour & Bakery Retail Distribution",
+    "country_iso2": "AU",
+    "operator_id": "AU_domestic_logistics",
+    "mode": "road",
+    "form": "containerised",
+    "range": "regional",
+    "coordinates": {
+      "lat": -33.8,
+      "lon": 151
+    }
+  },
+  {
+    "id": "AU_road_domestic_flour_commercial",
+    "tier": "transport",
+    "name": "Domestic Flour to Commercial Foodservice Distribution",
+    "country_iso2": "AU",
+    "operator_id": "AU_domestic_logistics",
+    "mode": "road",
+    "form": "containerised",
+    "range": "regional",
+    "coordinates": {
+      "lat": -33.8,
+      "lon": 151
+    }
+  },
+  {
+    "id": "AU_road_wa_flour_distribution",
+    "tier": "transport",
+    "name": "WA Flour Distribution Road",
+    "country_iso2": "AU",
+    "operator_id": "AU_wa_road_hauliers",
+    "mode": "road",
+    "form": "containerised",
+    "range": "regional",
+    "coordinates": {
+      "lat": -32,
+      "lon": 115.8
+    }
+  },
+  {
+    "id": "AU_road_nsw_flour_distribution",
+    "tier": "transport",
+    "name": "NSW Flour Distribution Road",
+    "country_iso2": "AU",
+    "operator_id": "AU_nsw_road_hauliers",
+    "mode": "road",
+    "form": "containerised",
+    "range": "regional",
+    "coordinates": {
+      "lat": -33.8,
+      "lon": 151
+    }
+  },
+  {
+    "id": "AU_road_vic_malt_distribution",
+    "tier": "transport",
+    "name": "VIC Malt to Breweries Distribution Road",
+    "country_iso2": "AU",
+    "operator_id": "AU_vic_road_hauliers",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "regional",
+    "coordinates": {
+      "lat": -37.8,
+      "lon": 145
+    }
+  },
+  {
+    "id": "AU_road_sa_malt_distribution",
+    "tier": "transport",
+    "name": "SA Malt Distribution Road",
+    "country_iso2": "AU",
+    "operator_id": "AU_sa_road_hauliers",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "regional",
+    "coordinates": {
+      "lat": -34.9,
+      "lon": 138.6
+    }
+  },
+  {
+    "id": "AU_road_vic_oil_distribution",
+    "tier": "transport",
+    "name": "VIC Canola Oil & Meal Distribution Road",
+    "country_iso2": "AU",
+    "operator_id": "AU_vic_road_hauliers",
+    "mode": "road",
+    "form": "bulk_liquid",
+    "range": "regional",
+    "coordinates": {
+      "lat": -36,
+      "lon": 145.5
+    }
+  },
+  {
+    "id": "AU_road_domestic_oil_retail",
+    "tier": "transport",
+    "name": "Domestic Canola Oil Retail Distribution",
+    "country_iso2": "AU",
+    "operator_id": "AU_domestic_logistics",
+    "mode": "road",
+    "form": "containerised",
+    "range": "regional",
+    "coordinates": {
+      "lat": -34,
+      "lon": 145
+    }
+  },
+  {
+    "id": "AU_road_domestic_meal_feed",
+    "tier": "transport",
+    "name": "Domestic Canola Meal to Livestock Feed Road",
+    "country_iso2": "AU",
+    "operator_id": "AU_domestic_logistics",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "regional",
+    "coordinates": {
+      "lat": -35,
+      "lon": 145
+    }
+  },
+  {
+    "id": "AU_road_domestic_malt_retail",
+    "tier": "transport",
+    "name": "Domestic Malt Products Retail Distribution",
+    "country_iso2": "AU",
+    "operator_id": "AU_domestic_logistics",
+    "mode": "road",
+    "form": "containerised",
+    "range": "regional",
+    "coordinates": {
+      "lat": -37.8,
+      "lon": 145
+    }
+  },
+  {
+    "id": "AU_road_domestic_rice_retail",
+    "tier": "transport",
+    "name": "Domestic Rice Retail Distribution",
+    "country_iso2": "AU",
+    "operator_id": "AU_domestic_logistics",
+    "mode": "road",
+    "form": "containerised",
+    "range": "regional",
+    "coordinates": {
+      "lat": -33.9,
+      "lon": 151.2
+    }
+  }
+]

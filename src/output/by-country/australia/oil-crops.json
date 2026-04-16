@@ -1,0 +1,3078 @@
+[
+  {
+    "id": "AU_moree_canola_farms",
+    "name": "Moree Plains Canola Growing Region",
+    "tier": "grower",
+    "country_iso2": "AU",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": -29.46,
+      "lon": 149.85
+    },
+    "downstream": [
+      {
+        "target_id": "AU_graincorp_moree",
+        "corridor_id": "AU_road_moree-graincorp-elevator",
+        "resource": "canola seed",
+        "quantity": 350000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Oil-Crops"
+    ]
+  },
+  {
+    "id": "AU_narrabri_canola_farms",
+    "name": "Narrabri District Canola Growing Region",
+    "tier": "grower",
+    "country_iso2": "AU",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": -30.33,
+      "lon": 149.78
+    },
+    "downstream": [
+      {
+        "target_id": "AU_graincorp_narrabri",
+        "corridor_id": "AU_road_narrabri-graincorp-elevator",
+        "resource": "canola seed",
+        "quantity": 200000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Oil-Crops"
+    ]
+  },
+  {
+    "id": "AU_dubbo_canola_farms",
+    "name": "Dubbo / Central West NSW Canola Growing Region",
+    "tier": "grower",
+    "country_iso2": "AU",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": -32.25,
+      "lon": 148.6
+    },
+    "downstream": [
+      {
+        "target_id": "AU_graincorp_dubbo",
+        "corridor_id": "AU_road_dubbo-graincorp-elevator",
+        "resource": "canola seed",
+        "quantity": 280000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Oil-Crops"
+    ]
+  },
+  {
+    "id": "AU_wimmera_canola_farms",
+    "name": "Wimmera-Mallee Canola Growing Region (VIC)",
+    "tier": "grower",
+    "country_iso2": "AU",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": -36.35,
+      "lon": 142.2
+    },
+    "downstream": [
+      {
+        "target_id": "AU_graincorp_horsham",
+        "corridor_id": "AU_road_wimmera-horsham-elevator",
+        "resource": "canola seed",
+        "quantity": 350000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Oil-Crops"
+    ]
+  },
+  {
+    "id": "AU_riverina_canola_farms",
+    "name": "Riverina Canola Growing Region (NSW)",
+    "tier": "grower",
+    "country_iso2": "AU",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": -34.75,
+      "lon": 146.4
+    },
+    "downstream": [
+      {
+        "target_id": "AU_graincorp_griffith",
+        "corridor_id": "AU_road_riverina-griffith-elevator",
+        "resource": "canola seed",
+        "quantity": 220000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Oil-Crops"
+    ]
+  },
+  {
+    "id": "AU_yorke_peninsula_canola_farms",
+    "name": "Yorke Peninsula Canola Growing Region (SA)",
+    "tier": "grower",
+    "country_iso2": "AU",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": -34.2,
+      "lon": 137.8
+    },
+    "downstream": [
+      {
+        "target_id": "AU_viterra_port_lincoln",
+        "corridor_id": "AU_road_yorke-viterra-elevator",
+        "resource": "canola seed",
+        "quantity": 180000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Oil-Crops"
+    ]
+  },
+  {
+    "id": "AU_mid_north_sa_canola_farms",
+    "name": "Mid North SA Canola Growing Region",
+    "tier": "grower",
+    "country_iso2": "AU",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": -33.2,
+      "lon": 138.6
+    },
+    "downstream": [
+      {
+        "target_id": "AU_viterra_port_adelaide",
+        "corridor_id": "AU_road_midnorth-viterra-elevator",
+        "resource": "canola seed",
+        "quantity": 200000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Oil-Crops"
+    ]
+  },
+  {
+    "id": "AU_southeast_sa_canola_farms",
+    "name": "South East SA Canola Growing Region",
+    "tier": "grower",
+    "country_iso2": "AU",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": -36.8,
+      "lon": 140.7
+    },
+    "downstream": [
+      {
+        "target_id": "AU_viterra_port_adelaide",
+        "corridor_id": "AU_road_sesa-viterra-elevator",
+        "resource": "canola seed",
+        "quantity": 120000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Oil-Crops"
+    ]
+  },
+  {
+    "id": "AU_esperance_canola_farms",
+    "name": "Esperance Zone Canola Growing Region (WA)",
+    "tier": "grower",
+    "country_iso2": "AU",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": -33.85,
+      "lon": 121.9
+    },
+    "downstream": [
+      {
+        "target_id": "AU_cbh_esperance",
+        "corridor_id": "AU_road_esperance-cbh-elevator",
+        "resource": "canola seed",
+        "quantity": 400000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Oil-Crops"
+    ]
+  },
+  {
+    "id": "AU_albany_canola_farms",
+    "name": "Albany Zone Canola Growing Region (WA)",
+    "tier": "grower",
+    "country_iso2": "AU",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": -34.3,
+      "lon": 117.8
+    },
+    "downstream": [
+      {
+        "target_id": "AU_cbh_albany",
+        "corridor_id": "AU_road_albany-cbh-elevator",
+        "resource": "canola seed",
+        "quantity": 350000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Oil-Crops"
+    ]
+  },
+  {
+    "id": "AU_geraldton_canola_farms",
+    "name": "Geraldton Zone Canola Growing Region (WA)",
+    "tier": "grower",
+    "country_iso2": "AU",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": -29.2,
+      "lon": 115
+    },
+    "downstream": [
+      {
+        "target_id": "AU_cbh_geraldton",
+        "corridor_id": "AU_road_geraldton-cbh-elevator",
+        "resource": "canola seed",
+        "quantity": 300000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Oil-Crops"
+    ]
+  },
+  {
+    "id": "AU_kwinana_canola_farms",
+    "name": "Kwinana Zone Canola Growing Region (WA)",
+    "tier": "grower",
+    "country_iso2": "AU",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": -31.8,
+      "lon": 117.3
+    },
+    "downstream": [
+      {
+        "target_id": "AU_cbh_kwinana",
+        "corridor_id": "AU_road_kwinana-cbh-elevator",
+        "resource": "canola seed",
+        "quantity": 500000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Oil-Crops"
+    ]
+  },
+  {
+    "id": "AU_darling_downs_sunflower_farms",
+    "name": "Darling Downs Sunflower Growing Region (QLD)",
+    "tier": "grower",
+    "country_iso2": "AU",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": -27.55,
+      "lon": 151.1
+    },
+    "downstream": [
+      {
+        "target_id": "AU_graincorp_toowoomba",
+        "corridor_id": "AU_road_darlingdowns-graincorp-elevator",
+        "resource": "sunflower seed",
+        "quantity": 30000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Oil-Crops"
+    ]
+  },
+  {
+    "id": "AU_murrumbidgee_soybean_farms",
+    "name": "Murrumbidgee Irrigation Area Soybean Growing Region (NSW)",
+    "tier": "grower",
+    "country_iso2": "AU",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": -34.3,
+      "lon": 146.05
+    },
+    "downstream": [
+      {
+        "target_id": "AU_graincorp_griffith",
+        "corridor_id": "AU_road_mia-griffith-elevator",
+        "resource": "soybean",
+        "quantity": 25000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Oil-Crops"
+    ]
+  },
+  {
+    "id": "AU_ord_river_cotton_chia_farms",
+    "name": "Ord River Irrigation Area Chia / Cotton Growing (WA/NT)",
+    "tier": "grower",
+    "country_iso2": "AU",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": -15.65,
+      "lon": 128.73
+    },
+    "downstream": [
+      {
+        "target_id": "AU_the_chia_co_ord",
+        "corridor_id": "AU_road_ord-chiaco-elevator",
+        "resource": "chia seed",
+        "quantity": 5000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Oil-Crops"
+    ]
+  },
+  {
+    "id": "AU_northern_nsw_cottonseed_farms",
+    "name": "Northern NSW / Southern QLD Cotton Growing Region",
+    "tier": "grower",
+    "country_iso2": "AU",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": -29.8,
+      "lon": 149.8
+    },
+    "downstream": [
+      {
+        "target_id": "AU_graincorp_narrabri",
+        "corridor_id": "AU_road_nnsw-narrabri-elevator",
+        "resource": "cottonseed",
+        "quantity": 400000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Oil-Crops"
+    ]
+  },
+  {
+    "id": "AU_graincorp_moree",
+    "name": "GrainCorp Moree Receival / Elevator Site",
+    "tier": "elevator_handler",
+    "country_iso2": "AU",
+    "canonical_company": "GrainCorp",
+    "coordinates": {
+      "lat": -29.47,
+      "lon": 149.84
+    },
+    "downstream": [
+      {
+        "target_id": "AU_graincorp_port_kembla",
+        "corridor_id": "AU_rail_nsw-north-port-kembla",
+        "resource": "canola seed",
+        "quantity": 200000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_cargill_narrabri_crush",
+        "corridor_id": "AU_road_moree-narrabri",
+        "resource": "canola seed",
+        "quantity": 150000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_moree_canola_farms"
+    ],
+    "resources": [
+      "Oil-Crops"
+    ]
+  },
+  {
+    "id": "AU_graincorp_narrabri",
+    "name": "GrainCorp Narrabri Receival / Elevator Site",
+    "tier": "elevator_handler",
+    "country_iso2": "AU",
+    "canonical_company": "GrainCorp",
+    "coordinates": {
+      "lat": -30.33,
+      "lon": 149.78
+    },
+    "downstream": [
+      {
+        "target_id": "AU_cargill_narrabri_crush",
+        "corridor_id": "AU_road_narrabri-cargill",
+        "resource": "canola seed",
+        "quantity": 120000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_graincorp_port_kembla",
+        "corridor_id": "AU_rail_nsw-north-port-kembla",
+        "resource": "canola seed",
+        "quantity": 80000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_graincorp_cottonseed_handler",
+        "corridor_id": "AU_road_narrabri-cottonseed-handler",
+        "resource": "cottonseed",
+        "quantity": 400000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_narrabri_canola_farms",
+      "AU_northern_nsw_cottonseed_farms"
+    ],
+    "resources": [
+      "Oil-Crops"
+    ]
+  },
+  {
+    "id": "AU_graincorp_cottonseed_handler",
+    "name": "GrainCorp Cottonseed Handling (Narrabri/Moree)",
+    "tier": "elevator_handler",
+    "country_iso2": "AU",
+    "canonical_company": "GrainCorp",
+    "coordinates": {
+      "lat": -30.3,
+      "lon": 149.8
+    },
+    "downstream": [
+      {
+        "target_id": "AU_cargill_narrabri_crush",
+        "corridor_id": "AU_road_narrabri-cargill",
+        "resource": "cottonseed",
+        "quantity": 200000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_graincorp_port_kembla",
+        "corridor_id": "AU_rail_nsw-north-port-kembla",
+        "resource": "cottonseed",
+        "quantity": 200000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_graincorp_narrabri"
+    ],
+    "resources": [
+      "Oil-Crops"
+    ]
+  },
+  {
+    "id": "AU_graincorp_dubbo",
+    "name": "GrainCorp Dubbo / Central West Receival Site",
+    "tier": "elevator_handler",
+    "country_iso2": "AU",
+    "canonical_company": "GrainCorp",
+    "coordinates": {
+      "lat": -32.25,
+      "lon": 148.6
+    },
+    "downstream": [
+      {
+        "target_id": "AU_graincorp_port_kembla",
+        "corridor_id": "AU_rail_nsw-central-port-kembla",
+        "resource": "canola seed",
+        "quantity": 180000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_manildra_west_footscray",
+        "corridor_id": "AU_rail_nsw-central-melbourne",
+        "resource": "canola seed",
+        "quantity": 100000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_dubbo_canola_farms"
+    ],
+    "resources": [
+      "Oil-Crops"
+    ]
+  },
+  {
+    "id": "AU_graincorp_horsham",
+    "name": "GrainCorp Horsham / Wimmera Receival Site",
+    "tier": "elevator_handler",
+    "country_iso2": "AU",
+    "canonical_company": "GrainCorp",
+    "coordinates": {
+      "lat": -36.72,
+      "lon": 142.2
+    },
+    "downstream": [
+      {
+        "target_id": "AU_graincorp_geelong",
+        "corridor_id": "AU_rail_vic-wimmera-geelong",
+        "resource": "canola seed",
+        "quantity": 200000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_cargill_footscray_crush",
+        "corridor_id": "AU_rail_vic-wimmera-melbourne",
+        "resource": "canola seed",
+        "quantity": 150000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_wimmera_canola_farms"
+    ],
+    "resources": [
+      "Oil-Crops"
+    ]
+  },
+  {
+    "id": "AU_graincorp_griffith",
+    "name": "GrainCorp Griffith / Riverina Receival Site",
+    "tier": "elevator_handler",
+    "country_iso2": "AU",
+    "canonical_company": "GrainCorp",
+    "coordinates": {
+      "lat": -34.29,
+      "lon": 146.05
+    },
+    "downstream": [
+      {
+        "target_id": "AU_graincorp_port_kembla",
+        "corridor_id": "AU_rail_nsw-south-port-kembla",
+        "resource": "canola seed",
+        "quantity": 140000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_cargill_footscray_crush",
+        "corridor_id": "AU_rail_riverina-melbourne",
+        "resource": "canola seed",
+        "quantity": 80000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_bunge_numurkah_crush",
+        "corridor_id": "AU_road_griffith-numurkah",
+        "resource": "soybean",
+        "quantity": 25000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_riverina_canola_farms",
+      "AU_murrumbidgee_soybean_farms"
+    ],
+    "resources": [
+      "Oil-Crops"
+    ]
+  },
+  {
+    "id": "AU_graincorp_toowoomba",
+    "name": "GrainCorp Toowoomba / Darling Downs Receival Site",
+    "tier": "elevator_handler",
+    "country_iso2": "AU",
+    "canonical_company": "GrainCorp",
+    "coordinates": {
+      "lat": -27.56,
+      "lon": 151.95
+    },
+    "downstream": [
+      {
+        "target_id": "AU_graincorp_fisherman_islands",
+        "corridor_id": "AU_rail_qld-darlingdowns-brisbane",
+        "resource": "sunflower seed",
+        "quantity": 30000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_darling_downs_sunflower_farms"
+    ],
+    "resources": [
+      "Oil-Crops"
+    ]
+  },
+  {
+    "id": "AU_viterra_port_lincoln",
+    "name": "Viterra Port Lincoln Elevator & Export Terminal",
+    "tier": "elevator_handler",
+    "country_iso2": "AU",
+    "canonical_company": "Viterra",
+    "coordinates": {
+      "lat": -34.73,
+      "lon": 135.86
+    },
+    "downstream": [
+      {
+        "target_id": "AU_adc_port_adelaide_crush",
+        "corridor_id": "AU_road_portlincoln-portadelaide",
+        "resource": "canola seed",
+        "quantity": 80000,
+        "metric": "t"
+      },
+      {
+        "target_id": "EU_canola_importers",
+        "corridor_id": "INTL_ocean_port-lincoln-hamburg",
+        "resource": "canola seed",
+        "quantity": 100000,
+        "metric": "t"
+      },
+      {
+        "target_id": "INTL_asian_grain_importers",
+        "corridor_id": "INTL_ocean_port_lincoln_asia",
+        "resource": "wheat, barley (bulk grain)",
+        "quantity": 1500000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_yorke_peninsula_canola_farms",
+      "AU_viterra"
+    ],
+    "resources": [
+      "Oil-Crops",
+      "Grain-Crops"
+    ]
+  },
+  {
+    "id": "AU_viterra_port_adelaide",
+    "name": "Viterra Port Adelaide / Outer Harbor Elevator & Export Terminal",
+    "tier": "elevator_handler",
+    "country_iso2": "AU",
+    "canonical_company": "Viterra",
+    "coordinates": {
+      "lat": -34.78,
+      "lon": 138.5
+    },
+    "downstream": [
+      {
+        "target_id": "AU_adc_port_adelaide_crush",
+        "corridor_id": "AU_road_viterra-adc-portadelaide",
+        "resource": "canola seed",
+        "quantity": 120000,
+        "metric": "t"
+      },
+      {
+        "target_id": "JP_canola_importers",
+        "corridor_id": "INTL_ocean_port-adelaide-yokohama",
+        "resource": "canola seed",
+        "quantity": 200000,
+        "metric": "t"
+      },
+      {
+        "target_id": "INTL_asian_grain_importers",
+        "corridor_id": "INTL_ocean_adelaide_asia",
+        "resource": "wheat, barley, canola, lentils (bulk grain/pulses)",
+        "quantity": 3000000,
+        "metric": "t"
+      },
+      {
+        "target_id": "INTL_middle_east_grain_importers",
+        "corridor_id": "INTL_ocean_adelaide_middle_east",
+        "resource": "wheat, barley, lentils",
+        "quantity": 1500000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_wheat_export_traders",
+        "corridor_id": "INTL_ocean_adelaide_asia",
+        "resource": "wheat grain",
+        "quantity": 4000000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_barley_export_traders",
+        "corridor_id": "INTL_ocean_adelaide_asia",
+        "resource": "barley grain",
+        "quantity": 2500000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_pulse_export_traders",
+        "corridor_id": "INTL_ocean_adelaide_south_asia",
+        "resource": "lentils and pulses",
+        "quantity": 800000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_mid_north_sa_canola_farms",
+      "AU_southeast_sa_canola_farms",
+      "AU_viterra"
+    ],
+    "resources": [
+      "Oil-Crops",
+      "Grain-Crops",
+      "Arable"
+    ]
+  },
+  {
+    "id": "AU_cbh_esperance",
+    "name": "CBH Esperance Receival & Export Terminal",
+    "tier": "elevator_handler",
+    "country_iso2": "AU",
+    "canonical_company": "CBH Group",
+    "coordinates": {
+      "lat": -33.86,
+      "lon": 121.89
+    },
+    "downstream": [
+      {
+        "target_id": "EU_canola_importers",
+        "corridor_id": "INTL_ocean_esperance-rotterdam",
+        "resource": "canola seed",
+        "quantity": 250000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_cbh_kwinana",
+        "corridor_id": "AU_rail_wa-esperance-kwinana",
+        "resource": "canola seed",
+        "quantity": 150000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_esperance_canola_farms"
+    ],
+    "resources": [
+      "Oil-Crops"
+    ]
+  },
+  {
+    "id": "AU_cbh_albany",
+    "name": "CBH Albany Receival & Export Terminal",
+    "tier": "elevator_handler",
+    "country_iso2": "AU",
+    "canonical_company": "CBH Group",
+    "coordinates": {
+      "lat": -35.03,
+      "lon": 117.88
+    },
+    "downstream": [
+      {
+        "target_id": "EU_canola_importers",
+        "corridor_id": "INTL_ocean_albany-rotterdam",
+        "resource": "canola seed",
+        "quantity": 200000,
+        "metric": "t"
+      },
+      {
+        "target_id": "JP_canola_importers",
+        "corridor_id": "INTL_ocean_albany-yokohama",
+        "resource": "canola seed",
+        "quantity": 150000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_albany_canola_farms"
+    ],
+    "resources": [
+      "Oil-Crops"
+    ]
+  },
+  {
+    "id": "AU_cbh_geraldton",
+    "name": "CBH Geraldton Receival & Export Terminal",
+    "tier": "elevator_handler",
+    "country_iso2": "AU",
+    "canonical_company": "CBH Group",
+    "coordinates": {
+      "lat": -28.77,
+      "lon": 114.62
+    },
+    "downstream": [
+      {
+        "target_id": "EU_canola_importers",
+        "corridor_id": "INTL_ocean_geraldton-rotterdam",
+        "resource": "canola seed",
+        "quantity": 200000,
+        "metric": "t"
+      },
+      {
+        "target_id": "BD_canola_importers",
+        "corridor_id": "INTL_ocean_geraldton-chittagong",
+        "resource": "canola seed",
+        "quantity": 100000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_geraldton_canola_farms"
+    ],
+    "resources": [
+      "Oil-Crops"
+    ]
+  },
+  {
+    "id": "AU_cbh_kwinana",
+    "name": "CBH Kwinana Receival & Export Terminal",
+    "tier": "elevator_handler",
+    "country_iso2": "AU",
+    "canonical_company": "CBH Group",
+    "coordinates": {
+      "lat": -32.23,
+      "lon": 115.77
+    },
+    "downstream": [
+      {
+        "target_id": "EU_canola_importers",
+        "corridor_id": "INTL_ocean_kwinana-rotterdam",
+        "resource": "canola seed",
+        "quantity": 350000,
+        "metric": "t"
+      },
+      {
+        "target_id": "JP_canola_importers",
+        "corridor_id": "INTL_ocean_kwinana-yokohama",
+        "resource": "canola seed",
+        "quantity": 150000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_cargill_kwinana_crush",
+        "corridor_id": "AU_road_kwinana-cargill",
+        "resource": "canola seed",
+        "quantity": 150000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_kwinana_canola_farms",
+      "AU_cbh_esperance"
+    ],
+    "resources": [
+      "Oil-Crops"
+    ]
+  },
+  {
+    "id": "AU_the_chia_co_ord",
+    "name": "The Chia Co Ord River Receival Facility",
+    "tier": "elevator_handler",
+    "country_iso2": "AU",
+    "canonical_company": "The Chia Co",
+    "coordinates": {
+      "lat": -15.65,
+      "lon": 128.73
+    },
+    "downstream": [
+      {
+        "target_id": "AU_the_chia_co_melbourne",
+        "corridor_id": "AU_road_ord-melbourne",
+        "resource": "chia seed",
+        "quantity": 5000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_ord_river_cotton_chia_farms"
+    ],
+    "resources": [
+      "Oil-Crops"
+    ]
+  },
+  {
+    "id": "AU_graincorp_port_kembla",
+    "name": "GrainCorp Port Kembla Export Terminal",
+    "tier": "elevator_handler",
+    "country_iso2": "AU",
+    "canonical_company": "GrainCorp",
+    "coordinates": {
+      "lat": -34.47,
+      "lon": 150.9
+    },
+    "downstream": [
+      {
+        "target_id": "EU_canola_importers",
+        "corridor_id": "INTL_ocean_port-kembla-rotterdam",
+        "resource": "canola seed",
+        "quantity": 300000,
+        "metric": "t"
+      },
+      {
+        "target_id": "JP_canola_importers",
+        "corridor_id": "INTL_ocean_port-kembla-yokohama",
+        "resource": "canola seed",
+        "quantity": 150000,
+        "metric": "t"
+      },
+      {
+        "target_id": "CN_canola_importers",
+        "corridor_id": "INTL_ocean_port-kembla-nanjing",
+        "resource": "canola seed",
+        "quantity": 100000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AE_canola_importers",
+        "corridor_id": "INTL_ocean_port-kembla-jebel-ali",
+        "resource": "cottonseed",
+        "quantity": 100000,
+        "metric": "t"
+      },
+      {
+        "target_id": "CN_canola_importers",
+        "corridor_id": "INTL_ocean_port-kembla-nanjing",
+        "resource": "cottonseed",
+        "quantity": 100000,
+        "metric": "t"
+      },
+      {
+        "target_id": "INTL_asian_grain_importers",
+        "corridor_id": "INTL_ocean_port_kembla_asia",
+        "resource": "wheat, canola (bulk grain)",
+        "quantity": 3000000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_graincorp_moree",
+      "AU_graincorp_narrabri",
+      "AU_graincorp_cottonseed_handler",
+      "AU_graincorp_dubbo",
+      "AU_graincorp_griffith",
+      "AU_graincorp"
+    ],
+    "resources": [
+      "Oil-Crops",
+      "Grain-Crops"
+    ]
+  },
+  {
+    "id": "AU_graincorp_geelong",
+    "name": "GrainCorp Geelong Export Terminal",
+    "tier": "elevator_handler",
+    "country_iso2": "AU",
+    "canonical_company": "GrainCorp",
+    "coordinates": {
+      "lat": -38.14,
+      "lon": 144.36
+    },
+    "downstream": [
+      {
+        "target_id": "EU_canola_importers",
+        "corridor_id": "INTL_ocean_geelong-rotterdam",
+        "resource": "canola seed",
+        "quantity": 200000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_graincorp_horsham"
+    ],
+    "resources": [
+      "Oil-Crops"
+    ]
+  },
+  {
+    "id": "AU_graincorp_fisherman_islands",
+    "name": "GrainCorp Fisherman Islands Export Terminal (Brisbane)",
+    "tier": "elevator_handler",
+    "country_iso2": "AU",
+    "canonical_company": "GrainCorp",
+    "coordinates": {
+      "lat": -27.38,
+      "lon": 153.17
+    },
+    "downstream": [
+      {
+        "target_id": "AU_goodman_fielder_brisbane",
+        "corridor_id": "AU_road_fisherman-goodman",
+        "resource": "sunflower seed",
+        "quantity": 15000,
+        "metric": "t"
+      },
+      {
+        "target_id": "CN_canola_importers",
+        "corridor_id": "INTL_ocean_brisbane-nanjing",
+        "resource": "sunflower seed",
+        "quantity": 15000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_graincorp_toowoomba"
+    ],
+    "resources": [
+      "Oil-Crops"
+    ]
+  },
+  {
+    "id": "EU_canola_importers",
+    "name": "European Oilseed Crushers / Importers",
+    "tier": "processor",
+    "country_iso2": "DE",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": 53.55,
+      "lon": 9.99
+    },
+    "downstream": [
+      {
+        "target_id": "DE_industrial",
+        "corridor_id": "DE_road_hamburg-distribution",
+        "resource": "canola oil / meal",
+        "quantity": 600000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_viterra_port_lincoln",
+      "AU_cbh_esperance",
+      "AU_cbh_albany",
+      "AU_cbh_geraldton",
+      "AU_cbh_kwinana",
+      "AU_graincorp_port_kembla",
+      "AU_graincorp_geelong"
+    ],
+    "resources": [
+      "Oil-Crops"
+    ]
+  },
+  {
+    "id": "JP_canola_importers",
+    "name": "Japanese Oilseed Crushers / Importers",
+    "tier": "processor",
+    "country_iso2": "JP",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": 35.44,
+      "lon": 139.64
+    },
+    "downstream": [
+      {
+        "target_id": "JP_industrial",
+        "corridor_id": "JP_road_yokohama-distribution",
+        "resource": "canola oil / meal",
+        "quantity": 450000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_viterra_port_adelaide",
+      "AU_cbh_albany",
+      "AU_cbh_kwinana",
+      "AU_graincorp_port_kembla"
+    ],
+    "resources": [
+      "Oil-Crops"
+    ]
+  },
+  {
+    "id": "CN_canola_importers",
+    "name": "Chinese Oilseed Crushers / Importers",
+    "tier": "processor",
+    "country_iso2": "CN",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": 32.06,
+      "lon": 118.78
+    },
+    "downstream": [
+      {
+        "target_id": "CN_industrial",
+        "corridor_id": "CN_road_nanjing-distribution",
+        "resource": "canola oil / meal / cottonseed oil",
+        "quantity": 215000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_graincorp_port_kembla",
+      "AU_graincorp_fisherman_islands"
+    ],
+    "resources": [
+      "Oil-Crops"
+    ]
+  },
+  {
+    "id": "BD_canola_importers",
+    "name": "Bangladeshi Oilseed Crushers / Importers",
+    "tier": "processor",
+    "country_iso2": "BD",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": 22.33,
+      "lon": 91.8
+    },
+    "downstream": [
+      {
+        "target_id": "BD_industrial",
+        "corridor_id": "BD_road_chittagong-distribution",
+        "resource": "canola oil / meal",
+        "quantity": 100000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_cbh_geraldton"
+    ],
+    "resources": [
+      "Oil-Crops"
+    ]
+  },
+  {
+    "id": "AE_canola_importers",
+    "name": "UAE Oilseed / Cottonseed Importers",
+    "tier": "processor",
+    "country_iso2": "AE",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": 25.01,
+      "lon": 55.07
+    },
+    "downstream": [
+      {
+        "target_id": "AE_agricultural",
+        "corridor_id": "AE_road_jebelali-distribution",
+        "resource": "cottonseed meal (animal feed)",
+        "quantity": 100000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_graincorp_port_kembla"
+    ],
+    "resources": [
+      "Oil-Crops"
+    ]
+  },
+  {
+    "id": "AU_cargill_narrabri_crush",
+    "name": "Cargill Narrabri Oilseed Crushing Plant",
+    "tier": "processor",
+    "country_iso2": "AU",
+    "canonical_company": "Cargill",
+    "coordinates": {
+      "lat": -30.32,
+      "lon": 149.76
+    },
+    "downstream": [
+      {
+        "target_id": "AU_goodman_fielder_sydney",
+        "corridor_id": "AU_road_narrabri-sydney",
+        "resource": "crude canola oil",
+        "quantity": 100000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_domestic_stockfeed",
+        "corridor_id": "AU_road_narrabri-nsw-feedlots",
+        "resource": "canola meal / cottonseed meal",
+        "quantity": 220000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_graincorp_moree",
+      "AU_graincorp_narrabri",
+      "AU_graincorp_cottonseed_handler"
+    ],
+    "resources": [
+      "Oil-Crops"
+    ]
+  },
+  {
+    "id": "AU_cargill_footscray_crush",
+    "name": "Cargill West Footscray Oilseed Crushing Plant",
+    "tier": "processor",
+    "country_iso2": "AU",
+    "canonical_company": "Cargill",
+    "coordinates": {
+      "lat": -37.8,
+      "lon": 144.88
+    },
+    "downstream": [
+      {
+        "target_id": "AU_goodman_fielder_melbourne",
+        "corridor_id": "AU_road_footscray-goodman-mel",
+        "resource": "crude canola oil",
+        "quantity": 85000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_domestic_stockfeed",
+        "corridor_id": "AU_road_footscray-vic-feedlots",
+        "resource": "canola meal",
+        "quantity": 145000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_graincorp_horsham",
+      "AU_graincorp_griffith"
+    ],
+    "resources": [
+      "Oil-Crops"
+    ]
+  },
+  {
+    "id": "AU_cargill_kwinana_crush",
+    "name": "Cargill Kwinana Canola Crushing Facility (Under Development)",
+    "tier": "processor",
+    "country_iso2": "AU",
+    "canonical_company": "Cargill",
+    "coordinates": {
+      "lat": -32.24,
+      "lon": 115.77
+    },
+    "downstream": [
+      {
+        "target_id": "AU_goodman_fielder_perth",
+        "corridor_id": "AU_road_kwinana-goodman-perth",
+        "resource": "crude canola oil",
+        "quantity": 55000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_domestic_stockfeed",
+        "corridor_id": "AU_road_kwinana-wa-feedlots",
+        "resource": "canola meal",
+        "quantity": 95000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_cbh_kwinana"
+    ],
+    "resources": [
+      "Oil-Crops"
+    ]
+  },
+  {
+    "id": "AU_adc_port_adelaide_crush",
+    "name": "Adelaide Brighton / ADC Crushing Plant Port Adelaide",
+    "tier": "processor",
+    "country_iso2": "AU",
+    "canonical_company": "Australian Grain & Oilseed Processors",
+    "coordinates": {
+      "lat": -34.83,
+      "lon": 138.51
+    },
+    "downstream": [
+      {
+        "target_id": "AU_goodman_fielder_adelaide",
+        "corridor_id": "AU_road_portadelaide-goodman-adelaide",
+        "resource": "crude canola oil",
+        "quantity": 70000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_domestic_stockfeed",
+        "corridor_id": "AU_road_portadelaide-sa-feedlots",
+        "resource": "canola meal",
+        "quantity": 130000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_viterra_port_lincoln",
+      "AU_viterra_port_adelaide"
+    ],
+    "resources": [
+      "Oil-Crops"
+    ]
+  },
+  {
+    "id": "AU_manildra_west_footscray",
+    "name": "Manildra Group West Footscray Oilseed Processing",
+    "tier": "processor",
+    "country_iso2": "AU",
+    "canonical_company": "Manildra Group",
+    "coordinates": {
+      "lat": -37.8,
+      "lon": 144.87
+    },
+    "downstream": [
+      {
+        "target_id": "AU_goodman_fielder_melbourne",
+        "corridor_id": "AU_road_manildra-goodman-mel",
+        "resource": "crude canola oil",
+        "quantity": 35000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_domestic_stockfeed",
+        "corridor_id": "AU_road_manildra-vic-feedlots",
+        "resource": "canola meal",
+        "quantity": 65000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_graincorp_dubbo"
+    ],
+    "resources": [
+      "Oil-Crops"
+    ]
+  },
+  {
+    "id": "AU_bunge_numurkah_crush",
+    "name": "Bunge Numurkah Oilseed Processing Plant",
+    "tier": "processor",
+    "country_iso2": "AU",
+    "canonical_company": "Bunge",
+    "coordinates": {
+      "lat": -36.09,
+      "lon": 145.44
+    },
+    "downstream": [
+      {
+        "target_id": "AU_goodman_fielder_melbourne",
+        "corridor_id": "AU_road_numurkah-goodman-mel",
+        "resource": "crude soybean oil / canola oil",
+        "quantity": 10000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_domestic_stockfeed",
+        "corridor_id": "AU_road_numurkah-vic-feedlots",
+        "resource": "soybean meal",
+        "quantity": 15000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_graincorp_griffith"
+    ],
+    "resources": [
+      "Oil-Crops"
+    ]
+  },
+  {
+    "id": "AU_the_chia_co_melbourne",
+    "name": "The Chia Co Melbourne Packing / Processing",
+    "tier": "processor",
+    "country_iso2": "AU",
+    "canonical_company": "The Chia Co",
+    "coordinates": {
+      "lat": -37.81,
+      "lon": 144.96
+    },
+    "downstream": [
+      {
+        "target_id": "AU_woolworths",
+        "corridor_id": "AU_road_chiaco-woolworths-dc",
+        "resource": "packaged chia seed products",
+        "quantity": 2500,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_coles",
+        "corridor_id": "AU_road_chiaco-coles-dc",
+        "resource": "packaged chia seed products",
+        "quantity": 2500,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_the_chia_co_ord"
+    ],
+    "resources": [
+      "Oil-Crops"
+    ]
+  },
+  {
+    "id": "AU_domestic_stockfeed",
+    "name": "Australian Domestic Stockfeed / Meal Distributors",
+    "tier": "brand_packer",
+    "country_iso2": "AU",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": -33.87,
+      "lon": 151.21
+    },
+    "downstream": [
+      {
+        "target_id": "AU_stockfeed_retailers",
+        "corridor_id": "AU_road_stockfeed-retail",
+        "resource": "oilseed meal (canola / cotton / soy)",
+        "quantity": 670000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_cargill_narrabri_crush",
+      "AU_cargill_footscray_crush",
+      "AU_cargill_kwinana_crush",
+      "AU_adc_port_adelaide_crush",
+      "AU_manildra_west_footscray",
+      "AU_bunge_numurkah_crush"
+    ],
+    "resources": [
+      "Oil-Crops"
+    ]
+  },
+  {
+    "id": "AU_goodman_fielder_sydney",
+    "name": "Goodman Fielder Sydney Refinery & Packing",
+    "tier": "brand_packer",
+    "country_iso2": "AU",
+    "canonical_company": "Goodman Fielder",
+    "coordinates": {
+      "lat": -33.87,
+      "lon": 151.1
+    },
+    "downstream": [
+      {
+        "target_id": "AU_woolworths",
+        "corridor_id": "AU_road_goodman-woolworths-syd-dc",
+        "resource": "refined canola oil (bottled)",
+        "quantity": 35000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_coles",
+        "corridor_id": "AU_road_goodman-coles-syd-dc",
+        "resource": "refined canola oil (bottled)",
+        "quantity": 30000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_metcash",
+        "corridor_id": "AU_road_goodman-metcash-syd-dc",
+        "resource": "refined canola oil (bottled)",
+        "quantity": 15000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_industrial_food_manufacturers",
+        "corridor_id": "AU_road_goodman-industrial-syd",
+        "resource": "bulk refined canola oil",
+        "quantity": 20000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_cargill_narrabri_crush"
+    ],
+    "resources": [
+      "Oil-Crops"
+    ]
+  },
+  {
+    "id": "AU_goodman_fielder_melbourne",
+    "name": "Goodman Fielder Melbourne Refinery & Packing",
+    "tier": "brand_packer",
+    "country_iso2": "AU",
+    "canonical_company": "Goodman Fielder",
+    "coordinates": {
+      "lat": -37.81,
+      "lon": 144.96
+    },
+    "downstream": [
+      {
+        "target_id": "AU_woolworths",
+        "corridor_id": "AU_road_goodman-woolworths-mel-dc",
+        "resource": "refined canola oil (bottled)",
+        "quantity": 40000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_coles",
+        "corridor_id": "AU_road_goodman-coles-mel-dc",
+        "resource": "refined canola oil (bottled)",
+        "quantity": 35000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_metcash",
+        "corridor_id": "AU_road_goodman-metcash-mel-dc",
+        "resource": "refined canola oil (bottled)",
+        "quantity": 15000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_industrial_food_manufacturers",
+        "corridor_id": "AU_road_goodman-industrial-mel",
+        "resource": "bulk refined canola oil",
+        "quantity": 40000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_cargill_footscray_crush",
+      "AU_manildra_west_footscray",
+      "AU_bunge_numurkah_crush"
+    ],
+    "resources": [
+      "Oil-Crops"
+    ]
+  },
+  {
+    "id": "AU_goodman_fielder_adelaide",
+    "name": "Goodman Fielder Adelaide Distribution",
+    "tier": "brand_packer",
+    "country_iso2": "AU",
+    "canonical_company": "Goodman Fielder",
+    "coordinates": {
+      "lat": -34.93,
+      "lon": 138.6
+    },
+    "downstream": [
+      {
+        "target_id": "AU_woolworths",
+        "corridor_id": "AU_road_goodman-woolworths-adl-dc",
+        "resource": "refined canola oil (bottled)",
+        "quantity": 25000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_coles",
+        "corridor_id": "AU_road_goodman-coles-adl-dc",
+        "resource": "refined canola oil (bottled)",
+        "quantity": 20000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_industrial_food_manufacturers",
+        "corridor_id": "AU_road_goodman-industrial-adl",
+        "resource": "bulk refined canola oil",
+        "quantity": 25000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_adc_port_adelaide_crush"
+    ],
+    "resources": [
+      "Oil-Crops"
+    ]
+  },
+  {
+    "id": "AU_goodman_fielder_brisbane",
+    "name": "Goodman Fielder Brisbane Packing",
+    "tier": "brand_packer",
+    "country_iso2": "AU",
+    "canonical_company": "Goodman Fielder",
+    "coordinates": {
+      "lat": -27.47,
+      "lon": 153.03
+    },
+    "downstream": [
+      {
+        "target_id": "AU_woolworths",
+        "corridor_id": "AU_road_goodman-woolworths-bne-dc",
+        "resource": "refined sunflower oil (bottled)",
+        "quantity": 8000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_coles",
+        "corridor_id": "AU_road_goodman-coles-bne-dc",
+        "resource": "refined sunflower oil (bottled)",
+        "quantity": 7000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_graincorp_fisherman_islands"
+    ],
+    "resources": [
+      "Oil-Crops"
+    ]
+  },
+  {
+    "id": "AU_goodman_fielder_perth",
+    "name": "Goodman Fielder Perth Distribution",
+    "tier": "brand_packer",
+    "country_iso2": "AU",
+    "canonical_company": "Goodman Fielder",
+    "coordinates": {
+      "lat": -31.95,
+      "lon": 115.86
+    },
+    "downstream": [
+      {
+        "target_id": "AU_woolworths",
+        "corridor_id": "AU_road_goodman-woolworths-per-dc",
+        "resource": "refined canola oil (bottled)",
+        "quantity": 20000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_coles",
+        "corridor_id": "AU_road_goodman-coles-per-dc",
+        "resource": "refined canola oil (bottled)",
+        "quantity": 18000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_industrial_food_manufacturers",
+        "corridor_id": "AU_road_goodman-industrial-per",
+        "resource": "bulk refined canola oil",
+        "quantity": 17000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_cargill_kwinana_crush"
+    ],
+    "resources": [
+      "Oil-Crops"
+    ]
+  },
+  {
+    "id": "AU_industrial_food_manufacturers",
+    "name": "Australian Industrial / Food-Service Oil Users",
+    "tier": "brand_packer",
+    "country_iso2": "AU",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": -33.87,
+      "lon": 151.21
+    },
+    "downstream": [
+      {
+        "target_id": "AU_industrial",
+        "corridor_id": "AU_road_industrial-enduse",
+        "resource": "canola oil for food manufacturing / food-service",
+        "quantity": 102000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_goodman_fielder_sydney",
+      "AU_goodman_fielder_melbourne",
+      "AU_goodman_fielder_adelaide",
+      "AU_goodman_fielder_perth"
+    ],
+    "resources": [
+      "Oil-Crops"
+    ]
+  },
+  {
+    "id": "AU_woolworths",
+    "name": "Woolworths Supermarkets",
+    "tier": "retailer",
+    "country_iso2": "AU",
+    "canonical_company": "Woolworths Group",
+    "coordinates": {
+      "lat": -33.88,
+      "lon": 151.21
+    },
+    "downstream": [
+      {
+        "target_id": "AU_residential",
+        "corridor_id": "AU_road_woolworths-consumer",
+        "resource": "bottled canola / sunflower / chia oil and seeds",
+        "quantity": 130500,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_residential",
+        "corridor_id": "AU_road_nsw_woolworths_to_consumers",
+        "resource": "bread, flour, pasta, cereals, chicken, beer, grain-based products",
+        "quantity": 930000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_the_chia_co_melbourne",
+      "AU_goodman_fielder_sydney",
+      "AU_goodman_fielder_melbourne",
+      "AU_goodman_fielder_adelaide",
+      "AU_goodman_fielder_brisbane",
+      "AU_goodman_fielder_perth",
+      "AU_san_remo",
+      "AU_domestic_food_manufacturers",
+      "AU_goodman_fielder",
+      "AU_tip_top_bakeries",
+      "AU_australian_breweries",
+      "AU_wa_bakeries_food_manufacturers",
+      "AU_inghams_poultry_processing"
+    ],
+    "resources": [
+      "Oil-Crops",
+      "Grain-Crops"
+    ]
+  },
+  {
+    "id": "AU_coles",
+    "name": "Coles Supermarkets",
+    "tier": "retailer",
+    "country_iso2": "AU",
+    "canonical_company": "Coles Group",
+    "coordinates": {
+      "lat": -37.81,
+      "lon": 144.96
+    },
+    "downstream": [
+      {
+        "target_id": "AU_residential",
+        "corridor_id": "AU_road_coles-consumer",
+        "resource": "bottled canola / sunflower / chia oil and seeds",
+        "quantity": 112500,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_residential",
+        "corridor_id": "AU_road_vic_coles_to_consumers",
+        "resource": "bread, flour, pasta, cereals, chicken, beer, grain-based products",
+        "quantity": 785000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_the_chia_co_melbourne",
+      "AU_goodman_fielder_sydney",
+      "AU_goodman_fielder_melbourne",
+      "AU_goodman_fielder_adelaide",
+      "AU_goodman_fielder_brisbane",
+      "AU_goodman_fielder_perth",
+      "AU_san_remo",
+      "AU_domestic_food_manufacturers",
+      "AU_goodman_fielder",
+      "AU_tip_top_bakeries",
+      "AU_australian_breweries",
+      "AU_wa_bakeries_food_manufacturers",
+      "AU_inghams_poultry_processing"
+    ],
+    "resources": [
+      "Oil-Crops",
+      "Grain-Crops"
+    ]
+  },
+  {
+    "id": "AU_metcash",
+    "name": "Metcash / IGA Stores",
+    "tier": "retailer",
+    "country_iso2": "AU",
+    "canonical_company": "Metcash",
+    "coordinates": {
+      "lat": -33.8,
+      "lon": 151.12
+    },
+    "downstream": [
+      {
+        "target_id": "AU_residential",
+        "corridor_id": "AU_road_metcash-consumer",
+        "resource": "bottled canola oil",
+        "quantity": 30000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_residential",
+        "corridor_id": "AU_road_nsw_metcash_to_consumers",
+        "resource": "bread, flour, cereals, grain-based products",
+        "quantity": 190000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_goodman_fielder_sydney",
+      "AU_goodman_fielder_melbourne",
+      "AU_domestic_food_manufacturers",
+      "AU_goodman_fielder",
+      "AU_tip_top_bakeries"
+    ],
+    "resources": [
+      "Oil-Crops",
+      "Grain-Crops"
+    ]
+  },
+  {
+    "id": "AU_stockfeed_retailers",
+    "name": "Australian Stockfeed Retailers & Direct Farm Sales",
+    "tier": "retailer",
+    "country_iso2": "AU",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": -33.87,
+      "lon": 151.21
+    },
+    "downstream": [
+      {
+        "target_id": "AU_agricultural",
+        "corridor_id": "AU_road_stockfeed-farm",
+        "resource": "oilseed meal (animal feed)",
+        "quantity": 670000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_domestic_stockfeed"
+    ],
+    "resources": [
+      "Oil-Crops"
+    ]
+  },
+  {
+    "id": "AU_road_moree-graincorp-elevator",
+    "tier": "transport",
+    "name": "Road: Moree region farms → GrainCorp Moree elevator",
+    "country_iso2": "AU",
+    "operator_id": "AU_local_road_hauliers",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "local",
+    "coordinates": {
+      "lat": -29.47,
+      "lon": 149.85
+    }
+  },
+  {
+    "id": "AU_road_narrabri-graincorp-elevator",
+    "tier": "transport",
+    "name": "Road: Narrabri district farms → GrainCorp Narrabri elevator",
+    "country_iso2": "AU",
+    "operator_id": "AU_local_road_hauliers",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "local",
+    "coordinates": {
+      "lat": -30.33,
+      "lon": 149.78
+    }
+  },
+  {
+    "id": "AU_road_dubbo-graincorp-elevator",
+    "tier": "transport",
+    "name": "Road: Central West NSW farms → GrainCorp Dubbo elevator",
+    "country_iso2": "AU",
+    "operator_id": "AU_local_road_hauliers",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "local",
+    "coordinates": {
+      "lat": -32.25,
+      "lon": 148.6
+    }
+  },
+  {
+    "id": "AU_road_wimmera-horsham-elevator",
+    "tier": "transport",
+    "name": "Road: Wimmera-Mallee farms → GrainCorp Horsham elevator",
+    "country_iso2": "AU",
+    "operator_id": "AU_local_road_hauliers",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "local",
+    "coordinates": {
+      "lat": -36.72,
+      "lon": 142.2
+    }
+  },
+  {
+    "id": "AU_road_riverina-griffith-elevator",
+    "tier": "transport",
+    "name": "Road: Riverina farms → GrainCorp Griffith elevator",
+    "country_iso2": "AU",
+    "operator_id": "AU_local_road_hauliers",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "local",
+    "coordinates": {
+      "lat": -34.29,
+      "lon": 146.05
+    }
+  },
+  {
+    "id": "AU_road_yorke-viterra-elevator",
+    "tier": "transport",
+    "name": "Road: Yorke Peninsula farms → Viterra Port Lincoln elevator",
+    "country_iso2": "AU",
+    "operator_id": "AU_local_road_hauliers",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "local",
+    "coordinates": {
+      "lat": -34.2,
+      "lon": 137.8
+    }
+  },
+  {
+    "id": "AU_road_midnorth-viterra-elevator",
+    "tier": "transport",
+    "name": "Road: Mid North SA farms → Viterra Port Adelaide elevator",
+    "country_iso2": "AU",
+    "operator_id": "AU_local_road_hauliers",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "regional",
+    "coordinates": {
+      "lat": -33.9,
+      "lon": 138.6
+    }
+  },
+  {
+    "id": "AU_road_sesa-viterra-elevator",
+    "tier": "transport",
+    "name": "Road: South East SA farms → Viterra Port Adelaide elevator",
+    "country_iso2": "AU",
+    "operator_id": "AU_local_road_hauliers",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "regional",
+    "coordinates": {
+      "lat": -36,
+      "lon": 140
+    }
+  },
+  {
+    "id": "AU_road_esperance-cbh-elevator",
+    "tier": "transport",
+    "name": "Road: Esperance zone farms → CBH Esperance bins",
+    "country_iso2": "AU",
+    "operator_id": "AU_local_road_hauliers",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "local",
+    "coordinates": {
+      "lat": -33.85,
+      "lon": 121.9
+    }
+  },
+  {
+    "id": "AU_road_albany-cbh-elevator",
+    "tier": "transport",
+    "name": "Road: Albany zone farms → CBH Albany bins",
+    "country_iso2": "AU",
+    "operator_id": "AU_local_road_hauliers",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "local",
+    "coordinates": {
+      "lat": -34.3,
+      "lon": 117.8
+    }
+  },
+  {
+    "id": "AU_road_geraldton-cbh-elevator",
+    "tier": "transport",
+    "name": "Road: Geraldton zone farms → CBH Geraldton bins",
+    "country_iso2": "AU",
+    "operator_id": "AU_local_road_hauliers",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "local",
+    "coordinates": {
+      "lat": -29.2,
+      "lon": 115
+    }
+  },
+  {
+    "id": "AU_road_kwinana-cbh-elevator",
+    "tier": "transport",
+    "name": "Road: Kwinana zone farms → CBH Kwinana bins",
+    "country_iso2": "AU",
+    "operator_id": "AU_local_road_hauliers",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "local",
+    "coordinates": {
+      "lat": -31.8,
+      "lon": 117.3
+    }
+  },
+  {
+    "id": "AU_road_darlingdowns-graincorp-elevator",
+    "tier": "transport",
+    "name": "Road: Darling Downs farms → GrainCorp Toowoomba elevator",
+    "country_iso2": "AU",
+    "operator_id": "AU_local_road_hauliers",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "local",
+    "coordinates": {
+      "lat": -27.55,
+      "lon": 151.1
+    }
+  },
+  {
+    "id": "AU_road_mia-griffith-elevator",
+    "tier": "transport",
+    "name": "Road: MIA soybean farms → GrainCorp Griffith elevator",
+    "country_iso2": "AU",
+    "operator_id": "AU_local_road_hauliers",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "local",
+    "coordinates": {
+      "lat": -34.3,
+      "lon": 146.05
+    }
+  },
+  {
+    "id": "AU_road_ord-chiaco-elevator",
+    "tier": "transport",
+    "name": "Road: Ord River chia farms → The Chia Co receival",
+    "country_iso2": "AU",
+    "operator_id": "AU_local_road_hauliers",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "local",
+    "coordinates": {
+      "lat": -15.65,
+      "lon": 128.73
+    }
+  },
+  {
+    "id": "AU_road_nnsw-narrabri-elevator",
+    "tier": "transport",
+    "name": "Road: Northern NSW cotton farms → GrainCorp Narrabri (cottonseed)",
+    "country_iso2": "AU",
+    "operator_id": "AU_local_road_hauliers",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "regional",
+    "coordinates": {
+      "lat": -30,
+      "lon": 149.8
+    }
+  },
+  {
+    "id": "AU_road_narrabri-cottonseed-handler",
+    "tier": "transport",
+    "name": "Road: GrainCorp Narrabri → Cottonseed handling",
+    "country_iso2": "AU",
+    "operator_id": "AU_local_road_hauliers",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "local",
+    "coordinates": {
+      "lat": -30.31,
+      "lon": 149.79
+    }
+  },
+  {
+    "id": "AU_rail_nsw-north-port-kembla",
+    "tier": "transport",
+    "name": "Rail: Northern NSW → Port Kembla",
+    "country_iso2": "AU",
+    "operator_id": "AU_aurizon",
+    "mode": "rail",
+    "form": "bulk_dry",
+    "range": "regional",
+    "coordinates": {
+      "lat": -32,
+      "lon": 150.5
+    }
+  },
+  {
+    "id": "AU_road_narrabri-cargill",
+    "tier": "transport",
+    "name": "Road: GrainCorp Narrabri → Cargill Narrabri crush plant",
+    "country_iso2": "AU",
+    "operator_id": "AU_local_road_hauliers",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "local",
+    "coordinates": {
+      "lat": -30.33,
+      "lon": 149.77
+    }
+  },
+  {
+    "id": "AU_rail_nsw-central-port-kembla",
+    "tier": "transport",
+    "name": "Rail: Central West NSW → Port Kembla",
+    "country_iso2": "AU",
+    "operator_id": "AU_aurizon",
+    "mode": "rail",
+    "form": "bulk_dry",
+    "range": "regional",
+    "coordinates": {
+      "lat": -33.5,
+      "lon": 149.5
+    }
+  },
+  {
+    "id": "AU_rail_nsw-central-melbourne",
+    "tier": "transport",
+    "name": "Rail: Central West NSW → Melbourne (Manildra Footscray)",
+    "country_iso2": "AU",
+    "operator_id": "AU_aurizon",
+    "mode": "rail",
+    "form": "bulk_dry",
+    "range": "regional",
+    "coordinates": {
+      "lat": -35,
+      "lon": 147
+    }
+  },
+  {
+    "id": "AU_rail_vic-wimmera-geelong",
+    "tier": "transport",
+    "name": "Rail: Wimmera → Geelong port",
+    "country_iso2": "AU",
+    "operator_id": "AU_graincorp_rail",
+    "mode": "rail",
+    "form": "bulk_dry",
+    "range": "regional",
+    "coordinates": {
+      "lat": -37.5,
+      "lon": 143.5
+    }
+  },
+  {
+    "id": "AU_rail_vic-wimmera-melbourne",
+    "tier": "transport",
+    "name": "Rail: Wimmera → Melbourne (Cargill Footscray)",
+    "country_iso2": "AU",
+    "operator_id": "AU_graincorp_rail",
+    "mode": "rail",
+    "form": "bulk_dry",
+    "range": "regional",
+    "coordinates": {
+      "lat": -37.3,
+      "lon": 143.8
+    }
+  },
+  {
+    "id": "AU_rail_nsw-south-port-kembla",
+    "tier": "transport",
+    "name": "Rail: Riverina → Port Kembla",
+    "country_iso2": "AU",
+    "operator_id": "AU_aurizon",
+    "mode": "rail",
+    "form": "bulk_dry",
+    "range": "regional",
+    "coordinates": {
+      "lat": -34.5,
+      "lon": 148
+    }
+  },
+  {
+    "id": "AU_rail_riverina-melbourne",
+    "tier": "transport",
+    "name": "Rail: Riverina → Melbourne (Cargill / Bunge)",
+    "country_iso2": "AU",
+    "operator_id": "AU_aurizon",
+    "mode": "rail",
+    "form": "bulk_dry",
+    "range": "regional",
+    "coordinates": {
+      "lat": -35.5,
+      "lon": 146
+    }
+  },
+  {
+    "id": "AU_road_griffith-numurkah",
+    "tier": "transport",
+    "name": "Road: Griffith → Bunge Numurkah",
+    "country_iso2": "AU",
+    "operator_id": "AU_local_road_hauliers",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "regional",
+    "coordinates": {
+      "lat": -35.2,
+      "lon": 145.7
+    }
+  },
+  {
+    "id": "AU_rail_qld-darlingdowns-brisbane",
+    "tier": "transport",
+    "name": "Rail: Toowoomba / Darling Downs → Brisbane Fisherman Islands",
+    "country_iso2": "AU",
+    "operator_id": "AU_aurizon",
+    "mode": "rail",
+    "form": "bulk_dry",
+    "range": "regional",
+    "coordinates": {
+      "lat": -27.5,
+      "lon": 152.5
+    }
+  },
+  {
+    "id": "AU_road_portlincoln-portadelaide",
+    "tier": "transport",
+    "name": "Road: Port Lincoln → ADC Port Adelaide (SA domestic crush)",
+    "country_iso2": "AU",
+    "operator_id": "AU_local_road_hauliers",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "regional",
+    "coordinates": {
+      "lat": -34.5,
+      "lon": 137.2
+    }
+  },
+  {
+    "id": "AU_road_viterra-adc-portadelaide",
+    "tier": "transport",
+    "name": "Road: Viterra Port Adelaide → ADC crush plant",
+    "country_iso2": "AU",
+    "operator_id": "AU_local_road_hauliers",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "local",
+    "coordinates": {
+      "lat": -34.8,
+      "lon": 138.51
+    }
+  },
+  {
+    "id": "AU_rail_wa-esperance-kwinana",
+    "tier": "transport",
+    "name": "Rail: Esperance → Kwinana (CBH network)",
+    "country_iso2": "AU",
+    "operator_id": "AU_cbh_group",
+    "mode": "rail",
+    "form": "bulk_dry",
+    "range": "regional",
+    "coordinates": {
+      "lat": -33,
+      "lon": 119
+    }
+  },
+  {
+    "id": "AU_road_kwinana-cargill",
+    "tier": "transport",
+    "name": "Road: CBH Kwinana → Cargill Kwinana crush facility",
+    "country_iso2": "AU",
+    "operator_id": "AU_local_road_hauliers",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "local",
+    "coordinates": {
+      "lat": -32.23,
+      "lon": 115.77
+    }
+  },
+  {
+    "id": "AU_road_ord-melbourne",
+    "tier": "transport",
+    "name": "Road / Intermodal: Ord River → Melbourne (The Chia Co)",
+    "country_iso2": "AU",
+    "operator_id": "AU_linfox",
+    "mode": "road",
+    "form": "containerised",
+    "range": "regional",
+    "coordinates": {
+      "lat": -25,
+      "lon": 134
+    }
+  },
+  {
+    "id": "INTL_ocean_port-lincoln-hamburg",
+    "tier": "transport",
+    "name": "Ocean: Port Lincoln → Hamburg (Europe)",
+    "country_iso2": "INTL",
+    "operator_id": "INTL_bulk_carriers",
+    "mode": "ocean_freight",
+    "form": "bulk_dry",
+    "range": "international",
+    "coordinates": {
+      "lat": -10,
+      "lon": 80
+    }
+  },
+  {
+    "id": "INTL_ocean_port-adelaide-yokohama",
+    "tier": "transport",
+    "name": "Ocean: Port Adelaide → Yokohama (Japan)",
+    "country_iso2": "INTL",
+    "operator_id": "INTL_bulk_carriers",
+    "mode": "ocean_freight",
+    "form": "bulk_dry",
+    "range": "international",
+    "coordinates": {
+      "lat": -15,
+      "lon": 130
+    }
+  },
+  {
+    "id": "INTL_ocean_esperance-rotterdam",
+    "tier": "transport",
+    "name": "Ocean: Esperance → Rotterdam (Europe)",
+    "country_iso2": "INTL",
+    "operator_id": "INTL_bulk_carriers",
+    "mode": "ocean_freight",
+    "form": "bulk_dry",
+    "range": "international",
+    "coordinates": {
+      "lat": -20,
+      "lon": 90
+    }
+  },
+  {
+    "id": "INTL_ocean_albany-rotterdam",
+    "tier": "transport",
+    "name": "Ocean: Albany → Rotterdam (Europe)",
+    "country_iso2": "INTL",
+    "operator_id": "INTL_bulk_carriers",
+    "mode": "ocean_freight",
+    "form": "bulk_dry",
+    "range": "international",
+    "coordinates": {
+      "lat": -25,
+      "lon": 95
+    }
+  },
+  {
+    "id": "INTL_ocean_albany-yokohama",
+    "tier": "transport",
+    "name": "Ocean: Albany → Yokohama (Japan)",
+    "country_iso2": "INTL",
+    "operator_id": "INTL_bulk_carriers",
+    "mode": "ocean_freight",
+    "form": "bulk_dry",
+    "range": "international",
+    "coordinates": {
+      "lat": -20,
+      "lon": 130
+    }
+  },
+  {
+    "id": "INTL_ocean_geraldton-rotterdam",
+    "tier": "transport",
+    "name": "Ocean: Geraldton → Rotterdam (Europe)",
+    "country_iso2": "INTL",
+    "operator_id": "INTL_bulk_carriers",
+    "mode": "ocean_freight",
+    "form": "bulk_dry",
+    "range": "international",
+    "coordinates": {
+      "lat": -15,
+      "lon": 85
+    }
+  },
+  {
+    "id": "INTL_ocean_geraldton-chittagong",
+    "tier": "transport",
+    "name": "Ocean: Geraldton → Chittagong (Bangladesh)",
+    "country_iso2": "INTL",
+    "operator_id": "INTL_bulk_carriers",
+    "mode": "ocean_freight",
+    "form": "bulk_dry",
+    "range": "international",
+    "coordinates": {
+      "lat": -10,
+      "lon": 100
+    }
+  },
+  {
+    "id": "INTL_ocean_kwinana-rotterdam",
+    "tier": "transport",
+    "name": "Ocean: Kwinana → Rotterdam (Europe)",
+    "country_iso2": "INTL",
+    "operator_id": "INTL_bulk_carriers",
+    "mode": "ocean_freight",
+    "form": "bulk_dry",
+    "range": "international",
+    "coordinates": {
+      "lat": -20,
+      "lon": 90
+    }
+  },
+  {
+    "id": "INTL_ocean_kwinana-yokohama",
+    "tier": "transport",
+    "name": "Ocean: Kwinana → Yokohama (Japan)",
+    "country_iso2": "INTL",
+    "operator_id": "INTL_bulk_carriers",
+    "mode": "ocean_freight",
+    "form": "bulk_dry",
+    "range": "international",
+    "coordinates": {
+      "lat": -15,
+      "lon": 125
+    }
+  },
+  {
+    "id": "INTL_ocean_port-kembla-rotterdam",
+    "tier": "transport",
+    "name": "Ocean: Port Kembla → Rotterdam (Europe)",
+    "country_iso2": "INTL",
+    "operator_id": "INTL_bulk_carriers",
+    "mode": "ocean_freight",
+    "form": "bulk_dry",
+    "range": "international",
+    "coordinates": {
+      "lat": -15,
+      "lon": 100
+    }
+  },
+  {
+    "id": "INTL_ocean_port-kembla-yokohama",
+    "tier": "transport",
+    "name": "Ocean: Port Kembla → Yokohama (Japan)",
+    "country_iso2": "INTL",
+    "operator_id": "INTL_bulk_carriers",
+    "mode": "ocean_freight",
+    "form": "bulk_dry",
+    "range": "international",
+    "coordinates": {
+      "lat": -20,
+      "lon": 160
+    }
+  },
+  {
+    "id": "INTL_ocean_port-kembla-nanjing",
+    "tier": "transport",
+    "name": "Ocean: Port Kembla → Nanjing (China)",
+    "country_iso2": "INTL",
+    "operator_id": "INTL_bulk_carriers",
+    "mode": "ocean_freight",
+    "form": "bulk_dry",
+    "range": "international",
+    "coordinates": {
+      "lat": -15,
+      "lon": 140
+    }
+  },
+  {
+    "id": "INTL_ocean_port-kembla-jebel-ali",
+    "tier": "transport",
+    "name": "Ocean: Port Kembla → Jebel Ali (UAE)",
+    "country_iso2": "INTL",
+    "operator_id": "INTL_bulk_carriers",
+    "mode": "ocean_freight",
+    "form": "bulk_dry",
+    "range": "international",
+    "coordinates": {
+      "lat": -10,
+      "lon": 85
+    }
+  },
+  {
+    "id": "INTL_ocean_geelong-rotterdam",
+    "tier": "transport",
+    "name": "Ocean: Geelong → Rotterdam (Europe)",
+    "country_iso2": "INTL",
+    "operator_id": "INTL_bulk_carriers",
+    "mode": "ocean_freight",
+    "form": "bulk_dry",
+    "range": "international",
+    "coordinates": {
+      "lat": -20,
+      "lon": 100
+    }
+  },
+  {
+    "id": "INTL_ocean_brisbane-nanjing",
+    "tier": "transport",
+    "name": "Ocean: Brisbane → Nanjing (China)",
+    "country_iso2": "INTL",
+    "operator_id": "INTL_bulk_carriers",
+    "mode": "ocean_freight",
+    "form": "bulk_dry",
+    "range": "international",
+    "coordinates": {
+      "lat": -10,
+      "lon": 145
+    }
+  },
+  {
+    "id": "AU_road_narrabri-sydney",
+    "tier": "transport",
+    "name": "Road: Cargill Narrabri → Goodman Fielder Sydney",
+    "country_iso2": "AU",
+    "operator_id": "AU_linfox",
+    "mode": "road",
+    "form": "bulk_liquid",
+    "range": "regional",
+    "coordinates": {
+      "lat": -31.5,
+      "lon": 150.5
+    }
+  },
+  {
+    "id": "AU_road_narrabri-nsw-feedlots",
+    "tier": "transport",
+    "name": "Road: Cargill Narrabri → NSW feedlots & stockfeed distributors",
+    "country_iso2": "AU",
+    "operator_id": "AU_local_road_hauliers",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "regional",
+    "coordinates": {
+      "lat": -30.5,
+      "lon": 150
+    }
+  },
+  {
+    "id": "AU_road_footscray-goodman-mel",
+    "tier": "transport",
+    "name": "Road: Cargill Footscray → Goodman Fielder Melbourne",
+    "country_iso2": "AU",
+    "operator_id": "AU_local_road_hauliers",
+    "mode": "road",
+    "form": "bulk_liquid",
+    "range": "local",
+    "coordinates": {
+      "lat": -37.8,
+      "lon": 144.9
+    }
+  },
+  {
+    "id": "AU_road_footscray-vic-feedlots",
+    "tier": "transport",
+    "name": "Road: Cargill Footscray → VIC feedlots & stockfeed distributors",
+    "country_iso2": "AU",
+    "operator_id": "AU_local_road_hauliers",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "regional",
+    "coordinates": {
+      "lat": -37,
+      "lon": 145
+    }
+  },
+  {
+    "id": "AU_road_kwinana-goodman-perth",
+    "tier": "transport",
+    "name": "Road: Cargill Kwinana → Goodman Fielder Perth",
+    "country_iso2": "AU",
+    "operator_id": "AU_local_road_hauliers",
+    "mode": "road",
+    "form": "bulk_liquid",
+    "range": "local",
+    "coordinates": {
+      "lat": -32,
+      "lon": 115.8
+    }
+  },
+  {
+    "id": "AU_road_kwinana-wa-feedlots",
+    "tier": "transport",
+    "name": "Road: Cargill Kwinana → WA feedlots & stockfeed distributors",
+    "country_iso2": "AU",
+    "operator_id": "AU_local_road_hauliers",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "regional",
+    "coordinates": {
+      "lat": -32,
+      "lon": 117
+    }
+  },
+  {
+    "id": "AU_road_portadelaide-goodman-adelaide",
+    "tier": "transport",
+    "name": "Road: ADC Port Adelaide → Goodman Fielder Adelaide",
+    "country_iso2": "AU",
+    "operator_id": "AU_local_road_hauliers",
+    "mode": "road",
+    "form": "bulk_liquid",
+    "range": "local",
+    "coordinates": {
+      "lat": -34.85,
+      "lon": 138.55
+    }
+  },
+  {
+    "id": "AU_road_portadelaide-sa-feedlots",
+    "tier": "transport",
+    "name": "Road: ADC Port Adelaide → SA feedlots & stockfeed distributors",
+    "country_iso2": "AU",
+    "operator_id": "AU_local_road_hauliers",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "regional",
+    "coordinates": {
+      "lat": -34.5,
+      "lon": 139
+    }
+  },
+  {
+    "id": "AU_road_manildra-goodman-mel",
+    "tier": "transport",
+    "name": "Road: Manildra Footscray → Goodman Fielder Melbourne",
+    "country_iso2": "AU",
+    "operator_id": "AU_local_road_hauliers",
+    "mode": "road",
+    "form": "bulk_liquid",
+    "range": "local",
+    "coordinates": {
+      "lat": -37.8,
+      "lon": 144.9
+    }
+  },
+  {
+    "id": "AU_road_manildra-vic-feedlots",
+    "tier": "transport",
+    "name": "Road: Manildra Footscray → VIC feedlots (canola meal)",
+    "country_iso2": "AU",
+    "operator_id": "AU_local_road_hauliers",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "regional",
+    "coordinates": {
+      "lat": -37.5,
+      "lon": 145
+    }
+  },
+  {
+    "id": "AU_road_numurkah-goodman-mel",
+    "tier": "transport",
+    "name": "Road: Bunge Numurkah → Goodman Fielder Melbourne",
+    "country_iso2": "AU",
+    "operator_id": "AU_local_road_hauliers",
+    "mode": "road",
+    "form": "bulk_liquid",
+    "range": "regional",
+    "coordinates": {
+      "lat": -36.9,
+      "lon": 145.3
+    }
+  },
+  {
+    "id": "AU_road_numurkah-vic-feedlots",
+    "tier": "transport",
+    "name": "Road: Bunge Numurkah → VIC feedlots (soy meal)",
+    "country_iso2": "AU",
+    "operator_id": "AU_local_road_hauliers",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "regional",
+    "coordinates": {
+      "lat": -36.5,
+      "lon": 145.5
+    }
+  },
+  {
+    "id": "AU_road_fisherman-goodman",
+    "tier": "transport",
+    "name": "Road: GrainCorp Fisherman Islands → Goodman Fielder Brisbane",
+    "country_iso2": "AU",
+    "operator_id": "AU_local_road_hauliers",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "local",
+    "coordinates": {
+      "lat": -27.4,
+      "lon": 153.1
+    }
+  },
+  {
+    "id": "AU_road_chiaco-woolworths-dc",
+    "tier": "transport",
+    "name": "Road: The Chia Co Melbourne → Woolworths DCs",
+    "country_iso2": "AU",
+    "operator_id": "AU_linfox",
+    "mode": "road",
+    "form": "containerised",
+    "range": "regional",
+    "coordinates": {
+      "lat": -37.81,
+      "lon": 144.96
+    }
+  },
+  {
+    "id": "AU_road_chiaco-coles-dc",
+    "tier": "transport",
+    "name": "Road: The Chia Co Melbourne → Coles DCs",
+    "country_iso2": "AU",
+    "operator_id": "AU_linfox",
+    "mode": "road",
+    "form": "containerised",
+    "range": "regional",
+    "coordinates": {
+      "lat": -37.81,
+      "lon": 144.96
+    }
+  },
+  {
+    "id": "AU_road_stockfeed-retail",
+    "tier": "transport",
+    "name": "Road: Stockfeed distributors → Feed retailers / farm direct",
+    "country_iso2": "AU",
+    "operator_id": "AU_local_road_hauliers",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "regional",
+    "coordinates": {
+      "lat": -33,
+      "lon": 148
+    }
+  },
+  {
+    "id": "AU_road_goodman-woolworths-syd-dc",
+    "tier": "transport",
+    "name": "Road: Goodman Fielder Sydney → Woolworths Sydney DC",
+    "country_iso2": "AU",
+    "operator_id": "AU_linfox",
+    "mode": "road",
+    "form": "containerised",
+    "range": "local",
+    "coordinates": {
+      "lat": -33.87,
+      "lon": 151.1
+    }
+  },
+  {
+    "id": "AU_road_goodman-coles-syd-dc",
+    "tier": "transport",
+    "name": "Road: Goodman Fielder Sydney → Coles Sydney DC",
+    "country_iso2": "AU",
+    "operator_id": "AU_linfox",
+    "mode": "road",
+    "form": "containerised",
+    "range": "local",
+    "coordinates": {
+      "lat": -33.87,
+      "lon": 151.1
+    }
+  },
+  {
+    "id": "AU_road_goodman-metcash-syd-dc",
+    "tier": "transport",
+    "name": "Road: Goodman Fielder Sydney → Metcash Sydney DC",
+    "country_iso2": "AU",
+    "operator_id": "AU_linfox",
+    "mode": "road",
+    "form": "containerised",
+    "range": "local",
+    "coordinates": {
+      "lat": -33.8,
+      "lon": 151.12
+    }
+  },
+  {
+    "id": "AU_road_goodman-industrial-syd",
+    "tier": "transport",
+    "name": "Road: Goodman Fielder Sydney → Industrial users (food mfg)",
+    "country_iso2": "AU",
+    "operator_id": "AU_local_road_hauliers",
+    "mode": "road",
+    "form": "bulk_liquid",
+    "range": "regional",
+    "coordinates": {
+      "lat": -33.87,
+      "lon": 151.1
+    }
+  },
+  {
+    "id": "AU_road_goodman-woolworths-mel-dc",
+    "tier": "transport",
+    "name": "Road: Goodman Fielder Melbourne → Woolworths Melbourne DC",
+    "country_iso2": "AU",
+    "operator_id": "AU_linfox",
+    "mode": "road",
+    "form": "containerised",
+    "range": "local",
+    "coordinates": {
+      "lat": -37.81,
+      "lon": 144.96
+    }
+  },
+  {
+    "id": "AU_road_goodman-coles-mel-dc",
+    "tier": "transport",
+    "name": "Road: Goodman Fielder Melbourne → Coles Melbourne DC",
+    "country_iso2": "AU",
+    "operator_id": "AU_linfox",
+    "mode": "road",
+    "form": "containerised",
+    "range": "local",
+    "coordinates": {
+      "lat": -37.81,
+      "lon": 144.96
+    }
+  },
+  {
+    "id": "AU_road_goodman-metcash-mel-dc",
+    "tier": "transport",
+    "name": "Road: Goodman Fielder Melbourne → Metcash Melbourne DC",
+    "country_iso2": "AU",
+    "operator_id": "AU_linfox",
+    "mode": "road",
+    "form": "containerised",
+    "range": "local",
+    "coordinates": {
+      "lat": -37.81,
+      "lon": 144.96
+    }
+  },
+  {
+    "id": "AU_road_goodman-industrial-mel",
+    "tier": "transport",
+    "name": "Road: Goodman Fielder Melbourne → Industrial users (food mfg)",
+    "country_iso2": "AU",
+    "operator_id": "AU_local_road_hauliers",
+    "mode": "road",
+    "form": "bulk_liquid",
+    "range": "regional",
+    "coordinates": {
+      "lat": -37.81,
+      "lon": 144.96
+    }
+  },
+  {
+    "id": "AU_road_goodman-woolworths-adl-dc",
+    "tier": "transport",
+    "name": "Road: Goodman Fielder Adelaide → Woolworths Adelaide DC",
+    "country_iso2": "AU",
+    "operator_id": "AU_linfox",
+    "mode": "road",
+    "form": "containerised",
+    "range": "local",
+    "coordinates": {
+      "lat": -34.93,
+      "lon": 138.6
+    }
+  },
+  {
+    "id": "AU_road_goodman-coles-adl-dc",
+    "tier": "transport",
+    "name": "Road: Goodman Fielder Adelaide → Coles Adelaide DC",
+    "country_iso2": "AU",
+    "operator_id": "AU_linfox",
+    "mode": "road",
+    "form": "containerised",
+    "range": "local",
+    "coordinates": {
+      "lat": -34.93,
+      "lon": 138.6
+    }
+  },
+  {
+    "id": "AU_road_goodman-industrial-adl",
+    "tier": "transport",
+    "name": "Road: Goodman Fielder Adelaide → Industrial users",
+    "country_iso2": "AU",
+    "operator_id": "AU_local_road_hauliers",
+    "mode": "road",
+    "form": "bulk_liquid",
+    "range": "regional",
+    "coordinates": {
+      "lat": -34.93,
+      "lon": 138.6
+    }
+  },
+  {
+    "id": "AU_road_goodman-woolworths-bne-dc",
+    "tier": "transport",
+    "name": "Road: Goodman Fielder Brisbane → Woolworths Brisbane DC",
+    "country_iso2": "AU",
+    "operator_id": "AU_linfox",
+    "mode": "road",
+    "form": "containerised",
+    "range": "local",
+    "coordinates": {
+      "lat": -27.47,
+      "lon": 153.03
+    }
+  },
+  {
+    "id": "AU_road_goodman-coles-bne-dc",
+    "tier": "transport",
+    "name": "Road: Goodman Fielder Brisbane → Coles Brisbane DC",
+    "country_iso2": "AU",
+    "operator_id": "AU_linfox",
+    "mode": "road",
+    "form": "containerised",
+    "range": "local",
+    "coordinates": {
+      "lat": -27.47,
+      "lon": 153.03
+    }
+  },
+  {
+    "id": "AU_road_goodman-woolworths-per-dc",
+    "tier": "transport",
+    "name": "Road: Goodman Fielder Perth → Woolworths Perth DC",
+    "country_iso2": "AU",
+    "operator_id": "AU_linfox",
+    "mode": "road",
+    "form": "containerised",
+    "range": "local",
+    "coordinates": {
+      "lat": -31.95,
+      "lon": 115.86
+    }
+  },
+  {
+    "id": "AU_road_goodman-coles-per-dc",
+    "tier": "transport",
+    "name": "Road: Goodman Fielder Perth → Coles Perth DC",
+    "country_iso2": "AU",
+    "operator_id": "AU_linfox",
+    "mode": "road",
+    "form": "containerised",
+    "range": "local",
+    "coordinates": {
+      "lat": -31.95,
+      "lon": 115.86
+    }
+  },
+  {
+    "id": "AU_road_goodman-industrial-per",
+    "tier": "transport",
+    "name": "Road: Goodman Fielder Perth → Industrial users (food mfg)",
+    "country_iso2": "AU",
+    "operator_id": "AU_local_road_hauliers",
+    "mode": "road",
+    "form": "bulk_liquid",
+    "range": "regional",
+    "coordinates": {
+      "lat": -31.95,
+      "lon": 115.86
+    }
+  },
+  {
+    "id": "AU_road_industrial-enduse",
+    "tier": "transport",
+    "name": "Road: Industrial oil distributors → food manufacturing plants",
+    "country_iso2": "AU",
+    "operator_id": "AU_local_road_hauliers",
+    "mode": "road",
+    "form": "bulk_liquid",
+    "range": "regional",
+    "coordinates": {
+      "lat": -33.87,
+      "lon": 151.21
+    }
+  },
+  {
+    "id": "AU_road_woolworths-consumer",
+    "tier": "transport",
+    "name": "Road: Woolworths stores → consumers (last mile)",
+    "country_iso2": "AU",
+    "operator_id": "AU_woolworths_group",
+    "mode": "road",
+    "form": "unit_load",
+    "range": "local",
+    "coordinates": {
+      "lat": -33.88,
+      "lon": 151.21
+    }
+  },
+  {
+    "id": "AU_road_coles-consumer",
+    "tier": "transport",
+    "name": "Road: Coles stores → consumers (last mile)",
+    "country_iso2": "AU",
+    "operator_id": "AU_coles_group",
+    "mode": "road",
+    "form": "unit_load",
+    "range": "local",
+    "coordinates": {
+      "lat": -37.81,
+      "lon": 144.96
+    }
+  },
+  {
+    "id": "AU_road_metcash-consumer",
+    "tier": "transport",
+    "name": "Road: IGA / Metcash stores → consumers (last mile)",
+    "country_iso2": "AU",
+    "operator_id": "AU_metcash",
+    "mode": "road",
+    "form": "unit_load",
+    "range": "local",
+    "coordinates": {
+      "lat": -33.8,
+      "lon": 151.12
+    }
+  },
+  {
+    "id": "AU_road_stockfeed-farm",
+    "tier": "transport",
+    "name": "Road: Stockfeed retailers → farms (animal feed)",
+    "country_iso2": "AU",
+    "operator_id": "AU_local_road_hauliers",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "regional",
+    "coordinates": {
+      "lat": -33,
+      "lon": 148
+    }
+  },
+  {
+    "id": "DE_road_hamburg-distribution",
+    "tier": "transport",
+    "name": "Road: Hamburg crush → European industrial distribution",
+    "country_iso2": "DE",
+    "operator_id": "DE_road_hauliers",
+    "mode": "road",
+    "form": "bulk_liquid",
+    "range": "regional",
+    "coordinates": {
+      "lat": 53.55,
+      "lon": 9.99
+    }
+  },
+  {
+    "id": "JP_road_yokohama-distribution",
+    "tier": "transport",
+    "name": "Road: Yokohama crush → Japanese industrial distribution",
+    "country_iso2": "JP",
+    "operator_id": "JP_road_hauliers",
+    "mode": "road",
+    "form": "bulk_liquid",
+    "range": "regional",
+    "coordinates": {
+      "lat": 35.44,
+      "lon": 139.64
+    }
+  },
+  {
+    "id": "CN_road_nanjing-distribution",
+    "tier": "transport",
+    "name": "Road: Nanjing crush → Chinese industrial distribution",
+    "country_iso2": "CN",
+    "operator_id": "CN_road_hauliers",
+    "mode": "road",
+    "form": "bulk_liquid",
+    "range": "regional",
+    "coordinates": {
+      "lat": 32.06,
+      "lon": 118.78
+    }
+  },
+  {
+    "id": "BD_road_chittagong-distribution",
+    "tier": "transport",
+    "name": "Road: Chittagong crush → Bangladeshi distribution",
+    "country_iso2": "BD",
+    "operator_id": "BD_road_hauliers",
+    "mode": "road",
+    "form": "bulk_liquid",
+    "range": "regional",
+    "coordinates": {
+      "lat": 22.33,
+      "lon": 91.8
+    }
+  },
+  {
+    "id": "AE_road_jebelali-distribution",
+    "tier": "transport",
+    "name": "Road: Jebel Ali → UAE feed & industrial distribution",
+    "country_iso2": "AE",
+    "operator_id": "AE_road_hauliers",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "regional",
+    "coordinates": {
+      "lat": 25.01,
+      "lon": 55.07
+    }
+  }
+]

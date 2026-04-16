@@ -1,0 +1,2408 @@
+[
+  {
+    "id": "AU_adelaide_brighton_birkenhead",
+    "name": "Adelaide Brighton Cement – Birkenhead Quarry",
+    "tier": "extraction",
+    "country_iso2": "AU",
+    "canonical_company": "Adelaide Brighton Cement",
+    "coordinates": {
+      "lat": -34.84,
+      "lon": 138.5
+    },
+    "downstream": [
+      {
+        "target_id": "AU_adelaide_brighton_cement_birkenhead_plant",
+        "corridor_id": "AU_conveyor_birkenhead-quarry-plant",
+        "resource": "crushed limestone",
+        "quantity": 1500000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Limestone"
+    ]
+  },
+  {
+    "id": "AU_boral_marulan",
+    "name": "Boral – Marulan South Quarry",
+    "tier": "extraction",
+    "country_iso2": "AU",
+    "canonical_company": "Boral",
+    "coordinates": {
+      "lat": -34.72,
+      "lon": 150.01
+    },
+    "downstream": [
+      {
+        "target_id": "AU_boral_maldon_cement",
+        "corridor_id": "AU_rail_marulan-maldon",
+        "resource": "crushed limestone",
+        "quantity": 2000000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_boral_concrete_sydney",
+        "corridor_id": "AU_road_marulan-sydney",
+        "resource": "limestone aggregate",
+        "quantity": 500000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Limestone"
+    ]
+  },
+  {
+    "id": "AU_cement_australia_gladstone",
+    "name": "Cement Australia – East End Quarry (Gladstone)",
+    "tier": "extraction",
+    "country_iso2": "AU",
+    "canonical_company": "Cement Australia",
+    "coordinates": {
+      "lat": -23.87,
+      "lon": 151.28
+    },
+    "downstream": [
+      {
+        "target_id": "AU_cement_australia_gladstone_plant",
+        "corridor_id": "AU_conveyor_gladstone-quarry-plant",
+        "resource": "crushed limestone",
+        "quantity": 2500000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Limestone"
+    ]
+  },
+  {
+    "id": "AU_cockburn_cement_lake_clifton",
+    "name": "Cockburn Cement – Lake Clifton Shell Limestone Quarry",
+    "tier": "extraction",
+    "country_iso2": "AU",
+    "canonical_company": "Cockburn Cement",
+    "coordinates": {
+      "lat": -32.78,
+      "lon": 115.74
+    },
+    "downstream": [
+      {
+        "target_id": "AU_cockburn_cement_munster_plant",
+        "corridor_id": "AU_road_lakeclifton-munster",
+        "resource": "shell limestone",
+        "quantity": 1000000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Limestone"
+    ]
+  },
+  {
+    "id": "AU_adbri_munster_quarry",
+    "name": "Adbri (Cockburn Cement) – Munster Limestone Quarry",
+    "tier": "extraction",
+    "country_iso2": "AU",
+    "canonical_company": "Cockburn Cement",
+    "coordinates": {
+      "lat": -32.13,
+      "lon": 115.78
+    },
+    "downstream": [
+      {
+        "target_id": "AU_cockburn_cement_munster_plant",
+        "corridor_id": "AU_conveyor_munster-quarry-plant",
+        "resource": "crushed limestone",
+        "quantity": 800000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Limestone"
+    ]
+  },
+  {
+    "id": "AU_cement_australia_railton",
+    "name": "Cement Australia – Railton Quarry (Tasmania)",
+    "tier": "extraction",
+    "country_iso2": "AU",
+    "canonical_company": "Cement Australia",
+    "coordinates": {
+      "lat": -41.35,
+      "lon": 146.22
+    },
+    "downstream": [
+      {
+        "target_id": "AU_cement_australia_railton_plant",
+        "corridor_id": "AU_conveyor_railton-quarry-plant",
+        "resource": "crushed limestone",
+        "quantity": 700000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Limestone"
+    ]
+  },
+  {
+    "id": "AU_sibelco_minyip",
+    "name": "Sibelco – Minyip Limestone Quarry",
+    "tier": "extraction",
+    "country_iso2": "AU",
+    "canonical_company": "Sibelco",
+    "coordinates": {
+      "lat": -36.46,
+      "lon": 142.57
+    },
+    "downstream": [
+      {
+        "target_id": "AU_sibelco_lime_processing",
+        "corridor_id": "AU_road_minyip-processing",
+        "resource": "crushed limestone",
+        "quantity": 300000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Limestone"
+    ]
+  },
+  {
+    "id": "AU_bluescope_limestone_coast",
+    "name": "South East Limestone Quarries (Limestone Coast, SA)",
+    "tier": "extraction",
+    "country_iso2": "AU",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": -37.6,
+      "lon": 140.78
+    },
+    "downstream": [
+      {
+        "target_id": "AU_agl_loy_yang",
+        "corridor_id": "AU_road_limestone-coast-industrial",
+        "resource": "crushed limestone for flue-gas desulphurisation",
+        "quantity": 200000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_agriculture_lime_distributors_sa",
+        "corridor_id": "AU_road_limestone-coast-sa",
+        "resource": "agricultural limestone",
+        "quantity": 400000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Limestone"
+    ]
+  },
+  {
+    "id": "AU_adelaide_brighton_klein_point",
+    "name": "Adelaide Brighton – Klein Point Quarry (Yorke Peninsula)",
+    "tier": "extraction",
+    "country_iso2": "AU",
+    "canonical_company": "Adelaide Brighton Cement",
+    "coordinates": {
+      "lat": -34.93,
+      "lon": 137.78
+    },
+    "downstream": [
+      {
+        "target_id": "AU_adelaide_brighton_cement_birkenhead_plant",
+        "corridor_id": "AU_ocean_kleinpoint-birkenhead",
+        "resource": "crushed limestone",
+        "quantity": 1200000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Limestone"
+    ]
+  },
+  {
+    "id": "AU_barro_bacchus_marsh",
+    "name": "Barro Group – Bacchus Marsh Limestone Quarry",
+    "tier": "extraction",
+    "country_iso2": "AU",
+    "canonical_company": "Barro Group",
+    "coordinates": {
+      "lat": -37.67,
+      "lon": 144.43
+    },
+    "downstream": [
+      {
+        "target_id": "AU_barro_concrete_melbourne",
+        "corridor_id": "AU_road_bacchusmarsh-melbourne",
+        "resource": "limestone aggregate",
+        "quantity": 600000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Limestone"
+    ]
+  },
+  {
+    "id": "AU_nufarmer_limestone_wa",
+    "name": "NuFarmer Limestone – Lancelin / Gingin Quarries (WA)",
+    "tier": "extraction",
+    "country_iso2": "AU",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": -31.02,
+      "lon": 115.33
+    },
+    "downstream": [
+      {
+        "target_id": "AU_agriculture_lime_distributors_wa",
+        "corridor_id": "AU_road_lancelin-perth",
+        "resource": "agricultural limestone",
+        "quantity": 350000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Limestone"
+    ]
+  },
+  {
+    "id": "AU_adbri_mawson_lakes_quarry",
+    "name": "Adbri – Mawson Lakes Limestone (SA)",
+    "tier": "extraction",
+    "country_iso2": "AU",
+    "canonical_company": "Adbri",
+    "coordinates": {
+      "lat": -34.81,
+      "lon": 138.61
+    },
+    "downstream": [
+      {
+        "target_id": "AU_adbri_lime_sa",
+        "corridor_id": "AU_road_mawsonlakes-lime",
+        "resource": "crushed limestone for lime production",
+        "quantity": 400000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Limestone"
+    ]
+  },
+  {
+    "id": "AU_cement_australia_mt_etna",
+    "name": "Cement Australia – Mt Etna / Limestone Creek Quarry (QLD)",
+    "tier": "extraction",
+    "country_iso2": "AU",
+    "canonical_company": "Cement Australia",
+    "coordinates": {
+      "lat": -23.18,
+      "lon": 150.47
+    },
+    "downstream": [
+      {
+        "target_id": "AU_cement_australia_gladstone_plant",
+        "corridor_id": "AU_road_mtetna-gladstone",
+        "resource": "crushed limestone",
+        "quantity": 600000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Limestone"
+    ]
+  },
+  {
+    "id": "AU_adelaide_brighton_cement_birkenhead_plant",
+    "name": "Adelaide Brighton Cement – Birkenhead Cement Plant",
+    "tier": "processor",
+    "country_iso2": "AU",
+    "canonical_company": "Adelaide Brighton Cement",
+    "coordinates": {
+      "lat": -34.84,
+      "lon": 138.5
+    },
+    "downstream": [
+      {
+        "target_id": "AU_adelaide_brighton_concrete",
+        "corridor_id": "AU_road_birkenhead-adelaide",
+        "resource": "Portland cement",
+        "quantity": 1200000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_adelaide_brighton_lime_sa",
+        "corridor_id": "AU_road_birkenhead-sa-lime",
+        "resource": "quicklime and hydrated lime",
+        "quantity": 250000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_adelaide_brighton_birkenhead",
+      "AU_adelaide_brighton_klein_point"
+    ],
+    "resources": [
+      "Limestone"
+    ]
+  },
+  {
+    "id": "AU_adelaide_brighton_cement_angaston_plant",
+    "name": "Adelaide Brighton Cement – Angaston Cement Plant",
+    "tier": "processor",
+    "country_iso2": "AU",
+    "canonical_company": "Adelaide Brighton Cement",
+    "coordinates": {
+      "lat": -34.52,
+      "lon": 139.05
+    },
+    "downstream": [
+      {
+        "target_id": "AU_adelaide_brighton_concrete",
+        "corridor_id": "AU_road_angaston-adelaide-concrete",
+        "resource": "Portland cement",
+        "quantity": 500000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_adelaide_brighton_angaston"
+    ],
+    "resources": [
+      "Limestone"
+    ]
+  },
+  {
+    "id": "AU_boral_maldon_cement",
+    "name": "Boral – Maldon Cement Plant (NSW)",
+    "tier": "processor",
+    "country_iso2": "AU",
+    "canonical_company": "Boral",
+    "coordinates": {
+      "lat": -34.23,
+      "lon": 150.6
+    },
+    "downstream": [
+      {
+        "target_id": "AU_boral_concrete_sydney",
+        "corridor_id": "AU_road_maldon-sydney",
+        "resource": "Portland cement",
+        "quantity": 1500000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_boral_marulan"
+    ],
+    "resources": [
+      "Limestone"
+    ]
+  },
+  {
+    "id": "AU_cement_australia_gladstone_plant",
+    "name": "Cement Australia – Gladstone Cement Plant",
+    "tier": "processor",
+    "country_iso2": "AU",
+    "canonical_company": "Cement Australia",
+    "coordinates": {
+      "lat": -23.86,
+      "lon": 151.27
+    },
+    "downstream": [
+      {
+        "target_id": "AU_cement_australia_concrete_qld",
+        "corridor_id": "AU_ocean_gladstone-brisbane",
+        "resource": "Portland cement and clinker",
+        "quantity": 2200000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_cement_australia_gladstone",
+      "AU_cement_australia_mt_etna"
+    ],
+    "resources": [
+      "Limestone"
+    ]
+  },
+  {
+    "id": "AU_cement_australia_railton_plant",
+    "name": "Cement Australia – Railton Cement Plant (Tasmania)",
+    "tier": "processor",
+    "country_iso2": "AU",
+    "canonical_company": "Cement Australia",
+    "coordinates": {
+      "lat": -41.35,
+      "lon": 146.22
+    },
+    "downstream": [
+      {
+        "target_id": "AU_cement_australia_concrete_tas",
+        "corridor_id": "AU_road_railton-hobart",
+        "resource": "Portland cement",
+        "quantity": 350000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_cement_australia_concrete_vic",
+        "corridor_id": "AU_ocean_devonport-melbourne",
+        "resource": "Portland cement and clinker",
+        "quantity": 300000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_cement_australia_railton"
+    ],
+    "resources": [
+      "Limestone"
+    ]
+  },
+  {
+    "id": "AU_cockburn_cement_munster_plant",
+    "name": "Cockburn Cement – Munster Cement & Lime Plant (WA)",
+    "tier": "processor",
+    "country_iso2": "AU",
+    "canonical_company": "Cockburn Cement",
+    "coordinates": {
+      "lat": -32.13,
+      "lon": 115.78
+    },
+    "downstream": [
+      {
+        "target_id": "AU_cockburn_concrete_wa",
+        "corridor_id": "AU_road_munster-perth",
+        "resource": "Portland cement",
+        "quantity": 800000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_cockburn_lime_wa",
+        "corridor_id": "AU_road_munster-kwinana",
+        "resource": "quicklime",
+        "quantity": 500000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_cockburn_cement_lake_clifton",
+      "AU_adbri_munster_quarry"
+    ],
+    "resources": [
+      "Limestone"
+    ]
+  },
+  {
+    "id": "AU_sibelco_lime_processing",
+    "name": "Sibelco – Lime Processing (VIC)",
+    "tier": "processor",
+    "country_iso2": "AU",
+    "canonical_company": "Sibelco",
+    "coordinates": {
+      "lat": -37.81,
+      "lon": 144.96
+    },
+    "downstream": [
+      {
+        "target_id": "AU_industrial",
+        "corridor_id": "AU_road_sibelco-vic-industrial",
+        "resource": "quicklime and hydrated lime",
+        "quantity": 200000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_agricultural",
+        "corridor_id": "AU_road_sibelco-vic-agri",
+        "resource": "agricultural lime",
+        "quantity": 100000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_sibelco_minyip"
+    ],
+    "resources": [
+      "Limestone"
+    ]
+  },
+  {
+    "id": "AU_agriculture_lime_distributors_sa",
+    "name": "Agricultural Lime Distributors (SA)",
+    "tier": "processor",
+    "country_iso2": "AU",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": -35,
+      "lon": 138.6
+    },
+    "downstream": [
+      {
+        "target_id": "AU_agricultural",
+        "corridor_id": "AU_road_sa-agri-lime-distribution",
+        "resource": "agricultural limestone",
+        "quantity": 400000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_bluescope_limestone_coast"
+    ],
+    "resources": [
+      "Limestone"
+    ]
+  },
+  {
+    "id": "AU_agriculture_lime_distributors_wa",
+    "name": "Agricultural Lime Distributors (WA)",
+    "tier": "processor",
+    "country_iso2": "AU",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": -31.95,
+      "lon": 115.86
+    },
+    "downstream": [
+      {
+        "target_id": "AU_agricultural",
+        "corridor_id": "AU_road_wa-agri-lime-distribution",
+        "resource": "agricultural limestone",
+        "quantity": 350000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_nufarmer_limestone_wa"
+    ],
+    "resources": [
+      "Limestone"
+    ]
+  },
+  {
+    "id": "AU_adbri_lime_sa",
+    "name": "Adbri Lime – SA Lime Operations",
+    "tier": "processor",
+    "country_iso2": "AU",
+    "canonical_company": "Adbri",
+    "coordinates": {
+      "lat": -34.82,
+      "lon": 138.62
+    },
+    "downstream": [
+      {
+        "target_id": "AU_industrial",
+        "corridor_id": "AU_road_adbri-lime-sa-industrial",
+        "resource": "quicklime and hydrated lime",
+        "quantity": 250000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_agricultural",
+        "corridor_id": "AU_road_adbri-lime-sa-agri",
+        "resource": "agricultural lime",
+        "quantity": 150000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_adbri_mawson_lakes_quarry"
+    ],
+    "resources": [
+      "Limestone"
+    ]
+  },
+  {
+    "id": "AU_adelaide_brighton_lime_sa",
+    "name": "Adelaide Brighton – SA Lime Distribution",
+    "tier": "processor",
+    "country_iso2": "AU",
+    "canonical_company": "Adelaide Brighton Cement",
+    "coordinates": {
+      "lat": -34.85,
+      "lon": 138.51
+    },
+    "downstream": [
+      {
+        "target_id": "AU_industrial",
+        "corridor_id": "AU_road_abc-lime-sa-industrial",
+        "resource": "quicklime and hydrated lime",
+        "quantity": 250000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_adelaide_brighton_cement_birkenhead_plant"
+    ],
+    "resources": [
+      "Limestone"
+    ]
+  },
+  {
+    "id": "AU_hanson_concrete_sydney",
+    "name": "Hanson – Sydney Concrete & Aggregate Operations",
+    "tier": "processor",
+    "country_iso2": "AU",
+    "canonical_company": "Hanson Australia",
+    "coordinates": {
+      "lat": -33.87,
+      "lon": 151.21
+    },
+    "downstream": [
+      {
+        "target_id": "AU_hanson_readymix_sydney",
+        "corridor_id": "AU_road_hanson-sydney-batching",
+        "resource": "limestone aggregate and ready-mix concrete",
+        "quantity": 1200000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_hanson_bass_point"
+    ],
+    "resources": [
+      "Limestone"
+    ]
+  },
+  {
+    "id": "AU_holcim_concrete_sydney",
+    "name": "Holcim – Sydney Concrete & Aggregate Operations",
+    "tier": "processor",
+    "country_iso2": "AU",
+    "canonical_company": "Holcim Australia",
+    "coordinates": {
+      "lat": -33.85,
+      "lon": 151.1
+    },
+    "downstream": [
+      {
+        "target_id": "AU_holcim_readymix_sydney",
+        "corridor_id": "AU_road_holcim-sydney-batching",
+        "resource": "limestone aggregate and ready-mix concrete",
+        "quantity": 1200000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_holcim_lynwood"
+    ],
+    "resources": [
+      "Limestone"
+    ]
+  },
+  {
+    "id": "AU_barro_concrete_melbourne",
+    "name": "Barro Group – Melbourne Concrete Operations",
+    "tier": "processor",
+    "country_iso2": "AU",
+    "canonical_company": "Barro Group",
+    "coordinates": {
+      "lat": -37.81,
+      "lon": 144.96
+    },
+    "downstream": [
+      {
+        "target_id": "AU_barro_readymix_melbourne",
+        "corridor_id": "AU_road_barro-melbourne-batching",
+        "resource": "ready-mix concrete",
+        "quantity": 600000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_barro_bacchus_marsh"
+    ],
+    "resources": [
+      "Limestone"
+    ]
+  },
+  {
+    "id": "AU_adelaide_brighton_concrete",
+    "name": "Adelaide Brighton – Concrete & Cement Distribution (SA/NT)",
+    "tier": "building_products",
+    "country_iso2": "AU",
+    "canonical_company": "Adelaide Brighton Cement",
+    "coordinates": {
+      "lat": -34.93,
+      "lon": 138.6
+    },
+    "downstream": [
+      {
+        "target_id": "AU_adelaide_brighton_contractors_sa",
+        "corridor_id": "AU_road_abc-sa-distribution",
+        "resource": "bagged and bulk cement, ready-mix concrete",
+        "quantity": 1200000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_adelaide_brighton_cement_birkenhead_plant",
+      "AU_adelaide_brighton_cement_angaston_plant"
+    ],
+    "resources": [
+      "Limestone"
+    ]
+  },
+  {
+    "id": "AU_boral_concrete_sydney",
+    "name": "Boral – Sydney Concrete & Building Products",
+    "tier": "building_products",
+    "country_iso2": "AU",
+    "canonical_company": "Boral",
+    "coordinates": {
+      "lat": -33.86,
+      "lon": 151.21
+    },
+    "downstream": [
+      {
+        "target_id": "AU_boral_contractors_nsw",
+        "corridor_id": "AU_road_boral-nsw-contractors",
+        "resource": "ready-mix concrete, concrete products, aggregate",
+        "quantity": 3500000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_boral_marulan",
+      "AU_boral_peppertree",
+      "AU_boral_maldon_cement"
+    ],
+    "resources": [
+      "Limestone"
+    ]
+  },
+  {
+    "id": "AU_cement_australia_concrete_qld",
+    "name": "Cement Australia – QLD Concrete & Cement Distribution",
+    "tier": "building_products",
+    "country_iso2": "AU",
+    "canonical_company": "Cement Australia",
+    "coordinates": {
+      "lat": -27.47,
+      "lon": 153.02
+    },
+    "downstream": [
+      {
+        "target_id": "AU_cement_australia_contractors_qld",
+        "corridor_id": "AU_road_ca-qld-distribution",
+        "resource": "bagged and bulk cement, ready-mix concrete",
+        "quantity": 2200000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_cement_australia_gladstone_plant"
+    ],
+    "resources": [
+      "Limestone"
+    ]
+  },
+  {
+    "id": "AU_cement_australia_concrete_tas",
+    "name": "Cement Australia – TAS Concrete & Cement Distribution",
+    "tier": "building_products",
+    "country_iso2": "AU",
+    "canonical_company": "Cement Australia",
+    "coordinates": {
+      "lat": -42.88,
+      "lon": 147.33
+    },
+    "downstream": [
+      {
+        "target_id": "AU_cement_australia_contractors_tas",
+        "corridor_id": "AU_road_ca-tas-distribution",
+        "resource": "bagged and bulk cement, ready-mix concrete",
+        "quantity": 350000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_cement_australia_railton_plant"
+    ],
+    "resources": [
+      "Limestone"
+    ]
+  },
+  {
+    "id": "AU_cement_australia_concrete_vic",
+    "name": "Cement Australia – VIC Cement Distribution",
+    "tier": "building_products",
+    "country_iso2": "AU",
+    "canonical_company": "Cement Australia",
+    "coordinates": {
+      "lat": -37.81,
+      "lon": 144.96
+    },
+    "downstream": [
+      {
+        "target_id": "AU_cement_australia_contractors_vic",
+        "corridor_id": "AU_road_ca-vic-distribution",
+        "resource": "bagged and bulk cement",
+        "quantity": 300000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_cement_australia_railton_plant"
+    ],
+    "resources": [
+      "Limestone"
+    ]
+  },
+  {
+    "id": "AU_cockburn_concrete_wa",
+    "name": "Cockburn Cement – WA Concrete & Cement Distribution",
+    "tier": "building_products",
+    "country_iso2": "AU",
+    "canonical_company": "Cockburn Cement",
+    "coordinates": {
+      "lat": -31.95,
+      "lon": 115.86
+    },
+    "downstream": [
+      {
+        "target_id": "AU_cockburn_contractors_wa",
+        "corridor_id": "AU_road_cockburn-wa-distribution",
+        "resource": "bagged and bulk cement, ready-mix concrete",
+        "quantity": 800000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_cockburn_cement_munster_plant"
+    ],
+    "resources": [
+      "Limestone"
+    ]
+  },
+  {
+    "id": "AU_cockburn_lime_wa",
+    "name": "Cockburn Cement – WA Lime Distribution",
+    "tier": "building_products",
+    "country_iso2": "AU",
+    "canonical_company": "Cockburn Cement",
+    "coordinates": {
+      "lat": -32.23,
+      "lon": 115.77
+    },
+    "downstream": [
+      {
+        "target_id": "AU_industrial",
+        "corridor_id": "AU_road_cockburn-lime-wa-industrial",
+        "resource": "quicklime for alumina, gold and nickel processing",
+        "quantity": 500000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_cockburn_cement_munster_plant"
+    ],
+    "resources": [
+      "Limestone"
+    ]
+  },
+  {
+    "id": "AU_hanson_readymix_sydney",
+    "name": "Hanson – Sydney Ready-Mix & Building Products",
+    "tier": "building_products",
+    "country_iso2": "AU",
+    "canonical_company": "Hanson Australia",
+    "coordinates": {
+      "lat": -33.87,
+      "lon": 151.21
+    },
+    "downstream": [
+      {
+        "target_id": "AU_hanson_contractors_nsw",
+        "corridor_id": "AU_road_hanson-nsw-contractors",
+        "resource": "ready-mix concrete and aggregate products",
+        "quantity": 1200000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_hanson_concrete_sydney"
+    ],
+    "resources": [
+      "Limestone"
+    ]
+  },
+  {
+    "id": "AU_holcim_readymix_sydney",
+    "name": "Holcim – Sydney Ready-Mix & Building Products",
+    "tier": "building_products",
+    "country_iso2": "AU",
+    "canonical_company": "Holcim Australia",
+    "coordinates": {
+      "lat": -33.85,
+      "lon": 151.1
+    },
+    "downstream": [
+      {
+        "target_id": "AU_holcim_contractors_nsw",
+        "corridor_id": "AU_road_holcim-nsw-contractors",
+        "resource": "ready-mix concrete and aggregate products",
+        "quantity": 1200000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_holcim_concrete_sydney"
+    ],
+    "resources": [
+      "Limestone"
+    ]
+  },
+  {
+    "id": "AU_barro_readymix_melbourne",
+    "name": "Barro Group – Melbourne Ready-Mix & Building Products",
+    "tier": "building_products",
+    "country_iso2": "AU",
+    "canonical_company": "Barro Group",
+    "coordinates": {
+      "lat": -37.81,
+      "lon": 144.96
+    },
+    "downstream": [
+      {
+        "target_id": "AU_barro_contractors_vic",
+        "corridor_id": "AU_road_barro-vic-contractors",
+        "resource": "ready-mix concrete",
+        "quantity": 600000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_barro_concrete_melbourne"
+    ],
+    "resources": [
+      "Limestone"
+    ]
+  },
+  {
+    "id": "AU_adelaide_brighton_contractors_sa",
+    "name": "Construction Contractors – SA (Adelaide Brighton supply)",
+    "tier": "contractor",
+    "country_iso2": "AU",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": -34.93,
+      "lon": 138.6
+    },
+    "downstream": [
+      {
+        "target_id": "AU_infrastructure",
+        "corridor_id": "AU_road_sa-infra-delivery",
+        "resource": "concrete structures and road base",
+        "quantity": 700000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_residential",
+        "corridor_id": "AU_road_sa-residential-delivery",
+        "resource": "residential concrete and cement products",
+        "quantity": 300000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_commercial",
+        "corridor_id": "AU_road_sa-commercial-delivery",
+        "resource": "commercial building concrete and cement products",
+        "quantity": 200000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_adelaide_brighton_concrete"
+    ],
+    "resources": [
+      "Limestone"
+    ]
+  },
+  {
+    "id": "AU_boral_contractors_nsw",
+    "name": "Construction Contractors – NSW (Boral supply)",
+    "tier": "contractor",
+    "country_iso2": "AU",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": -33.87,
+      "lon": 151.21
+    },
+    "downstream": [
+      {
+        "target_id": "AU_infrastructure",
+        "corridor_id": "AU_road_nsw-infra-delivery-boral",
+        "resource": "concrete structures, road base, aggregate",
+        "quantity": 2000000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_residential",
+        "corridor_id": "AU_road_nsw-residential-delivery-boral",
+        "resource": "residential concrete",
+        "quantity": 900000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_commercial",
+        "corridor_id": "AU_road_nsw-commercial-delivery-boral",
+        "resource": "commercial concrete",
+        "quantity": 600000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_boral_concrete_sydney"
+    ],
+    "resources": [
+      "Limestone"
+    ]
+  },
+  {
+    "id": "AU_cement_australia_contractors_qld",
+    "name": "Construction Contractors – QLD (Cement Australia supply)",
+    "tier": "contractor",
+    "country_iso2": "AU",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": -27.47,
+      "lon": 153.02
+    },
+    "downstream": [
+      {
+        "target_id": "AU_infrastructure",
+        "corridor_id": "AU_road_qld-infra-delivery",
+        "resource": "concrete structures, road base",
+        "quantity": 1200000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_residential",
+        "corridor_id": "AU_road_qld-residential-delivery",
+        "resource": "residential concrete",
+        "quantity": 600000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_commercial",
+        "corridor_id": "AU_road_qld-commercial-delivery",
+        "resource": "commercial concrete",
+        "quantity": 400000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_cement_australia_concrete_qld"
+    ],
+    "resources": [
+      "Limestone"
+    ]
+  },
+  {
+    "id": "AU_cement_australia_contractors_tas",
+    "name": "Construction Contractors – TAS (Cement Australia supply)",
+    "tier": "contractor",
+    "country_iso2": "AU",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": -42.88,
+      "lon": 147.33
+    },
+    "downstream": [
+      {
+        "target_id": "AU_infrastructure",
+        "corridor_id": "AU_road_tas-infra-delivery",
+        "resource": "concrete structures",
+        "quantity": 200000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_residential",
+        "corridor_id": "AU_road_tas-residential-delivery",
+        "resource": "residential concrete",
+        "quantity": 100000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_commercial",
+        "corridor_id": "AU_road_tas-commercial-delivery",
+        "resource": "commercial concrete",
+        "quantity": 50000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_cement_australia_concrete_tas"
+    ],
+    "resources": [
+      "Limestone"
+    ]
+  },
+  {
+    "id": "AU_cement_australia_contractors_vic",
+    "name": "Construction Contractors – VIC (Cement Australia supply)",
+    "tier": "contractor",
+    "country_iso2": "AU",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": -37.81,
+      "lon": 144.96
+    },
+    "downstream": [
+      {
+        "target_id": "AU_infrastructure",
+        "corridor_id": "AU_road_vic-infra-delivery-ca",
+        "resource": "concrete structures",
+        "quantity": 180000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_residential",
+        "corridor_id": "AU_road_vic-residential-delivery-ca",
+        "resource": "residential concrete",
+        "quantity": 80000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_commercial",
+        "corridor_id": "AU_road_vic-commercial-delivery-ca",
+        "resource": "commercial concrete",
+        "quantity": 40000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_cement_australia_concrete_vic"
+    ],
+    "resources": [
+      "Limestone"
+    ]
+  },
+  {
+    "id": "AU_cockburn_contractors_wa",
+    "name": "Construction Contractors – WA (Cockburn Cement supply)",
+    "tier": "contractor",
+    "country_iso2": "AU",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": -31.95,
+      "lon": 115.86
+    },
+    "downstream": [
+      {
+        "target_id": "AU_infrastructure",
+        "corridor_id": "AU_road_wa-infra-delivery",
+        "resource": "concrete structures and road base",
+        "quantity": 450000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_residential",
+        "corridor_id": "AU_road_wa-residential-delivery",
+        "resource": "residential concrete",
+        "quantity": 200000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_commercial",
+        "corridor_id": "AU_road_wa-commercial-delivery",
+        "resource": "commercial concrete",
+        "quantity": 150000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_cockburn_concrete_wa"
+    ],
+    "resources": [
+      "Limestone"
+    ]
+  },
+  {
+    "id": "AU_hanson_contractors_nsw",
+    "name": "Construction Contractors – NSW (Hanson supply)",
+    "tier": "contractor",
+    "country_iso2": "AU",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": -33.87,
+      "lon": 151.21
+    },
+    "downstream": [
+      {
+        "target_id": "AU_infrastructure",
+        "corridor_id": "AU_road_nsw-infra-delivery-hanson",
+        "resource": "concrete and aggregate for infrastructure",
+        "quantity": 700000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_residential",
+        "corridor_id": "AU_road_nsw-residential-delivery-hanson",
+        "resource": "residential concrete",
+        "quantity": 300000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_commercial",
+        "corridor_id": "AU_road_nsw-commercial-delivery-hanson",
+        "resource": "commercial concrete",
+        "quantity": 200000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_hanson_readymix_sydney"
+    ],
+    "resources": [
+      "Limestone"
+    ]
+  },
+  {
+    "id": "AU_holcim_contractors_nsw",
+    "name": "Construction Contractors – NSW (Holcim supply)",
+    "tier": "contractor",
+    "country_iso2": "AU",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": -33.85,
+      "lon": 151.1
+    },
+    "downstream": [
+      {
+        "target_id": "AU_infrastructure",
+        "corridor_id": "AU_road_nsw-infra-delivery-holcim",
+        "resource": "concrete and aggregate for infrastructure",
+        "quantity": 700000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_residential",
+        "corridor_id": "AU_road_nsw-residential-delivery-holcim",
+        "resource": "residential concrete",
+        "quantity": 300000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_commercial",
+        "corridor_id": "AU_road_nsw-commercial-delivery-holcim",
+        "resource": "commercial concrete",
+        "quantity": 200000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_holcim_readymix_sydney"
+    ],
+    "resources": [
+      "Limestone"
+    ]
+  },
+  {
+    "id": "AU_barro_contractors_vic",
+    "name": "Construction Contractors – VIC (Barro supply)",
+    "tier": "contractor",
+    "country_iso2": "AU",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": -37.81,
+      "lon": 144.96
+    },
+    "downstream": [
+      {
+        "target_id": "AU_infrastructure",
+        "corridor_id": "AU_road_vic-infra-delivery-barro",
+        "resource": "concrete for infrastructure",
+        "quantity": 350000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_residential",
+        "corridor_id": "AU_road_vic-residential-delivery-barro",
+        "resource": "residential concrete",
+        "quantity": 150000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_commercial",
+        "corridor_id": "AU_road_vic-commercial-delivery-barro",
+        "resource": "commercial concrete",
+        "quantity": 100000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_barro_readymix_melbourne"
+    ],
+    "resources": [
+      "Limestone"
+    ]
+  },
+  {
+    "id": "AU_conveyor_birkenhead-quarry-plant",
+    "tier": "transport",
+    "name": "Birkenhead Quarry to Cement Plant Conveyor",
+    "country_iso2": "AU",
+    "operator_id": "AU_adelaide_brighton_cement",
+    "mode": "conveyor",
+    "form": "bulk_dry",
+    "range": "local",
+    "coordinates": {
+      "lat": -34.84,
+      "lon": 138.5
+    }
+  },
+  {
+    "id": "AU_road_angaston-plant",
+    "tier": "transport",
+    "name": "Angaston Quarry to Angaston Plant Road Haulage",
+    "country_iso2": "AU",
+    "operator_id": "AU_adelaide_brighton_cement",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "local",
+    "coordinates": {
+      "lat": -34.52,
+      "lon": 139.05
+    }
+  },
+  {
+    "id": "AU_rail_marulan-maldon",
+    "tier": "transport",
+    "name": "Marulan to Maldon Rail (Main Southern Railway)",
+    "country_iso2": "AU",
+    "operator_id": "AU_aurizon",
+    "mode": "rail",
+    "form": "bulk_dry",
+    "range": "regional",
+    "coordinates": {
+      "lat": -34.45,
+      "lon": 150.3
+    }
+  },
+  {
+    "id": "AU_road_marulan-sydney",
+    "tier": "transport",
+    "name": "Marulan to Sydney Road Haulage (Hume Highway)",
+    "country_iso2": "AU",
+    "operator_id": "AU_road_haulage_nsw",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "regional",
+    "coordinates": {
+      "lat": -34.3,
+      "lon": 150.5
+    }
+  },
+  {
+    "id": "AU_conveyor_gladstone-quarry-plant",
+    "tier": "transport",
+    "name": "East End Quarry to Gladstone Cement Plant Conveyor",
+    "country_iso2": "AU",
+    "operator_id": "AU_cement_australia",
+    "mode": "conveyor",
+    "form": "bulk_dry",
+    "range": "local",
+    "coordinates": {
+      "lat": -23.87,
+      "lon": 151.28
+    }
+  },
+  {
+    "id": "AU_road_lakeclifton-munster",
+    "tier": "transport",
+    "name": "Lake Clifton to Munster Road Haulage",
+    "country_iso2": "AU",
+    "operator_id": "AU_cockburn_cement",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "regional",
+    "coordinates": {
+      "lat": -32.45,
+      "lon": 115.76
+    }
+  },
+  {
+    "id": "AU_conveyor_munster-quarry-plant",
+    "tier": "transport",
+    "name": "Munster Quarry to Cement Plant Conveyor",
+    "country_iso2": "AU",
+    "operator_id": "AU_cockburn_cement",
+    "mode": "conveyor",
+    "form": "bulk_dry",
+    "range": "local",
+    "coordinates": {
+      "lat": -32.13,
+      "lon": 115.78
+    }
+  },
+  {
+    "id": "AU_conveyor_railton-quarry-plant",
+    "tier": "transport",
+    "name": "Railton Quarry to Railton Cement Plant Conveyor",
+    "country_iso2": "AU",
+    "operator_id": "AU_cement_australia",
+    "mode": "conveyor",
+    "form": "bulk_dry",
+    "range": "local",
+    "coordinates": {
+      "lat": -41.35,
+      "lon": 146.22
+    }
+  },
+  {
+    "id": "AU_rail_peppertree-sydney",
+    "tier": "transport",
+    "name": "Peppertree Quarry to Sydney Rail Haulage",
+    "country_iso2": "AU",
+    "operator_id": "AU_pacific_national",
+    "mode": "rail",
+    "form": "bulk_dry",
+    "range": "regional",
+    "coordinates": {
+      "lat": -34.35,
+      "lon": 150.5
+    }
+  },
+  {
+    "id": "AU_rail_lynwood-sydney",
+    "tier": "transport",
+    "name": "Lynwood Quarry to Sydney Rail Haulage",
+    "country_iso2": "AU",
+    "operator_id": "AU_pacific_national",
+    "mode": "rail",
+    "form": "bulk_dry",
+    "range": "regional",
+    "coordinates": {
+      "lat": -34.33,
+      "lon": 150.49
+    }
+  },
+  {
+    "id": "AU_road_minyip-processing",
+    "tier": "transport",
+    "name": "Minyip to VIC Processing Road Haulage",
+    "country_iso2": "AU",
+    "operator_id": "AU_sibelco",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "regional",
+    "coordinates": {
+      "lat": -36.8,
+      "lon": 143.5
+    }
+  },
+  {
+    "id": "AU_road_limestone-coast-industrial",
+    "tier": "transport",
+    "name": "Limestone Coast to Industrial Users Road Haulage",
+    "country_iso2": "AU",
+    "operator_id": "AU_road_haulage_sa",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "regional",
+    "coordinates": {
+      "lat": -37.9,
+      "lon": 142
+    }
+  },
+  {
+    "id": "AU_road_limestone-coast-sa",
+    "tier": "transport",
+    "name": "Limestone Coast to SA Ag Distributors Road Haulage",
+    "country_iso2": "AU",
+    "operator_id": "AU_road_haulage_sa",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "regional",
+    "coordinates": {
+      "lat": -36.8,
+      "lon": 140.5
+    }
+  },
+  {
+    "id": "AU_ocean_kleinpoint-birkenhead",
+    "tier": "transport",
+    "name": "Klein Point to Birkenhead Coastal Shipping",
+    "country_iso2": "AU",
+    "operator_id": "AU_adelaide_brighton_cement",
+    "mode": "ocean_freight",
+    "form": "bulk_dry",
+    "range": "regional",
+    "coordinates": {
+      "lat": -34.89,
+      "lon": 138.14
+    }
+  },
+  {
+    "id": "AU_road_bacchusmarsh-melbourne",
+    "tier": "transport",
+    "name": "Bacchus Marsh to Melbourne Road Haulage",
+    "country_iso2": "AU",
+    "operator_id": "AU_barro_group",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "regional",
+    "coordinates": {
+      "lat": -37.74,
+      "lon": 144.7
+    }
+  },
+  {
+    "id": "AU_road_lancelin-perth",
+    "tier": "transport",
+    "name": "Lancelin / Gingin to Perth Road Haulage",
+    "country_iso2": "AU",
+    "operator_id": "AU_road_haulage_wa",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "regional",
+    "coordinates": {
+      "lat": -31.48,
+      "lon": 115.6
+    }
+  },
+  {
+    "id": "AU_road_mawsonlakes-lime",
+    "tier": "transport",
+    "name": "Mawson Lakes to SA Lime Processing Road Haulage",
+    "country_iso2": "AU",
+    "operator_id": "AU_adbri",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "local",
+    "coordinates": {
+      "lat": -34.81,
+      "lon": 138.61
+    }
+  },
+  {
+    "id": "AU_road_mtetna-gladstone",
+    "tier": "transport",
+    "name": "Mt Etna to Gladstone Road Haulage",
+    "country_iso2": "AU",
+    "operator_id": "AU_cement_australia",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "regional",
+    "coordinates": {
+      "lat": -23.52,
+      "lon": 150.87
+    }
+  },
+  {
+    "id": "AU_road_birkenhead-adelaide",
+    "tier": "transport",
+    "name": "Birkenhead Plant to Adelaide Region Road Distribution",
+    "country_iso2": "AU",
+    "operator_id": "AU_adelaide_brighton_cement",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "regional",
+    "coordinates": {
+      "lat": -34.88,
+      "lon": 138.55
+    }
+  },
+  {
+    "id": "AU_road_birkenhead-sa-lime",
+    "tier": "transport",
+    "name": "Birkenhead Plant to SA Lime Distribution Road Haulage",
+    "country_iso2": "AU",
+    "operator_id": "AU_adelaide_brighton_cement",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "regional",
+    "coordinates": {
+      "lat": -34.85,
+      "lon": 138.52
+    }
+  },
+  {
+    "id": "AU_road_angaston-adelaide-concrete",
+    "tier": "transport",
+    "name": "Angaston Plant to Adelaide Concrete Distribution",
+    "country_iso2": "AU",
+    "operator_id": "AU_adelaide_brighton_cement",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "regional",
+    "coordinates": {
+      "lat": -34.73,
+      "lon": 138.83
+    }
+  },
+  {
+    "id": "AU_road_maldon-sydney",
+    "tier": "transport",
+    "name": "Maldon Cement Plant to Sydney Distribution",
+    "country_iso2": "AU",
+    "operator_id": "AU_boral",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "regional",
+    "coordinates": {
+      "lat": -34.06,
+      "lon": 150.9
+    }
+  },
+  {
+    "id": "AU_ocean_gladstone-brisbane",
+    "tier": "transport",
+    "name": "Gladstone to Brisbane Coastal Shipping",
+    "country_iso2": "AU",
+    "operator_id": "AU_cement_australia",
+    "mode": "ocean_freight",
+    "form": "bulk_dry",
+    "range": "regional",
+    "coordinates": {
+      "lat": -25.4,
+      "lon": 152.5
+    }
+  },
+  {
+    "id": "AU_road_railton-hobart",
+    "tier": "transport",
+    "name": "Railton to Hobart Road Distribution",
+    "country_iso2": "AU",
+    "operator_id": "AU_cement_australia",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "regional",
+    "coordinates": {
+      "lat": -42.1,
+      "lon": 146.7
+    }
+  },
+  {
+    "id": "AU_ocean_devonport-melbourne",
+    "tier": "transport",
+    "name": "Devonport to Melbourne Bass Strait Shipping",
+    "country_iso2": "AU",
+    "operator_id": "AU_toll_shipping",
+    "mode": "ocean_freight",
+    "form": "bulk_dry",
+    "range": "regional",
+    "coordinates": {
+      "lat": -40.1,
+      "lon": 145.5
+    },
+    "resources": [
+      "Medicinal-Plants"
+    ],
+    "upstream": [],
+    "downstream": []
+  },
+  {
+    "id": "AU_road_munster-perth",
+    "tier": "transport",
+    "name": "Munster Plant to Perth Metro Road Distribution",
+    "country_iso2": "AU",
+    "operator_id": "AU_cockburn_cement",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "regional",
+    "coordinates": {
+      "lat": -32.04,
+      "lon": 115.8
+    }
+  },
+  {
+    "id": "AU_road_munster-kwinana",
+    "tier": "transport",
+    "name": "Munster Plant to Kwinana Industrial Area Road Haulage",
+    "country_iso2": "AU",
+    "operator_id": "AU_cockburn_cement",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "local",
+    "coordinates": {
+      "lat": -32.2,
+      "lon": 115.78
+    }
+  },
+  {
+    "id": "AU_road_sibelco-vic-industrial",
+    "tier": "transport",
+    "name": "Sibelco VIC to Industrial Users Road Haulage",
+    "country_iso2": "AU",
+    "operator_id": "AU_sibelco",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "regional",
+    "coordinates": {
+      "lat": -37.81,
+      "lon": 144.96
+    }
+  },
+  {
+    "id": "AU_road_sibelco-vic-agri",
+    "tier": "transport",
+    "name": "Sibelco VIC to Agricultural Users Road Haulage",
+    "country_iso2": "AU",
+    "operator_id": "AU_sibelco",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "regional",
+    "coordinates": {
+      "lat": -37.5,
+      "lon": 144.5
+    }
+  },
+  {
+    "id": "AU_electrical_grid_vic",
+    "tier": "transport",
+    "name": "Victorian Electrical Grid (FGD limestone consumption proxy)",
+    "country_iso2": "AU",
+    "operator_id": "AU_aemo",
+    "mode": "electrical_grid",
+    "form": "electrical",
+    "range": "regional",
+    "coordinates": {
+      "lat": -37.8,
+      "lon": 145
+    }
+  },
+  {
+    "id": "AU_road_sa-agri-lime-distribution",
+    "tier": "transport",
+    "name": "SA Agricultural Lime Distribution Road Network",
+    "country_iso2": "AU",
+    "operator_id": "AU_road_haulage_sa",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "regional",
+    "coordinates": {
+      "lat": -35,
+      "lon": 139
+    }
+  },
+  {
+    "id": "AU_road_wa-agri-lime-distribution",
+    "tier": "transport",
+    "name": "WA Agricultural Lime Distribution Road Network",
+    "country_iso2": "AU",
+    "operator_id": "AU_road_haulage_wa",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "regional",
+    "coordinates": {
+      "lat": -31.5,
+      "lon": 116
+    }
+  },
+  {
+    "id": "AU_road_adbri-lime-sa-industrial",
+    "tier": "transport",
+    "name": "Adbri Lime SA to Industrial Users Road Haulage",
+    "country_iso2": "AU",
+    "operator_id": "AU_adbri",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "regional",
+    "coordinates": {
+      "lat": -34.8,
+      "lon": 138.6
+    }
+  },
+  {
+    "id": "AU_road_adbri-lime-sa-agri",
+    "tier": "transport",
+    "name": "Adbri Lime SA to Agricultural Users Road Haulage",
+    "country_iso2": "AU",
+    "operator_id": "AU_adbri",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "regional",
+    "coordinates": {
+      "lat": -35,
+      "lon": 138.7
+    }
+  },
+  {
+    "id": "AU_road_abc-lime-sa-industrial",
+    "tier": "transport",
+    "name": "ABC Lime SA to Industrial Users Road Haulage",
+    "country_iso2": "AU",
+    "operator_id": "AU_adelaide_brighton_cement",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "regional",
+    "coordinates": {
+      "lat": -34.86,
+      "lon": 138.52
+    }
+  },
+  {
+    "id": "AU_road_hanson-sydney-batching",
+    "tier": "transport",
+    "name": "Hanson Sydney Batching Plant Distribution",
+    "country_iso2": "AU",
+    "operator_id": "AU_hanson_australia",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "regional",
+    "coordinates": {
+      "lat": -33.87,
+      "lon": 151.21
+    }
+  },
+  {
+    "id": "AU_road_holcim-sydney-batching",
+    "tier": "transport",
+    "name": "Holcim Sydney Batching Plant Distribution",
+    "country_iso2": "AU",
+    "operator_id": "AU_holcim_australia",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "regional",
+    "coordinates": {
+      "lat": -33.85,
+      "lon": 151.1
+    }
+  },
+  {
+    "id": "AU_road_barro-melbourne-batching",
+    "tier": "transport",
+    "name": "Barro Melbourne Batching Plant Distribution",
+    "country_iso2": "AU",
+    "operator_id": "AU_barro_group",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "regional",
+    "coordinates": {
+      "lat": -37.81,
+      "lon": 144.96
+    }
+  },
+  {
+    "id": "AU_road_abc-sa-distribution",
+    "tier": "transport",
+    "name": "Adelaide Brighton SA Cement & Concrete Distribution",
+    "country_iso2": "AU",
+    "operator_id": "AU_adelaide_brighton_cement",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "regional",
+    "coordinates": {
+      "lat": -34.93,
+      "lon": 138.6
+    }
+  },
+  {
+    "id": "AU_road_boral-nsw-contractors",
+    "tier": "transport",
+    "name": "Boral NSW to Contractors Road Distribution",
+    "country_iso2": "AU",
+    "operator_id": "AU_boral",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "regional",
+    "coordinates": {
+      "lat": -33.86,
+      "lon": 151.21
+    }
+  },
+  {
+    "id": "AU_road_ca-qld-distribution",
+    "tier": "transport",
+    "name": "Cement Australia QLD Distribution Road Network",
+    "country_iso2": "AU",
+    "operator_id": "AU_cement_australia",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "regional",
+    "coordinates": {
+      "lat": -27.47,
+      "lon": 153.02
+    }
+  },
+  {
+    "id": "AU_road_ca-tas-distribution",
+    "tier": "transport",
+    "name": "Cement Australia TAS Distribution Road Network",
+    "country_iso2": "AU",
+    "operator_id": "AU_cement_australia",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "regional",
+    "coordinates": {
+      "lat": -42.88,
+      "lon": 147.33
+    }
+  },
+  {
+    "id": "AU_road_ca-vic-distribution",
+    "tier": "transport",
+    "name": "Cement Australia VIC Distribution Road Network",
+    "country_iso2": "AU",
+    "operator_id": "AU_cement_australia",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "regional",
+    "coordinates": {
+      "lat": -37.81,
+      "lon": 144.96
+    }
+  },
+  {
+    "id": "AU_road_cockburn-wa-distribution",
+    "tier": "transport",
+    "name": "Cockburn Cement WA Cement Distribution",
+    "country_iso2": "AU",
+    "operator_id": "AU_cockburn_cement",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "regional",
+    "coordinates": {
+      "lat": -31.95,
+      "lon": 115.86
+    }
+  },
+  {
+    "id": "AU_road_cockburn-lime-wa-industrial",
+    "tier": "transport",
+    "name": "Cockburn Lime to WA Industrial Users Road Haulage",
+    "country_iso2": "AU",
+    "operator_id": "AU_cockburn_cement",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "regional",
+    "coordinates": {
+      "lat": -32.2,
+      "lon": 115.8
+    }
+  },
+  {
+    "id": "AU_road_hanson-nsw-contractors",
+    "tier": "transport",
+    "name": "Hanson NSW to Contractors Road Distribution",
+    "country_iso2": "AU",
+    "operator_id": "AU_hanson_australia",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "regional",
+    "coordinates": {
+      "lat": -33.87,
+      "lon": 151.21
+    }
+  },
+  {
+    "id": "AU_road_holcim-nsw-contractors",
+    "tier": "transport",
+    "name": "Holcim NSW to Contractors Road Distribution",
+    "country_iso2": "AU",
+    "operator_id": "AU_holcim_australia",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "regional",
+    "coordinates": {
+      "lat": -33.85,
+      "lon": 151.1
+    }
+  },
+  {
+    "id": "AU_road_barro-vic-contractors",
+    "tier": "transport",
+    "name": "Barro VIC to Contractors Road Distribution",
+    "country_iso2": "AU",
+    "operator_id": "AU_barro_group",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "regional",
+    "coordinates": {
+      "lat": -37.81,
+      "lon": 144.96
+    }
+  },
+  {
+    "id": "AU_road_sa-infra-delivery",
+    "tier": "transport",
+    "name": "SA Infrastructure Project Site Delivery",
+    "country_iso2": "AU",
+    "operator_id": "AU_road_haulage_sa",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "regional",
+    "coordinates": {
+      "lat": -34.93,
+      "lon": 138.6
+    }
+  },
+  {
+    "id": "AU_road_sa-residential-delivery",
+    "tier": "transport",
+    "name": "SA Residential Site Delivery",
+    "country_iso2": "AU",
+    "operator_id": "AU_road_haulage_sa",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "local",
+    "coordinates": {
+      "lat": -34.93,
+      "lon": 138.6
+    }
+  },
+  {
+    "id": "AU_road_sa-commercial-delivery",
+    "tier": "transport",
+    "name": "SA Commercial Site Delivery",
+    "country_iso2": "AU",
+    "operator_id": "AU_road_haulage_sa",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "local",
+    "coordinates": {
+      "lat": -34.93,
+      "lon": 138.6
+    }
+  },
+  {
+    "id": "AU_road_nsw-infra-delivery-boral",
+    "tier": "transport",
+    "name": "NSW Infrastructure Delivery (Boral supply chain)",
+    "country_iso2": "AU",
+    "operator_id": "AU_road_haulage_nsw",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "regional",
+    "coordinates": {
+      "lat": -33.87,
+      "lon": 151.21
+    }
+  },
+  {
+    "id": "AU_road_nsw-residential-delivery-boral",
+    "tier": "transport",
+    "name": "NSW Residential Delivery (Boral supply chain)",
+    "country_iso2": "AU",
+    "operator_id": "AU_road_haulage_nsw",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "local",
+    "coordinates": {
+      "lat": -33.87,
+      "lon": 151.21
+    }
+  },
+  {
+    "id": "AU_road_nsw-commercial-delivery-boral",
+    "tier": "transport",
+    "name": "NSW Commercial Delivery (Boral supply chain)",
+    "country_iso2": "AU",
+    "operator_id": "AU_road_haulage_nsw",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "local",
+    "coordinates": {
+      "lat": -33.87,
+      "lon": 151.21
+    }
+  },
+  {
+    "id": "AU_road_qld-infra-delivery",
+    "tier": "transport",
+    "name": "QLD Infrastructure Delivery",
+    "country_iso2": "AU",
+    "operator_id": "AU_road_haulage_qld",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "regional",
+    "coordinates": {
+      "lat": -27.47,
+      "lon": 153.02
+    }
+  },
+  {
+    "id": "AU_road_qld-residential-delivery",
+    "tier": "transport",
+    "name": "QLD Residential Delivery",
+    "country_iso2": "AU",
+    "operator_id": "AU_road_haulage_qld",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "local",
+    "coordinates": {
+      "lat": -27.47,
+      "lon": 153.02
+    }
+  },
+  {
+    "id": "AU_road_qld-commercial-delivery",
+    "tier": "transport",
+    "name": "QLD Commercial Delivery",
+    "country_iso2": "AU",
+    "operator_id": "AU_road_haulage_qld",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "local",
+    "coordinates": {
+      "lat": -27.47,
+      "lon": 153.02
+    }
+  },
+  {
+    "id": "AU_road_tas-infra-delivery",
+    "tier": "transport",
+    "name": "TAS Infrastructure Delivery",
+    "country_iso2": "AU",
+    "operator_id": "AU_road_haulage_tas",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "regional",
+    "coordinates": {
+      "lat": -42.88,
+      "lon": 147.33
+    }
+  },
+  {
+    "id": "AU_road_tas-residential-delivery",
+    "tier": "transport",
+    "name": "TAS Residential Delivery",
+    "country_iso2": "AU",
+    "operator_id": "AU_road_haulage_tas",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "local",
+    "coordinates": {
+      "lat": -42.88,
+      "lon": 147.33
+    }
+  },
+  {
+    "id": "AU_road_tas-commercial-delivery",
+    "tier": "transport",
+    "name": "TAS Commercial Delivery",
+    "country_iso2": "AU",
+    "operator_id": "AU_road_haulage_tas",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "local",
+    "coordinates": {
+      "lat": -42.88,
+      "lon": 147.33
+    }
+  },
+  {
+    "id": "AU_road_vic-infra-delivery-ca",
+    "tier": "transport",
+    "name": "VIC Infrastructure Delivery (Cement Australia supply)",
+    "country_iso2": "AU",
+    "operator_id": "AU_road_haulage_vic",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "regional",
+    "coordinates": {
+      "lat": -37.81,
+      "lon": 144.96
+    }
+  },
+  {
+    "id": "AU_road_vic-residential-delivery-ca",
+    "tier": "transport",
+    "name": "VIC Residential Delivery (Cement Australia supply)",
+    "country_iso2": "AU",
+    "operator_id": "AU_road_haulage_vic",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "local",
+    "coordinates": {
+      "lat": -37.81,
+      "lon": 144.96
+    }
+  },
+  {
+    "id": "AU_road_vic-commercial-delivery-ca",
+    "tier": "transport",
+    "name": "VIC Commercial Delivery (Cement Australia supply)",
+    "country_iso2": "AU",
+    "operator_id": "AU_road_haulage_vic",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "local",
+    "coordinates": {
+      "lat": -37.81,
+      "lon": 144.96
+    }
+  },
+  {
+    "id": "AU_road_wa-infra-delivery",
+    "tier": "transport",
+    "name": "WA Infrastructure Delivery",
+    "country_iso2": "AU",
+    "operator_id": "AU_road_haulage_wa",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "regional",
+    "coordinates": {
+      "lat": -31.95,
+      "lon": 115.86
+    }
+  },
+  {
+    "id": "AU_road_wa-residential-delivery",
+    "tier": "transport",
+    "name": "WA Residential Delivery",
+    "country_iso2": "AU",
+    "operator_id": "AU_road_haulage_wa",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "local",
+    "coordinates": {
+      "lat": -31.95,
+      "lon": 115.86
+    }
+  },
+  {
+    "id": "AU_road_wa-commercial-delivery",
+    "tier": "transport",
+    "name": "WA Commercial Delivery",
+    "country_iso2": "AU",
+    "operator_id": "AU_road_haulage_wa",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "local",
+    "coordinates": {
+      "lat": -31.95,
+      "lon": 115.86
+    }
+  },
+  {
+    "id": "AU_road_nsw-infra-delivery-hanson",
+    "tier": "transport",
+    "name": "NSW Infrastructure Delivery (Hanson supply chain)",
+    "country_iso2": "AU",
+    "operator_id": "AU_road_haulage_nsw",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "regional",
+    "coordinates": {
+      "lat": -33.87,
+      "lon": 151.21
+    }
+  },
+  {
+    "id": "AU_road_nsw-residential-delivery-hanson",
+    "tier": "transport",
+    "name": "NSW Residential Delivery (Hanson supply chain)",
+    "country_iso2": "AU",
+    "operator_id": "AU_road_haulage_nsw",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "local",
+    "coordinates": {
+      "lat": -33.87,
+      "lon": 151.21
+    }
+  },
+  {
+    "id": "AU_road_nsw-commercial-delivery-hanson",
+    "tier": "transport",
+    "name": "NSW Commercial Delivery (Hanson supply chain)",
+    "country_iso2": "AU",
+    "operator_id": "AU_road_haulage_nsw",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "local",
+    "coordinates": {
+      "lat": -33.87,
+      "lon": 151.21
+    }
+  },
+  {
+    "id": "AU_road_nsw-infra-delivery-holcim",
+    "tier": "transport",
+    "name": "NSW Infrastructure Delivery (Holcim supply chain)",
+    "country_iso2": "AU",
+    "operator_id": "AU_road_haulage_nsw",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "regional",
+    "coordinates": {
+      "lat": -33.85,
+      "lon": 151.1
+    }
+  },
+  {
+    "id": "AU_road_nsw-residential-delivery-holcim",
+    "tier": "transport",
+    "name": "NSW Residential Delivery (Holcim supply chain)",
+    "country_iso2": "AU",
+    "operator_id": "AU_road_haulage_nsw",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "local",
+    "coordinates": {
+      "lat": -33.85,
+      "lon": 151.1
+    }
+  },
+  {
+    "id": "AU_road_nsw-commercial-delivery-holcim",
+    "tier": "transport",
+    "name": "NSW Commercial Delivery (Holcim supply chain)",
+    "country_iso2": "AU",
+    "operator_id": "AU_road_haulage_nsw",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "local",
+    "coordinates": {
+      "lat": -33.85,
+      "lon": 151.1
+    }
+  },
+  {
+    "id": "AU_road_vic-infra-delivery-barro",
+    "tier": "transport",
+    "name": "VIC Infrastructure Delivery (Barro supply chain)",
+    "country_iso2": "AU",
+    "operator_id": "AU_road_haulage_vic",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "regional",
+    "coordinates": {
+      "lat": -37.81,
+      "lon": 144.96
+    }
+  },
+  {
+    "id": "AU_road_vic-residential-delivery-barro",
+    "tier": "transport",
+    "name": "VIC Residential Delivery (Barro supply chain)",
+    "country_iso2": "AU",
+    "operator_id": "AU_road_haulage_vic",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "local",
+    "coordinates": {
+      "lat": -37.81,
+      "lon": 144.96
+    }
+  },
+  {
+    "id": "AU_road_vic-commercial-delivery-barro",
+    "tier": "transport",
+    "name": "VIC Commercial Delivery (Barro supply chain)",
+    "country_iso2": "AU",
+    "operator_id": "AU_road_haulage_vic",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "local",
+    "coordinates": {
+      "lat": -37.81,
+      "lon": 144.96
+    }
+  }
+]

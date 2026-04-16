@@ -1,0 +1,807 @@
+[
+  {
+    "id": "AU_geologica_mudgee_barite_mine",
+    "name": "Geologica Mudgee Barite Mine",
+    "tier": "extraction",
+    "country_iso2": "AU",
+    "canonical_company": "Geologica Limited",
+    "coordinates": {
+      "lat": -32.59,
+      "lon": 149.59
+    },
+    "downstream": [
+      {
+        "target_id": "AU_australian_mud_company",
+        "corridor_id": "AU_road_mudgee-sydney",
+        "resource": "raw barite ore (crusite)",
+        "quantity": 5000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Barite"
+    ]
+  },
+  {
+    "id": "AU_halliburton_barite_grinding_plant",
+    "name": "Halliburton Barite Grinding Plant (Gladstone)",
+    "tier": "chemical_processor",
+    "country_iso2": "AU",
+    "canonical_company": "Halliburton",
+    "coordinates": {
+      "lat": -23.85,
+      "lon": 151.27
+    },
+    "downstream": [
+      {
+        "target_id": "AU_halliburton_australia",
+        "corridor_id": "AU_road_gladstone-regional",
+        "resource": "API-grade ground barite",
+        "quantity": 15000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "INTL_imported_barite_perth"
+    ],
+    "resources": [
+      "Barite"
+    ]
+  },
+  {
+    "id": "AU_australian_mud_company",
+    "name": "Australian Mud Company (AMC) Processing Facility",
+    "tier": "chemical_processor",
+    "country_iso2": "AU",
+    "canonical_company": "Australian Mud Company",
+    "coordinates": {
+      "lat": -33.87,
+      "lon": 151.21
+    },
+    "downstream": [
+      {
+        "target_id": "AU_amc_drilling_fluids",
+        "corridor_id": "AU_road_sydney-regional",
+        "resource": "API-grade ground barite",
+        "quantity": 5000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_geologica_mudgee_barite_mine"
+    ],
+    "resources": [
+      "Barite"
+    ]
+  },
+  {
+    "id": "AU_schlumberger_processing",
+    "name": "SLB (Schlumberger) Barite Processing (Perth)",
+    "tier": "chemical_processor",
+    "country_iso2": "AU",
+    "canonical_company": "SLB",
+    "coordinates": {
+      "lat": -31.95,
+      "lon": 115.86
+    },
+    "downstream": [
+      {
+        "target_id": "AU_slb_australia",
+        "corridor_id": "AU_road_perth-regional",
+        "resource": "API-grade ground barite",
+        "quantity": 20000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "INTL_imported_barite_perth"
+    ],
+    "resources": [
+      "Barite"
+    ]
+  },
+  {
+    "id": "INTL_imported_barite_perth",
+    "name": "Imported Barite via Fremantle/Perth (India, China, Morocco)",
+    "tier": "extraction",
+    "country_iso2": "INTL",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": -32.06,
+      "lon": 115.75
+    },
+    "downstream": [
+      {
+        "target_id": "AU_schlumberger_processing",
+        "corridor_id": "INTL_ocean_various-fremantle",
+        "resource": "raw barite ore / lump barite",
+        "quantity": 20000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_halliburton_barite_grinding_plant",
+        "corridor_id": "INTL_ocean_various-gladstone",
+        "resource": "raw barite ore / lump barite",
+        "quantity": 15000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_newpark_processing",
+        "corridor_id": "INTL_ocean_various-darwin",
+        "resource": "raw barite ore / lump barite",
+        "quantity": 8000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Barite"
+    ]
+  },
+  {
+    "id": "AU_newpark_processing",
+    "name": "Newpark Drilling Fluids Processing (Darwin)",
+    "tier": "chemical_processor",
+    "country_iso2": "AU",
+    "canonical_company": "Newpark Resources",
+    "coordinates": {
+      "lat": -12.46,
+      "lon": 130.84
+    },
+    "downstream": [
+      {
+        "target_id": "AU_newpark_australia",
+        "corridor_id": "AU_road_darwin-regional",
+        "resource": "API-grade ground barite",
+        "quantity": 8000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "INTL_imported_barite_perth"
+    ],
+    "resources": [
+      "Barite"
+    ]
+  },
+  {
+    "id": "AU_halliburton_australia",
+    "name": "Halliburton Australia (Drilling Fluids Division)",
+    "tier": "blender_distributor",
+    "country_iso2": "AU",
+    "canonical_company": "Halliburton",
+    "coordinates": {
+      "lat": -31.95,
+      "lon": 115.86
+    },
+    "downstream": [
+      {
+        "target_id": "AU_santos_drilling",
+        "corridor_id": "AU_road_perth-cooper-basin",
+        "resource": "blended drilling-grade barite mud",
+        "quantity": 5000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_woodside_offshore_drilling",
+        "corridor_id": "AU_ocean_perth-nws",
+        "resource": "blended drilling-grade barite mud",
+        "quantity": 6000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_beach_energy_drilling",
+        "corridor_id": "AU_road_gladstone-surat",
+        "resource": "blended drilling-grade barite mud",
+        "quantity": 4000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_halliburton_barite_grinding_plant"
+    ],
+    "resources": [
+      "Barite"
+    ]
+  },
+  {
+    "id": "AU_amc_drilling_fluids",
+    "name": "AMC Drilling Fluids Distribution",
+    "tier": "blender_distributor",
+    "country_iso2": "AU",
+    "canonical_company": "Australian Mud Company",
+    "coordinates": {
+      "lat": -33.87,
+      "lon": 151.21
+    },
+    "downstream": [
+      {
+        "target_id": "AU_origin_energy_drilling",
+        "corridor_id": "AU_road_sydney-bowen-basin",
+        "resource": "blended drilling-grade barite mud",
+        "quantity": 2500,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_mining_exploration_drilling",
+        "corridor_id": "AU_road_sydney-regional-mines",
+        "resource": "blended drilling-grade barite mud",
+        "quantity": 2500,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_australian_mud_company"
+    ],
+    "resources": [
+      "Barite"
+    ]
+  },
+  {
+    "id": "AU_slb_australia",
+    "name": "SLB Australia (M-I SWACO Division)",
+    "tier": "blender_distributor",
+    "country_iso2": "AU",
+    "canonical_company": "SLB",
+    "coordinates": {
+      "lat": -31.95,
+      "lon": 115.86
+    },
+    "downstream": [
+      {
+        "target_id": "AU_woodside_offshore_drilling",
+        "corridor_id": "AU_ocean_perth-nws",
+        "resource": "blended drilling-grade barite mud",
+        "quantity": 8000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_inpex_ichthys_drilling",
+        "corridor_id": "AU_ocean_perth-darwin-offshore",
+        "resource": "blended drilling-grade barite mud",
+        "quantity": 6000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_santos_drilling",
+        "corridor_id": "AU_road_perth-cooper-basin",
+        "resource": "blended drilling-grade barite mud",
+        "quantity": 6000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_schlumberger_processing"
+    ],
+    "resources": [
+      "Barite"
+    ]
+  },
+  {
+    "id": "AU_newpark_australia",
+    "name": "Newpark Australia Drilling Fluids Distribution",
+    "tier": "blender_distributor",
+    "country_iso2": "AU",
+    "canonical_company": "Newpark Resources",
+    "coordinates": {
+      "lat": -12.46,
+      "lon": 130.84
+    },
+    "downstream": [
+      {
+        "target_id": "AU_inpex_ichthys_drilling",
+        "corridor_id": "AU_road_darwin-offshore-base",
+        "resource": "blended drilling-grade barite mud",
+        "quantity": 4000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_eni_blacktip_drilling",
+        "corridor_id": "AU_road_darwin-bonaparte",
+        "resource": "blended drilling-grade barite mud",
+        "quantity": 4000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_newpark_processing"
+    ],
+    "resources": [
+      "Barite"
+    ]
+  },
+  {
+    "id": "AU_woodside_offshore_drilling",
+    "name": "Woodside Energy Offshore Drilling Operations (NWS / Scarborough)",
+    "tier": "applicator",
+    "country_iso2": "AU",
+    "canonical_company": "Woodside Energy",
+    "coordinates": {
+      "lat": -19.58,
+      "lon": 115.9
+    },
+    "downstream": [
+      {
+        "target_id": "AU_industrial",
+        "corridor_id": "AU_ocean_nws-domestic-gas",
+        "resource": "drilling services supporting oil & gas extraction",
+        "quantity": 14000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_halliburton_australia",
+      "AU_slb_australia"
+    ],
+    "resources": [
+      "Barite"
+    ]
+  },
+  {
+    "id": "AU_santos_drilling",
+    "name": "Santos Drilling Operations (Cooper Basin / GLNG)",
+    "tier": "applicator",
+    "country_iso2": "AU",
+    "canonical_company": "Santos",
+    "coordinates": {
+      "lat": -28,
+      "lon": 140.2
+    },
+    "downstream": [
+      {
+        "target_id": "AU_industrial",
+        "corridor_id": "AU_pipeline_cooper-basin-domestic",
+        "resource": "drilling services supporting oil & gas extraction",
+        "quantity": 11000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_halliburton_australia",
+      "AU_slb_australia"
+    ],
+    "resources": [
+      "Barite"
+    ]
+  },
+  {
+    "id": "AU_inpex_ichthys_drilling",
+    "name": "INPEX Ichthys Drilling Operations",
+    "tier": "applicator",
+    "country_iso2": "AU",
+    "canonical_company": "INPEX",
+    "coordinates": {
+      "lat": -13.78,
+      "lon": 124
+    },
+    "downstream": [
+      {
+        "target_id": "AU_industrial",
+        "corridor_id": "AU_ocean_ichthys-darwin-lng",
+        "resource": "drilling services supporting LNG extraction",
+        "quantity": 10000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_slb_australia",
+      "AU_newpark_australia"
+    ],
+    "resources": [
+      "Barite"
+    ]
+  },
+  {
+    "id": "AU_beach_energy_drilling",
+    "name": "Beach Energy Drilling Operations (Surat / Cooper Basins)",
+    "tier": "applicator",
+    "country_iso2": "AU",
+    "canonical_company": "Beach Energy",
+    "coordinates": {
+      "lat": -26.5,
+      "lon": 149.8
+    },
+    "downstream": [
+      {
+        "target_id": "AU_industrial",
+        "corridor_id": "AU_pipeline_surat-domestic",
+        "resource": "drilling services supporting gas extraction",
+        "quantity": 4000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_halliburton_australia"
+    ],
+    "resources": [
+      "Barite"
+    ]
+  },
+  {
+    "id": "AU_origin_energy_drilling",
+    "name": "Origin Energy APLNG Drilling Operations",
+    "tier": "applicator",
+    "country_iso2": "AU",
+    "canonical_company": "Origin Energy",
+    "coordinates": {
+      "lat": -26.6,
+      "lon": 149
+    },
+    "downstream": [
+      {
+        "target_id": "AU_industrial",
+        "corridor_id": "AU_pipeline_aplng-gladstone",
+        "resource": "drilling services supporting CSG extraction",
+        "quantity": 2500,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_amc_drilling_fluids"
+    ],
+    "resources": [
+      "Barite"
+    ]
+  },
+  {
+    "id": "AU_mining_exploration_drilling",
+    "name": "Mineral Exploration & Mining Drilling (Various AU Sites)",
+    "tier": "applicator",
+    "country_iso2": "AU",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": -25.27,
+      "lon": 133.78
+    },
+    "downstream": [
+      {
+        "target_id": "AU_industrial",
+        "corridor_id": "AU_road_exploration-sites",
+        "resource": "drilling services supporting mineral exploration",
+        "quantity": 2500,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_amc_drilling_fluids"
+    ],
+    "resources": [
+      "Barite"
+    ]
+  },
+  {
+    "id": "AU_eni_blacktip_drilling",
+    "name": "Eni Blacktip Gas Drilling Operations",
+    "tier": "applicator",
+    "country_iso2": "AU",
+    "canonical_company": "Eni",
+    "coordinates": {
+      "lat": -13.1,
+      "lon": 128
+    },
+    "downstream": [
+      {
+        "target_id": "AU_industrial",
+        "corridor_id": "AU_pipeline_blacktip-wadeye",
+        "resource": "drilling services supporting gas extraction",
+        "quantity": 4000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_newpark_australia"
+    ],
+    "resources": [
+      "Barite"
+    ]
+  },
+  {
+    "id": "AU_road_mudgee-sydney",
+    "tier": "transport",
+    "name": "Road — Mudgee to Sydney (NSW)",
+    "country_iso2": "AU",
+    "operator_id": "AU_various_road_hauliers",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "regional",
+    "coordinates": {
+      "lat": -33.2,
+      "lon": 149.9
+    }
+  },
+  {
+    "id": "INTL_ocean_various-fremantle",
+    "tier": "transport",
+    "name": "Ocean Freight — International origins to Fremantle",
+    "country_iso2": "INTL",
+    "operator_id": "INTL_various_shipping",
+    "mode": "ocean_freight",
+    "form": "bulk_dry",
+    "range": "international",
+    "coordinates": {
+      "lat": -32.06,
+      "lon": 115.75
+    }
+  },
+  {
+    "id": "INTL_ocean_various-gladstone",
+    "tier": "transport",
+    "name": "Ocean Freight — International origins to Gladstone",
+    "country_iso2": "INTL",
+    "operator_id": "INTL_various_shipping",
+    "mode": "ocean_freight",
+    "form": "bulk_dry",
+    "range": "international",
+    "coordinates": {
+      "lat": -23.85,
+      "lon": 151.27
+    }
+  },
+  {
+    "id": "INTL_ocean_various-darwin",
+    "tier": "transport",
+    "name": "Ocean Freight — International origins to Darwin",
+    "country_iso2": "INTL",
+    "operator_id": "INTL_various_shipping",
+    "mode": "ocean_freight",
+    "form": "bulk_dry",
+    "range": "international",
+    "coordinates": {
+      "lat": -12.46,
+      "lon": 130.84
+    }
+  },
+  {
+    "id": "AU_road_gladstone-regional",
+    "tier": "transport",
+    "name": "Road — Gladstone regional distribution",
+    "country_iso2": "AU",
+    "operator_id": "AU_various_road_hauliers",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "local",
+    "coordinates": {
+      "lat": -23.85,
+      "lon": 151.27
+    }
+  },
+  {
+    "id": "AU_road_perth-regional",
+    "tier": "transport",
+    "name": "Road — Perth regional distribution",
+    "country_iso2": "AU",
+    "operator_id": "AU_various_road_hauliers",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "local",
+    "coordinates": {
+      "lat": -31.95,
+      "lon": 115.86
+    }
+  },
+  {
+    "id": "AU_road_darwin-regional",
+    "tier": "transport",
+    "name": "Road — Darwin regional distribution",
+    "country_iso2": "AU",
+    "operator_id": "AU_various_road_hauliers",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "local",
+    "coordinates": {
+      "lat": -12.46,
+      "lon": 130.84
+    }
+  },
+  {
+    "id": "AU_road_perth-cooper-basin",
+    "tier": "transport",
+    "name": "Road — Perth / Adelaide to Cooper Basin",
+    "country_iso2": "AU",
+    "operator_id": "AU_various_road_hauliers",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "regional",
+    "coordinates": {
+      "lat": -28.5,
+      "lon": 138.5
+    }
+  },
+  {
+    "id": "AU_ocean_perth-nws",
+    "tier": "transport",
+    "name": "Ocean supply — Perth base to North West Shelf offshore rigs",
+    "country_iso2": "AU",
+    "operator_id": "AU_bhagwan_marine",
+    "mode": "ocean_freight",
+    "form": "bulk_dry",
+    "range": "regional",
+    "coordinates": {
+      "lat": -19.58,
+      "lon": 115.9
+    }
+  },
+  {
+    "id": "AU_road_gladstone-surat",
+    "tier": "transport",
+    "name": "Road — Gladstone to Surat Basin",
+    "country_iso2": "AU",
+    "operator_id": "AU_various_road_hauliers",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "regional",
+    "coordinates": {
+      "lat": -25.5,
+      "lon": 150.5
+    }
+  },
+  {
+    "id": "AU_ocean_perth-darwin-offshore",
+    "tier": "transport",
+    "name": "Ocean supply — Perth/Darwin base to Ichthys offshore",
+    "country_iso2": "AU",
+    "operator_id": "AU_mma_offshore",
+    "mode": "ocean_freight",
+    "form": "bulk_dry",
+    "range": "regional",
+    "coordinates": {
+      "lat": -13.78,
+      "lon": 124
+    }
+  },
+  {
+    "id": "AU_road_darwin-offshore-base",
+    "tier": "transport",
+    "name": "Road — Darwin supply base to port for offshore delivery",
+    "country_iso2": "AU",
+    "operator_id": "AU_various_road_hauliers",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "local",
+    "coordinates": {
+      "lat": -12.46,
+      "lon": 130.84
+    }
+  },
+  {
+    "id": "AU_road_darwin-bonaparte",
+    "tier": "transport",
+    "name": "Road/Ocean — Darwin to Bonaparte Basin supply",
+    "country_iso2": "AU",
+    "operator_id": "AU_various_road_hauliers",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "regional",
+    "coordinates": {
+      "lat": -13.1,
+      "lon": 128
+    }
+  },
+  {
+    "id": "AU_road_sydney-bowen-basin",
+    "tier": "transport",
+    "name": "Road — Sydney to Bowen/Surat Basin",
+    "country_iso2": "AU",
+    "operator_id": "AU_various_road_hauliers",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "regional",
+    "coordinates": {
+      "lat": -26,
+      "lon": 149.5
+    }
+  },
+  {
+    "id": "AU_road_sydney-regional-mines",
+    "tier": "transport",
+    "name": "Road — Sydney to mineral exploration sites",
+    "country_iso2": "AU",
+    "operator_id": "AU_various_road_hauliers",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "regional",
+    "coordinates": {
+      "lat": -30,
+      "lon": 145
+    }
+  },
+  {
+    "id": "AU_road_exploration-sites",
+    "tier": "transport",
+    "name": "Road — Last-mile delivery to exploration drill sites",
+    "country_iso2": "AU",
+    "operator_id": "AU_various_road_hauliers",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "local",
+    "coordinates": {
+      "lat": -25.27,
+      "lon": 133.78
+    }
+  },
+  {
+    "id": "AU_ocean_nws-domestic-gas",
+    "tier": "transport",
+    "name": "Pipeline/Ocean — NWS gas to domestic industrial consumers",
+    "country_iso2": "AU",
+    "operator_id": "AU_woodside_energy",
+    "mode": "pipeline",
+    "form": "gas",
+    "range": "regional",
+    "coordinates": {
+      "lat": -20.62,
+      "lon": 116.73
+    }
+  },
+  {
+    "id": "AU_pipeline_cooper-basin-domestic",
+    "tier": "transport",
+    "name": "Pipeline — Cooper Basin gas to domestic grid",
+    "country_iso2": "AU",
+    "operator_id": "AU_santos",
+    "mode": "pipeline",
+    "form": "gas",
+    "range": "regional",
+    "coordinates": {
+      "lat": -28,
+      "lon": 140.2
+    }
+  },
+  {
+    "id": "AU_ocean_ichthys-darwin-lng",
+    "tier": "transport",
+    "name": "Pipeline/Ocean — Ichthys field to Darwin LNG",
+    "country_iso2": "AU",
+    "operator_id": "AU_inpex",
+    "mode": "pipeline",
+    "form": "gas",
+    "range": "regional",
+    "coordinates": {
+      "lat": -12.5,
+      "lon": 130.85
+    }
+  },
+  {
+    "id": "AU_pipeline_surat-domestic",
+    "tier": "transport",
+    "name": "Pipeline — Surat Basin gas to domestic grid",
+    "country_iso2": "AU",
+    "operator_id": "AU_beach_energy",
+    "mode": "pipeline",
+    "form": "gas",
+    "range": "regional",
+    "coordinates": {
+      "lat": -26.5,
+      "lon": 149.8
+    }
+  },
+  {
+    "id": "AU_pipeline_aplng-gladstone",
+    "tier": "transport",
+    "name": "Pipeline — APLNG CSG fields to Gladstone LNG",
+    "country_iso2": "AU",
+    "operator_id": "AU_origin_energy",
+    "mode": "pipeline",
+    "form": "gas",
+    "range": "regional",
+    "coordinates": {
+      "lat": -25,
+      "lon": 150.5
+    }
+  },
+  {
+    "id": "AU_pipeline_blacktip-wadeye",
+    "tier": "transport",
+    "name": "Pipeline — Blacktip field to Wadeye processing plant",
+    "country_iso2": "AU",
+    "operator_id": "AU_eni",
+    "mode": "pipeline",
+    "form": "gas",
+    "range": "regional",
+    "coordinates": {
+      "lat": -13.1,
+      "lon": 128
+    }
+  }
+]

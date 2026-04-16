@@ -1,0 +1,3486 @@
+[
+  {
+    "id": "AU_vicforests_central_highlands",
+    "name": "VicForests Central Highlands Logging Operations",
+    "tier": "harvester",
+    "country_iso2": "AU",
+    "canonical_company": "VicForests",
+    "coordinates": {
+      "lat": -37.75,
+      "lon": 145.85
+    },
+    "downstream": [
+      {
+        "target_id": "AU_australian_sustainable_hardwoods",
+        "corridor_id": "AU_road_central-highlands-heyfield",
+        "resource": "hardwood sawlogs (mountain ash, alpine ash)",
+        "quantity": 150000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_opal_australian_paper_maryvale",
+        "corridor_id": "AU_road_central-highlands-maryvale",
+        "resource": "hardwood pulpwood",
+        "quantity": 300000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_ryan_and_mcnulty",
+        "corridor_id": "AU_road_central-highlands-heyfield",
+        "resource": "hardwood sawlogs",
+        "quantity": 30000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Timber"
+    ]
+  },
+  {
+    "id": "AU_vicforests_east_gippsland",
+    "name": "VicForests East Gippsland Logging Operations",
+    "tier": "harvester",
+    "country_iso2": "AU",
+    "canonical_company": "VicForests",
+    "coordinates": {
+      "lat": -37.45,
+      "lon": 148.5
+    },
+    "downstream": [
+      {
+        "target_id": "AU_australian_sustainable_hardwoods",
+        "corridor_id": "AU_road_east-gippsland-heyfield",
+        "resource": "hardwood sawlogs",
+        "quantity": 60000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_opal_australian_paper_maryvale",
+        "corridor_id": "AU_road_east-gippsland-maryvale",
+        "resource": "hardwood pulpwood",
+        "quantity": 120000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Timber"
+    ]
+  },
+  {
+    "id": "AU_forestry_corporation_nsw_north_coast",
+    "name": "Forestry Corporation NSW North Coast Native Forests",
+    "tier": "harvester",
+    "country_iso2": "AU",
+    "canonical_company": "Forestry Corporation of NSW",
+    "coordinates": {
+      "lat": -30.3,
+      "lon": 152.8
+    },
+    "downstream": [
+      {
+        "target_id": "AU_boral_timber_herons_creek",
+        "corridor_id": "AU_road_nsw-north-coast-herons-creek",
+        "resource": "hardwood sawlogs (blackbutt, tallowwood)",
+        "quantity": 80000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_hurford_hardwood_kempsey",
+        "corridor_id": "AU_road_nsw-north-coast-kempsey",
+        "resource": "hardwood sawlogs",
+        "quantity": 40000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Timber"
+    ]
+  },
+  {
+    "id": "AU_forestry_corporation_nsw_south_coast",
+    "name": "Forestry Corporation NSW South Coast Native Forests",
+    "tier": "harvester",
+    "country_iso2": "AU",
+    "canonical_company": "Forestry Corporation of NSW",
+    "coordinates": {
+      "lat": -35.8,
+      "lon": 149.9
+    },
+    "downstream": [
+      {
+        "target_id": "AU_allied_natural_wood_batemans_bay",
+        "corridor_id": "AU_road_nsw-south-coast-batemans-bay",
+        "resource": "hardwood sawlogs (spotted gum, silvertop ash)",
+        "quantity": 50000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Timber"
+    ]
+  },
+  {
+    "id": "AU_forestry_corporation_nsw_softwood_plantations",
+    "name": "Forestry Corporation NSW Softwood Plantations (Tumut/Bathurst/Oberon)",
+    "tier": "harvester",
+    "country_iso2": "AU",
+    "canonical_company": "Forestry Corporation of NSW",
+    "coordinates": {
+      "lat": -35.3,
+      "lon": 148.2
+    },
+    "downstream": [
+      {
+        "target_id": "AU_visy_pulp_paper_tumut",
+        "corridor_id": "AU_road_tumut-plantations-tumut-mill",
+        "resource": "softwood pulpwood (radiata pine)",
+        "quantity": 500000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_hyne_timber_tumbarumba",
+        "corridor_id": "AU_road_tumut-plantations-tumbarumba",
+        "resource": "softwood sawlogs (radiata pine)",
+        "quantity": 200000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_highland_pine_oberon",
+        "corridor_id": "AU_road_oberon-plantations-oberon-mill",
+        "resource": "softwood sawlogs (radiata pine)",
+        "quantity": 180000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Timber"
+    ]
+  },
+  {
+    "id": "AU_hqp_queensland_native_forests",
+    "name": "HQPlantations / Queensland DAF Native & Plantation Forests",
+    "tier": "harvester",
+    "country_iso2": "AU",
+    "canonical_company": "HQPlantations",
+    "coordinates": {
+      "lat": -26,
+      "lon": 152.5
+    },
+    "downstream": [
+      {
+        "target_id": "AU_parkside_group_caboolture",
+        "corridor_id": "AU_road_qld-southeast-caboolture",
+        "resource": "softwood sawlogs (hoop pine, slash pine)",
+        "quantity": 120000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_hyne_timber_maryborough",
+        "corridor_id": "AU_road_qld-wide-bay-maryborough",
+        "resource": "softwood sawlogs (slash pine, caribbean pine)",
+        "quantity": 150000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_d_and_r_henderson_pty",
+        "corridor_id": "AU_road_qld-southeast-brisbane",
+        "resource": "hardwood sawlogs (spotted gum)",
+        "quantity": 30000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Timber"
+    ]
+  },
+  {
+    "id": "AU_forestry_tasmania_native_forests",
+    "name": "Sustainable Timber Tasmania Native Forest Operations",
+    "tier": "harvester",
+    "country_iso2": "AU",
+    "canonical_company": "Sustainable Timber Tasmania",
+    "coordinates": {
+      "lat": -42.1,
+      "lon": 146.3
+    },
+    "downstream": [
+      {
+        "target_id": "AU_ta_ann_tasmania_huon",
+        "corridor_id": "AU_road_southern-tas-huon",
+        "resource": "hardwood peeler logs (Eucalyptus obliqua/regnans)",
+        "quantity": 100000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_neville_smith_forest_products",
+        "corridor_id": "AU_road_northern-tas-launceston",
+        "resource": "hardwood sawlogs",
+        "quantity": 60000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_mckay_timber_launceston",
+        "corridor_id": "AU_road_northern-tas-launceston",
+        "resource": "hardwood sawlogs (Tasmanian oak)",
+        "quantity": 30000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Timber"
+    ]
+  },
+  {
+    "id": "AU_sustainable_timber_tas_plantations",
+    "name": "Sustainable Timber Tasmania Plantation Operations",
+    "tier": "harvester",
+    "country_iso2": "AU",
+    "canonical_company": "Sustainable Timber Tasmania",
+    "coordinates": {
+      "lat": -41.7,
+      "lon": 145.6
+    },
+    "downstream": [
+      {
+        "target_id": "AU_midway_limited_bell_bay",
+        "corridor_id": "AU_road_western-tas-bell-bay",
+        "resource": "hardwood woodchip logs (Eucalyptus nitens)",
+        "quantity": 150000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_norske_skog_boyer",
+        "corridor_id": "AU_road_western-tas-boyer",
+        "resource": "hardwood plantation pulpwood",
+        "quantity": 100000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Timber"
+    ]
+  },
+  {
+    "id": "AU_fpq_green_triangle_softwood",
+    "name": "Green Triangle Softwood Plantations (ForestrySA / OneFortyOne / PF Olsen)",
+    "tier": "harvester",
+    "country_iso2": "AU",
+    "canonical_company": "OneFortyOne Plantations",
+    "coordinates": {
+      "lat": -37.85,
+      "lon": 140.8
+    },
+    "downstream": [
+      {
+        "target_id": "AU_onefortyone_mount_gambier",
+        "corridor_id": "AU_road_green-triangle-mount-gambier",
+        "resource": "softwood sawlogs (radiata pine)",
+        "quantity": 600000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_timberlink_tarpeena",
+        "corridor_id": "AU_road_green-triangle-tarpeena",
+        "resource": "softwood sawlogs (radiata pine)",
+        "quantity": 350000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_kimberly_clark_millicent",
+        "corridor_id": "AU_road_green-triangle-millicent",
+        "resource": "softwood pulpwood (radiata pine)",
+        "quantity": 200000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Timber"
+    ]
+  },
+  {
+    "id": "AU_green_triangle_hardwood_plantations",
+    "name": "Green Triangle Hardwood (Blue Gum) Plantations",
+    "tier": "harvester",
+    "country_iso2": "AU",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": -37.9,
+      "lon": 141.2
+    },
+    "downstream": [
+      {
+        "target_id": "AU_midway_limited_portland",
+        "corridor_id": "AU_road_green-triangle-portland",
+        "resource": "hardwood plantation woodchip logs (Eucalyptus globulus)",
+        "quantity": 500000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Timber"
+    ]
+  },
+  {
+    "id": "AU_fpwa_southwest_native",
+    "name": "Forest Products Commission WA Southwest Native Forest Operations",
+    "tier": "harvester",
+    "country_iso2": "AU",
+    "canonical_company": "Forest Products Commission WA",
+    "coordinates": {
+      "lat": -34,
+      "lon": 116
+    },
+    "downstream": [
+      {
+        "target_id": "AU_wespine_dardanup",
+        "corridor_id": "AU_road_wa-southwest-dardanup",
+        "resource": "jarrah/karri sawlogs",
+        "quantity": 50000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_auswest_timbers_pemberton",
+        "corridor_id": "AU_road_wa-southwest-pemberton",
+        "resource": "karri/marri sawlogs",
+        "quantity": 40000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Timber"
+    ]
+  },
+  {
+    "id": "AU_fpwa_softwood_plantations",
+    "name": "Forest Products Commission WA Softwood Plantations",
+    "tier": "harvester",
+    "country_iso2": "AU",
+    "canonical_company": "Forest Products Commission WA",
+    "coordinates": {
+      "lat": -33.6,
+      "lon": 115.95
+    },
+    "downstream": [
+      {
+        "target_id": "AU_wespine_dardanup",
+        "corridor_id": "AU_road_wa-plantations-dardanup",
+        "resource": "softwood sawlogs (radiata pine)",
+        "quantity": 300000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Timber"
+    ]
+  },
+  {
+    "id": "AU_fpwa_hardwood_plantations",
+    "name": "Forest Products Commission WA Blue Gum Plantations",
+    "tier": "harvester",
+    "country_iso2": "AU",
+    "canonical_company": "Forest Products Commission WA",
+    "coordinates": {
+      "lat": -34.3,
+      "lon": 117
+    },
+    "downstream": [
+      {
+        "target_id": "AU_albany_woodchip_terminal",
+        "corridor_id": "AU_road_wa-great-southern-albany",
+        "resource": "hardwood woodchip logs (Eucalyptus globulus)",
+        "quantity": 400000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Timber"
+    ]
+  },
+  {
+    "id": "AU_gippsland_softwood_plantations",
+    "name": "Gippsland Softwood Plantations (HVP / Hancock Victorian Plantations)",
+    "tier": "harvester",
+    "country_iso2": "AU",
+    "canonical_company": "Hancock Victorian Plantations",
+    "coordinates": {
+      "lat": -38.1,
+      "lon": 146.4
+    },
+    "downstream": [
+      {
+        "target_id": "AU_carter_holt_harvey_morwell",
+        "corridor_id": "AU_road_gippsland-morwell",
+        "resource": "softwood sawlogs (radiata pine)",
+        "quantity": 250000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_opal_australian_paper_maryvale",
+        "corridor_id": "AU_road_gippsland-maryvale",
+        "resource": "softwood pulpwood",
+        "quantity": 200000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Timber"
+    ]
+  },
+  {
+    "id": "AU_hvp_central_vic_plantations",
+    "name": "HVP Central Victoria Softwood Plantations",
+    "tier": "harvester",
+    "country_iso2": "AU",
+    "canonical_company": "Hancock Victorian Plantations",
+    "coordinates": {
+      "lat": -37.2,
+      "lon": 145.5
+    },
+    "downstream": [
+      {
+        "target_id": "AU_carter_holt_harvey_myrtleford",
+        "corridor_id": "AU_road_central-vic-myrtleford",
+        "resource": "softwood sawlogs (radiata pine)",
+        "quantity": 150000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Timber"
+    ]
+  },
+  {
+    "id": "AU_timberlands_pacific_gympie",
+    "name": "Gympie/Maryborough Softwood Plantations (Timberlands Pacific)",
+    "tier": "harvester",
+    "country_iso2": "AU",
+    "canonical_company": "Timberlands Pacific",
+    "coordinates": {
+      "lat": -26.2,
+      "lon": 152.6
+    },
+    "downstream": [
+      {
+        "target_id": "AU_hyne_timber_maryborough",
+        "corridor_id": "AU_road_qld-wide-bay-maryborough",
+        "resource": "softwood sawlogs (slash pine)",
+        "quantity": 100000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Timber"
+    ]
+  },
+  {
+    "id": "AU_midway_limited_portland",
+    "name": "Midway Limited — Portland Woodchip Export Terminal",
+    "tier": "primary_mill",
+    "country_iso2": "AU",
+    "canonical_company": "Midway Limited",
+    "coordinates": {
+      "lat": -38.34,
+      "lon": 141.6
+    },
+    "downstream": [
+      {
+        "target_id": "JP_nippon_paper_industries",
+        "corridor_id": "INTL_ocean_portland-japan",
+        "resource": "hardwood woodchips",
+        "quantity": 350000,
+        "metric": "t"
+      },
+      {
+        "target_id": "CN_shandong_sun_paper",
+        "corridor_id": "INTL_ocean_portland-china",
+        "resource": "hardwood woodchips",
+        "quantity": 150000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_green_triangle_hardwood_plantations"
+    ],
+    "resources": [
+      "Timber"
+    ]
+  },
+  {
+    "id": "AU_midway_limited_bell_bay",
+    "name": "Midway Limited — Bell Bay Woodchip Export Terminal",
+    "tier": "primary_mill",
+    "country_iso2": "AU",
+    "canonical_company": "Midway Limited",
+    "coordinates": {
+      "lat": -41.12,
+      "lon": 146.87
+    },
+    "downstream": [
+      {
+        "target_id": "JP_oji_holdings",
+        "corridor_id": "INTL_ocean_bell-bay-japan",
+        "resource": "hardwood woodchips",
+        "quantity": 300000,
+        "metric": "t"
+      },
+      {
+        "target_id": "CN_april_group_rizhao",
+        "corridor_id": "INTL_ocean_bell-bay-china",
+        "resource": "hardwood woodchips",
+        "quantity": 200000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_forico_tasmania_plantations",
+      "AU_sustainable_timber_tas_plantations"
+    ],
+    "resources": [
+      "Timber"
+    ]
+  },
+  {
+    "id": "AU_albany_woodchip_terminal",
+    "name": "Albany Woodchip Export Terminal (WAPRES / Plantation Energy)",
+    "tier": "primary_mill",
+    "country_iso2": "AU",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": -35.03,
+      "lon": 117.88
+    },
+    "downstream": [
+      {
+        "target_id": "JP_nippon_paper_industries",
+        "corridor_id": "INTL_ocean_albany-japan",
+        "resource": "hardwood woodchips",
+        "quantity": 250000,
+        "metric": "t"
+      },
+      {
+        "target_id": "CN_shandong_sun_paper",
+        "corridor_id": "INTL_ocean_albany-china",
+        "resource": "hardwood woodchips",
+        "quantity": 150000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_fpwa_hardwood_plantations"
+    ],
+    "resources": [
+      "Timber"
+    ]
+  },
+  {
+    "id": "AU_australian_sustainable_hardwoods",
+    "name": "Australian Sustainable Hardwoods (ASH) Sawmill — Heyfield",
+    "tier": "primary_mill",
+    "country_iso2": "AU",
+    "canonical_company": "Australian Sustainable Hardwoods",
+    "coordinates": {
+      "lat": -37.98,
+      "lon": 146.79
+    },
+    "downstream": [
+      {
+        "target_id": "AU_big_river_group",
+        "corridor_id": "AU_road_heyfield-grafton",
+        "resource": "kiln-dried hardwood sawn timber",
+        "quantity": 30000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_bunnings_group",
+        "corridor_id": "AU_road_heyfield-metro-melbourne",
+        "resource": "structural hardwood timber",
+        "quantity": 30000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_dahlsens",
+        "corridor_id": "AU_road_heyfield-gippsland-dist",
+        "resource": "hardwood appearance-grade timber",
+        "quantity": 10000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_vicforests_central_highlands",
+      "AU_vicforests_east_gippsland"
+    ],
+    "resources": [
+      "Timber"
+    ]
+  },
+  {
+    "id": "AU_ryan_and_mcnulty",
+    "name": "Ryan & McNulty Sawmill — Heyfield",
+    "tier": "primary_mill",
+    "country_iso2": "AU",
+    "canonical_company": "Ryan & McNulty",
+    "coordinates": {
+      "lat": -37.98,
+      "lon": 146.78
+    },
+    "downstream": [
+      {
+        "target_id": "AU_bunnings_group",
+        "corridor_id": "AU_road_heyfield-metro-melbourne",
+        "resource": "hardwood sawn timber",
+        "quantity": 15000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_vicforests_central_highlands"
+    ],
+    "resources": [
+      "Timber"
+    ]
+  },
+  {
+    "id": "AU_opal_australian_paper_maryvale",
+    "name": "Opal Australian Paper — Maryvale Mill",
+    "tier": "primary_mill",
+    "country_iso2": "AU",
+    "canonical_company": "Opal (Nippon Paper Group)",
+    "coordinates": {
+      "lat": -38.23,
+      "lon": 146.42
+    },
+    "downstream": [
+      {
+        "target_id": "AU_opal_packaging_melbourne",
+        "corridor_id": "AU_road_maryvale-melbourne",
+        "resource": "uncoated copy paper and kraft linerboard",
+        "quantity": 350000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_paper_merchants_national",
+        "corridor_id": "AU_road_maryvale-national-dist",
+        "resource": "office/printing paper",
+        "quantity": 150000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_vicforests_central_highlands",
+      "AU_vicforests_east_gippsland",
+      "AU_gippsland_softwood_plantations"
+    ],
+    "resources": [
+      "Timber"
+    ]
+  },
+  {
+    "id": "AU_visy_pulp_paper_tumut",
+    "name": "Visy Pulp & Paper — Tumut Mill",
+    "tier": "primary_mill",
+    "country_iso2": "AU",
+    "canonical_company": "Visy Industries",
+    "coordinates": {
+      "lat": -35.31,
+      "lon": 148.23
+    },
+    "downstream": [
+      {
+        "target_id": "AU_visy_packaging_national",
+        "corridor_id": "AU_road_tumut-national-dist",
+        "resource": "kraft linerboard and corrugating medium",
+        "quantity": 450000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_forestry_corporation_nsw_softwood_plantations"
+    ],
+    "resources": [
+      "Timber"
+    ]
+  },
+  {
+    "id": "AU_norske_skog_boyer",
+    "name": "Norske Skog — Boyer Mill",
+    "tier": "primary_mill",
+    "country_iso2": "AU",
+    "canonical_company": "Norske Skog",
+    "coordinates": {
+      "lat": -42.77,
+      "lon": 147.1
+    },
+    "downstream": [
+      {
+        "target_id": "AU_news_corp_australia",
+        "corridor_id": "AU_road_boyer-hobart-then-national",
+        "resource": "newsprint",
+        "quantity": 180000,
+        "metric": "t"
+      },
+      {
+        "target_id": "INTL_newsprint_export_customers",
+        "corridor_id": "INTL_ocean_hobart-asia",
+        "resource": "newsprint",
+        "quantity": 50000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_forico_tasmania_plantations",
+      "AU_sustainable_timber_tas_plantations"
+    ],
+    "resources": [
+      "Timber"
+    ]
+  },
+  {
+    "id": "AU_boral_timber_herons_creek",
+    "name": "Boral Timber — Herons Creek Sawmill",
+    "tier": "primary_mill",
+    "country_iso2": "AU",
+    "canonical_company": "Boral Limited",
+    "coordinates": {
+      "lat": -31.57,
+      "lon": 152.72
+    },
+    "downstream": [
+      {
+        "target_id": "AU_bunnings_group",
+        "corridor_id": "AU_road_nsw-north-coast-national",
+        "resource": "structural and appearance hardwood timber",
+        "quantity": 35000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_boral_timber_distribution",
+        "corridor_id": "AU_road_herons-creek-sydney",
+        "resource": "hardwood decking and flooring",
+        "quantity": 25000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_forestry_corporation_nsw_north_coast"
+    ],
+    "resources": [
+      "Timber"
+    ]
+  },
+  {
+    "id": "AU_hurford_hardwood_kempsey",
+    "name": "Hurford Hardwood — Kempsey Sawmill",
+    "tier": "primary_mill",
+    "country_iso2": "AU",
+    "canonical_company": "Hurford Hardwood",
+    "coordinates": {
+      "lat": -31.08,
+      "lon": 152.83
+    },
+    "downstream": [
+      {
+        "target_id": "AU_bunnings_group",
+        "corridor_id": "AU_road_kempsey-national",
+        "resource": "hardwood sawn timber and flooring",
+        "quantity": 20000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_independent_timber_merchants",
+        "corridor_id": "AU_road_kempsey-brisbane-sydney",
+        "resource": "hardwood decking and cladding",
+        "quantity": 10000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_forestry_corporation_nsw_north_coast"
+    ],
+    "resources": [
+      "Timber"
+    ]
+  },
+  {
+    "id": "AU_allied_natural_wood_batemans_bay",
+    "name": "Allied Natural Wood Exports — Batemans Bay",
+    "tier": "primary_mill",
+    "country_iso2": "AU",
+    "canonical_company": "Allied Natural Wood Exports",
+    "coordinates": {
+      "lat": -35.71,
+      "lon": 150.17
+    },
+    "downstream": [
+      {
+        "target_id": "AU_bunnings_group",
+        "corridor_id": "AU_road_batemans-bay-sydney",
+        "resource": "hardwood sawn timber",
+        "quantity": 20000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_independent_timber_merchants",
+        "corridor_id": "AU_road_batemans-bay-canberra",
+        "resource": "structural hardwood",
+        "quantity": 15000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_forestry_corporation_nsw_south_coast"
+    ],
+    "resources": [
+      "Timber"
+    ]
+  },
+  {
+    "id": "AU_onefortyone_mount_gambier",
+    "name": "OneFortyOne — Mount Gambier Sawmill Complex",
+    "tier": "primary_mill",
+    "country_iso2": "AU",
+    "canonical_company": "OneFortyOne",
+    "coordinates": {
+      "lat": -37.83,
+      "lon": 140.78
+    },
+    "downstream": [
+      {
+        "target_id": "AU_bunnings_group",
+        "corridor_id": "AU_road_mount-gambier-national",
+        "resource": "structural softwood sawn timber (MGP grade)",
+        "quantity": 200000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_mitre_10",
+        "corridor_id": "AU_road_mount-gambier-national",
+        "resource": "structural and treated pine timber",
+        "quantity": 80000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_xlam_australia",
+        "corridor_id": "AU_road_mount-gambier-wodonga",
+        "resource": "softwood structural boards (for CLT)",
+        "quantity": 30000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_fpq_green_triangle_softwood"
+    ],
+    "resources": [
+      "Timber"
+    ]
+  },
+  {
+    "id": "AU_timberlink_tarpeena",
+    "name": "Timberlink — Tarpeena Sawmill",
+    "tier": "primary_mill",
+    "country_iso2": "AU",
+    "canonical_company": "Timberlink Australia",
+    "coordinates": {
+      "lat": -37.67,
+      "lon": 140.68
+    },
+    "downstream": [
+      {
+        "target_id": "AU_bunnings_group",
+        "corridor_id": "AU_road_tarpeena-national",
+        "resource": "structural and treated pine sawn timber",
+        "quantity": 150000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_mitre_10",
+        "corridor_id": "AU_road_tarpeena-national",
+        "resource": "structural pine timber",
+        "quantity": 60000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_fpq_green_triangle_softwood"
+    ],
+    "resources": [
+      "Timber"
+    ]
+  },
+  {
+    "id": "AU_kimberly_clark_millicent",
+    "name": "Kimberly-Clark / Essity — Millicent Mill",
+    "tier": "primary_mill",
+    "country_iso2": "AU",
+    "canonical_company": "Essity",
+    "coordinates": {
+      "lat": -37.59,
+      "lon": 140.35
+    },
+    "downstream": [
+      {
+        "target_id": "AU_essity_tissue_distribution",
+        "corridor_id": "AU_road_millicent-national-dist",
+        "resource": "tissue paper and personal care products",
+        "quantity": 80000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_fpq_green_triangle_softwood"
+    ],
+    "resources": [
+      "Timber"
+    ]
+  },
+  {
+    "id": "AU_hyne_timber_tumbarumba",
+    "name": "Hyne Timber — Tumbarumba Sawmill",
+    "tier": "primary_mill",
+    "country_iso2": "AU",
+    "canonical_company": "Hyne Timber",
+    "coordinates": {
+      "lat": -35.78,
+      "lon": 148.01
+    },
+    "downstream": [
+      {
+        "target_id": "AU_bunnings_group",
+        "corridor_id": "AU_road_tumbarumba-national",
+        "resource": "structural softwood sawn timber",
+        "quantity": 80000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_hyne_glulam_products",
+        "corridor_id": "AU_road_tumbarumba-maryborough-qld",
+        "resource": "softwood lamstock",
+        "quantity": 30000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_forestry_corporation_nsw_softwood_plantations"
+    ],
+    "resources": [
+      "Timber"
+    ]
+  },
+  {
+    "id": "AU_highland_pine_oberon",
+    "name": "Highland Pine Products — Oberon Sawmill",
+    "tier": "primary_mill",
+    "country_iso2": "AU",
+    "canonical_company": "Highland Pine Products",
+    "coordinates": {
+      "lat": -33.71,
+      "lon": 149.86
+    },
+    "downstream": [
+      {
+        "target_id": "AU_bunnings_group",
+        "corridor_id": "AU_road_oberon-sydney",
+        "resource": "structural softwood sawn timber",
+        "quantity": 80000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_independent_timber_merchants",
+        "corridor_id": "AU_road_oberon-nsw-dist",
+        "resource": "treated pine outdoor timber",
+        "quantity": 40000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_forestry_corporation_nsw_softwood_plantations"
+    ],
+    "resources": [
+      "Timber"
+    ]
+  },
+  {
+    "id": "AU_hyne_timber_maryborough",
+    "name": "Hyne Timber — Maryborough Sawmill",
+    "tier": "primary_mill",
+    "country_iso2": "AU",
+    "canonical_company": "Hyne Timber",
+    "coordinates": {
+      "lat": -25.53,
+      "lon": 152.7
+    },
+    "downstream": [
+      {
+        "target_id": "AU_bunnings_group",
+        "corridor_id": "AU_road_maryborough-qld-national",
+        "resource": "structural softwood sawn timber",
+        "quantity": 100000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_hyne_glulam_products",
+        "corridor_id": "AU_road_maryborough-glulam",
+        "resource": "softwood lamstock for glulam",
+        "quantity": 30000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_hqp_queensland_native_forests",
+      "AU_timberlands_pacific_gympie"
+    ],
+    "resources": [
+      "Timber"
+    ]
+  },
+  {
+    "id": "AU_parkside_group_caboolture",
+    "name": "Parkside Group — Caboolture Sawmill",
+    "tier": "primary_mill",
+    "country_iso2": "AU",
+    "canonical_company": "Parkside Group",
+    "coordinates": {
+      "lat": -27.08,
+      "lon": 152.95
+    },
+    "downstream": [
+      {
+        "target_id": "AU_bunnings_group",
+        "corridor_id": "AU_road_caboolture-brisbane",
+        "resource": "softwood sawn timber",
+        "quantity": 50000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_mitre_10",
+        "corridor_id": "AU_road_caboolture-qld-dist",
+        "resource": "softwood structural timber",
+        "quantity": 25000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_hqp_queensland_native_forests"
+    ],
+    "resources": [
+      "Timber"
+    ]
+  },
+  {
+    "id": "AU_d_and_r_henderson_pty",
+    "name": "D&R Henderson — Darra Sawmill",
+    "tier": "primary_mill",
+    "country_iso2": "AU",
+    "canonical_company": "D&R Henderson",
+    "coordinates": {
+      "lat": -27.56,
+      "lon": 152.97
+    },
+    "downstream": [
+      {
+        "target_id": "AU_bunnings_group",
+        "corridor_id": "AU_road_darra-brisbane-dist",
+        "resource": "hardwood sawn timber and decking",
+        "quantity": 15000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_hqp_queensland_native_forests"
+    ],
+    "resources": [
+      "Timber"
+    ]
+  },
+  {
+    "id": "AU_ta_ann_tasmania_huon",
+    "name": "Ta Ann Tasmania — Huonville & Smithton Veneer Mills",
+    "tier": "primary_mill",
+    "country_iso2": "AU",
+    "canonical_company": "Ta Ann Tasmania",
+    "coordinates": {
+      "lat": -43.03,
+      "lon": 147.05
+    },
+    "downstream": [
+      {
+        "target_id": "AU_big_river_group",
+        "corridor_id": "INTL_ocean_hobart-grafton",
+        "resource": "rotary-peeled hardwood veneer",
+        "quantity": 40000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_carter_holt_harvey_panel_products",
+        "corridor_id": "AU_road_huonville-hobart-then-national",
+        "resource": "structural veneer",
+        "quantity": 30000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_forestry_tasmania_native_forests"
+    ],
+    "resources": [
+      "Timber"
+    ]
+  },
+  {
+    "id": "AU_neville_smith_forest_products",
+    "name": "Neville Smith Forest Products — Launceston Sawmill",
+    "tier": "primary_mill",
+    "country_iso2": "AU",
+    "canonical_company": "Neville Smith Forest Products",
+    "coordinates": {
+      "lat": -41.43,
+      "lon": 147.14
+    },
+    "downstream": [
+      {
+        "target_id": "AU_bunnings_group",
+        "corridor_id": "AU_road_launceston-national-dist",
+        "resource": "Tasmanian oak sawn timber",
+        "quantity": 25000,
+        "metric": "t"
+      },
+      {
+        "target_id": "INTL_hardwood_export_customers_asia",
+        "corridor_id": "INTL_ocean_bell-bay-asia",
+        "resource": "premium hardwood sawn timber",
+        "quantity": 15000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_forestry_tasmania_native_forests"
+    ],
+    "resources": [
+      "Timber"
+    ]
+  },
+  {
+    "id": "AU_mckay_timber_launceston",
+    "name": "McKay Timber — Launceston Sawmill",
+    "tier": "primary_mill",
+    "country_iso2": "AU",
+    "canonical_company": "McKay Timber",
+    "coordinates": {
+      "lat": -41.45,
+      "lon": 147.12
+    },
+    "downstream": [
+      {
+        "target_id": "AU_bunnings_group",
+        "corridor_id": "AU_road_launceston-national-dist",
+        "resource": "Tasmanian oak sawn timber",
+        "quantity": 15000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_forestry_tasmania_native_forests"
+    ],
+    "resources": [
+      "Timber"
+    ]
+  },
+  {
+    "id": "AU_wespine_dardanup",
+    "name": "Wespine Industries — Dardanup Sawmill",
+    "tier": "primary_mill",
+    "country_iso2": "AU",
+    "canonical_company": "Wespine Industries",
+    "coordinates": {
+      "lat": -33.4,
+      "lon": 115.75
+    },
+    "downstream": [
+      {
+        "target_id": "AU_bunnings_group",
+        "corridor_id": "AU_road_dardanup-perth",
+        "resource": "structural softwood sawn timber",
+        "quantity": 150000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_mitre_10",
+        "corridor_id": "AU_road_dardanup-wa-dist",
+        "resource": "treated and structural pine timber",
+        "quantity": 50000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_fpwa_southwest_native",
+      "AU_fpwa_softwood_plantations"
+    ],
+    "resources": [
+      "Timber"
+    ]
+  },
+  {
+    "id": "AU_auswest_timbers_pemberton",
+    "name": "Auswest Timbers — Pemberton Sawmill",
+    "tier": "primary_mill",
+    "country_iso2": "AU",
+    "canonical_company": "Auswest Timbers",
+    "coordinates": {
+      "lat": -34.44,
+      "lon": 116.04
+    },
+    "downstream": [
+      {
+        "target_id": "AU_bunnings_group",
+        "corridor_id": "AU_road_pemberton-perth",
+        "resource": "jarrah/karri sawn timber",
+        "quantity": 20000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_fpwa_southwest_native"
+    ],
+    "resources": [
+      "Timber"
+    ]
+  },
+  {
+    "id": "AU_carter_holt_harvey_morwell",
+    "name": "Carter Holt Harvey — Morwell Sawmill",
+    "tier": "primary_mill",
+    "country_iso2": "AU",
+    "canonical_company": "Carter Holt Harvey",
+    "coordinates": {
+      "lat": -38.23,
+      "lon": 146.4
+    },
+    "downstream": [
+      {
+        "target_id": "AU_bunnings_group",
+        "corridor_id": "AU_road_morwell-melbourne",
+        "resource": "structural softwood sawn timber",
+        "quantity": 100000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_carter_holt_harvey_panel_products",
+        "corridor_id": "AU_road_morwell-national",
+        "resource": "softwood woodchips and sawmill residues",
+        "quantity": 60000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_gippsland_softwood_plantations"
+    ],
+    "resources": [
+      "Timber"
+    ]
+  },
+  {
+    "id": "AU_carter_holt_harvey_myrtleford",
+    "name": "Carter Holt Harvey — Myrtleford Sawmill",
+    "tier": "primary_mill",
+    "country_iso2": "AU",
+    "canonical_company": "Carter Holt Harvey",
+    "coordinates": {
+      "lat": -36.76,
+      "lon": 146.72
+    },
+    "downstream": [
+      {
+        "target_id": "AU_bunnings_group",
+        "corridor_id": "AU_road_myrtleford-melbourne",
+        "resource": "structural softwood sawn timber",
+        "quantity": 60000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_hvp_central_vic_plantations"
+    ],
+    "resources": [
+      "Timber"
+    ]
+  },
+  {
+    "id": "AU_hyne_glulam_products",
+    "name": "Hyne Timber — Glulam/Engineered Wood Facility Maryborough",
+    "tier": "secondary_maker",
+    "country_iso2": "AU",
+    "canonical_company": "Hyne Timber",
+    "coordinates": {
+      "lat": -25.54,
+      "lon": 152.71
+    },
+    "downstream": [
+      {
+        "target_id": "AU_bunnings_group",
+        "corridor_id": "AU_road_maryborough-qld-national",
+        "resource": "glue-laminated timber beams",
+        "quantity": 30000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_national_commercial_builders",
+        "corridor_id": "AU_road_maryborough-national-projects",
+        "resource": "glulam structural members",
+        "quantity": 20000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_hyne_timber_tumbarumba",
+      "AU_hyne_timber_maryborough"
+    ],
+    "resources": [
+      "Timber"
+    ]
+  },
+  {
+    "id": "AU_xlam_australia",
+    "name": "XLam Australia — Wodonga CLT Plant",
+    "tier": "secondary_maker",
+    "country_iso2": "AU",
+    "canonical_company": "XLam Australia",
+    "coordinates": {
+      "lat": -36.12,
+      "lon": 146.89
+    },
+    "downstream": [
+      {
+        "target_id": "AU_national_commercial_builders",
+        "corridor_id": "AU_road_wodonga-national-projects",
+        "resource": "cross-laminated timber (CLT) panels",
+        "quantity": 25000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_onefortyone_mount_gambier"
+    ],
+    "resources": [
+      "Timber"
+    ]
+  },
+  {
+    "id": "AU_big_river_group",
+    "name": "Big River Group — Grafton Plywood & Panel Plant",
+    "tier": "secondary_maker",
+    "country_iso2": "AU",
+    "canonical_company": "Big River Group",
+    "coordinates": {
+      "lat": -29.69,
+      "lon": 152.93
+    },
+    "downstream": [
+      {
+        "target_id": "AU_bunnings_group",
+        "corridor_id": "AU_road_grafton-national",
+        "resource": "structural plywood and formwork",
+        "quantity": 35000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_independent_timber_merchants",
+        "corridor_id": "AU_road_grafton-eastern-seaboard",
+        "resource": "structural plywood",
+        "quantity": 15000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_australian_sustainable_hardwoods",
+      "AU_ta_ann_tasmania_huon"
+    ],
+    "resources": [
+      "Timber"
+    ]
+  },
+  {
+    "id": "AU_carter_holt_harvey_panel_products",
+    "name": "Carter Holt Harvey — Engineered Wood / Panel Products (various)",
+    "tier": "secondary_maker",
+    "country_iso2": "AU",
+    "canonical_company": "Carter Holt Harvey",
+    "coordinates": {
+      "lat": -37.82,
+      "lon": 144.96
+    },
+    "downstream": [
+      {
+        "target_id": "AU_bunnings_group",
+        "corridor_id": "AU_road_chh-panel-national",
+        "resource": "particleboard, MDF, LVL",
+        "quantity": 50000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_national_commercial_builders",
+        "corridor_id": "AU_road_chh-panel-projects",
+        "resource": "LVL structural beams",
+        "quantity": 20000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_ta_ann_tasmania_huon",
+      "AU_carter_holt_harvey_morwell"
+    ],
+    "resources": [
+      "Timber"
+    ]
+  },
+  {
+    "id": "AU_opal_packaging_melbourne",
+    "name": "Opal Packaging — National Packaging & Paper Distribution",
+    "tier": "secondary_maker",
+    "country_iso2": "AU",
+    "canonical_company": "Opal (Nippon Paper Group)",
+    "coordinates": {
+      "lat": -37.82,
+      "lon": 144.96
+    },
+    "downstream": [
+      {
+        "target_id": "AU_woolworths_group",
+        "corridor_id": "AU_road_opal-pkg-national",
+        "resource": "corrugated and fibre packaging",
+        "quantity": 80000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_coles_group",
+        "corridor_id": "AU_road_opal-pkg-national",
+        "resource": "corrugated and fibre packaging",
+        "quantity": 60000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_industrial",
+        "corridor_id": "AU_road_opal-pkg-national-industrial",
+        "resource": "industrial packaging and linerboard",
+        "quantity": 80000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_opal_australian_paper_maryvale"
+    ],
+    "resources": [
+      "Timber"
+    ]
+  },
+  {
+    "id": "AU_essity_tissue_distribution",
+    "name": "Essity / Sorbent — Tissue Products National Distribution",
+    "tier": "secondary_maker",
+    "country_iso2": "AU",
+    "canonical_company": "Essity",
+    "coordinates": {
+      "lat": -37.82,
+      "lon": 144.96
+    },
+    "downstream": [
+      {
+        "target_id": "AU_woolworths_group",
+        "corridor_id": "AU_road_essity-national",
+        "resource": "tissue paper products (Sorbent, Handee Ultra)",
+        "quantity": 30000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_coles_group",
+        "corridor_id": "AU_road_essity-national",
+        "resource": "tissue paper products",
+        "quantity": 25000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_commercial",
+        "corridor_id": "AU_road_essity-national-commercial",
+        "resource": "away-from-home tissue and hygiene products",
+        "quantity": 25000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_kimberly_clark_millicent"
+    ],
+    "resources": [
+      "Timber"
+    ]
+  },
+  {
+    "id": "AU_paper_merchants_national",
+    "name": "National Paper Merchants (OfficeMax, Complete Office Supplies, etc.)",
+    "tier": "secondary_maker",
+    "country_iso2": "AU",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": -33.87,
+      "lon": 151.21
+    },
+    "downstream": [
+      {
+        "target_id": "AU_commercial",
+        "corridor_id": "AU_road_paper-national-commercial",
+        "resource": "office and printing paper",
+        "quantity": 80000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_government",
+        "corridor_id": "AU_road_paper-national-government",
+        "resource": "government office paper supplies",
+        "quantity": 30000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_institutional",
+        "corridor_id": "AU_road_paper-national-institutional",
+        "resource": "educational and institutional paper",
+        "quantity": 20000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_opal_australian_paper_maryvale"
+    ],
+    "resources": [
+      "Timber"
+    ]
+  },
+  {
+    "id": "AU_news_corp_australia",
+    "name": "News Corp Australia — National Newspaper Printing",
+    "tier": "secondary_maker",
+    "country_iso2": "AU",
+    "canonical_company": "News Corp Australia",
+    "coordinates": {
+      "lat": -33.87,
+      "lon": 151.21
+    },
+    "downstream": [
+      {
+        "target_id": "AU_residential",
+        "corridor_id": "AU_road_news-national-dist",
+        "resource": "newspapers and print media",
+        "quantity": 100000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_commercial",
+        "corridor_id": "AU_road_news-national-dist",
+        "resource": "commercial advertising inserts and publications",
+        "quantity": 50000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_norske_skog_boyer"
+    ],
+    "resources": [
+      "Timber"
+    ]
+  },
+  {
+    "id": "INTL_newsprint_export_customers",
+    "name": "International Newsprint Export Customers (NZ, Pacific)",
+    "tier": "secondary_maker",
+    "country_iso2": "INTL",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": -36.85,
+      "lon": 174.76
+    },
+    "downstream": [
+      {
+        "target_id": "INTL_commercial",
+        "corridor_id": "INTL_ocean_nz-pacific-dist",
+        "resource": "newsprint for printing",
+        "quantity": 50000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_norske_skog_boyer"
+    ],
+    "resources": [
+      "Timber"
+    ]
+  },
+  {
+    "id": "JP_nippon_paper_industries",
+    "name": "Nippon Paper Industries — Japanese Mills",
+    "tier": "secondary_maker",
+    "country_iso2": "JP",
+    "canonical_company": "Nippon Paper Industries",
+    "coordinates": {
+      "lat": 35.68,
+      "lon": 139.69
+    },
+    "downstream": [
+      {
+        "target_id": "JP_industrial",
+        "corridor_id": "JP_road_nippon-paper-domestic",
+        "resource": "printing and packaging paper",
+        "quantity": 600000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_midway_limited_portland",
+      "AU_albany_woodchip_terminal"
+    ],
+    "resources": [
+      "Timber"
+    ]
+  },
+  {
+    "id": "JP_oji_holdings",
+    "name": "Oji Holdings — Japanese Mills",
+    "tier": "secondary_maker",
+    "country_iso2": "JP",
+    "canonical_company": "Oji Holdings",
+    "coordinates": {
+      "lat": 35.69,
+      "lon": 139.75
+    },
+    "downstream": [
+      {
+        "target_id": "JP_industrial",
+        "corridor_id": "JP_road_oji-domestic",
+        "resource": "printing and packaging paper",
+        "quantity": 300000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_midway_limited_bell_bay"
+    ],
+    "resources": [
+      "Timber"
+    ]
+  },
+  {
+    "id": "CN_april_group_rizhao",
+    "name": "APRIL Group / Asia Symbol — Rizhao Mill",
+    "tier": "secondary_maker",
+    "country_iso2": "CN",
+    "canonical_company": "APRIL Group",
+    "coordinates": {
+      "lat": 35.38,
+      "lon": 119.53
+    },
+    "downstream": [
+      {
+        "target_id": "CN_industrial",
+        "corridor_id": "CN_road_april-rizhao-domestic",
+        "resource": "dissolving pulp and paper products",
+        "quantity": 200000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_midway_limited_bell_bay"
+    ],
+    "resources": [
+      "Timber"
+    ]
+  },
+  {
+    "id": "INTL_hardwood_export_customers_asia",
+    "name": "Asian Hardwood Timber Importers",
+    "tier": "secondary_maker",
+    "country_iso2": "INTL",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": 22.3,
+      "lon": 114.17
+    },
+    "downstream": [
+      {
+        "target_id": "INTL_commercial",
+        "corridor_id": "INTL_road_asia-furniture-dist",
+        "resource": "premium hardwood for furniture and joinery",
+        "quantity": 15000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_neville_smith_forest_products"
+    ],
+    "resources": [
+      "Timber"
+    ]
+  },
+  {
+    "id": "AU_national_commercial_builders",
+    "name": "National Commercial Builders (Lendlease, Multiplex, Built, etc.)",
+    "tier": "secondary_maker",
+    "country_iso2": "AU",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": -33.87,
+      "lon": 151.21
+    },
+    "downstream": [
+      {
+        "target_id": "AU_infrastructure",
+        "corridor_id": "AU_road_builders-national-sites",
+        "resource": "engineered wood for commercial/mass-timber construction",
+        "quantity": 45000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_commercial",
+        "corridor_id": "AU_road_builders-national-sites",
+        "resource": "mass timber for commercial buildings",
+        "quantity": 20000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_hyne_glulam_products",
+      "AU_xlam_australia",
+      "AU_carter_holt_harvey_panel_products"
+    ],
+    "resources": [
+      "Timber"
+    ]
+  },
+  {
+    "id": "AU_bunnings_group",
+    "name": "Bunnings Group — National Retail Distribution",
+    "tier": "distributor",
+    "country_iso2": "AU",
+    "canonical_company": "Bunnings Group",
+    "coordinates": {
+      "lat": -31.95,
+      "lon": 115.86
+    },
+    "downstream": [
+      {
+        "target_id": "AU_residential",
+        "corridor_id": "AU_road_bunnings-national-retail",
+        "resource": "structural & appearance timber, panels, treated pine",
+        "quantity": 600000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_commercial",
+        "corridor_id": "AU_road_bunnings-trade-national",
+        "resource": "timber for commercial fit-out and trade",
+        "quantity": 200000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_australian_sustainable_hardwoods",
+      "AU_ryan_and_mcnulty",
+      "AU_boral_timber_herons_creek",
+      "AU_hurford_hardwood_kempsey",
+      "AU_allied_natural_wood_batemans_bay",
+      "AU_onefortyone_mount_gambier",
+      "AU_timberlink_tarpeena",
+      "AU_hyne_timber_tumbarumba",
+      "AU_highland_pine_oberon",
+      "AU_hyne_timber_maryborough",
+      "AU_parkside_group_caboolture",
+      "AU_d_and_r_henderson_pty",
+      "AU_neville_smith_forest_products",
+      "AU_mckay_timber_launceston",
+      "AU_wespine_dardanup",
+      "AU_auswest_timbers_pemberton",
+      "AU_carter_holt_harvey_morwell",
+      "AU_carter_holt_harvey_myrtleford",
+      "AU_hyne_glulam_products",
+      "AU_big_river_group",
+      "AU_carter_holt_harvey_panel_products"
+    ],
+    "resources": [
+      "Timber"
+    ]
+  },
+  {
+    "id": "AU_mitre_10",
+    "name": "Mitre 10 / IHG — National Retail & Trade Distribution",
+    "tier": "distributor",
+    "country_iso2": "AU",
+    "canonical_company": "Metcash (IHG)",
+    "coordinates": {
+      "lat": -33.84,
+      "lon": 151.21
+    },
+    "downstream": [
+      {
+        "target_id": "AU_residential",
+        "corridor_id": "AU_road_mitre10-national-retail",
+        "resource": "structural timber and building supplies",
+        "quantity": 150000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_commercial",
+        "corridor_id": "AU_road_mitre10-trade",
+        "resource": "trade timber supplies",
+        "quantity": 65000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_onefortyone_mount_gambier",
+      "AU_timberlink_tarpeena",
+      "AU_parkside_group_caboolture",
+      "AU_wespine_dardanup"
+    ],
+    "resources": [
+      "Timber"
+    ]
+  },
+  {
+    "id": "AU_independent_timber_merchants",
+    "name": "Independent Timber Merchants (ITM, Dahlsens, etc.)",
+    "tier": "distributor",
+    "country_iso2": "AU",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": -33.87,
+      "lon": 151.21
+    },
+    "downstream": [
+      {
+        "target_id": "AU_residential",
+        "corridor_id": "AU_road_itm-regional",
+        "resource": "structural and specialty timber",
+        "quantity": 50000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_commercial",
+        "corridor_id": "AU_road_itm-trade",
+        "resource": "trade timber products",
+        "quantity": 30000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_hurford_hardwood_kempsey",
+      "AU_allied_natural_wood_batemans_bay",
+      "AU_highland_pine_oberon",
+      "AU_big_river_group"
+    ],
+    "resources": [
+      "Timber"
+    ]
+  },
+  {
+    "id": "AU_boral_timber_distribution",
+    "name": "Boral Timber Distribution",
+    "tier": "distributor",
+    "country_iso2": "AU",
+    "canonical_company": "Boral Limited",
+    "coordinates": {
+      "lat": -33.83,
+      "lon": 151.05
+    },
+    "downstream": [
+      {
+        "target_id": "AU_residential",
+        "corridor_id": "AU_road_boral-national-retail",
+        "resource": "hardwood decking, flooring, cladding",
+        "quantity": 15000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_commercial",
+        "corridor_id": "AU_road_boral-commercial",
+        "resource": "commercial-grade hardwood products",
+        "quantity": 10000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_boral_timber_herons_creek"
+    ],
+    "resources": [
+      "Timber"
+    ]
+  },
+  {
+    "id": "AU_dahlsens",
+    "name": "Dahlsens — Regional Timber Distributor",
+    "tier": "distributor",
+    "country_iso2": "AU",
+    "canonical_company": "Dahlsens",
+    "coordinates": {
+      "lat": -37.75,
+      "lon": 147.99
+    },
+    "downstream": [
+      {
+        "target_id": "AU_residential",
+        "corridor_id": "AU_road_dahlsens-regional",
+        "resource": "timber and building materials",
+        "quantity": 8000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_australian_sustainable_hardwoods"
+    ],
+    "resources": [
+      "Timber"
+    ]
+  },
+  {
+    "id": "AU_woolworths_group",
+    "name": "Woolworths Group — National Supermarket Distribution",
+    "tier": "distributor",
+    "country_iso2": "AU",
+    "canonical_company": "Woolworths Group",
+    "coordinates": {
+      "lat": -33.89,
+      "lon": 151.19
+    },
+    "downstream": [
+      {
+        "target_id": "AU_residential",
+        "corridor_id": "AU_road_woolworths-national-stores",
+        "resource": "paper and tissue products in packaging",
+        "quantity": 230000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_residential",
+        "corridor_id": "AU_road_national-last-mile",
+        "resource": "retail shellfish (oysters, mussels, abalone)",
+        "quantity": 3300,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_woolworths_supermarkets",
+        "corridor_id": "AU_road_woolworths-national-dc",
+        "resource": "retail-packed farmed seafood (salmon, barramundi, prawns, kingfish)",
+        "quantity": 17300,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_residential",
+        "corridor_id": "AU_road_last-mile-urban",
+        "resource": "retail packed wild shellfish (prawns, oysters, crabs, scallops)",
+        "quantity": 2000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_residential",
+        "corridor_id": "AU_road_woolworths_lastmile",
+        "resource": "retail wild-caught seafood (fresh & frozen)",
+        "quantity": 13500,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_visy_packaging_national",
+      "AU_opal_packaging_melbourne",
+      "AU_essity_tissue_distribution",
+      "AU_pfd_food_services",
+      "AU_delaicour_food_logistics",
+      "AU_tassal_group_packing",
+      "AU_huon_aquaculture_packing",
+      "AU_petuna_aquaculture_packing",
+      "AU_clean_seas_seafood_packing",
+      "AU_mainstream_aquaculture_packing",
+      "AU_humpty_doo_barramundi_packing",
+      "AU_barramundi_gardens_packing",
+      "AU_pacific_reef_fisheries_packing",
+      "AU_gold_coast_marine_aquaculture_packing",
+      "AU_australian_prawn_farms_packing",
+      "AU_bidvest_australia",
+      "AU_defelice_bros",
+      "AU_de_costi_packer_sydney"
+    ],
+    "resources": [
+      "Timber",
+      "Shellfish (farmed)",
+      "Fish (farmed)",
+      "Shellfish (wild)",
+      "Fish (wild)"
+    ]
+  },
+  {
+    "id": "AU_coles_group",
+    "name": "Coles Group — National Supermarket Distribution",
+    "tier": "distributor",
+    "country_iso2": "AU",
+    "canonical_company": "Coles Group",
+    "coordinates": {
+      "lat": -37.82,
+      "lon": 144.96
+    },
+    "downstream": [
+      {
+        "target_id": "AU_residential",
+        "corridor_id": "AU_road_coles-national-stores",
+        "resource": "paper and tissue products in packaging",
+        "quantity": 205000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_residential",
+        "corridor_id": "AU_road_national-last-mile",
+        "resource": "retail shellfish (oysters, mussels, abalone)",
+        "quantity": 2500,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_coles_supermarkets",
+        "corridor_id": "AU_road_coles-national-dc",
+        "resource": "retail-packed farmed seafood (salmon, barramundi, prawns, kingfish)",
+        "quantity": 15000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_residential",
+        "corridor_id": "AU_road_last-mile-urban",
+        "resource": "retail packed wild shellfish (prawns, oysters, crabs, scallops)",
+        "quantity": 2000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_residential",
+        "corridor_id": "AU_road_coles_lastmile",
+        "resource": "retail wild-caught seafood (fresh & frozen)",
+        "quantity": 12000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_visy_packaging_national",
+      "AU_opal_packaging_melbourne",
+      "AU_essity_tissue_distribution",
+      "AU_pfd_food_services",
+      "AU_tassal_group_packing",
+      "AU_huon_aquaculture_packing",
+      "AU_petuna_aquaculture_packing",
+      "AU_clean_seas_seafood_packing",
+      "AU_mainstream_aquaculture_packing",
+      "AU_humpty_doo_barramundi_packing",
+      "AU_pacific_reef_fisheries_packing",
+      "AU_gold_coast_marine_aquaculture_packing",
+      "AU_australian_prawn_farms_packing",
+      "AU_bidvest_australia",
+      "AU_defelice_bros",
+      "AU_sealord_packer_vic"
+    ],
+    "resources": [
+      "Timber",
+      "Shellfish (farmed)",
+      "Fish (farmed)",
+      "Shellfish (wild)",
+      "Fish (wild)"
+    ]
+  },
+  {
+    "id": "AU_road_central-highlands-heyfield",
+    "tier": "transport",
+    "name": "Road: Central Highlands forests to Heyfield mills",
+    "country_iso2": "AU",
+    "operator_id": "AU_local_log_hauliers",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "regional",
+    "coordinates": {
+      "lat": -37.85,
+      "lon": 146.2
+    }
+  },
+  {
+    "id": "AU_road_central-highlands-maryvale",
+    "tier": "transport",
+    "name": "Road: Central Highlands forests to Maryvale Mill",
+    "country_iso2": "AU",
+    "operator_id": "AU_local_log_hauliers",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "regional",
+    "coordinates": {
+      "lat": -37.95,
+      "lon": 146.1
+    }
+  },
+  {
+    "id": "AU_road_east-gippsland-heyfield",
+    "tier": "transport",
+    "name": "Road: East Gippsland forests to Heyfield",
+    "country_iso2": "AU",
+    "operator_id": "AU_local_log_hauliers",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "regional",
+    "coordinates": {
+      "lat": -37.7,
+      "lon": 147.6
+    }
+  },
+  {
+    "id": "AU_road_east-gippsland-maryvale",
+    "tier": "transport",
+    "name": "Road: East Gippsland forests to Maryvale Mill",
+    "country_iso2": "AU",
+    "operator_id": "AU_local_log_hauliers",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "regional",
+    "coordinates": {
+      "lat": -37.8,
+      "lon": 147.4
+    }
+  },
+  {
+    "id": "AU_road_nsw-north-coast-herons-creek",
+    "tier": "transport",
+    "name": "Road: NSW North Coast forests to Herons Creek Mill",
+    "country_iso2": "AU",
+    "operator_id": "AU_local_log_hauliers",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "regional",
+    "coordinates": {
+      "lat": -31.1,
+      "lon": 152.75
+    }
+  },
+  {
+    "id": "AU_road_nsw-north-coast-kempsey",
+    "tier": "transport",
+    "name": "Road: NSW North Coast forests to Kempsey Mill",
+    "country_iso2": "AU",
+    "operator_id": "AU_local_log_hauliers",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "regional",
+    "coordinates": {
+      "lat": -30.7,
+      "lon": 152.8
+    }
+  },
+  {
+    "id": "AU_road_nsw-south-coast-batemans-bay",
+    "tier": "transport",
+    "name": "Road: NSW South Coast forests to Batemans Bay Mill",
+    "country_iso2": "AU",
+    "operator_id": "AU_local_log_hauliers",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "regional",
+    "coordinates": {
+      "lat": -35.75,
+      "lon": 150.05
+    }
+  },
+  {
+    "id": "AU_road_tumut-plantations-tumut-mill",
+    "tier": "transport",
+    "name": "Road: Tumut/Snowy region plantations to Visy Tumut Mill",
+    "country_iso2": "AU",
+    "operator_id": "AU_local_log_hauliers",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "local",
+    "coordinates": {
+      "lat": -35.3,
+      "lon": 148.22
+    }
+  },
+  {
+    "id": "AU_road_tumut-plantations-tumbarumba",
+    "tier": "transport",
+    "name": "Road: Tumut region plantations to Hyne Tumbarumba Mill",
+    "country_iso2": "AU",
+    "operator_id": "AU_local_log_hauliers",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "regional",
+    "coordinates": {
+      "lat": -35.55,
+      "lon": 148.1
+    }
+  },
+  {
+    "id": "AU_road_oberon-plantations-oberon-mill",
+    "tier": "transport",
+    "name": "Road: Oberon plantations to Highland Pine Oberon Mill",
+    "country_iso2": "AU",
+    "operator_id": "AU_local_log_hauliers",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "local",
+    "coordinates": {
+      "lat": -33.71,
+      "lon": 149.85
+    }
+  },
+  {
+    "id": "AU_road_qld-southeast-caboolture",
+    "tier": "transport",
+    "name": "Road: SE QLD plantations to Caboolture Mill",
+    "country_iso2": "AU",
+    "operator_id": "AU_local_log_hauliers",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "regional",
+    "coordinates": {
+      "lat": -26.8,
+      "lon": 152.7
+    }
+  },
+  {
+    "id": "AU_road_qld-wide-bay-maryborough",
+    "tier": "transport",
+    "name": "Road: Wide Bay plantations to Maryborough Mills",
+    "country_iso2": "AU",
+    "operator_id": "AU_local_log_hauliers",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "regional",
+    "coordinates": {
+      "lat": -25.8,
+      "lon": 152.6
+    }
+  },
+  {
+    "id": "AU_road_qld-southeast-brisbane",
+    "tier": "transport",
+    "name": "Road: SE QLD forests to Brisbane area mills",
+    "country_iso2": "AU",
+    "operator_id": "AU_local_log_hauliers",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "regional",
+    "coordinates": {
+      "lat": -27.2,
+      "lon": 152.8
+    }
+  },
+  {
+    "id": "AU_road_southern-tas-huon",
+    "tier": "transport",
+    "name": "Road: Southern Tasmania forests to Huonville Mill",
+    "country_iso2": "AU",
+    "operator_id": "AU_local_log_hauliers",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "regional",
+    "coordinates": {
+      "lat": -42.6,
+      "lon": 146.6
+    }
+  },
+  {
+    "id": "AU_road_northern-tas-launceston",
+    "tier": "transport",
+    "name": "Road: Northern Tasmania forests to Launceston mills",
+    "country_iso2": "AU",
+    "operator_id": "AU_local_log_hauliers",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "regional",
+    "coordinates": {
+      "lat": -41.5,
+      "lon": 146.9
+    }
+  },
+  {
+    "id": "AU_road_northern-tas-boyer",
+    "tier": "transport",
+    "name": "Road: Northern Tasmania plantations to Boyer Mill",
+    "country_iso2": "AU",
+    "operator_id": "AU_local_log_hauliers",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "regional",
+    "coordinates": {
+      "lat": -42,
+      "lon": 147
+    }
+  },
+  {
+    "id": "AU_road_northern-tas-bell-bay",
+    "tier": "transport",
+    "name": "Road: Northern Tasmania plantations to Bell Bay chip terminal",
+    "country_iso2": "AU",
+    "operator_id": "AU_local_log_hauliers",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "regional",
+    "coordinates": {
+      "lat": -41.2,
+      "lon": 146.85
+    }
+  },
+  {
+    "id": "AU_road_western-tas-bell-bay",
+    "tier": "transport",
+    "name": "Road: Western Tasmania plantations to Bell Bay",
+    "country_iso2": "AU",
+    "operator_id": "AU_local_log_hauliers",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "regional",
+    "coordinates": {
+      "lat": -41.5,
+      "lon": 146.2
+    }
+  },
+  {
+    "id": "AU_road_western-tas-boyer",
+    "tier": "transport",
+    "name": "Road: Western Tasmania plantations to Boyer Mill",
+    "country_iso2": "AU",
+    "operator_id": "AU_local_log_hauliers",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "regional",
+    "coordinates": {
+      "lat": -42.2,
+      "lon": 146.4
+    }
+  },
+  {
+    "id": "AU_road_green-triangle-mount-gambier",
+    "tier": "transport",
+    "name": "Road: Green Triangle plantations to Mount Gambier mills",
+    "country_iso2": "AU",
+    "operator_id": "AU_local_log_hauliers",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "local",
+    "coordinates": {
+      "lat": -37.83,
+      "lon": 140.78
+    }
+  },
+  {
+    "id": "AU_road_green-triangle-tarpeena",
+    "tier": "transport",
+    "name": "Road: Green Triangle plantations to Tarpeena Mill",
+    "country_iso2": "AU",
+    "operator_id": "AU_local_log_hauliers",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "local",
+    "coordinates": {
+      "lat": -37.7,
+      "lon": 140.7
+    }
+  },
+  {
+    "id": "AU_road_green-triangle-millicent",
+    "tier": "transport",
+    "name": "Road: Green Triangle plantations to Millicent Mill",
+    "country_iso2": "AU",
+    "operator_id": "AU_local_log_hauliers",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "local",
+    "coordinates": {
+      "lat": -37.59,
+      "lon": 140.35
+    }
+  },
+  {
+    "id": "AU_road_wa-southwest-dardanup",
+    "tier": "transport",
+    "name": "Road: WA Southwest native forests to Dardanup Mill",
+    "country_iso2": "AU",
+    "operator_id": "AU_local_log_hauliers",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "regional",
+    "coordinates": {
+      "lat": -33.7,
+      "lon": 115.9
+    }
+  },
+  {
+    "id": "AU_road_wa-southwest-pemberton",
+    "tier": "transport",
+    "name": "Road: WA Southwest native forests to Pemberton Mill",
+    "country_iso2": "AU",
+    "operator_id": "AU_local_log_hauliers",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "regional",
+    "coordinates": {
+      "lat": -34.25,
+      "lon": 116
+    }
+  },
+  {
+    "id": "AU_road_wa-plantations-dardanup",
+    "tier": "transport",
+    "name": "Road: WA Softwood Plantations to Dardanup Mill",
+    "country_iso2": "AU",
+    "operator_id": "AU_local_log_hauliers",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "regional",
+    "coordinates": {
+      "lat": -33.55,
+      "lon": 115.85
+    }
+  },
+  {
+    "id": "AU_road_wa-great-southern-albany",
+    "tier": "transport",
+    "name": "Road: WA Great Southern plantations to Albany chip terminal",
+    "country_iso2": "AU",
+    "operator_id": "AU_local_log_hauliers",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "regional",
+    "coordinates": {
+      "lat": -34.6,
+      "lon": 117.5
+    }
+  },
+  {
+    "id": "AU_road_gippsland-morwell",
+    "tier": "transport",
+    "name": "Road: Gippsland plantations to Morwell Sawmill",
+    "country_iso2": "AU",
+    "operator_id": "AU_local_log_hauliers",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "local",
+    "coordinates": {
+      "lat": -38.15,
+      "lon": 146.4
+    }
+  },
+  {
+    "id": "AU_road_central-vic-myrtleford",
+    "tier": "transport",
+    "name": "Road: Central Vic plantations to Myrtleford Sawmill",
+    "country_iso2": "AU",
+    "operator_id": "AU_local_log_hauliers",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "regional",
+    "coordinates": {
+      "lat": -36.9,
+      "lon": 146.1
+    }
+  },
+  {
+    "id": "AU_road_heyfield-grafton",
+    "tier": "transport",
+    "name": "Road: Heyfield ASH Mill to Big River Group Grafton",
+    "country_iso2": "AU",
+    "operator_id": "AU_national_freight_carriers",
+    "mode": "road",
+    "form": "containerised",
+    "range": "regional",
+    "coordinates": {
+      "lat": -34.8,
+      "lon": 149.8
+    }
+  },
+  {
+    "id": "AU_road_heyfield-metro-melbourne",
+    "tier": "transport",
+    "name": "Road: Heyfield to Melbourne metro distribution",
+    "country_iso2": "AU",
+    "operator_id": "AU_national_freight_carriers",
+    "mode": "road",
+    "form": "containerised",
+    "range": "regional",
+    "coordinates": {
+      "lat": -38,
+      "lon": 145.8
+    }
+  },
+  {
+    "id": "AU_road_heyfield-gippsland-dist",
+    "tier": "transport",
+    "name": "Road: Heyfield to Gippsland regional distribution",
+    "country_iso2": "AU",
+    "operator_id": "AU_local_log_hauliers",
+    "mode": "road",
+    "form": "containerised",
+    "range": "local",
+    "coordinates": {
+      "lat": -38,
+      "lon": 146.5
+    }
+  },
+  {
+    "id": "AU_road_maryvale-melbourne",
+    "tier": "transport",
+    "name": "Road: Maryvale Mill to Melbourne distribution centres",
+    "country_iso2": "AU",
+    "operator_id": "AU_national_freight_carriers",
+    "mode": "road",
+    "form": "containerised",
+    "range": "regional",
+    "coordinates": {
+      "lat": -38,
+      "lon": 145.6
+    }
+  },
+  {
+    "id": "AU_road_maryvale-national-dist",
+    "tier": "transport",
+    "name": "Road: Maryvale Mill to national distribution (paper merchants)",
+    "country_iso2": "AU",
+    "operator_id": "AU_national_freight_carriers",
+    "mode": "road",
+    "form": "containerised",
+    "range": "regional",
+    "coordinates": {
+      "lat": -37.5,
+      "lon": 146
+    }
+  },
+  {
+    "id": "AU_road_tumut-national-dist",
+    "tier": "transport",
+    "name": "Road: Visy Tumut Mill to national box plant distribution",
+    "country_iso2": "AU",
+    "operator_id": "AU_national_freight_carriers",
+    "mode": "road",
+    "form": "containerised",
+    "range": "regional",
+    "coordinates": {
+      "lat": -35,
+      "lon": 148.5
+    }
+  },
+  {
+    "id": "AU_road_boyer-hobart-then-national",
+    "tier": "transport",
+    "name": "Road/Sea: Boyer Mill via Hobart to national distribution",
+    "country_iso2": "AU",
+    "operator_id": "AU_toll_group",
+    "mode": "road",
+    "form": "containerised",
+    "range": "regional",
+    "coordinates": {
+      "lat": -42.5,
+      "lon": 147.3
+    }
+  },
+  {
+    "id": "INTL_ocean_bell-bay-japan",
+    "tier": "transport",
+    "name": "Ocean: Bell Bay to Japan (woodchip carriers)",
+    "country_iso2": "INTL",
+    "operator_id": "INTL_nyk_line",
+    "mode": "ocean_freight",
+    "form": "bulk_dry",
+    "range": "international",
+    "coordinates": {
+      "lat": -25,
+      "lon": 150
+    }
+  },
+  {
+    "id": "INTL_ocean_bell-bay-china",
+    "tier": "transport",
+    "name": "Ocean: Bell Bay to China (woodchip carriers)",
+    "country_iso2": "INTL",
+    "operator_id": "INTL_shipping_lines",
+    "mode": "ocean_freight",
+    "form": "bulk_dry",
+    "range": "international",
+    "coordinates": {
+      "lat": -20,
+      "lon": 145
+    }
+  },
+  {
+    "id": "INTL_ocean_hobart-grafton",
+    "tier": "transport",
+    "name": "Sea/Road: Huonville via Hobart to mainland (Grafton)",
+    "country_iso2": "AU",
+    "operator_id": "AU_toll_group",
+    "mode": "ocean_freight",
+    "form": "containerised",
+    "range": "regional",
+    "coordinates": {
+      "lat": -40,
+      "lon": 150
+    }
+  },
+  {
+    "id": "AU_road_huonville-hobart-then-national",
+    "tier": "transport",
+    "name": "Road: Huonville/Smithton to Hobart then national freight",
+    "country_iso2": "AU",
+    "operator_id": "AU_toll_group",
+    "mode": "road",
+    "form": "containerised",
+    "range": "regional",
+    "coordinates": {
+      "lat": -42.8,
+      "lon": 147
+    }
+  },
+  {
+    "id": "INTL_ocean_bell-bay-asia",
+    "tier": "transport",
+    "name": "Ocean: Bell Bay to Asian timber markets",
+    "country_iso2": "INTL",
+    "operator_id": "INTL_shipping_lines",
+    "mode": "ocean_freight",
+    "form": "containerised",
+    "range": "international",
+    "coordinates": {
+      "lat": -25,
+      "lon": 145
+    }
+  },
+  {
+    "id": "AU_road_nsw-north-coast-national",
+    "tier": "transport",
+    "name": "Road: NSW North Coast mills to national distribution",
+    "country_iso2": "AU",
+    "operator_id": "AU_national_freight_carriers",
+    "mode": "road",
+    "form": "containerised",
+    "range": "regional",
+    "coordinates": {
+      "lat": -32,
+      "lon": 152
+    }
+  },
+  {
+    "id": "AU_road_herons-creek-sydney",
+    "tier": "transport",
+    "name": "Road: Herons Creek Mill to Sydney distribution",
+    "country_iso2": "AU",
+    "operator_id": "AU_national_freight_carriers",
+    "mode": "road",
+    "form": "containerised",
+    "range": "regional",
+    "coordinates": {
+      "lat": -32.5,
+      "lon": 152
+    }
+  },
+  {
+    "id": "AU_road_kempsey-national",
+    "tier": "transport",
+    "name": "Road: Kempsey Mill to national distribution",
+    "country_iso2": "AU",
+    "operator_id": "AU_national_freight_carriers",
+    "mode": "road",
+    "form": "containerised",
+    "range": "regional",
+    "coordinates": {
+      "lat": -31.5,
+      "lon": 152.5
+    }
+  },
+  {
+    "id": "AU_road_kempsey-brisbane-sydney",
+    "tier": "transport",
+    "name": "Road: Kempsey Mill to Brisbane/Sydney trade merchants",
+    "country_iso2": "AU",
+    "operator_id": "AU_national_freight_carriers",
+    "mode": "road",
+    "form": "containerised",
+    "range": "regional",
+    "coordinates": {
+      "lat": -30.5,
+      "lon": 152.5
+    }
+  },
+  {
+    "id": "AU_road_batemans-bay-sydney",
+    "tier": "transport",
+    "name": "Road: Batemans Bay Mill to Sydney",
+    "country_iso2": "AU",
+    "operator_id": "AU_national_freight_carriers",
+    "mode": "road",
+    "form": "containerised",
+    "range": "regional",
+    "coordinates": {
+      "lat": -34.8,
+      "lon": 150.5
+    }
+  },
+  {
+    "id": "AU_road_batemans-bay-canberra",
+    "tier": "transport",
+    "name": "Road: Batemans Bay Mill to Canberra region",
+    "country_iso2": "AU",
+    "operator_id": "AU_national_freight_carriers",
+    "mode": "road",
+    "form": "containerised",
+    "range": "regional",
+    "coordinates": {
+      "lat": -35.4,
+      "lon": 149.8
+    }
+  },
+  {
+    "id": "AU_road_mount-gambier-national",
+    "tier": "transport",
+    "name": "Road: Mount Gambier mills to national distribution",
+    "country_iso2": "AU",
+    "operator_id": "AU_national_freight_carriers",
+    "mode": "road",
+    "form": "containerised",
+    "range": "regional",
+    "coordinates": {
+      "lat": -37.5,
+      "lon": 141.5
+    }
+  },
+  {
+    "id": "AU_road_mount-gambier-wodonga",
+    "tier": "transport",
+    "name": "Road: Mount Gambier to XLam Wodonga",
+    "country_iso2": "AU",
+    "operator_id": "AU_national_freight_carriers",
+    "mode": "road",
+    "form": "containerised",
+    "range": "regional",
+    "coordinates": {
+      "lat": -37,
+      "lon": 143.5
+    }
+  },
+  {
+    "id": "AU_road_tarpeena-national",
+    "tier": "transport",
+    "name": "Road: Tarpeena Mill to national distribution",
+    "country_iso2": "AU",
+    "operator_id": "AU_national_freight_carriers",
+    "mode": "road",
+    "form": "containerised",
+    "range": "regional",
+    "coordinates": {
+      "lat": -37.4,
+      "lon": 141.5
+    }
+  },
+  {
+    "id": "AU_road_millicent-national-dist",
+    "tier": "transport",
+    "name": "Road: Millicent Mill to national distribution",
+    "country_iso2": "AU",
+    "operator_id": "AU_national_freight_carriers",
+    "mode": "road",
+    "form": "containerised",
+    "range": "regional",
+    "coordinates": {
+      "lat": -37.2,
+      "lon": 140.8
+    }
+  },
+  {
+    "id": "AU_road_tumbarumba-national",
+    "tier": "transport",
+    "name": "Road: Tumbarumba Mill to national distribution",
+    "country_iso2": "AU",
+    "operator_id": "AU_national_freight_carriers",
+    "mode": "road",
+    "form": "containerised",
+    "range": "regional",
+    "coordinates": {
+      "lat": -35.5,
+      "lon": 148.2
+    }
+  },
+  {
+    "id": "AU_road_tumbarumba-maryborough-qld",
+    "tier": "transport",
+    "name": "Road: Tumbarumba lamstock to Hyne Maryborough QLD",
+    "country_iso2": "AU",
+    "operator_id": "AU_national_freight_carriers",
+    "mode": "road",
+    "form": "containerised",
+    "range": "regional",
+    "coordinates": {
+      "lat": -30,
+      "lon": 150
+    }
+  },
+  {
+    "id": "AU_road_oberon-sydney",
+    "tier": "transport",
+    "name": "Road: Oberon Mill to Sydney distribution",
+    "country_iso2": "AU",
+    "operator_id": "AU_national_freight_carriers",
+    "mode": "road",
+    "form": "containerised",
+    "range": "regional",
+    "coordinates": {
+      "lat": -33.8,
+      "lon": 150.3
+    }
+  },
+  {
+    "id": "AU_road_oberon-nsw-dist",
+    "tier": "transport",
+    "name": "Road: Oberon Mill to NSW regional distribution",
+    "country_iso2": "AU",
+    "operator_id": "AU_national_freight_carriers",
+    "mode": "road",
+    "form": "containerised",
+    "range": "regional",
+    "coordinates": {
+      "lat": -33.5,
+      "lon": 149.9
+    }
+  },
+  {
+    "id": "AU_road_maryborough-qld-national",
+    "tier": "transport",
+    "name": "Road: Maryborough QLD Mill to national distribution",
+    "country_iso2": "AU",
+    "operator_id": "AU_national_freight_carriers",
+    "mode": "road",
+    "form": "containerised",
+    "range": "regional",
+    "coordinates": {
+      "lat": -26.5,
+      "lon": 152.5
+    }
+  },
+  {
+    "id": "AU_road_maryborough-glulam",
+    "tier": "transport",
+    "name": "Road: Maryborough sawmill to Maryborough glulam facility",
+    "country_iso2": "AU",
+    "operator_id": "AU_local_log_hauliers",
+    "mode": "road",
+    "form": "containerised",
+    "range": "local",
+    "coordinates": {
+      "lat": -25.54,
+      "lon": 152.71
+    }
+  },
+  {
+    "id": "AU_road_caboolture-brisbane",
+    "tier": "transport",
+    "name": "Road: Caboolture Mill to Brisbane distribution",
+    "country_iso2": "AU",
+    "operator_id": "AU_national_freight_carriers",
+    "mode": "road",
+    "form": "containerised",
+    "range": "regional",
+    "coordinates": {
+      "lat": -27.2,
+      "lon": 153
+    }
+  },
+  {
+    "id": "AU_road_caboolture-qld-dist",
+    "tier": "transport",
+    "name": "Road: Caboolture Mill to QLD regional distribution",
+    "country_iso2": "AU",
+    "operator_id": "AU_national_freight_carriers",
+    "mode": "road",
+    "form": "containerised",
+    "range": "regional",
+    "coordinates": {
+      "lat": -27,
+      "lon": 153
+    }
+  },
+  {
+    "id": "AU_road_darra-brisbane-dist",
+    "tier": "transport",
+    "name": "Road: Darra Mill to Brisbane distribution",
+    "country_iso2": "AU",
+    "operator_id": "AU_national_freight_carriers",
+    "mode": "road",
+    "form": "containerised",
+    "range": "local",
+    "coordinates": {
+      "lat": -27.55,
+      "lon": 153
+    }
+  },
+  {
+    "id": "AU_road_dardanup-perth",
+    "tier": "transport",
+    "name": "Road: Dardanup Mill to Perth metro distribution",
+    "country_iso2": "AU",
+    "operator_id": "AU_national_freight_carriers",
+    "mode": "road",
+    "form": "containerised",
+    "range": "regional",
+    "coordinates": {
+      "lat": -33,
+      "lon": 115.9
+    }
+  },
+  {
+    "id": "AU_road_dardanup-wa-dist",
+    "tier": "transport",
+    "name": "Road: Dardanup Mill to WA regional distribution",
+    "country_iso2": "AU",
+    "operator_id": "AU_national_freight_carriers",
+    "mode": "road",
+    "form": "containerised",
+    "range": "regional",
+    "coordinates": {
+      "lat": -33.2,
+      "lon": 115.9
+    }
+  },
+  {
+    "id": "AU_road_pemberton-perth",
+    "tier": "transport",
+    "name": "Road: Pemberton Mill to Perth distribution",
+    "country_iso2": "AU",
+    "operator_id": "AU_national_freight_carriers",
+    "mode": "road",
+    "form": "containerised",
+    "range": "regional",
+    "coordinates": {
+      "lat": -33.5,
+      "lon": 116
+    }
+  },
+  {
+    "id": "AU_road_morwell-melbourne",
+    "tier": "transport",
+    "name": "Road: Morwell Mill to Melbourne distribution",
+    "country_iso2": "AU",
+    "operator_id": "AU_national_freight_carriers",
+    "mode": "road",
+    "form": "containerised",
+    "range": "regional",
+    "coordinates": {
+      "lat": -38.1,
+      "lon": 145.8
+    }
+  },
+  {
+    "id": "AU_road_morwell-national",
+    "tier": "transport",
+    "name": "Road: Morwell Mill residues to national panel plants",
+    "country_iso2": "AU",
+    "operator_id": "AU_national_freight_carriers",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "regional",
+    "coordinates": {
+      "lat": -38,
+      "lon": 145.5
+    }
+  },
+  {
+    "id": "AU_road_myrtleford-melbourne",
+    "tier": "transport",
+    "name": "Road: Myrtleford Mill to Melbourne distribution",
+    "country_iso2": "AU",
+    "operator_id": "AU_national_freight_carriers",
+    "mode": "road",
+    "form": "containerised",
+    "range": "regional",
+    "coordinates": {
+      "lat": -37.3,
+      "lon": 146
+    }
+  },
+  {
+    "id": "AU_road_launceston-national-dist",
+    "tier": "transport",
+    "name": "Road/Sea: Launceston to mainland national distribution",
+    "country_iso2": "AU",
+    "operator_id": "AU_toll_group",
+    "mode": "road",
+    "form": "containerised",
+    "range": "regional",
+    "coordinates": {
+      "lat": -41,
+      "lon": 147
+    }
+  },
+  {
+    "id": "AU_road_grafton-national",
+    "tier": "transport",
+    "name": "Road: Big River Grafton to national distribution",
+    "country_iso2": "AU",
+    "operator_id": "AU_national_freight_carriers",
+    "mode": "road",
+    "form": "containerised",
+    "range": "regional",
+    "coordinates": {
+      "lat": -31,
+      "lon": 152
+    }
+  },
+  {
+    "id": "AU_road_grafton-eastern-seaboard",
+    "tier": "transport",
+    "name": "Road: Big River Grafton to eastern seaboard merchants",
+    "country_iso2": "AU",
+    "operator_id": "AU_national_freight_carriers",
+    "mode": "road",
+    "form": "containerised",
+    "range": "regional",
+    "coordinates": {
+      "lat": -31,
+      "lon": 152.5
+    }
+  },
+  {
+    "id": "AU_road_chh-panel-national",
+    "tier": "transport",
+    "name": "Road: CHH panel products to national retail distribution",
+    "country_iso2": "AU",
+    "operator_id": "AU_national_freight_carriers",
+    "mode": "road",
+    "form": "containerised",
+    "range": "regional",
+    "coordinates": {
+      "lat": -37.8,
+      "lon": 145
+    }
+  },
+  {
+    "id": "AU_road_chh-panel-projects",
+    "tier": "transport",
+    "name": "Road: CHH panel products to construction project sites",
+    "country_iso2": "AU",
+    "operator_id": "AU_national_freight_carriers",
+    "mode": "road",
+    "form": "containerised",
+    "range": "regional",
+    "coordinates": {
+      "lat": -37,
+      "lon": 145
+    }
+  },
+  {
+    "id": "AU_road_maryborough-national-projects",
+    "tier": "transport",
+    "name": "Road: Hyne glulam Maryborough to national construction projects",
+    "country_iso2": "AU",
+    "operator_id": "AU_national_freight_carriers",
+    "mode": "road",
+    "form": "containerised",
+    "range": "regional",
+    "coordinates": {
+      "lat": -27,
+      "lon": 152
+    }
+  },
+  {
+    "id": "AU_road_wodonga-national-projects",
+    "tier": "transport",
+    "name": "Road: XLam Wodonga CLT to national construction projects",
+    "country_iso2": "AU",
+    "operator_id": "AU_national_freight_carriers",
+    "mode": "road",
+    "form": "unit_load",
+    "range": "regional",
+    "coordinates": {
+      "lat": -36,
+      "lon": 147
+    }
+  },
+  {
+    "id": "AU_road_visy-box-national-grocery",
+    "tier": "transport",
+    "name": "Road: Visy box plants to national grocery distribution centres",
+    "country_iso2": "AU",
+    "operator_id": "AU_national_freight_carriers",
+    "mode": "road",
+    "form": "containerised",
+    "range": "regional",
+    "coordinates": {
+      "lat": -34,
+      "lon": 150
+    }
+  },
+  {
+    "id": "AU_road_visy-box-national-industrial",
+    "tier": "transport",
+    "name": "Road: Visy box plants to industrial customers nationally",
+    "country_iso2": "AU",
+    "operator_id": "AU_national_freight_carriers",
+    "mode": "road",
+    "form": "containerised",
+    "range": "regional",
+    "coordinates": {
+      "lat": -34,
+      "lon": 150
+    }
+  },
+  {
+    "id": "AU_road_opal-pkg-national",
+    "tier": "transport",
+    "name": "Road: Opal packaging plants to grocery DCs nationally",
+    "country_iso2": "AU",
+    "operator_id": "AU_national_freight_carriers",
+    "mode": "road",
+    "form": "containerised",
+    "range": "regional",
+    "coordinates": {
+      "lat": -35,
+      "lon": 148
+    }
+  },
+  {
+    "id": "AU_road_opal-pkg-national-industrial",
+    "tier": "transport",
+    "name": "Road: Opal packaging to industrial customers nationally",
+    "country_iso2": "AU",
+    "operator_id": "AU_national_freight_carriers",
+    "mode": "road",
+    "form": "containerised",
+    "range": "regional",
+    "coordinates": {
+      "lat": -35,
+      "lon": 148
+    }
+  },
+  {
+    "id": "AU_road_essity-national",
+    "tier": "transport",
+    "name": "Road: Essity tissue products to national grocery retailers",
+    "country_iso2": "AU",
+    "operator_id": "AU_national_freight_carriers",
+    "mode": "road",
+    "form": "containerised",
+    "range": "regional",
+    "coordinates": {
+      "lat": -36,
+      "lon": 145
+    }
+  },
+  {
+    "id": "AU_road_essity-national-commercial",
+    "tier": "transport",
+    "name": "Road: Essity AFH tissue products to commercial customers",
+    "country_iso2": "AU",
+    "operator_id": "AU_national_freight_carriers",
+    "mode": "road",
+    "form": "containerised",
+    "range": "regional",
+    "coordinates": {
+      "lat": -36,
+      "lon": 145
+    }
+  },
+  {
+    "id": "AU_road_paper-national-commercial",
+    "tier": "transport",
+    "name": "Road: Paper merchants to commercial customers nationally",
+    "country_iso2": "AU",
+    "operator_id": "AU_national_freight_carriers",
+    "mode": "road",
+    "form": "containerised",
+    "range": "regional",
+    "coordinates": {
+      "lat": -34,
+      "lon": 151
+    }
+  },
+  {
+    "id": "AU_road_paper-national-government",
+    "tier": "transport",
+    "name": "Road: Paper merchants to government offices nationally",
+    "country_iso2": "AU",
+    "operator_id": "AU_national_freight_carriers",
+    "mode": "road",
+    "form": "containerised",
+    "range": "regional",
+    "coordinates": {
+      "lat": -35.3,
+      "lon": 149.1
+    }
+  },
+  {
+    "id": "AU_road_paper-national-institutional",
+    "tier": "transport",
+    "name": "Road: Paper merchants to educational/institutional customers",
+    "country_iso2": "AU",
+    "operator_id": "AU_national_freight_carriers",
+    "mode": "road",
+    "form": "containerised",
+    "range": "regional",
+    "coordinates": {
+      "lat": -33.9,
+      "lon": 151.2
+    }
+  },
+  {
+    "id": "AU_road_news-national-dist",
+    "tier": "transport",
+    "name": "Road: News Corp print sites to national distribution",
+    "country_iso2": "AU",
+    "operator_id": "AU_national_freight_carriers",
+    "mode": "road",
+    "form": "containerised",
+    "range": "regional",
+    "coordinates": {
+      "lat": -33.87,
+      "lon": 151.21
+    }
+  },
+  {
+    "id": "AU_road_bunnings-national-retail",
+    "tier": "transport",
+    "name": "Road: Bunnings DCs to national store network (residential)",
+    "country_iso2": "AU",
+    "operator_id": "AU_bunnings_logistics",
+    "mode": "road",
+    "form": "containerised",
+    "range": "regional",
+    "coordinates": {
+      "lat": -33.5,
+      "lon": 150
+    }
+  },
+  {
+    "id": "AU_road_bunnings-trade-national",
+    "tier": "transport",
+    "name": "Road: Bunnings trade distribution nationally",
+    "country_iso2": "AU",
+    "operator_id": "AU_bunnings_logistics",
+    "mode": "road",
+    "form": "containerised",
+    "range": "regional",
+    "coordinates": {
+      "lat": -33.5,
+      "lon": 150
+    }
+  },
+  {
+    "id": "AU_road_mitre10-national-retail",
+    "tier": "transport",
+    "name": "Road: Mitre 10 DCs to national stores (residential)",
+    "country_iso2": "AU",
+    "operator_id": "AU_metcash_logistics",
+    "mode": "road",
+    "form": "containerised",
+    "range": "regional",
+    "coordinates": {
+      "lat": -33.8,
+      "lon": 151
+    }
+  },
+  {
+    "id": "AU_road_mitre10-trade",
+    "tier": "transport",
+    "name": "Road: Mitre 10 trade distribution nationally",
+    "country_iso2": "AU",
+    "operator_id": "AU_metcash_logistics",
+    "mode": "road",
+    "form": "containerised",
+    "range": "regional",
+    "coordinates": {
+      "lat": -33.8,
+      "lon": 151
+    }
+  },
+  {
+    "id": "AU_road_itm-regional",
+    "tier": "transport",
+    "name": "Road: Independent timber merchants regional delivery",
+    "country_iso2": "AU",
+    "operator_id": "AU_national_freight_carriers",
+    "mode": "road",
+    "form": "containerised",
+    "range": "regional",
+    "coordinates": {
+      "lat": -34,
+      "lon": 151
+    }
+  },
+  {
+    "id": "AU_road_itm-trade",
+    "tier": "transport",
+    "name": "Road: Independent timber merchants trade delivery",
+    "country_iso2": "AU",
+    "operator_id": "AU_national_freight_carriers",
+    "mode": "road",
+    "form": "containerised",
+    "range": "regional",
+    "coordinates": {
+      "lat": -34,
+      "lon": 151
+    }
+  },
+  {
+    "id": "AU_road_boral-national-retail",
+    "tier": "transport",
+    "name": "Road: Boral timber distribution to retail/residential",
+    "country_iso2": "AU",
+    "operator_id": "AU_national_freight_carriers",
+    "mode": "road",
+    "form": "containerised",
+    "range": "regional",
+    "coordinates": {
+      "lat": -33.8,
+      "lon": 151
+    }
+  },
+  {
+    "id": "AU_road_boral-commercial",
+    "tier": "transport",
+    "name": "Road: Boral timber distribution to commercial projects",
+    "country_iso2": "AU",
+    "operator_id": "AU_national_freight_carriers",
+    "mode": "road",
+    "form": "containerised",
+    "range": "regional",
+    "coordinates": {
+      "lat": -33.8,
+      "lon": 151
+    }
+  },
+  {
+    "id": "AU_road_dahlsens-regional",
+    "tier": "transport",
+    "name": "Road: Dahlsens regional delivery (VIC/TAS)",
+    "country_iso2": "AU",
+    "operator_id": "AU_dahlsens_logistics",
+    "mode": "road",
+    "form": "containerised",
+    "range": "regional",
+    "coordinates": {
+      "lat": -37.8,
+      "lon": 148
+    }
+  },
+  {
+    "id": "AU_road_woolworths-national-stores",
+    "tier": "transport",
+    "name": "Road: Woolworths DCs to national stores (residential consumers)",
+    "country_iso2": "AU",
+    "operator_id": "AU_woolworths_logistics",
+    "mode": "road",
+    "form": "containerised",
+    "range": "regional",
+    "coordinates": {
+      "lat": -33.9,
+      "lon": 151.2
+    }
+  },
+  {
+    "id": "AU_road_coles-national-stores",
+    "tier": "transport",
+    "name": "Road: Coles DCs to national stores (residential consumers)",
+    "country_iso2": "AU",
+    "operator_id": "AU_coles_logistics",
+    "mode": "road",
+    "form": "containerised",
+    "range": "regional",
+    "coordinates": {
+      "lat": -37.82,
+      "lon": 144.96
+    }
+  },
+  {
+    "id": "AU_road_builders-national-sites",
+    "tier": "transport",
+    "name": "Road: Engineered wood delivery to national construction sites",
+    "country_iso2": "AU",
+    "operator_id": "AU_national_freight_carriers",
+    "mode": "road",
+    "form": "unit_load",
+    "range": "regional",
+    "coordinates": {
+      "lat": -33.87,
+      "lon": 151.21
+    }
+  },
+  {
+    "id": "INTL_ocean_nz-pacific-dist",
+    "tier": "transport",
+    "name": "Road: NZ/Pacific domestic newsprint distribution",
+    "country_iso2": "INTL",
+    "operator_id": "INTL_local_distributors",
+    "mode": "road",
+    "form": "containerised",
+    "range": "regional",
+    "coordinates": {
+      "lat": -36.85,
+      "lon": 174.76
+    }
+  },
+  {
+    "id": "JP_road_nippon-paper-domestic",
+    "tier": "transport",
+    "name": "Road: Nippon Paper domestic distribution (Japan)",
+    "country_iso2": "JP",
+    "operator_id": "JP_nippon_paper_logistics",
+    "mode": "road",
+    "form": "containerised",
+    "range": "regional",
+    "coordinates": {
+      "lat": 35.68,
+      "lon": 139.69
+    }
+  },
+  {
+    "id": "JP_road_oji-domestic",
+    "tier": "transport",
+    "name": "Road: Oji Holdings domestic distribution (Japan)",
+    "country_iso2": "JP",
+    "operator_id": "JP_oji_logistics",
+    "mode": "road",
+    "form": "containerised",
+    "range": "regional",
+    "coordinates": {
+      "lat": 35.69,
+      "lon": 139.75
+    }
+  },
+  {
+    "id": "CN_road_april-rizhao-domestic",
+    "tier": "transport",
+    "name": "Road: APRIL Rizhao domestic distribution (China)",
+    "country_iso2": "CN",
+    "operator_id": "CN_april_logistics",
+    "mode": "road",
+    "form": "containerised",
+    "range": "regional",
+    "coordinates": {
+      "lat": 35.38,
+      "lon": 119.53
+    }
+  },
+  {
+    "id": "INTL_road_asia-furniture-dist",
+    "tier": "transport",
+    "name": "Road: Asian furniture/joinery workshop distribution",
+    "country_iso2": "INTL",
+    "operator_id": "INTL_local_distributors",
+    "mode": "road",
+    "form": "containerised",
+    "range": "regional",
+    "coordinates": {
+      "lat": 22.3,
+      "lon": 114.17
+    }
+  }
+]

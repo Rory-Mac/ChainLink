@@ -1,0 +1,2279 @@
+[
+  {
+    "id": "AU_tassal_group_macquarie_harbour",
+    "name": "Tassal Group – Macquarie Harbour Marine Farm",
+    "tier": "harvester",
+    "country_iso2": "AU",
+    "canonical_company": "Tassal Group",
+    "coordinates": {
+      "lat": -42.2,
+      "lon": 145.33
+    },
+    "downstream": [
+      {
+        "target_id": "AU_tassal_group_dover_processing",
+        "corridor_id": "AU_road_strahan-huonville",
+        "resource": "whole Atlantic salmon",
+        "quantity": 6000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Fish (farmed)"
+    ]
+  },
+  {
+    "id": "AU_tassal_group_okehampton_bay",
+    "name": "Tassal Group – Okehampton Bay Marine Farm",
+    "tier": "harvester",
+    "country_iso2": "AU",
+    "canonical_company": "Tassal Group",
+    "coordinates": {
+      "lat": -42.12,
+      "lon": 148.2
+    },
+    "downstream": [
+      {
+        "target_id": "AU_tassal_group_dover_processing",
+        "corridor_id": "AU_road_triabunna-huonville",
+        "resource": "whole Atlantic salmon",
+        "quantity": 5000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Fish (farmed)"
+    ]
+  },
+  {
+    "id": "AU_tassal_group_huon_river",
+    "name": "Tassal Group – Huon River / Port Huon Marine Farms",
+    "tier": "harvester",
+    "country_iso2": "AU",
+    "canonical_company": "Tassal Group",
+    "coordinates": {
+      "lat": -43.18,
+      "lon": 147.05
+    },
+    "downstream": [
+      {
+        "target_id": "AU_tassal_group_dover_processing",
+        "corridor_id": "AU_road_huon-huonville",
+        "resource": "whole Atlantic salmon",
+        "quantity": 7000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Fish (farmed)"
+    ]
+  },
+  {
+    "id": "AU_huon_aquaculture_hideaway_bay",
+    "name": "Huon Aquaculture – Hideaway Bay Marine Farm",
+    "tier": "harvester",
+    "country_iso2": "AU",
+    "canonical_company": "Huon Aquaculture",
+    "coordinates": {
+      "lat": -43.34,
+      "lon": 147
+    },
+    "downstream": [
+      {
+        "target_id": "AU_huon_aquaculture_parramatta_creek",
+        "corridor_id": "AU_road_dover-parramatta-creek",
+        "resource": "whole Atlantic salmon",
+        "quantity": 5500,
+        "metric": "t"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Fish (farmed)"
+    ]
+  },
+  {
+    "id": "AU_huon_aquaculture_storm_bay",
+    "name": "Huon Aquaculture – Storm Bay Marine Farm",
+    "tier": "harvester",
+    "country_iso2": "AU",
+    "canonical_company": "Huon Aquaculture",
+    "coordinates": {
+      "lat": -43.1,
+      "lon": 147.45
+    },
+    "downstream": [
+      {
+        "target_id": "AU_huon_aquaculture_parramatta_creek",
+        "corridor_id": "AU_road_storm-bay-parramatta-creek",
+        "resource": "whole Atlantic salmon",
+        "quantity": 6000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Fish (farmed)"
+    ]
+  },
+  {
+    "id": "AU_huon_aquaculture_macquarie_harbour",
+    "name": "Huon Aquaculture – Macquarie Harbour Marine Farm",
+    "tier": "harvester",
+    "country_iso2": "AU",
+    "canonical_company": "Huon Aquaculture",
+    "coordinates": {
+      "lat": -42.19,
+      "lon": 145.32
+    },
+    "downstream": [
+      {
+        "target_id": "AU_huon_aquaculture_parramatta_creek",
+        "corridor_id": "AU_road_strahan-parramatta-creek",
+        "resource": "whole Atlantic salmon",
+        "quantity": 3500,
+        "metric": "t"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Fish (farmed)"
+    ]
+  },
+  {
+    "id": "AU_petuna_aquaculture_macquarie_harbour",
+    "name": "Petuna Aquaculture – Macquarie Harbour Marine Farm",
+    "tier": "harvester",
+    "country_iso2": "AU",
+    "canonical_company": "Petuna Aquaculture",
+    "coordinates": {
+      "lat": -42.22,
+      "lon": 145.35
+    },
+    "downstream": [
+      {
+        "target_id": "AU_petuna_aquaculture_devonport",
+        "corridor_id": "AU_road_strahan-devonport",
+        "resource": "whole Atlantic salmon",
+        "quantity": 4500,
+        "metric": "t"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Fish (farmed)"
+    ]
+  },
+  {
+    "id": "AU_petuna_aquaculture_rowella",
+    "name": "Petuna Aquaculture – Rowella Freshwater Farm (smolt/grow-out)",
+    "tier": "harvester",
+    "country_iso2": "AU",
+    "canonical_company": "Petuna Aquaculture",
+    "coordinates": {
+      "lat": -41.18,
+      "lon": 146.88
+    },
+    "downstream": [
+      {
+        "target_id": "AU_petuna_aquaculture_devonport",
+        "corridor_id": "AU_road_rowella-devonport",
+        "resource": "whole Atlantic salmon and trout",
+        "quantity": 2000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Fish (farmed)"
+    ]
+  },
+  {
+    "id": "AU_clean_seas_seafood_spencer_gulf",
+    "name": "Clean Seas Seafood – Spencer Gulf Yellowtail Kingfish Farm",
+    "tier": "harvester",
+    "country_iso2": "AU",
+    "canonical_company": "Clean Seas Seafood",
+    "coordinates": {
+      "lat": -34.05,
+      "lon": 136.68
+    },
+    "downstream": [
+      {
+        "target_id": "AU_clean_seas_seafood_port_lincoln",
+        "corridor_id": "AU_road_spencer-gulf-port-lincoln",
+        "resource": "whole yellowtail kingfish",
+        "quantity": 4000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Fish (farmed)"
+    ]
+  },
+  {
+    "id": "AU_mainstream_aquaculture_port_augusta",
+    "name": "Mainstream Aquaculture – Port Augusta Barramundi Farm",
+    "tier": "harvester",
+    "country_iso2": "AU",
+    "canonical_company": "Mainstream Aquaculture",
+    "coordinates": {
+      "lat": -32.49,
+      "lon": 137.78
+    },
+    "downstream": [
+      {
+        "target_id": "AU_mainstream_aquaculture_werribee",
+        "corridor_id": "AU_road_port-augusta-werribee",
+        "resource": "whole barramundi",
+        "quantity": 2000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Fish (farmed)"
+    ]
+  },
+  {
+    "id": "AU_mainstream_aquaculture_werribee_farm",
+    "name": "Mainstream Aquaculture – Werribee Barramundi Farm",
+    "tier": "harvester",
+    "country_iso2": "AU",
+    "canonical_company": "Mainstream Aquaculture",
+    "coordinates": {
+      "lat": -37.89,
+      "lon": 144.66
+    },
+    "downstream": [
+      {
+        "target_id": "AU_mainstream_aquaculture_werribee",
+        "corridor_id": "AU_road_werribee-local",
+        "resource": "whole barramundi",
+        "quantity": 2000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Fish (farmed)"
+    ]
+  },
+  {
+    "id": "AU_humpty_doo_barramundi_humpty_doo",
+    "name": "Humpty Doo Barramundi – Humpty Doo Farm (NT)",
+    "tier": "harvester",
+    "country_iso2": "AU",
+    "canonical_company": "Humpty Doo Barramundi",
+    "coordinates": {
+      "lat": -12.57,
+      "lon": 131.14
+    },
+    "downstream": [
+      {
+        "target_id": "AU_humpty_doo_barramundi_processing",
+        "corridor_id": "AU_road_humpty-doo-local",
+        "resource": "whole barramundi",
+        "quantity": 2500,
+        "metric": "t"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Fish (farmed)"
+    ]
+  },
+  {
+    "id": "AU_barramundi_gardens_bowen",
+    "name": "Barramundi Gardens – Bowen Farm (QLD)",
+    "tier": "harvester",
+    "country_iso2": "AU",
+    "canonical_company": "Barramundi Gardens",
+    "coordinates": {
+      "lat": -20.01,
+      "lon": 148.24
+    },
+    "downstream": [
+      {
+        "target_id": "AU_barramundi_gardens_processing",
+        "corridor_id": "AU_road_bowen-local",
+        "resource": "whole barramundi",
+        "quantity": 1000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Fish (farmed)"
+    ]
+  },
+  {
+    "id": "AU_southern_bluefin_tuna_aquaculture_port_lincoln",
+    "name": "Australian Southern Bluefin Tuna Ranching – Port Lincoln Sea Pens",
+    "tier": "harvester",
+    "country_iso2": "AU",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": -34.73,
+      "lon": 135.86
+    },
+    "downstream": [
+      {
+        "target_id": "AU_sashimi_fish_australia",
+        "corridor_id": "AU_road_port-lincoln-processing",
+        "resource": "whole southern bluefin tuna",
+        "quantity": 8000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Fish (farmed)"
+    ]
+  },
+  {
+    "id": "AU_yumbah_aquaculture_kangaroo_island",
+    "name": "Yumbah Aquaculture – Kangaroo Island Abalone Farm (SA)",
+    "tier": "harvester",
+    "country_iso2": "AU",
+    "canonical_company": "Yumbah Aquaculture",
+    "coordinates": {
+      "lat": -35.71,
+      "lon": 137.19
+    },
+    "downstream": [
+      {
+        "target_id": "AU_yumbah_aquaculture_processing",
+        "corridor_id": "AU_road_kangaroo-island-adelaide",
+        "resource": "whole farmed abalone",
+        "quantity": 300,
+        "metric": "t"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Fish (farmed)"
+    ]
+  },
+  {
+    "id": "AU_pacific_reef_fisheries_ayr",
+    "name": "Pacific Reef Fisheries – Ayr Prawn Farm (QLD)",
+    "tier": "harvester",
+    "country_iso2": "AU",
+    "canonical_company": "Pacific Reef Fisheries",
+    "coordinates": {
+      "lat": -19.57,
+      "lon": 147.4
+    },
+    "downstream": [
+      {
+        "target_id": "AU_pacific_reef_fisheries_processing",
+        "corridor_id": "AU_road_ayr-townsville",
+        "resource": "whole farmed prawns (black tiger)",
+        "quantity": 3500,
+        "metric": "t"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Fish (farmed)"
+    ]
+  },
+  {
+    "id": "AU_gold_coast_marine_aquaculture_prawn",
+    "name": "Gold Coast Marine Aquaculture – Prawn Farm (QLD)",
+    "tier": "harvester",
+    "country_iso2": "AU",
+    "canonical_company": "Gold Coast Marine Aquaculture",
+    "coordinates": {
+      "lat": -27.88,
+      "lon": 153.38
+    },
+    "downstream": [
+      {
+        "target_id": "AU_gold_coast_marine_aquaculture_processing",
+        "corridor_id": "AU_road_gold-coast-local",
+        "resource": "whole farmed prawns (black tiger)",
+        "quantity": 1800,
+        "metric": "t"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Fish (farmed)"
+    ]
+  },
+  {
+    "id": "AU_australian_prawn_farms_ilbilbie",
+    "name": "Australian Prawn Farms – Ilbilbie Prawn Farm (QLD)",
+    "tier": "harvester",
+    "country_iso2": "AU",
+    "canonical_company": "Australian Prawn Farms",
+    "coordinates": {
+      "lat": -21.53,
+      "lon": 149.38
+    },
+    "downstream": [
+      {
+        "target_id": "AU_australian_prawn_farms_processing",
+        "corridor_id": "AU_road_ilbilbie-mackay",
+        "resource": "whole farmed prawns (black tiger & banana)",
+        "quantity": 1500,
+        "metric": "t"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Fish (farmed)"
+    ]
+  },
+  {
+    "id": "AU_tassal_group_dover_processing",
+    "name": "Tassal Group – Huonville/Dover Processing Plant",
+    "tier": "landing_processor",
+    "country_iso2": "AU",
+    "canonical_company": "Tassal Group",
+    "coordinates": {
+      "lat": -43.03,
+      "lon": 147.05
+    },
+    "downstream": [
+      {
+        "target_id": "AU_tassal_group_packing",
+        "corridor_id": "AU_road_huonville-devonport",
+        "resource": "processed Atlantic salmon (HOG, fillets)",
+        "quantity": 22000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_tassal_group_dover",
+      "AU_tassal_group_macquarie_harbour",
+      "AU_tassal_group_okehampton_bay",
+      "AU_tassal_group_huon_river"
+    ],
+    "resources": [
+      "Fish (farmed)"
+    ]
+  },
+  {
+    "id": "AU_huon_aquaculture_parramatta_creek",
+    "name": "Huon Aquaculture – Parramatta Creek Processing Plant",
+    "tier": "landing_processor",
+    "country_iso2": "AU",
+    "canonical_company": "Huon Aquaculture",
+    "coordinates": {
+      "lat": -42.79,
+      "lon": 147.09
+    },
+    "downstream": [
+      {
+        "target_id": "AU_huon_aquaculture_packing",
+        "corridor_id": "AU_road_parramatta-creek-hobart",
+        "resource": "processed Atlantic salmon (HOG, fillets, portions)",
+        "quantity": 12500,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_huon_aquaculture_hideaway_bay",
+      "AU_huon_aquaculture_storm_bay",
+      "AU_huon_aquaculture_macquarie_harbour"
+    ],
+    "resources": [
+      "Fish (farmed)"
+    ]
+  },
+  {
+    "id": "AU_petuna_aquaculture_devonport",
+    "name": "Petuna Aquaculture – Devonport Processing Plant",
+    "tier": "landing_processor",
+    "country_iso2": "AU",
+    "canonical_company": "Petuna Aquaculture",
+    "coordinates": {
+      "lat": -41.18,
+      "lon": 146.35
+    },
+    "downstream": [
+      {
+        "target_id": "AU_petuna_aquaculture_packing",
+        "corridor_id": "AU_road_devonport-local",
+        "resource": "processed Atlantic salmon and trout (HOG, fillets)",
+        "quantity": 5500,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_petuna_aquaculture_macquarie_harbour",
+      "AU_petuna_aquaculture_rowella"
+    ],
+    "resources": [
+      "Fish (farmed)"
+    ]
+  },
+  {
+    "id": "AU_clean_seas_seafood_port_lincoln",
+    "name": "Clean Seas Seafood – Port Lincoln / Royal Park Processing",
+    "tier": "landing_processor",
+    "country_iso2": "AU",
+    "canonical_company": "Clean Seas Seafood",
+    "coordinates": {
+      "lat": -34.73,
+      "lon": 135.86
+    },
+    "downstream": [
+      {
+        "target_id": "AU_clean_seas_seafood_packing",
+        "corridor_id": "AU_road_port-lincoln-adelaide",
+        "resource": "processed yellowtail kingfish (fillets, portions)",
+        "quantity": 3200,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_clean_seas_seafood_spencer_gulf"
+    ],
+    "resources": [
+      "Fish (farmed)"
+    ]
+  },
+  {
+    "id": "AU_mainstream_aquaculture_werribee",
+    "name": "Mainstream Aquaculture – Werribee Processing Plant",
+    "tier": "landing_processor",
+    "country_iso2": "AU",
+    "canonical_company": "Mainstream Aquaculture",
+    "coordinates": {
+      "lat": -37.9,
+      "lon": 144.66
+    },
+    "downstream": [
+      {
+        "target_id": "AU_mainstream_aquaculture_packing",
+        "corridor_id": "AU_road_werribee-melbourne",
+        "resource": "processed barramundi (whole, fillets)",
+        "quantity": 3500,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_mainstream_aquaculture_port_augusta",
+      "AU_mainstream_aquaculture_werribee_farm"
+    ],
+    "resources": [
+      "Fish (farmed)"
+    ]
+  },
+  {
+    "id": "AU_humpty_doo_barramundi_processing",
+    "name": "Humpty Doo Barramundi – Processing Plant (NT)",
+    "tier": "landing_processor",
+    "country_iso2": "AU",
+    "canonical_company": "Humpty Doo Barramundi",
+    "coordinates": {
+      "lat": -12.57,
+      "lon": 131.14
+    },
+    "downstream": [
+      {
+        "target_id": "AU_humpty_doo_barramundi_packing",
+        "corridor_id": "AU_road_humpty-doo-darwin",
+        "resource": "processed barramundi (whole, fillets)",
+        "quantity": 2100,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_humpty_doo_barramundi_humpty_doo"
+    ],
+    "resources": [
+      "Fish (farmed)"
+    ]
+  },
+  {
+    "id": "AU_barramundi_gardens_processing",
+    "name": "Barramundi Gardens – Bowen Processing (QLD)",
+    "tier": "landing_processor",
+    "country_iso2": "AU",
+    "canonical_company": "Barramundi Gardens",
+    "coordinates": {
+      "lat": -20.01,
+      "lon": 148.24
+    },
+    "downstream": [
+      {
+        "target_id": "AU_barramundi_gardens_packing",
+        "corridor_id": "AU_road_bowen-townsville",
+        "resource": "processed barramundi (fillets)",
+        "quantity": 850,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_barramundi_gardens_bowen"
+    ],
+    "resources": [
+      "Fish (farmed)"
+    ]
+  },
+  {
+    "id": "AU_sashimi_fish_australia",
+    "name": "Sashimi Fish Australia / SBT Processors – Port Lincoln",
+    "tier": "landing_processor",
+    "country_iso2": "AU",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": -34.73,
+      "lon": 135.86
+    },
+    "downstream": [
+      {
+        "target_id": "AU_sbt_packing_port_lincoln",
+        "corridor_id": "AU_road_port-lincoln-local",
+        "resource": "sashimi-grade southern bluefin tuna (whole, loins)",
+        "quantity": 7500,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_southern_bluefin_tuna_aquaculture_port_lincoln"
+    ],
+    "resources": [
+      "Fish (farmed)"
+    ]
+  },
+  {
+    "id": "AU_pacific_reef_fisheries_processing",
+    "name": "Pacific Reef Fisheries – Ayr Processing Plant",
+    "tier": "landing_processor",
+    "country_iso2": "AU",
+    "canonical_company": "Pacific Reef Fisheries",
+    "coordinates": {
+      "lat": -19.57,
+      "lon": 147.4
+    },
+    "downstream": [
+      {
+        "target_id": "AU_pacific_reef_fisheries_packing",
+        "corridor_id": "AU_road_ayr-local",
+        "resource": "processed farmed prawns (IQF, cooked)",
+        "quantity": 3000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_pacific_reef_fisheries_ayr"
+    ],
+    "resources": [
+      "Fish (farmed)"
+    ]
+  },
+  {
+    "id": "AU_gold_coast_marine_aquaculture_processing",
+    "name": "Gold Coast Marine Aquaculture – Processing (QLD)",
+    "tier": "landing_processor",
+    "country_iso2": "AU",
+    "canonical_company": "Gold Coast Marine Aquaculture",
+    "coordinates": {
+      "lat": -27.88,
+      "lon": 153.38
+    },
+    "downstream": [
+      {
+        "target_id": "AU_gold_coast_marine_aquaculture_packing",
+        "corridor_id": "AU_road_gold-coast-brisbane",
+        "resource": "processed farmed prawns",
+        "quantity": 1500,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_gold_coast_marine_aquaculture_prawn"
+    ],
+    "resources": [
+      "Fish (farmed)"
+    ]
+  },
+  {
+    "id": "AU_australian_prawn_farms_processing",
+    "name": "Australian Prawn Farms – Ilbilbie Processing (QLD)",
+    "tier": "landing_processor",
+    "country_iso2": "AU",
+    "canonical_company": "Australian Prawn Farms",
+    "coordinates": {
+      "lat": -21.53,
+      "lon": 149.38
+    },
+    "downstream": [
+      {
+        "target_id": "AU_australian_prawn_farms_packing",
+        "corridor_id": "AU_road_ilbilbie-local",
+        "resource": "processed farmed prawns",
+        "quantity": 1200,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_australian_prawn_farms_ilbilbie"
+    ],
+    "resources": [
+      "Fish (farmed)"
+    ]
+  },
+  {
+    "id": "AU_huon_aquaculture_packing",
+    "name": "Huon Aquaculture – Packing (Hobart/Parramatta Creek)",
+    "tier": "packer",
+    "country_iso2": "AU",
+    "canonical_company": "Huon Aquaculture",
+    "coordinates": {
+      "lat": -42.88,
+      "lon": 147.33
+    },
+    "downstream": [
+      {
+        "target_id": "AU_woolworths_group",
+        "corridor_id": "AU_road_tasmania-melbourne-freight",
+        "resource": "packed Atlantic salmon (retail & food-service packs)",
+        "quantity": 4000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_coles_group",
+        "corridor_id": "AU_road_tasmania-melbourne-freight",
+        "resource": "packed Atlantic salmon (retail packs)",
+        "quantity": 3500,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_bidfood_australia",
+        "corridor_id": "AU_road_tasmania-melbourne-freight",
+        "resource": "packed Atlantic salmon (food-service packs)",
+        "quantity": 2000,
+        "metric": "t"
+      },
+      {
+        "target_id": "JP_import_distributors",
+        "corridor_id": "INTL_ocean_hobart-tokyo",
+        "resource": "packed Atlantic salmon (export, frozen)",
+        "quantity": 3000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_huon_aquaculture_parramatta_creek"
+    ],
+    "resources": [
+      "Fish (farmed)"
+    ]
+  },
+  {
+    "id": "AU_petuna_aquaculture_packing",
+    "name": "Petuna Aquaculture – Packing (Devonport)",
+    "tier": "packer",
+    "country_iso2": "AU",
+    "canonical_company": "Petuna Aquaculture",
+    "coordinates": {
+      "lat": -41.18,
+      "lon": 146.35
+    },
+    "downstream": [
+      {
+        "target_id": "AU_woolworths_group",
+        "corridor_id": "AU_road_devonport-melbourne-freight",
+        "resource": "packed salmon & trout (retail packs)",
+        "quantity": 2000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_coles_group",
+        "corridor_id": "AU_road_devonport-melbourne-freight",
+        "resource": "packed salmon & trout (retail packs)",
+        "quantity": 1500,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_bidfood_australia",
+        "corridor_id": "AU_road_devonport-melbourne-freight",
+        "resource": "packed salmon & trout (food-service packs)",
+        "quantity": 1000,
+        "metric": "t"
+      },
+      {
+        "target_id": "JP_import_distributors",
+        "corridor_id": "INTL_ocean_hobart-tokyo",
+        "resource": "packed salmon & trout (export)",
+        "quantity": 1000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_petuna_aquaculture_devonport"
+    ],
+    "resources": [
+      "Fish (farmed)"
+    ]
+  },
+  {
+    "id": "AU_clean_seas_seafood_packing",
+    "name": "Clean Seas Seafood – Packing (Royal Park, SA)",
+    "tier": "packer",
+    "country_iso2": "AU",
+    "canonical_company": "Clean Seas Seafood",
+    "coordinates": {
+      "lat": -34.85,
+      "lon": 138.72
+    },
+    "downstream": [
+      {
+        "target_id": "AU_woolworths_group",
+        "corridor_id": "AU_road_adelaide-national",
+        "resource": "packed yellowtail kingfish (retail)",
+        "quantity": 800,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_coles_group",
+        "corridor_id": "AU_road_adelaide-national",
+        "resource": "packed yellowtail kingfish (retail)",
+        "quantity": 600,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_bidfood_australia",
+        "corridor_id": "AU_road_adelaide-national",
+        "resource": "packed yellowtail kingfish (food-service)",
+        "quantity": 500,
+        "metric": "t"
+      },
+      {
+        "target_id": "JP_import_distributors",
+        "corridor_id": "INTL_ocean_adelaide-tokyo",
+        "resource": "packed yellowtail kingfish (export, sashimi grade)",
+        "quantity": 800,
+        "metric": "t"
+      },
+      {
+        "target_id": "US_import_distributors",
+        "corridor_id": "INTL_ocean_adelaide-losangeles",
+        "resource": "packed yellowtail kingfish (export)",
+        "quantity": 500,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_clean_seas_seafood_port_lincoln"
+    ],
+    "resources": [
+      "Fish (farmed)"
+    ]
+  },
+  {
+    "id": "AU_mainstream_aquaculture_packing",
+    "name": "Mainstream Aquaculture – Packing (Werribee, VIC)",
+    "tier": "packer",
+    "country_iso2": "AU",
+    "canonical_company": "Mainstream Aquaculture",
+    "coordinates": {
+      "lat": -37.9,
+      "lon": 144.66
+    },
+    "downstream": [
+      {
+        "target_id": "AU_woolworths_group",
+        "corridor_id": "AU_road_melbourne-national",
+        "resource": "packed barramundi (retail packs)",
+        "quantity": 1200,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_coles_group",
+        "corridor_id": "AU_road_melbourne-national",
+        "resource": "packed barramundi (retail packs)",
+        "quantity": 1000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_bidfood_australia",
+        "corridor_id": "AU_road_melbourne-national",
+        "resource": "packed barramundi (food-service)",
+        "quantity": 800,
+        "metric": "t"
+      },
+      {
+        "target_id": "US_import_distributors",
+        "corridor_id": "INTL_ocean_melbourne-losangeles",
+        "resource": "packed barramundi (export, frozen fillets)",
+        "quantity": 500,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_mainstream_aquaculture_werribee"
+    ],
+    "resources": [
+      "Fish (farmed)"
+    ]
+  },
+  {
+    "id": "AU_humpty_doo_barramundi_packing",
+    "name": "Humpty Doo Barramundi – Packing (NT)",
+    "tier": "packer",
+    "country_iso2": "AU",
+    "canonical_company": "Humpty Doo Barramundi",
+    "coordinates": {
+      "lat": -12.57,
+      "lon": 131.14
+    },
+    "downstream": [
+      {
+        "target_id": "AU_woolworths_group",
+        "corridor_id": "AU_road_darwin-national",
+        "resource": "packed barramundi (retail)",
+        "quantity": 800,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_coles_group",
+        "corridor_id": "AU_road_darwin-national",
+        "resource": "packed barramundi (retail)",
+        "quantity": 700,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_bidfood_australia",
+        "corridor_id": "AU_road_darwin-national",
+        "resource": "packed barramundi (food-service)",
+        "quantity": 600,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_humpty_doo_barramundi_processing"
+    ],
+    "resources": [
+      "Fish (farmed)"
+    ]
+  },
+  {
+    "id": "AU_barramundi_gardens_packing",
+    "name": "Barramundi Gardens – Packing (QLD)",
+    "tier": "packer",
+    "country_iso2": "AU",
+    "canonical_company": "Barramundi Gardens",
+    "coordinates": {
+      "lat": -20.01,
+      "lon": 148.24
+    },
+    "downstream": [
+      {
+        "target_id": "AU_bidfood_australia",
+        "corridor_id": "AU_road_bowen-brisbane",
+        "resource": "packed barramundi (food-service)",
+        "quantity": 450,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_woolworths_group",
+        "corridor_id": "AU_road_bowen-brisbane",
+        "resource": "packed barramundi (retail)",
+        "quantity": 400,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_barramundi_gardens_processing"
+    ],
+    "resources": [
+      "Fish (farmed)"
+    ]
+  },
+  {
+    "id": "AU_sbt_packing_port_lincoln",
+    "name": "SBT Packing / Export Packers – Port Lincoln",
+    "tier": "packer",
+    "country_iso2": "AU",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": -34.73,
+      "lon": 135.86
+    },
+    "downstream": [
+      {
+        "target_id": "JP_import_distributors",
+        "corridor_id": "INTL_air_adelaide-tokyo",
+        "resource": "packed sashimi-grade southern bluefin tuna (chilled loins)",
+        "quantity": 6500,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_bidfood_australia",
+        "corridor_id": "AU_road_port-lincoln-adelaide",
+        "resource": "packed southern bluefin tuna (domestic food-service)",
+        "quantity": 1000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_sashimi_fish_australia"
+    ],
+    "resources": [
+      "Fish (farmed)"
+    ]
+  },
+  {
+    "id": "AU_pacific_reef_fisheries_packing",
+    "name": "Pacific Reef Fisheries – Packing (Ayr, QLD)",
+    "tier": "packer",
+    "country_iso2": "AU",
+    "canonical_company": "Pacific Reef Fisheries",
+    "coordinates": {
+      "lat": -19.57,
+      "lon": 147.4
+    },
+    "downstream": [
+      {
+        "target_id": "AU_woolworths_group",
+        "corridor_id": "AU_road_ayr-brisbane",
+        "resource": "packed farmed prawns (IQF retail)",
+        "quantity": 1000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_coles_group",
+        "corridor_id": "AU_road_ayr-brisbane",
+        "resource": "packed farmed prawns (IQF retail)",
+        "quantity": 800,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_bidfood_australia",
+        "corridor_id": "AU_road_ayr-brisbane",
+        "resource": "packed farmed prawns (food-service)",
+        "quantity": 700,
+        "metric": "t"
+      },
+      {
+        "target_id": "US_import_distributors",
+        "corridor_id": "INTL_ocean_brisbane-losangeles",
+        "resource": "packed farmed prawns (export)",
+        "quantity": 500,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_pacific_reef_fisheries_processing"
+    ],
+    "resources": [
+      "Fish (farmed)"
+    ]
+  },
+  {
+    "id": "AU_gold_coast_marine_aquaculture_packing",
+    "name": "Gold Coast Marine Aquaculture – Packing (QLD)",
+    "tier": "packer",
+    "country_iso2": "AU",
+    "canonical_company": "Gold Coast Marine Aquaculture",
+    "coordinates": {
+      "lat": -27.88,
+      "lon": 153.38
+    },
+    "downstream": [
+      {
+        "target_id": "AU_woolworths_group",
+        "corridor_id": "AU_road_gold-coast-brisbane",
+        "resource": "packed farmed prawns (retail)",
+        "quantity": 600,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_coles_group",
+        "corridor_id": "AU_road_gold-coast-brisbane",
+        "resource": "packed farmed prawns (retail)",
+        "quantity": 500,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_bidfood_australia",
+        "corridor_id": "AU_road_gold-coast-brisbane",
+        "resource": "packed farmed prawns (food-service)",
+        "quantity": 400,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_gold_coast_marine_aquaculture_processing"
+    ],
+    "resources": [
+      "Fish (farmed)"
+    ]
+  },
+  {
+    "id": "AU_australian_prawn_farms_packing",
+    "name": "Australian Prawn Farms – Packing (QLD)",
+    "tier": "packer",
+    "country_iso2": "AU",
+    "canonical_company": "Australian Prawn Farms",
+    "coordinates": {
+      "lat": -21.53,
+      "lon": 149.38
+    },
+    "downstream": [
+      {
+        "target_id": "AU_woolworths_group",
+        "corridor_id": "AU_road_mackay-brisbane",
+        "resource": "packed farmed prawns (retail)",
+        "quantity": 500,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_coles_group",
+        "corridor_id": "AU_road_mackay-brisbane",
+        "resource": "packed farmed prawns (retail)",
+        "quantity": 400,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_bidfood_australia",
+        "corridor_id": "AU_road_mackay-brisbane",
+        "resource": "packed farmed prawns (food-service)",
+        "quantity": 300,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_australian_prawn_farms_processing"
+    ],
+    "resources": [
+      "Fish (farmed)"
+    ]
+  },
+  {
+    "id": "AU_bidfood_australia",
+    "name": "Bidfood Australia – Food-Service Distribution",
+    "tier": "distributor",
+    "country_iso2": "AU",
+    "canonical_company": "Bidfood Australia",
+    "coordinates": {
+      "lat": -33.86,
+      "lon": 151.08
+    },
+    "downstream": [
+      {
+        "target_id": "AU_food_service_outlets",
+        "corridor_id": "AU_road_bidfood-national-dc",
+        "resource": "food-service farmed seafood (salmon, barramundi, prawns, tuna, kingfish, abalone)",
+        "quantity": 8850,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_tassal_group_packing",
+      "AU_huon_aquaculture_packing",
+      "AU_petuna_aquaculture_packing",
+      "AU_clean_seas_seafood_packing",
+      "AU_mainstream_aquaculture_packing",
+      "AU_humpty_doo_barramundi_packing",
+      "AU_barramundi_gardens_packing",
+      "AU_sbt_packing_port_lincoln",
+      "AU_yumbah_aquaculture_packing",
+      "AU_pacific_reef_fisheries_packing",
+      "AU_gold_coast_marine_aquaculture_packing",
+      "AU_australian_prawn_farms_packing"
+    ],
+    "resources": [
+      "Fish (farmed)"
+    ]
+  },
+  {
+    "id": "JP_import_distributors",
+    "name": "Japan – Seafood Import Distributors (Tsukiji/Toyosu market network)",
+    "tier": "distributor",
+    "country_iso2": "JP",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": 35.66,
+      "lon": 139.77
+    },
+    "downstream": [
+      {
+        "target_id": "JP_retail_and_foodservice",
+        "corridor_id": "JP_road_tokyo-national",
+        "resource": "Australian farmed seafood (salmon, kingfish, SBT)",
+        "quantity": 13800,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_tassal_group_packing",
+      "AU_huon_aquaculture_packing",
+      "AU_petuna_aquaculture_packing",
+      "AU_clean_seas_seafood_packing",
+      "AU_sbt_packing_port_lincoln"
+    ],
+    "resources": [
+      "Fish (farmed)"
+    ]
+  },
+  {
+    "id": "US_import_distributors",
+    "name": "USA – Seafood Import Distributors",
+    "tier": "distributor",
+    "country_iso2": "US",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": 33.74,
+      "lon": -118.26
+    },
+    "downstream": [
+      {
+        "target_id": "US_retail_and_foodservice",
+        "corridor_id": "US_road_national-distribution",
+        "resource": "Australian farmed seafood (barramundi, kingfish, prawns)",
+        "quantity": 1500,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_clean_seas_seafood_packing",
+      "AU_mainstream_aquaculture_packing",
+      "AU_pacific_reef_fisheries_packing"
+    ],
+    "resources": [
+      "Fish (farmed)"
+    ]
+  },
+  {
+    "id": "CN_import_distributors",
+    "name": "China – Seafood Import Distributors",
+    "tier": "distributor",
+    "country_iso2": "CN",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": 31.23,
+      "lon": 121.47
+    },
+    "downstream": [
+      {
+        "target_id": "CN_retail_and_foodservice",
+        "corridor_id": "CN_road_shanghai-national",
+        "resource": "Australian farmed abalone (frozen, canned)",
+        "quantity": 550,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_yumbah_aquaculture_packing"
+    ],
+    "resources": [
+      "Fish (farmed)"
+    ]
+  },
+  {
+    "id": "HK_import_distributors",
+    "name": "Hong Kong – Seafood Import Distributors",
+    "tier": "distributor",
+    "country_iso2": "HK",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": 22.29,
+      "lon": 114.17
+    },
+    "downstream": [
+      {
+        "target_id": "HK_retail_and_foodservice",
+        "corridor_id": "HK_road_local-distribution",
+        "resource": "Australian live farmed abalone",
+        "quantity": 150,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_yumbah_aquaculture_packing"
+    ],
+    "resources": [
+      "Fish (farmed)"
+    ]
+  },
+  {
+    "id": "AU_woolworths_supermarkets",
+    "name": "Woolworths Supermarkets (nationwide)",
+    "tier": "retailer",
+    "country_iso2": "AU",
+    "canonical_company": "Woolworths Group",
+    "coordinates": {
+      "lat": -33.87,
+      "lon": 151.21
+    },
+    "downstream": [
+      {
+        "target_id": "AU_residential",
+        "corridor_id": "AU_road_last-mile-retail",
+        "resource": "retail farmed seafood",
+        "quantity": 17300,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_woolworths_group"
+    ],
+    "resources": [
+      "Fish (farmed)"
+    ]
+  },
+  {
+    "id": "AU_coles_supermarkets",
+    "name": "Coles Supermarkets (nationwide)",
+    "tier": "retailer",
+    "country_iso2": "AU",
+    "canonical_company": "Coles Group",
+    "coordinates": {
+      "lat": -37.82,
+      "lon": 144.95
+    },
+    "downstream": [
+      {
+        "target_id": "AU_residential",
+        "corridor_id": "AU_road_last-mile-retail",
+        "resource": "retail farmed seafood",
+        "quantity": 15000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_coles_group"
+    ],
+    "resources": [
+      "Fish (farmed)"
+    ]
+  },
+  {
+    "id": "AU_aldi_stores",
+    "name": "ALDI Stores (nationwide)",
+    "tier": "retailer",
+    "country_iso2": "AU",
+    "canonical_company": "ALDI Australia",
+    "coordinates": {
+      "lat": -33.87,
+      "lon": 151.14
+    },
+    "downstream": [
+      {
+        "target_id": "AU_residential",
+        "corridor_id": "AU_road_last-mile-retail",
+        "resource": "retail farmed salmon",
+        "quantity": 2000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_aldi_australia"
+    ],
+    "resources": [
+      "Fish (farmed)"
+    ]
+  },
+  {
+    "id": "AU_food_service_outlets",
+    "name": "Australian Food-Service Outlets (restaurants, hotels, catering)",
+    "tier": "retailer",
+    "country_iso2": "AU",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": -33.87,
+      "lon": 151.21
+    },
+    "downstream": [
+      {
+        "target_id": "AU_commercial",
+        "corridor_id": "AU_road_last-mile-foodservice",
+        "resource": "food-service farmed seafood",
+        "quantity": 8850,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_bidfood_australia"
+    ],
+    "resources": [
+      "Fish (farmed)"
+    ]
+  },
+  {
+    "id": "JP_retail_and_foodservice",
+    "name": "Japan Retail & Food-Service (supermarkets, sushi restaurants)",
+    "tier": "retailer",
+    "country_iso2": "JP",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": 35.68,
+      "lon": 139.76
+    },
+    "downstream": [
+      {
+        "target_id": "JP_residential",
+        "corridor_id": "JP_road_last-mile",
+        "resource": "Australian farmed seafood (SBT sashimi, salmon, kingfish)",
+        "quantity": 8000,
+        "metric": "t"
+      },
+      {
+        "target_id": "JP_commercial",
+        "corridor_id": "JP_road_last-mile",
+        "resource": "Australian farmed seafood (SBT sashimi, salmon, kingfish)",
+        "quantity": 5800,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "JP_import_distributors"
+    ],
+    "resources": [
+      "Fish (farmed)"
+    ]
+  },
+  {
+    "id": "US_retail_and_foodservice",
+    "name": "US Retail & Food-Service",
+    "tier": "retailer",
+    "country_iso2": "US",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": 34.05,
+      "lon": -118.24
+    },
+    "downstream": [
+      {
+        "target_id": "US_residential",
+        "corridor_id": "US_road_last-mile",
+        "resource": "Australian farmed seafood",
+        "quantity": 800,
+        "metric": "t"
+      },
+      {
+        "target_id": "US_commercial",
+        "corridor_id": "US_road_last-mile",
+        "resource": "Australian farmed seafood",
+        "quantity": 700,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "US_import_distributors"
+    ],
+    "resources": [
+      "Fish (farmed)"
+    ]
+  },
+  {
+    "id": "CN_retail_and_foodservice",
+    "name": "China Retail & Food-Service",
+    "tier": "retailer",
+    "country_iso2": "CN",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": 31.23,
+      "lon": 121.47
+    },
+    "downstream": [
+      {
+        "target_id": "CN_residential",
+        "corridor_id": "CN_road_last-mile",
+        "resource": "Australian farmed abalone",
+        "quantity": 350,
+        "metric": "t"
+      },
+      {
+        "target_id": "CN_commercial",
+        "corridor_id": "CN_road_last-mile",
+        "resource": "Australian farmed abalone",
+        "quantity": 200,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "CN_import_distributors"
+    ],
+    "resources": [
+      "Fish (farmed)"
+    ]
+  },
+  {
+    "id": "HK_retail_and_foodservice",
+    "name": "Hong Kong Retail & Food-Service",
+    "tier": "retailer",
+    "country_iso2": "HK",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": 22.29,
+      "lon": 114.17
+    },
+    "downstream": [
+      {
+        "target_id": "HK_commercial",
+        "corridor_id": "HK_road_last-mile",
+        "resource": "Australian live farmed abalone",
+        "quantity": 150,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "HK_import_distributors"
+    ],
+    "resources": [
+      "Fish (farmed)"
+    ]
+  },
+  {
+    "id": "AU_road_dover-huonville",
+    "tier": "transport",
+    "name": "Road – Dover to Huonville (TAS)",
+    "country_iso2": "AU",
+    "operator_id": "AU_toll_group",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "local",
+    "coordinates": {
+      "lat": -43.17,
+      "lon": 147.03
+    }
+  },
+  {
+    "id": "AU_road_strahan-huonville",
+    "tier": "transport",
+    "name": "Road – Strahan to Huonville (TAS)",
+    "country_iso2": "AU",
+    "operator_id": "AU_toll_group",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "regional",
+    "coordinates": {
+      "lat": -42.6,
+      "lon": 146.2
+    }
+  },
+  {
+    "id": "AU_road_triabunna-huonville",
+    "tier": "transport",
+    "name": "Road – Triabunna to Huonville (TAS)",
+    "country_iso2": "AU",
+    "operator_id": "AU_toll_group",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "regional",
+    "coordinates": {
+      "lat": -42.5,
+      "lon": 147.7
+    }
+  },
+  {
+    "id": "AU_road_huon-huonville",
+    "tier": "transport",
+    "name": "Road – Huon River area to Huonville (TAS)",
+    "country_iso2": "AU",
+    "operator_id": "AU_toll_group",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "local",
+    "coordinates": {
+      "lat": -43.1,
+      "lon": 147.05
+    }
+  },
+  {
+    "id": "AU_road_dover-parramatta-creek",
+    "tier": "transport",
+    "name": "Road – Hideaway Bay to Parramatta Creek (TAS)",
+    "country_iso2": "AU",
+    "operator_id": "AU_toll_group",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "local",
+    "coordinates": {
+      "lat": -43.07,
+      "lon": 147.04
+    }
+  },
+  {
+    "id": "AU_road_storm-bay-parramatta-creek",
+    "tier": "transport",
+    "name": "Road – Storm Bay to Parramatta Creek (TAS)",
+    "country_iso2": "AU",
+    "operator_id": "AU_toll_group",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "regional",
+    "coordinates": {
+      "lat": -43,
+      "lon": 147.25
+    }
+  },
+  {
+    "id": "AU_road_strahan-parramatta-creek",
+    "tier": "transport",
+    "name": "Road – Strahan to Parramatta Creek (TAS)",
+    "country_iso2": "AU",
+    "operator_id": "AU_toll_group",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "regional",
+    "coordinates": {
+      "lat": -42.6,
+      "lon": 146.2
+    }
+  },
+  {
+    "id": "AU_road_strahan-devonport",
+    "tier": "transport",
+    "name": "Road – Strahan to Devonport (TAS)",
+    "country_iso2": "AU",
+    "operator_id": "AU_toll_group",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "regional",
+    "coordinates": {
+      "lat": -41.7,
+      "lon": 145.85
+    }
+  },
+  {
+    "id": "AU_road_rowella-devonport",
+    "tier": "transport",
+    "name": "Road – Rowella to Devonport (TAS)",
+    "country_iso2": "AU",
+    "operator_id": "AU_toll_group",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "local",
+    "coordinates": {
+      "lat": -41.18,
+      "lon": 146.6
+    }
+  },
+  {
+    "id": "AU_road_spencer-gulf-port-lincoln",
+    "tier": "transport",
+    "name": "Road – Spencer Gulf farms to Port Lincoln (SA)",
+    "country_iso2": "AU",
+    "operator_id": "AU_toll_group",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "local",
+    "coordinates": {
+      "lat": -34.4,
+      "lon": 136.3
+    },
+    "resources": [
+      "Shellfish (wild)"
+    ],
+    "upstream": [],
+    "downstream": []
+  },
+  {
+    "id": "AU_road_port-augusta-werribee",
+    "tier": "transport",
+    "name": "Road – Port Augusta to Werribee (SA→VIC)",
+    "country_iso2": "AU",
+    "operator_id": "AU_toll_group",
+    "mode": "road",
+    "form": "containerised",
+    "range": "regional",
+    "coordinates": {
+      "lat": -35.2,
+      "lon": 139.5
+    }
+  },
+  {
+    "id": "AU_road_werribee-local",
+    "tier": "transport",
+    "name": "Road – Werribee Farm to Werribee Processing (VIC)",
+    "country_iso2": "AU",
+    "operator_id": "AU_mainstream_aquaculture",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "local",
+    "coordinates": {
+      "lat": -37.89,
+      "lon": 144.66
+    }
+  },
+  {
+    "id": "AU_road_humpty-doo-local",
+    "tier": "transport",
+    "name": "Road – Humpty Doo Farm local (NT)",
+    "country_iso2": "AU",
+    "operator_id": "AU_humpty_doo_barramundi",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "local",
+    "coordinates": {
+      "lat": -12.57,
+      "lon": 131.14
+    }
+  },
+  {
+    "id": "AU_road_bowen-local",
+    "tier": "transport",
+    "name": "Road – Bowen Farm local (QLD)",
+    "country_iso2": "AU",
+    "operator_id": "AU_barramundi_gardens",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "local",
+    "coordinates": {
+      "lat": -20.01,
+      "lon": 148.24
+    }
+  },
+  {
+    "id": "AU_road_port-lincoln-processing",
+    "tier": "transport",
+    "name": "Road – Port Lincoln sea pens to processing (SA)",
+    "country_iso2": "AU",
+    "operator_id": "AU_toll_group",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "local",
+    "coordinates": {
+      "lat": -34.73,
+      "lon": 135.86
+    }
+  },
+  {
+    "id": "AU_road_narrawong-portland",
+    "tier": "transport",
+    "name": "Road – Narrawong to Portland area (VIC)",
+    "country_iso2": "AU",
+    "operator_id": "AU_yumbah_aquaculture",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "local",
+    "coordinates": {
+      "lat": -38.25,
+      "lon": 141.6
+    }
+  },
+  {
+    "id": "AU_road_kangaroo-island-adelaide",
+    "tier": "transport",
+    "name": "Road/Ferry – Kangaroo Island to Adelaide (SA)",
+    "country_iso2": "AU",
+    "operator_id": "AU_sealink_travel",
+    "mode": "road",
+    "form": "containerised",
+    "range": "regional",
+    "coordinates": {
+      "lat": -35.5,
+      "lon": 137.5
+    }
+  },
+  {
+    "id": "AU_road_ayr-townsville",
+    "tier": "transport",
+    "name": "Road – Ayr to Townsville (QLD)",
+    "country_iso2": "AU",
+    "operator_id": "AU_toll_group",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "local",
+    "coordinates": {
+      "lat": -19.5,
+      "lon": 147.35
+    }
+  },
+  {
+    "id": "AU_road_gold-coast-local",
+    "tier": "transport",
+    "name": "Road – Gold Coast farm local (QLD)",
+    "country_iso2": "AU",
+    "operator_id": "AU_gold_coast_marine_aquaculture",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "local",
+    "coordinates": {
+      "lat": -27.88,
+      "lon": 153.38
+    }
+  },
+  {
+    "id": "AU_road_ilbilbie-mackay",
+    "tier": "transport",
+    "name": "Road – Ilbilbie to Mackay (QLD)",
+    "country_iso2": "AU",
+    "operator_id": "AU_toll_group",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "local",
+    "coordinates": {
+      "lat": -21.4,
+      "lon": 149.3
+    }
+  },
+  {
+    "id": "AU_road_huonville-devonport",
+    "tier": "transport",
+    "name": "Road – Huonville to Devonport (TAS)",
+    "country_iso2": "AU",
+    "operator_id": "AU_toll_group",
+    "mode": "road",
+    "form": "containerised",
+    "range": "regional",
+    "coordinates": {
+      "lat": -42.1,
+      "lon": 146.7
+    }
+  },
+  {
+    "id": "AU_road_parramatta-creek-hobart",
+    "tier": "transport",
+    "name": "Road – Parramatta Creek to Hobart (TAS)",
+    "country_iso2": "AU",
+    "operator_id": "AU_toll_group",
+    "mode": "road",
+    "form": "containerised",
+    "range": "local",
+    "coordinates": {
+      "lat": -42.85,
+      "lon": 147.2
+    }
+  },
+  {
+    "id": "AU_road_devonport-local",
+    "tier": "transport",
+    "name": "Road – Devonport processing local (TAS)",
+    "country_iso2": "AU",
+    "operator_id": "AU_petuna_aquaculture",
+    "mode": "road",
+    "form": "containerised",
+    "range": "local",
+    "coordinates": {
+      "lat": -41.18,
+      "lon": 146.35
+    }
+  },
+  {
+    "id": "AU_road_port-lincoln-adelaide",
+    "tier": "transport",
+    "name": "Road – Port Lincoln to Adelaide (SA)",
+    "country_iso2": "AU",
+    "operator_id": "AU_toll_group",
+    "mode": "road",
+    "form": "containerised",
+    "range": "regional",
+    "coordinates": {
+      "lat": -34.2,
+      "lon": 137
+    },
+    "resources": [
+      "Shellfish (wild)"
+    ],
+    "upstream": [],
+    "downstream": []
+  },
+  {
+    "id": "AU_road_werribee-melbourne",
+    "tier": "transport",
+    "name": "Road – Werribee to Melbourne (VIC)",
+    "country_iso2": "AU",
+    "operator_id": "AU_toll_group",
+    "mode": "road",
+    "form": "containerised",
+    "range": "local",
+    "coordinates": {
+      "lat": -37.85,
+      "lon": 144.8
+    }
+  },
+  {
+    "id": "AU_road_humpty-doo-darwin",
+    "tier": "transport",
+    "name": "Road – Humpty Doo to Darwin (NT)",
+    "country_iso2": "AU",
+    "operator_id": "AU_toll_group",
+    "mode": "road",
+    "form": "containerised",
+    "range": "local",
+    "coordinates": {
+      "lat": -12.5,
+      "lon": 131
+    }
+  },
+  {
+    "id": "AU_road_bowen-townsville",
+    "tier": "transport",
+    "name": "Road – Bowen to Townsville (QLD)",
+    "country_iso2": "AU",
+    "operator_id": "AU_toll_group",
+    "mode": "road",
+    "form": "containerised",
+    "range": "regional",
+    "coordinates": {
+      "lat": -19.8,
+      "lon": 147.8
+    }
+  },
+  {
+    "id": "AU_road_port-lincoln-local",
+    "tier": "transport",
+    "name": "Road – Port Lincoln processing local (SA)",
+    "country_iso2": "AU",
+    "operator_id": "AU_toll_group",
+    "mode": "road",
+    "form": "containerised",
+    "range": "local",
+    "coordinates": {
+      "lat": -34.73,
+      "lon": 135.86
+    }
+  },
+  {
+    "id": "AU_road_ayr-local",
+    "tier": "transport",
+    "name": "Road – Ayr processing local (QLD)",
+    "country_iso2": "AU",
+    "operator_id": "AU_pacific_reef_fisheries",
+    "mode": "road",
+    "form": "containerised",
+    "range": "local",
+    "coordinates": {
+      "lat": -19.57,
+      "lon": 147.4
+    }
+  },
+  {
+    "id": "AU_road_gold-coast-brisbane",
+    "tier": "transport",
+    "name": "Road – Gold Coast to Brisbane (QLD)",
+    "country_iso2": "AU",
+    "operator_id": "AU_toll_group",
+    "mode": "road",
+    "form": "containerised",
+    "range": "regional",
+    "coordinates": {
+      "lat": -27.7,
+      "lon": 153.3
+    }
+  },
+  {
+    "id": "AU_road_ilbilbie-local",
+    "tier": "transport",
+    "name": "Road – Ilbilbie processing local (QLD)",
+    "country_iso2": "AU",
+    "operator_id": "AU_australian_prawn_farms",
+    "mode": "road",
+    "form": "containerised",
+    "range": "local",
+    "coordinates": {
+      "lat": -21.53,
+      "lon": 149.38
+    }
+  },
+  {
+    "id": "AU_road_tasmania-melbourne-freight",
+    "tier": "transport",
+    "name": "Road/Sea – Tasmania to Melbourne (Bass Strait crossing via Spirit of Tasmania / Toll)",
+    "country_iso2": "AU",
+    "operator_id": "AU_toll_group",
+    "mode": "road",
+    "form": "containerised",
+    "range": "regional",
+    "coordinates": {
+      "lat": -40,
+      "lon": 146
+    }
+  },
+  {
+    "id": "AU_road_devonport-melbourne-freight",
+    "tier": "transport",
+    "name": "Road/Sea – Devonport to Melbourne (TAS→VIC)",
+    "country_iso2": "AU",
+    "operator_id": "AU_toll_group",
+    "mode": "road",
+    "form": "containerised",
+    "range": "regional",
+    "coordinates": {
+      "lat": -40,
+      "lon": 146
+    }
+  },
+  {
+    "id": "AU_road_darwin-national",
+    "tier": "transport",
+    "name": "Road/Air – Darwin to national DCs (NT→national)",
+    "country_iso2": "AU",
+    "operator_id": "AU_toll_group",
+    "mode": "road",
+    "form": "containerised",
+    "range": "regional",
+    "coordinates": {
+      "lat": -12.46,
+      "lon": 130.84
+    },
+    "resources": [
+      "Shellfish (wild)"
+    ],
+    "upstream": [],
+    "downstream": []
+  },
+  {
+    "id": "AU_road_bowen-brisbane",
+    "tier": "transport",
+    "name": "Road – Bowen to Brisbane (QLD)",
+    "country_iso2": "AU",
+    "operator_id": "AU_toll_group",
+    "mode": "road",
+    "form": "containerised",
+    "range": "regional",
+    "coordinates": {
+      "lat": -23,
+      "lon": 149
+    }
+  },
+  {
+    "id": "AU_road_ayr-brisbane",
+    "tier": "transport",
+    "name": "Road – Ayr to Brisbane (QLD)",
+    "country_iso2": "AU",
+    "operator_id": "AU_toll_group",
+    "mode": "road",
+    "form": "containerised",
+    "range": "regional",
+    "coordinates": {
+      "lat": -22,
+      "lon": 148.5
+    }
+  },
+  {
+    "id": "AU_road_mackay-brisbane",
+    "tier": "transport",
+    "name": "Road – Mackay/Ilbilbie to Brisbane (QLD)",
+    "country_iso2": "AU",
+    "operator_id": "AU_toll_group",
+    "mode": "road",
+    "form": "containerised",
+    "range": "regional",
+    "coordinates": {
+      "lat": -23,
+      "lon": 149.5
+    }
+  },
+  {
+    "id": "AU_road_woolworths-national-dc",
+    "tier": "transport",
+    "name": "Road – Woolworths national DC network",
+    "country_iso2": "AU",
+    "operator_id": "AU_woolworths_group",
+    "mode": "road",
+    "form": "containerised",
+    "range": "regional",
+    "coordinates": {
+      "lat": -33.87,
+      "lon": 151.21
+    }
+  },
+  {
+    "id": "AU_road_coles-national-dc",
+    "tier": "transport",
+    "name": "Road – Coles national DC network",
+    "country_iso2": "AU",
+    "operator_id": "AU_coles_group",
+    "mode": "road",
+    "form": "containerised",
+    "range": "regional",
+    "coordinates": {
+      "lat": -37.82,
+      "lon": 144.95
+    }
+  },
+  {
+    "id": "AU_road_aldi-national-dc",
+    "tier": "transport",
+    "name": "Road – ALDI national DC network",
+    "country_iso2": "AU",
+    "operator_id": "AU_aldi_australia",
+    "mode": "road",
+    "form": "containerised",
+    "range": "regional",
+    "coordinates": {
+      "lat": -33.87,
+      "lon": 151.14
+    }
+  },
+  {
+    "id": "AU_road_bidfood-national-dc",
+    "tier": "transport",
+    "name": "Road – Bidfood national DC network",
+    "country_iso2": "AU",
+    "operator_id": "AU_bidfood_australia",
+    "mode": "road",
+    "form": "containerised",
+    "range": "regional",
+    "coordinates": {
+      "lat": -33.86,
+      "lon": 151.08
+    }
+  },
+  {
+    "id": "AU_road_last-mile-retail",
+    "tier": "transport",
+    "name": "Road – Last-mile retail delivery (AU nationwide)",
+    "country_iso2": "AU",
+    "operator_id": "AU_various_retail",
+    "mode": "road",
+    "form": "containerised",
+    "range": "local",
+    "coordinates": {
+      "lat": -33.87,
+      "lon": 151.21
+    }
+  },
+  {
+    "id": "AU_road_last-mile-foodservice",
+    "tier": "transport",
+    "name": "Road – Last-mile food-service delivery (AU nationwide)",
+    "country_iso2": "AU",
+    "operator_id": "AU_bidfood_australia",
+    "mode": "road",
+    "form": "containerised",
+    "range": "local",
+    "coordinates": {
+      "lat": -33.87,
+      "lon": 151.21
+    }
+  },
+  {
+    "id": "INTL_ocean_hobart-tokyo",
+    "tier": "transport",
+    "name": "Ocean Freight – Hobart/Melbourne to Tokyo (reefer containers)",
+    "country_iso2": "INTL",
+    "operator_id": "INTL_maersk",
+    "mode": "ocean_freight",
+    "form": "containerised",
+    "range": "international",
+    "coordinates": {
+      "lat": -20,
+      "lon": 150
+    }
+  },
+  {
+    "id": "INTL_air_adelaide-tokyo",
+    "tier": "transport",
+    "name": "Air Freight – Adelaide to Tokyo (chilled SBT)",
+    "country_iso2": "INTL",
+    "operator_id": "INTL_japan_airlines_cargo",
+    "mode": "air_freight",
+    "form": "unit_load",
+    "range": "international",
+    "coordinates": {
+      "lat": 5,
+      "lon": 140
+    }
+  },
+  {
+    "id": "INTL_ocean_adelaide-losangeles",
+    "tier": "transport",
+    "name": "Ocean Freight – Adelaide to Los Angeles",
+    "country_iso2": "INTL",
+    "operator_id": "INTL_maersk",
+    "mode": "ocean_freight",
+    "form": "containerised",
+    "range": "international",
+    "coordinates": {
+      "lat": -15,
+      "lon": -170
+    }
+  },
+  {
+    "id": "INTL_ocean_melbourne-losangeles",
+    "tier": "transport",
+    "name": "Ocean Freight – Melbourne to Los Angeles",
+    "country_iso2": "INTL",
+    "operator_id": "INTL_maersk",
+    "mode": "ocean_freight",
+    "form": "containerised",
+    "range": "international",
+    "coordinates": {
+      "lat": -20,
+      "lon": -170
+    }
+  },
+  {
+    "id": "HK_road_local-distribution",
+    "tier": "transport",
+    "name": "Road – Hong Kong local distribution",
+    "country_iso2": "HK",
+    "operator_id": "HK_kerry_logistics",
+    "mode": "road",
+    "form": "containerised",
+    "range": "local",
+    "coordinates": {
+      "lat": 22.29,
+      "lon": 114.17
+    },
+    "resources": [
+      "Shellfish (wild)"
+    ],
+    "upstream": [],
+    "downstream": []
+  },
+  {
+    "id": "JP_road_last-mile",
+    "tier": "transport",
+    "name": "Road – Japan last-mile retail/food-service",
+    "country_iso2": "JP",
+    "operator_id": "JP_yamato_transport",
+    "mode": "road",
+    "form": "containerised",
+    "range": "local",
+    "coordinates": {
+      "lat": 35.68,
+      "lon": 139.76
+    }
+  },
+  {
+    "id": "US_road_last-mile",
+    "tier": "transport",
+    "name": "Road – US last-mile retail/food-service",
+    "country_iso2": "US",
+    "operator_id": "US_sysco",
+    "mode": "road",
+    "form": "containerised",
+    "range": "local",
+    "coordinates": {
+      "lat": 34.05,
+      "lon": -118.24
+    }
+  },
+  {
+    "id": "CN_road_last-mile",
+    "tier": "transport",
+    "name": "Road – China last-mile retail/food-service",
+    "country_iso2": "CN",
+    "operator_id": "CN_sf_cold_chain",
+    "mode": "road",
+    "form": "containerised",
+    "range": "local",
+    "coordinates": {
+      "lat": 31.23,
+      "lon": 121.47
+    }
+  },
+  {
+    "id": "HK_road_last-mile",
+    "tier": "transport",
+    "name": "Road – Hong Kong last-mile",
+    "country_iso2": "HK",
+    "operator_id": "HK_kerry_logistics",
+    "mode": "road",
+    "form": "containerised",
+    "range": "local",
+    "coordinates": {
+      "lat": 22.29,
+      "lon": 114.17
+    }
+  }
+]

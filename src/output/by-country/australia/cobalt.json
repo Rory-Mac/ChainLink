@@ -1,0 +1,1178 @@
+[
+  {
+    "id": "AU_murrin_murrin",
+    "name": "Murrin Murrin Nickel-Cobalt Mine",
+    "tier": "extraction",
+    "country_iso2": "AU",
+    "canonical_company": "Glencore",
+    "coordinates": {
+      "lat": -28.725,
+      "lon": 121.89
+    },
+    "downstream": [
+      {
+        "target_id": "AU_murrin_murrin_refinery",
+        "corridor_id": "AU_conveyor_murrin-murrin-onsite",
+        "resource": "mixed nickel-cobalt hydroxide intermediate",
+        "quantity": 2800,
+        "metric": "t"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Cobalt"
+    ]
+  },
+  {
+    "id": "AU_nyngan_scandium_cobalt",
+    "name": "Nyngan Scandium-Cobalt Project",
+    "tier": "extraction",
+    "country_iso2": "AU",
+    "canonical_company": "Scandium International Mining",
+    "coordinates": {
+      "lat": -31.56,
+      "lon": 147.19
+    },
+    "downstream": [
+      {
+        "target_id": "AU_cobalt_blue_refinery",
+        "corridor_id": "AU_road_nyngan-kwinana",
+        "resource": "cobalt-bearing laterite ore",
+        "quantity": 50,
+        "metric": "t"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Cobalt"
+    ]
+  },
+  {
+    "id": "AU_broken_hill_cobalt",
+    "name": "Broken Hill Cobalt Project (Cobalt Blue)",
+    "tier": "extraction",
+    "country_iso2": "AU",
+    "canonical_company": "Cobalt Blue Holdings",
+    "coordinates": {
+      "lat": -31.8,
+      "lon": 141.5
+    },
+    "downstream": [
+      {
+        "target_id": "AU_cobalt_blue_refinery",
+        "corridor_id": "AU_road_broken-hill-kwinana",
+        "resource": "cobalt-bearing pyrite concentrate",
+        "quantity": 700,
+        "metric": "t"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Cobalt"
+    ]
+  },
+  {
+    "id": "AU_sconi_project",
+    "name": "SCONI (Syerston-Cobalt-Nickel) Project",
+    "tier": "extraction",
+    "country_iso2": "AU",
+    "canonical_company": "Australian Mines",
+    "coordinates": {
+      "lat": -18.88,
+      "lon": 144.83
+    },
+    "downstream": [
+      {
+        "target_id": "AU_sconi_processing_plant",
+        "corridor_id": "AU_road_sconi-townsville",
+        "resource": "nickel-cobalt mixed hydroxide precipitate",
+        "quantity": 1200,
+        "metric": "t"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Cobalt"
+    ]
+  },
+  {
+    "id": "AU_murrin_murrin_refinery",
+    "name": "Murrin Murrin Hydrometallurgical Refinery",
+    "tier": "chemical_processor",
+    "country_iso2": "AU",
+    "canonical_company": "Glencore",
+    "coordinates": {
+      "lat": -28.725,
+      "lon": 121.89
+    },
+    "downstream": [
+      {
+        "target_id": "FI_glencore_nikkelverk",
+        "corridor_id": "INTL_ocean_fremantle-kristiansand",
+        "resource": "cobalt metal briquettes",
+        "quantity": 1500,
+        "metric": "t"
+      },
+      {
+        "target_id": "CN_huayou_cobalt",
+        "corridor_id": "INTL_ocean_fremantle-ningbo",
+        "resource": "cobalt hydroxide intermediate",
+        "quantity": 800,
+        "metric": "t"
+      },
+      {
+        "target_id": "JP_sumitomo_metal_mining",
+        "corridor_id": "INTL_ocean_fremantle-niihama",
+        "resource": "cobalt hydroxide intermediate",
+        "quantity": 500,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_murrin_murrin"
+    ],
+    "resources": [
+      "Cobalt"
+    ]
+  },
+  {
+    "id": "AU_cobalt_blue_refinery",
+    "name": "Cobalt Blue Kwinana Refinery (planned)",
+    "tier": "chemical_processor",
+    "country_iso2": "AU",
+    "canonical_company": "Cobalt Blue Holdings",
+    "coordinates": {
+      "lat": -32.23,
+      "lon": 115.77
+    },
+    "downstream": [
+      {
+        "target_id": "KR_lg_energy_solution",
+        "corridor_id": "INTL_ocean_fremantle-busan",
+        "resource": "cobalt sulfate",
+        "quantity": 500,
+        "metric": "t"
+      },
+      {
+        "target_id": "CN_huayou_cobalt",
+        "corridor_id": "INTL_ocean_fremantle-ningbo",
+        "resource": "cobalt sulfate",
+        "quantity": 250,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_nyngan_scandium_cobalt",
+      "AU_broken_hill_cobalt"
+    ],
+    "resources": [
+      "Cobalt"
+    ]
+  },
+  {
+    "id": "AU_sconi_processing_plant",
+    "name": "SCONI Processing Plant (Townsville)",
+    "tier": "chemical_processor",
+    "country_iso2": "AU",
+    "canonical_company": "Australian Mines",
+    "coordinates": {
+      "lat": -19.25,
+      "lon": 146.77
+    },
+    "downstream": [
+      {
+        "target_id": "KR_sk_on",
+        "corridor_id": "INTL_ocean_townsville-busan",
+        "resource": "cobalt sulfate",
+        "quantity": 800,
+        "metric": "t"
+      },
+      {
+        "target_id": "CN_huayou_cobalt",
+        "corridor_id": "INTL_ocean_townsville-ningbo",
+        "resource": "cobalt sulfate",
+        "quantity": 400,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_sconi_project"
+    ],
+    "resources": [
+      "Cobalt"
+    ]
+  },
+  {
+    "id": "AU_ravensthorpe_processing",
+    "name": "Ravensthorpe Hydromet Plant",
+    "tier": "chemical_processor",
+    "country_iso2": "AU",
+    "canonical_company": "First Quantum Minerals",
+    "coordinates": {
+      "lat": -33.58,
+      "lon": 120.05
+    },
+    "downstream": [
+      {
+        "target_id": "CN_huayou_cobalt",
+        "corridor_id": "INTL_ocean_esperance-ningbo",
+        "resource": "cobalt hydroxide intermediate",
+        "quantity": 350,
+        "metric": "t"
+      },
+      {
+        "target_id": "FI_glencore_nikkelverk",
+        "corridor_id": "INTL_ocean_esperance-kristiansand",
+        "resource": "cobalt hydroxide intermediate",
+        "quantity": 150,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_ravensthorpe_mine"
+    ],
+    "resources": [
+      "Cobalt"
+    ]
+  },
+  {
+    "id": "FI_glencore_nikkelverk",
+    "name": "Glencore Nikkelverk Refinery (Kristiansand)",
+    "tier": "chemical_processor",
+    "country_iso2": "NO",
+    "canonical_company": "Glencore",
+    "coordinates": {
+      "lat": 58.15,
+      "lon": 8
+    },
+    "downstream": [
+      {
+        "target_id": "FI_umicore_kokkola",
+        "corridor_id": "INTL_ocean_kristiansand-kokkola",
+        "resource": "refined cobalt metal",
+        "quantity": 1200,
+        "metric": "t"
+      },
+      {
+        "target_id": "BE_umicore_olen",
+        "corridor_id": "INTL_road_kristiansand-olen",
+        "resource": "refined cobalt metal",
+        "quantity": 450,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_murrin_murrin_refinery",
+      "AU_ravensthorpe_processing"
+    ],
+    "resources": [
+      "Cobalt"
+    ]
+  },
+  {
+    "id": "CN_huayou_cobalt",
+    "name": "Zhejiang Huayou Cobalt (Tongxiang)",
+    "tier": "chemical_processor",
+    "country_iso2": "CN",
+    "canonical_company": "Huayou Cobalt",
+    "coordinates": {
+      "lat": 30.63,
+      "lon": 120.57
+    },
+    "downstream": [
+      {
+        "target_id": "CN_catl",
+        "corridor_id": "CN_road_tongxiang-ningde",
+        "resource": "cobalt sulfate for cathode precursor",
+        "quantity": 1000,
+        "metric": "t"
+      },
+      {
+        "target_id": "CN_byd_battery",
+        "corridor_id": "CN_road_tongxiang-shenzhen",
+        "resource": "cobalt sulfate for cathode precursor",
+        "quantity": 400,
+        "metric": "t"
+      },
+      {
+        "target_id": "KR_lg_energy_solution",
+        "corridor_id": "INTL_ocean_shanghai-busan",
+        "resource": "cobalt sulfate",
+        "quantity": 400,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_murrin_murrin_refinery",
+      "AU_cobalt_blue_refinery",
+      "AU_sconi_processing_plant",
+      "AU_ravensthorpe_processing"
+    ],
+    "resources": [
+      "Cobalt"
+    ]
+  },
+  {
+    "id": "FI_umicore_kokkola",
+    "name": "Umicore Finland (Kokkola)",
+    "tier": "component_maker",
+    "country_iso2": "FI",
+    "canonical_company": "Umicore",
+    "coordinates": {
+      "lat": 63.84,
+      "lon": 23.13
+    },
+    "downstream": [
+      {
+        "target_id": "KR_samsung_sdi",
+        "corridor_id": "INTL_ocean_kokkola-busan",
+        "resource": "NMC cathode precursor materials",
+        "quantity": 700,
+        "metric": "t"
+      },
+      {
+        "target_id": "KR_lg_energy_solution",
+        "corridor_id": "INTL_ocean_kokkola-busan",
+        "resource": "NMC cathode precursor materials",
+        "quantity": 500,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "FI_glencore_nikkelverk"
+    ],
+    "resources": [
+      "Cobalt"
+    ]
+  },
+  {
+    "id": "BE_umicore_olen",
+    "name": "Umicore Olen Refinery (Belgium)",
+    "tier": "component_maker",
+    "country_iso2": "BE",
+    "canonical_company": "Umicore",
+    "coordinates": {
+      "lat": 51.15,
+      "lon": 4.86
+    },
+    "downstream": [
+      {
+        "target_id": "DE_basf_schwarzheide",
+        "corridor_id": "INTL_road_olen-schwarzheide",
+        "resource": "cobalt-containing cathode active materials",
+        "quantity": 300,
+        "metric": "t"
+      },
+      {
+        "target_id": "KR_samsung_sdi",
+        "corridor_id": "INTL_ocean_antwerp-busan",
+        "resource": "cobalt-containing cathode active materials",
+        "quantity": 150,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "FI_glencore_nikkelverk"
+    ],
+    "resources": [
+      "Cobalt"
+    ]
+  },
+  {
+    "id": "KR_lg_energy_solution",
+    "name": "LG Energy Solution (Ochang)",
+    "tier": "component_maker",
+    "country_iso2": "KR",
+    "canonical_company": "LG Energy Solution",
+    "coordinates": {
+      "lat": 36.72,
+      "lon": 127.43
+    },
+    "downstream": [
+      {
+        "target_id": "US_general_motors",
+        "corridor_id": "INTL_ocean_busan-savannah",
+        "resource": "NMC lithium-ion battery cells",
+        "quantity": 600,
+        "metric": "t"
+      },
+      {
+        "target_id": "DE_volkswagen_ag",
+        "corridor_id": "INTL_ocean_busan-hamburg",
+        "resource": "NMC lithium-ion battery cells",
+        "quantity": 350,
+        "metric": "t"
+      },
+      {
+        "target_id": "US_tesla",
+        "corridor_id": "INTL_ocean_busan-losangeles",
+        "resource": "NMC lithium-ion battery cells",
+        "quantity": 250,
+        "metric": "t"
+      },
+      {
+        "target_id": "KR_industrial",
+        "corridor_id": "KR_road_lges-domestic",
+        "resource": "battery packs with graphite anodes",
+        "quantity": 5000,
+        "metric": "t"
+      },
+      {
+        "target_id": "US_industrial",
+        "corridor_id": "INTL_ocean_busan-us",
+        "resource": "battery cells with graphite anodes",
+        "quantity": 5000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_cobalt_blue_refinery",
+      "CN_huayou_cobalt",
+      "FI_umicore_kokkola",
+      "KR_posco_future_m"
+    ],
+    "resources": [
+      "Cobalt",
+      "Graphite"
+    ]
+  },
+  {
+    "id": "KR_sk_on",
+    "name": "SK On (Seosan Battery Plant)",
+    "tier": "component_maker",
+    "country_iso2": "KR",
+    "canonical_company": "SK On",
+    "coordinates": {
+      "lat": 36.78,
+      "lon": 126.45
+    },
+    "downstream": [
+      {
+        "target_id": "US_ford_motor",
+        "corridor_id": "INTL_ocean_busan-newark",
+        "resource": "NMC lithium-ion battery cells",
+        "quantity": 450,
+        "metric": "t"
+      },
+      {
+        "target_id": "DE_volkswagen_ag",
+        "corridor_id": "INTL_ocean_busan-hamburg",
+        "resource": "NMC lithium-ion battery cells",
+        "quantity": 350,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_sconi_processing_plant"
+    ],
+    "resources": [
+      "Cobalt"
+    ]
+  },
+  {
+    "id": "CN_byd_battery",
+    "name": "BYD Battery (Shenzhen)",
+    "tier": "component_maker",
+    "country_iso2": "CN",
+    "canonical_company": "BYD",
+    "coordinates": {
+      "lat": 22.55,
+      "lon": 114.06
+    },
+    "downstream": [
+      {
+        "target_id": "CN_byd_auto",
+        "corridor_id": "CN_road_shenzhen-shenzhen-auto",
+        "resource": "NMC lithium-ion battery packs",
+        "quantity": 400,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "CN_huayou_cobalt"
+    ],
+    "resources": [
+      "Cobalt"
+    ]
+  },
+  {
+    "id": "DE_basf_schwarzheide",
+    "name": "BASF Schwarzheide Cathode Materials Plant",
+    "tier": "component_maker",
+    "country_iso2": "DE",
+    "canonical_company": "BASF",
+    "coordinates": {
+      "lat": 51.48,
+      "lon": 13.87
+    },
+    "downstream": [
+      {
+        "target_id": "DE_volkswagen_ag",
+        "corridor_id": "DE_road_schwarzheide-salzgitter",
+        "resource": "NMC cathode active materials",
+        "quantity": 300,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "BE_umicore_olen"
+    ],
+    "resources": [
+      "Cobalt"
+    ]
+  },
+  {
+    "id": "US_ford_motor",
+    "name": "Ford Motor Company (Dearborn)",
+    "tier": "oem",
+    "country_iso2": "US",
+    "canonical_company": "Ford Motor Company",
+    "coordinates": {
+      "lat": 42.32,
+      "lon": -83.18
+    },
+    "downstream": [
+      {
+        "target_id": "US_residential",
+        "corridor_id": "US_road_ford-us-distribution",
+        "resource": "electric vehicles (Mustang Mach-E, F-150 Lightning)",
+        "quantity": 300,
+        "metric": "t"
+      },
+      {
+        "target_id": "US_commercial",
+        "corridor_id": "US_road_ford-us-distribution",
+        "resource": "commercial electric vehicles (E-Transit)",
+        "quantity": 150,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "KR_sk_on"
+    ],
+    "resources": [
+      "Cobalt"
+    ]
+  },
+  {
+    "id": "US_stellantis",
+    "name": "Stellantis North America (Auburn Hills)",
+    "tier": "oem",
+    "country_iso2": "US",
+    "canonical_company": "Stellantis",
+    "coordinates": {
+      "lat": 42.66,
+      "lon": -83.24
+    },
+    "downstream": [
+      {
+        "target_id": "US_residential",
+        "corridor_id": "US_road_stellantis-us-distribution",
+        "resource": "electric vehicles",
+        "quantity": 250,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "KR_samsung_sdi"
+    ],
+    "resources": [
+      "Cobalt"
+    ]
+  },
+  {
+    "id": "US_rivian",
+    "name": "Rivian Automotive (Normal, Illinois)",
+    "tier": "oem",
+    "country_iso2": "US",
+    "canonical_company": "Rivian",
+    "coordinates": {
+      "lat": 40.51,
+      "lon": -88.99
+    },
+    "downstream": [
+      {
+        "target_id": "US_residential",
+        "corridor_id": "US_road_rivian-us-distribution",
+        "resource": "electric vehicles (R1T, R1S)",
+        "quantity": 120,
+        "metric": "t"
+      },
+      {
+        "target_id": "US_commercial",
+        "corridor_id": "US_road_rivian-us-distribution",
+        "resource": "electric delivery vans (EDV)",
+        "quantity": 80,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "KR_samsung_sdi"
+    ],
+    "resources": [
+      "Cobalt"
+    ]
+  },
+  {
+    "id": "DE_volkswagen_ag",
+    "name": "Volkswagen AG (Wolfsburg / Salzgitter)",
+    "tier": "oem",
+    "country_iso2": "DE",
+    "canonical_company": "Volkswagen AG",
+    "coordinates": {
+      "lat": 52.43,
+      "lon": 10.79
+    },
+    "downstream": [
+      {
+        "target_id": "DE_residential",
+        "corridor_id": "DE_road_vw-eu-distribution",
+        "resource": "electric vehicles (ID. series)",
+        "quantity": 600,
+        "metric": "t"
+      },
+      {
+        "target_id": "INTL_residential",
+        "corridor_id": "INTL_ocean_hamburg-global",
+        "resource": "electric vehicles",
+        "quantity": 400,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "KR_lg_energy_solution",
+      "KR_sk_on",
+      "DE_basf_schwarzheide"
+    ],
+    "resources": [
+      "Cobalt"
+    ]
+  },
+  {
+    "id": "DE_bmw_ag",
+    "name": "BMW AG (Munich)",
+    "tier": "oem",
+    "country_iso2": "DE",
+    "canonical_company": "BMW AG",
+    "coordinates": {
+      "lat": 48.18,
+      "lon": 11.56
+    },
+    "downstream": [
+      {
+        "target_id": "DE_residential",
+        "corridor_id": "DE_road_bmw-eu-distribution",
+        "resource": "electric vehicles (iX, i4, iX3)",
+        "quantity": 400,
+        "metric": "t"
+      },
+      {
+        "target_id": "INTL_residential",
+        "corridor_id": "INTL_ocean_bremerhaven-global",
+        "resource": "electric vehicles",
+        "quantity": 300,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "KR_samsung_sdi",
+      "CN_catl"
+    ],
+    "resources": [
+      "Cobalt"
+    ]
+  },
+  {
+    "id": "CN_nio",
+    "name": "NIO Inc. (Hefei)",
+    "tier": "oem",
+    "country_iso2": "CN",
+    "canonical_company": "NIO",
+    "coordinates": {
+      "lat": 31.82,
+      "lon": 117.25
+    },
+    "downstream": [
+      {
+        "target_id": "CN_residential",
+        "corridor_id": "CN_road_nio-cn-distribution",
+        "resource": "electric vehicles",
+        "quantity": 300,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "CN_catl"
+    ],
+    "resources": [
+      "Cobalt"
+    ]
+  },
+  {
+    "id": "AU_road_nyngan-kwinana",
+    "tier": "transport",
+    "name": "Road haulage Nyngan to processing hub",
+    "country_iso2": "AU",
+    "operator_id": "AU_toll_group",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "regional",
+    "coordinates": {
+      "lat": -31.56,
+      "lon": 147.19
+    }
+  },
+  {
+    "id": "AU_road_broken-hill-kwinana",
+    "tier": "transport",
+    "name": "Road/rail haulage Broken Hill to Kwinana",
+    "country_iso2": "AU",
+    "operator_id": "AU_aurizon",
+    "mode": "rail",
+    "form": "bulk_dry",
+    "range": "regional",
+    "coordinates": {
+      "lat": -32,
+      "lon": 128
+    }
+  },
+  {
+    "id": "AU_road_sconi-townsville",
+    "tier": "transport",
+    "name": "Road haulage SCONI site to Townsville processing",
+    "country_iso2": "AU",
+    "operator_id": "AU_toll_group",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "regional",
+    "coordinates": {
+      "lat": -19.05,
+      "lon": 145.8
+    }
+  },
+  {
+    "id": "INTL_ocean_fremantle-kristiansand",
+    "tier": "transport",
+    "name": "Ocean freight Fremantle to Kristiansand (Norway)",
+    "country_iso2": "INTL",
+    "operator_id": "INTL_maersk",
+    "mode": "ocean_freight",
+    "form": "containerised",
+    "range": "international",
+    "coordinates": {
+      "lat": -10,
+      "lon": 60
+    }
+  },
+  {
+    "id": "INTL_ocean_fremantle-ningbo",
+    "tier": "transport",
+    "name": "Ocean freight Fremantle to Ningbo (China)",
+    "country_iso2": "INTL",
+    "operator_id": "INTL_cosco",
+    "mode": "ocean_freight",
+    "form": "containerised",
+    "range": "international",
+    "coordinates": {
+      "lat": -5,
+      "lon": 115
+    }
+  },
+  {
+    "id": "INTL_ocean_townsville-ningbo",
+    "tier": "transport",
+    "name": "Ocean freight Townsville to Ningbo",
+    "country_iso2": "INTL",
+    "operator_id": "INTL_cosco",
+    "mode": "ocean_freight",
+    "form": "containerised",
+    "range": "international",
+    "coordinates": {
+      "lat": 5,
+      "lon": 130
+    }
+  },
+  {
+    "id": "INTL_ocean_esperance-ningbo",
+    "tier": "transport",
+    "name": "Ocean freight Esperance to Ningbo",
+    "country_iso2": "INTL",
+    "operator_id": "INTL_cosco",
+    "mode": "ocean_freight",
+    "form": "containerised",
+    "range": "international",
+    "coordinates": {
+      "lat": -10,
+      "lon": 115
+    }
+  },
+  {
+    "id": "INTL_ocean_esperance-kristiansand",
+    "tier": "transport",
+    "name": "Ocean freight Esperance to Kristiansand",
+    "country_iso2": "INTL",
+    "operator_id": "INTL_maersk",
+    "mode": "ocean_freight",
+    "form": "containerised",
+    "range": "international",
+    "coordinates": {
+      "lat": -15,
+      "lon": 60
+    }
+  },
+  {
+    "id": "INTL_ocean_kristiansand-kokkola",
+    "tier": "transport",
+    "name": "Ocean freight Kristiansand to Kokkola (Finland)",
+    "country_iso2": "INTL",
+    "operator_id": "INTL_maersk",
+    "mode": "ocean_freight",
+    "form": "containerised",
+    "range": "international",
+    "coordinates": {
+      "lat": 61,
+      "lon": 12
+    }
+  },
+  {
+    "id": "INTL_road_kristiansand-olen",
+    "tier": "transport",
+    "name": "Road/sea freight Kristiansand to Olen (Belgium)",
+    "country_iso2": "INTL",
+    "operator_id": "INTL_dhl_freight",
+    "mode": "road",
+    "form": "containerised",
+    "range": "international",
+    "coordinates": {
+      "lat": 54,
+      "lon": 6
+    }
+  },
+  {
+    "id": "CN_road_tongxiang-ningde",
+    "tier": "transport",
+    "name": "Road freight Tongxiang to Ningde (CATL)",
+    "country_iso2": "CN",
+    "operator_id": "CN_sinotrans",
+    "mode": "road",
+    "form": "containerised",
+    "range": "regional",
+    "coordinates": {
+      "lat": 28.5,
+      "lon": 120
+    }
+  },
+  {
+    "id": "CN_road_tongxiang-shenzhen",
+    "tier": "transport",
+    "name": "Road freight Tongxiang to Shenzhen (BYD)",
+    "country_iso2": "CN",
+    "operator_id": "CN_sinotrans",
+    "mode": "road",
+    "form": "containerised",
+    "range": "regional",
+    "coordinates": {
+      "lat": 26.5,
+      "lon": 117
+    }
+  },
+  {
+    "id": "INTL_ocean_kokkola-busan",
+    "tier": "transport",
+    "name": "Ocean freight Kokkola to Busan",
+    "country_iso2": "INTL",
+    "operator_id": "INTL_maersk",
+    "mode": "ocean_freight",
+    "form": "containerised",
+    "range": "international",
+    "coordinates": {
+      "lat": 45,
+      "lon": 60
+    }
+  },
+  {
+    "id": "INTL_road_olen-schwarzheide",
+    "tier": "transport",
+    "name": "Road freight Olen (Belgium) to Schwarzheide (Germany)",
+    "country_iso2": "INTL",
+    "operator_id": "INTL_dhl_freight",
+    "mode": "road",
+    "form": "containerised",
+    "range": "international",
+    "coordinates": {
+      "lat": 51.3,
+      "lon": 9
+    }
+  },
+  {
+    "id": "INTL_ocean_antwerp-busan",
+    "tier": "transport",
+    "name": "Ocean freight Antwerp to Busan",
+    "country_iso2": "INTL",
+    "operator_id": "INTL_msc",
+    "mode": "ocean_freight",
+    "form": "containerised",
+    "range": "international",
+    "coordinates": {
+      "lat": 30,
+      "lon": 60
+    }
+  },
+  {
+    "id": "INTL_ocean_busan-newark",
+    "tier": "transport",
+    "name": "Ocean freight Busan to Newark (US East Coast)",
+    "country_iso2": "INTL",
+    "operator_id": "INTL_msc",
+    "mode": "ocean_freight",
+    "form": "containerised",
+    "range": "international",
+    "coordinates": {
+      "lat": 25,
+      "lon": -150
+    }
+  },
+  {
+    "id": "INTL_ocean_busan-bremerhaven",
+    "tier": "transport",
+    "name": "Ocean freight Busan to Bremerhaven (Germany)",
+    "country_iso2": "INTL",
+    "operator_id": "INTL_maersk",
+    "mode": "ocean_freight",
+    "form": "containerised",
+    "range": "international",
+    "coordinates": {
+      "lat": 30,
+      "lon": 55
+    }
+  },
+  {
+    "id": "CN_road_ningde-hefei",
+    "tier": "transport",
+    "name": "Road freight Ningde to Hefei (NIO)",
+    "country_iso2": "CN",
+    "operator_id": "CN_sinotrans",
+    "mode": "road",
+    "form": "unit_load",
+    "range": "regional",
+    "coordinates": {
+      "lat": 29,
+      "lon": 118.5
+    }
+  },
+  {
+    "id": "CN_road_shenzhen-shenzhen-auto",
+    "tier": "transport",
+    "name": "Internal logistics BYD Battery to BYD Auto (Shenzhen)",
+    "country_iso2": "CN",
+    "operator_id": "CN_byd_logistics",
+    "mode": "road",
+    "form": "unit_load",
+    "range": "local",
+    "coordinates": {
+      "lat": 22.55,
+      "lon": 114.06
+    }
+  },
+  {
+    "id": "INTL_ocean_kobe-losangeles",
+    "tier": "transport",
+    "name": "Ocean freight Kobe to Los Angeles",
+    "country_iso2": "INTL",
+    "operator_id": "INTL_mol",
+    "mode": "ocean_freight",
+    "form": "containerised",
+    "range": "international",
+    "coordinates": {
+      "lat": 35,
+      "lon": -170
+    }
+  },
+  {
+    "id": "JP_road_osaka-toyota-city",
+    "tier": "transport",
+    "name": "Road freight Osaka to Toyota City",
+    "country_iso2": "JP",
+    "operator_id": "JP_nippon_express",
+    "mode": "road",
+    "form": "unit_load",
+    "range": "regional",
+    "coordinates": {
+      "lat": 34.9,
+      "lon": 136.3
+    }
+  },
+  {
+    "id": "DE_road_schwarzheide-salzgitter",
+    "tier": "transport",
+    "name": "Road freight Schwarzheide to Salzgitter (VW)",
+    "country_iso2": "DE",
+    "operator_id": "DE_dhl_freight",
+    "mode": "road",
+    "form": "containerised",
+    "range": "regional",
+    "coordinates": {
+      "lat": 51.9,
+      "lon": 11.5
+    }
+  },
+  {
+    "id": "US_road_tesla-us-distribution",
+    "tier": "transport",
+    "name": "Tesla US road distribution network",
+    "country_iso2": "US",
+    "operator_id": "US_tesla_logistics",
+    "mode": "road",
+    "form": "unit_load",
+    "range": "regional",
+    "coordinates": {
+      "lat": 37.49,
+      "lon": -121.94
+    }
+  },
+  {
+    "id": "INTL_ocean_losangeles-global",
+    "tier": "transport",
+    "name": "Ocean freight Los Angeles to global markets",
+    "country_iso2": "INTL",
+    "operator_id": "INTL_maersk",
+    "mode": "ocean_freight",
+    "form": "unit_load",
+    "range": "international",
+    "coordinates": {
+      "lat": 33.74,
+      "lon": -118.27
+    },
+    "resources": [
+      "Tantalum"
+    ],
+    "upstream": [],
+    "downstream": []
+  },
+  {
+    "id": "US_road_gm-us-distribution",
+    "tier": "transport",
+    "name": "GM US road distribution network",
+    "country_iso2": "US",
+    "operator_id": "US_gm_logistics",
+    "mode": "road",
+    "form": "unit_load",
+    "range": "regional",
+    "coordinates": {
+      "lat": 42.33,
+      "lon": -83.05
+    }
+  },
+  {
+    "id": "US_road_ford-us-distribution",
+    "tier": "transport",
+    "name": "Ford US road distribution network",
+    "country_iso2": "US",
+    "operator_id": "US_ford_logistics",
+    "mode": "road",
+    "form": "unit_load",
+    "range": "regional",
+    "coordinates": {
+      "lat": 42.32,
+      "lon": -83.18
+    }
+  },
+  {
+    "id": "US_road_stellantis-us-distribution",
+    "tier": "transport",
+    "name": "Stellantis US road distribution",
+    "country_iso2": "US",
+    "operator_id": "US_stellantis_logistics",
+    "mode": "road",
+    "form": "unit_load",
+    "range": "regional",
+    "coordinates": {
+      "lat": 42.66,
+      "lon": -83.24
+    }
+  },
+  {
+    "id": "US_road_rivian-us-distribution",
+    "tier": "transport",
+    "name": "Rivian US road distribution",
+    "country_iso2": "US",
+    "operator_id": "US_rivian_logistics",
+    "mode": "road",
+    "form": "unit_load",
+    "range": "regional",
+    "coordinates": {
+      "lat": 40.51,
+      "lon": -88.99
+    }
+  },
+  {
+    "id": "DE_road_vw-eu-distribution",
+    "tier": "transport",
+    "name": "VW European road distribution",
+    "country_iso2": "DE",
+    "operator_id": "DE_vw_logistics",
+    "mode": "road",
+    "form": "unit_load",
+    "range": "regional",
+    "coordinates": {
+      "lat": 52.43,
+      "lon": 10.79
+    }
+  },
+  {
+    "id": "DE_road_bmw-eu-distribution",
+    "tier": "transport",
+    "name": "BMW European road distribution",
+    "country_iso2": "DE",
+    "operator_id": "DE_bmw_logistics",
+    "mode": "road",
+    "form": "unit_load",
+    "range": "regional",
+    "coordinates": {
+      "lat": 48.18,
+      "lon": 11.56
+    }
+  },
+  {
+    "id": "CN_road_nio-cn-distribution",
+    "tier": "transport",
+    "name": "NIO China road distribution",
+    "country_iso2": "CN",
+    "operator_id": "CN_nio_logistics",
+    "mode": "road",
+    "form": "unit_load",
+    "range": "regional",
+    "coordinates": {
+      "lat": 31.82,
+      "lon": 117.25
+    }
+  },
+  {
+    "id": "CN_road_byd-cn-distribution",
+    "tier": "transport",
+    "name": "BYD China road distribution",
+    "country_iso2": "CN",
+    "operator_id": "CN_byd_logistics",
+    "mode": "road",
+    "form": "unit_load",
+    "range": "regional",
+    "coordinates": {
+      "lat": 22.55,
+      "lon": 114.06
+    }
+  },
+  {
+    "id": "JP_road_toyota-jp-distribution",
+    "tier": "transport",
+    "name": "Toyota Japan road distribution",
+    "country_iso2": "JP",
+    "operator_id": "JP_toyota_logistics",
+    "mode": "road",
+    "form": "unit_load",
+    "range": "regional",
+    "coordinates": {
+      "lat": 35.08,
+      "lon": 137.16
+    }
+  }
+]

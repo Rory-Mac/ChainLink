@@ -1,0 +1,667 @@
+[
+  {
+    "id": "AU_olympic_dam",
+    "name": "Olympic Dam Uranium Mine",
+    "tier": "extraction",
+    "country_iso2": "AU",
+    "canonical_company": "BHP",
+    "coordinates": {
+      "lat": -30.4467,
+      "lon": 136.8883
+    },
+    "downstream": [
+      {
+        "target_id": "AU_olympic_dam_processing",
+        "corridor_id": "AU_conveyor_olympic-dam-processing",
+        "resource": "uranium-bearing copper ore",
+        "quantity": 3150,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_olympic_dam_smelter",
+        "corridor_id": "AU_conveyor_olympic-dam-internal",
+        "resource": "copper concentrate",
+        "quantity": 180000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_olympic_dam_refinery",
+        "corridor_id": "AU_conveyor_olympic-dam-onsite",
+        "resource": "copper-silver anode slime",
+        "quantity": 80,
+        "metric": "t"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Uranium",
+      "Copper",
+      "Silver"
+    ]
+  },
+  {
+    "id": "AU_beverley_four_mile",
+    "name": "Beverley & Four Mile Uranium Mine (ISL)",
+    "tier": "extraction",
+    "country_iso2": "AU",
+    "canonical_company": "Heathgate Resources",
+    "coordinates": {
+      "lat": -30.1833,
+      "lon": 139.6833
+    },
+    "downstream": [
+      {
+        "target_id": "AU_heathgate_processing",
+        "corridor_id": "AU_pipeline_beverley-processing",
+        "resource": "uranium-loaded resin / pregnant liquor",
+        "quantity": 600,
+        "metric": "t"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Uranium"
+    ]
+  },
+  {
+    "id": "AU_honeymoon",
+    "name": "Honeymoon Uranium Mine (ISL)",
+    "tier": "extraction",
+    "country_iso2": "AU",
+    "canonical_company": "Boss Energy",
+    "coordinates": {
+      "lat": -31.7833,
+      "lon": 140.4833
+    },
+    "downstream": [
+      {
+        "target_id": "AU_boss_energy_processing",
+        "corridor_id": "AU_pipeline_honeymoon-processing",
+        "resource": "uranium-loaded resin / pregnant liquor",
+        "quantity": 850,
+        "metric": "t"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Uranium"
+    ]
+  },
+  {
+    "id": "AU_olympic_dam_processing",
+    "name": "Olympic Dam Hydrometallurgical Plant (U₃O₈ Recovery)",
+    "tier": "refinery",
+    "country_iso2": "AU",
+    "canonical_company": "BHP",
+    "coordinates": {
+      "lat": -30.435,
+      "lon": 136.88
+    },
+    "downstream": [
+      {
+        "target_id": "AU_bhp_uranium_marketing",
+        "corridor_id": "AU_road_olympic-dam-adelaide",
+        "resource": "uranium oxide concentrate (U₃O₈)",
+        "quantity": 3150,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_olympic_dam"
+    ],
+    "resources": [
+      "Uranium"
+    ]
+  },
+  {
+    "id": "AU_heathgate_processing",
+    "name": "Beverley Processing Plant (Heathgate)",
+    "tier": "refinery",
+    "country_iso2": "AU",
+    "canonical_company": "Heathgate Resources",
+    "coordinates": {
+      "lat": -30.18,
+      "lon": 139.68
+    },
+    "downstream": [
+      {
+        "target_id": "AU_heathgate_marketing",
+        "corridor_id": "AU_road_beverley-adelaide",
+        "resource": "uranium oxide concentrate (U₃O₈)",
+        "quantity": 600,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_beverley_four_mile"
+    ],
+    "resources": [
+      "Uranium"
+    ]
+  },
+  {
+    "id": "AU_boss_energy_processing",
+    "name": "Honeymoon Processing Plant (Boss Energy)",
+    "tier": "refinery",
+    "country_iso2": "AU",
+    "canonical_company": "Boss Energy",
+    "coordinates": {
+      "lat": -31.78,
+      "lon": 140.48
+    },
+    "downstream": [
+      {
+        "target_id": "AU_boss_energy_marketing",
+        "corridor_id": "AU_road_honeymoon-adelaide",
+        "resource": "uranium oxide concentrate (U₃O₈)",
+        "quantity": 850,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_honeymoon"
+    ],
+    "resources": [
+      "Uranium"
+    ]
+  },
+  {
+    "id": "AU_bhp_uranium_marketing",
+    "name": "BHP Uranium Marketing (Adelaide)",
+    "tier": "distributor",
+    "country_iso2": "AU",
+    "canonical_company": "BHP",
+    "coordinates": {
+      "lat": -34.9285,
+      "lon": 138.6007
+    },
+    "downstream": [
+      {
+        "target_id": "FR_orano_conversion",
+        "corridor_id": "INTL_ocean_adelaide-narbonne",
+        "resource": "uranium oxide concentrate (U₃O₈)",
+        "quantity": 1100,
+        "metric": "t"
+      },
+      {
+        "target_id": "CA_cameco_conversion",
+        "corridor_id": "INTL_ocean_adelaide-portofhope",
+        "resource": "uranium oxide concentrate (U₃O₈)",
+        "quantity": 800,
+        "metric": "t"
+      },
+      {
+        "target_id": "US_converdyn_conversion",
+        "corridor_id": "INTL_ocean_adelaide-metropolis",
+        "resource": "uranium oxide concentrate (U₃O₈)",
+        "quantity": 700,
+        "metric": "t"
+      },
+      {
+        "target_id": "KR_kepco_nuclear_fuel",
+        "corridor_id": "INTL_ocean_adelaide-busan",
+        "resource": "uranium oxide concentrate (U₃O₈)",
+        "quantity": 550,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_olympic_dam_processing"
+    ],
+    "resources": [
+      "Uranium"
+    ]
+  },
+  {
+    "id": "AU_heathgate_marketing",
+    "name": "Heathgate Resources Marketing (Adelaide)",
+    "tier": "distributor",
+    "country_iso2": "AU",
+    "canonical_company": "Heathgate Resources",
+    "coordinates": {
+      "lat": -34.9285,
+      "lon": 138.6007
+    },
+    "downstream": [
+      {
+        "target_id": "US_converdyn_conversion",
+        "corridor_id": "INTL_ocean_adelaide-metropolis",
+        "resource": "uranium oxide concentrate (U₃O₈)",
+        "quantity": 350,
+        "metric": "t"
+      },
+      {
+        "target_id": "FR_orano_conversion",
+        "corridor_id": "INTL_ocean_adelaide-narbonne",
+        "resource": "uranium oxide concentrate (U₃O₈)",
+        "quantity": 250,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_heathgate_processing"
+    ],
+    "resources": [
+      "Uranium"
+    ]
+  },
+  {
+    "id": "AU_boss_energy_marketing",
+    "name": "Boss Energy Marketing (Adelaide)",
+    "tier": "distributor",
+    "country_iso2": "AU",
+    "canonical_company": "Boss Energy",
+    "coordinates": {
+      "lat": -34.9285,
+      "lon": 138.6007
+    },
+    "downstream": [
+      {
+        "target_id": "FR_orano_conversion",
+        "corridor_id": "INTL_ocean_adelaide-narbonne",
+        "resource": "uranium oxide concentrate (U₃O₈)",
+        "quantity": 350,
+        "metric": "t"
+      },
+      {
+        "target_id": "US_converdyn_conversion",
+        "corridor_id": "INTL_ocean_adelaide-metropolis",
+        "resource": "uranium oxide concentrate (U₃O₈)",
+        "quantity": 300,
+        "metric": "t"
+      },
+      {
+        "target_id": "CA_cameco_conversion",
+        "corridor_id": "INTL_ocean_adelaide-portofhope",
+        "resource": "uranium oxide concentrate (U₃O₈)",
+        "quantity": 200,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_boss_energy_processing"
+    ],
+    "resources": [
+      "Uranium"
+    ]
+  },
+  {
+    "id": "FR_orano_conversion",
+    "name": "Orano Malvési & Tricastin Conversion / Enrichment Complex",
+    "tier": "utility",
+    "country_iso2": "FR",
+    "canonical_company": "Orano",
+    "coordinates": {
+      "lat": 44.345,
+      "lon": 4.77
+    },
+    "downstream": [
+      {
+        "target_id": "FR_industrial",
+        "corridor_id": "FR_road_tricastin-edf-plants",
+        "resource": "enriched uranium fuel assemblies (UO₂)",
+        "quantity": 850,
+        "metric": "t"
+      },
+      {
+        "target_id": "INTL_industrial",
+        "corridor_id": "INTL_ocean_marseille-intl",
+        "resource": "enriched uranium fuel (UF₆ / UO₂)",
+        "quantity": 850,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_bhp_uranium_marketing",
+      "AU_heathgate_marketing",
+      "AU_boss_energy_marketing"
+    ],
+    "resources": [
+      "Uranium"
+    ]
+  },
+  {
+    "id": "CA_cameco_conversion",
+    "name": "Cameco Port Hope Conversion Facility",
+    "tier": "utility",
+    "country_iso2": "CA",
+    "canonical_company": "Cameco",
+    "coordinates": {
+      "lat": 43.951,
+      "lon": -78.294
+    },
+    "downstream": [
+      {
+        "target_id": "CA_industrial",
+        "corridor_id": "CA_road_porthope-bruce",
+        "resource": "natural UO₂ fuel bundles (CANDU)",
+        "quantity": 500,
+        "metric": "t"
+      },
+      {
+        "target_id": "US_industrial",
+        "corridor_id": "INTL_road_porthope-us-enrichment",
+        "resource": "uranium hexafluoride (UF₆)",
+        "quantity": 500,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_bhp_uranium_marketing",
+      "AU_boss_energy_marketing"
+    ],
+    "resources": [
+      "Uranium"
+    ]
+  },
+  {
+    "id": "US_converdyn_conversion",
+    "name": "ConverDyn / Honeywell Metropolis Works",
+    "tier": "utility",
+    "country_iso2": "US",
+    "canonical_company": "ConverDyn",
+    "coordinates": {
+      "lat": 37.1512,
+      "lon": -88.7318
+    },
+    "downstream": [
+      {
+        "target_id": "US_industrial",
+        "corridor_id": "US_road_metropolis-enrichment-plants",
+        "resource": "uranium hexafluoride (UF₆) for enrichment",
+        "quantity": 1050,
+        "metric": "t"
+      },
+      {
+        "target_id": "INTL_industrial",
+        "corridor_id": "INTL_ocean_us-gulf-intl",
+        "resource": "uranium hexafluoride (UF₆)",
+        "quantity": 300,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_bhp_uranium_marketing",
+      "AU_heathgate_marketing",
+      "AU_boss_energy_marketing"
+    ],
+    "resources": [
+      "Uranium"
+    ]
+  },
+  {
+    "id": "KR_kepco_nuclear_fuel",
+    "name": "KEPCO Nuclear Fuel (KNF) Daejeon Plant",
+    "tier": "utility",
+    "country_iso2": "KR",
+    "canonical_company": "KEPCO Nuclear Fuel",
+    "coordinates": {
+      "lat": 36.3504,
+      "lon": 127.3845
+    },
+    "downstream": [
+      {
+        "target_id": "KR_industrial",
+        "corridor_id": "KR_road_daejeon-nuclear-plants",
+        "resource": "nuclear fuel assemblies (UO₂)",
+        "quantity": 550,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_bhp_uranium_marketing"
+    ],
+    "resources": [
+      "Uranium"
+    ]
+  },
+  {
+    "id": "AU_conveyor_olympic-dam-processing",
+    "tier": "transport",
+    "name": "Olympic Dam Mine to Hydrometallurgical Plant Conveyor/Road",
+    "country_iso2": "AU",
+    "operator_id": "AU_bhp",
+    "mode": "conveyor",
+    "form": "bulk_dry",
+    "range": "local",
+    "coordinates": {
+      "lat": -30.44,
+      "lon": 136.885
+    }
+  },
+  {
+    "id": "AU_pipeline_beverley-processing",
+    "tier": "transport",
+    "name": "Beverley/Four Mile ISL Wellfield to Processing Plant Pipeline",
+    "country_iso2": "AU",
+    "operator_id": "AU_heathgate_resources",
+    "mode": "pipeline",
+    "form": "bulk_liquid",
+    "range": "local",
+    "coordinates": {
+      "lat": -30.182,
+      "lon": 139.682
+    }
+  },
+  {
+    "id": "AU_pipeline_honeymoon-processing",
+    "tier": "transport",
+    "name": "Honeymoon ISL Wellfield to Processing Plant Pipeline",
+    "country_iso2": "AU",
+    "operator_id": "AU_boss_energy",
+    "mode": "pipeline",
+    "form": "bulk_liquid",
+    "range": "local",
+    "coordinates": {
+      "lat": -31.782,
+      "lon": 140.481
+    }
+  },
+  {
+    "id": "AU_road_olympic-dam-adelaide",
+    "tier": "transport",
+    "name": "Olympic Dam to Port Adelaide Road Transport",
+    "country_iso2": "AU",
+    "operator_id": "AU_bhp",
+    "mode": "road",
+    "form": "containerised",
+    "range": "regional",
+    "coordinates": {
+      "lat": -32.5,
+      "lon": 137.8
+    },
+    "resources": [
+      "Copper",
+      "Mineral-Bearing Land"
+    ],
+    "upstream": [],
+    "downstream": []
+  },
+  {
+    "id": "AU_road_beverley-adelaide",
+    "tier": "transport",
+    "name": "Beverley to Port Adelaide Road Transport",
+    "country_iso2": "AU",
+    "operator_id": "AU_heathgate_resources",
+    "mode": "road",
+    "form": "containerised",
+    "range": "regional",
+    "coordinates": {
+      "lat": -32.5,
+      "lon": 139.1
+    }
+  },
+  {
+    "id": "AU_road_honeymoon-adelaide",
+    "tier": "transport",
+    "name": "Honeymoon to Port Adelaide Road Transport",
+    "country_iso2": "AU",
+    "operator_id": "AU_boss_energy",
+    "mode": "road",
+    "form": "containerised",
+    "range": "regional",
+    "coordinates": {
+      "lat": -33.3,
+      "lon": 139.5
+    }
+  },
+  {
+    "id": "INTL_ocean_adelaide-narbonne",
+    "tier": "transport",
+    "name": "Ocean Freight Adelaide → Sète/Narbonne (France)",
+    "country_iso2": "INTL",
+    "operator_id": "INTL_maersk",
+    "mode": "ocean_freight",
+    "form": "containerised",
+    "range": "international",
+    "coordinates": {
+      "lat": -10,
+      "lon": 80
+    }
+  },
+  {
+    "id": "INTL_ocean_adelaide-portofhope",
+    "tier": "transport",
+    "name": "Ocean Freight Adelaide → Port Hope (Canada)",
+    "country_iso2": "INTL",
+    "operator_id": "INTL_maersk",
+    "mode": "ocean_freight",
+    "form": "containerised",
+    "range": "international",
+    "coordinates": {
+      "lat": 5,
+      "lon": -50
+    }
+  },
+  {
+    "id": "INTL_ocean_adelaide-metropolis",
+    "tier": "transport",
+    "name": "Ocean Freight Adelaide → US Gulf / Metropolis, IL",
+    "country_iso2": "INTL",
+    "operator_id": "INTL_maersk",
+    "mode": "ocean_freight",
+    "form": "containerised",
+    "range": "international",
+    "coordinates": {
+      "lat": -5,
+      "lon": -120
+    }
+  },
+  {
+    "id": "INTL_ocean_adelaide-busan",
+    "tier": "transport",
+    "name": "Ocean Freight Adelaide → Busan (South Korea)",
+    "country_iso2": "INTL",
+    "operator_id": "INTL_maersk",
+    "mode": "ocean_freight",
+    "form": "containerised",
+    "range": "international",
+    "coordinates": {
+      "lat": -5,
+      "lon": 130
+    },
+    "resources": [
+      "Copper"
+    ],
+    "upstream": [],
+    "downstream": []
+  },
+  {
+    "id": "FR_road_tricastin-edf-plants",
+    "tier": "transport",
+    "name": "Tricastin to EDF Nuclear Power Stations Road Transport",
+    "country_iso2": "FR",
+    "operator_id": "FR_orano",
+    "mode": "road",
+    "form": "containerised",
+    "range": "regional",
+    "coordinates": {
+      "lat": 47,
+      "lon": 2.5
+    }
+  },
+  {
+    "id": "INTL_ocean_marseille-intl",
+    "tier": "transport",
+    "name": "Ocean Freight France → International Customers",
+    "country_iso2": "INTL",
+    "operator_id": "INTL_maersk",
+    "mode": "ocean_freight",
+    "form": "containerised",
+    "range": "international",
+    "coordinates": {
+      "lat": 43.3,
+      "lon": 5.37
+    }
+  },
+  {
+    "id": "CA_road_porthope-bruce",
+    "tier": "transport",
+    "name": "Port Hope to Canadian CANDU Stations Road Transport",
+    "country_iso2": "CA",
+    "operator_id": "CA_cameco",
+    "mode": "road",
+    "form": "containerised",
+    "range": "regional",
+    "coordinates": {
+      "lat": 44.3,
+      "lon": -81
+    }
+  },
+  {
+    "id": "INTL_road_porthope-us-enrichment",
+    "tier": "transport",
+    "name": "Port Hope to US Enrichment Facilities Road Transport",
+    "country_iso2": "INTL",
+    "operator_id": "CA_cameco",
+    "mode": "road",
+    "form": "containerised",
+    "range": "international",
+    "coordinates": {
+      "lat": 43.5,
+      "lon": -79
+    }
+  },
+  {
+    "id": "US_road_metropolis-enrichment-plants",
+    "tier": "transport",
+    "name": "Metropolis Works to US Enrichment & Fuel Fabrication Plants",
+    "country_iso2": "US",
+    "operator_id": "US_converdyn",
+    "mode": "road",
+    "form": "containerised",
+    "range": "regional",
+    "coordinates": {
+      "lat": 37.5,
+      "lon": -84
+    }
+  },
+  {
+    "id": "INTL_ocean_us-gulf-intl",
+    "tier": "transport",
+    "name": "Ocean Freight US Gulf → International Customers",
+    "country_iso2": "INTL",
+    "operator_id": "INTL_maersk",
+    "mode": "ocean_freight",
+    "form": "containerised",
+    "range": "international",
+    "coordinates": {
+      "lat": 29,
+      "lon": -89
+    }
+  },
+  {
+    "id": "KR_road_daejeon-nuclear-plants",
+    "tier": "transport",
+    "name": "KNF Daejeon to Korean Nuclear Power Stations Road Transport",
+    "country_iso2": "KR",
+    "operator_id": "KR_kepco_nuclear_fuel",
+    "mode": "road",
+    "form": "containerised",
+    "range": "regional",
+    "coordinates": {
+      "lat": 35.4,
+      "lon": 129.3
+    }
+  }
+]

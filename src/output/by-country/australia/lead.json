@@ -1,0 +1,1310 @@
+[
+  {
+    "id": "AU_glencore_mount_isa_lead_mine",
+    "name": "Mount Isa Lead-Zinc Mine",
+    "tier": "extraction",
+    "country_iso2": "AU",
+    "canonical_company": "Glencore",
+    "coordinates": {
+      "lat": -20.7264,
+      "lon": 139.4927
+    },
+    "downstream": [
+      {
+        "target_id": "AU_glencore_mount_isa_smelter",
+        "corridor_id": "AU_conveyor_mount-isa-mine-to-smelter",
+        "resource": "lead concentrate",
+        "quantity": 100000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Lead"
+    ]
+  },
+  {
+    "id": "AU_glencore_george_fisher_mine",
+    "name": "George Fisher Mine",
+    "tier": "extraction",
+    "country_iso2": "AU",
+    "canonical_company": "Glencore",
+    "coordinates": {
+      "lat": -20.65,
+      "lon": 139.48
+    },
+    "downstream": [
+      {
+        "target_id": "AU_glencore_mount_isa_smelter",
+        "corridor_id": "AU_road_george-fisher-to-mount-isa",
+        "resource": "lead concentrate",
+        "quantity": 85000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Lead"
+    ]
+  },
+  {
+    "id": "AU_glencore_lady_loretta_mine",
+    "name": "Lady Loretta Mine",
+    "tier": "extraction",
+    "country_iso2": "AU",
+    "canonical_company": "Glencore",
+    "coordinates": {
+      "lat": -20.5833,
+      "lon": 139.95
+    },
+    "downstream": [
+      {
+        "target_id": "AU_glencore_mount_isa_smelter",
+        "corridor_id": "AU_road_lady-loretta-to-mount-isa",
+        "resource": "lead concentrate",
+        "quantity": 30000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Lead"
+    ]
+  },
+  {
+    "id": "AU_south32_cannington_mine",
+    "name": "Cannington Mine",
+    "tier": "extraction",
+    "country_iso2": "AU",
+    "canonical_company": "South32",
+    "coordinates": {
+      "lat": -21.875,
+      "lon": 140.9083
+    },
+    "downstream": [
+      {
+        "target_id": "AU_glencore_mount_isa_smelter",
+        "corridor_id": "AU_road_cannington-to-mount-isa",
+        "resource": "lead concentrate",
+        "quantity": 60000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_nyrstar_port_pirie_smelter",
+        "corridor_id": "AU_rail_mount-isa-to-townsville",
+        "resource": "lead concentrate",
+        "quantity": 50000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Lead"
+    ]
+  },
+  {
+    "id": "AU_cbl_broken_hill_mine",
+    "name": "Broken Hill Mine (Rasp Mine)",
+    "tier": "extraction",
+    "country_iso2": "AU",
+    "canonical_company": "CBH Resources",
+    "coordinates": {
+      "lat": -31.95,
+      "lon": 141.4667
+    },
+    "downstream": [
+      {
+        "target_id": "AU_nyrstar_port_pirie_smelter",
+        "corridor_id": "AU_rail_broken-hill-to-port-pirie",
+        "resource": "lead concentrate",
+        "quantity": 25000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Lead"
+    ]
+  },
+  {
+    "id": "AU_aurelia_metals_dargues_mine",
+    "name": "Dargues Mine",
+    "tier": "extraction",
+    "country_iso2": "AU",
+    "canonical_company": "Aurelia Metals",
+    "coordinates": {
+      "lat": -35.67,
+      "lon": 149.75
+    },
+    "downstream": [
+      {
+        "target_id": "AU_nyrstar_port_pirie_smelter",
+        "corridor_id": "AU_road_dargues-to-port-pirie",
+        "resource": "lead-gold concentrate",
+        "quantity": 8000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Lead"
+    ]
+  },
+  {
+    "id": "AU_aurelia_metals_peak_mine",
+    "name": "Peak Mine",
+    "tier": "extraction",
+    "country_iso2": "AU",
+    "canonical_company": "Aurelia Metals",
+    "coordinates": {
+      "lat": -32.0167,
+      "lon": 148.1333
+    },
+    "downstream": [
+      {
+        "target_id": "AU_nyrstar_port_pirie_smelter",
+        "corridor_id": "AU_road_peak-to-port-pirie",
+        "resource": "lead concentrate",
+        "quantity": 10000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Lead"
+    ]
+  },
+  {
+    "id": "AU_newcrest_cadia_mine",
+    "name": "Cadia Valley Operations (lead-by-product)",
+    "tier": "extraction",
+    "country_iso2": "AU",
+    "canonical_company": "Newmont",
+    "coordinates": {
+      "lat": -33.4667,
+      "lon": 148.9833
+    },
+    "downstream": [
+      {
+        "target_id": "AU_nyrstar_port_pirie_smelter",
+        "corridor_id": "AU_road_cadia-to-port-pirie",
+        "resource": "lead concentrate",
+        "quantity": 5000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Lead"
+    ]
+  },
+  {
+    "id": "AU_mmg_dugald_river_mine",
+    "name": "Dugald River Mine",
+    "tier": "extraction",
+    "country_iso2": "AU",
+    "canonical_company": "MMG",
+    "coordinates": {
+      "lat": -20.2833,
+      "lon": 139.7333
+    },
+    "downstream": [
+      {
+        "target_id": "AU_nyrstar_port_pirie_smelter",
+        "corridor_id": "AU_rail_mount-isa-to-townsville",
+        "resource": "lead concentrate",
+        "quantity": 20000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Lead"
+    ]
+  },
+  {
+    "id": "AU_glencore_mcarthur_river_mine",
+    "name": "McArthur River Mine",
+    "tier": "extraction",
+    "country_iso2": "AU",
+    "canonical_company": "Glencore",
+    "coordinates": {
+      "lat": -16.4428,
+      "lon": 136.0992
+    },
+    "downstream": [
+      {
+        "target_id": "AU_glencore_mount_isa_smelter",
+        "corridor_id": "AU_road_mcarthur-river-to-bing-bong",
+        "resource": "lead-zinc concentrate",
+        "quantity": 50000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_nyrstar_port_pirie_smelter",
+        "corridor_id": "AU_ocean_bing-bong-to-port-pirie",
+        "resource": "lead-zinc concentrate",
+        "quantity": 30000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Lead"
+    ]
+  },
+  {
+    "id": "AU_glencore_mount_isa_smelter",
+    "name": "Mount Isa Lead Smelter",
+    "tier": "smelter",
+    "country_iso2": "AU",
+    "canonical_company": "Glencore",
+    "coordinates": {
+      "lat": -20.7264,
+      "lon": 139.4927
+    },
+    "downstream": [
+      {
+        "target_id": "AU_nyrstar_port_pirie_refinery",
+        "corridor_id": "AU_rail_mount-isa-to-townsville",
+        "resource": "lead bullion",
+        "quantity": 160000,
+        "metric": "t"
+      },
+      {
+        "target_id": "INTL_lead_concentrate_export_asia",
+        "corridor_id": "AU_rail_mount-isa-to-townsville",
+        "resource": "lead concentrate (surplus)",
+        "quantity": 40000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_glencore_townsville_refinery",
+        "corridor_id": "AU_rail_mount-isa-townsville",
+        "resource": "copper anode, lead bullion, zinc concentrate",
+        "quantity": 400000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_glencore_mount_isa_lead_mine",
+      "AU_glencore_george_fisher_mine",
+      "AU_glencore_lady_loretta_mine",
+      "AU_south32_cannington_mine",
+      "AU_glencore_mcarthur_river_mine",
+      "AU_glencore_mount_isa_management"
+    ],
+    "resources": [
+      "Lead",
+      "Mineral-Bearing Land"
+    ]
+  },
+  {
+    "id": "AU_nyrstar_port_pirie_smelter",
+    "name": "Nyrstar Port Pirie Lead Smelter-Refinery",
+    "tier": "smelter",
+    "country_iso2": "AU",
+    "canonical_company": "Nyrstar",
+    "coordinates": {
+      "lat": -33.1833,
+      "lon": 138.0167
+    },
+    "downstream": [
+      {
+        "target_id": "AU_nyrstar_port_pirie_refinery",
+        "corridor_id": "AU_conveyor_port-pirie-internal",
+        "resource": "lead bullion",
+        "quantity": 180000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_south32_cannington_mine",
+      "AU_cbl_broken_hill_mine",
+      "AU_aurelia_metals_dargues_mine",
+      "AU_aurelia_metals_peak_mine",
+      "AU_newcrest_cadia_mine",
+      "AU_mmg_dugald_river_mine",
+      "AU_glencore_mcarthur_river_mine"
+    ],
+    "resources": [
+      "Lead"
+    ]
+  },
+  {
+    "id": "INTL_lead_concentrate_export_asia",
+    "name": "Lead Concentrate Export — Asia (via Townsville Port)",
+    "tier": "smelter",
+    "country_iso2": "INTL",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": -19.25,
+      "lon": 146.7667
+    },
+    "downstream": [
+      {
+        "target_id": "KR_korea_zinc_onsan_smelter",
+        "corridor_id": "INTL_ocean_townsville-onsan",
+        "resource": "lead concentrate",
+        "quantity": 20000,
+        "metric": "t"
+      },
+      {
+        "target_id": "CN_chinese_lead_smelters",
+        "corridor_id": "INTL_ocean_townsville-shanghai",
+        "resource": "lead concentrate",
+        "quantity": 20000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_glencore_mount_isa_smelter"
+    ],
+    "resources": [
+      "Lead"
+    ]
+  },
+  {
+    "id": "KR_korea_zinc_onsan_smelter",
+    "name": "Korea Zinc Onsan Smelter",
+    "tier": "smelter",
+    "country_iso2": "KR",
+    "canonical_company": "Korea Zinc",
+    "coordinates": {
+      "lat": 35.43,
+      "lon": 129.36
+    },
+    "downstream": [
+      {
+        "target_id": "KR_korea_zinc_refined_lead",
+        "corridor_id": "KR_road_onsan-distribution",
+        "resource": "refined lead",
+        "quantity": 20000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "INTL_lead_concentrate_export_asia"
+    ],
+    "resources": [
+      "Lead"
+    ]
+  },
+  {
+    "id": "CN_chinese_lead_smelters",
+    "name": "Chinese Lead Smelters (various)",
+    "tier": "smelter",
+    "country_iso2": "CN",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": 30.5,
+      "lon": 114.4
+    },
+    "downstream": [
+      {
+        "target_id": "CN_battery_manufacturers",
+        "corridor_id": "CN_road_smelter-to-battery-plants",
+        "resource": "refined lead",
+        "quantity": 20000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "INTL_lead_concentrate_export_asia"
+    ],
+    "resources": [
+      "Lead"
+    ]
+  },
+  {
+    "id": "AU_nyrstar_port_pirie_refinery",
+    "name": "Nyrstar Port Pirie Lead Refinery",
+    "tier": "semi_fabricator",
+    "country_iso2": "AU",
+    "canonical_company": "Nyrstar",
+    "coordinates": {
+      "lat": -33.1833,
+      "lon": 138.0167
+    },
+    "downstream": [
+      {
+        "target_id": "AU_century_yuasa_batteries",
+        "corridor_id": "AU_road_port-pirie-to-adelaide",
+        "resource": "refined lead ingots (99.99%)",
+        "quantity": 60000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_enersys_australia",
+        "corridor_id": "AU_road_port-pirie-to-sydney",
+        "resource": "refined lead ingots",
+        "quantity": 15000,
+        "metric": "t"
+      },
+      {
+        "target_id": "INTL_refined_lead_export_korea",
+        "corridor_id": "INTL_ocean_port-pirie-to-busan",
+        "resource": "refined lead",
+        "quantity": 80000,
+        "metric": "t"
+      },
+      {
+        "target_id": "INTL_refined_lead_export_india",
+        "corridor_id": "INTL_ocean_port-pirie-to-mumbai",
+        "resource": "refined lead",
+        "quantity": 50000,
+        "metric": "t"
+      },
+      {
+        "target_id": "INTL_refined_lead_export_sea",
+        "corridor_id": "INTL_ocean_port-pirie-to-southeast-asia",
+        "resource": "refined lead",
+        "quantity": 40000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_lead_sheet_fabricators",
+        "corridor_id": "AU_road_port-pirie-to-melbourne",
+        "resource": "refined lead",
+        "quantity": 10000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_other_domestic_semifab",
+        "corridor_id": "AU_road_port-pirie-to-adelaide",
+        "resource": "refined lead",
+        "quantity": 5000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_glencore_mount_isa_smelter",
+      "AU_nyrstar_port_pirie_smelter"
+    ],
+    "resources": [
+      "Lead"
+    ]
+  },
+  {
+    "id": "KR_korea_zinc_refined_lead",
+    "name": "Korea Zinc Refined Lead Distribution",
+    "tier": "semi_fabricator",
+    "country_iso2": "KR",
+    "canonical_company": "Korea Zinc",
+    "coordinates": {
+      "lat": 35.43,
+      "lon": 129.36
+    },
+    "downstream": [
+      {
+        "target_id": "KR_battery_manufacturers",
+        "corridor_id": "KR_road_onsan-to-changwon",
+        "resource": "refined lead",
+        "quantity": 20000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "KR_korea_zinc_onsan_smelter"
+    ],
+    "resources": [
+      "Lead"
+    ]
+  },
+  {
+    "id": "INTL_refined_lead_export_korea",
+    "name": "Korean Lead Buyers (via export)",
+    "tier": "semi_fabricator",
+    "country_iso2": "KR",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": 35.1796,
+      "lon": 129.0756
+    },
+    "downstream": [
+      {
+        "target_id": "KR_battery_manufacturers",
+        "corridor_id": "KR_road_busan-distribution",
+        "resource": "refined lead",
+        "quantity": 80000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_nyrstar_port_pirie_refinery"
+    ],
+    "resources": [
+      "Lead"
+    ]
+  },
+  {
+    "id": "INTL_refined_lead_export_india",
+    "name": "Indian Lead Buyers (via export)",
+    "tier": "semi_fabricator",
+    "country_iso2": "IN",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": 19.076,
+      "lon": 72.8777
+    },
+    "downstream": [
+      {
+        "target_id": "IN_battery_manufacturers",
+        "corridor_id": "IN_road_mumbai-distribution",
+        "resource": "refined lead",
+        "quantity": 50000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_nyrstar_port_pirie_refinery"
+    ],
+    "resources": [
+      "Lead"
+    ]
+  },
+  {
+    "id": "INTL_refined_lead_export_sea",
+    "name": "Southeast Asian Lead Buyers (via export)",
+    "tier": "semi_fabricator",
+    "country_iso2": "INTL",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": 1.29,
+      "lon": 103.85
+    },
+    "downstream": [
+      {
+        "target_id": "INTL_sea_battery_manufacturers",
+        "corridor_id": "INTL_road_sea-distribution",
+        "resource": "refined lead",
+        "quantity": 40000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_nyrstar_port_pirie_refinery"
+    ],
+    "resources": [
+      "Lead"
+    ]
+  },
+  {
+    "id": "AU_century_yuasa_batteries",
+    "name": "Century Yuasa Batteries (GS Yuasa / C&D)",
+    "tier": "manufacturer",
+    "country_iso2": "AU",
+    "canonical_company": "Century Yuasa Batteries",
+    "coordinates": {
+      "lat": -27.52,
+      "lon": 153.03
+    },
+    "downstream": [
+      {
+        "target_id": "AU_industrial",
+        "corridor_id": "AU_road_brisbane-national-distribution",
+        "resource": "lead-acid batteries (automotive & industrial)",
+        "quantity": 35000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_residential",
+        "corridor_id": "AU_road_brisbane-national-distribution",
+        "resource": "lead-acid batteries (consumer / automotive replacement)",
+        "quantity": 20000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_commercial",
+        "corridor_id": "AU_road_brisbane-national-distribution",
+        "resource": "lead-acid batteries (UPS, telecom standby)",
+        "quantity": 5000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_nyrstar_port_pirie_refinery"
+    ],
+    "resources": [
+      "Lead"
+    ]
+  },
+  {
+    "id": "AU_enersys_australia",
+    "name": "EnerSys Australia",
+    "tier": "manufacturer",
+    "country_iso2": "AU",
+    "canonical_company": "EnerSys",
+    "coordinates": {
+      "lat": -33.83,
+      "lon": 151.05
+    },
+    "downstream": [
+      {
+        "target_id": "AU_industrial",
+        "corridor_id": "AU_road_sydney-national-distribution",
+        "resource": "industrial lead-acid batteries (motive power, standby)",
+        "quantity": 10000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_infrastructure",
+        "corridor_id": "AU_road_sydney-national-distribution",
+        "resource": "lead-acid batteries (telecom, utilities)",
+        "quantity": 5000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_nyrstar_port_pirie_refinery"
+    ],
+    "resources": [
+      "Lead"
+    ]
+  },
+  {
+    "id": "AU_lead_sheet_fabricators",
+    "name": "Australian Lead Sheet & Alloy Fabricators",
+    "tier": "manufacturer",
+    "country_iso2": "AU",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": -37.8136,
+      "lon": 144.9631
+    },
+    "downstream": [
+      {
+        "target_id": "AU_infrastructure",
+        "corridor_id": "AU_road_melbourne-national-distribution",
+        "resource": "lead sheet, flashing, radiation shielding",
+        "quantity": 7000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_industrial",
+        "corridor_id": "AU_road_melbourne-national-distribution",
+        "resource": "lead alloys, cable sheathing",
+        "quantity": 3000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_nyrstar_port_pirie_refinery"
+    ],
+    "resources": [
+      "Lead"
+    ]
+  },
+  {
+    "id": "AU_other_domestic_semifab",
+    "name": "Other Domestic Lead Semi-Fabricators",
+    "tier": "manufacturer",
+    "country_iso2": "AU",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": -34.9285,
+      "lon": 138.6007
+    },
+    "downstream": [
+      {
+        "target_id": "AU_industrial",
+        "corridor_id": "AU_road_adelaide-regional-distribution",
+        "resource": "lead products (ammunition, weights, solder)",
+        "quantity": 5000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_nyrstar_port_pirie_refinery"
+    ],
+    "resources": [
+      "Lead"
+    ]
+  },
+  {
+    "id": "KR_battery_manufacturers",
+    "name": "Korean Lead-Acid Battery Manufacturers",
+    "tier": "manufacturer",
+    "country_iso2": "KR",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": 35.23,
+      "lon": 128.68
+    },
+    "downstream": [
+      {
+        "target_id": "KR_industrial",
+        "corridor_id": "KR_road_changwon-distribution",
+        "resource": "lead-acid batteries",
+        "quantity": 70000,
+        "metric": "t"
+      },
+      {
+        "target_id": "KR_commercial",
+        "corridor_id": "KR_road_changwon-distribution",
+        "resource": "lead-acid batteries",
+        "quantity": 30000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "KR_korea_zinc_refined_lead",
+      "INTL_refined_lead_export_korea"
+    ],
+    "resources": [
+      "Lead"
+    ]
+  },
+  {
+    "id": "CN_battery_manufacturers",
+    "name": "Chinese Lead-Acid Battery Manufacturers",
+    "tier": "manufacturer",
+    "country_iso2": "CN",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": 30.87,
+      "lon": 120.09
+    },
+    "downstream": [
+      {
+        "target_id": "CN_industrial",
+        "corridor_id": "CN_road_huzhou-distribution",
+        "resource": "lead-acid batteries",
+        "quantity": 15000,
+        "metric": "t"
+      },
+      {
+        "target_id": "CN_residential",
+        "corridor_id": "CN_road_huzhou-distribution",
+        "resource": "lead-acid batteries (e-bike, SLI)",
+        "quantity": 5000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "CN_chinese_lead_smelters"
+    ],
+    "resources": [
+      "Lead"
+    ]
+  },
+  {
+    "id": "IN_battery_manufacturers",
+    "name": "Indian Lead-Acid Battery Manufacturers (Amara Raja, Exide India)",
+    "tier": "manufacturer",
+    "country_iso2": "IN",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": 19.076,
+      "lon": 72.8777
+    },
+    "downstream": [
+      {
+        "target_id": "IN_industrial",
+        "corridor_id": "IN_road_mumbai-national-distribution",
+        "resource": "lead-acid batteries",
+        "quantity": 35000,
+        "metric": "t"
+      },
+      {
+        "target_id": "IN_residential",
+        "corridor_id": "IN_road_mumbai-national-distribution",
+        "resource": "lead-acid batteries (inverter, automotive)",
+        "quantity": 15000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "INTL_refined_lead_export_india"
+    ],
+    "resources": [
+      "Lead"
+    ]
+  },
+  {
+    "id": "INTL_sea_battery_manufacturers",
+    "name": "Southeast Asian Battery & Lead Product Manufacturers",
+    "tier": "manufacturer",
+    "country_iso2": "INTL",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": 13.7563,
+      "lon": 100.5018
+    },
+    "downstream": [
+      {
+        "target_id": "INTL_industrial",
+        "corridor_id": "INTL_road_sea-local-distribution",
+        "resource": "lead-acid batteries",
+        "quantity": 30000,
+        "metric": "t"
+      },
+      {
+        "target_id": "INTL_commercial",
+        "corridor_id": "INTL_road_sea-local-distribution",
+        "resource": "lead-acid batteries",
+        "quantity": 10000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "INTL_refined_lead_export_sea"
+    ],
+    "resources": [
+      "Lead"
+    ]
+  },
+  {
+    "id": "AU_conveyor_mount-isa-mine-to-smelter",
+    "tier": "transport",
+    "name": "Mount Isa Mine to Mount Isa Smelter (internal conveyor/road)",
+    "country_iso2": "AU",
+    "operator_id": "AU_glencore",
+    "mode": "conveyor",
+    "form": "bulk_dry",
+    "range": "local",
+    "coordinates": {
+      "lat": -20.7264,
+      "lon": 139.4927
+    }
+  },
+  {
+    "id": "AU_road_george-fisher-to-mount-isa",
+    "tier": "transport",
+    "name": "George Fisher Mine to Mount Isa Smelter (road)",
+    "country_iso2": "AU",
+    "operator_id": "AU_glencore",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "local",
+    "coordinates": {
+      "lat": -20.69,
+      "lon": 139.486
+    }
+  },
+  {
+    "id": "AU_road_lady-loretta-to-mount-isa",
+    "tier": "transport",
+    "name": "Lady Loretta Mine to Mount Isa (road)",
+    "country_iso2": "AU",
+    "operator_id": "AU_glencore",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "regional",
+    "coordinates": {
+      "lat": -20.65,
+      "lon": 139.72
+    }
+  },
+  {
+    "id": "AU_road_cannington-to-mount-isa",
+    "tier": "transport",
+    "name": "Cannington Mine to Mount Isa (road haulage)",
+    "country_iso2": "AU",
+    "operator_id": "AU_south32",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "regional",
+    "coordinates": {
+      "lat": -21.3,
+      "lon": 140.2
+    }
+  },
+  {
+    "id": "AU_rail_mount-isa-to-townsville",
+    "tier": "transport",
+    "name": "Mount Isa to Townsville Rail Line",
+    "country_iso2": "AU",
+    "operator_id": "AU_aurizon",
+    "mode": "rail",
+    "form": "bulk_dry",
+    "range": "regional",
+    "coordinates": {
+      "lat": -20,
+      "lon": 142.5
+    }
+  },
+  {
+    "id": "AU_rail_broken-hill-to-port-pirie",
+    "tier": "transport",
+    "name": "Broken Hill to Port Pirie Rail",
+    "country_iso2": "AU",
+    "operator_id": "AU_arc_infrastructure",
+    "mode": "rail",
+    "form": "bulk_dry",
+    "range": "regional",
+    "coordinates": {
+      "lat": -32.5,
+      "lon": 139.7
+    }
+  },
+  {
+    "id": "AU_road_dargues-to-port-pirie",
+    "tier": "transport",
+    "name": "Dargues Mine to Port Pirie (road/rail)",
+    "country_iso2": "AU",
+    "operator_id": "AU_contract_haulage",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "regional",
+    "coordinates": {
+      "lat": -34.5,
+      "lon": 145
+    }
+  },
+  {
+    "id": "AU_road_peak-to-port-pirie",
+    "tier": "transport",
+    "name": "Peak Mine to Port Pirie (road/rail)",
+    "country_iso2": "AU",
+    "operator_id": "AU_contract_haulage",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "regional",
+    "coordinates": {
+      "lat": -33,
+      "lon": 143
+    }
+  },
+  {
+    "id": "AU_road_cadia-to-port-pirie",
+    "tier": "transport",
+    "name": "Cadia Valley to Port Pirie (road/rail)",
+    "country_iso2": "AU",
+    "operator_id": "AU_contract_haulage",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "regional",
+    "coordinates": {
+      "lat": -33.7,
+      "lon": 145
+    }
+  },
+  {
+    "id": "AU_road_mcarthur-river-to-bing-bong",
+    "tier": "transport",
+    "name": "McArthur River Mine to Bing Bong Loading Facility",
+    "country_iso2": "AU",
+    "operator_id": "AU_glencore",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "regional",
+    "coordinates": {
+      "lat": -15.9,
+      "lon": 136.3
+    }
+  },
+  {
+    "id": "AU_ocean_bing-bong-to-port-pirie",
+    "tier": "transport",
+    "name": "Bing Bong to Port Pirie (coastal bulk carrier)",
+    "country_iso2": "AU",
+    "operator_id": "AU_glencore",
+    "mode": "ocean_freight",
+    "form": "bulk_dry",
+    "range": "regional",
+    "coordinates": {
+      "lat": -24,
+      "lon": 137
+    }
+  },
+  {
+    "id": "AU_conveyor_port-pirie-internal",
+    "tier": "transport",
+    "name": "Port Pirie Smelter to Refinery (internal)",
+    "country_iso2": "AU",
+    "operator_id": "AU_nyrstar",
+    "mode": "conveyor",
+    "form": "bulk_dry",
+    "range": "local",
+    "coordinates": {
+      "lat": -33.1833,
+      "lon": 138.0167
+    }
+  },
+  {
+    "id": "AU_road_port-pirie-to-adelaide",
+    "tier": "transport",
+    "name": "Port Pirie to Adelaide (road)",
+    "country_iso2": "AU",
+    "operator_id": "AU_contract_haulage",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "regional",
+    "coordinates": {
+      "lat": -34.05,
+      "lon": 138.3
+    }
+  },
+  {
+    "id": "AU_road_port-pirie-to-sydney",
+    "tier": "transport",
+    "name": "Port Pirie to Sydney (road/rail)",
+    "country_iso2": "AU",
+    "operator_id": "AU_contract_haulage",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "regional",
+    "coordinates": {
+      "lat": -33.5,
+      "lon": 145
+    }
+  },
+  {
+    "id": "AU_road_port-pirie-to-melbourne",
+    "tier": "transport",
+    "name": "Port Pirie to Melbourne (road)",
+    "country_iso2": "AU",
+    "operator_id": "AU_contract_haulage",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "regional",
+    "coordinates": {
+      "lat": -35.5,
+      "lon": 140.5
+    }
+  },
+  {
+    "id": "INTL_ocean_port-pirie-to-busan",
+    "tier": "transport",
+    "name": "Port Pirie to Busan (ocean freight)",
+    "country_iso2": "INTL",
+    "operator_id": "INTL_bulk_carrier_operators",
+    "mode": "ocean_freight",
+    "form": "bulk_dry",
+    "range": "international",
+    "coordinates": {
+      "lat": -10,
+      "lon": 130
+    }
+  },
+  {
+    "id": "INTL_ocean_port-pirie-to-mumbai",
+    "tier": "transport",
+    "name": "Port Pirie to Mumbai (ocean freight)",
+    "country_iso2": "INTL",
+    "operator_id": "INTL_bulk_carrier_operators",
+    "mode": "ocean_freight",
+    "form": "bulk_dry",
+    "range": "international",
+    "coordinates": {
+      "lat": -15,
+      "lon": 110
+    }
+  },
+  {
+    "id": "INTL_ocean_port-pirie-to-southeast-asia",
+    "tier": "transport",
+    "name": "Port Pirie to Southeast Asia (ocean freight)",
+    "country_iso2": "INTL",
+    "operator_id": "INTL_bulk_carrier_operators",
+    "mode": "ocean_freight",
+    "form": "bulk_dry",
+    "range": "international",
+    "coordinates": {
+      "lat": -8,
+      "lon": 120
+    }
+  },
+  {
+    "id": "AU_road_brisbane-national-distribution",
+    "tier": "transport",
+    "name": "Brisbane National Road Distribution",
+    "country_iso2": "AU",
+    "operator_id": "AU_contract_haulage",
+    "mode": "road",
+    "form": "containerised",
+    "range": "regional",
+    "coordinates": {
+      "lat": -30,
+      "lon": 150
+    }
+  },
+  {
+    "id": "AU_road_sydney-national-distribution",
+    "tier": "transport",
+    "name": "Sydney National Road Distribution",
+    "country_iso2": "AU",
+    "operator_id": "AU_contract_haulage",
+    "mode": "road",
+    "form": "containerised",
+    "range": "regional",
+    "coordinates": {
+      "lat": -33.5,
+      "lon": 150.5
+    }
+  },
+  {
+    "id": "AU_road_melbourne-national-distribution",
+    "tier": "transport",
+    "name": "Melbourne National Road Distribution",
+    "country_iso2": "AU",
+    "operator_id": "AU_contract_haulage",
+    "mode": "road",
+    "form": "containerised",
+    "range": "regional",
+    "coordinates": {
+      "lat": -37.5,
+      "lon": 144.9
+    }
+  },
+  {
+    "id": "AU_road_adelaide-regional-distribution",
+    "tier": "transport",
+    "name": "Adelaide Regional Road Distribution",
+    "country_iso2": "AU",
+    "operator_id": "AU_contract_haulage",
+    "mode": "road",
+    "form": "containerised",
+    "range": "regional",
+    "coordinates": {
+      "lat": -34.93,
+      "lon": 138.6
+    }
+  },
+  {
+    "id": "KR_road_onsan-distribution",
+    "tier": "transport",
+    "name": "Onsan to Domestic Distribution (road)",
+    "country_iso2": "KR",
+    "operator_id": "KR_domestic_logistics",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "regional",
+    "coordinates": {
+      "lat": 35.43,
+      "lon": 129.36
+    }
+  },
+  {
+    "id": "KR_road_onsan-to-changwon",
+    "tier": "transport",
+    "name": "Onsan to Changwon Battery District (road)",
+    "country_iso2": "KR",
+    "operator_id": "KR_domestic_logistics",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "regional",
+    "coordinates": {
+      "lat": 35.3,
+      "lon": 129
+    }
+  },
+  {
+    "id": "KR_road_busan-distribution",
+    "tier": "transport",
+    "name": "Busan Port to Inland Distribution (road)",
+    "country_iso2": "KR",
+    "operator_id": "KR_domestic_logistics",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "regional",
+    "coordinates": {
+      "lat": 35.18,
+      "lon": 129.08
+    },
+    "resources": [
+      "Salt (rock)"
+    ],
+    "upstream": [],
+    "downstream": []
+  },
+  {
+    "id": "KR_road_changwon-distribution",
+    "tier": "transport",
+    "name": "Changwon Battery District to National Distribution",
+    "country_iso2": "KR",
+    "operator_id": "KR_domestic_logistics",
+    "mode": "road",
+    "form": "containerised",
+    "range": "regional",
+    "coordinates": {
+      "lat": 35.23,
+      "lon": 128.68
+    }
+  },
+  {
+    "id": "CN_road_smelter-to-battery-plants",
+    "tier": "transport",
+    "name": "Chinese Smelters to Battery Manufacturing Plants (road)",
+    "country_iso2": "CN",
+    "operator_id": "CN_domestic_logistics",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "regional",
+    "coordinates": {
+      "lat": 30.6,
+      "lon": 118
+    }
+  },
+  {
+    "id": "CN_road_huzhou-distribution",
+    "tier": "transport",
+    "name": "Huzhou/Zhejiang Battery District Distribution (road)",
+    "country_iso2": "CN",
+    "operator_id": "CN_domestic_logistics",
+    "mode": "road",
+    "form": "containerised",
+    "range": "regional",
+    "coordinates": {
+      "lat": 30.87,
+      "lon": 120.09
+    }
+  },
+  {
+    "id": "IN_road_mumbai-distribution",
+    "tier": "transport",
+    "name": "Mumbai Port to Inland Distribution (road)",
+    "country_iso2": "IN",
+    "operator_id": "IN_domestic_logistics",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "regional",
+    "coordinates": {
+      "lat": 19.08,
+      "lon": 72.88
+    }
+  },
+  {
+    "id": "IN_road_mumbai-national-distribution",
+    "tier": "transport",
+    "name": "Indian National Battery Distribution (road)",
+    "country_iso2": "IN",
+    "operator_id": "IN_domestic_logistics",
+    "mode": "road",
+    "form": "containerised",
+    "range": "regional",
+    "coordinates": {
+      "lat": 21,
+      "lon": 78
+    }
+  },
+  {
+    "id": "INTL_road_sea-distribution",
+    "tier": "transport",
+    "name": "Southeast Asian Port to Inland Distribution (road)",
+    "country_iso2": "INTL",
+    "operator_id": "INTL_sea_logistics",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "regional",
+    "coordinates": {
+      "lat": 5,
+      "lon": 105
+    }
+  },
+  {
+    "id": "INTL_road_sea-local-distribution",
+    "tier": "transport",
+    "name": "Southeast Asian Battery Distribution (road)",
+    "country_iso2": "INTL",
+    "operator_id": "INTL_sea_logistics",
+    "mode": "road",
+    "form": "containerised",
+    "range": "regional",
+    "coordinates": {
+      "lat": 13.76,
+      "lon": 100.5
+    }
+  }
+]

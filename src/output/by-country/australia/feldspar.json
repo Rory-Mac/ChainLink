@@ -1,0 +1,682 @@
+[
+  {
+    "id": "AU_unimin_myponga",
+    "name": "Unimin Myponga Feldspar Mine",
+    "tier": "extraction",
+    "country_iso2": "AU",
+    "canonical_company": "Unimin Australia",
+    "coordinates": {
+      "lat": -35.37,
+      "lon": 138.48
+    },
+    "downstream": [
+      {
+        "target_id": "AU_unimin_processing_sa",
+        "corridor_id": "AU_road_myponga-adelaide",
+        "resource": "crude feldspar ore",
+        "quantity": 40000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Feldspar"
+    ]
+  },
+  {
+    "id": "AU_afs_broken_hill",
+    "name": "Australian Feldspar Broken Hill Mine",
+    "tier": "extraction",
+    "country_iso2": "AU",
+    "canonical_company": "Australian Feldspar",
+    "coordinates": {
+      "lat": -31.95,
+      "lon": 141.47
+    },
+    "downstream": [
+      {
+        "target_id": "AU_afs_processing_nsw",
+        "corridor_id": "AU_road_broken-hill-sydney",
+        "resource": "crude feldspar ore",
+        "quantity": 15000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Feldspar"
+    ]
+  },
+  {
+    "id": "AU_unimin_south_lilburndale",
+    "name": "Unimin South Para / Williamstown Feldspar Quarry",
+    "tier": "extraction",
+    "country_iso2": "AU",
+    "canonical_company": "Unimin Australia",
+    "coordinates": {
+      "lat": -34.67,
+      "lon": 138.89
+    },
+    "downstream": [
+      {
+        "target_id": "AU_unimin_processing_sa",
+        "corridor_id": "AU_road_southpara-adelaide",
+        "resource": "crude feldspar ore",
+        "quantity": 25000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Feldspar"
+    ]
+  },
+  {
+    "id": "AU_sievert_springsure",
+    "name": "Springsure Feldspar Mine (QLD)",
+    "tier": "extraction",
+    "country_iso2": "AU",
+    "canonical_company": "Sievert Mining",
+    "coordinates": {
+      "lat": -24.12,
+      "lon": 148.09
+    },
+    "downstream": [
+      {
+        "target_id": "AU_sievert_processing_qld",
+        "corridor_id": "AU_road_springsure-gladstone",
+        "resource": "crude feldspar ore",
+        "quantity": 10000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Feldspar"
+    ]
+  },
+  {
+    "id": "AU_unimin_processing_sa",
+    "name": "Unimin Adelaide Processing Plant",
+    "tier": "processor",
+    "country_iso2": "AU",
+    "canonical_company": "Unimin Australia",
+    "coordinates": {
+      "lat": -34.93,
+      "lon": 138.6
+    },
+    "downstream": [
+      {
+        "target_id": "AU_adelaide_brighton_cement",
+        "corridor_id": "AU_road_adelaide-local",
+        "resource": "milled feldspar (flux grade)",
+        "quantity": 18000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_csr_glass",
+        "corridor_id": "AU_road_adelaide-sydney",
+        "resource": "milled feldspar (glass grade)",
+        "quantity": 22000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_ceramic_fuel_cells",
+        "corridor_id": "AU_road_adelaide-melbourne",
+        "resource": "milled feldspar (ceramic grade)",
+        "quantity": 12000,
+        "metric": "t"
+      },
+      {
+        "target_id": "INTL_southeast_asia_traders",
+        "corridor_id": "INTL_ocean_adelaide-jakarta",
+        "resource": "processed feldspar",
+        "quantity": 13000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_unimin_myponga",
+      "AU_unimin_south_lilburndale"
+    ],
+    "resources": [
+      "Feldspar"
+    ]
+  },
+  {
+    "id": "AU_afs_processing_nsw",
+    "name": "Australian Feldspar NSW Processing Facility",
+    "tier": "processor",
+    "country_iso2": "AU",
+    "canonical_company": "Australian Feldspar",
+    "coordinates": {
+      "lat": -33.87,
+      "lon": 151.21
+    },
+    "downstream": [
+      {
+        "target_id": "AU_csr_glass",
+        "corridor_id": "AU_road_sydney-local",
+        "resource": "milled feldspar (glass grade)",
+        "quantity": 8000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_brickworks_ltd",
+        "corridor_id": "AU_road_sydney-local",
+        "resource": "milled feldspar (ceramic grade)",
+        "quantity": 7000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_afs_broken_hill"
+    ],
+    "resources": [
+      "Feldspar"
+    ]
+  },
+  {
+    "id": "AU_sievert_processing_qld",
+    "name": "Sievert Mining QLD Processing Facility",
+    "tier": "processor",
+    "country_iso2": "AU",
+    "canonical_company": "Sievert Mining",
+    "coordinates": {
+      "lat": -23.85,
+      "lon": 151.27
+    },
+    "downstream": [
+      {
+        "target_id": "AU_qld_ceramics",
+        "corridor_id": "AU_road_gladstone-brisbane",
+        "resource": "milled feldspar (ceramic grade)",
+        "quantity": 5000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_csr_glass",
+        "corridor_id": "AU_rail_qld-nsw-intermodal",
+        "resource": "milled feldspar (glass grade)",
+        "quantity": 5000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_sievert_springsure"
+    ],
+    "resources": [
+      "Feldspar"
+    ]
+  },
+  {
+    "id": "AU_csr_glass",
+    "name": "CSR Viridian Glass Manufacturing",
+    "tier": "component_maker",
+    "country_iso2": "AU",
+    "canonical_company": "CSR Viridian",
+    "coordinates": {
+      "lat": -33.83,
+      "lon": 151.03
+    },
+    "downstream": [
+      {
+        "target_id": "AU_glass_fabricators_nsw",
+        "corridor_id": "AU_road_sydney-metro",
+        "resource": "flat glass / container glass",
+        "quantity": 28000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_residential",
+        "corridor_id": "AU_road_sydney-domestic",
+        "resource": "architectural flat glass",
+        "quantity": 150000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_commercial",
+        "corridor_id": "AU_road_sydney-domestic",
+        "resource": "commercial glazing glass",
+        "quantity": 100000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_unimin_processing_sa",
+      "AU_afs_processing_nsw",
+      "AU_sievert_processing_qld",
+      "AU_cape_flattery_silica_mines_port",
+      "AU_sibelco_australia_pinkenba"
+    ],
+    "resources": [
+      "Feldspar",
+      "Quartz"
+    ]
+  },
+  {
+    "id": "AU_ceramic_fuel_cells",
+    "name": "Australian Ceramic Manufacturers (Melbourne region)",
+    "tier": "component_maker",
+    "country_iso2": "AU",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": -37.81,
+      "lon": 144.96
+    },
+    "downstream": [
+      {
+        "target_id": "AU_ceramic_products_vic",
+        "corridor_id": "AU_road_melbourne-metro",
+        "resource": "ceramic tiles and sanitaryware",
+        "quantity": 12000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_unimin_processing_sa"
+    ],
+    "resources": [
+      "Feldspar"
+    ]
+  },
+  {
+    "id": "AU_brickworks_ltd",
+    "name": "Brickworks Limited",
+    "tier": "component_maker",
+    "country_iso2": "AU",
+    "canonical_company": "Brickworks Limited",
+    "coordinates": {
+      "lat": -33.84,
+      "lon": 151.05
+    },
+    "downstream": [
+      {
+        "target_id": "AU_brickworks_distribution",
+        "corridor_id": "AU_road_sydney-metro",
+        "resource": "bricks and building products",
+        "quantity": 7000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_afs_processing_nsw"
+    ],
+    "resources": [
+      "Feldspar"
+    ]
+  },
+  {
+    "id": "AU_qld_ceramics",
+    "name": "QLD Ceramics & Tile Producers",
+    "tier": "component_maker",
+    "country_iso2": "AU",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": -27.47,
+      "lon": 153.03
+    },
+    "downstream": [
+      {
+        "target_id": "AU_qld_building_supply",
+        "corridor_id": "AU_road_brisbane-metro",
+        "resource": "ceramic tiles and products",
+        "quantity": 5000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_sievert_processing_qld"
+    ],
+    "resources": [
+      "Feldspar"
+    ]
+  },
+  {
+    "id": "INTL_southeast_asia_traders",
+    "name": "Southeast Asia Feldspar Traders & Processors",
+    "tier": "component_maker",
+    "country_iso2": "INTL",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": -6.2,
+      "lon": 106.85
+    },
+    "downstream": [
+      {
+        "target_id": "INTL_industrial",
+        "corridor_id": "INTL_road_jakarta-distribution",
+        "resource": "ceramics and glass products from feldspar",
+        "quantity": 13000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_unimin_processing_sa"
+    ],
+    "resources": [
+      "Feldspar"
+    ]
+  },
+  {
+    "id": "AU_glass_fabricators_nsw",
+    "name": "Glass Fabricators & Window Manufacturers (NSW)",
+    "tier": "manufacturer",
+    "country_iso2": "AU",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": -33.87,
+      "lon": 151
+    },
+    "downstream": [
+      {
+        "target_id": "AU_infrastructure",
+        "corridor_id": "AU_road_sydney-metro",
+        "resource": "architectural and container glass products",
+        "quantity": 16000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_residential",
+        "corridor_id": "AU_road_sydney-metro",
+        "resource": "residential glass products",
+        "quantity": 12000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_csr_glass"
+    ],
+    "resources": [
+      "Feldspar"
+    ]
+  },
+  {
+    "id": "AU_construction_materials_sa",
+    "name": "SA Construction Material Distributors",
+    "tier": "manufacturer",
+    "country_iso2": "AU",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": -34.92,
+      "lon": 138.6
+    },
+    "downstream": [
+      {
+        "target_id": "AU_infrastructure",
+        "corridor_id": "AU_road_adelaide-local",
+        "resource": "cement and concrete for construction",
+        "quantity": 12000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_residential",
+        "corridor_id": "AU_road_adelaide-local",
+        "resource": "cement and concrete for residential building",
+        "quantity": 6000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_adelaide_brighton_cement"
+    ],
+    "resources": [
+      "Feldspar"
+    ]
+  },
+  {
+    "id": "AU_ceramic_products_vic",
+    "name": "Victorian Ceramic & Sanitaryware Distributors",
+    "tier": "manufacturer",
+    "country_iso2": "AU",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": -37.81,
+      "lon": 144.96
+    },
+    "downstream": [
+      {
+        "target_id": "AU_residential",
+        "corridor_id": "AU_road_melbourne-metro",
+        "resource": "ceramic tiles and sanitaryware for residential",
+        "quantity": 7000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_commercial",
+        "corridor_id": "AU_road_melbourne-metro",
+        "resource": "ceramic tiles and sanitaryware for commercial",
+        "quantity": 5000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_ceramic_fuel_cells"
+    ],
+    "resources": [
+      "Feldspar"
+    ]
+  },
+  {
+    "id": "AU_brickworks_distribution",
+    "name": "Brickworks Distribution Network",
+    "tier": "manufacturer",
+    "country_iso2": "AU",
+    "canonical_company": "Brickworks Limited",
+    "coordinates": {
+      "lat": -33.87,
+      "lon": 151.21
+    },
+    "downstream": [
+      {
+        "target_id": "AU_residential",
+        "corridor_id": "AU_road_sydney-metro",
+        "resource": "bricks for residential construction",
+        "quantity": 5000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_commercial",
+        "corridor_id": "AU_road_sydney-metro",
+        "resource": "bricks for commercial construction",
+        "quantity": 2000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_brickworks_ltd"
+    ],
+    "resources": [
+      "Feldspar"
+    ]
+  },
+  {
+    "id": "AU_qld_building_supply",
+    "name": "QLD Building Materials Supply",
+    "tier": "manufacturer",
+    "country_iso2": "AU",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": -27.47,
+      "lon": 153.03
+    },
+    "downstream": [
+      {
+        "target_id": "AU_residential",
+        "corridor_id": "AU_road_brisbane-metro",
+        "resource": "ceramic tiles for residential",
+        "quantity": 3000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_commercial",
+        "corridor_id": "AU_road_brisbane-metro",
+        "resource": "ceramic tiles for commercial",
+        "quantity": 2000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_qld_ceramics"
+    ],
+    "resources": [
+      "Feldspar"
+    ]
+  },
+  {
+    "id": "AU_road_myponga-adelaide",
+    "tier": "transport",
+    "name": "Road: Myponga to Adelaide",
+    "country_iso2": "AU",
+    "operator_id": "AU_local_haulage",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "local",
+    "coordinates": {
+      "lat": -35.15,
+      "lon": 138.54
+    }
+  },
+  {
+    "id": "AU_road_southpara-adelaide",
+    "tier": "transport",
+    "name": "Road: South Para to Adelaide",
+    "country_iso2": "AU",
+    "operator_id": "AU_local_haulage",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "local",
+    "coordinates": {
+      "lat": -34.8,
+      "lon": 138.75
+    }
+  },
+  {
+    "id": "AU_road_broken-hill-sydney",
+    "tier": "transport",
+    "name": "Road: Broken Hill to Sydney",
+    "country_iso2": "AU",
+    "operator_id": "AU_regional_freight",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "regional",
+    "coordinates": {
+      "lat": -32.9,
+      "lon": 146.3
+    }
+  },
+  {
+    "id": "AU_road_springsure-gladstone",
+    "tier": "transport",
+    "name": "Road: Springsure to Gladstone",
+    "country_iso2": "AU",
+    "operator_id": "AU_qld_freight",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "regional",
+    "coordinates": {
+      "lat": -23.98,
+      "lon": 149.68
+    },
+    "resources": [
+      "Quartz"
+    ],
+    "upstream": [],
+    "downstream": []
+  },
+  {
+    "id": "AU_road_gladstone-brisbane",
+    "tier": "transport",
+    "name": "Road: Gladstone to Brisbane",
+    "country_iso2": "AU",
+    "operator_id": "AU_qld_freight",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "regional",
+    "coordinates": {
+      "lat": -25.66,
+      "lon": 152.15
+    },
+    "resources": [
+      "Magnesium (mineral)",
+      "Oxygen"
+    ],
+    "upstream": [],
+    "downstream": []
+  },
+  {
+    "id": "AU_rail_qld-nsw-intermodal",
+    "tier": "transport",
+    "name": "Rail: QLD to NSW Intermodal",
+    "country_iso2": "AU",
+    "operator_id": "AU_aurizon",
+    "mode": "rail",
+    "form": "bulk_dry",
+    "range": "regional",
+    "coordinates": {
+      "lat": -30.5,
+      "lon": 151.5
+    }
+  },
+  {
+    "id": "INTL_ocean_adelaide-jakarta",
+    "tier": "transport",
+    "name": "Ocean Freight: Adelaide to Jakarta",
+    "country_iso2": "INTL",
+    "operator_id": "INTL_maersk",
+    "mode": "ocean_freight",
+    "form": "bulk_dry",
+    "range": "international",
+    "coordinates": {
+      "lat": -18,
+      "lon": 118
+    }
+  },
+  {
+    "id": "AU_road_melbourne-metro",
+    "tier": "transport",
+    "name": "Road: Melbourne Metro Distribution",
+    "country_iso2": "AU",
+    "operator_id": "AU_local_haulage",
+    "mode": "road",
+    "form": "containerised",
+    "range": "local",
+    "coordinates": {
+      "lat": -37.81,
+      "lon": 144.96
+    },
+    "resources": [
+      "Oxygen"
+    ],
+    "upstream": [],
+    "downstream": []
+  },
+  {
+    "id": "AU_road_brisbane-metro",
+    "tier": "transport",
+    "name": "Road: Brisbane Metro Distribution",
+    "country_iso2": "AU",
+    "operator_id": "AU_local_haulage",
+    "mode": "road",
+    "form": "containerised",
+    "range": "local",
+    "coordinates": {
+      "lat": -27.47,
+      "lon": 153.03
+    }
+  },
+  {
+    "id": "INTL_road_jakarta-distribution",
+    "tier": "transport",
+    "name": "Road: Jakarta Regional Distribution",
+    "country_iso2": "ID",
+    "operator_id": "ID_local_logistics",
+    "mode": "road",
+    "form": "containerised",
+    "range": "regional",
+    "coordinates": {
+      "lat": -6.2,
+      "lon": 106.85
+    }
+  }
+]

@@ -1,0 +1,2055 @@
+[
+  {
+    "id": "AU_visy_green_triangle_plantations",
+    "name": "Visy Green Triangle Softwood Plantations",
+    "tier": "harvester",
+    "country_iso2": "AU",
+    "canonical_company": "Visy Industries",
+    "coordinates": {
+      "lat": -37.83,
+      "lon": 140.78
+    },
+    "downstream": [
+      {
+        "target_id": "AU_visy_tumut_mill",
+        "corridor_id": "AU_road_green-triangle-tumut",
+        "resource": "softwood pulpwood logs",
+        "quantity": 250000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Pulpwood"
+    ]
+  },
+  {
+    "id": "AU_hqp_south_east_sa_plantations",
+    "name": "HQPlantations / OneFortyOne SE South Australia Softwood Plantations",
+    "tier": "harvester",
+    "country_iso2": "AU",
+    "canonical_company": "OneFortyOne",
+    "coordinates": {
+      "lat": -37.75,
+      "lon": 140.55
+    },
+    "downstream": [
+      {
+        "target_id": "AU_opal_maryvale_mill",
+        "corridor_id": "AU_road_se-sa-maryvale",
+        "resource": "softwood pulpwood logs",
+        "quantity": 200000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_portland_chip_export",
+        "corridor_id": "AU_road_green-triangle-portland",
+        "resource": "softwood pulpwood logs",
+        "quantity": 350000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Pulpwood"
+    ]
+  },
+  {
+    "id": "AU_hqp_queensland_plantations",
+    "name": "HQPlantations Queensland Softwood & Hardwood Plantations",
+    "tier": "harvester",
+    "country_iso2": "AU",
+    "canonical_company": "HQPlantations",
+    "coordinates": {
+      "lat": -26.2,
+      "lon": 152.6
+    },
+    "downstream": [
+      {
+        "target_id": "AU_opal_maryvale_mill",
+        "corridor_id": "AU_road_qld-maryvale",
+        "resource": "softwood pulpwood logs",
+        "quantity": 150000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Pulpwood"
+    ]
+  },
+  {
+    "id": "AU_forico_tasmania_plantations",
+    "name": "Forico Tasmania Eucalyptus Plantations",
+    "tier": "harvester",
+    "country_iso2": "AU",
+    "canonical_company": "Forico",
+    "coordinates": {
+      "lat": -41.45,
+      "lon": 146.2
+    },
+    "downstream": [
+      {
+        "target_id": "AU_norske_skog_boyer_mill",
+        "corridor_id": "AU_road_tas-north-boyer",
+        "resource": "eucalyptus hardwood pulpwood logs",
+        "quantity": 180000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_burnie_chip_export",
+        "corridor_id": "AU_road_tas-burnie",
+        "resource": "eucalyptus hardwood pulpwood logs",
+        "quantity": 500000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_long_reach_chip_export",
+        "corridor_id": "AU_road_tas-long-reach",
+        "resource": "eucalyptus hardwood pulpwood logs",
+        "quantity": 400000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_norske_skog_boyer",
+        "corridor_id": "AU_road_northern-tas-boyer",
+        "resource": "hardwood plantation pulpwood (Eucalyptus nitens)",
+        "quantity": 200000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_midway_limited_bell_bay",
+        "corridor_id": "AU_road_northern-tas-bell-bay",
+        "resource": "hardwood woodchip logs",
+        "quantity": 350000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Pulpwood",
+      "Timber"
+    ]
+  },
+  {
+    "id": "AU_sustainable_timber_tasmania_plantations",
+    "name": "Sustainable Timber Tasmania Hardwood Plantations",
+    "tier": "harvester",
+    "country_iso2": "AU",
+    "canonical_company": "Sustainable Timber Tasmania",
+    "coordinates": {
+      "lat": -42.1,
+      "lon": 146.8
+    },
+    "downstream": [
+      {
+        "target_id": "AU_norske_skog_boyer_mill",
+        "corridor_id": "AU_road_stt-boyer",
+        "resource": "eucalyptus hardwood pulpwood logs",
+        "quantity": 120000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_long_reach_chip_export",
+        "corridor_id": "AU_road_stt-long-reach",
+        "resource": "eucalyptus hardwood pulpwood logs",
+        "quantity": 350000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Pulpwood"
+    ]
+  },
+  {
+    "id": "AU_albany_plantation_forest_company",
+    "name": "Albany Plantation Forest Company (APFL) – Great Southern WA Eucalyptus Plantations",
+    "tier": "harvester",
+    "country_iso2": "AU",
+    "canonical_company": "APFL",
+    "coordinates": {
+      "lat": -34.95,
+      "lon": 117.8
+    },
+    "downstream": [
+      {
+        "target_id": "AU_albany_chip_export",
+        "corridor_id": "AU_road_great-southern-albany",
+        "resource": "eucalyptus hardwood pulpwood logs",
+        "quantity": 600000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Pulpwood"
+    ]
+  },
+  {
+    "id": "AU_mitsui_busselton_wa_plantations",
+    "name": "WAPRES / Mitsui South-West WA Eucalyptus Plantations",
+    "tier": "harvester",
+    "country_iso2": "AU",
+    "canonical_company": "WAPRES",
+    "coordinates": {
+      "lat": -33.65,
+      "lon": 115.35
+    },
+    "downstream": [
+      {
+        "target_id": "AU_bunbury_chip_export",
+        "corridor_id": "AU_road_sw-wa-bunbury",
+        "resource": "eucalyptus hardwood pulpwood logs",
+        "quantity": 800000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Pulpwood"
+    ]
+  },
+  {
+    "id": "AU_hancock_victoria_plantations",
+    "name": "Hancock Victoria Plantations (HVP) – Gippsland & Central Highlands",
+    "tier": "harvester",
+    "country_iso2": "AU",
+    "canonical_company": "HVP Plantations",
+    "coordinates": {
+      "lat": -38.1,
+      "lon": 146.05
+    },
+    "downstream": [
+      {
+        "target_id": "AU_opal_maryvale_mill",
+        "corridor_id": "AU_road_gippsland-maryvale",
+        "resource": "softwood and hardwood pulpwood logs",
+        "quantity": 500000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Pulpwood"
+    ]
+  },
+  {
+    "id": "AU_softwoods_nsw_plantations",
+    "name": "Softwoods NSW (Hume Region) Radiata Pine Plantations",
+    "tier": "harvester",
+    "country_iso2": "AU",
+    "canonical_company": "Softwoods NSW",
+    "coordinates": {
+      "lat": -35.95,
+      "lon": 148.2
+    },
+    "downstream": [
+      {
+        "target_id": "AU_visy_tumut_mill",
+        "corridor_id": "AU_road_hume-tumut",
+        "resource": "softwood pulpwood logs",
+        "quantity": 350000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Pulpwood"
+    ]
+  },
+  {
+    "id": "AU_forestry_corporation_nsw_plantations",
+    "name": "Forestry Corporation NSW Softwood Plantations (Tumut/Bombala)",
+    "tier": "harvester",
+    "country_iso2": "AU",
+    "canonical_company": "Forestry Corporation of NSW",
+    "coordinates": {
+      "lat": -35.3,
+      "lon": 148.22
+    },
+    "downstream": [
+      {
+        "target_id": "AU_visy_tumut_mill",
+        "corridor_id": "AU_road_nsw-tumut",
+        "resource": "softwood pulpwood logs",
+        "quantity": 400000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Pulpwood"
+    ]
+  },
+  {
+    "id": "AU_midway_gippsland_plantations",
+    "name": "Midway Limited Gippsland Eucalyptus Plantations",
+    "tier": "harvester",
+    "country_iso2": "AU",
+    "canonical_company": "Midway Limited",
+    "coordinates": {
+      "lat": -38.3,
+      "lon": 146.5
+    },
+    "downstream": [
+      {
+        "target_id": "AU_midway_geelong_chip_mill",
+        "corridor_id": "AU_road_gippsland-geelong",
+        "resource": "eucalyptus hardwood pulpwood logs",
+        "quantity": 500000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Pulpwood"
+    ]
+  },
+  {
+    "id": "AU_pf_olsen_green_triangle_plantations",
+    "name": "PF Olsen / Private Growers Green Triangle Eucalyptus & Pine Plantations",
+    "tier": "harvester",
+    "country_iso2": "AU",
+    "canonical_company": "PF Olsen",
+    "coordinates": {
+      "lat": -37.9,
+      "lon": 141.2
+    },
+    "downstream": [
+      {
+        "target_id": "AU_portland_chip_export",
+        "corridor_id": "AU_road_green-triangle-portland-pf",
+        "resource": "eucalyptus and pine pulpwood logs",
+        "quantity": 400000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Pulpwood"
+    ]
+  },
+  {
+    "id": "AU_timberlands_pacific_nsw_plantations",
+    "name": "Timberlands Pacific Northern NSW Eucalyptus Plantations",
+    "tier": "harvester",
+    "country_iso2": "AU",
+    "canonical_company": "Timberlands Pacific",
+    "coordinates": {
+      "lat": -29.7,
+      "lon": 153
+    },
+    "downstream": [
+      {
+        "target_id": "AU_midway_brisbane_chip_facility",
+        "corridor_id": "AU_road_nnsw-brisbane",
+        "resource": "eucalyptus hardwood pulpwood logs",
+        "quantity": 200000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Pulpwood"
+    ]
+  },
+  {
+    "id": "AU_visy_tumut_mill",
+    "name": "Visy Pulp & Paper Tumut Mill",
+    "tier": "primary_mill",
+    "country_iso2": "AU",
+    "canonical_company": "Visy Industries",
+    "coordinates": {
+      "lat": -35.3,
+      "lon": 148.22
+    },
+    "downstream": [
+      {
+        "target_id": "AU_visy_smithfield_converter",
+        "corridor_id": "AU_road_tumut-sydney",
+        "resource": "kraft linerboard and medium paper",
+        "quantity": 500000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_visy_packaging_national",
+        "corridor_id": "AU_road_tumut-national",
+        "resource": "kraft linerboard and medium paper",
+        "quantity": 350000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_visy_green_triangle_plantations",
+      "AU_softwoods_nsw_plantations",
+      "AU_forestry_corporation_nsw_plantations"
+    ],
+    "resources": [
+      "Pulpwood"
+    ]
+  },
+  {
+    "id": "AU_opal_maryvale_mill",
+    "name": "Opal (Nippon Paper) Maryvale Pulp & Paper Mill",
+    "tier": "primary_mill",
+    "country_iso2": "AU",
+    "canonical_company": "Opal",
+    "coordinates": {
+      "lat": -38.22,
+      "lon": 146.06
+    },
+    "downstream": [
+      {
+        "target_id": "AU_opal_packaging_national",
+        "corridor_id": "AU_road_maryvale-mel",
+        "resource": "unbleached kraft paper and white-top linerboard",
+        "quantity": 600000,
+        "metric": "t"
+      },
+      {
+        "target_id": "INTL_opal_export_asia",
+        "corridor_id": "INTL_ocean_melbourne-asia",
+        "resource": "kraft paper rolls",
+        "quantity": 80000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_hqp_south_east_sa_plantations",
+      "AU_hqp_queensland_plantations",
+      "AU_hancock_victoria_plantations"
+    ],
+    "resources": [
+      "Pulpwood"
+    ]
+  },
+  {
+    "id": "AU_norske_skog_boyer_mill",
+    "name": "Norske Skog Boyer Mill",
+    "tier": "primary_mill",
+    "country_iso2": "AU",
+    "canonical_company": "Norske Skog",
+    "coordinates": {
+      "lat": -42.77,
+      "lon": 147.1
+    },
+    "downstream": [
+      {
+        "target_id": "AU_norske_skog_newsprint_distributor",
+        "corridor_id": "AU_ocean_boyer-melbourne",
+        "resource": "newsprint paper rolls",
+        "quantity": 200000,
+        "metric": "t"
+      },
+      {
+        "target_id": "INTL_norske_skog_export",
+        "corridor_id": "INTL_ocean_hobart-asia",
+        "resource": "newsprint and magazine-grade paper",
+        "quantity": 80000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_forico_tasmania_plantations",
+      "AU_sustainable_timber_tasmania_plantations"
+    ],
+    "resources": [
+      "Pulpwood"
+    ]
+  },
+  {
+    "id": "AU_midway_geelong_chip_mill",
+    "name": "Midway Limited Geelong Woodchip Export Terminal",
+    "tier": "primary_mill",
+    "country_iso2": "AU",
+    "canonical_company": "Midway Limited",
+    "coordinates": {
+      "lat": -38.15,
+      "lon": 144.36
+    },
+    "downstream": [
+      {
+        "target_id": "JP_nippon_paper_pulp_mill",
+        "corridor_id": "INTL_ocean_geelong-japan",
+        "resource": "eucalyptus hardwood woodchips",
+        "quantity": 350000,
+        "metric": "t"
+      },
+      {
+        "target_id": "CN_shandong_sun_paper",
+        "corridor_id": "INTL_ocean_geelong-china",
+        "resource": "eucalyptus hardwood woodchips",
+        "quantity": 150000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_midway_gippsland_plantations"
+    ],
+    "resources": [
+      "Pulpwood"
+    ]
+  },
+  {
+    "id": "AU_portland_chip_export",
+    "name": "Portland Woodchip Export Terminal (Green Triangle)",
+    "tier": "primary_mill",
+    "country_iso2": "AU",
+    "canonical_company": "Portland Chip Export",
+    "coordinates": {
+      "lat": -38.34,
+      "lon": 141.6
+    },
+    "downstream": [
+      {
+        "target_id": "JP_oji_paper_mill",
+        "corridor_id": "INTL_ocean_portland-japan",
+        "resource": "eucalyptus and pine woodchips",
+        "quantity": 500000,
+        "metric": "t"
+      },
+      {
+        "target_id": "CN_april_group_china",
+        "corridor_id": "INTL_ocean_portland-china",
+        "resource": "eucalyptus hardwood woodchips",
+        "quantity": 250000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_hqp_south_east_sa_plantations",
+      "AU_pf_olsen_green_triangle_plantations"
+    ],
+    "resources": [
+      "Pulpwood"
+    ]
+  },
+  {
+    "id": "AU_albany_chip_export",
+    "name": "Albany Woodchip Export Terminal",
+    "tier": "primary_mill",
+    "country_iso2": "AU",
+    "canonical_company": "APFL",
+    "coordinates": {
+      "lat": -35.03,
+      "lon": 117.89
+    },
+    "downstream": [
+      {
+        "target_id": "JP_daio_paper",
+        "corridor_id": "INTL_ocean_albany-japan",
+        "resource": "eucalyptus hardwood woodchips",
+        "quantity": 400000,
+        "metric": "t"
+      },
+      {
+        "target_id": "CN_shandong_sun_paper",
+        "corridor_id": "INTL_ocean_albany-china",
+        "resource": "eucalyptus hardwood woodchips",
+        "quantity": 200000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_albany_plantation_forest_company"
+    ],
+    "resources": [
+      "Pulpwood"
+    ]
+  },
+  {
+    "id": "AU_bunbury_chip_export",
+    "name": "Bunbury Woodchip Export Terminal (WAPRES)",
+    "tier": "primary_mill",
+    "country_iso2": "AU",
+    "canonical_company": "WAPRES",
+    "coordinates": {
+      "lat": -33.33,
+      "lon": 115.64
+    },
+    "downstream": [
+      {
+        "target_id": "JP_nippon_paper_pulp_mill",
+        "corridor_id": "INTL_ocean_bunbury-japan",
+        "resource": "eucalyptus hardwood woodchips",
+        "quantity": 500000,
+        "metric": "t"
+      },
+      {
+        "target_id": "CN_april_group_china",
+        "corridor_id": "INTL_ocean_bunbury-china",
+        "resource": "eucalyptus hardwood woodchips",
+        "quantity": 300000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_mitsui_busselton_wa_plantations"
+    ],
+    "resources": [
+      "Pulpwood"
+    ]
+  },
+  {
+    "id": "AU_burnie_chip_export",
+    "name": "Burnie Woodchip Export Terminal (Tasmania)",
+    "tier": "primary_mill",
+    "country_iso2": "AU",
+    "canonical_company": "Forico",
+    "coordinates": {
+      "lat": -41.05,
+      "lon": 145.91
+    },
+    "downstream": [
+      {
+        "target_id": "JP_oji_paper_mill",
+        "corridor_id": "INTL_ocean_burnie-japan",
+        "resource": "eucalyptus hardwood woodchips",
+        "quantity": 300000,
+        "metric": "t"
+      },
+      {
+        "target_id": "CN_shandong_sun_paper",
+        "corridor_id": "INTL_ocean_burnie-china",
+        "resource": "eucalyptus hardwood woodchips",
+        "quantity": 200000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_forico_tasmania_plantations"
+    ],
+    "resources": [
+      "Pulpwood"
+    ]
+  },
+  {
+    "id": "AU_long_reach_chip_export",
+    "name": "Long Reach (Bell Bay) Woodchip Export Terminal",
+    "tier": "primary_mill",
+    "country_iso2": "AU",
+    "canonical_company": "Sustainable Timber Tasmania",
+    "coordinates": {
+      "lat": -41.1,
+      "lon": 146.85
+    },
+    "downstream": [
+      {
+        "target_id": "JP_nippon_paper_pulp_mill",
+        "corridor_id": "INTL_ocean_long-reach-japan",
+        "resource": "eucalyptus hardwood woodchips",
+        "quantity": 450000,
+        "metric": "t"
+      },
+      {
+        "target_id": "CN_april_group_china",
+        "corridor_id": "INTL_ocean_long-reach-china",
+        "resource": "eucalyptus hardwood woodchips",
+        "quantity": 300000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_forico_tasmania_plantations",
+      "AU_sustainable_timber_tasmania_plantations"
+    ],
+    "resources": [
+      "Pulpwood"
+    ]
+  },
+  {
+    "id": "AU_midway_brisbane_chip_facility",
+    "name": "Midway Limited Brisbane Woodchip Facility",
+    "tier": "primary_mill",
+    "country_iso2": "AU",
+    "canonical_company": "Midway Limited",
+    "coordinates": {
+      "lat": -27.38,
+      "lon": 153.17
+    },
+    "downstream": [
+      {
+        "target_id": "JP_oji_paper_mill",
+        "corridor_id": "INTL_ocean_brisbane-japan",
+        "resource": "eucalyptus hardwood woodchips",
+        "quantity": 120000,
+        "metric": "t"
+      },
+      {
+        "target_id": "CN_shandong_sun_paper",
+        "corridor_id": "INTL_ocean_brisbane-china",
+        "resource": "eucalyptus hardwood woodchips",
+        "quantity": 80000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_timberlands_pacific_nsw_plantations"
+    ],
+    "resources": [
+      "Pulpwood"
+    ]
+  },
+  {
+    "id": "JP_nippon_paper_pulp_mill",
+    "name": "Nippon Paper Industries Pulp Mills (Japan)",
+    "tier": "secondary_maker",
+    "country_iso2": "JP",
+    "canonical_company": "Nippon Paper Industries",
+    "coordinates": {
+      "lat": 33.95,
+      "lon": 131.95
+    },
+    "downstream": [
+      {
+        "target_id": "JP_nippon_paper_distributor",
+        "corridor_id": "JP_road_nippon-domestic-dist",
+        "resource": "printing and packaging paper",
+        "quantity": 900000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_midway_geelong_chip_mill",
+      "AU_bunbury_chip_export",
+      "AU_long_reach_chip_export"
+    ],
+    "resources": [
+      "Pulpwood"
+    ]
+  },
+  {
+    "id": "JP_oji_paper_mill",
+    "name": "Oji Holdings Pulp & Paper Mills (Japan)",
+    "tier": "secondary_maker",
+    "country_iso2": "JP",
+    "canonical_company": "Oji Holdings",
+    "coordinates": {
+      "lat": 42.92,
+      "lon": 141.35
+    },
+    "downstream": [
+      {
+        "target_id": "JP_oji_paper_distributor",
+        "corridor_id": "JP_road_oji-domestic-dist",
+        "resource": "packaging board, tissue and printing paper",
+        "quantity": 650000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_portland_chip_export",
+      "AU_burnie_chip_export",
+      "AU_midway_brisbane_chip_facility"
+    ],
+    "resources": [
+      "Pulpwood"
+    ]
+  },
+  {
+    "id": "JP_daio_paper",
+    "name": "Daio Paper Corporation Pulp Mills (Japan)",
+    "tier": "secondary_maker",
+    "country_iso2": "JP",
+    "canonical_company": "Daio Paper",
+    "coordinates": {
+      "lat": 33.97,
+      "lon": 133.07
+    },
+    "downstream": [
+      {
+        "target_id": "JP_daio_paper_distributor",
+        "corridor_id": "JP_road_daio-domestic-dist",
+        "resource": "tissue paper and printing paper",
+        "quantity": 400000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_albany_chip_export"
+    ],
+    "resources": [
+      "Pulpwood"
+    ]
+  },
+  {
+    "id": "CN_shandong_sun_paper",
+    "name": "Shandong Sun Paper Industry Pulp & Paper Mill",
+    "tier": "secondary_maker",
+    "country_iso2": "CN",
+    "canonical_company": "Sun Paper",
+    "coordinates": {
+      "lat": 35.4,
+      "lon": 116.59
+    },
+    "downstream": [
+      {
+        "target_id": "CN_sun_paper_distributor",
+        "corridor_id": "CN_road_sun-paper-domestic",
+        "resource": "packaging board and cultural paper",
+        "quantity": 450000,
+        "metric": "t"
+      },
+      {
+        "target_id": "CN_industrial",
+        "corridor_id": "CN_road_sun-paper-domestic",
+        "resource": "packaging and tissue paper",
+        "quantity": 300000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_midway_geelong_chip_mill",
+      "AU_albany_chip_export",
+      "AU_burnie_chip_export",
+      "AU_midway_brisbane_chip_facility",
+      "AU_midway_limited_portland",
+      "AU_albany_woodchip_terminal"
+    ],
+    "resources": [
+      "Pulpwood",
+      "Timber"
+    ]
+  },
+  {
+    "id": "CN_april_group_china",
+    "name": "APRIL / RGE Group China Pulp & Paper Mills",
+    "tier": "secondary_maker",
+    "country_iso2": "CN",
+    "canonical_company": "APRIL Group",
+    "coordinates": {
+      "lat": 30.3,
+      "lon": 120.15
+    },
+    "downstream": [
+      {
+        "target_id": "CN_april_distributor",
+        "corridor_id": "CN_road_april-domestic",
+        "resource": "dissolving pulp and packaging paper",
+        "quantity": 550000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_portland_chip_export",
+      "AU_bunbury_chip_export",
+      "AU_long_reach_chip_export"
+    ],
+    "resources": [
+      "Pulpwood"
+    ]
+  },
+  {
+    "id": "AU_visy_smithfield_converter",
+    "name": "Visy Smithfield (Sydney) Paper & Packaging Converting Plant",
+    "tier": "secondary_maker",
+    "country_iso2": "AU",
+    "canonical_company": "Visy Industries",
+    "coordinates": {
+      "lat": -33.85,
+      "lon": 150.93
+    },
+    "downstream": [
+      {
+        "target_id": "AU_visy_packaging_national",
+        "corridor_id": "AU_road_smithfield-national",
+        "resource": "corrugated packaging and boxes",
+        "quantity": 500000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_visy_tumut_mill"
+    ],
+    "resources": [
+      "Pulpwood"
+    ]
+  },
+  {
+    "id": "AU_opal_packaging_national",
+    "name": "Opal Australian Paper & Packaging Converting Plants",
+    "tier": "secondary_maker",
+    "country_iso2": "AU",
+    "canonical_company": "Opal",
+    "coordinates": {
+      "lat": -37.81,
+      "lon": 144.96
+    },
+    "downstream": [
+      {
+        "target_id": "AU_opal_distributor_national",
+        "corridor_id": "AU_road_opal-national-dist",
+        "resource": "corrugated boxes, fibre packaging, paper bags",
+        "quantity": 600000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_opal_maryvale_mill"
+    ],
+    "resources": [
+      "Pulpwood"
+    ]
+  },
+  {
+    "id": "INTL_opal_export_asia",
+    "name": "Opal Asian Export Customers",
+    "tier": "secondary_maker",
+    "country_iso2": "INTL",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": 22.3,
+      "lon": 114.17
+    },
+    "downstream": [
+      {
+        "target_id": "INTL_opal_asia_distributor",
+        "corridor_id": "INTL_road_asia-dist",
+        "resource": "kraft paper and linerboard",
+        "quantity": 80000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_opal_maryvale_mill"
+    ],
+    "resources": [
+      "Pulpwood"
+    ]
+  },
+  {
+    "id": "INTL_norske_skog_export",
+    "name": "Norske Skog International Export Customers",
+    "tier": "secondary_maker",
+    "country_iso2": "INTL",
+    "canonical_company": "Norske Skog",
+    "coordinates": {
+      "lat": 1.35,
+      "lon": 103.82
+    },
+    "downstream": [
+      {
+        "target_id": "INTL_norske_export_distributor",
+        "corridor_id": "INTL_road_asia-newsprint-dist",
+        "resource": "newsprint paper",
+        "quantity": 80000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_norske_skog_boyer_mill"
+    ],
+    "resources": [
+      "Pulpwood"
+    ]
+  },
+  {
+    "id": "AU_visy_packaging_national",
+    "name": "Visy Packaging National Distribution Network",
+    "tier": "distributor",
+    "country_iso2": "AU",
+    "canonical_company": "Visy Industries",
+    "coordinates": {
+      "lat": -33.87,
+      "lon": 151.21
+    },
+    "downstream": [
+      {
+        "target_id": "AU_industrial",
+        "corridor_id": "AU_road_visy-last-mile",
+        "resource": "corrugated packaging for food, beverage, and retail",
+        "quantity": 550000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_commercial",
+        "corridor_id": "AU_road_visy-last-mile",
+        "resource": "corrugated packaging for retail and e-commerce",
+        "quantity": 300000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_woolworths_group",
+        "corridor_id": "AU_road_visy-box-national-grocery",
+        "resource": "corrugated packaging",
+        "quantity": 150000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_coles_group",
+        "corridor_id": "AU_road_visy-box-national-grocery",
+        "resource": "corrugated packaging",
+        "quantity": 120000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_industrial",
+        "corridor_id": "AU_road_visy-box-national-industrial",
+        "resource": "industrial corrugated packaging",
+        "quantity": 180000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_visy_tumut_mill",
+      "AU_visy_smithfield_converter",
+      "AU_visy_pulp_paper_tumut"
+    ],
+    "resources": [
+      "Pulpwood",
+      "Timber"
+    ]
+  },
+  {
+    "id": "AU_opal_distributor_national",
+    "name": "Opal National Packaging Distribution",
+    "tier": "distributor",
+    "country_iso2": "AU",
+    "canonical_company": "Opal",
+    "coordinates": {
+      "lat": -37.81,
+      "lon": 144.96
+    },
+    "downstream": [
+      {
+        "target_id": "AU_industrial",
+        "corridor_id": "AU_road_opal-last-mile",
+        "resource": "corrugated boxes and fibre packaging",
+        "quantity": 400000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_commercial",
+        "corridor_id": "AU_road_opal-last-mile",
+        "resource": "paper bags and retail packaging",
+        "quantity": 200000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_opal_packaging_national"
+    ],
+    "resources": [
+      "Pulpwood"
+    ]
+  },
+  {
+    "id": "AU_norske_skog_newsprint_distributor",
+    "name": "Norske Skog Australian Newsprint Distribution",
+    "tier": "distributor",
+    "country_iso2": "AU",
+    "canonical_company": "Norske Skog",
+    "coordinates": {
+      "lat": -37.81,
+      "lon": 144.96
+    },
+    "downstream": [
+      {
+        "target_id": "AU_commercial",
+        "corridor_id": "AU_road_norske-newsprint-last-mile",
+        "resource": "newsprint for newspapers and publications",
+        "quantity": 200000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_norske_skog_boyer_mill"
+    ],
+    "resources": [
+      "Pulpwood"
+    ]
+  },
+  {
+    "id": "JP_nippon_paper_distributor",
+    "name": "Nippon Paper Domestic Distributor Network",
+    "tier": "distributor",
+    "country_iso2": "JP",
+    "canonical_company": "Nippon Paper Industries",
+    "coordinates": {
+      "lat": 35.68,
+      "lon": 139.69
+    },
+    "downstream": [
+      {
+        "target_id": "JP_industrial",
+        "corridor_id": "JP_road_nippon-last-mile",
+        "resource": "packaging paper and printing paper",
+        "quantity": 550000,
+        "metric": "t"
+      },
+      {
+        "target_id": "JP_commercial",
+        "corridor_id": "JP_road_nippon-last-mile",
+        "resource": "office and printing paper",
+        "quantity": 350000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "JP_nippon_paper_pulp_mill"
+    ],
+    "resources": [
+      "Pulpwood"
+    ]
+  },
+  {
+    "id": "JP_oji_paper_distributor",
+    "name": "Oji Paper Domestic Distributor Network",
+    "tier": "distributor",
+    "country_iso2": "JP",
+    "canonical_company": "Oji Holdings",
+    "coordinates": {
+      "lat": 35.68,
+      "lon": 139.69
+    },
+    "downstream": [
+      {
+        "target_id": "JP_industrial",
+        "corridor_id": "JP_road_oji-last-mile",
+        "resource": "packaging board and tissue products",
+        "quantity": 400000,
+        "metric": "t"
+      },
+      {
+        "target_id": "JP_residential",
+        "corridor_id": "JP_road_oji-last-mile",
+        "resource": "tissue and hygiene paper products",
+        "quantity": 250000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "JP_oji_paper_mill"
+    ],
+    "resources": [
+      "Pulpwood"
+    ]
+  },
+  {
+    "id": "JP_daio_paper_distributor",
+    "name": "Daio Paper Domestic Distributor Network",
+    "tier": "distributor",
+    "country_iso2": "JP",
+    "canonical_company": "Daio Paper",
+    "coordinates": {
+      "lat": 35.68,
+      "lon": 139.69
+    },
+    "downstream": [
+      {
+        "target_id": "JP_residential",
+        "corridor_id": "JP_road_daio-last-mile",
+        "resource": "tissue and hygiene products (Elleair brand)",
+        "quantity": 250000,
+        "metric": "t"
+      },
+      {
+        "target_id": "JP_commercial",
+        "corridor_id": "JP_road_daio-last-mile",
+        "resource": "printing and communication paper",
+        "quantity": 150000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "JP_daio_paper"
+    ],
+    "resources": [
+      "Pulpwood"
+    ]
+  },
+  {
+    "id": "CN_sun_paper_distributor",
+    "name": "Sun Paper Domestic Distribution",
+    "tier": "distributor",
+    "country_iso2": "CN",
+    "canonical_company": "Sun Paper",
+    "coordinates": {
+      "lat": 31.23,
+      "lon": 121.47
+    },
+    "downstream": [
+      {
+        "target_id": "CN_industrial",
+        "corridor_id": "CN_road_sun-paper-last-mile",
+        "resource": "packaging board and cultural paper",
+        "quantity": 450000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "CN_shandong_sun_paper"
+    ],
+    "resources": [
+      "Pulpwood"
+    ]
+  },
+  {
+    "id": "CN_april_distributor",
+    "name": "APRIL Group China Distribution",
+    "tier": "distributor",
+    "country_iso2": "CN",
+    "canonical_company": "APRIL Group",
+    "coordinates": {
+      "lat": 31.23,
+      "lon": 121.47
+    },
+    "downstream": [
+      {
+        "target_id": "CN_industrial",
+        "corridor_id": "CN_road_april-last-mile",
+        "resource": "dissolving pulp and packaging paper",
+        "quantity": 350000,
+        "metric": "t"
+      },
+      {
+        "target_id": "CN_commercial",
+        "corridor_id": "CN_road_april-last-mile",
+        "resource": "office and printing paper",
+        "quantity": 200000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "CN_april_group_china"
+    ],
+    "resources": [
+      "Pulpwood"
+    ]
+  },
+  {
+    "id": "INTL_opal_asia_distributor",
+    "name": "Opal Asian Export Distributor",
+    "tier": "distributor",
+    "country_iso2": "INTL",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": 22.3,
+      "lon": 114.17
+    },
+    "downstream": [
+      {
+        "target_id": "INTL_industrial",
+        "corridor_id": "INTL_road_asia-last-mile",
+        "resource": "kraft paper and linerboard",
+        "quantity": 80000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "INTL_opal_export_asia"
+    ],
+    "resources": [
+      "Pulpwood"
+    ]
+  },
+  {
+    "id": "INTL_norske_export_distributor",
+    "name": "Norske Skog International Newsprint Distribution",
+    "tier": "distributor",
+    "country_iso2": "INTL",
+    "canonical_company": "Norske Skog",
+    "coordinates": {
+      "lat": 1.35,
+      "lon": 103.82
+    },
+    "downstream": [
+      {
+        "target_id": "INTL_commercial",
+        "corridor_id": "INTL_road_asia-newsprint-last-mile",
+        "resource": "newsprint for newspapers and publications",
+        "quantity": 80000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "INTL_norske_skog_export"
+    ],
+    "resources": [
+      "Pulpwood"
+    ]
+  },
+  {
+    "id": "AU_road_green-triangle-tumut",
+    "tier": "transport",
+    "name": "Road: Green Triangle to Tumut Mill (long-haul)",
+    "country_iso2": "AU",
+    "operator_id": "AU_various_hauliers",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "regional",
+    "coordinates": {
+      "lat": -37,
+      "lon": 145
+    }
+  },
+  {
+    "id": "AU_road_se-sa-maryvale",
+    "tier": "transport",
+    "name": "Road: SE South Australia to Maryvale Mill",
+    "country_iso2": "AU",
+    "operator_id": "AU_various_hauliers",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "regional",
+    "coordinates": {
+      "lat": -37.5,
+      "lon": 143
+    }
+  },
+  {
+    "id": "AU_road_green-triangle-portland",
+    "tier": "transport",
+    "name": "Road: Green Triangle Plantations to Portland Port",
+    "country_iso2": "AU",
+    "operator_id": "AU_various_hauliers",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "local",
+    "coordinates": {
+      "lat": -38,
+      "lon": 141.2
+    },
+    "resources": [
+      "Timber"
+    ],
+    "upstream": [],
+    "downstream": []
+  },
+  {
+    "id": "AU_road_qld-maryvale",
+    "tier": "transport",
+    "name": "Road: Queensland Plantations to Maryvale Mill",
+    "country_iso2": "AU",
+    "operator_id": "AU_various_hauliers",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "regional",
+    "coordinates": {
+      "lat": -30,
+      "lon": 150
+    }
+  },
+  {
+    "id": "AU_road_tas-north-boyer",
+    "tier": "transport",
+    "name": "Road: North Tasmania Plantations to Boyer Mill",
+    "country_iso2": "AU",
+    "operator_id": "AU_various_hauliers",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "local",
+    "coordinates": {
+      "lat": -41.8,
+      "lon": 146.5
+    }
+  },
+  {
+    "id": "AU_road_tas-burnie",
+    "tier": "transport",
+    "name": "Road: Tasmania Plantations to Burnie Chip Export",
+    "country_iso2": "AU",
+    "operator_id": "AU_various_hauliers",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "local",
+    "coordinates": {
+      "lat": -41.3,
+      "lon": 146
+    }
+  },
+  {
+    "id": "AU_road_tas-long-reach",
+    "tier": "transport",
+    "name": "Road: Tasmania Plantations to Long Reach / Bell Bay",
+    "country_iso2": "AU",
+    "operator_id": "AU_various_hauliers",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "local",
+    "coordinates": {
+      "lat": -41.3,
+      "lon": 146.8
+    }
+  },
+  {
+    "id": "AU_road_stt-boyer",
+    "tier": "transport",
+    "name": "Road: STT Plantations to Boyer Mill",
+    "country_iso2": "AU",
+    "operator_id": "AU_various_hauliers",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "local",
+    "coordinates": {
+      "lat": -42.4,
+      "lon": 146.9
+    }
+  },
+  {
+    "id": "AU_road_stt-long-reach",
+    "tier": "transport",
+    "name": "Road: STT Plantations to Long Reach / Bell Bay",
+    "country_iso2": "AU",
+    "operator_id": "AU_various_hauliers",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "local",
+    "coordinates": {
+      "lat": -41.6,
+      "lon": 146.8
+    }
+  },
+  {
+    "id": "AU_road_great-southern-albany",
+    "tier": "transport",
+    "name": "Road: Great Southern WA Plantations to Albany Port",
+    "country_iso2": "AU",
+    "operator_id": "AU_various_hauliers",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "local",
+    "coordinates": {
+      "lat": -34.95,
+      "lon": 117.85
+    }
+  },
+  {
+    "id": "AU_road_sw-wa-bunbury",
+    "tier": "transport",
+    "name": "Road: South-West WA Plantations to Bunbury Port",
+    "country_iso2": "AU",
+    "operator_id": "AU_various_hauliers",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "local",
+    "coordinates": {
+      "lat": -33.5,
+      "lon": 115.5
+    }
+  },
+  {
+    "id": "AU_road_gippsland-maryvale",
+    "tier": "transport",
+    "name": "Road: Gippsland Plantations to Maryvale Mill",
+    "country_iso2": "AU",
+    "operator_id": "AU_various_hauliers",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "local",
+    "coordinates": {
+      "lat": -38.15,
+      "lon": 146.05
+    },
+    "resources": [
+      "Timber"
+    ],
+    "upstream": [],
+    "downstream": []
+  },
+  {
+    "id": "AU_road_hume-tumut",
+    "tier": "transport",
+    "name": "Road: Hume Region NSW Plantations to Tumut Mill",
+    "country_iso2": "AU",
+    "operator_id": "AU_various_hauliers",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "local",
+    "coordinates": {
+      "lat": -35.6,
+      "lon": 148.2
+    }
+  },
+  {
+    "id": "AU_road_nsw-tumut",
+    "tier": "transport",
+    "name": "Road: Forestry Corp NSW Plantations to Tumut Mill",
+    "country_iso2": "AU",
+    "operator_id": "AU_various_hauliers",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "local",
+    "coordinates": {
+      "lat": -35.3,
+      "lon": 148.22
+    }
+  },
+  {
+    "id": "AU_road_gippsland-geelong",
+    "tier": "transport",
+    "name": "Road: Gippsland Plantations to Geelong Chip Terminal",
+    "country_iso2": "AU",
+    "operator_id": "AU_various_hauliers",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "regional",
+    "coordinates": {
+      "lat": -38.2,
+      "lon": 145.4
+    }
+  },
+  {
+    "id": "AU_road_green-triangle-portland-pf",
+    "tier": "transport",
+    "name": "Road: PF Olsen Green Triangle to Portland",
+    "country_iso2": "AU",
+    "operator_id": "AU_various_hauliers",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "local",
+    "coordinates": {
+      "lat": -38.1,
+      "lon": 141.4
+    }
+  },
+  {
+    "id": "AU_road_nnsw-brisbane",
+    "tier": "transport",
+    "name": "Road: Northern NSW Plantations to Brisbane Chip Facility",
+    "country_iso2": "AU",
+    "operator_id": "AU_various_hauliers",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "regional",
+    "coordinates": {
+      "lat": -28.5,
+      "lon": 153.1
+    }
+  },
+  {
+    "id": "AU_road_tumut-sydney",
+    "tier": "transport",
+    "name": "Road: Tumut Mill to Visy Smithfield (Sydney)",
+    "country_iso2": "AU",
+    "operator_id": "AU_various_hauliers",
+    "mode": "road",
+    "form": "containerised",
+    "range": "regional",
+    "coordinates": {
+      "lat": -34.5,
+      "lon": 149.5
+    }
+  },
+  {
+    "id": "AU_road_tumut-national",
+    "tier": "transport",
+    "name": "Road: Tumut Mill to National Visy Converting Sites",
+    "country_iso2": "AU",
+    "operator_id": "AU_various_hauliers",
+    "mode": "road",
+    "form": "containerised",
+    "range": "regional",
+    "coordinates": {
+      "lat": -35,
+      "lon": 148.5
+    }
+  },
+  {
+    "id": "AU_road_maryvale-mel",
+    "tier": "transport",
+    "name": "Road: Maryvale Mill to Melbourne/National Opal Plants",
+    "country_iso2": "AU",
+    "operator_id": "AU_various_hauliers",
+    "mode": "road",
+    "form": "containerised",
+    "range": "regional",
+    "coordinates": {
+      "lat": -38,
+      "lon": 145.5
+    }
+  },
+  {
+    "id": "AU_ocean_boyer-melbourne",
+    "tier": "transport",
+    "name": "Coastal Freight: Boyer (Hobart) to Melbourne",
+    "country_iso2": "AU",
+    "operator_id": "AU_toll_shipping",
+    "mode": "ocean_freight",
+    "form": "containerised",
+    "range": "regional",
+    "coordinates": {
+      "lat": -40,
+      "lon": 146
+    }
+  },
+  {
+    "id": "INTL_ocean_hobart-asia",
+    "tier": "transport",
+    "name": "Ocean Freight: Hobart/Tasmania to Asia",
+    "country_iso2": "INTL",
+    "operator_id": "INTL_various_shipping",
+    "mode": "ocean_freight",
+    "form": "containerised",
+    "range": "international",
+    "coordinates": {
+      "lat": -25,
+      "lon": 135
+    },
+    "resources": [
+      "Timber"
+    ],
+    "upstream": [],
+    "downstream": []
+  },
+  {
+    "id": "INTL_ocean_geelong-japan",
+    "tier": "transport",
+    "name": "Ocean Freight: Geelong to Japan",
+    "country_iso2": "INTL",
+    "operator_id": "INTL_various_bulk_carriers",
+    "mode": "ocean_freight",
+    "form": "bulk_dry",
+    "range": "international",
+    "coordinates": {
+      "lat": -15,
+      "lon": 140
+    }
+  },
+  {
+    "id": "INTL_ocean_geelong-china",
+    "tier": "transport",
+    "name": "Ocean Freight: Geelong to China",
+    "country_iso2": "INTL",
+    "operator_id": "INTL_various_bulk_carriers",
+    "mode": "ocean_freight",
+    "form": "bulk_dry",
+    "range": "international",
+    "coordinates": {
+      "lat": -10,
+      "lon": 135
+    }
+  },
+  {
+    "id": "INTL_ocean_portland-japan",
+    "tier": "transport",
+    "name": "Ocean Freight: Portland to Japan",
+    "country_iso2": "INTL",
+    "operator_id": "INTL_various_bulk_carriers",
+    "mode": "ocean_freight",
+    "form": "bulk_dry",
+    "range": "international",
+    "coordinates": {
+      "lat": -20,
+      "lon": 140
+    },
+    "resources": [
+      "Timber"
+    ],
+    "upstream": [],
+    "downstream": []
+  },
+  {
+    "id": "INTL_ocean_portland-china",
+    "tier": "transport",
+    "name": "Ocean Freight: Portland to China",
+    "country_iso2": "INTL",
+    "operator_id": "INTL_various_bulk_carriers",
+    "mode": "ocean_freight",
+    "form": "bulk_dry",
+    "range": "international",
+    "coordinates": {
+      "lat": -15,
+      "lon": 135
+    },
+    "resources": [
+      "Timber"
+    ],
+    "upstream": [],
+    "downstream": []
+  },
+  {
+    "id": "INTL_ocean_albany-japan",
+    "tier": "transport",
+    "name": "Ocean Freight: Albany to Japan",
+    "country_iso2": "INTL",
+    "operator_id": "INTL_various_bulk_carriers",
+    "mode": "ocean_freight",
+    "form": "bulk_dry",
+    "range": "international",
+    "coordinates": {
+      "lat": -20,
+      "lon": 120
+    },
+    "resources": [
+      "Timber"
+    ],
+    "upstream": [],
+    "downstream": []
+  },
+  {
+    "id": "INTL_ocean_albany-china",
+    "tier": "transport",
+    "name": "Ocean Freight: Albany to China",
+    "country_iso2": "INTL",
+    "operator_id": "INTL_various_bulk_carriers",
+    "mode": "ocean_freight",
+    "form": "bulk_dry",
+    "range": "international",
+    "coordinates": {
+      "lat": -10,
+      "lon": 115
+    },
+    "resources": [
+      "Timber"
+    ],
+    "upstream": [],
+    "downstream": []
+  },
+  {
+    "id": "INTL_ocean_bunbury-japan",
+    "tier": "transport",
+    "name": "Ocean Freight: Bunbury to Japan",
+    "country_iso2": "INTL",
+    "operator_id": "INTL_various_bulk_carriers",
+    "mode": "ocean_freight",
+    "form": "bulk_dry",
+    "range": "international",
+    "coordinates": {
+      "lat": -15,
+      "lon": 120
+    }
+  },
+  {
+    "id": "INTL_ocean_bunbury-china",
+    "tier": "transport",
+    "name": "Ocean Freight: Bunbury to China",
+    "country_iso2": "INTL",
+    "operator_id": "INTL_various_bulk_carriers",
+    "mode": "ocean_freight",
+    "form": "bulk_dry",
+    "range": "international",
+    "coordinates": {
+      "lat": -5,
+      "lon": 115
+    }
+  },
+  {
+    "id": "INTL_ocean_burnie-japan",
+    "tier": "transport",
+    "name": "Ocean Freight: Burnie to Japan",
+    "country_iso2": "INTL",
+    "operator_id": "INTL_various_bulk_carriers",
+    "mode": "ocean_freight",
+    "form": "bulk_dry",
+    "range": "international",
+    "coordinates": {
+      "lat": -20,
+      "lon": 145
+    }
+  },
+  {
+    "id": "INTL_ocean_burnie-china",
+    "tier": "transport",
+    "name": "Ocean Freight: Burnie to China",
+    "country_iso2": "INTL",
+    "operator_id": "INTL_various_bulk_carriers",
+    "mode": "ocean_freight",
+    "form": "bulk_dry",
+    "range": "international",
+    "coordinates": {
+      "lat": -15,
+      "lon": 140
+    }
+  },
+  {
+    "id": "INTL_ocean_long-reach-japan",
+    "tier": "transport",
+    "name": "Ocean Freight: Long Reach (Bell Bay) to Japan",
+    "country_iso2": "INTL",
+    "operator_id": "INTL_various_bulk_carriers",
+    "mode": "ocean_freight",
+    "form": "bulk_dry",
+    "range": "international",
+    "coordinates": {
+      "lat": -18,
+      "lon": 148
+    }
+  },
+  {
+    "id": "INTL_ocean_long-reach-china",
+    "tier": "transport",
+    "name": "Ocean Freight: Long Reach (Bell Bay) to China",
+    "country_iso2": "INTL",
+    "operator_id": "INTL_various_bulk_carriers",
+    "mode": "ocean_freight",
+    "form": "bulk_dry",
+    "range": "international",
+    "coordinates": {
+      "lat": -12,
+      "lon": 140
+    }
+  },
+  {
+    "id": "AU_road_smithfield-national",
+    "tier": "transport",
+    "name": "Road: Visy Smithfield to National Packaging Customers",
+    "country_iso2": "AU",
+    "operator_id": "AU_visy_logistics",
+    "mode": "road",
+    "form": "containerised",
+    "range": "regional",
+    "coordinates": {
+      "lat": -33.87,
+      "lon": 151
+    }
+  },
+  {
+    "id": "AU_road_opal-national-dist",
+    "tier": "transport",
+    "name": "Road: Opal Converting Plants to National Distribution",
+    "country_iso2": "AU",
+    "operator_id": "AU_various_hauliers",
+    "mode": "road",
+    "form": "containerised",
+    "range": "regional",
+    "coordinates": {
+      "lat": -37.5,
+      "lon": 145
+    }
+  },
+  {
+    "id": "INTL_road_asia-dist",
+    "tier": "transport",
+    "name": "Road: Opal Asian Export Regional Distribution",
+    "country_iso2": "INTL",
+    "operator_id": "INTL_various_logistics",
+    "mode": "road",
+    "form": "containerised",
+    "range": "regional",
+    "coordinates": {
+      "lat": 22.3,
+      "lon": 114.17
+    }
+  },
+  {
+    "id": "INTL_road_asia-newsprint-dist",
+    "tier": "transport",
+    "name": "Road: Norske Skog Asia Newsprint Distribution",
+    "country_iso2": "INTL",
+    "operator_id": "INTL_various_logistics",
+    "mode": "road",
+    "form": "containerised",
+    "range": "regional",
+    "coordinates": {
+      "lat": 1.35,
+      "lon": 103.82
+    }
+  },
+  {
+    "id": "JP_road_nippon-domestic-dist",
+    "tier": "transport",
+    "name": "Road: Nippon Paper Domestic Distribution (Japan)",
+    "country_iso2": "JP",
+    "operator_id": "JP_nippon_logistics",
+    "mode": "road",
+    "form": "containerised",
+    "range": "regional",
+    "coordinates": {
+      "lat": 35,
+      "lon": 137
+    }
+  },
+  {
+    "id": "JP_road_oji-domestic-dist",
+    "tier": "transport",
+    "name": "Road: Oji Paper Domestic Distribution (Japan)",
+    "country_iso2": "JP",
+    "operator_id": "JP_oji_logistics",
+    "mode": "road",
+    "form": "containerised",
+    "range": "regional",
+    "coordinates": {
+      "lat": 36,
+      "lon": 140
+    }
+  },
+  {
+    "id": "JP_road_daio-domestic-dist",
+    "tier": "transport",
+    "name": "Road: Daio Paper Domestic Distribution (Japan)",
+    "country_iso2": "JP",
+    "operator_id": "JP_daio_logistics",
+    "mode": "road",
+    "form": "containerised",
+    "range": "regional",
+    "coordinates": {
+      "lat": 34,
+      "lon": 133
+    }
+  },
+  {
+    "id": "CN_road_sun-paper-domestic",
+    "tier": "transport",
+    "name": "Road: Sun Paper Domestic Distribution (China)",
+    "country_iso2": "CN",
+    "operator_id": "CN_various_logistics",
+    "mode": "road",
+    "form": "containerised",
+    "range": "regional",
+    "coordinates": {
+      "lat": 34,
+      "lon": 118
+    },
+    "resources": [
+      "Timber"
+    ],
+    "upstream": [],
+    "downstream": []
+  },
+  {
+    "id": "CN_road_april-domestic",
+    "tier": "transport",
+    "name": "Road: APRIL Group China Distribution",
+    "country_iso2": "CN",
+    "operator_id": "CN_various_logistics",
+    "mode": "road",
+    "form": "containerised",
+    "range": "regional",
+    "coordinates": {
+      "lat": 30.5,
+      "lon": 120.5
+    }
+  },
+  {
+    "id": "AU_road_visy-last-mile",
+    "tier": "transport",
+    "name": "Road: Visy Last-Mile Delivery to End Consumers (Australia)",
+    "country_iso2": "AU",
+    "operator_id": "AU_visy_logistics",
+    "mode": "road",
+    "form": "containerised",
+    "range": "local",
+    "coordinates": {
+      "lat": -33.87,
+      "lon": 151.21
+    }
+  },
+  {
+    "id": "AU_road_opal-last-mile",
+    "tier": "transport",
+    "name": "Road: Opal Last-Mile Delivery to End Consumers (Australia)",
+    "country_iso2": "AU",
+    "operator_id": "AU_various_hauliers",
+    "mode": "road",
+    "form": "containerised",
+    "range": "local",
+    "coordinates": {
+      "lat": -37.81,
+      "lon": 144.96
+    }
+  },
+  {
+    "id": "AU_road_norske-newsprint-last-mile",
+    "tier": "transport",
+    "name": "Road: Norske Skog Newsprint Last-Mile (Australia)",
+    "country_iso2": "AU",
+    "operator_id": "AU_various_hauliers",
+    "mode": "road",
+    "form": "containerised",
+    "range": "local",
+    "coordinates": {
+      "lat": -37.81,
+      "lon": 144.96
+    }
+  },
+  {
+    "id": "JP_road_nippon-last-mile",
+    "tier": "transport",
+    "name": "Road: Nippon Paper Last-Mile (Japan)",
+    "country_iso2": "JP",
+    "operator_id": "JP_nippon_logistics",
+    "mode": "road",
+    "form": "containerised",
+    "range": "local",
+    "coordinates": {
+      "lat": 35.68,
+      "lon": 139.69
+    }
+  },
+  {
+    "id": "JP_road_oji-last-mile",
+    "tier": "transport",
+    "name": "Road: Oji Paper Last-Mile (Japan)",
+    "country_iso2": "JP",
+    "operator_id": "JP_oji_logistics",
+    "mode": "road",
+    "form": "containerised",
+    "range": "local",
+    "coordinates": {
+      "lat": 35.68,
+      "lon": 139.69
+    }
+  },
+  {
+    "id": "JP_road_daio-last-mile",
+    "tier": "transport",
+    "name": "Road: Daio Paper Last-Mile (Japan)",
+    "country_iso2": "JP",
+    "operator_id": "JP_daio_logistics",
+    "mode": "road",
+    "form": "containerised",
+    "range": "local",
+    "coordinates": {
+      "lat": 35.68,
+      "lon": 139.69
+    }
+  },
+  {
+    "id": "CN_road_sun-paper-last-mile",
+    "tier": "transport",
+    "name": "Road: Sun Paper Last-Mile (China)",
+    "country_iso2": "CN",
+    "operator_id": "CN_various_logistics",
+    "mode": "road",
+    "form": "containerised",
+    "range": "local",
+    "coordinates": {
+      "lat": 31.23,
+      "lon": 121.47
+    }
+  },
+  {
+    "id": "CN_road_april-last-mile",
+    "tier": "transport",
+    "name": "Road: APRIL Group Last-Mile (China)",
+    "country_iso2": "CN",
+    "operator_id": "CN_various_logistics",
+    "mode": "road",
+    "form": "containerised",
+    "range": "local",
+    "coordinates": {
+      "lat": 31.23,
+      "lon": 121.47
+    }
+  },
+  {
+    "id": "INTL_road_asia-last-mile",
+    "tier": "transport",
+    "name": "Road: Asian Export Last-Mile Distribution",
+    "country_iso2": "INTL",
+    "operator_id": "INTL_various_logistics",
+    "mode": "road",
+    "form": "containerised",
+    "range": "local",
+    "coordinates": {
+      "lat": 22.3,
+      "lon": 114.17
+    }
+  },
+  {
+    "id": "INTL_road_asia-newsprint-last-mile",
+    "tier": "transport",
+    "name": "Road: Asia Newsprint Export Last-Mile",
+    "country_iso2": "INTL",
+    "operator_id": "INTL_various_logistics",
+    "mode": "road",
+    "form": "containerised",
+    "range": "local",
+    "coordinates": {
+      "lat": 1.35,
+      "lon": 103.82
+    }
+  }
+]

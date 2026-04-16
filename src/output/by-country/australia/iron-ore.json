@@ -1,0 +1,2714 @@
+[
+  {
+    "id": "AU_bhp_newman_mine",
+    "name": "BHP Newman Hub (Mining Area C, Yandi, Jimblebar)",
+    "tier": "extraction",
+    "country_iso2": "AU",
+    "canonical_company": "BHP",
+    "coordinates": {
+      "lat": -23.35,
+      "lon": 119.73
+    },
+    "downstream": [
+      {
+        "target_id": "AU_bhp_port_hedland_operations",
+        "corridor_id": "AU_rail_bhp-newman-port-hedland",
+        "resource": "iron ore (lump and fines)",
+        "quantity": 160000000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Iron Ore"
+    ]
+  },
+  {
+    "id": "AU_bhp_south_flank_mine",
+    "name": "BHP South Flank Mine",
+    "tier": "extraction",
+    "country_iso2": "AU",
+    "canonical_company": "BHP",
+    "coordinates": {
+      "lat": -23.32,
+      "lon": 118.95
+    },
+    "downstream": [
+      {
+        "target_id": "AU_bhp_port_hedland_operations",
+        "corridor_id": "AU_rail_bhp-newman-port-hedland",
+        "resource": "iron ore (lump and fines)",
+        "quantity": 80000000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Iron Ore"
+    ]
+  },
+  {
+    "id": "AU_rio_tinto_tom_price_mine",
+    "name": "Rio Tinto Tom Price Mine",
+    "tier": "extraction",
+    "country_iso2": "AU",
+    "canonical_company": "Rio Tinto",
+    "coordinates": {
+      "lat": -22.69,
+      "lon": 117.79
+    },
+    "downstream": [
+      {
+        "target_id": "AU_rio_tinto_dampier_port",
+        "corridor_id": "AU_rail_rio-hamersley-dampier",
+        "resource": "iron ore (lump and fines)",
+        "quantity": 30000000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Iron Ore"
+    ]
+  },
+  {
+    "id": "AU_rio_tinto_marandoo_mine",
+    "name": "Rio Tinto Marandoo Mine",
+    "tier": "extraction",
+    "country_iso2": "AU",
+    "canonical_company": "Rio Tinto",
+    "coordinates": {
+      "lat": -22.61,
+      "lon": 118.14
+    },
+    "downstream": [
+      {
+        "target_id": "AU_rio_tinto_dampier_port",
+        "corridor_id": "AU_rail_rio-hamersley-dampier",
+        "resource": "iron ore (lump and fines)",
+        "quantity": 25000000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Iron Ore"
+    ]
+  },
+  {
+    "id": "AU_rio_tinto_brockman_mine",
+    "name": "Rio Tinto Brockman 4 Mine",
+    "tier": "extraction",
+    "country_iso2": "AU",
+    "canonical_company": "Rio Tinto",
+    "coordinates": {
+      "lat": -22.51,
+      "lon": 117.8
+    },
+    "downstream": [
+      {
+        "target_id": "AU_rio_tinto_dampier_port",
+        "corridor_id": "AU_rail_rio-hamersley-dampier",
+        "resource": "iron ore (lump and fines)",
+        "quantity": 25000000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Iron Ore"
+    ]
+  },
+  {
+    "id": "AU_rio_tinto_nammuldi_mine",
+    "name": "Rio Tinto Nammuldi Mine",
+    "tier": "extraction",
+    "country_iso2": "AU",
+    "canonical_company": "Rio Tinto",
+    "coordinates": {
+      "lat": -22.84,
+      "lon": 117.56
+    },
+    "downstream": [
+      {
+        "target_id": "AU_rio_tinto_dampier_port",
+        "corridor_id": "AU_rail_rio-hamersley-dampier",
+        "resource": "iron ore (lump and fines)",
+        "quantity": 20000000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Iron Ore"
+    ]
+  },
+  {
+    "id": "AU_rio_tinto_yandicoogina_mine",
+    "name": "Rio Tinto Yandicoogina Mine",
+    "tier": "extraction",
+    "country_iso2": "AU",
+    "canonical_company": "Rio Tinto",
+    "coordinates": {
+      "lat": -22.73,
+      "lon": 119.22
+    },
+    "downstream": [
+      {
+        "target_id": "AU_rio_tinto_dampier_port",
+        "corridor_id": "AU_rail_rio-hamersley-dampier",
+        "resource": "iron ore (lump and fines)",
+        "quantity": 30000000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Iron Ore"
+    ]
+  },
+  {
+    "id": "AU_rio_tinto_hope_downs_mine",
+    "name": "Rio Tinto Hope Downs Mine (JV with Hancock)",
+    "tier": "extraction",
+    "country_iso2": "AU",
+    "canonical_company": "Rio Tinto",
+    "coordinates": {
+      "lat": -22.98,
+      "lon": 119.11
+    },
+    "downstream": [
+      {
+        "target_id": "AU_rio_tinto_dampier_port",
+        "corridor_id": "AU_rail_rio-hamersley-dampier",
+        "resource": "iron ore (lump and fines)",
+        "quantity": 32000000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Iron Ore"
+    ]
+  },
+  {
+    "id": "AU_rio_tinto_west_angelas_mine",
+    "name": "Rio Tinto West Angelas Mine",
+    "tier": "extraction",
+    "country_iso2": "AU",
+    "canonical_company": "Rio Tinto",
+    "coordinates": {
+      "lat": -23.17,
+      "lon": 118.67
+    },
+    "downstream": [
+      {
+        "target_id": "AU_rio_tinto_cape_lambert_port",
+        "corridor_id": "AU_rail_rio-robe-cape-lambert",
+        "resource": "iron ore (Robe Valley pisolite fines)",
+        "quantity": 30000000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Iron Ore"
+    ]
+  },
+  {
+    "id": "AU_rio_tinto_mesa_a_mine",
+    "name": "Rio Tinto Mesa A / Warramboo Mine",
+    "tier": "extraction",
+    "country_iso2": "AU",
+    "canonical_company": "Rio Tinto",
+    "coordinates": {
+      "lat": -21.68,
+      "lon": 115.94
+    },
+    "downstream": [
+      {
+        "target_id": "AU_rio_tinto_cape_lambert_port",
+        "corridor_id": "AU_rail_rio-robe-cape-lambert",
+        "resource": "iron ore (Robe Valley pisolite fines)",
+        "quantity": 30000000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Iron Ore"
+    ]
+  },
+  {
+    "id": "AU_rio_tinto_gudai_darri_mine",
+    "name": "Rio Tinto Gudai-Darri (Koodaideri) Mine",
+    "tier": "extraction",
+    "country_iso2": "AU",
+    "canonical_company": "Rio Tinto",
+    "coordinates": {
+      "lat": -22.69,
+      "lon": 119.56
+    },
+    "downstream": [
+      {
+        "target_id": "AU_rio_tinto_dampier_port",
+        "corridor_id": "AU_rail_rio-hamersley-dampier",
+        "resource": "iron ore (lump and fines)",
+        "quantity": 43000000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Iron Ore"
+    ]
+  },
+  {
+    "id": "AU_fortescue_chichester_hub",
+    "name": "Fortescue Chichester Hub (Christmas Creek & Cloudbreak)",
+    "tier": "extraction",
+    "country_iso2": "AU",
+    "canonical_company": "Fortescue",
+    "coordinates": {
+      "lat": -22.35,
+      "lon": 119.8
+    },
+    "downstream": [
+      {
+        "target_id": "AU_fortescue_port_hedland_operations",
+        "corridor_id": "AU_rail_fmg-chichester-port-hedland",
+        "resource": "iron ore fines (Fortescue Blend)",
+        "quantity": 90000000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Iron Ore"
+    ]
+  },
+  {
+    "id": "AU_fortescue_solomon_hub",
+    "name": "Fortescue Solomon Hub (Firetail & Kings)",
+    "tier": "extraction",
+    "country_iso2": "AU",
+    "canonical_company": "Fortescue",
+    "coordinates": {
+      "lat": -22.57,
+      "lon": 118.04
+    },
+    "downstream": [
+      {
+        "target_id": "AU_fortescue_port_hedland_operations",
+        "corridor_id": "AU_rail_fmg-solomon-port-hedland",
+        "resource": "iron ore fines (Fortescue Super Special Fines)",
+        "quantity": 60000000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Iron Ore"
+    ]
+  },
+  {
+    "id": "AU_fortescue_eliwana_mine",
+    "name": "Fortescue Eliwana Mine",
+    "tier": "extraction",
+    "country_iso2": "AU",
+    "canonical_company": "Fortescue",
+    "coordinates": {
+      "lat": -22.49,
+      "lon": 118.25
+    },
+    "downstream": [
+      {
+        "target_id": "AU_fortescue_port_hedland_operations",
+        "corridor_id": "AU_rail_fmg-solomon-port-hedland",
+        "resource": "iron ore fines (West Pilbara Fines)",
+        "quantity": 30000000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Iron Ore"
+    ]
+  },
+  {
+    "id": "AU_fortescue_iron_bridge",
+    "name": "Fortescue Iron Bridge Magnetite Mine",
+    "tier": "extraction",
+    "country_iso2": "AU",
+    "canonical_company": "Fortescue",
+    "coordinates": {
+      "lat": -20.55,
+      "lon": 118.8
+    },
+    "downstream": [
+      {
+        "target_id": "AU_fortescue_port_hedland_operations",
+        "corridor_id": "AU_rail_fmg-iron-bridge-port-hedland",
+        "resource": "high-grade magnetite concentrate (67% Fe)",
+        "quantity": 22000000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Iron Ore"
+    ]
+  },
+  {
+    "id": "AU_hancock_roy_hill_mine",
+    "name": "Roy Hill Mine",
+    "tier": "extraction",
+    "country_iso2": "AU",
+    "canonical_company": "Roy Hill Holdings",
+    "coordinates": {
+      "lat": -22.59,
+      "lon": 119.97
+    },
+    "downstream": [
+      {
+        "target_id": "AU_roy_hill_port_hedland_terminal",
+        "corridor_id": "AU_rail_roy-hill-port-hedland",
+        "resource": "iron ore (lump and fines)",
+        "quantity": 65000000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Iron Ore"
+    ]
+  },
+  {
+    "id": "AU_mineral_resources_south_flank_yilgarn",
+    "name": "Mineral Resources Yilgarn Hub (Koolyanobbing & Parker Range)",
+    "tier": "extraction",
+    "country_iso2": "AU",
+    "canonical_company": "Mineral Resources",
+    "coordinates": {
+      "lat": -31.25,
+      "lon": 119.25
+    },
+    "downstream": [
+      {
+        "target_id": "AU_mineral_resources_esperance_port",
+        "corridor_id": "AU_rail_yilgarn-esperance",
+        "resource": "iron ore fines and lump",
+        "quantity": 8000000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Iron Ore"
+    ]
+  },
+  {
+    "id": "AU_mineral_resources_onslow_iron",
+    "name": "Mineral Resources Onslow Iron (Ken's Bore)",
+    "tier": "extraction",
+    "country_iso2": "AU",
+    "canonical_company": "Mineral Resources",
+    "coordinates": {
+      "lat": -22.8,
+      "lon": 115.85
+    },
+    "downstream": [
+      {
+        "target_id": "AU_mineral_resources_onslow_port",
+        "corridor_id": "AU_road_minres-onslow",
+        "resource": "iron ore fines",
+        "quantity": 20000000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Iron Ore"
+    ]
+  },
+  {
+    "id": "AU_citic_sino_iron_mine",
+    "name": "Sino Iron (CITIC Pacific Mining) Mine",
+    "tier": "extraction",
+    "country_iso2": "AU",
+    "canonical_company": "CITIC Pacific Mining",
+    "coordinates": {
+      "lat": -21.05,
+      "lon": 116.97
+    },
+    "downstream": [
+      {
+        "target_id": "AU_citic_cape_preston_port",
+        "corridor_id": "AU_conveyor_sino-iron-cape-preston",
+        "resource": "magnetite concentrate (65% Fe)",
+        "quantity": 24000000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Iron Ore"
+    ]
+  },
+  {
+    "id": "AU_grange_resources_savage_river_mine",
+    "name": "Grange Resources Savage River Mine",
+    "tier": "extraction",
+    "country_iso2": "AU",
+    "canonical_company": "Grange Resources",
+    "coordinates": {
+      "lat": -41.54,
+      "lon": 145.62
+    },
+    "downstream": [
+      {
+        "target_id": "AU_grange_resources_port_latta",
+        "corridor_id": "AU_pipeline_savage-river-port-latta",
+        "resource": "magnetite concentrate (iron ore pellets/concentrate)",
+        "quantity": 2500000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Iron Ore"
+    ]
+  },
+  {
+    "id": "AU_bhp_port_hedland_operations",
+    "name": "BHP Port Hedland Export Terminal (Nelson Point & Finucane Island)",
+    "tier": "extraction",
+    "country_iso2": "AU",
+    "canonical_company": "BHP",
+    "coordinates": {
+      "lat": -20.31,
+      "lon": 118.58
+    },
+    "downstream": [
+      {
+        "target_id": "CN_baowu_steel",
+        "corridor_id": "INTL_ocean_port-hedland-shanghai",
+        "resource": "iron ore (lump and fines)",
+        "quantity": 100000000,
+        "metric": "t"
+      },
+      {
+        "target_id": "JP_nippon_steel",
+        "corridor_id": "INTL_ocean_port-hedland-kashima",
+        "resource": "iron ore (lump and fines)",
+        "quantity": 25000000,
+        "metric": "t"
+      },
+      {
+        "target_id": "KR_posco",
+        "corridor_id": "INTL_ocean_port-hedland-pohang",
+        "resource": "iron ore (lump and fines)",
+        "quantity": 20000000,
+        "metric": "t"
+      },
+      {
+        "target_id": "IN_jswsteel",
+        "corridor_id": "INTL_ocean_port-hedland-goa",
+        "resource": "iron ore (lump and fines)",
+        "quantity": 15000000,
+        "metric": "t"
+      },
+      {
+        "target_id": "CN_hbis_group",
+        "corridor_id": "INTL_ocean_port-hedland-caofeidian",
+        "resource": "iron ore (lump and fines)",
+        "quantity": 40000000,
+        "metric": "t"
+      },
+      {
+        "target_id": "TW_china_steel_corp",
+        "corridor_id": "INTL_ocean_port-hedland-kaohsiung",
+        "resource": "iron ore (lump and fines)",
+        "quantity": 10000000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_bhp_newman_mine",
+      "AU_bhp_south_flank_mine"
+    ],
+    "resources": [
+      "Iron Ore"
+    ]
+  },
+  {
+    "id": "AU_rio_tinto_dampier_port",
+    "name": "Rio Tinto Dampier Port (Parker Point & East Intercourse Island)",
+    "tier": "extraction",
+    "country_iso2": "AU",
+    "canonical_company": "Rio Tinto",
+    "coordinates": {
+      "lat": -20.66,
+      "lon": 116.71
+    },
+    "downstream": [
+      {
+        "target_id": "CN_baowu_steel",
+        "corridor_id": "INTL_ocean_dampier-shanghai",
+        "resource": "iron ore (Pilbara Blend fines and lump)",
+        "quantity": 80000000,
+        "metric": "t"
+      },
+      {
+        "target_id": "JP_nippon_steel",
+        "corridor_id": "INTL_ocean_dampier-kashima",
+        "resource": "iron ore (lump and fines)",
+        "quantity": 25000000,
+        "metric": "t"
+      },
+      {
+        "target_id": "KR_posco",
+        "corridor_id": "INTL_ocean_dampier-pohang",
+        "resource": "iron ore (lump and fines)",
+        "quantity": 15000000,
+        "metric": "t"
+      },
+      {
+        "target_id": "CN_ansteel",
+        "corridor_id": "INTL_ocean_dampier-bayuquan",
+        "resource": "iron ore (lump and fines)",
+        "quantity": 25000000,
+        "metric": "t"
+      },
+      {
+        "target_id": "CN_chinese_steel_mills",
+        "corridor_id": "INTL_ocean_dampier-tianjin",
+        "resource": "iron ore (lump and fines)",
+        "quantity": 150000000,
+        "metric": "t"
+      },
+      {
+        "target_id": "JP_japanese_steel_mills",
+        "corridor_id": "INTL_ocean_dampier-kobe",
+        "resource": "iron ore (lump and fines)",
+        "quantity": 30000000,
+        "metric": "t"
+      },
+      {
+        "target_id": "KR_korean_steel_mills",
+        "corridor_id": "INTL_ocean_dampier-pohang",
+        "resource": "iron ore (lump and fines)",
+        "quantity": 20000000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_rio_tinto_tom_price_mine",
+      "AU_rio_tinto_marandoo_mine",
+      "AU_rio_tinto_brockman_mine",
+      "AU_rio_tinto_nammuldi_mine",
+      "AU_rio_tinto_yandicoogina_mine",
+      "AU_rio_tinto_hope_downs_mine",
+      "AU_rio_tinto_gudai_darri_mine",
+      "AU_rio_tinto_pilbara_management"
+    ],
+    "resources": [
+      "Iron Ore",
+      "Mineral-Bearing Land"
+    ]
+  },
+  {
+    "id": "AU_rio_tinto_cape_lambert_port",
+    "name": "Rio Tinto Cape Lambert Port",
+    "tier": "extraction",
+    "country_iso2": "AU",
+    "canonical_company": "Rio Tinto",
+    "coordinates": {
+      "lat": -20.59,
+      "lon": 117.18
+    },
+    "downstream": [
+      {
+        "target_id": "CN_baowu_steel",
+        "corridor_id": "INTL_ocean_cape-lambert-shanghai",
+        "resource": "iron ore (Robe Valley pisolite fines)",
+        "quantity": 30000000,
+        "metric": "t"
+      },
+      {
+        "target_id": "CN_shagang_group",
+        "corridor_id": "INTL_ocean_cape-lambert-zhangjiagang",
+        "resource": "iron ore (Robe Valley pisolite fines)",
+        "quantity": 15000000,
+        "metric": "t"
+      },
+      {
+        "target_id": "JP_jfe_steel",
+        "corridor_id": "INTL_ocean_cape-lambert-fukuyama",
+        "resource": "iron ore (Robe Valley pisolite fines)",
+        "quantity": 10000000,
+        "metric": "t"
+      },
+      {
+        "target_id": "CN_chinese_steel_mills",
+        "corridor_id": "INTL_ocean_cape-lambert-qingdao",
+        "resource": "iron ore (fines)",
+        "quantity": 90000000,
+        "metric": "t"
+      },
+      {
+        "target_id": "TW_taiwanese_steel_mills",
+        "corridor_id": "INTL_ocean_cape-lambert-kaohsiung",
+        "resource": "iron ore",
+        "quantity": 10000000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_rio_tinto_west_angelas_mine",
+      "AU_rio_tinto_mesa_a_mine",
+      "AU_rio_tinto_pilbara_management"
+    ],
+    "resources": [
+      "Iron Ore",
+      "Mineral-Bearing Land"
+    ]
+  },
+  {
+    "id": "AU_fortescue_port_hedland_operations",
+    "name": "Fortescue Port Hedland (Anderson Point, Herb Elliott Port)",
+    "tier": "extraction",
+    "country_iso2": "AU",
+    "canonical_company": "Fortescue",
+    "coordinates": {
+      "lat": -20.3,
+      "lon": 118.57
+    },
+    "downstream": [
+      {
+        "target_id": "CN_baowu_steel",
+        "corridor_id": "INTL_ocean_port-hedland-shanghai",
+        "resource": "iron ore fines (Fortescue Blend and Super Special Fines)",
+        "quantity": 80000000,
+        "metric": "t"
+      },
+      {
+        "target_id": "CN_hbis_group",
+        "corridor_id": "INTL_ocean_port-hedland-caofeidian",
+        "resource": "iron ore fines",
+        "quantity": 40000000,
+        "metric": "t"
+      },
+      {
+        "target_id": "KR_posco",
+        "corridor_id": "INTL_ocean_port-hedland-pohang",
+        "resource": "iron ore fines",
+        "quantity": 15000000,
+        "metric": "t"
+      },
+      {
+        "target_id": "CN_shougang_group",
+        "corridor_id": "INTL_ocean_port-hedland-jingtang",
+        "resource": "iron ore fines",
+        "quantity": 25000000,
+        "metric": "t"
+      },
+      {
+        "target_id": "JP_jfe_steel",
+        "corridor_id": "INTL_ocean_port-hedland-fukuyama",
+        "resource": "iron ore fines and magnetite concentrate",
+        "quantity": 12000000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_fortescue_chichester_hub",
+      "AU_fortescue_solomon_hub",
+      "AU_fortescue_eliwana_mine",
+      "AU_fortescue_iron_bridge"
+    ],
+    "resources": [
+      "Iron Ore"
+    ]
+  },
+  {
+    "id": "AU_roy_hill_port_hedland_terminal",
+    "name": "Roy Hill Port Hedland Terminal",
+    "tier": "extraction",
+    "country_iso2": "AU",
+    "canonical_company": "Roy Hill Holdings",
+    "coordinates": {
+      "lat": -20.29,
+      "lon": 118.56
+    },
+    "downstream": [
+      {
+        "target_id": "CN_baowu_steel",
+        "corridor_id": "INTL_ocean_port-hedland-shanghai",
+        "resource": "iron ore (lump and fines)",
+        "quantity": 25000000,
+        "metric": "t"
+      },
+      {
+        "target_id": "CN_hbis_group",
+        "corridor_id": "INTL_ocean_port-hedland-caofeidian",
+        "resource": "iron ore (lump and fines)",
+        "quantity": 15000000,
+        "metric": "t"
+      },
+      {
+        "target_id": "KR_posco",
+        "corridor_id": "INTL_ocean_port-hedland-pohang",
+        "resource": "iron ore (lump and fines)",
+        "quantity": 10000000,
+        "metric": "t"
+      },
+      {
+        "target_id": "JP_nippon_steel",
+        "corridor_id": "INTL_ocean_port-hedland-kashima",
+        "resource": "iron ore (lump and fines)",
+        "quantity": 8000000,
+        "metric": "t"
+      },
+      {
+        "target_id": "CN_shagang_group",
+        "corridor_id": "INTL_ocean_port-hedland-zhangjiagang",
+        "resource": "iron ore (fines)",
+        "quantity": 7000000,
+        "metric": "t"
+      },
+      {
+        "target_id": "CN_chinese_steel_mills",
+        "corridor_id": "INTL_ocean_port-hedland-zhoushan",
+        "resource": "iron ore",
+        "quantity": 50000000,
+        "metric": "t"
+      },
+      {
+        "target_id": "KR_korean_steel_mills",
+        "corridor_id": "INTL_ocean_port-hedland-gwangyang",
+        "resource": "iron ore",
+        "quantity": 10000000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_hancock_roy_hill_mine",
+      "AU_roy_hill_management"
+    ],
+    "resources": [
+      "Iron Ore",
+      "Mineral-Bearing Land"
+    ]
+  },
+  {
+    "id": "AU_citic_cape_preston_port",
+    "name": "CITIC Pacific Cape Preston Port",
+    "tier": "extraction",
+    "country_iso2": "AU",
+    "canonical_company": "CITIC Pacific Mining",
+    "coordinates": {
+      "lat": -20.78,
+      "lon": 116.59
+    },
+    "downstream": [
+      {
+        "target_id": "CN_baowu_steel",
+        "corridor_id": "INTL_ocean_cape-preston-zhanjiang",
+        "resource": "magnetite concentrate (65% Fe)",
+        "quantity": 14000000,
+        "metric": "t"
+      },
+      {
+        "target_id": "CN_hbis_group",
+        "corridor_id": "INTL_ocean_cape-preston-caofeidian",
+        "resource": "magnetite concentrate (65% Fe)",
+        "quantity": 10000000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_citic_sino_iron_mine"
+    ],
+    "resources": [
+      "Iron Ore"
+    ]
+  },
+  {
+    "id": "AU_mineral_resources_esperance_port",
+    "name": "Mineral Resources – Esperance Port",
+    "tier": "extraction",
+    "country_iso2": "AU",
+    "canonical_company": "Mineral Resources",
+    "coordinates": {
+      "lat": -33.86,
+      "lon": 121.89
+    },
+    "downstream": [
+      {
+        "target_id": "CN_baowu_steel",
+        "corridor_id": "INTL_ocean_esperance-shanghai",
+        "resource": "iron ore fines and lump",
+        "quantity": 5000000,
+        "metric": "t"
+      },
+      {
+        "target_id": "CN_hbis_group",
+        "corridor_id": "INTL_ocean_esperance-caofeidian",
+        "resource": "iron ore fines",
+        "quantity": 3000000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_mineral_resources_south_flank_yilgarn"
+    ],
+    "resources": [
+      "Iron Ore"
+    ]
+  },
+  {
+    "id": "AU_mineral_resources_onslow_port",
+    "name": "Mineral Resources – Onslow Port (Ashburton)",
+    "tier": "extraction",
+    "country_iso2": "AU",
+    "canonical_company": "Mineral Resources",
+    "coordinates": {
+      "lat": -21.64,
+      "lon": 115.11
+    },
+    "downstream": [
+      {
+        "target_id": "CN_baowu_steel",
+        "corridor_id": "INTL_ocean_onslow-shanghai",
+        "resource": "iron ore fines",
+        "quantity": 12000000,
+        "metric": "t"
+      },
+      {
+        "target_id": "CN_ansteel",
+        "corridor_id": "INTL_ocean_onslow-bayuquan",
+        "resource": "iron ore fines",
+        "quantity": 8000000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_mineral_resources_onslow_iron"
+    ],
+    "resources": [
+      "Iron Ore"
+    ]
+  },
+  {
+    "id": "AU_grange_resources_port_latta",
+    "name": "Grange Resources Port Latta Pellet Plant & Port",
+    "tier": "extraction",
+    "country_iso2": "AU",
+    "canonical_company": "Grange Resources",
+    "coordinates": {
+      "lat": -40.78,
+      "lon": 145.37
+    },
+    "downstream": [
+      {
+        "target_id": "CN_baowu_steel",
+        "corridor_id": "INTL_ocean_port-latta-shanghai",
+        "resource": "iron ore pellets (magnetite)",
+        "quantity": 1500000,
+        "metric": "t"
+      },
+      {
+        "target_id": "CN_hbis_group",
+        "corridor_id": "INTL_ocean_port-latta-caofeidian",
+        "resource": "iron ore pellets (magnetite)",
+        "quantity": 1000000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_grange_resources_savage_river_mine"
+    ],
+    "resources": [
+      "Iron Ore"
+    ]
+  },
+  {
+    "id": "CN_baowu_steel",
+    "name": "China Baowu Steel Group (incl. Baoshan, WISCO)",
+    "tier": "smelter",
+    "country_iso2": "CN",
+    "canonical_company": "China Baowu Steel Group",
+    "coordinates": {
+      "lat": 31.23,
+      "lon": 121.47
+    },
+    "downstream": [
+      {
+        "target_id": "CN_baowu_steel_hot_rolling",
+        "corridor_id": "CN_road_baowu-internal",
+        "resource": "crude steel (slabs, blooms, billets)",
+        "quantity": 80000000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_bhp_port_hedland_operations",
+      "AU_rio_tinto_dampier_port",
+      "AU_rio_tinto_cape_lambert_port",
+      "AU_fortescue_port_hedland_operations",
+      "AU_roy_hill_port_hedland_terminal",
+      "AU_citic_cape_preston_port",
+      "AU_mineral_resources_esperance_port",
+      "AU_mineral_resources_onslow_port",
+      "AU_grange_resources_port_latta"
+    ],
+    "resources": [
+      "Iron Ore"
+    ]
+  },
+  {
+    "id": "CN_hbis_group",
+    "name": "HBIS Group (Hebei Iron & Steel)",
+    "tier": "smelter",
+    "country_iso2": "CN",
+    "canonical_company": "HBIS Group",
+    "coordinates": {
+      "lat": 38.04,
+      "lon": 114.51
+    },
+    "downstream": [
+      {
+        "target_id": "CN_hbis_rolling_mills",
+        "corridor_id": "CN_road_hbis-internal",
+        "resource": "crude steel (slabs, blooms, billets)",
+        "quantity": 45000000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_bhp_port_hedland_operations",
+      "AU_fortescue_port_hedland_operations",
+      "AU_roy_hill_port_hedland_terminal",
+      "AU_citic_cape_preston_port",
+      "AU_mineral_resources_esperance_port",
+      "AU_grange_resources_port_latta"
+    ],
+    "resources": [
+      "Iron Ore"
+    ]
+  },
+  {
+    "id": "CN_ansteel",
+    "name": "Ansteel Group (Anshan Iron & Steel)",
+    "tier": "smelter",
+    "country_iso2": "CN",
+    "canonical_company": "Ansteel Group",
+    "coordinates": {
+      "lat": 41.11,
+      "lon": 122.99
+    },
+    "downstream": [
+      {
+        "target_id": "CN_ansteel_rolling_mills",
+        "corridor_id": "CN_road_ansteel-internal",
+        "resource": "crude steel (slabs, blooms, billets)",
+        "quantity": 25000000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_rio_tinto_dampier_port",
+      "AU_mineral_resources_onslow_port"
+    ],
+    "resources": [
+      "Iron Ore"
+    ]
+  },
+  {
+    "id": "CN_shougang_group",
+    "name": "Shougang Group",
+    "tier": "smelter",
+    "country_iso2": "CN",
+    "canonical_company": "Shougang Group",
+    "coordinates": {
+      "lat": 39.75,
+      "lon": 118.84
+    },
+    "downstream": [
+      {
+        "target_id": "CN_shougang_rolling_mills",
+        "corridor_id": "CN_road_shougang-internal",
+        "resource": "crude steel (slabs, blooms, billets)",
+        "quantity": 25000000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_fortescue_port_hedland_operations"
+    ],
+    "resources": [
+      "Iron Ore"
+    ]
+  },
+  {
+    "id": "CN_shagang_group",
+    "name": "Jiangsu Shagang Group",
+    "tier": "smelter",
+    "country_iso2": "CN",
+    "canonical_company": "Shagang Group",
+    "coordinates": {
+      "lat": 31.87,
+      "lon": 120.46
+    },
+    "downstream": [
+      {
+        "target_id": "CN_shagang_rolling_mills",
+        "corridor_id": "CN_road_shagang-internal",
+        "resource": "crude steel (slabs, blooms, billets)",
+        "quantity": 20000000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_rio_tinto_cape_lambert_port",
+      "AU_roy_hill_port_hedland_terminal"
+    ],
+    "resources": [
+      "Iron Ore"
+    ]
+  },
+  {
+    "id": "JP_jfe_steel",
+    "name": "JFE Steel Corporation",
+    "tier": "smelter",
+    "country_iso2": "JP",
+    "canonical_company": "JFE Steel",
+    "coordinates": {
+      "lat": 34.45,
+      "lon": 133.39
+    },
+    "downstream": [
+      {
+        "target_id": "JP_jfe_steel_mills",
+        "corridor_id": "JP_rail_jfe-internal",
+        "resource": "crude steel (slabs, blooms, billets)",
+        "quantity": 25000000,
+        "metric": "t"
+      },
+      {
+        "target_id": "JP_toyota_motor",
+        "corridor_id": "JP_road_chita-toyota-city",
+        "resource": "galvanised auto steel sheet",
+        "quantity": 50000,
+        "metric": "t"
+      },
+      {
+        "target_id": "JP_construction_mfg",
+        "corridor_id": "JP_road_chita-domestic",
+        "resource": "galvanised structural steel",
+        "quantity": 30000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_rio_tinto_cape_lambert_port",
+      "AU_fortescue_port_hedland_operations",
+      "JP_akita_smelter"
+    ],
+    "resources": [
+      "Iron Ore",
+      "Zinc"
+    ]
+  },
+  {
+    "id": "KR_posco",
+    "name": "POSCO (Pohang Iron & Steel Company)",
+    "tier": "smelter",
+    "country_iso2": "KR",
+    "canonical_company": "POSCO",
+    "coordinates": {
+      "lat": 35.99,
+      "lon": 129.36
+    },
+    "downstream": [
+      {
+        "target_id": "KR_posco_rolling_mills",
+        "corridor_id": "KR_rail_posco-internal",
+        "resource": "crude steel (slabs, blooms, billets)",
+        "quantity": 35000000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_bhp_port_hedland_operations",
+      "AU_rio_tinto_dampier_port",
+      "AU_fortescue_port_hedland_operations",
+      "AU_roy_hill_port_hedland_terminal"
+    ],
+    "resources": [
+      "Iron Ore"
+    ]
+  },
+  {
+    "id": "IN_jswsteel",
+    "name": "JSW Steel (Vijayanagar Works)",
+    "tier": "smelter",
+    "country_iso2": "IN",
+    "canonical_company": "JSW Steel",
+    "coordinates": {
+      "lat": 15.22,
+      "lon": 76.63
+    },
+    "downstream": [
+      {
+        "target_id": "IN_jsw_steel_mills",
+        "corridor_id": "IN_rail_jsw-internal",
+        "resource": "crude steel (slabs, blooms, billets)",
+        "quantity": 15000000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_bhp_port_hedland_operations"
+    ],
+    "resources": [
+      "Iron Ore"
+    ]
+  },
+  {
+    "id": "TW_china_steel_corp",
+    "name": "China Steel Corporation",
+    "tier": "smelter",
+    "country_iso2": "TW",
+    "canonical_company": "China Steel Corporation",
+    "coordinates": {
+      "lat": 22.57,
+      "lon": 120.33
+    },
+    "downstream": [
+      {
+        "target_id": "TW_csc_rolling_mills",
+        "corridor_id": "TW_road_csc-internal",
+        "resource": "crude steel (slabs, blooms, billets)",
+        "quantity": 10000000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_bhp_port_hedland_operations"
+    ],
+    "resources": [
+      "Iron Ore"
+    ]
+  },
+  {
+    "id": "CN_baowu_steel_hot_rolling",
+    "name": "Baowu Hot/Cold Rolling Mills (Baoshan, Zhanjiang, Wuhan)",
+    "tier": "mill",
+    "country_iso2": "CN",
+    "canonical_company": "China Baowu Steel Group",
+    "coordinates": {
+      "lat": 31.32,
+      "lon": 121.52
+    },
+    "downstream": [
+      {
+        "target_id": "CN_baowu_manufacturing_downstream",
+        "corridor_id": "CN_road_baowu-distribution",
+        "resource": "finished steel products (HRC, CRC, plate, rebar, sections)",
+        "quantity": 75000000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "CN_baowu_steel"
+    ],
+    "resources": [
+      "Iron Ore"
+    ]
+  },
+  {
+    "id": "CN_hbis_rolling_mills",
+    "name": "HBIS Rolling Mills (Tangshan, Handan)",
+    "tier": "mill",
+    "country_iso2": "CN",
+    "canonical_company": "HBIS Group",
+    "coordinates": {
+      "lat": 39.63,
+      "lon": 118.18
+    },
+    "downstream": [
+      {
+        "target_id": "CN_hbis_manufacturing_downstream",
+        "corridor_id": "CN_road_hbis-distribution",
+        "resource": "finished steel products (HRC, CRC, plate, rebar, sections)",
+        "quantity": 42000000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "CN_hbis_group"
+    ],
+    "resources": [
+      "Iron Ore"
+    ]
+  },
+  {
+    "id": "CN_ansteel_rolling_mills",
+    "name": "Ansteel Rolling Mills (Anshan, Bayuquan)",
+    "tier": "mill",
+    "country_iso2": "CN",
+    "canonical_company": "Ansteel Group",
+    "coordinates": {
+      "lat": 41.08,
+      "lon": 122.96
+    },
+    "downstream": [
+      {
+        "target_id": "CN_ansteel_manufacturing_downstream",
+        "corridor_id": "CN_road_ansteel-distribution",
+        "resource": "finished steel products (HRC, CRC, plate, sections)",
+        "quantity": 23000000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "CN_ansteel"
+    ],
+    "resources": [
+      "Iron Ore"
+    ]
+  },
+  {
+    "id": "CN_shougang_rolling_mills",
+    "name": "Shougang Rolling Mills (Jingtang, Qian'an)",
+    "tier": "mill",
+    "country_iso2": "CN",
+    "canonical_company": "Shougang Group",
+    "coordinates": {
+      "lat": 39.71,
+      "lon": 118.88
+    },
+    "downstream": [
+      {
+        "target_id": "CN_shougang_manufacturing_downstream",
+        "corridor_id": "CN_road_shougang-distribution",
+        "resource": "finished steel products (HRC, CRC, plate, rebar)",
+        "quantity": 23000000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "CN_shougang_group"
+    ],
+    "resources": [
+      "Iron Ore"
+    ]
+  },
+  {
+    "id": "CN_shagang_rolling_mills",
+    "name": "Shagang Rolling Mills (Zhangjiagang)",
+    "tier": "mill",
+    "country_iso2": "CN",
+    "canonical_company": "Shagang Group",
+    "coordinates": {
+      "lat": 31.88,
+      "lon": 120.47
+    },
+    "downstream": [
+      {
+        "target_id": "CN_shagang_manufacturing_downstream",
+        "corridor_id": "CN_road_shagang-distribution",
+        "resource": "finished steel products (HRC, CRC, wire rod, rebar)",
+        "quantity": 18000000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "CN_shagang_group"
+    ],
+    "resources": [
+      "Iron Ore"
+    ]
+  },
+  {
+    "id": "JP_nippon_steel_mills",
+    "name": "Nippon Steel Rolling Mills (Kashima, Nagoya, Oita, Kimitsu)",
+    "tier": "mill",
+    "country_iso2": "JP",
+    "canonical_company": "Nippon Steel",
+    "coordinates": {
+      "lat": 35.94,
+      "lon": 140.65
+    },
+    "downstream": [
+      {
+        "target_id": "JP_nippon_steel_manufacturing",
+        "corridor_id": "JP_road_nippon-distribution",
+        "resource": "finished steel products (sheet, plate, pipe, rail)",
+        "quantity": 38000000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "JP_nippon_steel"
+    ],
+    "resources": [
+      "Iron Ore"
+    ]
+  },
+  {
+    "id": "JP_jfe_steel_mills",
+    "name": "JFE Steel Rolling Mills (Fukuyama, East Japan Works)",
+    "tier": "mill",
+    "country_iso2": "JP",
+    "canonical_company": "JFE Steel",
+    "coordinates": {
+      "lat": 34.46,
+      "lon": 133.38
+    },
+    "downstream": [
+      {
+        "target_id": "JP_jfe_steel_manufacturing",
+        "corridor_id": "JP_road_jfe-distribution",
+        "resource": "finished steel products (sheet, plate, pipe)",
+        "quantity": 23000000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "JP_jfe_steel"
+    ],
+    "resources": [
+      "Iron Ore"
+    ]
+  },
+  {
+    "id": "KR_posco_rolling_mills",
+    "name": "POSCO Rolling Mills (Pohang, Gwangyang)",
+    "tier": "mill",
+    "country_iso2": "KR",
+    "canonical_company": "POSCO",
+    "coordinates": {
+      "lat": 34.76,
+      "lon": 127.72
+    },
+    "downstream": [
+      {
+        "target_id": "KR_posco_manufacturing",
+        "corridor_id": "KR_road_posco-distribution",
+        "resource": "finished steel products (auto sheet, plate, wire rod, stainless)",
+        "quantity": 33000000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "KR_posco"
+    ],
+    "resources": [
+      "Iron Ore"
+    ]
+  },
+  {
+    "id": "IN_jsw_steel_mills",
+    "name": "JSW Steel Rolling Mills (Vijayanagar, Dolvi)",
+    "tier": "mill",
+    "country_iso2": "IN",
+    "canonical_company": "JSW Steel",
+    "coordinates": {
+      "lat": 15.23,
+      "lon": 76.64
+    },
+    "downstream": [
+      {
+        "target_id": "IN_jsw_manufacturing",
+        "corridor_id": "IN_road_jsw-distribution",
+        "resource": "finished steel products (HRC, CRC, galvanised, rebar)",
+        "quantity": 14000000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "IN_jswsteel"
+    ],
+    "resources": [
+      "Iron Ore"
+    ]
+  },
+  {
+    "id": "TW_csc_rolling_mills",
+    "name": "China Steel Corporation Rolling Mills (Kaohsiung)",
+    "tier": "mill",
+    "country_iso2": "TW",
+    "canonical_company": "China Steel Corporation",
+    "coordinates": {
+      "lat": 22.57,
+      "lon": 120.34
+    },
+    "downstream": [
+      {
+        "target_id": "TW_csc_manufacturing",
+        "corridor_id": "TW_road_csc-distribution",
+        "resource": "finished steel products (sheet, plate, bar, wire rod)",
+        "quantity": 9500000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "TW_china_steel_corp"
+    ],
+    "resources": [
+      "Iron Ore"
+    ]
+  },
+  {
+    "id": "CN_baowu_manufacturing_downstream",
+    "name": "Baowu Downstream Manufacturers & Distributors",
+    "tier": "manufacturer",
+    "country_iso2": "CN",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": 31.23,
+      "lon": 121.47
+    },
+    "downstream": [
+      {
+        "target_id": "CN_infrastructure",
+        "corridor_id": "CN_road_cn-national-distribution",
+        "resource": "structural steel, rebar, plate for construction",
+        "quantity": 30000000,
+        "metric": "t"
+      },
+      {
+        "target_id": "CN_industrial",
+        "corridor_id": "CN_road_cn-national-distribution",
+        "resource": "auto sheet, machinery steel, appliance steel",
+        "quantity": 30000000,
+        "metric": "t"
+      },
+      {
+        "target_id": "CN_residential",
+        "corridor_id": "CN_road_cn-national-distribution",
+        "resource": "steel for residential construction and household goods",
+        "quantity": 15000000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "CN_baowu_steel_hot_rolling"
+    ],
+    "resources": [
+      "Iron Ore"
+    ]
+  },
+  {
+    "id": "CN_hbis_manufacturing_downstream",
+    "name": "HBIS Downstream Manufacturers & Distributors",
+    "tier": "manufacturer",
+    "country_iso2": "CN",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": 39.63,
+      "lon": 118.18
+    },
+    "downstream": [
+      {
+        "target_id": "CN_infrastructure",
+        "corridor_id": "CN_road_cn-national-distribution",
+        "resource": "structural steel, rebar, plate for construction",
+        "quantity": 20000000,
+        "metric": "t"
+      },
+      {
+        "target_id": "CN_industrial",
+        "corridor_id": "CN_road_cn-national-distribution",
+        "resource": "auto sheet, machinery steel",
+        "quantity": 15000000,
+        "metric": "t"
+      },
+      {
+        "target_id": "CN_residential",
+        "corridor_id": "CN_road_cn-national-distribution",
+        "resource": "steel for residential construction",
+        "quantity": 7000000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "CN_hbis_rolling_mills"
+    ],
+    "resources": [
+      "Iron Ore"
+    ]
+  },
+  {
+    "id": "CN_ansteel_manufacturing_downstream",
+    "name": "Ansteel Downstream Manufacturers & Distributors",
+    "tier": "manufacturer",
+    "country_iso2": "CN",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": 41.08,
+      "lon": 122.96
+    },
+    "downstream": [
+      {
+        "target_id": "CN_infrastructure",
+        "corridor_id": "CN_road_cn-national-distribution",
+        "resource": "structural steel, plate, rail",
+        "quantity": 10000000,
+        "metric": "t"
+      },
+      {
+        "target_id": "CN_industrial",
+        "corridor_id": "CN_road_cn-national-distribution",
+        "resource": "auto sheet, shipbuilding plate",
+        "quantity": 10000000,
+        "metric": "t"
+      },
+      {
+        "target_id": "CN_residential",
+        "corridor_id": "CN_road_cn-national-distribution",
+        "resource": "steel for residential construction",
+        "quantity": 3000000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "CN_ansteel_rolling_mills"
+    ],
+    "resources": [
+      "Iron Ore"
+    ]
+  },
+  {
+    "id": "CN_shougang_manufacturing_downstream",
+    "name": "Shougang Downstream Manufacturers & Distributors",
+    "tier": "manufacturer",
+    "country_iso2": "CN",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": 39.91,
+      "lon": 116.39
+    },
+    "downstream": [
+      {
+        "target_id": "CN_infrastructure",
+        "corridor_id": "CN_road_cn-national-distribution",
+        "resource": "structural steel, rebar",
+        "quantity": 10000000,
+        "metric": "t"
+      },
+      {
+        "target_id": "CN_industrial",
+        "corridor_id": "CN_road_cn-national-distribution",
+        "resource": "auto sheet, electrical steel",
+        "quantity": 10000000,
+        "metric": "t"
+      },
+      {
+        "target_id": "CN_residential",
+        "corridor_id": "CN_road_cn-national-distribution",
+        "resource": "steel for residential construction",
+        "quantity": 3000000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "CN_shougang_rolling_mills"
+    ],
+    "resources": [
+      "Iron Ore"
+    ]
+  },
+  {
+    "id": "CN_shagang_manufacturing_downstream",
+    "name": "Shagang Downstream Manufacturers & Distributors",
+    "tier": "manufacturer",
+    "country_iso2": "CN",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": 31.88,
+      "lon": 120.47
+    },
+    "downstream": [
+      {
+        "target_id": "CN_infrastructure",
+        "corridor_id": "CN_road_cn-national-distribution",
+        "resource": "rebar, wire rod for construction",
+        "quantity": 10000000,
+        "metric": "t"
+      },
+      {
+        "target_id": "CN_industrial",
+        "corridor_id": "CN_road_cn-national-distribution",
+        "resource": "special steel, machinery steel",
+        "quantity": 8000000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "CN_shagang_rolling_mills"
+    ],
+    "resources": [
+      "Iron Ore"
+    ]
+  },
+  {
+    "id": "JP_nippon_steel_manufacturing",
+    "name": "Nippon Steel Downstream Manufacturing (Toyota, Shipbuilding, Infrastructure)",
+    "tier": "manufacturer",
+    "country_iso2": "JP",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": 35.68,
+      "lon": 139.69
+    },
+    "downstream": [
+      {
+        "target_id": "JP_industrial",
+        "corridor_id": "JP_road_jp-national-distribution",
+        "resource": "auto sheet, machinery steel, pipe",
+        "quantity": 20000000,
+        "metric": "t"
+      },
+      {
+        "target_id": "JP_infrastructure",
+        "corridor_id": "JP_road_jp-national-distribution",
+        "resource": "structural steel, rail, plate",
+        "quantity": 12000000,
+        "metric": "t"
+      },
+      {
+        "target_id": "JP_residential",
+        "corridor_id": "JP_road_jp-national-distribution",
+        "resource": "steel for residential construction",
+        "quantity": 6000000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "JP_nippon_steel_mills"
+    ],
+    "resources": [
+      "Iron Ore"
+    ]
+  },
+  {
+    "id": "JP_jfe_steel_manufacturing",
+    "name": "JFE Steel Downstream Manufacturing (Automotive, Shipbuilding, Construction)",
+    "tier": "manufacturer",
+    "country_iso2": "JP",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": 34.39,
+      "lon": 132.46
+    },
+    "downstream": [
+      {
+        "target_id": "JP_industrial",
+        "corridor_id": "JP_road_jp-national-distribution",
+        "resource": "auto sheet, shipbuilding plate, pipe",
+        "quantity": 13000000,
+        "metric": "t"
+      },
+      {
+        "target_id": "JP_infrastructure",
+        "corridor_id": "JP_road_jp-national-distribution",
+        "resource": "structural steel, plate for bridges and buildings",
+        "quantity": 7000000,
+        "metric": "t"
+      },
+      {
+        "target_id": "JP_residential",
+        "corridor_id": "JP_road_jp-national-distribution",
+        "resource": "steel for residential construction",
+        "quantity": 3000000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "JP_jfe_steel_mills"
+    ],
+    "resources": [
+      "Iron Ore"
+    ]
+  },
+  {
+    "id": "KR_posco_manufacturing",
+    "name": "POSCO Downstream Manufacturing (Hyundai, Kia, Samsung, Shipbuilding)",
+    "tier": "manufacturer",
+    "country_iso2": "KR",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": 37.57,
+      "lon": 126.98
+    },
+    "downstream": [
+      {
+        "target_id": "KR_industrial",
+        "corridor_id": "KR_road_kr-national-distribution",
+        "resource": "auto sheet, shipbuilding plate, appliance steel",
+        "quantity": 20000000,
+        "metric": "t"
+      },
+      {
+        "target_id": "KR_infrastructure",
+        "corridor_id": "KR_road_kr-national-distribution",
+        "resource": "structural steel, rebar",
+        "quantity": 8000000,
+        "metric": "t"
+      },
+      {
+        "target_id": "KR_residential",
+        "corridor_id": "KR_road_kr-national-distribution",
+        "resource": "steel for residential construction",
+        "quantity": 5000000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "KR_posco_rolling_mills"
+    ],
+    "resources": [
+      "Iron Ore"
+    ]
+  },
+  {
+    "id": "IN_jsw_manufacturing",
+    "name": "JSW Downstream Manufacturing (Construction, Auto, Infrastructure)",
+    "tier": "manufacturer",
+    "country_iso2": "IN",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": 19.08,
+      "lon": 72.88
+    },
+    "downstream": [
+      {
+        "target_id": "IN_infrastructure",
+        "corridor_id": "IN_road_in-national-distribution",
+        "resource": "rebar, plate, structural steel",
+        "quantity": 6000000,
+        "metric": "t"
+      },
+      {
+        "target_id": "IN_industrial",
+        "corridor_id": "IN_road_in-national-distribution",
+        "resource": "auto sheet, pipe, machinery steel",
+        "quantity": 5000000,
+        "metric": "t"
+      },
+      {
+        "target_id": "IN_residential",
+        "corridor_id": "IN_road_in-national-distribution",
+        "resource": "steel for residential construction",
+        "quantity": 3000000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "IN_jsw_steel_mills"
+    ],
+    "resources": [
+      "Iron Ore"
+    ]
+  },
+  {
+    "id": "TW_csc_manufacturing",
+    "name": "CSC Downstream Manufacturing (Electronics, Machinery, Construction)",
+    "tier": "manufacturer",
+    "country_iso2": "TW",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": 25.03,
+      "lon": 121.53
+    },
+    "downstream": [
+      {
+        "target_id": "TW_industrial",
+        "corridor_id": "TW_road_tw-national-distribution",
+        "resource": "steel for electronics, machinery, auto parts",
+        "quantity": 5000000,
+        "metric": "t"
+      },
+      {
+        "target_id": "TW_infrastructure",
+        "corridor_id": "TW_road_tw-national-distribution",
+        "resource": "structural steel, rebar",
+        "quantity": 3000000,
+        "metric": "t"
+      },
+      {
+        "target_id": "TW_residential",
+        "corridor_id": "TW_road_tw-national-distribution",
+        "resource": "steel for residential construction",
+        "quantity": 1500000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "TW_csc_rolling_mills"
+    ],
+    "resources": [
+      "Iron Ore"
+    ]
+  },
+  {
+    "id": "AU_rail_bhp-newman-port-hedland",
+    "tier": "transport",
+    "name": "BHP Pilbara Rail Network (Newman to Port Hedland)",
+    "country_iso2": "AU",
+    "operator_id": "AU_bhp",
+    "mode": "rail",
+    "form": "bulk_dry",
+    "range": "regional",
+    "coordinates": {
+      "lat": -21.8,
+      "lon": 119.15
+    },
+    "resources": [
+      "Mineral-Bearing Land"
+    ],
+    "upstream": [],
+    "downstream": []
+  },
+  {
+    "id": "AU_rail_rio-hamersley-dampier",
+    "tier": "transport",
+    "name": "Rio Tinto Hamersley Rail Network (mines to Dampier)",
+    "country_iso2": "AU",
+    "operator_id": "AU_rio_tinto",
+    "mode": "rail",
+    "form": "bulk_dry",
+    "range": "regional",
+    "coordinates": {
+      "lat": -21.7,
+      "lon": 117.8
+    }
+  },
+  {
+    "id": "AU_rail_rio-robe-cape-lambert",
+    "tier": "transport",
+    "name": "Rio Tinto Robe River Rail (mines to Cape Lambert)",
+    "country_iso2": "AU",
+    "operator_id": "AU_rio_tinto",
+    "mode": "rail",
+    "form": "bulk_dry",
+    "range": "regional",
+    "coordinates": {
+      "lat": -21.5,
+      "lon": 116.5
+    }
+  },
+  {
+    "id": "AU_rail_fmg-chichester-port-hedland",
+    "tier": "transport",
+    "name": "Fortescue Chichester Rail (Christmas Creek/Cloudbreak to Port Hedland)",
+    "country_iso2": "AU",
+    "operator_id": "AU_fortescue",
+    "mode": "rail",
+    "form": "bulk_dry",
+    "range": "regional",
+    "coordinates": {
+      "lat": -21.3,
+      "lon": 119.2
+    }
+  },
+  {
+    "id": "AU_rail_fmg-solomon-port-hedland",
+    "tier": "transport",
+    "name": "Fortescue Solomon/Eliwana Rail to Port Hedland",
+    "country_iso2": "AU",
+    "operator_id": "AU_fortescue",
+    "mode": "rail",
+    "form": "bulk_dry",
+    "range": "regional",
+    "coordinates": {
+      "lat": -21.5,
+      "lon": 118.4
+    }
+  },
+  {
+    "id": "AU_rail_fmg-iron-bridge-port-hedland",
+    "tier": "transport",
+    "name": "Fortescue Iron Bridge to Port Hedland (concentrate pipeline/rail)",
+    "country_iso2": "AU",
+    "operator_id": "AU_fortescue",
+    "mode": "rail",
+    "form": "bulk_dry",
+    "range": "regional",
+    "coordinates": {
+      "lat": -20.45,
+      "lon": 118.7
+    }
+  },
+  {
+    "id": "AU_rail_roy-hill-port-hedland",
+    "tier": "transport",
+    "name": "Roy Hill Railway (Roy Hill Mine to Port Hedland)",
+    "country_iso2": "AU",
+    "operator_id": "AU_roy_hill_holdings",
+    "mode": "rail",
+    "form": "bulk_dry",
+    "range": "regional",
+    "coordinates": {
+      "lat": -21.4,
+      "lon": 119.3
+    },
+    "resources": [
+      "Mineral-Bearing Land"
+    ],
+    "upstream": [],
+    "downstream": []
+  },
+  {
+    "id": "AU_rail_yilgarn-esperance",
+    "tier": "transport",
+    "name": "Yilgarn–Esperance Rail (Arc Infrastructure / MinRes)",
+    "country_iso2": "AU",
+    "operator_id": "AU_arc_infrastructure",
+    "mode": "rail",
+    "form": "bulk_dry",
+    "range": "regional",
+    "coordinates": {
+      "lat": -32.5,
+      "lon": 120.6
+    }
+  },
+  {
+    "id": "AU_road_minres-onslow",
+    "tier": "transport",
+    "name": "MinRes Onslow Haul Road (Ken's Bore to Ashburton Port)",
+    "country_iso2": "AU",
+    "operator_id": "AU_mineral_resources",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "regional",
+    "coordinates": {
+      "lat": -22.2,
+      "lon": 115.5
+    }
+  },
+  {
+    "id": "AU_conveyor_sino-iron-cape-preston",
+    "tier": "transport",
+    "name": "Sino Iron Conveyor & Pipeline (mine to Cape Preston port)",
+    "country_iso2": "AU",
+    "operator_id": "AU_citic_pacific_mining",
+    "mode": "conveyor",
+    "form": "bulk_dry",
+    "range": "local",
+    "coordinates": {
+      "lat": -20.92,
+      "lon": 116.78
+    }
+  },
+  {
+    "id": "AU_pipeline_savage-river-port-latta",
+    "tier": "transport",
+    "name": "Savage River Slurry Pipeline (mine to Port Latta)",
+    "country_iso2": "AU",
+    "operator_id": "AU_grange_resources",
+    "mode": "pipeline",
+    "form": "bulk_liquid",
+    "range": "regional",
+    "coordinates": {
+      "lat": -41.16,
+      "lon": 145.5
+    }
+  },
+  {
+    "id": "INTL_ocean_port-hedland-caofeidian",
+    "tier": "transport",
+    "name": "Ocean Freight: Port Hedland → Caofeidian (Hebei)",
+    "country_iso2": "INTL",
+    "operator_id": "INTL_various_bulk_carriers",
+    "mode": "ocean_freight",
+    "form": "bulk_dry",
+    "range": "international",
+    "coordinates": {
+      "lat": 10,
+      "lon": 118
+    }
+  },
+  {
+    "id": "INTL_ocean_port-hedland-kashima",
+    "tier": "transport",
+    "name": "Ocean Freight: Port Hedland → Kashima (Japan)",
+    "country_iso2": "INTL",
+    "operator_id": "INTL_various_bulk_carriers",
+    "mode": "ocean_freight",
+    "form": "bulk_dry",
+    "range": "international",
+    "coordinates": {
+      "lat": 8,
+      "lon": 125
+    },
+    "resources": [
+      "Mineral-Bearing Land"
+    ],
+    "upstream": [],
+    "downstream": []
+  },
+  {
+    "id": "INTL_ocean_port-hedland-pohang",
+    "tier": "transport",
+    "name": "Ocean Freight: Port Hedland → Pohang (South Korea)",
+    "country_iso2": "INTL",
+    "operator_id": "INTL_various_bulk_carriers",
+    "mode": "ocean_freight",
+    "form": "bulk_dry",
+    "range": "international",
+    "coordinates": {
+      "lat": 10,
+      "lon": 122
+    },
+    "resources": [
+      "Mineral-Bearing Land"
+    ],
+    "upstream": [],
+    "downstream": []
+  },
+  {
+    "id": "INTL_ocean_port-hedland-goa",
+    "tier": "transport",
+    "name": "Ocean Freight: Port Hedland → Indian Ports (Goa/Mangalore)",
+    "country_iso2": "INTL",
+    "operator_id": "INTL_various_bulk_carriers",
+    "mode": "ocean_freight",
+    "form": "bulk_dry",
+    "range": "international",
+    "coordinates": {
+      "lat": -5,
+      "lon": 100
+    }
+  },
+  {
+    "id": "INTL_ocean_port-hedland-kaohsiung",
+    "tier": "transport",
+    "name": "Ocean Freight: Port Hedland → Kaohsiung (Taiwan)",
+    "country_iso2": "INTL",
+    "operator_id": "INTL_various_bulk_carriers",
+    "mode": "ocean_freight",
+    "form": "bulk_dry",
+    "range": "international",
+    "coordinates": {
+      "lat": 5,
+      "lon": 118
+    }
+  },
+  {
+    "id": "INTL_ocean_port-hedland-jingtang",
+    "tier": "transport",
+    "name": "Ocean Freight: Port Hedland → Jingtang Port (Shougang)",
+    "country_iso2": "INTL",
+    "operator_id": "INTL_various_bulk_carriers",
+    "mode": "ocean_freight",
+    "form": "bulk_dry",
+    "range": "international",
+    "coordinates": {
+      "lat": 10,
+      "lon": 118
+    }
+  },
+  {
+    "id": "INTL_ocean_port-hedland-fukuyama",
+    "tier": "transport",
+    "name": "Ocean Freight: Port Hedland → Fukuyama (JFE Japan)",
+    "country_iso2": "INTL",
+    "operator_id": "INTL_various_bulk_carriers",
+    "mode": "ocean_freight",
+    "form": "bulk_dry",
+    "range": "international",
+    "coordinates": {
+      "lat": 7,
+      "lon": 124
+    }
+  },
+  {
+    "id": "INTL_ocean_port-hedland-zhangjiagang",
+    "tier": "transport",
+    "name": "Ocean Freight: Port Hedland → Zhangjiagang (Shagang)",
+    "country_iso2": "INTL",
+    "operator_id": "INTL_various_bulk_carriers",
+    "mode": "ocean_freight",
+    "form": "bulk_dry",
+    "range": "international",
+    "coordinates": {
+      "lat": 5,
+      "lon": 115
+    }
+  },
+  {
+    "id": "INTL_ocean_dampier-shanghai",
+    "tier": "transport",
+    "name": "Ocean Freight: Dampier → Shanghai / Yangtze Delta",
+    "country_iso2": "INTL",
+    "operator_id": "INTL_various_bulk_carriers",
+    "mode": "ocean_freight",
+    "form": "bulk_dry",
+    "range": "international",
+    "coordinates": {
+      "lat": 3,
+      "lon": 113
+    }
+  },
+  {
+    "id": "INTL_ocean_dampier-kashima",
+    "tier": "transport",
+    "name": "Ocean Freight: Dampier → Kashima (Japan)",
+    "country_iso2": "INTL",
+    "operator_id": "INTL_various_bulk_carriers",
+    "mode": "ocean_freight",
+    "form": "bulk_dry",
+    "range": "international",
+    "coordinates": {
+      "lat": 6,
+      "lon": 123
+    }
+  },
+  {
+    "id": "INTL_ocean_dampier-pohang",
+    "tier": "transport",
+    "name": "Ocean Freight: Dampier → Pohang (South Korea)",
+    "country_iso2": "INTL",
+    "operator_id": "INTL_various_bulk_carriers",
+    "mode": "ocean_freight",
+    "form": "bulk_dry",
+    "range": "international",
+    "coordinates": {
+      "lat": 8,
+      "lon": 120
+    },
+    "resources": [
+      "Mineral-Bearing Land"
+    ],
+    "upstream": [],
+    "downstream": []
+  },
+  {
+    "id": "INTL_ocean_dampier-bayuquan",
+    "tier": "transport",
+    "name": "Ocean Freight: Dampier → Bayuquan (Ansteel)",
+    "country_iso2": "INTL",
+    "operator_id": "INTL_various_bulk_carriers",
+    "mode": "ocean_freight",
+    "form": "bulk_dry",
+    "range": "international",
+    "coordinates": {
+      "lat": 10,
+      "lon": 118
+    }
+  },
+  {
+    "id": "INTL_ocean_cape-lambert-shanghai",
+    "tier": "transport",
+    "name": "Ocean Freight: Cape Lambert → Shanghai / Yangtze Delta",
+    "country_iso2": "INTL",
+    "operator_id": "INTL_various_bulk_carriers",
+    "mode": "ocean_freight",
+    "form": "bulk_dry",
+    "range": "international",
+    "coordinates": {
+      "lat": 4,
+      "lon": 114
+    }
+  },
+  {
+    "id": "INTL_ocean_cape-lambert-zhangjiagang",
+    "tier": "transport",
+    "name": "Ocean Freight: Cape Lambert → Zhangjiagang (Shagang)",
+    "country_iso2": "INTL",
+    "operator_id": "INTL_various_bulk_carriers",
+    "mode": "ocean_freight",
+    "form": "bulk_dry",
+    "range": "international",
+    "coordinates": {
+      "lat": 4,
+      "lon": 114
+    }
+  },
+  {
+    "id": "INTL_ocean_cape-lambert-fukuyama",
+    "tier": "transport",
+    "name": "Ocean Freight: Cape Lambert → Fukuyama (JFE Japan)",
+    "country_iso2": "INTL",
+    "operator_id": "INTL_various_bulk_carriers",
+    "mode": "ocean_freight",
+    "form": "bulk_dry",
+    "range": "international",
+    "coordinates": {
+      "lat": 7,
+      "lon": 122
+    }
+  },
+  {
+    "id": "INTL_ocean_cape-preston-zhanjiang",
+    "tier": "transport",
+    "name": "Ocean Freight: Cape Preston → Zhanjiang (Baowu)",
+    "country_iso2": "INTL",
+    "operator_id": "INTL_various_bulk_carriers",
+    "mode": "ocean_freight",
+    "form": "bulk_dry",
+    "range": "international",
+    "coordinates": {
+      "lat": 2,
+      "lon": 112
+    }
+  },
+  {
+    "id": "INTL_ocean_cape-preston-caofeidian",
+    "tier": "transport",
+    "name": "Ocean Freight: Cape Preston → Caofeidian (HBIS)",
+    "country_iso2": "INTL",
+    "operator_id": "INTL_various_bulk_carriers",
+    "mode": "ocean_freight",
+    "form": "bulk_dry",
+    "range": "international",
+    "coordinates": {
+      "lat": 8,
+      "lon": 116
+    }
+  },
+  {
+    "id": "INTL_ocean_esperance-shanghai",
+    "tier": "transport",
+    "name": "Ocean Freight: Esperance → Shanghai",
+    "country_iso2": "INTL",
+    "operator_id": "INTL_various_bulk_carriers",
+    "mode": "ocean_freight",
+    "form": "bulk_dry",
+    "range": "international",
+    "coordinates": {
+      "lat": -10,
+      "lon": 115
+    },
+    "resources": [
+      "Nickel"
+    ],
+    "upstream": [],
+    "downstream": []
+  },
+  {
+    "id": "INTL_ocean_esperance-caofeidian",
+    "tier": "transport",
+    "name": "Ocean Freight: Esperance → Caofeidian",
+    "country_iso2": "INTL",
+    "operator_id": "INTL_various_bulk_carriers",
+    "mode": "ocean_freight",
+    "form": "bulk_dry",
+    "range": "international",
+    "coordinates": {
+      "lat": -5,
+      "lon": 115
+    }
+  },
+  {
+    "id": "INTL_ocean_onslow-shanghai",
+    "tier": "transport",
+    "name": "Ocean Freight: Onslow → Shanghai",
+    "country_iso2": "INTL",
+    "operator_id": "INTL_various_bulk_carriers",
+    "mode": "ocean_freight",
+    "form": "bulk_dry",
+    "range": "international",
+    "coordinates": {
+      "lat": 0,
+      "lon": 113
+    }
+  },
+  {
+    "id": "INTL_ocean_onslow-bayuquan",
+    "tier": "transport",
+    "name": "Ocean Freight: Onslow → Bayuquan (Ansteel)",
+    "country_iso2": "INTL",
+    "operator_id": "INTL_various_bulk_carriers",
+    "mode": "ocean_freight",
+    "form": "bulk_dry",
+    "range": "international",
+    "coordinates": {
+      "lat": 5,
+      "lon": 115
+    }
+  },
+  {
+    "id": "INTL_ocean_port-latta-shanghai",
+    "tier": "transport",
+    "name": "Ocean Freight: Port Latta → Shanghai",
+    "country_iso2": "INTL",
+    "operator_id": "INTL_various_bulk_carriers",
+    "mode": "ocean_freight",
+    "form": "bulk_dry",
+    "range": "international",
+    "coordinates": {
+      "lat": -15,
+      "lon": 130
+    }
+  },
+  {
+    "id": "INTL_ocean_port-latta-caofeidian",
+    "tier": "transport",
+    "name": "Ocean Freight: Port Latta → Caofeidian",
+    "country_iso2": "INTL",
+    "operator_id": "INTL_various_bulk_carriers",
+    "mode": "ocean_freight",
+    "form": "bulk_dry",
+    "range": "international",
+    "coordinates": {
+      "lat": -10,
+      "lon": 130
+    }
+  },
+  {
+    "id": "CN_road_baowu-internal",
+    "tier": "transport",
+    "name": "Baowu Internal Logistics (BF to caster/roughing)",
+    "country_iso2": "CN",
+    "operator_id": "CN_baowu_steel_group",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "local",
+    "coordinates": {
+      "lat": 31.32,
+      "lon": 121.52
+    }
+  },
+  {
+    "id": "CN_road_hbis-internal",
+    "tier": "transport",
+    "name": "HBIS Internal Logistics",
+    "country_iso2": "CN",
+    "operator_id": "CN_hbis_group",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "local",
+    "coordinates": {
+      "lat": 39.63,
+      "lon": 118.18
+    }
+  },
+  {
+    "id": "CN_road_ansteel-internal",
+    "tier": "transport",
+    "name": "Ansteel Internal Logistics",
+    "country_iso2": "CN",
+    "operator_id": "CN_ansteel_group",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "local",
+    "coordinates": {
+      "lat": 41.11,
+      "lon": 122.99
+    }
+  },
+  {
+    "id": "CN_road_shougang-internal",
+    "tier": "transport",
+    "name": "Shougang Internal Logistics",
+    "country_iso2": "CN",
+    "operator_id": "CN_shougang_group",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "local",
+    "coordinates": {
+      "lat": 39.75,
+      "lon": 118.84
+    }
+  },
+  {
+    "id": "CN_road_shagang-internal",
+    "tier": "transport",
+    "name": "Shagang Internal Logistics",
+    "country_iso2": "CN",
+    "operator_id": "CN_shagang_group",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "local",
+    "coordinates": {
+      "lat": 31.87,
+      "lon": 120.46
+    }
+  },
+  {
+    "id": "JP_rail_nippon-internal",
+    "tier": "transport",
+    "name": "Nippon Steel Internal Rail / Works Logistics",
+    "country_iso2": "JP",
+    "operator_id": "JP_nippon_steel",
+    "mode": "rail",
+    "form": "bulk_dry",
+    "range": "local",
+    "coordinates": {
+      "lat": 35.94,
+      "lon": 140.66
+    }
+  },
+  {
+    "id": "JP_rail_jfe-internal",
+    "tier": "transport",
+    "name": "JFE Steel Internal Rail / Works Logistics",
+    "country_iso2": "JP",
+    "operator_id": "JP_jfe_steel",
+    "mode": "rail",
+    "form": "bulk_dry",
+    "range": "local",
+    "coordinates": {
+      "lat": 34.45,
+      "lon": 133.39
+    }
+  },
+  {
+    "id": "KR_rail_posco-internal",
+    "tier": "transport",
+    "name": "POSCO Internal Rail / Works Logistics",
+    "country_iso2": "KR",
+    "operator_id": "KR_posco",
+    "mode": "rail",
+    "form": "bulk_dry",
+    "range": "local",
+    "coordinates": {
+      "lat": 35.99,
+      "lon": 129.36
+    }
+  },
+  {
+    "id": "IN_rail_jsw-internal",
+    "tier": "transport",
+    "name": "JSW Steel Internal Rail / Works Logistics",
+    "country_iso2": "IN",
+    "operator_id": "IN_jsw_steel",
+    "mode": "rail",
+    "form": "bulk_dry",
+    "range": "local",
+    "coordinates": {
+      "lat": 15.22,
+      "lon": 76.63
+    }
+  },
+  {
+    "id": "TW_road_csc-internal",
+    "tier": "transport",
+    "name": "China Steel Corp Internal Road Logistics",
+    "country_iso2": "TW",
+    "operator_id": "TW_china_steel_corp",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "local",
+    "coordinates": {
+      "lat": 22.57,
+      "lon": 120.33
+    }
+  },
+  {
+    "id": "CN_road_baowu-distribution",
+    "tier": "transport",
+    "name": "Baowu Finished Product Distribution (road/rail/barge)",
+    "country_iso2": "CN",
+    "operator_id": "CN_baowu_steel_group",
+    "mode": "road",
+    "form": "unit_load",
+    "range": "regional",
+    "coordinates": {
+      "lat": 31.23,
+      "lon": 121.47
+    }
+  },
+  {
+    "id": "CN_road_hbis-distribution",
+    "tier": "transport",
+    "name": "HBIS Finished Product Distribution",
+    "country_iso2": "CN",
+    "operator_id": "CN_hbis_group",
+    "mode": "road",
+    "form": "unit_load",
+    "range": "regional",
+    "coordinates": {
+      "lat": 39.63,
+      "lon": 118.18
+    }
+  },
+  {
+    "id": "CN_road_ansteel-distribution",
+    "tier": "transport",
+    "name": "Ansteel Finished Product Distribution",
+    "country_iso2": "CN",
+    "operator_id": "CN_ansteel_group",
+    "mode": "road",
+    "form": "unit_load",
+    "range": "regional",
+    "coordinates": {
+      "lat": 41.08,
+      "lon": 122.96
+    }
+  },
+  {
+    "id": "CN_road_shougang-distribution",
+    "tier": "transport",
+    "name": "Shougang Finished Product Distribution",
+    "country_iso2": "CN",
+    "operator_id": "CN_shougang_group",
+    "mode": "road",
+    "form": "unit_load",
+    "range": "regional",
+    "coordinates": {
+      "lat": 39.75,
+      "lon": 118.84
+    }
+  },
+  {
+    "id": "CN_road_shagang-distribution",
+    "tier": "transport",
+    "name": "Shagang Finished Product Distribution",
+    "country_iso2": "CN",
+    "operator_id": "CN_shagang_group",
+    "mode": "road",
+    "form": "unit_load",
+    "range": "regional",
+    "coordinates": {
+      "lat": 31.88,
+      "lon": 120.47
+    }
+  },
+  {
+    "id": "CN_road_cn-national-distribution",
+    "tier": "transport",
+    "name": "China National Steel Distribution Network (road/rail)",
+    "country_iso2": "CN",
+    "operator_id": "CN_various_logistics",
+    "mode": "road",
+    "form": "unit_load",
+    "range": "regional",
+    "coordinates": {
+      "lat": 34,
+      "lon": 116
+    }
+  },
+  {
+    "id": "JP_road_nippon-distribution",
+    "tier": "transport",
+    "name": "Nippon Steel Finished Product Distribution",
+    "country_iso2": "JP",
+    "operator_id": "JP_nippon_steel",
+    "mode": "road",
+    "form": "unit_load",
+    "range": "regional",
+    "coordinates": {
+      "lat": 35.68,
+      "lon": 139.69
+    }
+  },
+  {
+    "id": "JP_road_jfe-distribution",
+    "tier": "transport",
+    "name": "JFE Steel Finished Product Distribution",
+    "country_iso2": "JP",
+    "operator_id": "JP_jfe_steel",
+    "mode": "road",
+    "form": "unit_load",
+    "range": "regional",
+    "coordinates": {
+      "lat": 34.39,
+      "lon": 132.46
+    }
+  },
+  {
+    "id": "JP_road_jp-national-distribution",
+    "tier": "transport",
+    "name": "Japan National Steel Distribution Network",
+    "country_iso2": "JP",
+    "operator_id": "JP_various_logistics",
+    "mode": "road",
+    "form": "unit_load",
+    "range": "regional",
+    "coordinates": {
+      "lat": 35.68,
+      "lon": 139.69
+    }
+  },
+  {
+    "id": "KR_road_posco-distribution",
+    "tier": "transport",
+    "name": "POSCO Finished Product Distribution",
+    "country_iso2": "KR",
+    "operator_id": "KR_posco",
+    "mode": "road",
+    "form": "unit_load",
+    "range": "regional",
+    "coordinates": {
+      "lat": 35.99,
+      "lon": 129.36
+    }
+  },
+  {
+    "id": "KR_road_kr-national-distribution",
+    "tier": "transport",
+    "name": "South Korea National Steel Distribution Network",
+    "country_iso2": "KR",
+    "operator_id": "KR_various_logistics",
+    "mode": "road",
+    "form": "unit_load",
+    "range": "regional",
+    "coordinates": {
+      "lat": 37.57,
+      "lon": 126.98
+    }
+  },
+  {
+    "id": "IN_road_jsw-distribution",
+    "tier": "transport",
+    "name": "JSW Steel Finished Product Distribution",
+    "country_iso2": "IN",
+    "operator_id": "IN_jsw_steel",
+    "mode": "road",
+    "form": "unit_load",
+    "range": "regional",
+    "coordinates": {
+      "lat": 15.22,
+      "lon": 76.63
+    }
+  },
+  {
+    "id": "IN_road_in-national-distribution",
+    "tier": "transport",
+    "name": "India National Steel Distribution Network",
+    "country_iso2": "IN",
+    "operator_id": "IN_various_logistics",
+    "mode": "road",
+    "form": "unit_load",
+    "range": "regional",
+    "coordinates": {
+      "lat": 19.08,
+      "lon": 72.88
+    }
+  },
+  {
+    "id": "TW_road_csc-distribution",
+    "tier": "transport",
+    "name": "China Steel Corp Finished Product Distribution",
+    "country_iso2": "TW",
+    "operator_id": "TW_china_steel_corp",
+    "mode": "road",
+    "form": "unit_load",
+    "range": "regional",
+    "coordinates": {
+      "lat": 22.57,
+      "lon": 120.34
+    }
+  },
+  {
+    "id": "TW_road_tw-national-distribution",
+    "tier": "transport",
+    "name": "Taiwan National Steel Distribution Network",
+    "country_iso2": "TW",
+    "operator_id": "TW_various_logistics",
+    "mode": "road",
+    "form": "unit_load",
+    "range": "regional",
+    "coordinates": {
+      "lat": 25.03,
+      "lon": 121.53
+    }
+  }
+]

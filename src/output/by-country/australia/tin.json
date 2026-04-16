@@ -1,0 +1,1082 @@
+[
+  {
+    "id": "AU_renison_tin_mine",
+    "name": "Renison Bell Tin Mine",
+    "tier": "extraction",
+    "country_iso2": "AU",
+    "canonical_company": "Metals X",
+    "coordinates": {
+      "lat": -41.79,
+      "lon": 145.43
+    },
+    "downstream": [
+      {
+        "target_id": "MY_malaysia_smelting_corp",
+        "corridor_id": "INTL_ocean_burnie-butterworth",
+        "resource": "tin concentrate (~50% Sn)",
+        "quantity": 7000,
+        "metric": "t"
+      },
+      {
+        "target_id": "TH_thaisarco_smelter",
+        "corridor_id": "INTL_ocean_burnie-bangkok",
+        "resource": "tin concentrate (~50% Sn)",
+        "quantity": 1500,
+        "metric": "t"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Tin"
+    ]
+  },
+  {
+    "id": "AU_aberfoyle_resources_cleveland",
+    "name": "Cleveland Tin Mine (Remnant / Small-scale)",
+    "tier": "extraction",
+    "country_iso2": "AU",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": -41.58,
+      "lon": 147.87
+    },
+    "downstream": [
+      {
+        "target_id": "MY_malaysia_smelting_corp",
+        "corridor_id": "INTL_ocean_launceston-butterworth",
+        "resource": "tin concentrate (~50% Sn)",
+        "quantity": 200,
+        "metric": "t"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Tin"
+    ]
+  },
+  {
+    "id": "MY_malaysia_smelting_corp",
+    "name": "Malaysia Smelting Corporation (MSC) — Butterworth Smelter",
+    "tier": "smelter",
+    "country_iso2": "MY",
+    "canonical_company": "Malaysia Smelting Corporation",
+    "coordinates": {
+      "lat": 5.4,
+      "lon": 100.38
+    },
+    "downstream": [
+      {
+        "target_id": "CN_yunnan_tin_semi_fabrication",
+        "corridor_id": "INTL_ocean_butterworth-shanghai",
+        "resource": "refined tin metal (99.85%+ Sn ingots)",
+        "quantity": 2000,
+        "metric": "t"
+      },
+      {
+        "target_id": "JP_nihon_solder",
+        "corridor_id": "INTL_ocean_butterworth-osaka",
+        "resource": "refined tin metal (99.85%+ Sn ingots)",
+        "quantity": 1200,
+        "metric": "t"
+      },
+      {
+        "target_id": "KR_korea_tin_fabricators",
+        "corridor_id": "INTL_ocean_butterworth-busan",
+        "resource": "refined tin metal (99.85%+ Sn ingots)",
+        "quantity": 800,
+        "metric": "t"
+      },
+      {
+        "target_id": "DE_thyssenkrupp_tinplate",
+        "corridor_id": "INTL_ocean_butterworth-hamburg",
+        "resource": "refined tin metal (99.85%+ Sn ingots)",
+        "quantity": 600,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_tin_importers_melbourne",
+        "corridor_id": "INTL_ocean_butterworth-melbourne",
+        "resource": "refined tin metal (99.85%+ Sn ingots)",
+        "quantity": 500,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_renison_tin_mine",
+      "AU_aberfoyle_resources_cleveland"
+    ],
+    "resources": [
+      "Tin"
+    ]
+  },
+  {
+    "id": "TH_thaisarco_smelter",
+    "name": "Thaisarco Smelter (Phuket)",
+    "tier": "smelter",
+    "country_iso2": "TH",
+    "canonical_company": "Thaisarco",
+    "coordinates": {
+      "lat": 7.88,
+      "lon": 98.39
+    },
+    "downstream": [
+      {
+        "target_id": "JP_nihon_solder",
+        "corridor_id": "INTL_ocean_phuket-osaka",
+        "resource": "refined tin metal (99.9%+ Sn ingots)",
+        "quantity": 600,
+        "metric": "t"
+      },
+      {
+        "target_id": "US_alpha_tin_alloys",
+        "corridor_id": "INTL_ocean_phuket-losangeles",
+        "resource": "refined tin metal (99.9%+ Sn ingots)",
+        "quantity": 500,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_tin_importers_melbourne",
+        "corridor_id": "INTL_ocean_phuket-melbourne",
+        "resource": "refined tin metal (99.9%+ Sn ingots)",
+        "quantity": 200,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_renison_tin_mine"
+    ],
+    "resources": [
+      "Tin"
+    ]
+  },
+  {
+    "id": "CN_yunnan_tin_semi_fabrication",
+    "name": "Yunnan Tin Group — Semi-Fabrication Division",
+    "tier": "semi_fabricator",
+    "country_iso2": "CN",
+    "canonical_company": "Yunnan Tin Group",
+    "coordinates": {
+      "lat": 23.37,
+      "lon": 103.38
+    },
+    "downstream": [
+      {
+        "target_id": "CN_solder_paste_manufacturers",
+        "corridor_id": "CN_road_yunnan-shenzhen",
+        "resource": "solder bar / solder wire / tin alloy products",
+        "quantity": 1400,
+        "metric": "t"
+      },
+      {
+        "target_id": "CN_tinplate_manufacturers",
+        "corridor_id": "CN_road_yunnan-jiangsu",
+        "resource": "tin strip / tinplate coating material",
+        "quantity": 600,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "MY_malaysia_smelting_corp"
+    ],
+    "resources": [
+      "Tin"
+    ]
+  },
+  {
+    "id": "JP_nihon_solder",
+    "name": "Nihon Superior — Solder Products",
+    "tier": "semi_fabricator",
+    "country_iso2": "JP",
+    "canonical_company": "Nihon Superior",
+    "coordinates": {
+      "lat": 34.69,
+      "lon": 135.5
+    },
+    "downstream": [
+      {
+        "target_id": "JP_electronics_assemblers",
+        "corridor_id": "JP_road_osaka-tokyo",
+        "resource": "lead-free solder paste and wire",
+        "quantity": 1200,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_electronics_assemblers",
+        "corridor_id": "INTL_ocean_osaka-sydney",
+        "resource": "lead-free solder paste and wire",
+        "quantity": 300,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "MY_malaysia_smelting_corp",
+      "TH_thaisarco_smelter"
+    ],
+    "resources": [
+      "Tin"
+    ]
+  },
+  {
+    "id": "KR_korea_tin_fabricators",
+    "name": "Korea Tin Fabrication (Solder & Alloy Producers)",
+    "tier": "semi_fabricator",
+    "country_iso2": "KR",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": 37.46,
+      "lon": 126.7
+    },
+    "downstream": [
+      {
+        "target_id": "KR_samsung_electronics",
+        "corridor_id": "KR_road_incheon-suwon",
+        "resource": "solder paste / tin-silver-copper alloy",
+        "quantity": 500,
+        "metric": "t"
+      },
+      {
+        "target_id": "KR_lg_electronics",
+        "corridor_id": "KR_road_incheon-seoul",
+        "resource": "solder paste / tin alloy",
+        "quantity": 300,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "MY_malaysia_smelting_corp"
+    ],
+    "resources": [
+      "Tin"
+    ]
+  },
+  {
+    "id": "DE_thyssenkrupp_tinplate",
+    "name": "thyssenkrupp Rasselstein — Tinplate Mill",
+    "tier": "semi_fabricator",
+    "country_iso2": "DE",
+    "canonical_company": "thyssenkrupp Rasselstein",
+    "coordinates": {
+      "lat": 50.43,
+      "lon": 7.56
+    },
+    "downstream": [
+      {
+        "target_id": "DE_can_manufacturers",
+        "corridor_id": "DE_road_andernach-dortmund",
+        "resource": "tinplate sheets for food & beverage cans",
+        "quantity": 600,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "MY_malaysia_smelting_corp"
+    ],
+    "resources": [
+      "Tin"
+    ]
+  },
+  {
+    "id": "US_alpha_tin_alloys",
+    "name": "Alpha Assembly Solutions (MacDermid Alpha)",
+    "tier": "semi_fabricator",
+    "country_iso2": "US",
+    "canonical_company": "MacDermid Alpha Electronics Solutions",
+    "coordinates": {
+      "lat": 40.54,
+      "lon": -74.37
+    },
+    "downstream": [
+      {
+        "target_id": "US_electronics_contract_mfg",
+        "corridor_id": "US_road_newjersey-national",
+        "resource": "solder paste / solder bar / flux-cored wire",
+        "quantity": 500,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "TH_thaisarco_smelter"
+    ],
+    "resources": [
+      "Tin"
+    ]
+  },
+  {
+    "id": "AU_tin_importers_melbourne",
+    "name": "Australian Tin Importers & Distributors (Melbourne)",
+    "tier": "semi_fabricator",
+    "country_iso2": "AU",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": -37.81,
+      "lon": 144.96
+    },
+    "downstream": [
+      {
+        "target_id": "AU_electronics_assemblers",
+        "corridor_id": "AU_road_melbourne-sydney",
+        "resource": "tin ingots / solder products / tin chemicals",
+        "quantity": 400,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_packaging_manufacturers",
+        "corridor_id": "AU_road_melbourne-national",
+        "resource": "tin metal / tin plate material",
+        "quantity": 200,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "MY_malaysia_smelting_corp",
+      "TH_thaisarco_smelter"
+    ],
+    "resources": [
+      "Tin"
+    ]
+  },
+  {
+    "id": "CN_solder_paste_manufacturers",
+    "name": "Shenzhen Solder Paste Manufacturers (Aggregated)",
+    "tier": "manufacturer",
+    "country_iso2": "CN",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": 22.54,
+      "lon": 114.06
+    },
+    "downstream": [
+      {
+        "target_id": "CN_industrial",
+        "corridor_id": "CN_road_shenzhen-guangdong",
+        "resource": "electronics assemblies containing tin solder",
+        "quantity": 1000,
+        "metric": "t"
+      },
+      {
+        "target_id": "INTL_commercial",
+        "corridor_id": "INTL_ocean_shenzhen-global",
+        "resource": "consumer electronics containing tin solder",
+        "quantity": 400,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "CN_yunnan_tin_semi_fabrication"
+    ],
+    "resources": [
+      "Tin"
+    ]
+  },
+  {
+    "id": "CN_tinplate_manufacturers",
+    "name": "Jiangsu Tinplate & Can Manufacturers",
+    "tier": "manufacturer",
+    "country_iso2": "CN",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": 31.3,
+      "lon": 120.6
+    },
+    "downstream": [
+      {
+        "target_id": "CN_commercial",
+        "corridor_id": "CN_road_jiangsu-national",
+        "resource": "tinplate food & beverage cans",
+        "quantity": 400,
+        "metric": "t"
+      },
+      {
+        "target_id": "INTL_commercial",
+        "corridor_id": "INTL_ocean_shanghai-global",
+        "resource": "tinplate cans / packaging",
+        "quantity": 200,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "CN_yunnan_tin_semi_fabrication"
+    ],
+    "resources": [
+      "Tin"
+    ]
+  },
+  {
+    "id": "JP_electronics_assemblers",
+    "name": "Japanese Electronics Assembly (Sony, Panasonic, etc.)",
+    "tier": "manufacturer",
+    "country_iso2": "JP",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": 35.68,
+      "lon": 139.69
+    },
+    "downstream": [
+      {
+        "target_id": "JP_commercial",
+        "corridor_id": "JP_road_tokyo-national",
+        "resource": "consumer & industrial electronics (soldered PCBs)",
+        "quantity": 700,
+        "metric": "t"
+      },
+      {
+        "target_id": "INTL_commercial",
+        "corridor_id": "INTL_ocean_tokyo-global",
+        "resource": "exported electronics containing tin solder",
+        "quantity": 500,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "JP_nihon_solder"
+    ],
+    "resources": [
+      "Tin"
+    ]
+  },
+  {
+    "id": "AU_electronics_assemblers",
+    "name": "Australian Electronics Assembly & Defence Manufacturing",
+    "tier": "manufacturer",
+    "country_iso2": "AU",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": -33.87,
+      "lon": 151.21
+    },
+    "downstream": [
+      {
+        "target_id": "AU_industrial",
+        "corridor_id": "AU_road_sydney-national",
+        "resource": "assembled electronics / defence systems with tin solder",
+        "quantity": 450,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_government",
+        "corridor_id": "AU_road_sydney-canberra",
+        "resource": "defence & government electronics",
+        "quantity": 100,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_commercial",
+        "corridor_id": "AU_road_sydney-national-commercial",
+        "resource": "commercial electronics / IT equipment",
+        "quantity": 150,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "JP_nihon_solder",
+      "AU_tin_importers_melbourne"
+    ],
+    "resources": [
+      "Tin"
+    ]
+  },
+  {
+    "id": "AU_packaging_manufacturers",
+    "name": "Australian Packaging / Tinplate Can Manufacturers",
+    "tier": "manufacturer",
+    "country_iso2": "AU",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": -37.81,
+      "lon": 144.96
+    },
+    "downstream": [
+      {
+        "target_id": "AU_commercial",
+        "corridor_id": "AU_road_melbourne-national-packaging",
+        "resource": "tin-plated food & beverage cans",
+        "quantity": 120,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_residential",
+        "corridor_id": "AU_road_melbourne-retail",
+        "resource": "tinplate cans (retail food packaging)",
+        "quantity": 80,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_tin_importers_melbourne"
+    ],
+    "resources": [
+      "Tin"
+    ]
+  },
+  {
+    "id": "KR_samsung_electronics",
+    "name": "Samsung Electronics — PCB Assembly",
+    "tier": "manufacturer",
+    "country_iso2": "KR",
+    "canonical_company": "Samsung Electronics",
+    "coordinates": {
+      "lat": 37.26,
+      "lon": 127.03
+    },
+    "downstream": [
+      {
+        "target_id": "INTL_commercial",
+        "corridor_id": "INTL_ocean_busan-global",
+        "resource": "smartphones / semiconductors containing tin solder",
+        "quantity": 350,
+        "metric": "t"
+      },
+      {
+        "target_id": "KR_commercial",
+        "corridor_id": "KR_road_suwon-national",
+        "resource": "consumer electronics containing tin solder",
+        "quantity": 150,
+        "metric": "t"
+      },
+      {
+        "target_id": "KR_commercial",
+        "corridor_id": "KR_road_suwon-distribution",
+        "resource": "consumer electronics and semiconductors",
+        "quantity": 15,
+        "metric": "t"
+      },
+      {
+        "target_id": "INTL_commercial",
+        "corridor_id": "INTL_ocean_busan-global",
+        "resource": "consumer electronics and semiconductors",
+        "quantity": 40,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "KR_korea_tin_fabricators",
+      "US_kemet",
+      "JP_murata",
+      "CN_samsung_electro_mechanics_tianjin"
+    ],
+    "resources": [
+      "Tin",
+      "Tantalum"
+    ]
+  },
+  {
+    "id": "KR_lg_electronics",
+    "name": "LG Electronics — Manufacturing",
+    "tier": "manufacturer",
+    "country_iso2": "KR",
+    "canonical_company": "LG Electronics",
+    "coordinates": {
+      "lat": 37.53,
+      "lon": 126.97
+    },
+    "downstream": [
+      {
+        "target_id": "INTL_commercial",
+        "corridor_id": "INTL_ocean_busan-global",
+        "resource": "appliances & displays containing tin solder",
+        "quantity": 200,
+        "metric": "t"
+      },
+      {
+        "target_id": "KR_commercial",
+        "corridor_id": "KR_road_seoul-national",
+        "resource": "domestic appliances containing tin solder",
+        "quantity": 100,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "KR_korea_tin_fabricators"
+    ],
+    "resources": [
+      "Tin"
+    ]
+  },
+  {
+    "id": "DE_can_manufacturers",
+    "name": "German Tinplate Can Manufacturers (Ball, Ardagh, etc.)",
+    "tier": "manufacturer",
+    "country_iso2": "DE",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": 51.23,
+      "lon": 6.78
+    },
+    "downstream": [
+      {
+        "target_id": "DE_commercial",
+        "corridor_id": "DE_road_dortmund-national",
+        "resource": "food & beverage tinplate cans",
+        "quantity": 400,
+        "metric": "t"
+      },
+      {
+        "target_id": "INTL_commercial",
+        "corridor_id": "INTL_ocean_hamburg-global",
+        "resource": "tinplate cans / packaging exports",
+        "quantity": 200,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "DE_thyssenkrupp_tinplate"
+    ],
+    "resources": [
+      "Tin"
+    ]
+  },
+  {
+    "id": "US_electronics_contract_mfg",
+    "name": "US Electronics Contract Manufacturers (Jabil, Flex, etc.)",
+    "tier": "manufacturer",
+    "country_iso2": "US",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": 33.45,
+      "lon": -112.07
+    },
+    "downstream": [
+      {
+        "target_id": "US_industrial",
+        "corridor_id": "US_road_national-distribution",
+        "resource": "assembled PCBs / electronic modules containing tin solder",
+        "quantity": 300,
+        "metric": "t"
+      },
+      {
+        "target_id": "US_commercial",
+        "corridor_id": "US_road_national-retail",
+        "resource": "consumer electronics containing tin solder",
+        "quantity": 200,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "US_alpha_tin_alloys"
+    ],
+    "resources": [
+      "Tin"
+    ]
+  },
+  {
+    "id": "INTL_ocean_burnie-butterworth",
+    "tier": "transport",
+    "name": "Ocean freight: Burnie (TAS) → Butterworth (MY)",
+    "country_iso2": "INTL",
+    "operator_id": "INTL_bulk_carrier_operators",
+    "mode": "ocean_freight",
+    "form": "bulk_dry",
+    "range": "international",
+    "coordinates": {
+      "lat": -10,
+      "lon": 115
+    }
+  },
+  {
+    "id": "INTL_ocean_burnie-bangkok",
+    "tier": "transport",
+    "name": "Ocean freight: Burnie (TAS) → Bangkok (TH)",
+    "country_iso2": "INTL",
+    "operator_id": "INTL_bulk_carrier_operators",
+    "mode": "ocean_freight",
+    "form": "bulk_dry",
+    "range": "international",
+    "coordinates": {
+      "lat": -5,
+      "lon": 110
+    }
+  },
+  {
+    "id": "INTL_ocean_launceston-butterworth",
+    "tier": "transport",
+    "name": "Ocean freight: Launceston (TAS) → Butterworth (MY)",
+    "country_iso2": "INTL",
+    "operator_id": "INTL_bulk_carrier_operators",
+    "mode": "ocean_freight",
+    "form": "bulk_dry",
+    "range": "international",
+    "coordinates": {
+      "lat": -10,
+      "lon": 115
+    }
+  },
+  {
+    "id": "INTL_ocean_butterworth-shanghai",
+    "tier": "transport",
+    "name": "Ocean freight: Butterworth (MY) → Shanghai (CN)",
+    "country_iso2": "INTL",
+    "operator_id": "INTL_container_lines",
+    "mode": "ocean_freight",
+    "form": "containerised",
+    "range": "international",
+    "coordinates": {
+      "lat": 12,
+      "lon": 112
+    }
+  },
+  {
+    "id": "INTL_ocean_butterworth-osaka",
+    "tier": "transport",
+    "name": "Ocean freight: Butterworth (MY) → Osaka (JP)",
+    "country_iso2": "INTL",
+    "operator_id": "INTL_container_lines",
+    "mode": "ocean_freight",
+    "form": "containerised",
+    "range": "international",
+    "coordinates": {
+      "lat": 18,
+      "lon": 118
+    }
+  },
+  {
+    "id": "INTL_ocean_butterworth-busan",
+    "tier": "transport",
+    "name": "Ocean freight: Butterworth (MY) → Busan (KR)",
+    "country_iso2": "INTL",
+    "operator_id": "INTL_container_lines",
+    "mode": "ocean_freight",
+    "form": "containerised",
+    "range": "international",
+    "coordinates": {
+      "lat": 15,
+      "lon": 115
+    }
+  },
+  {
+    "id": "INTL_ocean_butterworth-hamburg",
+    "tier": "transport",
+    "name": "Ocean freight: Butterworth (MY) → Hamburg (DE)",
+    "country_iso2": "INTL",
+    "operator_id": "INTL_maersk",
+    "mode": "ocean_freight",
+    "form": "containerised",
+    "range": "international",
+    "coordinates": {
+      "lat": 15,
+      "lon": 70
+    }
+  },
+  {
+    "id": "INTL_ocean_butterworth-melbourne",
+    "tier": "transport",
+    "name": "Ocean freight: Butterworth (MY) → Melbourne (AU)",
+    "country_iso2": "INTL",
+    "operator_id": "INTL_container_lines",
+    "mode": "ocean_freight",
+    "form": "containerised",
+    "range": "international",
+    "coordinates": {
+      "lat": -15,
+      "lon": 115
+    }
+  },
+  {
+    "id": "INTL_ocean_phuket-osaka",
+    "tier": "transport",
+    "name": "Ocean freight: Phuket (TH) → Osaka (JP)",
+    "country_iso2": "INTL",
+    "operator_id": "INTL_container_lines",
+    "mode": "ocean_freight",
+    "form": "containerised",
+    "range": "international",
+    "coordinates": {
+      "lat": 18,
+      "lon": 115
+    }
+  },
+  {
+    "id": "INTL_ocean_phuket-losangeles",
+    "tier": "transport",
+    "name": "Ocean freight: Phuket (TH) → Los Angeles (US)",
+    "country_iso2": "INTL",
+    "operator_id": "INTL_maersk",
+    "mode": "ocean_freight",
+    "form": "containerised",
+    "range": "international",
+    "coordinates": {
+      "lat": 20,
+      "lon": -160
+    }
+  },
+  {
+    "id": "INTL_ocean_phuket-melbourne",
+    "tier": "transport",
+    "name": "Ocean freight: Phuket (TH) → Melbourne (AU)",
+    "country_iso2": "INTL",
+    "operator_id": "INTL_container_lines",
+    "mode": "ocean_freight",
+    "form": "containerised",
+    "range": "international",
+    "coordinates": {
+      "lat": -10,
+      "lon": 115
+    }
+  },
+  {
+    "id": "CN_road_yunnan-shenzhen",
+    "tier": "transport",
+    "name": "Road freight: Yunnan → Shenzhen (Guangdong)",
+    "country_iso2": "CN",
+    "operator_id": "CN_road_logistics",
+    "mode": "road",
+    "form": "containerised",
+    "range": "regional",
+    "coordinates": {
+      "lat": 25,
+      "lon": 110
+    }
+  },
+  {
+    "id": "CN_road_yunnan-jiangsu",
+    "tier": "transport",
+    "name": "Road freight: Yunnan → Jiangsu",
+    "country_iso2": "CN",
+    "operator_id": "CN_road_logistics",
+    "mode": "road",
+    "form": "containerised",
+    "range": "regional",
+    "coordinates": {
+      "lat": 28,
+      "lon": 112
+    }
+  },
+  {
+    "id": "CN_road_shenzhen-guangdong",
+    "tier": "transport",
+    "name": "Road freight: Shenzhen — Guangdong industrial zone",
+    "country_iso2": "CN",
+    "operator_id": "CN_road_logistics",
+    "mode": "road",
+    "form": "containerised",
+    "range": "local",
+    "coordinates": {
+      "lat": 22.72,
+      "lon": 113.75
+    }
+  },
+  {
+    "id": "JP_road_osaka-tokyo",
+    "tier": "transport",
+    "name": "Road freight: Osaka → Tokyo (JP)",
+    "country_iso2": "JP",
+    "operator_id": "JP_yamato_transport",
+    "mode": "road",
+    "form": "containerised",
+    "range": "regional",
+    "coordinates": {
+      "lat": 35,
+      "lon": 137
+    },
+    "resources": [
+      "Mica"
+    ],
+    "upstream": [],
+    "downstream": []
+  },
+  {
+    "id": "INTL_ocean_osaka-sydney",
+    "tier": "transport",
+    "name": "Ocean freight: Osaka (JP) → Sydney (AU)",
+    "country_iso2": "INTL",
+    "operator_id": "INTL_container_lines",
+    "mode": "ocean_freight",
+    "form": "containerised",
+    "range": "international",
+    "coordinates": {
+      "lat": -5,
+      "lon": 150
+    }
+  },
+  {
+    "id": "KR_road_incheon-suwon",
+    "tier": "transport",
+    "name": "Road freight: Incheon → Suwon (KR)",
+    "country_iso2": "KR",
+    "operator_id": "KR_road_logistics",
+    "mode": "road",
+    "form": "containerised",
+    "range": "local",
+    "coordinates": {
+      "lat": 37.38,
+      "lon": 126.85
+    }
+  },
+  {
+    "id": "KR_road_incheon-seoul",
+    "tier": "transport",
+    "name": "Road freight: Incheon → Seoul (KR)",
+    "country_iso2": "KR",
+    "operator_id": "KR_road_logistics",
+    "mode": "road",
+    "form": "containerised",
+    "range": "local",
+    "coordinates": {
+      "lat": 37.47,
+      "lon": 126.8
+    }
+  },
+  {
+    "id": "KR_road_suwon-national",
+    "tier": "transport",
+    "name": "Road freight: Suwon — National distribution (KR)",
+    "country_iso2": "KR",
+    "operator_id": "KR_road_logistics",
+    "mode": "road",
+    "form": "containerised",
+    "range": "regional",
+    "coordinates": {
+      "lat": 37.26,
+      "lon": 127.03
+    }
+  },
+  {
+    "id": "DE_road_andernach-dortmund",
+    "tier": "transport",
+    "name": "Road freight: Andernach → Dortmund (DE)",
+    "country_iso2": "DE",
+    "operator_id": "DE_road_logistics",
+    "mode": "road",
+    "form": "containerised",
+    "range": "regional",
+    "coordinates": {
+      "lat": 50.8,
+      "lon": 7.1
+    }
+  },
+  {
+    "id": "DE_road_dortmund-national",
+    "tier": "transport",
+    "name": "Road freight: Dortmund — National distribution (DE)",
+    "country_iso2": "DE",
+    "operator_id": "DE_road_logistics",
+    "mode": "road",
+    "form": "containerised",
+    "range": "regional",
+    "coordinates": {
+      "lat": 51.5,
+      "lon": 7.5
+    }
+  },
+  {
+    "id": "US_road_newjersey-national",
+    "tier": "transport",
+    "name": "Road freight: New Jersey → US national distribution",
+    "country_iso2": "US",
+    "operator_id": "US_road_logistics",
+    "mode": "road",
+    "form": "containerised",
+    "range": "regional",
+    "coordinates": {
+      "lat": 39,
+      "lon": -85
+    }
+  },
+  {
+    "id": "US_road_national-distribution",
+    "tier": "transport",
+    "name": "Road freight: US national industrial distribution",
+    "country_iso2": "US",
+    "operator_id": "US_road_logistics",
+    "mode": "road",
+    "form": "containerised",
+    "range": "regional",
+    "coordinates": {
+      "lat": 38,
+      "lon": -97
+    },
+    "resources": [
+      "Fish (farmed)"
+    ],
+    "upstream": [],
+    "downstream": []
+  },
+  {
+    "id": "US_road_national-retail",
+    "tier": "transport",
+    "name": "Road freight: US national retail distribution",
+    "country_iso2": "US",
+    "operator_id": "US_road_logistics",
+    "mode": "road",
+    "form": "containerised",
+    "range": "regional",
+    "coordinates": {
+      "lat": 37,
+      "lon": -95
+    }
+  },
+  {
+    "id": "AU_road_melbourne-sydney",
+    "tier": "transport",
+    "name": "Road freight: Melbourne → Sydney (AU)",
+    "country_iso2": "AU",
+    "operator_id": "AU_toll_group",
+    "mode": "road",
+    "form": "containerised",
+    "range": "regional",
+    "coordinates": {
+      "lat": -35.8,
+      "lon": 148.2
+    }
+  },
+  {
+    "id": "AU_road_sydney-canberra",
+    "tier": "transport",
+    "name": "Road freight: Sydney → Canberra (AU)",
+    "country_iso2": "AU",
+    "operator_id": "AU_toll_group",
+    "mode": "road",
+    "form": "containerised",
+    "range": "regional",
+    "coordinates": {
+      "lat": -34.7,
+      "lon": 149.8
+    }
+  },
+  {
+    "id": "AU_road_sydney-national-commercial",
+    "tier": "transport",
+    "name": "Road freight: Sydney — National commercial distribution (AU)",
+    "country_iso2": "AU",
+    "operator_id": "AU_toll_group",
+    "mode": "road",
+    "form": "containerised",
+    "range": "regional",
+    "coordinates": {
+      "lat": -33.87,
+      "lon": 151.21
+    }
+  },
+  {
+    "id": "AU_road_melbourne-national-packaging",
+    "tier": "transport",
+    "name": "Road freight: Melbourne — Packaging distribution (AU)",
+    "country_iso2": "AU",
+    "operator_id": "AU_toll_group",
+    "mode": "road",
+    "form": "containerised",
+    "range": "regional",
+    "coordinates": {
+      "lat": -37.81,
+      "lon": 144.96
+    }
+  },
+  {
+    "id": "AU_road_melbourne-retail",
+    "tier": "transport",
+    "name": "Road freight: Melbourne — Retail distribution (AU)",
+    "country_iso2": "AU",
+    "operator_id": "AU_toll_group",
+    "mode": "road",
+    "form": "containerised",
+    "range": "local",
+    "coordinates": {
+      "lat": -37.81,
+      "lon": 144.96
+    },
+    "resources": [
+      "Salt (evaporated)"
+    ],
+    "upstream": [],
+    "downstream": []
+  }
+]

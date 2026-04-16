@@ -1,0 +1,1402 @@
+[
+  {
+    "id": "AU_bass_strait_oil_fields",
+    "name": "Bass Strait Oil Fields (Kingfish, Halibut, Fortescue, etc.)",
+    "tier": "extraction",
+    "country_iso2": "AU",
+    "canonical_company": "ExxonMobil / Woodside (Gippsland Basin JV)",
+    "coordinates": {
+      "lat": -38.6,
+      "lon": 148.3
+    },
+    "downstream": [
+      {
+        "target_id": "AU_viva_energy_geelong_refinery",
+        "corridor_id": "AU_pipeline_bass-strait-longford",
+        "resource": "crude oil (Bass Strait light crude)",
+        "quantity": 1200000,
+        "metric": "kL"
+      },
+      {
+        "target_id": "AU_altona_refinery",
+        "corridor_id": "AU_pipeline_bass-strait-longford",
+        "resource": "crude oil (Bass Strait light crude)",
+        "quantity": 600000,
+        "metric": "kL"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Petroleum"
+    ]
+  },
+  {
+    "id": "AU_north_west_shelf_oil",
+    "name": "North West Shelf Oil Fields (Cossack, Wanaea, Lambert, Hermes)",
+    "tier": "extraction",
+    "country_iso2": "AU",
+    "canonical_company": "Woodside Energy",
+    "coordinates": {
+      "lat": -19.6,
+      "lon": 116.1
+    },
+    "downstream": [
+      {
+        "target_id": "AU_bp_kwinana_refinery",
+        "corridor_id": "AU_ocean_nws-kwinana",
+        "resource": "crude oil (NWS light crude)",
+        "quantity": 800000,
+        "metric": "kL"
+      },
+      {
+        "target_id": "INTL_crude_oil_export_asia",
+        "corridor_id": "INTL_ocean_dampier-singapore",
+        "resource": "crude oil (NWS blend)",
+        "quantity": 1500000,
+        "metric": "kL"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Petroleum"
+    ]
+  },
+  {
+    "id": "AU_vincent_oil_field",
+    "name": "Vincent Oil Field",
+    "tier": "extraction",
+    "country_iso2": "AU",
+    "canonical_company": "Woodside Energy",
+    "coordinates": {
+      "lat": -21.5,
+      "lon": 114.2
+    },
+    "downstream": [
+      {
+        "target_id": "AU_bp_kwinana_refinery",
+        "corridor_id": "AU_ocean_exmouth-kwinana",
+        "resource": "crude oil (Vincent crude)",
+        "quantity": 500000,
+        "metric": "kL"
+      },
+      {
+        "target_id": "INTL_crude_oil_export_asia",
+        "corridor_id": "INTL_ocean_exmouth-singapore",
+        "resource": "crude oil (Vincent crude)",
+        "quantity": 700000,
+        "metric": "kL"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Petroleum"
+    ]
+  },
+  {
+    "id": "AU_pyrenees_oil_field",
+    "name": "Pyrenees Oil Field (Crosby, Ravensworth, Stickle)",
+    "tier": "extraction",
+    "country_iso2": "AU",
+    "canonical_company": "Woodside Energy",
+    "coordinates": {
+      "lat": -21.2,
+      "lon": 114
+    },
+    "downstream": [
+      {
+        "target_id": "AU_bp_kwinana_refinery",
+        "corridor_id": "AU_ocean_exmouth-kwinana",
+        "resource": "crude oil (Pyrenees crude)",
+        "quantity": 300000,
+        "metric": "kL"
+      },
+      {
+        "target_id": "INTL_crude_oil_export_asia",
+        "corridor_id": "INTL_ocean_exmouth-singapore",
+        "resource": "crude oil (Pyrenees crude)",
+        "quantity": 400000,
+        "metric": "kL"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Petroleum"
+    ]
+  },
+  {
+    "id": "AU_barrow_island_oil_field",
+    "name": "Barrow Island Oil Field",
+    "tier": "extraction",
+    "country_iso2": "AU",
+    "canonical_company": "Chevron Australia",
+    "coordinates": {
+      "lat": -20.8,
+      "lon": 115.4
+    },
+    "downstream": [
+      {
+        "target_id": "AU_bp_kwinana_refinery",
+        "corridor_id": "AU_ocean_barrow-kwinana",
+        "resource": "crude oil (Barrow Island crude)",
+        "quantity": 200000,
+        "metric": "kL"
+      },
+      {
+        "target_id": "INTL_crude_oil_export_asia",
+        "corridor_id": "INTL_ocean_barrow-singapore",
+        "resource": "crude oil (Barrow Island crude)",
+        "quantity": 300000,
+        "metric": "kL"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Petroleum"
+    ]
+  },
+  {
+    "id": "AU_jackson_oil_field",
+    "name": "Jackson Oil Field (Carnarvon Basin)",
+    "tier": "extraction",
+    "country_iso2": "AU",
+    "canonical_company": "Santos",
+    "coordinates": {
+      "lat": -20.9,
+      "lon": 115
+    },
+    "downstream": [
+      {
+        "target_id": "AU_bp_kwinana_refinery",
+        "corridor_id": "AU_ocean_barrow-kwinana",
+        "resource": "crude oil (Jackson crude)",
+        "quantity": 150000,
+        "metric": "kL"
+      },
+      {
+        "target_id": "INTL_crude_oil_export_asia",
+        "corridor_id": "INTL_ocean_barrow-singapore",
+        "resource": "crude oil (Jackson crude)",
+        "quantity": 200000,
+        "metric": "kL"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Petroleum"
+    ]
+  },
+  {
+    "id": "AU_cooper_basin_oil_fields",
+    "name": "Cooper Basin Oil Fields (SA/QLD)",
+    "tier": "extraction",
+    "country_iso2": "AU",
+    "canonical_company": "Santos",
+    "coordinates": {
+      "lat": -28,
+      "lon": 140.5
+    },
+    "downstream": [
+      {
+        "target_id": "AU_viva_energy_geelong_refinery",
+        "corridor_id": "AU_pipeline_moomba-port-stanvac",
+        "resource": "crude oil / condensate (Cooper Basin)",
+        "quantity": 400000,
+        "metric": "kL"
+      },
+      {
+        "target_id": "AU_ampol_lytton_refinery",
+        "corridor_id": "AU_pipeline_moomba-brisbane",
+        "resource": "crude oil / condensate (Cooper Basin)",
+        "quantity": 200000,
+        "metric": "kL"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Petroleum"
+    ]
+  },
+  {
+    "id": "AU_montara_oil_field",
+    "name": "Montara / Skua Oil Field (Timor Sea)",
+    "tier": "extraction",
+    "country_iso2": "AU",
+    "canonical_company": "Jadestone Energy",
+    "coordinates": {
+      "lat": -12.7,
+      "lon": 124.5
+    },
+    "downstream": [
+      {
+        "target_id": "INTL_crude_oil_export_asia",
+        "corridor_id": "INTL_ocean_darwin-singapore",
+        "resource": "crude oil (Montara crude)",
+        "quantity": 350000,
+        "metric": "kL"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Petroleum"
+    ]
+  },
+  {
+    "id": "AU_stag_oil_field",
+    "name": "Stag Oil Field",
+    "tier": "extraction",
+    "country_iso2": "AU",
+    "canonical_company": "Jadestone Energy",
+    "coordinates": {
+      "lat": -20.6,
+      "lon": 115.8
+    },
+    "downstream": [
+      {
+        "target_id": "INTL_crude_oil_export_asia",
+        "corridor_id": "INTL_ocean_barrow-singapore",
+        "resource": "crude oil (Stag crude)",
+        "quantity": 150000,
+        "metric": "kL"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Petroleum"
+    ]
+  },
+  {
+    "id": "AU_laminaria_corallina_oil_field",
+    "name": "Laminaria-Corallina Oil Field (Timor Sea)",
+    "tier": "extraction",
+    "country_iso2": "AU",
+    "canonical_company": "Woodside Energy",
+    "coordinates": {
+      "lat": -11.7,
+      "lon": 124.1
+    },
+    "downstream": [
+      {
+        "target_id": "INTL_crude_oil_export_asia",
+        "corridor_id": "INTL_ocean_darwin-singapore",
+        "resource": "crude oil (Laminaria crude)",
+        "quantity": 200000,
+        "metric": "kL"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Petroleum"
+    ]
+  },
+  {
+    "id": "AU_roma_surat_oil_fields",
+    "name": "Surat / Bowen Basin Oil Fields (QLD)",
+    "tier": "extraction",
+    "country_iso2": "AU",
+    "canonical_company": "Santos",
+    "coordinates": {
+      "lat": -26.5,
+      "lon": 148.8
+    },
+    "downstream": [
+      {
+        "target_id": "AU_ampol_lytton_refinery",
+        "corridor_id": "AU_pipeline_moonie-brisbane",
+        "resource": "crude oil (Moonie / Surat Basin crude)",
+        "quantity": 100000,
+        "metric": "kL"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Petroleum"
+    ]
+  },
+  {
+    "id": "AU_viva_energy_geelong_refinery",
+    "name": "Viva Energy Geelong Refinery",
+    "tier": "refinery",
+    "country_iso2": "AU",
+    "canonical_company": "Viva Energy",
+    "coordinates": {
+      "lat": -38.15,
+      "lon": 144.37
+    },
+    "downstream": [
+      {
+        "target_id": "AU_viva_energy_distribution",
+        "corridor_id": "AU_pipeline_geelong-melbourne",
+        "resource": "refined petroleum products (gasoline, diesel, jet fuel)",
+        "quantity": 3500000,
+        "metric": "kL"
+      },
+      {
+        "target_id": "AU_viva_energy_distribution",
+        "corridor_id": "AU_road_geelong-regional-vic",
+        "resource": "refined petroleum products (diesel, gasoline, LPG)",
+        "quantity": 1000000,
+        "metric": "kL"
+      }
+    ],
+    "upstream": [
+      "AU_bass_strait_oil_fields",
+      "AU_cooper_basin_oil_fields"
+    ],
+    "resources": [
+      "Petroleum"
+    ]
+  },
+  {
+    "id": "AU_ampol_lytton_refinery",
+    "name": "Ampol Lytton Refinery (Brisbane)",
+    "tier": "refinery",
+    "country_iso2": "AU",
+    "canonical_company": "Ampol",
+    "coordinates": {
+      "lat": -27.42,
+      "lon": 153.14
+    },
+    "downstream": [
+      {
+        "target_id": "AU_ampol_distribution",
+        "corridor_id": "AU_pipeline_lytton-brisbane-airport",
+        "resource": "jet fuel (Jet A-1)",
+        "quantity": 1500000,
+        "metric": "kL"
+      },
+      {
+        "target_id": "AU_ampol_distribution",
+        "corridor_id": "AU_road_lytton-se-qld",
+        "resource": "refined petroleum products (gasoline, diesel)",
+        "quantity": 3000000,
+        "metric": "kL"
+      }
+    ],
+    "upstream": [
+      "AU_cooper_basin_oil_fields",
+      "AU_roma_surat_oil_fields"
+    ],
+    "resources": [
+      "Petroleum"
+    ]
+  },
+  {
+    "id": "AU_bp_kwinana_refinery",
+    "name": "bp Kwinana Refinery (converted to Energy Hub, fuel import terminal)",
+    "tier": "refinery",
+    "country_iso2": "AU",
+    "canonical_company": "bp Australia",
+    "coordinates": {
+      "lat": -32.23,
+      "lon": 115.77
+    },
+    "downstream": [
+      {
+        "target_id": "AU_bp_distribution_wa",
+        "corridor_id": "AU_road_kwinana-perth",
+        "resource": "imported refined petroleum products (diesel, gasoline, jet fuel)",
+        "quantity": 4000000,
+        "metric": "kL"
+      },
+      {
+        "target_id": "AU_industrial",
+        "corridor_id": "AU_pipeline_kwinana_industrial",
+        "resource": "nitrogen used in petroleum refining (inerting, purging)",
+        "quantity": 20000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_north_west_shelf_oil",
+      "AU_vincent_oil_field",
+      "AU_pyrenees_oil_field",
+      "AU_barrow_island_oil_field",
+      "AU_jackson_oil_field",
+      "AU_air_liquide_kwinana_purifier"
+    ],
+    "resources": [
+      "Petroleum",
+      "Nitrogen"
+    ]
+  },
+  {
+    "id": "AU_altona_refinery",
+    "name": "Mobil Altona Refinery (now import terminal)",
+    "tier": "refinery",
+    "country_iso2": "AU",
+    "canonical_company": "ExxonMobil Australia",
+    "coordinates": {
+      "lat": -37.87,
+      "lon": 144.83
+    },
+    "downstream": [
+      {
+        "target_id": "AU_exxonmobil_distribution",
+        "corridor_id": "AU_pipeline_altona-melbourne",
+        "resource": "imported refined petroleum products (diesel, gasoline, jet fuel)",
+        "quantity": 2500000,
+        "metric": "kL"
+      }
+    ],
+    "upstream": [
+      "AU_bass_strait_oil_fields"
+    ],
+    "resources": [
+      "Petroleum"
+    ]
+  },
+  {
+    "id": "INTL_crude_oil_export_asia",
+    "name": "Asian Crude Oil Export Market (Singapore, South Korea, Japan, China)",
+    "tier": "refinery",
+    "country_iso2": "INTL",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": 1.26,
+      "lon": 103.84
+    },
+    "downstream": [
+      {
+        "target_id": "INTL_industrial",
+        "corridor_id": "INTL_ocean_singapore-asia-distribution",
+        "resource": "crude oil for refining",
+        "quantity": 3800000,
+        "metric": "kL"
+      }
+    ],
+    "upstream": [
+      "AU_north_west_shelf_oil",
+      "AU_vincent_oil_field",
+      "AU_pyrenees_oil_field",
+      "AU_barrow_island_oil_field",
+      "AU_jackson_oil_field",
+      "AU_montara_oil_field",
+      "AU_stag_oil_field",
+      "AU_laminaria_corallina_oil_field"
+    ],
+    "resources": [
+      "Petroleum"
+    ]
+  },
+  {
+    "id": "AU_viva_energy_distribution",
+    "name": "Viva Energy Distribution (Shell-branded, Liberty, fleet cards)",
+    "tier": "distributor",
+    "country_iso2": "AU",
+    "canonical_company": "Viva Energy",
+    "coordinates": {
+      "lat": -37.82,
+      "lon": 144.96
+    },
+    "downstream": [
+      {
+        "target_id": "AU_viva_energy_retail",
+        "corridor_id": "AU_road_viva-retail-network-vic-nsw",
+        "resource": "gasoline and diesel (retail)",
+        "quantity": 2500000,
+        "metric": "kL"
+      },
+      {
+        "target_id": "AU_viva_energy_commercial_supply",
+        "corridor_id": "AU_road_viva-commercial-distribution",
+        "resource": "diesel, jet fuel, fuel oil (commercial / industrial)",
+        "quantity": 2000000,
+        "metric": "kL"
+      }
+    ],
+    "upstream": [
+      "AU_viva_energy_geelong_refinery"
+    ],
+    "resources": [
+      "Petroleum"
+    ]
+  },
+  {
+    "id": "AU_ampol_distribution",
+    "name": "Ampol Distribution Network (Queensland & National)",
+    "tier": "distributor",
+    "country_iso2": "AU",
+    "canonical_company": "Ampol",
+    "coordinates": {
+      "lat": -33.87,
+      "lon": 151.21
+    },
+    "downstream": [
+      {
+        "target_id": "AU_ampol_retail",
+        "corridor_id": "AU_road_ampol-retail-network-national",
+        "resource": "gasoline and diesel (retail)",
+        "quantity": 2500000,
+        "metric": "kL"
+      },
+      {
+        "target_id": "AU_ampol_commercial_supply",
+        "corridor_id": "AU_road_ampol-commercial-distribution",
+        "resource": "diesel, jet fuel, fuel oil (commercial / industrial / aviation)",
+        "quantity": 2000000,
+        "metric": "kL"
+      }
+    ],
+    "upstream": [
+      "AU_ampol_lytton_refinery"
+    ],
+    "resources": [
+      "Petroleum"
+    ]
+  },
+  {
+    "id": "AU_bp_distribution_wa",
+    "name": "bp Distribution Network (WA & National)",
+    "tier": "distributor",
+    "country_iso2": "AU",
+    "canonical_company": "bp Australia",
+    "coordinates": {
+      "lat": -31.95,
+      "lon": 115.86
+    },
+    "downstream": [
+      {
+        "target_id": "AU_bp_retail",
+        "corridor_id": "AU_road_bp-retail-network-national",
+        "resource": "gasoline and diesel (retail)",
+        "quantity": 2200000,
+        "metric": "kL"
+      },
+      {
+        "target_id": "AU_bp_commercial_supply",
+        "corridor_id": "AU_road_bp-commercial-distribution",
+        "resource": "diesel, jet fuel, fuel oil (commercial / industrial / mining)",
+        "quantity": 1800000,
+        "metric": "kL"
+      }
+    ],
+    "upstream": [
+      "AU_bp_kwinana_refinery"
+    ],
+    "resources": [
+      "Petroleum"
+    ]
+  },
+  {
+    "id": "AU_exxonmobil_distribution",
+    "name": "ExxonMobil Distribution Network (VIC & National)",
+    "tier": "distributor",
+    "country_iso2": "AU",
+    "canonical_company": "ExxonMobil Australia",
+    "coordinates": {
+      "lat": -37.82,
+      "lon": 144.96
+    },
+    "downstream": [
+      {
+        "target_id": "AU_exxonmobil_retail",
+        "corridor_id": "AU_road_mobil-retail-network-national",
+        "resource": "gasoline and diesel (retail)",
+        "quantity": 1200000,
+        "metric": "kL"
+      },
+      {
+        "target_id": "AU_exxonmobil_commercial_supply",
+        "corridor_id": "AU_road_mobil-commercial-distribution",
+        "resource": "diesel, jet fuel, fuel oil (commercial / industrial)",
+        "quantity": 1300000,
+        "metric": "kL"
+      }
+    ],
+    "upstream": [
+      "AU_altona_refinery"
+    ],
+    "resources": [
+      "Petroleum"
+    ]
+  },
+  {
+    "id": "AU_viva_energy_retail",
+    "name": "Viva Energy Retail (Shell/Liberty branded service stations)",
+    "tier": "utility",
+    "country_iso2": "AU",
+    "canonical_company": "Viva Energy",
+    "coordinates": {
+      "lat": -37.81,
+      "lon": 144.97
+    },
+    "downstream": [
+      {
+        "target_id": "AU_residential",
+        "corridor_id": "AU_road_retail-forecourt-vic-nsw",
+        "resource": "gasoline (ULP, E10, premium)",
+        "quantity": 1500000,
+        "metric": "kL"
+      },
+      {
+        "target_id": "AU_commercial",
+        "corridor_id": "AU_road_retail-forecourt-vic-nsw",
+        "resource": "diesel (road transport)",
+        "quantity": 1000000,
+        "metric": "kL"
+      }
+    ],
+    "upstream": [
+      "AU_viva_energy_distribution"
+    ],
+    "resources": [
+      "Petroleum"
+    ]
+  },
+  {
+    "id": "AU_viva_energy_commercial_supply",
+    "name": "Viva Energy Commercial & Industrial Supply",
+    "tier": "utility",
+    "country_iso2": "AU",
+    "canonical_company": "Viva Energy",
+    "coordinates": {
+      "lat": -37.82,
+      "lon": 144.96
+    },
+    "downstream": [
+      {
+        "target_id": "AU_industrial",
+        "corridor_id": "AU_road_viva-industrial-delivery",
+        "resource": "diesel and fuel oil (mining, manufacturing)",
+        "quantity": 1200000,
+        "metric": "kL"
+      },
+      {
+        "target_id": "AU_infrastructure",
+        "corridor_id": "AU_pipeline_geelong-melbourne-airport",
+        "resource": "jet fuel (Jet A-1, aviation)",
+        "quantity": 800000,
+        "metric": "kL"
+      }
+    ],
+    "upstream": [
+      "AU_viva_energy_distribution"
+    ],
+    "resources": [
+      "Petroleum"
+    ]
+  },
+  {
+    "id": "AU_ampol_retail",
+    "name": "Ampol Retail (Ampol/Caltex branded service stations)",
+    "tier": "utility",
+    "country_iso2": "AU",
+    "canonical_company": "Ampol",
+    "coordinates": {
+      "lat": -33.87,
+      "lon": 151.21
+    },
+    "downstream": [
+      {
+        "target_id": "AU_residential",
+        "corridor_id": "AU_road_ampol-forecourt-national",
+        "resource": "gasoline (ULP, E10, premium)",
+        "quantity": 1500000,
+        "metric": "kL"
+      },
+      {
+        "target_id": "AU_commercial",
+        "corridor_id": "AU_road_ampol-forecourt-national",
+        "resource": "diesel (road transport)",
+        "quantity": 1000000,
+        "metric": "kL"
+      }
+    ],
+    "upstream": [
+      "AU_ampol_distribution"
+    ],
+    "resources": [
+      "Petroleum"
+    ]
+  },
+  {
+    "id": "AU_ampol_commercial_supply",
+    "name": "Ampol Commercial & Aviation Supply",
+    "tier": "utility",
+    "country_iso2": "AU",
+    "canonical_company": "Ampol",
+    "coordinates": {
+      "lat": -33.87,
+      "lon": 151.21
+    },
+    "downstream": [
+      {
+        "target_id": "AU_industrial",
+        "corridor_id": "AU_road_ampol-industrial-delivery",
+        "resource": "diesel and fuel oil (mining, construction)",
+        "quantity": 1000000,
+        "metric": "kL"
+      },
+      {
+        "target_id": "AU_infrastructure",
+        "corridor_id": "AU_pipeline_lytton-brisbane-airport",
+        "resource": "jet fuel (Jet A-1, aviation)",
+        "quantity": 1000000,
+        "metric": "kL"
+      }
+    ],
+    "upstream": [
+      "AU_ampol_distribution"
+    ],
+    "resources": [
+      "Petroleum"
+    ]
+  },
+  {
+    "id": "AU_bp_retail",
+    "name": "bp Retail (bp branded service stations)",
+    "tier": "utility",
+    "country_iso2": "AU",
+    "canonical_company": "bp Australia",
+    "coordinates": {
+      "lat": -33.87,
+      "lon": 151.21
+    },
+    "downstream": [
+      {
+        "target_id": "AU_residential",
+        "corridor_id": "AU_road_bp-forecourt-national",
+        "resource": "gasoline (ULP, E10, premium)",
+        "quantity": 1200000,
+        "metric": "kL"
+      },
+      {
+        "target_id": "AU_commercial",
+        "corridor_id": "AU_road_bp-forecourt-national",
+        "resource": "diesel (road transport)",
+        "quantity": 1000000,
+        "metric": "kL"
+      }
+    ],
+    "upstream": [
+      "AU_bp_distribution_wa"
+    ],
+    "resources": [
+      "Petroleum"
+    ]
+  },
+  {
+    "id": "AU_bp_commercial_supply",
+    "name": "bp Commercial & Industrial Supply",
+    "tier": "utility",
+    "country_iso2": "AU",
+    "canonical_company": "bp Australia",
+    "coordinates": {
+      "lat": -31.95,
+      "lon": 115.86
+    },
+    "downstream": [
+      {
+        "target_id": "AU_industrial",
+        "corridor_id": "AU_road_bp-industrial-delivery",
+        "resource": "diesel (mining, resources, heavy industry)",
+        "quantity": 1200000,
+        "metric": "kL"
+      },
+      {
+        "target_id": "AU_infrastructure",
+        "corridor_id": "AU_pipeline_bp-aviation-fuel",
+        "resource": "jet fuel (Jet A-1)",
+        "quantity": 600000,
+        "metric": "kL"
+      }
+    ],
+    "upstream": [
+      "AU_bp_distribution_wa"
+    ],
+    "resources": [
+      "Petroleum"
+    ]
+  },
+  {
+    "id": "AU_exxonmobil_retail",
+    "name": "ExxonMobil / Mobil Retail (7-Eleven branded service stations)",
+    "tier": "utility",
+    "country_iso2": "AU",
+    "canonical_company": "ExxonMobil Australia",
+    "coordinates": {
+      "lat": -37.82,
+      "lon": 144.96
+    },
+    "downstream": [
+      {
+        "target_id": "AU_residential",
+        "corridor_id": "AU_road_mobil-forecourt-national",
+        "resource": "gasoline (ULP, E10, premium)",
+        "quantity": 700000,
+        "metric": "kL"
+      },
+      {
+        "target_id": "AU_commercial",
+        "corridor_id": "AU_road_mobil-forecourt-national",
+        "resource": "diesel (road transport)",
+        "quantity": 500000,
+        "metric": "kL"
+      }
+    ],
+    "upstream": [
+      "AU_exxonmobil_distribution"
+    ],
+    "resources": [
+      "Petroleum"
+    ]
+  },
+  {
+    "id": "AU_exxonmobil_commercial_supply",
+    "name": "ExxonMobil Commercial & Industrial Supply",
+    "tier": "utility",
+    "country_iso2": "AU",
+    "canonical_company": "ExxonMobil Australia",
+    "coordinates": {
+      "lat": -37.82,
+      "lon": 144.96
+    },
+    "downstream": [
+      {
+        "target_id": "AU_industrial",
+        "corridor_id": "AU_road_mobil-industrial-delivery",
+        "resource": "diesel and fuel oil (manufacturing, mining)",
+        "quantity": 800000,
+        "metric": "kL"
+      },
+      {
+        "target_id": "AU_infrastructure",
+        "corridor_id": "AU_pipeline_mobil-aviation",
+        "resource": "jet fuel (Jet A-1, aviation)",
+        "quantity": 500000,
+        "metric": "kL"
+      }
+    ],
+    "upstream": [
+      "AU_exxonmobil_distribution"
+    ],
+    "resources": [
+      "Petroleum"
+    ]
+  },
+  {
+    "id": "AU_pipeline_bass-strait-longford",
+    "tier": "transport",
+    "name": "Bass Strait to Longford / Gippsland Pipeline System",
+    "country_iso2": "AU",
+    "operator_id": "AU_exxonmobil_australia",
+    "mode": "pipeline",
+    "form": "bulk_liquid",
+    "range": "regional",
+    "coordinates": {
+      "lat": -38.55,
+      "lon": 147.07
+    }
+  },
+  {
+    "id": "AU_ocean_nws-kwinana",
+    "tier": "transport",
+    "name": "NWS offshore to Kwinana coastal shipping",
+    "country_iso2": "AU",
+    "operator_id": "AU_woodside_energy",
+    "mode": "ocean_freight",
+    "form": "bulk_liquid",
+    "range": "regional",
+    "coordinates": {
+      "lat": -25,
+      "lon": 115
+    }
+  },
+  {
+    "id": "INTL_ocean_dampier-singapore",
+    "tier": "transport",
+    "name": "Dampier / NWS to Singapore ocean route",
+    "country_iso2": "INTL",
+    "operator_id": "INTL_tanker_operators",
+    "mode": "ocean_freight",
+    "form": "bulk_liquid",
+    "range": "international",
+    "coordinates": {
+      "lat": -10,
+      "lon": 110
+    }
+  },
+  {
+    "id": "AU_ocean_exmouth-kwinana",
+    "tier": "transport",
+    "name": "Exmouth Sub-basin to Kwinana coastal shipping",
+    "country_iso2": "AU",
+    "operator_id": "AU_woodside_energy",
+    "mode": "ocean_freight",
+    "form": "bulk_liquid",
+    "range": "regional",
+    "coordinates": {
+      "lat": -26,
+      "lon": 114.5
+    }
+  },
+  {
+    "id": "INTL_ocean_exmouth-singapore",
+    "tier": "transport",
+    "name": "Exmouth Sub-basin to Singapore ocean route",
+    "country_iso2": "INTL",
+    "operator_id": "INTL_tanker_operators",
+    "mode": "ocean_freight",
+    "form": "bulk_liquid",
+    "range": "international",
+    "coordinates": {
+      "lat": -12,
+      "lon": 112
+    }
+  },
+  {
+    "id": "AU_ocean_barrow-kwinana",
+    "tier": "transport",
+    "name": "Barrow Island to Kwinana coastal tanker route",
+    "country_iso2": "AU",
+    "operator_id": "AU_chevron_australia",
+    "mode": "ocean_freight",
+    "form": "bulk_liquid",
+    "range": "regional",
+    "coordinates": {
+      "lat": -26,
+      "lon": 115.6
+    }
+  },
+  {
+    "id": "INTL_ocean_barrow-singapore",
+    "tier": "transport",
+    "name": "Barrow Island / NW Australia to Singapore ocean route",
+    "country_iso2": "INTL",
+    "operator_id": "INTL_tanker_operators",
+    "mode": "ocean_freight",
+    "form": "bulk_liquid",
+    "range": "international",
+    "coordinates": {
+      "lat": -11,
+      "lon": 112
+    }
+  },
+  {
+    "id": "AU_pipeline_moomba-port-stanvac",
+    "tier": "transport",
+    "name": "Moomba to Port Stanvac / Adelaide Pipeline (Cooper Basin)",
+    "country_iso2": "AU",
+    "operator_id": "AU_santos",
+    "mode": "pipeline",
+    "form": "bulk_liquid",
+    "range": "regional",
+    "coordinates": {
+      "lat": -32,
+      "lon": 139
+    }
+  },
+  {
+    "id": "AU_pipeline_moomba-brisbane",
+    "tier": "transport",
+    "name": "Cooper Basin to Queensland via pipeline / rail",
+    "country_iso2": "AU",
+    "operator_id": "AU_santos",
+    "mode": "pipeline",
+    "form": "bulk_liquid",
+    "range": "regional",
+    "coordinates": {
+      "lat": -27,
+      "lon": 144
+    }
+  },
+  {
+    "id": "INTL_ocean_darwin-singapore",
+    "tier": "transport",
+    "name": "Timor Sea / Darwin to Singapore ocean route",
+    "country_iso2": "INTL",
+    "operator_id": "INTL_tanker_operators",
+    "mode": "ocean_freight",
+    "form": "bulk_liquid",
+    "range": "international",
+    "coordinates": {
+      "lat": -8,
+      "lon": 115
+    }
+  },
+  {
+    "id": "AU_pipeline_moonie-brisbane",
+    "tier": "transport",
+    "name": "Moonie to Brisbane Pipeline",
+    "country_iso2": "AU",
+    "operator_id": "AU_santos",
+    "mode": "pipeline",
+    "form": "bulk_liquid",
+    "range": "regional",
+    "coordinates": {
+      "lat": -27.2,
+      "lon": 150.5
+    }
+  },
+  {
+    "id": "AU_pipeline_geelong-melbourne",
+    "tier": "transport",
+    "name": "Geelong to Melbourne Pipeline",
+    "country_iso2": "AU",
+    "operator_id": "AU_viva_energy",
+    "mode": "pipeline",
+    "form": "bulk_liquid",
+    "range": "local",
+    "coordinates": {
+      "lat": -37.95,
+      "lon": 144.6
+    }
+  },
+  {
+    "id": "AU_road_geelong-regional-vic",
+    "tier": "transport",
+    "name": "Geelong Refinery to regional VIC road tanker",
+    "country_iso2": "AU",
+    "operator_id": "AU_viva_energy",
+    "mode": "road",
+    "form": "bulk_liquid",
+    "range": "regional",
+    "coordinates": {
+      "lat": -38,
+      "lon": 144.4
+    }
+  },
+  {
+    "id": "AU_pipeline_lytton-brisbane-airport",
+    "tier": "transport",
+    "name": "Lytton Refinery to Brisbane Airport fuel pipeline",
+    "country_iso2": "AU",
+    "operator_id": "AU_ampol",
+    "mode": "pipeline",
+    "form": "bulk_liquid",
+    "range": "local",
+    "coordinates": {
+      "lat": -27.4,
+      "lon": 153.1
+    }
+  },
+  {
+    "id": "AU_road_lytton-se-qld",
+    "tier": "transport",
+    "name": "Lytton to SE Queensland road distribution",
+    "country_iso2": "AU",
+    "operator_id": "AU_ampol",
+    "mode": "road",
+    "form": "bulk_liquid",
+    "range": "regional",
+    "coordinates": {
+      "lat": -27.5,
+      "lon": 153
+    }
+  },
+  {
+    "id": "AU_road_kwinana-perth",
+    "tier": "transport",
+    "name": "Kwinana terminal to Perth metro road tanker distribution",
+    "country_iso2": "AU",
+    "operator_id": "AU_bp_australia",
+    "mode": "road",
+    "form": "bulk_liquid",
+    "range": "regional",
+    "coordinates": {
+      "lat": -32.1,
+      "lon": 115.8
+    },
+    "resources": [
+      "Quartz",
+      "Noble Gases",
+      "Oxygen"
+    ],
+    "upstream": [],
+    "downstream": []
+  },
+  {
+    "id": "AU_pipeline_altona-melbourne",
+    "tier": "transport",
+    "name": "Altona terminal to Melbourne pipeline",
+    "country_iso2": "AU",
+    "operator_id": "AU_exxonmobil_australia",
+    "mode": "pipeline",
+    "form": "bulk_liquid",
+    "range": "local",
+    "coordinates": {
+      "lat": -37.85,
+      "lon": 144.85
+    }
+  },
+  {
+    "id": "INTL_ocean_singapore-asia-distribution",
+    "tier": "transport",
+    "name": "Singapore hub to Asia refinery distribution (tanker)",
+    "country_iso2": "INTL",
+    "operator_id": "INTL_tanker_operators",
+    "mode": "ocean_freight",
+    "form": "bulk_liquid",
+    "range": "international",
+    "coordinates": {
+      "lat": 3,
+      "lon": 108
+    }
+  },
+  {
+    "id": "AU_road_viva-retail-network-vic-nsw",
+    "tier": "transport",
+    "name": "Viva retail distribution road network (VIC / NSW)",
+    "country_iso2": "AU",
+    "operator_id": "AU_viva_energy",
+    "mode": "road",
+    "form": "bulk_liquid",
+    "range": "regional",
+    "coordinates": {
+      "lat": -37,
+      "lon": 145
+    }
+  },
+  {
+    "id": "AU_road_viva-commercial-distribution",
+    "tier": "transport",
+    "name": "Viva commercial / industrial road tanker distribution",
+    "country_iso2": "AU",
+    "operator_id": "AU_viva_energy",
+    "mode": "road",
+    "form": "bulk_liquid",
+    "range": "regional",
+    "coordinates": {
+      "lat": -37.5,
+      "lon": 145
+    }
+  },
+  {
+    "id": "AU_road_ampol-retail-network-national",
+    "tier": "transport",
+    "name": "Ampol retail distribution road network (national)",
+    "country_iso2": "AU",
+    "operator_id": "AU_ampol",
+    "mode": "road",
+    "form": "bulk_liquid",
+    "range": "regional",
+    "coordinates": {
+      "lat": -33.5,
+      "lon": 150.5
+    }
+  },
+  {
+    "id": "AU_road_ampol-commercial-distribution",
+    "tier": "transport",
+    "name": "Ampol commercial / industrial road tanker distribution",
+    "country_iso2": "AU",
+    "operator_id": "AU_ampol",
+    "mode": "road",
+    "form": "bulk_liquid",
+    "range": "regional",
+    "coordinates": {
+      "lat": -30,
+      "lon": 150
+    }
+  },
+  {
+    "id": "AU_road_bp-retail-network-national",
+    "tier": "transport",
+    "name": "bp retail distribution road network (national)",
+    "country_iso2": "AU",
+    "operator_id": "AU_bp_australia",
+    "mode": "road",
+    "form": "bulk_liquid",
+    "range": "regional",
+    "coordinates": {
+      "lat": -32,
+      "lon": 130
+    }
+  },
+  {
+    "id": "AU_road_bp-commercial-distribution",
+    "tier": "transport",
+    "name": "bp commercial / mining road tanker distribution",
+    "country_iso2": "AU",
+    "operator_id": "AU_bp_australia",
+    "mode": "road",
+    "form": "bulk_liquid",
+    "range": "regional",
+    "coordinates": {
+      "lat": -28,
+      "lon": 120
+    }
+  },
+  {
+    "id": "AU_road_mobil-retail-network-national",
+    "tier": "transport",
+    "name": "ExxonMobil / 7-Eleven retail distribution road network",
+    "country_iso2": "AU",
+    "operator_id": "AU_exxonmobil_australia",
+    "mode": "road",
+    "form": "bulk_liquid",
+    "range": "regional",
+    "coordinates": {
+      "lat": -37,
+      "lon": 145
+    }
+  },
+  {
+    "id": "AU_road_mobil-commercial-distribution",
+    "tier": "transport",
+    "name": "ExxonMobil commercial / industrial road tanker distribution",
+    "country_iso2": "AU",
+    "operator_id": "AU_exxonmobil_australia",
+    "mode": "road",
+    "form": "bulk_liquid",
+    "range": "regional",
+    "coordinates": {
+      "lat": -36,
+      "lon": 145.5
+    }
+  },
+  {
+    "id": "AU_road_retail-forecourt-vic-nsw",
+    "tier": "transport",
+    "name": "Viva retail forecourt customer pick-up (VIC/NSW)",
+    "country_iso2": "AU",
+    "operator_id": "AU_viva_energy",
+    "mode": "road",
+    "form": "bulk_liquid",
+    "range": "local",
+    "coordinates": {
+      "lat": -37.8,
+      "lon": 145
+    }
+  },
+  {
+    "id": "AU_road_viva-industrial-delivery",
+    "tier": "transport",
+    "name": "Viva industrial bulk delivery (road tanker)",
+    "country_iso2": "AU",
+    "operator_id": "AU_viva_energy",
+    "mode": "road",
+    "form": "bulk_liquid",
+    "range": "regional",
+    "coordinates": {
+      "lat": -37.5,
+      "lon": 145
+    }
+  },
+  {
+    "id": "AU_pipeline_geelong-melbourne-airport",
+    "tier": "transport",
+    "name": "Geelong to Melbourne Airport jet fuel pipeline (JUHI)",
+    "country_iso2": "AU",
+    "operator_id": "AU_juhi",
+    "mode": "pipeline",
+    "form": "bulk_liquid",
+    "range": "local",
+    "coordinates": {
+      "lat": -37.67,
+      "lon": 144.84
+    }
+  },
+  {
+    "id": "AU_road_ampol-forecourt-national",
+    "tier": "transport",
+    "name": "Ampol retail forecourt customer pick-up (national)",
+    "country_iso2": "AU",
+    "operator_id": "AU_ampol",
+    "mode": "road",
+    "form": "bulk_liquid",
+    "range": "local",
+    "coordinates": {
+      "lat": -33.87,
+      "lon": 151.21
+    }
+  },
+  {
+    "id": "AU_road_ampol-industrial-delivery",
+    "tier": "transport",
+    "name": "Ampol industrial bulk delivery (road tanker)",
+    "country_iso2": "AU",
+    "operator_id": "AU_ampol",
+    "mode": "road",
+    "form": "bulk_liquid",
+    "range": "regional",
+    "coordinates": {
+      "lat": -27,
+      "lon": 150
+    }
+  },
+  {
+    "id": "AU_road_bp-forecourt-national",
+    "tier": "transport",
+    "name": "bp retail forecourt customer pick-up (national)",
+    "country_iso2": "AU",
+    "operator_id": "AU_bp_australia",
+    "mode": "road",
+    "form": "bulk_liquid",
+    "range": "local",
+    "coordinates": {
+      "lat": -33.87,
+      "lon": 151.21
+    }
+  },
+  {
+    "id": "AU_road_bp-industrial-delivery",
+    "tier": "transport",
+    "name": "bp industrial / mining bulk delivery (road tanker)",
+    "country_iso2": "AU",
+    "operator_id": "AU_bp_australia",
+    "mode": "road",
+    "form": "bulk_liquid",
+    "range": "regional",
+    "coordinates": {
+      "lat": -30,
+      "lon": 120
+    }
+  },
+  {
+    "id": "AU_pipeline_bp-aviation-fuel",
+    "tier": "transport",
+    "name": "bp aviation fuel pipeline / road delivery to airports",
+    "country_iso2": "AU",
+    "operator_id": "AU_bp_australia",
+    "mode": "pipeline",
+    "form": "bulk_liquid",
+    "range": "local",
+    "coordinates": {
+      "lat": -31.94,
+      "lon": 115.97
+    }
+  },
+  {
+    "id": "AU_road_mobil-forecourt-national",
+    "tier": "transport",
+    "name": "ExxonMobil / 7-Eleven retail forecourt customer pick-up",
+    "country_iso2": "AU",
+    "operator_id": "AU_exxonmobil_australia",
+    "mode": "road",
+    "form": "bulk_liquid",
+    "range": "local",
+    "coordinates": {
+      "lat": -37.82,
+      "lon": 144.96
+    }
+  },
+  {
+    "id": "AU_road_mobil-industrial-delivery",
+    "tier": "transport",
+    "name": "ExxonMobil industrial bulk delivery (road tanker)",
+    "country_iso2": "AU",
+    "operator_id": "AU_exxonmobil_australia",
+    "mode": "road",
+    "form": "bulk_liquid",
+    "range": "regional",
+    "coordinates": {
+      "lat": -37,
+      "lon": 145
+    }
+  },
+  {
+    "id": "AU_pipeline_mobil-aviation",
+    "tier": "transport",
+    "name": "ExxonMobil aviation fuel pipeline / delivery to airports",
+    "country_iso2": "AU",
+    "operator_id": "AU_exxonmobil_australia",
+    "mode": "pipeline",
+    "form": "bulk_liquid",
+    "range": "local",
+    "coordinates": {
+      "lat": -37.67,
+      "lon": 144.84
+    }
+  }
+]

@@ -1,0 +1,1384 @@
+[
+  {
+    "id": "AU_murrin_murrin_mine",
+    "name": "Murrin Murrin Nickel-Cobalt Mine",
+    "tier": "extraction",
+    "country_iso2": "AU",
+    "canonical_company": "Glencore",
+    "coordinates": {
+      "lat": -28.72,
+      "lon": 121.87
+    },
+    "downstream": [
+      {
+        "target_id": "AU_murrin_murrin_smelter",
+        "corridor_id": "AU_conveyor_murrin-murrin-onsite",
+        "resource": "nickel-cobalt mixed hydroxide precipitate",
+        "quantity": 28000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Nickel"
+    ]
+  },
+  {
+    "id": "AU_nova_mine",
+    "name": "Nova Nickel-Copper Mine",
+    "tier": "extraction",
+    "country_iso2": "AU",
+    "canonical_company": "IGO Limited",
+    "coordinates": {
+      "lat": -31.82,
+      "lon": 123.2
+    },
+    "downstream": [
+      {
+        "target_id": "AU_bhp_nickel_west_kwinana_refinery",
+        "corridor_id": "AU_road_nova-esperance",
+        "resource": "nickel concentrate",
+        "quantity": 14000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Nickel"
+    ]
+  },
+  {
+    "id": "AU_foster_mine",
+    "name": "Forrestania Nickel Mine (Flying Fox / Spotted Quoll)",
+    "tier": "extraction",
+    "country_iso2": "AU",
+    "canonical_company": "IGO Limited",
+    "coordinates": {
+      "lat": -32.14,
+      "lon": 119.88
+    },
+    "downstream": [
+      {
+        "target_id": "AU_bhp_nickel_west_kwinana_refinery",
+        "corridor_id": "AU_road_forrestania-kwinana",
+        "resource": "nickel concentrate",
+        "quantity": 6000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Nickel"
+    ]
+  },
+  {
+    "id": "AU_mount_keith_mine",
+    "name": "Mount Keith Nickel Mine",
+    "tier": "extraction",
+    "country_iso2": "AU",
+    "canonical_company": "BHP",
+    "coordinates": {
+      "lat": -27.23,
+      "lon": 120.54
+    },
+    "downstream": [
+      {
+        "target_id": "AU_bhp_nickel_west_kwinana_refinery",
+        "corridor_id": "AU_road_mt-keith-leinster",
+        "resource": "nickel concentrate",
+        "quantity": 22000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Nickel"
+    ]
+  },
+  {
+    "id": "AU_leinster_mine",
+    "name": "Leinster Nickel Mine",
+    "tier": "extraction",
+    "country_iso2": "AU",
+    "canonical_company": "BHP",
+    "coordinates": {
+      "lat": -27.8,
+      "lon": 120.7
+    },
+    "downstream": [
+      {
+        "target_id": "AU_bhp_nickel_west_kwinana_refinery",
+        "corridor_id": "AU_road_leinster-kwinana",
+        "resource": "nickel concentrate",
+        "quantity": 18000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Nickel"
+    ]
+  },
+  {
+    "id": "AU_cosmos_mine",
+    "name": "Cosmos Nickel Mine",
+    "tier": "extraction",
+    "country_iso2": "AU",
+    "canonical_company": "IGO Limited",
+    "coordinates": {
+      "lat": -27.1,
+      "lon": 120.5
+    },
+    "downstream": [
+      {
+        "target_id": "AU_bhp_nickel_west_kwinana_refinery",
+        "corridor_id": "AU_road_cosmos-leinster",
+        "resource": "nickel concentrate",
+        "quantity": 3000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Nickel"
+    ]
+  },
+  {
+    "id": "AU_ravensthorpe_mine",
+    "name": "Ravensthorpe Nickel Mine",
+    "tier": "extraction",
+    "country_iso2": "AU",
+    "canonical_company": "First Quantum Minerals",
+    "coordinates": {
+      "lat": -33.6,
+      "lon": 120.05
+    },
+    "downstream": [
+      {
+        "target_id": "AU_ravensthorpe_processing_plant",
+        "corridor_id": "AU_conveyor_ravensthorpe-onsite",
+        "resource": "nickel laterite ore",
+        "quantity": 13000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_ravensthorpe_processing",
+        "corridor_id": "AU_conveyor_ravensthorpe-onsite",
+        "resource": "mixed nickel-cobalt hydroxide precipitate",
+        "quantity": 500,
+        "metric": "t"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Nickel",
+      "Cobalt"
+    ]
+  },
+  {
+    "id": "AU_savannah_mine",
+    "name": "Savannah Nickel Mine",
+    "tier": "extraction",
+    "country_iso2": "AU",
+    "canonical_company": "Panoramic Resources",
+    "coordinates": {
+      "lat": -17.07,
+      "lon": 128.02
+    },
+    "downstream": [
+      {
+        "target_id": "AU_bhp_nickel_west_kwinana_refinery",
+        "corridor_id": "AU_road_savannah-wyndham",
+        "resource": "nickel concentrate",
+        "quantity": 6000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Nickel"
+    ]
+  },
+  {
+    "id": "AU_black_swan_mine",
+    "name": "Black Swan Nickel Mine",
+    "tier": "extraction",
+    "country_iso2": "AU",
+    "canonical_company": "Poseidon Nickel",
+    "coordinates": {
+      "lat": -30.37,
+      "lon": 121.64
+    },
+    "downstream": [
+      {
+        "target_id": "AU_bhp_nickel_west_kwinana_refinery",
+        "corridor_id": "AU_road_blackswan-kalgoorlie",
+        "resource": "nickel concentrate",
+        "quantity": 5000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Nickel"
+    ]
+  },
+  {
+    "id": "AU_west_musgrave_mine",
+    "name": "West Musgrave Nickel-Copper Project",
+    "tier": "extraction",
+    "country_iso2": "AU",
+    "canonical_company": "OZ Minerals",
+    "coordinates": {
+      "lat": -26.08,
+      "lon": 127.62
+    },
+    "downstream": [
+      {
+        "target_id": "AU_bhp_nickel_west_kwinana_refinery",
+        "corridor_id": "AU_road_westmusgrave-kwinana",
+        "resource": "nickel concentrate",
+        "quantity": 8000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Nickel"
+    ]
+  },
+  {
+    "id": "AU_murrin_murrin_smelter",
+    "name": "Murrin Murrin Nickel-Cobalt Refinery",
+    "tier": "smelter",
+    "country_iso2": "AU",
+    "canonical_company": "Glencore",
+    "coordinates": {
+      "lat": -28.72,
+      "lon": 121.87
+    },
+    "downstream": [
+      {
+        "target_id": "AU_glencore_nickel_trading",
+        "corridor_id": "AU_road_murrinmurrin-kalgoorlie",
+        "resource": "refined nickel briquettes",
+        "quantity": 22000,
+        "metric": "t"
+      },
+      {
+        "target_id": "CN_jinchuan_group",
+        "corridor_id": "INTL_ocean_fremantle-shanghai",
+        "resource": "refined nickel briquettes",
+        "quantity": 6000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_murrin_murrin_mine"
+    ],
+    "resources": [
+      "Nickel"
+    ]
+  },
+  {
+    "id": "AU_bhp_nickel_west_kwinana_refinery",
+    "name": "BHP Nickel West Kwinana Refinery",
+    "tier": "smelter",
+    "country_iso2": "AU",
+    "canonical_company": "BHP",
+    "coordinates": {
+      "lat": -32.24,
+      "lon": 115.77
+    },
+    "downstream": [
+      {
+        "target_id": "AU_bhp_nickel_west_kalgoorlie_smelter",
+        "corridor_id": "AU_rail_kwinana-kalgoorlie",
+        "resource": "nickel matte / intermediate",
+        "quantity": 40000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_bhp_nickel_sulphate_plant",
+        "corridor_id": "AU_road_kwinana-local",
+        "resource": "nickel sulphate",
+        "quantity": 15000,
+        "metric": "t"
+      },
+      {
+        "target_id": "JP_sumitomo_metal_mining",
+        "corridor_id": "INTL_ocean_fremantle-niihama",
+        "resource": "nickel powder / briquettes",
+        "quantity": 8000,
+        "metric": "t"
+      },
+      {
+        "target_id": "KR_samsung_sdi_materials",
+        "corridor_id": "INTL_ocean_fremantle-busan",
+        "resource": "nickel sulphate",
+        "quantity": 5000,
+        "metric": "t"
+      },
+      {
+        "target_id": "INTL_battery_cell_manufacturers",
+        "corridor_id": "INTL_ocean_fremantle-asia",
+        "resource": "nickel sulphate / nickel powder",
+        "quantity": 80000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_nova_mine",
+      "AU_foster_mine",
+      "AU_mount_keith_mine",
+      "AU_leinster_mine",
+      "AU_cosmos_mine",
+      "AU_savannah_mine",
+      "AU_black_swan_mine",
+      "AU_west_musgrave_mine",
+      "AU_bhp_nickel_west_kalgoorlie_smelter",
+      "AU_bhp_nickel_west_management"
+    ],
+    "resources": [
+      "Nickel",
+      "Mineral-Bearing Land"
+    ]
+  },
+  {
+    "id": "AU_bhp_nickel_west_kalgoorlie_smelter",
+    "name": "BHP Nickel West Kalgoorlie Smelter",
+    "tier": "smelter",
+    "country_iso2": "AU",
+    "canonical_company": "BHP",
+    "coordinates": {
+      "lat": -30.77,
+      "lon": 121.49
+    },
+    "downstream": [
+      {
+        "target_id": "AU_bhp_nickel_west_kwinana_refinery",
+        "corridor_id": "AU_rail_kalgoorlie-kwinana",
+        "resource": "nickel matte",
+        "quantity": 40000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_bhp_nickel_west_kwinana_refinery"
+    ],
+    "resources": [
+      "Nickel"
+    ]
+  },
+  {
+    "id": "AU_ravensthorpe_processing_plant",
+    "name": "Ravensthorpe Nickel Processing Plant",
+    "tier": "smelter",
+    "country_iso2": "AU",
+    "canonical_company": "First Quantum Minerals",
+    "coordinates": {
+      "lat": -33.58,
+      "lon": 120.1
+    },
+    "downstream": [
+      {
+        "target_id": "CN_tsingshan_group",
+        "corridor_id": "INTL_ocean_esperance-shanghai",
+        "resource": "mixed hydroxide precipitate (MHP)",
+        "quantity": 10000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_bhp_nickel_sulphate_plant",
+        "corridor_id": "AU_road_ravensthorpe-kwinana",
+        "resource": "mixed hydroxide precipitate (MHP)",
+        "quantity": 3000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_ravensthorpe_mine"
+    ],
+    "resources": [
+      "Nickel"
+    ]
+  },
+  {
+    "id": "AU_glencore_nickel_trading",
+    "name": "Glencore Australia Nickel Trading",
+    "tier": "semi_fabricator",
+    "country_iso2": "AU",
+    "canonical_company": "Glencore",
+    "coordinates": {
+      "lat": -33.87,
+      "lon": 151.21
+    },
+    "downstream": [
+      {
+        "target_id": "CN_jinchuan_group",
+        "corridor_id": "INTL_ocean_fremantle-shanghai",
+        "resource": "refined nickel briquettes",
+        "quantity": 10000,
+        "metric": "t"
+      },
+      {
+        "target_id": "JP_sumitomo_metal_mining",
+        "corridor_id": "INTL_ocean_fremantle-niihama",
+        "resource": "refined nickel",
+        "quantity": 5000,
+        "metric": "t"
+      },
+      {
+        "target_id": "EU_aurubis",
+        "corridor_id": "INTL_ocean_fremantle-rotterdam",
+        "resource": "refined nickel",
+        "quantity": 4000,
+        "metric": "t"
+      },
+      {
+        "target_id": "US_special_metals",
+        "corridor_id": "INTL_ocean_fremantle-houston",
+        "resource": "refined nickel",
+        "quantity": 3000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_murrin_murrin_smelter"
+    ],
+    "resources": [
+      "Nickel"
+    ]
+  },
+  {
+    "id": "AU_bhp_nickel_sulphate_plant",
+    "name": "BHP Nickel West Nickel Sulphate Plant (Kwinana)",
+    "tier": "semi_fabricator",
+    "country_iso2": "AU",
+    "canonical_company": "BHP",
+    "coordinates": {
+      "lat": -32.24,
+      "lon": 115.78
+    },
+    "downstream": [
+      {
+        "target_id": "KR_samsung_sdi_materials",
+        "corridor_id": "INTL_ocean_fremantle-busan",
+        "resource": "battery-grade nickel sulphate",
+        "quantity": 8000,
+        "metric": "t"
+      },
+      {
+        "target_id": "JP_panasonic_energy",
+        "corridor_id": "INTL_ocean_fremantle-osaka",
+        "resource": "battery-grade nickel sulphate",
+        "quantity": 5000,
+        "metric": "t"
+      },
+      {
+        "target_id": "CN_catl",
+        "corridor_id": "INTL_ocean_fremantle-shanghai",
+        "resource": "battery-grade nickel sulphate",
+        "quantity": 5000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_bhp_nickel_west_kwinana_refinery",
+      "AU_ravensthorpe_processing_plant"
+    ],
+    "resources": [
+      "Nickel"
+    ]
+  },
+  {
+    "id": "CN_jinchuan_group",
+    "name": "Jinchuan Group Nickel Processing",
+    "tier": "semi_fabricator",
+    "country_iso2": "CN",
+    "canonical_company": "Jinchuan Group",
+    "coordinates": {
+      "lat": 38.5,
+      "lon": 102.19
+    },
+    "downstream": [
+      {
+        "target_id": "CN_catl",
+        "corridor_id": "CN_road_jinchuan-ningde",
+        "resource": "nickel cathode / nickel sulphate",
+        "quantity": 10000,
+        "metric": "t"
+      },
+      {
+        "target_id": "CN_industrial",
+        "corridor_id": "CN_road_jinchuan-domestic",
+        "resource": "refined nickel products",
+        "quantity": 6000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_murrin_murrin_smelter",
+      "AU_glencore_nickel_trading"
+    ],
+    "resources": [
+      "Nickel"
+    ]
+  },
+  {
+    "id": "CN_tsingshan_group",
+    "name": "Tsingshan Holding Group",
+    "tier": "semi_fabricator",
+    "country_iso2": "CN",
+    "canonical_company": "Tsingshan Holding Group",
+    "coordinates": {
+      "lat": 27.77,
+      "lon": 120.65
+    },
+    "downstream": [
+      {
+        "target_id": "CN_catl",
+        "corridor_id": "CN_road_tsingshan-ningde",
+        "resource": "nickel sulphate from MHP",
+        "quantity": 5000,
+        "metric": "t"
+      },
+      {
+        "target_id": "CN_industrial",
+        "corridor_id": "CN_road_tsingshan-domestic",
+        "resource": "nickel pig iron / stainless steel feedstock",
+        "quantity": 5000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_ravensthorpe_processing_plant"
+    ],
+    "resources": [
+      "Nickel"
+    ]
+  },
+  {
+    "id": "JP_sumitomo_metal_mining",
+    "name": "Sumitomo Metal Mining Co.",
+    "tier": "semi_fabricator",
+    "country_iso2": "JP",
+    "canonical_company": "Sumitomo Metal Mining",
+    "coordinates": {
+      "lat": 33.96,
+      "lon": 133.32
+    },
+    "downstream": [
+      {
+        "target_id": "JP_panasonic_energy",
+        "corridor_id": "JP_road_niihama-osaka",
+        "resource": "nickel-cobalt-manganese cathode precursor (NCA/NCM)",
+        "quantity": 8000,
+        "metric": "t"
+      },
+      {
+        "target_id": "JP_industrial",
+        "corridor_id": "JP_road_niihama-domestic",
+        "resource": "refined nickel for alloys",
+        "quantity": 5000,
+        "metric": "t"
+      },
+      {
+        "target_id": "JP_panasonic_energy",
+        "corridor_id": "JP_road_niihama-osaka",
+        "resource": "NCA cathode material containing cobalt",
+        "quantity": 500,
+        "metric": "t"
+      },
+      {
+        "target_id": "JP_panasonic_energy",
+        "corridor_id": "JP_road_smm-panasonic",
+        "resource": "graphite anode material for battery cells",
+        "quantity": 10000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_bhp_nickel_west_kwinana_refinery",
+      "AU_glencore_nickel_trading",
+      "AU_murrin_murrin_refinery",
+      "INTL_graphite_traders"
+    ],
+    "resources": [
+      "Nickel",
+      "Cobalt",
+      "Graphite"
+    ]
+  },
+  {
+    "id": "EU_aurubis",
+    "name": "Aurubis AG",
+    "tier": "semi_fabricator",
+    "country_iso2": "DE",
+    "canonical_company": "Aurubis",
+    "coordinates": {
+      "lat": 53.52,
+      "lon": 10
+    },
+    "downstream": [
+      {
+        "target_id": "DE_thyssenkrupp",
+        "corridor_id": "DE_rail_hamburg-duisburg",
+        "resource": "refined nickel for stainless steel",
+        "quantity": 4000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_glencore_nickel_trading"
+    ],
+    "resources": [
+      "Nickel"
+    ]
+  },
+  {
+    "id": "US_special_metals",
+    "name": "Special Metals Corporation (Precision Castparts)",
+    "tier": "semi_fabricator",
+    "country_iso2": "US",
+    "canonical_company": "Precision Castparts",
+    "coordinates": {
+      "lat": 38.42,
+      "lon": -80.84
+    },
+    "downstream": [
+      {
+        "target_id": "US_boeing",
+        "corridor_id": "US_road_huntington-seattle",
+        "resource": "nickel superalloy billets",
+        "quantity": 1500,
+        "metric": "t"
+      },
+      {
+        "target_id": "US_industrial",
+        "corridor_id": "US_road_huntington-domestic",
+        "resource": "nickel alloy products",
+        "quantity": 1500,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_glencore_nickel_trading"
+    ],
+    "resources": [
+      "Nickel"
+    ]
+  },
+  {
+    "id": "KR_samsung_sdi_materials",
+    "name": "Samsung SDI / EcoPro BM Cathode Materials",
+    "tier": "semi_fabricator",
+    "country_iso2": "KR",
+    "canonical_company": "Samsung SDI",
+    "coordinates": {
+      "lat": 36.01,
+      "lon": 129.36
+    },
+    "downstream": [
+      {
+        "target_id": "KR_samsung_sdi_battery",
+        "corridor_id": "KR_road_pohang-cheonan",
+        "resource": "NCM cathode material",
+        "quantity": 10000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_bhp_nickel_west_kwinana_refinery",
+      "AU_bhp_nickel_sulphate_plant"
+    ],
+    "resources": [
+      "Nickel"
+    ]
+  },
+  {
+    "id": "KR_samsung_sdi_battery",
+    "name": "Samsung SDI Battery Manufacturing",
+    "tier": "manufacturer",
+    "country_iso2": "KR",
+    "canonical_company": "Samsung SDI",
+    "coordinates": {
+      "lat": 36.78,
+      "lon": 127
+    },
+    "downstream": [
+      {
+        "target_id": "DE_industrial",
+        "corridor_id": "INTL_ocean_busan-hamburg",
+        "resource": "EV battery cells/packs",
+        "quantity": 5000,
+        "metric": "t"
+      },
+      {
+        "target_id": "US_industrial",
+        "corridor_id": "INTL_ocean_busan-losangeles",
+        "resource": "EV battery cells/packs",
+        "quantity": 3000,
+        "metric": "t"
+      },
+      {
+        "target_id": "KR_industrial",
+        "corridor_id": "KR_road_cheonan-domestic",
+        "resource": "battery cells",
+        "quantity": 2000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "KR_samsung_sdi_materials"
+    ],
+    "resources": [
+      "Nickel"
+    ]
+  },
+  {
+    "id": "DE_thyssenkrupp",
+    "name": "thyssenkrupp Steel Europe",
+    "tier": "manufacturer",
+    "country_iso2": "DE",
+    "canonical_company": "thyssenkrupp",
+    "coordinates": {
+      "lat": 51.43,
+      "lon": 6.76
+    },
+    "downstream": [
+      {
+        "target_id": "DE_industrial",
+        "corridor_id": "DE_road_duisburg-domestic",
+        "resource": "stainless steel / nickel alloy products",
+        "quantity": 2500,
+        "metric": "t"
+      },
+      {
+        "target_id": "DE_infrastructure",
+        "corridor_id": "DE_road_duisburg-infrastructure",
+        "resource": "stainless steel for construction",
+        "quantity": 1500,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "EU_aurubis"
+    ],
+    "resources": [
+      "Nickel"
+    ]
+  },
+  {
+    "id": "US_boeing",
+    "name": "Boeing Company",
+    "tier": "manufacturer",
+    "country_iso2": "US",
+    "canonical_company": "Boeing",
+    "coordinates": {
+      "lat": 47.61,
+      "lon": -122.33
+    },
+    "downstream": [
+      {
+        "target_id": "US_industrial",
+        "corridor_id": "US_road_seattle-domestic",
+        "resource": "aerospace components with nickel superalloys",
+        "quantity": 800,
+        "metric": "t"
+      },
+      {
+        "target_id": "INTL_commercial",
+        "corridor_id": "INTL_ocean_seattle-global",
+        "resource": "aircraft (nickel superalloy content)",
+        "quantity": 700,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "US_special_metals"
+    ],
+    "resources": [
+      "Nickel"
+    ]
+  },
+  {
+    "id": "AU_conveyor_murrin-murrin-onsite",
+    "tier": "transport",
+    "name": "Murrin Murrin on-site ore conveyor to refinery",
+    "country_iso2": "AU",
+    "operator_id": "AU_glencore",
+    "mode": "conveyor",
+    "form": "bulk_dry",
+    "range": "local",
+    "coordinates": {
+      "lat": -28.72,
+      "lon": 121.87
+    },
+    "resources": [
+      "Cobalt"
+    ],
+    "upstream": [],
+    "downstream": []
+  },
+  {
+    "id": "AU_road_nova-esperance",
+    "tier": "transport",
+    "name": "Nova Mine to Esperance / Kwinana road haulage",
+    "country_iso2": "AU",
+    "operator_id": "AU_centurion_transport",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "regional",
+    "coordinates": {
+      "lat": -32.5,
+      "lon": 121.5
+    }
+  },
+  {
+    "id": "AU_road_forrestania-kwinana",
+    "tier": "transport",
+    "name": "Forrestania to Kwinana road haulage",
+    "country_iso2": "AU",
+    "operator_id": "AU_centurion_transport",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "regional",
+    "coordinates": {
+      "lat": -32.5,
+      "lon": 118.5
+    }
+  },
+  {
+    "id": "AU_road_mt-keith-leinster",
+    "tier": "transport",
+    "name": "Mount Keith to Leinster concentrator road haulage",
+    "country_iso2": "AU",
+    "operator_id": "AU_bhp",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "local",
+    "coordinates": {
+      "lat": -27.5,
+      "lon": 120.6
+    },
+    "resources": [
+      "Mineral-Bearing Land"
+    ],
+    "upstream": [],
+    "downstream": []
+  },
+  {
+    "id": "AU_road_leinster-kwinana",
+    "tier": "transport",
+    "name": "Leinster to Kwinana concentrate road/rail haulage",
+    "country_iso2": "AU",
+    "operator_id": "AU_bhp",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "regional",
+    "coordinates": {
+      "lat": -30,
+      "lon": 119
+    },
+    "resources": [
+      "Mineral-Bearing Land"
+    ],
+    "upstream": [],
+    "downstream": []
+  },
+  {
+    "id": "AU_road_cosmos-leinster",
+    "tier": "transport",
+    "name": "Cosmos to Leinster road haulage",
+    "country_iso2": "AU",
+    "operator_id": "AU_igo_limited",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "local",
+    "coordinates": {
+      "lat": -27.3,
+      "lon": 120.5
+    }
+  },
+  {
+    "id": "AU_conveyor_ravensthorpe-onsite",
+    "tier": "transport",
+    "name": "Ravensthorpe mine to processing plant on-site conveyor",
+    "country_iso2": "AU",
+    "operator_id": "AU_first_quantum_minerals",
+    "mode": "conveyor",
+    "form": "bulk_dry",
+    "range": "local",
+    "coordinates": {
+      "lat": -33.59,
+      "lon": 120.07
+    },
+    "resources": [
+      "Cobalt"
+    ],
+    "upstream": [],
+    "downstream": []
+  },
+  {
+    "id": "AU_road_savannah-wyndham",
+    "tier": "transport",
+    "name": "Savannah mine to Wyndham Port road haulage",
+    "country_iso2": "AU",
+    "operator_id": "AU_panoramic_resources",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "regional",
+    "coordinates": {
+      "lat": -16.5,
+      "lon": 128.5
+    }
+  },
+  {
+    "id": "AU_road_blackswan-kalgoorlie",
+    "tier": "transport",
+    "name": "Black Swan to Kalgoorlie road haulage",
+    "country_iso2": "AU",
+    "operator_id": "AU_poseidon_nickel",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "local",
+    "coordinates": {
+      "lat": -30.5,
+      "lon": 121.5
+    }
+  },
+  {
+    "id": "AU_road_westmusgrave-kwinana",
+    "tier": "transport",
+    "name": "West Musgrave to Kwinana road haulage",
+    "country_iso2": "AU",
+    "operator_id": "AU_oz_minerals",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "regional",
+    "coordinates": {
+      "lat": -29,
+      "lon": 123
+    }
+  },
+  {
+    "id": "AU_road_murrinmurrin-kalgoorlie",
+    "tier": "transport",
+    "name": "Murrin Murrin to Kalgoorlie / Fremantle road",
+    "country_iso2": "AU",
+    "operator_id": "AU_glencore",
+    "mode": "road",
+    "form": "containerised",
+    "range": "regional",
+    "coordinates": {
+      "lat": -30,
+      "lon": 121
+    }
+  },
+  {
+    "id": "AU_rail_kwinana-kalgoorlie",
+    "tier": "transport",
+    "name": "Kwinana to Kalgoorlie rail (Nickel West circuit)",
+    "country_iso2": "AU",
+    "operator_id": "AU_aurizon",
+    "mode": "rail",
+    "form": "bulk_dry",
+    "range": "regional",
+    "coordinates": {
+      "lat": -31.5,
+      "lon": 118.5
+    }
+  },
+  {
+    "id": "AU_rail_kalgoorlie-kwinana",
+    "tier": "transport",
+    "name": "Kalgoorlie Smelter to Kwinana Refinery rail",
+    "country_iso2": "AU",
+    "operator_id": "AU_aurizon",
+    "mode": "rail",
+    "form": "bulk_dry",
+    "range": "regional",
+    "coordinates": {
+      "lat": -31.5,
+      "lon": 118.5
+    }
+  },
+  {
+    "id": "AU_road_kwinana-local",
+    "tier": "transport",
+    "name": "Kwinana industrial precinct local road",
+    "country_iso2": "AU",
+    "operator_id": "AU_bhp",
+    "mode": "road",
+    "form": "bulk_liquid",
+    "range": "local",
+    "coordinates": {
+      "lat": -32.24,
+      "lon": 115.77
+    }
+  },
+  {
+    "id": "AU_road_ravensthorpe-kwinana",
+    "tier": "transport",
+    "name": "Ravensthorpe to Kwinana road haulage",
+    "country_iso2": "AU",
+    "operator_id": "AU_first_quantum_minerals",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "regional",
+    "coordinates": {
+      "lat": -33,
+      "lon": 118
+    }
+  },
+  {
+    "id": "INTL_ocean_fremantle-shanghai",
+    "tier": "transport",
+    "name": "Ocean freight Fremantle to Shanghai",
+    "country_iso2": "INTL",
+    "operator_id": "INTL_maersk",
+    "mode": "ocean_freight",
+    "form": "containerised",
+    "range": "international",
+    "coordinates": {
+      "lat": -10,
+      "lon": 115
+    },
+    "resources": [
+      "Tantalum",
+      "Mica",
+      "Medicinal-Plants"
+    ],
+    "upstream": [],
+    "downstream": []
+  },
+  {
+    "id": "INTL_ocean_fremantle-niihama",
+    "tier": "transport",
+    "name": "Ocean freight Fremantle to Niihama (Japan)",
+    "country_iso2": "INTL",
+    "operator_id": "INTL_mitsui_osk_lines",
+    "mode": "ocean_freight",
+    "form": "containerised",
+    "range": "international",
+    "coordinates": {
+      "lat": 5,
+      "lon": 125
+    },
+    "resources": [
+      "Cobalt"
+    ],
+    "upstream": [],
+    "downstream": []
+  },
+  {
+    "id": "INTL_ocean_fremantle-rotterdam",
+    "tier": "transport",
+    "name": "Ocean freight Fremantle to Rotterdam",
+    "country_iso2": "INTL",
+    "operator_id": "INTL_maersk",
+    "mode": "ocean_freight",
+    "form": "containerised",
+    "range": "international",
+    "coordinates": {
+      "lat": -5,
+      "lon": 70
+    }
+  },
+  {
+    "id": "INTL_ocean_fremantle-busan",
+    "tier": "transport",
+    "name": "Ocean freight Fremantle to Busan",
+    "country_iso2": "INTL",
+    "operator_id": "INTL_hyundai_merchant_marine",
+    "mode": "ocean_freight",
+    "form": "containerised",
+    "range": "international",
+    "coordinates": {
+      "lat": 0,
+      "lon": 120
+    },
+    "resources": [
+      "Cobalt"
+    ],
+    "upstream": [],
+    "downstream": []
+  },
+  {
+    "id": "INTL_ocean_fremantle-osaka",
+    "tier": "transport",
+    "name": "Ocean freight Fremantle to Osaka",
+    "country_iso2": "INTL",
+    "operator_id": "INTL_mitsui_osk_lines",
+    "mode": "ocean_freight",
+    "form": "containerised",
+    "range": "international",
+    "coordinates": {
+      "lat": 5,
+      "lon": 128
+    }
+  },
+  {
+    "id": "CN_road_jinchuan-ningde",
+    "tier": "transport",
+    "name": "Jinchuan to Ningde road/rail",
+    "country_iso2": "CN",
+    "operator_id": "CN_china_railway",
+    "mode": "rail",
+    "form": "containerised",
+    "range": "regional",
+    "coordinates": {
+      "lat": 32,
+      "lon": 112
+    }
+  },
+  {
+    "id": "CN_road_jinchuan-domestic",
+    "tier": "transport",
+    "name": "Jinchuan domestic distribution",
+    "country_iso2": "CN",
+    "operator_id": "CN_china_railway",
+    "mode": "rail",
+    "form": "containerised",
+    "range": "regional",
+    "coordinates": {
+      "lat": 36,
+      "lon": 105
+    }
+  },
+  {
+    "id": "CN_road_tsingshan-ningde",
+    "tier": "transport",
+    "name": "Tsingshan Wenzhou to Ningde road",
+    "country_iso2": "CN",
+    "operator_id": "CN_tsingshan_logistics",
+    "mode": "road",
+    "form": "bulk_liquid",
+    "range": "regional",
+    "coordinates": {
+      "lat": 27.2,
+      "lon": 120.1
+    }
+  },
+  {
+    "id": "CN_road_tsingshan-domestic",
+    "tier": "transport",
+    "name": "Tsingshan domestic distribution",
+    "country_iso2": "CN",
+    "operator_id": "CN_tsingshan_logistics",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "regional",
+    "coordinates": {
+      "lat": 28,
+      "lon": 120.5
+    }
+  },
+  {
+    "id": "JP_road_niihama-osaka",
+    "tier": "transport",
+    "name": "Niihama to Osaka road/coastal",
+    "country_iso2": "JP",
+    "operator_id": "JP_sumitomo_logistics",
+    "mode": "road",
+    "form": "containerised",
+    "range": "regional",
+    "coordinates": {
+      "lat": 34.3,
+      "lon": 134
+    },
+    "resources": [
+      "Cobalt"
+    ],
+    "upstream": [],
+    "downstream": []
+  },
+  {
+    "id": "JP_road_niihama-domestic",
+    "tier": "transport",
+    "name": "Niihama domestic distribution",
+    "country_iso2": "JP",
+    "operator_id": "JP_sumitomo_logistics",
+    "mode": "road",
+    "form": "containerised",
+    "range": "regional",
+    "coordinates": {
+      "lat": 34.5,
+      "lon": 134.5
+    }
+  },
+  {
+    "id": "DE_rail_hamburg-duisburg",
+    "tier": "transport",
+    "name": "Hamburg to Duisburg rail freight",
+    "country_iso2": "DE",
+    "operator_id": "DE_db_cargo",
+    "mode": "rail",
+    "form": "bulk_dry",
+    "range": "regional",
+    "coordinates": {
+      "lat": 52.5,
+      "lon": 8.5
+    }
+  },
+  {
+    "id": "KR_road_pohang-cheonan",
+    "tier": "transport",
+    "name": "Pohang cathode plant to Cheonan battery plant road",
+    "country_iso2": "KR",
+    "operator_id": "KR_samsung_sdi",
+    "mode": "road",
+    "form": "containerised",
+    "range": "regional",
+    "coordinates": {
+      "lat": 36.4,
+      "lon": 128.5
+    }
+  },
+  {
+    "id": "US_road_huntington-seattle",
+    "tier": "transport",
+    "name": "Huntington WV to Seattle road/rail freight",
+    "country_iso2": "US",
+    "operator_id": "US_union_pacific",
+    "mode": "rail",
+    "form": "containerised",
+    "range": "regional",
+    "coordinates": {
+      "lat": 42,
+      "lon": -105
+    }
+  },
+  {
+    "id": "US_road_huntington-domestic",
+    "tier": "transport",
+    "name": "Huntington WV domestic distribution",
+    "country_iso2": "US",
+    "operator_id": "US_union_pacific",
+    "mode": "rail",
+    "form": "containerised",
+    "range": "regional",
+    "coordinates": {
+      "lat": 39,
+      "lon": -85
+    }
+  },
+  {
+    "id": "CN_road_ningde-domestic",
+    "tier": "transport",
+    "name": "CATL Ningde domestic distribution",
+    "country_iso2": "CN",
+    "operator_id": "CN_sf_express",
+    "mode": "road",
+    "form": "containerised",
+    "range": "regional",
+    "coordinates": {
+      "lat": 28,
+      "lon": 118
+    }
+  },
+  {
+    "id": "INTL_ocean_shanghai-losangeles",
+    "tier": "transport",
+    "name": "Ocean freight Shanghai to Los Angeles",
+    "country_iso2": "INTL",
+    "operator_id": "INTL_cosco",
+    "mode": "ocean_freight",
+    "form": "containerised",
+    "range": "international",
+    "coordinates": {
+      "lat": 30,
+      "lon": -160
+    },
+    "resources": [
+      "Cobalt"
+    ],
+    "upstream": [],
+    "downstream": []
+  },
+  {
+    "id": "INTL_ocean_osaka-losangeles",
+    "tier": "transport",
+    "name": "Ocean freight Osaka to Los Angeles",
+    "country_iso2": "INTL",
+    "operator_id": "INTL_one_ocean_network_express",
+    "mode": "ocean_freight",
+    "form": "containerised",
+    "range": "international",
+    "coordinates": {
+      "lat": 35,
+      "lon": -170
+    }
+  },
+  {
+    "id": "KR_road_cheonan-domestic",
+    "tier": "transport",
+    "name": "Cheonan domestic distribution",
+    "country_iso2": "KR",
+    "operator_id": "KR_samsung_sdi",
+    "mode": "road",
+    "form": "containerised",
+    "range": "regional",
+    "coordinates": {
+      "lat": 36.8,
+      "lon": 127
+    }
+  },
+  {
+    "id": "DE_road_duisburg-domestic",
+    "tier": "transport",
+    "name": "Duisburg domestic road distribution",
+    "country_iso2": "DE",
+    "operator_id": "DE_db_cargo",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "regional",
+    "coordinates": {
+      "lat": 51.43,
+      "lon": 6.76
+    }
+  },
+  {
+    "id": "DE_road_duisburg-infrastructure",
+    "tier": "transport",
+    "name": "Duisburg to construction sites road",
+    "country_iso2": "DE",
+    "operator_id": "DE_db_cargo",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "regional",
+    "coordinates": {
+      "lat": 51,
+      "lon": 7
+    }
+  },
+  {
+    "id": "US_road_seattle-domestic",
+    "tier": "transport",
+    "name": "Seattle / Everett Boeing to domestic customers road",
+    "country_iso2": "US",
+    "operator_id": "US_fedex_freight",
+    "mode": "road",
+    "form": "unit_load",
+    "range": "regional",
+    "coordinates": {
+      "lat": 47.5,
+      "lon": -122
+    }
+  },
+  {
+    "id": "INTL_ocean_seattle-global",
+    "tier": "transport",
+    "name": "Ocean/air freight Seattle to global airline customers",
+    "country_iso2": "INTL",
+    "operator_id": "INTL_boeing_delivery",
+    "mode": "air_freight",
+    "form": "unit_load",
+    "range": "international",
+    "coordinates": {
+      "lat": 47.61,
+      "lon": -122.33
+    }
+  }
+]

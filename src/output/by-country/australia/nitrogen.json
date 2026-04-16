@@ -1,0 +1,2618 @@
+[
+  {
+    "id": "AU_linde_kwinana_asu",
+    "name": "Linde Kwinana Air Separation Unit",
+    "tier": "separation_capture",
+    "country_iso2": "AU",
+    "canonical_company": "Linde",
+    "coordinates": {
+      "lat": -32.232,
+      "lon": 115.77
+    },
+    "downstream": [
+      {
+        "target_id": "AU_linde_kwinana_purifier",
+        "corridor_id": "AU_pipeline_kwinana_industrial",
+        "resource": "gaseous nitrogen",
+        "quantity": 80000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_linde_kwinana_liquefier",
+        "corridor_id": "AU_pipeline_kwinana_industrial",
+        "resource": "gaseous nitrogen for liquefaction",
+        "quantity": 40000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_linde_kwinana_purifier",
+        "corridor_id": "AU_pipeline_kwinana-industrial",
+        "resource": "crude argon and mixed noble gas stream (argon, neon, krypton, xenon)",
+        "quantity": 4500,
+        "metric": "t"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Nitrogen",
+      "Noble Gases"
+    ]
+  },
+  {
+    "id": "AU_air_liquide_kwinana_asu",
+    "name": "Air Liquide Kwinana Air Separation Unit",
+    "tier": "separation_capture",
+    "country_iso2": "AU",
+    "canonical_company": "Air Liquide",
+    "coordinates": {
+      "lat": -32.237,
+      "lon": 115.768
+    },
+    "downstream": [
+      {
+        "target_id": "AU_air_liquide_kwinana_purifier",
+        "corridor_id": "AU_pipeline_kwinana_industrial",
+        "resource": "gaseous nitrogen",
+        "quantity": 60000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_air_liquide_kwinana_liquefier",
+        "corridor_id": "AU_pipeline_kwinana_industrial",
+        "resource": "gaseous nitrogen for liquefaction",
+        "quantity": 30000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_air_liquide_kwinana_purifier",
+        "corridor_id": "AU_pipeline_kwinana-al-industrial",
+        "resource": "crude argon and mixed noble gas stream (argon, neon, krypton, xenon)",
+        "quantity": 3000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_air_liquide_kwinana_purifier",
+        "corridor_id": "AU_pipeline_kwinana-industrial",
+        "resource": "gaseous oxygen",
+        "quantity": 200000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_air_liquide_kwinana_lox",
+        "corridor_id": "AU_pipeline_kwinana-lox",
+        "resource": "liquid oxygen (LOX)",
+        "quantity": 50000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Nitrogen",
+      "Noble Gases",
+      "Oxygen"
+    ]
+  },
+  {
+    "id": "AU_boc_bulwer_island_asu",
+    "name": "BOC Bulwer Island Air Separation Unit",
+    "tier": "separation_capture",
+    "country_iso2": "AU",
+    "canonical_company": "BOC (Linde)",
+    "coordinates": {
+      "lat": -27.428,
+      "lon": 153.122
+    },
+    "downstream": [
+      {
+        "target_id": "AU_boc_bulwer_island_purifier",
+        "corridor_id": "AU_pipeline_bulwer_island",
+        "resource": "gaseous nitrogen",
+        "quantity": 50000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_boc_bulwer_island_liquefier",
+        "corridor_id": "AU_pipeline_bulwer_island",
+        "resource": "gaseous nitrogen for liquefaction",
+        "quantity": 25000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Nitrogen"
+    ]
+  },
+  {
+    "id": "AU_air_liquide_botany_asu",
+    "name": "Air Liquide Botany Air Separation Unit",
+    "tier": "separation_capture",
+    "country_iso2": "AU",
+    "canonical_company": "Air Liquide",
+    "coordinates": {
+      "lat": -33.945,
+      "lon": 151.2
+    },
+    "downstream": [
+      {
+        "target_id": "AU_air_liquide_botany_purifier",
+        "corridor_id": "AU_pipeline_botany_industrial",
+        "resource": "gaseous nitrogen",
+        "quantity": 55000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_air_liquide_botany_liquefier",
+        "corridor_id": "AU_pipeline_botany_industrial",
+        "resource": "gaseous nitrogen for liquefaction",
+        "quantity": 30000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Nitrogen"
+    ]
+  },
+  {
+    "id": "AU_boc_altona_asu",
+    "name": "BOC Altona Air Separation Unit",
+    "tier": "separation_capture",
+    "country_iso2": "AU",
+    "canonical_company": "BOC (Linde)",
+    "coordinates": {
+      "lat": -37.832,
+      "lon": 144.831
+    },
+    "downstream": [
+      {
+        "target_id": "AU_boc_altona_purifier",
+        "corridor_id": "AU_pipeline_altona_industrial",
+        "resource": "gaseous nitrogen",
+        "quantity": 45000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_boc_altona_liquefier",
+        "corridor_id": "AU_pipeline_altona_industrial",
+        "resource": "gaseous nitrogen for liquefaction",
+        "quantity": 25000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Nitrogen"
+    ]
+  },
+  {
+    "id": "AU_air_liquide_melbourne_asu",
+    "name": "Air Liquide Laverton Air Separation Unit",
+    "tier": "separation_capture",
+    "country_iso2": "AU",
+    "canonical_company": "Air Liquide",
+    "coordinates": {
+      "lat": -37.853,
+      "lon": 144.761
+    },
+    "downstream": [
+      {
+        "target_id": "AU_air_liquide_melbourne_purifier",
+        "corridor_id": "AU_pipeline_laverton_industrial",
+        "resource": "gaseous nitrogen",
+        "quantity": 40000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_air_liquide_melbourne_liquefier",
+        "corridor_id": "AU_pipeline_laverton_industrial",
+        "resource": "gaseous nitrogen for liquefaction",
+        "quantity": 20000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_air_liquide_melbourne_purifier",
+        "corridor_id": "AU_pipeline_altona-industrial",
+        "resource": "crude argon and mixed noble gas stream (argon, neon, krypton, xenon)",
+        "quantity": 5000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_air_liquide_melbourne_purifier",
+        "corridor_id": "AU_pipeline_altona-industrial",
+        "resource": "gaseous oxygen",
+        "quantity": 50000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_air_liquide_melbourne_lox",
+        "corridor_id": "AU_pipeline_altona-lox",
+        "resource": "liquid oxygen (LOX)",
+        "quantity": 30000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Nitrogen",
+      "Noble Gases",
+      "Oxygen"
+    ]
+  },
+  {
+    "id": "AU_linde_karratha_asu",
+    "name": "Linde Karratha Air Separation Unit (NWS LNG support)",
+    "tier": "separation_capture",
+    "country_iso2": "AU",
+    "canonical_company": "Linde",
+    "coordinates": {
+      "lat": -20.734,
+      "lon": 116.846
+    },
+    "downstream": [
+      {
+        "target_id": "AU_linde_karratha_purifier",
+        "corridor_id": "AU_pipeline_karratha_lng",
+        "resource": "gaseous nitrogen",
+        "quantity": 70000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Nitrogen"
+    ]
+  },
+  {
+    "id": "AU_air_liquide_gladstone_asu",
+    "name": "Air Liquide Gladstone Air Separation Unit (Curtis Island LNG)",
+    "tier": "separation_capture",
+    "country_iso2": "AU",
+    "canonical_company": "Air Liquide",
+    "coordinates": {
+      "lat": -23.756,
+      "lon": 151.274
+    },
+    "downstream": [
+      {
+        "target_id": "AU_air_liquide_gladstone_purifier",
+        "corridor_id": "AU_pipeline_gladstone_industrial",
+        "resource": "gaseous nitrogen",
+        "quantity": 60000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_air_liquide_gladstone_purifier",
+        "corridor_id": "AU_pipeline_gladstone-industrial",
+        "resource": "gaseous oxygen",
+        "quantity": 80000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_air_liquide_gladstone_lox",
+        "corridor_id": "AU_pipeline_gladstone-lox",
+        "resource": "liquid oxygen (LOX)",
+        "quantity": 20000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Nitrogen",
+      "Oxygen"
+    ]
+  },
+  {
+    "id": "AU_boc_darwin_asu",
+    "name": "BOC Darwin Air Separation Unit (INPEX Ichthys LNG support)",
+    "tier": "separation_capture",
+    "country_iso2": "AU",
+    "canonical_company": "BOC (Linde)",
+    "coordinates": {
+      "lat": -12.513,
+      "lon": 130.887
+    },
+    "downstream": [
+      {
+        "target_id": "AU_boc_darwin_purifier",
+        "corridor_id": "AU_pipeline_darwin_lng",
+        "resource": "gaseous nitrogen",
+        "quantity": 55000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Nitrogen"
+    ]
+  },
+  {
+    "id": "AU_coregas_sydney_asu",
+    "name": "Coregas Wetherill Park Air Separation Unit",
+    "tier": "separation_capture",
+    "country_iso2": "AU",
+    "canonical_company": "Coregas (Nippon Gases)",
+    "coordinates": {
+      "lat": -33.845,
+      "lon": 150.905
+    },
+    "downstream": [
+      {
+        "target_id": "AU_coregas_sydney_purifier",
+        "corridor_id": "AU_pipeline_wetherill_park",
+        "resource": "gaseous nitrogen",
+        "quantity": 15000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_coregas_sydney_liquefier",
+        "corridor_id": "AU_pipeline_wetherill_park",
+        "resource": "gaseous nitrogen for liquefaction",
+        "quantity": 10000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_coregas_sydney_purifier",
+        "corridor_id": "AU_pipeline_wetherill-park-local",
+        "resource": "crude argon and mixed noble gas stream (argon, neon, krypton, xenon)",
+        "quantity": 1800,
+        "metric": "t"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Nitrogen",
+      "Noble Gases"
+    ]
+  },
+  {
+    "id": "AU_supagas_adelaide_asu",
+    "name": "Supagas Adelaide Air Separation Unit",
+    "tier": "separation_capture",
+    "country_iso2": "AU",
+    "canonical_company": "Supagas",
+    "coordinates": {
+      "lat": -34.828,
+      "lon": 138.598
+    },
+    "downstream": [
+      {
+        "target_id": "AU_supagas_adelaide_purifier",
+        "corridor_id": "AU_pipeline_adelaide_industrial",
+        "resource": "gaseous nitrogen",
+        "quantity": 10000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_supagas_adelaide_liquefier",
+        "corridor_id": "AU_pipeline_adelaide_industrial",
+        "resource": "gaseous nitrogen for liquefaction",
+        "quantity": 5000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Nitrogen"
+    ]
+  },
+  {
+    "id": "AU_linde_kwinana_purifier",
+    "name": "Linde Kwinana Nitrogen Purification & Compression",
+    "tier": "purifier_liquefier",
+    "country_iso2": "AU",
+    "canonical_company": "Linde",
+    "coordinates": {
+      "lat": -32.233,
+      "lon": 115.771
+    },
+    "downstream": [
+      {
+        "target_id": "AU_linde_wa_distributor",
+        "corridor_id": "AU_pipeline_kwinana_industrial",
+        "resource": "high-purity gaseous nitrogen",
+        "quantity": 50000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_alcoa_kwinana",
+        "corridor_id": "AU_pipeline_kwinana_industrial",
+        "resource": "pipeline gaseous nitrogen",
+        "quantity": 30000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_linde_perth_dist",
+        "corridor_id": "AU_road_kwinana-perth",
+        "resource": "liquid argon (high purity), neon/krypton/xenon concentrate",
+        "quantity": 4200,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_supagas_perth_dist",
+        "corridor_id": "AU_road_kwinana-perth",
+        "resource": "liquid argon (high purity)",
+        "quantity": 300,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_linde_kwinana_asu"
+    ],
+    "resources": [
+      "Nitrogen",
+      "Noble Gases"
+    ]
+  },
+  {
+    "id": "AU_linde_kwinana_liquefier",
+    "name": "Linde Kwinana Nitrogen Liquefaction",
+    "tier": "purifier_liquefier",
+    "country_iso2": "AU",
+    "canonical_company": "Linde",
+    "coordinates": {
+      "lat": -32.234,
+      "lon": 115.772
+    },
+    "downstream": [
+      {
+        "target_id": "AU_linde_wa_distributor",
+        "corridor_id": "AU_road_kwinana_wa",
+        "resource": "liquid nitrogen",
+        "quantity": 40000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_linde_kwinana_asu"
+    ],
+    "resources": [
+      "Nitrogen"
+    ]
+  },
+  {
+    "id": "AU_air_liquide_kwinana_purifier",
+    "name": "Air Liquide Kwinana Nitrogen Purification",
+    "tier": "purifier_liquefier",
+    "country_iso2": "AU",
+    "canonical_company": "Air Liquide",
+    "coordinates": {
+      "lat": -32.238,
+      "lon": 115.769
+    },
+    "downstream": [
+      {
+        "target_id": "AU_air_liquide_wa_distributor",
+        "corridor_id": "AU_pipeline_kwinana_industrial",
+        "resource": "high-purity gaseous nitrogen",
+        "quantity": 40000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_bp_kwinana_refinery",
+        "corridor_id": "AU_pipeline_kwinana_industrial",
+        "resource": "pipeline gaseous nitrogen",
+        "quantity": 20000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_air_liquide_perth_dist",
+        "corridor_id": "AU_road_kwinana-perth",
+        "resource": "liquid argon (high purity), neon/krypton/xenon mix",
+        "quantity": 2800,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_air_liquide_perth_dist",
+        "corridor_id": "AU_pipeline_kwinana-alcoa",
+        "resource": "gaseous argon for Alcoa refinery shielding",
+        "quantity": 200,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_air_liquide_wa_distributor",
+        "corridor_id": "AU_pipeline_kwinana-industrial",
+        "resource": "high-purity gaseous oxygen",
+        "quantity": 200000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_air_liquide_kwinana_asu"
+    ],
+    "resources": [
+      "Nitrogen",
+      "Noble Gases",
+      "Oxygen"
+    ]
+  },
+  {
+    "id": "AU_air_liquide_kwinana_liquefier",
+    "name": "Air Liquide Kwinana Nitrogen Liquefaction",
+    "tier": "purifier_liquefier",
+    "country_iso2": "AU",
+    "canonical_company": "Air Liquide",
+    "coordinates": {
+      "lat": -32.239,
+      "lon": 115.77
+    },
+    "downstream": [
+      {
+        "target_id": "AU_air_liquide_wa_distributor",
+        "corridor_id": "AU_road_kwinana_wa",
+        "resource": "liquid nitrogen",
+        "quantity": 30000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_air_liquide_kwinana_asu"
+    ],
+    "resources": [
+      "Nitrogen"
+    ]
+  },
+  {
+    "id": "AU_boc_bulwer_island_purifier",
+    "name": "BOC Bulwer Island Nitrogen Purification",
+    "tier": "purifier_liquefier",
+    "country_iso2": "AU",
+    "canonical_company": "BOC (Linde)",
+    "coordinates": {
+      "lat": -27.429,
+      "lon": 153.123
+    },
+    "downstream": [
+      {
+        "target_id": "AU_boc_qld_distributor",
+        "corridor_id": "AU_road_brisbane_qld",
+        "resource": "high-purity gaseous nitrogen",
+        "quantity": 50000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_boc_bulwer_island_asu"
+    ],
+    "resources": [
+      "Nitrogen"
+    ]
+  },
+  {
+    "id": "AU_boc_bulwer_island_liquefier",
+    "name": "BOC Bulwer Island Nitrogen Liquefaction",
+    "tier": "purifier_liquefier",
+    "country_iso2": "AU",
+    "canonical_company": "BOC (Linde)",
+    "coordinates": {
+      "lat": -27.43,
+      "lon": 153.124
+    },
+    "downstream": [
+      {
+        "target_id": "AU_boc_qld_distributor",
+        "corridor_id": "AU_road_brisbane_qld",
+        "resource": "liquid nitrogen",
+        "quantity": 25000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_boc_bulwer_island_asu"
+    ],
+    "resources": [
+      "Nitrogen"
+    ]
+  },
+  {
+    "id": "AU_air_liquide_botany_purifier",
+    "name": "Air Liquide Botany Nitrogen Purification",
+    "tier": "purifier_liquefier",
+    "country_iso2": "AU",
+    "canonical_company": "Air Liquide",
+    "coordinates": {
+      "lat": -33.946,
+      "lon": 151.201
+    },
+    "downstream": [
+      {
+        "target_id": "AU_air_liquide_nsw_distributor",
+        "corridor_id": "AU_road_sydney_nsw",
+        "resource": "high-purity gaseous nitrogen",
+        "quantity": 35000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_qenos_botany",
+        "corridor_id": "AU_pipeline_botany_industrial",
+        "resource": "pipeline gaseous nitrogen",
+        "quantity": 20000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_air_liquide_botany_asu"
+    ],
+    "resources": [
+      "Nitrogen"
+    ]
+  },
+  {
+    "id": "AU_air_liquide_botany_liquefier",
+    "name": "Air Liquide Botany Nitrogen Liquefaction",
+    "tier": "purifier_liquefier",
+    "country_iso2": "AU",
+    "canonical_company": "Air Liquide",
+    "coordinates": {
+      "lat": -33.947,
+      "lon": 151.202
+    },
+    "downstream": [
+      {
+        "target_id": "AU_air_liquide_nsw_distributor",
+        "corridor_id": "AU_road_sydney_nsw",
+        "resource": "liquid nitrogen",
+        "quantity": 30000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_air_liquide_botany_asu"
+    ],
+    "resources": [
+      "Nitrogen"
+    ]
+  },
+  {
+    "id": "AU_boc_altona_purifier",
+    "name": "BOC Altona Nitrogen Purification",
+    "tier": "purifier_liquefier",
+    "country_iso2": "AU",
+    "canonical_company": "BOC (Linde)",
+    "coordinates": {
+      "lat": -37.833,
+      "lon": 144.832
+    },
+    "downstream": [
+      {
+        "target_id": "AU_boc_vic_distributor",
+        "corridor_id": "AU_road_melbourne_vic",
+        "resource": "high-purity gaseous nitrogen",
+        "quantity": 45000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_boc_altona_asu"
+    ],
+    "resources": [
+      "Nitrogen"
+    ]
+  },
+  {
+    "id": "AU_boc_altona_liquefier",
+    "name": "BOC Altona Nitrogen Liquefaction",
+    "tier": "purifier_liquefier",
+    "country_iso2": "AU",
+    "canonical_company": "BOC (Linde)",
+    "coordinates": {
+      "lat": -37.834,
+      "lon": 144.833
+    },
+    "downstream": [
+      {
+        "target_id": "AU_boc_vic_distributor",
+        "corridor_id": "AU_road_melbourne_vic",
+        "resource": "liquid nitrogen",
+        "quantity": 25000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_boc_altona_asu"
+    ],
+    "resources": [
+      "Nitrogen"
+    ]
+  },
+  {
+    "id": "AU_air_liquide_melbourne_purifier",
+    "name": "Air Liquide Laverton Nitrogen Purification",
+    "tier": "purifier_liquefier",
+    "country_iso2": "AU",
+    "canonical_company": "Air Liquide",
+    "coordinates": {
+      "lat": -37.854,
+      "lon": 144.762
+    },
+    "downstream": [
+      {
+        "target_id": "AU_air_liquide_vic_distributor",
+        "corridor_id": "AU_road_melbourne_vic",
+        "resource": "high-purity gaseous nitrogen",
+        "quantity": 40000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_air_liquide_melbourne_dist",
+        "corridor_id": "AU_road_altona-melbourne",
+        "resource": "liquid argon (high purity), neon/krypton/xenon mix",
+        "quantity": 4700,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_supagas_melbourne_dist",
+        "corridor_id": "AU_road_altona-melbourne",
+        "resource": "liquid argon (high purity)",
+        "quantity": 300,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_air_liquide_vic_distributor",
+        "corridor_id": "AU_pipeline_altona-industrial",
+        "resource": "high-purity gaseous oxygen",
+        "quantity": 50000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_air_liquide_melbourne_asu"
+    ],
+    "resources": [
+      "Nitrogen",
+      "Noble Gases",
+      "Oxygen"
+    ]
+  },
+  {
+    "id": "AU_air_liquide_melbourne_liquefier",
+    "name": "Air Liquide Laverton Nitrogen Liquefaction",
+    "tier": "purifier_liquefier",
+    "country_iso2": "AU",
+    "canonical_company": "Air Liquide",
+    "coordinates": {
+      "lat": -37.855,
+      "lon": 144.763
+    },
+    "downstream": [
+      {
+        "target_id": "AU_air_liquide_vic_distributor",
+        "corridor_id": "AU_road_melbourne_vic",
+        "resource": "liquid nitrogen",
+        "quantity": 20000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_air_liquide_melbourne_asu"
+    ],
+    "resources": [
+      "Nitrogen"
+    ]
+  },
+  {
+    "id": "AU_linde_karratha_purifier",
+    "name": "Linde Karratha Nitrogen Purification (LNG-grade)",
+    "tier": "purifier_liquefier",
+    "country_iso2": "AU",
+    "canonical_company": "Linde",
+    "coordinates": {
+      "lat": -20.735,
+      "lon": 116.847
+    },
+    "downstream": [
+      {
+        "target_id": "AU_woodside_nws_karratha",
+        "corridor_id": "AU_pipeline_karratha_lng",
+        "resource": "high-purity gaseous nitrogen for LNG processing",
+        "quantity": 70000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_linde_karratha_asu"
+    ],
+    "resources": [
+      "Nitrogen"
+    ]
+  },
+  {
+    "id": "AU_air_liquide_gladstone_purifier",
+    "name": "Air Liquide Gladstone Nitrogen Purification (LNG-grade)",
+    "tier": "purifier_liquefier",
+    "country_iso2": "AU",
+    "canonical_company": "Air Liquide",
+    "coordinates": {
+      "lat": -23.757,
+      "lon": 151.275
+    },
+    "downstream": [
+      {
+        "target_id": "AU_santos_glng",
+        "corridor_id": "AU_pipeline_gladstone_industrial",
+        "resource": "high-purity gaseous nitrogen for LNG processing",
+        "quantity": 30000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_conocophillips_aplng",
+        "corridor_id": "AU_pipeline_gladstone_industrial",
+        "resource": "high-purity gaseous nitrogen for LNG processing",
+        "quantity": 30000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_air_liquide_qld_distributor",
+        "corridor_id": "AU_pipeline_gladstone-industrial",
+        "resource": "high-purity gaseous oxygen",
+        "quantity": 80000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_air_liquide_gladstone_asu"
+    ],
+    "resources": [
+      "Nitrogen",
+      "Oxygen"
+    ]
+  },
+  {
+    "id": "AU_boc_darwin_purifier",
+    "name": "BOC Darwin Nitrogen Purification (LNG-grade)",
+    "tier": "purifier_liquefier",
+    "country_iso2": "AU",
+    "canonical_company": "BOC (Linde)",
+    "coordinates": {
+      "lat": -12.514,
+      "lon": 130.888
+    },
+    "downstream": [
+      {
+        "target_id": "AU_inpex_ichthys_darwin",
+        "corridor_id": "AU_pipeline_darwin_lng",
+        "resource": "high-purity gaseous nitrogen for LNG processing",
+        "quantity": 55000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_boc_darwin_asu"
+    ],
+    "resources": [
+      "Nitrogen"
+    ]
+  },
+  {
+    "id": "AU_coregas_sydney_purifier",
+    "name": "Coregas Wetherill Park Nitrogen Purification",
+    "tier": "purifier_liquefier",
+    "country_iso2": "AU",
+    "canonical_company": "Coregas (Nippon Gases)",
+    "coordinates": {
+      "lat": -33.846,
+      "lon": 150.906
+    },
+    "downstream": [
+      {
+        "target_id": "AU_coregas_nsw_distributor",
+        "corridor_id": "AU_road_sydney_nsw",
+        "resource": "high-purity gaseous nitrogen",
+        "quantity": 15000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_coregas_sydney_dist",
+        "corridor_id": "AU_road_wetherill-park-sydney",
+        "resource": "liquid argon (high purity), compressed neon/krypton/xenon",
+        "quantity": 1800,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_coregas_sydney_asu"
+    ],
+    "resources": [
+      "Nitrogen",
+      "Noble Gases"
+    ]
+  },
+  {
+    "id": "AU_coregas_sydney_liquefier",
+    "name": "Coregas Wetherill Park Nitrogen Liquefaction",
+    "tier": "purifier_liquefier",
+    "country_iso2": "AU",
+    "canonical_company": "Coregas (Nippon Gases)",
+    "coordinates": {
+      "lat": -33.847,
+      "lon": 150.907
+    },
+    "downstream": [
+      {
+        "target_id": "AU_coregas_nsw_distributor",
+        "corridor_id": "AU_road_sydney_nsw",
+        "resource": "liquid nitrogen",
+        "quantity": 10000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_coregas_sydney_asu"
+    ],
+    "resources": [
+      "Nitrogen"
+    ]
+  },
+  {
+    "id": "AU_supagas_adelaide_purifier",
+    "name": "Supagas Adelaide Nitrogen Purification",
+    "tier": "purifier_liquefier",
+    "country_iso2": "AU",
+    "canonical_company": "Supagas",
+    "coordinates": {
+      "lat": -34.829,
+      "lon": 138.599
+    },
+    "downstream": [
+      {
+        "target_id": "AU_supagas_sa_distributor",
+        "corridor_id": "AU_road_adelaide_sa",
+        "resource": "high-purity gaseous nitrogen",
+        "quantity": 10000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_supagas_adelaide_asu"
+    ],
+    "resources": [
+      "Nitrogen"
+    ]
+  },
+  {
+    "id": "AU_supagas_adelaide_liquefier",
+    "name": "Supagas Adelaide Nitrogen Liquefaction",
+    "tier": "purifier_liquefier",
+    "country_iso2": "AU",
+    "canonical_company": "Supagas",
+    "coordinates": {
+      "lat": -34.83,
+      "lon": 138.6
+    },
+    "downstream": [
+      {
+        "target_id": "AU_supagas_sa_distributor",
+        "corridor_id": "AU_road_adelaide_sa",
+        "resource": "liquid nitrogen",
+        "quantity": 5000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_supagas_adelaide_asu"
+    ],
+    "resources": [
+      "Nitrogen"
+    ]
+  },
+  {
+    "id": "AU_linde_wa_distributor",
+    "name": "Linde Western Australia Distribution Hub",
+    "tier": "distributor",
+    "country_iso2": "AU",
+    "canonical_company": "Linde",
+    "coordinates": {
+      "lat": -31.953,
+      "lon": 115.857
+    },
+    "downstream": [
+      {
+        "target_id": "AU_linde_wa_mining_supply",
+        "corridor_id": "AU_road_perth_pilbara",
+        "resource": "liquid nitrogen (bulk tanker)",
+        "quantity": 50000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_linde_wa_cylinder_depot",
+        "corridor_id": "AU_road_kwinana_wa",
+        "resource": "compressed nitrogen cylinders",
+        "quantity": 15000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_linde_wa_food_supply",
+        "corridor_id": "AU_road_kwinana_wa",
+        "resource": "food-grade liquid nitrogen",
+        "quantity": 25000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_linde_kwinana_purifier",
+      "AU_linde_kwinana_liquefier"
+    ],
+    "resources": [
+      "Nitrogen"
+    ]
+  },
+  {
+    "id": "AU_air_liquide_wa_distributor",
+    "name": "Air Liquide Western Australia Distribution",
+    "tier": "distributor",
+    "country_iso2": "AU",
+    "canonical_company": "Air Liquide",
+    "coordinates": {
+      "lat": -31.96,
+      "lon": 115.86
+    },
+    "downstream": [
+      {
+        "target_id": "AU_air_liquide_wa_mining_supply",
+        "corridor_id": "AU_road_perth_pilbara",
+        "resource": "liquid nitrogen (bulk tanker)",
+        "quantity": 40000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_air_liquide_wa_food_supply",
+        "corridor_id": "AU_road_kwinana_wa",
+        "resource": "food-grade liquid nitrogen",
+        "quantity": 10000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_air_liquide_wa_cylinder_depot",
+        "corridor_id": "AU_road_kwinana_wa",
+        "resource": "compressed nitrogen cylinders",
+        "quantity": 20000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_air_liquide_wa_nickel_smelters",
+        "corridor_id": "AU_road_kwinana-goldfields",
+        "resource": "bulk LOX for nickel/gold processing",
+        "quantity": 100000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_air_liquide_wa_hospitals",
+        "corridor_id": "AU_road_perth-metro",
+        "resource": "medical-grade oxygen",
+        "quantity": 12000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_air_liquide_wa_metal_fab",
+        "corridor_id": "AU_road_perth-metro",
+        "resource": "industrial oxygen (cylinders & bulk LOX)",
+        "quantity": 50000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_air_liquide_wa_refinery",
+        "corridor_id": "AU_pipeline_kwinana-industrial",
+        "resource": "gaseous oxygen for oil refining",
+        "quantity": 60000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_air_liquide_wa_water_treatment",
+        "corridor_id": "AU_road_perth-metro",
+        "resource": "oxygen for water treatment",
+        "quantity": 8000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_air_liquide_wa_lng",
+        "corridor_id": "AU_road_kwinana-pilbara",
+        "resource": "LOX for LNG oxy-fuel & combustion",
+        "quantity": 20000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_air_liquide_kwinana_purifier",
+      "AU_air_liquide_kwinana_liquefier",
+      "AU_air_liquide_kwinana_lox"
+    ],
+    "resources": [
+      "Nitrogen",
+      "Oxygen"
+    ]
+  },
+  {
+    "id": "AU_boc_qld_distributor",
+    "name": "BOC Queensland Distribution Hub",
+    "tier": "distributor",
+    "country_iso2": "AU",
+    "canonical_company": "BOC (Linde)",
+    "coordinates": {
+      "lat": -27.47,
+      "lon": 153.028
+    },
+    "downstream": [
+      {
+        "target_id": "AU_boc_qld_mining_supply",
+        "corridor_id": "AU_road_brisbane_bowen_basin",
+        "resource": "liquid nitrogen (bulk tanker)",
+        "quantity": 35000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_boc_qld_food_medical",
+        "corridor_id": "AU_road_brisbane_qld",
+        "resource": "food and medical grade nitrogen",
+        "quantity": 20000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_boc_qld_cylinder_depot",
+        "corridor_id": "AU_road_brisbane_qld",
+        "resource": "compressed nitrogen cylinders",
+        "quantity": 20000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_boc_qld_beverages",
+        "corridor_id": "AU_road_brisbane-metro-co2-delivery",
+        "resource": "food-grade liquid CO2 for beverage carbonation",
+        "quantity": 15000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_boc_qld_meat_processing",
+        "corridor_id": "AU_road_qld-regional-co2",
+        "resource": "food-grade CO2 for meat stunning and MAP",
+        "quantity": 12000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_boc_qld_water",
+        "corridor_id": "AU_road_brisbane-metro-co2-delivery",
+        "resource": "industrial-grade CO2 for water treatment",
+        "quantity": 8000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_boc_qld_mining",
+        "corridor_id": "AU_road_qld-regional-co2",
+        "resource": "industrial-grade CO2 for mining processes",
+        "quantity": 15000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_boc_bulwer_island_purifier",
+      "AU_boc_bulwer_island_liquefier",
+      "AU_boc_qld_purifier"
+    ],
+    "resources": [
+      "Nitrogen",
+      "Carbon Dioxide (industrial)"
+    ]
+  },
+  {
+    "id": "AU_air_liquide_nsw_distributor",
+    "name": "Air Liquide NSW Distribution Hub",
+    "tier": "distributor",
+    "country_iso2": "AU",
+    "canonical_company": "Air Liquide",
+    "coordinates": {
+      "lat": -33.87,
+      "lon": 151.21
+    },
+    "downstream": [
+      {
+        "target_id": "AU_air_liquide_nsw_manufacturing_supply",
+        "corridor_id": "AU_road_sydney_nsw",
+        "resource": "liquid nitrogen (bulk tanker)",
+        "quantity": 30000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_air_liquide_nsw_food_medical",
+        "corridor_id": "AU_road_sydney_nsw",
+        "resource": "food and medical grade nitrogen",
+        "quantity": 20000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_air_liquide_nsw_electronics",
+        "corridor_id": "AU_road_sydney_nsw",
+        "resource": "ultra-high-purity nitrogen",
+        "quantity": 15000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_bluescope_port_kembla",
+        "corridor_id": "AU_pipeline_port-kembla-steelworks",
+        "resource": "high-purity gaseous oxygen for steelmaking",
+        "quantity": 10000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_air_liquide_nsw_hospitals",
+        "corridor_id": "AU_road_sydney-metro",
+        "resource": "medical-grade oxygen",
+        "quantity": 10000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_air_liquide_nsw_welding",
+        "corridor_id": "AU_road_sydney-metro",
+        "resource": "industrial oxygen (cylinders)",
+        "quantity": 20000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_air_liquide_botany_purifier",
+      "AU_air_liquide_botany_liquefier",
+      "AU_air_liquide_port_kembla_purifier",
+      "AU_air_liquide_port_kembla_lox"
+    ],
+    "resources": [
+      "Nitrogen",
+      "Oxygen"
+    ]
+  },
+  {
+    "id": "AU_boc_vic_distributor",
+    "name": "BOC Victoria Distribution Hub",
+    "tier": "distributor",
+    "country_iso2": "AU",
+    "canonical_company": "BOC (Linde)",
+    "coordinates": {
+      "lat": -37.814,
+      "lon": 144.963
+    },
+    "downstream": [
+      {
+        "target_id": "AU_boc_vic_manufacturing_supply",
+        "corridor_id": "AU_road_melbourne_vic",
+        "resource": "liquid nitrogen (bulk tanker)",
+        "quantity": 35000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_boc_vic_food_medical",
+        "corridor_id": "AU_road_melbourne_vic",
+        "resource": "food and medical grade nitrogen",
+        "quantity": 20000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_boc_vic_cylinder_depot",
+        "corridor_id": "AU_road_melbourne_vic",
+        "resource": "compressed nitrogen cylinders",
+        "quantity": 15000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_boc_vic_beverages",
+        "corridor_id": "AU_road_melbourne-metro-co2-delivery",
+        "resource": "food-grade liquid CO2 for beverage carbonation",
+        "quantity": 12000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_boc_vic_food_processing",
+        "corridor_id": "AU_road_melbourne-metro-co2-delivery",
+        "resource": "food-grade CO2 for food processing and packaging",
+        "quantity": 10000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_boc_vic_welding",
+        "corridor_id": "AU_road_melbourne-metro-co2-delivery",
+        "resource": "industrial-grade CO2 for welding shielding gas",
+        "quantity": 8000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_boc_vic_water_treatment",
+        "corridor_id": "AU_road_vic-regional-co2",
+        "resource": "industrial-grade CO2 for water pH treatment",
+        "quantity": 8000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_boc_vic_greenhouses",
+        "corridor_id": "AU_road_vic-regional-co2",
+        "resource": "CO2 for greenhouse enrichment",
+        "quantity": 7000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_boc_altona_purifier",
+      "AU_boc_altona_liquefier",
+      "AU_boc_vic_purifier"
+    ],
+    "resources": [
+      "Nitrogen",
+      "Carbon Dioxide (industrial)"
+    ]
+  },
+  {
+    "id": "AU_air_liquide_vic_distributor",
+    "name": "Air Liquide Victoria Distribution Hub",
+    "tier": "distributor",
+    "country_iso2": "AU",
+    "canonical_company": "Air Liquide",
+    "coordinates": {
+      "lat": -37.82,
+      "lon": 144.95
+    },
+    "downstream": [
+      {
+        "target_id": "AU_air_liquide_vic_manufacturing_supply",
+        "corridor_id": "AU_road_melbourne_vic",
+        "resource": "liquid nitrogen (bulk tanker)",
+        "quantity": 30000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_air_liquide_vic_food_medical",
+        "corridor_id": "AU_road_melbourne_vic",
+        "resource": "food and medical grade nitrogen",
+        "quantity": 15000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_air_liquide_vic_cylinder_depot",
+        "corridor_id": "AU_road_melbourne_vic",
+        "resource": "compressed nitrogen cylinders",
+        "quantity": 15000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_air_liquide_vic_hospitals",
+        "corridor_id": "AU_road_melbourne-metro",
+        "resource": "medical-grade oxygen",
+        "quantity": 10000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_air_liquide_vic_metal_fab",
+        "corridor_id": "AU_road_melbourne-metro",
+        "resource": "industrial oxygen",
+        "quantity": 35000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_air_liquide_vic_glass",
+        "corridor_id": "AU_road_melbourne-metro",
+        "resource": "oxygen for glass manufacturing",
+        "quantity": 10000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_air_liquide_vic_water_treatment",
+        "corridor_id": "AU_road_melbourne-metro",
+        "resource": "oxygen for water treatment",
+        "quantity": 8000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_air_liquide_vic_food",
+        "corridor_id": "AU_road_melbourne-metro",
+        "resource": "food-grade oxygen",
+        "quantity": 5000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_al_vic_beverages",
+        "corridor_id": "AU_road_melbourne-metro-co2-delivery",
+        "resource": "food-grade liquid CO2 for beverage carbonation",
+        "quantity": 10000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_al_vic_industrial",
+        "corridor_id": "AU_road_vic-regional-co2",
+        "resource": "industrial-grade CO2 for fabrication and manufacturing",
+        "quantity": 12000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_al_vic_food",
+        "corridor_id": "AU_road_melbourne-metro-co2-delivery",
+        "resource": "food-grade CO2 for food processing",
+        "quantity": 8000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_air_liquide_melbourne_purifier",
+      "AU_air_liquide_melbourne_liquefier",
+      "AU_air_liquide_melbourne_lox",
+      "AU_air_liquide_vic_purifier"
+    ],
+    "resources": [
+      "Nitrogen",
+      "Oxygen",
+      "Carbon Dioxide (industrial)"
+    ]
+  },
+  {
+    "id": "AU_coregas_nsw_distributor",
+    "name": "Coregas NSW Distribution Hub",
+    "tier": "distributor",
+    "country_iso2": "AU",
+    "canonical_company": "Coregas (Nippon Gases)",
+    "coordinates": {
+      "lat": -33.85,
+      "lon": 150.91
+    },
+    "downstream": [
+      {
+        "target_id": "AU_coregas_nsw_manufacturing_supply",
+        "corridor_id": "AU_road_sydney_nsw",
+        "resource": "liquid nitrogen and compressed nitrogen",
+        "quantity": 15000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_coregas_nsw_lab_medical",
+        "corridor_id": "AU_road_sydney_nsw",
+        "resource": "medical and laboratory grade nitrogen",
+        "quantity": 10000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_coregas_nsw_hospitals",
+        "corridor_id": "AU_road_sydney-metro",
+        "resource": "medical-grade oxygen",
+        "quantity": 8000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_coregas_nsw_metal_fab",
+        "corridor_id": "AU_road_sydney-metro",
+        "resource": "industrial oxygen",
+        "quantity": 25000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_coregas_nsw_food",
+        "corridor_id": "AU_road_sydney-metro",
+        "resource": "food-grade oxygen",
+        "quantity": 4000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_coregas_nsw_water_treatment",
+        "corridor_id": "AU_road_sydney-metro",
+        "resource": "oxygen for water treatment",
+        "quantity": 8000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_coregas_nsw_beverage_customers",
+        "corridor_id": "AU_road_sydney-metro-co2-delivery",
+        "resource": "food-grade liquid CO2 for beverage carbonation",
+        "quantity": 10000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_coregas_nsw_industrial_customers",
+        "corridor_id": "AU_road_sydney-metro-co2-delivery",
+        "resource": "industrial-grade CO2",
+        "quantity": 12000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_coregas_nsw_food_customers",
+        "corridor_id": "AU_road_sydney-metro-co2-delivery",
+        "resource": "food-grade CO2 for food processing",
+        "quantity": 8000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_coregas_sydney_purifier",
+      "AU_coregas_sydney_liquefier",
+      "AU_coregas_yennora_purifier",
+      "AU_coregas_yennora_lox",
+      "AU_coregas_botany_purifier"
+    ],
+    "resources": [
+      "Nitrogen",
+      "Oxygen",
+      "Carbon Dioxide (industrial)"
+    ]
+  },
+  {
+    "id": "AU_supagas_sa_distributor",
+    "name": "Supagas South Australia Distribution Hub",
+    "tier": "distributor",
+    "country_iso2": "AU",
+    "canonical_company": "Supagas",
+    "coordinates": {
+      "lat": -34.93,
+      "lon": 138.6
+    },
+    "downstream": [
+      {
+        "target_id": "AU_supagas_sa_winery_supply",
+        "corridor_id": "AU_road_adelaide_barossa",
+        "resource": "food-grade nitrogen",
+        "quantity": 6000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_supagas_sa_general",
+        "corridor_id": "AU_road_adelaide_sa",
+        "resource": "liquid and compressed nitrogen",
+        "quantity": 9000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_supagas_adelaide_purifier",
+      "AU_supagas_adelaide_liquefier"
+    ],
+    "resources": [
+      "Nitrogen"
+    ]
+  },
+  {
+    "id": "AU_alcoa_kwinana",
+    "name": "Alcoa Kwinana Alumina Refinery (on-site N₂ consumer)",
+    "tier": "point_of_use",
+    "country_iso2": "AU",
+    "canonical_company": "Alcoa",
+    "coordinates": {
+      "lat": -32.231,
+      "lon": 115.764
+    },
+    "downstream": [
+      {
+        "target_id": "AU_industrial",
+        "corridor_id": "AU_pipeline_kwinana_industrial",
+        "resource": "nitrogen used in alumina refining (blanketing, inerting)",
+        "quantity": 30000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_linde_kwinana_purifier"
+    ],
+    "resources": [
+      "Nitrogen"
+    ]
+  },
+  {
+    "id": "AU_qenos_botany",
+    "name": "Qenos Botany Polyethylene Plant (on-site N₂ consumer)",
+    "tier": "point_of_use",
+    "country_iso2": "AU",
+    "canonical_company": "Qenos",
+    "coordinates": {
+      "lat": -33.948,
+      "lon": 151.199
+    },
+    "downstream": [
+      {
+        "target_id": "AU_industrial",
+        "corridor_id": "AU_pipeline_botany_industrial",
+        "resource": "nitrogen used in petrochemical production (blanketing)",
+        "quantity": 20000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_air_liquide_botany_purifier"
+    ],
+    "resources": [
+      "Nitrogen"
+    ]
+  },
+  {
+    "id": "AU_woodside_nws_karratha",
+    "name": "Woodside North West Shelf LNG Plant",
+    "tier": "point_of_use",
+    "country_iso2": "AU",
+    "canonical_company": "Woodside Energy",
+    "coordinates": {
+      "lat": -20.629,
+      "lon": 116.734
+    },
+    "downstream": [
+      {
+        "target_id": "AU_industrial",
+        "corridor_id": "AU_pipeline_karratha_lng",
+        "resource": "nitrogen for LNG cryogenic rejection and inerting",
+        "quantity": 70000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_linde_karratha_purifier"
+    ],
+    "resources": [
+      "Nitrogen"
+    ]
+  },
+  {
+    "id": "AU_santos_glng",
+    "name": "Santos GLNG Plant, Curtis Island",
+    "tier": "point_of_use",
+    "country_iso2": "AU",
+    "canonical_company": "Santos",
+    "coordinates": {
+      "lat": -23.76,
+      "lon": 151.24
+    },
+    "downstream": [
+      {
+        "target_id": "AU_industrial",
+        "corridor_id": "AU_pipeline_gladstone_industrial",
+        "resource": "nitrogen for LNG processing and inerting",
+        "quantity": 30000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_air_liquide_gladstone_purifier"
+    ],
+    "resources": [
+      "Nitrogen"
+    ]
+  },
+  {
+    "id": "AU_conocophillips_aplng",
+    "name": "ConocoPhillips APLNG Plant, Curtis Island",
+    "tier": "point_of_use",
+    "country_iso2": "AU",
+    "canonical_company": "ConocoPhillips",
+    "coordinates": {
+      "lat": -23.77,
+      "lon": 151.23
+    },
+    "downstream": [
+      {
+        "target_id": "AU_industrial",
+        "corridor_id": "AU_pipeline_gladstone_industrial",
+        "resource": "nitrogen for LNG processing and inerting",
+        "quantity": 30000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_air_liquide_gladstone_purifier"
+    ],
+    "resources": [
+      "Nitrogen"
+    ]
+  },
+  {
+    "id": "AU_inpex_ichthys_darwin",
+    "name": "INPEX Ichthys LNG Onshore Plant, Bladin Point",
+    "tier": "point_of_use",
+    "country_iso2": "AU",
+    "canonical_company": "INPEX",
+    "coordinates": {
+      "lat": -12.508,
+      "lon": 130.878
+    },
+    "downstream": [
+      {
+        "target_id": "AU_industrial",
+        "corridor_id": "AU_pipeline_darwin_lng",
+        "resource": "nitrogen for LNG cryogenic rejection and inerting",
+        "quantity": 55000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_boc_darwin_purifier"
+    ],
+    "resources": [
+      "Nitrogen"
+    ]
+  },
+  {
+    "id": "AU_linde_wa_mining_supply",
+    "name": "Linde WA Mining & Resources Bulk Supply",
+    "tier": "point_of_use",
+    "country_iso2": "AU",
+    "canonical_company": "Linde",
+    "coordinates": {
+      "lat": -22.3,
+      "lon": 118.5
+    },
+    "downstream": [
+      {
+        "target_id": "AU_industrial",
+        "corridor_id": "AU_road_perth_pilbara",
+        "resource": "liquid nitrogen for mine inerting and explosives manufacturing",
+        "quantity": 50000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_linde_wa_distributor"
+    ],
+    "resources": [
+      "Nitrogen"
+    ]
+  },
+  {
+    "id": "AU_linde_wa_cylinder_depot",
+    "name": "Linde WA Compressed Gas Cylinder Depot",
+    "tier": "point_of_use",
+    "country_iso2": "AU",
+    "canonical_company": "Linde",
+    "coordinates": {
+      "lat": -31.96,
+      "lon": 115.86
+    },
+    "downstream": [
+      {
+        "target_id": "AU_industrial",
+        "corridor_id": "AU_road_kwinana_wa",
+        "resource": "compressed nitrogen for welding, fabrication, laboratory use",
+        "quantity": 10000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_commercial",
+        "corridor_id": "AU_road_kwinana_wa",
+        "resource": "compressed nitrogen for commercial applications",
+        "quantity": 5000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_linde_wa_distributor"
+    ],
+    "resources": [
+      "Nitrogen"
+    ]
+  },
+  {
+    "id": "AU_linde_wa_food_supply",
+    "name": "Linde WA Food & Beverage Nitrogen Supply",
+    "tier": "point_of_use",
+    "country_iso2": "AU",
+    "canonical_company": "Linde",
+    "coordinates": {
+      "lat": -31.94,
+      "lon": 115.87
+    },
+    "downstream": [
+      {
+        "target_id": "AU_industrial",
+        "corridor_id": "AU_road_kwinana_wa",
+        "resource": "food-grade nitrogen for MAP packaging and freezing",
+        "quantity": 18000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_commercial",
+        "corridor_id": "AU_road_kwinana_wa",
+        "resource": "food-grade nitrogen for hospitality",
+        "quantity": 7000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_linde_wa_distributor"
+    ],
+    "resources": [
+      "Nitrogen"
+    ]
+  },
+  {
+    "id": "AU_air_liquide_wa_mining_supply",
+    "name": "Air Liquide WA Mining & Resources Bulk Supply",
+    "tier": "point_of_use",
+    "country_iso2": "AU",
+    "canonical_company": "Air Liquide",
+    "coordinates": {
+      "lat": -22.5,
+      "lon": 118.6
+    },
+    "downstream": [
+      {
+        "target_id": "AU_industrial",
+        "corridor_id": "AU_road_perth_pilbara",
+        "resource": "liquid nitrogen for mine inerting and gold processing",
+        "quantity": 40000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_air_liquide_wa_distributor"
+    ],
+    "resources": [
+      "Nitrogen"
+    ]
+  },
+  {
+    "id": "AU_air_liquide_wa_food_supply",
+    "name": "Air Liquide WA Food & Beverage Nitrogen Supply",
+    "tier": "point_of_use",
+    "country_iso2": "AU",
+    "canonical_company": "Air Liquide",
+    "coordinates": {
+      "lat": -31.95,
+      "lon": 115.85
+    },
+    "downstream": [
+      {
+        "target_id": "AU_industrial",
+        "corridor_id": "AU_road_kwinana_wa",
+        "resource": "food-grade nitrogen for MAP packaging",
+        "quantity": 10000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_air_liquide_wa_distributor"
+    ],
+    "resources": [
+      "Nitrogen"
+    ]
+  },
+  {
+    "id": "AU_air_liquide_wa_cylinder_depot",
+    "name": "Air Liquide WA Cylinder Depot",
+    "tier": "point_of_use",
+    "country_iso2": "AU",
+    "canonical_company": "Air Liquide",
+    "coordinates": {
+      "lat": -31.97,
+      "lon": 115.86
+    },
+    "downstream": [
+      {
+        "target_id": "AU_industrial",
+        "corridor_id": "AU_road_kwinana_wa",
+        "resource": "compressed nitrogen for welding and laboratory use",
+        "quantity": 12000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_commercial",
+        "corridor_id": "AU_road_kwinana_wa",
+        "resource": "compressed nitrogen cylinders",
+        "quantity": 8000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_air_liquide_wa_distributor"
+    ],
+    "resources": [
+      "Nitrogen"
+    ]
+  },
+  {
+    "id": "AU_boc_qld_mining_supply",
+    "name": "BOC Queensland Mining & Resources Bulk Supply",
+    "tier": "point_of_use",
+    "country_iso2": "AU",
+    "canonical_company": "BOC (Linde)",
+    "coordinates": {
+      "lat": -22.07,
+      "lon": 148.15
+    },
+    "downstream": [
+      {
+        "target_id": "AU_industrial",
+        "corridor_id": "AU_road_brisbane_bowen_basin",
+        "resource": "liquid nitrogen for coal mine inerting and CSG operations",
+        "quantity": 35000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_boc_qld_distributor"
+    ],
+    "resources": [
+      "Nitrogen"
+    ]
+  },
+  {
+    "id": "AU_boc_qld_food_medical",
+    "name": "BOC Queensland Food, Medical & Lab Supply",
+    "tier": "point_of_use",
+    "country_iso2": "AU",
+    "canonical_company": "BOC (Linde)",
+    "coordinates": {
+      "lat": -27.45,
+      "lon": 153.03
+    },
+    "downstream": [
+      {
+        "target_id": "AU_institutional",
+        "corridor_id": "AU_road_brisbane_qld",
+        "resource": "medical-grade liquid nitrogen for hospitals and IVF clinics",
+        "quantity": 8000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_industrial",
+        "corridor_id": "AU_road_brisbane_qld",
+        "resource": "food-grade nitrogen for meat processing",
+        "quantity": 12000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_boc_qld_distributor"
+    ],
+    "resources": [
+      "Nitrogen"
+    ]
+  },
+  {
+    "id": "AU_boc_qld_cylinder_depot",
+    "name": "BOC Queensland Cylinder Depot",
+    "tier": "point_of_use",
+    "country_iso2": "AU",
+    "canonical_company": "BOC (Linde)",
+    "coordinates": {
+      "lat": -27.44,
+      "lon": 153.04
+    },
+    "downstream": [
+      {
+        "target_id": "AU_industrial",
+        "corridor_id": "AU_road_brisbane_qld",
+        "resource": "compressed nitrogen cylinders for fabrication",
+        "quantity": 12000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_commercial",
+        "corridor_id": "AU_road_brisbane_qld",
+        "resource": "compressed nitrogen for commercial uses",
+        "quantity": 8000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_boc_qld_distributor"
+    ],
+    "resources": [
+      "Nitrogen"
+    ]
+  },
+  {
+    "id": "AU_air_liquide_nsw_manufacturing_supply",
+    "name": "Air Liquide NSW Manufacturing & Steel Bulk Supply",
+    "tier": "point_of_use",
+    "country_iso2": "AU",
+    "canonical_company": "Air Liquide",
+    "coordinates": {
+      "lat": -34.42,
+      "lon": 150.89
+    },
+    "downstream": [
+      {
+        "target_id": "AU_industrial",
+        "corridor_id": "AU_road_sydney_nsw",
+        "resource": "liquid nitrogen for steelmaking and chemical manufacturing",
+        "quantity": 30000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_air_liquide_nsw_distributor"
+    ],
+    "resources": [
+      "Nitrogen"
+    ]
+  },
+  {
+    "id": "AU_air_liquide_nsw_food_medical",
+    "name": "Air Liquide NSW Food & Medical Supply",
+    "tier": "point_of_use",
+    "country_iso2": "AU",
+    "canonical_company": "Air Liquide",
+    "coordinates": {
+      "lat": -33.88,
+      "lon": 151.2
+    },
+    "downstream": [
+      {
+        "target_id": "AU_institutional",
+        "corridor_id": "AU_road_sydney_nsw",
+        "resource": "medical-grade liquid nitrogen for cryosurgery and IVF",
+        "quantity": 8000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_industrial",
+        "corridor_id": "AU_road_sydney_nsw",
+        "resource": "food-grade nitrogen for food processing",
+        "quantity": 12000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_air_liquide_nsw_distributor"
+    ],
+    "resources": [
+      "Nitrogen"
+    ]
+  },
+  {
+    "id": "AU_air_liquide_nsw_electronics",
+    "name": "Air Liquide NSW Electronics & Semiconductor Supply",
+    "tier": "point_of_use",
+    "country_iso2": "AU",
+    "canonical_company": "Air Liquide",
+    "coordinates": {
+      "lat": -33.86,
+      "lon": 151.2
+    },
+    "downstream": [
+      {
+        "target_id": "AU_industrial",
+        "corridor_id": "AU_road_sydney_nsw",
+        "resource": "ultra-high-purity nitrogen for electronics manufacturing",
+        "quantity": 15000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_air_liquide_nsw_distributor"
+    ],
+    "resources": [
+      "Nitrogen"
+    ]
+  },
+  {
+    "id": "AU_boc_vic_manufacturing_supply",
+    "name": "BOC Victoria Manufacturing & Steel Bulk Supply",
+    "tier": "point_of_use",
+    "country_iso2": "AU",
+    "canonical_company": "BOC (Linde)",
+    "coordinates": {
+      "lat": -37.82,
+      "lon": 144.95
+    },
+    "downstream": [
+      {
+        "target_id": "AU_industrial",
+        "corridor_id": "AU_road_melbourne_vic",
+        "resource": "liquid nitrogen for manufacturing and metal processing",
+        "quantity": 35000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_boc_vic_distributor"
+    ],
+    "resources": [
+      "Nitrogen"
+    ]
+  },
+  {
+    "id": "AU_boc_vic_food_medical",
+    "name": "BOC Victoria Food & Medical Supply",
+    "tier": "point_of_use",
+    "country_iso2": "AU",
+    "canonical_company": "BOC (Linde)",
+    "coordinates": {
+      "lat": -37.81,
+      "lon": 144.97
+    },
+    "downstream": [
+      {
+        "target_id": "AU_institutional",
+        "corridor_id": "AU_road_melbourne_vic",
+        "resource": "medical-grade liquid nitrogen",
+        "quantity": 8000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_industrial",
+        "corridor_id": "AU_road_melbourne_vic",
+        "resource": "food-grade nitrogen for food processing",
+        "quantity": 12000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_boc_vic_distributor"
+    ],
+    "resources": [
+      "Nitrogen"
+    ]
+  },
+  {
+    "id": "AU_boc_vic_cylinder_depot",
+    "name": "BOC Victoria Cylinder Depot",
+    "tier": "point_of_use",
+    "country_iso2": "AU",
+    "canonical_company": "BOC (Linde)",
+    "coordinates": {
+      "lat": -37.83,
+      "lon": 144.97
+    },
+    "downstream": [
+      {
+        "target_id": "AU_industrial",
+        "corridor_id": "AU_road_melbourne_vic",
+        "resource": "compressed nitrogen for welding and fabrication",
+        "quantity": 10000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_commercial",
+        "corridor_id": "AU_road_melbourne_vic",
+        "resource": "compressed nitrogen for commercial applications",
+        "quantity": 5000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_boc_vic_distributor"
+    ],
+    "resources": [
+      "Nitrogen"
+    ]
+  },
+  {
+    "id": "AU_air_liquide_vic_manufacturing_supply",
+    "name": "Air Liquide Victoria Manufacturing Bulk Supply",
+    "tier": "point_of_use",
+    "country_iso2": "AU",
+    "canonical_company": "Air Liquide",
+    "coordinates": {
+      "lat": -37.84,
+      "lon": 144.95
+    },
+    "downstream": [
+      {
+        "target_id": "AU_industrial",
+        "corridor_id": "AU_road_melbourne_vic",
+        "resource": "liquid nitrogen for manufacturing",
+        "quantity": 30000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_air_liquide_vic_distributor"
+    ],
+    "resources": [
+      "Nitrogen"
+    ]
+  },
+  {
+    "id": "AU_air_liquide_vic_food_medical",
+    "name": "Air Liquide Victoria Food & Medical Supply",
+    "tier": "point_of_use",
+    "country_iso2": "AU",
+    "canonical_company": "Air Liquide",
+    "coordinates": {
+      "lat": -37.82,
+      "lon": 144.96
+    },
+    "downstream": [
+      {
+        "target_id": "AU_institutional",
+        "corridor_id": "AU_road_melbourne_vic",
+        "resource": "medical-grade liquid nitrogen",
+        "quantity": 6000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_industrial",
+        "corridor_id": "AU_road_melbourne_vic",
+        "resource": "food-grade nitrogen for food processing",
+        "quantity": 9000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_air_liquide_vic_distributor"
+    ],
+    "resources": [
+      "Nitrogen"
+    ]
+  },
+  {
+    "id": "AU_air_liquide_vic_cylinder_depot",
+    "name": "Air Liquide Victoria Cylinder Depot",
+    "tier": "point_of_use",
+    "country_iso2": "AU",
+    "canonical_company": "Air Liquide",
+    "coordinates": {
+      "lat": -37.85,
+      "lon": 144.96
+    },
+    "downstream": [
+      {
+        "target_id": "AU_industrial",
+        "corridor_id": "AU_road_melbourne_vic",
+        "resource": "compressed nitrogen cylinders",
+        "quantity": 10000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_commercial",
+        "corridor_id": "AU_road_melbourne_vic",
+        "resource": "compressed nitrogen for commercial applications",
+        "quantity": 5000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_air_liquide_vic_distributor"
+    ],
+    "resources": [
+      "Nitrogen"
+    ]
+  },
+  {
+    "id": "AU_coregas_nsw_manufacturing_supply",
+    "name": "Coregas NSW Manufacturing & Lab Supply",
+    "tier": "point_of_use",
+    "country_iso2": "AU",
+    "canonical_company": "Coregas (Nippon Gases)",
+    "coordinates": {
+      "lat": -33.86,
+      "lon": 150.92
+    },
+    "downstream": [
+      {
+        "target_id": "AU_industrial",
+        "corridor_id": "AU_road_sydney_nsw",
+        "resource": "liquid and compressed nitrogen for manufacturing",
+        "quantity": 15000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_coregas_nsw_distributor"
+    ],
+    "resources": [
+      "Nitrogen"
+    ]
+  },
+  {
+    "id": "AU_coregas_nsw_lab_medical",
+    "name": "Coregas NSW Medical & Laboratory Supply",
+    "tier": "point_of_use",
+    "country_iso2": "AU",
+    "canonical_company": "Coregas (Nippon Gases)",
+    "coordinates": {
+      "lat": -33.87,
+      "lon": 151.2
+    },
+    "downstream": [
+      {
+        "target_id": "AU_institutional",
+        "corridor_id": "AU_road_sydney_nsw",
+        "resource": "medical and laboratory grade nitrogen",
+        "quantity": 6000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_commercial",
+        "corridor_id": "AU_road_sydney_nsw",
+        "resource": "compressed nitrogen for commercial laboratory use",
+        "quantity": 4000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_coregas_nsw_distributor"
+    ],
+    "resources": [
+      "Nitrogen"
+    ]
+  },
+  {
+    "id": "AU_supagas_sa_winery_supply",
+    "name": "Supagas SA Winery & Food Processing Supply",
+    "tier": "point_of_use",
+    "country_iso2": "AU",
+    "canonical_company": "Supagas",
+    "coordinates": {
+      "lat": -34.56,
+      "lon": 138.95
+    },
+    "downstream": [
+      {
+        "target_id": "AU_agricultural",
+        "corridor_id": "AU_road_adelaide_barossa",
+        "resource": "food-grade nitrogen for wine blanketing and bottling",
+        "quantity": 4000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_industrial",
+        "corridor_id": "AU_road_adelaide_barossa",
+        "resource": "food-grade nitrogen for food processing",
+        "quantity": 2000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_supagas_sa_distributor"
+    ],
+    "resources": [
+      "Nitrogen"
+    ]
+  },
+  {
+    "id": "AU_supagas_sa_general",
+    "name": "Supagas SA General Industrial & Commercial Supply",
+    "tier": "point_of_use",
+    "country_iso2": "AU",
+    "canonical_company": "Supagas",
+    "coordinates": {
+      "lat": -34.92,
+      "lon": 138.59
+    },
+    "downstream": [
+      {
+        "target_id": "AU_industrial",
+        "corridor_id": "AU_road_adelaide_sa",
+        "resource": "liquid and compressed nitrogen for industrial use",
+        "quantity": 6000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_commercial",
+        "corridor_id": "AU_road_adelaide_sa",
+        "resource": "compressed nitrogen for commercial applications",
+        "quantity": 3000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_supagas_sa_distributor"
+    ],
+    "resources": [
+      "Nitrogen"
+    ]
+  },
+  {
+    "id": "AU_pipeline_kwinana_industrial",
+    "tier": "transport",
+    "name": "Kwinana Industrial Area Pipeline Network",
+    "country_iso2": "AU",
+    "operator_id": "AU_linde",
+    "mode": "pipeline",
+    "form": "gas",
+    "range": "local",
+    "coordinates": {
+      "lat": -32.235,
+      "lon": 115.77
+    }
+  },
+  {
+    "id": "AU_road_kwinana_wa",
+    "tier": "transport",
+    "name": "Kwinana–Perth Metropolitan Road Tanker Route",
+    "country_iso2": "AU",
+    "operator_id": "AU_various_road_hauliers",
+    "mode": "road",
+    "form": "bulk_liquid",
+    "range": "local",
+    "coordinates": {
+      "lat": -32.1,
+      "lon": 115.82
+    }
+  },
+  {
+    "id": "AU_road_perth_pilbara",
+    "tier": "transport",
+    "name": "Perth–Pilbara Road Tanker Route (Great Northern Hwy)",
+    "country_iso2": "AU",
+    "operator_id": "AU_centurion_transport",
+    "mode": "road",
+    "form": "bulk_liquid",
+    "range": "regional",
+    "coordinates": {
+      "lat": -25.5,
+      "lon": 117
+    }
+  },
+  {
+    "id": "AU_pipeline_bulwer_island",
+    "tier": "transport",
+    "name": "Bulwer Island Plant On-Site Pipeline",
+    "country_iso2": "AU",
+    "operator_id": "AU_boc",
+    "mode": "pipeline",
+    "form": "gas",
+    "range": "local",
+    "coordinates": {
+      "lat": -27.428,
+      "lon": 153.122
+    }
+  },
+  {
+    "id": "AU_road_brisbane_qld",
+    "tier": "transport",
+    "name": "Brisbane Metropolitan Road Tanker Distribution",
+    "country_iso2": "AU",
+    "operator_id": "AU_various_road_hauliers",
+    "mode": "road",
+    "form": "bulk_liquid",
+    "range": "local",
+    "coordinates": {
+      "lat": -27.47,
+      "lon": 153.03
+    }
+  },
+  {
+    "id": "AU_road_brisbane_bowen_basin",
+    "tier": "transport",
+    "name": "Brisbane–Bowen Basin Road Tanker Route",
+    "country_iso2": "AU",
+    "operator_id": "AU_various_road_hauliers",
+    "mode": "road",
+    "form": "bulk_liquid",
+    "range": "regional",
+    "coordinates": {
+      "lat": -24.5,
+      "lon": 149.5
+    }
+  },
+  {
+    "id": "AU_pipeline_botany_industrial",
+    "tier": "transport",
+    "name": "Botany Industrial Precinct Pipeline Network",
+    "country_iso2": "AU",
+    "operator_id": "AU_air_liquide",
+    "mode": "pipeline",
+    "form": "gas",
+    "range": "local",
+    "coordinates": {
+      "lat": -33.946,
+      "lon": 151.2
+    }
+  },
+  {
+    "id": "AU_road_sydney_nsw",
+    "tier": "transport",
+    "name": "Sydney Metropolitan Road Tanker & Cylinder Distribution",
+    "country_iso2": "AU",
+    "operator_id": "AU_various_road_hauliers",
+    "mode": "road",
+    "form": "bulk_liquid",
+    "range": "local",
+    "coordinates": {
+      "lat": -33.87,
+      "lon": 151.1
+    }
+  },
+  {
+    "id": "AU_pipeline_altona_industrial",
+    "tier": "transport",
+    "name": "Altona Industrial Area Pipeline",
+    "country_iso2": "AU",
+    "operator_id": "AU_boc",
+    "mode": "pipeline",
+    "form": "gas",
+    "range": "local",
+    "coordinates": {
+      "lat": -37.832,
+      "lon": 144.831
+    }
+  },
+  {
+    "id": "AU_road_melbourne_vic",
+    "tier": "transport",
+    "name": "Melbourne Metropolitan Road Tanker & Cylinder Distribution",
+    "country_iso2": "AU",
+    "operator_id": "AU_various_road_hauliers",
+    "mode": "road",
+    "form": "bulk_liquid",
+    "range": "local",
+    "coordinates": {
+      "lat": -37.82,
+      "lon": 144.96
+    }
+  },
+  {
+    "id": "AU_pipeline_laverton_industrial",
+    "tier": "transport",
+    "name": "Laverton Industrial Pipeline",
+    "country_iso2": "AU",
+    "operator_id": "AU_air_liquide",
+    "mode": "pipeline",
+    "form": "gas",
+    "range": "local",
+    "coordinates": {
+      "lat": -37.853,
+      "lon": 144.761
+    }
+  },
+  {
+    "id": "AU_pipeline_karratha_lng",
+    "tier": "transport",
+    "name": "Karratha LNG Precinct Nitrogen Pipeline",
+    "country_iso2": "AU",
+    "operator_id": "AU_linde",
+    "mode": "pipeline",
+    "form": "gas",
+    "range": "local",
+    "coordinates": {
+      "lat": -20.68,
+      "lon": 116.79
+    }
+  },
+  {
+    "id": "AU_pipeline_gladstone_industrial",
+    "tier": "transport",
+    "name": "Gladstone / Curtis Island LNG Nitrogen Pipeline",
+    "country_iso2": "AU",
+    "operator_id": "AU_air_liquide",
+    "mode": "pipeline",
+    "form": "gas",
+    "range": "local",
+    "coordinates": {
+      "lat": -23.76,
+      "lon": 151.26
+    }
+  },
+  {
+    "id": "AU_pipeline_darwin_lng",
+    "tier": "transport",
+    "name": "Darwin LNG Precinct (Bladin Point) Nitrogen Pipeline",
+    "country_iso2": "AU",
+    "operator_id": "AU_boc",
+    "mode": "pipeline",
+    "form": "gas",
+    "range": "local",
+    "coordinates": {
+      "lat": -12.51,
+      "lon": 130.885
+    }
+  },
+  {
+    "id": "AU_pipeline_wetherill_park",
+    "tier": "transport",
+    "name": "Wetherill Park Plant On-Site Pipeline",
+    "country_iso2": "AU",
+    "operator_id": "AU_coregas",
+    "mode": "pipeline",
+    "form": "gas",
+    "range": "local",
+    "coordinates": {
+      "lat": -33.845,
+      "lon": 150.905
+    }
+  },
+  {
+    "id": "AU_road_adelaide_sa",
+    "tier": "transport",
+    "name": "Adelaide Metropolitan Road Tanker Distribution",
+    "country_iso2": "AU",
+    "operator_id": "AU_various_road_hauliers",
+    "mode": "road",
+    "form": "bulk_liquid",
+    "range": "local",
+    "coordinates": {
+      "lat": -34.93,
+      "lon": 138.6
+    }
+  },
+  {
+    "id": "AU_road_adelaide_barossa",
+    "tier": "transport",
+    "name": "Adelaide–Barossa Valley Road Tanker Route",
+    "country_iso2": "AU",
+    "operator_id": "AU_various_road_hauliers",
+    "mode": "road",
+    "form": "bulk_liquid",
+    "range": "regional",
+    "coordinates": {
+      "lat": -34.65,
+      "lon": 138.8
+    }
+  }
+]

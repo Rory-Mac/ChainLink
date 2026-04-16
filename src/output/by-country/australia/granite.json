@@ -1,0 +1,1667 @@
+[
+  {
+    "id": "AU_holcim_lysterfield",
+    "name": "Holcim Lysterfield Quarry",
+    "tier": "extraction",
+    "country_iso2": "AU",
+    "canonical_company": "Holcim Australia",
+    "coordinates": {
+      "lat": -37.93,
+      "lon": 145.28
+    },
+    "downstream": [
+      {
+        "target_id": "AU_holcim_australia_processing",
+        "corridor_id": "AU_road_lysterfield-melbourne",
+        "resource": "raw granite aggregate",
+        "quantity": 1200000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Granite"
+    ]
+  },
+  {
+    "id": "AU_hanson_prospect",
+    "name": "Hanson Prospect Hill Quarry",
+    "tier": "extraction",
+    "country_iso2": "AU",
+    "canonical_company": "Hanson Australia",
+    "coordinates": {
+      "lat": -37.7,
+      "lon": 145.19
+    },
+    "downstream": [
+      {
+        "target_id": "AU_hanson_australia_processing",
+        "corridor_id": "AU_road_prospect-melbourne",
+        "resource": "raw granite aggregate",
+        "quantity": 1000000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Granite"
+    ]
+  },
+  {
+    "id": "AU_wagners_wellcamp",
+    "name": "Wagners Wellcamp Quarry",
+    "tier": "extraction",
+    "country_iso2": "AU",
+    "canonical_company": "Wagners Holding Company",
+    "coordinates": {
+      "lat": -27.56,
+      "lon": 151.79
+    },
+    "downstream": [
+      {
+        "target_id": "AU_wagners_processing",
+        "corridor_id": "AU_road_wellcamp-toowoomba",
+        "resource": "raw granite aggregate",
+        "quantity": 800000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Granite"
+    ]
+  },
+  {
+    "id": "AU_holcim_wolffdene",
+    "name": "Holcim Wolffdene Quarry",
+    "tier": "extraction",
+    "country_iso2": "AU",
+    "canonical_company": "Holcim Australia",
+    "coordinates": {
+      "lat": -27.82,
+      "lon": 153.18
+    },
+    "downstream": [
+      {
+        "target_id": "AU_holcim_australia_processing",
+        "corridor_id": "AU_road_wolffdene-brisbane",
+        "resource": "raw granite aggregate",
+        "quantity": 900000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Granite"
+    ]
+  },
+  {
+    "id": "AU_hanson_kapooka",
+    "name": "Hanson Kapooka Quarry",
+    "tier": "extraction",
+    "country_iso2": "AU",
+    "canonical_company": "Hanson Australia",
+    "coordinates": {
+      "lat": -35.16,
+      "lon": 147.31
+    },
+    "downstream": [
+      {
+        "target_id": "AU_hanson_australia_processing",
+        "corridor_id": "AU_road_kapooka-wagga",
+        "resource": "raw granite aggregate",
+        "quantity": 400000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Granite"
+    ]
+  },
+  {
+    "id": "AU_adelaide_brighton_black_hill",
+    "name": "Adelaide Brighton Black Hill Quarry",
+    "tier": "extraction",
+    "country_iso2": "AU",
+    "canonical_company": "Adbri Limited",
+    "coordinates": {
+      "lat": -34.85,
+      "lon": 138.72
+    },
+    "downstream": [
+      {
+        "target_id": "AU_adbri_processing",
+        "corridor_id": "AU_road_blackhill-adelaide",
+        "resource": "raw granite aggregate",
+        "quantity": 600000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Granite"
+    ]
+  },
+  {
+    "id": "AU_boral_seaham",
+    "name": "Boral Seaham Quarry",
+    "tier": "extraction",
+    "country_iso2": "AU",
+    "canonical_company": "Boral Limited",
+    "coordinates": {
+      "lat": -32.82,
+      "lon": 151.66
+    },
+    "downstream": [
+      {
+        "target_id": "AU_boral_limited_processing",
+        "corridor_id": "AU_road_seaham-newcastle",
+        "resource": "raw granite aggregate",
+        "quantity": 900000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Granite"
+    ]
+  },
+  {
+    "id": "AU_hanson_stonyfell",
+    "name": "Hanson Stonyfell Quarry",
+    "tier": "extraction",
+    "country_iso2": "AU",
+    "canonical_company": "Hanson Australia",
+    "coordinates": {
+      "lat": -34.92,
+      "lon": 138.68
+    },
+    "downstream": [
+      {
+        "target_id": "AU_hanson_australia_processing",
+        "corridor_id": "AU_road_stonyfell-adelaide",
+        "resource": "raw granite aggregate",
+        "quantity": 500000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Granite"
+    ]
+  },
+  {
+    "id": "AU_holcim_oaklands_junction",
+    "name": "Holcim Oaklands Junction Quarry",
+    "tier": "extraction",
+    "country_iso2": "AU",
+    "canonical_company": "Holcim Australia",
+    "coordinates": {
+      "lat": -37.58,
+      "lon": 144.8
+    },
+    "downstream": [
+      {
+        "target_id": "AU_holcim_australia_processing",
+        "corridor_id": "AU_road_oaklands-melbourne",
+        "resource": "raw granite aggregate",
+        "quantity": 700000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Granite"
+    ]
+  },
+  {
+    "id": "AU_hanson_australia_processing",
+    "name": "Hanson Australia — Processing & Distribution",
+    "tier": "processor",
+    "country_iso2": "AU",
+    "canonical_company": "Hanson Australia",
+    "coordinates": {
+      "lat": -33.84,
+      "lon": 151.07
+    },
+    "downstream": [
+      {
+        "target_id": "AU_hanson_concrete_products",
+        "corridor_id": "AU_road_hanson-nsw-distribution",
+        "resource": "crushed granite aggregate (various grades)",
+        "quantity": 1600000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_hanson_asphalt_products",
+        "corridor_id": "AU_road_hanson-nsw-distribution",
+        "resource": "granite aggregate for asphalt",
+        "quantity": 600000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_australian_stone_suppliers",
+        "corridor_id": "AU_road_hanson-dimension-stone",
+        "resource": "granite dimension stone blocks and slabs",
+        "quantity": 50000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_holcim_australia_processing",
+        "corridor_id": "AU_road_hanson-mel-distribution",
+        "resource": "crushed granite aggregate (various grades)",
+        "quantity": 150000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_hanson_bass_point",
+      "AU_hanson_prospect",
+      "AU_hanson_kapooka",
+      "AU_hanson_stonyfell"
+    ],
+    "resources": [
+      "Granite"
+    ]
+  },
+  {
+    "id": "AU_boral_limited_processing",
+    "name": "Boral Limited — Processing & Distribution",
+    "tier": "processor",
+    "country_iso2": "AU",
+    "canonical_company": "Boral Limited",
+    "coordinates": {
+      "lat": -33.87,
+      "lon": 151.21
+    },
+    "downstream": [
+      {
+        "target_id": "AU_boral_concrete_products",
+        "corridor_id": "AU_road_boral-nsw-distribution",
+        "resource": "crushed granite aggregate (various grades)",
+        "quantity": 2800000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_boral_asphalt_products",
+        "corridor_id": "AU_road_boral-nsw-distribution",
+        "resource": "granite aggregate for asphalt",
+        "quantity": 1500000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_australian_stone_suppliers",
+        "corridor_id": "AU_road_boral-dimension-stone",
+        "resource": "granite dimension stone",
+        "quantity": 80000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_boral_peppertree",
+      "AU_boral_montrose",
+      "AU_boral_ormeau",
+      "AU_boral_seaham",
+      "AU_boral_dunmore"
+    ],
+    "resources": [
+      "Granite"
+    ]
+  },
+  {
+    "id": "AU_holcim_australia_processing",
+    "name": "Holcim Australia — Processing & Distribution",
+    "tier": "processor",
+    "country_iso2": "AU",
+    "canonical_company": "Holcim Australia",
+    "coordinates": {
+      "lat": -37.82,
+      "lon": 144.96
+    },
+    "downstream": [
+      {
+        "target_id": "AU_holcim_concrete_products",
+        "corridor_id": "AU_road_holcim-vic-distribution",
+        "resource": "crushed granite aggregate (various grades)",
+        "quantity": 1800000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_holcim_asphalt_products",
+        "corridor_id": "AU_road_holcim-vic-distribution",
+        "resource": "granite aggregate for asphalt",
+        "quantity": 700000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_holcim_lysterfield",
+      "AU_holcim_wolffdene",
+      "AU_holcim_oaklands_junction",
+      "AU_hanson_australia_processing"
+    ],
+    "resources": [
+      "Granite"
+    ]
+  },
+  {
+    "id": "AU_wagners_processing",
+    "name": "Wagners — Processing & Distribution",
+    "tier": "processor",
+    "country_iso2": "AU",
+    "canonical_company": "Wagners Holding Company",
+    "coordinates": {
+      "lat": -27.56,
+      "lon": 151.82
+    },
+    "downstream": [
+      {
+        "target_id": "AU_wagners_concrete_products",
+        "corridor_id": "AU_road_wagners-qld-distribution",
+        "resource": "crushed granite aggregate (various grades)",
+        "quantity": 500000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_wagners_precast_products",
+        "corridor_id": "AU_road_wagners-qld-distribution",
+        "resource": "granite aggregate for precast concrete",
+        "quantity": 300000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_wagners_wellcamp"
+    ],
+    "resources": [
+      "Granite"
+    ]
+  },
+  {
+    "id": "AU_adbri_processing",
+    "name": "Adbri — Processing & Distribution",
+    "tier": "processor",
+    "country_iso2": "AU",
+    "canonical_company": "Adbri Limited",
+    "coordinates": {
+      "lat": -34.93,
+      "lon": 138.6
+    },
+    "downstream": [
+      {
+        "target_id": "AU_adbri_concrete_products",
+        "corridor_id": "AU_road_adbri-sa-distribution",
+        "resource": "crushed granite aggregate (various grades)",
+        "quantity": 400000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_adbri_masonry_products",
+        "corridor_id": "AU_road_adbri-sa-distribution",
+        "resource": "granite aggregate for masonry and paving",
+        "quantity": 200000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_adelaide_brighton_black_hill"
+    ],
+    "resources": [
+      "Granite"
+    ]
+  },
+  {
+    "id": "AU_hanson_concrete_products",
+    "name": "Hanson Ready-Mix Concrete",
+    "tier": "building_products",
+    "country_iso2": "AU",
+    "canonical_company": "Hanson Australia",
+    "coordinates": {
+      "lat": -33.84,
+      "lon": 151.07
+    },
+    "downstream": [
+      {
+        "target_id": "AU_cpb_contractors",
+        "corridor_id": "AU_road_hanson-concrete-delivery-nsw",
+        "resource": "ready-mix concrete (granite aggregate based)",
+        "quantity": 900000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_lendlease",
+        "corridor_id": "AU_road_hanson-concrete-delivery-nsw",
+        "resource": "ready-mix concrete (granite aggregate based)",
+        "quantity": 400000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_multiplex",
+        "corridor_id": "AU_road_hanson-concrete-delivery-mel",
+        "resource": "ready-mix concrete (granite aggregate based)",
+        "quantity": 300000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_hanson_australia_processing"
+    ],
+    "resources": [
+      "Granite"
+    ]
+  },
+  {
+    "id": "AU_hanson_asphalt_products",
+    "name": "Hanson Asphalt Products",
+    "tier": "building_products",
+    "country_iso2": "AU",
+    "canonical_company": "Hanson Australia",
+    "coordinates": {
+      "lat": -33.88,
+      "lon": 151.04
+    },
+    "downstream": [
+      {
+        "target_id": "AU_fulton_hogan",
+        "corridor_id": "AU_road_hanson-asphalt-delivery",
+        "resource": "asphalt (granite aggregate based)",
+        "quantity": 300000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_downer_edi",
+        "corridor_id": "AU_road_hanson-asphalt-delivery",
+        "resource": "asphalt (granite aggregate based)",
+        "quantity": 300000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_hanson_australia_processing"
+    ],
+    "resources": [
+      "Granite"
+    ]
+  },
+  {
+    "id": "AU_boral_concrete_products",
+    "name": "Boral Concrete & Placing",
+    "tier": "building_products",
+    "country_iso2": "AU",
+    "canonical_company": "Boral Limited",
+    "coordinates": {
+      "lat": -33.87,
+      "lon": 151.21
+    },
+    "downstream": [
+      {
+        "target_id": "AU_cpb_contractors",
+        "corridor_id": "AU_road_boral-concrete-delivery-nsw",
+        "resource": "ready-mix concrete (granite aggregate based)",
+        "quantity": 1000000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_lendlease",
+        "corridor_id": "AU_road_boral-concrete-delivery-nsw",
+        "resource": "ready-mix concrete (granite aggregate based)",
+        "quantity": 600000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_john_holland",
+        "corridor_id": "AU_road_boral-concrete-delivery-nsw",
+        "resource": "ready-mix concrete (granite aggregate based)",
+        "quantity": 500000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_probuild",
+        "corridor_id": "AU_road_boral-concrete-delivery-mel",
+        "resource": "ready-mix concrete (granite aggregate based)",
+        "quantity": 400000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_multiplex",
+        "corridor_id": "AU_road_boral-concrete-delivery-mel",
+        "resource": "ready-mix concrete (granite aggregate based)",
+        "quantity": 300000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_boral_limited_processing"
+    ],
+    "resources": [
+      "Granite"
+    ]
+  },
+  {
+    "id": "AU_boral_asphalt_products",
+    "name": "Boral Asphalt",
+    "tier": "building_products",
+    "country_iso2": "AU",
+    "canonical_company": "Boral Limited",
+    "coordinates": {
+      "lat": -33.9,
+      "lon": 151.1
+    },
+    "downstream": [
+      {
+        "target_id": "AU_fulton_hogan",
+        "corridor_id": "AU_road_boral-asphalt-delivery",
+        "resource": "asphalt (granite aggregate based)",
+        "quantity": 600000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_downer_edi",
+        "corridor_id": "AU_road_boral-asphalt-delivery",
+        "resource": "asphalt (granite aggregate based)",
+        "quantity": 500000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_acciona_geotech",
+        "corridor_id": "AU_road_boral-asphalt-delivery",
+        "resource": "asphalt (granite aggregate based)",
+        "quantity": 400000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_boral_limited_processing"
+    ],
+    "resources": [
+      "Granite"
+    ]
+  },
+  {
+    "id": "AU_holcim_concrete_products",
+    "name": "Holcim Ready-Mix Concrete",
+    "tier": "building_products",
+    "country_iso2": "AU",
+    "canonical_company": "Holcim Australia",
+    "coordinates": {
+      "lat": -37.82,
+      "lon": 144.96
+    },
+    "downstream": [
+      {
+        "target_id": "AU_cpb_contractors",
+        "corridor_id": "AU_road_holcim-concrete-delivery-mel",
+        "resource": "ready-mix concrete (granite aggregate based)",
+        "quantity": 700000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_john_holland",
+        "corridor_id": "AU_road_holcim-concrete-delivery-mel",
+        "resource": "ready-mix concrete (granite aggregate based)",
+        "quantity": 500000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_multiplex",
+        "corridor_id": "AU_road_holcim-concrete-delivery-mel",
+        "resource": "ready-mix concrete (granite aggregate based)",
+        "quantity": 300000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_lendlease",
+        "corridor_id": "AU_road_holcim-concrete-delivery-mel",
+        "resource": "ready-mix concrete (granite aggregate based)",
+        "quantity": 300000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_holcim_australia_processing"
+    ],
+    "resources": [
+      "Granite"
+    ]
+  },
+  {
+    "id": "AU_holcim_asphalt_products",
+    "name": "Holcim Asphalt",
+    "tier": "building_products",
+    "country_iso2": "AU",
+    "canonical_company": "Holcim Australia",
+    "coordinates": {
+      "lat": -37.8,
+      "lon": 145
+    },
+    "downstream": [
+      {
+        "target_id": "AU_fulton_hogan",
+        "corridor_id": "AU_road_holcim-asphalt-delivery",
+        "resource": "asphalt (granite aggregate based)",
+        "quantity": 400000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_downer_edi",
+        "corridor_id": "AU_road_holcim-asphalt-delivery",
+        "resource": "asphalt (granite aggregate based)",
+        "quantity": 300000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_holcim_australia_processing"
+    ],
+    "resources": [
+      "Granite"
+    ]
+  },
+  {
+    "id": "AU_wagners_concrete_products",
+    "name": "Wagners Ready-Mix & Earth Friendly Concrete",
+    "tier": "building_products",
+    "country_iso2": "AU",
+    "canonical_company": "Wagners Holding Company",
+    "coordinates": {
+      "lat": -27.56,
+      "lon": 151.82
+    },
+    "downstream": [
+      {
+        "target_id": "AU_cpb_contractors",
+        "corridor_id": "AU_road_wagners-concrete-delivery-qld",
+        "resource": "ready-mix concrete (granite aggregate based)",
+        "quantity": 300000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_bmc_group",
+        "corridor_id": "AU_road_wagners-concrete-delivery-qld",
+        "resource": "ready-mix concrete (granite aggregate based)",
+        "quantity": 200000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_wagners_processing"
+    ],
+    "resources": [
+      "Granite"
+    ]
+  },
+  {
+    "id": "AU_wagners_precast_products",
+    "name": "Wagners Composite Fibre Technologies & Precast",
+    "tier": "building_products",
+    "country_iso2": "AU",
+    "canonical_company": "Wagners Holding Company",
+    "coordinates": {
+      "lat": -27.56,
+      "lon": 151.82
+    },
+    "downstream": [
+      {
+        "target_id": "AU_cpb_contractors",
+        "corridor_id": "AU_road_wagners-precast-delivery-qld",
+        "resource": "precast concrete elements (granite aggregate based)",
+        "quantity": 200000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_fulton_hogan",
+        "corridor_id": "AU_road_wagners-precast-delivery-qld",
+        "resource": "precast concrete elements (granite aggregate based)",
+        "quantity": 100000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_wagners_processing"
+    ],
+    "resources": [
+      "Granite"
+    ]
+  },
+  {
+    "id": "AU_adbri_concrete_products",
+    "name": "Adbri Ready-Mix Concrete (SA)",
+    "tier": "building_products",
+    "country_iso2": "AU",
+    "canonical_company": "Adbri Limited",
+    "coordinates": {
+      "lat": -34.93,
+      "lon": 138.6
+    },
+    "downstream": [
+      {
+        "target_id": "AU_badge_constructions",
+        "corridor_id": "AU_road_adbri-concrete-delivery-sa",
+        "resource": "ready-mix concrete (granite aggregate based)",
+        "quantity": 200000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_lendlease",
+        "corridor_id": "AU_road_adbri-concrete-delivery-sa",
+        "resource": "ready-mix concrete (granite aggregate based)",
+        "quantity": 200000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_adbri_processing"
+    ],
+    "resources": [
+      "Granite"
+    ]
+  },
+  {
+    "id": "AU_adbri_masonry_products",
+    "name": "Adbri Masonry — Paving & Retaining Walls",
+    "tier": "building_products",
+    "country_iso2": "AU",
+    "canonical_company": "Adbri Limited",
+    "coordinates": {
+      "lat": -34.85,
+      "lon": 138.62
+    },
+    "downstream": [
+      {
+        "target_id": "AU_badge_constructions",
+        "corridor_id": "AU_road_adbri-masonry-delivery-sa",
+        "resource": "granite-based masonry and paving products",
+        "quantity": 100000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_mcmahon_services",
+        "corridor_id": "AU_road_adbri-masonry-delivery-sa",
+        "resource": "granite-based masonry and paving products",
+        "quantity": 100000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_adbri_processing"
+    ],
+    "resources": [
+      "Granite"
+    ]
+  },
+  {
+    "id": "AU_australian_stone_suppliers",
+    "name": "Australian Stone Suppliers (Dimension Stone)",
+    "tier": "building_products",
+    "country_iso2": "AU",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": -33.87,
+      "lon": 151.21
+    },
+    "downstream": [
+      {
+        "target_id": "AU_lendlease",
+        "corridor_id": "AU_road_dimension-stone-sydney",
+        "resource": "finished granite slabs and tiles",
+        "quantity": 60000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_multiplex",
+        "corridor_id": "AU_road_dimension-stone-sydney",
+        "resource": "finished granite slabs and tiles",
+        "quantity": 40000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_icon_co",
+        "corridor_id": "AU_road_dimension-stone-mel",
+        "resource": "finished granite slabs and tiles",
+        "quantity": 30000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_hanson_australia_processing",
+      "AU_boral_limited_processing"
+    ],
+    "resources": [
+      "Granite"
+    ]
+  },
+  {
+    "id": "AU_fulton_hogan",
+    "name": "Fulton Hogan",
+    "tier": "contractor",
+    "country_iso2": "AU",
+    "canonical_company": "Fulton Hogan",
+    "coordinates": {
+      "lat": -37.83,
+      "lon": 144.98
+    },
+    "downstream": [
+      {
+        "target_id": "AU_infrastructure",
+        "corridor_id": "AU_road_fh-project-sites",
+        "resource": "asphalt and pavement materials (granite aggregate based)",
+        "quantity": 1000000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_government",
+        "corridor_id": "AU_road_fh-project-sites",
+        "resource": "road maintenance materials (granite aggregate based)",
+        "quantity": 400000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_hanson_asphalt_products",
+      "AU_boral_asphalt_products",
+      "AU_holcim_asphalt_products",
+      "AU_wagners_precast_products"
+    ],
+    "resources": [
+      "Granite"
+    ]
+  },
+  {
+    "id": "AU_downer_edi",
+    "name": "Downer Group",
+    "tier": "contractor",
+    "country_iso2": "AU",
+    "canonical_company": "Downer Group",
+    "coordinates": {
+      "lat": -33.8,
+      "lon": 151.13
+    },
+    "downstream": [
+      {
+        "target_id": "AU_infrastructure",
+        "corridor_id": "AU_road_downer-project-sites",
+        "resource": "asphalt and road base materials (granite aggregate based)",
+        "quantity": 800000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_government",
+        "corridor_id": "AU_road_downer-project-sites",
+        "resource": "road and rail maintenance materials (granite aggregate based)",
+        "quantity": 300000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_hanson_asphalt_products",
+      "AU_boral_asphalt_products",
+      "AU_holcim_asphalt_products"
+    ],
+    "resources": [
+      "Granite"
+    ]
+  },
+  {
+    "id": "AU_probuild",
+    "name": "Probuild (WBHO subsidiary)",
+    "tier": "contractor",
+    "country_iso2": "AU",
+    "canonical_company": "Probuild",
+    "coordinates": {
+      "lat": -37.81,
+      "lon": 144.97
+    },
+    "downstream": [
+      {
+        "target_id": "AU_commercial",
+        "corridor_id": "AU_road_probuild-project-sites",
+        "resource": "ready-mix concrete (granite aggregate based)",
+        "quantity": 250000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_residential",
+        "corridor_id": "AU_road_probuild-project-sites",
+        "resource": "ready-mix concrete (granite aggregate based)",
+        "quantity": 150000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_boral_concrete_products"
+    ],
+    "resources": [
+      "Granite"
+    ]
+  },
+  {
+    "id": "AU_bmc_group",
+    "name": "BMC Group (QLD Contractor)",
+    "tier": "contractor",
+    "country_iso2": "AU",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": -27.47,
+      "lon": 153.03
+    },
+    "downstream": [
+      {
+        "target_id": "AU_infrastructure",
+        "corridor_id": "AU_road_bmc-project-sites-qld",
+        "resource": "granite-based construction materials",
+        "quantity": 120000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_residential",
+        "corridor_id": "AU_road_bmc-project-sites-qld",
+        "resource": "granite-based construction materials",
+        "quantity": 80000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_wagners_concrete_products"
+    ],
+    "resources": [
+      "Granite"
+    ]
+  },
+  {
+    "id": "AU_mcmahon_services",
+    "name": "McMahon Services",
+    "tier": "contractor",
+    "country_iso2": "AU",
+    "canonical_company": "McMahon Services",
+    "coordinates": {
+      "lat": -34.92,
+      "lon": 138.6
+    },
+    "downstream": [
+      {
+        "target_id": "AU_infrastructure",
+        "corridor_id": "AU_road_mcmahon-project-sites-sa",
+        "resource": "granite-based masonry and paving for civil works",
+        "quantity": 100000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_adbri_masonry_products"
+    ],
+    "resources": [
+      "Granite"
+    ]
+  },
+  {
+    "id": "AU_icon_co",
+    "name": "Icon Co (Kajima)",
+    "tier": "contractor",
+    "country_iso2": "AU",
+    "canonical_company": "Icon Co",
+    "coordinates": {
+      "lat": -37.82,
+      "lon": 144.96
+    },
+    "downstream": [
+      {
+        "target_id": "AU_residential",
+        "corridor_id": "AU_road_icon-project-sites-mel",
+        "resource": "granite slabs and tiles for residential fit-out",
+        "quantity": 30000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_australian_stone_suppliers"
+    ],
+    "resources": [
+      "Granite"
+    ]
+  },
+  {
+    "id": "AU_road_peppertree-sydney",
+    "tier": "transport",
+    "name": "Road: Peppertree Quarry to Sydney metro",
+    "country_iso2": "AU",
+    "operator_id": "AU_boral_limited",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "regional",
+    "coordinates": {
+      "lat": -34.2,
+      "lon": 150.8
+    }
+  },
+  {
+    "id": "AU_road_lysterfield-melbourne",
+    "tier": "transport",
+    "name": "Road: Lysterfield Quarry to Melbourne metro",
+    "country_iso2": "AU",
+    "operator_id": "AU_holcim_australia",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "local",
+    "coordinates": {
+      "lat": -37.88,
+      "lon": 145.15
+    }
+  },
+  {
+    "id": "AU_road_prospect-melbourne",
+    "tier": "transport",
+    "name": "Road: Prospect Hill Quarry to Melbourne metro",
+    "country_iso2": "AU",
+    "operator_id": "AU_hanson_australia",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "local",
+    "coordinates": {
+      "lat": -37.75,
+      "lon": 145
+    }
+  },
+  {
+    "id": "AU_road_montrose-melbourne",
+    "tier": "transport",
+    "name": "Road: Montrose Quarry to Melbourne metro",
+    "country_iso2": "AU",
+    "operator_id": "AU_boral_limited",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "local",
+    "coordinates": {
+      "lat": -37.82,
+      "lon": 145.2
+    }
+  },
+  {
+    "id": "AU_road_wellcamp-toowoomba",
+    "tier": "transport",
+    "name": "Road: Wellcamp Quarry to Toowoomba / SEQ",
+    "country_iso2": "AU",
+    "operator_id": "AU_wagners_holding",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "regional",
+    "coordinates": {
+      "lat": -27.55,
+      "lon": 151.9
+    }
+  },
+  {
+    "id": "AU_road_wolffdene-brisbane",
+    "tier": "transport",
+    "name": "Road: Wolffdene Quarry to Brisbane / Gold Coast",
+    "country_iso2": "AU",
+    "operator_id": "AU_holcim_australia",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "regional",
+    "coordinates": {
+      "lat": -27.7,
+      "lon": 153.12
+    }
+  },
+  {
+    "id": "AU_road_kapooka-wagga",
+    "tier": "transport",
+    "name": "Road: Kapooka Quarry to Wagga Wagga region",
+    "country_iso2": "AU",
+    "operator_id": "AU_hanson_australia",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "local",
+    "coordinates": {
+      "lat": -35.14,
+      "lon": 147.33
+    }
+  },
+  {
+    "id": "AU_road_blackhill-adelaide",
+    "tier": "transport",
+    "name": "Road: Black Hill Quarry to Adelaide metro",
+    "country_iso2": "AU",
+    "operator_id": "AU_adbri_limited",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "local",
+    "coordinates": {
+      "lat": -34.89,
+      "lon": 138.67
+    }
+  },
+  {
+    "id": "AU_road_seaham-newcastle",
+    "tier": "transport",
+    "name": "Road: Seaham Quarry to Newcastle / Hunter",
+    "country_iso2": "AU",
+    "operator_id": "AU_boral_limited",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "regional",
+    "coordinates": {
+      "lat": -32.85,
+      "lon": 151.6
+    }
+  },
+  {
+    "id": "AU_road_stonyfell-adelaide",
+    "tier": "transport",
+    "name": "Road: Stonyfell Quarry to Adelaide metro",
+    "country_iso2": "AU",
+    "operator_id": "AU_hanson_australia",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "local",
+    "coordinates": {
+      "lat": -34.93,
+      "lon": 138.66
+    }
+  },
+  {
+    "id": "AU_road_dunmore-wollongong",
+    "tier": "transport",
+    "name": "Road: Dunmore Quarry to Wollongong / Illawarra",
+    "country_iso2": "AU",
+    "operator_id": "AU_boral_limited",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "regional",
+    "coordinates": {
+      "lat": -34.58,
+      "lon": 150.87
+    }
+  },
+  {
+    "id": "AU_road_oaklands-melbourne",
+    "tier": "transport",
+    "name": "Road: Oaklands Junction Quarry to Melbourne metro",
+    "country_iso2": "AU",
+    "operator_id": "AU_holcim_australia",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "local",
+    "coordinates": {
+      "lat": -37.65,
+      "lon": 144.85
+    }
+  },
+  {
+    "id": "AU_road_hanson-nsw-distribution",
+    "tier": "transport",
+    "name": "Hanson NSW aggregate distribution network",
+    "country_iso2": "AU",
+    "operator_id": "AU_hanson_australia",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "regional",
+    "coordinates": {
+      "lat": -33.85,
+      "lon": 151.05
+    }
+  },
+  {
+    "id": "AU_road_hanson-mel-distribution",
+    "tier": "transport",
+    "name": "Hanson VIC aggregate distribution network",
+    "country_iso2": "AU",
+    "operator_id": "AU_hanson_australia",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "regional",
+    "coordinates": {
+      "lat": -37.8,
+      "lon": 145
+    }
+  },
+  {
+    "id": "AU_road_hanson-dimension-stone",
+    "tier": "transport",
+    "name": "Hanson dimension stone distribution",
+    "country_iso2": "AU",
+    "operator_id": "AU_hanson_australia",
+    "mode": "road",
+    "form": "unit_load",
+    "range": "regional",
+    "coordinates": {
+      "lat": -33.86,
+      "lon": 151.1
+    }
+  },
+  {
+    "id": "AU_road_boral-nsw-distribution",
+    "tier": "transport",
+    "name": "Boral NSW/QLD aggregate distribution network",
+    "country_iso2": "AU",
+    "operator_id": "AU_boral_limited",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "regional",
+    "coordinates": {
+      "lat": -33.85,
+      "lon": 151.15
+    }
+  },
+  {
+    "id": "AU_road_boral-dimension-stone",
+    "tier": "transport",
+    "name": "Boral dimension stone distribution",
+    "country_iso2": "AU",
+    "operator_id": "AU_boral_limited",
+    "mode": "road",
+    "form": "unit_load",
+    "range": "regional",
+    "coordinates": {
+      "lat": -33.87,
+      "lon": 151.2
+    }
+  },
+  {
+    "id": "AU_road_holcim-vic-distribution",
+    "tier": "transport",
+    "name": "Holcim VIC aggregate distribution network",
+    "country_iso2": "AU",
+    "operator_id": "AU_holcim_australia",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "regional",
+    "coordinates": {
+      "lat": -37.82,
+      "lon": 144.98
+    }
+  },
+  {
+    "id": "AU_road_wagners-qld-distribution",
+    "tier": "transport",
+    "name": "Wagners QLD aggregate distribution network",
+    "country_iso2": "AU",
+    "operator_id": "AU_wagners_holding",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "regional",
+    "coordinates": {
+      "lat": -27.55,
+      "lon": 151.85
+    }
+  },
+  {
+    "id": "AU_road_adbri-sa-distribution",
+    "tier": "transport",
+    "name": "Adbri SA aggregate distribution network",
+    "country_iso2": "AU",
+    "operator_id": "AU_adbri_limited",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "regional",
+    "coordinates": {
+      "lat": -34.9,
+      "lon": 138.62
+    }
+  },
+  {
+    "id": "AU_road_hanson-concrete-delivery-nsw",
+    "tier": "transport",
+    "name": "Hanson concrete truck delivery — NSW",
+    "country_iso2": "AU",
+    "operator_id": "AU_hanson_australia",
+    "mode": "road",
+    "form": "bulk_liquid",
+    "range": "local",
+    "coordinates": {
+      "lat": -33.84,
+      "lon": 151.07
+    }
+  },
+  {
+    "id": "AU_road_hanson-concrete-delivery-mel",
+    "tier": "transport",
+    "name": "Hanson concrete truck delivery — VIC",
+    "country_iso2": "AU",
+    "operator_id": "AU_hanson_australia",
+    "mode": "road",
+    "form": "bulk_liquid",
+    "range": "local",
+    "coordinates": {
+      "lat": -37.82,
+      "lon": 145
+    }
+  },
+  {
+    "id": "AU_road_hanson-asphalt-delivery",
+    "tier": "transport",
+    "name": "Hanson asphalt delivery network",
+    "country_iso2": "AU",
+    "operator_id": "AU_hanson_australia",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "local",
+    "coordinates": {
+      "lat": -33.86,
+      "lon": 151.05
+    }
+  },
+  {
+    "id": "AU_road_boral-concrete-delivery-nsw",
+    "tier": "transport",
+    "name": "Boral concrete truck delivery — NSW",
+    "country_iso2": "AU",
+    "operator_id": "AU_boral_limited",
+    "mode": "road",
+    "form": "bulk_liquid",
+    "range": "local",
+    "coordinates": {
+      "lat": -33.87,
+      "lon": 151.2
+    }
+  },
+  {
+    "id": "AU_road_boral-concrete-delivery-mel",
+    "tier": "transport",
+    "name": "Boral concrete truck delivery — VIC",
+    "country_iso2": "AU",
+    "operator_id": "AU_boral_limited",
+    "mode": "road",
+    "form": "bulk_liquid",
+    "range": "local",
+    "coordinates": {
+      "lat": -37.82,
+      "lon": 144.97
+    }
+  },
+  {
+    "id": "AU_road_boral-asphalt-delivery",
+    "tier": "transport",
+    "name": "Boral asphalt delivery network",
+    "country_iso2": "AU",
+    "operator_id": "AU_boral_limited",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "regional",
+    "coordinates": {
+      "lat": -33.89,
+      "lon": 151.1
+    }
+  },
+  {
+    "id": "AU_road_holcim-concrete-delivery-mel",
+    "tier": "transport",
+    "name": "Holcim concrete truck delivery — VIC",
+    "country_iso2": "AU",
+    "operator_id": "AU_holcim_australia",
+    "mode": "road",
+    "form": "bulk_liquid",
+    "range": "local",
+    "coordinates": {
+      "lat": -37.82,
+      "lon": 144.96
+    }
+  },
+  {
+    "id": "AU_road_holcim-asphalt-delivery",
+    "tier": "transport",
+    "name": "Holcim asphalt delivery network — VIC",
+    "country_iso2": "AU",
+    "operator_id": "AU_holcim_australia",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "local",
+    "coordinates": {
+      "lat": -37.81,
+      "lon": 145
+    }
+  },
+  {
+    "id": "AU_road_wagners-concrete-delivery-qld",
+    "tier": "transport",
+    "name": "Wagners concrete truck delivery — QLD",
+    "country_iso2": "AU",
+    "operator_id": "AU_wagners_holding",
+    "mode": "road",
+    "form": "bulk_liquid",
+    "range": "regional",
+    "coordinates": {
+      "lat": -27.5,
+      "lon": 152
+    }
+  },
+  {
+    "id": "AU_road_wagners-precast-delivery-qld",
+    "tier": "transport",
+    "name": "Wagners precast element delivery — QLD",
+    "country_iso2": "AU",
+    "operator_id": "AU_wagners_holding",
+    "mode": "road",
+    "form": "unit_load",
+    "range": "regional",
+    "coordinates": {
+      "lat": -27.5,
+      "lon": 152
+    }
+  },
+  {
+    "id": "AU_road_adbri-concrete-delivery-sa",
+    "tier": "transport",
+    "name": "Adbri concrete truck delivery — SA",
+    "country_iso2": "AU",
+    "operator_id": "AU_adbri_limited",
+    "mode": "road",
+    "form": "bulk_liquid",
+    "range": "local",
+    "coordinates": {
+      "lat": -34.93,
+      "lon": 138.6
+    }
+  },
+  {
+    "id": "AU_road_adbri-masonry-delivery-sa",
+    "tier": "transport",
+    "name": "Adbri masonry product delivery — SA",
+    "country_iso2": "AU",
+    "operator_id": "AU_adbri_limited",
+    "mode": "road",
+    "form": "unit_load",
+    "range": "local",
+    "coordinates": {
+      "lat": -34.9,
+      "lon": 138.61
+    }
+  },
+  {
+    "id": "AU_road_dimension-stone-sydney",
+    "tier": "transport",
+    "name": "Dimension stone delivery — Sydney metro",
+    "country_iso2": "AU",
+    "operator_id": "AU_australian_stone_suppliers",
+    "mode": "road",
+    "form": "unit_load",
+    "range": "local",
+    "coordinates": {
+      "lat": -33.87,
+      "lon": 151.21
+    }
+  },
+  {
+    "id": "AU_road_dimension-stone-mel",
+    "tier": "transport",
+    "name": "Dimension stone delivery — Melbourne metro",
+    "country_iso2": "AU",
+    "operator_id": "AU_australian_stone_suppliers",
+    "mode": "road",
+    "form": "unit_load",
+    "range": "local",
+    "coordinates": {
+      "lat": -37.82,
+      "lon": 144.97
+    }
+  },
+  {
+    "id": "AU_road_cpb-project-sites",
+    "tier": "transport",
+    "name": "CPB Contractors — last-mile to project sites",
+    "country_iso2": "AU",
+    "operator_id": "AU_cpb_contractors",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "regional",
+    "coordinates": {
+      "lat": -33.85,
+      "lon": 151.21
+    }
+  },
+  {
+    "id": "AU_road_lendlease-project-sites",
+    "tier": "transport",
+    "name": "Lendlease — last-mile to project sites",
+    "country_iso2": "AU",
+    "operator_id": "AU_lendlease",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "regional",
+    "coordinates": {
+      "lat": -33.87,
+      "lon": 151.21
+    }
+  },
+  {
+    "id": "AU_road_jh-project-sites",
+    "tier": "transport",
+    "name": "John Holland — last-mile to project sites",
+    "country_iso2": "AU",
+    "operator_id": "AU_john_holland",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "regional",
+    "coordinates": {
+      "lat": -37.82,
+      "lon": 144.97
+    }
+  },
+  {
+    "id": "AU_road_fh-project-sites",
+    "tier": "transport",
+    "name": "Fulton Hogan — last-mile to project sites",
+    "country_iso2": "AU",
+    "operator_id": "AU_fulton_hogan",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "regional",
+    "coordinates": {
+      "lat": -37.83,
+      "lon": 144.98
+    }
+  },
+  {
+    "id": "AU_road_downer-project-sites",
+    "tier": "transport",
+    "name": "Downer Group — last-mile to project sites",
+    "country_iso2": "AU",
+    "operator_id": "AU_downer_group",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "regional",
+    "coordinates": {
+      "lat": -33.8,
+      "lon": 151.13
+    }
+  },
+  {
+    "id": "AU_road_multiplex-project-sites",
+    "tier": "transport",
+    "name": "Multiplex — last-mile to project sites",
+    "country_iso2": "AU",
+    "operator_id": "AU_multiplex",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "regional",
+    "coordinates": {
+      "lat": -33.86,
+      "lon": 151.21
+    }
+  },
+  {
+    "id": "AU_road_acciona-project-sites",
+    "tier": "transport",
+    "name": "Acciona — last-mile to project sites",
+    "country_iso2": "AU",
+    "operator_id": "AU_acciona",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "regional",
+    "coordinates": {
+      "lat": -33.86,
+      "lon": 151.2
+    }
+  },
+  {
+    "id": "AU_road_probuild-project-sites",
+    "tier": "transport",
+    "name": "Probuild — last-mile to project sites",
+    "country_iso2": "AU",
+    "operator_id": "AU_probuild",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "local",
+    "coordinates": {
+      "lat": -37.81,
+      "lon": 144.97
+    }
+  },
+  {
+    "id": "AU_road_bmc-project-sites-qld",
+    "tier": "transport",
+    "name": "BMC Group — last-mile to QLD project sites",
+    "country_iso2": "AU",
+    "operator_id": "AU_bmc_group",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "regional",
+    "coordinates": {
+      "lat": -27.47,
+      "lon": 153.03
+    }
+  },
+  {
+    "id": "AU_road_badge-project-sites-sa",
+    "tier": "transport",
+    "name": "Badge Constructions — last-mile to SA project sites",
+    "country_iso2": "AU",
+    "operator_id": "AU_badge_constructions",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "local",
+    "coordinates": {
+      "lat": -34.93,
+      "lon": 138.6
+    }
+  },
+  {
+    "id": "AU_road_mcmahon-project-sites-sa",
+    "tier": "transport",
+    "name": "McMahon Services — last-mile to SA project sites",
+    "country_iso2": "AU",
+    "operator_id": "AU_mcmahon_services",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "local",
+    "coordinates": {
+      "lat": -34.92,
+      "lon": 138.6
+    }
+  },
+  {
+    "id": "AU_road_icon-project-sites-mel",
+    "tier": "transport",
+    "name": "Icon Co — last-mile to Melbourne project sites",
+    "country_iso2": "AU",
+    "operator_id": "AU_icon_co",
+    "mode": "road",
+    "form": "unit_load",
+    "range": "local",
+    "coordinates": {
+      "lat": -37.82,
+      "lon": 144.96
+    }
+  }
+]

@@ -1,0 +1,894 @@
+[
+  {
+    "id": "AU_omya_australia_huonville",
+    "name": "Omya Australia — Ida Bay Marble Quarry (Huonville, TAS)",
+    "tier": "extraction",
+    "country_iso2": "AU",
+    "canonical_company": "Omya Australia",
+    "coordinates": {
+      "lat": -43.44,
+      "lon": 146.88
+    },
+    "downstream": [
+      {
+        "target_id": "AU_omya_australia_processing",
+        "corridor_id": "AU_road_ida-bay-hobart",
+        "resource": "raw marble blocks and aggregate",
+        "quantity": 80000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Marble"
+    ]
+  },
+  {
+    "id": "AU_sibelco_chillagoe",
+    "name": "Sibelco — Chillagoe Marble Quarry (QLD)",
+    "tier": "extraction",
+    "country_iso2": "AU",
+    "canonical_company": "Sibelco",
+    "coordinates": {
+      "lat": -17.15,
+      "lon": 144.52
+    },
+    "downstream": [
+      {
+        "target_id": "AU_sibelco_processing_townsville",
+        "corridor_id": "AU_road_chillagoe-townsville",
+        "resource": "raw marble aggregate and calcium carbonate feed",
+        "quantity": 60000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Marble"
+    ]
+  },
+  {
+    "id": "AU_adelaide_brighton_angaston",
+    "name": "Adelaide Brighton — Angaston Marble Quarry (SA)",
+    "tier": "extraction",
+    "country_iso2": "AU",
+    "canonical_company": "Adelaide Brighton",
+    "coordinates": {
+      "lat": -34.52,
+      "lon": 139.05
+    },
+    "downstream": [
+      {
+        "target_id": "AU_adelaide_brighton_processing",
+        "corridor_id": "AU_road_angaston-adelaide",
+        "resource": "raw marble for calcium carbonate and aggregate",
+        "quantity": 50000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_adelaide_brighton_cement_angaston_plant",
+        "corridor_id": "AU_road_angaston-plant",
+        "resource": "crushed limestone",
+        "quantity": 800000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Marble",
+      "Limestone"
+    ]
+  },
+  {
+    "id": "AU_boral_wombeyan",
+    "name": "Boral — Wombeyan Marble Quarry (NSW)",
+    "tier": "extraction",
+    "country_iso2": "AU",
+    "canonical_company": "Boral",
+    "coordinates": {
+      "lat": -34.32,
+      "lon": 149.98
+    },
+    "downstream": [
+      {
+        "target_id": "AU_boral_processing_sydney",
+        "corridor_id": "AU_road_wombeyan-sydney",
+        "resource": "raw marble blocks and crushed marble",
+        "quantity": 35000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Marble"
+    ]
+  },
+  {
+    "id": "AU_hanson_buchan",
+    "name": "Hanson Australia — Buchan Marble Quarry (VIC)",
+    "tier": "extraction",
+    "country_iso2": "AU",
+    "canonical_company": "Hanson Australia",
+    "coordinates": {
+      "lat": -37.5,
+      "lon": 148.17
+    },
+    "downstream": [
+      {
+        "target_id": "AU_hanson_processing_melbourne",
+        "corridor_id": "AU_road_buchan-melbourne",
+        "resource": "raw marble aggregate",
+        "quantity": 25000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Marble"
+    ]
+  },
+  {
+    "id": "AU_marbleworks_cowell",
+    "name": "Cowell Marble Quarry (SA)",
+    "tier": "extraction",
+    "country_iso2": "AU",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": -33.68,
+      "lon": 136.92
+    },
+    "downstream": [
+      {
+        "target_id": "AU_adelaide_brighton_processing",
+        "corridor_id": "AU_road_cowell-adelaide",
+        "resource": "raw marble blocks",
+        "quantity": 15000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Marble"
+    ]
+  },
+  {
+    "id": "AU_omya_australia_processing",
+    "name": "Omya Australia — Processing Plant (Hobart, TAS)",
+    "tier": "processor",
+    "country_iso2": "AU",
+    "canonical_company": "Omya Australia",
+    "coordinates": {
+      "lat": -42.88,
+      "lon": 147.33
+    },
+    "downstream": [
+      {
+        "target_id": "AU_csr_building_products",
+        "corridor_id": "INTL_ocean_hobart-sydney",
+        "resource": "ground calcium carbonate (GCC) from marble",
+        "quantity": 20000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_brickworks_building_products",
+        "corridor_id": "INTL_ocean_hobart-melbourne",
+        "resource": "marble calcium carbonate filler",
+        "quantity": 15000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_dulux_group",
+        "corridor_id": "INTL_ocean_hobart-melbourne",
+        "resource": "marble-derived calcium carbonate for coatings",
+        "quantity": 25000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_adbri_masonry",
+        "corridor_id": "INTL_ocean_hobart-adelaide",
+        "resource": "marble aggregate and calcium carbonate",
+        "quantity": 10000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_industrial",
+        "corridor_id": "AU_road_hobart-local",
+        "resource": "marble calcium carbonate for industrial use",
+        "quantity": 10000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_omya_australia_huonville"
+    ],
+    "resources": [
+      "Marble"
+    ]
+  },
+  {
+    "id": "AU_sibelco_processing_townsville",
+    "name": "Sibelco — Mineral Processing (Townsville, QLD)",
+    "tier": "processor",
+    "country_iso2": "AU",
+    "canonical_company": "Sibelco",
+    "coordinates": {
+      "lat": -19.26,
+      "lon": 146.78
+    },
+    "downstream": [
+      {
+        "target_id": "AU_csr_building_products",
+        "corridor_id": "AU_ocean_townsville-sydney",
+        "resource": "processed marble aggregate and calcium carbonate",
+        "quantity": 20000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_boral_building_products",
+        "corridor_id": "AU_ocean_townsville-brisbane",
+        "resource": "marble-derived calcium carbonate filler",
+        "quantity": 15000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_industrial",
+        "corridor_id": "AU_road_townsville-local",
+        "resource": "marble calcium carbonate for agricultural and industrial use",
+        "quantity": 15000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_agricultural",
+        "corridor_id": "AU_road_townsville-local",
+        "resource": "marble calcium carbonate for soil amendment",
+        "quantity": 10000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_sibelco_chillagoe"
+    ],
+    "resources": [
+      "Marble"
+    ]
+  },
+  {
+    "id": "AU_adelaide_brighton_processing",
+    "name": "Adelaide Brighton — Mineral Processing (Adelaide, SA)",
+    "tier": "processor",
+    "country_iso2": "AU",
+    "canonical_company": "Adelaide Brighton",
+    "coordinates": {
+      "lat": -34.85,
+      "lon": 138.6
+    },
+    "downstream": [
+      {
+        "target_id": "AU_adbri_masonry",
+        "corridor_id": "AU_road_adelaide-local",
+        "resource": "processed marble for masonry and concrete products",
+        "quantity": 30000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_boral_building_products",
+        "corridor_id": "AU_road_adelaide-melbourne",
+        "resource": "marble aggregate",
+        "quantity": 15000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_dulux_group",
+        "corridor_id": "AU_road_adelaide-melbourne",
+        "resource": "marble calcium carbonate for coatings",
+        "quantity": 10000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_agricultural",
+        "corridor_id": "AU_road_adelaide-local",
+        "resource": "marble calcium carbonate for agriculture",
+        "quantity": 10000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_adelaide_brighton_angaston",
+      "AU_marbleworks_cowell"
+    ],
+    "resources": [
+      "Marble"
+    ]
+  },
+  {
+    "id": "AU_boral_processing_sydney",
+    "name": "Boral — Stone Processing (Western Sydney, NSW)",
+    "tier": "processor",
+    "country_iso2": "AU",
+    "canonical_company": "Boral",
+    "coordinates": {
+      "lat": -33.83,
+      "lon": 150.85
+    },
+    "downstream": [
+      {
+        "target_id": "AU_boral_building_products",
+        "corridor_id": "AU_road_sydney-local",
+        "resource": "processed marble aggregate and dimensional stone",
+        "quantity": 20000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_csr_building_products",
+        "corridor_id": "AU_road_sydney-local",
+        "resource": "marble filler for building products",
+        "quantity": 10000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_industrial",
+        "corridor_id": "AU_road_sydney-local",
+        "resource": "marble aggregate for industrial applications",
+        "quantity": 5000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_boral_wombeyan"
+    ],
+    "resources": [
+      "Marble"
+    ]
+  },
+  {
+    "id": "AU_hanson_processing_melbourne",
+    "name": "Hanson Australia — Processing (Melbourne, VIC)",
+    "tier": "processor",
+    "country_iso2": "AU",
+    "canonical_company": "Hanson Australia",
+    "coordinates": {
+      "lat": -37.82,
+      "lon": 144.96
+    },
+    "downstream": [
+      {
+        "target_id": "AU_boral_building_products",
+        "corridor_id": "AU_road_melbourne-local",
+        "resource": "processed marble aggregate",
+        "quantity": 12000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_csr_building_products",
+        "corridor_id": "AU_road_melbourne-local",
+        "resource": "marble calcium carbonate filler",
+        "quantity": 8000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_infrastructure",
+        "corridor_id": "AU_road_melbourne-local",
+        "resource": "marble aggregate for infrastructure",
+        "quantity": 5000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_hanson_buchan"
+    ],
+    "resources": [
+      "Marble"
+    ]
+  },
+  {
+    "id": "AU_boral_building_products",
+    "name": "Boral Building Products",
+    "tier": "building_products",
+    "country_iso2": "AU",
+    "canonical_company": "Boral",
+    "coordinates": {
+      "lat": -33.75,
+      "lon": 150.99
+    },
+    "downstream": [
+      {
+        "target_id": "AU_cimic_group",
+        "corridor_id": "AU_road_national-distribution",
+        "resource": "marble aggregate concrete and pavers",
+        "quantity": 20000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_lendlease",
+        "corridor_id": "AU_road_national-distribution",
+        "resource": "marble aggregate concrete products",
+        "quantity": 18000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_infrastructure",
+        "corridor_id": "AU_road_national-distribution",
+        "resource": "marble aggregate for civil infrastructure",
+        "quantity": 12000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_residential",
+        "corridor_id": "AU_road_national-distribution",
+        "resource": "marble building products for residential",
+        "quantity": 12000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_sibelco_processing_townsville",
+      "AU_adelaide_brighton_processing",
+      "AU_boral_processing_sydney",
+      "AU_hanson_processing_melbourne"
+    ],
+    "resources": [
+      "Marble"
+    ]
+  },
+  {
+    "id": "AU_adbri_masonry",
+    "name": "Adbri Masonry (Adelaide Brighton subsidiary)",
+    "tier": "building_products",
+    "country_iso2": "AU",
+    "canonical_company": "Adelaide Brighton",
+    "coordinates": {
+      "lat": -34.9,
+      "lon": 138.58
+    },
+    "downstream": [
+      {
+        "target_id": "AU_cimic_group",
+        "corridor_id": "AU_road_adelaide-national",
+        "resource": "marble-based masonry and precast concrete",
+        "quantity": 15000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_multiplex",
+        "corridor_id": "AU_road_adelaide-national",
+        "resource": "marble aggregate masonry products",
+        "quantity": 10000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_residential",
+        "corridor_id": "AU_road_adelaide-national",
+        "resource": "marble masonry products for residential market",
+        "quantity": 15000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_omya_australia_processing",
+      "AU_adelaide_brighton_processing"
+    ],
+    "resources": [
+      "Marble"
+    ]
+  },
+  {
+    "id": "AU_dulux_group",
+    "name": "DuluxGroup (Nippon Paint Holdings)",
+    "tier": "building_products",
+    "country_iso2": "AU",
+    "canonical_company": "DuluxGroup",
+    "coordinates": {
+      "lat": -37.77,
+      "lon": 145
+    },
+    "downstream": [
+      {
+        "target_id": "AU_lendlease",
+        "corridor_id": "AU_road_melbourne-national",
+        "resource": "marble CaCO3-filled paints and coatings",
+        "quantity": 12000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_residential",
+        "corridor_id": "AU_road_melbourne-national",
+        "resource": "marble CaCO3-filled decorative paints (retail)",
+        "quantity": 15000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_commercial",
+        "corridor_id": "AU_road_melbourne-national",
+        "resource": "marble CaCO3-filled commercial coatings",
+        "quantity": 8000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_paint_manufacturers",
+        "corridor_id": "AU_road_melbourne-national",
+        "resource": "talc-filled paint base and coatings",
+        "quantity": 13000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_paint_manufacturers",
+        "corridor_id": "AU_road_melbourne-national",
+        "resource": "mica-based paint additives / pearlescent coatings",
+        "quantity": 350,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_omya_australia_processing",
+      "AU_adelaide_brighton_processing",
+      "AU_imerys_three_springs_mill",
+      "AU_sibelco_perth_processing",
+      "AU_talc_resources_leigh_creek_mill",
+      "AU_imerys_australia",
+      "AU_lmag_speciality_minerals"
+    ],
+    "resources": [
+      "Marble",
+      "Talc",
+      "Mica"
+    ]
+  },
+  {
+    "id": "AU_cimic_group",
+    "name": "CIMIC Group",
+    "tier": "contractor",
+    "country_iso2": "AU",
+    "canonical_company": "CIMIC Group",
+    "coordinates": {
+      "lat": -33.86,
+      "lon": 151.21
+    },
+    "downstream": [
+      {
+        "target_id": "AU_infrastructure",
+        "corridor_id": "AU_road_project-sites-cimic",
+        "resource": "marble aggregate in infrastructure projects",
+        "quantity": 20000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_commercial",
+        "corridor_id": "AU_road_project-sites-cimic",
+        "resource": "marble-containing commercial construction",
+        "quantity": 10000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_government",
+        "corridor_id": "AU_road_project-sites-cimic",
+        "resource": "marble-containing government project deliverables",
+        "quantity": 5000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_boral_building_products",
+      "AU_adbri_masonry"
+    ],
+    "resources": [
+      "Marble"
+    ]
+  },
+  {
+    "id": "AU_road_ida-bay-hobart",
+    "tier": "transport",
+    "name": "Road — Ida Bay to Hobart (Huon Highway, TAS)",
+    "country_iso2": "AU",
+    "operator_id": "AU_tas_state_roads",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "regional",
+    "coordinates": {
+      "lat": -43.1,
+      "lon": 147.05
+    }
+  },
+  {
+    "id": "AU_road_chillagoe-townsville",
+    "tier": "transport",
+    "name": "Road — Chillagoe to Townsville (QLD)",
+    "country_iso2": "AU",
+    "operator_id": "AU_qld_state_roads",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "regional",
+    "coordinates": {
+      "lat": -18.2,
+      "lon": 145.65
+    }
+  },
+  {
+    "id": "AU_road_angaston-adelaide",
+    "tier": "transport",
+    "name": "Road — Angaston to Adelaide (SA)",
+    "country_iso2": "AU",
+    "operator_id": "AU_sa_state_roads",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "regional",
+    "coordinates": {
+      "lat": -34.68,
+      "lon": 138.82
+    }
+  },
+  {
+    "id": "AU_road_wombeyan-sydney",
+    "tier": "transport",
+    "name": "Road — Wombeyan Caves to Western Sydney (NSW)",
+    "country_iso2": "AU",
+    "operator_id": "AU_nsw_state_roads",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "regional",
+    "coordinates": {
+      "lat": -34.1,
+      "lon": 150.4
+    }
+  },
+  {
+    "id": "AU_road_buchan-melbourne",
+    "tier": "transport",
+    "name": "Road — Buchan to Melbourne (VIC)",
+    "country_iso2": "AU",
+    "operator_id": "AU_vic_state_roads",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "regional",
+    "coordinates": {
+      "lat": -37.7,
+      "lon": 147.5
+    }
+  },
+  {
+    "id": "AU_road_cowell-adelaide",
+    "tier": "transport",
+    "name": "Road — Cowell to Adelaide (SA)",
+    "country_iso2": "AU",
+    "operator_id": "AU_sa_state_roads",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "regional",
+    "coordinates": {
+      "lat": -34.1,
+      "lon": 137.8
+    }
+  },
+  {
+    "id": "INTL_ocean_hobart-sydney",
+    "tier": "transport",
+    "name": "Coastal Shipping — Hobart to Sydney",
+    "country_iso2": "AU",
+    "operator_id": "AU_toll_shipping",
+    "mode": "ocean_freight",
+    "form": "bulk_dry",
+    "range": "regional",
+    "coordinates": {
+      "lat": -38.5,
+      "lon": 149.5
+    }
+  },
+  {
+    "id": "INTL_ocean_hobart-melbourne",
+    "tier": "transport",
+    "name": "Coastal Shipping — Hobart to Melbourne",
+    "country_iso2": "AU",
+    "operator_id": "AU_toll_shipping",
+    "mode": "ocean_freight",
+    "form": "bulk_dry",
+    "range": "regional",
+    "coordinates": {
+      "lat": -40.5,
+      "lon": 146
+    }
+  },
+  {
+    "id": "INTL_ocean_hobart-adelaide",
+    "tier": "transport",
+    "name": "Coastal Shipping — Hobart to Adelaide",
+    "country_iso2": "AU",
+    "operator_id": "AU_toll_shipping",
+    "mode": "ocean_freight",
+    "form": "bulk_dry",
+    "range": "regional",
+    "coordinates": {
+      "lat": -39.5,
+      "lon": 143
+    }
+  },
+  {
+    "id": "AU_road_hobart-local",
+    "tier": "transport",
+    "name": "Road — Hobart local distribution (TAS)",
+    "country_iso2": "AU",
+    "operator_id": "AU_tas_state_roads",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "local",
+    "coordinates": {
+      "lat": -42.88,
+      "lon": 147.33
+    },
+    "resources": [
+      "Shellfish (wild)"
+    ],
+    "upstream": [],
+    "downstream": []
+  },
+  {
+    "id": "AU_ocean_townsville-sydney",
+    "tier": "transport",
+    "name": "Coastal Shipping — Townsville to Sydney",
+    "country_iso2": "AU",
+    "operator_id": "AU_sea_swift",
+    "mode": "ocean_freight",
+    "form": "bulk_dry",
+    "range": "regional",
+    "coordinates": {
+      "lat": -26,
+      "lon": 153.5
+    }
+  },
+  {
+    "id": "AU_ocean_townsville-brisbane",
+    "tier": "transport",
+    "name": "Coastal Shipping — Townsville to Brisbane",
+    "country_iso2": "AU",
+    "operator_id": "AU_sea_swift",
+    "mode": "ocean_freight",
+    "form": "bulk_dry",
+    "range": "regional",
+    "coordinates": {
+      "lat": -22,
+      "lon": 151.5
+    }
+  },
+  {
+    "id": "AU_road_townsville-local",
+    "tier": "transport",
+    "name": "Road — Townsville local / regional distribution (QLD)",
+    "country_iso2": "AU",
+    "operator_id": "AU_qld_state_roads",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "local",
+    "coordinates": {
+      "lat": -19.26,
+      "lon": 146.78
+    }
+  },
+  {
+    "id": "AU_road_adelaide-local",
+    "tier": "transport",
+    "name": "Road — Adelaide local distribution (SA)",
+    "country_iso2": "AU",
+    "operator_id": "AU_sa_state_roads",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "local",
+    "coordinates": {
+      "lat": -34.93,
+      "lon": 138.6
+    },
+    "resources": [
+      "Feldspar",
+      "Shellfish (wild)",
+      "Oxygen"
+    ],
+    "upstream": [],
+    "downstream": []
+  },
+  {
+    "id": "AU_road_melbourne-local",
+    "tier": "transport",
+    "name": "Road — Melbourne metropolitan distribution (VIC)",
+    "country_iso2": "AU",
+    "operator_id": "AU_vic_state_roads",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "local",
+    "coordinates": {
+      "lat": -37.82,
+      "lon": 144.96
+    },
+    "resources": [
+      "Shellfish (wild)"
+    ],
+    "upstream": [],
+    "downstream": []
+  },
+  {
+    "id": "AU_road_sydney-distribution",
+    "tier": "transport",
+    "name": "Road — Sydney metro building products distribution",
+    "country_iso2": "AU",
+    "operator_id": "AU_linfox",
+    "mode": "road",
+    "form": "containerised",
+    "range": "regional",
+    "coordinates": {
+      "lat": -33.82,
+      "lon": 151.05
+    }
+  },
+  {
+    "id": "AU_road_national-distribution",
+    "tier": "transport",
+    "name": "Road — National building products distribution network",
+    "country_iso2": "AU",
+    "operator_id": "AU_toll_group",
+    "mode": "road",
+    "form": "containerised",
+    "range": "regional",
+    "coordinates": {
+      "lat": -34,
+      "lon": 149
+    }
+  },
+  {
+    "id": "AU_road_adelaide-national",
+    "tier": "transport",
+    "name": "Road — Adelaide national masonry distribution",
+    "country_iso2": "AU",
+    "operator_id": "AU_toll_group",
+    "mode": "road",
+    "form": "unit_load",
+    "range": "regional",
+    "coordinates": {
+      "lat": -34.9,
+      "lon": 138.6
+    },
+    "resources": [
+      "Fish (farmed)",
+      "Shellfish (wild)"
+    ],
+    "upstream": [],
+    "downstream": []
+  },
+  {
+    "id": "AU_road_project-sites",
+    "tier": "transport",
+    "name": "Road — Lendlease project-site deliveries (national)",
+    "country_iso2": "AU",
+    "operator_id": "AU_lendlease_logistics",
+    "mode": "road",
+    "form": "unit_load",
+    "range": "regional",
+    "coordinates": {
+      "lat": -33.87,
+      "lon": 151.21
+    }
+  },
+  {
+    "id": "AU_road_project-sites-cimic",
+    "tier": "transport",
+    "name": "Road — CIMIC project-site deliveries (national)",
+    "country_iso2": "AU",
+    "operator_id": "AU_cimic_logistics",
+    "mode": "road",
+    "form": "unit_load",
+    "range": "regional",
+    "coordinates": {
+      "lat": -33.86,
+      "lon": 151.21
+    }
+  },
+  {
+    "id": "AU_road_project-sites-multiplex",
+    "tier": "transport",
+    "name": "Road — Multiplex project-site deliveries (national)",
+    "country_iso2": "AU",
+    "operator_id": "AU_multiplex_logistics",
+    "mode": "road",
+    "form": "unit_load",
+    "range": "regional",
+    "coordinates": {
+      "lat": -33.86,
+      "lon": 151.2
+    }
+  }
+]

@@ -1,0 +1,1141 @@
+[
+  {
+    "id": "AU_ord_river_cotton",
+    "name": "Ord River Irrigation Area Cotton Farms",
+    "tier": "grower",
+    "country_iso2": "AU",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": -15.67,
+      "lon": 128.73
+    },
+    "downstream": [
+      {
+        "target_id": "AU_namoi_cotton_alliance",
+        "corridor_id": "AU_road_kununurra-wyndham",
+        "resource": "raw seed cotton (lint and seed)",
+        "quantity": 8000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Fiber-Crops"
+    ]
+  },
+  {
+    "id": "AU_st_george_cotton_farms",
+    "name": "St George / Balonne Shire Cotton Farms",
+    "tier": "grower",
+    "country_iso2": "AU",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": -28.05,
+      "lon": 148.58
+    },
+    "downstream": [
+      {
+        "target_id": "AU_louis_dreyfus_company",
+        "corridor_id": "AU_road_stgeorge-toowoomba",
+        "resource": "raw seed cotton (lint and seed)",
+        "quantity": 90000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Fiber-Crops"
+    ]
+  },
+  {
+    "id": "AU_gwydir_valley_cotton_farms",
+    "name": "Gwydir Valley Cotton Farms (Moree region)",
+    "tier": "grower",
+    "country_iso2": "AU",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": -29.47,
+      "lon": 149.84
+    },
+    "downstream": [
+      {
+        "target_id": "AU_namoi_cotton_alliance",
+        "corridor_id": "AU_road_moree-narrabri",
+        "resource": "raw seed cotton (lint and seed)",
+        "quantity": 180000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Fiber-Crops"
+    ]
+  },
+  {
+    "id": "AU_namoi_valley_cotton_farms",
+    "name": "Namoi Valley Cotton Farms (Narrabri–Wee Waa)",
+    "tier": "grower",
+    "country_iso2": "AU",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": -30.05,
+      "lon": 149.59
+    },
+    "downstream": [
+      {
+        "target_id": "AU_namoi_cotton_alliance",
+        "corridor_id": "AU_road_narrabri-local",
+        "resource": "raw seed cotton (lint and seed)",
+        "quantity": 200000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Fiber-Crops"
+    ]
+  },
+  {
+    "id": "AU_macquarie_valley_cotton_farms",
+    "name": "Macquarie Valley Cotton Farms (Warren–Trangie)",
+    "tier": "grower",
+    "country_iso2": "AU",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": -31.7,
+      "lon": 147.84
+    },
+    "downstream": [
+      {
+        "target_id": "AU_auscott_ltd",
+        "corridor_id": "AU_road_warren-narromine",
+        "resource": "raw seed cotton (lint and seed)",
+        "quantity": 120000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Fiber-Crops"
+    ]
+  },
+  {
+    "id": "AU_bourke_cotton_farms",
+    "name": "Bourke / Upper Darling Cotton Farms",
+    "tier": "grower",
+    "country_iso2": "AU",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": -30.09,
+      "lon": 145.94
+    },
+    "downstream": [
+      {
+        "target_id": "AU_auscott_ltd",
+        "corridor_id": "AU_road_bourke-warren",
+        "resource": "raw seed cotton (lint and seed)",
+        "quantity": 40000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Fiber-Crops"
+    ]
+  },
+  {
+    "id": "AU_murrumbidgee_cotton_farms",
+    "name": "Murrumbidgee Irrigation Area Cotton Farms (Griffith–Hay)",
+    "tier": "grower",
+    "country_iso2": "AU",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": -34.29,
+      "lon": 146.05
+    },
+    "downstream": [
+      {
+        "target_id": "AU_louis_dreyfus_company",
+        "corridor_id": "AU_road_griffith-sydney",
+        "resource": "raw seed cotton (lint and seed)",
+        "quantity": 70000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Fiber-Crops"
+    ]
+  },
+  {
+    "id": "AU_darling_downs_cotton_farms",
+    "name": "Darling Downs Cotton Farms (Dalby–Cecil Plains)",
+    "tier": "grower",
+    "country_iso2": "AU",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": -27.18,
+      "lon": 151.26
+    },
+    "downstream": [
+      {
+        "target_id": "AU_olam_agri",
+        "corridor_id": "AU_road_dalby-toowoomba",
+        "resource": "raw seed cotton (lint and seed)",
+        "quantity": 130000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Fiber-Crops"
+    ]
+  },
+  {
+    "id": "AU_emerald_cotton_farms",
+    "name": "Central Highlands Cotton Farms (Emerald–Theodore)",
+    "tier": "grower",
+    "country_iso2": "AU",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": -23.53,
+      "lon": 148.16
+    },
+    "downstream": [
+      {
+        "target_id": "AU_olam_agri",
+        "corridor_id": "AU_road_emerald-gladstone",
+        "resource": "raw seed cotton (lint and seed)",
+        "quantity": 60000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Fiber-Crops"
+    ]
+  },
+  {
+    "id": "AU_southern_nsw_hemp_farms",
+    "name": "Southern NSW Industrial Hemp Farms (Riverina)",
+    "tier": "grower",
+    "country_iso2": "AU",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": -35.11,
+      "lon": 147.37
+    },
+    "downstream": [
+      {
+        "target_id": "AU_australian_primary_hemp",
+        "corridor_id": "AU_road_riverina-melbourne",
+        "resource": "raw industrial hemp stalks (bast fiber)",
+        "quantity": 3000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Fiber-Crops"
+    ]
+  },
+  {
+    "id": "AU_hunter_valley_hemp_farms",
+    "name": "Hunter Valley Industrial Hemp Farms",
+    "tier": "grower",
+    "country_iso2": "AU",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": -32.75,
+      "lon": 151.55
+    },
+    "downstream": [
+      {
+        "target_id": "AU_australian_primary_hemp",
+        "corridor_id": "AU_road_hunter-sydney",
+        "resource": "raw industrial hemp stalks (bast fiber)",
+        "quantity": 2000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Fiber-Crops"
+    ]
+  },
+  {
+    "id": "AU_west_australian_hemp_farms",
+    "name": "Western Australia Industrial Hemp Farms (Albany–Manjimup)",
+    "tier": "grower",
+    "country_iso2": "AU",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": -34.63,
+      "lon": 117.88
+    },
+    "downstream": [
+      {
+        "target_id": "AU_ecofibre_ltd",
+        "corridor_id": "AU_road_albany-perth",
+        "resource": "raw industrial hemp stalks (bast fiber)",
+        "quantity": 1500,
+        "metric": "t"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Fiber-Crops"
+    ]
+  },
+  {
+    "id": "AU_namoi_cotton_alliance",
+    "name": "Namoi Cotton Alliance (Gin Network)",
+    "tier": "elevator_handler",
+    "country_iso2": "AU",
+    "canonical_company": "Namoi Cotton Alliance",
+    "coordinates": {
+      "lat": -30,
+      "lon": 149.77
+    },
+    "downstream": [
+      {
+        "target_id": "AU_namoi_cotton_ginning",
+        "corridor_id": "AU_road_narrabri-local",
+        "resource": "raw seed cotton modules",
+        "quantity": 388000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_ord_river_cotton",
+      "AU_gwydir_valley_cotton_farms",
+      "AU_namoi_valley_cotton_farms"
+    ],
+    "resources": [
+      "Fiber-Crops"
+    ]
+  },
+  {
+    "id": "AU_auscott_ltd",
+    "name": "Auscott Limited (Gin & Marketing)",
+    "tier": "elevator_handler",
+    "country_iso2": "AU",
+    "canonical_company": "Auscott Limited",
+    "coordinates": {
+      "lat": -30.32,
+      "lon": 149.78
+    },
+    "downstream": [
+      {
+        "target_id": "AU_auscott_ginning",
+        "corridor_id": "AU_road_narrabri-local",
+        "resource": "raw seed cotton modules",
+        "quantity": 160000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_macquarie_valley_cotton_farms",
+      "AU_bourke_cotton_farms"
+    ],
+    "resources": [
+      "Fiber-Crops"
+    ]
+  },
+  {
+    "id": "AU_louis_dreyfus_company",
+    "name": "Louis Dreyfus Company Australia (Cotton Handling)",
+    "tier": "elevator_handler",
+    "country_iso2": "AU",
+    "canonical_company": "Louis Dreyfus Company",
+    "coordinates": {
+      "lat": -27.47,
+      "lon": 153.03
+    },
+    "downstream": [
+      {
+        "target_id": "AU_ldc_ginning",
+        "corridor_id": "AU_road_stgeorge-toowoomba",
+        "resource": "raw seed cotton modules",
+        "quantity": 160000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_st_george_cotton_farms",
+      "AU_murrumbidgee_cotton_farms"
+    ],
+    "resources": [
+      "Fiber-Crops"
+    ]
+  },
+  {
+    "id": "AU_olam_agri",
+    "name": "Olam Agri Australia (Cotton Handling)",
+    "tier": "elevator_handler",
+    "country_iso2": "AU",
+    "canonical_company": "Olam Agri",
+    "coordinates": {
+      "lat": -27.56,
+      "lon": 151.95
+    },
+    "downstream": [
+      {
+        "target_id": "AU_olam_ginning",
+        "corridor_id": "AU_road_dalby-toowoomba",
+        "resource": "raw seed cotton modules",
+        "quantity": 190000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_darling_downs_cotton_farms",
+      "AU_emerald_cotton_farms"
+    ],
+    "resources": [
+      "Fiber-Crops"
+    ]
+  },
+  {
+    "id": "AU_australian_primary_hemp",
+    "name": "Australian Primary Hemp",
+    "tier": "elevator_handler",
+    "country_iso2": "AU",
+    "canonical_company": "Australian Primary Hemp",
+    "coordinates": {
+      "lat": -33.87,
+      "lon": 151.21
+    },
+    "downstream": [
+      {
+        "target_id": "AU_hemp_processor_geelong",
+        "corridor_id": "AU_road_riverina-melbourne",
+        "resource": "retted industrial hemp stalks",
+        "quantity": 5000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_southern_nsw_hemp_farms",
+      "AU_hunter_valley_hemp_farms"
+    ],
+    "resources": [
+      "Fiber-Crops"
+    ]
+  },
+  {
+    "id": "AU_ecofibre_ltd",
+    "name": "Ecofibre Ltd (Hemp Handling)",
+    "tier": "elevator_handler",
+    "country_iso2": "AU",
+    "canonical_company": "Ecofibre Ltd",
+    "coordinates": {
+      "lat": -27.47,
+      "lon": 153.03
+    },
+    "downstream": [
+      {
+        "target_id": "AU_hemp_processor_geelong",
+        "corridor_id": "AU_road_perth-melbourne",
+        "resource": "retted industrial hemp stalks",
+        "quantity": 1500,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_west_australian_hemp_farms"
+    ],
+    "resources": [
+      "Fiber-Crops"
+    ]
+  },
+  {
+    "id": "AU_namoi_cotton_ginning",
+    "name": "Namoi Cotton Gins (Wee Waa, Merah North, Mungindi)",
+    "tier": "processor",
+    "country_iso2": "AU",
+    "canonical_company": "Namoi Cotton Alliance",
+    "coordinates": {
+      "lat": -30.23,
+      "lon": 149.44
+    },
+    "downstream": [
+      {
+        "target_id": "AU_cotton_traders_sydney",
+        "corridor_id": "AU_rail_narrabri-sydney",
+        "resource": "ginned cotton lint bales",
+        "quantity": 130000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_queensland_cotton",
+        "corridor_id": "AU_rail_narrabri-brisbane",
+        "resource": "ginned cotton lint bales",
+        "quantity": 50000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_namoi_cotton_alliance"
+    ],
+    "resources": [
+      "Fiber-Crops"
+    ]
+  },
+  {
+    "id": "AU_auscott_ginning",
+    "name": "Auscott Ginning (Narrabri, Warren)",
+    "tier": "processor",
+    "country_iso2": "AU",
+    "canonical_company": "Auscott Limited",
+    "coordinates": {
+      "lat": -30.33,
+      "lon": 149.77
+    },
+    "downstream": [
+      {
+        "target_id": "AU_cotton_traders_sydney",
+        "corridor_id": "AU_rail_narrabri-sydney",
+        "resource": "ginned cotton lint bales",
+        "quantity": 55000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_auscott_ltd"
+    ],
+    "resources": [
+      "Fiber-Crops"
+    ]
+  },
+  {
+    "id": "AU_ldc_ginning",
+    "name": "Louis Dreyfus Cotton Gins (QLD/NSW)",
+    "tier": "processor",
+    "country_iso2": "AU",
+    "canonical_company": "Louis Dreyfus Company",
+    "coordinates": {
+      "lat": -27.95,
+      "lon": 150.1
+    },
+    "downstream": [
+      {
+        "target_id": "AU_queensland_cotton",
+        "corridor_id": "AU_rail_toowoomba-brisbane",
+        "resource": "ginned cotton lint bales",
+        "quantity": 55000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_louis_dreyfus_company"
+    ],
+    "resources": [
+      "Fiber-Crops"
+    ]
+  },
+  {
+    "id": "AU_olam_ginning",
+    "name": "Olam Cotton Gins (Dalby, St George, Emerald)",
+    "tier": "processor",
+    "country_iso2": "AU",
+    "canonical_company": "Olam Agri",
+    "coordinates": {
+      "lat": -27.18,
+      "lon": 151.26
+    },
+    "downstream": [
+      {
+        "target_id": "AU_queensland_cotton",
+        "corridor_id": "AU_rail_toowoomba-brisbane",
+        "resource": "ginned cotton lint bales",
+        "quantity": 65000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_olam_agri"
+    ],
+    "resources": [
+      "Fiber-Crops"
+    ]
+  },
+  {
+    "id": "AU_hemp_processor_geelong",
+    "name": "Australian Hemp Processing Facility (Geelong)",
+    "tier": "processor",
+    "country_iso2": "AU",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": -38.15,
+      "lon": 144.36
+    },
+    "downstream": [
+      {
+        "target_id": "AU_hemp_textiles_aus",
+        "corridor_id": "AU_road_geelong-melbourne",
+        "resource": "processed hemp fiber (decorticated bast)",
+        "quantity": 3500,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_australian_primary_hemp",
+      "AU_ecofibre_ltd"
+    ],
+    "resources": [
+      "Fiber-Crops"
+    ]
+  },
+  {
+    "id": "AU_cotton_traders_sydney",
+    "name": "Cotton Traders / Exporters – Port Botany Hub",
+    "tier": "brand_packer",
+    "country_iso2": "AU",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": -33.97,
+      "lon": 151.23
+    },
+    "downstream": [
+      {
+        "target_id": "CN_industrial",
+        "corridor_id": "INTL_ocean_sydney-shanghai",
+        "resource": "export cotton lint bales (Australian origin)",
+        "quantity": 80000,
+        "metric": "t"
+      },
+      {
+        "target_id": "BD_industrial",
+        "corridor_id": "INTL_ocean_sydney-chittagong",
+        "resource": "export cotton lint bales (Australian origin)",
+        "quantity": 40000,
+        "metric": "t"
+      },
+      {
+        "target_id": "VN_industrial",
+        "corridor_id": "INTL_ocean_sydney-hochiminh",
+        "resource": "export cotton lint bales (Australian origin)",
+        "quantity": 30000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_australian_cotton_shippers",
+        "corridor_id": "AU_road_botany-local",
+        "resource": "cotton lint bales for domestic spinning",
+        "quantity": 35000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_namoi_cotton_ginning",
+      "AU_auscott_ginning"
+    ],
+    "resources": [
+      "Fiber-Crops"
+    ]
+  },
+  {
+    "id": "AU_queensland_cotton",
+    "name": "Queensland Cotton / Exporters – Port of Brisbane Hub",
+    "tier": "brand_packer",
+    "country_iso2": "AU",
+    "canonical_company": "Queensland Cotton",
+    "coordinates": {
+      "lat": -27.38,
+      "lon": 153.17
+    },
+    "downstream": [
+      {
+        "target_id": "CN_industrial",
+        "corridor_id": "INTL_ocean_brisbane-qingdao",
+        "resource": "export cotton lint bales (Australian origin)",
+        "quantity": 75000,
+        "metric": "t"
+      },
+      {
+        "target_id": "BD_industrial",
+        "corridor_id": "INTL_ocean_brisbane-chittagong",
+        "resource": "export cotton lint bales (Australian origin)",
+        "quantity": 35000,
+        "metric": "t"
+      },
+      {
+        "target_id": "ID_industrial",
+        "corridor_id": "INTL_ocean_brisbane-jakarta",
+        "resource": "export cotton lint bales (Australian origin)",
+        "quantity": 25000,
+        "metric": "t"
+      },
+      {
+        "target_id": "TH_industrial",
+        "corridor_id": "INTL_ocean_brisbane-bangkok",
+        "resource": "export cotton lint bales (Australian origin)",
+        "quantity": 15000,
+        "metric": "t"
+      },
+      {
+        "target_id": "IN_industrial",
+        "corridor_id": "INTL_ocean_brisbane-mumbai",
+        "resource": "export cotton lint bales (Australian origin)",
+        "quantity": 20000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_namoi_cotton_ginning",
+      "AU_ldc_ginning",
+      "AU_olam_ginning"
+    ],
+    "resources": [
+      "Fiber-Crops"
+    ]
+  },
+  {
+    "id": "AU_australian_cotton_shippers",
+    "name": "Australian Domestic Cotton / Textile Distributors",
+    "tier": "retailer",
+    "country_iso2": "AU",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": -33.87,
+      "lon": 151.21
+    },
+    "downstream": [
+      {
+        "target_id": "AU_industrial",
+        "corridor_id": "AU_road_sydney-metro",
+        "resource": "cotton lint / yarn for domestic textile manufacturing",
+        "quantity": 25000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_commercial",
+        "corridor_id": "AU_road_sydney-metro",
+        "resource": "cotton products for commercial / hospitality use",
+        "quantity": 10000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_cotton_traders_sydney"
+    ],
+    "resources": [
+      "Fiber-Crops"
+    ]
+  },
+  {
+    "id": "AU_hemp_textiles_aus",
+    "name": "Australian Hemp Textile & Building Product Distributors",
+    "tier": "brand_packer",
+    "country_iso2": "AU",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": -37.81,
+      "lon": 144.96
+    },
+    "downstream": [
+      {
+        "target_id": "AU_hemp_retailers",
+        "corridor_id": "AU_road_melbourne-national",
+        "resource": "hemp fiber textile goods and building products",
+        "quantity": 3500,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_hemp_processor_geelong"
+    ],
+    "resources": [
+      "Fiber-Crops"
+    ]
+  },
+  {
+    "id": "AU_hemp_retailers",
+    "name": "Australian Hemp Product Retailers",
+    "tier": "retailer",
+    "country_iso2": "AU",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": -33.87,
+      "lon": 151.21
+    },
+    "downstream": [
+      {
+        "target_id": "AU_residential",
+        "corridor_id": "AU_road_sydney-metro",
+        "resource": "hemp fiber consumer products (textiles, insulation)",
+        "quantity": 2000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_industrial",
+        "corridor_id": "AU_road_melbourne-national",
+        "resource": "hemp fiber industrial products (building materials, composites)",
+        "quantity": 1500,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_hemp_textiles_aus"
+    ],
+    "resources": [
+      "Fiber-Crops"
+    ]
+  },
+  {
+    "id": "AU_road_kununurra-wyndham",
+    "tier": "transport",
+    "name": "Road: Kununurra to Wyndham Port (Great Northern Hwy)",
+    "country_iso2": "AU",
+    "operator_id": "AU_main_roads_wa",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "regional",
+    "coordinates": {
+      "lat": -15.55,
+      "lon": 128.5
+    }
+  },
+  {
+    "id": "AU_road_stgeorge-toowoomba",
+    "tier": "transport",
+    "name": "Road: St George to Toowoomba (Carnarvon / Gore Hwys)",
+    "country_iso2": "AU",
+    "operator_id": "AU_qld_transport",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "regional",
+    "coordinates": {
+      "lat": -27.75,
+      "lon": 149.8
+    }
+  },
+  {
+    "id": "AU_road_moree-narrabri",
+    "tier": "transport",
+    "name": "Road: Moree to Narrabri (Newell Hwy corridor)",
+    "country_iso2": "AU",
+    "operator_id": "AU_nsw_transport",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "regional",
+    "coordinates": {
+      "lat": -29.76,
+      "lon": 149.85
+    },
+    "resources": [
+      "Oil-Crops"
+    ],
+    "upstream": [],
+    "downstream": []
+  },
+  {
+    "id": "AU_road_narrabri-local",
+    "tier": "transport",
+    "name": "Road: Narrabri / Wee Waa local cotton roads",
+    "country_iso2": "AU",
+    "operator_id": "AU_nsw_transport",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "local",
+    "coordinates": {
+      "lat": -30.1,
+      "lon": 149.6
+    }
+  },
+  {
+    "id": "AU_road_warren-narromine",
+    "tier": "transport",
+    "name": "Road: Warren to Narromine (Mitchell Hwy corridor)",
+    "country_iso2": "AU",
+    "operator_id": "AU_nsw_transport",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "regional",
+    "coordinates": {
+      "lat": -31.5,
+      "lon": 148.2
+    }
+  },
+  {
+    "id": "AU_road_bourke-warren",
+    "tier": "transport",
+    "name": "Road: Bourke to Warren (Mitchell Hwy)",
+    "country_iso2": "AU",
+    "operator_id": "AU_nsw_transport",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "regional",
+    "coordinates": {
+      "lat": -30.7,
+      "lon": 147
+    }
+  },
+  {
+    "id": "AU_road_griffith-sydney",
+    "tier": "transport",
+    "name": "Road: Griffith / Hay to Sydney (Hume / Sturt corridor)",
+    "country_iso2": "AU",
+    "operator_id": "AU_nsw_transport",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "regional",
+    "coordinates": {
+      "lat": -34,
+      "lon": 147.5
+    }
+  },
+  {
+    "id": "AU_road_dalby-toowoomba",
+    "tier": "transport",
+    "name": "Road: Dalby to Toowoomba (Warrego Hwy)",
+    "country_iso2": "AU",
+    "operator_id": "AU_qld_transport",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "regional",
+    "coordinates": {
+      "lat": -27.35,
+      "lon": 151.6
+    }
+  },
+  {
+    "id": "AU_road_emerald-gladstone",
+    "tier": "transport",
+    "name": "Road: Emerald to Gladstone / Rockhampton",
+    "country_iso2": "AU",
+    "operator_id": "AU_qld_transport",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "regional",
+    "coordinates": {
+      "lat": -23.85,
+      "lon": 149.5
+    }
+  },
+  {
+    "id": "AU_road_riverina-melbourne",
+    "tier": "transport",
+    "name": "Road: Riverina to Melbourne (Hume Hwy)",
+    "country_iso2": "AU",
+    "operator_id": "AU_nsw_transport",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "regional",
+    "coordinates": {
+      "lat": -36,
+      "lon": 146.5
+    }
+  },
+  {
+    "id": "AU_road_hunter-sydney",
+    "tier": "transport",
+    "name": "Road: Hunter Valley to Sydney",
+    "country_iso2": "AU",
+    "operator_id": "AU_nsw_transport",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "regional",
+    "coordinates": {
+      "lat": -33.3,
+      "lon": 151.3
+    }
+  },
+  {
+    "id": "AU_road_albany-perth",
+    "tier": "transport",
+    "name": "Road: Albany to Perth (Albany Hwy)",
+    "country_iso2": "AU",
+    "operator_id": "AU_main_roads_wa",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "regional",
+    "coordinates": {
+      "lat": -33.5,
+      "lon": 117
+    }
+  },
+  {
+    "id": "AU_rail_narrabri-sydney",
+    "tier": "transport",
+    "name": "Rail: Narrabri to Port Botany (NSW cotton rail corridor)",
+    "country_iso2": "AU",
+    "operator_id": "AU_pacific_national",
+    "mode": "rail",
+    "form": "containerised",
+    "range": "regional",
+    "coordinates": {
+      "lat": -32,
+      "lon": 150
+    }
+  },
+  {
+    "id": "AU_rail_narrabri-brisbane",
+    "tier": "transport",
+    "name": "Rail: Northern NSW to Port of Brisbane",
+    "country_iso2": "AU",
+    "operator_id": "AU_pacific_national",
+    "mode": "rail",
+    "form": "containerised",
+    "range": "regional",
+    "coordinates": {
+      "lat": -29,
+      "lon": 150.5
+    }
+  },
+  {
+    "id": "AU_rail_toowoomba-brisbane",
+    "tier": "transport",
+    "name": "Rail: Toowoomba to Port of Brisbane",
+    "country_iso2": "AU",
+    "operator_id": "AU_aurizon",
+    "mode": "rail",
+    "form": "containerised",
+    "range": "regional",
+    "coordinates": {
+      "lat": -27.5,
+      "lon": 152.5
+    }
+  },
+  {
+    "id": "AU_road_geelong-melbourne",
+    "tier": "transport",
+    "name": "Road: Geelong to Melbourne",
+    "country_iso2": "AU",
+    "operator_id": "AU_vic_transport",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "local",
+    "coordinates": {
+      "lat": -37.95,
+      "lon": 144.6
+    }
+  },
+  {
+    "id": "AU_road_botany-local",
+    "tier": "transport",
+    "name": "Road: Port Botany to Sydney metropolitan distribution",
+    "country_iso2": "AU",
+    "operator_id": "AU_nsw_transport",
+    "mode": "road",
+    "form": "containerised",
+    "range": "local",
+    "coordinates": {
+      "lat": -33.95,
+      "lon": 151.22
+    }
+  },
+  {
+    "id": "INTL_ocean_sydney-shanghai",
+    "tier": "transport",
+    "name": "Ocean: Port Botany (Sydney) to Shanghai",
+    "country_iso2": "INTL",
+    "operator_id": "INTL_maersk",
+    "mode": "ocean_freight",
+    "form": "containerised",
+    "range": "international",
+    "coordinates": {
+      "lat": -10,
+      "lon": 140
+    }
+  },
+  {
+    "id": "INTL_ocean_sydney-chittagong",
+    "tier": "transport",
+    "name": "Ocean: Port Botany (Sydney) to Chittagong",
+    "country_iso2": "INTL",
+    "operator_id": "INTL_msc",
+    "mode": "ocean_freight",
+    "form": "containerised",
+    "range": "international",
+    "coordinates": {
+      "lat": -5,
+      "lon": 115
+    }
+  },
+  {
+    "id": "INTL_ocean_sydney-hochiminh",
+    "tier": "transport",
+    "name": "Ocean: Port Botany (Sydney) to Ho Chi Minh City",
+    "country_iso2": "INTL",
+    "operator_id": "INTL_cosco",
+    "mode": "ocean_freight",
+    "form": "containerised",
+    "range": "international",
+    "coordinates": {
+      "lat": -5,
+      "lon": 125
+    }
+  },
+  {
+    "id": "INTL_ocean_brisbane-qingdao",
+    "tier": "transport",
+    "name": "Ocean: Port of Brisbane to Qingdao",
+    "country_iso2": "INTL",
+    "operator_id": "INTL_cosco",
+    "mode": "ocean_freight",
+    "form": "containerised",
+    "range": "international",
+    "coordinates": {
+      "lat": -5,
+      "lon": 135
+    }
+  },
+  {
+    "id": "INTL_ocean_brisbane-chittagong",
+    "tier": "transport",
+    "name": "Ocean: Port of Brisbane to Chittagong",
+    "country_iso2": "INTL",
+    "operator_id": "INTL_msc",
+    "mode": "ocean_freight",
+    "form": "containerised",
+    "range": "international",
+    "coordinates": {
+      "lat": -10,
+      "lon": 120
+    }
+  },
+  {
+    "id": "INTL_ocean_brisbane-jakarta",
+    "tier": "transport",
+    "name": "Ocean: Port of Brisbane to Jakarta / Tanjung Priok",
+    "country_iso2": "INTL",
+    "operator_id": "INTL_maersk",
+    "mode": "ocean_freight",
+    "form": "containerised",
+    "range": "international",
+    "coordinates": {
+      "lat": -15,
+      "lon": 145
+    }
+  },
+  {
+    "id": "INTL_ocean_brisbane-bangkok",
+    "tier": "transport",
+    "name": "Ocean: Port of Brisbane to Bangkok / Laem Chabang",
+    "country_iso2": "INTL",
+    "operator_id": "INTL_evergreen",
+    "mode": "ocean_freight",
+    "form": "containerised",
+    "range": "international",
+    "coordinates": {
+      "lat": -8,
+      "lon": 130
+    }
+  },
+  {
+    "id": "INTL_ocean_brisbane-mumbai",
+    "tier": "transport",
+    "name": "Ocean: Port of Brisbane to Mumbai / Nhava Sheva",
+    "country_iso2": "INTL",
+    "operator_id": "INTL_hapag_lloyd",
+    "mode": "ocean_freight",
+    "form": "containerised",
+    "range": "international",
+    "coordinates": {
+      "lat": -10,
+      "lon": 105
+    }
+  }
+]

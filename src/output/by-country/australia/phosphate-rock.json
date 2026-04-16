@@ -1,0 +1,1243 @@
+[
+  {
+    "id": "AU_incitec_pivot_phosphate_hill",
+    "name": "Phosphate Hill Mine",
+    "tier": "extraction",
+    "country_iso2": "AU",
+    "canonical_company": "Incitec Pivot",
+    "coordinates": {
+      "lat": -21.81,
+      "lon": 139.98
+    },
+    "downstream": [
+      {
+        "target_id": "AU_incitec_pivot_phosphate_hill_plant",
+        "corridor_id": "AU_conveyor_phosphate_hill_onsite",
+        "resource": "phosphate rock",
+        "quantity": 1000000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Phosphate Rock"
+    ]
+  },
+  {
+    "id": "CX_christmas_island_phosphates",
+    "name": "Christmas Island Phosphate Mine",
+    "tier": "extraction",
+    "country_iso2": "CX",
+    "canonical_company": "Christmas Island Phosphates",
+    "coordinates": {
+      "lat": -10.49,
+      "lon": 105.63
+    },
+    "downstream": [
+      {
+        "target_id": "AU_csbp_kwinana",
+        "corridor_id": "INTL_ocean_christmas-island-fremantle",
+        "resource": "phosphate rock",
+        "quantity": 300000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_christmas_island_direct_export",
+        "corridor_id": "CX_road_mine-to-port",
+        "resource": "phosphate rock",
+        "quantity": 200000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Phosphate Rock"
+    ]
+  },
+  {
+    "id": "AU_ardmore_phosphate",
+    "name": "Ardmore Phosphate Mine",
+    "tier": "extraction",
+    "country_iso2": "AU",
+    "canonical_company": "Centrex Metals",
+    "coordinates": {
+      "lat": -21.3,
+      "lon": 140.23
+    },
+    "downstream": [
+      {
+        "target_id": "AU_incitec_pivot_phosphate_hill_plant",
+        "corridor_id": "AU_road_ardmore-phosphate-hill",
+        "resource": "phosphate rock",
+        "quantity": 100000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Phosphate Rock"
+    ]
+  },
+  {
+    "id": "AU_incitec_pivot_phosphate_hill_plant",
+    "name": "Phosphate Hill Fertiliser Plant (Incitec Pivot)",
+    "tier": "chemical_processor",
+    "country_iso2": "AU",
+    "canonical_company": "Incitec Pivot",
+    "coordinates": {
+      "lat": -21.81,
+      "lon": 139.99
+    },
+    "downstream": [
+      {
+        "target_id": "AU_incitec_pivot_gibson_island",
+        "corridor_id": "AU_rail_phosphate-hill-townsville",
+        "resource": "mono-ammonium phosphate (MAP) and di-ammonium phosphate (DAP)",
+        "quantity": 500000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_incitec_pivot_geelong",
+        "corridor_id": "INTL_ocean_townsville-geelong",
+        "resource": "mono-ammonium phosphate (MAP) and di-ammonium phosphate (DAP)",
+        "quantity": 300000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_nutrien_ag_solutions",
+        "corridor_id": "AU_rail_phosphate-hill-townsville",
+        "resource": "single superphosphate and phosphoric acid derived products",
+        "quantity": 100000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_incitec_pivot_phosphate_hill",
+      "AU_ardmore_phosphate"
+    ],
+    "resources": [
+      "Phosphate Rock"
+    ]
+  },
+  {
+    "id": "AU_csbp_kwinana",
+    "name": "CSBP Kwinana Fertiliser Plant",
+    "tier": "chemical_processor",
+    "country_iso2": "AU",
+    "canonical_company": "CSBP (Wesfarmers)",
+    "coordinates": {
+      "lat": -32.24,
+      "lon": 115.77
+    },
+    "downstream": [
+      {
+        "target_id": "AU_csbp_distribution_wa",
+        "corridor_id": "AU_road_kwinana-wa-regional",
+        "resource": "single superphosphate and compound phosphate fertilisers",
+        "quantity": 250000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_csbp_wa_distribution",
+        "corridor_id": "AU_road_kwinana_wa_network",
+        "resource": "superphosphate fertiliser / ammonium sulfate",
+        "quantity": 200000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_wa_mining_acid_users",
+        "corridor_id": "AU_rail_kwinana_goldfields",
+        "resource": "sulfuric acid (for nickel/gold heap leach)",
+        "quantity": 85000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "CX_christmas_island_phosphates",
+      "AU_kwinana_refinery_sulfur",
+      "AU_imported_sulfur_bulk"
+    ],
+    "resources": [
+      "Phosphate Rock",
+      "Sulfur"
+    ]
+  },
+  {
+    "id": "AU_christmas_island_direct_export",
+    "name": "Christmas Island Phosphate Rock Export Terminal",
+    "tier": "chemical_processor",
+    "country_iso2": "CX",
+    "canonical_company": "Christmas Island Phosphates",
+    "coordinates": {
+      "lat": -10.43,
+      "lon": 105.68
+    },
+    "downstream": [
+      {
+        "target_id": "AU_elders_distribution",
+        "corridor_id": "INTL_ocean_christmas-island-adelaide",
+        "resource": "phosphate rock (direct application reactive phosphate rock)",
+        "quantity": 120000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_nutrien_ag_solutions",
+        "corridor_id": "INTL_ocean_christmas-island-melbourne",
+        "resource": "phosphate rock (direct application reactive phosphate rock)",
+        "quantity": 80000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "CX_christmas_island_phosphates"
+    ],
+    "resources": [
+      "Phosphate Rock"
+    ]
+  },
+  {
+    "id": "AU_incitec_pivot_gibson_island",
+    "name": "Gibson Island Manufacturing Complex (Incitec Pivot)",
+    "tier": "blender_distributor",
+    "country_iso2": "AU",
+    "canonical_company": "Incitec Pivot",
+    "coordinates": {
+      "lat": -27.43,
+      "lon": 153.12
+    },
+    "downstream": [
+      {
+        "target_id": "AU_incitec_pivot_fertiliser_distribution_qld",
+        "corridor_id": "AU_road_gibson-island-qld-network",
+        "resource": "blended phosphate fertilisers (MAP, DAP, NPK blends)",
+        "quantity": 300000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_nutrien_ag_solutions",
+        "corridor_id": "AU_road_gibson-island-nsw-distribution",
+        "resource": "blended phosphate fertilisers (MAP, DAP, NPK blends)",
+        "quantity": 200000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_incitec_pivot_distribution_qld",
+        "corridor_id": "AU_road_brisbane_qld_network",
+        "resource": "sulfuric acid / single superphosphate / ammonium phosphate fertiliser",
+        "quantity": 145000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_boc_qld_purifier",
+        "corridor_id": "AU_pipeline_gibson-island-co2",
+        "resource": "raw CO2 from ammonia synthesis",
+        "quantity": 50000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_incitec_pivot_phosphate_hill_plant",
+      "AU_lytton_refinery_sulfur",
+      "AU_imported_sulfur_bulk"
+    ],
+    "resources": [
+      "Phosphate Rock",
+      "Sulfur",
+      "Carbon Dioxide (industrial)"
+    ]
+  },
+  {
+    "id": "AU_incitec_pivot_geelong",
+    "name": "Geelong Fertiliser Distribution Hub (Incitec Pivot)",
+    "tier": "blender_distributor",
+    "country_iso2": "AU",
+    "canonical_company": "Incitec Pivot",
+    "coordinates": {
+      "lat": -38.15,
+      "lon": 144.36
+    },
+    "downstream": [
+      {
+        "target_id": "AU_incitec_pivot_fertiliser_distribution_vic",
+        "corridor_id": "AU_road_geelong-vic-distribution",
+        "resource": "blended phosphate fertilisers (MAP, DAP, NPK blends)",
+        "quantity": 180000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_elders_distribution",
+        "corridor_id": "AU_road_geelong-sa-distribution",
+        "resource": "blended phosphate fertilisers (MAP, DAP, NPK blends)",
+        "quantity": 120000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_incitec_pivot_distribution_vic",
+        "corridor_id": "AU_road_geelong_vic_network",
+        "resource": "single superphosphate / sulfuric acid",
+        "quantity": 100000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_incitec_pivot_phosphate_hill_plant",
+      "AU_geelong_refinery_sulfur",
+      "AU_imported_sulfur_bulk"
+    ],
+    "resources": [
+      "Phosphate Rock",
+      "Sulfur"
+    ]
+  },
+  {
+    "id": "AU_nutrien_ag_solutions",
+    "name": "Nutrien Ag Solutions (National Distribution)",
+    "tier": "blender_distributor",
+    "country_iso2": "AU",
+    "canonical_company": "Nutrien Ag Solutions",
+    "coordinates": {
+      "lat": -37.81,
+      "lon": 144.96
+    },
+    "downstream": [
+      {
+        "target_id": "AU_broadacre_grain_applicators",
+        "corridor_id": "AU_road_nutrien-rural-delivery-network",
+        "resource": "phosphate fertiliser blends (MAP, DAP, SSP, NPK)",
+        "quantity": 200000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_pastoral_applicators",
+        "corridor_id": "AU_road_nutrien-pastoral-delivery",
+        "resource": "single superphosphate and phosphate blends",
+        "quantity": 100000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_horticultural_applicators",
+        "corridor_id": "AU_road_nutrien-horticulture-delivery",
+        "resource": "liquid and granular phosphate fertilisers",
+        "quantity": 80000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_incitec_pivot_phosphate_hill_plant",
+      "AU_christmas_island_direct_export",
+      "AU_incitec_pivot_gibson_island"
+    ],
+    "resources": [
+      "Phosphate Rock"
+    ]
+  },
+  {
+    "id": "AU_csbp_distribution_wa",
+    "name": "CSBP Distribution Network Western Australia",
+    "tier": "blender_distributor",
+    "country_iso2": "AU",
+    "canonical_company": "CSBP (Wesfarmers)",
+    "coordinates": {
+      "lat": -31.95,
+      "lon": 115.86
+    },
+    "downstream": [
+      {
+        "target_id": "AU_wa_grain_applicators",
+        "corridor_id": "AU_road_csbp-wa-wheatbelt-delivery",
+        "resource": "single superphosphate and compound phosphate fertilisers",
+        "quantity": 180000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_wa_pastoral_applicators",
+        "corridor_id": "AU_road_csbp-wa-pastoral-delivery",
+        "resource": "single superphosphate",
+        "quantity": 70000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_csbp_kwinana"
+    ],
+    "resources": [
+      "Phosphate Rock"
+    ]
+  },
+  {
+    "id": "AU_elders_distribution",
+    "name": "Elders Rural Services (Fertiliser Distribution)",
+    "tier": "blender_distributor",
+    "country_iso2": "AU",
+    "canonical_company": "Elders",
+    "coordinates": {
+      "lat": -34.93,
+      "lon": 138.6
+    },
+    "downstream": [
+      {
+        "target_id": "AU_sa_grain_applicators",
+        "corridor_id": "AU_road_elders-sa-grain-delivery",
+        "resource": "phosphate fertiliser blends (MAP, DAP, SSP, NPK)",
+        "quantity": 150000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_sa_pastoral_applicators",
+        "corridor_id": "AU_road_elders-sa-pastoral-delivery",
+        "resource": "single superphosphate and reactive phosphate rock",
+        "quantity": 90000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_christmas_island_direct_export",
+      "AU_incitec_pivot_geelong"
+    ],
+    "resources": [
+      "Phosphate Rock"
+    ]
+  },
+  {
+    "id": "AU_incitec_pivot_fertiliser_distribution_qld",
+    "name": "Incitec Pivot Queensland Fertiliser Distribution",
+    "tier": "blender_distributor",
+    "country_iso2": "AU",
+    "canonical_company": "Incitec Pivot",
+    "coordinates": {
+      "lat": -23.38,
+      "lon": 150.51
+    },
+    "downstream": [
+      {
+        "target_id": "AU_qld_sugarcane_applicators",
+        "corridor_id": "AU_road_ipf-qld-sugarcane-delivery",
+        "resource": "phosphate fertiliser blends for sugarcane",
+        "quantity": 150000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_qld_broadacre_applicators",
+        "corridor_id": "AU_road_ipf-qld-broadacre-delivery",
+        "resource": "MAP, DAP and blended phosphate fertilisers",
+        "quantity": 150000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_incitec_pivot_gibson_island"
+    ],
+    "resources": [
+      "Phosphate Rock"
+    ]
+  },
+  {
+    "id": "AU_incitec_pivot_fertiliser_distribution_vic",
+    "name": "Incitec Pivot Victoria Fertiliser Distribution",
+    "tier": "blender_distributor",
+    "country_iso2": "AU",
+    "canonical_company": "Incitec Pivot",
+    "coordinates": {
+      "lat": -37.75,
+      "lon": 144.97
+    },
+    "downstream": [
+      {
+        "target_id": "AU_vic_dairy_applicators",
+        "corridor_id": "AU_road_ipf-vic-dairy-delivery",
+        "resource": "single superphosphate and phosphate blends for pasture",
+        "quantity": 100000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_vic_grain_applicators",
+        "corridor_id": "AU_road_ipf-vic-grain-delivery",
+        "resource": "MAP, DAP and blended phosphate fertilisers",
+        "quantity": 80000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_incitec_pivot_geelong"
+    ],
+    "resources": [
+      "Phosphate Rock"
+    ]
+  },
+  {
+    "id": "AU_broadacre_grain_applicators",
+    "name": "Broadacre Grain Farms (NSW/VIC/SA) — Fertiliser Application",
+    "tier": "applicator",
+    "country_iso2": "AU",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": -34,
+      "lon": 147
+    },
+    "downstream": [
+      {
+        "target_id": "AU_agricultural",
+        "corridor_id": "AU_road_farm-field-application-nsw",
+        "resource": "phosphate fertiliser applied to broadacre grain crops",
+        "quantity": 200000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_nutrien_ag_solutions"
+    ],
+    "resources": [
+      "Phosphate Rock"
+    ]
+  },
+  {
+    "id": "AU_pastoral_applicators",
+    "name": "Pastoral and Livestock Farms — Fertiliser Application",
+    "tier": "applicator",
+    "country_iso2": "AU",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": -36.5,
+      "lon": 145.5
+    },
+    "downstream": [
+      {
+        "target_id": "AU_agricultural",
+        "corridor_id": "AU_road_farm-field-application-pastoral",
+        "resource": "phosphate fertiliser applied to pasture",
+        "quantity": 100000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_nutrien_ag_solutions"
+    ],
+    "resources": [
+      "Phosphate Rock"
+    ]
+  },
+  {
+    "id": "AU_horticultural_applicators",
+    "name": "Horticultural Enterprises — Fertiliser Application",
+    "tier": "applicator",
+    "country_iso2": "AU",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": -34.7,
+      "lon": 138.7
+    },
+    "downstream": [
+      {
+        "target_id": "AU_agricultural",
+        "corridor_id": "AU_road_farm-field-application-horticulture",
+        "resource": "phosphate fertiliser applied to horticultural crops",
+        "quantity": 80000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_nutrien_ag_solutions"
+    ],
+    "resources": [
+      "Phosphate Rock"
+    ]
+  },
+  {
+    "id": "AU_wa_grain_applicators",
+    "name": "Western Australia Wheatbelt Grain Farms — Fertiliser Application",
+    "tier": "applicator",
+    "country_iso2": "AU",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": -31.5,
+      "lon": 117.5
+    },
+    "downstream": [
+      {
+        "target_id": "AU_agricultural",
+        "corridor_id": "AU_road_farm-field-application-wa-grain",
+        "resource": "phosphate fertiliser applied to wheat and canola",
+        "quantity": 180000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_csbp_distribution_wa"
+    ],
+    "resources": [
+      "Phosphate Rock"
+    ]
+  },
+  {
+    "id": "AU_wa_pastoral_applicators",
+    "name": "Western Australia Pastoral Farms — Fertiliser Application",
+    "tier": "applicator",
+    "country_iso2": "AU",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": -33,
+      "lon": 116.5
+    },
+    "downstream": [
+      {
+        "target_id": "AU_agricultural",
+        "corridor_id": "AU_road_farm-field-application-wa-pastoral",
+        "resource": "single superphosphate applied to pasture",
+        "quantity": 70000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_csbp_distribution_wa"
+    ],
+    "resources": [
+      "Phosphate Rock"
+    ]
+  },
+  {
+    "id": "AU_sa_grain_applicators",
+    "name": "South Australia Grain Farms — Fertiliser Application",
+    "tier": "applicator",
+    "country_iso2": "AU",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": -34,
+      "lon": 138.5
+    },
+    "downstream": [
+      {
+        "target_id": "AU_agricultural",
+        "corridor_id": "AU_road_farm-field-application-sa-grain",
+        "resource": "phosphate fertiliser applied to broadacre grain crops",
+        "quantity": 150000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_elders_distribution"
+    ],
+    "resources": [
+      "Phosphate Rock"
+    ]
+  },
+  {
+    "id": "AU_sa_pastoral_applicators",
+    "name": "South Australia Pastoral Farms — Fertiliser Application",
+    "tier": "applicator",
+    "country_iso2": "AU",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": -35,
+      "lon": 139
+    },
+    "downstream": [
+      {
+        "target_id": "AU_agricultural",
+        "corridor_id": "AU_road_farm-field-application-sa-pastoral",
+        "resource": "phosphate fertiliser applied to pasture",
+        "quantity": 90000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_elders_distribution"
+    ],
+    "resources": [
+      "Phosphate Rock"
+    ]
+  },
+  {
+    "id": "AU_qld_sugarcane_applicators",
+    "name": "Queensland Sugarcane Farms — Fertiliser Application",
+    "tier": "applicator",
+    "country_iso2": "AU",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": -19.3,
+      "lon": 146.8
+    },
+    "downstream": [
+      {
+        "target_id": "AU_agricultural",
+        "corridor_id": "AU_road_farm-field-application-qld-sugarcane",
+        "resource": "phosphate fertiliser applied to sugarcane",
+        "quantity": 150000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_incitec_pivot_fertiliser_distribution_qld"
+    ],
+    "resources": [
+      "Phosphate Rock"
+    ]
+  },
+  {
+    "id": "AU_qld_broadacre_applicators",
+    "name": "Queensland Broadacre Farms — Fertiliser Application",
+    "tier": "applicator",
+    "country_iso2": "AU",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": -26,
+      "lon": 150
+    },
+    "downstream": [
+      {
+        "target_id": "AU_agricultural",
+        "corridor_id": "AU_road_farm-field-application-qld-broadacre",
+        "resource": "phosphate fertiliser applied to broadacre crops",
+        "quantity": 150000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_incitec_pivot_fertiliser_distribution_qld"
+    ],
+    "resources": [
+      "Phosphate Rock"
+    ]
+  },
+  {
+    "id": "AU_vic_dairy_applicators",
+    "name": "Victoria Dairy Pasture Farms — Fertiliser Application",
+    "tier": "applicator",
+    "country_iso2": "AU",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": -38.2,
+      "lon": 145.5
+    },
+    "downstream": [
+      {
+        "target_id": "AU_agricultural",
+        "corridor_id": "AU_road_farm-field-application-vic-dairy",
+        "resource": "phosphate fertiliser applied to dairy pasture",
+        "quantity": 100000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_incitec_pivot_fertiliser_distribution_vic"
+    ],
+    "resources": [
+      "Phosphate Rock"
+    ]
+  },
+  {
+    "id": "AU_vic_grain_applicators",
+    "name": "Victoria Grain Farms — Fertiliser Application",
+    "tier": "applicator",
+    "country_iso2": "AU",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": -36.5,
+      "lon": 143.5
+    },
+    "downstream": [
+      {
+        "target_id": "AU_agricultural",
+        "corridor_id": "AU_road_farm-field-application-vic-grain",
+        "resource": "phosphate fertiliser applied to grain crops",
+        "quantity": 80000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_incitec_pivot_fertiliser_distribution_vic"
+    ],
+    "resources": [
+      "Phosphate Rock"
+    ]
+  },
+  {
+    "id": "AU_conveyor_phosphate_hill_onsite",
+    "tier": "transport",
+    "name": "Phosphate Hill Mine to Processing Plant (onsite conveyor/road)",
+    "country_iso2": "AU",
+    "operator_id": "AU_incitec_pivot",
+    "mode": "conveyor",
+    "form": "bulk_dry",
+    "range": "local",
+    "coordinates": {
+      "lat": -21.81,
+      "lon": 139.98
+    }
+  },
+  {
+    "id": "AU_road_ardmore-phosphate-hill",
+    "tier": "transport",
+    "name": "Ardmore Mine to Phosphate Hill Plant (road haulage)",
+    "country_iso2": "AU",
+    "operator_id": "AU_centrex_metals",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "local",
+    "coordinates": {
+      "lat": -21.55,
+      "lon": 140.1
+    }
+  },
+  {
+    "id": "AU_rail_phosphate-hill-townsville",
+    "tier": "transport",
+    "name": "Phosphate Hill to Port of Townsville (rail via Mt Isa line)",
+    "country_iso2": "AU",
+    "operator_id": "AU_aurizon",
+    "mode": "rail",
+    "form": "bulk_dry",
+    "range": "regional",
+    "coordinates": {
+      "lat": -20.5,
+      "lon": 143
+    }
+  },
+  {
+    "id": "INTL_ocean_townsville-geelong",
+    "tier": "transport",
+    "name": "Townsville to Geelong (coastal ocean freight)",
+    "country_iso2": "AU",
+    "operator_id": "AU_sea_swift",
+    "mode": "ocean_freight",
+    "form": "bulk_dry",
+    "range": "regional",
+    "coordinates": {
+      "lat": -28,
+      "lon": 150
+    }
+  },
+  {
+    "id": "INTL_ocean_christmas-island-fremantle",
+    "tier": "transport",
+    "name": "Christmas Island to Fremantle/Kwinana (ocean freight)",
+    "country_iso2": "INTL",
+    "operator_id": "AU_christmas_island_phosphates",
+    "mode": "ocean_freight",
+    "form": "bulk_dry",
+    "range": "international",
+    "coordinates": {
+      "lat": -20,
+      "lon": 110
+    }
+  },
+  {
+    "id": "CX_road_mine-to-port",
+    "tier": "transport",
+    "name": "Christmas Island mine to Flying Fish Cove port (road)",
+    "country_iso2": "CX",
+    "operator_id": "CX_christmas_island_phosphates",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "local",
+    "coordinates": {
+      "lat": -10.45,
+      "lon": 105.66
+    }
+  },
+  {
+    "id": "INTL_ocean_christmas-island-adelaide",
+    "tier": "transport",
+    "name": "Christmas Island to Adelaide (ocean freight)",
+    "country_iso2": "INTL",
+    "operator_id": "INTL_bulk_shipping",
+    "mode": "ocean_freight",
+    "form": "bulk_dry",
+    "range": "international",
+    "coordinates": {
+      "lat": -25,
+      "lon": 120
+    }
+  },
+  {
+    "id": "INTL_ocean_christmas-island-melbourne",
+    "tier": "transport",
+    "name": "Christmas Island to Melbourne (ocean freight)",
+    "country_iso2": "INTL",
+    "operator_id": "INTL_bulk_shipping",
+    "mode": "ocean_freight",
+    "form": "bulk_dry",
+    "range": "international",
+    "coordinates": {
+      "lat": -27,
+      "lon": 118
+    }
+  },
+  {
+    "id": "AU_road_kwinana-wa-regional",
+    "tier": "transport",
+    "name": "Kwinana to WA regional depots (road haulage)",
+    "country_iso2": "AU",
+    "operator_id": "AU_csbp_wesfarmers",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "regional",
+    "coordinates": {
+      "lat": -32,
+      "lon": 116.5
+    }
+  },
+  {
+    "id": "AU_road_gibson-island-qld-network",
+    "tier": "transport",
+    "name": "Gibson Island to Queensland distribution depots (road)",
+    "country_iso2": "AU",
+    "operator_id": "AU_incitec_pivot",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "regional",
+    "coordinates": {
+      "lat": -25,
+      "lon": 151
+    }
+  },
+  {
+    "id": "AU_road_gibson-island-nsw-distribution",
+    "tier": "transport",
+    "name": "Gibson Island to NSW distribution network (road/rail)",
+    "country_iso2": "AU",
+    "operator_id": "AU_incitec_pivot",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "regional",
+    "coordinates": {
+      "lat": -30,
+      "lon": 151.5
+    }
+  },
+  {
+    "id": "AU_road_geelong-vic-distribution",
+    "tier": "transport",
+    "name": "Geelong to Victoria distribution network (road)",
+    "country_iso2": "AU",
+    "operator_id": "AU_incitec_pivot",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "regional",
+    "coordinates": {
+      "lat": -37.5,
+      "lon": 144.5
+    }
+  },
+  {
+    "id": "AU_road_geelong-sa-distribution",
+    "tier": "transport",
+    "name": "Geelong to South Australia distribution (road)",
+    "country_iso2": "AU",
+    "operator_id": "AU_incitec_pivot",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "regional",
+    "coordinates": {
+      "lat": -36.5,
+      "lon": 141
+    }
+  },
+  {
+    "id": "AU_road_nutrien-rural-delivery-network",
+    "tier": "transport",
+    "name": "Nutrien Ag Solutions rural delivery network (road)",
+    "country_iso2": "AU",
+    "operator_id": "AU_nutrien_ag_solutions",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "regional",
+    "coordinates": {
+      "lat": -35,
+      "lon": 147
+    }
+  },
+  {
+    "id": "AU_road_nutrien-pastoral-delivery",
+    "tier": "transport",
+    "name": "Nutrien Ag Solutions pastoral delivery (road)",
+    "country_iso2": "AU",
+    "operator_id": "AU_nutrien_ag_solutions",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "regional",
+    "coordinates": {
+      "lat": -36,
+      "lon": 146
+    }
+  },
+  {
+    "id": "AU_road_nutrien-horticulture-delivery",
+    "tier": "transport",
+    "name": "Nutrien Ag Solutions horticulture delivery (road)",
+    "country_iso2": "AU",
+    "operator_id": "AU_nutrien_ag_solutions",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "regional",
+    "coordinates": {
+      "lat": -34.5,
+      "lon": 138.5
+    }
+  },
+  {
+    "id": "AU_road_csbp-wa-wheatbelt-delivery",
+    "tier": "transport",
+    "name": "CSBP to WA Wheatbelt delivery (road)",
+    "country_iso2": "AU",
+    "operator_id": "AU_csbp_wesfarmers",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "regional",
+    "coordinates": {
+      "lat": -31.5,
+      "lon": 117
+    }
+  },
+  {
+    "id": "AU_road_csbp-wa-pastoral-delivery",
+    "tier": "transport",
+    "name": "CSBP to WA pastoral regions delivery (road)",
+    "country_iso2": "AU",
+    "operator_id": "AU_csbp_wesfarmers",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "regional",
+    "coordinates": {
+      "lat": -33,
+      "lon": 116
+    }
+  },
+  {
+    "id": "AU_road_elders-sa-grain-delivery",
+    "tier": "transport",
+    "name": "Elders SA grain belt delivery (road)",
+    "country_iso2": "AU",
+    "operator_id": "AU_elders",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "regional",
+    "coordinates": {
+      "lat": -34,
+      "lon": 138.5
+    }
+  },
+  {
+    "id": "AU_road_elders-sa-pastoral-delivery",
+    "tier": "transport",
+    "name": "Elders SA pastoral delivery (road)",
+    "country_iso2": "AU",
+    "operator_id": "AU_elders",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "regional",
+    "coordinates": {
+      "lat": -35,
+      "lon": 139
+    }
+  },
+  {
+    "id": "AU_road_ipf-qld-sugarcane-delivery",
+    "tier": "transport",
+    "name": "IPF QLD sugarcane region delivery (road)",
+    "country_iso2": "AU",
+    "operator_id": "AU_incitec_pivot",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "regional",
+    "coordinates": {
+      "lat": -19.5,
+      "lon": 147
+    }
+  },
+  {
+    "id": "AU_road_ipf-qld-broadacre-delivery",
+    "tier": "transport",
+    "name": "IPF QLD broadacre region delivery (road)",
+    "country_iso2": "AU",
+    "operator_id": "AU_incitec_pivot",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "regional",
+    "coordinates": {
+      "lat": -26,
+      "lon": 150.5
+    }
+  },
+  {
+    "id": "AU_road_ipf-vic-dairy-delivery",
+    "tier": "transport",
+    "name": "IPF VIC dairy region delivery (road)",
+    "country_iso2": "AU",
+    "operator_id": "AU_incitec_pivot",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "regional",
+    "coordinates": {
+      "lat": -38.2,
+      "lon": 145.5
+    }
+  },
+  {
+    "id": "AU_road_ipf-vic-grain-delivery",
+    "tier": "transport",
+    "name": "IPF VIC grain region delivery (road)",
+    "country_iso2": "AU",
+    "operator_id": "AU_incitec_pivot",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "regional",
+    "coordinates": {
+      "lat": -36.5,
+      "lon": 143
+    }
+  },
+  {
+    "id": "AU_road_farm-field-application-nsw",
+    "tier": "transport",
+    "name": "Farm gate to field application NSW broadacre (road/on-farm)",
+    "country_iso2": "AU",
+    "operator_id": "AU_farm_operators",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "local",
+    "coordinates": {
+      "lat": -34,
+      "lon": 147
+    }
+  },
+  {
+    "id": "AU_road_farm-field-application-pastoral",
+    "tier": "transport",
+    "name": "Farm gate to field application pastoral (road/on-farm)",
+    "country_iso2": "AU",
+    "operator_id": "AU_farm_operators",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "local",
+    "coordinates": {
+      "lat": -36.5,
+      "lon": 145.5
+    }
+  },
+  {
+    "id": "AU_road_farm-field-application-horticulture",
+    "tier": "transport",
+    "name": "Farm gate to field application horticulture (road/on-farm)",
+    "country_iso2": "AU",
+    "operator_id": "AU_farm_operators",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "local",
+    "coordinates": {
+      "lat": -34.7,
+      "lon": 138.7
+    }
+  },
+  {
+    "id": "AU_road_farm-field-application-wa-grain",
+    "tier": "transport",
+    "name": "Farm gate to field application WA wheatbelt (road/on-farm)",
+    "country_iso2": "AU",
+    "operator_id": "AU_farm_operators",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "local",
+    "coordinates": {
+      "lat": -31.5,
+      "lon": 117.5
+    }
+  },
+  {
+    "id": "AU_road_farm-field-application-wa-pastoral",
+    "tier": "transport",
+    "name": "Farm gate to field application WA pastoral (road/on-farm)",
+    "country_iso2": "AU",
+    "operator_id": "AU_farm_operators",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "local",
+    "coordinates": {
+      "lat": -33,
+      "lon": 116.5
+    }
+  },
+  {
+    "id": "AU_road_farm-field-application-sa-grain",
+    "tier": "transport",
+    "name": "Farm gate to field application SA grain (road/on-farm)",
+    "country_iso2": "AU",
+    "operator_id": "AU_farm_operators",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "local",
+    "coordinates": {
+      "lat": -34,
+      "lon": 138.5
+    }
+  },
+  {
+    "id": "AU_road_farm-field-application-sa-pastoral",
+    "tier": "transport",
+    "name": "Farm gate to field application SA pastoral (road/on-farm)",
+    "country_iso2": "AU",
+    "operator_id": "AU_farm_operators",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "local",
+    "coordinates": {
+      "lat": -35,
+      "lon": 139
+    }
+  },
+  {
+    "id": "AU_road_farm-field-application-qld-sugarcane",
+    "tier": "transport",
+    "name": "Farm gate to field application QLD sugarcane (road/on-farm)",
+    "country_iso2": "AU",
+    "operator_id": "AU_farm_operators",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "local",
+    "coordinates": {
+      "lat": -19.3,
+      "lon": 146.8
+    }
+  },
+  {
+    "id": "AU_road_farm-field-application-qld-broadacre",
+    "tier": "transport",
+    "name": "Farm gate to field application QLD broadacre (road/on-farm)",
+    "country_iso2": "AU",
+    "operator_id": "AU_farm_operators",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "local",
+    "coordinates": {
+      "lat": -26,
+      "lon": 150
+    }
+  },
+  {
+    "id": "AU_road_farm-field-application-vic-dairy",
+    "tier": "transport",
+    "name": "Farm gate to field application VIC dairy (road/on-farm)",
+    "country_iso2": "AU",
+    "operator_id": "AU_farm_operators",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "local",
+    "coordinates": {
+      "lat": -38.2,
+      "lon": 145.5
+    }
+  },
+  {
+    "id": "AU_road_farm-field-application-vic-grain",
+    "tier": "transport",
+    "name": "Farm gate to field application VIC grain (road/on-farm)",
+    "country_iso2": "AU",
+    "operator_id": "AU_farm_operators",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "local",
+    "coordinates": {
+      "lat": -36.5,
+      "lon": 143.5
+    }
+  }
+]

@@ -1,0 +1,1581 @@
+[
+  {
+    "id": "AU_newmont_boddington",
+    "name": "Boddington Gold Mine",
+    "tier": "extraction",
+    "country_iso2": "AU",
+    "canonical_company": "Newmont Corporation",
+    "coordinates": {
+      "lat": -32.745,
+      "lon": 116.375
+    },
+    "downstream": [
+      {
+        "target_id": "AU_perth_mint",
+        "corridor_id": "AU_road_boddington-perth",
+        "resource": "gold doré bars",
+        "quantity": 22,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_newmont_boddington_management",
+        "corridor_id": "AU_road_boddington-perth",
+        "resource": "gold-copper bearing ore",
+        "quantity": 35000000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Gold",
+      "Mineral-Bearing Land"
+    ]
+  },
+  {
+    "id": "AU_newmont_tanami",
+    "name": "Tanami Gold Mine",
+    "tier": "extraction",
+    "country_iso2": "AU",
+    "canonical_company": "Newmont Corporation",
+    "coordinates": {
+      "lat": -19.98,
+      "lon": 129.7
+    },
+    "downstream": [
+      {
+        "target_id": "AU_perth_mint",
+        "corridor_id": "AU_road_tanami-perth",
+        "resource": "gold doré bars",
+        "quantity": 16,
+        "metric": "t"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Gold"
+    ]
+  },
+  {
+    "id": "AU_northern_star_kalgoorlie",
+    "name": "KCGM Super Pit (Kalgoorlie)",
+    "tier": "extraction",
+    "country_iso2": "AU",
+    "canonical_company": "Northern Star Resources",
+    "coordinates": {
+      "lat": -30.775,
+      "lon": 121.505
+    },
+    "downstream": [
+      {
+        "target_id": "AU_perth_mint",
+        "corridor_id": "AU_road_kalgoorlie-perth",
+        "resource": "gold doré bars",
+        "quantity": 18,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_northern_star_kalgoorlie_management",
+        "corridor_id": "AU_road_kalgoorlie-local",
+        "resource": "gold bearing ore",
+        "quantity": 14000000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Gold",
+      "Mineral-Bearing Land"
+    ]
+  },
+  {
+    "id": "AU_northern_star_jundee",
+    "name": "Jundee Gold Mine",
+    "tier": "extraction",
+    "country_iso2": "AU",
+    "canonical_company": "Northern Star Resources",
+    "coordinates": {
+      "lat": -26.39,
+      "lon": 120.6
+    },
+    "downstream": [
+      {
+        "target_id": "AU_perth_mint",
+        "corridor_id": "AU_road_jundee-perth",
+        "resource": "gold doré bars",
+        "quantity": 8.5,
+        "metric": "t"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Gold"
+    ]
+  },
+  {
+    "id": "AU_northern_star_pogo",
+    "name": "Thunderbox Gold Mine",
+    "tier": "extraction",
+    "country_iso2": "AU",
+    "canonical_company": "Northern Star Resources",
+    "coordinates": {
+      "lat": -27.63,
+      "lon": 121.05
+    },
+    "downstream": [
+      {
+        "target_id": "AU_perth_mint",
+        "corridor_id": "AU_road_thunderbox-perth",
+        "resource": "gold doré bars",
+        "quantity": 6,
+        "metric": "t"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Gold"
+    ]
+  },
+  {
+    "id": "AU_newcrest_cadia",
+    "name": "Cadia Valley Operations",
+    "tier": "extraction",
+    "country_iso2": "AU",
+    "canonical_company": "Newmont Corporation",
+    "coordinates": {
+      "lat": -33.47,
+      "lon": 148.99
+    },
+    "downstream": [
+      {
+        "target_id": "AU_perth_mint",
+        "corridor_id": "AU_road_cadia-perth",
+        "resource": "gold doré bars and gold-copper concentrate",
+        "quantity": 14,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_abc_refinery",
+        "corridor_id": "AU_road_cadia-sydney",
+        "resource": "gold doré bars",
+        "quantity": 8,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_newmont_cadia_management",
+        "corridor_id": "AU_road_cadia-orange",
+        "resource": "gold-copper bearing ore",
+        "quantity": 26000000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Gold",
+      "Mineral-Bearing Land"
+    ]
+  },
+  {
+    "id": "AU_newcrest_lihir_telfer",
+    "name": "Telfer Gold Mine",
+    "tier": "extraction",
+    "country_iso2": "AU",
+    "canonical_company": "Newmont Corporation",
+    "coordinates": {
+      "lat": -21.71,
+      "lon": 122.23
+    },
+    "downstream": [
+      {
+        "target_id": "AU_perth_mint",
+        "corridor_id": "AU_road_telfer-perth",
+        "resource": "gold doré bars",
+        "quantity": 7.5,
+        "metric": "t"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Gold"
+    ]
+  },
+  {
+    "id": "AU_evolution_cowal",
+    "name": "Cowal Gold Mine",
+    "tier": "extraction",
+    "country_iso2": "AU",
+    "canonical_company": "Evolution Mining",
+    "coordinates": {
+      "lat": -33.64,
+      "lon": 147.38
+    },
+    "downstream": [
+      {
+        "target_id": "AU_abc_refinery",
+        "corridor_id": "AU_road_cowal-sydney",
+        "resource": "gold doré bars",
+        "quantity": 8,
+        "metric": "t"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Gold"
+    ]
+  },
+  {
+    "id": "AU_evolution_mt_rawdon",
+    "name": "Mt Rawdon Gold Mine",
+    "tier": "extraction",
+    "country_iso2": "AU",
+    "canonical_company": "Evolution Mining",
+    "coordinates": {
+      "lat": -25.1,
+      "lon": 151.55
+    },
+    "downstream": [
+      {
+        "target_id": "AU_abc_refinery",
+        "corridor_id": "AU_road_mtrawdon-sydney",
+        "resource": "gold doré bars",
+        "quantity": 2.5,
+        "metric": "t"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Gold"
+    ]
+  },
+  {
+    "id": "AU_evolution_ernest_henry",
+    "name": "Ernest Henry Mine (Evolution share)",
+    "tier": "extraction",
+    "country_iso2": "AU",
+    "canonical_company": "Evolution Mining",
+    "coordinates": {
+      "lat": -20.5,
+      "lon": 140.71
+    },
+    "downstream": [
+      {
+        "target_id": "AU_abc_refinery",
+        "corridor_id": "AU_road_ernesthenry-sydney",
+        "resource": "gold doré bars",
+        "quantity": 2.5,
+        "metric": "t"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Gold"
+    ]
+  },
+  {
+    "id": "AU_evolution_mungari",
+    "name": "Mungari Gold Mine",
+    "tier": "extraction",
+    "country_iso2": "AU",
+    "canonical_company": "Evolution Mining",
+    "coordinates": {
+      "lat": -31.28,
+      "lon": 121.55
+    },
+    "downstream": [
+      {
+        "target_id": "AU_perth_mint",
+        "corridor_id": "AU_road_mungari-perth",
+        "resource": "gold doré bars",
+        "quantity": 4,
+        "metric": "t"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Gold"
+    ]
+  },
+  {
+    "id": "AU_gold_fields_st_ives",
+    "name": "St Ives Gold Mine",
+    "tier": "extraction",
+    "country_iso2": "AU",
+    "canonical_company": "Gold Fields",
+    "coordinates": {
+      "lat": -31.35,
+      "lon": 121.65
+    },
+    "downstream": [
+      {
+        "target_id": "AU_perth_mint",
+        "corridor_id": "AU_road_stives-perth",
+        "resource": "gold doré bars",
+        "quantity": 11.5,
+        "metric": "t"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Gold"
+    ]
+  },
+  {
+    "id": "AU_gold_fields_granny_smith",
+    "name": "Granny Smith Gold Mine",
+    "tier": "extraction",
+    "country_iso2": "AU",
+    "canonical_company": "Gold Fields",
+    "coordinates": {
+      "lat": -28.96,
+      "lon": 122.14
+    },
+    "downstream": [
+      {
+        "target_id": "AU_perth_mint",
+        "corridor_id": "AU_road_grannysmith-perth",
+        "resource": "gold doré bars",
+        "quantity": 8,
+        "metric": "t"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Gold"
+    ]
+  },
+  {
+    "id": "AU_gold_fields_agnew",
+    "name": "Agnew Gold Mine",
+    "tier": "extraction",
+    "country_iso2": "AU",
+    "canonical_company": "Gold Fields",
+    "coordinates": {
+      "lat": -27.98,
+      "lon": 120.78
+    },
+    "downstream": [
+      {
+        "target_id": "AU_perth_mint",
+        "corridor_id": "AU_road_agnew-perth",
+        "resource": "gold doré bars",
+        "quantity": 5.5,
+        "metric": "t"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Gold"
+    ]
+  },
+  {
+    "id": "AU_regis_resources_duketon",
+    "name": "Duketon Gold Operations",
+    "tier": "extraction",
+    "country_iso2": "AU",
+    "canonical_company": "Regis Resources",
+    "coordinates": {
+      "lat": -27.89,
+      "lon": 122.26
+    },
+    "downstream": [
+      {
+        "target_id": "AU_perth_mint",
+        "corridor_id": "AU_road_duketon-perth",
+        "resource": "gold doré bars",
+        "quantity": 6,
+        "metric": "t"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Gold"
+    ]
+  },
+  {
+    "id": "AU_regis_resources_tropicana",
+    "name": "Tropicana Gold Mine (Regis 30%)",
+    "tier": "extraction",
+    "country_iso2": "AU",
+    "canonical_company": "Regis Resources",
+    "coordinates": {
+      "lat": -29.25,
+      "lon": 124.55
+    },
+    "downstream": [
+      {
+        "target_id": "AU_perth_mint",
+        "corridor_id": "AU_road_tropicana-perth",
+        "resource": "gold doré bars",
+        "quantity": 4.5,
+        "metric": "t"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Gold"
+    ]
+  },
+  {
+    "id": "AU_anglogold_tropicana",
+    "name": "Tropicana Gold Mine (AngloGold 70%)",
+    "tier": "extraction",
+    "country_iso2": "AU",
+    "canonical_company": "AngloGold Ashanti",
+    "coordinates": {
+      "lat": -29.25,
+      "lon": 124.55
+    },
+    "downstream": [
+      {
+        "target_id": "AU_perth_mint",
+        "corridor_id": "AU_road_tropicana-perth",
+        "resource": "gold doré bars",
+        "quantity": 10.5,
+        "metric": "t"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Gold"
+    ]
+  },
+  {
+    "id": "AU_anglogold_sunrise_dam",
+    "name": "Sunrise Dam Gold Mine",
+    "tier": "extraction",
+    "country_iso2": "AU",
+    "canonical_company": "AngloGold Ashanti",
+    "coordinates": {
+      "lat": -29.1,
+      "lon": 122.44
+    },
+    "downstream": [
+      {
+        "target_id": "AU_perth_mint",
+        "corridor_id": "AU_road_sunrisedam-perth",
+        "resource": "gold doré bars",
+        "quantity": 7,
+        "metric": "t"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Gold"
+    ]
+  },
+  {
+    "id": "AU_capricorn_metals_karlawinda",
+    "name": "Karlawinda Gold Mine",
+    "tier": "extraction",
+    "country_iso2": "AU",
+    "canonical_company": "Capricorn Metals",
+    "coordinates": {
+      "lat": -23.58,
+      "lon": 119.44
+    },
+    "downstream": [
+      {
+        "target_id": "AU_perth_mint",
+        "corridor_id": "AU_road_karlawinda-perth",
+        "resource": "gold doré bars",
+        "quantity": 3.8,
+        "metric": "t"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Gold"
+    ]
+  },
+  {
+    "id": "AU_de_grey_hemi",
+    "name": "Hemi Gold Project (De Grey Mining)",
+    "tier": "extraction",
+    "country_iso2": "AU",
+    "canonical_company": "Northern Star Resources",
+    "coordinates": {
+      "lat": -20.73,
+      "lon": 119.73
+    },
+    "downstream": [
+      {
+        "target_id": "AU_perth_mint",
+        "corridor_id": "AU_road_hemi-perth",
+        "resource": "gold doré bars",
+        "quantity": 0,
+        "metric": "t"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Gold"
+    ]
+  },
+  {
+    "id": "AU_westgold_resources_meekatharra",
+    "name": "Meekatharra Gold Operations",
+    "tier": "extraction",
+    "country_iso2": "AU",
+    "canonical_company": "Westgold Resources",
+    "coordinates": {
+      "lat": -26.59,
+      "lon": 118.5
+    },
+    "downstream": [
+      {
+        "target_id": "AU_perth_mint",
+        "corridor_id": "AU_road_meekatharra-perth",
+        "resource": "gold doré bars",
+        "quantity": 5.5,
+        "metric": "t"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Gold"
+    ]
+  },
+  {
+    "id": "AU_ramelius_resources_edna_may",
+    "name": "Edna May / Mt Magnet Gold Operations",
+    "tier": "extraction",
+    "country_iso2": "AU",
+    "canonical_company": "Ramelius Resources",
+    "coordinates": {
+      "lat": -31.67,
+      "lon": 118.79
+    },
+    "downstream": [
+      {
+        "target_id": "AU_perth_mint",
+        "corridor_id": "AU_road_ednamay-perth",
+        "resource": "gold doré bars",
+        "quantity": 5,
+        "metric": "t"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Gold"
+    ]
+  },
+  {
+    "id": "AU_genesis_minerals_leonora",
+    "name": "Leonora Gold Operations",
+    "tier": "extraction",
+    "country_iso2": "AU",
+    "canonical_company": "Genesis Minerals",
+    "coordinates": {
+      "lat": -28.88,
+      "lon": 121.33
+    },
+    "downstream": [
+      {
+        "target_id": "AU_perth_mint",
+        "corridor_id": "AU_road_leonora-perth",
+        "resource": "gold doré bars",
+        "quantity": 4.5,
+        "metric": "t"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Gold"
+    ]
+  },
+  {
+    "id": "AU_newmont_waihi_ridgeway",
+    "name": "Ridgeway Gold-Copper Mine (part of Cadia complex)",
+    "tier": "extraction",
+    "country_iso2": "AU",
+    "canonical_company": "Newmont Corporation",
+    "coordinates": {
+      "lat": -33.48,
+      "lon": 148.98
+    },
+    "downstream": [
+      {
+        "target_id": "AU_abc_refinery",
+        "corridor_id": "AU_road_cadia-sydney",
+        "resource": "gold doré bars",
+        "quantity": 3,
+        "metric": "t"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Gold"
+    ]
+  },
+  {
+    "id": "AU_perth_mint_dealer",
+    "name": "Perth Mint Bullion Sales & Distribution",
+    "tier": "dealer",
+    "country_iso2": "AU",
+    "canonical_company": "Gold Corporation (Perth Mint)",
+    "coordinates": {
+      "lat": -31.955,
+      "lon": 115.86
+    },
+    "downstream": [
+      {
+        "target_id": "AU_perth_mint_fabricator",
+        "corridor_id": "AU_road_perth-local",
+        "resource": "gold bullion bars and blanks",
+        "quantity": 20,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_jewelry_fabricators",
+        "corridor_id": "AU_road_perth-local",
+        "resource": "gold bullion and grain",
+        "quantity": 5,
+        "metric": "t"
+      },
+      {
+        "target_id": "INTL_swiss_dealers",
+        "corridor_id": "INTL_air_freight_perth-zurich",
+        "resource": "refined gold bars",
+        "quantity": 15,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_residential",
+        "corridor_id": "AU_road_perth-local",
+        "resource": "gold coins and small bars (retail investment)",
+        "quantity": 10,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_perth_mint"
+    ],
+    "resources": [
+      "Gold"
+    ]
+  },
+  {
+    "id": "AU_abc_refinery_dealer",
+    "name": "ABC Bullion Dealer",
+    "tier": "dealer",
+    "country_iso2": "AU",
+    "canonical_company": "ABC Bullion",
+    "coordinates": {
+      "lat": -33.87,
+      "lon": 151.207
+    },
+    "downstream": [
+      {
+        "target_id": "AU_jewelry_fabricators",
+        "corridor_id": "AU_road_sydney-local",
+        "resource": "gold bullion bars and grain",
+        "quantity": 3,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_electronics_fabricators",
+        "corridor_id": "AU_road_sydney-local",
+        "resource": "gold grain and wire",
+        "quantity": 1,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_residential",
+        "corridor_id": "AU_road_sydney-local",
+        "resource": "gold coins and small bars (retail investment)",
+        "quantity": 6,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_abc_refinery"
+    ],
+    "resources": [
+      "Gold"
+    ]
+  },
+  {
+    "id": "INTL_lbma_bullion_market",
+    "name": "London Bullion Market (LBMA)",
+    "tier": "dealer",
+    "country_iso2": "GB",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": 51.513,
+      "lon": -0.089
+    },
+    "downstream": [
+      {
+        "target_id": "INTL_swiss_fabricators",
+        "corridor_id": "INTL_air_freight_london-zurich",
+        "resource": "gold bars (LBMA Good Delivery)",
+        "quantity": 35,
+        "metric": "t"
+      },
+      {
+        "target_id": "GB_commercial",
+        "corridor_id": "GB_road_london-local",
+        "resource": "gold bars (investment / ETF backing)",
+        "quantity": 20,
+        "metric": "t"
+      },
+      {
+        "target_id": "INTL_commercial",
+        "corridor_id": "INTL_air_freight_london-global",
+        "resource": "gold bars (central bank & institutional)",
+        "quantity": 15,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_perth_mint",
+      "AU_abc_refinery"
+    ],
+    "resources": [
+      "Gold"
+    ]
+  },
+  {
+    "id": "INTL_hong_kong_gold_market",
+    "name": "Hong Kong Gold Market / Chinese Gold & Silver Exchange",
+    "tier": "dealer",
+    "country_iso2": "HK",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": 22.285,
+      "lon": 114.158
+    },
+    "downstream": [
+      {
+        "target_id": "CN_jewelry_fabricators",
+        "corridor_id": "HK_road_hk-shenzhen",
+        "resource": "gold bars",
+        "quantity": 20,
+        "metric": "t"
+      },
+      {
+        "target_id": "CN_industrial",
+        "corridor_id": "HK_road_hk-shenzhen",
+        "resource": "gold for electronics and industrial use",
+        "quantity": 8,
+        "metric": "t"
+      },
+      {
+        "target_id": "HK_commercial",
+        "corridor_id": "HK_road_hk-local",
+        "resource": "gold bars (investment)",
+        "quantity": 6,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_perth_mint",
+      "AU_abc_refinery"
+    ],
+    "resources": [
+      "Gold"
+    ]
+  },
+  {
+    "id": "INTL_india_gold_market",
+    "name": "India Bullion Market (Mumbai / IIBX)",
+    "tier": "dealer",
+    "country_iso2": "IN",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": 19.076,
+      "lon": 72.878
+    },
+    "downstream": [
+      {
+        "target_id": "IN_jewelry_fabricators",
+        "corridor_id": "IN_road_mumbai-local",
+        "resource": "gold bars for jewelry fabrication",
+        "quantity": 15,
+        "metric": "t"
+      },
+      {
+        "target_id": "IN_residential",
+        "corridor_id": "IN_road_mumbai-local",
+        "resource": "gold bars and coins (retail investment)",
+        "quantity": 5,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_perth_mint"
+    ],
+    "resources": [
+      "Gold"
+    ]
+  },
+  {
+    "id": "INTL_swiss_dealers",
+    "name": "Swiss Bullion Dealers (MKS PAMP / Metalor)",
+    "tier": "dealer",
+    "country_iso2": "CH",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": 46.529,
+      "lon": 6.584
+    },
+    "downstream": [
+      {
+        "target_id": "INTL_swiss_fabricators",
+        "corridor_id": "CH_road_geneva-ticino",
+        "resource": "gold bars for re-refining and fabrication",
+        "quantity": 15,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_perth_mint_dealer"
+    ],
+    "resources": [
+      "Gold"
+    ]
+  },
+  {
+    "id": "AU_perth_mint_fabricator",
+    "name": "Perth Mint Coin & Bar Fabrication",
+    "tier": "fabricator",
+    "country_iso2": "AU",
+    "canonical_company": "Gold Corporation (Perth Mint)",
+    "coordinates": {
+      "lat": -31.955,
+      "lon": 115.86
+    },
+    "downstream": [
+      {
+        "target_id": "AU_residential",
+        "corridor_id": "AU_road_perth-local",
+        "resource": "gold bullion coins (Kangaroo/Nugget) and minted bars",
+        "quantity": 12,
+        "metric": "t"
+      },
+      {
+        "target_id": "INTL_residential",
+        "corridor_id": "INTL_air_freight_perth-global",
+        "resource": "gold bullion coins (export)",
+        "quantity": 8,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_perth_mint_dealer"
+    ],
+    "resources": [
+      "Gold"
+    ]
+  },
+  {
+    "id": "AU_jewelry_fabricators",
+    "name": "Australian Jewelry Fabricators",
+    "tier": "fabricator",
+    "country_iso2": "AU",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": -33.87,
+      "lon": 151.207
+    },
+    "downstream": [
+      {
+        "target_id": "AU_residential",
+        "corridor_id": "AU_road_sydney-local",
+        "resource": "gold jewelry",
+        "quantity": 6,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_commercial",
+        "corridor_id": "AU_road_sydney-local",
+        "resource": "gold jewelry (wholesale)",
+        "quantity": 2,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_perth_mint_dealer",
+      "AU_abc_refinery_dealer"
+    ],
+    "resources": [
+      "Gold"
+    ]
+  },
+  {
+    "id": "INTL_swiss_fabricators",
+    "name": "Swiss Refineries & Fabricators (PAMP, Valcambi, Argor-Heraeus, Metalor)",
+    "tier": "fabricator",
+    "country_iso2": "CH",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": 46.17,
+      "lon": 8.8
+    },
+    "downstream": [
+      {
+        "target_id": "INTL_residential",
+        "corridor_id": "INTL_air_freight_zurich-global",
+        "resource": "gold kilo bars, small bars and coins",
+        "quantity": 25,
+        "metric": "t"
+      },
+      {
+        "target_id": "INTL_commercial",
+        "corridor_id": "INTL_air_freight_zurich-global",
+        "resource": "gold bars (institutional / ETF / central bank)",
+        "quantity": 15,
+        "metric": "t"
+      },
+      {
+        "target_id": "INTL_industrial",
+        "corridor_id": "INTL_air_freight_zurich-global",
+        "resource": "gold grain and industrial forms",
+        "quantity": 10,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "INTL_lbma_bullion_market",
+      "INTL_swiss_dealers"
+    ],
+    "resources": [
+      "Gold"
+    ]
+  },
+  {
+    "id": "CN_jewelry_fabricators",
+    "name": "Chinese Gold Jewelry Fabricators (Chow Tai Fook, Lao Feng Xiang, etc.)",
+    "tier": "fabricator",
+    "country_iso2": "CN",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": 22.55,
+      "lon": 114.05
+    },
+    "downstream": [
+      {
+        "target_id": "CN_residential",
+        "corridor_id": "CN_road_shenzhen-local",
+        "resource": "gold jewelry",
+        "quantity": 20,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "INTL_hong_kong_gold_market"
+    ],
+    "resources": [
+      "Gold"
+    ]
+  },
+  {
+    "id": "IN_jewelry_fabricators",
+    "name": "Indian Gold Jewelry Fabricators",
+    "tier": "fabricator",
+    "country_iso2": "IN",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": 19.076,
+      "lon": 72.878
+    },
+    "downstream": [
+      {
+        "target_id": "IN_residential",
+        "corridor_id": "IN_road_mumbai-local",
+        "resource": "gold jewelry",
+        "quantity": 15,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "INTL_india_gold_market"
+    ],
+    "resources": [
+      "Gold"
+    ]
+  },
+  {
+    "id": "AU_road_boddington-perth",
+    "tier": "transport",
+    "name": "Road: Boddington → Perth",
+    "country_iso2": "AU",
+    "operator_id": "AU_armaguard",
+    "mode": "road",
+    "form": "unit_load",
+    "range": "regional",
+    "coordinates": {
+      "lat": -32.35,
+      "lon": 116.12
+    },
+    "resources": [
+      "Mineral-Bearing Land"
+    ],
+    "upstream": [],
+    "downstream": []
+  },
+  {
+    "id": "AU_road_tanami-perth",
+    "tier": "transport",
+    "name": "Road/Air: Tanami → Perth (secure bullion transport)",
+    "country_iso2": "AU",
+    "operator_id": "AU_linfox",
+    "mode": "road",
+    "form": "unit_load",
+    "range": "regional",
+    "coordinates": {
+      "lat": -24,
+      "lon": 124
+    }
+  },
+  {
+    "id": "AU_road_kalgoorlie-perth",
+    "tier": "transport",
+    "name": "Road: Kalgoorlie → Perth",
+    "country_iso2": "AU",
+    "operator_id": "AU_armaguard",
+    "mode": "road",
+    "form": "unit_load",
+    "range": "regional",
+    "coordinates": {
+      "lat": -31.1,
+      "lon": 118.7
+    },
+    "resources": [
+      "Mineral-Bearing Land"
+    ],
+    "upstream": [],
+    "downstream": []
+  },
+  {
+    "id": "AU_road_jundee-perth",
+    "tier": "transport",
+    "name": "Road: Jundee → Perth",
+    "country_iso2": "AU",
+    "operator_id": "AU_armaguard",
+    "mode": "road",
+    "form": "unit_load",
+    "range": "regional",
+    "coordinates": {
+      "lat": -28.5,
+      "lon": 120.3
+    }
+  },
+  {
+    "id": "AU_road_thunderbox-perth",
+    "tier": "transport",
+    "name": "Road: Thunderbox → Perth",
+    "country_iso2": "AU",
+    "operator_id": "AU_armaguard",
+    "mode": "road",
+    "form": "unit_load",
+    "range": "regional",
+    "coordinates": {
+      "lat": -29.8,
+      "lon": 118.5
+    }
+  },
+  {
+    "id": "AU_road_cadia-perth",
+    "tier": "transport",
+    "name": "Road/Air: Cadia → Perth",
+    "country_iso2": "AU",
+    "operator_id": "AU_armaguard",
+    "mode": "road",
+    "form": "unit_load",
+    "range": "regional",
+    "coordinates": {
+      "lat": -33,
+      "lon": 132
+    }
+  },
+  {
+    "id": "AU_road_cadia-sydney",
+    "tier": "transport",
+    "name": "Road: Cadia → Sydney",
+    "country_iso2": "AU",
+    "operator_id": "AU_armaguard",
+    "mode": "road",
+    "form": "unit_load",
+    "range": "regional",
+    "coordinates": {
+      "lat": -33.6,
+      "lon": 150.1
+    }
+  },
+  {
+    "id": "AU_road_telfer-perth",
+    "tier": "transport",
+    "name": "Road/Air: Telfer → Perth",
+    "country_iso2": "AU",
+    "operator_id": "AU_armaguard",
+    "mode": "road",
+    "form": "unit_load",
+    "range": "regional",
+    "coordinates": {
+      "lat": -25,
+      "lon": 120
+    }
+  },
+  {
+    "id": "AU_road_cowal-sydney",
+    "tier": "transport",
+    "name": "Road: Cowal → Sydney",
+    "country_iso2": "AU",
+    "operator_id": "AU_armaguard",
+    "mode": "road",
+    "form": "unit_load",
+    "range": "regional",
+    "coordinates": {
+      "lat": -33.75,
+      "lon": 149.3
+    }
+  },
+  {
+    "id": "AU_road_mtrawdon-sydney",
+    "tier": "transport",
+    "name": "Road: Mt Rawdon → Sydney",
+    "country_iso2": "AU",
+    "operator_id": "AU_armaguard",
+    "mode": "road",
+    "form": "unit_load",
+    "range": "regional",
+    "coordinates": {
+      "lat": -29,
+      "lon": 151.4
+    }
+  },
+  {
+    "id": "AU_road_ernesthenry-sydney",
+    "tier": "transport",
+    "name": "Road/Air: Ernest Henry → Sydney",
+    "country_iso2": "AU",
+    "operator_id": "AU_armaguard",
+    "mode": "road",
+    "form": "unit_load",
+    "range": "regional",
+    "coordinates": {
+      "lat": -26,
+      "lon": 146
+    }
+  },
+  {
+    "id": "AU_road_mungari-perth",
+    "tier": "transport",
+    "name": "Road: Mungari → Perth",
+    "country_iso2": "AU",
+    "operator_id": "AU_armaguard",
+    "mode": "road",
+    "form": "unit_load",
+    "range": "regional",
+    "coordinates": {
+      "lat": -31.5,
+      "lon": 118.7
+    }
+  },
+  {
+    "id": "AU_road_stives-perth",
+    "tier": "transport",
+    "name": "Road: St Ives → Perth",
+    "country_iso2": "AU",
+    "operator_id": "AU_armaguard",
+    "mode": "road",
+    "form": "unit_load",
+    "range": "regional",
+    "coordinates": {
+      "lat": -31.2,
+      "lon": 118.8
+    }
+  },
+  {
+    "id": "AU_road_grannysmith-perth",
+    "tier": "transport",
+    "name": "Road: Granny Smith → Perth",
+    "country_iso2": "AU",
+    "operator_id": "AU_armaguard",
+    "mode": "road",
+    "form": "unit_load",
+    "range": "regional",
+    "coordinates": {
+      "lat": -29.5,
+      "lon": 121
+    }
+  },
+  {
+    "id": "AU_road_agnew-perth",
+    "tier": "transport",
+    "name": "Road: Agnew → Perth",
+    "country_iso2": "AU",
+    "operator_id": "AU_armaguard",
+    "mode": "road",
+    "form": "unit_load",
+    "range": "regional",
+    "coordinates": {
+      "lat": -29,
+      "lon": 119.9
+    }
+  },
+  {
+    "id": "AU_road_duketon-perth",
+    "tier": "transport",
+    "name": "Road: Duketon → Perth",
+    "country_iso2": "AU",
+    "operator_id": "AU_armaguard",
+    "mode": "road",
+    "form": "unit_load",
+    "range": "regional",
+    "coordinates": {
+      "lat": -29,
+      "lon": 121
+    }
+  },
+  {
+    "id": "AU_road_tropicana-perth",
+    "tier": "transport",
+    "name": "Road: Tropicana → Perth",
+    "country_iso2": "AU",
+    "operator_id": "AU_armaguard",
+    "mode": "road",
+    "form": "unit_load",
+    "range": "regional",
+    "coordinates": {
+      "lat": -30,
+      "lon": 120
+    }
+  },
+  {
+    "id": "AU_road_sunrisedam-perth",
+    "tier": "transport",
+    "name": "Road: Sunrise Dam → Perth",
+    "country_iso2": "AU",
+    "operator_id": "AU_armaguard",
+    "mode": "road",
+    "form": "unit_load",
+    "range": "regional",
+    "coordinates": {
+      "lat": -30,
+      "lon": 120
+    }
+  },
+  {
+    "id": "AU_road_karlawinda-perth",
+    "tier": "transport",
+    "name": "Road: Karlawinda → Perth",
+    "country_iso2": "AU",
+    "operator_id": "AU_armaguard",
+    "mode": "road",
+    "form": "unit_load",
+    "range": "regional",
+    "coordinates": {
+      "lat": -26,
+      "lon": 118
+    }
+  },
+  {
+    "id": "AU_road_hemi-perth",
+    "tier": "transport",
+    "name": "Road: Hemi → Perth (future)",
+    "country_iso2": "AU",
+    "operator_id": "AU_armaguard",
+    "mode": "road",
+    "form": "unit_load",
+    "range": "regional",
+    "coordinates": {
+      "lat": -24,
+      "lon": 118
+    }
+  },
+  {
+    "id": "AU_road_meekatharra-perth",
+    "tier": "transport",
+    "name": "Road: Meekatharra → Perth",
+    "country_iso2": "AU",
+    "operator_id": "AU_armaguard",
+    "mode": "road",
+    "form": "unit_load",
+    "range": "regional",
+    "coordinates": {
+      "lat": -28.5,
+      "lon": 117.5
+    }
+  },
+  {
+    "id": "AU_road_ednamay-perth",
+    "tier": "transport",
+    "name": "Road: Edna May / Mt Magnet → Perth",
+    "country_iso2": "AU",
+    "operator_id": "AU_armaguard",
+    "mode": "road",
+    "form": "unit_load",
+    "range": "regional",
+    "coordinates": {
+      "lat": -30.5,
+      "lon": 117.8
+    }
+  },
+  {
+    "id": "AU_road_leonora-perth",
+    "tier": "transport",
+    "name": "Road: Leonora → Perth",
+    "country_iso2": "AU",
+    "operator_id": "AU_armaguard",
+    "mode": "road",
+    "form": "unit_load",
+    "range": "regional",
+    "coordinates": {
+      "lat": -30,
+      "lon": 119.5
+    }
+  },
+  {
+    "id": "AU_road_perth-local",
+    "tier": "transport",
+    "name": "Road: Perth metro area distribution",
+    "country_iso2": "AU",
+    "operator_id": "AU_armaguard",
+    "mode": "road",
+    "form": "unit_load",
+    "range": "local",
+    "coordinates": {
+      "lat": -31.955,
+      "lon": 115.86
+    },
+    "resources": [
+      "Talc",
+      "Quartz",
+      "Shellfish (wild)"
+    ],
+    "upstream": [],
+    "downstream": []
+  },
+  {
+    "id": "AU_road_sydney-local",
+    "tier": "transport",
+    "name": "Road: Sydney metro area distribution",
+    "country_iso2": "AU",
+    "operator_id": "AU_armaguard",
+    "mode": "road",
+    "form": "unit_load",
+    "range": "local",
+    "coordinates": {
+      "lat": -33.87,
+      "lon": 151.207
+    },
+    "resources": [
+      "Marble",
+      "Feldspar",
+      "Shellfish (wild)"
+    ],
+    "upstream": [],
+    "downstream": []
+  },
+  {
+    "id": "INTL_air_freight_perth-london",
+    "tier": "transport",
+    "name": "Air Freight: Perth → London",
+    "country_iso2": "INTL",
+    "operator_id": "INTL_brinks",
+    "mode": "air_freight",
+    "form": "unit_load",
+    "range": "international",
+    "coordinates": {
+      "lat": 15,
+      "lon": 60
+    }
+  },
+  {
+    "id": "INTL_air_freight_perth-hongkong",
+    "tier": "transport",
+    "name": "Air Freight: Perth → Hong Kong",
+    "country_iso2": "INTL",
+    "operator_id": "INTL_brinks",
+    "mode": "air_freight",
+    "form": "unit_load",
+    "range": "international",
+    "coordinates": {
+      "lat": -5,
+      "lon": 115
+    }
+  },
+  {
+    "id": "INTL_air_freight_perth-mumbai",
+    "tier": "transport",
+    "name": "Air Freight: Perth → Mumbai",
+    "country_iso2": "INTL",
+    "operator_id": "INTL_brinks",
+    "mode": "air_freight",
+    "form": "unit_load",
+    "range": "international",
+    "coordinates": {
+      "lat": -5,
+      "lon": 95
+    }
+  },
+  {
+    "id": "INTL_air_freight_sydney-london",
+    "tier": "transport",
+    "name": "Air Freight: Sydney → London",
+    "country_iso2": "INTL",
+    "operator_id": "INTL_brinks",
+    "mode": "air_freight",
+    "form": "unit_load",
+    "range": "international",
+    "coordinates": {
+      "lat": 10,
+      "lon": 75
+    }
+  },
+  {
+    "id": "INTL_air_freight_sydney-hongkong",
+    "tier": "transport",
+    "name": "Air Freight: Sydney → Hong Kong",
+    "country_iso2": "INTL",
+    "operator_id": "INTL_brinks",
+    "mode": "air_freight",
+    "form": "unit_load",
+    "range": "international",
+    "coordinates": {
+      "lat": -10,
+      "lon": 130
+    }
+  },
+  {
+    "id": "INTL_air_freight_perth-zurich",
+    "tier": "transport",
+    "name": "Air Freight: Perth → Zurich",
+    "country_iso2": "INTL",
+    "operator_id": "INTL_brinks",
+    "mode": "air_freight",
+    "form": "unit_load",
+    "range": "international",
+    "coordinates": {
+      "lat": 10,
+      "lon": 65
+    }
+  },
+  {
+    "id": "INTL_air_freight_perth-global",
+    "tier": "transport",
+    "name": "Air Freight: Perth → Global destinations",
+    "country_iso2": "INTL",
+    "operator_id": "INTL_brinks",
+    "mode": "air_freight",
+    "form": "unit_load",
+    "range": "international",
+    "coordinates": {
+      "lat": -10,
+      "lon": 105
+    }
+  },
+  {
+    "id": "INTL_air_freight_london-zurich",
+    "tier": "transport",
+    "name": "Air Freight: London → Zurich",
+    "country_iso2": "INTL",
+    "operator_id": "INTL_brinks",
+    "mode": "air_freight",
+    "form": "unit_load",
+    "range": "international",
+    "coordinates": {
+      "lat": 49,
+      "lon": 3
+    }
+  },
+  {
+    "id": "INTL_air_freight_london-global",
+    "tier": "transport",
+    "name": "Air Freight: London → Global distribution",
+    "country_iso2": "INTL",
+    "operator_id": "INTL_brinks",
+    "mode": "air_freight",
+    "form": "unit_load",
+    "range": "international",
+    "coordinates": {
+      "lat": 51.47,
+      "lon": -0.45
+    }
+  },
+  {
+    "id": "INTL_air_freight_zurich-global",
+    "tier": "transport",
+    "name": "Air Freight: Switzerland → Global distribution",
+    "country_iso2": "INTL",
+    "operator_id": "INTL_brinks",
+    "mode": "air_freight",
+    "form": "unit_load",
+    "range": "international",
+    "coordinates": {
+      "lat": 47.46,
+      "lon": 8.55
+    }
+  },
+  {
+    "id": "GB_road_london-local",
+    "tier": "transport",
+    "name": "Road: London vault and distribution",
+    "country_iso2": "GB",
+    "operator_id": "GB_brinks",
+    "mode": "road",
+    "form": "unit_load",
+    "range": "local",
+    "coordinates": {
+      "lat": 51.513,
+      "lon": -0.089
+    }
+  },
+  {
+    "id": "CH_road_geneva-ticino",
+    "tier": "transport",
+    "name": "Road: Swiss domestic bullion distribution",
+    "country_iso2": "CH",
+    "operator_id": "CH_brinks",
+    "mode": "road",
+    "form": "unit_load",
+    "range": "regional",
+    "coordinates": {
+      "lat": 46.5,
+      "lon": 7.5
+    }
+  },
+  {
+    "id": "HK_road_hk-shenzhen",
+    "tier": "transport",
+    "name": "Road: Hong Kong → Shenzhen / Mainland China",
+    "country_iso2": "HK",
+    "operator_id": "HK_brinks",
+    "mode": "road",
+    "form": "unit_load",
+    "range": "regional",
+    "coordinates": {
+      "lat": 22.4,
+      "lon": 114.1
+    }
+  },
+  {
+    "id": "HK_road_hk-local",
+    "tier": "transport",
+    "name": "Road: Hong Kong local distribution",
+    "country_iso2": "HK",
+    "operator_id": "HK_brinks",
+    "mode": "road",
+    "form": "unit_load",
+    "range": "local",
+    "coordinates": {
+      "lat": 22.3,
+      "lon": 114.17
+    }
+  },
+  {
+    "id": "IN_road_mumbai-local",
+    "tier": "transport",
+    "name": "Road: Mumbai / India domestic distribution",
+    "country_iso2": "IN",
+    "operator_id": "IN_brinks",
+    "mode": "road",
+    "form": "unit_load",
+    "range": "regional",
+    "coordinates": {
+      "lat": 19.076,
+      "lon": 72.878
+    }
+  }
+]

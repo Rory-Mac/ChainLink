@@ -1,0 +1,3668 @@
+[
+  {
+    "id": "AU_warragamba_dam",
+    "name": "Warragamba Dam",
+    "tier": "source_capture",
+    "country_iso2": "AU",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": -33.882,
+      "lon": 150.597
+    },
+    "downstream": [
+      {
+        "target_id": "AU_waternsw",
+        "corridor_id": "AU_pipeline_warragamba-prospect",
+        "resource": "raw surface water",
+        "quantity": 520000000,
+        "metric": "kL"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Surface Water"
+    ]
+  },
+  {
+    "id": "AU_cataract_dam",
+    "name": "Cataract Dam",
+    "tier": "source_capture",
+    "country_iso2": "AU",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": -34.273,
+      "lon": 150.812
+    },
+    "downstream": [
+      {
+        "target_id": "AU_waternsw",
+        "corridor_id": "AU_pipeline_illawarra-prospect",
+        "resource": "raw surface water",
+        "quantity": 50000000,
+        "metric": "kL"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Surface Water"
+    ]
+  },
+  {
+    "id": "AU_cordeaux_dam",
+    "name": "Cordeaux Dam",
+    "tier": "source_capture",
+    "country_iso2": "AU",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": -34.336,
+      "lon": 150.74
+    },
+    "downstream": [
+      {
+        "target_id": "AU_waternsw",
+        "corridor_id": "AU_pipeline_illawarra-prospect",
+        "resource": "raw surface water",
+        "quantity": 35000000,
+        "metric": "kL"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Surface Water"
+    ]
+  },
+  {
+    "id": "AU_nepean_dam",
+    "name": "Nepean Dam",
+    "tier": "source_capture",
+    "country_iso2": "AU",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": -34.324,
+      "lon": 150.609
+    },
+    "downstream": [
+      {
+        "target_id": "AU_waternsw",
+        "corridor_id": "AU_pipeline_illawarra-prospect",
+        "resource": "raw surface water",
+        "quantity": 25000000,
+        "metric": "kL"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Surface Water"
+    ]
+  },
+  {
+    "id": "AU_avon_dam",
+    "name": "Avon Dam",
+    "tier": "source_capture",
+    "country_iso2": "AU",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": -34.365,
+      "lon": 150.678
+    },
+    "downstream": [
+      {
+        "target_id": "AU_waternsw",
+        "corridor_id": "AU_pipeline_illawarra-prospect",
+        "resource": "raw surface water",
+        "quantity": 30000000,
+        "metric": "kL"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Surface Water"
+    ]
+  },
+  {
+    "id": "AU_woronora_dam",
+    "name": "Woronora Dam",
+    "tier": "source_capture",
+    "country_iso2": "AU",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": -34.183,
+      "lon": 150.944
+    },
+    "downstream": [
+      {
+        "target_id": "AU_sydney_water_woronora_wfp",
+        "corridor_id": "AU_pipeline_woronora-wfp",
+        "resource": "raw surface water",
+        "quantity": 15000000,
+        "metric": "kL"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Surface Water"
+    ]
+  },
+  {
+    "id": "AU_prospect_reservoir",
+    "name": "Prospect Reservoir (balancing storage)",
+    "tier": "source_capture",
+    "country_iso2": "AU",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": -33.825,
+      "lon": 150.907
+    },
+    "downstream": [
+      {
+        "target_id": "AU_sydney_water_prospect_wfp",
+        "corridor_id": "AU_pipeline_prospect-wfp",
+        "resource": "raw surface water",
+        "quantity": 350000000,
+        "metric": "kL"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Surface Water"
+    ]
+  },
+  {
+    "id": "AU_thomson_dam",
+    "name": "Thomson Reservoir",
+    "tier": "source_capture",
+    "country_iso2": "AU",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": -37.777,
+      "lon": 146.362
+    },
+    "downstream": [
+      {
+        "target_id": "AU_melbourne_water_bulk",
+        "corridor_id": "AU_pipeline_thomson-silvan",
+        "resource": "raw surface water",
+        "quantity": 180000000,
+        "metric": "kL"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Surface Water"
+    ]
+  },
+  {
+    "id": "AU_upper_yarra_dam",
+    "name": "Upper Yarra Reservoir",
+    "tier": "source_capture",
+    "country_iso2": "AU",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": -37.683,
+      "lon": 145.92
+    },
+    "downstream": [
+      {
+        "target_id": "AU_melbourne_water_bulk",
+        "corridor_id": "AU_pipeline_upperyarra-silvan",
+        "resource": "raw surface water",
+        "quantity": 80000000,
+        "metric": "kL"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Surface Water"
+    ]
+  },
+  {
+    "id": "AU_maroondah_dam",
+    "name": "Maroondah Reservoir",
+    "tier": "source_capture",
+    "country_iso2": "AU",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": -37.633,
+      "lon": 145.554
+    },
+    "downstream": [
+      {
+        "target_id": "AU_melbourne_water_bulk",
+        "corridor_id": "AU_pipeline_maroondah-silvan",
+        "resource": "raw surface water",
+        "quantity": 50000000,
+        "metric": "kL"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Surface Water"
+    ]
+  },
+  {
+    "id": "AU_oshannassy_dam",
+    "name": "O'Shannassy Reservoir",
+    "tier": "source_capture",
+    "country_iso2": "AU",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": -37.686,
+      "lon": 145.811
+    },
+    "downstream": [
+      {
+        "target_id": "AU_melbourne_water_bulk",
+        "corridor_id": "AU_pipeline_oshannassy-silvan",
+        "resource": "raw surface water",
+        "quantity": 30000000,
+        "metric": "kL"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Surface Water"
+    ]
+  },
+  {
+    "id": "AU_silvan_reservoir",
+    "name": "Silvan Reservoir",
+    "tier": "source_capture",
+    "country_iso2": "AU",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": -37.824,
+      "lon": 145.42
+    },
+    "downstream": [
+      {
+        "target_id": "AU_melbourne_water_bulk",
+        "corridor_id": "AU_pipeline_silvan-local",
+        "resource": "raw surface water",
+        "quantity": 100000000,
+        "metric": "kL"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Surface Water"
+    ]
+  },
+  {
+    "id": "AU_cardinia_reservoir",
+    "name": "Cardinia Reservoir",
+    "tier": "source_capture",
+    "country_iso2": "AU",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": -37.996,
+      "lon": 145.405
+    },
+    "downstream": [
+      {
+        "target_id": "AU_melbourne_water_bulk",
+        "corridor_id": "AU_pipeline_cardinia-local",
+        "resource": "raw surface water",
+        "quantity": 60000000,
+        "metric": "kL"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Surface Water"
+    ]
+  },
+  {
+    "id": "AU_yan_yean_reservoir",
+    "name": "Yan Yean Reservoir",
+    "tier": "source_capture",
+    "country_iso2": "AU",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": -37.558,
+      "lon": 145.136
+    },
+    "downstream": [
+      {
+        "target_id": "AU_melbourne_water_bulk",
+        "corridor_id": "AU_pipeline_yanyean-local",
+        "resource": "raw surface water",
+        "quantity": 20000000,
+        "metric": "kL"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Surface Water"
+    ]
+  },
+  {
+    "id": "AU_sugarloaf_reservoir",
+    "name": "Sugarloaf Reservoir",
+    "tier": "source_capture",
+    "country_iso2": "AU",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": -37.64,
+      "lon": 145.232
+    },
+    "downstream": [
+      {
+        "target_id": "AU_melbourne_water_bulk",
+        "corridor_id": "AU_pipeline_sugarloaf-local",
+        "resource": "raw surface water",
+        "quantity": 40000000,
+        "metric": "kL"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Surface Water"
+    ]
+  },
+  {
+    "id": "AU_wivenhoe_dam",
+    "name": "Wivenhoe Dam",
+    "tier": "source_capture",
+    "country_iso2": "AU",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": -27.396,
+      "lon": 152.61
+    },
+    "downstream": [
+      {
+        "target_id": "AU_seqwater_bulk",
+        "corridor_id": "AU_pipeline_wivenhoe-mtcrosby",
+        "resource": "raw surface water",
+        "quantity": 150000000,
+        "metric": "kL"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Surface Water"
+    ]
+  },
+  {
+    "id": "AU_somerset_dam",
+    "name": "Somerset Dam",
+    "tier": "source_capture",
+    "country_iso2": "AU",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": -27.115,
+      "lon": 152.555
+    },
+    "downstream": [
+      {
+        "target_id": "AU_seqwater_bulk",
+        "corridor_id": "AU_pipeline_somerset-wivenhoe",
+        "resource": "raw surface water",
+        "quantity": 40000000,
+        "metric": "kL"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Surface Water"
+    ]
+  },
+  {
+    "id": "AU_north_pine_dam",
+    "name": "North Pine Dam (Lake Samsonvale)",
+    "tier": "source_capture",
+    "country_iso2": "AU",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": -27.253,
+      "lon": 152.927
+    },
+    "downstream": [
+      {
+        "target_id": "AU_seqwater_bulk",
+        "corridor_id": "AU_pipeline_northpine-treatment",
+        "resource": "raw surface water",
+        "quantity": 50000000,
+        "metric": "kL"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Surface Water"
+    ]
+  },
+  {
+    "id": "AU_hinze_dam",
+    "name": "Hinze Dam",
+    "tier": "source_capture",
+    "country_iso2": "AU",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": -28.051,
+      "lon": 153.282
+    },
+    "downstream": [
+      {
+        "target_id": "AU_seqwater_bulk",
+        "corridor_id": "AU_pipeline_hinze-mudgeeraba",
+        "resource": "raw surface water",
+        "quantity": 50000000,
+        "metric": "kL"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Surface Water"
+    ]
+  },
+  {
+    "id": "AU_mundaring_weir",
+    "name": "Mundaring Weir",
+    "tier": "source_capture",
+    "country_iso2": "AU",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": -31.949,
+      "lon": 116.163
+    },
+    "downstream": [
+      {
+        "target_id": "AU_water_corporation_bulk",
+        "corridor_id": "AU_pipeline_mundaring-goldfields",
+        "resource": "raw surface water",
+        "quantity": 35000000,
+        "metric": "kL"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Surface Water"
+    ]
+  },
+  {
+    "id": "AU_south_dandalup_dam",
+    "name": "South Dandalup Dam",
+    "tier": "source_capture",
+    "country_iso2": "AU",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": -32.609,
+      "lon": 116.048
+    },
+    "downstream": [
+      {
+        "target_id": "AU_water_corporation_bulk",
+        "corridor_id": "AU_pipeline_southdandalup-perth",
+        "resource": "raw surface water",
+        "quantity": 20000000,
+        "metric": "kL"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Surface Water"
+    ]
+  },
+  {
+    "id": "AU_north_dandalup_dam",
+    "name": "North Dandalup Dam",
+    "tier": "source_capture",
+    "country_iso2": "AU",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": -32.506,
+      "lon": 116.065
+    },
+    "downstream": [
+      {
+        "target_id": "AU_water_corporation_bulk",
+        "corridor_id": "AU_pipeline_northdandalup-perth",
+        "resource": "raw surface water",
+        "quantity": 15000000,
+        "metric": "kL"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Surface Water"
+    ]
+  },
+  {
+    "id": "AU_serpentine_dam",
+    "name": "Serpentine Dam",
+    "tier": "source_capture",
+    "country_iso2": "AU",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": -32.395,
+      "lon": 116.098
+    },
+    "downstream": [
+      {
+        "target_id": "AU_water_corporation_bulk",
+        "corridor_id": "AU_pipeline_serpentine-perth",
+        "resource": "raw surface water",
+        "quantity": 15000000,
+        "metric": "kL"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Surface Water"
+    ]
+  },
+  {
+    "id": "AU_canning_dam",
+    "name": "Canning Dam",
+    "tier": "source_capture",
+    "country_iso2": "AU",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": -32.165,
+      "lon": 116.125
+    },
+    "downstream": [
+      {
+        "target_id": "AU_water_corporation_bulk",
+        "corridor_id": "AU_pipeline_canning-perth",
+        "resource": "raw surface water",
+        "quantity": 15000000,
+        "metric": "kL"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Surface Water"
+    ]
+  },
+  {
+    "id": "AU_happy_valley_reservoir",
+    "name": "Happy Valley Reservoir",
+    "tier": "source_capture",
+    "country_iso2": "AU",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": -35.032,
+      "lon": 138.559
+    },
+    "downstream": [
+      {
+        "target_id": "AU_sa_water_treatment",
+        "corridor_id": "AU_pipeline_happyvalley-wtp",
+        "resource": "raw surface water",
+        "quantity": 55000000,
+        "metric": "kL"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Surface Water"
+    ]
+  },
+  {
+    "id": "AU_mount_bold_reservoir",
+    "name": "Mount Bold Reservoir",
+    "tier": "source_capture",
+    "country_iso2": "AU",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": -35.12,
+      "lon": 138.685
+    },
+    "downstream": [
+      {
+        "target_id": "AU_sa_water_treatment",
+        "corridor_id": "AU_pipeline_mountbold-happyvalley",
+        "resource": "raw surface water",
+        "quantity": 35000000,
+        "metric": "kL"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Surface Water"
+    ]
+  },
+  {
+    "id": "AU_murray_bridge_offtake",
+    "name": "Murray River Offtake (Murray Bridge – SA)",
+    "tier": "source_capture",
+    "country_iso2": "AU",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": -35.12,
+      "lon": 139.27
+    },
+    "downstream": [
+      {
+        "target_id": "AU_sa_water_treatment",
+        "corridor_id": "AU_pipeline_murray-adelaide",
+        "resource": "raw surface water (Murray River)",
+        "quantity": 90000000,
+        "metric": "kL"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Surface Water"
+    ]
+  },
+  {
+    "id": "AU_cotter_dam",
+    "name": "Cotter Dam (Enlarged)",
+    "tier": "source_capture",
+    "country_iso2": "AU",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": -35.32,
+      "lon": 148.94
+    },
+    "downstream": [
+      {
+        "target_id": "AU_icon_water_bulk",
+        "corridor_id": "AU_pipeline_cotter-stromlo",
+        "resource": "raw surface water",
+        "quantity": 15000000,
+        "metric": "kL"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Surface Water"
+    ]
+  },
+  {
+    "id": "AU_bendora_dam",
+    "name": "Bendora Dam",
+    "tier": "source_capture",
+    "country_iso2": "AU",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": -35.428,
+      "lon": 148.829
+    },
+    "downstream": [
+      {
+        "target_id": "AU_icon_water_bulk",
+        "corridor_id": "AU_pipeline_bendora-stromlo",
+        "resource": "raw surface water",
+        "quantity": 20000000,
+        "metric": "kL"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Surface Water"
+    ]
+  },
+  {
+    "id": "AU_corin_dam",
+    "name": "Corin Dam",
+    "tier": "source_capture",
+    "country_iso2": "AU",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": -35.539,
+      "lon": 148.835
+    },
+    "downstream": [
+      {
+        "target_id": "AU_icon_water_bulk",
+        "corridor_id": "AU_pipeline_corin-bendora",
+        "resource": "raw surface water",
+        "quantity": 10000000,
+        "metric": "kL"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Surface Water"
+    ]
+  },
+  {
+    "id": "AU_googong_dam",
+    "name": "Googong Dam",
+    "tier": "source_capture",
+    "country_iso2": "AU",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": -35.44,
+      "lon": 149.264
+    },
+    "downstream": [
+      {
+        "target_id": "AU_icon_water_bulk",
+        "corridor_id": "AU_pipeline_googong-canberra",
+        "resource": "raw surface water",
+        "quantity": 10000000,
+        "metric": "kL"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Surface Water"
+    ]
+  },
+  {
+    "id": "AU_trevallyn_dam",
+    "name": "Trevallyn Dam",
+    "tier": "source_capture",
+    "country_iso2": "AU",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": -41.454,
+      "lon": 147.095
+    },
+    "downstream": [
+      {
+        "target_id": "AU_taswater_treatment",
+        "corridor_id": "AU_pipeline_trevallyn-wtp",
+        "resource": "raw surface water",
+        "quantity": 15000000,
+        "metric": "kL"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Surface Water"
+    ]
+  },
+  {
+    "id": "AU_bronte_park_dam",
+    "name": "Bronte Park (Lake St Clair / Derwent catchment)",
+    "tier": "source_capture",
+    "country_iso2": "AU",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": -42.09,
+      "lon": 146.472
+    },
+    "downstream": [
+      {
+        "target_id": "AU_taswater_treatment",
+        "corridor_id": "AU_pipeline_derwent-hobart",
+        "resource": "raw surface water",
+        "quantity": 35000000,
+        "metric": "kL"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Surface Water"
+    ]
+  },
+  {
+    "id": "AU_darwin_river_dam",
+    "name": "Darwin River Dam",
+    "tier": "source_capture",
+    "country_iso2": "AU",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": -12.826,
+      "lon": 130.969
+    },
+    "downstream": [
+      {
+        "target_id": "AU_power_and_water_corp_bulk",
+        "corridor_id": "AU_pipeline_darwinriver-darwin",
+        "resource": "raw surface water",
+        "quantity": 30000000,
+        "metric": "kL"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Surface Water"
+    ]
+  },
+  {
+    "id": "AU_ross_river_dam",
+    "name": "Ross River Dam",
+    "tier": "source_capture",
+    "country_iso2": "AU",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": -19.414,
+      "lon": 146.736
+    },
+    "downstream": [
+      {
+        "target_id": "AU_townsville_water_treatment",
+        "corridor_id": "AU_pipeline_rossriver-wtp",
+        "resource": "raw surface water",
+        "quantity": 40000000,
+        "metric": "kL"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Surface Water"
+    ]
+  },
+  {
+    "id": "AU_hume_dam",
+    "name": "Hume Dam",
+    "tier": "source_capture",
+    "country_iso2": "AU",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": -36.109,
+      "lon": 147.031
+    },
+    "downstream": [
+      {
+        "target_id": "AU_goulburn_murray_water",
+        "corridor_id": "AU_pipeline_hume-goulburn",
+        "resource": "raw surface water (irrigation & supply)",
+        "quantity": 1200000000,
+        "metric": "kL"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Surface Water"
+    ]
+  },
+  {
+    "id": "AU_eildon_dam",
+    "name": "Lake Eildon",
+    "tier": "source_capture",
+    "country_iso2": "AU",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": -37.227,
+      "lon": 145.9
+    },
+    "downstream": [
+      {
+        "target_id": "AU_goulburn_murray_water",
+        "corridor_id": "AU_pipeline_eildon-goulburn",
+        "resource": "raw surface water (irrigation & supply)",
+        "quantity": 1200000000,
+        "metric": "kL"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Surface Water"
+    ]
+  },
+  {
+    "id": "AU_burdekin_falls_dam",
+    "name": "Burdekin Falls Dam",
+    "tier": "source_capture",
+    "country_iso2": "AU",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": -20.63,
+      "lon": 147.015
+    },
+    "downstream": [
+      {
+        "target_id": "AU_sunwater_bulk",
+        "corridor_id": "AU_pipeline_burdekin-sunwater",
+        "resource": "raw surface water (irrigation)",
+        "quantity": 700000000,
+        "metric": "kL"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Surface Water"
+    ]
+  },
+  {
+    "id": "AU_fairbairn_dam",
+    "name": "Fairbairn Dam (Lake Maraboon)",
+    "tier": "source_capture",
+    "country_iso2": "AU",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": -23.562,
+      "lon": 148.043
+    },
+    "downstream": [
+      {
+        "target_id": "AU_sunwater_bulk",
+        "corridor_id": "AU_pipeline_fairbairn-sunwater",
+        "resource": "raw surface water (irrigation)",
+        "quantity": 350000000,
+        "metric": "kL"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Surface Water"
+    ]
+  },
+  {
+    "id": "AU_tinaroo_falls_dam",
+    "name": "Tinaroo Falls Dam",
+    "tier": "source_capture",
+    "country_iso2": "AU",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": -17.167,
+      "lon": 145.553
+    },
+    "downstream": [
+      {
+        "target_id": "AU_sunwater_bulk",
+        "corridor_id": "AU_pipeline_tinaroo-sunwater",
+        "resource": "raw surface water (irrigation)",
+        "quantity": 200000000,
+        "metric": "kL"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Surface Water"
+    ]
+  },
+  {
+    "id": "AU_waternsw",
+    "name": "WaterNSW (Bulk Water Sydney)",
+    "tier": "treatment",
+    "country_iso2": "AU",
+    "canonical_company": "WaterNSW",
+    "coordinates": {
+      "lat": -33.826,
+      "lon": 150.907
+    },
+    "downstream": [
+      {
+        "target_id": "AU_sydney_water_prospect_wfp",
+        "corridor_id": "AU_pipeline_waternsw-prospect",
+        "resource": "raw surface water (bulk transfer)",
+        "quantity": 660000000,
+        "metric": "kL"
+      }
+    ],
+    "upstream": [
+      "AU_warragamba_dam",
+      "AU_cataract_dam",
+      "AU_cordeaux_dam",
+      "AU_nepean_dam",
+      "AU_avon_dam"
+    ],
+    "resources": [
+      "Surface Water"
+    ]
+  },
+  {
+    "id": "AU_sydney_water_prospect_wfp",
+    "name": "Sydney Water – Prospect Water Filtration Plant",
+    "tier": "treatment",
+    "country_iso2": "AU",
+    "canonical_company": "Sydney Water",
+    "coordinates": {
+      "lat": -33.821,
+      "lon": 150.911
+    },
+    "downstream": [
+      {
+        "target_id": "AU_sydney_water_transmission",
+        "corridor_id": "AU_pipeline_prospect-sydney-trunk",
+        "resource": "treated potable water",
+        "quantity": 500000000,
+        "metric": "kL"
+      }
+    ],
+    "upstream": [
+      "AU_prospect_reservoir",
+      "AU_waternsw"
+    ],
+    "resources": [
+      "Surface Water"
+    ]
+  },
+  {
+    "id": "AU_sydney_water_woronora_wfp",
+    "name": "Sydney Water – Illawarra / Woronora WFP",
+    "tier": "treatment",
+    "country_iso2": "AU",
+    "canonical_company": "Sydney Water",
+    "coordinates": {
+      "lat": -34.093,
+      "lon": 150.972
+    },
+    "downstream": [
+      {
+        "target_id": "AU_sydney_water_transmission",
+        "corridor_id": "AU_pipeline_woronora-sydney-trunk",
+        "resource": "treated potable water",
+        "quantity": 15000000,
+        "metric": "kL"
+      }
+    ],
+    "upstream": [
+      "AU_woronora_dam"
+    ],
+    "resources": [
+      "Surface Water"
+    ]
+  },
+  {
+    "id": "AU_melbourne_water_bulk",
+    "name": "Melbourne Water (Bulk Supply & Treatment)",
+    "tier": "treatment",
+    "country_iso2": "AU",
+    "canonical_company": "Melbourne Water",
+    "coordinates": {
+      "lat": -37.81,
+      "lon": 144.962
+    },
+    "downstream": [
+      {
+        "target_id": "AU_melbourne_water_transmission",
+        "corridor_id": "AU_pipeline_melb-treatment-trunk",
+        "resource": "treated potable water",
+        "quantity": 450000000,
+        "metric": "kL"
+      }
+    ],
+    "upstream": [
+      "AU_thomson_dam",
+      "AU_upper_yarra_dam",
+      "AU_maroondah_dam",
+      "AU_oshannassy_dam",
+      "AU_silvan_reservoir",
+      "AU_cardinia_reservoir",
+      "AU_yan_yean_reservoir",
+      "AU_sugarloaf_reservoir"
+    ],
+    "resources": [
+      "Surface Water"
+    ]
+  },
+  {
+    "id": "AU_seqwater_bulk",
+    "name": "Seqwater (Bulk Supply & Treatment, SEQ)",
+    "tier": "treatment",
+    "country_iso2": "AU",
+    "canonical_company": "Seqwater",
+    "coordinates": {
+      "lat": -27.497,
+      "lon": 152.974
+    },
+    "downstream": [
+      {
+        "target_id": "AU_seqwater_transmission",
+        "corridor_id": "AU_pipeline_seq-grid-trunk",
+        "resource": "treated potable water",
+        "quantity": 290000000,
+        "metric": "kL"
+      }
+    ],
+    "upstream": [
+      "AU_wivenhoe_dam",
+      "AU_somerset_dam",
+      "AU_north_pine_dam",
+      "AU_hinze_dam"
+    ],
+    "resources": [
+      "Surface Water"
+    ]
+  },
+  {
+    "id": "AU_water_corporation_bulk",
+    "name": "Water Corporation WA (Bulk Supply & Treatment)",
+    "tier": "treatment",
+    "country_iso2": "AU",
+    "canonical_company": "Water Corporation",
+    "coordinates": {
+      "lat": -31.95,
+      "lon": 115.86
+    },
+    "downstream": [
+      {
+        "target_id": "AU_water_corporation_transmission",
+        "corridor_id": "AU_pipeline_wa-treatment-trunk",
+        "resource": "treated potable water",
+        "quantity": 100000000,
+        "metric": "kL"
+      }
+    ],
+    "upstream": [
+      "AU_mundaring_weir",
+      "AU_south_dandalup_dam",
+      "AU_north_dandalup_dam",
+      "AU_serpentine_dam",
+      "AU_canning_dam"
+    ],
+    "resources": [
+      "Surface Water"
+    ]
+  },
+  {
+    "id": "AU_icon_water_bulk",
+    "name": "Icon Water (Bulk Supply & Treatment – Stromlo WTP)",
+    "tier": "treatment",
+    "country_iso2": "AU",
+    "canonical_company": "Icon Water",
+    "coordinates": {
+      "lat": -35.306,
+      "lon": 149.028
+    },
+    "downstream": [
+      {
+        "target_id": "AU_icon_water_transmission",
+        "corridor_id": "AU_pipeline_act-treatment-trunk",
+        "resource": "treated potable water",
+        "quantity": 50000000,
+        "metric": "kL"
+      }
+    ],
+    "upstream": [
+      "AU_cotter_dam",
+      "AU_bendora_dam",
+      "AU_corin_dam",
+      "AU_googong_dam"
+    ],
+    "resources": [
+      "Surface Water"
+    ]
+  },
+  {
+    "id": "AU_taswater_treatment",
+    "name": "TasWater (Treatment)",
+    "tier": "treatment",
+    "country_iso2": "AU",
+    "canonical_company": "TasWater",
+    "coordinates": {
+      "lat": -42.88,
+      "lon": 147.325
+    },
+    "downstream": [
+      {
+        "target_id": "AU_taswater_transmission",
+        "corridor_id": "AU_pipeline_tas-treatment-trunk",
+        "resource": "treated potable water",
+        "quantity": 50000000,
+        "metric": "kL"
+      }
+    ],
+    "upstream": [
+      "AU_trevallyn_dam",
+      "AU_bronte_park_dam"
+    ],
+    "resources": [
+      "Surface Water"
+    ]
+  },
+  {
+    "id": "AU_power_and_water_corp_bulk",
+    "name": "Power and Water Corporation NT (Treatment)",
+    "tier": "treatment",
+    "country_iso2": "AU",
+    "canonical_company": "Power and Water Corporation",
+    "coordinates": {
+      "lat": -12.462,
+      "lon": 130.846
+    },
+    "downstream": [
+      {
+        "target_id": "AU_power_and_water_corp_transmission",
+        "corridor_id": "AU_pipeline_nt-treatment-trunk",
+        "resource": "treated potable water",
+        "quantity": 30000000,
+        "metric": "kL"
+      }
+    ],
+    "upstream": [
+      "AU_darwin_river_dam"
+    ],
+    "resources": [
+      "Surface Water"
+    ]
+  },
+  {
+    "id": "AU_townsville_water_treatment",
+    "name": "Townsville Water (Douglas WTP)",
+    "tier": "treatment",
+    "country_iso2": "AU",
+    "canonical_company": "Townsville City Council",
+    "coordinates": {
+      "lat": -19.336,
+      "lon": 146.729
+    },
+    "downstream": [
+      {
+        "target_id": "AU_townsville_water_transmission",
+        "corridor_id": "AU_pipeline_townsville-trunk",
+        "resource": "treated potable water",
+        "quantity": 40000000,
+        "metric": "kL"
+      }
+    ],
+    "upstream": [
+      "AU_ross_river_dam"
+    ],
+    "resources": [
+      "Surface Water"
+    ]
+  },
+  {
+    "id": "AU_goulburn_murray_water",
+    "name": "Goulburn-Murray Water (Irrigation Bulk)",
+    "tier": "treatment",
+    "country_iso2": "AU",
+    "canonical_company": "Goulburn-Murray Water",
+    "coordinates": {
+      "lat": -36.36,
+      "lon": 145.95
+    },
+    "downstream": [
+      {
+        "target_id": "AU_gmw_irrigation_transmission",
+        "corridor_id": "AU_pipeline_gmw-channels",
+        "resource": "raw/minimally treated irrigation water",
+        "quantity": 2400000000,
+        "metric": "kL"
+      }
+    ],
+    "upstream": [
+      "AU_hume_dam",
+      "AU_eildon_dam"
+    ],
+    "resources": [
+      "Surface Water"
+    ]
+  },
+  {
+    "id": "AU_sunwater_bulk",
+    "name": "Sunwater (Bulk Irrigation QLD)",
+    "tier": "treatment",
+    "country_iso2": "AU",
+    "canonical_company": "Sunwater",
+    "coordinates": {
+      "lat": -23.375,
+      "lon": 150.512
+    },
+    "downstream": [
+      {
+        "target_id": "AU_sunwater_irrigation_transmission",
+        "corridor_id": "AU_pipeline_sunwater-channels",
+        "resource": "raw/minimally treated irrigation water",
+        "quantity": 1250000000,
+        "metric": "kL"
+      }
+    ],
+    "upstream": [
+      "AU_burdekin_falls_dam",
+      "AU_fairbairn_dam",
+      "AU_tinaroo_falls_dam"
+    ],
+    "resources": [
+      "Surface Water"
+    ]
+  },
+  {
+    "id": "AU_water_corporation_transmission",
+    "name": "Water Corporation WA – Trunk Transmission",
+    "tier": "transmission",
+    "country_iso2": "AU",
+    "canonical_company": "Water Corporation",
+    "coordinates": {
+      "lat": -31.95,
+      "lon": 115.86
+    },
+    "downstream": [
+      {
+        "target_id": "AU_water_corporation_distribution",
+        "corridor_id": "AU_pipeline_wa-trunk-distribution",
+        "resource": "treated potable water",
+        "quantity": 100000000,
+        "metric": "kL"
+      }
+    ],
+    "upstream": [
+      "AU_water_corporation_bulk"
+    ],
+    "resources": [
+      "Surface Water"
+    ]
+  },
+  {
+    "id": "AU_icon_water_transmission",
+    "name": "Icon Water – Trunk Transmission ACT",
+    "tier": "transmission",
+    "country_iso2": "AU",
+    "canonical_company": "Icon Water",
+    "coordinates": {
+      "lat": -35.282,
+      "lon": 149.128
+    },
+    "downstream": [
+      {
+        "target_id": "AU_icon_water_distribution",
+        "corridor_id": "AU_pipeline_act-trunk-distribution",
+        "resource": "treated potable water",
+        "quantity": 50000000,
+        "metric": "kL"
+      }
+    ],
+    "upstream": [
+      "AU_icon_water_bulk"
+    ],
+    "resources": [
+      "Surface Water"
+    ]
+  },
+  {
+    "id": "AU_taswater_transmission",
+    "name": "TasWater – Trunk Transmission",
+    "tier": "transmission",
+    "country_iso2": "AU",
+    "canonical_company": "TasWater",
+    "coordinates": {
+      "lat": -42.15,
+      "lon": 147
+    },
+    "downstream": [
+      {
+        "target_id": "AU_taswater_distribution",
+        "corridor_id": "AU_pipeline_tas-trunk-distribution",
+        "resource": "treated potable water",
+        "quantity": 50000000,
+        "metric": "kL"
+      }
+    ],
+    "upstream": [
+      "AU_taswater_treatment"
+    ],
+    "resources": [
+      "Surface Water"
+    ]
+  },
+  {
+    "id": "AU_power_and_water_corp_transmission",
+    "name": "Power and Water Corporation NT – Trunk Transmission",
+    "tier": "transmission",
+    "country_iso2": "AU",
+    "canonical_company": "Power and Water Corporation",
+    "coordinates": {
+      "lat": -12.462,
+      "lon": 130.846
+    },
+    "downstream": [
+      {
+        "target_id": "AU_power_and_water_corp_distribution",
+        "corridor_id": "AU_pipeline_nt-trunk-distribution",
+        "resource": "treated potable water",
+        "quantity": 30000000,
+        "metric": "kL"
+      }
+    ],
+    "upstream": [
+      "AU_power_and_water_corp_bulk"
+    ],
+    "resources": [
+      "Surface Water"
+    ]
+  },
+  {
+    "id": "AU_townsville_water_transmission",
+    "name": "Townsville Water – Trunk Transmission",
+    "tier": "transmission",
+    "country_iso2": "AU",
+    "canonical_company": "Townsville City Council",
+    "coordinates": {
+      "lat": -19.27,
+      "lon": 146.8
+    },
+    "downstream": [
+      {
+        "target_id": "AU_townsville_water_distribution",
+        "corridor_id": "AU_pipeline_townsville-trunk-distribution",
+        "resource": "treated potable water",
+        "quantity": 40000000,
+        "metric": "kL"
+      }
+    ],
+    "upstream": [
+      "AU_townsville_water_treatment"
+    ],
+    "resources": [
+      "Surface Water"
+    ]
+  },
+  {
+    "id": "AU_gmw_irrigation_transmission",
+    "name": "Goulburn-Murray Water – Channel & Pipeline Transmission",
+    "tier": "transmission",
+    "country_iso2": "AU",
+    "canonical_company": "Goulburn-Murray Water",
+    "coordinates": {
+      "lat": -36.25,
+      "lon": 145.4
+    },
+    "downstream": [
+      {
+        "target_id": "AU_gmw_distribution",
+        "corridor_id": "AU_pipeline_gmw-distribution-channels",
+        "resource": "irrigation water",
+        "quantity": 2400000000,
+        "metric": "kL"
+      }
+    ],
+    "upstream": [
+      "AU_goulburn_murray_water"
+    ],
+    "resources": [
+      "Surface Water"
+    ]
+  },
+  {
+    "id": "AU_sunwater_irrigation_transmission",
+    "name": "Sunwater – Channel & Pipeline Transmission QLD",
+    "tier": "transmission",
+    "country_iso2": "AU",
+    "canonical_company": "Sunwater",
+    "coordinates": {
+      "lat": -22,
+      "lon": 148.5
+    },
+    "downstream": [
+      {
+        "target_id": "AU_sunwater_distribution",
+        "corridor_id": "AU_pipeline_sunwater-distribution-channels",
+        "resource": "irrigation water",
+        "quantity": 1250000000,
+        "metric": "kL"
+      }
+    ],
+    "upstream": [
+      "AU_sunwater_bulk"
+    ],
+    "resources": [
+      "Surface Water"
+    ]
+  },
+  {
+    "id": "AU_yarra_valley_water",
+    "name": "Yarra Valley Water – Retail Distribution",
+    "tier": "distribution",
+    "country_iso2": "AU",
+    "canonical_company": "Yarra Valley Water",
+    "coordinates": {
+      "lat": -37.73,
+      "lon": 145.13
+    },
+    "downstream": [
+      {
+        "target_id": "AU_residential",
+        "corridor_id": "AU_pipeline_yvw-residential",
+        "resource": "potable water",
+        "quantity": 115000000,
+        "metric": "kL"
+      },
+      {
+        "target_id": "AU_commercial",
+        "corridor_id": "AU_pipeline_yvw-commercial",
+        "resource": "potable water",
+        "quantity": 35000000,
+        "metric": "kL"
+      },
+      {
+        "target_id": "AU_industrial",
+        "corridor_id": "AU_pipeline_yvw-industrial",
+        "resource": "potable water",
+        "quantity": 15000000,
+        "metric": "kL"
+      }
+    ],
+    "upstream": [
+      "AU_melbourne_water_transmission"
+    ],
+    "resources": [
+      "Surface Water"
+    ]
+  },
+  {
+    "id": "AU_south_east_water",
+    "name": "South East Water – Retail Distribution",
+    "tier": "distribution",
+    "country_iso2": "AU",
+    "canonical_company": "South East Water",
+    "coordinates": {
+      "lat": -37.95,
+      "lon": 145.15
+    },
+    "downstream": [
+      {
+        "target_id": "AU_residential",
+        "corridor_id": "AU_pipeline_sew-residential",
+        "resource": "potable water",
+        "quantity": 100000000,
+        "metric": "kL"
+      },
+      {
+        "target_id": "AU_commercial",
+        "corridor_id": "AU_pipeline_sew-commercial",
+        "resource": "potable water",
+        "quantity": 30000000,
+        "metric": "kL"
+      },
+      {
+        "target_id": "AU_industrial",
+        "corridor_id": "AU_pipeline_sew-industrial",
+        "resource": "potable water",
+        "quantity": 15000000,
+        "metric": "kL"
+      }
+    ],
+    "upstream": [
+      "AU_melbourne_water_transmission"
+    ],
+    "resources": [
+      "Surface Water"
+    ]
+  },
+  {
+    "id": "AU_city_west_water",
+    "name": "City West Water – Retail Distribution",
+    "tier": "distribution",
+    "country_iso2": "AU",
+    "canonical_company": "City West Water",
+    "coordinates": {
+      "lat": -37.795,
+      "lon": 144.89
+    },
+    "downstream": [
+      {
+        "target_id": "AU_residential",
+        "corridor_id": "AU_pipeline_cww-residential",
+        "resource": "potable water",
+        "quantity": 55000000,
+        "metric": "kL"
+      },
+      {
+        "target_id": "AU_commercial",
+        "corridor_id": "AU_pipeline_cww-commercial",
+        "resource": "potable water",
+        "quantity": 30000000,
+        "metric": "kL"
+      },
+      {
+        "target_id": "AU_industrial",
+        "corridor_id": "AU_pipeline_cww-industrial",
+        "resource": "potable water",
+        "quantity": 20000000,
+        "metric": "kL"
+      }
+    ],
+    "upstream": [
+      "AU_melbourne_water_transmission"
+    ],
+    "resources": [
+      "Surface Water"
+    ]
+  },
+  {
+    "id": "AU_greater_western_water",
+    "name": "Greater Western Water – Retail Distribution",
+    "tier": "distribution",
+    "country_iso2": "AU",
+    "canonical_company": "Greater Western Water",
+    "coordinates": {
+      "lat": -37.575,
+      "lon": 144.75
+    },
+    "downstream": [
+      {
+        "target_id": "AU_residential",
+        "corridor_id": "AU_pipeline_gww-residential",
+        "resource": "potable water",
+        "quantity": 25000000,
+        "metric": "kL"
+      },
+      {
+        "target_id": "AU_commercial",
+        "corridor_id": "AU_pipeline_gww-commercial",
+        "resource": "potable water",
+        "quantity": 7000000,
+        "metric": "kL"
+      },
+      {
+        "target_id": "AU_industrial",
+        "corridor_id": "AU_pipeline_gww-industrial",
+        "resource": "potable water",
+        "quantity": 3000000,
+        "metric": "kL"
+      }
+    ],
+    "upstream": [
+      "AU_melbourne_water_transmission"
+    ],
+    "resources": [
+      "Surface Water"
+    ]
+  },
+  {
+    "id": "AU_unity_water_distribution",
+    "name": "Unitywater – Retail Distribution (Moreton Bay / Sunshine Coast)",
+    "tier": "distribution",
+    "country_iso2": "AU",
+    "canonical_company": "Unitywater",
+    "coordinates": {
+      "lat": -26.8,
+      "lon": 153.02
+    },
+    "downstream": [
+      {
+        "target_id": "AU_residential",
+        "corridor_id": "AU_pipeline_unityw-residential",
+        "resource": "potable water",
+        "quantity": 42000000,
+        "metric": "kL"
+      },
+      {
+        "target_id": "AU_commercial",
+        "corridor_id": "AU_pipeline_unityw-commercial",
+        "resource": "potable water",
+        "quantity": 12000000,
+        "metric": "kL"
+      },
+      {
+        "target_id": "AU_industrial",
+        "corridor_id": "AU_pipeline_unityw-industrial",
+        "resource": "potable water",
+        "quantity": 6000000,
+        "metric": "kL"
+      }
+    ],
+    "upstream": [
+      "AU_seqwater_transmission"
+    ],
+    "resources": [
+      "Surface Water"
+    ]
+  },
+  {
+    "id": "AU_logan_water_distribution",
+    "name": "Logan Water – Retail Distribution",
+    "tier": "distribution",
+    "country_iso2": "AU",
+    "canonical_company": "Logan City Council",
+    "coordinates": {
+      "lat": -27.639,
+      "lon": 153.109
+    },
+    "downstream": [
+      {
+        "target_id": "AU_residential",
+        "corridor_id": "AU_pipeline_logan-residential",
+        "resource": "potable water",
+        "quantity": 15000000,
+        "metric": "kL"
+      },
+      {
+        "target_id": "AU_commercial",
+        "corridor_id": "AU_pipeline_logan-commercial",
+        "resource": "potable water",
+        "quantity": 3000000,
+        "metric": "kL"
+      },
+      {
+        "target_id": "AU_industrial",
+        "corridor_id": "AU_pipeline_logan-industrial",
+        "resource": "potable water",
+        "quantity": 2000000,
+        "metric": "kL"
+      }
+    ],
+    "upstream": [
+      "AU_seqwater_transmission"
+    ],
+    "resources": [
+      "Surface Water"
+    ]
+  },
+  {
+    "id": "AU_water_corporation_distribution",
+    "name": "Water Corporation WA – Retail Distribution",
+    "tier": "distribution",
+    "country_iso2": "AU",
+    "canonical_company": "Water Corporation",
+    "coordinates": {
+      "lat": -31.95,
+      "lon": 115.86
+    },
+    "downstream": [
+      {
+        "target_id": "AU_residential",
+        "corridor_id": "AU_pipeline_wa-residential",
+        "resource": "potable water",
+        "quantity": 60000000,
+        "metric": "kL"
+      },
+      {
+        "target_id": "AU_commercial",
+        "corridor_id": "AU_pipeline_wa-commercial",
+        "resource": "potable water",
+        "quantity": 20000000,
+        "metric": "kL"
+      },
+      {
+        "target_id": "AU_industrial",
+        "corridor_id": "AU_pipeline_wa-industrial",
+        "resource": "potable water",
+        "quantity": 15000000,
+        "metric": "kL"
+      },
+      {
+        "target_id": "AU_agricultural",
+        "corridor_id": "AU_pipeline_wa-agricultural",
+        "resource": "potable/raw water",
+        "quantity": 5000000,
+        "metric": "kL"
+      }
+    ],
+    "upstream": [
+      "AU_water_corporation_transmission"
+    ],
+    "resources": [
+      "Surface Water"
+    ]
+  },
+  {
+    "id": "AU_icon_water_distribution",
+    "name": "Icon Water – Retail Distribution ACT",
+    "tier": "distribution",
+    "country_iso2": "AU",
+    "canonical_company": "Icon Water",
+    "coordinates": {
+      "lat": -35.282,
+      "lon": 149.128
+    },
+    "downstream": [
+      {
+        "target_id": "AU_residential",
+        "corridor_id": "AU_pipeline_act-residential",
+        "resource": "potable water",
+        "quantity": 28000000,
+        "metric": "kL"
+      },
+      {
+        "target_id": "AU_commercial",
+        "corridor_id": "AU_pipeline_act-commercial",
+        "resource": "potable water",
+        "quantity": 10000000,
+        "metric": "kL"
+      },
+      {
+        "target_id": "AU_government",
+        "corridor_id": "AU_pipeline_act-government",
+        "resource": "potable water",
+        "quantity": 8000000,
+        "metric": "kL"
+      },
+      {
+        "target_id": "AU_industrial",
+        "corridor_id": "AU_pipeline_act-industrial",
+        "resource": "potable water",
+        "quantity": 4000000,
+        "metric": "kL"
+      }
+    ],
+    "upstream": [
+      "AU_icon_water_transmission"
+    ],
+    "resources": [
+      "Surface Water"
+    ]
+  },
+  {
+    "id": "AU_taswater_distribution",
+    "name": "TasWater – Retail Distribution",
+    "tier": "distribution",
+    "country_iso2": "AU",
+    "canonical_company": "TasWater",
+    "coordinates": {
+      "lat": -42.88,
+      "lon": 147.325
+    },
+    "downstream": [
+      {
+        "target_id": "AU_residential",
+        "corridor_id": "AU_pipeline_tas-residential",
+        "resource": "potable water",
+        "quantity": 30000000,
+        "metric": "kL"
+      },
+      {
+        "target_id": "AU_commercial",
+        "corridor_id": "AU_pipeline_tas-commercial",
+        "resource": "potable water",
+        "quantity": 10000000,
+        "metric": "kL"
+      },
+      {
+        "target_id": "AU_industrial",
+        "corridor_id": "AU_pipeline_tas-industrial",
+        "resource": "potable water",
+        "quantity": 10000000,
+        "metric": "kL"
+      }
+    ],
+    "upstream": [
+      "AU_taswater_transmission"
+    ],
+    "resources": [
+      "Surface Water"
+    ]
+  },
+  {
+    "id": "AU_power_and_water_corp_distribution",
+    "name": "Power and Water Corporation NT – Retail Distribution",
+    "tier": "distribution",
+    "country_iso2": "AU",
+    "canonical_company": "Power and Water Corporation",
+    "coordinates": {
+      "lat": -12.462,
+      "lon": 130.846
+    },
+    "downstream": [
+      {
+        "target_id": "AU_residential",
+        "corridor_id": "AU_pipeline_nt-residential",
+        "resource": "potable water",
+        "quantity": 18000000,
+        "metric": "kL"
+      },
+      {
+        "target_id": "AU_commercial",
+        "corridor_id": "AU_pipeline_nt-commercial",
+        "resource": "potable water",
+        "quantity": 7000000,
+        "metric": "kL"
+      },
+      {
+        "target_id": "AU_government",
+        "corridor_id": "AU_pipeline_nt-government",
+        "resource": "potable water",
+        "quantity": 5000000,
+        "metric": "kL"
+      }
+    ],
+    "upstream": [
+      "AU_power_and_water_corp_transmission"
+    ],
+    "resources": [
+      "Surface Water"
+    ]
+  },
+  {
+    "id": "AU_townsville_water_distribution",
+    "name": "Townsville Water – Retail Distribution",
+    "tier": "distribution",
+    "country_iso2": "AU",
+    "canonical_company": "Townsville City Council",
+    "coordinates": {
+      "lat": -19.258,
+      "lon": 146.816
+    },
+    "downstream": [
+      {
+        "target_id": "AU_residential",
+        "corridor_id": "AU_pipeline_tsv-residential",
+        "resource": "potable water",
+        "quantity": 26000000,
+        "metric": "kL"
+      },
+      {
+        "target_id": "AU_commercial",
+        "corridor_id": "AU_pipeline_tsv-commercial",
+        "resource": "potable water",
+        "quantity": 8000000,
+        "metric": "kL"
+      },
+      {
+        "target_id": "AU_industrial",
+        "corridor_id": "AU_pipeline_tsv-industrial",
+        "resource": "potable water",
+        "quantity": 6000000,
+        "metric": "kL"
+      }
+    ],
+    "upstream": [
+      "AU_townsville_water_transmission"
+    ],
+    "resources": [
+      "Surface Water"
+    ]
+  },
+  {
+    "id": "AU_gmw_distribution",
+    "name": "Goulburn-Murray Water – Irrigation Distribution",
+    "tier": "distribution",
+    "country_iso2": "AU",
+    "canonical_company": "Goulburn-Murray Water",
+    "coordinates": {
+      "lat": -36.05,
+      "lon": 145.2
+    },
+    "downstream": [
+      {
+        "target_id": "AU_agricultural",
+        "corridor_id": "AU_pipeline_gmw-farm-gate",
+        "resource": "irrigation water",
+        "quantity": 2200000000,
+        "metric": "kL"
+      },
+      {
+        "target_id": "AU_industrial",
+        "corridor_id": "AU_pipeline_gmw-industrial",
+        "resource": "bulk water",
+        "quantity": 200000000,
+        "metric": "kL"
+      }
+    ],
+    "upstream": [
+      "AU_gmw_irrigation_transmission"
+    ],
+    "resources": [
+      "Surface Water"
+    ]
+  },
+  {
+    "id": "AU_sunwater_distribution",
+    "name": "Sunwater – Irrigation Distribution QLD",
+    "tier": "distribution",
+    "country_iso2": "AU",
+    "canonical_company": "Sunwater",
+    "coordinates": {
+      "lat": -21.5,
+      "lon": 148.2
+    },
+    "downstream": [
+      {
+        "target_id": "AU_agricultural",
+        "corridor_id": "AU_pipeline_sunwater-farm-gate",
+        "resource": "irrigation water",
+        "quantity": 1100000000,
+        "metric": "kL"
+      },
+      {
+        "target_id": "AU_industrial",
+        "corridor_id": "AU_pipeline_sunwater-industrial",
+        "resource": "bulk water (mining & industry)",
+        "quantity": 150000000,
+        "metric": "kL"
+      }
+    ],
+    "upstream": [
+      "AU_sunwater_irrigation_transmission"
+    ],
+    "resources": [
+      "Surface Water"
+    ]
+  },
+  {
+    "id": "AU_pipeline_warragamba-prospect",
+    "tier": "transport",
+    "name": "Warragamba Pipelines to Prospect Reservoir",
+    "country_iso2": "AU",
+    "operator_id": "AU_waternsw",
+    "mode": "pipeline",
+    "form": "bulk_liquid",
+    "range": "regional",
+    "coordinates": {
+      "lat": -33.854,
+      "lon": 150.75
+    }
+  },
+  {
+    "id": "AU_pipeline_illawarra-prospect",
+    "tier": "transport",
+    "name": "Illawarra Dams Pipelines to WaterNSW System",
+    "country_iso2": "AU",
+    "operator_id": "AU_waternsw",
+    "mode": "pipeline",
+    "form": "bulk_liquid",
+    "range": "regional",
+    "coordinates": {
+      "lat": -34.2,
+      "lon": 150.83
+    }
+  },
+  {
+    "id": "AU_pipeline_woronora-wfp",
+    "tier": "transport",
+    "name": "Woronora Dam to WFP Pipeline",
+    "country_iso2": "AU",
+    "operator_id": "AU_sydney_water",
+    "mode": "pipeline",
+    "form": "bulk_liquid",
+    "range": "local",
+    "coordinates": {
+      "lat": -34.12,
+      "lon": 150.96
+    }
+  },
+  {
+    "id": "AU_pipeline_prospect-wfp",
+    "tier": "transport",
+    "name": "Prospect Reservoir to Prospect WFP Intake",
+    "country_iso2": "AU",
+    "operator_id": "AU_sydney_water",
+    "mode": "pipeline",
+    "form": "bulk_liquid",
+    "range": "local",
+    "coordinates": {
+      "lat": -33.823,
+      "lon": 150.91
+    }
+  },
+  {
+    "id": "AU_pipeline_waternsw-prospect",
+    "tier": "transport",
+    "name": "WaterNSW Bulk Transfer to Prospect",
+    "country_iso2": "AU",
+    "operator_id": "AU_waternsw",
+    "mode": "pipeline",
+    "form": "bulk_liquid",
+    "range": "regional",
+    "coordinates": {
+      "lat": -33.84,
+      "lon": 150.87
+    }
+  },
+  {
+    "id": "AU_pipeline_prospect-sydney-trunk",
+    "tier": "transport",
+    "name": "Prospect WFP Trunk Main to Sydney Network",
+    "country_iso2": "AU",
+    "operator_id": "AU_sydney_water",
+    "mode": "pipeline",
+    "form": "bulk_liquid",
+    "range": "regional",
+    "coordinates": {
+      "lat": -33.85,
+      "lon": 151
+    }
+  },
+  {
+    "id": "AU_pipeline_woronora-sydney-trunk",
+    "tier": "transport",
+    "name": "Illawarra WFP Trunk Main",
+    "country_iso2": "AU",
+    "operator_id": "AU_sydney_water",
+    "mode": "pipeline",
+    "form": "bulk_liquid",
+    "range": "local",
+    "coordinates": {
+      "lat": -34.05,
+      "lon": 150.98
+    }
+  },
+  {
+    "id": "AU_pipeline_sydney-trunk-distribution",
+    "tier": "transport",
+    "name": "Sydney Water Trunk to Reticulation Mains",
+    "country_iso2": "AU",
+    "operator_id": "AU_sydney_water",
+    "mode": "pipeline",
+    "form": "bulk_liquid",
+    "range": "regional",
+    "coordinates": {
+      "lat": -33.87,
+      "lon": 151.1
+    }
+  },
+  {
+    "id": "AU_pipeline_sydney-residential",
+    "tier": "transport",
+    "name": "Sydney Water Residential Reticulation",
+    "country_iso2": "AU",
+    "operator_id": "AU_sydney_water",
+    "mode": "pipeline",
+    "form": "bulk_liquid",
+    "range": "local",
+    "coordinates": {
+      "lat": -33.87,
+      "lon": 151.209
+    }
+  },
+  {
+    "id": "AU_pipeline_sydney-commercial",
+    "tier": "transport",
+    "name": "Sydney Water Commercial Reticulation",
+    "country_iso2": "AU",
+    "operator_id": "AU_sydney_water",
+    "mode": "pipeline",
+    "form": "bulk_liquid",
+    "range": "local",
+    "coordinates": {
+      "lat": -33.87,
+      "lon": 151.209
+    }
+  },
+  {
+    "id": "AU_pipeline_sydney-industrial",
+    "tier": "transport",
+    "name": "Sydney Water Industrial Reticulation",
+    "country_iso2": "AU",
+    "operator_id": "AU_sydney_water",
+    "mode": "pipeline",
+    "form": "bulk_liquid",
+    "range": "local",
+    "coordinates": {
+      "lat": -33.87,
+      "lon": 151.209
+    }
+  },
+  {
+    "id": "AU_pipeline_sydney-government",
+    "tier": "transport",
+    "name": "Sydney Water Government / Institutional Reticulation",
+    "country_iso2": "AU",
+    "operator_id": "AU_sydney_water",
+    "mode": "pipeline",
+    "form": "bulk_liquid",
+    "range": "local",
+    "coordinates": {
+      "lat": -33.87,
+      "lon": 151.209
+    }
+  },
+  {
+    "id": "AU_pipeline_thomson-silvan",
+    "tier": "transport",
+    "name": "Thomson–Silvan Aqueduct / Pipeline",
+    "country_iso2": "AU",
+    "operator_id": "AU_melbourne_water",
+    "mode": "pipeline",
+    "form": "bulk_liquid",
+    "range": "regional",
+    "coordinates": {
+      "lat": -37.7,
+      "lon": 146.1
+    }
+  },
+  {
+    "id": "AU_pipeline_upperyarra-silvan",
+    "tier": "transport",
+    "name": "Upper Yarra–Silvan Aqueduct",
+    "country_iso2": "AU",
+    "operator_id": "AU_melbourne_water",
+    "mode": "pipeline",
+    "form": "bulk_liquid",
+    "range": "regional",
+    "coordinates": {
+      "lat": -37.75,
+      "lon": 145.7
+    }
+  },
+  {
+    "id": "AU_pipeline_maroondah-silvan",
+    "tier": "transport",
+    "name": "Maroondah Aqueduct to Silvan",
+    "country_iso2": "AU",
+    "operator_id": "AU_melbourne_water",
+    "mode": "pipeline",
+    "form": "bulk_liquid",
+    "range": "regional",
+    "coordinates": {
+      "lat": -37.65,
+      "lon": 145.5
+    }
+  },
+  {
+    "id": "AU_pipeline_oshannassy-silvan",
+    "tier": "transport",
+    "name": "O'Shannassy Aqueduct to Silvan",
+    "country_iso2": "AU",
+    "operator_id": "AU_melbourne_water",
+    "mode": "pipeline",
+    "form": "bulk_liquid",
+    "range": "regional",
+    "coordinates": {
+      "lat": -37.7,
+      "lon": 145.65
+    }
+  },
+  {
+    "id": "AU_pipeline_silvan-local",
+    "tier": "transport",
+    "name": "Silvan Reservoir Outlet Works",
+    "country_iso2": "AU",
+    "operator_id": "AU_melbourne_water",
+    "mode": "pipeline",
+    "form": "bulk_liquid",
+    "range": "local",
+    "coordinates": {
+      "lat": -37.825,
+      "lon": 145.42
+    }
+  },
+  {
+    "id": "AU_pipeline_cardinia-local",
+    "tier": "transport",
+    "name": "Cardinia Reservoir Outlet to Trunk System",
+    "country_iso2": "AU",
+    "operator_id": "AU_melbourne_water",
+    "mode": "pipeline",
+    "form": "bulk_liquid",
+    "range": "local",
+    "coordinates": {
+      "lat": -37.99,
+      "lon": 145.4
+    }
+  },
+  {
+    "id": "AU_pipeline_yanyean-local",
+    "tier": "transport",
+    "name": "Yan Yean Pipeline to Melbourne North",
+    "country_iso2": "AU",
+    "operator_id": "AU_melbourne_water",
+    "mode": "pipeline",
+    "form": "bulk_liquid",
+    "range": "local",
+    "coordinates": {
+      "lat": -37.56,
+      "lon": 145.14
+    }
+  },
+  {
+    "id": "AU_pipeline_sugarloaf-local",
+    "tier": "transport",
+    "name": "Sugarloaf Pipeline to Trunk System",
+    "country_iso2": "AU",
+    "operator_id": "AU_melbourne_water",
+    "mode": "pipeline",
+    "form": "bulk_liquid",
+    "range": "local",
+    "coordinates": {
+      "lat": -37.64,
+      "lon": 145.23
+    }
+  },
+  {
+    "id": "AU_pipeline_melb-treatment-trunk",
+    "tier": "transport",
+    "name": "Melbourne Water Treatment Plants Trunk Outlet",
+    "country_iso2": "AU",
+    "operator_id": "AU_melbourne_water",
+    "mode": "pipeline",
+    "form": "bulk_liquid",
+    "range": "regional",
+    "coordinates": {
+      "lat": -37.81,
+      "lon": 145
+    }
+  },
+  {
+    "id": "AU_pipeline_melb-trunk-yarra",
+    "tier": "transport",
+    "name": "Melbourne Trunk to Yarra Valley Water Area",
+    "country_iso2": "AU",
+    "operator_id": "AU_melbourne_water",
+    "mode": "pipeline",
+    "form": "bulk_liquid",
+    "range": "regional",
+    "coordinates": {
+      "lat": -37.76,
+      "lon": 145.1
+    }
+  },
+  {
+    "id": "AU_pipeline_melb-trunk-se",
+    "tier": "transport",
+    "name": "Melbourne Trunk to South East Water Area",
+    "country_iso2": "AU",
+    "operator_id": "AU_melbourne_water",
+    "mode": "pipeline",
+    "form": "bulk_liquid",
+    "range": "regional",
+    "coordinates": {
+      "lat": -37.9,
+      "lon": 145.1
+    }
+  },
+  {
+    "id": "AU_pipeline_melb-trunk-cw",
+    "tier": "transport",
+    "name": "Melbourne Trunk to City West Water Area",
+    "country_iso2": "AU",
+    "operator_id": "AU_melbourne_water",
+    "mode": "pipeline",
+    "form": "bulk_liquid",
+    "range": "regional",
+    "coordinates": {
+      "lat": -37.8,
+      "lon": 144.9
+    }
+  },
+  {
+    "id": "AU_pipeline_melb-trunk-gw",
+    "tier": "transport",
+    "name": "Melbourne Trunk to Greater Western Water Area",
+    "country_iso2": "AU",
+    "operator_id": "AU_melbourne_water",
+    "mode": "pipeline",
+    "form": "bulk_liquid",
+    "range": "regional",
+    "coordinates": {
+      "lat": -37.6,
+      "lon": 144.75
+    }
+  },
+  {
+    "id": "AU_pipeline_yvw-residential",
+    "tier": "transport",
+    "name": "Yarra Valley Water Residential Reticulation",
+    "country_iso2": "AU",
+    "operator_id": "AU_yarra_valley_water",
+    "mode": "pipeline",
+    "form": "bulk_liquid",
+    "range": "local",
+    "coordinates": {
+      "lat": -37.73,
+      "lon": 145.13
+    }
+  },
+  {
+    "id": "AU_pipeline_yvw-commercial",
+    "tier": "transport",
+    "name": "Yarra Valley Water Commercial Reticulation",
+    "country_iso2": "AU",
+    "operator_id": "AU_yarra_valley_water",
+    "mode": "pipeline",
+    "form": "bulk_liquid",
+    "range": "local",
+    "coordinates": {
+      "lat": -37.73,
+      "lon": 145.13
+    }
+  },
+  {
+    "id": "AU_pipeline_yvw-industrial",
+    "tier": "transport",
+    "name": "Yarra Valley Water Industrial Reticulation",
+    "country_iso2": "AU",
+    "operator_id": "AU_yarra_valley_water",
+    "mode": "pipeline",
+    "form": "bulk_liquid",
+    "range": "local",
+    "coordinates": {
+      "lat": -37.73,
+      "lon": 145.13
+    }
+  },
+  {
+    "id": "AU_pipeline_sew-residential",
+    "tier": "transport",
+    "name": "South East Water Residential Reticulation",
+    "country_iso2": "AU",
+    "operator_id": "AU_south_east_water",
+    "mode": "pipeline",
+    "form": "bulk_liquid",
+    "range": "local",
+    "coordinates": {
+      "lat": -37.95,
+      "lon": 145.15
+    }
+  },
+  {
+    "id": "AU_pipeline_sew-commercial",
+    "tier": "transport",
+    "name": "South East Water Commercial Reticulation",
+    "country_iso2": "AU",
+    "operator_id": "AU_south_east_water",
+    "mode": "pipeline",
+    "form": "bulk_liquid",
+    "range": "local",
+    "coordinates": {
+      "lat": -37.95,
+      "lon": 145.15
+    }
+  },
+  {
+    "id": "AU_pipeline_sew-industrial",
+    "tier": "transport",
+    "name": "South East Water Industrial Reticulation",
+    "country_iso2": "AU",
+    "operator_id": "AU_south_east_water",
+    "mode": "pipeline",
+    "form": "bulk_liquid",
+    "range": "local",
+    "coordinates": {
+      "lat": -37.95,
+      "lon": 145.15
+    }
+  },
+  {
+    "id": "AU_pipeline_cww-residential",
+    "tier": "transport",
+    "name": "City West Water Residential Reticulation",
+    "country_iso2": "AU",
+    "operator_id": "AU_city_west_water",
+    "mode": "pipeline",
+    "form": "bulk_liquid",
+    "range": "local",
+    "coordinates": {
+      "lat": -37.795,
+      "lon": 144.89
+    }
+  },
+  {
+    "id": "AU_pipeline_cww-commercial",
+    "tier": "transport",
+    "name": "City West Water Commercial Reticulation",
+    "country_iso2": "AU",
+    "operator_id": "AU_city_west_water",
+    "mode": "pipeline",
+    "form": "bulk_liquid",
+    "range": "local",
+    "coordinates": {
+      "lat": -37.795,
+      "lon": 144.89
+    }
+  },
+  {
+    "id": "AU_pipeline_cww-industrial",
+    "tier": "transport",
+    "name": "City West Water Industrial Reticulation",
+    "country_iso2": "AU",
+    "operator_id": "AU_city_west_water",
+    "mode": "pipeline",
+    "form": "bulk_liquid",
+    "range": "local",
+    "coordinates": {
+      "lat": -37.795,
+      "lon": 144.89
+    }
+  },
+  {
+    "id": "AU_pipeline_gww-residential",
+    "tier": "transport",
+    "name": "Greater Western Water Residential Reticulation",
+    "country_iso2": "AU",
+    "operator_id": "AU_greater_western_water",
+    "mode": "pipeline",
+    "form": "bulk_liquid",
+    "range": "local",
+    "coordinates": {
+      "lat": -37.575,
+      "lon": 144.75
+    }
+  },
+  {
+    "id": "AU_pipeline_gww-commercial",
+    "tier": "transport",
+    "name": "Greater Western Water Commercial Reticulation",
+    "country_iso2": "AU",
+    "operator_id": "AU_greater_western_water",
+    "mode": "pipeline",
+    "form": "bulk_liquid",
+    "range": "local",
+    "coordinates": {
+      "lat": -37.575,
+      "lon": 144.75
+    }
+  },
+  {
+    "id": "AU_pipeline_gww-industrial",
+    "tier": "transport",
+    "name": "Greater Western Water Industrial Reticulation",
+    "country_iso2": "AU",
+    "operator_id": "AU_greater_western_water",
+    "mode": "pipeline",
+    "form": "bulk_liquid",
+    "range": "local",
+    "coordinates": {
+      "lat": -37.575,
+      "lon": 144.75
+    }
+  },
+  {
+    "id": "AU_pipeline_wivenhoe-mtcrosby",
+    "tier": "transport",
+    "name": "Wivenhoe Dam to Mt Crosby WTP Pipeline",
+    "country_iso2": "AU",
+    "operator_id": "AU_seqwater",
+    "mode": "pipeline",
+    "form": "bulk_liquid",
+    "range": "regional",
+    "coordinates": {
+      "lat": -27.45,
+      "lon": 152.75
+    }
+  },
+  {
+    "id": "AU_pipeline_somerset-wivenhoe",
+    "tier": "transport",
+    "name": "Somerset Dam Release to Wivenhoe",
+    "country_iso2": "AU",
+    "operator_id": "AU_seqwater",
+    "mode": "pipeline",
+    "form": "bulk_liquid",
+    "range": "regional",
+    "coordinates": {
+      "lat": -27.25,
+      "lon": 152.58
+    }
+  },
+  {
+    "id": "AU_pipeline_northpine-treatment",
+    "tier": "transport",
+    "name": "North Pine Dam to Treatment Pipeline",
+    "country_iso2": "AU",
+    "operator_id": "AU_seqwater",
+    "mode": "pipeline",
+    "form": "bulk_liquid",
+    "range": "local",
+    "coordinates": {
+      "lat": -27.26,
+      "lon": 152.93
+    }
+  },
+  {
+    "id": "AU_pipeline_hinze-mudgeeraba",
+    "tier": "transport",
+    "name": "Hinze Dam to Mudgeeraba WTP Pipeline",
+    "country_iso2": "AU",
+    "operator_id": "AU_seqwater",
+    "mode": "pipeline",
+    "form": "bulk_liquid",
+    "range": "local",
+    "coordinates": {
+      "lat": -28.04,
+      "lon": 153.3
+    }
+  },
+  {
+    "id": "AU_pipeline_seq-grid-trunk",
+    "tier": "transport",
+    "name": "SEQ Water Grid Trunk Mains",
+    "country_iso2": "AU",
+    "operator_id": "AU_seqwater",
+    "mode": "pipeline",
+    "form": "bulk_liquid",
+    "range": "regional",
+    "coordinates": {
+      "lat": -27.5,
+      "lon": 153
+    }
+  },
+  {
+    "id": "AU_pipeline_seq-grid-urbanutil",
+    "tier": "transport",
+    "name": "SEQ Grid to Urban Utilities Service Area",
+    "country_iso2": "AU",
+    "operator_id": "AU_seqwater",
+    "mode": "pipeline",
+    "form": "bulk_liquid",
+    "range": "regional",
+    "coordinates": {
+      "lat": -27.47,
+      "lon": 153.03
+    }
+  },
+  {
+    "id": "AU_pipeline_seq-grid-unitywater",
+    "tier": "transport",
+    "name": "SEQ Grid to Unitywater Service Area",
+    "country_iso2": "AU",
+    "operator_id": "AU_seqwater",
+    "mode": "pipeline",
+    "form": "bulk_liquid",
+    "range": "regional",
+    "coordinates": {
+      "lat": -27,
+      "lon": 153.02
+    }
+  },
+  {
+    "id": "AU_pipeline_seq-grid-goldcoast",
+    "tier": "transport",
+    "name": "SEQ Grid to Gold Coast Water Service Area",
+    "country_iso2": "AU",
+    "operator_id": "AU_seqwater",
+    "mode": "pipeline",
+    "form": "bulk_liquid",
+    "range": "regional",
+    "coordinates": {
+      "lat": -28.02,
+      "lon": 153.43
+    }
+  },
+  {
+    "id": "AU_pipeline_seq-grid-logan",
+    "tier": "transport",
+    "name": "SEQ Grid to Logan Water Service Area",
+    "country_iso2": "AU",
+    "operator_id": "AU_seqwater",
+    "mode": "pipeline",
+    "form": "bulk_liquid",
+    "range": "regional",
+    "coordinates": {
+      "lat": -27.64,
+      "lon": 153.11
+    }
+  },
+  {
+    "id": "AU_pipeline_uu-residential",
+    "tier": "transport",
+    "name": "Urban Utilities Residential Reticulation",
+    "country_iso2": "AU",
+    "operator_id": "AU_urban_utilities",
+    "mode": "pipeline",
+    "form": "bulk_liquid",
+    "range": "local",
+    "coordinates": {
+      "lat": -27.468,
+      "lon": 153.028
+    }
+  },
+  {
+    "id": "AU_pipeline_uu-commercial",
+    "tier": "transport",
+    "name": "Urban Utilities Commercial Reticulation",
+    "country_iso2": "AU",
+    "operator_id": "AU_urban_utilities",
+    "mode": "pipeline",
+    "form": "bulk_liquid",
+    "range": "local",
+    "coordinates": {
+      "lat": -27.468,
+      "lon": 153.028
+    }
+  },
+  {
+    "id": "AU_pipeline_uu-industrial",
+    "tier": "transport",
+    "name": "Urban Utilities Industrial Reticulation",
+    "country_iso2": "AU",
+    "operator_id": "AU_urban_utilities",
+    "mode": "pipeline",
+    "form": "bulk_liquid",
+    "range": "local",
+    "coordinates": {
+      "lat": -27.468,
+      "lon": 153.028
+    }
+  },
+  {
+    "id": "AU_pipeline_unityw-residential",
+    "tier": "transport",
+    "name": "Unitywater Residential Reticulation",
+    "country_iso2": "AU",
+    "operator_id": "AU_unitywater",
+    "mode": "pipeline",
+    "form": "bulk_liquid",
+    "range": "local",
+    "coordinates": {
+      "lat": -26.8,
+      "lon": 153.02
+    }
+  },
+  {
+    "id": "AU_pipeline_unityw-commercial",
+    "tier": "transport",
+    "name": "Unitywater Commercial Reticulation",
+    "country_iso2": "AU",
+    "operator_id": "AU_unitywater",
+    "mode": "pipeline",
+    "form": "bulk_liquid",
+    "range": "local",
+    "coordinates": {
+      "lat": -26.8,
+      "lon": 153.02
+    }
+  },
+  {
+    "id": "AU_pipeline_unityw-industrial",
+    "tier": "transport",
+    "name": "Unitywater Industrial Reticulation",
+    "country_iso2": "AU",
+    "operator_id": "AU_unitywater",
+    "mode": "pipeline",
+    "form": "bulk_liquid",
+    "range": "local",
+    "coordinates": {
+      "lat": -26.8,
+      "lon": 153.02
+    }
+  },
+  {
+    "id": "AU_pipeline_gc-residential",
+    "tier": "transport",
+    "name": "Gold Coast Water Residential Reticulation",
+    "country_iso2": "AU",
+    "operator_id": "AU_city_of_gold_coast",
+    "mode": "pipeline",
+    "form": "bulk_liquid",
+    "range": "local",
+    "coordinates": {
+      "lat": -28.017,
+      "lon": 153.426
+    }
+  },
+  {
+    "id": "AU_pipeline_gc-commercial",
+    "tier": "transport",
+    "name": "Gold Coast Water Commercial Reticulation",
+    "country_iso2": "AU",
+    "operator_id": "AU_city_of_gold_coast",
+    "mode": "pipeline",
+    "form": "bulk_liquid",
+    "range": "local",
+    "coordinates": {
+      "lat": -28.017,
+      "lon": 153.426
+    }
+  },
+  {
+    "id": "AU_pipeline_gc-industrial",
+    "tier": "transport",
+    "name": "Gold Coast Water Industrial Reticulation",
+    "country_iso2": "AU",
+    "operator_id": "AU_city_of_gold_coast",
+    "mode": "pipeline",
+    "form": "bulk_liquid",
+    "range": "local",
+    "coordinates": {
+      "lat": -28.017,
+      "lon": 153.426
+    }
+  },
+  {
+    "id": "AU_pipeline_logan-residential",
+    "tier": "transport",
+    "name": "Logan Water Residential Reticulation",
+    "country_iso2": "AU",
+    "operator_id": "AU_logan_city_council",
+    "mode": "pipeline",
+    "form": "bulk_liquid",
+    "range": "local",
+    "coordinates": {
+      "lat": -27.639,
+      "lon": 153.109
+    }
+  },
+  {
+    "id": "AU_pipeline_logan-commercial",
+    "tier": "transport",
+    "name": "Logan Water Commercial Reticulation",
+    "country_iso2": "AU",
+    "operator_id": "AU_logan_city_council",
+    "mode": "pipeline",
+    "form": "bulk_liquid",
+    "range": "local",
+    "coordinates": {
+      "lat": -27.639,
+      "lon": 153.109
+    }
+  },
+  {
+    "id": "AU_pipeline_logan-industrial",
+    "tier": "transport",
+    "name": "Logan Water Industrial Reticulation",
+    "country_iso2": "AU",
+    "operator_id": "AU_logan_city_council",
+    "mode": "pipeline",
+    "form": "bulk_liquid",
+    "range": "local",
+    "coordinates": {
+      "lat": -27.639,
+      "lon": 153.109
+    }
+  },
+  {
+    "id": "AU_pipeline_southdandalup-perth",
+    "tier": "transport",
+    "name": "South Dandalup Dam to Perth IWSS Pipeline",
+    "country_iso2": "AU",
+    "operator_id": "AU_water_corporation",
+    "mode": "pipeline",
+    "form": "bulk_liquid",
+    "range": "regional",
+    "coordinates": {
+      "lat": -32.4,
+      "lon": 116
+    }
+  },
+  {
+    "id": "AU_pipeline_northdandalup-perth",
+    "tier": "transport",
+    "name": "North Dandalup Dam to Perth IWSS Pipeline",
+    "country_iso2": "AU",
+    "operator_id": "AU_water_corporation",
+    "mode": "pipeline",
+    "form": "bulk_liquid",
+    "range": "regional",
+    "coordinates": {
+      "lat": -32.5,
+      "lon": 116.06
+    }
+  },
+  {
+    "id": "AU_pipeline_serpentine-perth",
+    "tier": "transport",
+    "name": "Serpentine Dam to Perth IWSS Pipeline",
+    "country_iso2": "AU",
+    "operator_id": "AU_water_corporation",
+    "mode": "pipeline",
+    "form": "bulk_liquid",
+    "range": "regional",
+    "coordinates": {
+      "lat": -32.35,
+      "lon": 116.05
+    }
+  },
+  {
+    "id": "AU_pipeline_canning-perth",
+    "tier": "transport",
+    "name": "Canning Dam to Perth Supply Pipeline",
+    "country_iso2": "AU",
+    "operator_id": "AU_water_corporation",
+    "mode": "pipeline",
+    "form": "bulk_liquid",
+    "range": "regional",
+    "coordinates": {
+      "lat": -32.1,
+      "lon": 116.1
+    }
+  },
+  {
+    "id": "AU_pipeline_wa-treatment-trunk",
+    "tier": "transport",
+    "name": "Water Corporation Treatment Plant Trunk Mains",
+    "country_iso2": "AU",
+    "operator_id": "AU_water_corporation",
+    "mode": "pipeline",
+    "form": "bulk_liquid",
+    "range": "regional",
+    "coordinates": {
+      "lat": -31.95,
+      "lon": 115.86
+    }
+  },
+  {
+    "id": "AU_pipeline_wa-trunk-distribution",
+    "tier": "transport",
+    "name": "Water Corporation WA Distribution Trunk",
+    "country_iso2": "AU",
+    "operator_id": "AU_water_corporation",
+    "mode": "pipeline",
+    "form": "bulk_liquid",
+    "range": "regional",
+    "coordinates": {
+      "lat": -31.95,
+      "lon": 115.86
+    }
+  },
+  {
+    "id": "AU_pipeline_wa-residential",
+    "tier": "transport",
+    "name": "Water Corporation WA Residential Reticulation",
+    "country_iso2": "AU",
+    "operator_id": "AU_water_corporation",
+    "mode": "pipeline",
+    "form": "bulk_liquid",
+    "range": "local",
+    "coordinates": {
+      "lat": -31.95,
+      "lon": 115.86
+    }
+  },
+  {
+    "id": "AU_pipeline_wa-commercial",
+    "tier": "transport",
+    "name": "Water Corporation WA Commercial Reticulation",
+    "country_iso2": "AU",
+    "operator_id": "AU_water_corporation",
+    "mode": "pipeline",
+    "form": "bulk_liquid",
+    "range": "local",
+    "coordinates": {
+      "lat": -31.95,
+      "lon": 115.86
+    }
+  },
+  {
+    "id": "AU_pipeline_wa-industrial",
+    "tier": "transport",
+    "name": "Water Corporation WA Industrial Reticulation",
+    "country_iso2": "AU",
+    "operator_id": "AU_water_corporation",
+    "mode": "pipeline",
+    "form": "bulk_liquid",
+    "range": "local",
+    "coordinates": {
+      "lat": -31.95,
+      "lon": 115.86
+    }
+  },
+  {
+    "id": "AU_pipeline_wa-agricultural",
+    "tier": "transport",
+    "name": "Water Corporation WA Agricultural Supply",
+    "country_iso2": "AU",
+    "operator_id": "AU_water_corporation",
+    "mode": "pipeline",
+    "form": "bulk_liquid",
+    "range": "regional",
+    "coordinates": {
+      "lat": -31.95,
+      "lon": 115.86
+    }
+  },
+  {
+    "id": "AU_pipeline_happyvalley-wtp",
+    "tier": "transport",
+    "name": "Happy Valley Reservoir to Happy Valley WTP Intake",
+    "country_iso2": "AU",
+    "operator_id": "AU_sa_water",
+    "mode": "pipeline",
+    "form": "bulk_liquid",
+    "range": "local",
+    "coordinates": {
+      "lat": -35.032,
+      "lon": 138.56
+    }
+  },
+  {
+    "id": "AU_pipeline_mountbold-happyvalley",
+    "tier": "transport",
+    "name": "Mount Bold to Happy Valley Pipeline",
+    "country_iso2": "AU",
+    "operator_id": "AU_sa_water",
+    "mode": "pipeline",
+    "form": "bulk_liquid",
+    "range": "regional",
+    "coordinates": {
+      "lat": -35.07,
+      "lon": 138.62
+    }
+  },
+  {
+    "id": "AU_pipeline_murray-adelaide",
+    "tier": "transport",
+    "name": "Murray–Adelaide Pipeline (Mannum–Adelaide & Murray Bridge)",
+    "country_iso2": "AU",
+    "operator_id": "AU_sa_water",
+    "mode": "pipeline",
+    "form": "bulk_liquid",
+    "range": "regional",
+    "coordinates": {
+      "lat": -35,
+      "lon": 138.9
+    }
+  },
+  {
+    "id": "AU_pipeline_sa-treatment-trunk",
+    "tier": "transport",
+    "name": "SA Water Treatment Trunk Mains",
+    "country_iso2": "AU",
+    "operator_id": "AU_sa_water",
+    "mode": "pipeline",
+    "form": "bulk_liquid",
+    "range": "regional",
+    "coordinates": {
+      "lat": -34.975,
+      "lon": 138.59
+    }
+  },
+  {
+    "id": "AU_pipeline_sa-trunk-distribution",
+    "tier": "transport",
+    "name": "SA Water Trunk to Reticulation",
+    "country_iso2": "AU",
+    "operator_id": "AU_sa_water",
+    "mode": "pipeline",
+    "form": "bulk_liquid",
+    "range": "regional",
+    "coordinates": {
+      "lat": -34.93,
+      "lon": 138.6
+    }
+  },
+  {
+    "id": "AU_pipeline_sa-residential",
+    "tier": "transport",
+    "name": "SA Water Residential Reticulation",
+    "country_iso2": "AU",
+    "operator_id": "AU_sa_water",
+    "mode": "pipeline",
+    "form": "bulk_liquid",
+    "range": "local",
+    "coordinates": {
+      "lat": -34.929,
+      "lon": 138.601
+    }
+  },
+  {
+    "id": "AU_pipeline_sa-commercial",
+    "tier": "transport",
+    "name": "SA Water Commercial Reticulation",
+    "country_iso2": "AU",
+    "operator_id": "AU_sa_water",
+    "mode": "pipeline",
+    "form": "bulk_liquid",
+    "range": "local",
+    "coordinates": {
+      "lat": -34.929,
+      "lon": 138.601
+    }
+  },
+  {
+    "id": "AU_pipeline_sa-industrial",
+    "tier": "transport",
+    "name": "SA Water Industrial Reticulation",
+    "country_iso2": "AU",
+    "operator_id": "AU_sa_water",
+    "mode": "pipeline",
+    "form": "bulk_liquid",
+    "range": "local",
+    "coordinates": {
+      "lat": -34.929,
+      "lon": 138.601
+    }
+  },
+  {
+    "id": "AU_pipeline_sa-government",
+    "tier": "transport",
+    "name": "SA Water Government / Institutional Reticulation",
+    "country_iso2": "AU",
+    "operator_id": "AU_sa_water",
+    "mode": "pipeline",
+    "form": "bulk_liquid",
+    "range": "local",
+    "coordinates": {
+      "lat": -34.929,
+      "lon": 138.601
+    }
+  },
+  {
+    "id": "AU_pipeline_cotter-stromlo",
+    "tier": "transport",
+    "name": "Cotter Dam to Stromlo WTP Pipeline",
+    "country_iso2": "AU",
+    "operator_id": "AU_icon_water",
+    "mode": "pipeline",
+    "form": "bulk_liquid",
+    "range": "local",
+    "coordinates": {
+      "lat": -35.31,
+      "lon": 148.98
+    }
+  },
+  {
+    "id": "AU_pipeline_bendora-stromlo",
+    "tier": "transport",
+    "name": "Bendora Dam to Stromlo WTP Pipeline",
+    "country_iso2": "AU",
+    "operator_id": "AU_icon_water",
+    "mode": "pipeline",
+    "form": "bulk_liquid",
+    "range": "local",
+    "coordinates": {
+      "lat": -35.37,
+      "lon": 148.93
+    }
+  },
+  {
+    "id": "AU_pipeline_corin-bendora",
+    "tier": "transport",
+    "name": "Corin Dam Release to Bendora Pipeline",
+    "country_iso2": "AU",
+    "operator_id": "AU_icon_water",
+    "mode": "pipeline",
+    "form": "bulk_liquid",
+    "range": "local",
+    "coordinates": {
+      "lat": -35.48,
+      "lon": 148.835
+    }
+  },
+  {
+    "id": "AU_pipeline_googong-canberra",
+    "tier": "transport",
+    "name": "Googong Dam to Googong WTP / Canberra Pipeline",
+    "country_iso2": "AU",
+    "operator_id": "AU_icon_water",
+    "mode": "pipeline",
+    "form": "bulk_liquid",
+    "range": "local",
+    "coordinates": {
+      "lat": -35.4,
+      "lon": 149.2
+    }
+  },
+  {
+    "id": "AU_pipeline_act-treatment-trunk",
+    "tier": "transport",
+    "name": "Icon Water Treatment Trunk Mains",
+    "country_iso2": "AU",
+    "operator_id": "AU_icon_water",
+    "mode": "pipeline",
+    "form": "bulk_liquid",
+    "range": "local",
+    "coordinates": {
+      "lat": -35.3,
+      "lon": 149.1
+    }
+  },
+  {
+    "id": "AU_pipeline_act-trunk-distribution",
+    "tier": "transport",
+    "name": "Icon Water Trunk to ACT Distribution",
+    "country_iso2": "AU",
+    "operator_id": "AU_icon_water",
+    "mode": "pipeline",
+    "form": "bulk_liquid",
+    "range": "local",
+    "coordinates": {
+      "lat": -35.282,
+      "lon": 149.128
+    }
+  },
+  {
+    "id": "AU_pipeline_act-residential",
+    "tier": "transport",
+    "name": "Icon Water Residential Reticulation",
+    "country_iso2": "AU",
+    "operator_id": "AU_icon_water",
+    "mode": "pipeline",
+    "form": "bulk_liquid",
+    "range": "local",
+    "coordinates": {
+      "lat": -35.282,
+      "lon": 149.128
+    }
+  },
+  {
+    "id": "AU_pipeline_act-commercial",
+    "tier": "transport",
+    "name": "Icon Water Commercial Reticulation",
+    "country_iso2": "AU",
+    "operator_id": "AU_icon_water",
+    "mode": "pipeline",
+    "form": "bulk_liquid",
+    "range": "local",
+    "coordinates": {
+      "lat": -35.282,
+      "lon": 149.128
+    }
+  },
+  {
+    "id": "AU_pipeline_act-government",
+    "tier": "transport",
+    "name": "Icon Water Government / Institutional Reticulation",
+    "country_iso2": "AU",
+    "operator_id": "AU_icon_water",
+    "mode": "pipeline",
+    "form": "bulk_liquid",
+    "range": "local",
+    "coordinates": {
+      "lat": -35.282,
+      "lon": 149.128
+    }
+  },
+  {
+    "id": "AU_pipeline_act-industrial",
+    "tier": "transport",
+    "name": "Icon Water Industrial Reticulation",
+    "country_iso2": "AU",
+    "operator_id": "AU_icon_water",
+    "mode": "pipeline",
+    "form": "bulk_liquid",
+    "range": "local",
+    "coordinates": {
+      "lat": -35.282,
+      "lon": 149.128
+    }
+  },
+  {
+    "id": "AU_pipeline_trevallyn-wtp",
+    "tier": "transport",
+    "name": "Trevallyn Dam to Launceston WTP Pipeline",
+    "country_iso2": "AU",
+    "operator_id": "AU_taswater",
+    "mode": "pipeline",
+    "form": "bulk_liquid",
+    "range": "local",
+    "coordinates": {
+      "lat": -41.454,
+      "lon": 147.095
+    }
+  },
+  {
+    "id": "AU_pipeline_derwent-hobart",
+    "tier": "transport",
+    "name": "Derwent Catchment to Hobart WTP Pipeline",
+    "country_iso2": "AU",
+    "operator_id": "AU_taswater",
+    "mode": "pipeline",
+    "form": "bulk_liquid",
+    "range": "regional",
+    "coordinates": {
+      "lat": -42.5,
+      "lon": 146.8
+    }
+  },
+  {
+    "id": "AU_pipeline_tas-treatment-trunk",
+    "tier": "transport",
+    "name": "TasWater Treatment Trunk Mains",
+    "country_iso2": "AU",
+    "operator_id": "AU_taswater",
+    "mode": "pipeline",
+    "form": "bulk_liquid",
+    "range": "regional",
+    "coordinates": {
+      "lat": -42.15,
+      "lon": 147
+    }
+  },
+  {
+    "id": "AU_pipeline_tas-trunk-distribution",
+    "tier": "transport",
+    "name": "TasWater Trunk to Reticulation",
+    "country_iso2": "AU",
+    "operator_id": "AU_taswater",
+    "mode": "pipeline",
+    "form": "bulk_liquid",
+    "range": "regional",
+    "coordinates": {
+      "lat": -42.15,
+      "lon": 147
+    }
+  },
+  {
+    "id": "AU_pipeline_tas-residential",
+    "tier": "transport",
+    "name": "TasWater Residential Reticulation",
+    "country_iso2": "AU",
+    "operator_id": "AU_taswater",
+    "mode": "pipeline",
+    "form": "bulk_liquid",
+    "range": "local",
+    "coordinates": {
+      "lat": -42.88,
+      "lon": 147.325
+    }
+  },
+  {
+    "id": "AU_pipeline_tas-commercial",
+    "tier": "transport",
+    "name": "TasWater Commercial Reticulation",
+    "country_iso2": "AU",
+    "operator_id": "AU_taswater",
+    "mode": "pipeline",
+    "form": "bulk_liquid",
+    "range": "local",
+    "coordinates": {
+      "lat": -42.88,
+      "lon": 147.325
+    }
+  },
+  {
+    "id": "AU_pipeline_tas-industrial",
+    "tier": "transport",
+    "name": "TasWater Industrial Reticulation",
+    "country_iso2": "AU",
+    "operator_id": "AU_taswater",
+    "mode": "pipeline",
+    "form": "bulk_liquid",
+    "range": "local",
+    "coordinates": {
+      "lat": -42.88,
+      "lon": 147.325
+    }
+  },
+  {
+    "id": "AU_pipeline_darwinriver-darwin",
+    "tier": "transport",
+    "name": "Darwin River Dam to Darwin WTP Pipeline",
+    "country_iso2": "AU",
+    "operator_id": "AU_power_and_water_corporation",
+    "mode": "pipeline",
+    "form": "bulk_liquid",
+    "range": "regional",
+    "coordinates": {
+      "lat": -12.65,
+      "lon": 130.9
+    }
+  },
+  {
+    "id": "AU_pipeline_nt-treatment-trunk",
+    "tier": "transport",
+    "name": "Power and Water Treatment Trunk Mains NT",
+    "country_iso2": "AU",
+    "operator_id": "AU_power_and_water_corporation",
+    "mode": "pipeline",
+    "form": "bulk_liquid",
+    "range": "local",
+    "coordinates": {
+      "lat": -12.462,
+      "lon": 130.846
+    }
+  },
+  {
+    "id": "AU_pipeline_nt-trunk-distribution",
+    "tier": "transport",
+    "name": "Power and Water Trunk to NT Distribution",
+    "country_iso2": "AU",
+    "operator_id": "AU_power_and_water_corporation",
+    "mode": "pipeline",
+    "form": "bulk_liquid",
+    "range": "local",
+    "coordinates": {
+      "lat": -12.462,
+      "lon": 130.846
+    }
+  },
+  {
+    "id": "AU_pipeline_nt-residential",
+    "tier": "transport",
+    "name": "Power and Water NT Residential Reticulation",
+    "country_iso2": "AU",
+    "operator_id": "AU_power_and_water_corporation",
+    "mode": "pipeline",
+    "form": "bulk_liquid",
+    "range": "local",
+    "coordinates": {
+      "lat": -12.462,
+      "lon": 130.846
+    }
+  },
+  {
+    "id": "AU_pipeline_nt-commercial",
+    "tier": "transport",
+    "name": "Power and Water NT Commercial Reticulation",
+    "country_iso2": "AU",
+    "operator_id": "AU_power_and_water_corporation",
+    "mode": "pipeline",
+    "form": "bulk_liquid",
+    "range": "local",
+    "coordinates": {
+      "lat": -12.462,
+      "lon": 130.846
+    }
+  },
+  {
+    "id": "AU_pipeline_nt-government",
+    "tier": "transport",
+    "name": "Power and Water NT Government Reticulation",
+    "country_iso2": "AU",
+    "operator_id": "AU_power_and_water_corporation",
+    "mode": "pipeline",
+    "form": "bulk_liquid",
+    "range": "local",
+    "coordinates": {
+      "lat": -12.462,
+      "lon": 130.846
+    }
+  },
+  {
+    "id": "AU_pipeline_rossriver-wtp",
+    "tier": "transport",
+    "name": "Ross River Dam to Douglas WTP Pipeline",
+    "country_iso2": "AU",
+    "operator_id": "AU_townsville_city_council",
+    "mode": "pipeline",
+    "form": "bulk_liquid",
+    "range": "local",
+    "coordinates": {
+      "lat": -19.37,
+      "lon": 146.73
+    }
+  },
+  {
+    "id": "AU_pipeline_townsville-trunk",
+    "tier": "transport",
+    "name": "Townsville Water Treatment Trunk Main",
+    "country_iso2": "AU",
+    "operator_id": "AU_townsville_city_council",
+    "mode": "pipeline",
+    "form": "bulk_liquid",
+    "range": "local",
+    "coordinates": {
+      "lat": -19.3,
+      "lon": 146.77
+    }
+  },
+  {
+    "id": "AU_pipeline_townsville-trunk-distribution",
+    "tier": "transport",
+    "name": "Townsville Water Trunk to Reticulation",
+    "country_iso2": "AU",
+    "operator_id": "AU_townsville_city_council",
+    "mode": "pipeline",
+    "form": "bulk_liquid",
+    "range": "local",
+    "coordinates": {
+      "lat": -19.27,
+      "lon": 146.8
+    }
+  },
+  {
+    "id": "AU_pipeline_tsv-residential",
+    "tier": "transport",
+    "name": "Townsville Residential Reticulation",
+    "country_iso2": "AU",
+    "operator_id": "AU_townsville_city_council",
+    "mode": "pipeline",
+    "form": "bulk_liquid",
+    "range": "local",
+    "coordinates": {
+      "lat": -19.258,
+      "lon": 146.816
+    }
+  },
+  {
+    "id": "AU_pipeline_tsv-commercial",
+    "tier": "transport",
+    "name": "Townsville Commercial Reticulation",
+    "country_iso2": "AU",
+    "operator_id": "AU_townsville_city_council",
+    "mode": "pipeline",
+    "form": "bulk_liquid",
+    "range": "local",
+    "coordinates": {
+      "lat": -19.258,
+      "lon": 146.816
+    }
+  },
+  {
+    "id": "AU_pipeline_tsv-industrial",
+    "tier": "transport",
+    "name": "Townsville Industrial Reticulation",
+    "country_iso2": "AU",
+    "operator_id": "AU_townsville_city_council",
+    "mode": "pipeline",
+    "form": "bulk_liquid",
+    "range": "local",
+    "coordinates": {
+      "lat": -19.258,
+      "lon": 146.816
+    }
+  },
+  {
+    "id": "AU_pipeline_hume-goulburn",
+    "tier": "transport",
+    "name": "Hume Dam Release to Goulburn-Murray Irrigation System",
+    "country_iso2": "AU",
+    "operator_id": "AU_goulburn_murray_water",
+    "mode": "pipeline",
+    "form": "bulk_liquid",
+    "range": "regional",
+    "coordinates": {
+      "lat": -36.2,
+      "lon": 146.5
+    }
+  },
+  {
+    "id": "AU_pipeline_eildon-goulburn",
+    "tier": "transport",
+    "name": "Eildon Release to Goulburn River / Irrigation System",
+    "country_iso2": "AU",
+    "operator_id": "AU_goulburn_murray_water",
+    "mode": "pipeline",
+    "form": "bulk_liquid",
+    "range": "regional",
+    "coordinates": {
+      "lat": -37,
+      "lon": 145.8
+    }
+  },
+  {
+    "id": "AU_pipeline_gmw-channels",
+    "tier": "transport",
+    "name": "Goulburn-Murray Water Channel & Pipeline Network",
+    "country_iso2": "AU",
+    "operator_id": "AU_goulburn_murray_water",
+    "mode": "pipeline",
+    "form": "bulk_liquid",
+    "range": "regional",
+    "coordinates": {
+      "lat": -36.25,
+      "lon": 145.4
+    }
+  },
+  {
+    "id": "AU_pipeline_gmw-distribution-channels",
+    "tier": "transport",
+    "name": "GMW Distribution Channels / Laterals",
+    "country_iso2": "AU",
+    "operator_id": "AU_goulburn_murray_water",
+    "mode": "pipeline",
+    "form": "bulk_liquid",
+    "range": "regional",
+    "coordinates": {
+      "lat": -36.05,
+      "lon": 145.2
+    }
+  },
+  {
+    "id": "AU_pipeline_gmw-farm-gate",
+    "tier": "transport",
+    "name": "GMW Farm Gate Delivery Channels",
+    "country_iso2": "AU",
+    "operator_id": "AU_goulburn_murray_water",
+    "mode": "pipeline",
+    "form": "bulk_liquid",
+    "range": "local",
+    "coordinates": {
+      "lat": -36.05,
+      "lon": 145.2
+    }
+  },
+  {
+    "id": "AU_pipeline_gmw-industrial",
+    "tier": "transport",
+    "name": "GMW Industrial / Urban Offtake",
+    "country_iso2": "AU",
+    "operator_id": "AU_goulburn_murray_water",
+    "mode": "pipeline",
+    "form": "bulk_liquid",
+    "range": "local",
+    "coordinates": {
+      "lat": -36.1,
+      "lon": 145.3
+    }
+  },
+  {
+    "id": "AU_pipeline_burdekin-sunwater",
+    "tier": "transport",
+    "name": "Burdekin Falls Dam to Sunwater Irrigation Network",
+    "country_iso2": "AU",
+    "operator_id": "AU_sunwater",
+    "mode": "pipeline",
+    "form": "bulk_liquid",
+    "range": "regional",
+    "coordinates": {
+      "lat": -20.2,
+      "lon": 147.3
+    }
+  },
+  {
+    "id": "AU_pipeline_fairbairn-sunwater",
+    "tier": "transport",
+    "name": "Fairbairn Dam to Sunwater Irrigation Network",
+    "country_iso2": "AU",
+    "operator_id": "AU_sunwater",
+    "mode": "pipeline",
+    "form": "bulk_liquid",
+    "range": "regional",
+    "coordinates": {
+      "lat": -23.4,
+      "lon": 148.2
+    }
+  },
+  {
+    "id": "AU_pipeline_tinaroo-sunwater",
+    "tier": "transport",
+    "name": "Tinaroo Falls Dam to Sunwater Irrigation Network",
+    "country_iso2": "AU",
+    "operator_id": "AU_sunwater",
+    "mode": "pipeline",
+    "form": "bulk_liquid",
+    "range": "regional",
+    "coordinates": {
+      "lat": -17.2,
+      "lon": 145.6
+    }
+  },
+  {
+    "id": "AU_pipeline_sunwater-channels",
+    "tier": "transport",
+    "name": "Sunwater Main Channel Network QLD",
+    "country_iso2": "AU",
+    "operator_id": "AU_sunwater",
+    "mode": "pipeline",
+    "form": "bulk_liquid",
+    "range": "regional",
+    "coordinates": {
+      "lat": -22,
+      "lon": 148.5
+    }
+  },
+  {
+    "id": "AU_pipeline_sunwater-distribution-channels",
+    "tier": "transport",
+    "name": "Sunwater Distribution Laterals QLD",
+    "country_iso2": "AU",
+    "operator_id": "AU_sunwater",
+    "mode": "pipeline",
+    "form": "bulk_liquid",
+    "range": "regional",
+    "coordinates": {
+      "lat": -21.5,
+      "lon": 148.2
+    }
+  },
+  {
+    "id": "AU_pipeline_sunwater-farm-gate",
+    "tier": "transport",
+    "name": "Sunwater Farm Gate Delivery QLD",
+    "country_iso2": "AU",
+    "operator_id": "AU_sunwater",
+    "mode": "pipeline",
+    "form": "bulk_liquid",
+    "range": "local",
+    "coordinates": {
+      "lat": -21.5,
+      "lon": 148.2
+    }
+  },
+  {
+    "id": "AU_pipeline_sunwater-industrial",
+    "tier": "transport",
+    "name": "Sunwater Industrial / Mining Offtake QLD",
+    "country_iso2": "AU",
+    "operator_id": "AU_sunwater",
+    "mode": "pipeline",
+    "form": "bulk_liquid",
+    "range": "regional",
+    "coordinates": {
+      "lat": -22.5,
+      "lon": 148.8
+    }
+  }
+]

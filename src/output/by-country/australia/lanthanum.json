@@ -1,0 +1,1038 @@
+[
+  {
+    "id": "MY_lynas_lamp",
+    "name": "Lynas Advanced Materials Plant (LAMP), Kuantan",
+    "tier": "separation_plant",
+    "country_iso2": "MY",
+    "canonical_company": "Lynas Rare Earths",
+    "coordinates": {
+      "lat": 3.97,
+      "lon": 103.42
+    },
+    "downstream": [
+      {
+        "target_id": "JP_santoku_kobe",
+        "corridor_id": "INTL_ocean_kuantan-kobe",
+        "resource": "lanthanum oxide",
+        "quantity": 1800,
+        "metric": "t"
+      },
+      {
+        "target_id": "JP_mitsui_kinzoku",
+        "corridor_id": "INTL_ocean_kuantan-osaka",
+        "resource": "lanthanum oxide",
+        "quantity": 800,
+        "metric": "t"
+      },
+      {
+        "target_id": "CN_baotou_steel_re",
+        "corridor_id": "INTL_ocean_kuantan-tianjin",
+        "resource": "lanthanum oxide / lanthanum carbonate",
+        "quantity": 1200,
+        "metric": "t"
+      },
+      {
+        "target_id": "DE_treibacher",
+        "corridor_id": "INTL_ocean_kuantan-hamburg",
+        "resource": "lanthanum oxide",
+        "quantity": 600,
+        "metric": "t"
+      },
+      {
+        "target_id": "US_neo_performance",
+        "corridor_id": "INTL_ocean_kuantan-baltimore",
+        "resource": "lanthanum oxide",
+        "quantity": 500,
+        "metric": "t"
+      },
+      {
+        "target_id": "KR_posco_catalyst",
+        "corridor_id": "INTL_ocean_kuantan-busan",
+        "resource": "lanthanum oxide",
+        "quantity": 400,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_lynas_mount_weld",
+      "AU_lynas_kalgoorlie"
+    ],
+    "resources": [
+      "Lanthanum"
+    ]
+  },
+  {
+    "id": "JP_santoku_kobe",
+    "name": "Santoku Corporation, Kobe",
+    "tier": "alloy_producer",
+    "country_iso2": "JP",
+    "canonical_company": "Santoku Corporation",
+    "coordinates": {
+      "lat": 34.6901,
+      "lon": 135.1956
+    },
+    "downstream": [
+      {
+        "target_id": "JP_toyota",
+        "corridor_id": "JP_road_kobe-toyota-city",
+        "resource": "lanthanum-nickel alloy (NiMH battery alloy)",
+        "quantity": 900,
+        "metric": "t"
+      },
+      {
+        "target_id": "JP_panasonic_energy",
+        "corridor_id": "JP_road_kobe-osaka",
+        "resource": "lanthanum-nickel hydrogen storage alloy",
+        "quantity": 500,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "MY_lynas_lamp",
+      "AU_iluka_eneabba_refinery"
+    ],
+    "resources": [
+      "Lanthanum"
+    ]
+  },
+  {
+    "id": "JP_mitsui_kinzoku",
+    "name": "Mitsui Mining & Smelting Co.",
+    "tier": "alloy_producer",
+    "country_iso2": "JP",
+    "canonical_company": "Mitsui Mining & Smelting",
+    "coordinates": {
+      "lat": 35.6762,
+      "lon": 139.6503
+    },
+    "downstream": [
+      {
+        "target_id": "JP_toyota",
+        "corridor_id": "JP_road_tokyo-toyota-city",
+        "resource": "lanthanum-based hydrogen storage alloy",
+        "quantity": 400,
+        "metric": "t"
+      },
+      {
+        "target_id": "JP_honda",
+        "corridor_id": "JP_road_tokyo-tochigi",
+        "resource": "lanthanum-based hydrogen storage alloy",
+        "quantity": 200,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "MY_lynas_lamp"
+    ],
+    "resources": [
+      "Lanthanum"
+    ]
+  },
+  {
+    "id": "KR_posco_catalyst",
+    "name": "POSCO Chemical Catalyst Division",
+    "tier": "alloy_producer",
+    "country_iso2": "KR",
+    "canonical_company": "POSCO Future M",
+    "coordinates": {
+      "lat": 35.0896,
+      "lon": 129.0579
+    },
+    "downstream": [
+      {
+        "target_id": "KR_hyundai_motor",
+        "corridor_id": "KR_road_pohang-ulsan",
+        "resource": "lanthanum-containing catalyst / alloy",
+        "quantity": 250,
+        "metric": "t"
+      },
+      {
+        "target_id": "KR_sk_refinery",
+        "corridor_id": "KR_road_pohang-incheon",
+        "resource": "lanthanum-based FCC catalyst",
+        "quantity": 150,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "MY_lynas_lamp"
+    ],
+    "resources": [
+      "Lanthanum"
+    ]
+  },
+  {
+    "id": "JP_panasonic_energy",
+    "name": "Panasonic Energy Co.",
+    "tier": "oem",
+    "country_iso2": "JP",
+    "canonical_company": "Panasonic",
+    "coordinates": {
+      "lat": 34.6937,
+      "lon": 135.5023
+    },
+    "downstream": [
+      {
+        "target_id": "JP_industrial",
+        "corridor_id": "JP_road_osaka-nationwide",
+        "resource": "NiMH batteries containing lanthanum alloy",
+        "quantity": 350,
+        "metric": "t"
+      },
+      {
+        "target_id": "INTL_industrial",
+        "corridor_id": "INTL_ocean_osaka-worldwide",
+        "resource": "NiMH batteries containing lanthanum alloy",
+        "quantity": 150,
+        "metric": "t"
+      },
+      {
+        "target_id": "US_industrial",
+        "corridor_id": "INTL_ocean_osaka-losangeles",
+        "resource": "NCA/NCM battery cells for EV",
+        "quantity": 8000,
+        "metric": "t"
+      },
+      {
+        "target_id": "JP_industrial",
+        "corridor_id": "JP_road_osaka-domestic",
+        "resource": "battery cells for consumer electronics and EV",
+        "quantity": 5000,
+        "metric": "t"
+      },
+      {
+        "target_id": "US_tesla",
+        "corridor_id": "INTL_ocean_kobe-losangeles",
+        "resource": "NCA cylindrical lithium-ion battery cells",
+        "quantity": 350,
+        "metric": "t"
+      },
+      {
+        "target_id": "JP_toyota",
+        "corridor_id": "JP_road_osaka-toyota-city",
+        "resource": "NMC prismatic battery cells",
+        "quantity": 150,
+        "metric": "t"
+      },
+      {
+        "target_id": "JP_industrial",
+        "corridor_id": "JP_road_panasonic-industrial",
+        "resource": "battery packs with graphite anodes for EVs and ESS",
+        "quantity": 5000,
+        "metric": "t"
+      },
+      {
+        "target_id": "US_industrial",
+        "corridor_id": "INTL_ocean_osaka-us",
+        "resource": "battery cells with graphite anodes",
+        "quantity": 5000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "JP_santoku_kobe",
+      "AU_bhp_nickel_sulphate_plant",
+      "JP_sumitomo_metal_mining"
+    ],
+    "resources": [
+      "Lanthanum",
+      "Nickel",
+      "Cobalt",
+      "Graphite"
+    ]
+  },
+  {
+    "id": "JP_honda",
+    "name": "Honda Motor Co.",
+    "tier": "oem",
+    "country_iso2": "JP",
+    "canonical_company": "Honda Motor",
+    "coordinates": {
+      "lat": 36.5275,
+      "lon": 139.9937
+    },
+    "downstream": [
+      {
+        "target_id": "JP_residential",
+        "corridor_id": "JP_road_tochigi-nationwide",
+        "resource": "hybrid vehicles with NiMH batteries containing lanthanum",
+        "quantity": 120,
+        "metric": "t"
+      },
+      {
+        "target_id": "US_residential",
+        "corridor_id": "INTL_ocean_yokohama-los-angeles",
+        "resource": "hybrid vehicles with NiMH batteries containing lanthanum",
+        "quantity": 80,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "JP_mitsui_kinzoku"
+    ],
+    "resources": [
+      "Lanthanum"
+    ]
+  },
+  {
+    "id": "CN_catl",
+    "name": "CATL (Contemporary Amperex Technology)",
+    "tier": "oem",
+    "country_iso2": "CN",
+    "canonical_company": "CATL",
+    "coordinates": {
+      "lat": 26.6616,
+      "lon": 119.5381
+    },
+    "downstream": [
+      {
+        "target_id": "CN_industrial",
+        "corridor_id": "CN_road_ningde-nationwide",
+        "resource": "battery systems containing lanthanum alloy",
+        "quantity": 300,
+        "metric": "t"
+      },
+      {
+        "target_id": "INTL_industrial",
+        "corridor_id": "INTL_ocean_fuzhou-worldwide",
+        "resource": "battery systems containing lanthanum alloy",
+        "quantity": 200,
+        "metric": "t"
+      },
+      {
+        "target_id": "CN_industrial",
+        "corridor_id": "CN_road_ningde-domestic",
+        "resource": "lithium-ion battery cells (nickel-rich)",
+        "quantity": 12000,
+        "metric": "t"
+      },
+      {
+        "target_id": "DE_industrial",
+        "corridor_id": "INTL_ocean_shanghai-hamburg",
+        "resource": "EV battery cells/packs",
+        "quantity": 5000,
+        "metric": "t"
+      },
+      {
+        "target_id": "US_industrial",
+        "corridor_id": "INTL_ocean_shanghai-losangeles",
+        "resource": "EV battery cells/packs",
+        "quantity": 3000,
+        "metric": "t"
+      },
+      {
+        "target_id": "US_tesla",
+        "corridor_id": "INTL_ocean_shanghai-losangeles",
+        "resource": "NMC/NCA lithium-ion battery cells",
+        "quantity": 400,
+        "metric": "t"
+      },
+      {
+        "target_id": "DE_bmw_ag",
+        "corridor_id": "INTL_ocean_shanghai-hamburg",
+        "resource": "NMC lithium-ion battery cells",
+        "quantity": 300,
+        "metric": "t"
+      },
+      {
+        "target_id": "CN_nio",
+        "corridor_id": "CN_road_ningde-hefei",
+        "resource": "NMC lithium-ion battery packs",
+        "quantity": 300,
+        "metric": "t"
+      },
+      {
+        "target_id": "CN_tesla_shanghai",
+        "corridor_id": "CN_road_catl-shanghai",
+        "resource": "lithium-ion battery packs with graphite anodes",
+        "quantity": 25000,
+        "metric": "t"
+      },
+      {
+        "target_id": "DE_bmw_ev_assembly",
+        "corridor_id": "INTL_ocean_ningde-hamburg",
+        "resource": "lithium-ion battery packs with graphite anodes",
+        "quantity": 10000,
+        "metric": "t"
+      },
+      {
+        "target_id": "CN_industrial",
+        "corridor_id": "CN_road_catl-ess",
+        "resource": "energy storage battery systems with graphite anodes",
+        "quantity": 10000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "CN_baotou_steel_re",
+      "AU_bhp_nickel_sulphate_plant",
+      "CN_jinchuan_group",
+      "CN_tsingshan_group",
+      "CN_huayou_cobalt",
+      "CN_graphite_traders"
+    ],
+    "resources": [
+      "Lanthanum",
+      "Nickel",
+      "Cobalt",
+      "Graphite"
+    ]
+  },
+  {
+    "id": "CN_fcc_catalyst_producers",
+    "name": "Chinese FCC Catalyst Producers (Sinopec Catalyst Co. et al.)",
+    "tier": "oem",
+    "country_iso2": "CN",
+    "canonical_company": "Sinopec Catalyst",
+    "coordinates": {
+      "lat": 30.5928,
+      "lon": 114.3055
+    },
+    "downstream": [
+      {
+        "target_id": "CN_industrial",
+        "corridor_id": "CN_road_wuhan-refinery-belt",
+        "resource": "FCC catalysts containing lanthanum for petroleum refining",
+        "quantity": 500,
+        "metric": "t"
+      },
+      {
+        "target_id": "INTL_industrial",
+        "corridor_id": "INTL_ocean_shanghai-worldwide",
+        "resource": "FCC catalysts containing lanthanum",
+        "quantity": 200,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "CN_baotou_steel_re"
+    ],
+    "resources": [
+      "Lanthanum"
+    ]
+  },
+  {
+    "id": "DE_basf_catalyst",
+    "name": "BASF Refinery Catalysts Division",
+    "tier": "oem",
+    "country_iso2": "DE",
+    "canonical_company": "BASF",
+    "coordinates": {
+      "lat": 49.4875,
+      "lon": 8.3889
+    },
+    "downstream": [
+      {
+        "target_id": "DE_industrial",
+        "corridor_id": "DE_road_ludwigshafen-german-refineries",
+        "resource": "FCC catalysts containing lanthanum",
+        "quantity": 200,
+        "metric": "t"
+      },
+      {
+        "target_id": "INTL_industrial",
+        "corridor_id": "INTL_ocean_rotterdam-worldwide",
+        "resource": "FCC catalysts containing lanthanum",
+        "quantity": 200,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "DE_treibacher"
+    ],
+    "resources": [
+      "Lanthanum"
+    ]
+  },
+  {
+    "id": "US_grace_catalyst",
+    "name": "W.R. Grace & Co. FCC Catalysts",
+    "tier": "oem",
+    "country_iso2": "US",
+    "canonical_company": "W.R. Grace",
+    "coordinates": {
+      "lat": 39.215,
+      "lon": -76.7368
+    },
+    "downstream": [
+      {
+        "target_id": "US_industrial",
+        "corridor_id": "US_road_columbia-gulf-coast-refineries",
+        "resource": "FCC catalysts containing lanthanum for petroleum refining",
+        "quantity": 250,
+        "metric": "t"
+      },
+      {
+        "target_id": "INTL_industrial",
+        "corridor_id": "INTL_ocean_baltimore-worldwide",
+        "resource": "FCC catalysts containing lanthanum",
+        "quantity": 50,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "US_neo_performance"
+    ],
+    "resources": [
+      "Lanthanum"
+    ]
+  },
+  {
+    "id": "US_corning",
+    "name": "Corning Incorporated — Specialty Glass",
+    "tier": "oem",
+    "country_iso2": "US",
+    "canonical_company": "Corning Inc",
+    "coordinates": {
+      "lat": 42.1428,
+      "lon": -77.0547
+    },
+    "downstream": [
+      {
+        "target_id": "US_industrial",
+        "corridor_id": "US_road_corning-nationwide",
+        "resource": "lanthanum-containing specialty glass & ceramics",
+        "quantity": 60,
+        "metric": "t"
+      },
+      {
+        "target_id": "US_commercial",
+        "corridor_id": "US_road_corning-nationwide",
+        "resource": "lanthanum optical components",
+        "quantity": 40,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "US_neo_performance"
+    ],
+    "resources": [
+      "Lanthanum"
+    ]
+  },
+  {
+    "id": "KR_sk_refinery",
+    "name": "SK Energy — Ulsan Refinery Complex",
+    "tier": "oem",
+    "country_iso2": "KR",
+    "canonical_company": "SK Innovation",
+    "coordinates": {
+      "lat": 35.505,
+      "lon": 129.388
+    },
+    "downstream": [
+      {
+        "target_id": "KR_industrial",
+        "corridor_id": "KR_road_ulsan-nationwide-fuel",
+        "resource": "refined petroleum products (using lanthanum FCC catalyst)",
+        "quantity": 150,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "KR_posco_catalyst"
+    ],
+    "resources": [
+      "Lanthanum"
+    ]
+  },
+  {
+    "id": "AU_road_kalgoorlie-fremantle",
+    "tier": "transport",
+    "name": "Road/Rail: Kalgoorlie → Fremantle Port",
+    "country_iso2": "AU",
+    "operator_id": "AU_aurizon",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "regional",
+    "coordinates": {
+      "lat": -31.5,
+      "lon": 118
+    }
+  },
+  {
+    "id": "INTL_ocean_kuantan-osaka",
+    "tier": "transport",
+    "name": "Ocean freight: Kuantan → Osaka",
+    "country_iso2": "INTL",
+    "operator_id": "INTL_mol",
+    "mode": "ocean_freight",
+    "form": "containerised",
+    "range": "international",
+    "coordinates": {
+      "lat": 22,
+      "lon": 122
+    }
+  },
+  {
+    "id": "INTL_ocean_kuantan-tianjin",
+    "tier": "transport",
+    "name": "Ocean freight: Kuantan → Tianjin",
+    "country_iso2": "INTL",
+    "operator_id": "INTL_cosco",
+    "mode": "ocean_freight",
+    "form": "containerised",
+    "range": "international",
+    "coordinates": {
+      "lat": 15,
+      "lon": 113
+    },
+    "resources": [
+      "Dysprosium"
+    ],
+    "upstream": [],
+    "downstream": []
+  },
+  {
+    "id": "INTL_ocean_fremantle-kobe",
+    "tier": "transport",
+    "name": "Ocean freight: Fremantle → Kobe",
+    "country_iso2": "INTL",
+    "operator_id": "INTL_mol",
+    "mode": "ocean_freight",
+    "form": "containerised",
+    "range": "international",
+    "coordinates": {
+      "lat": -10,
+      "lon": 130
+    },
+    "resources": [
+      "Dysprosium",
+      "Lithium (hard-rock)",
+      "Talc"
+    ],
+    "upstream": [],
+    "downstream": []
+  },
+  {
+    "id": "JP_road_kobe-toyota-city",
+    "tier": "transport",
+    "name": "Road: Kobe → Toyota City",
+    "country_iso2": "JP",
+    "operator_id": "JP_nippon_express",
+    "mode": "road",
+    "form": "containerised",
+    "range": "regional",
+    "coordinates": {
+      "lat": 34.9,
+      "lon": 136.5
+    }
+  },
+  {
+    "id": "JP_road_kobe-osaka",
+    "tier": "transport",
+    "name": "Road: Kobe → Osaka (Panasonic facilities)",
+    "country_iso2": "JP",
+    "operator_id": "JP_nippon_express",
+    "mode": "road",
+    "form": "containerised",
+    "range": "local",
+    "coordinates": {
+      "lat": 34.69,
+      "lon": 135.35
+    },
+    "resources": [
+      "Talc"
+    ],
+    "upstream": [],
+    "downstream": []
+  },
+  {
+    "id": "JP_road_tokyo-toyota-city",
+    "tier": "transport",
+    "name": "Road: Tokyo area → Toyota City",
+    "country_iso2": "JP",
+    "operator_id": "JP_yamato_transport",
+    "mode": "road",
+    "form": "containerised",
+    "range": "regional",
+    "coordinates": {
+      "lat": 35.3,
+      "lon": 137.8
+    }
+  },
+  {
+    "id": "JP_road_tokyo-tochigi",
+    "tier": "transport",
+    "name": "Road: Tokyo → Tochigi (Honda R&D/plant)",
+    "country_iso2": "JP",
+    "operator_id": "JP_nippon_express",
+    "mode": "road",
+    "form": "containerised",
+    "range": "regional",
+    "coordinates": {
+      "lat": 36.2,
+      "lon": 139.8
+    }
+  },
+  {
+    "id": "CN_rail_baotou-ningde",
+    "tier": "transport",
+    "name": "Rail: Baotou → Ningde (CATL)",
+    "country_iso2": "CN",
+    "operator_id": "CN_china_railway",
+    "mode": "rail",
+    "form": "containerised",
+    "range": "regional",
+    "coordinates": {
+      "lat": 33,
+      "lon": 114
+    }
+  },
+  {
+    "id": "CN_road_baotou-lanzhou",
+    "tier": "transport",
+    "name": "Road: Baotou → Chinese catalyst/refinery belt",
+    "country_iso2": "CN",
+    "operator_id": "CN_sinotrans",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "regional",
+    "coordinates": {
+      "lat": 38,
+      "lon": 107
+    }
+  },
+  {
+    "id": "US_road_peterborough-columbia",
+    "tier": "transport",
+    "name": "Road: Peterborough (Neo) → Columbia MD (Grace)",
+    "country_iso2": "US",
+    "operator_id": "US_xpo_logistics",
+    "mode": "road",
+    "form": "containerised",
+    "range": "regional",
+    "coordinates": {
+      "lat": 42,
+      "lon": -76
+    }
+  },
+  {
+    "id": "US_road_peterborough-corning",
+    "tier": "transport",
+    "name": "Road: Peterborough → Corning NY",
+    "country_iso2": "US",
+    "operator_id": "US_xpo_logistics",
+    "mode": "road",
+    "form": "containerised",
+    "range": "regional",
+    "coordinates": {
+      "lat": 43,
+      "lon": -77.5
+    }
+  },
+  {
+    "id": "KR_road_pohang-ulsan",
+    "tier": "transport",
+    "name": "Road: Pohang → Ulsan (Hyundai)",
+    "country_iso2": "KR",
+    "operator_id": "KR_cj_logistics",
+    "mode": "road",
+    "form": "containerised",
+    "range": "regional",
+    "coordinates": {
+      "lat": 35.3,
+      "lon": 129.2
+    },
+    "resources": [
+      "Manganese",
+      "Zinc"
+    ],
+    "upstream": [],
+    "downstream": []
+  },
+  {
+    "id": "KR_road_pohang-incheon",
+    "tier": "transport",
+    "name": "Road/Rail: Pohang → Incheon (SK refinery belt)",
+    "country_iso2": "KR",
+    "operator_id": "KR_cj_logistics",
+    "mode": "road",
+    "form": "containerised",
+    "range": "regional",
+    "coordinates": {
+      "lat": 36.5,
+      "lon": 128
+    }
+  },
+  {
+    "id": "JP_road_toyota-nationwide",
+    "tier": "transport",
+    "name": "Domestic distribution: Toyota City → Japan dealers",
+    "country_iso2": "JP",
+    "operator_id": "JP_toyota_logistics",
+    "mode": "road",
+    "form": "unit_load",
+    "range": "regional",
+    "coordinates": {
+      "lat": 35.0821,
+      "lon": 137.154
+    }
+  },
+  {
+    "id": "INTL_ocean_nagoya-long-beach",
+    "tier": "transport",
+    "name": "Ocean freight: Nagoya → Long Beach",
+    "country_iso2": "INTL",
+    "operator_id": "INTL_mol",
+    "mode": "ocean_freight",
+    "form": "unit_load",
+    "range": "international",
+    "coordinates": {
+      "lat": 30,
+      "lon": -170
+    }
+  },
+  {
+    "id": "JP_road_osaka-nationwide",
+    "tier": "transport",
+    "name": "Domestic distribution: Osaka → Japan industrial customers",
+    "country_iso2": "JP",
+    "operator_id": "JP_nippon_express",
+    "mode": "road",
+    "form": "containerised",
+    "range": "regional",
+    "coordinates": {
+      "lat": 34.7,
+      "lon": 135.5
+    }
+  },
+  {
+    "id": "INTL_ocean_osaka-worldwide",
+    "tier": "transport",
+    "name": "Ocean freight: Osaka → worldwide",
+    "country_iso2": "INTL",
+    "operator_id": "INTL_one",
+    "mode": "ocean_freight",
+    "form": "containerised",
+    "range": "international",
+    "coordinates": {
+      "lat": 25,
+      "lon": 140
+    }
+  },
+  {
+    "id": "JP_road_tochigi-nationwide",
+    "tier": "transport",
+    "name": "Domestic distribution: Tochigi → Japan dealers",
+    "country_iso2": "JP",
+    "operator_id": "JP_honda_logistics",
+    "mode": "road",
+    "form": "unit_load",
+    "range": "regional",
+    "coordinates": {
+      "lat": 36.5,
+      "lon": 139.9
+    }
+  },
+  {
+    "id": "INTL_ocean_yokohama-los-angeles",
+    "tier": "transport",
+    "name": "Ocean freight: Yokohama → Los Angeles",
+    "country_iso2": "INTL",
+    "operator_id": "INTL_one",
+    "mode": "ocean_freight",
+    "form": "unit_load",
+    "range": "international",
+    "coordinates": {
+      "lat": 32,
+      "lon": -168
+    }
+  },
+  {
+    "id": "CN_road_ningde-nationwide",
+    "tier": "transport",
+    "name": "Road: Ningde → nationwide battery customers",
+    "country_iso2": "CN",
+    "operator_id": "CN_sinotrans",
+    "mode": "road",
+    "form": "containerised",
+    "range": "regional",
+    "coordinates": {
+      "lat": 27,
+      "lon": 119
+    }
+  },
+  {
+    "id": "INTL_ocean_fuzhou-worldwide",
+    "tier": "transport",
+    "name": "Ocean freight: Fuzhou → worldwide",
+    "country_iso2": "INTL",
+    "operator_id": "INTL_cosco",
+    "mode": "ocean_freight",
+    "form": "containerised",
+    "range": "international",
+    "coordinates": {
+      "lat": 20,
+      "lon": 118
+    }
+  },
+  {
+    "id": "CN_road_wuhan-refinery-belt",
+    "tier": "transport",
+    "name": "Road: Wuhan → Chinese refinery belt",
+    "country_iso2": "CN",
+    "operator_id": "CN_sinotrans",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "regional",
+    "coordinates": {
+      "lat": 30,
+      "lon": 114
+    }
+  },
+  {
+    "id": "INTL_ocean_shanghai-worldwide",
+    "tier": "transport",
+    "name": "Ocean freight: Shanghai → worldwide",
+    "country_iso2": "INTL",
+    "operator_id": "INTL_cosco",
+    "mode": "ocean_freight",
+    "form": "containerised",
+    "range": "international",
+    "coordinates": {
+      "lat": 25,
+      "lon": 125
+    }
+  },
+  {
+    "id": "DE_road_ludwigshafen-german-refineries",
+    "tier": "transport",
+    "name": "Road: Ludwigshafen → German/EU refineries",
+    "country_iso2": "DE",
+    "operator_id": "DE_dhl_freight",
+    "mode": "road",
+    "form": "containerised",
+    "range": "regional",
+    "coordinates": {
+      "lat": 49.5,
+      "lon": 8.4
+    }
+  },
+  {
+    "id": "INTL_ocean_rotterdam-worldwide",
+    "tier": "transport",
+    "name": "Ocean freight: Rotterdam → worldwide",
+    "country_iso2": "INTL",
+    "operator_id": "INTL_maersk",
+    "mode": "ocean_freight",
+    "form": "containerised",
+    "range": "international",
+    "coordinates": {
+      "lat": 51.9,
+      "lon": 4.5
+    }
+  },
+  {
+    "id": "DE_road_mainz-nationwide",
+    "tier": "transport",
+    "name": "Road: Mainz → German/EU optical customers",
+    "country_iso2": "DE",
+    "operator_id": "DE_dhl_freight",
+    "mode": "road",
+    "form": "containerised",
+    "range": "regional",
+    "coordinates": {
+      "lat": 50,
+      "lon": 8.3
+    }
+  },
+  {
+    "id": "INTL_air_frankfurt-worldwide",
+    "tier": "transport",
+    "name": "Air freight: Frankfurt → worldwide",
+    "country_iso2": "INTL",
+    "operator_id": "DE_lufthansa_cargo",
+    "mode": "air_freight",
+    "form": "containerised",
+    "range": "international",
+    "coordinates": {
+      "lat": 50.0379,
+      "lon": 8.5622
+    }
+  },
+  {
+    "id": "US_road_columbia-gulf-coast-refineries",
+    "tier": "transport",
+    "name": "Road/Rail: Columbia MD → US Gulf Coast refineries",
+    "country_iso2": "US",
+    "operator_id": "US_csx_intermodal",
+    "mode": "road",
+    "form": "containerised",
+    "range": "regional",
+    "coordinates": {
+      "lat": 34,
+      "lon": -85
+    }
+  },
+  {
+    "id": "INTL_ocean_baltimore-worldwide",
+    "tier": "transport",
+    "name": "Ocean freight: Baltimore → worldwide",
+    "country_iso2": "INTL",
+    "operator_id": "INTL_maersk",
+    "mode": "ocean_freight",
+    "form": "containerised",
+    "range": "international",
+    "coordinates": {
+      "lat": 37,
+      "lon": -60
+    }
+  },
+  {
+    "id": "US_road_corning-nationwide",
+    "tier": "transport",
+    "name": "Road: Corning NY → US customers",
+    "country_iso2": "US",
+    "operator_id": "US_fedex_freight",
+    "mode": "road",
+    "form": "containerised",
+    "range": "regional",
+    "coordinates": {
+      "lat": 42,
+      "lon": -77
+    }
+  },
+  {
+    "id": "KR_road_ulsan-nationwide",
+    "tier": "transport",
+    "name": "Road: Ulsan → Korean domestic dealers",
+    "country_iso2": "KR",
+    "operator_id": "KR_hyundai_glovis",
+    "mode": "road",
+    "form": "unit_load",
+    "range": "regional",
+    "coordinates": {
+      "lat": 35.8,
+      "lon": 128.5
+    }
+  },
+  {
+    "id": "INTL_ocean_busan-worldwide",
+    "tier": "transport",
+    "name": "Ocean freight: Busan → worldwide",
+    "country_iso2": "INTL",
+    "operator_id": "KR_hyundai_glovis",
+    "mode": "ocean_freight",
+    "form": "unit_load",
+    "range": "international",
+    "coordinates": {
+      "lat": 30,
+      "lon": 135
+    }
+  },
+  {
+    "id": "KR_road_ulsan-nationwide-fuel",
+    "tier": "transport",
+    "name": "Pipeline/Road: Ulsan refinery → Korean fuel distribution",
+    "country_iso2": "KR",
+    "operator_id": "KR_sk_energy_logistics",
+    "mode": "road",
+    "form": "bulk_liquid",
+    "range": "regional",
+    "coordinates": {
+      "lat": 35.55,
+      "lon": 129
+    }
+  }
+]

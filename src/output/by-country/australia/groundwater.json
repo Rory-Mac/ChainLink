@@ -1,0 +1,2727 @@
+[
+  {
+    "id": "AU_gab_bore_fields_artesian",
+    "name": "Great Artesian Basin – Bore Fields (QLD/SA/NSW/NT)",
+    "tier": "source_capture",
+    "country_iso2": "AU",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": -25,
+      "lon": 145
+    },
+    "downstream": [
+      {
+        "target_id": "AU_sunwater",
+        "corridor_id": "AU_pipeline_gab_sunwater_pipeline",
+        "resource": "raw groundwater",
+        "quantity": 120000000,
+        "metric": "kL"
+      },
+      {
+        "target_id": "AU_sa_water_gab",
+        "corridor_id": "AU_pipeline_gab_sa_pipeline",
+        "resource": "raw groundwater",
+        "quantity": 25000000,
+        "metric": "kL"
+      },
+      {
+        "target_id": "AU_bhp_olympic_dam_bore",
+        "corridor_id": "AU_pipeline_gab_olympic_dam",
+        "resource": "raw groundwater",
+        "quantity": 35000000,
+        "metric": "kL"
+      },
+      {
+        "target_id": "AU_santos_gab_bore",
+        "corridor_id": "AU_pipeline_gab_santos",
+        "resource": "raw groundwater",
+        "quantity": 10000000,
+        "metric": "kL"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Groundwater"
+    ]
+  },
+  {
+    "id": "AU_perth_gnangara_mound",
+    "name": "Gnangara Groundwater Mound – Perth Basin",
+    "tier": "source_capture",
+    "country_iso2": "AU",
+    "canonical_company": "Water Corporation",
+    "coordinates": {
+      "lat": -31.68,
+      "lon": 115.85
+    },
+    "downstream": [
+      {
+        "target_id": "AU_water_corporation_wa_treatment",
+        "corridor_id": "AU_pipeline_gnangara_to_treatment",
+        "resource": "raw groundwater",
+        "quantity": 120000000,
+        "metric": "kL"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Groundwater"
+    ]
+  },
+  {
+    "id": "AU_perth_jandakot_mound",
+    "name": "Jandakot Groundwater Mound – Perth Basin",
+    "tier": "source_capture",
+    "country_iso2": "AU",
+    "canonical_company": "Water Corporation",
+    "coordinates": {
+      "lat": -32.1,
+      "lon": 115.87
+    },
+    "downstream": [
+      {
+        "target_id": "AU_water_corporation_wa_treatment",
+        "corridor_id": "AU_pipeline_jandakot_to_treatment",
+        "resource": "raw groundwater",
+        "quantity": 30000000,
+        "metric": "kL"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Groundwater"
+    ]
+  },
+  {
+    "id": "AU_perth_yarragadee_aquifer",
+    "name": "Yarragadee Aquifer – Perth Basin (South-West WA)",
+    "tier": "source_capture",
+    "country_iso2": "AU",
+    "canonical_company": "Water Corporation",
+    "coordinates": {
+      "lat": -33,
+      "lon": 115.5
+    },
+    "downstream": [
+      {
+        "target_id": "AU_water_corporation_wa_treatment",
+        "corridor_id": "AU_pipeline_yarragadee_to_treatment",
+        "resource": "raw groundwater",
+        "quantity": 45000000,
+        "metric": "kL"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Groundwater"
+    ]
+  },
+  {
+    "id": "AU_perth_leederville_aquifer",
+    "name": "Leederville Aquifer – Perth Basin",
+    "tier": "source_capture",
+    "country_iso2": "AU",
+    "canonical_company": "Water Corporation",
+    "coordinates": {
+      "lat": -31.9,
+      "lon": 115.86
+    },
+    "downstream": [
+      {
+        "target_id": "AU_water_corporation_wa_treatment",
+        "corridor_id": "AU_pipeline_leederville_to_treatment",
+        "resource": "raw groundwater",
+        "quantity": 30000000,
+        "metric": "kL"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Groundwater"
+    ]
+  },
+  {
+    "id": "AU_adelaide_tpwells",
+    "name": "T1/T2 Aquifer Bore Fields – Northern Adelaide Plains",
+    "tier": "source_capture",
+    "country_iso2": "AU",
+    "canonical_company": "SA Water",
+    "coordinates": {
+      "lat": -34.7,
+      "lon": 138.6
+    },
+    "downstream": [
+      {
+        "target_id": "AU_sa_water_adelaide_treatment",
+        "corridor_id": "AU_pipeline_nap_to_adelaide_wtp",
+        "resource": "raw groundwater",
+        "quantity": 30000000,
+        "metric": "kL"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Groundwater"
+    ]
+  },
+  {
+    "id": "AU_barwon_water_borefield",
+    "name": "Barwon Downs Borefield – Otway Basin (VIC)",
+    "tier": "source_capture",
+    "country_iso2": "AU",
+    "canonical_company": "Barwon Water",
+    "coordinates": {
+      "lat": -38.35,
+      "lon": 143.72
+    },
+    "downstream": [
+      {
+        "target_id": "AU_barwon_water_treatment",
+        "corridor_id": "AU_pipeline_barwon_downs_to_wtp",
+        "resource": "raw groundwater",
+        "quantity": 6000000,
+        "metric": "kL"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Groundwater"
+    ]
+  },
+  {
+    "id": "AU_nt_alice_springs_bore",
+    "name": "Alice Springs Town Basin & Roe Creek Borefields",
+    "tier": "source_capture",
+    "country_iso2": "AU",
+    "canonical_company": "Power and Water Corporation",
+    "coordinates": {
+      "lat": -23.7,
+      "lon": 133.87
+    },
+    "downstream": [
+      {
+        "target_id": "AU_power_water_alice_treatment",
+        "corridor_id": "AU_pipeline_alice_bore_to_wtp",
+        "resource": "raw groundwater",
+        "quantity": 9000000,
+        "metric": "kL"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Groundwater"
+    ]
+  },
+  {
+    "id": "AU_qld_lockyer_valley_bore",
+    "name": "Lockyer Valley Alluvial Aquifer Borefields (QLD)",
+    "tier": "source_capture",
+    "country_iso2": "AU",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": -27.55,
+      "lon": 152.35
+    },
+    "downstream": [
+      {
+        "target_id": "AU_lockyer_valley_irrigators",
+        "corridor_id": "AU_pipeline_lockyer_local",
+        "resource": "raw groundwater",
+        "quantity": 20000000,
+        "metric": "kL"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Groundwater"
+    ]
+  },
+  {
+    "id": "AU_nsw_lachlan_bore",
+    "name": "Lachlan Fold Belt – Orange / Bathurst Borefields (NSW)",
+    "tier": "source_capture",
+    "country_iso2": "AU",
+    "canonical_company": "Orange City Council",
+    "coordinates": {
+      "lat": -33.28,
+      "lon": 149.1
+    },
+    "downstream": [
+      {
+        "target_id": "AU_orange_city_wtp",
+        "corridor_id": "AU_pipeline_orange_bore_to_wtp",
+        "resource": "raw groundwater",
+        "quantity": 3500000,
+        "metric": "kL"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Groundwater"
+    ]
+  },
+  {
+    "id": "AU_kalgoorlie_goldfields_bore",
+    "name": "Kalgoorlie / Goldfields Borefield (WA)",
+    "tier": "source_capture",
+    "country_iso2": "AU",
+    "canonical_company": "Water Corporation",
+    "coordinates": {
+      "lat": -31.2,
+      "lon": 121.5
+    },
+    "downstream": [
+      {
+        "target_id": "AU_water_corporation_goldfields_treatment",
+        "corridor_id": "AU_pipeline_goldfields_bore_to_wtp",
+        "resource": "raw groundwater",
+        "quantity": 15000000,
+        "metric": "kL"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Groundwater"
+    ]
+  },
+  {
+    "id": "AU_burdekin_delta_bore",
+    "name": "Burdekin Delta Aquifer Borefields (QLD)",
+    "tier": "source_capture",
+    "country_iso2": "AU",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": -19.6,
+      "lon": 147.4
+    },
+    "downstream": [
+      {
+        "target_id": "AU_burdekin_irrigators",
+        "corridor_id": "AU_pipeline_burdekin_local",
+        "resource": "raw groundwater",
+        "quantity": 100000000,
+        "metric": "kL"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Groundwater"
+    ]
+  },
+  {
+    "id": "AU_pilbara_mining_bore",
+    "name": "Pilbara Mining Dewatering Bores (WA)",
+    "tier": "source_capture",
+    "country_iso2": "AU",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": -22.3,
+      "lon": 118.3
+    },
+    "downstream": [
+      {
+        "target_id": "AU_rio_tinto_pilbara_dewater_treatment",
+        "corridor_id": "AU_pipeline_pilbara_dewater_rio",
+        "resource": "raw groundwater (mine dewatering)",
+        "quantity": 90000000,
+        "metric": "kL"
+      },
+      {
+        "target_id": "AU_bhp_pilbara_dewater_treatment",
+        "corridor_id": "AU_pipeline_pilbara_dewater_bhp",
+        "resource": "raw groundwater (mine dewatering)",
+        "quantity": 70000000,
+        "metric": "kL"
+      },
+      {
+        "target_id": "AU_fortescue_pilbara_dewater_treatment",
+        "corridor_id": "AU_pipeline_pilbara_dewater_fmg",
+        "resource": "raw groundwater (mine dewatering)",
+        "quantity": 60000000,
+        "metric": "kL"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Groundwater"
+    ]
+  },
+  {
+    "id": "AU_olympic_dam_bore_field",
+    "name": "Olympic Dam – Wellfield A & B (GAB, SA)",
+    "tier": "source_capture",
+    "country_iso2": "AU",
+    "canonical_company": "BHP",
+    "coordinates": {
+      "lat": -29.5,
+      "lon": 136.9
+    },
+    "downstream": [
+      {
+        "target_id": "AU_bhp_olympic_dam_bore",
+        "corridor_id": "AU_pipeline_gab_olympic_dam",
+        "resource": "raw groundwater",
+        "quantity": 35000000,
+        "metric": "kL"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Groundwater"
+    ]
+  },
+  {
+    "id": "AU_sa_water_gab",
+    "name": "SA Water – GAB Bore Intake Treatment",
+    "tier": "treatment",
+    "country_iso2": "AU",
+    "canonical_company": "SA Water",
+    "coordinates": {
+      "lat": -28,
+      "lon": 140.5
+    },
+    "downstream": [
+      {
+        "target_id": "AU_sa_water_far_north_transmission",
+        "corridor_id": "AU_pipeline_sa_far_north",
+        "resource": "treated groundwater",
+        "quantity": 25000000,
+        "metric": "kL"
+      }
+    ],
+    "upstream": [
+      "AU_gab_bore_fields_artesian"
+    ],
+    "resources": [
+      "Groundwater"
+    ]
+  },
+  {
+    "id": "AU_sunwater",
+    "name": "Sunwater – GAB Bore Water Management (QLD)",
+    "tier": "treatment",
+    "country_iso2": "AU",
+    "canonical_company": "Sunwater",
+    "coordinates": {
+      "lat": -23.4,
+      "lon": 148.1
+    },
+    "downstream": [
+      {
+        "target_id": "AU_sunwater_gab_transmission",
+        "corridor_id": "AU_pipeline_sunwater_gab_trunk",
+        "resource": "managed groundwater",
+        "quantity": 80000000,
+        "metric": "kL"
+      },
+      {
+        "target_id": "AU_gab_pastoral_direct",
+        "corridor_id": "AU_pipeline_gab_pastoral_reticulation",
+        "resource": "managed groundwater",
+        "quantity": 40000000,
+        "metric": "kL"
+      }
+    ],
+    "upstream": [
+      "AU_gab_bore_fields_artesian"
+    ],
+    "resources": [
+      "Groundwater"
+    ]
+  },
+  {
+    "id": "AU_bhp_olympic_dam_bore",
+    "name": "BHP Olympic Dam – On-Site Water Treatment",
+    "tier": "treatment",
+    "country_iso2": "AU",
+    "canonical_company": "BHP",
+    "coordinates": {
+      "lat": -30.44,
+      "lon": 136.88
+    },
+    "downstream": [
+      {
+        "target_id": "AU_bhp_olympic_dam_process",
+        "corridor_id": "AU_pipeline_od_internal",
+        "resource": "treated process water",
+        "quantity": 35000000,
+        "metric": "kL"
+      }
+    ],
+    "upstream": [
+      "AU_gab_bore_fields_artesian",
+      "AU_olympic_dam_bore_field"
+    ],
+    "resources": [
+      "Groundwater"
+    ]
+  },
+  {
+    "id": "AU_santos_gab_bore",
+    "name": "Santos – GAB Associated Water Treatment (QLD)",
+    "tier": "treatment",
+    "country_iso2": "AU",
+    "canonical_company": "Santos",
+    "coordinates": {
+      "lat": -26.6,
+      "lon": 149.1
+    },
+    "downstream": [
+      {
+        "target_id": "AU_santos_csg_water_transmission",
+        "corridor_id": "AU_pipeline_santos_csg_water",
+        "resource": "treated associated groundwater",
+        "quantity": 10000000,
+        "metric": "kL"
+      }
+    ],
+    "upstream": [
+      "AU_gab_bore_fields_artesian"
+    ],
+    "resources": [
+      "Groundwater"
+    ]
+  },
+  {
+    "id": "AU_water_corporation_wa_treatment",
+    "name": "Water Corporation – Perth Groundwater Treatment Plants",
+    "tier": "treatment",
+    "country_iso2": "AU",
+    "canonical_company": "Water Corporation",
+    "coordinates": {
+      "lat": -31.82,
+      "lon": 115.9
+    },
+    "downstream": [
+      {
+        "target_id": "AU_water_corporation_perth_transmission",
+        "corridor_id": "AU_pipeline_perth_iwss_trunk",
+        "resource": "treated drinking water (groundwater origin)",
+        "quantity": 225000000,
+        "metric": "kL"
+      }
+    ],
+    "upstream": [
+      "AU_perth_gnangara_mound",
+      "AU_perth_jandakot_mound",
+      "AU_perth_yarragadee_aquifer",
+      "AU_perth_leederville_aquifer"
+    ],
+    "resources": [
+      "Groundwater"
+    ]
+  },
+  {
+    "id": "AU_sa_water_adelaide_treatment",
+    "name": "SA Water – Adelaide Groundwater WTP",
+    "tier": "treatment",
+    "country_iso2": "AU",
+    "canonical_company": "SA Water",
+    "coordinates": {
+      "lat": -34.85,
+      "lon": 138.62
+    },
+    "downstream": [
+      {
+        "target_id": "AU_sa_water_adelaide_transmission",
+        "corridor_id": "AU_pipeline_adelaide_trunk",
+        "resource": "treated drinking water (groundwater origin)",
+        "quantity": 30000000,
+        "metric": "kL"
+      }
+    ],
+    "upstream": [
+      "AU_adelaide_tpwells"
+    ],
+    "resources": [
+      "Groundwater"
+    ]
+  },
+  {
+    "id": "AU_barwon_water_treatment",
+    "name": "Barwon Water – Wurdee Boluc WTP",
+    "tier": "treatment",
+    "country_iso2": "AU",
+    "canonical_company": "Barwon Water",
+    "coordinates": {
+      "lat": -38.22,
+      "lon": 144.1
+    },
+    "downstream": [
+      {
+        "target_id": "AU_barwon_water_transmission",
+        "corridor_id": "AU_pipeline_barwon_trunk",
+        "resource": "treated drinking water (groundwater origin)",
+        "quantity": 6000000,
+        "metric": "kL"
+      }
+    ],
+    "upstream": [
+      "AU_barwon_water_borefield"
+    ],
+    "resources": [
+      "Groundwater"
+    ]
+  },
+  {
+    "id": "AU_power_water_alice_treatment",
+    "name": "Power and Water Corp – Alice Springs WTP",
+    "tier": "treatment",
+    "country_iso2": "AU",
+    "canonical_company": "Power and Water Corporation",
+    "coordinates": {
+      "lat": -23.7,
+      "lon": 133.88
+    },
+    "downstream": [
+      {
+        "target_id": "AU_power_water_alice_transmission",
+        "corridor_id": "AU_pipeline_alice_trunk",
+        "resource": "treated drinking water (groundwater origin)",
+        "quantity": 9000000,
+        "metric": "kL"
+      }
+    ],
+    "upstream": [
+      "AU_nt_alice_springs_bore"
+    ],
+    "resources": [
+      "Groundwater"
+    ]
+  },
+  {
+    "id": "AU_lockyer_valley_irrigators",
+    "name": "Lockyer Valley – On-Farm Bore Treatment (aggregate)",
+    "tier": "treatment",
+    "country_iso2": "AU",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": -27.55,
+      "lon": 152.35
+    },
+    "downstream": [
+      {
+        "target_id": "AU_lockyer_distribution",
+        "corridor_id": "AU_pipeline_lockyer_farm_reticulation",
+        "resource": "irrigation-ready groundwater",
+        "quantity": 20000000,
+        "metric": "kL"
+      }
+    ],
+    "upstream": [
+      "AU_qld_lockyer_valley_bore"
+    ],
+    "resources": [
+      "Groundwater"
+    ]
+  },
+  {
+    "id": "AU_orange_city_wtp",
+    "name": "Orange City Council – Icely Road WTP",
+    "tier": "treatment",
+    "country_iso2": "AU",
+    "canonical_company": "Orange City Council",
+    "coordinates": {
+      "lat": -33.3,
+      "lon": 149.1
+    },
+    "downstream": [
+      {
+        "target_id": "AU_orange_city_transmission",
+        "corridor_id": "AU_pipeline_orange_trunk",
+        "resource": "treated drinking water (groundwater origin)",
+        "quantity": 3500000,
+        "metric": "kL"
+      }
+    ],
+    "upstream": [
+      "AU_nsw_lachlan_bore"
+    ],
+    "resources": [
+      "Groundwater"
+    ]
+  },
+  {
+    "id": "AU_water_corporation_goldfields_treatment",
+    "name": "Water Corporation – Goldfields WTP",
+    "tier": "treatment",
+    "country_iso2": "AU",
+    "canonical_company": "Water Corporation",
+    "coordinates": {
+      "lat": -31.2,
+      "lon": 121.5
+    },
+    "downstream": [
+      {
+        "target_id": "AU_water_corporation_goldfields_transmission",
+        "corridor_id": "AU_pipeline_goldfields_trunk",
+        "resource": "treated drinking water (groundwater origin)",
+        "quantity": 15000000,
+        "metric": "kL"
+      }
+    ],
+    "upstream": [
+      "AU_kalgoorlie_goldfields_bore"
+    ],
+    "resources": [
+      "Groundwater"
+    ]
+  },
+  {
+    "id": "AU_burdekin_irrigators",
+    "name": "Burdekin Delta – Irrigation Bore Treatment (aggregate)",
+    "tier": "treatment",
+    "country_iso2": "AU",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": -19.6,
+      "lon": 147.4
+    },
+    "downstream": [
+      {
+        "target_id": "AU_burdekin_distribution",
+        "corridor_id": "AU_pipeline_burdekin_reticulation",
+        "resource": "irrigation-ready groundwater",
+        "quantity": 100000000,
+        "metric": "kL"
+      }
+    ],
+    "upstream": [
+      "AU_burdekin_delta_bore"
+    ],
+    "resources": [
+      "Groundwater"
+    ]
+  },
+  {
+    "id": "AU_rio_tinto_pilbara_dewater_treatment",
+    "name": "Rio Tinto – Pilbara Mine Water Treatment",
+    "tier": "treatment",
+    "country_iso2": "AU",
+    "canonical_company": "Rio Tinto",
+    "coordinates": {
+      "lat": -22.7,
+      "lon": 118.3
+    },
+    "downstream": [
+      {
+        "target_id": "AU_rio_tinto_pilbara_transmission",
+        "corridor_id": "AU_pipeline_rio_pilbara_internal",
+        "resource": "treated mine dewatering water",
+        "quantity": 90000000,
+        "metric": "kL"
+      }
+    ],
+    "upstream": [
+      "AU_pilbara_mining_bore"
+    ],
+    "resources": [
+      "Groundwater"
+    ]
+  },
+  {
+    "id": "AU_bhp_pilbara_dewater_treatment",
+    "name": "BHP – Pilbara Mine Water Treatment",
+    "tier": "treatment",
+    "country_iso2": "AU",
+    "canonical_company": "BHP",
+    "coordinates": {
+      "lat": -23.3,
+      "lon": 119.7
+    },
+    "downstream": [
+      {
+        "target_id": "AU_bhp_pilbara_transmission",
+        "corridor_id": "AU_pipeline_bhp_pilbara_internal",
+        "resource": "treated mine dewatering water",
+        "quantity": 70000000,
+        "metric": "kL"
+      }
+    ],
+    "upstream": [
+      "AU_pilbara_mining_bore"
+    ],
+    "resources": [
+      "Groundwater"
+    ]
+  },
+  {
+    "id": "AU_fortescue_pilbara_dewater_treatment",
+    "name": "Fortescue – Pilbara Mine Water Treatment",
+    "tier": "treatment",
+    "country_iso2": "AU",
+    "canonical_company": "Fortescue",
+    "coordinates": {
+      "lat": -22.3,
+      "lon": 118.9
+    },
+    "downstream": [
+      {
+        "target_id": "AU_fortescue_pilbara_transmission",
+        "corridor_id": "AU_pipeline_fmg_pilbara_internal",
+        "resource": "treated mine dewatering water",
+        "quantity": 60000000,
+        "metric": "kL"
+      }
+    ],
+    "upstream": [
+      "AU_pilbara_mining_bore"
+    ],
+    "resources": [
+      "Groundwater"
+    ]
+  },
+  {
+    "id": "AU_sunwater_gab_transmission",
+    "name": "Sunwater – GAB Trunk Pipeline Network (QLD)",
+    "tier": "transmission",
+    "country_iso2": "AU",
+    "canonical_company": "Sunwater",
+    "coordinates": {
+      "lat": -23.5,
+      "lon": 148
+    },
+    "downstream": [
+      {
+        "target_id": "AU_sunwater_gab_distribution",
+        "corridor_id": "AU_pipeline_sunwater_distribution_network",
+        "resource": "managed groundwater",
+        "quantity": 80000000,
+        "metric": "kL"
+      }
+    ],
+    "upstream": [
+      "AU_sunwater"
+    ],
+    "resources": [
+      "Groundwater"
+    ]
+  },
+  {
+    "id": "AU_gab_pastoral_direct",
+    "name": "GAB Pastoral Bore Drain Transmission (QLD/SA/NSW)",
+    "tier": "transmission",
+    "country_iso2": "AU",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": -26,
+      "lon": 146
+    },
+    "downstream": [
+      {
+        "target_id": "AU_gab_pastoral_distribution",
+        "corridor_id": "AU_pipeline_gab_bore_drains",
+        "resource": "artesian groundwater",
+        "quantity": 40000000,
+        "metric": "kL"
+      }
+    ],
+    "upstream": [
+      "AU_sunwater"
+    ],
+    "resources": [
+      "Groundwater"
+    ]
+  },
+  {
+    "id": "AU_sa_water_far_north_transmission",
+    "name": "SA Water – Far North Trunk Main",
+    "tier": "transmission",
+    "country_iso2": "AU",
+    "canonical_company": "SA Water",
+    "coordinates": {
+      "lat": -29,
+      "lon": 138
+    },
+    "downstream": [
+      {
+        "target_id": "AU_sa_water_far_north_distribution",
+        "corridor_id": "AU_pipeline_sa_far_north_dist",
+        "resource": "treated groundwater",
+        "quantity": 25000000,
+        "metric": "kL"
+      }
+    ],
+    "upstream": [
+      "AU_sa_water_gab"
+    ],
+    "resources": [
+      "Groundwater"
+    ]
+  },
+  {
+    "id": "AU_bhp_olympic_dam_process",
+    "name": "BHP Olympic Dam – Process Water Transmission",
+    "tier": "transmission",
+    "country_iso2": "AU",
+    "canonical_company": "BHP",
+    "coordinates": {
+      "lat": -30.44,
+      "lon": 136.88
+    },
+    "downstream": [
+      {
+        "target_id": "AU_bhp_olympic_dam_distribution",
+        "corridor_id": "AU_pipeline_od_process_dist",
+        "resource": "process water",
+        "quantity": 35000000,
+        "metric": "kL"
+      }
+    ],
+    "upstream": [
+      "AU_bhp_olympic_dam_bore"
+    ],
+    "resources": [
+      "Groundwater"
+    ]
+  },
+  {
+    "id": "AU_santos_csg_water_transmission",
+    "name": "Santos – CSG Associated Water Trunk Pipeline (QLD)",
+    "tier": "transmission",
+    "country_iso2": "AU",
+    "canonical_company": "Santos",
+    "coordinates": {
+      "lat": -26.5,
+      "lon": 149.3
+    },
+    "downstream": [
+      {
+        "target_id": "AU_santos_csg_water_distribution",
+        "corridor_id": "AU_pipeline_santos_beneficial_use",
+        "resource": "treated associated groundwater",
+        "quantity": 10000000,
+        "metric": "kL"
+      }
+    ],
+    "upstream": [
+      "AU_santos_gab_bore"
+    ],
+    "resources": [
+      "Groundwater"
+    ]
+  },
+  {
+    "id": "AU_sa_water_adelaide_transmission",
+    "name": "SA Water – Adelaide Metro Trunk Mains",
+    "tier": "transmission",
+    "country_iso2": "AU",
+    "canonical_company": "SA Water",
+    "coordinates": {
+      "lat": -34.9,
+      "lon": 138.6
+    },
+    "downstream": [
+      {
+        "target_id": "AU_sa_water_adelaide_distribution",
+        "corridor_id": "AU_pipeline_adelaide_dist_network",
+        "resource": "treated drinking water (groundwater origin)",
+        "quantity": 30000000,
+        "metric": "kL"
+      }
+    ],
+    "upstream": [
+      "AU_sa_water_adelaide_treatment"
+    ],
+    "resources": [
+      "Groundwater"
+    ]
+  },
+  {
+    "id": "AU_barwon_water_transmission",
+    "name": "Barwon Water – Geelong Trunk Main",
+    "tier": "transmission",
+    "country_iso2": "AU",
+    "canonical_company": "Barwon Water",
+    "coordinates": {
+      "lat": -38.15,
+      "lon": 144.36
+    },
+    "downstream": [
+      {
+        "target_id": "AU_barwon_water_distribution",
+        "corridor_id": "AU_pipeline_barwon_dist_network",
+        "resource": "treated drinking water (groundwater origin)",
+        "quantity": 6000000,
+        "metric": "kL"
+      }
+    ],
+    "upstream": [
+      "AU_barwon_water_treatment"
+    ],
+    "resources": [
+      "Groundwater"
+    ]
+  },
+  {
+    "id": "AU_power_water_alice_transmission",
+    "name": "Power and Water Corp – Alice Springs Trunk Main",
+    "tier": "transmission",
+    "country_iso2": "AU",
+    "canonical_company": "Power and Water Corporation",
+    "coordinates": {
+      "lat": -23.7,
+      "lon": 133.87
+    },
+    "downstream": [
+      {
+        "target_id": "AU_power_water_alice_distribution",
+        "corridor_id": "AU_pipeline_alice_dist_network",
+        "resource": "treated drinking water (groundwater origin)",
+        "quantity": 9000000,
+        "metric": "kL"
+      }
+    ],
+    "upstream": [
+      "AU_power_water_alice_treatment"
+    ],
+    "resources": [
+      "Groundwater"
+    ]
+  },
+  {
+    "id": "AU_orange_city_transmission",
+    "name": "Orange City Council – Trunk Main",
+    "tier": "transmission",
+    "country_iso2": "AU",
+    "canonical_company": "Orange City Council",
+    "coordinates": {
+      "lat": -33.28,
+      "lon": 149.1
+    },
+    "downstream": [
+      {
+        "target_id": "AU_orange_city_distribution",
+        "corridor_id": "AU_pipeline_orange_dist_network",
+        "resource": "treated drinking water (groundwater origin)",
+        "quantity": 3500000,
+        "metric": "kL"
+      }
+    ],
+    "upstream": [
+      "AU_orange_city_wtp"
+    ],
+    "resources": [
+      "Groundwater"
+    ]
+  },
+  {
+    "id": "AU_water_corporation_goldfields_transmission",
+    "name": "Water Corporation – Goldfields Pipeline (GWS Extension)",
+    "tier": "transmission",
+    "country_iso2": "AU",
+    "canonical_company": "Water Corporation",
+    "coordinates": {
+      "lat": -31.5,
+      "lon": 120
+    },
+    "downstream": [
+      {
+        "target_id": "AU_water_corporation_goldfields_distribution",
+        "corridor_id": "AU_pipeline_goldfields_dist_network",
+        "resource": "treated drinking water (groundwater origin)",
+        "quantity": 15000000,
+        "metric": "kL"
+      }
+    ],
+    "upstream": [
+      "AU_water_corporation_goldfields_treatment"
+    ],
+    "resources": [
+      "Groundwater"
+    ]
+  },
+  {
+    "id": "AU_rio_tinto_pilbara_transmission",
+    "name": "Rio Tinto – Pilbara Mine Water Pipeline Network",
+    "tier": "transmission",
+    "country_iso2": "AU",
+    "canonical_company": "Rio Tinto",
+    "coordinates": {
+      "lat": -22.5,
+      "lon": 118.4
+    },
+    "downstream": [
+      {
+        "target_id": "AU_rio_tinto_pilbara_distribution",
+        "corridor_id": "AU_pipeline_rio_pilbara_dist",
+        "resource": "mine process water",
+        "quantity": 90000000,
+        "metric": "kL"
+      }
+    ],
+    "upstream": [
+      "AU_rio_tinto_pilbara_dewater_treatment"
+    ],
+    "resources": [
+      "Groundwater"
+    ]
+  },
+  {
+    "id": "AU_bhp_pilbara_transmission",
+    "name": "BHP – Pilbara Mine Water Pipeline Network",
+    "tier": "transmission",
+    "country_iso2": "AU",
+    "canonical_company": "BHP",
+    "coordinates": {
+      "lat": -23.3,
+      "lon": 119.7
+    },
+    "downstream": [
+      {
+        "target_id": "AU_bhp_pilbara_distribution",
+        "corridor_id": "AU_pipeline_bhp_pilbara_dist",
+        "resource": "mine process water",
+        "quantity": 70000000,
+        "metric": "kL"
+      }
+    ],
+    "upstream": [
+      "AU_bhp_pilbara_dewater_treatment"
+    ],
+    "resources": [
+      "Groundwater"
+    ]
+  },
+  {
+    "id": "AU_fortescue_pilbara_transmission",
+    "name": "Fortescue – Pilbara Mine Water Pipeline Network",
+    "tier": "transmission",
+    "country_iso2": "AU",
+    "canonical_company": "Fortescue",
+    "coordinates": {
+      "lat": -22.3,
+      "lon": 118.9
+    },
+    "downstream": [
+      {
+        "target_id": "AU_fortescue_pilbara_distribution",
+        "corridor_id": "AU_pipeline_fmg_pilbara_dist",
+        "resource": "mine process water",
+        "quantity": 60000000,
+        "metric": "kL"
+      }
+    ],
+    "upstream": [
+      "AU_fortescue_pilbara_dewater_treatment"
+    ],
+    "resources": [
+      "Groundwater"
+    ]
+  },
+  {
+    "id": "AU_sunwater_gab_distribution",
+    "name": "Sunwater – GAB Distribution to Towns & Mines (QLD)",
+    "tier": "distribution",
+    "country_iso2": "AU",
+    "canonical_company": "Sunwater",
+    "coordinates": {
+      "lat": -23.4,
+      "lon": 148
+    },
+    "downstream": [
+      {
+        "target_id": "AU_residential",
+        "corridor_id": "AU_pipeline_sunwater_town_reticulation",
+        "resource": "potable groundwater",
+        "quantity": 20000000,
+        "metric": "kL"
+      },
+      {
+        "target_id": "AU_industrial",
+        "corridor_id": "AU_pipeline_sunwater_industrial_reticulation",
+        "resource": "industrial-use groundwater",
+        "quantity": 40000000,
+        "metric": "kL"
+      },
+      {
+        "target_id": "AU_agricultural",
+        "corridor_id": "AU_pipeline_sunwater_ag_reticulation",
+        "resource": "irrigation groundwater",
+        "quantity": 20000000,
+        "metric": "kL"
+      }
+    ],
+    "upstream": [
+      "AU_sunwater_gab_transmission"
+    ],
+    "resources": [
+      "Groundwater"
+    ]
+  },
+  {
+    "id": "AU_gab_pastoral_distribution",
+    "name": "GAB – Pastoral Bore Drain Distribution",
+    "tier": "distribution",
+    "country_iso2": "AU",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": -26,
+      "lon": 146
+    },
+    "downstream": [
+      {
+        "target_id": "AU_agricultural",
+        "corridor_id": "AU_pipeline_gab_pastoral_local",
+        "resource": "stock & domestic groundwater",
+        "quantity": 40000000,
+        "metric": "kL"
+      }
+    ],
+    "upstream": [
+      "AU_gab_pastoral_direct"
+    ],
+    "resources": [
+      "Groundwater"
+    ]
+  },
+  {
+    "id": "AU_sa_water_far_north_distribution",
+    "name": "SA Water – Far North Reticulation (Coober Pedy, Leigh Creek etc.)",
+    "tier": "distribution",
+    "country_iso2": "AU",
+    "canonical_company": "SA Water",
+    "coordinates": {
+      "lat": -29,
+      "lon": 134.7
+    },
+    "downstream": [
+      {
+        "target_id": "AU_residential",
+        "corridor_id": "AU_pipeline_sa_far_north_residential",
+        "resource": "potable groundwater",
+        "quantity": 10000000,
+        "metric": "kL"
+      },
+      {
+        "target_id": "AU_industrial",
+        "corridor_id": "AU_pipeline_sa_far_north_industrial",
+        "resource": "industrial groundwater",
+        "quantity": 10000000,
+        "metric": "kL"
+      },
+      {
+        "target_id": "AU_agricultural",
+        "corridor_id": "AU_pipeline_sa_far_north_agricultural",
+        "resource": "stock & domestic groundwater",
+        "quantity": 5000000,
+        "metric": "kL"
+      }
+    ],
+    "upstream": [
+      "AU_sa_water_far_north_transmission"
+    ],
+    "resources": [
+      "Groundwater"
+    ]
+  },
+  {
+    "id": "AU_bhp_olympic_dam_distribution",
+    "name": "BHP Olympic Dam – Process Water Distribution",
+    "tier": "distribution",
+    "country_iso2": "AU",
+    "canonical_company": "BHP",
+    "coordinates": {
+      "lat": -30.44,
+      "lon": 136.88
+    },
+    "downstream": [
+      {
+        "target_id": "AU_industrial",
+        "corridor_id": "AU_pipeline_od_mine_use",
+        "resource": "mining process water",
+        "quantity": 35000000,
+        "metric": "kL"
+      }
+    ],
+    "upstream": [
+      "AU_bhp_olympic_dam_process"
+    ],
+    "resources": [
+      "Groundwater"
+    ]
+  },
+  {
+    "id": "AU_santos_csg_water_distribution",
+    "name": "Santos – Beneficial Use Water Distribution (QLD)",
+    "tier": "distribution",
+    "country_iso2": "AU",
+    "canonical_company": "Santos",
+    "coordinates": {
+      "lat": -26.5,
+      "lon": 149.3
+    },
+    "downstream": [
+      {
+        "target_id": "AU_agricultural",
+        "corridor_id": "AU_pipeline_santos_irrigation_use",
+        "resource": "irrigation groundwater (beneficial reuse)",
+        "quantity": 7000000,
+        "metric": "kL"
+      },
+      {
+        "target_id": "AU_industrial",
+        "corridor_id": "AU_pipeline_santos_industrial_use",
+        "resource": "industrial groundwater (beneficial reuse)",
+        "quantity": 3000000,
+        "metric": "kL"
+      }
+    ],
+    "upstream": [
+      "AU_santos_csg_water_transmission"
+    ],
+    "resources": [
+      "Groundwater"
+    ]
+  },
+  {
+    "id": "AU_sa_water_adelaide_distribution",
+    "name": "SA Water – Adelaide Metro Groundwater Distribution",
+    "tier": "distribution",
+    "country_iso2": "AU",
+    "canonical_company": "SA Water",
+    "coordinates": {
+      "lat": -34.92,
+      "lon": 138.6
+    },
+    "downstream": [
+      {
+        "target_id": "AU_residential",
+        "corridor_id": "AU_pipeline_adelaide_residential",
+        "resource": "potable drinking water (groundwater origin)",
+        "quantity": 18000000,
+        "metric": "kL"
+      },
+      {
+        "target_id": "AU_commercial",
+        "corridor_id": "AU_pipeline_adelaide_commercial",
+        "resource": "potable drinking water (groundwater origin)",
+        "quantity": 7000000,
+        "metric": "kL"
+      },
+      {
+        "target_id": "AU_industrial",
+        "corridor_id": "AU_pipeline_adelaide_industrial",
+        "resource": "potable drinking water (groundwater origin)",
+        "quantity": 5000000,
+        "metric": "kL"
+      }
+    ],
+    "upstream": [
+      "AU_sa_water_adelaide_transmission"
+    ],
+    "resources": [
+      "Groundwater"
+    ]
+  },
+  {
+    "id": "AU_barwon_water_distribution",
+    "name": "Barwon Water – Geelong Region Distribution",
+    "tier": "distribution",
+    "country_iso2": "AU",
+    "canonical_company": "Barwon Water",
+    "coordinates": {
+      "lat": -38.15,
+      "lon": 144.36
+    },
+    "downstream": [
+      {
+        "target_id": "AU_residential",
+        "corridor_id": "AU_pipeline_barwon_residential",
+        "resource": "potable drinking water (groundwater origin)",
+        "quantity": 4000000,
+        "metric": "kL"
+      },
+      {
+        "target_id": "AU_commercial",
+        "corridor_id": "AU_pipeline_barwon_commercial",
+        "resource": "potable drinking water (groundwater origin)",
+        "quantity": 2000000,
+        "metric": "kL"
+      }
+    ],
+    "upstream": [
+      "AU_barwon_water_transmission"
+    ],
+    "resources": [
+      "Groundwater"
+    ]
+  },
+  {
+    "id": "AU_power_water_alice_distribution",
+    "name": "Power and Water Corp – Alice Springs Distribution",
+    "tier": "distribution",
+    "country_iso2": "AU",
+    "canonical_company": "Power and Water Corporation",
+    "coordinates": {
+      "lat": -23.7,
+      "lon": 133.87
+    },
+    "downstream": [
+      {
+        "target_id": "AU_residential",
+        "corridor_id": "AU_pipeline_alice_residential",
+        "resource": "potable drinking water (groundwater origin)",
+        "quantity": 5500000,
+        "metric": "kL"
+      },
+      {
+        "target_id": "AU_commercial",
+        "corridor_id": "AU_pipeline_alice_commercial",
+        "resource": "potable drinking water (groundwater origin)",
+        "quantity": 2000000,
+        "metric": "kL"
+      },
+      {
+        "target_id": "AU_government",
+        "corridor_id": "AU_pipeline_alice_government",
+        "resource": "potable drinking water (groundwater origin)",
+        "quantity": 1500000,
+        "metric": "kL"
+      }
+    ],
+    "upstream": [
+      "AU_power_water_alice_transmission"
+    ],
+    "resources": [
+      "Groundwater"
+    ]
+  },
+  {
+    "id": "AU_lockyer_distribution",
+    "name": "Lockyer Valley – Farm-Level Distribution",
+    "tier": "distribution",
+    "country_iso2": "AU",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": -27.55,
+      "lon": 152.35
+    },
+    "downstream": [
+      {
+        "target_id": "AU_agricultural",
+        "corridor_id": "AU_pipeline_lockyer_ag",
+        "resource": "irrigation groundwater",
+        "quantity": 20000000,
+        "metric": "kL"
+      }
+    ],
+    "upstream": [
+      "AU_lockyer_valley_irrigators"
+    ],
+    "resources": [
+      "Groundwater"
+    ]
+  },
+  {
+    "id": "AU_orange_city_distribution",
+    "name": "Orange City Council – Town Distribution",
+    "tier": "distribution",
+    "country_iso2": "AU",
+    "canonical_company": "Orange City Council",
+    "coordinates": {
+      "lat": -33.28,
+      "lon": 149.1
+    },
+    "downstream": [
+      {
+        "target_id": "AU_residential",
+        "corridor_id": "AU_pipeline_orange_residential",
+        "resource": "potable drinking water (groundwater origin)",
+        "quantity": 2500000,
+        "metric": "kL"
+      },
+      {
+        "target_id": "AU_commercial",
+        "corridor_id": "AU_pipeline_orange_commercial",
+        "resource": "potable drinking water (groundwater origin)",
+        "quantity": 1000000,
+        "metric": "kL"
+      }
+    ],
+    "upstream": [
+      "AU_orange_city_transmission"
+    ],
+    "resources": [
+      "Groundwater"
+    ]
+  },
+  {
+    "id": "AU_burdekin_distribution",
+    "name": "Burdekin Delta – Farm-Level Distribution",
+    "tier": "distribution",
+    "country_iso2": "AU",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": -19.6,
+      "lon": 147.4
+    },
+    "downstream": [
+      {
+        "target_id": "AU_agricultural",
+        "corridor_id": "AU_pipeline_burdekin_ag",
+        "resource": "irrigation groundwater",
+        "quantity": 100000000,
+        "metric": "kL"
+      }
+    ],
+    "upstream": [
+      "AU_burdekin_irrigators"
+    ],
+    "resources": [
+      "Groundwater"
+    ]
+  },
+  {
+    "id": "AU_rio_tinto_pilbara_distribution",
+    "name": "Rio Tinto – Pilbara Surplus Water Distribution / Mine Use",
+    "tier": "distribution",
+    "country_iso2": "AU",
+    "canonical_company": "Rio Tinto",
+    "coordinates": {
+      "lat": -22.5,
+      "lon": 118.4
+    },
+    "downstream": [
+      {
+        "target_id": "AU_industrial",
+        "corridor_id": "AU_pipeline_rio_mine_process",
+        "resource": "mine process water",
+        "quantity": 70000000,
+        "metric": "kL"
+      },
+      {
+        "target_id": "AU_agricultural",
+        "corridor_id": "AU_pipeline_rio_surplus_ag",
+        "resource": "surplus mine water (pastoral/irrigation reuse)",
+        "quantity": 20000000,
+        "metric": "kL"
+      }
+    ],
+    "upstream": [
+      "AU_rio_tinto_pilbara_transmission"
+    ],
+    "resources": [
+      "Groundwater"
+    ]
+  },
+  {
+    "id": "AU_bhp_pilbara_distribution",
+    "name": "BHP – Pilbara Surplus Water Distribution / Mine Use",
+    "tier": "distribution",
+    "country_iso2": "AU",
+    "canonical_company": "BHP",
+    "coordinates": {
+      "lat": -23.3,
+      "lon": 119.7
+    },
+    "downstream": [
+      {
+        "target_id": "AU_industrial",
+        "corridor_id": "AU_pipeline_bhp_mine_process",
+        "resource": "mine process water",
+        "quantity": 55000000,
+        "metric": "kL"
+      },
+      {
+        "target_id": "AU_agricultural",
+        "corridor_id": "AU_pipeline_bhp_surplus_ag",
+        "resource": "surplus mine water (pastoral reuse)",
+        "quantity": 15000000,
+        "metric": "kL"
+      }
+    ],
+    "upstream": [
+      "AU_bhp_pilbara_transmission"
+    ],
+    "resources": [
+      "Groundwater"
+    ]
+  },
+  {
+    "id": "AU_fortescue_pilbara_distribution",
+    "name": "Fortescue – Pilbara Surplus Water Distribution / Mine Use",
+    "tier": "distribution",
+    "country_iso2": "AU",
+    "canonical_company": "Fortescue",
+    "coordinates": {
+      "lat": -22.3,
+      "lon": 118.9
+    },
+    "downstream": [
+      {
+        "target_id": "AU_industrial",
+        "corridor_id": "AU_pipeline_fmg_mine_process",
+        "resource": "mine process water",
+        "quantity": 50000000,
+        "metric": "kL"
+      },
+      {
+        "target_id": "AU_agricultural",
+        "corridor_id": "AU_pipeline_fmg_surplus_ag",
+        "resource": "surplus mine water (pastoral reuse)",
+        "quantity": 10000000,
+        "metric": "kL"
+      }
+    ],
+    "upstream": [
+      "AU_fortescue_pilbara_transmission"
+    ],
+    "resources": [
+      "Groundwater"
+    ]
+  },
+  {
+    "id": "AU_pipeline_gab_sunwater_pipeline",
+    "tier": "transport",
+    "name": "GAB Bore-to-Headworks Pipeline (QLD)",
+    "country_iso2": "AU",
+    "operator_id": "AU_sunwater",
+    "mode": "pipeline",
+    "form": "bulk_liquid",
+    "range": "regional",
+    "coordinates": {
+      "lat": -24,
+      "lon": 147
+    }
+  },
+  {
+    "id": "AU_pipeline_gab_sa_pipeline",
+    "tier": "transport",
+    "name": "GAB Bore-to-SA Water Pipeline (SA Far North)",
+    "country_iso2": "AU",
+    "operator_id": "AU_sa_water",
+    "mode": "pipeline",
+    "form": "bulk_liquid",
+    "range": "regional",
+    "coordinates": {
+      "lat": -28,
+      "lon": 139
+    }
+  },
+  {
+    "id": "AU_pipeline_gab_olympic_dam",
+    "tier": "transport",
+    "name": "GAB Wellfield-to-Olympic Dam Pipeline",
+    "country_iso2": "AU",
+    "operator_id": "AU_bhp",
+    "mode": "pipeline",
+    "form": "bulk_liquid",
+    "range": "regional",
+    "coordinates": {
+      "lat": -29.9,
+      "lon": 136.9
+    }
+  },
+  {
+    "id": "AU_pipeline_gab_santos",
+    "tier": "transport",
+    "name": "Santos CSG Associated Water Collection Pipeline (Surat Basin)",
+    "country_iso2": "AU",
+    "operator_id": "AU_santos",
+    "mode": "pipeline",
+    "form": "bulk_liquid",
+    "range": "local",
+    "coordinates": {
+      "lat": -26.6,
+      "lon": 149.1
+    }
+  },
+  {
+    "id": "AU_pipeline_gnangara_to_treatment",
+    "tier": "transport",
+    "name": "Gnangara Mound Bore-to-WTP Pipeline",
+    "country_iso2": "AU",
+    "operator_id": "AU_water_corporation",
+    "mode": "pipeline",
+    "form": "bulk_liquid",
+    "range": "local",
+    "coordinates": {
+      "lat": -31.75,
+      "lon": 115.87
+    }
+  },
+  {
+    "id": "AU_pipeline_jandakot_to_treatment",
+    "tier": "transport",
+    "name": "Jandakot Mound Bore-to-WTP Pipeline",
+    "country_iso2": "AU",
+    "operator_id": "AU_water_corporation",
+    "mode": "pipeline",
+    "form": "bulk_liquid",
+    "range": "local",
+    "coordinates": {
+      "lat": -32.05,
+      "lon": 115.88
+    }
+  },
+  {
+    "id": "AU_pipeline_yarragadee_to_treatment",
+    "tier": "transport",
+    "name": "Yarragadee Aquifer Bore-to-WTP Pipeline (SW WA)",
+    "country_iso2": "AU",
+    "operator_id": "AU_water_corporation",
+    "mode": "pipeline",
+    "form": "bulk_liquid",
+    "range": "regional",
+    "coordinates": {
+      "lat": -33,
+      "lon": 115.5
+    }
+  },
+  {
+    "id": "AU_pipeline_leederville_to_treatment",
+    "tier": "transport",
+    "name": "Leederville Aquifer Bore-to-WTP Pipeline",
+    "country_iso2": "AU",
+    "operator_id": "AU_water_corporation",
+    "mode": "pipeline",
+    "form": "bulk_liquid",
+    "range": "local",
+    "coordinates": {
+      "lat": -31.9,
+      "lon": 115.86
+    }
+  },
+  {
+    "id": "AU_pipeline_nap_to_adelaide_wtp",
+    "tier": "transport",
+    "name": "Northern Adelaide Plains Bore-to-WTP Pipeline",
+    "country_iso2": "AU",
+    "operator_id": "AU_sa_water",
+    "mode": "pipeline",
+    "form": "bulk_liquid",
+    "range": "local",
+    "coordinates": {
+      "lat": -34.75,
+      "lon": 138.6
+    }
+  },
+  {
+    "id": "AU_pipeline_barwon_downs_to_wtp",
+    "tier": "transport",
+    "name": "Barwon Downs Borefield-to-WTP Pipeline",
+    "country_iso2": "AU",
+    "operator_id": "AU_barwon_water",
+    "mode": "pipeline",
+    "form": "bulk_liquid",
+    "range": "regional",
+    "coordinates": {
+      "lat": -38.3,
+      "lon": 143.9
+    }
+  },
+  {
+    "id": "AU_pipeline_alice_bore_to_wtp",
+    "tier": "transport",
+    "name": "Alice Springs Borefield-to-WTP Pipeline",
+    "country_iso2": "AU",
+    "operator_id": "AU_power_and_water_corporation",
+    "mode": "pipeline",
+    "form": "bulk_liquid",
+    "range": "local",
+    "coordinates": {
+      "lat": -23.71,
+      "lon": 133.88
+    }
+  },
+  {
+    "id": "AU_pipeline_lockyer_local",
+    "tier": "transport",
+    "name": "Lockyer Valley On-Farm Bore Pipeline (QLD)",
+    "country_iso2": "AU",
+    "operator_id": "AU_lockyer_valley_irrigators",
+    "mode": "pipeline",
+    "form": "bulk_liquid",
+    "range": "local",
+    "coordinates": {
+      "lat": -27.55,
+      "lon": 152.35
+    }
+  },
+  {
+    "id": "AU_pipeline_orange_bore_to_wtp",
+    "tier": "transport",
+    "name": "Orange Borefield-to-Icely Road WTP Pipeline",
+    "country_iso2": "AU",
+    "operator_id": "AU_orange_city_council",
+    "mode": "pipeline",
+    "form": "bulk_liquid",
+    "range": "local",
+    "coordinates": {
+      "lat": -33.29,
+      "lon": 149.1
+    }
+  },
+  {
+    "id": "AU_pipeline_goldfields_bore_to_wtp",
+    "tier": "transport",
+    "name": "Kalgoorlie Borefield-to-WTP Pipeline",
+    "country_iso2": "AU",
+    "operator_id": "AU_water_corporation",
+    "mode": "pipeline",
+    "form": "bulk_liquid",
+    "range": "local",
+    "coordinates": {
+      "lat": -31.2,
+      "lon": 121.5
+    }
+  },
+  {
+    "id": "AU_pipeline_burdekin_local",
+    "tier": "transport",
+    "name": "Burdekin Delta Farm Bore Pipeline (QLD)",
+    "country_iso2": "AU",
+    "operator_id": "AU_burdekin_irrigators",
+    "mode": "pipeline",
+    "form": "bulk_liquid",
+    "range": "local",
+    "coordinates": {
+      "lat": -19.6,
+      "lon": 147.4
+    }
+  },
+  {
+    "id": "AU_pipeline_pilbara_dewater_rio",
+    "tier": "transport",
+    "name": "Rio Tinto Pilbara Mine Dewatering Pipeline",
+    "country_iso2": "AU",
+    "operator_id": "AU_rio_tinto",
+    "mode": "pipeline",
+    "form": "bulk_liquid",
+    "range": "local",
+    "coordinates": {
+      "lat": -22.5,
+      "lon": 118.3
+    }
+  },
+  {
+    "id": "AU_pipeline_pilbara_dewater_bhp",
+    "tier": "transport",
+    "name": "BHP Pilbara Mine Dewatering Pipeline",
+    "country_iso2": "AU",
+    "operator_id": "AU_bhp",
+    "mode": "pipeline",
+    "form": "bulk_liquid",
+    "range": "local",
+    "coordinates": {
+      "lat": -23.3,
+      "lon": 119.7
+    }
+  },
+  {
+    "id": "AU_pipeline_pilbara_dewater_fmg",
+    "tier": "transport",
+    "name": "Fortescue Pilbara Mine Dewatering Pipeline",
+    "country_iso2": "AU",
+    "operator_id": "AU_fortescue",
+    "mode": "pipeline",
+    "form": "bulk_liquid",
+    "range": "local",
+    "coordinates": {
+      "lat": -22.3,
+      "lon": 118.9
+    }
+  },
+  {
+    "id": "AU_pipeline_sunwater_gab_trunk",
+    "tier": "transport",
+    "name": "Sunwater GAB Trunk Main (QLD)",
+    "country_iso2": "AU",
+    "operator_id": "AU_sunwater",
+    "mode": "pipeline",
+    "form": "bulk_liquid",
+    "range": "regional",
+    "coordinates": {
+      "lat": -23.5,
+      "lon": 148
+    }
+  },
+  {
+    "id": "AU_pipeline_gab_pastoral_reticulation",
+    "tier": "transport",
+    "name": "GAB Bore Drain / Piped Stock Routes (QLD/SA/NSW)",
+    "country_iso2": "AU",
+    "operator_id": "AU_sunwater",
+    "mode": "pipeline",
+    "form": "bulk_liquid",
+    "range": "regional",
+    "coordinates": {
+      "lat": -26,
+      "lon": 146
+    }
+  },
+  {
+    "id": "AU_pipeline_sa_far_north",
+    "tier": "transport",
+    "name": "SA Water Far North Trunk Pipeline",
+    "country_iso2": "AU",
+    "operator_id": "AU_sa_water",
+    "mode": "pipeline",
+    "form": "bulk_liquid",
+    "range": "regional",
+    "coordinates": {
+      "lat": -29,
+      "lon": 138
+    }
+  },
+  {
+    "id": "AU_pipeline_od_internal",
+    "tier": "transport",
+    "name": "Olympic Dam Internal Water Pipeline",
+    "country_iso2": "AU",
+    "operator_id": "AU_bhp",
+    "mode": "pipeline",
+    "form": "bulk_liquid",
+    "range": "local",
+    "coordinates": {
+      "lat": -30.44,
+      "lon": 136.88
+    }
+  },
+  {
+    "id": "AU_pipeline_santos_csg_water",
+    "tier": "transport",
+    "name": "Santos CSG Water Trunk Pipeline (Surat Basin)",
+    "country_iso2": "AU",
+    "operator_id": "AU_santos",
+    "mode": "pipeline",
+    "form": "bulk_liquid",
+    "range": "regional",
+    "coordinates": {
+      "lat": -26.5,
+      "lon": 149.2
+    }
+  },
+  {
+    "id": "AU_pipeline_perth_iwss_trunk",
+    "tier": "transport",
+    "name": "Perth IWSS Groundwater Trunk Main",
+    "country_iso2": "AU",
+    "operator_id": "AU_water_corporation",
+    "mode": "pipeline",
+    "form": "bulk_liquid",
+    "range": "regional",
+    "coordinates": {
+      "lat": -31.85,
+      "lon": 115.9
+    }
+  },
+  {
+    "id": "AU_pipeline_adelaide_trunk",
+    "tier": "transport",
+    "name": "SA Water Adelaide Metro Trunk Main",
+    "country_iso2": "AU",
+    "operator_id": "AU_sa_water",
+    "mode": "pipeline",
+    "form": "bulk_liquid",
+    "range": "regional",
+    "coordinates": {
+      "lat": -34.9,
+      "lon": 138.6
+    }
+  },
+  {
+    "id": "AU_pipeline_barwon_trunk",
+    "tier": "transport",
+    "name": "Barwon Water Geelong Trunk Main",
+    "country_iso2": "AU",
+    "operator_id": "AU_barwon_water",
+    "mode": "pipeline",
+    "form": "bulk_liquid",
+    "range": "regional",
+    "coordinates": {
+      "lat": -38.15,
+      "lon": 144.36
+    }
+  },
+  {
+    "id": "AU_pipeline_alice_trunk",
+    "tier": "transport",
+    "name": "Alice Springs Trunk Main",
+    "country_iso2": "AU",
+    "operator_id": "AU_power_and_water_corporation",
+    "mode": "pipeline",
+    "form": "bulk_liquid",
+    "range": "local",
+    "coordinates": {
+      "lat": -23.7,
+      "lon": 133.87
+    }
+  },
+  {
+    "id": "AU_pipeline_lockyer_farm_reticulation",
+    "tier": "transport",
+    "name": "Lockyer Valley Farm Reticulation Pipeline",
+    "country_iso2": "AU",
+    "operator_id": "AU_lockyer_valley_irrigators",
+    "mode": "pipeline",
+    "form": "bulk_liquid",
+    "range": "local",
+    "coordinates": {
+      "lat": -27.55,
+      "lon": 152.35
+    }
+  },
+  {
+    "id": "AU_pipeline_orange_trunk",
+    "tier": "transport",
+    "name": "Orange City Trunk Pipeline",
+    "country_iso2": "AU",
+    "operator_id": "AU_orange_city_council",
+    "mode": "pipeline",
+    "form": "bulk_liquid",
+    "range": "local",
+    "coordinates": {
+      "lat": -33.28,
+      "lon": 149.1
+    }
+  },
+  {
+    "id": "AU_pipeline_goldfields_trunk",
+    "tier": "transport",
+    "name": "Goldfields Water Supply Scheme Extension (WA)",
+    "country_iso2": "AU",
+    "operator_id": "AU_water_corporation",
+    "mode": "pipeline",
+    "form": "bulk_liquid",
+    "range": "regional",
+    "coordinates": {
+      "lat": -31.5,
+      "lon": 120
+    }
+  },
+  {
+    "id": "AU_pipeline_burdekin_reticulation",
+    "tier": "transport",
+    "name": "Burdekin Delta Irrigation Reticulation",
+    "country_iso2": "AU",
+    "operator_id": "AU_burdekin_irrigators",
+    "mode": "pipeline",
+    "form": "bulk_liquid",
+    "range": "local",
+    "coordinates": {
+      "lat": -19.6,
+      "lon": 147.4
+    }
+  },
+  {
+    "id": "AU_pipeline_rio_pilbara_internal",
+    "tier": "transport",
+    "name": "Rio Tinto Pilbara Internal Water Pipeline",
+    "country_iso2": "AU",
+    "operator_id": "AU_rio_tinto",
+    "mode": "pipeline",
+    "form": "bulk_liquid",
+    "range": "local",
+    "coordinates": {
+      "lat": -22.5,
+      "lon": 118.4
+    }
+  },
+  {
+    "id": "AU_pipeline_bhp_pilbara_internal",
+    "tier": "transport",
+    "name": "BHP Pilbara Internal Water Pipeline",
+    "country_iso2": "AU",
+    "operator_id": "AU_bhp",
+    "mode": "pipeline",
+    "form": "bulk_liquid",
+    "range": "local",
+    "coordinates": {
+      "lat": -23.3,
+      "lon": 119.7
+    }
+  },
+  {
+    "id": "AU_pipeline_fmg_pilbara_internal",
+    "tier": "transport",
+    "name": "Fortescue Pilbara Internal Water Pipeline",
+    "country_iso2": "AU",
+    "operator_id": "AU_fortescue",
+    "mode": "pipeline",
+    "form": "bulk_liquid",
+    "range": "local",
+    "coordinates": {
+      "lat": -22.3,
+      "lon": 118.9
+    }
+  },
+  {
+    "id": "AU_pipeline_sunwater_distribution_network",
+    "tier": "transport",
+    "name": "Sunwater GAB Distribution Pipeline Network (QLD)",
+    "country_iso2": "AU",
+    "operator_id": "AU_sunwater",
+    "mode": "pipeline",
+    "form": "bulk_liquid",
+    "range": "regional",
+    "coordinates": {
+      "lat": -23.5,
+      "lon": 148
+    }
+  },
+  {
+    "id": "AU_pipeline_gab_bore_drains",
+    "tier": "transport",
+    "name": "GAB Bore Drain and Piped Stock Route Network",
+    "country_iso2": "AU",
+    "operator_id": "AU_sunwater",
+    "mode": "pipeline",
+    "form": "bulk_liquid",
+    "range": "regional",
+    "coordinates": {
+      "lat": -26,
+      "lon": 146
+    }
+  },
+  {
+    "id": "AU_pipeline_sa_far_north_dist",
+    "tier": "transport",
+    "name": "SA Water Far North Distribution Pipeline",
+    "country_iso2": "AU",
+    "operator_id": "AU_sa_water",
+    "mode": "pipeline",
+    "form": "bulk_liquid",
+    "range": "regional",
+    "coordinates": {
+      "lat": -29,
+      "lon": 134.7
+    }
+  },
+  {
+    "id": "AU_pipeline_od_process_dist",
+    "tier": "transport",
+    "name": "Olympic Dam Internal Process Water Distribution",
+    "country_iso2": "AU",
+    "operator_id": "AU_bhp",
+    "mode": "pipeline",
+    "form": "bulk_liquid",
+    "range": "local",
+    "coordinates": {
+      "lat": -30.44,
+      "lon": 136.88
+    }
+  },
+  {
+    "id": "AU_pipeline_santos_beneficial_use",
+    "tier": "transport",
+    "name": "Santos Beneficial Use Water Distribution Pipeline (QLD)",
+    "country_iso2": "AU",
+    "operator_id": "AU_santos",
+    "mode": "pipeline",
+    "form": "bulk_liquid",
+    "range": "regional",
+    "coordinates": {
+      "lat": -26.5,
+      "lon": 149.3
+    }
+  },
+  {
+    "id": "AU_pipeline_perth_dist_network",
+    "tier": "transport",
+    "name": "Perth Metro Water Distribution Network",
+    "country_iso2": "AU",
+    "operator_id": "AU_water_corporation",
+    "mode": "pipeline",
+    "form": "bulk_liquid",
+    "range": "regional",
+    "coordinates": {
+      "lat": -31.95,
+      "lon": 115.86
+    }
+  },
+  {
+    "id": "AU_pipeline_adelaide_dist_network",
+    "tier": "transport",
+    "name": "Adelaide Metro Water Distribution Network",
+    "country_iso2": "AU",
+    "operator_id": "AU_sa_water",
+    "mode": "pipeline",
+    "form": "bulk_liquid",
+    "range": "regional",
+    "coordinates": {
+      "lat": -34.92,
+      "lon": 138.6
+    }
+  },
+  {
+    "id": "AU_pipeline_barwon_dist_network",
+    "tier": "transport",
+    "name": "Barwon Water Geelong Distribution Network",
+    "country_iso2": "AU",
+    "operator_id": "AU_barwon_water",
+    "mode": "pipeline",
+    "form": "bulk_liquid",
+    "range": "local",
+    "coordinates": {
+      "lat": -38.15,
+      "lon": 144.36
+    }
+  },
+  {
+    "id": "AU_pipeline_alice_dist_network",
+    "tier": "transport",
+    "name": "Alice Springs Distribution Network",
+    "country_iso2": "AU",
+    "operator_id": "AU_power_and_water_corporation",
+    "mode": "pipeline",
+    "form": "bulk_liquid",
+    "range": "local",
+    "coordinates": {
+      "lat": -23.7,
+      "lon": 133.87
+    }
+  },
+  {
+    "id": "AU_pipeline_orange_dist_network",
+    "tier": "transport",
+    "name": "Orange City Distribution Network",
+    "country_iso2": "AU",
+    "operator_id": "AU_orange_city_council",
+    "mode": "pipeline",
+    "form": "bulk_liquid",
+    "range": "local",
+    "coordinates": {
+      "lat": -33.28,
+      "lon": 149.1
+    }
+  },
+  {
+    "id": "AU_pipeline_goldfields_dist_network",
+    "tier": "transport",
+    "name": "Goldfields Town Distribution Network (WA)",
+    "country_iso2": "AU",
+    "operator_id": "AU_water_corporation",
+    "mode": "pipeline",
+    "form": "bulk_liquid",
+    "range": "local",
+    "coordinates": {
+      "lat": -30.75,
+      "lon": 121.47
+    }
+  },
+  {
+    "id": "AU_pipeline_rio_pilbara_dist",
+    "tier": "transport",
+    "name": "Rio Tinto Pilbara Water Distribution Pipeline",
+    "country_iso2": "AU",
+    "operator_id": "AU_rio_tinto",
+    "mode": "pipeline",
+    "form": "bulk_liquid",
+    "range": "local",
+    "coordinates": {
+      "lat": -22.5,
+      "lon": 118.4
+    }
+  },
+  {
+    "id": "AU_pipeline_bhp_pilbara_dist",
+    "tier": "transport",
+    "name": "BHP Pilbara Water Distribution Pipeline",
+    "country_iso2": "AU",
+    "operator_id": "AU_bhp",
+    "mode": "pipeline",
+    "form": "bulk_liquid",
+    "range": "local",
+    "coordinates": {
+      "lat": -23.3,
+      "lon": 119.7
+    }
+  },
+  {
+    "id": "AU_pipeline_fmg_pilbara_dist",
+    "tier": "transport",
+    "name": "Fortescue Pilbara Water Distribution Pipeline",
+    "country_iso2": "AU",
+    "operator_id": "AU_fortescue",
+    "mode": "pipeline",
+    "form": "bulk_liquid",
+    "range": "local",
+    "coordinates": {
+      "lat": -22.3,
+      "lon": 118.9
+    }
+  },
+  {
+    "id": "AU_pipeline_sunwater_town_reticulation",
+    "tier": "transport",
+    "name": "Sunwater GAB Town Reticulation (QLD)",
+    "country_iso2": "AU",
+    "operator_id": "AU_sunwater",
+    "mode": "pipeline",
+    "form": "bulk_liquid",
+    "range": "local",
+    "coordinates": {
+      "lat": -23.4,
+      "lon": 148
+    }
+  },
+  {
+    "id": "AU_pipeline_sunwater_industrial_reticulation",
+    "tier": "transport",
+    "name": "Sunwater GAB Industrial Reticulation (QLD Mining)",
+    "country_iso2": "AU",
+    "operator_id": "AU_sunwater",
+    "mode": "pipeline",
+    "form": "bulk_liquid",
+    "range": "regional",
+    "coordinates": {
+      "lat": -23.4,
+      "lon": 148
+    }
+  },
+  {
+    "id": "AU_pipeline_sunwater_ag_reticulation",
+    "tier": "transport",
+    "name": "Sunwater GAB Agricultural Reticulation",
+    "country_iso2": "AU",
+    "operator_id": "AU_sunwater",
+    "mode": "pipeline",
+    "form": "bulk_liquid",
+    "range": "regional",
+    "coordinates": {
+      "lat": -23.5,
+      "lon": 148
+    }
+  },
+  {
+    "id": "AU_pipeline_gab_pastoral_local",
+    "tier": "transport",
+    "name": "GAB Pastoral Local Bore Reticulation",
+    "country_iso2": "AU",
+    "operator_id": "AU_sunwater",
+    "mode": "pipeline",
+    "form": "bulk_liquid",
+    "range": "local",
+    "coordinates": {
+      "lat": -26,
+      "lon": 146
+    }
+  },
+  {
+    "id": "AU_pipeline_sa_far_north_residential",
+    "tier": "transport",
+    "name": "SA Far North Town Residential Reticulation",
+    "country_iso2": "AU",
+    "operator_id": "AU_sa_water",
+    "mode": "pipeline",
+    "form": "bulk_liquid",
+    "range": "local",
+    "coordinates": {
+      "lat": -29,
+      "lon": 134.7
+    }
+  },
+  {
+    "id": "AU_pipeline_sa_far_north_industrial",
+    "tier": "transport",
+    "name": "SA Far North Industrial Water Supply Pipeline",
+    "country_iso2": "AU",
+    "operator_id": "AU_sa_water",
+    "mode": "pipeline",
+    "form": "bulk_liquid",
+    "range": "regional",
+    "coordinates": {
+      "lat": -29,
+      "lon": 134.7
+    }
+  },
+  {
+    "id": "AU_pipeline_sa_far_north_agricultural",
+    "tier": "transport",
+    "name": "SA Far North Stock & Domestic Pipeline",
+    "country_iso2": "AU",
+    "operator_id": "AU_sa_water",
+    "mode": "pipeline",
+    "form": "bulk_liquid",
+    "range": "local",
+    "coordinates": {
+      "lat": -29,
+      "lon": 134.7
+    }
+  },
+  {
+    "id": "AU_pipeline_od_mine_use",
+    "tier": "transport",
+    "name": "Olympic Dam Mine Process Water Delivery",
+    "country_iso2": "AU",
+    "operator_id": "AU_bhp",
+    "mode": "pipeline",
+    "form": "bulk_liquid",
+    "range": "local",
+    "coordinates": {
+      "lat": -30.44,
+      "lon": 136.88
+    }
+  },
+  {
+    "id": "AU_pipeline_santos_irrigation_use",
+    "tier": "transport",
+    "name": "Santos Beneficial Use – Irrigation Delivery Pipeline",
+    "country_iso2": "AU",
+    "operator_id": "AU_santos",
+    "mode": "pipeline",
+    "form": "bulk_liquid",
+    "range": "local",
+    "coordinates": {
+      "lat": -26.5,
+      "lon": 149.3
+    }
+  },
+  {
+    "id": "AU_pipeline_santos_industrial_use",
+    "tier": "transport",
+    "name": "Santos Beneficial Use – Industrial Delivery Pipeline",
+    "country_iso2": "AU",
+    "operator_id": "AU_santos",
+    "mode": "pipeline",
+    "form": "bulk_liquid",
+    "range": "local",
+    "coordinates": {
+      "lat": -26.5,
+      "lon": 149.3
+    }
+  },
+  {
+    "id": "AU_pipeline_perth_residential",
+    "tier": "transport",
+    "name": "Perth Residential Reticulation Network",
+    "country_iso2": "AU",
+    "operator_id": "AU_water_corporation",
+    "mode": "pipeline",
+    "form": "bulk_liquid",
+    "range": "local",
+    "coordinates": {
+      "lat": -31.95,
+      "lon": 115.86
+    }
+  },
+  {
+    "id": "AU_pipeline_perth_commercial",
+    "tier": "transport",
+    "name": "Perth Commercial Reticulation Network",
+    "country_iso2": "AU",
+    "operator_id": "AU_water_corporation",
+    "mode": "pipeline",
+    "form": "bulk_liquid",
+    "range": "local",
+    "coordinates": {
+      "lat": -31.95,
+      "lon": 115.86
+    }
+  },
+  {
+    "id": "AU_pipeline_perth_industrial",
+    "tier": "transport",
+    "name": "Perth Industrial Reticulation Network",
+    "country_iso2": "AU",
+    "operator_id": "AU_water_corporation",
+    "mode": "pipeline",
+    "form": "bulk_liquid",
+    "range": "local",
+    "coordinates": {
+      "lat": -31.95,
+      "lon": 115.86
+    }
+  },
+  {
+    "id": "AU_pipeline_perth_infrastructure",
+    "tier": "transport",
+    "name": "Perth Non-Potable / Public Open Space Irrigation Network",
+    "country_iso2": "AU",
+    "operator_id": "AU_water_corporation",
+    "mode": "pipeline",
+    "form": "bulk_liquid",
+    "range": "local",
+    "coordinates": {
+      "lat": -31.95,
+      "lon": 115.86
+    }
+  },
+  {
+    "id": "AU_pipeline_adelaide_residential",
+    "tier": "transport",
+    "name": "Adelaide Residential Reticulation Network",
+    "country_iso2": "AU",
+    "operator_id": "AU_sa_water",
+    "mode": "pipeline",
+    "form": "bulk_liquid",
+    "range": "local",
+    "coordinates": {
+      "lat": -34.92,
+      "lon": 138.6
+    }
+  },
+  {
+    "id": "AU_pipeline_adelaide_commercial",
+    "tier": "transport",
+    "name": "Adelaide Commercial Reticulation Network",
+    "country_iso2": "AU",
+    "operator_id": "AU_sa_water",
+    "mode": "pipeline",
+    "form": "bulk_liquid",
+    "range": "local",
+    "coordinates": {
+      "lat": -34.92,
+      "lon": 138.6
+    }
+  },
+  {
+    "id": "AU_pipeline_adelaide_industrial",
+    "tier": "transport",
+    "name": "Adelaide Industrial Reticulation Network",
+    "country_iso2": "AU",
+    "operator_id": "AU_sa_water",
+    "mode": "pipeline",
+    "form": "bulk_liquid",
+    "range": "local",
+    "coordinates": {
+      "lat": -34.92,
+      "lon": 138.6
+    },
+    "resources": [
+      "Nitrogen"
+    ],
+    "upstream": [],
+    "downstream": []
+  },
+  {
+    "id": "AU_pipeline_barwon_residential",
+    "tier": "transport",
+    "name": "Barwon Water Residential Reticulation",
+    "country_iso2": "AU",
+    "operator_id": "AU_barwon_water",
+    "mode": "pipeline",
+    "form": "bulk_liquid",
+    "range": "local",
+    "coordinates": {
+      "lat": -38.15,
+      "lon": 144.36
+    }
+  },
+  {
+    "id": "AU_pipeline_barwon_commercial",
+    "tier": "transport",
+    "name": "Barwon Water Commercial Reticulation",
+    "country_iso2": "AU",
+    "operator_id": "AU_barwon_water",
+    "mode": "pipeline",
+    "form": "bulk_liquid",
+    "range": "local",
+    "coordinates": {
+      "lat": -38.15,
+      "lon": 144.36
+    }
+  },
+  {
+    "id": "AU_pipeline_alice_residential",
+    "tier": "transport",
+    "name": "Alice Springs Residential Reticulation",
+    "country_iso2": "AU",
+    "operator_id": "AU_power_and_water_corporation",
+    "mode": "pipeline",
+    "form": "bulk_liquid",
+    "range": "local",
+    "coordinates": {
+      "lat": -23.7,
+      "lon": 133.87
+    }
+  },
+  {
+    "id": "AU_pipeline_alice_commercial",
+    "tier": "transport",
+    "name": "Alice Springs Commercial Reticulation",
+    "country_iso2": "AU",
+    "operator_id": "AU_power_and_water_corporation",
+    "mode": "pipeline",
+    "form": "bulk_liquid",
+    "range": "local",
+    "coordinates": {
+      "lat": -23.7,
+      "lon": 133.87
+    }
+  },
+  {
+    "id": "AU_pipeline_alice_government",
+    "tier": "transport",
+    "name": "Alice Springs Government Facilities Reticulation",
+    "country_iso2": "AU",
+    "operator_id": "AU_power_and_water_corporation",
+    "mode": "pipeline",
+    "form": "bulk_liquid",
+    "range": "local",
+    "coordinates": {
+      "lat": -23.7,
+      "lon": 133.87
+    }
+  },
+  {
+    "id": "AU_pipeline_lockyer_ag",
+    "tier": "transport",
+    "name": "Lockyer Valley Agricultural Distribution",
+    "country_iso2": "AU",
+    "operator_id": "AU_lockyer_valley_irrigators",
+    "mode": "pipeline",
+    "form": "bulk_liquid",
+    "range": "local",
+    "coordinates": {
+      "lat": -27.55,
+      "lon": 152.35
+    }
+  },
+  {
+    "id": "AU_pipeline_orange_residential",
+    "tier": "transport",
+    "name": "Orange City Residential Reticulation",
+    "country_iso2": "AU",
+    "operator_id": "AU_orange_city_council",
+    "mode": "pipeline",
+    "form": "bulk_liquid",
+    "range": "local",
+    "coordinates": {
+      "lat": -33.28,
+      "lon": 149.1
+    }
+  },
+  {
+    "id": "AU_pipeline_orange_commercial",
+    "tier": "transport",
+    "name": "Orange City Commercial Reticulation",
+    "country_iso2": "AU",
+    "operator_id": "AU_orange_city_council",
+    "mode": "pipeline",
+    "form": "bulk_liquid",
+    "range": "local",
+    "coordinates": {
+      "lat": -33.28,
+      "lon": 149.1
+    }
+  },
+  {
+    "id": "AU_pipeline_goldfields_residential",
+    "tier": "transport",
+    "name": "Goldfields Residential Reticulation (WA)",
+    "country_iso2": "AU",
+    "operator_id": "AU_water_corporation",
+    "mode": "pipeline",
+    "form": "bulk_liquid",
+    "range": "local",
+    "coordinates": {
+      "lat": -30.75,
+      "lon": 121.47
+    }
+  },
+  {
+    "id": "AU_pipeline_goldfields_industrial",
+    "tier": "transport",
+    "name": "Goldfields Industrial / Mining Water Supply (WA)",
+    "country_iso2": "AU",
+    "operator_id": "AU_water_corporation",
+    "mode": "pipeline",
+    "form": "bulk_liquid",
+    "range": "local",
+    "coordinates": {
+      "lat": -30.75,
+      "lon": 121.47
+    }
+  },
+  {
+    "id": "AU_pipeline_burdekin_ag",
+    "tier": "transport",
+    "name": "Burdekin Delta Agricultural Reticulation (QLD)",
+    "country_iso2": "AU",
+    "operator_id": "AU_burdekin_irrigators",
+    "mode": "pipeline",
+    "form": "bulk_liquid",
+    "range": "local",
+    "coordinates": {
+      "lat": -19.6,
+      "lon": 147.4
+    }
+  },
+  {
+    "id": "AU_pipeline_rio_mine_process",
+    "tier": "transport",
+    "name": "Rio Tinto Pilbara Mine Process Water Distribution",
+    "country_iso2": "AU",
+    "operator_id": "AU_rio_tinto",
+    "mode": "pipeline",
+    "form": "bulk_liquid",
+    "range": "local",
+    "coordinates": {
+      "lat": -22.5,
+      "lon": 118.4
+    }
+  },
+  {
+    "id": "AU_pipeline_rio_surplus_ag",
+    "tier": "transport",
+    "name": "Rio Tinto Pilbara Surplus Water – Agricultural Reuse Pipeline",
+    "country_iso2": "AU",
+    "operator_id": "AU_rio_tinto",
+    "mode": "pipeline",
+    "form": "bulk_liquid",
+    "range": "local",
+    "coordinates": {
+      "lat": -22.5,
+      "lon": 118.4
+    }
+  },
+  {
+    "id": "AU_pipeline_bhp_mine_process",
+    "tier": "transport",
+    "name": "BHP Pilbara Mine Process Water Distribution",
+    "country_iso2": "AU",
+    "operator_id": "AU_bhp",
+    "mode": "pipeline",
+    "form": "bulk_liquid",
+    "range": "local",
+    "coordinates": {
+      "lat": -23.3,
+      "lon": 119.7
+    }
+  },
+  {
+    "id": "AU_pipeline_bhp_surplus_ag",
+    "tier": "transport",
+    "name": "BHP Pilbara Surplus Water – Agricultural Reuse Pipeline",
+    "country_iso2": "AU",
+    "operator_id": "AU_bhp",
+    "mode": "pipeline",
+    "form": "bulk_liquid",
+    "range": "local",
+    "coordinates": {
+      "lat": -23.3,
+      "lon": 119.7
+    }
+  },
+  {
+    "id": "AU_pipeline_fmg_mine_process",
+    "tier": "transport",
+    "name": "Fortescue Pilbara Mine Process Water Distribution",
+    "country_iso2": "AU",
+    "operator_id": "AU_fortescue",
+    "mode": "pipeline",
+    "form": "bulk_liquid",
+    "range": "local",
+    "coordinates": {
+      "lat": -22.3,
+      "lon": 118.9
+    }
+  },
+  {
+    "id": "AU_pipeline_fmg_surplus_ag",
+    "tier": "transport",
+    "name": "Fortescue Pilbara Surplus Water – Agricultural Reuse Pipeline",
+    "country_iso2": "AU",
+    "operator_id": "AU_fortescue",
+    "mode": "pipeline",
+    "form": "bulk_liquid",
+    "range": "local",
+    "coordinates": {
+      "lat": -22.3,
+      "lon": 118.9
+    }
+  }
+]

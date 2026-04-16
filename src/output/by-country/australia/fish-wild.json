@@ -1,0 +1,2828 @@
+[
+  {
+    "id": "AU_northern_prawn_fishery",
+    "name": "Northern Prawn Fishery (Gulf of Carpentaria & NW Shelf)",
+    "tier": "harvester",
+    "country_iso2": "AU",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": -13.5,
+      "lon": 137.5
+    },
+    "downstream": [
+      {
+        "target_id": "AU_austral_fisheries",
+        "corridor_id": "AU_ocean_goc_darwin",
+        "resource": "wild-caught banana & tiger prawns (whole, frozen at sea)",
+        "quantity": 3500,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_raptis_sons",
+        "corridor_id": "AU_ocean_goc_cairns",
+        "resource": "wild-caught banana & tiger prawns (whole, frozen at sea)",
+        "quantity": 1500,
+        "metric": "t"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Fish (wild)"
+    ]
+  },
+  {
+    "id": "AU_south_east_trawl_fishery",
+    "name": "South East Trawl Fishery (SETF)",
+    "tier": "harvester",
+    "country_iso2": "AU",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": -39,
+      "lon": 148.5
+    },
+    "downstream": [
+      {
+        "target_id": "AU_sealord_australia",
+        "corridor_id": "AU_ocean_setf_lakes_entrance",
+        "resource": "wild-caught mixed demersal fish (blue grenadier, flathead, orange roughy)",
+        "quantity": 8000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_petuna_seafoods",
+        "corridor_id": "AU_ocean_setf_devonport",
+        "resource": "wild-caught blue grenadier (whole)",
+        "quantity": 3000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Fish (wild)"
+    ]
+  },
+  {
+    "id": "AU_eastern_tuna_billfish_fishery",
+    "name": "Eastern Tuna & Billfish Fishery",
+    "tier": "harvester",
+    "country_iso2": "AU",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": -30,
+      "lon": 155
+    },
+    "downstream": [
+      {
+        "target_id": "AU_de_costi_seafoods",
+        "corridor_id": "AU_ocean_etbf_sydney",
+        "resource": "wild-caught yellowfin & bigeye tuna (whole, chilled)",
+        "quantity": 3500,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_mooloolaba_fish_market",
+        "corridor_id": "AU_ocean_etbf_mooloolaba",
+        "resource": "wild-caught swordfish & tuna (whole, chilled)",
+        "quantity": 1500,
+        "metric": "t"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Fish (wild)"
+    ]
+  },
+  {
+    "id": "AU_south_australian_sardine_fishery",
+    "name": "South Australian Sardine Fishery",
+    "tier": "harvester",
+    "country_iso2": "AU",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": -35.5,
+      "lon": 137.5
+    },
+    "downstream": [
+      {
+        "target_id": "AU_sardine_processors_sa",
+        "corridor_id": "AU_ocean_sa_sardine_port_lincoln",
+        "resource": "wild-caught Australian sardines (whole)",
+        "quantity": 35000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Fish (wild)"
+    ]
+  },
+  {
+    "id": "AU_western_rock_lobster_fishery",
+    "name": "Western Rock Lobster Fishery (WA)",
+    "tier": "harvester",
+    "country_iso2": "AU",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": -29.5,
+      "lon": 113.5
+    },
+    "downstream": [
+      {
+        "target_id": "AU_geraldton_fishermens_cooperative",
+        "corridor_id": "AU_ocean_wrl_geraldton",
+        "resource": "live western rock lobster",
+        "quantity": 4500,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_indian_ocean_rock_lobster",
+        "corridor_id": "AU_ocean_wrl_fremantle",
+        "resource": "live western rock lobster",
+        "quantity": 2500,
+        "metric": "t"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Fish (wild)"
+    ]
+  },
+  {
+    "id": "AU_southern_rock_lobster_fishery_tas",
+    "name": "Tasmanian Southern Rock Lobster Fishery",
+    "tier": "harvester",
+    "country_iso2": "AU",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": -42.5,
+      "lon": 145.5
+    },
+    "downstream": [
+      {
+        "target_id": "AU_tas_live_abalone_lobster",
+        "corridor_id": "AU_ocean_srl_hobart",
+        "resource": "live southern rock lobster",
+        "quantity": 1100,
+        "metric": "t"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Fish (wild)"
+    ]
+  },
+  {
+    "id": "AU_southern_rock_lobster_fishery_sa",
+    "name": "South Australian Southern Rock Lobster Fishery",
+    "tier": "harvester",
+    "country_iso2": "AU",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": -37.5,
+      "lon": 139.5
+    },
+    "downstream": [
+      {
+        "target_id": "AU_ferguson_australia",
+        "corridor_id": "AU_road_sa_lobster_adelaide",
+        "resource": "live southern rock lobster",
+        "quantity": 1500,
+        "metric": "t"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Fish (wild)"
+    ]
+  },
+  {
+    "id": "AU_abalone_fishery_tas",
+    "name": "Tasmanian Abalone Fishery",
+    "tier": "harvester",
+    "country_iso2": "AU",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": -42,
+      "lon": 146
+    },
+    "downstream": [
+      {
+        "target_id": "AU_tas_live_abalone_lobster",
+        "corridor_id": "AU_ocean_abalone_hobart",
+        "resource": "wild-caught blacklip & greenlip abalone (whole, live)",
+        "quantity": 2200,
+        "metric": "t"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Fish (wild)"
+    ]
+  },
+  {
+    "id": "AU_abalone_fishery_vic",
+    "name": "Victorian Abalone Fishery",
+    "tier": "harvester",
+    "country_iso2": "AU",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": -38.7,
+      "lon": 143
+    },
+    "downstream": [
+      {
+        "target_id": "AU_ocean_grown_abalone",
+        "corridor_id": "AU_road_vic_abalone_portland",
+        "resource": "wild-caught blacklip abalone (whole, live)",
+        "quantity": 700,
+        "metric": "t"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Fish (wild)"
+    ]
+  },
+  {
+    "id": "AU_barramundi_wild_fishery_qld_nt",
+    "name": "Wild Barramundi Fishery (QLD & NT)",
+    "tier": "harvester",
+    "country_iso2": "AU",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": -14,
+      "lon": 135
+    },
+    "downstream": [
+      {
+        "target_id": "AU_nt_seafoods",
+        "corridor_id": "AU_road_nt_darwin_processors",
+        "resource": "wild-caught barramundi (whole, chilled)",
+        "quantity": 2000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Fish (wild)"
+    ]
+  },
+  {
+    "id": "AU_heard_island_patagonian_toothfish",
+    "name": "Heard Island & McDonald Islands Toothfish Fishery",
+    "tier": "harvester",
+    "country_iso2": "AU",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": -53.1,
+      "lon": 73.5
+    },
+    "downstream": [
+      {
+        "target_id": "AU_austral_fisheries",
+        "corridor_id": "AU_ocean_himi_fremantle",
+        "resource": "wild-caught Patagonian toothfish (whole, frozen at sea)",
+        "quantity": 2800,
+        "metric": "t"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Fish (wild)"
+    ]
+  },
+  {
+    "id": "AU_mackerel_fishery_qld",
+    "name": "Queensland East Coast Spanish Mackerel Fishery",
+    "tier": "harvester",
+    "country_iso2": "AU",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": -19,
+      "lon": 148
+    },
+    "downstream": [
+      {
+        "target_id": "AU_mooloolaba_fish_market",
+        "corridor_id": "AU_ocean_mackerel_qld_mooloolaba",
+        "resource": "wild-caught Spanish mackerel (whole, chilled)",
+        "quantity": 800,
+        "metric": "t"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Fish (wild)"
+    ]
+  },
+  {
+    "id": "AU_scallop_fishery_qld",
+    "name": "Queensland Scallop Fishery",
+    "tier": "harvester",
+    "country_iso2": "AU",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": -24,
+      "lon": 152.5
+    },
+    "downstream": [
+      {
+        "target_id": "AU_raptis_sons",
+        "corridor_id": "AU_ocean_scallop_qld_brisbane",
+        "resource": "wild-caught saucer scallops (whole)",
+        "quantity": 600,
+        "metric": "t"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Fish (wild)"
+    ]
+  },
+  {
+    "id": "AU_gillnet_hook_shark_fishery",
+    "name": "Southern & Eastern Scalefish and Shark Fishery (Gillnet Hook & Trap)",
+    "tier": "harvester",
+    "country_iso2": "AU",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": -37.5,
+      "lon": 141
+    },
+    "downstream": [
+      {
+        "target_id": "AU_sealord_australia",
+        "corridor_id": "AU_ocean_sessf_portland",
+        "resource": "wild-caught gummy shark (flake), school shark (whole)",
+        "quantity": 3000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Fish (wild)"
+    ]
+  },
+  {
+    "id": "AU_small_pelagic_fishery",
+    "name": "Small Pelagic Fishery (Commonwealth)",
+    "tier": "harvester",
+    "country_iso2": "AU",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": -38,
+      "lon": 146
+    },
+    "downstream": [
+      {
+        "target_id": "AU_sardine_processors_sa",
+        "corridor_id": "AU_ocean_spf_portland",
+        "resource": "wild-caught jack mackerel, blue mackerel, redbait (whole)",
+        "quantity": 5000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Fish (wild)"
+    ]
+  },
+  {
+    "id": "AU_southern_bluefin_tuna_fishery",
+    "name": "Southern Bluefin Tuna Fishery (SA/Commonwealth)",
+    "tier": "harvester",
+    "country_iso2": "AU",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": -34.5,
+      "lon": 136
+    },
+    "downstream": [
+      {
+        "target_id": "AU_sarin_group",
+        "corridor_id": "AU_ocean_sbt_port_lincoln",
+        "resource": "wild-caught southern bluefin tuna (whole, ranched/fattened then harvested)",
+        "quantity": 5500,
+        "metric": "t"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Fish (wild)"
+    ]
+  },
+  {
+    "id": "AU_nsw_ocean_trawl_fishery",
+    "name": "NSW Ocean Trawl Fishery",
+    "tier": "harvester",
+    "country_iso2": "AU",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": -33.5,
+      "lon": 152
+    },
+    "downstream": [
+      {
+        "target_id": "AU_de_costi_seafoods",
+        "corridor_id": "AU_ocean_nsw_trawl_sydney",
+        "resource": "wild-caught king prawns, squid, mixed finfish (whole)",
+        "quantity": 2000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Fish (wild)"
+    ]
+  },
+  {
+    "id": "AU_torres_strait_prawn_fishery",
+    "name": "Torres Strait Prawn Fishery",
+    "tier": "harvester",
+    "country_iso2": "AU",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": -10.5,
+      "lon": 142.5
+    },
+    "downstream": [
+      {
+        "target_id": "AU_austral_fisheries",
+        "corridor_id": "AU_ocean_ts_cairns",
+        "resource": "wild-caught endeavour & tiger prawns (frozen at sea)",
+        "quantity": 700,
+        "metric": "t"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Fish (wild)"
+    ]
+  },
+  {
+    "id": "AU_spencer_gulf_prawns",
+    "name": "Spencer Gulf & West Coast Prawn Fishermen's Association (Processors)",
+    "tier": "landing_processor",
+    "country_iso2": "AU",
+    "canonical_company": "Spencer Gulf Prawns",
+    "coordinates": {
+      "lat": -34.73,
+      "lon": 135.86
+    },
+    "downstream": [
+      {
+        "target_id": "AU_markwell_foods",
+        "corridor_id": "AU_road_port_lincoln_adelaide",
+        "resource": "processed king prawns (graded, snap-frozen)",
+        "quantity": 2800,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_spencer_gulf_prawn_fishery"
+    ],
+    "resources": [
+      "Fish (wild)"
+    ]
+  },
+  {
+    "id": "AU_raptis_sons",
+    "name": "Raptis & Sons",
+    "tier": "landing_processor",
+    "country_iso2": "AU",
+    "canonical_company": "Raptis & Sons",
+    "coordinates": {
+      "lat": -27.38,
+      "lon": 153.17
+    },
+    "downstream": [
+      {
+        "target_id": "AU_raptis_packer_brisbane",
+        "corridor_id": "AU_road_brisbane_processor_packer",
+        "resource": "processed prawns and scallops (IQF, graded)",
+        "quantity": 2100,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_northern_prawn_fishery",
+      "AU_scallop_fishery_qld"
+    ],
+    "resources": [
+      "Fish (wild)"
+    ]
+  },
+  {
+    "id": "AU_sealord_australia",
+    "name": "Sealord Australia (inc. Petuna processing)",
+    "tier": "landing_processor",
+    "country_iso2": "AU",
+    "canonical_company": "Sealord Group",
+    "coordinates": {
+      "lat": -37.88,
+      "lon": 147.99
+    },
+    "downstream": [
+      {
+        "target_id": "AU_sealord_packer_vic",
+        "corridor_id": "AU_road_lakes_entrance_melbourne",
+        "resource": "processed blue grenadier fillets, gummy shark (flake), flathead fillets",
+        "quantity": 11000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_south_east_trawl_fishery",
+      "AU_gillnet_hook_shark_fishery"
+    ],
+    "resources": [
+      "Fish (wild)"
+    ]
+  },
+  {
+    "id": "AU_petuna_seafoods",
+    "name": "Petuna Seafoods (Devonport)",
+    "tier": "landing_processor",
+    "country_iso2": "AU",
+    "canonical_company": "Petuna Seafoods",
+    "coordinates": {
+      "lat": -41.18,
+      "lon": 146.36
+    },
+    "downstream": [
+      {
+        "target_id": "AU_petuna_packer_devonport",
+        "corridor_id": "AU_road_devonport_processing",
+        "resource": "blue grenadier fillets (frozen)",
+        "quantity": 3000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_south_east_trawl_fishery"
+    ],
+    "resources": [
+      "Fish (wild)"
+    ]
+  },
+  {
+    "id": "AU_de_costi_seafoods",
+    "name": "De Costi Seafoods",
+    "tier": "landing_processor",
+    "country_iso2": "AU",
+    "canonical_company": "De Costi Seafoods",
+    "coordinates": {
+      "lat": -33.87,
+      "lon": 151.19
+    },
+    "downstream": [
+      {
+        "target_id": "AU_de_costi_packer_sydney",
+        "corridor_id": "AU_road_sydney_fish_market_processing",
+        "resource": "processed tuna steaks, prawn portions, mixed finfish fillets",
+        "quantity": 5500,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_eastern_tuna_billfish_fishery",
+      "AU_nsw_ocean_trawl_fishery"
+    ],
+    "resources": [
+      "Fish (wild)"
+    ]
+  },
+  {
+    "id": "AU_mooloolaba_fish_market",
+    "name": "Mooloolaba Fish Market / Processors",
+    "tier": "landing_processor",
+    "country_iso2": "AU",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": -26.68,
+      "lon": 153.12
+    },
+    "downstream": [
+      {
+        "target_id": "AU_raptis_packer_brisbane",
+        "corridor_id": "AU_road_mooloolaba_brisbane",
+        "resource": "processed swordfish loins, tuna, mackerel fillets (chilled)",
+        "quantity": 2300,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_eastern_tuna_billfish_fishery",
+      "AU_mackerel_fishery_qld"
+    ],
+    "resources": [
+      "Fish (wild)"
+    ]
+  },
+  {
+    "id": "AU_geraldton_fishermens_cooperative",
+    "name": "Geraldton Fishermen's Co-operative",
+    "tier": "landing_processor",
+    "country_iso2": "AU",
+    "canonical_company": "Geraldton Fishermen's Co-operative",
+    "coordinates": {
+      "lat": -28.77,
+      "lon": 114.62
+    },
+    "downstream": [
+      {
+        "target_id": "AU_gfc_packer_geraldton",
+        "corridor_id": "AU_road_geraldton_processing",
+        "resource": "live & frozen western rock lobster (graded, packed)",
+        "quantity": 4500,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_western_rock_lobster_fishery"
+    ],
+    "resources": [
+      "Fish (wild)"
+    ]
+  },
+  {
+    "id": "AU_indian_ocean_rock_lobster",
+    "name": "Indian Ocean Rock Lobster (Fremantle processors)",
+    "tier": "landing_processor",
+    "country_iso2": "AU",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": -32.05,
+      "lon": 115.74
+    },
+    "downstream": [
+      {
+        "target_id": "AU_lobster_packer_fremantle",
+        "corridor_id": "AU_road_fremantle_processing",
+        "resource": "live & cooked frozen rock lobster",
+        "quantity": 2500,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_western_rock_lobster_fishery"
+    ],
+    "resources": [
+      "Fish (wild)"
+    ]
+  },
+  {
+    "id": "AU_tas_live_abalone_lobster",
+    "name": "Tasmanian Seafoods (Abalone & Lobster Processing, Hobart)",
+    "tier": "landing_processor",
+    "country_iso2": "AU",
+    "canonical_company": "Tasmanian Seafoods",
+    "coordinates": {
+      "lat": -42.88,
+      "lon": 147.33
+    },
+    "downstream": [
+      {
+        "target_id": "AU_tas_packer_hobart",
+        "corridor_id": "AU_road_hobart_processing",
+        "resource": "live abalone, canned abalone, live southern rock lobster",
+        "quantity": 3300,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_southern_rock_lobster_fishery_tas",
+      "AU_abalone_fishery_tas"
+    ],
+    "resources": [
+      "Fish (wild)"
+    ]
+  },
+  {
+    "id": "AU_ferguson_australia",
+    "name": "Ferguson Australia",
+    "tier": "landing_processor",
+    "country_iso2": "AU",
+    "canonical_company": "Ferguson Australia",
+    "coordinates": {
+      "lat": -34.92,
+      "lon": 138.6
+    },
+    "downstream": [
+      {
+        "target_id": "AU_ferguson_packer_adelaide",
+        "corridor_id": "AU_road_adelaide_processing",
+        "resource": "live & frozen southern rock lobster, seafood products",
+        "quantity": 1500,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_southern_rock_lobster_fishery_sa"
+    ],
+    "resources": [
+      "Fish (wild)"
+    ]
+  },
+  {
+    "id": "AU_nt_seafoods",
+    "name": "NT Seafoods / Darwin Processors",
+    "tier": "landing_processor",
+    "country_iso2": "AU",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": -12.46,
+      "lon": 130.84
+    },
+    "downstream": [
+      {
+        "target_id": "AU_nt_seafood_packer_darwin",
+        "corridor_id": "AU_road_darwin_packer",
+        "resource": "barramundi fillets, whole barramundi (chilled/frozen)",
+        "quantity": 2000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_barramundi_wild_fishery_qld_nt"
+    ],
+    "resources": [
+      "Fish (wild)"
+    ]
+  },
+  {
+    "id": "AU_sardine_processors_sa",
+    "name": "South Australian Sardine Processors (Port Lincoln)",
+    "tier": "landing_processor",
+    "country_iso2": "AU",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": -34.73,
+      "lon": 135.86
+    },
+    "downstream": [
+      {
+        "target_id": "AU_sardine_packer_pl",
+        "corridor_id": "AU_road_port_lincoln_packer",
+        "resource": "sardine bait portions, sardine meal, canned sardines, small pelagic meal",
+        "quantity": 40000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_south_australian_sardine_fishery",
+      "AU_small_pelagic_fishery"
+    ],
+    "resources": [
+      "Fish (wild)"
+    ]
+  },
+  {
+    "id": "AU_sarin_group",
+    "name": "Sarin Group (SBT Ranching & Processing, Port Lincoln)",
+    "tier": "landing_processor",
+    "country_iso2": "AU",
+    "canonical_company": "Sarin Group",
+    "coordinates": {
+      "lat": -34.73,
+      "lon": 135.86
+    },
+    "downstream": [
+      {
+        "target_id": "AU_sbt_packer_pl",
+        "corridor_id": "AU_road_port_lincoln_sbt_packer",
+        "resource": "sashimi-grade southern bluefin tuna (whole, super-frozen)",
+        "quantity": 5500,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_southern_bluefin_tuna_fishery"
+    ],
+    "resources": [
+      "Fish (wild)"
+    ]
+  },
+  {
+    "id": "AU_mfg_shark_bay",
+    "name": "MG Kailis / Shark Bay Processors (Carnarvon)",
+    "tier": "landing_processor",
+    "country_iso2": "AU",
+    "canonical_company": "MG Kailis Group",
+    "coordinates": {
+      "lat": -24.88,
+      "lon": 113.66
+    },
+    "downstream": [
+      {
+        "target_id": "AU_kailis_packer_perth",
+        "corridor_id": "AU_road_carnarvon_perth",
+        "resource": "frozen king & tiger prawns (graded, boxed)",
+        "quantity": 1700,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_shark_bay_prawn_fishery",
+      "AU_exmouth_gulf_prawn_fishery"
+    ],
+    "resources": [
+      "Fish (wild)"
+    ]
+  },
+  {
+    "id": "AU_markwell_foods",
+    "name": "Markwell Foods (Adelaide cold storage & packing)",
+    "tier": "packer",
+    "country_iso2": "AU",
+    "canonical_company": "Markwell Foods",
+    "coordinates": {
+      "lat": -34.84,
+      "lon": 138.57
+    },
+    "downstream": [
+      {
+        "target_id": "AU_bidvest_australia",
+        "corridor_id": "AU_road_adelaide_distribution",
+        "resource": "retail-packed frozen prawns",
+        "quantity": 3500,
+        "metric": "t"
+      },
+      {
+        "target_id": "INTL_export_distributor_asia",
+        "corridor_id": "INTL_ocean_adelaide_east_asia",
+        "resource": "frozen Australian prawns (retail cartons)",
+        "quantity": 1800,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_spencer_gulf_prawns",
+      "AU_austral_fisheries"
+    ],
+    "resources": [
+      "Fish (wild)"
+    ]
+  },
+  {
+    "id": "AU_austral_packer_perth",
+    "name": "Austral Fisheries Packing Facility (Perth)",
+    "tier": "packer",
+    "country_iso2": "AU",
+    "canonical_company": "Austral Fisheries",
+    "coordinates": {
+      "lat": -31.95,
+      "lon": 115.86
+    },
+    "downstream": [
+      {
+        "target_id": "AU_bidvest_australia",
+        "corridor_id": "AU_road_perth_national_dist",
+        "resource": "retail/foodservice frozen prawns, Glacier 51 toothfish (portions)",
+        "quantity": 2000,
+        "metric": "t"
+      },
+      {
+        "target_id": "INTL_export_distributor_us",
+        "corridor_id": "INTL_ocean_fremantle_losangeles",
+        "resource": "Glacier 51 Patagonian toothfish (frozen portions)",
+        "quantity": 1500,
+        "metric": "t"
+      },
+      {
+        "target_id": "INTL_export_distributor_asia",
+        "corridor_id": "INTL_ocean_fremantle_hongkong",
+        "resource": "frozen prawns, toothfish (retail & HoReCa packs)",
+        "quantity": 1000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_austral_fisheries"
+    ],
+    "resources": [
+      "Fish (wild)"
+    ]
+  },
+  {
+    "id": "AU_raptis_packer_brisbane",
+    "name": "Raptis Packing Facility (Brisbane)",
+    "tier": "packer",
+    "country_iso2": "AU",
+    "canonical_company": "Raptis & Sons",
+    "coordinates": {
+      "lat": -27.37,
+      "lon": 153.11
+    },
+    "downstream": [
+      {
+        "target_id": "AU_bidvest_australia",
+        "corridor_id": "AU_road_brisbane_distribution",
+        "resource": "retail-packed prawns, scallops, swordfish, mackerel",
+        "quantity": 2800,
+        "metric": "t"
+      },
+      {
+        "target_id": "INTL_export_distributor_asia",
+        "corridor_id": "INTL_ocean_brisbane_east_asia",
+        "resource": "frozen prawns, swordfish loins (retail cartons)",
+        "quantity": 1600,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_raptis_sons",
+      "AU_mooloolaba_fish_market"
+    ],
+    "resources": [
+      "Fish (wild)"
+    ]
+  },
+  {
+    "id": "AU_sealord_packer_vic",
+    "name": "Sealord Packing Facility (Melbourne)",
+    "tier": "packer",
+    "country_iso2": "AU",
+    "canonical_company": "Sealord Group",
+    "coordinates": {
+      "lat": -37.82,
+      "lon": 144.96
+    },
+    "downstream": [
+      {
+        "target_id": "AU_bidvest_australia",
+        "corridor_id": "AU_road_melbourne_dist",
+        "resource": "frozen blue grenadier fillets (Sealord branded), shark flake, flathead",
+        "quantity": 7000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_coles_group",
+        "corridor_id": "AU_road_melbourne_coles_dc",
+        "resource": "branded frozen fish fillets (retail packs)",
+        "quantity": 4000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_sealord_australia"
+    ],
+    "resources": [
+      "Fish (wild)"
+    ]
+  },
+  {
+    "id": "AU_petuna_packer_devonport",
+    "name": "Petuna Packing (Devonport, TAS)",
+    "tier": "packer",
+    "country_iso2": "AU",
+    "canonical_company": "Petuna Seafoods",
+    "coordinates": {
+      "lat": -41.18,
+      "lon": 146.36
+    },
+    "downstream": [
+      {
+        "target_id": "AU_bidvest_australia",
+        "corridor_id": "AU_ocean_devonport_melbourne",
+        "resource": "frozen blue grenadier fillets (retail & foodservice)",
+        "quantity": 3000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_petuna_seafoods"
+    ],
+    "resources": [
+      "Fish (wild)"
+    ]
+  },
+  {
+    "id": "AU_de_costi_packer_sydney",
+    "name": "De Costi Packing & Retail (Sydney)",
+    "tier": "packer",
+    "country_iso2": "AU",
+    "canonical_company": "De Costi Seafoods",
+    "coordinates": {
+      "lat": -33.87,
+      "lon": 151.19
+    },
+    "downstream": [
+      {
+        "target_id": "AU_woolworths_group",
+        "corridor_id": "AU_road_sydney_woolworths_dc",
+        "resource": "chilled & frozen seafood packs (tuna steaks, prawn trays, fish fillets)",
+        "quantity": 3500,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_bidvest_australia",
+        "corridor_id": "AU_road_sydney_dist",
+        "resource": "foodservice seafood packs",
+        "quantity": 2000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_de_costi_seafoods"
+    ],
+    "resources": [
+      "Fish (wild)"
+    ]
+  },
+  {
+    "id": "AU_gfc_packer_geraldton",
+    "name": "GFC Export Packing (Geraldton, WA)",
+    "tier": "packer",
+    "country_iso2": "AU",
+    "canonical_company": "Geraldton Fishermen's Co-operative",
+    "coordinates": {
+      "lat": -28.77,
+      "lon": 114.62
+    },
+    "downstream": [
+      {
+        "target_id": "INTL_export_distributor_china",
+        "corridor_id": "INTL_air_freight_perth_guangzhou",
+        "resource": "live western rock lobster (air-freighted)",
+        "quantity": 3800,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_bidvest_australia",
+        "corridor_id": "AU_road_geraldton_perth_dist",
+        "resource": "frozen/cooked rock lobster (domestic retail)",
+        "quantity": 700,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_geraldton_fishermens_cooperative"
+    ],
+    "resources": [
+      "Fish (wild)"
+    ]
+  },
+  {
+    "id": "AU_lobster_packer_fremantle",
+    "name": "Fremantle Rock Lobster Packing",
+    "tier": "packer",
+    "country_iso2": "AU",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": -32.05,
+      "lon": 115.74
+    },
+    "downstream": [
+      {
+        "target_id": "INTL_export_distributor_china",
+        "corridor_id": "INTL_air_freight_perth_shanghai",
+        "resource": "live western rock lobster",
+        "quantity": 2000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_bidvest_australia",
+        "corridor_id": "AU_road_fremantle_perth_retail",
+        "resource": "cooked frozen rock lobster (domestic)",
+        "quantity": 500,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_indian_ocean_rock_lobster"
+    ],
+    "resources": [
+      "Fish (wild)"
+    ]
+  },
+  {
+    "id": "AU_tas_packer_hobart",
+    "name": "Tasmanian Seafoods Packing (Hobart)",
+    "tier": "packer",
+    "country_iso2": "AU",
+    "canonical_company": "Tasmanian Seafoods",
+    "coordinates": {
+      "lat": -42.88,
+      "lon": 147.33
+    },
+    "downstream": [
+      {
+        "target_id": "INTL_export_distributor_china",
+        "corridor_id": "INTL_air_freight_melbourne_china",
+        "resource": "live southern rock lobster, canned/frozen abalone",
+        "quantity": 2300,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_bidvest_australia",
+        "corridor_id": "AU_ocean_hobart_melbourne_freight",
+        "resource": "frozen abalone, live lobster (domestic)",
+        "quantity": 1000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_tas_live_abalone_lobster"
+    ],
+    "resources": [
+      "Fish (wild)"
+    ]
+  },
+  {
+    "id": "AU_ferguson_packer_adelaide",
+    "name": "Ferguson Australia Packing (Adelaide)",
+    "tier": "packer",
+    "country_iso2": "AU",
+    "canonical_company": "Ferguson Australia",
+    "coordinates": {
+      "lat": -34.92,
+      "lon": 138.6
+    },
+    "downstream": [
+      {
+        "target_id": "INTL_export_distributor_china",
+        "corridor_id": "INTL_air_freight_adelaide_shanghai",
+        "resource": "live southern rock lobster",
+        "quantity": 1000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_bidvest_australia",
+        "corridor_id": "AU_road_adelaide_national_dist",
+        "resource": "frozen lobster, premium seafood (domestic)",
+        "quantity": 500,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_ferguson_australia"
+    ],
+    "resources": [
+      "Fish (wild)"
+    ]
+  },
+  {
+    "id": "AU_abalone_packer_vic",
+    "name": "Victorian Abalone Packing (Melbourne)",
+    "tier": "packer",
+    "country_iso2": "AU",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": -37.82,
+      "lon": 144.96
+    },
+    "downstream": [
+      {
+        "target_id": "INTL_export_distributor_asia",
+        "corridor_id": "INTL_ocean_melbourne_hongkong",
+        "resource": "canned & frozen abalone",
+        "quantity": 500,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_bidvest_australia",
+        "corridor_id": "AU_road_melbourne_abalone_dist",
+        "resource": "live & frozen abalone (domestic)",
+        "quantity": 200,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_ocean_grown_abalone"
+    ],
+    "resources": [
+      "Fish (wild)"
+    ]
+  },
+  {
+    "id": "AU_nt_seafood_packer_darwin",
+    "name": "NT Seafoods Packing (Darwin)",
+    "tier": "packer",
+    "country_iso2": "AU",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": -12.46,
+      "lon": 130.84
+    },
+    "downstream": [
+      {
+        "target_id": "AU_bidvest_australia",
+        "corridor_id": "AU_road_darwin_national_dist",
+        "resource": "chilled/frozen barramundi fillets",
+        "quantity": 1400,
+        "metric": "t"
+      },
+      {
+        "target_id": "INTL_export_distributor_asia",
+        "corridor_id": "INTL_air_freight_darwin_singapore",
+        "resource": "chilled barramundi fillets",
+        "quantity": 600,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_nt_seafoods"
+    ],
+    "resources": [
+      "Fish (wild)"
+    ]
+  },
+  {
+    "id": "AU_sardine_packer_pl",
+    "name": "Sardine & Small Pelagic Packer (Port Lincoln)",
+    "tier": "packer",
+    "country_iso2": "AU",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": -34.73,
+      "lon": 135.86
+    },
+    "downstream": [
+      {
+        "target_id": "AU_ridley_aquafeed",
+        "corridor_id": "AU_road_port_lincoln_aquafeed",
+        "resource": "sardine bait & fishmeal (aquaculture feed use)",
+        "quantity": 32000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_bidvest_australia",
+        "corridor_id": "AU_road_port_lincoln_adelaide_canned",
+        "resource": "canned sardines (human consumption)",
+        "quantity": 5000,
+        "metric": "t"
+      },
+      {
+        "target_id": "INTL_export_distributor_asia",
+        "corridor_id": "INTL_ocean_adelaide_southeast_asia",
+        "resource": "frozen sardine bait, fishmeal",
+        "quantity": 3000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_sardine_processors_sa"
+    ],
+    "resources": [
+      "Fish (wild)"
+    ]
+  },
+  {
+    "id": "AU_sbt_packer_pl",
+    "name": "SBT Export Packer (Port Lincoln)",
+    "tier": "packer",
+    "country_iso2": "AU",
+    "canonical_company": "Sarin Group",
+    "coordinates": {
+      "lat": -34.73,
+      "lon": 135.86
+    },
+    "downstream": [
+      {
+        "target_id": "INTL_export_distributor_japan",
+        "corridor_id": "INTL_air_freight_adelaide_tokyo",
+        "resource": "sashimi-grade southern bluefin tuna (super-frozen, whole/loins)",
+        "quantity": 5000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_bidvest_australia",
+        "corridor_id": "AU_road_port_lincoln_sbt_domestic",
+        "resource": "SBT steaks and portions (domestic)",
+        "quantity": 500,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_sarin_group"
+    ],
+    "resources": [
+      "Fish (wild)"
+    ]
+  },
+  {
+    "id": "AU_kailis_packer_perth",
+    "name": "MG Kailis Packing (Perth)",
+    "tier": "packer",
+    "country_iso2": "AU",
+    "canonical_company": "MG Kailis Group",
+    "coordinates": {
+      "lat": -31.95,
+      "lon": 115.86
+    },
+    "downstream": [
+      {
+        "target_id": "AU_bidvest_australia",
+        "corridor_id": "AU_road_perth_kailis_dist",
+        "resource": "frozen king & tiger prawns (retail & foodservice packs)",
+        "quantity": 1200,
+        "metric": "t"
+      },
+      {
+        "target_id": "INTL_export_distributor_asia",
+        "corridor_id": "INTL_ocean_fremantle_southeast_asia",
+        "resource": "frozen Australian prawns",
+        "quantity": 500,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_mfg_shark_bay"
+    ],
+    "resources": [
+      "Fish (wild)"
+    ]
+  },
+  {
+    "id": "AU_ridley_aquafeed",
+    "name": "Ridley Corporation (Aquafeed Division)",
+    "tier": "packer",
+    "country_iso2": "AU",
+    "canonical_company": "Ridley Corporation",
+    "coordinates": {
+      "lat": -34.73,
+      "lon": 135.86
+    },
+    "downstream": [
+      {
+        "target_id": "AU_agricultural",
+        "corridor_id": "AU_road_port_lincoln_aquaculture",
+        "resource": "aquaculture feed (sardine-based)",
+        "quantity": 32000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_sardine_packer_pl"
+    ],
+    "resources": [
+      "Fish (wild)"
+    ]
+  },
+  {
+    "id": "INTL_export_distributor_china",
+    "name": "Chinese Seafood Import Distributors (Guangzhou, Shanghai)",
+    "tier": "distributor",
+    "country_iso2": "CN",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": 31.23,
+      "lon": 121.47
+    },
+    "downstream": [
+      {
+        "target_id": "CN_retail_seafood_chains",
+        "corridor_id": "CN_road_national_cold_chain",
+        "resource": "live & frozen Australian rock lobster, abalone",
+        "quantity": 7000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_gfc_packer_geraldton",
+      "AU_lobster_packer_fremantle",
+      "AU_tas_packer_hobart",
+      "AU_ferguson_packer_adelaide"
+    ],
+    "resources": [
+      "Fish (wild)"
+    ]
+  },
+  {
+    "id": "INTL_export_distributor_japan",
+    "name": "Japanese SBT Import Distributors (Tokyo, Osaka)",
+    "tier": "distributor",
+    "country_iso2": "JP",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": 35.65,
+      "lon": 139.84
+    },
+    "downstream": [
+      {
+        "target_id": "JP_tsukiji_toyosu_wholesalers",
+        "corridor_id": "JP_road_tokyo_market",
+        "resource": "sashimi-grade southern bluefin tuna",
+        "quantity": 5000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_sbt_packer_pl"
+    ],
+    "resources": [
+      "Fish (wild)"
+    ]
+  },
+  {
+    "id": "INTL_export_distributor_asia",
+    "name": "Southeast / East Asian Seafood Import Distributors",
+    "tier": "distributor",
+    "country_iso2": "INTL",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": 22.3,
+      "lon": 114.17
+    },
+    "downstream": [
+      {
+        "target_id": "INTL_commercial",
+        "corridor_id": "INTL_road_asia_commercial",
+        "resource": "frozen Australian prawns, abalone, fishmeal, mixed seafood",
+        "quantity": 8000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_markwell_foods",
+      "AU_austral_packer_perth",
+      "AU_raptis_packer_brisbane",
+      "AU_abalone_packer_vic",
+      "AU_nt_seafood_packer_darwin",
+      "AU_sardine_packer_pl",
+      "AU_kailis_packer_perth"
+    ],
+    "resources": [
+      "Fish (wild)"
+    ]
+  },
+  {
+    "id": "INTL_export_distributor_us",
+    "name": "US Specialty Seafood Import Distributors",
+    "tier": "distributor",
+    "country_iso2": "US",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": 33.74,
+      "lon": -118.27
+    },
+    "downstream": [
+      {
+        "target_id": "US_commercial",
+        "corridor_id": "US_road_la_national_dist",
+        "resource": "Glacier 51 Patagonian toothfish (frozen portions)",
+        "quantity": 1500,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_austral_packer_perth"
+    ],
+    "resources": [
+      "Fish (wild)"
+    ]
+  },
+  {
+    "id": "AU_foodservice_operators",
+    "name": "Australian Foodservice Operators (Restaurants, Fish & Chip Shops, Hotels)",
+    "tier": "distributor",
+    "country_iso2": "AU",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": -33.87,
+      "lon": 151.21
+    },
+    "downstream": [
+      {
+        "target_id": "AU_commercial",
+        "corridor_id": "AU_road_foodservice_delivery",
+        "resource": "prepared wild-caught seafood (flake, fillets, prawns, lobster)",
+        "quantity": 8000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_bidvest_australia"
+    ],
+    "resources": [
+      "Fish (wild)"
+    ]
+  },
+  {
+    "id": "CN_retail_seafood_chains",
+    "name": "Chinese Premium Seafood Retailers (Hema, JD Fresh, wet markets)",
+    "tier": "retailer",
+    "country_iso2": "CN",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": 31.23,
+      "lon": 121.47
+    },
+    "downstream": [
+      {
+        "target_id": "CN_residential",
+        "corridor_id": "CN_road_retail_lastmile",
+        "resource": "live/frozen Australian rock lobster, abalone",
+        "quantity": 5500,
+        "metric": "t"
+      },
+      {
+        "target_id": "CN_commercial",
+        "corridor_id": "CN_road_horeca_delivery",
+        "resource": "premium Australian lobster, abalone (HoReCa)",
+        "quantity": 1500,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "INTL_export_distributor_china"
+    ],
+    "resources": [
+      "Fish (wild)"
+    ]
+  },
+  {
+    "id": "JP_tsukiji_toyosu_wholesalers",
+    "name": "Toyosu Market Wholesalers & Japanese Retailers",
+    "tier": "retailer",
+    "country_iso2": "JP",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": 35.64,
+      "lon": 139.78
+    },
+    "downstream": [
+      {
+        "target_id": "JP_commercial",
+        "corridor_id": "JP_road_sushi_supply",
+        "resource": "sashimi-grade southern bluefin tuna (loins, blocks)",
+        "quantity": 3500,
+        "metric": "t"
+      },
+      {
+        "target_id": "JP_residential",
+        "corridor_id": "JP_road_retail_lastmile",
+        "resource": "SBT sashimi packs (retail)",
+        "quantity": 1500,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "INTL_export_distributor_japan"
+    ],
+    "resources": [
+      "Fish (wild)"
+    ]
+  },
+  {
+    "id": "AU_ocean_spencer_gulf_port_lincoln",
+    "tier": "transport",
+    "name": "Spencer Gulf to Port Lincoln (fishing vessel transit)",
+    "country_iso2": "AU",
+    "operator_id": "AU_spencer_gulf_prawns",
+    "mode": "ocean_freight",
+    "form": "bulk_dry",
+    "range": "local",
+    "coordinates": {
+      "lat": -34.4,
+      "lon": 136.5
+    }
+  },
+  {
+    "id": "AU_ocean_goc_darwin",
+    "tier": "transport",
+    "name": "Gulf of Carpentaria to Darwin (fishing vessel transit)",
+    "country_iso2": "AU",
+    "operator_id": "AU_austral_fisheries",
+    "mode": "ocean_freight",
+    "form": "bulk_dry",
+    "range": "regional",
+    "coordinates": {
+      "lat": -12.8,
+      "lon": 133
+    }
+  },
+  {
+    "id": "AU_ocean_goc_cairns",
+    "tier": "transport",
+    "name": "Gulf of Carpentaria to Cairns (fishing vessel transit)",
+    "country_iso2": "AU",
+    "operator_id": "AU_raptis_sons",
+    "mode": "ocean_freight",
+    "form": "bulk_dry",
+    "range": "regional",
+    "coordinates": {
+      "lat": -14,
+      "lon": 143
+    }
+  },
+  {
+    "id": "AU_ocean_setf_lakes_entrance",
+    "tier": "transport",
+    "name": "SE Trawl grounds to Lakes Entrance",
+    "country_iso2": "AU",
+    "operator_id": "AU_sealord_australia",
+    "mode": "ocean_freight",
+    "form": "bulk_dry",
+    "range": "local",
+    "coordinates": {
+      "lat": -38.5,
+      "lon": 148
+    }
+  },
+  {
+    "id": "AU_ocean_setf_devonport",
+    "tier": "transport",
+    "name": "SE Trawl grounds to Devonport (TAS)",
+    "country_iso2": "AU",
+    "operator_id": "AU_petuna_seafoods",
+    "mode": "ocean_freight",
+    "form": "bulk_dry",
+    "range": "regional",
+    "coordinates": {
+      "lat": -40,
+      "lon": 147
+    }
+  },
+  {
+    "id": "AU_ocean_etbf_sydney",
+    "tier": "transport",
+    "name": "Eastern Tuna grounds to Sydney Fish Market",
+    "country_iso2": "AU",
+    "operator_id": "AU_de_costi_seafoods",
+    "mode": "ocean_freight",
+    "form": "bulk_dry",
+    "range": "regional",
+    "coordinates": {
+      "lat": -33,
+      "lon": 153
+    }
+  },
+  {
+    "id": "AU_ocean_etbf_mooloolaba",
+    "tier": "transport",
+    "name": "Eastern Tuna grounds to Mooloolaba",
+    "country_iso2": "AU",
+    "operator_id": "AU_mooloolaba_fish_market",
+    "mode": "ocean_freight",
+    "form": "bulk_dry",
+    "range": "local",
+    "coordinates": {
+      "lat": -27.5,
+      "lon": 154
+    }
+  },
+  {
+    "id": "AU_ocean_sa_sardine_port_lincoln",
+    "tier": "transport",
+    "name": "SA waters to Port Lincoln (sardine purse seiners)",
+    "country_iso2": "AU",
+    "operator_id": "AU_sardine_processors_sa",
+    "mode": "ocean_freight",
+    "form": "bulk_dry",
+    "range": "local",
+    "coordinates": {
+      "lat": -35,
+      "lon": 137
+    }
+  },
+  {
+    "id": "AU_ocean_wrl_geraldton",
+    "tier": "transport",
+    "name": "WA mid-west coast to Geraldton (lobster boats)",
+    "country_iso2": "AU",
+    "operator_id": "AU_geraldton_fishermens_cooperative",
+    "mode": "ocean_freight",
+    "form": "live",
+    "range": "local",
+    "coordinates": {
+      "lat": -29,
+      "lon": 114
+    }
+  },
+  {
+    "id": "AU_ocean_wrl_fremantle",
+    "tier": "transport",
+    "name": "WA coast to Fremantle (lobster boats)",
+    "country_iso2": "AU",
+    "operator_id": "AU_indian_ocean_rock_lobster",
+    "mode": "ocean_freight",
+    "form": "live",
+    "range": "local",
+    "coordinates": {
+      "lat": -31,
+      "lon": 114.5
+    }
+  },
+  {
+    "id": "AU_ocean_srl_hobart",
+    "tier": "transport",
+    "name": "Tasmanian waters to Hobart (lobster/abalone boats)",
+    "country_iso2": "AU",
+    "operator_id": "AU_tas_live_abalone_lobster",
+    "mode": "ocean_freight",
+    "form": "live",
+    "range": "local",
+    "coordinates": {
+      "lat": -42.5,
+      "lon": 146.5
+    }
+  },
+  {
+    "id": "AU_road_sa_lobster_adelaide",
+    "tier": "transport",
+    "name": "SA Limestone Coast to Adelaide (lobster road transport)",
+    "country_iso2": "AU",
+    "operator_id": "AU_ferguson_australia",
+    "mode": "road",
+    "form": "live",
+    "range": "regional",
+    "coordinates": {
+      "lat": -36.5,
+      "lon": 139
+    }
+  },
+  {
+    "id": "AU_ocean_abalone_hobart",
+    "tier": "transport",
+    "name": "Tasmanian waters to Hobart (abalone diving boats)",
+    "country_iso2": "AU",
+    "operator_id": "AU_tas_live_abalone_lobster",
+    "mode": "ocean_freight",
+    "form": "live",
+    "range": "local",
+    "coordinates": {
+      "lat": -42.3,
+      "lon": 146
+    }
+  },
+  {
+    "id": "AU_road_vic_abalone_portland",
+    "tier": "transport",
+    "name": "Victorian coast to Portland (abalone road transport)",
+    "country_iso2": "AU",
+    "operator_id": "AU_ocean_grown_abalone",
+    "mode": "road",
+    "form": "live",
+    "range": "local",
+    "coordinates": {
+      "lat": -38.5,
+      "lon": 142.5
+    }
+  },
+  {
+    "id": "AU_road_nt_darwin_processors",
+    "tier": "transport",
+    "name": "NT coast to Darwin processors (road/boat)",
+    "country_iso2": "AU",
+    "operator_id": "AU_nt_seafoods",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "regional",
+    "coordinates": {
+      "lat": -13,
+      "lon": 132
+    }
+  },
+  {
+    "id": "AU_ocean_himi_fremantle",
+    "tier": "transport",
+    "name": "Heard Island to Fremantle (factory trawler transit)",
+    "country_iso2": "AU",
+    "operator_id": "AU_austral_fisheries",
+    "mode": "ocean_freight",
+    "form": "bulk_dry",
+    "range": "international",
+    "coordinates": {
+      "lat": -43,
+      "lon": 95
+    }
+  },
+  {
+    "id": "AU_ocean_mackerel_qld_mooloolaba",
+    "tier": "transport",
+    "name": "QLD reef to Mooloolaba (mackerel boats)",
+    "country_iso2": "AU",
+    "operator_id": "AU_mooloolaba_fish_market",
+    "mode": "ocean_freight",
+    "form": "bulk_dry",
+    "range": "local",
+    "coordinates": {
+      "lat": -22,
+      "lon": 150
+    }
+  },
+  {
+    "id": "AU_ocean_scallop_qld_brisbane",
+    "tier": "transport",
+    "name": "QLD scallop grounds to Brisbane (trawlers)",
+    "country_iso2": "AU",
+    "operator_id": "AU_raptis_sons",
+    "mode": "ocean_freight",
+    "form": "bulk_dry",
+    "range": "regional",
+    "coordinates": {
+      "lat": -26,
+      "lon": 153
+    }
+  },
+  {
+    "id": "AU_ocean_shark_bay_carnarvon",
+    "tier": "transport",
+    "name": "Shark Bay to Carnarvon (prawn trawlers)",
+    "country_iso2": "AU",
+    "operator_id": "AU_mfg_shark_bay",
+    "mode": "ocean_freight",
+    "form": "bulk_dry",
+    "range": "local",
+    "coordinates": {
+      "lat": -25,
+      "lon": 113.5
+    }
+  },
+  {
+    "id": "AU_ocean_sessf_portland",
+    "tier": "transport",
+    "name": "SESSF grounds to Portland/Lakes Entrance",
+    "country_iso2": "AU",
+    "operator_id": "AU_sealord_australia",
+    "mode": "ocean_freight",
+    "form": "bulk_dry",
+    "range": "local",
+    "coordinates": {
+      "lat": -38,
+      "lon": 142
+    }
+  },
+  {
+    "id": "AU_ocean_exmouth_carnarvon",
+    "tier": "transport",
+    "name": "Exmouth Gulf to Carnarvon (prawn trawlers)",
+    "country_iso2": "AU",
+    "operator_id": "AU_mfg_shark_bay",
+    "mode": "ocean_freight",
+    "form": "bulk_dry",
+    "range": "local",
+    "coordinates": {
+      "lat": -23,
+      "lon": 114
+    }
+  },
+  {
+    "id": "AU_ocean_spf_portland",
+    "tier": "transport",
+    "name": "Small Pelagic grounds to Portland/Port Lincoln",
+    "country_iso2": "AU",
+    "operator_id": "AU_sardine_processors_sa",
+    "mode": "ocean_freight",
+    "form": "bulk_dry",
+    "range": "regional",
+    "coordinates": {
+      "lat": -37,
+      "lon": 142
+    }
+  },
+  {
+    "id": "AU_ocean_sbt_port_lincoln",
+    "tier": "transport",
+    "name": "SBT tow pens to Port Lincoln (ranching harvest)",
+    "country_iso2": "AU",
+    "operator_id": "AU_sarin_group",
+    "mode": "ocean_freight",
+    "form": "bulk_dry",
+    "range": "local",
+    "coordinates": {
+      "lat": -34.5,
+      "lon": 136
+    }
+  },
+  {
+    "id": "AU_ocean_nsw_trawl_sydney",
+    "tier": "transport",
+    "name": "NSW trawl grounds to Sydney Fish Market",
+    "country_iso2": "AU",
+    "operator_id": "AU_de_costi_seafoods",
+    "mode": "ocean_freight",
+    "form": "bulk_dry",
+    "range": "local",
+    "coordinates": {
+      "lat": -33.5,
+      "lon": 152
+    }
+  },
+  {
+    "id": "AU_ocean_ts_cairns",
+    "tier": "transport",
+    "name": "Torres Strait to Cairns (prawn trawlers)",
+    "country_iso2": "AU",
+    "operator_id": "AU_austral_fisheries",
+    "mode": "ocean_freight",
+    "form": "bulk_dry",
+    "range": "regional",
+    "coordinates": {
+      "lat": -12,
+      "lon": 143
+    }
+  },
+  {
+    "id": "AU_road_port_lincoln_adelaide",
+    "tier": "transport",
+    "name": "Port Lincoln to Adelaide (refrigerated road)",
+    "country_iso2": "AU",
+    "operator_id": "AU_markwell_foods",
+    "mode": "road",
+    "form": "containerised",
+    "range": "regional",
+    "coordinates": {
+      "lat": -34.5,
+      "lon": 137.2
+    }
+  },
+  {
+    "id": "AU_road_fremantle_perth_cold",
+    "tier": "transport",
+    "name": "Fremantle to Perth cold chain (road)",
+    "country_iso2": "AU",
+    "operator_id": "AU_austral_fisheries",
+    "mode": "road",
+    "form": "containerised",
+    "range": "local",
+    "coordinates": {
+      "lat": -32,
+      "lon": 115.8
+    }
+  },
+  {
+    "id": "AU_road_perth_adelaide",
+    "tier": "transport",
+    "name": "Perth to Adelaide (interstate refrigerated freight)",
+    "country_iso2": "AU",
+    "operator_id": "AU_linfox",
+    "mode": "road",
+    "form": "containerised",
+    "range": "regional",
+    "coordinates": {
+      "lat": -33,
+      "lon": 126
+    }
+  },
+  {
+    "id": "AU_road_brisbane_processor_packer",
+    "tier": "transport",
+    "name": "Brisbane processor to packer (local road)",
+    "country_iso2": "AU",
+    "operator_id": "AU_raptis_sons",
+    "mode": "road",
+    "form": "containerised",
+    "range": "local",
+    "coordinates": {
+      "lat": -27.38,
+      "lon": 153.11
+    }
+  },
+  {
+    "id": "AU_road_lakes_entrance_melbourne",
+    "tier": "transport",
+    "name": "Lakes Entrance to Melbourne (refrigerated road)",
+    "country_iso2": "AU",
+    "operator_id": "AU_sealord_australia",
+    "mode": "road",
+    "form": "containerised",
+    "range": "regional",
+    "coordinates": {
+      "lat": -38.2,
+      "lon": 146.5
+    }
+  },
+  {
+    "id": "AU_road_devonport_processing",
+    "tier": "transport",
+    "name": "Devonport wharf to processing facility (local road)",
+    "country_iso2": "AU",
+    "operator_id": "AU_petuna_seafoods",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "local",
+    "coordinates": {
+      "lat": -41.18,
+      "lon": 146.36
+    }
+  },
+  {
+    "id": "AU_road_sydney_fish_market_processing",
+    "tier": "transport",
+    "name": "Sydney Fish Market to De Costi processing (local road)",
+    "country_iso2": "AU",
+    "operator_id": "AU_de_costi_seafoods",
+    "mode": "road",
+    "form": "containerised",
+    "range": "local",
+    "coordinates": {
+      "lat": -33.87,
+      "lon": 151.19
+    }
+  },
+  {
+    "id": "AU_road_mooloolaba_brisbane",
+    "tier": "transport",
+    "name": "Mooloolaba to Brisbane (refrigerated road)",
+    "country_iso2": "AU",
+    "operator_id": "AU_raptis_sons",
+    "mode": "road",
+    "form": "containerised",
+    "range": "local",
+    "coordinates": {
+      "lat": -27,
+      "lon": 153.1
+    }
+  },
+  {
+    "id": "AU_road_geraldton_processing",
+    "tier": "transport",
+    "name": "Geraldton wharf to GFC processing (local road)",
+    "country_iso2": "AU",
+    "operator_id": "AU_geraldton_fishermens_cooperative",
+    "mode": "road",
+    "form": "live",
+    "range": "local",
+    "coordinates": {
+      "lat": -28.77,
+      "lon": 114.62
+    }
+  },
+  {
+    "id": "AU_road_fremantle_processing",
+    "tier": "transport",
+    "name": "Fremantle wharf to lobster processing (local road)",
+    "country_iso2": "AU",
+    "operator_id": "AU_indian_ocean_rock_lobster",
+    "mode": "road",
+    "form": "live",
+    "range": "local",
+    "coordinates": {
+      "lat": -32.05,
+      "lon": 115.74
+    }
+  },
+  {
+    "id": "AU_road_hobart_processing",
+    "tier": "transport",
+    "name": "Hobart wharf to Tasmanian Seafoods processing (local road)",
+    "country_iso2": "AU",
+    "operator_id": "AU_tas_live_abalone_lobster",
+    "mode": "road",
+    "form": "live",
+    "range": "local",
+    "coordinates": {
+      "lat": -42.88,
+      "lon": 147.33
+    }
+  },
+  {
+    "id": "AU_road_adelaide_processing",
+    "tier": "transport",
+    "name": "SA ports to Ferguson Australia processing (Adelaide road)",
+    "country_iso2": "AU",
+    "operator_id": "AU_ferguson_australia",
+    "mode": "road",
+    "form": "live",
+    "range": "regional",
+    "coordinates": {
+      "lat": -35.5,
+      "lon": 138.5
+    }
+  },
+  {
+    "id": "AU_road_portland_melbourne",
+    "tier": "transport",
+    "name": "Portland to Melbourne (abalone road transport)",
+    "country_iso2": "AU",
+    "operator_id": "AU_ocean_grown_abalone",
+    "mode": "road",
+    "form": "containerised",
+    "range": "regional",
+    "coordinates": {
+      "lat": -38,
+      "lon": 143.5
+    }
+  },
+  {
+    "id": "AU_road_darwin_packer",
+    "tier": "transport",
+    "name": "Darwin processor to packing (local road)",
+    "country_iso2": "AU",
+    "operator_id": "AU_nt_seafoods",
+    "mode": "road",
+    "form": "containerised",
+    "range": "local",
+    "coordinates": {
+      "lat": -12.46,
+      "lon": 130.84
+    }
+  },
+  {
+    "id": "AU_road_port_lincoln_packer",
+    "tier": "transport",
+    "name": "Port Lincoln processor to sardine packer (local road)",
+    "country_iso2": "AU",
+    "operator_id": "AU_sardine_processors_sa",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "local",
+    "coordinates": {
+      "lat": -34.73,
+      "lon": 135.86
+    }
+  },
+  {
+    "id": "AU_road_port_lincoln_sbt_packer",
+    "tier": "transport",
+    "name": "Port Lincoln SBT processor to export packer (local road)",
+    "country_iso2": "AU",
+    "operator_id": "AU_sarin_group",
+    "mode": "road",
+    "form": "containerised",
+    "range": "local",
+    "coordinates": {
+      "lat": -34.73,
+      "lon": 135.86
+    }
+  },
+  {
+    "id": "AU_road_carnarvon_perth",
+    "tier": "transport",
+    "name": "Carnarvon to Perth (refrigerated road)",
+    "country_iso2": "AU",
+    "operator_id": "AU_mfg_shark_bay",
+    "mode": "road",
+    "form": "containerised",
+    "range": "regional",
+    "coordinates": {
+      "lat": -28,
+      "lon": 115
+    }
+  },
+  {
+    "id": "AU_road_adelaide_distribution",
+    "tier": "transport",
+    "name": "Adelaide cold store to national distribution (road)",
+    "country_iso2": "AU",
+    "operator_id": "AU_linfox",
+    "mode": "road",
+    "form": "containerised",
+    "range": "regional",
+    "coordinates": {
+      "lat": -34.84,
+      "lon": 138.57
+    }
+  },
+  {
+    "id": "AU_road_perth_national_dist",
+    "tier": "transport",
+    "name": "Perth cold store to national distribution (road/rail)",
+    "country_iso2": "AU",
+    "operator_id": "AU_linfox",
+    "mode": "road",
+    "form": "containerised",
+    "range": "regional",
+    "coordinates": {
+      "lat": -31.95,
+      "lon": 115.86
+    }
+  },
+  {
+    "id": "AU_road_brisbane_distribution",
+    "tier": "transport",
+    "name": "Brisbane packer to national distribution (road)",
+    "country_iso2": "AU",
+    "operator_id": "AU_linfox",
+    "mode": "road",
+    "form": "containerised",
+    "range": "regional",
+    "coordinates": {
+      "lat": -27.37,
+      "lon": 153.11
+    }
+  },
+  {
+    "id": "AU_road_melbourne_dist",
+    "tier": "transport",
+    "name": "Melbourne packer to Bidfood distribution (road)",
+    "country_iso2": "AU",
+    "operator_id": "AU_bidvest_australia",
+    "mode": "road",
+    "form": "containerised",
+    "range": "local",
+    "coordinates": {
+      "lat": -37.82,
+      "lon": 144.96
+    }
+  },
+  {
+    "id": "AU_road_melbourne_coles_dc",
+    "tier": "transport",
+    "name": "Melbourne Sealord packer to Coles DC (road)",
+    "country_iso2": "AU",
+    "operator_id": "AU_coles_group",
+    "mode": "road",
+    "form": "containerised",
+    "range": "local",
+    "coordinates": {
+      "lat": -37.82,
+      "lon": 144.96
+    }
+  },
+  {
+    "id": "AU_ocean_devonport_melbourne",
+    "tier": "transport",
+    "name": "Devonport to Melbourne (Spirit of Tasmania / freight)",
+    "country_iso2": "AU",
+    "operator_id": "AU_tt_line",
+    "mode": "ocean_freight",
+    "form": "containerised",
+    "range": "regional",
+    "coordinates": {
+      "lat": -40,
+      "lon": 146
+    }
+  },
+  {
+    "id": "AU_road_sydney_woolworths_dc",
+    "tier": "transport",
+    "name": "De Costi Sydney to Woolworths DC (road)",
+    "country_iso2": "AU",
+    "operator_id": "AU_woolworths_group",
+    "mode": "road",
+    "form": "containerised",
+    "range": "local",
+    "coordinates": {
+      "lat": -33.87,
+      "lon": 151.2
+    }
+  },
+  {
+    "id": "AU_road_sydney_dist",
+    "tier": "transport",
+    "name": "De Costi Sydney to Bidfood distribution (road)",
+    "country_iso2": "AU",
+    "operator_id": "AU_bidvest_australia",
+    "mode": "road",
+    "form": "containerised",
+    "range": "local",
+    "coordinates": {
+      "lat": -33.87,
+      "lon": 151.21
+    }
+  },
+  {
+    "id": "INTL_air_freight_perth_guangzhou",
+    "tier": "transport",
+    "name": "Perth to Guangzhou (air freight, live lobster)",
+    "country_iso2": "INTL",
+    "operator_id": "INTL_cathay_cargo",
+    "mode": "air_freight",
+    "form": "live",
+    "range": "international",
+    "coordinates": {
+      "lat": 5,
+      "lon": 115
+    }
+  },
+  {
+    "id": "INTL_air_freight_perth_shanghai",
+    "tier": "transport",
+    "name": "Perth to Shanghai (air freight, live lobster)",
+    "country_iso2": "INTL",
+    "operator_id": "INTL_singapore_airlines_cargo",
+    "mode": "air_freight",
+    "form": "live",
+    "range": "international",
+    "coordinates": {
+      "lat": 5,
+      "lon": 115
+    }
+  },
+  {
+    "id": "INTL_air_freight_melbourne_china",
+    "tier": "transport",
+    "name": "Melbourne to China (air freight, live lobster/abalone)",
+    "country_iso2": "INTL",
+    "operator_id": "INTL_qantas_freight",
+    "mode": "air_freight",
+    "form": "live",
+    "range": "international",
+    "coordinates": {
+      "lat": -10,
+      "lon": 125
+    }
+  },
+  {
+    "id": "INTL_air_freight_adelaide_shanghai",
+    "tier": "transport",
+    "name": "Adelaide to Shanghai (air freight, live lobster)",
+    "country_iso2": "INTL",
+    "operator_id": "INTL_china_southern_cargo",
+    "mode": "air_freight",
+    "form": "live",
+    "range": "international",
+    "coordinates": {
+      "lat": -5,
+      "lon": 120
+    }
+  },
+  {
+    "id": "INTL_air_freight_adelaide_tokyo",
+    "tier": "transport",
+    "name": "Adelaide to Tokyo (air freight, super-frozen SBT)",
+    "country_iso2": "INTL",
+    "operator_id": "INTL_japan_airlines_cargo",
+    "mode": "air_freight",
+    "form": "containerised",
+    "range": "international",
+    "coordinates": {
+      "lat": -5,
+      "lon": 135
+    }
+  },
+  {
+    "id": "INTL_air_freight_darwin_singapore",
+    "tier": "transport",
+    "name": "Darwin to Singapore (air freight, chilled barramundi)",
+    "country_iso2": "INTL",
+    "operator_id": "INTL_singapore_airlines_cargo",
+    "mode": "air_freight",
+    "form": "containerised",
+    "range": "international",
+    "coordinates": {
+      "lat": -5,
+      "lon": 125
+    }
+  },
+  {
+    "id": "INTL_ocean_adelaide_east_asia",
+    "tier": "transport",
+    "name": "Adelaide to East Asia (ocean reefer container)",
+    "country_iso2": "INTL",
+    "operator_id": "INTL_maersk",
+    "mode": "ocean_freight",
+    "form": "containerised",
+    "range": "international",
+    "coordinates": {
+      "lat": -15,
+      "lon": 120
+    }
+  },
+  {
+    "id": "INTL_ocean_fremantle_losangeles",
+    "tier": "transport",
+    "name": "Fremantle to Los Angeles (ocean reefer)",
+    "country_iso2": "INTL",
+    "operator_id": "INTL_maersk",
+    "mode": "ocean_freight",
+    "form": "containerised",
+    "range": "international",
+    "coordinates": {
+      "lat": -10,
+      "lon": -160
+    }
+  },
+  {
+    "id": "INTL_ocean_fremantle_hongkong",
+    "tier": "transport",
+    "name": "Fremantle to Hong Kong (ocean reefer)",
+    "country_iso2": "INTL",
+    "operator_id": "INTL_cosco",
+    "mode": "ocean_freight",
+    "form": "containerised",
+    "range": "international",
+    "coordinates": {
+      "lat": -5,
+      "lon": 115
+    }
+  },
+  {
+    "id": "INTL_ocean_brisbane_east_asia",
+    "tier": "transport",
+    "name": "Brisbane to East Asia (ocean reefer container)",
+    "country_iso2": "INTL",
+    "operator_id": "INTL_msc",
+    "mode": "ocean_freight",
+    "form": "containerised",
+    "range": "international",
+    "coordinates": {
+      "lat": -10,
+      "lon": 145
+    }
+  },
+  {
+    "id": "INTL_ocean_melbourne_hongkong",
+    "tier": "transport",
+    "name": "Melbourne to Hong Kong (ocean reefer)",
+    "country_iso2": "INTL",
+    "operator_id": "INTL_cosco",
+    "mode": "ocean_freight",
+    "form": "containerised",
+    "range": "international",
+    "coordinates": {
+      "lat": -15,
+      "lon": 125
+    }
+  },
+  {
+    "id": "INTL_ocean_adelaide_southeast_asia",
+    "tier": "transport",
+    "name": "Adelaide to SE Asia (ocean reefer, sardine/bait)",
+    "country_iso2": "INTL",
+    "operator_id": "INTL_maersk",
+    "mode": "ocean_freight",
+    "form": "containerised",
+    "range": "international",
+    "coordinates": {
+      "lat": -20,
+      "lon": 115
+    }
+  },
+  {
+    "id": "INTL_ocean_fremantle_southeast_asia",
+    "tier": "transport",
+    "name": "Fremantle to SE Asia (ocean reefer, prawns)",
+    "country_iso2": "INTL",
+    "operator_id": "INTL_msc",
+    "mode": "ocean_freight",
+    "form": "containerised",
+    "range": "international",
+    "coordinates": {
+      "lat": -15,
+      "lon": 112
+    }
+  },
+  {
+    "id": "AU_road_geraldton_perth_dist",
+    "tier": "transport",
+    "name": "Geraldton to Perth distribution (refrigerated road)",
+    "country_iso2": "AU",
+    "operator_id": "AU_centurion_transport",
+    "mode": "road",
+    "form": "containerised",
+    "range": "regional",
+    "coordinates": {
+      "lat": -30,
+      "lon": 115
+    }
+  },
+  {
+    "id": "AU_road_fremantle_perth_retail",
+    "tier": "transport",
+    "name": "Fremantle to Perth retail distribution (road)",
+    "country_iso2": "AU",
+    "operator_id": "AU_bidvest_australia",
+    "mode": "road",
+    "form": "containerised",
+    "range": "local",
+    "coordinates": {
+      "lat": -32,
+      "lon": 115.8
+    }
+  },
+  {
+    "id": "AU_ocean_hobart_melbourne_freight",
+    "tier": "transport",
+    "name": "Hobart to Melbourne (freight, TT-Line/road)",
+    "country_iso2": "AU",
+    "operator_id": "AU_tt_line",
+    "mode": "ocean_freight",
+    "form": "containerised",
+    "range": "regional",
+    "coordinates": {
+      "lat": -41,
+      "lon": 146
+    }
+  },
+  {
+    "id": "AU_road_adelaide_national_dist",
+    "tier": "transport",
+    "name": "Adelaide to national distribution (refrigerated road)",
+    "country_iso2": "AU",
+    "operator_id": "AU_linfox",
+    "mode": "road",
+    "form": "containerised",
+    "range": "regional",
+    "coordinates": {
+      "lat": -34.92,
+      "lon": 138.6
+    }
+  },
+  {
+    "id": "AU_road_melbourne_abalone_dist",
+    "tier": "transport",
+    "name": "Melbourne abalone packer to distribution (road)",
+    "country_iso2": "AU",
+    "operator_id": "AU_bidvest_australia",
+    "mode": "road",
+    "form": "containerised",
+    "range": "local",
+    "coordinates": {
+      "lat": -37.82,
+      "lon": 144.96
+    }
+  },
+  {
+    "id": "AU_road_darwin_national_dist",
+    "tier": "transport",
+    "name": "Darwin to national distribution (air/road)",
+    "country_iso2": "AU",
+    "operator_id": "AU_bidvest_australia",
+    "mode": "road",
+    "form": "containerised",
+    "range": "regional",
+    "coordinates": {
+      "lat": -18,
+      "lon": 133
+    }
+  },
+  {
+    "id": "AU_road_port_lincoln_aquafeed",
+    "tier": "transport",
+    "name": "Port Lincoln sardine to aquafeed mills (local road)",
+    "country_iso2": "AU",
+    "operator_id": "AU_ridley_corporation",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "local",
+    "coordinates": {
+      "lat": -34.73,
+      "lon": 135.86
+    }
+  },
+  {
+    "id": "AU_road_port_lincoln_adelaide_canned",
+    "tier": "transport",
+    "name": "Port Lincoln to Adelaide (canned sardines, road)",
+    "country_iso2": "AU",
+    "operator_id": "AU_linfox",
+    "mode": "road",
+    "form": "containerised",
+    "range": "regional",
+    "coordinates": {
+      "lat": -34.5,
+      "lon": 137.2
+    }
+  },
+  {
+    "id": "AU_road_port_lincoln_sbt_domestic",
+    "tier": "transport",
+    "name": "Port Lincoln SBT to domestic distribution (road)",
+    "country_iso2": "AU",
+    "operator_id": "AU_linfox",
+    "mode": "road",
+    "form": "containerised",
+    "range": "regional",
+    "coordinates": {
+      "lat": -34.73,
+      "lon": 135.86
+    }
+  },
+  {
+    "id": "AU_road_perth_kailis_dist",
+    "tier": "transport",
+    "name": "Perth Kailis packer to distribution (road)",
+    "country_iso2": "AU",
+    "operator_id": "AU_bidvest_australia",
+    "mode": "road",
+    "form": "containerised",
+    "range": "local",
+    "coordinates": {
+      "lat": -31.95,
+      "lon": 115.86
+    }
+  },
+  {
+    "id": "AU_road_port_lincoln_aquaculture",
+    "tier": "transport",
+    "name": "Ridley aquafeed to SA aquaculture farms (local road)",
+    "country_iso2": "AU",
+    "operator_id": "AU_ridley_corporation",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "local",
+    "coordinates": {
+      "lat": -34.73,
+      "lon": 135.86
+    }
+  },
+  {
+    "id": "AU_road_national_woolworths",
+    "tier": "transport",
+    "name": "Bidfood DCs to Woolworths DCs (national refrigerated road)",
+    "country_iso2": "AU",
+    "operator_id": "AU_linfox",
+    "mode": "road",
+    "form": "containerised",
+    "range": "regional",
+    "coordinates": {
+      "lat": -34,
+      "lon": 145
+    }
+  },
+  {
+    "id": "AU_road_national_coles",
+    "tier": "transport",
+    "name": "Bidfood DCs to Coles DCs (national refrigerated road)",
+    "country_iso2": "AU",
+    "operator_id": "AU_linfox",
+    "mode": "road",
+    "form": "containerised",
+    "range": "regional",
+    "coordinates": {
+      "lat": -34,
+      "lon": 145
+    }
+  },
+  {
+    "id": "AU_road_national_aldi",
+    "tier": "transport",
+    "name": "Bidfood DCs to ALDI DCs (national refrigerated road)",
+    "country_iso2": "AU",
+    "operator_id": "AU_toll_group",
+    "mode": "road",
+    "form": "containerised",
+    "range": "regional",
+    "coordinates": {
+      "lat": -34,
+      "lon": 145
+    }
+  },
+  {
+    "id": "AU_road_national_foodservice",
+    "tier": "transport",
+    "name": "Bidfood DCs to foodservice operators (national road)",
+    "country_iso2": "AU",
+    "operator_id": "AU_bidvest_australia",
+    "mode": "road",
+    "form": "containerised",
+    "range": "regional",
+    "coordinates": {
+      "lat": -34,
+      "lon": 145
+    }
+  },
+  {
+    "id": "AU_road_woolworths_lastmile",
+    "tier": "transport",
+    "name": "Woolworths DCs to stores (last-mile refrigerated road)",
+    "country_iso2": "AU",
+    "operator_id": "AU_woolworths_group",
+    "mode": "road",
+    "form": "containerised",
+    "range": "local",
+    "coordinates": {
+      "lat": -33.87,
+      "lon": 151.2
+    }
+  },
+  {
+    "id": "AU_road_coles_lastmile",
+    "tier": "transport",
+    "name": "Coles DCs to stores (last-mile refrigerated road)",
+    "country_iso2": "AU",
+    "operator_id": "AU_coles_group",
+    "mode": "road",
+    "form": "containerised",
+    "range": "local",
+    "coordinates": {
+      "lat": -37.82,
+      "lon": 144.96
+    }
+  },
+  {
+    "id": "AU_road_aldi_lastmile",
+    "tier": "transport",
+    "name": "ALDI DCs to stores (last-mile refrigerated road)",
+    "country_iso2": "AU",
+    "operator_id": "AU_aldi_australia",
+    "mode": "road",
+    "form": "containerised",
+    "range": "local",
+    "coordinates": {
+      "lat": -33.8,
+      "lon": 151
+    }
+  },
+  {
+    "id": "AU_road_foodservice_delivery",
+    "tier": "transport",
+    "name": "Foodservice operators to commercial venues (last-mile road)",
+    "country_iso2": "AU",
+    "operator_id": "AU_bidvest_australia",
+    "mode": "road",
+    "form": "containerised",
+    "range": "local",
+    "coordinates": {
+      "lat": -33.87,
+      "lon": 151.21
+    }
+  },
+  {
+    "id": "CN_road_national_cold_chain",
+    "tier": "transport",
+    "name": "Chinese national cold chain (Shanghai/Guangzhou hubs to retail)",
+    "country_iso2": "CN",
+    "operator_id": "CN_sf_cold_chain",
+    "mode": "road",
+    "form": "containerised",
+    "range": "regional",
+    "coordinates": {
+      "lat": 30,
+      "lon": 118
+    }
+  },
+  {
+    "id": "CN_road_retail_lastmile",
+    "tier": "transport",
+    "name": "Chinese retail last-mile delivery (road)",
+    "country_iso2": "CN",
+    "operator_id": "CN_sf_cold_chain",
+    "mode": "road",
+    "form": "containerised",
+    "range": "local",
+    "coordinates": {
+      "lat": 31.23,
+      "lon": 121.47
+    }
+  },
+  {
+    "id": "CN_road_horeca_delivery",
+    "tier": "transport",
+    "name": "Chinese HoReCa delivery (road)",
+    "country_iso2": "CN",
+    "operator_id": "CN_sf_cold_chain",
+    "mode": "road",
+    "form": "containerised",
+    "range": "local",
+    "coordinates": {
+      "lat": 31.23,
+      "lon": 121.47
+    }
+  },
+  {
+    "id": "JP_road_tokyo_market",
+    "tier": "transport",
+    "name": "Narita/Haneda to Toyosu Market (refrigerated road)",
+    "country_iso2": "JP",
+    "operator_id": "JP_yamato_transport",
+    "mode": "road",
+    "form": "containerised",
+    "range": "local",
+    "coordinates": {
+      "lat": 35.65,
+      "lon": 139.8
+    }
+  },
+  {
+    "id": "JP_road_sushi_supply",
+    "tier": "transport",
+    "name": "Toyosu to sushi restaurants (local road delivery)",
+    "country_iso2": "JP",
+    "operator_id": "JP_yamato_transport",
+    "mode": "road",
+    "form": "containerised",
+    "range": "local",
+    "coordinates": {
+      "lat": 35.65,
+      "lon": 139.78
+    }
+  },
+  {
+    "id": "JP_road_retail_lastmile",
+    "tier": "transport",
+    "name": "Toyosu to Japanese retail stores (road)",
+    "country_iso2": "JP",
+    "operator_id": "JP_yamato_transport",
+    "mode": "road",
+    "form": "containerised",
+    "range": "local",
+    "coordinates": {
+      "lat": 35.65,
+      "lon": 139.78
+    }
+  },
+  {
+    "id": "INTL_road_asia_commercial",
+    "tier": "transport",
+    "name": "Asian import hubs to HoReCa/commercial (road)",
+    "country_iso2": "INTL",
+    "operator_id": "INTL_dhl_cold_chain",
+    "mode": "road",
+    "form": "containerised",
+    "range": "regional",
+    "coordinates": {
+      "lat": 22.3,
+      "lon": 114.17
+    }
+  },
+  {
+    "id": "US_road_la_national_dist",
+    "tier": "transport",
+    "name": "LA port to US national seafood distribution (road)",
+    "country_iso2": "US",
+    "operator_id": "US_sysco",
+    "mode": "road",
+    "form": "containerised",
+    "range": "regional",
+    "coordinates": {
+      "lat": 34,
+      "lon": -118
+    }
+  }
+]

@@ -1,0 +1,1232 @@
+[
+  {
+    "id": "AU_mount_isa_mines_sulfur",
+    "name": "Mount Isa Mines — Sulfur Recovery (Copper Smelter)",
+    "tier": "extraction",
+    "country_iso2": "AU",
+    "canonical_company": "Glencore",
+    "coordinates": {
+      "lat": -20.728,
+      "lon": 139.493
+    },
+    "downstream": [
+      {
+        "target_id": "AU_incitec_pivot_mt_isa",
+        "corridor_id": "AU_pipeline_mt_isa_acid_plant",
+        "resource": "sulfuric acid from smelter off-gas sulfur",
+        "quantity": 320000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Sulfur"
+    ]
+  },
+  {
+    "id": "AU_olympic_dam_sulfur",
+    "name": "Olympic Dam — Sulfur Recovery (Copper Smelter)",
+    "tier": "extraction",
+    "country_iso2": "AU",
+    "canonical_company": "BHP",
+    "coordinates": {
+      "lat": -30.447,
+      "lon": 136.888
+    },
+    "downstream": [
+      {
+        "target_id": "AU_bhp_olympic_dam_acid",
+        "corridor_id": "AU_conveyor_olympic_dam_acid",
+        "resource": "sulfuric acid from smelter off-gas sulfur",
+        "quantity": 600000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Sulfur"
+    ]
+  },
+  {
+    "id": "AU_kwinana_refinery_sulfur",
+    "name": "Kwinana Oil Refinery — Sulfur Recovery Unit",
+    "tier": "extraction",
+    "country_iso2": "AU",
+    "canonical_company": "BP",
+    "coordinates": {
+      "lat": -32.237,
+      "lon": 115.767
+    },
+    "downstream": [
+      {
+        "target_id": "AU_csbp_kwinana",
+        "corridor_id": "AU_road_kwinana_csbp",
+        "resource": "elemental sulfur (recovered)",
+        "quantity": 35000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Sulfur"
+    ]
+  },
+  {
+    "id": "AU_lytton_refinery_sulfur",
+    "name": "Lytton Oil Refinery — Sulfur Recovery Unit",
+    "tier": "extraction",
+    "country_iso2": "AU",
+    "canonical_company": "Ampol",
+    "coordinates": {
+      "lat": -27.424,
+      "lon": 153.161
+    },
+    "downstream": [
+      {
+        "target_id": "AU_incitec_pivot_gibson_island",
+        "corridor_id": "AU_road_lytton_gibson_island",
+        "resource": "elemental sulfur (recovered)",
+        "quantity": 25000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Sulfur"
+    ]
+  },
+  {
+    "id": "AU_geelong_refinery_sulfur",
+    "name": "Geelong Oil Refinery — Sulfur Recovery Unit",
+    "tier": "extraction",
+    "country_iso2": "AU",
+    "canonical_company": "Viva Energy",
+    "coordinates": {
+      "lat": -38.125,
+      "lon": 144.368
+    },
+    "downstream": [
+      {
+        "target_id": "AU_incitec_pivot_geelong",
+        "corridor_id": "AU_road_geelong_refinery_acid",
+        "resource": "elemental sulfur (recovered)",
+        "quantity": 20000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Sulfur"
+    ]
+  },
+  {
+    "id": "AU_nyrstar_port_pirie_sulfur",
+    "name": "Nyrstar Port Pirie Lead Smelter — Sulfur Recovery",
+    "tier": "extraction",
+    "country_iso2": "AU",
+    "canonical_company": "Nyrstar",
+    "coordinates": {
+      "lat": -33.185,
+      "lon": 138.017
+    },
+    "downstream": [
+      {
+        "target_id": "AU_nyrstar_port_pirie_acid",
+        "corridor_id": "AU_pipeline_port_pirie_acid",
+        "resource": "sulfuric acid from smelter off-gas sulfur",
+        "quantity": 230000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Sulfur"
+    ]
+  },
+  {
+    "id": "AU_sun_metals_townsville_sulfur",
+    "name": "Sun Metals Zinc Refinery — Acid Plant (Townsville)",
+    "tier": "extraction",
+    "country_iso2": "AU",
+    "canonical_company": "Sun Metals (Korea Zinc)",
+    "coordinates": {
+      "lat": -19.267,
+      "lon": 146.713
+    },
+    "downstream": [
+      {
+        "target_id": "AU_sun_metals_acid_plant",
+        "corridor_id": "AU_pipeline_sun_metals_acid",
+        "resource": "sulfuric acid (by-product from zinc refining)",
+        "quantity": 180000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Sulfur"
+    ]
+  },
+  {
+    "id": "AU_imported_sulfur_bulk",
+    "name": "Imported Elemental Sulfur (Various Ports)",
+    "tier": "extraction",
+    "country_iso2": "AU",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": -33.86,
+      "lon": 151.21
+    },
+    "downstream": [
+      {
+        "target_id": "AU_csbp_kwinana",
+        "corridor_id": "INTL_ocean_middle_east_fremantle",
+        "resource": "elemental sulfur (imported)",
+        "quantity": 250000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_incitec_pivot_gibson_island",
+        "corridor_id": "INTL_ocean_middle_east_brisbane",
+        "resource": "elemental sulfur (imported)",
+        "quantity": 120000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_incitec_pivot_geelong",
+        "corridor_id": "INTL_ocean_middle_east_geelong",
+        "resource": "elemental sulfur (imported)",
+        "quantity": 80000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Sulfur"
+    ]
+  },
+  {
+    "id": "AU_incitec_pivot_mt_isa",
+    "name": "Incitec Pivot — Mount Isa Acid/Fertiliser Plant",
+    "tier": "chemical_processor",
+    "country_iso2": "AU",
+    "canonical_company": "Incitec Pivot",
+    "coordinates": {
+      "lat": -20.726,
+      "lon": 139.497
+    },
+    "downstream": [
+      {
+        "target_id": "AU_incitec_pivot_distribution_qld",
+        "corridor_id": "AU_rail_mt_isa_townsville",
+        "resource": "sulfuric acid / superphosphate fertiliser",
+        "quantity": 200000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_glencore_mt_isa_copper",
+        "corridor_id": "AU_pipeline_mt_isa_acid_plant",
+        "resource": "sulfuric acid (for copper leaching)",
+        "quantity": 120000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_mount_isa_mines_sulfur"
+    ],
+    "resources": [
+      "Sulfur"
+    ]
+  },
+  {
+    "id": "AU_bhp_olympic_dam_acid",
+    "name": "BHP Olympic Dam — On-site Acid Plant",
+    "tier": "chemical_processor",
+    "country_iso2": "AU",
+    "canonical_company": "BHP",
+    "coordinates": {
+      "lat": -30.447,
+      "lon": 136.888
+    },
+    "downstream": [
+      {
+        "target_id": "AU_bhp_olympic_dam_hydromet",
+        "corridor_id": "AU_conveyor_olympic_dam_acid",
+        "resource": "sulfuric acid (for uranium/copper hydrometallurgy)",
+        "quantity": 600000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_olympic_dam_sulfur"
+    ],
+    "resources": [
+      "Sulfur"
+    ]
+  },
+  {
+    "id": "AU_bhp_olympic_dam_hydromet",
+    "name": "BHP Olympic Dam — Hydrometallurgical Processing",
+    "tier": "blender_distributor",
+    "country_iso2": "AU",
+    "canonical_company": "BHP",
+    "coordinates": {
+      "lat": -30.447,
+      "lon": 136.888
+    },
+    "downstream": [
+      {
+        "target_id": "AU_bhp_olympic_dam_applicator",
+        "corridor_id": "AU_pipeline_olympic_dam_internal",
+        "resource": "sulfuric acid consumed in copper/uranium leaching",
+        "quantity": 600000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_bhp_olympic_dam_acid",
+      "AU_nyrstar_port_pirie_acid"
+    ],
+    "resources": [
+      "Sulfur"
+    ]
+  },
+  {
+    "id": "AU_bhp_olympic_dam_applicator",
+    "name": "BHP Olympic Dam — Copper & Uranium Leach Circuit (End Use of Sulfuric Acid)",
+    "tier": "applicator",
+    "country_iso2": "AU",
+    "canonical_company": "BHP",
+    "coordinates": {
+      "lat": -30.447,
+      "lon": 136.888
+    },
+    "downstream": [
+      {
+        "target_id": "AU_industrial",
+        "corridor_id": "AU_road_olympic_dam_adelaide",
+        "resource": "copper cathode and uranium oxide produced via sulfuric acid leaching",
+        "quantity": 600000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_bhp_olympic_dam_hydromet"
+    ],
+    "resources": [
+      "Sulfur"
+    ]
+  },
+  {
+    "id": "AU_glencore_mt_isa_copper",
+    "name": "Glencore Mount Isa Copper Operations — Acid Consumption",
+    "tier": "blender_distributor",
+    "country_iso2": "AU",
+    "canonical_company": "Glencore",
+    "coordinates": {
+      "lat": -20.728,
+      "lon": 139.493
+    },
+    "downstream": [
+      {
+        "target_id": "AU_glencore_mt_isa_leach",
+        "corridor_id": "AU_pipeline_mt_isa_acid_plant",
+        "resource": "sulfuric acid for copper leaching",
+        "quantity": 120000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_incitec_pivot_mt_isa"
+    ],
+    "resources": [
+      "Sulfur"
+    ]
+  },
+  {
+    "id": "AU_glencore_mt_isa_leach",
+    "name": "Glencore Mt Isa — Copper Leach / SX-EW Plant",
+    "tier": "applicator",
+    "country_iso2": "AU",
+    "canonical_company": "Glencore",
+    "coordinates": {
+      "lat": -20.728,
+      "lon": 139.493
+    },
+    "downstream": [
+      {
+        "target_id": "AU_industrial",
+        "corridor_id": "AU_rail_mt_isa_townsville",
+        "resource": "copper cathode (produced using sulfuric acid)",
+        "quantity": 120000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_glencore_mt_isa_copper"
+    ],
+    "resources": [
+      "Sulfur"
+    ]
+  },
+  {
+    "id": "AU_nyrstar_port_pirie_acid",
+    "name": "Nyrstar Port Pirie — Sulfuric Acid Production",
+    "tier": "chemical_processor",
+    "country_iso2": "AU",
+    "canonical_company": "Nyrstar",
+    "coordinates": {
+      "lat": -33.185,
+      "lon": 138.017
+    },
+    "downstream": [
+      {
+        "target_id": "AU_nyrstar_acid_distribution_sa",
+        "corridor_id": "AU_road_port_pirie_sa_network",
+        "resource": "sulfuric acid",
+        "quantity": 150000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_bhp_olympic_dam_hydromet",
+        "corridor_id": "AU_rail_port_pirie_olympic_dam",
+        "resource": "sulfuric acid (supplementary supply)",
+        "quantity": 80000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_nyrstar_port_pirie_sulfur"
+    ],
+    "resources": [
+      "Sulfur"
+    ]
+  },
+  {
+    "id": "AU_sun_metals_acid_plant",
+    "name": "Sun Metals Townsville — Acid Plant & Zinc Refinery",
+    "tier": "chemical_processor",
+    "country_iso2": "AU",
+    "canonical_company": "Sun Metals (Korea Zinc)",
+    "coordinates": {
+      "lat": -19.267,
+      "lon": 146.713
+    },
+    "downstream": [
+      {
+        "target_id": "AU_sun_metals_distribution_nqld",
+        "corridor_id": "AU_road_townsville_nqld_network",
+        "resource": "sulfuric acid (excess from zinc refinery)",
+        "quantity": 100000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_incitec_pivot_distribution_qld",
+        "corridor_id": "AU_road_townsville_nqld_network",
+        "resource": "sulfuric acid",
+        "quantity": 80000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_sun_metals_townsville_sulfur"
+    ],
+    "resources": [
+      "Sulfur"
+    ]
+  },
+  {
+    "id": "AU_incitec_pivot_distribution_qld",
+    "name": "Incitec Pivot — Queensland Distribution Network",
+    "tier": "blender_distributor",
+    "country_iso2": "AU",
+    "canonical_company": "Incitec Pivot",
+    "coordinates": {
+      "lat": -23.38,
+      "lon": 150.51
+    },
+    "downstream": [
+      {
+        "target_id": "AU_qld_farm_applicators",
+        "corridor_id": "AU_road_qld_rural_distribution",
+        "resource": "superphosphate / ammonium phosphate / blended fertiliser",
+        "quantity": 300000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_qld_mining_acid_users",
+        "corridor_id": "AU_road_qld_mining_distribution",
+        "resource": "sulfuric acid (for mining customers)",
+        "quantity": 125000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_incitec_pivot_mt_isa",
+      "AU_incitec_pivot_gibson_island",
+      "AU_sun_metals_acid_plant"
+    ],
+    "resources": [
+      "Sulfur"
+    ]
+  },
+  {
+    "id": "AU_csbp_wa_distribution",
+    "name": "CSBP — Western Australia Distribution Network",
+    "tier": "blender_distributor",
+    "country_iso2": "AU",
+    "canonical_company": "CSBP (Wesfarmers)",
+    "coordinates": {
+      "lat": -31.95,
+      "lon": 115.86
+    },
+    "downstream": [
+      {
+        "target_id": "AU_wa_farm_applicators",
+        "corridor_id": "AU_road_wa_rural_distribution",
+        "resource": "superphosphate / blended fertiliser",
+        "quantity": 200000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_csbp_kwinana"
+    ],
+    "resources": [
+      "Sulfur"
+    ]
+  },
+  {
+    "id": "AU_wa_mining_acid_users",
+    "name": "WA Mining — Sulfuric Acid Users (Nickel, Gold Heap Leach)",
+    "tier": "blender_distributor",
+    "country_iso2": "AU",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": -31.08,
+      "lon": 121.88
+    },
+    "downstream": [
+      {
+        "target_id": "AU_wa_nickel_gold_leach_applicators",
+        "corridor_id": "AU_road_goldfields_site_delivery",
+        "resource": "sulfuric acid",
+        "quantity": 85000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_csbp_kwinana"
+    ],
+    "resources": [
+      "Sulfur"
+    ]
+  },
+  {
+    "id": "AU_nyrstar_acid_distribution_sa",
+    "name": "Nyrstar — South Australia Acid Distribution",
+    "tier": "blender_distributor",
+    "country_iso2": "AU",
+    "canonical_company": "Nyrstar",
+    "coordinates": {
+      "lat": -34.93,
+      "lon": 138.6
+    },
+    "downstream": [
+      {
+        "target_id": "AU_sa_industrial_applicators",
+        "corridor_id": "AU_road_sa_industrial_distribution",
+        "resource": "sulfuric acid",
+        "quantity": 150000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_nyrstar_port_pirie_acid"
+    ],
+    "resources": [
+      "Sulfur"
+    ]
+  },
+  {
+    "id": "AU_sun_metals_distribution_nqld",
+    "name": "Sun Metals — North Queensland Acid Distribution",
+    "tier": "blender_distributor",
+    "country_iso2": "AU",
+    "canonical_company": "Sun Metals (Korea Zinc)",
+    "coordinates": {
+      "lat": -19.27,
+      "lon": 146.71
+    },
+    "downstream": [
+      {
+        "target_id": "AU_nqld_mining_applicators",
+        "corridor_id": "AU_road_nqld_mining_delivery",
+        "resource": "sulfuric acid",
+        "quantity": 100000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_sun_metals_acid_plant"
+    ],
+    "resources": [
+      "Sulfur"
+    ]
+  },
+  {
+    "id": "AU_incitec_pivot_distribution_vic",
+    "name": "Incitec Pivot — Victoria / SE Australia Distribution",
+    "tier": "blender_distributor",
+    "country_iso2": "AU",
+    "canonical_company": "Incitec Pivot",
+    "coordinates": {
+      "lat": -37.82,
+      "lon": 144.96
+    },
+    "downstream": [
+      {
+        "target_id": "AU_vic_farm_applicators",
+        "corridor_id": "AU_road_vic_rural_distribution",
+        "resource": "superphosphate / blended fertiliser",
+        "quantity": 100000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_incitec_pivot_geelong"
+    ],
+    "resources": [
+      "Sulfur"
+    ]
+  },
+  {
+    "id": "AU_qld_farm_applicators",
+    "name": "Queensland Broadacre & Sugar Cane — Fertiliser Applicators",
+    "tier": "applicator",
+    "country_iso2": "AU",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": -23.7,
+      "lon": 149.1
+    },
+    "downstream": [
+      {
+        "target_id": "AU_agricultural",
+        "corridor_id": "AU_road_qld_farm_gate",
+        "resource": "superphosphate / MAP / DAP fertiliser applied to crops",
+        "quantity": 300000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_agricultural",
+        "corridor_id": "AU_road_qld-farm-spreading",
+        "resource": "agricultural gypsum (soil amendment)",
+        "quantity": 60000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_incitec_pivot_distribution_qld",
+      "AU_qld_ag_gypsum_blender"
+    ],
+    "resources": [
+      "Sulfur",
+      "Gypsum"
+    ]
+  },
+  {
+    "id": "AU_qld_mining_acid_users",
+    "name": "Queensland Mining — Acid Heap Leach Operations",
+    "tier": "applicator",
+    "country_iso2": "AU",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": -21.15,
+      "lon": 139.5
+    },
+    "downstream": [
+      {
+        "target_id": "AU_industrial",
+        "corridor_id": "AU_road_qld_mining_distribution",
+        "resource": "sulfuric acid consumed in copper/zinc heap leaching",
+        "quantity": 125000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_incitec_pivot_distribution_qld"
+    ],
+    "resources": [
+      "Sulfur"
+    ]
+  },
+  {
+    "id": "AU_wa_farm_applicators",
+    "name": "Western Australia Broadacre — Fertiliser Applicators",
+    "tier": "applicator",
+    "country_iso2": "AU",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": -33.3,
+      "lon": 117.5
+    },
+    "downstream": [
+      {
+        "target_id": "AU_agricultural",
+        "corridor_id": "AU_road_wa_farm_gate",
+        "resource": "superphosphate fertiliser applied to pasture and crops",
+        "quantity": 200000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_agricultural",
+        "corridor_id": "AU_road_wa-farm-spreading",
+        "resource": "agricultural gypsum (soil amendment)",
+        "quantity": 120000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_csbp_wa_distribution",
+      "AU_wa_ag_gypsum_blender"
+    ],
+    "resources": [
+      "Sulfur",
+      "Gypsum"
+    ]
+  },
+  {
+    "id": "AU_wa_nickel_gold_leach_applicators",
+    "name": "WA Nickel & Gold Heap Leach — Acid Applicators",
+    "tier": "applicator",
+    "country_iso2": "AU",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": -31.08,
+      "lon": 121.88
+    },
+    "downstream": [
+      {
+        "target_id": "AU_industrial",
+        "corridor_id": "AU_road_goldfields_site_delivery",
+        "resource": "sulfuric acid consumed in nickel/gold heap leaching",
+        "quantity": 85000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_wa_mining_acid_users"
+    ],
+    "resources": [
+      "Sulfur"
+    ]
+  },
+  {
+    "id": "AU_sa_industrial_applicators",
+    "name": "South Australia Industrial Acid Users",
+    "tier": "applicator",
+    "country_iso2": "AU",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": -34.93,
+      "lon": 138.6
+    },
+    "downstream": [
+      {
+        "target_id": "AU_industrial",
+        "corridor_id": "AU_road_sa_industrial_distribution",
+        "resource": "sulfuric acid consumed in industrial processes",
+        "quantity": 150000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_nyrstar_acid_distribution_sa"
+    ],
+    "resources": [
+      "Sulfur"
+    ]
+  },
+  {
+    "id": "AU_nqld_mining_applicators",
+    "name": "North Queensland Mining — Acid Users",
+    "tier": "applicator",
+    "country_iso2": "AU",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": -19.8,
+      "lon": 146.5
+    },
+    "downstream": [
+      {
+        "target_id": "AU_industrial",
+        "corridor_id": "AU_road_nqld_mining_delivery",
+        "resource": "sulfuric acid consumed in mining / hydrometallurgy",
+        "quantity": 100000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_sun_metals_distribution_nqld"
+    ],
+    "resources": [
+      "Sulfur"
+    ]
+  },
+  {
+    "id": "AU_vic_farm_applicators",
+    "name": "Victoria / SE Australia — Fertiliser Applicators",
+    "tier": "applicator",
+    "country_iso2": "AU",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": -37.8,
+      "lon": 145
+    },
+    "downstream": [
+      {
+        "target_id": "AU_agricultural",
+        "corridor_id": "AU_road_vic_farm_gate",
+        "resource": "superphosphate fertiliser applied to pasture",
+        "quantity": 100000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_agricultural",
+        "corridor_id": "AU_road_vic-farm-spreading",
+        "resource": "agricultural gypsum (soil amendment)",
+        "quantity": 90000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_incitec_pivot_distribution_vic",
+      "AU_vic_ag_gypsum_blender"
+    ],
+    "resources": [
+      "Sulfur",
+      "Gypsum"
+    ]
+  },
+  {
+    "id": "AU_pipeline_mt_isa_acid_plant",
+    "tier": "transport",
+    "name": "Mount Isa Smelter to Acid Plant — Pipeline/Conveyor",
+    "country_iso2": "AU",
+    "operator_id": "AU_glencore",
+    "mode": "pipeline",
+    "form": "gas",
+    "range": "local",
+    "coordinates": {
+      "lat": -20.728,
+      "lon": 139.493
+    }
+  },
+  {
+    "id": "AU_conveyor_olympic_dam_acid",
+    "tier": "transport",
+    "name": "Olympic Dam Smelter to Acid Plant — Internal",
+    "country_iso2": "AU",
+    "operator_id": "AU_bhp",
+    "mode": "pipeline",
+    "form": "gas",
+    "range": "local",
+    "coordinates": {
+      "lat": -30.447,
+      "lon": 136.888
+    }
+  },
+  {
+    "id": "AU_pipeline_olympic_dam_internal",
+    "tier": "transport",
+    "name": "Olympic Dam Acid Plant to Hydromet — Internal Pipeline",
+    "country_iso2": "AU",
+    "operator_id": "AU_bhp",
+    "mode": "pipeline",
+    "form": "bulk_liquid",
+    "range": "local",
+    "coordinates": {
+      "lat": -30.447,
+      "lon": 136.888
+    }
+  },
+  {
+    "id": "AU_road_kwinana_csbp",
+    "tier": "transport",
+    "name": "Kwinana Refinery to CSBP — Road Tanker",
+    "country_iso2": "AU",
+    "operator_id": "AU_csbp",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "local",
+    "coordinates": {
+      "lat": -32.239,
+      "lon": 115.768
+    }
+  },
+  {
+    "id": "AU_road_lytton_gibson_island",
+    "tier": "transport",
+    "name": "Lytton Refinery to Gibson Island — Road Tanker",
+    "country_iso2": "AU",
+    "operator_id": "AU_ampol",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "local",
+    "coordinates": {
+      "lat": -27.428,
+      "lon": 153.145
+    }
+  },
+  {
+    "id": "AU_road_geelong_refinery_acid",
+    "tier": "transport",
+    "name": "Geelong Refinery to Incitec Pivot — Road",
+    "country_iso2": "AU",
+    "operator_id": "AU_viva_energy",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "local",
+    "coordinates": {
+      "lat": -38.125,
+      "lon": 144.365
+    }
+  },
+  {
+    "id": "AU_pipeline_port_pirie_acid",
+    "tier": "transport",
+    "name": "Port Pirie Smelter to Acid Storage — Internal",
+    "country_iso2": "AU",
+    "operator_id": "AU_nyrstar",
+    "mode": "pipeline",
+    "form": "bulk_liquid",
+    "range": "local",
+    "coordinates": {
+      "lat": -33.185,
+      "lon": 138.017
+    }
+  },
+  {
+    "id": "AU_pipeline_sun_metals_acid",
+    "tier": "transport",
+    "name": "Sun Metals Acid Plant — Internal",
+    "country_iso2": "AU",
+    "operator_id": "AU_sun_metals",
+    "mode": "pipeline",
+    "form": "bulk_liquid",
+    "range": "local",
+    "coordinates": {
+      "lat": -19.267,
+      "lon": 146.713
+    }
+  },
+  {
+    "id": "INTL_ocean_middle_east_fremantle",
+    "tier": "transport",
+    "name": "Middle East to Fremantle — Ocean Bulk Sulfur",
+    "country_iso2": "INTL",
+    "operator_id": "INTL_bulk_shipping",
+    "mode": "ocean_freight",
+    "form": "bulk_dry",
+    "range": "international",
+    "coordinates": {
+      "lat": -20,
+      "lon": 85
+    }
+  },
+  {
+    "id": "INTL_ocean_middle_east_brisbane",
+    "tier": "transport",
+    "name": "Middle East to Brisbane — Ocean Bulk Sulfur",
+    "country_iso2": "INTL",
+    "operator_id": "INTL_bulk_shipping",
+    "mode": "ocean_freight",
+    "form": "bulk_dry",
+    "range": "international",
+    "coordinates": {
+      "lat": -10,
+      "lon": 110
+    }
+  },
+  {
+    "id": "INTL_ocean_middle_east_geelong",
+    "tier": "transport",
+    "name": "Middle East to Geelong — Ocean Bulk Sulfur",
+    "country_iso2": "INTL",
+    "operator_id": "INTL_bulk_shipping",
+    "mode": "ocean_freight",
+    "form": "bulk_dry",
+    "range": "international",
+    "coordinates": {
+      "lat": -25,
+      "lon": 100
+    }
+  },
+  {
+    "id": "AU_rail_mt_isa_townsville",
+    "tier": "transport",
+    "name": "Mount Isa to Townsville Rail Corridor",
+    "country_iso2": "AU",
+    "operator_id": "AU_aurizon",
+    "mode": "rail",
+    "form": "bulk_liquid",
+    "range": "regional",
+    "coordinates": {
+      "lat": -20,
+      "lon": 142.5
+    }
+  },
+  {
+    "id": "AU_road_kwinana_wa_network",
+    "tier": "transport",
+    "name": "Kwinana to WA Regional — Road Network",
+    "country_iso2": "AU",
+    "operator_id": "AU_csbp",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "regional",
+    "coordinates": {
+      "lat": -32,
+      "lon": 116
+    }
+  },
+  {
+    "id": "AU_rail_kwinana_goldfields",
+    "tier": "transport",
+    "name": "Kwinana to WA Goldfields — Rail",
+    "country_iso2": "AU",
+    "operator_id": "AU_aurizon",
+    "mode": "rail",
+    "form": "bulk_liquid",
+    "range": "regional",
+    "coordinates": {
+      "lat": -31.5,
+      "lon": 119
+    }
+  },
+  {
+    "id": "AU_road_brisbane_qld_network",
+    "tier": "transport",
+    "name": "Brisbane to Queensland Regional — Road",
+    "country_iso2": "AU",
+    "operator_id": "AU_incitec_pivot",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "regional",
+    "coordinates": {
+      "lat": -26.5,
+      "lon": 152
+    }
+  },
+  {
+    "id": "AU_road_geelong_vic_network",
+    "tier": "transport",
+    "name": "Geelong to Victoria Regional — Road",
+    "country_iso2": "AU",
+    "operator_id": "AU_incitec_pivot",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "regional",
+    "coordinates": {
+      "lat": -37.9,
+      "lon": 144.5
+    }
+  },
+  {
+    "id": "AU_road_port_pirie_sa_network",
+    "tier": "transport",
+    "name": "Port Pirie to South Australia — Road Tanker",
+    "country_iso2": "AU",
+    "operator_id": "AU_nyrstar",
+    "mode": "road",
+    "form": "bulk_liquid",
+    "range": "regional",
+    "coordinates": {
+      "lat": -33.5,
+      "lon": 138.5
+    }
+  },
+  {
+    "id": "AU_rail_port_pirie_olympic_dam",
+    "tier": "transport",
+    "name": "Port Pirie to Olympic Dam — Rail",
+    "country_iso2": "AU",
+    "operator_id": "AU_genesee_wyoming",
+    "mode": "rail",
+    "form": "bulk_liquid",
+    "range": "regional",
+    "coordinates": {
+      "lat": -31.8,
+      "lon": 137.5
+    }
+  },
+  {
+    "id": "AU_road_townsville_nqld_network",
+    "tier": "transport",
+    "name": "Townsville to North Queensland — Road",
+    "country_iso2": "AU",
+    "operator_id": "AU_sun_metals",
+    "mode": "road",
+    "form": "bulk_liquid",
+    "range": "regional",
+    "coordinates": {
+      "lat": -19.5,
+      "lon": 146.5
+    }
+  },
+  {
+    "id": "AU_road_qld_rural_distribution",
+    "tier": "transport",
+    "name": "Queensland Rural Fertiliser — Road Distribution",
+    "country_iso2": "AU",
+    "operator_id": "AU_incitec_pivot",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "regional",
+    "coordinates": {
+      "lat": -24,
+      "lon": 150
+    }
+  },
+  {
+    "id": "AU_road_qld_mining_distribution",
+    "tier": "transport",
+    "name": "Queensland Mining Areas — Acid Road Distribution",
+    "country_iso2": "AU",
+    "operator_id": "AU_incitec_pivot",
+    "mode": "road",
+    "form": "bulk_liquid",
+    "range": "regional",
+    "coordinates": {
+      "lat": -21,
+      "lon": 140
+    }
+  },
+  {
+    "id": "AU_road_wa_rural_distribution",
+    "tier": "transport",
+    "name": "WA Rural Fertiliser — Road Distribution",
+    "country_iso2": "AU",
+    "operator_id": "AU_csbp",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "regional",
+    "coordinates": {
+      "lat": -33,
+      "lon": 117
+    }
+  },
+  {
+    "id": "AU_road_goldfields_site_delivery",
+    "tier": "transport",
+    "name": "WA Goldfields — Acid Site Delivery Road",
+    "country_iso2": "AU",
+    "operator_id": "AU_csbp",
+    "mode": "road",
+    "form": "bulk_liquid",
+    "range": "regional",
+    "coordinates": {
+      "lat": -31,
+      "lon": 121.5
+    }
+  },
+  {
+    "id": "AU_road_sa_industrial_distribution",
+    "tier": "transport",
+    "name": "South Australia Industrial Acid — Road Distribution",
+    "country_iso2": "AU",
+    "operator_id": "AU_nyrstar",
+    "mode": "road",
+    "form": "bulk_liquid",
+    "range": "regional",
+    "coordinates": {
+      "lat": -34.5,
+      "lon": 138.6
+    }
+  },
+  {
+    "id": "AU_road_nqld_mining_delivery",
+    "tier": "transport",
+    "name": "North Queensland Mining — Acid Road Delivery",
+    "country_iso2": "AU",
+    "operator_id": "AU_sun_metals",
+    "mode": "road",
+    "form": "bulk_liquid",
+    "range": "regional",
+    "coordinates": {
+      "lat": -19.8,
+      "lon": 146.5
+    }
+  },
+  {
+    "id": "AU_road_vic_rural_distribution",
+    "tier": "transport",
+    "name": "Victoria Rural Fertiliser — Road Distribution",
+    "country_iso2": "AU",
+    "operator_id": "AU_incitec_pivot",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "regional",
+    "coordinates": {
+      "lat": -37.5,
+      "lon": 145
+    }
+  },
+  {
+    "id": "AU_road_olympic_dam_adelaide",
+    "tier": "transport",
+    "name": "Olympic Dam to Adelaide / Export — Road & Rail",
+    "country_iso2": "AU",
+    "operator_id": "AU_bhp",
+    "mode": "road",
+    "form": "containerised",
+    "range": "regional",
+    "coordinates": {
+      "lat": -31.5,
+      "lon": 137
+    }
+  },
+  {
+    "id": "AU_road_qld_farm_gate",
+    "tier": "transport",
+    "name": "Queensland Farm Gate — Last Mile Delivery",
+    "country_iso2": "AU",
+    "operator_id": "AU_incitec_pivot",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "local",
+    "coordinates": {
+      "lat": -23.7,
+      "lon": 149.1
+    }
+  },
+  {
+    "id": "AU_road_wa_farm_gate",
+    "tier": "transport",
+    "name": "WA Farm Gate — Last Mile Delivery",
+    "country_iso2": "AU",
+    "operator_id": "AU_csbp",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "local",
+    "coordinates": {
+      "lat": -33.3,
+      "lon": 117.5
+    }
+  },
+  {
+    "id": "AU_road_vic_farm_gate",
+    "tier": "transport",
+    "name": "Victoria Farm Gate — Last Mile Delivery",
+    "country_iso2": "AU",
+    "operator_id": "AU_incitec_pivot",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "local",
+    "coordinates": {
+      "lat": -37.8,
+      "lon": 145
+    }
+  }
+]

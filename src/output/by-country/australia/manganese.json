@@ -1,0 +1,1777 @@
+[
+  {
+    "id": "AU_south32_groote_eylandt_mining",
+    "name": "GEMCO (Groote Eylandt Mining Company)",
+    "tier": "extraction",
+    "country_iso2": "AU",
+    "canonical_company": "South32",
+    "coordinates": {
+      "lat": -13.97,
+      "lon": 136.46
+    },
+    "downstream": [
+      {
+        "target_id": "AU_south32_temco",
+        "corridor_id": "AU_ocean_groote-eylandt-bell-bay",
+        "resource": "manganese ore",
+        "quantity": 700000,
+        "metric": "t"
+      },
+      {
+        "target_id": "ZA_south32_metalloys",
+        "corridor_id": "INTL_ocean_groote-eylandt-port-elizabeth",
+        "resource": "manganese ore",
+        "quantity": 1200000,
+        "metric": "t"
+      },
+      {
+        "target_id": "CN_tianjin_manganese_traders",
+        "corridor_id": "INTL_ocean_groote-eylandt-tianjin",
+        "resource": "manganese ore",
+        "quantity": 1500000,
+        "metric": "t"
+      },
+      {
+        "target_id": "IN_manganese_smelters",
+        "corridor_id": "INTL_ocean_groote-eylandt-vizag",
+        "resource": "manganese ore",
+        "quantity": 600000,
+        "metric": "t"
+      },
+      {
+        "target_id": "INTL_seaborne_manganese_buyers",
+        "corridor_id": "INTL_ocean_groote-eylandt-intl",
+        "resource": "manganese ore",
+        "quantity": 500000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Manganese"
+    ]
+  },
+  {
+    "id": "AU_element25_butcherbird",
+    "name": "Butcherbird Manganese Mine",
+    "tier": "extraction",
+    "country_iso2": "AU",
+    "canonical_company": "Element 25",
+    "coordinates": {
+      "lat": -25.03,
+      "lon": 119.53
+    },
+    "downstream": [
+      {
+        "target_id": "CN_tianjin_manganese_traders",
+        "corridor_id": "INTL_ocean_port-hedland-tianjin",
+        "resource": "manganese ore",
+        "quantity": 300000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Manganese"
+    ]
+  },
+  {
+    "id": "AU_south32_temco",
+    "name": "TEMCO (Tasmanian Electro Metallurgical Company)",
+    "tier": "smelter",
+    "country_iso2": "AU",
+    "canonical_company": "South32",
+    "coordinates": {
+      "lat": -41.1,
+      "lon": 146.82
+    },
+    "downstream": [
+      {
+        "target_id": "AU_bluescope_steel",
+        "corridor_id": "AU_ocean_bell-bay-port-kembla",
+        "resource": "silicomanganese and ferromanganese alloy",
+        "quantity": 120000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_liberty_primary_steel_whyalla",
+        "corridor_id": "AU_ocean_bell-bay-whyalla",
+        "resource": "ferromanganese alloy",
+        "quantity": 30000,
+        "metric": "t"
+      },
+      {
+        "target_id": "KR_posco_steelworks",
+        "corridor_id": "INTL_ocean_bell-bay-pohang",
+        "resource": "manganese alloy",
+        "quantity": 50000,
+        "metric": "t"
+      },
+      {
+        "target_id": "JP_nippon_steel",
+        "corridor_id": "INTL_ocean_bell-bay-kashima",
+        "resource": "manganese alloy",
+        "quantity": 40000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_south32_groote_eylandt_mining"
+    ],
+    "resources": [
+      "Manganese"
+    ]
+  },
+  {
+    "id": "ZA_south32_metalloys",
+    "name": "South32 Metalloys (Meyerton)",
+    "tier": "smelter",
+    "country_iso2": "ZA",
+    "canonical_company": "South32",
+    "coordinates": {
+      "lat": -26.56,
+      "lon": 28.03
+    },
+    "downstream": [
+      {
+        "target_id": "ZA_arcelormittal_sa",
+        "corridor_id": "ZA_rail_meyerton-vanderbijlpark",
+        "resource": "high-carbon ferromanganese",
+        "quantity": 200000,
+        "metric": "t"
+      },
+      {
+        "target_id": "INTL_manganese_alloy_buyers",
+        "corridor_id": "INTL_ocean_durban-intl",
+        "resource": "manganese alloy",
+        "quantity": 150000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_south32_groote_eylandt_mining"
+    ],
+    "resources": [
+      "Manganese"
+    ]
+  },
+  {
+    "id": "CN_tianjin_manganese_traders",
+    "name": "China Manganese Ore Processors (Tianjin Hub)",
+    "tier": "smelter",
+    "country_iso2": "CN",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": 38.98,
+      "lon": 117.73
+    },
+    "downstream": [
+      {
+        "target_id": "CN_steel_mills",
+        "corridor_id": "CN_rail_tianjin-tangshan",
+        "resource": "silicomanganese and ferromanganese",
+        "quantity": 1400000,
+        "metric": "t"
+      },
+      {
+        "target_id": "CN_emm_producers",
+        "corridor_id": "CN_road_tianjin-chongqing",
+        "resource": "electrolytic manganese metal",
+        "quantity": 400000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_south32_groote_eylandt_mining",
+      "AU_element25_butcherbird"
+    ],
+    "resources": [
+      "Manganese"
+    ]
+  },
+  {
+    "id": "IN_manganese_smelters",
+    "name": "India Manganese Alloy Smelters",
+    "tier": "smelter",
+    "country_iso2": "IN",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": 17.69,
+      "lon": 83.22
+    },
+    "downstream": [
+      {
+        "target_id": "IN_steel_mills",
+        "corridor_id": "IN_rail_vizag-jamshedpur",
+        "resource": "ferromanganese and silicomanganese",
+        "quantity": 500000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_south32_groote_eylandt_mining"
+    ],
+    "resources": [
+      "Manganese"
+    ]
+  },
+  {
+    "id": "INTL_seaborne_manganese_buyers",
+    "name": "Other International Manganese Ore Buyers",
+    "tier": "smelter",
+    "country_iso2": "INTL",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": 1.26,
+      "lon": 103.84
+    },
+    "downstream": [
+      {
+        "target_id": "INTL_steel_mills_row",
+        "corridor_id": "INTL_ocean_singapore-global",
+        "resource": "manganese alloy",
+        "quantity": 400000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_south32_groote_eylandt_mining"
+    ],
+    "resources": [
+      "Manganese"
+    ]
+  },
+  {
+    "id": "AU_liberty_primary_steel_whyalla",
+    "name": "Liberty Primary Steel Whyalla Steelworks",
+    "tier": "mill",
+    "country_iso2": "AU",
+    "canonical_company": "Liberty Steel",
+    "coordinates": {
+      "lat": -33,
+      "lon": 137.52
+    },
+    "downstream": [
+      {
+        "target_id": "AU_infrabuild",
+        "corridor_id": "AU_rail_whyalla-sydney",
+        "resource": "structural and long steel products (manganese-bearing)",
+        "quantity": 25000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_industrial",
+        "corridor_id": "AU_rail_whyalla-adelaide",
+        "resource": "steel products (oxygen consumed in steelmaking)",
+        "quantity": 100000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_infrastructure",
+        "corridor_id": "AU_rail_whyalla-adelaide",
+        "resource": "structural steel (oxygen consumed in steelmaking)",
+        "quantity": 40000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_south32_temco",
+      "AU_linde_whyalla_purifier"
+    ],
+    "resources": [
+      "Manganese",
+      "Oxygen"
+    ]
+  },
+  {
+    "id": "ZA_arcelormittal_sa",
+    "name": "ArcelorMittal South Africa (Vanderbijlpark)",
+    "tier": "mill",
+    "country_iso2": "ZA",
+    "canonical_company": "ArcelorMittal South Africa",
+    "coordinates": {
+      "lat": -26.72,
+      "lon": 27.83
+    },
+    "downstream": [
+      {
+        "target_id": "ZA_construction_manufacturers",
+        "corridor_id": "ZA_road_vanderbijlpark-johannesburg",
+        "resource": "flat and long steel products",
+        "quantity": 150000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "ZA_south32_metalloys"
+    ],
+    "resources": [
+      "Manganese"
+    ]
+  },
+  {
+    "id": "INTL_manganese_alloy_buyers",
+    "name": "International Manganese Alloy Buyers",
+    "tier": "mill",
+    "country_iso2": "INTL",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": 51.45,
+      "lon": 6.76
+    },
+    "downstream": [
+      {
+        "target_id": "INTL_steel_mills_eu",
+        "corridor_id": "INTL_ocean_durban-rotterdam",
+        "resource": "manganese alloy for steelmaking",
+        "quantity": 150000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "ZA_south32_metalloys"
+    ],
+    "resources": [
+      "Manganese"
+    ]
+  },
+  {
+    "id": "CN_steel_mills",
+    "name": "China Major Steel Mills (Hebei, Jiangsu hub)",
+    "tier": "mill",
+    "country_iso2": "CN",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": 39.63,
+      "lon": 118.18
+    },
+    "downstream": [
+      {
+        "target_id": "CN_construction_manufacturers",
+        "corridor_id": "CN_rail_tangshan-domestic",
+        "resource": "steel products (rebar, plate, coil)",
+        "quantity": 800000,
+        "metric": "t"
+      },
+      {
+        "target_id": "CN_auto_manufacturers",
+        "corridor_id": "CN_rail_tangshan-changchun",
+        "resource": "automotive steel sheet",
+        "quantity": 350000,
+        "metric": "t"
+      },
+      {
+        "target_id": "CN_shipbuilding_manufacturers",
+        "corridor_id": "CN_inland_waterway_yangtze-shipyards",
+        "resource": "steel plate for shipbuilding",
+        "quantity": 250000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "CN_tianjin_manganese_traders"
+    ],
+    "resources": [
+      "Manganese"
+    ]
+  },
+  {
+    "id": "CN_emm_producers",
+    "name": "China EMM & Battery-Grade Manganese Producers",
+    "tier": "mill",
+    "country_iso2": "CN",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": 29.56,
+      "lon": 106.55
+    },
+    "downstream": [
+      {
+        "target_id": "CN_battery_cathode_manufacturers",
+        "corridor_id": "CN_road_chongqing-changsha",
+        "resource": "high-purity manganese sulfate and electrolytic manganese metal",
+        "quantity": 300000,
+        "metric": "t"
+      },
+      {
+        "target_id": "CN_special_steel_mills",
+        "corridor_id": "CN_road_chongqing-wuhan",
+        "resource": "electrolytic manganese metal for special steels",
+        "quantity": 100000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "CN_tianjin_manganese_traders"
+    ],
+    "resources": [
+      "Manganese"
+    ]
+  },
+  {
+    "id": "IN_steel_mills",
+    "name": "India Major Steel Mills (Tata Steel, JSW, SAIL)",
+    "tier": "mill",
+    "country_iso2": "IN",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": 22.8,
+      "lon": 86.2
+    },
+    "downstream": [
+      {
+        "target_id": "IN_construction_manufacturers",
+        "corridor_id": "IN_rail_jamshedpur-delhi",
+        "resource": "steel products for construction and infrastructure",
+        "quantity": 350000,
+        "metric": "t"
+      },
+      {
+        "target_id": "IN_auto_manufacturers",
+        "corridor_id": "IN_rail_jamshedpur-chennai",
+        "resource": "automotive steel",
+        "quantity": 150000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "IN_manganese_smelters"
+    ],
+    "resources": [
+      "Manganese"
+    ]
+  },
+  {
+    "id": "INTL_steel_mills_row",
+    "name": "Rest-of-World Steel Mills",
+    "tier": "mill",
+    "country_iso2": "INTL",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": 35.68,
+      "lon": 139.69
+    },
+    "downstream": [
+      {
+        "target_id": "INTL_general_manufacturers",
+        "corridor_id": "INTL_ocean_global-distribution",
+        "resource": "steel products (manganese-bearing)",
+        "quantity": 400000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "INTL_seaborne_manganese_buyers"
+    ],
+    "resources": [
+      "Manganese"
+    ]
+  },
+  {
+    "id": "KR_posco_steelworks",
+    "name": "POSCO Pohang Steelworks",
+    "tier": "mill",
+    "country_iso2": "KR",
+    "canonical_company": "POSCO",
+    "coordinates": {
+      "lat": 36.01,
+      "lon": 129.37
+    },
+    "downstream": [
+      {
+        "target_id": "KR_auto_manufacturers",
+        "corridor_id": "KR_road_pohang-ulsan",
+        "resource": "automotive steel sheet (manganese-bearing)",
+        "quantity": 35000,
+        "metric": "t"
+      },
+      {
+        "target_id": "KR_shipbuilding_manufacturers",
+        "corridor_id": "KR_road_pohang-geoje",
+        "resource": "ship plate steel",
+        "quantity": 15000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_south32_temco"
+    ],
+    "resources": [
+      "Manganese"
+    ]
+  },
+  {
+    "id": "JP_nippon_steel",
+    "name": "Nippon Steel Kashima Works",
+    "tier": "mill",
+    "country_iso2": "JP",
+    "canonical_company": "Nippon Steel",
+    "coordinates": {
+      "lat": 35.96,
+      "lon": 140.67
+    },
+    "downstream": [
+      {
+        "target_id": "JP_auto_manufacturers",
+        "corridor_id": "JP_road_kashima-nagoya",
+        "resource": "high-strength automotive steel",
+        "quantity": 30000,
+        "metric": "t"
+      },
+      {
+        "target_id": "JP_electronics_manufacturers",
+        "corridor_id": "JP_road_kashima-tokyo",
+        "resource": "specialty steel for electronics and machinery",
+        "quantity": 10000,
+        "metric": "t"
+      },
+      {
+        "target_id": "JP_nippon_steel_mills",
+        "corridor_id": "JP_rail_nippon-internal",
+        "resource": "crude steel (slabs, blooms, billets)",
+        "quantity": 40000000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_south32_temco",
+      "AU_bhp_port_hedland_operations",
+      "AU_rio_tinto_dampier_port",
+      "AU_roy_hill_port_hedland_terminal"
+    ],
+    "resources": [
+      "Manganese",
+      "Iron Ore"
+    ]
+  },
+  {
+    "id": "AU_bluescope_colorbond",
+    "name": "BlueScope COLORBOND Manufacturing",
+    "tier": "manufacturer",
+    "country_iso2": "AU",
+    "canonical_company": "BlueScope Steel",
+    "coordinates": {
+      "lat": -33.82,
+      "lon": 150.87
+    },
+    "downstream": [
+      {
+        "target_id": "AU_residential",
+        "corridor_id": "AU_road_western-sydney-metro",
+        "resource": "roofing and cladding steel products",
+        "quantity": 50000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_commercial",
+        "corridor_id": "AU_road_western-sydney-metro",
+        "resource": "commercial building steel products",
+        "quantity": 30000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_bluescope_steel"
+    ],
+    "resources": [
+      "Manganese"
+    ]
+  },
+  {
+    "id": "INTL_steel_export_buyers",
+    "name": "SE Asia Steel Product Buyers",
+    "tier": "manufacturer",
+    "country_iso2": "INTL",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": 10.76,
+      "lon": 106.66
+    },
+    "downstream": [
+      {
+        "target_id": "INTL_infrastructure",
+        "corridor_id": "INTL_road_se-asia-distribution",
+        "resource": "steel building products",
+        "quantity": 40000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_bluescope_steel"
+    ],
+    "resources": [
+      "Manganese"
+    ]
+  },
+  {
+    "id": "AU_infrabuild",
+    "name": "InfraBuild (formerly Liberty OneSteel)",
+    "tier": "manufacturer",
+    "country_iso2": "AU",
+    "canonical_company": "InfraBuild",
+    "coordinates": {
+      "lat": -33.87,
+      "lon": 151.21
+    },
+    "downstream": [
+      {
+        "target_id": "AU_infrastructure",
+        "corridor_id": "AU_road_sydney-national",
+        "resource": "reinforcing bar and structural steel",
+        "quantity": 20000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_industrial",
+        "corridor_id": "AU_road_sydney-national",
+        "resource": "steel products for industrial use",
+        "quantity": 5000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_liberty_primary_steel_whyalla"
+    ],
+    "resources": [
+      "Manganese"
+    ]
+  },
+  {
+    "id": "ZA_construction_manufacturers",
+    "name": "South Africa Steel Fabricators & Manufacturers",
+    "tier": "manufacturer",
+    "country_iso2": "ZA",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": -26.2,
+      "lon": 28.04
+    },
+    "downstream": [
+      {
+        "target_id": "ZA_infrastructure",
+        "corridor_id": "ZA_road_johannesburg-national",
+        "resource": "structural steel and construction products",
+        "quantity": 100000,
+        "metric": "t"
+      },
+      {
+        "target_id": "ZA_industrial",
+        "corridor_id": "ZA_road_johannesburg-national",
+        "resource": "industrial steel products",
+        "quantity": 50000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "ZA_arcelormittal_sa"
+    ],
+    "resources": [
+      "Manganese"
+    ]
+  },
+  {
+    "id": "INTL_steel_mills_eu",
+    "name": "EU Steel Mills (ThyssenKrupp, ArcelorMittal EU)",
+    "tier": "manufacturer",
+    "country_iso2": "INTL",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": 51.43,
+      "lon": 6.88
+    },
+    "downstream": [
+      {
+        "target_id": "DE_industrial",
+        "corridor_id": "DE_road_duisburg-national",
+        "resource": "steel products for automotive and machinery",
+        "quantity": 100000,
+        "metric": "t"
+      },
+      {
+        "target_id": "INTL_infrastructure",
+        "corridor_id": "INTL_road_eu-distribution",
+        "resource": "steel for EU infrastructure",
+        "quantity": 50000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "INTL_manganese_alloy_buyers"
+    ],
+    "resources": [
+      "Manganese"
+    ]
+  },
+  {
+    "id": "CN_construction_manufacturers",
+    "name": "China Construction Steel Fabricators",
+    "tier": "manufacturer",
+    "country_iso2": "CN",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": 31.23,
+      "lon": 121.47
+    },
+    "downstream": [
+      {
+        "target_id": "CN_infrastructure",
+        "corridor_id": "CN_road_shanghai-national",
+        "resource": "rebar and structural steel for construction",
+        "quantity": 600000,
+        "metric": "t"
+      },
+      {
+        "target_id": "CN_residential",
+        "corridor_id": "CN_road_shanghai-national",
+        "resource": "steel building materials",
+        "quantity": 200000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "CN_steel_mills"
+    ],
+    "resources": [
+      "Manganese"
+    ]
+  },
+  {
+    "id": "CN_auto_manufacturers",
+    "name": "China Automotive Manufacturers (BYD, SAIC, FAW)",
+    "tier": "manufacturer",
+    "country_iso2": "CN",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": 43.88,
+      "lon": 125.32
+    },
+    "downstream": [
+      {
+        "target_id": "CN_residential",
+        "corridor_id": "CN_road_changchun-national",
+        "resource": "passenger vehicles (manganese-steel body)",
+        "quantity": 250000,
+        "metric": "t"
+      },
+      {
+        "target_id": "CN_commercial",
+        "corridor_id": "CN_road_changchun-national",
+        "resource": "commercial vehicles",
+        "quantity": 100000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "CN_steel_mills"
+    ],
+    "resources": [
+      "Manganese"
+    ]
+  },
+  {
+    "id": "CN_shipbuilding_manufacturers",
+    "name": "China Shipbuilding (CSSC yards)",
+    "tier": "manufacturer",
+    "country_iso2": "CN",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": 30.63,
+      "lon": 122.07
+    },
+    "downstream": [
+      {
+        "target_id": "INTL_commercial",
+        "corridor_id": "INTL_ocean_shanghai-global-ship-delivery",
+        "resource": "bulk carriers and container ships",
+        "quantity": 200000,
+        "metric": "t"
+      },
+      {
+        "target_id": "CN_industrial",
+        "corridor_id": "CN_inland_waterway_yangtze-domestic",
+        "resource": "coastal and river vessels",
+        "quantity": 50000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "CN_steel_mills"
+    ],
+    "resources": [
+      "Manganese"
+    ]
+  },
+  {
+    "id": "CN_battery_cathode_manufacturers",
+    "name": "China Battery Cathode Manufacturers (CATL supply chain, Guizhou Dalong)",
+    "tier": "manufacturer",
+    "country_iso2": "CN",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": 28.12,
+      "lon": 113
+    },
+    "downstream": [
+      {
+        "target_id": "CN_industrial",
+        "corridor_id": "CN_road_changsha-shenzhen",
+        "resource": "lithium-ion battery cells (NMC/LMO cathode with manganese)",
+        "quantity": 200000,
+        "metric": "t"
+      },
+      {
+        "target_id": "INTL_industrial",
+        "corridor_id": "INTL_ocean_shenzhen-global",
+        "resource": "exported EV battery cells",
+        "quantity": 100000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "CN_emm_producers"
+    ],
+    "resources": [
+      "Manganese"
+    ]
+  },
+  {
+    "id": "CN_special_steel_mills",
+    "name": "China Specialty Steel Producers (HBIS, Baowu special steel)",
+    "tier": "manufacturer",
+    "country_iso2": "CN",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": 30.58,
+      "lon": 114.27
+    },
+    "downstream": [
+      {
+        "target_id": "CN_industrial",
+        "corridor_id": "CN_road_wuhan-national",
+        "resource": "high-manganese wear-resistant steel and specialty alloys",
+        "quantity": 100000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "CN_emm_producers"
+    ],
+    "resources": [
+      "Manganese"
+    ]
+  },
+  {
+    "id": "IN_construction_manufacturers",
+    "name": "India Construction and Infrastructure Fabricators",
+    "tier": "manufacturer",
+    "country_iso2": "IN",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": 28.61,
+      "lon": 77.21
+    },
+    "downstream": [
+      {
+        "target_id": "IN_infrastructure",
+        "corridor_id": "IN_road_delhi-national",
+        "resource": "rebar and structural steel",
+        "quantity": 250000,
+        "metric": "t"
+      },
+      {
+        "target_id": "IN_residential",
+        "corridor_id": "IN_road_delhi-national",
+        "resource": "steel building materials",
+        "quantity": 100000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "IN_steel_mills"
+    ],
+    "resources": [
+      "Manganese"
+    ]
+  },
+  {
+    "id": "IN_auto_manufacturers",
+    "name": "India Auto Manufacturers (Tata Motors, Maruti Suzuki)",
+    "tier": "manufacturer",
+    "country_iso2": "IN",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": 13.08,
+      "lon": 80.27
+    },
+    "downstream": [
+      {
+        "target_id": "IN_residential",
+        "corridor_id": "IN_road_chennai-national",
+        "resource": "passenger vehicles (manganese-steel body)",
+        "quantity": 100000,
+        "metric": "t"
+      },
+      {
+        "target_id": "IN_commercial",
+        "corridor_id": "IN_road_chennai-national",
+        "resource": "commercial vehicles",
+        "quantity": 50000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "IN_steel_mills"
+    ],
+    "resources": [
+      "Manganese"
+    ]
+  },
+  {
+    "id": "INTL_general_manufacturers",
+    "name": "Rest-of-World Steel & Alloy End Manufacturers",
+    "tier": "manufacturer",
+    "country_iso2": "INTL",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": 35.68,
+      "lon": 139.69
+    },
+    "downstream": [
+      {
+        "target_id": "INTL_industrial",
+        "corridor_id": "INTL_road_global-distribution",
+        "resource": "steel and alloy products",
+        "quantity": 250000,
+        "metric": "t"
+      },
+      {
+        "target_id": "INTL_infrastructure",
+        "corridor_id": "INTL_road_global-distribution",
+        "resource": "construction steel products",
+        "quantity": 150000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "INTL_steel_mills_row"
+    ],
+    "resources": [
+      "Manganese"
+    ]
+  },
+  {
+    "id": "KR_auto_manufacturers",
+    "name": "Hyundai-Kia Ulsan Complex",
+    "tier": "manufacturer",
+    "country_iso2": "KR",
+    "canonical_company": "Hyundai Motor",
+    "coordinates": {
+      "lat": 35.55,
+      "lon": 129.31
+    },
+    "downstream": [
+      {
+        "target_id": "KR_residential",
+        "corridor_id": "KR_road_ulsan-national",
+        "resource": "passenger vehicles",
+        "quantity": 25000,
+        "metric": "t"
+      },
+      {
+        "target_id": "INTL_residential",
+        "corridor_id": "INTL_ocean_ulsan-global",
+        "resource": "exported vehicles",
+        "quantity": 10000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "KR_posco_steelworks"
+    ],
+    "resources": [
+      "Manganese"
+    ]
+  },
+  {
+    "id": "KR_shipbuilding_manufacturers",
+    "name": "HD Hyundai Heavy Industries (Geoje)",
+    "tier": "manufacturer",
+    "country_iso2": "KR",
+    "canonical_company": "HD Hyundai Heavy Industries",
+    "coordinates": {
+      "lat": 34.88,
+      "lon": 128.69
+    },
+    "downstream": [
+      {
+        "target_id": "INTL_commercial",
+        "corridor_id": "INTL_ocean_geoje-global",
+        "resource": "LNG carriers and bulk carriers",
+        "quantity": 15000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "KR_posco_steelworks"
+    ],
+    "resources": [
+      "Manganese"
+    ]
+  },
+  {
+    "id": "JP_auto_manufacturers",
+    "name": "Toyota / Honda Aichi Manufacturing",
+    "tier": "manufacturer",
+    "country_iso2": "JP",
+    "canonical_company": "Toyota Motor",
+    "coordinates": {
+      "lat": 35.08,
+      "lon": 137.15
+    },
+    "downstream": [
+      {
+        "target_id": "JP_residential",
+        "corridor_id": "JP_road_nagoya-national",
+        "resource": "passenger vehicles",
+        "quantity": 20000,
+        "metric": "t"
+      },
+      {
+        "target_id": "INTL_residential",
+        "corridor_id": "INTL_ocean_nagoya-global",
+        "resource": "exported vehicles",
+        "quantity": 10000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "JP_nippon_steel"
+    ],
+    "resources": [
+      "Manganese"
+    ]
+  },
+  {
+    "id": "JP_electronics_manufacturers",
+    "name": "Japan Specialty Steel & Electronics Manufacturers",
+    "tier": "manufacturer",
+    "country_iso2": "JP",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": 35.69,
+      "lon": 139.69
+    },
+    "downstream": [
+      {
+        "target_id": "JP_industrial",
+        "corridor_id": "JP_road_tokyo-national",
+        "resource": "precision machinery and electronics components",
+        "quantity": 10000,
+        "metric": "t"
+      },
+      {
+        "target_id": "JP_industrial",
+        "corridor_id": "JP_road_osaka-national",
+        "resource": "mica-insulated electrical equipment",
+        "quantity": 120,
+        "metric": "t"
+      },
+      {
+        "target_id": "INTL_industrial",
+        "corridor_id": "INTL_ocean_kobe-global",
+        "resource": "mica-insulated electrical equipment",
+        "quantity": 80,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "JP_nippon_steel",
+      "JP_electronics_component_makers"
+    ],
+    "resources": [
+      "Manganese",
+      "Mica"
+    ]
+  },
+  {
+    "id": "AU_ocean_groote-eylandt-bell-bay",
+    "tier": "transport",
+    "name": "Ocean: Groote Eylandt (Milner Bay) to Bell Bay, Tasmania",
+    "country_iso2": "AU",
+    "operator_id": "AU_south32_shipping",
+    "mode": "ocean_freight",
+    "form": "bulk_dry",
+    "range": "regional",
+    "coordinates": {
+      "lat": -25,
+      "lon": 142
+    }
+  },
+  {
+    "id": "INTL_ocean_groote-eylandt-port-elizabeth",
+    "tier": "transport",
+    "name": "Ocean: Groote Eylandt to Port Elizabeth, South Africa",
+    "country_iso2": "INTL",
+    "operator_id": "INTL_bulk_shipping",
+    "mode": "ocean_freight",
+    "form": "bulk_dry",
+    "range": "international",
+    "coordinates": {
+      "lat": -20,
+      "lon": 80
+    }
+  },
+  {
+    "id": "INTL_ocean_groote-eylandt-tianjin",
+    "tier": "transport",
+    "name": "Ocean: Groote Eylandt (Milner Bay) to Tianjin, China",
+    "country_iso2": "INTL",
+    "operator_id": "INTL_bulk_shipping",
+    "mode": "ocean_freight",
+    "form": "bulk_dry",
+    "range": "international",
+    "coordinates": {
+      "lat": 5,
+      "lon": 125
+    }
+  },
+  {
+    "id": "INTL_ocean_groote-eylandt-vizag",
+    "tier": "transport",
+    "name": "Ocean: Groote Eylandt to Visakhapatnam, India",
+    "country_iso2": "INTL",
+    "operator_id": "INTL_bulk_shipping",
+    "mode": "ocean_freight",
+    "form": "bulk_dry",
+    "range": "international",
+    "coordinates": {
+      "lat": 0,
+      "lon": 110
+    }
+  },
+  {
+    "id": "INTL_ocean_groote-eylandt-intl",
+    "tier": "transport",
+    "name": "Ocean: Groote Eylandt to Other International Ports",
+    "country_iso2": "INTL",
+    "operator_id": "INTL_bulk_shipping",
+    "mode": "ocean_freight",
+    "form": "bulk_dry",
+    "range": "international",
+    "coordinates": {
+      "lat": -5,
+      "lon": 120
+    }
+  },
+  {
+    "id": "INTL_ocean_port-hedland-tianjin",
+    "tier": "transport",
+    "name": "Ocean: Port Hedland to Tianjin, China",
+    "country_iso2": "INTL",
+    "operator_id": "INTL_bulk_shipping",
+    "mode": "ocean_freight",
+    "form": "bulk_dry",
+    "range": "international",
+    "coordinates": {
+      "lat": 5,
+      "lon": 120
+    },
+    "resources": [
+      "Mineral-Bearing Land"
+    ],
+    "upstream": [],
+    "downstream": []
+  },
+  {
+    "id": "AU_ocean_bell-bay-port-kembla",
+    "tier": "transport",
+    "name": "Ocean: Bell Bay, Tasmania to Port Kembla, NSW",
+    "country_iso2": "AU",
+    "operator_id": "AU_coastal_shipping",
+    "mode": "ocean_freight",
+    "form": "bulk_dry",
+    "range": "regional",
+    "coordinates": {
+      "lat": -38.5,
+      "lon": 149.5
+    }
+  },
+  {
+    "id": "AU_ocean_bell-bay-whyalla",
+    "tier": "transport",
+    "name": "Ocean: Bell Bay to Whyalla, SA",
+    "country_iso2": "AU",
+    "operator_id": "AU_coastal_shipping",
+    "mode": "ocean_freight",
+    "form": "bulk_dry",
+    "range": "regional",
+    "coordinates": {
+      "lat": -38,
+      "lon": 143
+    }
+  },
+  {
+    "id": "INTL_ocean_bell-bay-pohang",
+    "tier": "transport",
+    "name": "Ocean: Bell Bay to Pohang, South Korea",
+    "country_iso2": "INTL",
+    "operator_id": "INTL_bulk_shipping",
+    "mode": "ocean_freight",
+    "form": "bulk_dry",
+    "range": "international",
+    "coordinates": {
+      "lat": 10,
+      "lon": 130
+    }
+  },
+  {
+    "id": "INTL_ocean_bell-bay-kashima",
+    "tier": "transport",
+    "name": "Ocean: Bell Bay to Kashima, Japan",
+    "country_iso2": "INTL",
+    "operator_id": "INTL_bulk_shipping",
+    "mode": "ocean_freight",
+    "form": "bulk_dry",
+    "range": "international",
+    "coordinates": {
+      "lat": 10,
+      "lon": 135
+    }
+  },
+  {
+    "id": "ZA_rail_meyerton-vanderbijlpark",
+    "tier": "transport",
+    "name": "Rail: Meyerton to Vanderbijlpark",
+    "country_iso2": "ZA",
+    "operator_id": "ZA_transnet",
+    "mode": "rail",
+    "form": "bulk_dry",
+    "range": "local",
+    "coordinates": {
+      "lat": -26.64,
+      "lon": 27.93
+    }
+  },
+  {
+    "id": "INTL_ocean_durban-intl",
+    "tier": "transport",
+    "name": "Ocean: Durban to International Markets",
+    "country_iso2": "INTL",
+    "operator_id": "INTL_bulk_shipping",
+    "mode": "ocean_freight",
+    "form": "bulk_dry",
+    "range": "international",
+    "coordinates": {
+      "lat": -29.87,
+      "lon": 31.05
+    }
+  },
+  {
+    "id": "CN_rail_tianjin-tangshan",
+    "tier": "transport",
+    "name": "Rail: Tianjin Port to Tangshan/Hebei Steel Region",
+    "country_iso2": "CN",
+    "operator_id": "CN_china_railway",
+    "mode": "rail",
+    "form": "bulk_dry",
+    "range": "regional",
+    "coordinates": {
+      "lat": 39.3,
+      "lon": 118
+    }
+  },
+  {
+    "id": "CN_road_tianjin-chongqing",
+    "tier": "transport",
+    "name": "Road/Rail: Tianjin to Chongqing/Guizhou EMM Zone",
+    "country_iso2": "CN",
+    "operator_id": "CN_china_railway",
+    "mode": "rail",
+    "form": "bulk_dry",
+    "range": "regional",
+    "coordinates": {
+      "lat": 34,
+      "lon": 112
+    }
+  },
+  {
+    "id": "IN_rail_vizag-jamshedpur",
+    "tier": "transport",
+    "name": "Rail: Visakhapatnam to Jamshedpur Steel Belt",
+    "country_iso2": "IN",
+    "operator_id": "IN_indian_railways",
+    "mode": "rail",
+    "form": "bulk_dry",
+    "range": "regional",
+    "coordinates": {
+      "lat": 20.25,
+      "lon": 84.7
+    }
+  },
+  {
+    "id": "INTL_ocean_singapore-global",
+    "tier": "transport",
+    "name": "Ocean: Singapore Hub to Global Destinations",
+    "country_iso2": "INTL",
+    "operator_id": "INTL_bulk_shipping",
+    "mode": "ocean_freight",
+    "form": "bulk_dry",
+    "range": "international",
+    "coordinates": {
+      "lat": 1.26,
+      "lon": 103.84
+    },
+    "resources": [
+      "Magnesium (mineral)"
+    ],
+    "upstream": [],
+    "downstream": []
+  },
+  {
+    "id": "AU_road_port-kembla-western-sydney",
+    "tier": "transport",
+    "name": "Road: Port Kembla to Western Sydney Distribution",
+    "country_iso2": "AU",
+    "operator_id": "AU_road_freight",
+    "mode": "road",
+    "form": "unit_load",
+    "range": "local",
+    "coordinates": {
+      "lat": -34.1,
+      "lon": 150.85
+    }
+  },
+  {
+    "id": "INTL_ocean_port-kembla-se-asia",
+    "tier": "transport",
+    "name": "Ocean: Port Kembla to SE Asia",
+    "country_iso2": "INTL",
+    "operator_id": "INTL_container_shipping",
+    "mode": "ocean_freight",
+    "form": "containerised",
+    "range": "international",
+    "coordinates": {
+      "lat": -15,
+      "lon": 130
+    }
+  },
+  {
+    "id": "AU_rail_whyalla-sydney",
+    "tier": "transport",
+    "name": "Rail: Whyalla to Sydney/National Distribution",
+    "country_iso2": "AU",
+    "operator_id": "AU_aurizon",
+    "mode": "rail",
+    "form": "unit_load",
+    "range": "regional",
+    "coordinates": {
+      "lat": -34,
+      "lon": 145
+    }
+  },
+  {
+    "id": "ZA_road_vanderbijlpark-johannesburg",
+    "tier": "transport",
+    "name": "Road: Vanderbijlpark to Johannesburg Metro",
+    "country_iso2": "ZA",
+    "operator_id": "ZA_road_freight",
+    "mode": "road",
+    "form": "unit_load",
+    "range": "local",
+    "coordinates": {
+      "lat": -26.5,
+      "lon": 27.9
+    }
+  },
+  {
+    "id": "INTL_ocean_durban-rotterdam",
+    "tier": "transport",
+    "name": "Ocean: Durban to Rotterdam",
+    "country_iso2": "INTL",
+    "operator_id": "INTL_bulk_shipping",
+    "mode": "ocean_freight",
+    "form": "bulk_dry",
+    "range": "international",
+    "coordinates": {
+      "lat": 10,
+      "lon": 0
+    }
+  },
+  {
+    "id": "CN_rail_tangshan-domestic",
+    "tier": "transport",
+    "name": "Rail: Tangshan/Hebei to Domestic Distribution",
+    "country_iso2": "CN",
+    "operator_id": "CN_china_railway",
+    "mode": "rail",
+    "form": "unit_load",
+    "range": "regional",
+    "coordinates": {
+      "lat": 36,
+      "lon": 117
+    }
+  },
+  {
+    "id": "CN_rail_tangshan-changchun",
+    "tier": "transport",
+    "name": "Rail: Tangshan to Changchun Auto Region",
+    "country_iso2": "CN",
+    "operator_id": "CN_china_railway",
+    "mode": "rail",
+    "form": "unit_load",
+    "range": "regional",
+    "coordinates": {
+      "lat": 41,
+      "lon": 122
+    }
+  },
+  {
+    "id": "CN_inland_waterway_yangtze-shipyards",
+    "tier": "transport",
+    "name": "Yangtze River Waterway to Shipyards",
+    "country_iso2": "CN",
+    "operator_id": "CN_yangtze_navigation",
+    "mode": "inland_waterway",
+    "form": "bulk_dry",
+    "range": "regional",
+    "coordinates": {
+      "lat": 31,
+      "lon": 121
+    }
+  },
+  {
+    "id": "CN_road_chongqing-changsha",
+    "tier": "transport",
+    "name": "Road/Rail: Chongqing/Guizhou to Changsha Battery Hub",
+    "country_iso2": "CN",
+    "operator_id": "CN_road_freight",
+    "mode": "road",
+    "form": "containerised",
+    "range": "regional",
+    "coordinates": {
+      "lat": 28.5,
+      "lon": 109
+    }
+  },
+  {
+    "id": "CN_road_chongqing-wuhan",
+    "tier": "transport",
+    "name": "Road: Chongqing to Wuhan Special Steel Zone",
+    "country_iso2": "CN",
+    "operator_id": "CN_road_freight",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "regional",
+    "coordinates": {
+      "lat": 30,
+      "lon": 110
+    }
+  },
+  {
+    "id": "IN_rail_jamshedpur-delhi",
+    "tier": "transport",
+    "name": "Rail: Jamshedpur to Delhi/Northern India",
+    "country_iso2": "IN",
+    "operator_id": "IN_indian_railways",
+    "mode": "rail",
+    "form": "unit_load",
+    "range": "regional",
+    "coordinates": {
+      "lat": 25.5,
+      "lon": 82
+    }
+  },
+  {
+    "id": "IN_rail_jamshedpur-chennai",
+    "tier": "transport",
+    "name": "Rail: Jamshedpur to Chennai Auto Corridor",
+    "country_iso2": "IN",
+    "operator_id": "IN_indian_railways",
+    "mode": "rail",
+    "form": "unit_load",
+    "range": "regional",
+    "coordinates": {
+      "lat": 17.5,
+      "lon": 82
+    }
+  },
+  {
+    "id": "INTL_ocean_global-distribution",
+    "tier": "transport",
+    "name": "Ocean: Global Steel Product Distribution",
+    "country_iso2": "INTL",
+    "operator_id": "INTL_container_shipping",
+    "mode": "ocean_freight",
+    "form": "containerised",
+    "range": "international",
+    "coordinates": {
+      "lat": 25,
+      "lon": 140
+    }
+  },
+  {
+    "id": "KR_road_pohang-geoje",
+    "tier": "transport",
+    "name": "Road/Coastal: Pohang to Geoje Shipyards",
+    "country_iso2": "KR",
+    "operator_id": "KR_road_freight",
+    "mode": "road",
+    "form": "unit_load",
+    "range": "regional",
+    "coordinates": {
+      "lat": 35.2,
+      "lon": 129
+    }
+  },
+  {
+    "id": "JP_road_kashima-nagoya",
+    "tier": "transport",
+    "name": "Road/Rail: Kashima to Nagoya Auto Region",
+    "country_iso2": "JP",
+    "operator_id": "JP_road_freight",
+    "mode": "road",
+    "form": "unit_load",
+    "range": "regional",
+    "coordinates": {
+      "lat": 35.5,
+      "lon": 138.5
+    }
+  },
+  {
+    "id": "JP_road_kashima-tokyo",
+    "tier": "transport",
+    "name": "Road: Kashima to Tokyo Metro",
+    "country_iso2": "JP",
+    "operator_id": "JP_road_freight",
+    "mode": "road",
+    "form": "unit_load",
+    "range": "local",
+    "coordinates": {
+      "lat": 35.85,
+      "lon": 140.2
+    }
+  },
+  {
+    "id": "AU_road_western-sydney-metro",
+    "tier": "transport",
+    "name": "Road: Western Sydney to Metro Distribution",
+    "country_iso2": "AU",
+    "operator_id": "AU_road_freight",
+    "mode": "road",
+    "form": "unit_load",
+    "range": "local",
+    "coordinates": {
+      "lat": -33.82,
+      "lon": 150.9
+    }
+  },
+  {
+    "id": "INTL_road_se-asia-distribution",
+    "tier": "transport",
+    "name": "Road: SE Asia Distribution Network",
+    "country_iso2": "INTL",
+    "operator_id": "INTL_road_freight",
+    "mode": "road",
+    "form": "unit_load",
+    "range": "regional",
+    "coordinates": {
+      "lat": 10.76,
+      "lon": 106.66
+    },
+    "resources": [
+      "Potash (brine)"
+    ],
+    "upstream": [],
+    "downstream": []
+  },
+  {
+    "id": "ZA_road_johannesburg-national",
+    "tier": "transport",
+    "name": "Road: Johannesburg National Distribution",
+    "country_iso2": "ZA",
+    "operator_id": "ZA_road_freight",
+    "mode": "road",
+    "form": "unit_load",
+    "range": "regional",
+    "coordinates": {
+      "lat": -26.2,
+      "lon": 28.04
+    }
+  },
+  {
+    "id": "DE_road_duisburg-national",
+    "tier": "transport",
+    "name": "Road: Duisburg/Ruhr to German National Distribution",
+    "country_iso2": "DE",
+    "operator_id": "DE_road_freight",
+    "mode": "road",
+    "form": "unit_load",
+    "range": "regional",
+    "coordinates": {
+      "lat": 51.43,
+      "lon": 6.76
+    }
+  },
+  {
+    "id": "INTL_road_eu-distribution",
+    "tier": "transport",
+    "name": "Road: EU-Wide Distribution",
+    "country_iso2": "INTL",
+    "operator_id": "INTL_road_freight",
+    "mode": "road",
+    "form": "unit_load",
+    "range": "regional",
+    "coordinates": {
+      "lat": 50,
+      "lon": 8
+    }
+  },
+  {
+    "id": "CN_road_changchun-national",
+    "tier": "transport",
+    "name": "Road/Rail: Changchun to National Auto Dealers",
+    "country_iso2": "CN",
+    "operator_id": "CN_road_freight",
+    "mode": "road",
+    "form": "unit_load",
+    "range": "regional",
+    "coordinates": {
+      "lat": 40,
+      "lon": 120
+    }
+  },
+  {
+    "id": "INTL_ocean_shanghai-global-ship-delivery",
+    "tier": "transport",
+    "name": "Ocean: Shanghai Shipyards to Global Delivery",
+    "country_iso2": "INTL",
+    "operator_id": "INTL_ship_delivery",
+    "mode": "ocean_freight",
+    "form": "unit_load",
+    "range": "international",
+    "coordinates": {
+      "lat": 20,
+      "lon": 115
+    }
+  },
+  {
+    "id": "CN_inland_waterway_yangtze-domestic",
+    "tier": "transport",
+    "name": "Yangtze River Domestic Vessel Delivery",
+    "country_iso2": "CN",
+    "operator_id": "CN_yangtze_navigation",
+    "mode": "inland_waterway",
+    "form": "unit_load",
+    "range": "regional",
+    "coordinates": {
+      "lat": 30.5,
+      "lon": 117
+    }
+  },
+  {
+    "id": "CN_road_changsha-shenzhen",
+    "tier": "transport",
+    "name": "Road: Changsha Battery Hub to Shenzhen/Guangdong",
+    "country_iso2": "CN",
+    "operator_id": "CN_road_freight",
+    "mode": "road",
+    "form": "containerised",
+    "range": "regional",
+    "coordinates": {
+      "lat": 25.5,
+      "lon": 113.5
+    }
+  },
+  {
+    "id": "CN_road_wuhan-national",
+    "tier": "transport",
+    "name": "Road: Wuhan to National Specialty Steel Users",
+    "country_iso2": "CN",
+    "operator_id": "CN_road_freight",
+    "mode": "road",
+    "form": "unit_load",
+    "range": "regional",
+    "coordinates": {
+      "lat": 30.58,
+      "lon": 114.27
+    }
+  },
+  {
+    "id": "IN_road_delhi-national",
+    "tier": "transport",
+    "name": "Road: Delhi National Distribution",
+    "country_iso2": "IN",
+    "operator_id": "IN_road_freight",
+    "mode": "road",
+    "form": "unit_load",
+    "range": "regional",
+    "coordinates": {
+      "lat": 28.61,
+      "lon": 77.21
+    }
+  },
+  {
+    "id": "IN_road_chennai-national",
+    "tier": "transport",
+    "name": "Road: Chennai Auto Corridor Distribution",
+    "country_iso2": "IN",
+    "operator_id": "IN_road_freight",
+    "mode": "road",
+    "form": "unit_load",
+    "range": "regional",
+    "coordinates": {
+      "lat": 13.08,
+      "lon": 80.27
+    }
+  },
+  {
+    "id": "INTL_ocean_geoje-global",
+    "tier": "transport",
+    "name": "Ocean: Geoje Shipyard to Global Ship Delivery",
+    "country_iso2": "INTL",
+    "operator_id": "INTL_ship_delivery",
+    "mode": "ocean_freight",
+    "form": "unit_load",
+    "range": "international",
+    "coordinates": {
+      "lat": 30,
+      "lon": 130
+    }
+  },
+  {
+    "id": "JP_road_tokyo-national",
+    "tier": "transport",
+    "name": "Road: Tokyo to National Electronics Distribution",
+    "country_iso2": "JP",
+    "operator_id": "JP_road_freight",
+    "mode": "road",
+    "form": "unit_load",
+    "range": "regional",
+    "coordinates": {
+      "lat": 35.69,
+      "lon": 139.69
+    },
+    "resources": [
+      "Tin",
+      "Mica",
+      "Fish (farmed)",
+      "Shellfish (wild)"
+    ],
+    "upstream": [],
+    "downstream": []
+  },
+  {
+    "id": "INTL_road_global-distribution",
+    "tier": "transport",
+    "name": "Road: Global Final Product Distribution",
+    "country_iso2": "INTL",
+    "operator_id": "INTL_road_freight",
+    "mode": "road",
+    "form": "unit_load",
+    "range": "international",
+    "coordinates": {
+      "lat": 35,
+      "lon": 139
+    }
+  }
+]

@@ -1,0 +1,1713 @@
+[
+  {
+    "id": "AU_century_mine",
+    "name": "Century Mine (Tailings Retreatment)",
+    "tier": "extraction",
+    "country_iso2": "AU",
+    "canonical_company": "New Century Resources",
+    "coordinates": {
+      "lat": -18.638,
+      "lon": 138.622
+    },
+    "downstream": [
+      {
+        "target_id": "AU_sun_metals_townsville",
+        "corridor_id": "AU_road_century-karumba",
+        "resource": "zinc concentrate",
+        "quantity": 40000,
+        "metric": "t"
+      },
+      {
+        "target_id": "KR_korea_zinc_onsan",
+        "corridor_id": "INTL_ocean_townsville-onsan",
+        "resource": "zinc concentrate",
+        "quantity": 60000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Zinc"
+    ]
+  },
+  {
+    "id": "AU_mount_isa_zinc_mine",
+    "name": "Mount Isa Zinc-Lead Mine",
+    "tier": "extraction",
+    "country_iso2": "AU",
+    "canonical_company": "Glencore",
+    "coordinates": {
+      "lat": -20.726,
+      "lon": 139.493
+    },
+    "downstream": [
+      {
+        "target_id": "AU_sun_metals_townsville",
+        "corridor_id": "AU_rail_mount-isa-townsville",
+        "resource": "zinc concentrate",
+        "quantity": 80000,
+        "metric": "t"
+      },
+      {
+        "target_id": "IN_hindustan_zinc_chanderiya",
+        "corridor_id": "INTL_ocean_townsville-tuticorin",
+        "resource": "zinc concentrate",
+        "quantity": 60000,
+        "metric": "t"
+      },
+      {
+        "target_id": "KR_korea_zinc_onsan",
+        "corridor_id": "INTL_ocean_townsville-onsan",
+        "resource": "zinc concentrate",
+        "quantity": 50000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Zinc"
+    ]
+  },
+  {
+    "id": "AU_lady_loretta_mine",
+    "name": "Lady Loretta Mine",
+    "tier": "extraction",
+    "country_iso2": "AU",
+    "canonical_company": "Glencore",
+    "coordinates": {
+      "lat": -20.596,
+      "lon": 139.999
+    },
+    "downstream": [
+      {
+        "target_id": "AU_sun_metals_townsville",
+        "corridor_id": "AU_rail_mount-isa-townsville",
+        "resource": "zinc concentrate",
+        "quantity": 30000,
+        "metric": "t"
+      },
+      {
+        "target_id": "KR_korea_zinc_onsan",
+        "corridor_id": "INTL_ocean_townsville-onsan",
+        "resource": "zinc concentrate",
+        "quantity": 30000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Zinc"
+    ]
+  },
+  {
+    "id": "AU_george_fisher_mine",
+    "name": "George Fisher Mine",
+    "tier": "extraction",
+    "country_iso2": "AU",
+    "canonical_company": "Glencore",
+    "coordinates": {
+      "lat": -20.563,
+      "lon": 139.487
+    },
+    "downstream": [
+      {
+        "target_id": "AU_sun_metals_townsville",
+        "corridor_id": "AU_rail_mount-isa-townsville",
+        "resource": "zinc concentrate",
+        "quantity": 60000,
+        "metric": "t"
+      },
+      {
+        "target_id": "KR_korea_zinc_onsan",
+        "corridor_id": "INTL_ocean_townsville-onsan",
+        "resource": "zinc concentrate",
+        "quantity": 50000,
+        "metric": "t"
+      },
+      {
+        "target_id": "JP_akita_smelter",
+        "corridor_id": "INTL_ocean_townsville-akita",
+        "resource": "zinc concentrate",
+        "quantity": 40000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Zinc"
+    ]
+  },
+  {
+    "id": "AU_mcarthur_river_mine",
+    "name": "McArthur River Mine",
+    "tier": "extraction",
+    "country_iso2": "AU",
+    "canonical_company": "Glencore",
+    "coordinates": {
+      "lat": -16.443,
+      "lon": 136.098
+    },
+    "downstream": [
+      {
+        "target_id": "AU_sun_metals_townsville",
+        "corridor_id": "INTL_ocean_bing-bong-townsville",
+        "resource": "zinc concentrate",
+        "quantity": 50000,
+        "metric": "t"
+      },
+      {
+        "target_id": "KR_korea_zinc_onsan",
+        "corridor_id": "INTL_ocean_bing-bong-onsan",
+        "resource": "zinc concentrate",
+        "quantity": 80000,
+        "metric": "t"
+      },
+      {
+        "target_id": "JP_akita_smelter",
+        "corridor_id": "INTL_ocean_bing-bong-akita",
+        "resource": "zinc concentrate",
+        "quantity": 50000,
+        "metric": "t"
+      },
+      {
+        "target_id": "IN_hindustan_zinc_chanderiya",
+        "corridor_id": "INTL_ocean_bing-bong-tuticorin",
+        "resource": "zinc concentrate",
+        "quantity": 40000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_port_pirie_smelter",
+        "corridor_id": "AU_road_mcarthur-river-bing-bong",
+        "resource": "silver-lead-zinc concentrate",
+        "quantity": 80,
+        "metric": "t"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Zinc",
+      "Silver"
+    ]
+  },
+  {
+    "id": "AU_rosebery_mine",
+    "name": "Rosebery Mine",
+    "tier": "extraction",
+    "country_iso2": "AU",
+    "canonical_company": "MMG",
+    "coordinates": {
+      "lat": -41.775,
+      "lon": 145.536
+    },
+    "downstream": [
+      {
+        "target_id": "AU_nyrstar_hobart",
+        "corridor_id": "AU_road_rosebery-hobart",
+        "resource": "zinc concentrate",
+        "quantity": 70000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_port_pirie_smelter",
+        "corridor_id": "AU_road_rosebery-burnie",
+        "resource": "silver-lead-zinc concentrate",
+        "quantity": 55,
+        "metric": "t"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Zinc",
+      "Silver"
+    ]
+  },
+  {
+    "id": "AU_dugald_river_mine",
+    "name": "Dugald River Mine",
+    "tier": "extraction",
+    "country_iso2": "AU",
+    "canonical_company": "MMG",
+    "coordinates": {
+      "lat": -20.26,
+      "lon": 139.732
+    },
+    "downstream": [
+      {
+        "target_id": "AU_sun_metals_townsville",
+        "corridor_id": "AU_rail_mount-isa-townsville",
+        "resource": "zinc concentrate",
+        "quantity": 50000,
+        "metric": "t"
+      },
+      {
+        "target_id": "KR_korea_zinc_onsan",
+        "corridor_id": "INTL_ocean_townsville-onsan",
+        "resource": "zinc concentrate",
+        "quantity": 70000,
+        "metric": "t"
+      },
+      {
+        "target_id": "JP_akita_smelter",
+        "corridor_id": "INTL_ocean_townsville-akita",
+        "resource": "zinc concentrate",
+        "quantity": 50000,
+        "metric": "t"
+      },
+      {
+        "target_id": "CN_zhuzhou_smelter",
+        "corridor_id": "INTL_ocean_townsville-shanghai",
+        "resource": "zinc concentrate",
+        "quantity": 40000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_port_pirie_smelter",
+        "corridor_id": "AU_rail_dugald-river-townsville",
+        "resource": "zinc-silver concentrate",
+        "quantity": 30,
+        "metric": "t"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Zinc",
+      "Silver"
+    ]
+  },
+  {
+    "id": "AU_golden_grove_mine",
+    "name": "Golden Grove Mine",
+    "tier": "extraction",
+    "country_iso2": "AU",
+    "canonical_company": "29Metals",
+    "coordinates": {
+      "lat": -28.752,
+      "lon": 116.345
+    },
+    "downstream": [
+      {
+        "target_id": "KR_korea_zinc_onsan",
+        "corridor_id": "INTL_ocean_geraldton-onsan",
+        "resource": "zinc concentrate",
+        "quantity": 25000,
+        "metric": "t"
+      },
+      {
+        "target_id": "CN_zhuzhou_smelter",
+        "corridor_id": "INTL_ocean_geraldton-shanghai",
+        "resource": "zinc concentrate",
+        "quantity": 15000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Zinc"
+    ]
+  },
+  {
+    "id": "AU_woodlawn_mine",
+    "name": "Woodlawn Mine",
+    "tier": "extraction",
+    "country_iso2": "AU",
+    "canonical_company": "Develop Global",
+    "coordinates": {
+      "lat": -34.944,
+      "lon": 149.476
+    },
+    "downstream": [
+      {
+        "target_id": "AU_nyrstar_hobart",
+        "corridor_id": "AU_road_woodlawn-port-kembla",
+        "resource": "zinc concentrate",
+        "quantity": 15000,
+        "metric": "t"
+      },
+      {
+        "target_id": "KR_korea_zinc_onsan",
+        "corridor_id": "INTL_ocean_port-kembla-onsan",
+        "resource": "zinc concentrate",
+        "quantity": 10000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Zinc"
+    ]
+  },
+  {
+    "id": "AU_sun_metals_townsville",
+    "name": "Sun Metals Zinc Refinery (Townsville)",
+    "tier": "smelter",
+    "country_iso2": "AU",
+    "canonical_company": "Korea Zinc",
+    "coordinates": {
+      "lat": -19.277,
+      "lon": 146.71
+    },
+    "downstream": [
+      {
+        "target_id": "AU_bluescope_steel",
+        "corridor_id": "AU_road_townsville-domestic",
+        "resource": "refined zinc (SHG ingot)",
+        "quantity": 100000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_galvanising_services",
+        "corridor_id": "AU_road_townsville-domestic",
+        "resource": "refined zinc (SHG ingot)",
+        "quantity": 80000,
+        "metric": "t"
+      },
+      {
+        "target_id": "INTL_zinc_traders",
+        "corridor_id": "INTL_ocean_townsville-intl",
+        "resource": "refined zinc (SHG ingot)",
+        "quantity": 100000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_century_mine",
+      "AU_mount_isa_zinc_mine",
+      "AU_lady_loretta_mine",
+      "AU_george_fisher_mine",
+      "AU_mcarthur_river_mine",
+      "AU_dugald_river_mine"
+    ],
+    "resources": [
+      "Zinc"
+    ]
+  },
+  {
+    "id": "AU_nyrstar_hobart",
+    "name": "Nyrstar Hobart Zinc Smelter",
+    "tier": "smelter",
+    "country_iso2": "AU",
+    "canonical_company": "Nyrstar",
+    "coordinates": {
+      "lat": -42.83,
+      "lon": 147.28
+    },
+    "downstream": [
+      {
+        "target_id": "AU_bluescope_steel",
+        "corridor_id": "AU_ocean_hobart-melbourne",
+        "resource": "refined zinc (SHG ingot)",
+        "quantity": 60000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_galvanising_services",
+        "corridor_id": "AU_ocean_hobart-melbourne",
+        "resource": "refined zinc (SHG ingot)",
+        "quantity": 40000,
+        "metric": "t"
+      },
+      {
+        "target_id": "INTL_zinc_traders",
+        "corridor_id": "INTL_ocean_hobart-intl",
+        "resource": "refined zinc (SHG ingot)",
+        "quantity": 150000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_rosebery_mine",
+      "AU_woodlawn_mine"
+    ],
+    "resources": [
+      "Zinc"
+    ]
+  },
+  {
+    "id": "KR_korea_zinc_onsan",
+    "name": "Korea Zinc Onsan Smelter",
+    "tier": "smelter",
+    "country_iso2": "KR",
+    "canonical_company": "Korea Zinc",
+    "coordinates": {
+      "lat": 35.504,
+      "lon": 129.358
+    },
+    "downstream": [
+      {
+        "target_id": "KR_hyundai_steel",
+        "corridor_id": "KR_road_onsan-pohang",
+        "resource": "refined zinc (SHG ingot)",
+        "quantity": 150000,
+        "metric": "t"
+      },
+      {
+        "target_id": "CN_galvanising_fabricators",
+        "corridor_id": "INTL_ocean_onsan-shanghai",
+        "resource": "refined zinc (SHG ingot)",
+        "quantity": 100000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_century_mine",
+      "AU_mount_isa_zinc_mine",
+      "AU_lady_loretta_mine",
+      "AU_george_fisher_mine",
+      "AU_mcarthur_river_mine",
+      "AU_dugald_river_mine",
+      "AU_golden_grove_mine",
+      "AU_woodlawn_mine"
+    ],
+    "resources": [
+      "Zinc"
+    ]
+  },
+  {
+    "id": "JP_akita_smelter",
+    "name": "Akita Zinc Smelter",
+    "tier": "smelter",
+    "country_iso2": "JP",
+    "canonical_company": "Dowa Holdings",
+    "coordinates": {
+      "lat": 39.896,
+      "lon": 140.069
+    },
+    "downstream": [
+      {
+        "target_id": "JP_jfe_steel",
+        "corridor_id": "JP_road_akita-domestic",
+        "resource": "refined zinc (SHG ingot)",
+        "quantity": 80000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_george_fisher_mine",
+      "AU_mcarthur_river_mine",
+      "AU_dugald_river_mine"
+    ],
+    "resources": [
+      "Zinc"
+    ]
+  },
+  {
+    "id": "IN_hindustan_zinc_chanderiya",
+    "name": "Hindustan Zinc Chanderiya Smelter",
+    "tier": "smelter",
+    "country_iso2": "IN",
+    "canonical_company": "Hindustan Zinc",
+    "coordinates": {
+      "lat": 24.728,
+      "lon": 74.762
+    },
+    "downstream": [
+      {
+        "target_id": "IN_tata_steel_galvanising",
+        "corridor_id": "IN_rail_chanderiya-jamshedpur",
+        "resource": "refined zinc (SHG ingot)",
+        "quantity": 60000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_mount_isa_zinc_mine",
+      "AU_mcarthur_river_mine"
+    ],
+    "resources": [
+      "Zinc"
+    ]
+  },
+  {
+    "id": "CN_zhuzhou_smelter",
+    "name": "Zhuzhou Smelter Group",
+    "tier": "smelter",
+    "country_iso2": "CN",
+    "canonical_company": "Zhuzhou Smelter Group",
+    "coordinates": {
+      "lat": 27.833,
+      "lon": 113.133
+    },
+    "downstream": [
+      {
+        "target_id": "CN_galvanising_fabricators",
+        "corridor_id": "CN_road_zhuzhou-domestic",
+        "resource": "refined zinc (SHG ingot)",
+        "quantity": 40000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_dugald_river_mine",
+      "AU_golden_grove_mine"
+    ],
+    "resources": [
+      "Zinc"
+    ]
+  },
+  {
+    "id": "INTL_zinc_traders",
+    "name": "International Zinc Metal Traders (Glencore, Trafigura et al.)",
+    "tier": "smelter",
+    "country_iso2": "INTL",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": 51.507,
+      "lon": -0.128
+    },
+    "downstream": [
+      {
+        "target_id": "CN_galvanising_fabricators",
+        "corridor_id": "INTL_ocean_lme-shanghai",
+        "resource": "refined zinc (SHG ingot)",
+        "quantity": 120000,
+        "metric": "t"
+      },
+      {
+        "target_id": "KR_hyundai_steel",
+        "corridor_id": "INTL_ocean_lme-busan",
+        "resource": "refined zinc (SHG ingot)",
+        "quantity": 60000,
+        "metric": "t"
+      },
+      {
+        "target_id": "IN_tata_steel_galvanising",
+        "corridor_id": "INTL_ocean_lme-mumbai",
+        "resource": "refined zinc (SHG ingot)",
+        "quantity": 70000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_sun_metals_townsville",
+      "AU_nyrstar_hobart"
+    ],
+    "resources": [
+      "Zinc"
+    ]
+  },
+  {
+    "id": "AU_galvanising_services",
+    "name": "Australian Hot-Dip Galvanising Services (Galvatech, InfraBuild etc.)",
+    "tier": "semi_fabricator",
+    "country_iso2": "AU",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": -33.868,
+      "lon": 151.209
+    },
+    "downstream": [
+      {
+        "target_id": "AU_steel_distributors",
+        "corridor_id": "AU_road_sydney-domestic",
+        "resource": "hot-dip galvanised structural steel",
+        "quantity": 70000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_infrastructure_fabricators",
+        "corridor_id": "AU_road_sydney-domestic",
+        "resource": "galvanised steel products",
+        "quantity": 50000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_sun_metals_townsville",
+      "AU_nyrstar_hobart"
+    ],
+    "resources": [
+      "Zinc"
+    ]
+  },
+  {
+    "id": "KR_hyundai_steel",
+    "name": "Hyundai Steel Galvanising Works",
+    "tier": "semi_fabricator",
+    "country_iso2": "KR",
+    "canonical_company": "Hyundai Steel",
+    "coordinates": {
+      "lat": 36.035,
+      "lon": 129.365
+    },
+    "downstream": [
+      {
+        "target_id": "KR_hyundai_motor",
+        "corridor_id": "KR_road_pohang-ulsan",
+        "resource": "galvanised auto-grade steel sheet",
+        "quantity": 130000,
+        "metric": "t"
+      },
+      {
+        "target_id": "KR_samsung_engineering",
+        "corridor_id": "KR_road_pohang-domestic",
+        "resource": "galvanised structural steel",
+        "quantity": 80000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "KR_korea_zinc_onsan",
+      "INTL_zinc_traders"
+    ],
+    "resources": [
+      "Zinc"
+    ]
+  },
+  {
+    "id": "CN_galvanising_fabricators",
+    "name": "China Galvanised Steel & Zinc Alloy Fabricators",
+    "tier": "semi_fabricator",
+    "country_iso2": "CN",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": 31.23,
+      "lon": 121.474
+    },
+    "downstream": [
+      {
+        "target_id": "CN_byd_auto",
+        "corridor_id": "CN_road_shanghai-shenzhen",
+        "resource": "galvanised auto steel sheet",
+        "quantity": 80000,
+        "metric": "t"
+      },
+      {
+        "target_id": "CN_construction_material_mfg",
+        "corridor_id": "CN_road_shanghai-domestic",
+        "resource": "galvanised steel products",
+        "quantity": 120000,
+        "metric": "t"
+      },
+      {
+        "target_id": "CN_zinc_die_casting_sector",
+        "corridor_id": "CN_road_shanghai-dongguan",
+        "resource": "zinc alloy ingots (Zamak)",
+        "quantity": 60000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "KR_korea_zinc_onsan",
+      "CN_zhuzhou_smelter",
+      "INTL_zinc_traders"
+    ],
+    "resources": [
+      "Zinc"
+    ]
+  },
+  {
+    "id": "IN_tata_steel_galvanising",
+    "name": "Tata Steel Galvanising Lines (Jamshedpur)",
+    "tier": "semi_fabricator",
+    "country_iso2": "IN",
+    "canonical_company": "Tata Steel",
+    "coordinates": {
+      "lat": 22.802,
+      "lon": 86.203
+    },
+    "downstream": [
+      {
+        "target_id": "IN_maruti_suzuki",
+        "corridor_id": "IN_rail_jamshedpur-gurgaon",
+        "resource": "galvanised auto steel sheet",
+        "quantity": 50000,
+        "metric": "t"
+      },
+      {
+        "target_id": "IN_construction_material_mfg",
+        "corridor_id": "IN_road_jamshedpur-domestic",
+        "resource": "galvanised structural steel",
+        "quantity": 80000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "IN_hindustan_zinc_chanderiya",
+      "INTL_zinc_traders"
+    ],
+    "resources": [
+      "Zinc"
+    ]
+  },
+  {
+    "id": "AU_lysaght_building",
+    "name": "Lysaght Building Products (BlueScope subsidiary)",
+    "tier": "manufacturer",
+    "country_iso2": "AU",
+    "canonical_company": "BlueScope Steel",
+    "coordinates": {
+      "lat": -33.95,
+      "lon": 151.05
+    },
+    "downstream": [
+      {
+        "target_id": "AU_residential",
+        "corridor_id": "AU_road_sydney-metro",
+        "resource": "galvanised steel roofing, cladding, framing",
+        "quantity": 50000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_commercial",
+        "corridor_id": "AU_road_sydney-metro",
+        "resource": "galvanised steel building products",
+        "quantity": 30000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_agricultural",
+        "corridor_id": "AU_road_sydney-regional",
+        "resource": "galvanised steel fencing, sheds, tanks",
+        "quantity": 20000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_bluescope_steel"
+    ],
+    "resources": [
+      "Zinc"
+    ]
+  },
+  {
+    "id": "AU_steel_distributors",
+    "name": "Australian Steel Distributors (InfraBuild, Metalcorp etc.)",
+    "tier": "manufacturer",
+    "country_iso2": "AU",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": -37.814,
+      "lon": 144.963
+    },
+    "downstream": [
+      {
+        "target_id": "AU_infrastructure",
+        "corridor_id": "AU_road_melbourne-domestic",
+        "resource": "galvanised steel structural sections",
+        "quantity": 60000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_industrial",
+        "corridor_id": "AU_road_melbourne-domestic",
+        "resource": "galvanised steel products",
+        "quantity": 40000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_residential",
+        "corridor_id": "AU_road_melbourne-domestic",
+        "resource": "galvanised steel products for housing",
+        "quantity": 30000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_bluescope_steel",
+      "AU_galvanising_services"
+    ],
+    "resources": [
+      "Zinc"
+    ]
+  },
+  {
+    "id": "AU_infrastructure_fabricators",
+    "name": "Australian Infrastructure Steel Fabricators",
+    "tier": "manufacturer",
+    "country_iso2": "AU",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": -27.468,
+      "lon": 153.028
+    },
+    "downstream": [
+      {
+        "target_id": "AU_infrastructure",
+        "corridor_id": "AU_road_brisbane-domestic",
+        "resource": "galvanised guardrails, poles, transmission towers",
+        "quantity": 30000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_government",
+        "corridor_id": "AU_road_brisbane-domestic",
+        "resource": "galvanised public infrastructure components",
+        "quantity": 20000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_galvanising_services"
+    ],
+    "resources": [
+      "Zinc"
+    ]
+  },
+  {
+    "id": "KR_samsung_engineering",
+    "name": "Samsung Engineering / Korean Construction Sector",
+    "tier": "manufacturer",
+    "country_iso2": "KR",
+    "canonical_company": "Samsung Engineering",
+    "coordinates": {
+      "lat": 37.566,
+      "lon": 126.978
+    },
+    "downstream": [
+      {
+        "target_id": "KR_infrastructure",
+        "corridor_id": "KR_road_seoul-domestic",
+        "resource": "galvanised steel construction components",
+        "quantity": 50000,
+        "metric": "t"
+      },
+      {
+        "target_id": "KR_commercial",
+        "corridor_id": "KR_road_seoul-domestic",
+        "resource": "galvanised steel for commercial buildings",
+        "quantity": 30000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "KR_hyundai_steel"
+    ],
+    "resources": [
+      "Zinc"
+    ]
+  },
+  {
+    "id": "CN_byd_auto",
+    "name": "BYD Auto (Zinc in Body & Battery Components)",
+    "tier": "manufacturer",
+    "country_iso2": "CN",
+    "canonical_company": "BYD",
+    "coordinates": {
+      "lat": 22.647,
+      "lon": 114.028
+    },
+    "downstream": [
+      {
+        "target_id": "CN_residential",
+        "corridor_id": "CN_road_shenzhen-domestic",
+        "resource": "passenger vehicles (zinc content)",
+        "quantity": 50000,
+        "metric": "t"
+      },
+      {
+        "target_id": "INTL_commercial",
+        "corridor_id": "INTL_ocean_shenzhen-global",
+        "resource": "exported vehicles (zinc content)",
+        "quantity": 30000,
+        "metric": "t"
+      },
+      {
+        "target_id": "CN_residential",
+        "corridor_id": "CN_road_byd-cn-distribution",
+        "resource": "electric vehicles",
+        "quantity": 250,
+        "metric": "t"
+      },
+      {
+        "target_id": "INTL_residential",
+        "corridor_id": "INTL_ocean_shenzhen-global",
+        "resource": "electric vehicles",
+        "quantity": 150,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "CN_galvanising_fabricators",
+      "CN_byd_battery"
+    ],
+    "resources": [
+      "Zinc",
+      "Cobalt"
+    ]
+  },
+  {
+    "id": "CN_construction_material_mfg",
+    "name": "Chinese Construction Material Manufacturers",
+    "tier": "manufacturer",
+    "country_iso2": "CN",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": 30.59,
+      "lon": 114.305
+    },
+    "downstream": [
+      {
+        "target_id": "CN_infrastructure",
+        "corridor_id": "CN_road_wuhan-domestic",
+        "resource": "galvanised steel infrastructure products",
+        "quantity": 70000,
+        "metric": "t"
+      },
+      {
+        "target_id": "CN_residential",
+        "corridor_id": "CN_road_wuhan-domestic",
+        "resource": "galvanised steel building products",
+        "quantity": 50000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "CN_galvanising_fabricators"
+    ],
+    "resources": [
+      "Zinc"
+    ]
+  },
+  {
+    "id": "CN_zinc_die_casting_sector",
+    "name": "Chinese Zinc Die Casting Manufacturers",
+    "tier": "manufacturer",
+    "country_iso2": "CN",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": 23.02,
+      "lon": 113.752
+    },
+    "downstream": [
+      {
+        "target_id": "CN_industrial",
+        "corridor_id": "CN_road_dongguan-domestic",
+        "resource": "zinc die cast components (hardware, electronics housings)",
+        "quantity": 35000,
+        "metric": "t"
+      },
+      {
+        "target_id": "INTL_commercial",
+        "corridor_id": "INTL_ocean_shenzhen-global",
+        "resource": "zinc die cast products for export",
+        "quantity": 25000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "CN_galvanising_fabricators"
+    ],
+    "resources": [
+      "Zinc"
+    ]
+  },
+  {
+    "id": "JP_construction_mfg",
+    "name": "Japanese Construction & Infrastructure Manufacturers",
+    "tier": "manufacturer",
+    "country_iso2": "JP",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": 35.682,
+      "lon": 139.759
+    },
+    "downstream": [
+      {
+        "target_id": "JP_infrastructure",
+        "corridor_id": "JP_road_tokyo-domestic",
+        "resource": "galvanised steel infrastructure components",
+        "quantity": 20000,
+        "metric": "t"
+      },
+      {
+        "target_id": "JP_commercial",
+        "corridor_id": "JP_road_tokyo-domestic",
+        "resource": "galvanised steel building products",
+        "quantity": 10000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "JP_jfe_steel"
+    ],
+    "resources": [
+      "Zinc"
+    ]
+  },
+  {
+    "id": "IN_maruti_suzuki",
+    "name": "Maruti Suzuki India",
+    "tier": "manufacturer",
+    "country_iso2": "IN",
+    "canonical_company": "Maruti Suzuki",
+    "coordinates": {
+      "lat": 28.459,
+      "lon": 76.99
+    },
+    "downstream": [
+      {
+        "target_id": "IN_residential",
+        "corridor_id": "IN_road_gurgaon-domestic",
+        "resource": "passenger vehicles (zinc in body panels)",
+        "quantity": 30000,
+        "metric": "t"
+      },
+      {
+        "target_id": "INTL_commercial",
+        "corridor_id": "INTL_ocean_mumbai-global",
+        "resource": "exported vehicles (zinc content)",
+        "quantity": 20000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "IN_tata_steel_galvanising"
+    ],
+    "resources": [
+      "Zinc"
+    ]
+  },
+  {
+    "id": "IN_construction_material_mfg",
+    "name": "Indian Construction Material Manufacturers",
+    "tier": "manufacturer",
+    "country_iso2": "IN",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": 19.076,
+      "lon": 72.878
+    },
+    "downstream": [
+      {
+        "target_id": "IN_infrastructure",
+        "corridor_id": "IN_road_mumbai-domestic",
+        "resource": "galvanised steel infrastructure products",
+        "quantity": 50000,
+        "metric": "t"
+      },
+      {
+        "target_id": "IN_residential",
+        "corridor_id": "IN_road_mumbai-domestic",
+        "resource": "galvanised steel building products",
+        "quantity": 30000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "IN_tata_steel_galvanising"
+    ],
+    "resources": [
+      "Zinc"
+    ]
+  },
+  {
+    "id": "AU_road_century-karumba",
+    "tier": "transport",
+    "name": "Road: Century Mine to Karumba/Townsville Port",
+    "country_iso2": "AU",
+    "operator_id": "AU_century_logistics",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "regional",
+    "coordinates": {
+      "lat": -18.2,
+      "lon": 140.5
+    }
+  },
+  {
+    "id": "AU_road_rosebery-hobart",
+    "tier": "transport",
+    "name": "Road: Rosebery to Hobart Zinc Smelter",
+    "country_iso2": "AU",
+    "operator_id": "AU_toll_group",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "regional",
+    "coordinates": {
+      "lat": -42.2,
+      "lon": 146.2
+    }
+  },
+  {
+    "id": "AU_road_woodlawn-port-kembla",
+    "tier": "transport",
+    "name": "Road: Woodlawn Mine to Port Kembla",
+    "country_iso2": "AU",
+    "operator_id": "AU_linfox",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "regional",
+    "coordinates": {
+      "lat": -34.6,
+      "lon": 150.1
+    }
+  },
+  {
+    "id": "INTL_ocean_townsville-onsan",
+    "tier": "transport",
+    "name": "Ocean: Townsville → Onsan (South Korea)",
+    "country_iso2": "INTL",
+    "operator_id": "INTL_bulk_shipping",
+    "mode": "ocean_freight",
+    "form": "bulk_dry",
+    "range": "international",
+    "coordinates": {
+      "lat": 5,
+      "lon": 135
+    },
+    "resources": [
+      "Lead"
+    ],
+    "upstream": [],
+    "downstream": []
+  },
+  {
+    "id": "INTL_ocean_townsville-tuticorin",
+    "tier": "transport",
+    "name": "Ocean: Townsville → Tuticorin (India)",
+    "country_iso2": "INTL",
+    "operator_id": "INTL_bulk_shipping",
+    "mode": "ocean_freight",
+    "form": "bulk_dry",
+    "range": "international",
+    "coordinates": {
+      "lat": 0,
+      "lon": 110
+    }
+  },
+  {
+    "id": "INTL_ocean_townsville-akita",
+    "tier": "transport",
+    "name": "Ocean: Townsville → Akita (Japan)",
+    "country_iso2": "INTL",
+    "operator_id": "INTL_bulk_shipping",
+    "mode": "ocean_freight",
+    "form": "bulk_dry",
+    "range": "international",
+    "coordinates": {
+      "lat": 10,
+      "lon": 140
+    }
+  },
+  {
+    "id": "INTL_ocean_bing-bong-townsville",
+    "tier": "transport",
+    "name": "Ocean: Bing Bong → Townsville",
+    "country_iso2": "AU",
+    "operator_id": "AU_sea_swift",
+    "mode": "ocean_freight",
+    "form": "bulk_dry",
+    "range": "regional",
+    "coordinates": {
+      "lat": -17.5,
+      "lon": 140
+    }
+  },
+  {
+    "id": "INTL_ocean_bing-bong-onsan",
+    "tier": "transport",
+    "name": "Ocean: Bing Bong → Onsan (South Korea)",
+    "country_iso2": "INTL",
+    "operator_id": "INTL_bulk_shipping",
+    "mode": "ocean_freight",
+    "form": "bulk_dry",
+    "range": "international",
+    "coordinates": {
+      "lat": 0,
+      "lon": 130
+    }
+  },
+  {
+    "id": "INTL_ocean_bing-bong-akita",
+    "tier": "transport",
+    "name": "Ocean: Bing Bong → Akita (Japan)",
+    "country_iso2": "INTL",
+    "operator_id": "INTL_bulk_shipping",
+    "mode": "ocean_freight",
+    "form": "bulk_dry",
+    "range": "international",
+    "coordinates": {
+      "lat": 5,
+      "lon": 138
+    }
+  },
+  {
+    "id": "INTL_ocean_bing-bong-tuticorin",
+    "tier": "transport",
+    "name": "Ocean: Bing Bong → Tuticorin (India)",
+    "country_iso2": "INTL",
+    "operator_id": "INTL_bulk_shipping",
+    "mode": "ocean_freight",
+    "form": "bulk_dry",
+    "range": "international",
+    "coordinates": {
+      "lat": -5,
+      "lon": 115
+    }
+  },
+  {
+    "id": "INTL_ocean_geraldton-onsan",
+    "tier": "transport",
+    "name": "Ocean: Geraldton → Onsan",
+    "country_iso2": "INTL",
+    "operator_id": "INTL_bulk_shipping",
+    "mode": "ocean_freight",
+    "form": "bulk_dry",
+    "range": "international",
+    "coordinates": {
+      "lat": -10,
+      "lon": 120
+    }
+  },
+  {
+    "id": "AU_road_townsville-domestic",
+    "tier": "transport",
+    "name": "Road: Sun Metals Townsville to Domestic Customers",
+    "country_iso2": "AU",
+    "operator_id": "AU_toll_group",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "regional",
+    "coordinates": {
+      "lat": -23,
+      "lon": 149
+    },
+    "resources": [
+      "Mineral-Bearing Land"
+    ],
+    "upstream": [],
+    "downstream": []
+  },
+  {
+    "id": "INTL_ocean_townsville-intl",
+    "tier": "transport",
+    "name": "Ocean: Townsville → International (LME warehouses, Asia)",
+    "country_iso2": "INTL",
+    "operator_id": "INTL_bulk_shipping",
+    "mode": "ocean_freight",
+    "form": "bulk_dry",
+    "range": "international",
+    "coordinates": {
+      "lat": -5,
+      "lon": 135
+    }
+  },
+  {
+    "id": "AU_ocean_hobart-melbourne",
+    "tier": "transport",
+    "name": "Coastal Shipping: Hobart → Melbourne",
+    "country_iso2": "AU",
+    "operator_id": "AU_toll_shipping",
+    "mode": "ocean_freight",
+    "form": "bulk_dry",
+    "range": "regional",
+    "coordinates": {
+      "lat": -40.5,
+      "lon": 146
+    },
+    "resources": [
+      "Shellfish (wild)"
+    ],
+    "upstream": [],
+    "downstream": []
+  },
+  {
+    "id": "INTL_ocean_hobart-intl",
+    "tier": "transport",
+    "name": "Ocean: Hobart → International Ports (Asia, Europe)",
+    "country_iso2": "INTL",
+    "operator_id": "INTL_bulk_shipping",
+    "mode": "ocean_freight",
+    "form": "bulk_dry",
+    "range": "international",
+    "coordinates": {
+      "lat": -30,
+      "lon": 140
+    }
+  },
+  {
+    "id": "KR_road_onsan-pohang",
+    "tier": "transport",
+    "name": "Road: Onsan → Pohang (Hyundai Steel)",
+    "country_iso2": "KR",
+    "operator_id": "KR_hanjin_logistics",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "local",
+    "coordinates": {
+      "lat": 35.8,
+      "lon": 129.35
+    }
+  },
+  {
+    "id": "INTL_ocean_onsan-shanghai",
+    "tier": "transport",
+    "name": "Ocean: Onsan → Shanghai",
+    "country_iso2": "INTL",
+    "operator_id": "INTL_bulk_shipping",
+    "mode": "ocean_freight",
+    "form": "bulk_dry",
+    "range": "international",
+    "coordinates": {
+      "lat": 33,
+      "lon": 125
+    }
+  },
+  {
+    "id": "JP_road_akita-domestic",
+    "tier": "transport",
+    "name": "Road/Rail: Akita Smelter → Domestic Steel Mills",
+    "country_iso2": "JP",
+    "operator_id": "JP_nippon_express",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "regional",
+    "coordinates": {
+      "lat": 37,
+      "lon": 139.5
+    }
+  },
+  {
+    "id": "IN_rail_chanderiya-jamshedpur",
+    "tier": "transport",
+    "name": "Rail: Chanderiya → Jamshedpur (Tata Steel)",
+    "country_iso2": "IN",
+    "operator_id": "IN_indian_railways",
+    "mode": "rail",
+    "form": "bulk_dry",
+    "range": "regional",
+    "coordinates": {
+      "lat": 23.5,
+      "lon": 80
+    }
+  },
+  {
+    "id": "CN_road_zhuzhou-domestic",
+    "tier": "transport",
+    "name": "Road: Zhuzhou → Domestic Fabricators",
+    "country_iso2": "CN",
+    "operator_id": "CN_sinotrans",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "regional",
+    "coordinates": {
+      "lat": 28.5,
+      "lon": 113.5
+    }
+  },
+  {
+    "id": "INTL_ocean_lme-shanghai",
+    "tier": "transport",
+    "name": "Ocean: LME Warehouses → Shanghai",
+    "country_iso2": "INTL",
+    "operator_id": "INTL_maersk",
+    "mode": "ocean_freight",
+    "form": "containerised",
+    "range": "international",
+    "coordinates": {
+      "lat": 15,
+      "lon": 100
+    }
+  },
+  {
+    "id": "INTL_ocean_lme-busan",
+    "tier": "transport",
+    "name": "Ocean: LME Warehouses → Busan",
+    "country_iso2": "INTL",
+    "operator_id": "INTL_maersk",
+    "mode": "ocean_freight",
+    "form": "containerised",
+    "range": "international",
+    "coordinates": {
+      "lat": 20,
+      "lon": 120
+    }
+  },
+  {
+    "id": "INTL_ocean_lme-mumbai",
+    "tier": "transport",
+    "name": "Ocean: LME Warehouses → Mumbai",
+    "country_iso2": "INTL",
+    "operator_id": "INTL_maersk",
+    "mode": "ocean_freight",
+    "form": "containerised",
+    "range": "international",
+    "coordinates": {
+      "lat": 10,
+      "lon": 75
+    }
+  },
+  {
+    "id": "AU_road_sydney-domestic",
+    "tier": "transport",
+    "name": "Road: Sydney / SE Australia Distribution",
+    "country_iso2": "AU",
+    "operator_id": "AU_linfox",
+    "mode": "road",
+    "form": "unit_load",
+    "range": "regional",
+    "coordinates": {
+      "lat": -33.8,
+      "lon": 151
+    },
+    "resources": [
+      "Platinum Group Metals",
+      "Quartz"
+    ],
+    "upstream": [],
+    "downstream": []
+  },
+  {
+    "id": "KR_road_pohang-domestic",
+    "tier": "transport",
+    "name": "Road: Pohang → Korean Domestic",
+    "country_iso2": "KR",
+    "operator_id": "KR_hanjin_logistics",
+    "mode": "road",
+    "form": "unit_load",
+    "range": "regional",
+    "coordinates": {
+      "lat": 36.5,
+      "lon": 128
+    }
+  },
+  {
+    "id": "CN_road_shanghai-shenzhen",
+    "tier": "transport",
+    "name": "Road/Rail: Shanghai → Shenzhen (BYD)",
+    "country_iso2": "CN",
+    "operator_id": "CN_sinotrans",
+    "mode": "road",
+    "form": "unit_load",
+    "range": "regional",
+    "coordinates": {
+      "lat": 27,
+      "lon": 117
+    }
+  },
+  {
+    "id": "CN_road_shanghai-dongguan",
+    "tier": "transport",
+    "name": "Road: Shanghai → Dongguan (Die Casting Hub)",
+    "country_iso2": "CN",
+    "operator_id": "CN_sinotrans",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "regional",
+    "coordinates": {
+      "lat": 26,
+      "lon": 116
+    }
+  },
+  {
+    "id": "JP_road_chita-toyota-city",
+    "tier": "transport",
+    "name": "Road: JFE Chita Works → Toyota City",
+    "country_iso2": "JP",
+    "operator_id": "JP_nippon_express",
+    "mode": "road",
+    "form": "unit_load",
+    "range": "local",
+    "coordinates": {
+      "lat": 35,
+      "lon": 137
+    }
+  },
+  {
+    "id": "JP_road_chita-domestic",
+    "tier": "transport",
+    "name": "Road: JFE Chita Works → Japanese Domestic",
+    "country_iso2": "JP",
+    "operator_id": "JP_nippon_express",
+    "mode": "road",
+    "form": "unit_load",
+    "range": "regional",
+    "coordinates": {
+      "lat": 35.5,
+      "lon": 137.5
+    }
+  },
+  {
+    "id": "IN_rail_jamshedpur-gurgaon",
+    "tier": "transport",
+    "name": "Rail: Jamshedpur → Gurgaon (Maruti Suzuki)",
+    "country_iso2": "IN",
+    "operator_id": "IN_indian_railways",
+    "mode": "rail",
+    "form": "unit_load",
+    "range": "regional",
+    "coordinates": {
+      "lat": 25.5,
+      "lon": 82
+    }
+  },
+  {
+    "id": "IN_road_jamshedpur-domestic",
+    "tier": "transport",
+    "name": "Road: Jamshedpur → Indian Domestic",
+    "country_iso2": "IN",
+    "operator_id": "IN_transport_corp",
+    "mode": "road",
+    "form": "unit_load",
+    "range": "regional",
+    "coordinates": {
+      "lat": 22,
+      "lon": 84
+    }
+  },
+  {
+    "id": "AU_road_sydney-metro",
+    "tier": "transport",
+    "name": "Road: Sydney Metro Distribution",
+    "country_iso2": "AU",
+    "operator_id": "AU_linfox",
+    "mode": "road",
+    "form": "unit_load",
+    "range": "local",
+    "coordinates": {
+      "lat": -33.87,
+      "lon": 151.2
+    },
+    "resources": [
+      "Silver",
+      "Feldspar",
+      "Fiber-Crops",
+      "Magnesium (mineral)",
+      "Oxygen"
+    ],
+    "upstream": [],
+    "downstream": []
+  },
+  {
+    "id": "AU_road_sydney-regional",
+    "tier": "transport",
+    "name": "Road: Sydney → Regional Australia",
+    "country_iso2": "AU",
+    "operator_id": "AU_toll_group",
+    "mode": "road",
+    "form": "unit_load",
+    "range": "regional",
+    "coordinates": {
+      "lat": -32,
+      "lon": 149
+    },
+    "resources": [
+      "Barite"
+    ],
+    "upstream": [],
+    "downstream": []
+  },
+  {
+    "id": "AU_road_melbourne-domestic",
+    "tier": "transport",
+    "name": "Road: Melbourne → Australian Domestic",
+    "country_iso2": "AU",
+    "operator_id": "AU_toll_group",
+    "mode": "road",
+    "form": "unit_load",
+    "range": "regional",
+    "coordinates": {
+      "lat": -37,
+      "lon": 145
+    },
+    "resources": [
+      "Platinum Group Metals"
+    ],
+    "upstream": [],
+    "downstream": []
+  },
+  {
+    "id": "AU_road_brisbane-domestic",
+    "tier": "transport",
+    "name": "Road: Brisbane → Australian Domestic",
+    "country_iso2": "AU",
+    "operator_id": "AU_linfox",
+    "mode": "road",
+    "form": "unit_load",
+    "range": "regional",
+    "coordinates": {
+      "lat": -27.5,
+      "lon": 153
+    },
+    "resources": [
+      "Quartz"
+    ],
+    "upstream": [],
+    "downstream": []
+  },
+  {
+    "id": "KR_road_seoul-domestic",
+    "tier": "transport",
+    "name": "Road: Seoul Metropolitan Distribution",
+    "country_iso2": "KR",
+    "operator_id": "KR_hanjin_logistics",
+    "mode": "road",
+    "form": "unit_load",
+    "range": "regional",
+    "coordinates": {
+      "lat": 37.5,
+      "lon": 127
+    }
+  },
+  {
+    "id": "CN_road_wuhan-domestic",
+    "tier": "transport",
+    "name": "Road: Wuhan → Chinese Domestic",
+    "country_iso2": "CN",
+    "operator_id": "CN_sinotrans",
+    "mode": "road",
+    "form": "unit_load",
+    "range": "regional",
+    "coordinates": {
+      "lat": 30,
+      "lon": 114.5
+    }
+  },
+  {
+    "id": "CN_road_dongguan-domestic",
+    "tier": "transport",
+    "name": "Road: Dongguan → Chinese Domestic",
+    "country_iso2": "CN",
+    "operator_id": "CN_sinotrans",
+    "mode": "road",
+    "form": "unit_load",
+    "range": "local",
+    "coordinates": {
+      "lat": 23.05,
+      "lon": 113.8
+    }
+  },
+  {
+    "id": "IN_road_gurgaon-domestic",
+    "tier": "transport",
+    "name": "Road: Gurgaon → Indian Domestic Dealers",
+    "country_iso2": "IN",
+    "operator_id": "IN_transport_corp",
+    "mode": "road",
+    "form": "unit_load",
+    "range": "regional",
+    "coordinates": {
+      "lat": 26,
+      "lon": 78
+    }
+  },
+  {
+    "id": "INTL_ocean_mumbai-global",
+    "tier": "transport",
+    "name": "Ocean: Mumbai → Global Markets (Vehicle Export)",
+    "country_iso2": "INTL",
+    "operator_id": "INTL_maersk",
+    "mode": "ocean_freight",
+    "form": "unit_load",
+    "range": "international",
+    "coordinates": {
+      "lat": 15,
+      "lon": 65
+    }
+  },
+  {
+    "id": "IN_road_mumbai-domestic",
+    "tier": "transport",
+    "name": "Road: Mumbai → Indian Domestic",
+    "country_iso2": "IN",
+    "operator_id": "IN_transport_corp",
+    "mode": "road",
+    "form": "unit_load",
+    "range": "regional",
+    "coordinates": {
+      "lat": 20,
+      "lon": 75
+    }
+  }
+]

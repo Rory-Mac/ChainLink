@@ -1,0 +1,1093 @@
+[
+  {
+    "id": "AU_imerys_three_springs",
+    "name": "Imerys Three Springs Talc Mine",
+    "tier": "extraction",
+    "country_iso2": "AU",
+    "canonical_company": "Imerys",
+    "coordinates": {
+      "lat": -29.53,
+      "lon": 115.76
+    },
+    "downstream": [
+      {
+        "target_id": "AU_imerys_three_springs_mill",
+        "corridor_id": "AU_road_three-springs-mill",
+        "resource": "raw talc ore",
+        "quantity": 55000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Talc"
+    ]
+  },
+  {
+    "id": "AU_unimin_mount_seabrook",
+    "name": "Mount Seabrook Talc Mine (Covia / Sibelco)",
+    "tier": "extraction",
+    "country_iso2": "AU",
+    "canonical_company": "Sibelco",
+    "coordinates": {
+      "lat": -25.05,
+      "lon": 118.75
+    },
+    "downstream": [
+      {
+        "target_id": "AU_sibelco_perth_processing",
+        "corridor_id": "AU_road_mt-seabrook-perth",
+        "resource": "raw talc ore",
+        "quantity": 20000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Talc"
+    ]
+  },
+  {
+    "id": "AU_talc_resources_myrtle_springs",
+    "name": "Myrtle Springs Talc Mine",
+    "tier": "extraction",
+    "country_iso2": "AU",
+    "canonical_company": "Talc Resources",
+    "coordinates": {
+      "lat": -30.78,
+      "lon": 138.53
+    },
+    "downstream": [
+      {
+        "target_id": "AU_talc_resources_leigh_creek_mill",
+        "corridor_id": "AU_road_myrtle-springs-leigh-creek",
+        "resource": "raw talc ore",
+        "quantity": 10000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Talc"
+    ]
+  },
+  {
+    "id": "AU_imerys_three_springs_mill",
+    "name": "Imerys Three Springs Processing Mill",
+    "tier": "processor",
+    "country_iso2": "AU",
+    "canonical_company": "Imerys",
+    "coordinates": {
+      "lat": -29.53,
+      "lon": 115.76
+    },
+    "downstream": [
+      {
+        "target_id": "AU_dulux_group",
+        "corridor_id": "AU_road_three-springs-perth",
+        "resource": "micronised talc powder",
+        "quantity": 8000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_boral_limited",
+        "corridor_id": "AU_road_three-springs-perth",
+        "resource": "talc filler grade",
+        "quantity": 5000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_qenos",
+        "corridor_id": "AU_road_three-springs-melbourne",
+        "resource": "talc for plastics compounding",
+        "quantity": 4000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_incitec_pivot",
+        "corridor_id": "AU_road_three-springs-melbourne",
+        "resource": "talc carrier/filler for agricultural formulations",
+        "quantity": 3000,
+        "metric": "t"
+      },
+      {
+        "target_id": "INTL_imerys_asia_trading",
+        "corridor_id": "INTL_ocean_fremantle-singapore",
+        "resource": "micronised talc powder (export grade)",
+        "quantity": 18000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_ceramics_distributors",
+        "corridor_id": "AU_road_three-springs-perth",
+        "resource": "talc for ceramics",
+        "quantity": 4000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_paper_mills_australia",
+        "corridor_id": "AU_rail_wa-nsw-intermodal",
+        "resource": "talc filler for paper",
+        "quantity": 5000,
+        "metric": "t"
+      },
+      {
+        "target_id": "INTL_imerys_japan_trading",
+        "corridor_id": "INTL_ocean_fremantle-kobe",
+        "resource": "micronised talc powder (export grade)",
+        "quantity": 8000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_imerys_three_springs"
+    ],
+    "resources": [
+      "Talc"
+    ]
+  },
+  {
+    "id": "AU_sibelco_perth_processing",
+    "name": "Sibelco Perth Talc Processing Facility",
+    "tier": "processor",
+    "country_iso2": "AU",
+    "canonical_company": "Sibelco",
+    "coordinates": {
+      "lat": -31.95,
+      "lon": 115.86
+    },
+    "downstream": [
+      {
+        "target_id": "AU_dulux_group",
+        "corridor_id": "AU_road_perth-local",
+        "resource": "micronised talc powder",
+        "quantity": 3000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_boral_limited",
+        "corridor_id": "AU_road_perth-sydney",
+        "resource": "talc filler grade",
+        "quantity": 2500,
+        "metric": "t"
+      },
+      {
+        "target_id": "INTL_sibelco_se_asia_trading",
+        "corridor_id": "INTL_ocean_fremantle-jakarta",
+        "resource": "processed talc (export grade)",
+        "quantity": 8000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_cosmetics_formulators",
+        "corridor_id": "AU_road_perth-local",
+        "resource": "cosmetic-grade talc powder",
+        "quantity": 1500,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_qenos",
+        "corridor_id": "AU_road_perth-melbourne",
+        "resource": "talc for plastics compounding",
+        "quantity": 2000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_unimin_mount_seabrook"
+    ],
+    "resources": [
+      "Talc"
+    ]
+  },
+  {
+    "id": "AU_talc_resources_leigh_creek_mill",
+    "name": "Talc Resources Leigh Creek Processing Mill",
+    "tier": "processor",
+    "country_iso2": "AU",
+    "canonical_company": "Talc Resources",
+    "coordinates": {
+      "lat": -30.6,
+      "lon": 138.4
+    },
+    "downstream": [
+      {
+        "target_id": "AU_boral_limited",
+        "corridor_id": "AU_road_leigh-creek-adelaide",
+        "resource": "talc filler grade",
+        "quantity": 2500,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_dulux_group",
+        "corridor_id": "AU_road_leigh-creek-adelaide",
+        "resource": "micronised talc powder",
+        "quantity": 2000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_incitec_pivot",
+        "corridor_id": "AU_road_leigh-creek-melbourne",
+        "resource": "talc carrier/filler for agricultural formulations",
+        "quantity": 1500,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_ceramics_distributors",
+        "corridor_id": "AU_road_leigh-creek-adelaide",
+        "resource": "talc for ceramics",
+        "quantity": 1500,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_paper_mills_australia",
+        "corridor_id": "AU_rail_sa-nsw-intermodal",
+        "resource": "talc filler for paper",
+        "quantity": 1500,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_talc_resources_myrtle_springs"
+    ],
+    "resources": [
+      "Talc"
+    ]
+  },
+  {
+    "id": "INTL_imerys_asia_trading",
+    "name": "Imerys Asia Pacific Trading Hub (Singapore)",
+    "tier": "processor",
+    "country_iso2": "SG",
+    "canonical_company": "Imerys",
+    "coordinates": {
+      "lat": 1.26,
+      "lon": 103.82
+    },
+    "downstream": [
+      {
+        "target_id": "CN_plastics_compounders",
+        "corridor_id": "INTL_ocean_singapore-shanghai",
+        "resource": "micronised talc for plastics and coatings",
+        "quantity": 12000,
+        "metric": "t"
+      },
+      {
+        "target_id": "SG_industrial",
+        "corridor_id": "SG_road_jurong-local",
+        "resource": "talc for industrial applications",
+        "quantity": 6000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_imerys_three_springs_mill"
+    ],
+    "resources": [
+      "Talc"
+    ]
+  },
+  {
+    "id": "INTL_imerys_japan_trading",
+    "name": "Imerys Japan Distribution",
+    "tier": "processor",
+    "country_iso2": "JP",
+    "canonical_company": "Imerys",
+    "coordinates": {
+      "lat": 34.69,
+      "lon": 135.2
+    },
+    "downstream": [
+      {
+        "target_id": "JP_auto_parts_makers",
+        "corridor_id": "JP_road_kobe-osaka",
+        "resource": "talc for automotive plastics",
+        "quantity": 5000,
+        "metric": "t"
+      },
+      {
+        "target_id": "JP_industrial",
+        "corridor_id": "JP_road_kobe-osaka",
+        "resource": "talc for industrial/ceramics use",
+        "quantity": 3000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_imerys_three_springs_mill"
+    ],
+    "resources": [
+      "Talc"
+    ]
+  },
+  {
+    "id": "INTL_sibelco_se_asia_trading",
+    "name": "Sibelco SE Asia Distribution (Jakarta)",
+    "tier": "processor",
+    "country_iso2": "ID",
+    "canonical_company": "Sibelco",
+    "coordinates": {
+      "lat": -6.11,
+      "lon": 106.85
+    },
+    "downstream": [
+      {
+        "target_id": "ID_industrial",
+        "corridor_id": "ID_road_jakarta-local",
+        "resource": "processed talc for paints, plastics, ceramics",
+        "quantity": 8000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_sibelco_perth_processing"
+    ],
+    "resources": [
+      "Talc"
+    ]
+  },
+  {
+    "id": "AU_boral_limited",
+    "name": "Boral Limited",
+    "tier": "component_maker",
+    "country_iso2": "AU",
+    "canonical_company": "Boral",
+    "coordinates": {
+      "lat": -33.84,
+      "lon": 151.21
+    },
+    "downstream": [
+      {
+        "target_id": "AU_building_product_mfrs",
+        "corridor_id": "AU_road_sydney-national",
+        "resource": "talc-filled building materials (plasterboard, render)",
+        "quantity": 10000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_imerys_three_springs_mill",
+      "AU_sibelco_perth_processing",
+      "AU_talc_resources_leigh_creek_mill"
+    ],
+    "resources": [
+      "Talc"
+    ]
+  },
+  {
+    "id": "AU_qenos",
+    "name": "Qenos Pty Ltd (Plastics Compounder)",
+    "tier": "component_maker",
+    "country_iso2": "AU",
+    "canonical_company": "Qenos",
+    "coordinates": {
+      "lat": -38.15,
+      "lon": 145.13
+    },
+    "downstream": [
+      {
+        "target_id": "AU_automotive_plastics_mfrs",
+        "corridor_id": "AU_road_altona-melbourne",
+        "resource": "talc-filled polypropylene compounds",
+        "quantity": 6000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_imerys_three_springs_mill",
+      "AU_sibelco_perth_processing"
+    ],
+    "resources": [
+      "Talc"
+    ]
+  },
+  {
+    "id": "AU_ceramics_distributors",
+    "name": "Australian Ceramics Raw Material Distributors",
+    "tier": "component_maker",
+    "country_iso2": "AU",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": -33.87,
+      "lon": 151.21
+    },
+    "downstream": [
+      {
+        "target_id": "AU_ceramics_manufacturers",
+        "corridor_id": "AU_road_sydney-national",
+        "resource": "talc for ceramic body and glaze",
+        "quantity": 5500,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_imerys_three_springs_mill",
+      "AU_talc_resources_leigh_creek_mill"
+    ],
+    "resources": [
+      "Talc"
+    ]
+  },
+  {
+    "id": "AU_paper_mills_australia",
+    "name": "Australian Paper Mills (Opal / Visy / others)",
+    "tier": "component_maker",
+    "country_iso2": "AU",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": -38.17,
+      "lon": 146.03
+    },
+    "downstream": [
+      {
+        "target_id": "AU_paper_product_manufacturers",
+        "corridor_id": "AU_road_gippsland-melbourne",
+        "resource": "talc-filled paper and board",
+        "quantity": 6500,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_imerys_three_springs_mill",
+      "AU_talc_resources_leigh_creek_mill"
+    ],
+    "resources": [
+      "Talc"
+    ]
+  },
+  {
+    "id": "AU_cosmetics_formulators",
+    "name": "Australian Cosmetics & Personal Care Formulators",
+    "tier": "component_maker",
+    "country_iso2": "AU",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": -33.87,
+      "lon": 151.21
+    },
+    "downstream": [
+      {
+        "target_id": "AU_personal_care_manufacturers",
+        "corridor_id": "AU_road_sydney-national",
+        "resource": "cosmetic-grade talc for personal care products",
+        "quantity": 1500,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_sibelco_perth_processing"
+    ],
+    "resources": [
+      "Talc"
+    ]
+  },
+  {
+    "id": "CN_plastics_compounders",
+    "name": "Chinese Plastics Compounders (Kingfa, etc.)",
+    "tier": "component_maker",
+    "country_iso2": "CN",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": 31.23,
+      "lon": 121.47
+    },
+    "downstream": [
+      {
+        "target_id": "CN_industrial",
+        "corridor_id": "CN_road_shanghai-regional",
+        "resource": "talc-filled plastic compounds",
+        "quantity": 12000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "INTL_imerys_asia_trading"
+    ],
+    "resources": [
+      "Talc"
+    ]
+  },
+  {
+    "id": "JP_auto_parts_makers",
+    "name": "Japanese Automotive Parts Makers (Denso, Toyota Boshoku, etc.)",
+    "tier": "component_maker",
+    "country_iso2": "JP",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": 35.08,
+      "lon": 137.15
+    },
+    "downstream": [
+      {
+        "target_id": "JP_industrial",
+        "corridor_id": "JP_road_nagoya-regional",
+        "resource": "talc-reinforced automotive plastic components",
+        "quantity": 5000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "INTL_imerys_japan_trading"
+    ],
+    "resources": [
+      "Talc"
+    ]
+  },
+  {
+    "id": "AU_paint_manufacturers",
+    "name": "Australian Paint & Coatings Manufacturers",
+    "tier": "manufacturer",
+    "country_iso2": "AU",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": -37.81,
+      "lon": 144.96
+    },
+    "downstream": [
+      {
+        "target_id": "AU_residential",
+        "corridor_id": "AU_road_metro-distribution",
+        "resource": "paints and coatings containing talc",
+        "quantity": 7000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_commercial",
+        "corridor_id": "AU_road_metro-distribution",
+        "resource": "industrial coatings containing talc",
+        "quantity": 4000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_infrastructure",
+        "corridor_id": "AU_road_metro-distribution",
+        "resource": "protective coatings containing talc",
+        "quantity": 2000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_residential",
+        "corridor_id": "AU_road_melbourne-national",
+        "resource": "mica-containing paints and coatings",
+        "quantity": 200,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_commercial",
+        "corridor_id": "AU_road_melbourne-national",
+        "resource": "mica-containing paints and coatings",
+        "quantity": 150,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_infrastructure",
+        "corridor_id": "AU_road_melbourne-national",
+        "resource": "mica-containing protective coatings",
+        "quantity": 100,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_dulux_group",
+      "AU_jotun_australia"
+    ],
+    "resources": [
+      "Talc",
+      "Mica"
+    ]
+  },
+  {
+    "id": "AU_building_product_mfrs",
+    "name": "Australian Building Product Manufacturers",
+    "tier": "manufacturer",
+    "country_iso2": "AU",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": -33.87,
+      "lon": 151.21
+    },
+    "downstream": [
+      {
+        "target_id": "AU_residential",
+        "corridor_id": "AU_road_metro-distribution",
+        "resource": "building materials containing talc filler",
+        "quantity": 5000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_infrastructure",
+        "corridor_id": "AU_road_metro-distribution",
+        "resource": "construction materials with talc",
+        "quantity": 3000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_commercial",
+        "corridor_id": "AU_road_metro-distribution",
+        "resource": "commercial building materials with talc",
+        "quantity": 2000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_boral_limited"
+    ],
+    "resources": [
+      "Talc"
+    ]
+  },
+  {
+    "id": "AU_automotive_plastics_mfrs",
+    "name": "Australian Automotive Plastics Manufacturers",
+    "tier": "manufacturer",
+    "country_iso2": "AU",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": -37.83,
+      "lon": 144.98
+    },
+    "downstream": [
+      {
+        "target_id": "AU_industrial",
+        "corridor_id": "AU_road_melbourne-national",
+        "resource": "talc-reinforced automotive and industrial plastic parts",
+        "quantity": 6000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_qenos"
+    ],
+    "resources": [
+      "Talc"
+    ]
+  },
+  {
+    "id": "AU_ceramics_manufacturers",
+    "name": "Australian Ceramics Manufacturers",
+    "tier": "manufacturer",
+    "country_iso2": "AU",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": -33.87,
+      "lon": 151.21
+    },
+    "downstream": [
+      {
+        "target_id": "AU_residential",
+        "corridor_id": "AU_road_metro-distribution",
+        "resource": "ceramic tiles and sanitaryware containing talc",
+        "quantity": 3000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_commercial",
+        "corridor_id": "AU_road_metro-distribution",
+        "resource": "commercial ceramic products containing talc",
+        "quantity": 2500,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_ceramics_distributors"
+    ],
+    "resources": [
+      "Talc"
+    ]
+  },
+  {
+    "id": "AU_paper_product_manufacturers",
+    "name": "Australian Paper Product Manufacturers",
+    "tier": "manufacturer",
+    "country_iso2": "AU",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": -37.81,
+      "lon": 144.96
+    },
+    "downstream": [
+      {
+        "target_id": "AU_commercial",
+        "corridor_id": "AU_road_metro-distribution",
+        "resource": "paper and packaging products with talc filler",
+        "quantity": 4000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_industrial",
+        "corridor_id": "AU_road_metro-distribution",
+        "resource": "specialty paper products with talc filler",
+        "quantity": 2500,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_paper_mills_australia"
+    ],
+    "resources": [
+      "Talc"
+    ]
+  },
+  {
+    "id": "AU_personal_care_manufacturers",
+    "name": "Australian Personal Care Product Manufacturers",
+    "tier": "manufacturer",
+    "country_iso2": "AU",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": -33.87,
+      "lon": 151.21
+    },
+    "downstream": [
+      {
+        "target_id": "AU_residential",
+        "corridor_id": "AU_road_metro-distribution",
+        "resource": "personal care products containing talc",
+        "quantity": 1500,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_cosmetics_formulators"
+    ],
+    "resources": [
+      "Talc"
+    ]
+  },
+  {
+    "id": "AU_road_three-springs-mill",
+    "tier": "transport",
+    "name": "Road: Three Springs Mine to Three Springs Mill",
+    "country_iso2": "AU",
+    "operator_id": "AU_local_haulage",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "local",
+    "coordinates": {
+      "lat": -29.53,
+      "lon": 115.76
+    }
+  },
+  {
+    "id": "AU_road_mt-seabrook-perth",
+    "tier": "transport",
+    "name": "Road: Mount Seabrook to Perth Processing",
+    "country_iso2": "AU",
+    "operator_id": "AU_centurion_transport",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "regional",
+    "coordinates": {
+      "lat": -28,
+      "lon": 117.5
+    }
+  },
+  {
+    "id": "AU_road_myrtle-springs-leigh-creek",
+    "tier": "transport",
+    "name": "Road: Myrtle Springs to Leigh Creek Mill",
+    "country_iso2": "AU",
+    "operator_id": "AU_local_haulage",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "local",
+    "coordinates": {
+      "lat": -30.69,
+      "lon": 138.47
+    }
+  },
+  {
+    "id": "AU_road_three-springs-perth",
+    "tier": "transport",
+    "name": "Road: Three Springs to Perth Metro",
+    "country_iso2": "AU",
+    "operator_id": "AU_toll_group",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "regional",
+    "coordinates": {
+      "lat": -30.7,
+      "lon": 115.8
+    }
+  },
+  {
+    "id": "AU_road_three-springs-melbourne",
+    "tier": "transport",
+    "name": "Road/Rail: Three Springs to Melbourne",
+    "country_iso2": "AU",
+    "operator_id": "AU_toll_group",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "regional",
+    "coordinates": {
+      "lat": -34.5,
+      "lon": 130
+    }
+  },
+  {
+    "id": "INTL_ocean_fremantle-singapore",
+    "tier": "transport",
+    "name": "Ocean Freight: Fremantle to Singapore",
+    "country_iso2": "INTL",
+    "operator_id": "INTL_maersk",
+    "mode": "ocean_freight",
+    "form": "containerised",
+    "range": "international",
+    "coordinates": {
+      "lat": -18,
+      "lon": 110
+    },
+    "resources": [
+      "Medicinal-Plants",
+      "Noble Gases"
+    ],
+    "upstream": [],
+    "downstream": []
+  },
+  {
+    "id": "INTL_ocean_fremantle-jakarta",
+    "tier": "transport",
+    "name": "Ocean Freight: Fremantle to Jakarta",
+    "country_iso2": "INTL",
+    "operator_id": "INTL_hapag_lloyd",
+    "mode": "ocean_freight",
+    "form": "containerised",
+    "range": "international",
+    "coordinates": {
+      "lat": -20,
+      "lon": 112
+    },
+    "resources": [
+      "Pastureland"
+    ],
+    "upstream": [],
+    "downstream": []
+  },
+  {
+    "id": "AU_rail_wa-nsw-intermodal",
+    "tier": "transport",
+    "name": "Rail: WA to NSW Intermodal",
+    "country_iso2": "AU",
+    "operator_id": "AU_aurizon",
+    "mode": "rail",
+    "form": "containerised",
+    "range": "regional",
+    "coordinates": {
+      "lat": -32,
+      "lon": 130
+    }
+  },
+  {
+    "id": "AU_rail_sa-nsw-intermodal",
+    "tier": "transport",
+    "name": "Rail: SA to NSW Intermodal",
+    "country_iso2": "AU",
+    "operator_id": "AU_pacific_national",
+    "mode": "rail",
+    "form": "containerised",
+    "range": "regional",
+    "coordinates": {
+      "lat": -33,
+      "lon": 143
+    }
+  },
+  {
+    "id": "AU_road_leigh-creek-adelaide",
+    "tier": "transport",
+    "name": "Road: Leigh Creek to Adelaide",
+    "country_iso2": "AU",
+    "operator_id": "AU_toll_group",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "regional",
+    "coordinates": {
+      "lat": -32.5,
+      "lon": 138.6
+    }
+  },
+  {
+    "id": "AU_road_leigh-creek-melbourne",
+    "tier": "transport",
+    "name": "Road: Leigh Creek to Melbourne",
+    "country_iso2": "AU",
+    "operator_id": "AU_linfox",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "regional",
+    "coordinates": {
+      "lat": -35,
+      "lon": 140.5
+    }
+  },
+  {
+    "id": "AU_road_perth-sydney",
+    "tier": "transport",
+    "name": "Road/Rail: Perth to Sydney",
+    "country_iso2": "AU",
+    "operator_id": "AU_toll_group",
+    "mode": "road",
+    "form": "containerised",
+    "range": "regional",
+    "coordinates": {
+      "lat": -32.5,
+      "lon": 133
+    },
+    "resources": [
+      "Mica"
+    ],
+    "upstream": [],
+    "downstream": []
+  },
+  {
+    "id": "AU_road_perth-melbourne",
+    "tier": "transport",
+    "name": "Road/Rail: Perth to Melbourne",
+    "country_iso2": "AU",
+    "operator_id": "AU_linfox",
+    "mode": "road",
+    "form": "containerised",
+    "range": "regional",
+    "coordinates": {
+      "lat": -33,
+      "lon": 130
+    },
+    "resources": [
+      "Mica",
+      "Fiber-Crops"
+    ],
+    "upstream": [],
+    "downstream": []
+  },
+  {
+    "id": "AU_road_altona-melbourne",
+    "tier": "transport",
+    "name": "Road: Altona (Qenos) to Melbourne Metro",
+    "country_iso2": "AU",
+    "operator_id": "AU_toll_group",
+    "mode": "road",
+    "form": "containerised",
+    "range": "local",
+    "coordinates": {
+      "lat": -37.87,
+      "lon": 144.83
+    },
+    "resources": [
+      "Noble Gases",
+      "Oxygen"
+    ],
+    "upstream": [],
+    "downstream": []
+  },
+  {
+    "id": "AU_road_melbourne-rural",
+    "tier": "transport",
+    "name": "Road: Melbourne to Rural/Agricultural Regions",
+    "country_iso2": "AU",
+    "operator_id": "AU_linfox",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "regional",
+    "coordinates": {
+      "lat": -36.5,
+      "lon": 145
+    }
+  },
+  {
+    "id": "AU_road_gippsland-melbourne",
+    "tier": "transport",
+    "name": "Road: Gippsland to Melbourne",
+    "country_iso2": "AU",
+    "operator_id": "AU_toll_group",
+    "mode": "road",
+    "form": "containerised",
+    "range": "local",
+    "coordinates": {
+      "lat": -38.1,
+      "lon": 145.5
+    }
+  },
+  {
+    "id": "AU_road_metro-distribution",
+    "tier": "transport",
+    "name": "Road: Metropolitan and National End-Consumer Distribution",
+    "country_iso2": "AU",
+    "operator_id": "AU_toll_group",
+    "mode": "road",
+    "form": "containerised",
+    "range": "regional",
+    "coordinates": {
+      "lat": -34.5,
+      "lon": 148
+    }
+  },
+  {
+    "id": "SG_road_jurong-local",
+    "tier": "transport",
+    "name": "Road: Jurong Industrial Local Distribution",
+    "country_iso2": "SG",
+    "operator_id": "SG_local_logistics",
+    "mode": "road",
+    "form": "containerised",
+    "range": "local",
+    "coordinates": {
+      "lat": 1.32,
+      "lon": 103.71
+    }
+  },
+  {
+    "id": "INTL_ocean_singapore-shanghai",
+    "tier": "transport",
+    "name": "Ocean Freight: Singapore to Shanghai",
+    "country_iso2": "INTL",
+    "operator_id": "INTL_cosco",
+    "mode": "ocean_freight",
+    "form": "containerised",
+    "range": "international",
+    "coordinates": {
+      "lat": 15,
+      "lon": 112
+    }
+  },
+  {
+    "id": "JP_road_nagoya-regional",
+    "tier": "transport",
+    "name": "Road: Nagoya Region Automotive Distribution",
+    "country_iso2": "JP",
+    "operator_id": "JP_nippon_express",
+    "mode": "road",
+    "form": "containerised",
+    "range": "regional",
+    "coordinates": {
+      "lat": 35.08,
+      "lon": 137.15
+    }
+  },
+  {
+    "id": "ID_road_jakarta-local",
+    "tier": "transport",
+    "name": "Road: Jakarta Industrial Distribution",
+    "country_iso2": "ID",
+    "operator_id": "ID_local_logistics",
+    "mode": "road",
+    "form": "containerised",
+    "range": "local",
+    "coordinates": {
+      "lat": -6.11,
+      "lon": 106.85
+    }
+  },
+  {
+    "id": "CN_road_shanghai-regional",
+    "tier": "transport",
+    "name": "Road: Shanghai/Yangtze Delta Regional Distribution",
+    "country_iso2": "CN",
+    "operator_id": "CN_sinotrans",
+    "mode": "road",
+    "form": "containerised",
+    "range": "regional",
+    "coordinates": {
+      "lat": 31.23,
+      "lon": 121.47
+    }
+  }
+]

@@ -1,0 +1,855 @@
+[
+  {
+    "id": "AU_northern_minerals_browns_range",
+    "name": "Browns Range Heavy Rare Earth Pilot Plant",
+    "tier": "extraction",
+    "country_iso2": "AU",
+    "canonical_company": "Northern Minerals",
+    "coordinates": {
+      "lat": -19.0667,
+      "lon": 128.7833
+    },
+    "downstream": [
+      {
+        "target_id": "MY_lynas_kuantan",
+        "corridor_id": "AU_road_browns-range-wyndham",
+        "resource": "heavy rare earth carbonate concentrate rich in dysprosium",
+        "quantity": 3,
+        "metric": "t"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Dysprosium"
+    ]
+  },
+  {
+    "id": "AU_iluka_eneabba_separation",
+    "name": "Eneabba Rare Earth Separation Plant",
+    "tier": "separation_plant",
+    "country_iso2": "AU",
+    "canonical_company": "Iluka Resources",
+    "coordinates": {
+      "lat": -29.82,
+      "lon": 115.268
+    },
+    "downstream": [
+      {
+        "target_id": "JP_shin_etsu_chemical",
+        "corridor_id": "INTL_ocean_fremantle-kobe",
+        "resource": "dysprosium oxide",
+        "quantity": 5,
+        "metric": "t"
+      },
+      {
+        "target_id": "DE_vacuumschmelze",
+        "corridor_id": "INTL_ocean_fremantle-hamburg",
+        "resource": "dysprosium oxide",
+        "quantity": 4,
+        "metric": "t"
+      },
+      {
+        "target_id": "US_neo_performance_materials",
+        "corridor_id": "INTL_ocean_fremantle-baltimore",
+        "resource": "dysprosium oxide",
+        "quantity": 3,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_iluka_eneabba"
+    ],
+    "resources": [
+      "Dysprosium"
+    ]
+  },
+  {
+    "id": "KR_star_group_ind",
+    "name": "Star Group Ind Co., Ltd — Magnet Manufacturer",
+    "tier": "alloy_producer",
+    "country_iso2": "KR",
+    "canonical_company": "Star Group Ind",
+    "coordinates": {
+      "lat": 35.1028,
+      "lon": 128.9661
+    },
+    "downstream": [
+      {
+        "target_id": "KR_hyundai_motor",
+        "corridor_id": "KR_road_gimhae-ulsan",
+        "resource": "NdFeB sintered magnets with dysprosium",
+        "quantity": 5,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "MY_lynas_kuantan"
+    ],
+    "resources": [
+      "Dysprosium"
+    ]
+  },
+  {
+    "id": "CN_jl_mag",
+    "name": "JL MAG Rare-Earth Co. — Ganzhou",
+    "tier": "alloy_producer",
+    "country_iso2": "CN",
+    "canonical_company": "JL MAG Rare-Earth",
+    "coordinates": {
+      "lat": 25.845,
+      "lon": 114.933
+    },
+    "downstream": [
+      {
+        "target_id": "CN_byd",
+        "corridor_id": "CN_road_ganzhou-shenzhen",
+        "resource": "NdFeB sintered magnets with dysprosium",
+        "quantity": 7,
+        "metric": "t"
+      },
+      {
+        "target_id": "DE_siemens_gamesa",
+        "corridor_id": "INTL_ocean_shanghai-hamburg",
+        "resource": "NdFeB sintered magnets with dysprosium",
+        "quantity": 5,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "CN_baotou_traders"
+    ],
+    "resources": [
+      "Dysprosium"
+    ]
+  },
+  {
+    "id": "CN_zhong_ke_san_huan",
+    "name": "Beijing Zhong Ke San Huan High-Tech",
+    "tier": "alloy_producer",
+    "country_iso2": "CN",
+    "canonical_company": "Zhong Ke San Huan",
+    "coordinates": {
+      "lat": 39.9042,
+      "lon": 116.4074
+    },
+    "downstream": [
+      {
+        "target_id": "CN_goldwind",
+        "corridor_id": "CN_road_beijing-urumqi",
+        "resource": "NdFeB sintered magnets with dysprosium",
+        "quantity": 5,
+        "metric": "t"
+      },
+      {
+        "target_id": "CN_byd",
+        "corridor_id": "CN_road_beijing-shenzhen",
+        "resource": "NdFeB sintered magnets with dysprosium",
+        "quantity": 3,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "CN_baotou_traders"
+    ],
+    "resources": [
+      "Dysprosium"
+    ]
+  },
+  {
+    "id": "JP_nidec",
+    "name": "Nidec Corporation — EV Motor Division",
+    "tier": "oem",
+    "country_iso2": "JP",
+    "canonical_company": "Nidec",
+    "coordinates": {
+      "lat": 34.9688,
+      "lon": 135.756
+    },
+    "downstream": [
+      {
+        "target_id": "JP_industrial",
+        "corridor_id": "JP_road_kyoto-domestic",
+        "resource": "EV traction motors and industrial motors containing dysprosium magnets",
+        "quantity": 10,
+        "metric": "t"
+      },
+      {
+        "target_id": "INTL_industrial",
+        "corridor_id": "INTL_ocean_kobe-global",
+        "resource": "EV traction motors containing dysprosium magnets",
+        "quantity": 8,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "JP_shin_etsu_chemical"
+    ],
+    "resources": [
+      "Dysprosium"
+    ]
+  },
+  {
+    "id": "JP_mitsubishi_electric",
+    "name": "Mitsubishi Electric Corporation",
+    "tier": "oem",
+    "country_iso2": "JP",
+    "canonical_company": "Mitsubishi Electric",
+    "coordinates": {
+      "lat": 34.7797,
+      "lon": 135.3835
+    },
+    "downstream": [
+      {
+        "target_id": "JP_industrial",
+        "corridor_id": "JP_road_amagasaki-domestic",
+        "resource": "servo motors and HVAC systems containing dysprosium magnets",
+        "quantity": 5,
+        "metric": "t"
+      },
+      {
+        "target_id": "INTL_industrial",
+        "corridor_id": "INTL_ocean_osaka-global",
+        "resource": "industrial servo motors containing dysprosium magnets",
+        "quantity": 3,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "JP_shin_etsu_chemical"
+    ],
+    "resources": [
+      "Dysprosium"
+    ]
+  },
+  {
+    "id": "SE_abb",
+    "name": "ABB Ltd — Motion Division",
+    "tier": "oem",
+    "country_iso2": "SE",
+    "canonical_company": "ABB",
+    "coordinates": {
+      "lat": 59.6099,
+      "lon": 16.5448
+    },
+    "downstream": [
+      {
+        "target_id": "SE_industrial",
+        "corridor_id": "SE_road_vasteras-domestic",
+        "resource": "PM synchronous motors containing dysprosium magnets",
+        "quantity": 1,
+        "metric": "t"
+      },
+      {
+        "target_id": "INTL_industrial",
+        "corridor_id": "INTL_ocean_gothenburg-global",
+        "resource": "PM synchronous motors containing dysprosium magnets",
+        "quantity": 1,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "DE_vacuumschmelze"
+    ],
+    "resources": [
+      "Dysprosium"
+    ]
+  },
+  {
+    "id": "US_general_motors",
+    "name": "General Motors — EV Platform (Ultium)",
+    "tier": "oem",
+    "country_iso2": "US",
+    "canonical_company": "General Motors",
+    "coordinates": {
+      "lat": 42.3314,
+      "lon": -83.0458
+    },
+    "downstream": [
+      {
+        "target_id": "US_residential",
+        "corridor_id": "US_road_detroit-domestic",
+        "resource": "battery-electric vehicles containing dysprosium magnets in traction motors",
+        "quantity": 8,
+        "metric": "t"
+      },
+      {
+        "target_id": "INTL_residential",
+        "corridor_id": "INTL_ocean_savannah-global",
+        "resource": "battery-electric vehicles containing dysprosium magnets in traction motors",
+        "quantity": 4,
+        "metric": "t"
+      },
+      {
+        "target_id": "US_residential",
+        "corridor_id": "US_road_gm-us-distribution",
+        "resource": "electric vehicles (Ultium platform)",
+        "quantity": 400,
+        "metric": "t"
+      },
+      {
+        "target_id": "US_commercial",
+        "corridor_id": "US_road_gm-us-distribution",
+        "resource": "commercial electric vehicles",
+        "quantity": 200,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "JP_tdk_corporation",
+      "US_neo_performance_materials",
+      "KR_lg_energy_solution"
+    ],
+    "resources": [
+      "Dysprosium",
+      "Cobalt"
+    ]
+  },
+  {
+    "id": "US_ge_vernova",
+    "name": "GE Vernova — Wind Turbine Division",
+    "tier": "oem",
+    "country_iso2": "US",
+    "canonical_company": "GE Vernova",
+    "coordinates": {
+      "lat": 42.8142,
+      "lon": -73.9396
+    },
+    "downstream": [
+      {
+        "target_id": "US_infrastructure",
+        "corridor_id": "US_road_schenectady-domestic",
+        "resource": "direct-drive wind turbine generators containing dysprosium magnets",
+        "quantity": 3,
+        "metric": "t"
+      },
+      {
+        "target_id": "INTL_infrastructure",
+        "corridor_id": "INTL_ocean_houston-global",
+        "resource": "direct-drive wind turbine generators containing dysprosium magnets",
+        "quantity": 1,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "US_neo_performance_materials"
+    ],
+    "resources": [
+      "Dysprosium"
+    ]
+  },
+  {
+    "id": "US_honeywell",
+    "name": "Honeywell Aerospace",
+    "tier": "oem",
+    "country_iso2": "US",
+    "canonical_company": "Honeywell",
+    "coordinates": {
+      "lat": 33.4484,
+      "lon": -112.074
+    },
+    "downstream": [
+      {
+        "target_id": "US_government",
+        "corridor_id": "US_road_phoenix-domestic",
+        "resource": "aerospace actuators and guidance systems containing dysprosium magnets",
+        "quantity": 1.5,
+        "metric": "t"
+      },
+      {
+        "target_id": "US_industrial",
+        "corridor_id": "US_road_phoenix-domestic",
+        "resource": "industrial control systems containing dysprosium magnets",
+        "quantity": 0.5,
+        "metric": "t"
+      },
+      {
+        "target_id": "US_industrial",
+        "corridor_id": "US_road_phoenix-distribution",
+        "resource": "aerospace and defense components containing tantalum",
+        "quantity": 12,
+        "metric": "t"
+      },
+      {
+        "target_id": "US_government",
+        "corridor_id": "US_road_phoenix-gov-distribution",
+        "resource": "defense avionics and systems",
+        "quantity": 5,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "US_neo_performance_materials",
+      "US_kemet",
+      "US_vishay_intertechnology",
+      "DE_heraeus"
+    ],
+    "resources": [
+      "Dysprosium",
+      "Tantalum"
+    ]
+  },
+  {
+    "id": "CN_byd",
+    "name": "BYD Company Limited",
+    "tier": "oem",
+    "country_iso2": "CN",
+    "canonical_company": "BYD",
+    "coordinates": {
+      "lat": 22.65,
+      "lon": 114.0579
+    },
+    "downstream": [
+      {
+        "target_id": "CN_residential",
+        "corridor_id": "CN_road_shenzhen-domestic",
+        "resource": "battery-electric vehicles containing dysprosium magnets in traction motors",
+        "quantity": 7,
+        "metric": "t"
+      },
+      {
+        "target_id": "INTL_residential",
+        "corridor_id": "INTL_ocean_shenzhen-global",
+        "resource": "battery-electric vehicles containing dysprosium magnets in traction motors",
+        "quantity": 3,
+        "metric": "t"
+      },
+      {
+        "target_id": "CN_residential",
+        "corridor_id": "CN_road_byd-domestic",
+        "resource": "electric vehicles and energy storage products",
+        "quantity": 15000,
+        "metric": "t"
+      },
+      {
+        "target_id": "INTL_residential",
+        "corridor_id": "INTL_ocean_shenzhen-global",
+        "resource": "electric vehicles containing graphite-anode batteries",
+        "quantity": 10000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "CN_jl_mag",
+      "CN_zhong_ke_san_huan",
+      "CN_btr_new_material"
+    ],
+    "resources": [
+      "Dysprosium",
+      "Graphite"
+    ]
+  },
+  {
+    "id": "AU_conveyor_eneabba-internal",
+    "tier": "transport",
+    "name": "Eneabba on-site conveyor / internal transfer",
+    "country_iso2": "AU",
+    "operator_id": "AU_iluka_resources",
+    "mode": "conveyor",
+    "form": "bulk_dry",
+    "range": "local",
+    "coordinates": {
+      "lat": -29.821,
+      "lon": 115.2675
+    }
+  },
+  {
+    "id": "AU_road_browns-range-wyndham",
+    "tier": "transport",
+    "name": "Road: Browns Range to Wyndham Port",
+    "country_iso2": "AU",
+    "operator_id": "AU_northern_minerals",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "regional",
+    "coordinates": {
+      "lat": -16.5,
+      "lon": 128.4
+    }
+  },
+  {
+    "id": "INTL_ocean_fremantle-baltimore",
+    "tier": "transport",
+    "name": "Ocean freight: Fremantle → Baltimore",
+    "country_iso2": "INTL",
+    "operator_id": "INTL_maersk",
+    "mode": "ocean_freight",
+    "form": "containerised",
+    "range": "international",
+    "coordinates": {
+      "lat": -15,
+      "lon": 30
+    }
+  },
+  {
+    "id": "CN_rail_baotou-ningbo",
+    "tier": "transport",
+    "name": "Rail: Baotou → Ganzhou / Ningbo region",
+    "country_iso2": "CN",
+    "operator_id": "CN_china_railway",
+    "mode": "rail",
+    "form": "containerised",
+    "range": "regional",
+    "coordinates": {
+      "lat": 33,
+      "lon": 113
+    }
+  },
+  {
+    "id": "CN_road_baotou-beijing",
+    "tier": "transport",
+    "name": "Road: Baotou → Beijing",
+    "country_iso2": "CN",
+    "operator_id": "CN_sinotrans",
+    "mode": "road",
+    "form": "containerised",
+    "range": "regional",
+    "coordinates": {
+      "lat": 40.5,
+      "lon": 112
+    }
+  },
+  {
+    "id": "JP_road_takefu-nagoya",
+    "tier": "transport",
+    "name": "Road: Takefu → Nagoya region",
+    "country_iso2": "JP",
+    "operator_id": "JP_yamato_transport",
+    "mode": "road",
+    "form": "containerised",
+    "range": "regional",
+    "coordinates": {
+      "lat": 35.5,
+      "lon": 136.8
+    }
+  },
+  {
+    "id": "JP_road_akita-toyota-city",
+    "tier": "transport",
+    "name": "Road: Akita (TDK plant) → Toyota City",
+    "country_iso2": "JP",
+    "operator_id": "JP_yamato_transport",
+    "mode": "road",
+    "form": "containerised",
+    "range": "regional",
+    "coordinates": {
+      "lat": 37.5,
+      "lon": 139
+    }
+  },
+  {
+    "id": "INTL_ocean_yokohama-losangeles",
+    "tier": "transport",
+    "name": "Ocean freight: Yokohama → Los Angeles",
+    "country_iso2": "INTL",
+    "operator_id": "INTL_one_ocean_network_express",
+    "mode": "ocean_freight",
+    "form": "containerised",
+    "range": "international",
+    "coordinates": {
+      "lat": 35,
+      "lon": -170
+    }
+  },
+  {
+    "id": "INTL_road_hanau-vasteras",
+    "tier": "transport",
+    "name": "Road freight: Hanau → Västerås (ABB)",
+    "country_iso2": "INTL",
+    "operator_id": "INTL_dsv",
+    "mode": "road",
+    "form": "containerised",
+    "range": "international",
+    "coordinates": {
+      "lat": 54,
+      "lon": 12
+    }
+  },
+  {
+    "id": "US_road_michigan-detroit",
+    "tier": "transport",
+    "name": "Road: SE Michigan distribution",
+    "country_iso2": "US",
+    "operator_id": "US_xpo_logistics",
+    "mode": "road",
+    "form": "containerised",
+    "range": "local",
+    "coordinates": {
+      "lat": 42.3,
+      "lon": -83.5
+    }
+  },
+  {
+    "id": "US_road_michigan-schenectady",
+    "tier": "transport",
+    "name": "Road: Michigan → Schenectady, NY (GE Vernova)",
+    "country_iso2": "US",
+    "operator_id": "US_xpo_logistics",
+    "mode": "road",
+    "form": "containerised",
+    "range": "regional",
+    "coordinates": {
+      "lat": 42.5,
+      "lon": -79
+    }
+  },
+  {
+    "id": "US_road_michigan-phoenix",
+    "tier": "transport",
+    "name": "Road: Michigan → Phoenix, AZ (Honeywell)",
+    "country_iso2": "US",
+    "operator_id": "US_xpo_logistics",
+    "mode": "road",
+    "form": "containerised",
+    "range": "regional",
+    "coordinates": {
+      "lat": 37,
+      "lon": -100
+    }
+  },
+  {
+    "id": "KR_road_gimhae-ulsan",
+    "tier": "transport",
+    "name": "Road: Gimhae → Ulsan (Hyundai)",
+    "country_iso2": "KR",
+    "operator_id": "KR_cj_logistics",
+    "mode": "road",
+    "form": "containerised",
+    "range": "local",
+    "coordinates": {
+      "lat": 35.3,
+      "lon": 129.1
+    }
+  },
+  {
+    "id": "CN_road_ganzhou-shenzhen",
+    "tier": "transport",
+    "name": "Road: Ganzhou → Shenzhen (BYD)",
+    "country_iso2": "CN",
+    "operator_id": "CN_sinotrans",
+    "mode": "road",
+    "form": "containerised",
+    "range": "regional",
+    "coordinates": {
+      "lat": 24.5,
+      "lon": 114.5
+    }
+  },
+  {
+    "id": "INTL_ocean_shanghai-hamburg",
+    "tier": "transport",
+    "name": "Ocean freight: Shanghai → Hamburg",
+    "country_iso2": "INTL",
+    "operator_id": "INTL_cosco",
+    "mode": "ocean_freight",
+    "form": "containerised",
+    "range": "international",
+    "coordinates": {
+      "lat": 15,
+      "lon": 75
+    },
+    "resources": [
+      "Lithium (hard-rock)",
+      "Nickel",
+      "Cobalt"
+    ],
+    "upstream": [],
+    "downstream": []
+  },
+  {
+    "id": "CN_road_beijing-urumqi",
+    "tier": "transport",
+    "name": "Road/Rail: Beijing → Urumqi (Goldwind)",
+    "country_iso2": "CN",
+    "operator_id": "CN_china_railway",
+    "mode": "rail",
+    "form": "containerised",
+    "range": "regional",
+    "coordinates": {
+      "lat": 42,
+      "lon": 100
+    }
+  },
+  {
+    "id": "CN_road_beijing-shenzhen",
+    "tier": "transport",
+    "name": "Road: Beijing → Shenzhen",
+    "country_iso2": "CN",
+    "operator_id": "CN_sinotrans",
+    "mode": "road",
+    "form": "containerised",
+    "range": "regional",
+    "coordinates": {
+      "lat": 30,
+      "lon": 114
+    }
+  },
+  {
+    "id": "INTL_ocean_kobe-global",
+    "tier": "transport",
+    "name": "Ocean freight: Kobe → global destinations",
+    "country_iso2": "INTL",
+    "operator_id": "INTL_one_ocean_network_express",
+    "mode": "ocean_freight",
+    "form": "containerised",
+    "range": "international",
+    "coordinates": {
+      "lat": 34.69,
+      "lon": 135.2
+    },
+    "resources": [
+      "Mica"
+    ],
+    "upstream": [],
+    "downstream": []
+  },
+  {
+    "id": "JP_road_amagasaki-domestic",
+    "tier": "transport",
+    "name": "Domestic distribution: Amagasaki / Osaka region",
+    "country_iso2": "JP",
+    "operator_id": "JP_yamato_transport",
+    "mode": "road",
+    "form": "unit_load",
+    "range": "regional",
+    "coordinates": {
+      "lat": 34.73,
+      "lon": 135.4
+    }
+  },
+  {
+    "id": "DE_road_hamburg-domestic",
+    "tier": "transport",
+    "name": "Road distribution: Hamburg → German / EU wind farms",
+    "country_iso2": "DE",
+    "operator_id": "DE_dhl_freight",
+    "mode": "road",
+    "form": "unit_load",
+    "range": "regional",
+    "coordinates": {
+      "lat": 53.55,
+      "lon": 9.99
+    }
+  },
+  {
+    "id": "INTL_road_stuttgart-global",
+    "tier": "transport",
+    "name": "Road/ocean: Stuttgart → global automotive customers",
+    "country_iso2": "INTL",
+    "operator_id": "INTL_dsv",
+    "mode": "road",
+    "form": "unit_load",
+    "range": "international",
+    "coordinates": {
+      "lat": 48.78,
+      "lon": 9.18
+    }
+  },
+  {
+    "id": "SE_road_vasteras-domestic",
+    "tier": "transport",
+    "name": "Road: Västerås → Swedish/Nordic industrial sites",
+    "country_iso2": "SE",
+    "operator_id": "SE_dhl_freight",
+    "mode": "road",
+    "form": "unit_load",
+    "range": "regional",
+    "coordinates": {
+      "lat": 59.61,
+      "lon": 16.55
+    }
+  },
+  {
+    "id": "INTL_ocean_gothenburg-global",
+    "tier": "transport",
+    "name": "Ocean freight: Gothenburg → global industrial customers",
+    "country_iso2": "INTL",
+    "operator_id": "INTL_maersk",
+    "mode": "ocean_freight",
+    "form": "containerised",
+    "range": "international",
+    "coordinates": {
+      "lat": 57.71,
+      "lon": 11.97
+    },
+    "resources": [
+      "Tungsten"
+    ],
+    "upstream": [],
+    "downstream": []
+  },
+  {
+    "id": "JP_road_toyota-city-domestic",
+    "tier": "transport",
+    "name": "Road: Toyota City → Japanese domestic dealers",
+    "country_iso2": "JP",
+    "operator_id": "JP_toyota_transport",
+    "mode": "road",
+    "form": "unit_load",
+    "range": "regional",
+    "coordinates": {
+      "lat": 35.08,
+      "lon": 137.15
+    }
+  },
+  {
+    "id": "US_road_detroit-domestic",
+    "tier": "transport",
+    "name": "Road: Detroit → US dealer network",
+    "country_iso2": "US",
+    "operator_id": "US_xpo_logistics",
+    "mode": "road",
+    "form": "unit_load",
+    "range": "regional",
+    "coordinates": {
+      "lat": 42.33,
+      "lon": -83.05
+    }
+  },
+  {
+    "id": "INTL_ocean_savannah-global",
+    "tier": "transport",
+    "name": "Ocean freight: Savannah → global export markets",
+    "country_iso2": "INTL",
+    "operator_id": "INTL_maersk",
+    "mode": "ocean_freight",
+    "form": "unit_load",
+    "range": "international",
+    "coordinates": {
+      "lat": 32.08,
+      "lon": -81.09
+    }
+  },
+  {
+    "id": "INTL_ocean_houston-global",
+    "tier": "transport",
+    "name": "Ocean freight: Houston → international wind-farm sites",
+    "country_iso2": "INTL",
+    "operator_id": "INTL_maersk",
+    "mode": "ocean_freight",
+    "form": "unit_load",
+    "range": "international",
+    "coordinates": {
+      "lat": 29.76,
+      "lon": -95.36
+    },
+    "resources": [
+      "Tungsten"
+    ],
+    "upstream": [],
+    "downstream": []
+  },
+  {
+    "id": "US_road_phoenix-domestic",
+    "tier": "transport",
+    "name": "Road: Phoenix → US defense & industrial sites",
+    "country_iso2": "US",
+    "operator_id": "US_fedex_freight",
+    "mode": "road",
+    "form": "unit_load",
+    "range": "regional",
+    "coordinates": {
+      "lat": 33.45,
+      "lon": -112.07
+    }
+  }
+]

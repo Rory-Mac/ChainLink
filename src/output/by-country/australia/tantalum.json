@@ -1,0 +1,1455 @@
+[
+  {
+    "id": "AU_global_advanced_metals_greenbushes",
+    "name": "Greenbushes Tantalum Mine",
+    "tier": "extraction",
+    "country_iso2": "AU",
+    "canonical_company": "Global Advanced Metals",
+    "coordinates": {
+      "lat": -33.862,
+      "lon": 116.059
+    },
+    "downstream": [
+      {
+        "target_id": "AU_global_advanced_metals_kemerton",
+        "corridor_id": "AU_road_greenbushes-kemerton",
+        "resource": "tantalite concentrate",
+        "quantity": 220,
+        "metric": "t"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Tantalum"
+    ]
+  },
+  {
+    "id": "AU_pilbara_minerals_pilgangoora",
+    "name": "Pilgangoora Tantalum-Lithium Mine",
+    "tier": "extraction",
+    "country_iso2": "AU",
+    "canonical_company": "Pilbara Minerals",
+    "coordinates": {
+      "lat": -21.305,
+      "lon": 118.826
+    },
+    "downstream": [
+      {
+        "target_id": "AU_global_advanced_metals_kemerton",
+        "corridor_id": "AU_road_pilgangoora-port-hedland",
+        "resource": "tantalite concentrate",
+        "quantity": 80,
+        "metric": "t"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Tantalum"
+    ]
+  },
+  {
+    "id": "AU_global_advanced_metals_wodgina",
+    "name": "Wodgina Tantalum Mine (historical stockpile & tailings)",
+    "tier": "extraction",
+    "country_iso2": "AU",
+    "canonical_company": "Global Advanced Metals",
+    "coordinates": {
+      "lat": -21.189,
+      "lon": 118.672
+    },
+    "downstream": [
+      {
+        "target_id": "AU_global_advanced_metals_kemerton",
+        "corridor_id": "AU_road_wodgina-port-hedland",
+        "resource": "tantalite concentrate",
+        "quantity": 30,
+        "metric": "t"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Tantalum"
+    ]
+  },
+  {
+    "id": "AU_global_advanced_metals_kemerton",
+    "name": "Global Advanced Metals Kemerton Processing Plant",
+    "tier": "chemical_processor",
+    "country_iso2": "AU",
+    "canonical_company": "Global Advanced Metals",
+    "coordinates": {
+      "lat": -33.122,
+      "lon": 115.765
+    },
+    "downstream": [
+      {
+        "target_id": "US_global_advanced_metals_boyertown",
+        "corridor_id": "INTL_ocean_fremantle-philadelphia",
+        "resource": "tantalum oxide and potassium tantalum fluoride (K-salt)",
+        "quantity": 130,
+        "metric": "t"
+      },
+      {
+        "target_id": "DE_hc_starck",
+        "corridor_id": "INTL_ocean_fremantle-hamburg",
+        "resource": "tantalum oxide and potassium tantalum fluoride (K-salt)",
+        "quantity": 80,
+        "metric": "t"
+      },
+      {
+        "target_id": "JP_jx_nippon_mining",
+        "corridor_id": "INTL_ocean_fremantle-yokohama",
+        "resource": "tantalum oxide and potassium tantalum fluoride (K-salt)",
+        "quantity": 50,
+        "metric": "t"
+      },
+      {
+        "target_id": "CN_ningxia_orient_tantalum",
+        "corridor_id": "INTL_ocean_fremantle-shanghai",
+        "resource": "tantalum oxide and potassium tantalum fluoride (K-salt)",
+        "quantity": 70,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_global_advanced_metals_greenbushes",
+      "AU_pilbara_minerals_pilgangoora",
+      "AU_global_advanced_metals_wodgina"
+    ],
+    "resources": [
+      "Tantalum"
+    ]
+  },
+  {
+    "id": "US_global_advanced_metals_boyertown",
+    "name": "Global Advanced Metals Boyertown Plant",
+    "tier": "chemical_processor",
+    "country_iso2": "US",
+    "canonical_company": "Global Advanced Metals",
+    "coordinates": {
+      "lat": 40.334,
+      "lon": -75.637
+    },
+    "downstream": [
+      {
+        "target_id": "US_kemet",
+        "corridor_id": "US_road_boyertown-greenville",
+        "resource": "tantalum powder and tantalum wire",
+        "quantity": 70,
+        "metric": "t"
+      },
+      {
+        "target_id": "US_vishay_intertechnology",
+        "corridor_id": "US_road_boyertown-columbus",
+        "resource": "tantalum powder",
+        "quantity": 30,
+        "metric": "t"
+      },
+      {
+        "target_id": "JP_tokin",
+        "corridor_id": "INTL_ocean_philadelphia-tokyo",
+        "resource": "tantalum powder",
+        "quantity": 30,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_global_advanced_metals_kemerton"
+    ],
+    "resources": [
+      "Tantalum"
+    ]
+  },
+  {
+    "id": "JP_jx_nippon_mining",
+    "name": "JX Nippon Mining & Metals (Hitachi Works)",
+    "tier": "chemical_processor",
+    "country_iso2": "JP",
+    "canonical_company": "JX Nippon Mining & Metals",
+    "coordinates": {
+      "lat": 36.599,
+      "lon": 140.651
+    },
+    "downstream": [
+      {
+        "target_id": "JP_tokin",
+        "corridor_id": "JP_road_hitachi-sendai",
+        "resource": "tantalum powder",
+        "quantity": 25,
+        "metric": "t"
+      },
+      {
+        "target_id": "JP_murata",
+        "corridor_id": "JP_road_hitachi-nagaokakyo",
+        "resource": "tantalum powder",
+        "quantity": 25,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_global_advanced_metals_kemerton"
+    ],
+    "resources": [
+      "Tantalum"
+    ]
+  },
+  {
+    "id": "CN_ningxia_orient_tantalum",
+    "name": "Ningxia Orient Tantalum Industry (OTIC)",
+    "tier": "chemical_processor",
+    "country_iso2": "CN",
+    "canonical_company": "Ningxia Orient Tantalum Industry",
+    "coordinates": {
+      "lat": 38.484,
+      "lon": 106.213
+    },
+    "downstream": [
+      {
+        "target_id": "CN_fenghua_advanced",
+        "corridor_id": "CN_road_shizuishan-nantong",
+        "resource": "tantalum powder and tantalum wire",
+        "quantity": 40,
+        "metric": "t"
+      },
+      {
+        "target_id": "CN_samsung_electro_mechanics_tianjin",
+        "corridor_id": "CN_road_shizuishan-tianjin",
+        "resource": "tantalum powder",
+        "quantity": 30,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_global_advanced_metals_kemerton"
+    ],
+    "resources": [
+      "Tantalum"
+    ]
+  },
+  {
+    "id": "US_kemet",
+    "name": "KEMET Electronics (Yageo) — Greenville, SC",
+    "tier": "component_maker",
+    "country_iso2": "US",
+    "canonical_company": "KEMET (Yageo)",
+    "coordinates": {
+      "lat": 34.852,
+      "lon": -82.394
+    },
+    "downstream": [
+      {
+        "target_id": "US_apple",
+        "corridor_id": "US_road_greenville-cupertino",
+        "resource": "tantalum capacitors",
+        "quantity": 25,
+        "metric": "t"
+      },
+      {
+        "target_id": "KR_samsung_electronics",
+        "corridor_id": "INTL_ocean_charleston-busan",
+        "resource": "tantalum capacitors",
+        "quantity": 25,
+        "metric": "t"
+      },
+      {
+        "target_id": "US_honeywell",
+        "corridor_id": "US_road_greenville-phoenix",
+        "resource": "tantalum capacitors",
+        "quantity": 15,
+        "metric": "t"
+      },
+      {
+        "target_id": "US_raytheon",
+        "corridor_id": "US_road_greenville-tucson",
+        "resource": "tantalum capacitors",
+        "quantity": 15,
+        "metric": "t"
+      },
+      {
+        "target_id": "DE_bosch",
+        "corridor_id": "INTL_ocean_charleston-hamburg-2",
+        "resource": "tantalum capacitors",
+        "quantity": 10,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "US_global_advanced_metals_boyertown",
+      "DE_hc_starck"
+    ],
+    "resources": [
+      "Tantalum"
+    ]
+  },
+  {
+    "id": "US_vishay_intertechnology",
+    "name": "Vishay Intertechnology — Columbus, NE",
+    "tier": "component_maker",
+    "country_iso2": "US",
+    "canonical_company": "Vishay Intertechnology",
+    "coordinates": {
+      "lat": 41.43,
+      "lon": -97.352
+    },
+    "downstream": [
+      {
+        "target_id": "US_apple",
+        "corridor_id": "US_road_columbus-cupertino",
+        "resource": "tantalum capacitors",
+        "quantity": 10,
+        "metric": "t"
+      },
+      {
+        "target_id": "US_honeywell",
+        "corridor_id": "US_road_columbus-phoenix",
+        "resource": "tantalum capacitors",
+        "quantity": 10,
+        "metric": "t"
+      },
+      {
+        "target_id": "US_raytheon",
+        "corridor_id": "US_road_columbus-tucson",
+        "resource": "tantalum capacitors",
+        "quantity": 10,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "US_global_advanced_metals_boyertown"
+    ],
+    "resources": [
+      "Tantalum"
+    ]
+  },
+  {
+    "id": "JP_tokin",
+    "name": "TOKIN Corporation (KEMET Japan)",
+    "tier": "component_maker",
+    "country_iso2": "JP",
+    "canonical_company": "TOKIN (Yageo)",
+    "coordinates": {
+      "lat": 38.269,
+      "lon": 140.872
+    },
+    "downstream": [
+      {
+        "target_id": "JP_sony",
+        "corridor_id": "JP_road_sendai-tokyo",
+        "resource": "tantalum capacitors",
+        "quantity": 30,
+        "metric": "t"
+      },
+      {
+        "target_id": "JP_toyota",
+        "corridor_id": "JP_road_sendai-toyota-city",
+        "resource": "tantalum capacitors",
+        "quantity": 15,
+        "metric": "t"
+      },
+      {
+        "target_id": "CN_foxconn_zhengzhou",
+        "corridor_id": "INTL_ocean_tokyo-shanghai-2",
+        "resource": "tantalum capacitors",
+        "quantity": 10,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "US_global_advanced_metals_boyertown",
+      "JP_jx_nippon_mining"
+    ],
+    "resources": [
+      "Tantalum"
+    ]
+  },
+  {
+    "id": "JP_murata",
+    "name": "Murata Manufacturing — Nagaokakyo",
+    "tier": "component_maker",
+    "country_iso2": "JP",
+    "canonical_company": "Murata Manufacturing",
+    "coordinates": {
+      "lat": 34.927,
+      "lon": 135.694
+    },
+    "downstream": [
+      {
+        "target_id": "JP_sony",
+        "corridor_id": "JP_road_nagaokakyo-tokyo",
+        "resource": "tantalum capacitors",
+        "quantity": 10,
+        "metric": "t"
+      },
+      {
+        "target_id": "KR_samsung_electronics",
+        "corridor_id": "INTL_ocean_osaka-busan",
+        "resource": "tantalum capacitors",
+        "quantity": 10,
+        "metric": "t"
+      },
+      {
+        "target_id": "CN_foxconn_zhengzhou",
+        "corridor_id": "INTL_ocean_osaka-shanghai",
+        "resource": "tantalum capacitors",
+        "quantity": 5,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "JP_jx_nippon_mining"
+    ],
+    "resources": [
+      "Tantalum"
+    ]
+  },
+  {
+    "id": "DE_avx_tantalum",
+    "name": "AVX (Kyocera) — Berlin",
+    "tier": "component_maker",
+    "country_iso2": "DE",
+    "canonical_company": "AVX (Kyocera)",
+    "coordinates": {
+      "lat": 52.52,
+      "lon": 13.405
+    },
+    "downstream": [
+      {
+        "target_id": "DE_bosch",
+        "corridor_id": "DE_road_berlin-stuttgart",
+        "resource": "tantalum capacitors",
+        "quantity": 20,
+        "metric": "t"
+      },
+      {
+        "target_id": "DE_siemens",
+        "corridor_id": "DE_road_berlin-munich",
+        "resource": "tantalum capacitors",
+        "quantity": 15,
+        "metric": "t"
+      },
+      {
+        "target_id": "US_raytheon",
+        "corridor_id": "INTL_ocean_hamburg-charleston-2",
+        "resource": "tantalum capacitors",
+        "quantity": 10,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "DE_hc_starck"
+    ],
+    "resources": [
+      "Tantalum"
+    ]
+  },
+  {
+    "id": "DE_heraeus",
+    "name": "Heraeus — Hanau (tantalum mill products)",
+    "tier": "component_maker",
+    "country_iso2": "DE",
+    "canonical_company": "Heraeus",
+    "coordinates": {
+      "lat": 50.126,
+      "lon": 8.921
+    },
+    "downstream": [
+      {
+        "target_id": "DE_siemens",
+        "corridor_id": "DE_road_hanau-munich",
+        "resource": "tantalum sputtering targets and mill products",
+        "quantity": 8,
+        "metric": "t"
+      },
+      {
+        "target_id": "US_honeywell",
+        "corridor_id": "INTL_air_frankfurt-phoenix",
+        "resource": "tantalum sputtering targets",
+        "quantity": 7,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "DE_hc_starck"
+    ],
+    "resources": [
+      "Tantalum"
+    ]
+  },
+  {
+    "id": "CN_fenghua_advanced",
+    "name": "Fenghua Advanced Technology — Nantong",
+    "tier": "component_maker",
+    "country_iso2": "CN",
+    "canonical_company": "Fenghua Advanced Technology",
+    "coordinates": {
+      "lat": 32.015,
+      "lon": 120.864
+    },
+    "downstream": [
+      {
+        "target_id": "CN_foxconn_zhengzhou",
+        "corridor_id": "CN_road_nantong-zhengzhou",
+        "resource": "tantalum capacitors",
+        "quantity": 25,
+        "metric": "t"
+      },
+      {
+        "target_id": "CN_huawei",
+        "corridor_id": "CN_road_nantong-shenzhen",
+        "resource": "tantalum capacitors",
+        "quantity": 15,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "CN_ningxia_orient_tantalum"
+    ],
+    "resources": [
+      "Tantalum"
+    ]
+  },
+  {
+    "id": "CN_samsung_electro_mechanics_tianjin",
+    "name": "Samsung Electro-Mechanics — Tianjin",
+    "tier": "component_maker",
+    "country_iso2": "CN",
+    "canonical_company": "Samsung Electro-Mechanics",
+    "coordinates": {
+      "lat": 39.084,
+      "lon": 117.2
+    },
+    "downstream": [
+      {
+        "target_id": "KR_samsung_electronics",
+        "corridor_id": "INTL_ocean_tianjin-busan",
+        "resource": "tantalum capacitors",
+        "quantity": 20,
+        "metric": "t"
+      },
+      {
+        "target_id": "CN_foxconn_zhengzhou",
+        "corridor_id": "CN_road_tianjin-zhengzhou",
+        "resource": "tantalum capacitors",
+        "quantity": 10,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "CN_ningxia_orient_tantalum"
+    ],
+    "resources": [
+      "Tantalum"
+    ]
+  },
+  {
+    "id": "US_apple",
+    "name": "Apple Inc.",
+    "tier": "oem",
+    "country_iso2": "US",
+    "canonical_company": "Apple",
+    "coordinates": {
+      "lat": 37.335,
+      "lon": -122.009
+    },
+    "downstream": [
+      {
+        "target_id": "US_commercial",
+        "corridor_id": "US_road_cupertino-distribution",
+        "resource": "consumer electronics (smartphones, tablets, laptops)",
+        "quantity": 18,
+        "metric": "t"
+      },
+      {
+        "target_id": "INTL_commercial",
+        "corridor_id": "INTL_ocean_losangeles-global",
+        "resource": "consumer electronics (smartphones, tablets, laptops)",
+        "quantity": 17,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "US_kemet",
+      "US_vishay_intertechnology"
+    ],
+    "resources": [
+      "Tantalum"
+    ]
+  },
+  {
+    "id": "US_raytheon",
+    "name": "RTX (Raytheon)",
+    "tier": "oem",
+    "country_iso2": "US",
+    "canonical_company": "RTX",
+    "coordinates": {
+      "lat": 32.198,
+      "lon": -110.86
+    },
+    "downstream": [
+      {
+        "target_id": "US_government",
+        "corridor_id": "US_road_tucson-gov-distribution",
+        "resource": "defense electronics and missile systems",
+        "quantity": 25,
+        "metric": "t"
+      },
+      {
+        "target_id": "INTL_government",
+        "corridor_id": "INTL_air_tucson-international",
+        "resource": "defense electronics (export)",
+        "quantity": 10,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "US_kemet",
+      "US_vishay_intertechnology",
+      "DE_avx_tantalum"
+    ],
+    "resources": [
+      "Tantalum"
+    ]
+  },
+  {
+    "id": "DE_siemens",
+    "name": "Siemens AG",
+    "tier": "oem",
+    "country_iso2": "DE",
+    "canonical_company": "Siemens",
+    "coordinates": {
+      "lat": 48.137,
+      "lon": 11.575
+    },
+    "downstream": [
+      {
+        "target_id": "DE_industrial",
+        "corridor_id": "DE_road_munich-distribution",
+        "resource": "industrial automation, medical imaging, and power electronics",
+        "quantity": 15,
+        "metric": "t"
+      },
+      {
+        "target_id": "INTL_industrial",
+        "corridor_id": "INTL_ocean_hamburg-global-2",
+        "resource": "industrial and medical equipment (export)",
+        "quantity": 8,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "DE_avx_tantalum",
+      "DE_heraeus"
+    ],
+    "resources": [
+      "Tantalum"
+    ]
+  },
+  {
+    "id": "JP_sony",
+    "name": "Sony Group Corporation",
+    "tier": "oem",
+    "country_iso2": "JP",
+    "canonical_company": "Sony",
+    "coordinates": {
+      "lat": 35.66,
+      "lon": 139.729
+    },
+    "downstream": [
+      {
+        "target_id": "JP_commercial",
+        "corridor_id": "JP_road_tokyo-distribution",
+        "resource": "consumer electronics (cameras, gaming, audio)",
+        "quantity": 15,
+        "metric": "t"
+      },
+      {
+        "target_id": "INTL_commercial",
+        "corridor_id": "INTL_ocean_tokyo-global",
+        "resource": "consumer electronics (export)",
+        "quantity": 25,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "JP_tokin",
+      "JP_murata"
+    ],
+    "resources": [
+      "Tantalum"
+    ]
+  },
+  {
+    "id": "CN_foxconn_zhengzhou",
+    "name": "Foxconn Zhengzhou (iPhone City)",
+    "tier": "oem",
+    "country_iso2": "CN",
+    "canonical_company": "Foxconn",
+    "coordinates": {
+      "lat": 34.746,
+      "lon": 113.625
+    },
+    "downstream": [
+      {
+        "target_id": "INTL_commercial",
+        "corridor_id": "INTL_air_zhengzhou-global",
+        "resource": "assembled smartphones and electronics",
+        "quantity": 35,
+        "metric": "t"
+      },
+      {
+        "target_id": "CN_commercial",
+        "corridor_id": "CN_road_zhengzhou-distribution",
+        "resource": "assembled smartphones and electronics (domestic)",
+        "quantity": 15,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "JP_tokin",
+      "JP_murata",
+      "CN_fenghua_advanced",
+      "CN_samsung_electro_mechanics_tianjin"
+    ],
+    "resources": [
+      "Tantalum"
+    ]
+  },
+  {
+    "id": "CN_huawei",
+    "name": "Huawei Technologies",
+    "tier": "oem",
+    "country_iso2": "CN",
+    "canonical_company": "Huawei",
+    "coordinates": {
+      "lat": 22.643,
+      "lon": 114.057
+    },
+    "downstream": [
+      {
+        "target_id": "CN_commercial",
+        "corridor_id": "CN_road_shenzhen-distribution",
+        "resource": "telecom equipment and consumer electronics",
+        "quantity": 10,
+        "metric": "t"
+      },
+      {
+        "target_id": "INTL_commercial",
+        "corridor_id": "INTL_ocean_shenzhen-global",
+        "resource": "telecom equipment (export)",
+        "quantity": 5,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "CN_fenghua_advanced"
+    ],
+    "resources": [
+      "Tantalum"
+    ]
+  },
+  {
+    "id": "AU_road_pilgangoora-port-hedland",
+    "tier": "transport",
+    "name": "Road: Pilgangoora to Port Hedland then ship to Kemerton",
+    "country_iso2": "AU",
+    "operator_id": "AU_contract_haulage",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "regional",
+    "coordinates": {
+      "lat": -21.6,
+      "lon": 118.6
+    },
+    "resources": [
+      "Mineral-Bearing Land"
+    ],
+    "upstream": [],
+    "downstream": []
+  },
+  {
+    "id": "INTL_ocean_fremantle-philadelphia",
+    "tier": "transport",
+    "name": "Ocean freight: Fremantle to Philadelphia",
+    "country_iso2": "INTL",
+    "operator_id": "INTL_maersk",
+    "mode": "ocean_freight",
+    "form": "containerised",
+    "range": "international",
+    "coordinates": {
+      "lat": -5,
+      "lon": 60
+    }
+  },
+  {
+    "id": "INTL_ocean_fremantle-yokohama",
+    "tier": "transport",
+    "name": "Ocean freight: Fremantle to Yokohama",
+    "country_iso2": "INTL",
+    "operator_id": "INTL_one_ocean_network_express",
+    "mode": "ocean_freight",
+    "form": "containerised",
+    "range": "international",
+    "coordinates": {
+      "lat": 5,
+      "lon": 125
+    }
+  },
+  {
+    "id": "US_road_boyertown-greenville",
+    "tier": "transport",
+    "name": "Road: Boyertown, PA to Greenville, SC",
+    "country_iso2": "US",
+    "operator_id": "US_contract_trucking",
+    "mode": "road",
+    "form": "containerised",
+    "range": "regional",
+    "coordinates": {
+      "lat": 37.6,
+      "lon": -79
+    }
+  },
+  {
+    "id": "US_road_boyertown-columbus",
+    "tier": "transport",
+    "name": "Road: Boyertown, PA to Columbus, NE (Vishay)",
+    "country_iso2": "US",
+    "operator_id": "US_contract_trucking",
+    "mode": "road",
+    "form": "containerised",
+    "range": "regional",
+    "coordinates": {
+      "lat": 40.8,
+      "lon": -86.5
+    }
+  },
+  {
+    "id": "INTL_ocean_philadelphia-tokyo",
+    "tier": "transport",
+    "name": "Ocean freight: Philadelphia to Tokyo",
+    "country_iso2": "INTL",
+    "operator_id": "INTL_one_ocean_network_express",
+    "mode": "ocean_freight",
+    "form": "containerised",
+    "range": "international",
+    "coordinates": {
+      "lat": 25,
+      "lon": -140
+    }
+  },
+  {
+    "id": "DE_road_goslar-berlin",
+    "tier": "transport",
+    "name": "Road: Goslar to Berlin (AVX)",
+    "country_iso2": "DE",
+    "operator_id": "DE_dhl_freight",
+    "mode": "road",
+    "form": "containerised",
+    "range": "regional",
+    "coordinates": {
+      "lat": 52.2,
+      "lon": 11.9
+    }
+  },
+  {
+    "id": "INTL_ocean_hamburg-charleston",
+    "tier": "transport",
+    "name": "Ocean freight: Hamburg to Charleston",
+    "country_iso2": "INTL",
+    "operator_id": "INTL_hapag_lloyd",
+    "mode": "ocean_freight",
+    "form": "containerised",
+    "range": "international",
+    "coordinates": {
+      "lat": 42,
+      "lon": -35
+    }
+  },
+  {
+    "id": "DE_road_goslar-hanau",
+    "tier": "transport",
+    "name": "Road: Goslar to Hanau (Heraeus)",
+    "country_iso2": "DE",
+    "operator_id": "DE_dhl_freight",
+    "mode": "road",
+    "form": "containerised",
+    "range": "regional",
+    "coordinates": {
+      "lat": 51,
+      "lon": 9.7
+    }
+  },
+  {
+    "id": "JP_road_hitachi-sendai",
+    "tier": "transport",
+    "name": "Road: Hitachi to Sendai (TOKIN)",
+    "country_iso2": "JP",
+    "operator_id": "JP_yamato_transport",
+    "mode": "road",
+    "form": "containerised",
+    "range": "regional",
+    "coordinates": {
+      "lat": 37.4,
+      "lon": 140.8
+    }
+  },
+  {
+    "id": "JP_road_hitachi-nagaokakyo",
+    "tier": "transport",
+    "name": "Road: Hitachi to Nagaokakyo (Murata)",
+    "country_iso2": "JP",
+    "operator_id": "JP_yamato_transport",
+    "mode": "road",
+    "form": "containerised",
+    "range": "regional",
+    "coordinates": {
+      "lat": 35.8,
+      "lon": 137.8
+    }
+  },
+  {
+    "id": "CN_road_shizuishan-nantong",
+    "tier": "transport",
+    "name": "Road/rail: Shizuishan to Nantong (Fenghua)",
+    "country_iso2": "CN",
+    "operator_id": "CN_sinotrans",
+    "mode": "road",
+    "form": "containerised",
+    "range": "regional",
+    "coordinates": {
+      "lat": 35.2,
+      "lon": 113.5
+    }
+  },
+  {
+    "id": "CN_road_shizuishan-tianjin",
+    "tier": "transport",
+    "name": "Road/rail: Shizuishan to Tianjin (Samsung EM)",
+    "country_iso2": "CN",
+    "operator_id": "CN_sinotrans",
+    "mode": "road",
+    "form": "containerised",
+    "range": "regional",
+    "coordinates": {
+      "lat": 38.8,
+      "lon": 110.7
+    }
+  },
+  {
+    "id": "US_road_greenville-cupertino",
+    "tier": "transport",
+    "name": "Road: Greenville, SC to Cupertino, CA (Apple)",
+    "country_iso2": "US",
+    "operator_id": "US_contract_trucking",
+    "mode": "road",
+    "form": "containerised",
+    "range": "regional",
+    "coordinates": {
+      "lat": 36,
+      "lon": -100
+    }
+  },
+  {
+    "id": "INTL_ocean_charleston-busan",
+    "tier": "transport",
+    "name": "Ocean freight: Charleston to Busan",
+    "country_iso2": "INTL",
+    "operator_id": "INTL_maersk",
+    "mode": "ocean_freight",
+    "form": "containerised",
+    "range": "international",
+    "coordinates": {
+      "lat": 20,
+      "lon": -160
+    }
+  },
+  {
+    "id": "US_road_greenville-phoenix",
+    "tier": "transport",
+    "name": "Road: Greenville, SC to Phoenix, AZ (Honeywell)",
+    "country_iso2": "US",
+    "operator_id": "US_contract_trucking",
+    "mode": "road",
+    "form": "containerised",
+    "range": "regional",
+    "coordinates": {
+      "lat": 34,
+      "lon": -95
+    }
+  },
+  {
+    "id": "US_road_greenville-tucson",
+    "tier": "transport",
+    "name": "Road: Greenville, SC to Tucson, AZ (Raytheon)",
+    "country_iso2": "US",
+    "operator_id": "US_contract_trucking",
+    "mode": "road",
+    "form": "containerised",
+    "range": "regional",
+    "coordinates": {
+      "lat": 33.5,
+      "lon": -95
+    }
+  },
+  {
+    "id": "INTL_ocean_charleston-hamburg-2",
+    "tier": "transport",
+    "name": "Ocean freight: Charleston to Hamburg (Bosch)",
+    "country_iso2": "INTL",
+    "operator_id": "INTL_hapag_lloyd",
+    "mode": "ocean_freight",
+    "form": "containerised",
+    "range": "international",
+    "coordinates": {
+      "lat": 42,
+      "lon": -35
+    }
+  },
+  {
+    "id": "US_road_columbus-cupertino",
+    "tier": "transport",
+    "name": "Road: Columbus, NE to Cupertino, CA",
+    "country_iso2": "US",
+    "operator_id": "US_contract_trucking",
+    "mode": "road",
+    "form": "containerised",
+    "range": "regional",
+    "coordinates": {
+      "lat": 39,
+      "lon": -110
+    }
+  },
+  {
+    "id": "US_road_columbus-phoenix",
+    "tier": "transport",
+    "name": "Road: Columbus, NE to Phoenix, AZ",
+    "country_iso2": "US",
+    "operator_id": "US_contract_trucking",
+    "mode": "road",
+    "form": "containerised",
+    "range": "regional",
+    "coordinates": {
+      "lat": 37,
+      "lon": -105
+    }
+  },
+  {
+    "id": "US_road_columbus-tucson",
+    "tier": "transport",
+    "name": "Road: Columbus, NE to Tucson, AZ",
+    "country_iso2": "US",
+    "operator_id": "US_contract_trucking",
+    "mode": "road",
+    "form": "containerised",
+    "range": "regional",
+    "coordinates": {
+      "lat": 36.5,
+      "lon": -105
+    }
+  },
+  {
+    "id": "JP_road_sendai-tokyo",
+    "tier": "transport",
+    "name": "Road: Sendai to Tokyo (Sony)",
+    "country_iso2": "JP",
+    "operator_id": "JP_yamato_transport",
+    "mode": "road",
+    "form": "containerised",
+    "range": "regional",
+    "coordinates": {
+      "lat": 37,
+      "lon": 140.3
+    }
+  },
+  {
+    "id": "JP_road_sendai-toyota-city",
+    "tier": "transport",
+    "name": "Road: Sendai to Toyota City",
+    "country_iso2": "JP",
+    "operator_id": "JP_yamato_transport",
+    "mode": "road",
+    "form": "containerised",
+    "range": "regional",
+    "coordinates": {
+      "lat": 36.6,
+      "lon": 139
+    }
+  },
+  {
+    "id": "INTL_ocean_tokyo-shanghai-2",
+    "tier": "transport",
+    "name": "Ocean freight: Tokyo to Shanghai (Foxconn supply)",
+    "country_iso2": "INTL",
+    "operator_id": "INTL_one_ocean_network_express",
+    "mode": "ocean_freight",
+    "form": "containerised",
+    "range": "international",
+    "coordinates": {
+      "lat": 30,
+      "lon": 130
+    }
+  },
+  {
+    "id": "JP_road_nagaokakyo-tokyo",
+    "tier": "transport",
+    "name": "Road: Nagaokakyo to Tokyo (Sony)",
+    "country_iso2": "JP",
+    "operator_id": "JP_yamato_transport",
+    "mode": "road",
+    "form": "containerised",
+    "range": "regional",
+    "coordinates": {
+      "lat": 35.3,
+      "lon": 137.2
+    }
+  },
+  {
+    "id": "INTL_ocean_osaka-busan",
+    "tier": "transport",
+    "name": "Ocean freight: Osaka to Busan",
+    "country_iso2": "INTL",
+    "operator_id": "INTL_one_ocean_network_express",
+    "mode": "ocean_freight",
+    "form": "containerised",
+    "range": "international",
+    "coordinates": {
+      "lat": 34.4,
+      "lon": 131
+    }
+  },
+  {
+    "id": "INTL_ocean_osaka-shanghai",
+    "tier": "transport",
+    "name": "Ocean freight: Osaka to Shanghai",
+    "country_iso2": "INTL",
+    "operator_id": "INTL_cosco",
+    "mode": "ocean_freight",
+    "form": "containerised",
+    "range": "international",
+    "coordinates": {
+      "lat": 32,
+      "lon": 126
+    }
+  },
+  {
+    "id": "DE_road_berlin-stuttgart",
+    "tier": "transport",
+    "name": "Road: Berlin to Stuttgart (Bosch)",
+    "country_iso2": "DE",
+    "operator_id": "DE_dhl_freight",
+    "mode": "road",
+    "form": "containerised",
+    "range": "regional",
+    "coordinates": {
+      "lat": 50.4,
+      "lon": 11.3
+    }
+  },
+  {
+    "id": "DE_road_berlin-munich",
+    "tier": "transport",
+    "name": "Road: Berlin to Munich (Siemens)",
+    "country_iso2": "DE",
+    "operator_id": "DE_dhl_freight",
+    "mode": "road",
+    "form": "containerised",
+    "range": "regional",
+    "coordinates": {
+      "lat": 50.3,
+      "lon": 12
+    }
+  },
+  {
+    "id": "INTL_ocean_hamburg-charleston-2",
+    "tier": "transport",
+    "name": "Ocean freight: Hamburg to Charleston (AVX to Raytheon)",
+    "country_iso2": "INTL",
+    "operator_id": "INTL_hapag_lloyd",
+    "mode": "ocean_freight",
+    "form": "containerised",
+    "range": "international",
+    "coordinates": {
+      "lat": 43,
+      "lon": -33
+    }
+  },
+  {
+    "id": "DE_road_hanau-munich",
+    "tier": "transport",
+    "name": "Road: Hanau to Munich (Siemens)",
+    "country_iso2": "DE",
+    "operator_id": "DE_dhl_freight",
+    "mode": "road",
+    "form": "containerised",
+    "range": "regional",
+    "coordinates": {
+      "lat": 49.5,
+      "lon": 10
+    }
+  },
+  {
+    "id": "INTL_air_frankfurt-phoenix",
+    "tier": "transport",
+    "name": "Air freight: Frankfurt to Phoenix (Honeywell)",
+    "country_iso2": "INTL",
+    "operator_id": "INTL_lufthansa_cargo",
+    "mode": "air_freight",
+    "form": "containerised",
+    "range": "international",
+    "coordinates": {
+      "lat": 50.033,
+      "lon": 8.57
+    }
+  },
+  {
+    "id": "CN_road_nantong-zhengzhou",
+    "tier": "transport",
+    "name": "Road: Nantong to Zhengzhou (Foxconn)",
+    "country_iso2": "CN",
+    "operator_id": "CN_sinotrans",
+    "mode": "road",
+    "form": "containerised",
+    "range": "regional",
+    "coordinates": {
+      "lat": 33.4,
+      "lon": 117
+    }
+  },
+  {
+    "id": "CN_road_nantong-shenzhen",
+    "tier": "transport",
+    "name": "Road: Nantong to Shenzhen (Huawei)",
+    "country_iso2": "CN",
+    "operator_id": "CN_sinotrans",
+    "mode": "road",
+    "form": "containerised",
+    "range": "regional",
+    "coordinates": {
+      "lat": 27.5,
+      "lon": 117.9
+    }
+  },
+  {
+    "id": "INTL_ocean_tianjin-busan",
+    "tier": "transport",
+    "name": "Ocean freight: Tianjin to Busan (Samsung)",
+    "country_iso2": "INTL",
+    "operator_id": "INTL_cosco",
+    "mode": "ocean_freight",
+    "form": "containerised",
+    "range": "international",
+    "coordinates": {
+      "lat": 36,
+      "lon": 124
+    }
+  },
+  {
+    "id": "CN_road_tianjin-zhengzhou",
+    "tier": "transport",
+    "name": "Road: Tianjin to Zhengzhou (Foxconn)",
+    "country_iso2": "CN",
+    "operator_id": "CN_sinotrans",
+    "mode": "road",
+    "form": "containerised",
+    "range": "regional",
+    "coordinates": {
+      "lat": 37,
+      "lon": 115.1
+    }
+  },
+  {
+    "id": "US_road_cupertino-distribution",
+    "tier": "transport",
+    "name": "Road: Cupertino to US distribution centres",
+    "country_iso2": "US",
+    "operator_id": "US_contract_trucking",
+    "mode": "road",
+    "form": "unit_load",
+    "range": "regional",
+    "coordinates": {
+      "lat": 37.3,
+      "lon": -122
+    }
+  },
+  {
+    "id": "KR_road_suwon-distribution",
+    "tier": "transport",
+    "name": "Road: Suwon to domestic distribution",
+    "country_iso2": "KR",
+    "operator_id": "KR_cj_logistics",
+    "mode": "road",
+    "form": "unit_load",
+    "range": "local",
+    "coordinates": {
+      "lat": 37.26,
+      "lon": 127.05
+    }
+  },
+  {
+    "id": "US_road_phoenix-distribution",
+    "tier": "transport",
+    "name": "Road: Phoenix to US industrial clients",
+    "country_iso2": "US",
+    "operator_id": "US_contract_trucking",
+    "mode": "road",
+    "form": "unit_load",
+    "range": "regional",
+    "coordinates": {
+      "lat": 33.45,
+      "lon": -112
+    }
+  },
+  {
+    "id": "US_road_phoenix-gov-distribution",
+    "tier": "transport",
+    "name": "Road: Phoenix to US government/defense depots",
+    "country_iso2": "US",
+    "operator_id": "US_contract_trucking",
+    "mode": "road",
+    "form": "unit_load",
+    "range": "regional",
+    "coordinates": {
+      "lat": 33.45,
+      "lon": -112
+    }
+  },
+  {
+    "id": "US_road_tucson-gov-distribution",
+    "tier": "transport",
+    "name": "Road: Tucson to US government/defense depots",
+    "country_iso2": "US",
+    "operator_id": "US_contract_trucking",
+    "mode": "road",
+    "form": "unit_load",
+    "range": "regional",
+    "coordinates": {
+      "lat": 32.2,
+      "lon": -110.9
+    }
+  },
+  {
+    "id": "INTL_air_tucson-international",
+    "tier": "transport",
+    "name": "Air freight: Tucson to international defense clients",
+    "country_iso2": "INTL",
+    "operator_id": "INTL_fedex",
+    "mode": "air_freight",
+    "form": "unit_load",
+    "range": "international",
+    "coordinates": {
+      "lat": 32.12,
+      "lon": -110.94
+    }
+  },
+  {
+    "id": "DE_road_stuttgart-distribution",
+    "tier": "transport",
+    "name": "Road: Stuttgart to German industrial clients",
+    "country_iso2": "DE",
+    "operator_id": "DE_dhl_freight",
+    "mode": "road",
+    "form": "unit_load",
+    "range": "regional",
+    "coordinates": {
+      "lat": 48.78,
+      "lon": 9.18
+    }
+  },
+  {
+    "id": "DE_road_munich-distribution",
+    "tier": "transport",
+    "name": "Road: Munich to German industrial clients (Siemens)",
+    "country_iso2": "DE",
+    "operator_id": "DE_dhl_freight",
+    "mode": "road",
+    "form": "unit_load",
+    "range": "regional",
+    "coordinates": {
+      "lat": 48.14,
+      "lon": 11.58
+    }
+  },
+  {
+    "id": "INTL_ocean_hamburg-global-2",
+    "tier": "transport",
+    "name": "Ocean freight: Hamburg to global markets (Siemens)",
+    "country_iso2": "INTL",
+    "operator_id": "INTL_hapag_lloyd",
+    "mode": "ocean_freight",
+    "form": "containerised",
+    "range": "international",
+    "coordinates": {
+      "lat": 53.55,
+      "lon": 9.97
+    }
+  },
+  {
+    "id": "JP_road_tokyo-distribution",
+    "tier": "transport",
+    "name": "Road: Tokyo to domestic distribution (Sony)",
+    "country_iso2": "JP",
+    "operator_id": "JP_yamato_transport",
+    "mode": "road",
+    "form": "unit_load",
+    "range": "local",
+    "coordinates": {
+      "lat": 35.66,
+      "lon": 139.73
+    }
+  },
+  {
+    "id": "JP_road_toyota-city-distribution",
+    "tier": "transport",
+    "name": "Road: Toyota City to domestic distribution",
+    "country_iso2": "JP",
+    "operator_id": "JP_yamato_transport",
+    "mode": "road",
+    "form": "unit_load",
+    "range": "local",
+    "coordinates": {
+      "lat": 35.08,
+      "lon": 137.16
+    }
+  },
+  {
+    "id": "INTL_air_zhengzhou-global",
+    "tier": "transport",
+    "name": "Air freight: Zhengzhou to global markets (Foxconn)",
+    "country_iso2": "INTL",
+    "operator_id": "INTL_fedex",
+    "mode": "air_freight",
+    "form": "unit_load",
+    "range": "international",
+    "coordinates": {
+      "lat": 34.52,
+      "lon": 113.84
+    }
+  },
+  {
+    "id": "CN_road_zhengzhou-distribution",
+    "tier": "transport",
+    "name": "Road: Zhengzhou to Chinese domestic distribution",
+    "country_iso2": "CN",
+    "operator_id": "CN_sinotrans",
+    "mode": "road",
+    "form": "unit_load",
+    "range": "regional",
+    "coordinates": {
+      "lat": 34.75,
+      "lon": 113.65
+    }
+  },
+  {
+    "id": "CN_road_shenzhen-distribution",
+    "tier": "transport",
+    "name": "Road: Shenzhen to domestic distribution (Huawei)",
+    "country_iso2": "CN",
+    "operator_id": "CN_sinotrans",
+    "mode": "road",
+    "form": "unit_load",
+    "range": "regional",
+    "coordinates": {
+      "lat": 22.55,
+      "lon": 114.06
+    }
+  }
+]

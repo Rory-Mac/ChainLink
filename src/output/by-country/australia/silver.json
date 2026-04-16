@@ -1,0 +1,1074 @@
+[
+  {
+    "id": "AU_cannington_mine",
+    "name": "Cannington Mine",
+    "tier": "extraction",
+    "country_iso2": "AU",
+    "canonical_company": "BHP",
+    "coordinates": {
+      "lat": -21.875,
+      "lon": 140.907
+    },
+    "downstream": [
+      {
+        "target_id": "AU_port_pirie_smelter",
+        "corridor_id": "AU_rail_cannington-townsville",
+        "resource": "silver-lead-zinc concentrate",
+        "quantity": 550,
+        "metric": "t"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Silver"
+    ]
+  },
+  {
+    "id": "AU_mount_isa_mines",
+    "name": "Mount Isa Mines (Silver-Lead-Zinc)",
+    "tier": "extraction",
+    "country_iso2": "AU",
+    "canonical_company": "Glencore",
+    "coordinates": {
+      "lat": -20.726,
+      "lon": 139.493
+    },
+    "downstream": [
+      {
+        "target_id": "AU_mount_isa_smelter",
+        "corridor_id": "AU_road_mount-isa-local",
+        "resource": "silver-lead-zinc concentrate",
+        "quantity": 180,
+        "metric": "t"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Silver"
+    ]
+  },
+  {
+    "id": "AU_broken_hill_mine",
+    "name": "Broken Hill (Rasp Mine)",
+    "tier": "extraction",
+    "country_iso2": "AU",
+    "canonical_company": "CBH Resources",
+    "coordinates": {
+      "lat": -31.958,
+      "lon": 141.468
+    },
+    "downstream": [
+      {
+        "target_id": "AU_port_pirie_smelter",
+        "corridor_id": "AU_rail_broken-hill-port-pirie",
+        "resource": "silver-lead concentrate",
+        "quantity": 25,
+        "metric": "t"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Silver"
+    ]
+  },
+  {
+    "id": "AU_cadia_valley_mine",
+    "name": "Cadia Valley Operations",
+    "tier": "extraction",
+    "country_iso2": "AU",
+    "canonical_company": "Newmont",
+    "coordinates": {
+      "lat": -33.475,
+      "lon": 148.997
+    },
+    "downstream": [
+      {
+        "target_id": "AU_port_pirie_smelter",
+        "corridor_id": "AU_rail_cadia-port-pirie",
+        "resource": "gold-copper-silver concentrate",
+        "quantity": 35,
+        "metric": "t"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Silver"
+    ]
+  },
+  {
+    "id": "AU_cobar_cso_mine",
+    "name": "CSA Mine (Cobar)",
+    "tier": "extraction",
+    "country_iso2": "AU",
+    "canonical_company": "Metals Acquisition Ltd",
+    "coordinates": {
+      "lat": -31.488,
+      "lon": 145.792
+    },
+    "downstream": [
+      {
+        "target_id": "AU_port_pirie_smelter",
+        "corridor_id": "AU_road_cobar-port-pirie",
+        "resource": "copper-silver concentrate",
+        "quantity": 20,
+        "metric": "t"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Silver"
+    ]
+  },
+  {
+    "id": "AU_hilgrove_mine",
+    "name": "Hilgrove Mine",
+    "tier": "extraction",
+    "country_iso2": "AU",
+    "canonical_company": "Hilgrove Resources",
+    "coordinates": {
+      "lat": -30.563,
+      "lon": 152.09
+    },
+    "downstream": [
+      {
+        "target_id": "AU_port_pirie_smelter",
+        "corridor_id": "AU_road_hilgrove-port-pirie",
+        "resource": "antimony-gold-silver concentrate",
+        "quantity": 5,
+        "metric": "t"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Silver"
+    ]
+  },
+  {
+    "id": "AU_port_pirie_smelter",
+    "name": "Port Pirie Smelter & Refinery",
+    "tier": "refinery",
+    "country_iso2": "AU",
+    "canonical_company": "Nyrstar",
+    "coordinates": {
+      "lat": -33.185,
+      "lon": 138.017
+    },
+    "downstream": [
+      {
+        "target_id": "AU_abc_refinery",
+        "corridor_id": "AU_road_port-pirie-sydney",
+        "resource": "silver doré / refined silver bullion",
+        "quantity": 350,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_perth_mint",
+        "corridor_id": "AU_road_port-pirie-perth",
+        "resource": "silver doré bars",
+        "quantity": 180,
+        "metric": "t"
+      },
+      {
+        "target_id": "INTL_ocean_port-pirie-asia",
+        "corridor_id": "INTL_ocean_port-pirie-asia",
+        "resource": "refined silver bullion",
+        "quantity": 270,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_cannington_mine",
+      "AU_mcarthur_river_mine",
+      "AU_rosebery_mine",
+      "AU_broken_hill_mine",
+      "AU_cadia_valley_mine",
+      "AU_cobar_cso_mine",
+      "AU_dugald_river_mine",
+      "AU_hilgrove_mine"
+    ],
+    "resources": [
+      "Silver"
+    ]
+  },
+  {
+    "id": "AU_olympic_dam_refinery",
+    "name": "Olympic Dam On-site Copper Refinery",
+    "tier": "refinery",
+    "country_iso2": "AU",
+    "canonical_company": "BHP",
+    "coordinates": {
+      "lat": -30.435,
+      "lon": 136.88
+    },
+    "downstream": [
+      {
+        "target_id": "AU_perth_mint",
+        "corridor_id": "AU_road_olympic-dam-perth",
+        "resource": "silver bullion (by-product)",
+        "quantity": 50,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_abc_refinery",
+        "corridor_id": "AU_road_olympic-dam-sydney",
+        "resource": "silver doré (by-product)",
+        "quantity": 30,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_olympic_dam"
+    ],
+    "resources": [
+      "Silver"
+    ]
+  },
+  {
+    "id": "AU_abc_refinery",
+    "name": "ABC Refinery",
+    "tier": "dealer",
+    "country_iso2": "AU",
+    "canonical_company": "ABC Refinery",
+    "coordinates": {
+      "lat": -33.868,
+      "lon": 151.093
+    },
+    "downstream": [
+      {
+        "target_id": "AU_solar_panel_fabricators",
+        "corridor_id": "AU_road_sydney-metro",
+        "resource": "refined silver (999.0+ fine bars / granules)",
+        "quantity": 120,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_electronics_fabricators",
+        "corridor_id": "AU_road_sydney-metro",
+        "resource": "refined silver (bars / grain)",
+        "quantity": 60,
+        "metric": "t"
+      },
+      {
+        "target_id": "INTL_silver_traders",
+        "corridor_id": "INTL_ocean_sydney-global",
+        "resource": "LBMA-grade silver bars",
+        "quantity": 250,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_jewellery_fabricators",
+        "corridor_id": "AU_road_sydney-metro",
+        "resource": "refined silver grain / sheet",
+        "quantity": 30,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_industrial",
+        "corridor_id": "AU_road_sydney-metro",
+        "resource": "silver bullion for industrial brazing / soldering",
+        "quantity": 20,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_abc_refinery_dealer",
+        "corridor_id": "AU_road_sydney-local",
+        "resource": "refined gold bars (LBMA Good Delivery)",
+        "quantity": 10,
+        "metric": "t"
+      },
+      {
+        "target_id": "INTL_lbma_bullion_market",
+        "corridor_id": "INTL_air_freight_sydney-london",
+        "resource": "refined gold bars (LBMA Good Delivery)",
+        "quantity": 10,
+        "metric": "t"
+      },
+      {
+        "target_id": "INTL_hong_kong_gold_market",
+        "corridor_id": "INTL_air_freight_sydney-hongkong",
+        "resource": "refined gold bars",
+        "quantity": 4,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_port_pirie_smelter",
+      "AU_mount_isa_smelter",
+      "AU_olympic_dam_refinery",
+      "AU_newcrest_cadia",
+      "AU_evolution_cowal",
+      "AU_evolution_mt_rawdon",
+      "AU_evolution_ernest_henry",
+      "AU_newmont_waihi_ridgeway"
+    ],
+    "resources": [
+      "Silver",
+      "Gold"
+    ]
+  },
+  {
+    "id": "AU_perth_mint",
+    "name": "The Perth Mint",
+    "tier": "dealer",
+    "country_iso2": "AU",
+    "canonical_company": "Gold Corporation (Perth Mint)",
+    "coordinates": {
+      "lat": -31.959,
+      "lon": 115.862
+    },
+    "downstream": [
+      {
+        "target_id": "AU_perth_mint_minted_products",
+        "corridor_id": "AU_road_perth-metro",
+        "resource": "silver minted coins / bars (retail)",
+        "quantity": 60,
+        "metric": "t"
+      },
+      {
+        "target_id": "INTL_silver_traders",
+        "corridor_id": "INTL_ocean_fremantle-global",
+        "resource": "LBMA-grade silver bars",
+        "quantity": 200,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_solar_panel_fabricators",
+        "corridor_id": "AU_road_perth-national",
+        "resource": "refined silver bars",
+        "quantity": 50,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_perth_mint_dealer",
+        "corridor_id": "AU_road_perth-local",
+        "resource": "refined gold bars (LBMA Good Delivery)",
+        "quantity": 50,
+        "metric": "t"
+      },
+      {
+        "target_id": "INTL_lbma_bullion_market",
+        "corridor_id": "INTL_air_freight_perth-london",
+        "resource": "refined gold bars (LBMA Good Delivery)",
+        "quantity": 60,
+        "metric": "t"
+      },
+      {
+        "target_id": "INTL_hong_kong_gold_market",
+        "corridor_id": "INTL_air_freight_perth-hongkong",
+        "resource": "refined gold bars and gold coins",
+        "quantity": 30,
+        "metric": "t"
+      },
+      {
+        "target_id": "INTL_india_gold_market",
+        "corridor_id": "INTL_air_freight_perth-mumbai",
+        "resource": "refined gold bars",
+        "quantity": 20,
+        "metric": "t"
+      },
+      {
+        "target_id": "INTL_commercial",
+        "corridor_id": "INTL_air_perth-london",
+        "resource": "refined gold bars",
+        "quantity": 45,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_commercial",
+        "corridor_id": "AU_road_perth-domestic",
+        "resource": "gold coins and investment bars",
+        "quantity": 10,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_port_pirie_smelter",
+      "AU_mount_isa_smelter",
+      "AU_olympic_dam_refinery",
+      "AU_newmont_boddington",
+      "AU_newmont_tanami",
+      "AU_northern_star_kalgoorlie",
+      "AU_northern_star_jundee",
+      "AU_northern_star_pogo",
+      "AU_newcrest_cadia",
+      "AU_newcrest_lihir_telfer",
+      "AU_evolution_mungari",
+      "AU_gold_fields_st_ives",
+      "AU_gold_fields_granny_smith",
+      "AU_gold_fields_agnew",
+      "AU_regis_resources_duketon",
+      "AU_regis_resources_tropicana",
+      "AU_anglogold_tropicana",
+      "AU_anglogold_sunrise_dam",
+      "AU_capricorn_metals_karlawinda",
+      "AU_de_grey_hemi",
+      "AU_westgold_resources_meekatharra",
+      "AU_ramelius_resources_edna_may",
+      "AU_genesis_minerals_leonora",
+      "AU_newmont_boddington_processing",
+      "AU_northern_star_fimiston_processing"
+    ],
+    "resources": [
+      "Silver",
+      "Gold",
+      "Mineral-Bearing Land"
+    ]
+  },
+  {
+    "id": "INTL_silver_traders",
+    "name": "International Silver Traders / LBMA Market",
+    "tier": "dealer",
+    "country_iso2": "INTL",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": 51.513,
+      "lon": -0.089
+    },
+    "downstream": [
+      {
+        "target_id": "CN_silver_fabricators",
+        "corridor_id": "INTL_ocean_london-shanghai",
+        "resource": "LBMA silver bars",
+        "quantity": 200,
+        "metric": "t"
+      },
+      {
+        "target_id": "IN_silver_fabricators",
+        "corridor_id": "INTL_ocean_london-mumbai",
+        "resource": "LBMA silver bars",
+        "quantity": 100,
+        "metric": "t"
+      },
+      {
+        "target_id": "US_silver_fabricators",
+        "corridor_id": "INTL_ocean_london-newyork",
+        "resource": "LBMA silver bars",
+        "quantity": 80,
+        "metric": "t"
+      },
+      {
+        "target_id": "INTL_industrial",
+        "corridor_id": "INTL_ocean_london-global",
+        "resource": "silver for global industrial use",
+        "quantity": 70,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_abc_refinery",
+      "AU_perth_mint"
+    ],
+    "resources": [
+      "Silver"
+    ]
+  },
+  {
+    "id": "AU_perth_mint_minted_products",
+    "name": "Perth Mint Minted Products Division",
+    "tier": "fabricator",
+    "country_iso2": "AU",
+    "canonical_company": "Gold Corporation (Perth Mint)",
+    "coordinates": {
+      "lat": -31.959,
+      "lon": 115.862
+    },
+    "downstream": [
+      {
+        "target_id": "AU_residential",
+        "corridor_id": "AU_road_perth-national",
+        "resource": "silver bullion coins (e.g. Kookaburra, Koala)",
+        "quantity": 30,
+        "metric": "t"
+      },
+      {
+        "target_id": "INTL_residential",
+        "corridor_id": "INTL_air_perth-global",
+        "resource": "silver bullion coins and minted bars",
+        "quantity": 30,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_perth_mint"
+    ],
+    "resources": [
+      "Silver"
+    ]
+  },
+  {
+    "id": "AU_solar_panel_fabricators",
+    "name": "Australian Solar Panel & PV Paste Fabricators",
+    "tier": "fabricator",
+    "country_iso2": "AU",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": -33.87,
+      "lon": 151.21
+    },
+    "downstream": [
+      {
+        "target_id": "AU_residential",
+        "corridor_id": "AU_road_sydney-national",
+        "resource": "silver-containing solar cells / modules",
+        "quantity": 90,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_commercial",
+        "corridor_id": "AU_road_sydney-national",
+        "resource": "silver-containing solar modules",
+        "quantity": 50,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_infrastructure",
+        "corridor_id": "AU_road_sydney-national",
+        "resource": "silver-containing utility-scale solar modules",
+        "quantity": 30,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_abc_refinery",
+      "AU_perth_mint"
+    ],
+    "resources": [
+      "Silver"
+    ]
+  },
+  {
+    "id": "AU_electronics_fabricators",
+    "name": "Australian Electronics & Electrical Component Fabricators",
+    "tier": "fabricator",
+    "country_iso2": "AU",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": -37.814,
+      "lon": 144.963
+    },
+    "downstream": [
+      {
+        "target_id": "AU_industrial",
+        "corridor_id": "AU_road_melbourne-national",
+        "resource": "silver-containing electronic components / contacts",
+        "quantity": 35,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_commercial",
+        "corridor_id": "AU_road_melbourne-national",
+        "resource": "silver-bearing electrical assemblies",
+        "quantity": 25,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_industrial",
+        "corridor_id": "AU_road_sydney-local",
+        "resource": "gold bonding wire, connectors and components",
+        "quantity": 1,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_abc_refinery",
+      "AU_abc_refinery_dealer"
+    ],
+    "resources": [
+      "Silver",
+      "Gold"
+    ]
+  },
+  {
+    "id": "AU_jewellery_fabricators",
+    "name": "Australian Silver Jewellery & Silverware Fabricators",
+    "tier": "fabricator",
+    "country_iso2": "AU",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": -33.868,
+      "lon": 151.209
+    },
+    "downstream": [
+      {
+        "target_id": "AU_residential",
+        "corridor_id": "AU_road_sydney-national",
+        "resource": "sterling silver jewellery & silverware",
+        "quantity": 20,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_commercial",
+        "corridor_id": "AU_road_sydney-national",
+        "resource": "silver jewellery for retail",
+        "quantity": 10,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_abc_refinery"
+    ],
+    "resources": [
+      "Silver"
+    ]
+  },
+  {
+    "id": "CN_silver_fabricators",
+    "name": "Chinese Silver Fabricators (PV paste, electronics)",
+    "tier": "fabricator",
+    "country_iso2": "CN",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": 31.23,
+      "lon": 121.474
+    },
+    "downstream": [
+      {
+        "target_id": "CN_industrial",
+        "corridor_id": "CN_road_shanghai-national",
+        "resource": "silver paste for PV cells, electronics solder",
+        "quantity": 200,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "INTL_silver_traders"
+    ],
+    "resources": [
+      "Silver"
+    ]
+  },
+  {
+    "id": "IN_silver_fabricators",
+    "name": "Indian Silver Fabricators (jewellery, industrial)",
+    "tier": "fabricator",
+    "country_iso2": "IN",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": 19.076,
+      "lon": 72.878
+    },
+    "downstream": [
+      {
+        "target_id": "IN_residential",
+        "corridor_id": "IN_road_mumbai-national",
+        "resource": "silver jewellery & silverware",
+        "quantity": 60,
+        "metric": "t"
+      },
+      {
+        "target_id": "IN_industrial",
+        "corridor_id": "IN_road_mumbai-national",
+        "resource": "silver for industrial and brazing applications",
+        "quantity": 40,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "INTL_silver_traders"
+    ],
+    "resources": [
+      "Silver"
+    ]
+  },
+  {
+    "id": "US_silver_fabricators",
+    "name": "US Silver Fabricators (electronics, PV, medical)",
+    "tier": "fabricator",
+    "country_iso2": "US",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": 40.713,
+      "lon": -74.006
+    },
+    "downstream": [
+      {
+        "target_id": "US_industrial",
+        "corridor_id": "US_road_east-coast-national",
+        "resource": "silver paste, contacts, medical-grade silver",
+        "quantity": 80,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "INTL_silver_traders"
+    ],
+    "resources": [
+      "Silver"
+    ]
+  },
+  {
+    "id": "AU_rail_cannington-townsville",
+    "tier": "transport",
+    "name": "Rail: Cannington → Townsville Port / then sea to Port Pirie",
+    "country_iso2": "AU",
+    "operator_id": "AU_aurizon",
+    "mode": "rail",
+    "form": "bulk_dry",
+    "range": "regional",
+    "coordinates": {
+      "lat": -20.5,
+      "lon": 140.5
+    }
+  },
+  {
+    "id": "AU_road_mount-isa-local",
+    "tier": "transport",
+    "name": "Road: Mount Isa Mine to Mount Isa Smelter (local)",
+    "country_iso2": "AU",
+    "operator_id": "AU_glencore_transport",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "local",
+    "coordinates": {
+      "lat": -20.73,
+      "lon": 139.495
+    }
+  },
+  {
+    "id": "AU_road_mcarthur-river-bing-bong",
+    "tier": "transport",
+    "name": "Road/Barge: McArthur River → Bing Bong → Port Pirie",
+    "country_iso2": "AU",
+    "operator_id": "AU_glencore_transport",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "regional",
+    "coordinates": {
+      "lat": -15.63,
+      "lon": 136.35
+    }
+  },
+  {
+    "id": "AU_rail_broken-hill-port-pirie",
+    "tier": "transport",
+    "name": "Rail: Broken Hill → Port Pirie",
+    "country_iso2": "AU",
+    "operator_id": "AU_aurizon",
+    "mode": "rail",
+    "form": "bulk_dry",
+    "range": "regional",
+    "coordinates": {
+      "lat": -32.5,
+      "lon": 139.7
+    }
+  },
+  {
+    "id": "AU_conveyor_olympic-dam-onsite",
+    "tier": "transport",
+    "name": "Conveyor/On-site: Olympic Dam processing to refinery",
+    "country_iso2": "AU",
+    "operator_id": "AU_bhp",
+    "mode": "conveyor",
+    "form": "bulk_dry",
+    "range": "local",
+    "coordinates": {
+      "lat": -30.44,
+      "lon": 136.885
+    }
+  },
+  {
+    "id": "AU_rail_cadia-port-pirie",
+    "tier": "transport",
+    "name": "Rail: Cadia Valley → Port Pirie (via intermodal)",
+    "country_iso2": "AU",
+    "operator_id": "AU_pacific_national",
+    "mode": "rail",
+    "form": "bulk_dry",
+    "range": "regional",
+    "coordinates": {
+      "lat": -33,
+      "lon": 147
+    }
+  },
+  {
+    "id": "AU_road_cobar-port-pirie",
+    "tier": "transport",
+    "name": "Road: Cobar CSA Mine → Port Pirie",
+    "country_iso2": "AU",
+    "operator_id": "AU_toll_group",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "regional",
+    "coordinates": {
+      "lat": -32.2,
+      "lon": 143.5
+    }
+  },
+  {
+    "id": "AU_rail_dugald-river-townsville",
+    "tier": "transport",
+    "name": "Rail: Dugald River → Townsville Port → sea to Port Pirie",
+    "country_iso2": "AU",
+    "operator_id": "AU_aurizon",
+    "mode": "rail",
+    "form": "bulk_dry",
+    "range": "regional",
+    "coordinates": {
+      "lat": -20,
+      "lon": 140.5
+    }
+  },
+  {
+    "id": "AU_road_hilgrove-port-pirie",
+    "tier": "transport",
+    "name": "Road: Hilgrove → Port Pirie",
+    "country_iso2": "AU",
+    "operator_id": "AU_linfox",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "regional",
+    "coordinates": {
+      "lat": -31.5,
+      "lon": 148
+    }
+  },
+  {
+    "id": "AU_road_port-pirie-sydney",
+    "tier": "transport",
+    "name": "Road: Port Pirie → Sydney (ABC Refinery)",
+    "country_iso2": "AU",
+    "operator_id": "AU_linfox",
+    "mode": "road",
+    "form": "unit_load",
+    "range": "regional",
+    "coordinates": {
+      "lat": -33.5,
+      "lon": 145
+    }
+  },
+  {
+    "id": "AU_road_port-pirie-perth",
+    "tier": "transport",
+    "name": "Road: Port Pirie → Perth Mint",
+    "country_iso2": "AU",
+    "operator_id": "AU_toll_group",
+    "mode": "road",
+    "form": "unit_load",
+    "range": "regional",
+    "coordinates": {
+      "lat": -32.5,
+      "lon": 128
+    }
+  },
+  {
+    "id": "INTL_ocean_port-pirie-asia",
+    "tier": "transport",
+    "name": "Ocean: Port Adelaide → Asian markets",
+    "country_iso2": "INTL",
+    "operator_id": "INTL_maersk",
+    "mode": "ocean_freight",
+    "form": "containerised",
+    "range": "international",
+    "coordinates": {
+      "lat": -20,
+      "lon": 120
+    }
+  },
+  {
+    "id": "AU_rail_mount-isa-sydney",
+    "tier": "transport",
+    "name": "Rail: Mount Isa → Townsville → Sydney (intermodal)",
+    "country_iso2": "AU",
+    "operator_id": "AU_aurizon",
+    "mode": "rail",
+    "form": "unit_load",
+    "range": "regional",
+    "coordinates": {
+      "lat": -25,
+      "lon": 145
+    }
+  },
+  {
+    "id": "AU_rail_mount-isa-perth",
+    "tier": "transport",
+    "name": "Rail: Mount Isa → Perth (transcontinental)",
+    "country_iso2": "AU",
+    "operator_id": "AU_pacific_national",
+    "mode": "rail",
+    "form": "unit_load",
+    "range": "regional",
+    "coordinates": {
+      "lat": -26,
+      "lon": 133
+    }
+  },
+  {
+    "id": "AU_road_olympic-dam-perth",
+    "tier": "transport",
+    "name": "Road: Olympic Dam → Perth Mint",
+    "country_iso2": "AU",
+    "operator_id": "AU_toll_group",
+    "mode": "road",
+    "form": "unit_load",
+    "range": "regional",
+    "coordinates": {
+      "lat": -31,
+      "lon": 128
+    }
+  },
+  {
+    "id": "AU_road_olympic-dam-sydney",
+    "tier": "transport",
+    "name": "Road: Olympic Dam → Sydney (ABC Refinery)",
+    "country_iso2": "AU",
+    "operator_id": "AU_linfox",
+    "mode": "road",
+    "form": "unit_load",
+    "range": "regional",
+    "coordinates": {
+      "lat": -32,
+      "lon": 143
+    }
+  },
+  {
+    "id": "AU_road_perth-metro",
+    "tier": "transport",
+    "name": "Road: Perth metropolitan distribution",
+    "country_iso2": "AU",
+    "operator_id": "AU_toll_group",
+    "mode": "road",
+    "form": "unit_load",
+    "range": "local",
+    "coordinates": {
+      "lat": -31.96,
+      "lon": 115.86
+    },
+    "resources": [
+      "Oxygen"
+    ],
+    "upstream": [],
+    "downstream": []
+  },
+  {
+    "id": "INTL_ocean_sydney-global",
+    "tier": "transport",
+    "name": "Ocean: Sydney → Global (London, HK, Singapore vaults)",
+    "country_iso2": "INTL",
+    "operator_id": "INTL_brinks",
+    "mode": "ocean_freight",
+    "form": "containerised",
+    "range": "international",
+    "coordinates": {
+      "lat": -10,
+      "lon": 130
+    }
+  },
+  {
+    "id": "INTL_ocean_fremantle-global",
+    "tier": "transport",
+    "name": "Ocean: Fremantle → Global (London, Asia, US)",
+    "country_iso2": "INTL",
+    "operator_id": "INTL_brinks",
+    "mode": "ocean_freight",
+    "form": "containerised",
+    "range": "international",
+    "coordinates": {
+      "lat": -20,
+      "lon": 100
+    }
+  },
+  {
+    "id": "AU_road_perth-national",
+    "tier": "transport",
+    "name": "Road: Perth → national distribution",
+    "country_iso2": "AU",
+    "operator_id": "AU_toll_group",
+    "mode": "road",
+    "form": "unit_load",
+    "range": "regional",
+    "coordinates": {
+      "lat": -32,
+      "lon": 120
+    },
+    "resources": [
+      "Medicinal-Plants",
+      "Shellfish (wild)"
+    ],
+    "upstream": [],
+    "downstream": []
+  },
+  {
+    "id": "INTL_air_perth-global",
+    "tier": "transport",
+    "name": "Air Freight: Perth → international destinations",
+    "country_iso2": "INTL",
+    "operator_id": "INTL_brinks",
+    "mode": "air_freight",
+    "form": "unit_load",
+    "range": "international",
+    "coordinates": {
+      "lat": -31.94,
+      "lon": 115.97
+    }
+  },
+  {
+    "id": "INTL_ocean_london-shanghai",
+    "tier": "transport",
+    "name": "Ocean: London/Singapore vaults → Shanghai",
+    "country_iso2": "INTL",
+    "operator_id": "INTL_maersk",
+    "mode": "ocean_freight",
+    "form": "containerised",
+    "range": "international",
+    "coordinates": {
+      "lat": 15,
+      "lon": 80
+    }
+  },
+  {
+    "id": "INTL_ocean_london-mumbai",
+    "tier": "transport",
+    "name": "Ocean: London/Dubai vaults → Mumbai",
+    "country_iso2": "INTL",
+    "operator_id": "INTL_maersk",
+    "mode": "ocean_freight",
+    "form": "containerised",
+    "range": "international",
+    "coordinates": {
+      "lat": 20,
+      "lon": 60
+    }
+  },
+  {
+    "id": "INTL_ocean_london-newyork",
+    "tier": "transport",
+    "name": "Ocean: London → New York (COMEX delivery)",
+    "country_iso2": "INTL",
+    "operator_id": "INTL_brinks",
+    "mode": "ocean_freight",
+    "form": "containerised",
+    "range": "international",
+    "coordinates": {
+      "lat": 45,
+      "lon": -30
+    }
+  },
+  {
+    "id": "INTL_ocean_london-global",
+    "tier": "transport",
+    "name": "Ocean: London/Singapore → global industrial consumers",
+    "country_iso2": "INTL",
+    "operator_id": "INTL_maersk",
+    "mode": "ocean_freight",
+    "form": "containerised",
+    "range": "international",
+    "coordinates": {
+      "lat": 25,
+      "lon": 50
+    }
+  },
+  {
+    "id": "US_road_east-coast-national",
+    "tier": "transport",
+    "name": "Road: US East Coast distribution",
+    "country_iso2": "US",
+    "operator_id": "US_brinks",
+    "mode": "road",
+    "form": "unit_load",
+    "range": "regional",
+    "coordinates": {
+      "lat": 40.71,
+      "lon": -74.01
+    }
+  }
+]

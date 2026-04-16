@@ -1,0 +1,976 @@
+[
+  {
+    "id": "AU_vital_metals_mount_carbine",
+    "name": "Mount Carbine Tungsten Mine",
+    "tier": "extraction",
+    "country_iso2": "AU",
+    "canonical_company": "EQ Resources",
+    "coordinates": {
+      "lat": -16.532,
+      "lon": 145.143
+    },
+    "downstream": [
+      {
+        "target_id": "CN_xiamen_tungsten",
+        "corridor_id": "INTL_ocean_townsville-xiamen",
+        "resource": "tungsten concentrate (WO3)",
+        "quantity": 800,
+        "metric": "t"
+      },
+      {
+        "target_id": "VN_masan_tungsten",
+        "corridor_id": "INTL_ocean_townsville-haiphong",
+        "resource": "tungsten concentrate (WO3)",
+        "quantity": 200,
+        "metric": "t"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Tungsten"
+    ]
+  },
+  {
+    "id": "AU_group6_metals_dolphin",
+    "name": "Dolphin Tungsten Mine (King Island)",
+    "tier": "extraction",
+    "country_iso2": "AU",
+    "canonical_company": "Group 6 Metals",
+    "coordinates": {
+      "lat": -39.81,
+      "lon": 143.97
+    },
+    "downstream": [
+      {
+        "target_id": "CN_xiamen_tungsten",
+        "corridor_id": "INTL_ocean_melbourne-xiamen",
+        "resource": "tungsten concentrate (WO3)",
+        "quantity": 600,
+        "metric": "t"
+      },
+      {
+        "target_id": "AT_plansee_group",
+        "corridor_id": "INTL_ocean_melbourne-hamburg",
+        "resource": "tungsten concentrate (WO3)",
+        "quantity": 200,
+        "metric": "t"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Tungsten"
+    ]
+  },
+  {
+    "id": "CN_xiamen_tungsten",
+    "name": "Xiamen Tungsten Co. Ltd.",
+    "tier": "chemical_processor",
+    "country_iso2": "CN",
+    "canonical_company": "Xiamen Tungsten",
+    "coordinates": {
+      "lat": 24.48,
+      "lon": 118.09
+    },
+    "downstream": [
+      {
+        "target_id": "CN_zigong_cemented_carbide",
+        "corridor_id": "CN_road_xiamen-zigong",
+        "resource": "ammonium paratungstate (APT)",
+        "quantity": 600,
+        "metric": "t"
+      },
+      {
+        "target_id": "CN_zhuzhou_cemented_carbide",
+        "corridor_id": "CN_road_xiamen-zhuzhou",
+        "resource": "ammonium paratungstate (APT)",
+        "quantity": 500,
+        "metric": "t"
+      },
+      {
+        "target_id": "JP_allied_material",
+        "corridor_id": "INTL_ocean_xiamen-osaka",
+        "resource": "tungsten carbide powder",
+        "quantity": 200,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_vital_metals_mount_carbine",
+      "AU_group6_metals_dolphin"
+    ],
+    "resources": [
+      "Tungsten"
+    ]
+  },
+  {
+    "id": "VN_masan_tungsten",
+    "name": "Masan High-Tech Materials (Nui Phao Processing)",
+    "tier": "chemical_processor",
+    "country_iso2": "VN",
+    "canonical_company": "Masan High-Tech Materials",
+    "coordinates": {
+      "lat": 21.6,
+      "lon": 105.77
+    },
+    "downstream": [
+      {
+        "target_id": "DE_hc_starck",
+        "corridor_id": "INTL_ocean_haiphong-hamburg",
+        "resource": "ammonium paratungstate (APT)",
+        "quantity": 120,
+        "metric": "t"
+      },
+      {
+        "target_id": "US_kennametal",
+        "corridor_id": "INTL_ocean_haiphong-houston",
+        "resource": "ammonium paratungstate (APT)",
+        "quantity": 80,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_vital_metals_mount_carbine"
+    ],
+    "resources": [
+      "Tungsten"
+    ]
+  },
+  {
+    "id": "AT_plansee_group",
+    "name": "Plansee Group (Global Tungsten & Powders)",
+    "tier": "chemical_processor",
+    "country_iso2": "AT",
+    "canonical_company": "Plansee Group",
+    "coordinates": {
+      "lat": 47.31,
+      "lon": 10.98
+    },
+    "downstream": [
+      {
+        "target_id": "AT_ceratizit",
+        "corridor_id": "AT_road_reutte-reutte",
+        "resource": "tungsten metal powder",
+        "quantity": 100,
+        "metric": "t"
+      },
+      {
+        "target_id": "SE_sandvik_machining",
+        "corridor_id": "INTL_road_reutte-stockholm",
+        "resource": "tungsten carbide powder",
+        "quantity": 100,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_group6_metals_dolphin"
+    ],
+    "resources": [
+      "Tungsten"
+    ]
+  },
+  {
+    "id": "CN_zigong_cemented_carbide",
+    "name": "Zigong Cemented Carbide Co.",
+    "tier": "component_maker",
+    "country_iso2": "CN",
+    "canonical_company": "Zigong Cemented Carbide",
+    "coordinates": {
+      "lat": 29.35,
+      "lon": 104.78
+    },
+    "downstream": [
+      {
+        "target_id": "CN_sany_heavy",
+        "corridor_id": "CN_road_zigong-changsha",
+        "resource": "tungsten carbide cutting tools and drill bits",
+        "quantity": 350,
+        "metric": "t"
+      },
+      {
+        "target_id": "CN_industrial",
+        "corridor_id": "CN_road_zigong-domestic",
+        "resource": "tungsten carbide wear parts",
+        "quantity": 250,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "CN_xiamen_tungsten"
+    ],
+    "resources": [
+      "Tungsten"
+    ]
+  },
+  {
+    "id": "CN_zhuzhou_cemented_carbide",
+    "name": "Zhuzhou Cemented Carbide Group (ZCC-CT)",
+    "tier": "component_maker",
+    "country_iso2": "CN",
+    "canonical_company": "Zhuzhou Cemented Carbide",
+    "coordinates": {
+      "lat": 27.83,
+      "lon": 113.13
+    },
+    "downstream": [
+      {
+        "target_id": "CN_sany_heavy",
+        "corridor_id": "CN_road_zhuzhou-changsha",
+        "resource": "tungsten carbide inserts and tooling",
+        "quantity": 250,
+        "metric": "t"
+      },
+      {
+        "target_id": "INTL_commercial",
+        "corridor_id": "INTL_ocean_shanghai-rotterdam",
+        "resource": "tungsten carbide end-mill inserts",
+        "quantity": 250,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "CN_xiamen_tungsten"
+    ],
+    "resources": [
+      "Tungsten"
+    ]
+  },
+  {
+    "id": "JP_allied_material",
+    "name": "Allied Material Corp.",
+    "tier": "component_maker",
+    "country_iso2": "JP",
+    "canonical_company": "Allied Material",
+    "coordinates": {
+      "lat": 34.69,
+      "lon": 135.5
+    },
+    "downstream": [
+      {
+        "target_id": "JP_dmg_mori",
+        "corridor_id": "JP_road_osaka-nagoya",
+        "resource": "tungsten carbide cutting tools",
+        "quantity": 120,
+        "metric": "t"
+      },
+      {
+        "target_id": "JP_industrial",
+        "corridor_id": "JP_road_osaka-domestic",
+        "resource": "tungsten carbide wear parts",
+        "quantity": 80,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "CN_xiamen_tungsten"
+    ],
+    "resources": [
+      "Tungsten"
+    ]
+  },
+  {
+    "id": "DE_hc_starck",
+    "name": "H.C. Starck Tungsten Powders",
+    "tier": "component_maker",
+    "country_iso2": "DE",
+    "canonical_company": "H.C. Starck",
+    "coordinates": {
+      "lat": 50.6,
+      "lon": 12.29
+    },
+    "downstream": [
+      {
+        "target_id": "SE_sandvik_machining",
+        "corridor_id": "INTL_road_goslar-stockholm",
+        "resource": "tungsten carbide powder and pre-sintered blanks",
+        "quantity": 60,
+        "metric": "t"
+      },
+      {
+        "target_id": "US_kennametal",
+        "corridor_id": "INTL_ocean_hamburg-pittsburgh",
+        "resource": "tungsten carbide powder",
+        "quantity": 60,
+        "metric": "t"
+      },
+      {
+        "target_id": "DE_avx_tantalum",
+        "corridor_id": "DE_road_goslar-berlin",
+        "resource": "tantalum powder and tantalum wire",
+        "quantity": 45,
+        "metric": "t"
+      },
+      {
+        "target_id": "US_kemet",
+        "corridor_id": "INTL_ocean_hamburg-charleston",
+        "resource": "tantalum powder",
+        "quantity": 20,
+        "metric": "t"
+      },
+      {
+        "target_id": "DE_heraeus",
+        "corridor_id": "DE_road_goslar-hanau",
+        "resource": "tantalum mill products (sheets, rods, tubes)",
+        "quantity": 15,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "VN_masan_tungsten",
+      "AU_global_advanced_metals_kemerton"
+    ],
+    "resources": [
+      "Tungsten",
+      "Tantalum"
+    ]
+  },
+  {
+    "id": "US_kennametal",
+    "name": "Kennametal Inc.",
+    "tier": "component_maker",
+    "country_iso2": "US",
+    "canonical_company": "Kennametal",
+    "coordinates": {
+      "lat": 40.51,
+      "lon": -79.54
+    },
+    "downstream": [
+      {
+        "target_id": "US_caterpillar",
+        "corridor_id": "US_road_latrobe-peoria",
+        "resource": "tungsten carbide mining and construction tooling",
+        "quantity": 80,
+        "metric": "t"
+      },
+      {
+        "target_id": "US_industrial",
+        "corridor_id": "US_road_latrobe-domestic",
+        "resource": "tungsten carbide cutting tools",
+        "quantity": 60,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "VN_masan_tungsten",
+      "DE_hc_starck"
+    ],
+    "resources": [
+      "Tungsten"
+    ]
+  },
+  {
+    "id": "AT_ceratizit",
+    "name": "CERATIZIT S.A.",
+    "tier": "component_maker",
+    "country_iso2": "AT",
+    "canonical_company": "Ceratizit",
+    "coordinates": {
+      "lat": 47.31,
+      "lon": 10.98
+    },
+    "downstream": [
+      {
+        "target_id": "DE_dmg_mori_europe",
+        "corridor_id": "INTL_road_reutte-bielefeld",
+        "resource": "precision tungsten carbide inserts",
+        "quantity": 55,
+        "metric": "t"
+      },
+      {
+        "target_id": "INTL_industrial",
+        "corridor_id": "INTL_air_innsbruck-global",
+        "resource": "tungsten carbide round tools and wear parts",
+        "quantity": 45,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AT_plansee_group"
+    ],
+    "resources": [
+      "Tungsten"
+    ]
+  },
+  {
+    "id": "SE_sandvik_machining",
+    "name": "Sandvik Machining Solutions",
+    "tier": "component_maker",
+    "country_iso2": "SE",
+    "canonical_company": "Sandvik",
+    "coordinates": {
+      "lat": 60.61,
+      "lon": 16.55
+    },
+    "downstream": [
+      {
+        "target_id": "DE_volkswagen",
+        "corridor_id": "INTL_road_sandviken-wolfsburg",
+        "resource": "tungsten carbide metal-cutting inserts",
+        "quantity": 60,
+        "metric": "t"
+      },
+      {
+        "target_id": "INTL_industrial",
+        "corridor_id": "INTL_ocean_gothenburg-global",
+        "resource": "tungsten carbide tooling systems",
+        "quantity": 100,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AT_plansee_group",
+      "DE_hc_starck"
+    ],
+    "resources": [
+      "Tungsten"
+    ]
+  },
+  {
+    "id": "CN_sany_heavy",
+    "name": "Sany Heavy Industry Co.",
+    "tier": "oem",
+    "country_iso2": "CN",
+    "canonical_company": "Sany Heavy Industry",
+    "coordinates": {
+      "lat": 28.23,
+      "lon": 112.94
+    },
+    "downstream": [
+      {
+        "target_id": "CN_infrastructure",
+        "corridor_id": "CN_road_changsha-domestic",
+        "resource": "construction and mining machinery with tungsten carbide components",
+        "quantity": 350,
+        "metric": "t"
+      },
+      {
+        "target_id": "INTL_infrastructure",
+        "corridor_id": "INTL_ocean_shanghai-global",
+        "resource": "heavy machinery with tungsten carbide components (export)",
+        "quantity": 250,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "CN_zigong_cemented_carbide",
+      "CN_zhuzhou_cemented_carbide"
+    ],
+    "resources": [
+      "Tungsten"
+    ]
+  },
+  {
+    "id": "JP_dmg_mori",
+    "name": "DMG Mori Co. (Japan)",
+    "tier": "oem",
+    "country_iso2": "JP",
+    "canonical_company": "DMG Mori",
+    "coordinates": {
+      "lat": 34.97,
+      "lon": 136.62
+    },
+    "downstream": [
+      {
+        "target_id": "JP_industrial",
+        "corridor_id": "JP_road_nagoya-domestic",
+        "resource": "CNC machine tools equipped with tungsten carbide tooling",
+        "quantity": 70,
+        "metric": "t"
+      },
+      {
+        "target_id": "INTL_industrial",
+        "corridor_id": "INTL_ocean_nagoya-global",
+        "resource": "CNC machine tools (export)",
+        "quantity": 50,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "JP_allied_material"
+    ],
+    "resources": [
+      "Tungsten"
+    ]
+  },
+  {
+    "id": "US_caterpillar",
+    "name": "Caterpillar Inc.",
+    "tier": "oem",
+    "country_iso2": "US",
+    "canonical_company": "Caterpillar",
+    "coordinates": {
+      "lat": 40.69,
+      "lon": -89.59
+    },
+    "downstream": [
+      {
+        "target_id": "US_infrastructure",
+        "corridor_id": "US_road_peoria-domestic",
+        "resource": "mining and construction equipment with tungsten carbide wear parts",
+        "quantity": 50,
+        "metric": "t"
+      },
+      {
+        "target_id": "INTL_infrastructure",
+        "corridor_id": "INTL_ocean_houston-global",
+        "resource": "mining equipment with tungsten carbide components (export)",
+        "quantity": 30,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "US_kennametal"
+    ],
+    "resources": [
+      "Tungsten"
+    ]
+  },
+  {
+    "id": "DE_dmg_mori_europe",
+    "name": "DMG Mori AG (Europe)",
+    "tier": "oem",
+    "country_iso2": "DE",
+    "canonical_company": "DMG Mori",
+    "coordinates": {
+      "lat": 52.02,
+      "lon": 8.53
+    },
+    "downstream": [
+      {
+        "target_id": "DE_industrial",
+        "corridor_id": "DE_road_bielefeld-domestic",
+        "resource": "CNC machine tools with tungsten carbide tooling",
+        "quantity": 30,
+        "metric": "t"
+      },
+      {
+        "target_id": "INTL_industrial",
+        "corridor_id": "INTL_road_bielefeld-europe",
+        "resource": "CNC machine tools (EU export)",
+        "quantity": 25,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AT_ceratizit"
+    ],
+    "resources": [
+      "Tungsten"
+    ]
+  },
+  {
+    "id": "DE_volkswagen",
+    "name": "Volkswagen AG",
+    "tier": "oem",
+    "country_iso2": "DE",
+    "canonical_company": "Volkswagen",
+    "coordinates": {
+      "lat": 52.43,
+      "lon": 10.79
+    },
+    "downstream": [
+      {
+        "target_id": "DE_commercial",
+        "corridor_id": "DE_road_wolfsburg-domestic",
+        "resource": "automobiles manufactured using tungsten carbide tooling",
+        "quantity": 35,
+        "metric": "t"
+      },
+      {
+        "target_id": "INTL_commercial",
+        "corridor_id": "INTL_ocean_bremerhaven-global",
+        "resource": "automobiles (export, tungsten content in tooling consumption)",
+        "quantity": 25,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "SE_sandvik_machining"
+    ],
+    "resources": [
+      "Tungsten"
+    ]
+  },
+  {
+    "id": "INTL_ocean_townsville-xiamen",
+    "tier": "transport",
+    "name": "Ocean freight Townsville → Xiamen",
+    "country_iso2": "INTL",
+    "operator_id": "INTL_cosco_shipping",
+    "mode": "ocean_freight",
+    "form": "bulk_dry",
+    "range": "international",
+    "coordinates": {
+      "lat": -5,
+      "lon": 125
+    }
+  },
+  {
+    "id": "INTL_ocean_townsville-haiphong",
+    "tier": "transport",
+    "name": "Ocean freight Townsville → Hai Phong",
+    "country_iso2": "INTL",
+    "operator_id": "INTL_wan_hai",
+    "mode": "ocean_freight",
+    "form": "bulk_dry",
+    "range": "international",
+    "coordinates": {
+      "lat": -2,
+      "lon": 118
+    }
+  },
+  {
+    "id": "INTL_ocean_melbourne-xiamen",
+    "tier": "transport",
+    "name": "Ocean freight Melbourne → Xiamen",
+    "country_iso2": "INTL",
+    "operator_id": "INTL_cosco_shipping",
+    "mode": "ocean_freight",
+    "form": "bulk_dry",
+    "range": "international",
+    "coordinates": {
+      "lat": -15,
+      "lon": 130
+    }
+  },
+  {
+    "id": "INTL_ocean_melbourne-hamburg",
+    "tier": "transport",
+    "name": "Ocean freight Melbourne → Hamburg",
+    "country_iso2": "INTL",
+    "operator_id": "INTL_maersk",
+    "mode": "ocean_freight",
+    "form": "containerised",
+    "range": "international",
+    "coordinates": {
+      "lat": -10,
+      "lon": 80
+    }
+  },
+  {
+    "id": "CN_road_xiamen-zigong",
+    "tier": "transport",
+    "name": "Road freight Xiamen → Zigong",
+    "country_iso2": "CN",
+    "operator_id": "CN_domestic_trucking",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "regional",
+    "coordinates": {
+      "lat": 27,
+      "lon": 112
+    }
+  },
+  {
+    "id": "CN_road_xiamen-zhuzhou",
+    "tier": "transport",
+    "name": "Road freight Xiamen → Zhuzhou",
+    "country_iso2": "CN",
+    "operator_id": "CN_domestic_trucking",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "regional",
+    "coordinates": {
+      "lat": 26.5,
+      "lon": 115
+    }
+  },
+  {
+    "id": "INTL_ocean_xiamen-osaka",
+    "tier": "transport",
+    "name": "Ocean freight Xiamen → Osaka",
+    "country_iso2": "INTL",
+    "operator_id": "INTL_oocl",
+    "mode": "ocean_freight",
+    "form": "containerised",
+    "range": "international",
+    "coordinates": {
+      "lat": 29,
+      "lon": 127
+    }
+  },
+  {
+    "id": "INTL_ocean_haiphong-hamburg",
+    "tier": "transport",
+    "name": "Ocean freight Hai Phong → Hamburg",
+    "country_iso2": "INTL",
+    "operator_id": "INTL_hapag_lloyd",
+    "mode": "ocean_freight",
+    "form": "containerised",
+    "range": "international",
+    "coordinates": {
+      "lat": 15,
+      "lon": 70
+    }
+  },
+  {
+    "id": "INTL_ocean_haiphong-houston",
+    "tier": "transport",
+    "name": "Ocean freight Hai Phong → Houston",
+    "country_iso2": "INTL",
+    "operator_id": "INTL_evergreen",
+    "mode": "ocean_freight",
+    "form": "containerised",
+    "range": "international",
+    "coordinates": {
+      "lat": 10,
+      "lon": -60
+    }
+  },
+  {
+    "id": "AT_road_reutte-reutte",
+    "tier": "transport",
+    "name": "Local road freight Reutte (Plansee campus)",
+    "country_iso2": "AT",
+    "operator_id": "AT_plansee_logistics",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "local",
+    "coordinates": {
+      "lat": 47.49,
+      "lon": 10.72
+    }
+  },
+  {
+    "id": "INTL_road_reutte-stockholm",
+    "tier": "transport",
+    "name": "Road freight Reutte → Sandviken (via Sweden)",
+    "country_iso2": "INTL",
+    "operator_id": "INTL_dhl_freight",
+    "mode": "road",
+    "form": "containerised",
+    "range": "international",
+    "coordinates": {
+      "lat": 54,
+      "lon": 13
+    }
+  },
+  {
+    "id": "CN_road_zigong-changsha",
+    "tier": "transport",
+    "name": "Road freight Zigong → Changsha",
+    "country_iso2": "CN",
+    "operator_id": "CN_domestic_trucking",
+    "mode": "road",
+    "form": "containerised",
+    "range": "regional",
+    "coordinates": {
+      "lat": 29,
+      "lon": 109
+    }
+  },
+  {
+    "id": "CN_road_zigong-domestic",
+    "tier": "transport",
+    "name": "Road distribution from Zigong",
+    "country_iso2": "CN",
+    "operator_id": "CN_domestic_trucking",
+    "mode": "road",
+    "form": "containerised",
+    "range": "regional",
+    "coordinates": {
+      "lat": 29.35,
+      "lon": 104.78
+    }
+  },
+  {
+    "id": "CN_road_zhuzhou-changsha",
+    "tier": "transport",
+    "name": "Road freight Zhuzhou → Changsha",
+    "country_iso2": "CN",
+    "operator_id": "CN_domestic_trucking",
+    "mode": "road",
+    "form": "containerised",
+    "range": "local",
+    "coordinates": {
+      "lat": 28,
+      "lon": 113
+    }
+  },
+  {
+    "id": "INTL_road_goslar-stockholm",
+    "tier": "transport",
+    "name": "Road freight Goslar → Sandviken/Stockholm",
+    "country_iso2": "INTL",
+    "operator_id": "INTL_dhl_freight",
+    "mode": "road",
+    "form": "containerised",
+    "range": "international",
+    "coordinates": {
+      "lat": 55,
+      "lon": 12
+    }
+  },
+  {
+    "id": "INTL_ocean_hamburg-pittsburgh",
+    "tier": "transport",
+    "name": "Ocean freight Hamburg → US East Coast (then inland to Latrobe, PA)",
+    "country_iso2": "INTL",
+    "operator_id": "INTL_hapag_lloyd",
+    "mode": "ocean_freight",
+    "form": "containerised",
+    "range": "international",
+    "coordinates": {
+      "lat": 42,
+      "lon": -40
+    }
+  },
+  {
+    "id": "US_road_latrobe-peoria",
+    "tier": "transport",
+    "name": "Road freight Latrobe, PA → Peoria, IL",
+    "country_iso2": "US",
+    "operator_id": "US_xpo_logistics",
+    "mode": "road",
+    "form": "containerised",
+    "range": "regional",
+    "coordinates": {
+      "lat": 40.5,
+      "lon": -84
+    }
+  },
+  {
+    "id": "US_road_latrobe-domestic",
+    "tier": "transport",
+    "name": "Road distribution from Latrobe, PA",
+    "country_iso2": "US",
+    "operator_id": "US_xpo_logistics",
+    "mode": "road",
+    "form": "containerised",
+    "range": "regional",
+    "coordinates": {
+      "lat": 40.51,
+      "lon": -79.54
+    }
+  },
+  {
+    "id": "INTL_road_reutte-bielefeld",
+    "tier": "transport",
+    "name": "Road freight Reutte → Bielefeld",
+    "country_iso2": "INTL",
+    "operator_id": "INTL_dhl_freight",
+    "mode": "road",
+    "form": "containerised",
+    "range": "international",
+    "coordinates": {
+      "lat": 49.5,
+      "lon": 11
+    }
+  },
+  {
+    "id": "INTL_air_innsbruck-global",
+    "tier": "transport",
+    "name": "Air freight Innsbruck → Global",
+    "country_iso2": "INTL",
+    "operator_id": "INTL_dhl_express",
+    "mode": "air_freight",
+    "form": "containerised",
+    "range": "international",
+    "coordinates": {
+      "lat": 47.26,
+      "lon": 11.34
+    }
+  },
+  {
+    "id": "INTL_road_sandviken-wolfsburg",
+    "tier": "transport",
+    "name": "Road freight Sandviken → Wolfsburg",
+    "country_iso2": "INTL",
+    "operator_id": "INTL_db_schenker",
+    "mode": "road",
+    "form": "containerised",
+    "range": "international",
+    "coordinates": {
+      "lat": 57,
+      "lon": 13
+    }
+  },
+  {
+    "id": "CN_road_changsha-domestic",
+    "tier": "transport",
+    "name": "Road distribution from Changsha",
+    "country_iso2": "CN",
+    "operator_id": "CN_domestic_trucking",
+    "mode": "road",
+    "form": "unit_load",
+    "range": "regional",
+    "coordinates": {
+      "lat": 28.23,
+      "lon": 112.94
+    }
+  },
+  {
+    "id": "US_road_peoria-domestic",
+    "tier": "transport",
+    "name": "Road distribution from Peoria, IL",
+    "country_iso2": "US",
+    "operator_id": "US_xpo_logistics",
+    "mode": "road",
+    "form": "unit_load",
+    "range": "regional",
+    "coordinates": {
+      "lat": 40.69,
+      "lon": -89.59
+    }
+  },
+  {
+    "id": "DE_road_bielefeld-domestic",
+    "tier": "transport",
+    "name": "Road distribution from Bielefeld",
+    "country_iso2": "DE",
+    "operator_id": "DE_db_schenker",
+    "mode": "road",
+    "form": "unit_load",
+    "range": "regional",
+    "coordinates": {
+      "lat": 52.02,
+      "lon": 8.53
+    }
+  },
+  {
+    "id": "INTL_road_bielefeld-europe",
+    "tier": "transport",
+    "name": "Road freight Bielefeld → EU markets",
+    "country_iso2": "INTL",
+    "operator_id": "INTL_db_schenker",
+    "mode": "road",
+    "form": "unit_load",
+    "range": "international",
+    "coordinates": {
+      "lat": 50,
+      "lon": 10
+    }
+  },
+  {
+    "id": "DE_road_wolfsburg-domestic",
+    "tier": "transport",
+    "name": "Road distribution from Wolfsburg",
+    "country_iso2": "DE",
+    "operator_id": "DE_db_schenker",
+    "mode": "road",
+    "form": "unit_load",
+    "range": "regional",
+    "coordinates": {
+      "lat": 52.43,
+      "lon": 10.79
+    }
+  },
+  {
+    "id": "INTL_ocean_bremerhaven-global",
+    "tier": "transport",
+    "name": "Ocean freight Bremerhaven → Global (vehicle RoRo)",
+    "country_iso2": "INTL",
+    "operator_id": "INTL_wallenius_wilhelmsen",
+    "mode": "ocean_freight",
+    "form": "unit_load",
+    "range": "international",
+    "coordinates": {
+      "lat": 53.54,
+      "lon": 8.58
+    },
+    "resources": [
+      "Cobalt"
+    ],
+    "upstream": [],
+    "downstream": []
+  }
+]

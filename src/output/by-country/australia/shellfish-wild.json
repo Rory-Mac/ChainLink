@@ -1,0 +1,2475 @@
+[
+  {
+    "id": "AU_spencer_gulf_prawn_fishery",
+    "name": "Spencer Gulf Prawn Fishery",
+    "tier": "harvester",
+    "country_iso2": "AU",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": -34,
+      "lon": 137
+    },
+    "downstream": [
+      {
+        "target_id": "AU_spencer_gulf_wild_prawns",
+        "corridor_id": "AU_road_spencer-gulf-port-lincoln",
+        "resource": "wild-caught Spencer Gulf king prawns (whole)",
+        "quantity": 2800,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_spencer_gulf_prawns",
+        "corridor_id": "AU_ocean_spencer_gulf_port_lincoln",
+        "resource": "wild-caught king prawns (whole)",
+        "quantity": 2800,
+        "metric": "t"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Shellfish (wild)",
+      "Fish (wild)"
+    ]
+  },
+  {
+    "id": "AU_gulf_st_vincent_prawn_fishery",
+    "name": "Gulf St Vincent Prawn Fishery",
+    "tier": "harvester",
+    "country_iso2": "AU",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": -34.8,
+      "lon": 138.2
+    },
+    "downstream": [
+      {
+        "target_id": "AU_adelaide_seafood_processors",
+        "corridor_id": "AU_road_gulf-st-vincent-adelaide",
+        "resource": "wild-caught western king prawns (whole)",
+        "quantity": 600,
+        "metric": "t"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Shellfish (wild)"
+    ]
+  },
+  {
+    "id": "AU_shark_bay_prawn_fishery",
+    "name": "Shark Bay Prawn Managed Fishery",
+    "tier": "harvester",
+    "country_iso2": "AU",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": -25.5,
+      "lon": 113.5
+    },
+    "downstream": [
+      {
+        "target_id": "AU_mfresh_seafood",
+        "corridor_id": "AU_road_shark-bay-carnarvon",
+        "resource": "wild-caught king and tiger prawns (whole, frozen at sea)",
+        "quantity": 1800,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_mfg_shark_bay",
+        "corridor_id": "AU_ocean_shark_bay_carnarvon",
+        "resource": "wild-caught king & tiger prawns (frozen at sea)",
+        "quantity": 1200,
+        "metric": "t"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Shellfish (wild)",
+      "Fish (wild)"
+    ]
+  },
+  {
+    "id": "AU_exmouth_gulf_prawn_fishery",
+    "name": "Exmouth Gulf Prawn Managed Fishery",
+    "tier": "harvester",
+    "country_iso2": "AU",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": -22.2,
+      "lon": 114.1
+    },
+    "downstream": [
+      {
+        "target_id": "AU_mfresh_seafood",
+        "corridor_id": "AU_road_exmouth-carnarvon",
+        "resource": "wild-caught tiger and king prawns (whole, frozen at sea)",
+        "quantity": 800,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_mfg_shark_bay",
+        "corridor_id": "AU_ocean_exmouth_carnarvon",
+        "resource": "wild-caught tiger & king prawns (frozen at sea)",
+        "quantity": 500,
+        "metric": "t"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Shellfish (wild)",
+      "Fish (wild)"
+    ]
+  },
+  {
+    "id": "AU_npf_northern_prawn_fishery",
+    "name": "Northern Prawn Fishery (NPF)",
+    "tier": "harvester",
+    "country_iso2": "AU",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": -13.5,
+      "lon": 136
+    },
+    "downstream": [
+      {
+        "target_id": "AU_austral_fisheries",
+        "corridor_id": "AU_road_darwin-austral-plant",
+        "resource": "wild-caught banana and tiger prawns (frozen at sea)",
+        "quantity": 3500,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_kailis_bros",
+        "corridor_id": "AU_road_darwin-kailis-plant",
+        "resource": "wild-caught banana and tiger prawns (frozen at sea)",
+        "quantity": 1500,
+        "metric": "t"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Shellfish (wild)"
+    ]
+  },
+  {
+    "id": "AU_moreton_bay_prawn_fishery",
+    "name": "Moreton Bay Prawn & Shellfish Fishery",
+    "tier": "harvester",
+    "country_iso2": "AU",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": -27.3,
+      "lon": 153.3
+    },
+    "downstream": [
+      {
+        "target_id": "AU_brisbane_fish_market_processors",
+        "corridor_id": "AU_road_moreton-bay-brisbane",
+        "resource": "wild-caught Moreton Bay bugs, prawns, and mud crabs",
+        "quantity": 900,
+        "metric": "t"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Shellfish (wild)"
+    ]
+  },
+  {
+    "id": "AU_sydney_rock_oyster_beds_nsw",
+    "name": "NSW Wild Sydney Rock Oyster Beds",
+    "tier": "harvester",
+    "country_iso2": "AU",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": -32.7,
+      "lon": 152.2
+    },
+    "downstream": [
+      {
+        "target_id": "AU_nsw_oyster_processors",
+        "corridor_id": "AU_road_nsw-estuaries-sydney",
+        "resource": "wild-harvested Sydney rock oysters (shell-on)",
+        "quantity": 3500,
+        "metric": "t"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Shellfish (wild)"
+    ]
+  },
+  {
+    "id": "AU_tas_oyster_beds",
+    "name": "Tasmania Wild Oyster Beds",
+    "tier": "harvester",
+    "country_iso2": "AU",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": -42.9,
+      "lon": 147.3
+    },
+    "downstream": [
+      {
+        "target_id": "AU_tasmania_oyster_processors",
+        "corridor_id": "AU_road_tas-estuaries-hobart",
+        "resource": "wild-harvested Pacific oysters (shell-on)",
+        "quantity": 1000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Shellfish (wild)"
+    ]
+  },
+  {
+    "id": "AU_sa_oyster_beds",
+    "name": "South Australia Wild Oyster Beds (Coffin Bay / Smoky Bay)",
+    "tier": "harvester",
+    "country_iso2": "AU",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": -34.6,
+      "lon": 135.5
+    },
+    "downstream": [
+      {
+        "target_id": "AU_sa_oyster_processors",
+        "corridor_id": "AU_road_coffin-bay-adelaide",
+        "resource": "wild-harvested Pacific oysters (shell-on)",
+        "quantity": 800,
+        "metric": "t"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Shellfish (wild)"
+    ]
+  },
+  {
+    "id": "AU_lakes_entrance_scallop_fishery",
+    "name": "Bass Strait / Lakes Entrance Scallop Fishery",
+    "tier": "harvester",
+    "country_iso2": "AU",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": -38.8,
+      "lon": 148.5
+    },
+    "downstream": [
+      {
+        "target_id": "AU_vic_scallop_processors",
+        "corridor_id": "AU_road_lakes-entrance-melbourne",
+        "resource": "wild-caught commercial scallops (whole / meat)",
+        "quantity": 500,
+        "metric": "t"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Shellfish (wild)"
+    ]
+  },
+  {
+    "id": "AU_qld_mud_crab_fishery",
+    "name": "Queensland Mud Crab Fishery",
+    "tier": "harvester",
+    "country_iso2": "AU",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": -19.5,
+      "lon": 147
+    },
+    "downstream": [
+      {
+        "target_id": "AU_qld_crab_processors",
+        "corridor_id": "AU_road_qld-coast-brisbane",
+        "resource": "wild-caught mud crabs (live)",
+        "quantity": 1200,
+        "metric": "t"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Shellfish (wild)"
+    ]
+  },
+  {
+    "id": "AU_nt_mud_crab_fishery",
+    "name": "Northern Territory Mud Crab Fishery",
+    "tier": "harvester",
+    "country_iso2": "AU",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": -12.8,
+      "lon": 131.5
+    },
+    "downstream": [
+      {
+        "target_id": "AU_nt_crab_processors",
+        "corridor_id": "AU_road_nt-coast-darwin",
+        "resource": "wild-caught mud crabs (live)",
+        "quantity": 500,
+        "metric": "t"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Shellfish (wild)"
+    ]
+  },
+  {
+    "id": "AU_wa_blue_swimmer_crab_fishery",
+    "name": "WA Blue Swimmer Crab Managed Fishery (Peel-Harvey / Shark Bay)",
+    "tier": "harvester",
+    "country_iso2": "AU",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": -32.6,
+      "lon": 115.7
+    },
+    "downstream": [
+      {
+        "target_id": "AU_wa_crab_processors",
+        "corridor_id": "AU_road_mandurah-perth",
+        "resource": "wild-caught blue swimmer crabs (whole, chilled)",
+        "quantity": 600,
+        "metric": "t"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Shellfish (wild)"
+    ]
+  },
+  {
+    "id": "AU_sa_blue_crab_fishery",
+    "name": "SA Blue Swimmer Crab Fishery (Gulf St Vincent & Spencer Gulf)",
+    "tier": "harvester",
+    "country_iso2": "AU",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": -34.5,
+      "lon": 137.5
+    },
+    "downstream": [
+      {
+        "target_id": "AU_adelaide_seafood_processors",
+        "corridor_id": "AU_road_gulf-st-vincent-adelaide",
+        "resource": "wild-caught blue swimmer crabs (whole)",
+        "quantity": 300,
+        "metric": "t"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Shellfish (wild)"
+    ]
+  },
+  {
+    "id": "AU_abalone_tas_fishery",
+    "name": "Tasmania Wild Abalone Fishery",
+    "tier": "harvester",
+    "country_iso2": "AU",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": -42.5,
+      "lon": 145.5
+    },
+    "downstream": [
+      {
+        "target_id": "AU_tas_live_abalone",
+        "corridor_id": "AU_road_tas-west-coast-hobart",
+        "resource": "wild-caught blacklip and greenlip abalone (live / shell-on)",
+        "quantity": 2200,
+        "metric": "t"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Shellfish (wild)"
+    ]
+  },
+  {
+    "id": "AU_abalone_vic_fishery",
+    "name": "Victoria Wild Abalone Fishery (Western Zone)",
+    "tier": "harvester",
+    "country_iso2": "AU",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": -38.7,
+      "lon": 142.5
+    },
+    "downstream": [
+      {
+        "target_id": "AU_vic_abalone_processors",
+        "corridor_id": "AU_road_portland-melbourne",
+        "resource": "wild-caught blacklip abalone (live / shell-on)",
+        "quantity": 800,
+        "metric": "t"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Shellfish (wild)"
+    ]
+  },
+  {
+    "id": "AU_abalone_sa_fishery",
+    "name": "South Australia Wild Abalone Fishery",
+    "tier": "harvester",
+    "country_iso2": "AU",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": -35.5,
+      "lon": 136.5
+    },
+    "downstream": [
+      {
+        "target_id": "AU_sa_abalone_processors",
+        "corridor_id": "AU_road_sa-coast-adelaide",
+        "resource": "wild-caught greenlip and blacklip abalone (shell-on)",
+        "quantity": 600,
+        "metric": "t"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Shellfish (wild)"
+    ]
+  },
+  {
+    "id": "AU_sydney_fish_market_auction",
+    "name": "Sydney Fish Market (Auction/Landing)",
+    "tier": "harvester",
+    "country_iso2": "AU",
+    "canonical_company": "Sydney Fish Market",
+    "coordinates": {
+      "lat": -33.87,
+      "lon": 151.19
+    },
+    "downstream": [
+      {
+        "target_id": "AU_nsw_oyster_processors",
+        "corridor_id": "AU_road_sfm-inner-sydney",
+        "resource": "mixed wild shellfish (prawns, bugs, oysters, crabs)",
+        "quantity": 800,
+        "metric": "t"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Shellfish (wild)"
+    ]
+  },
+  {
+    "id": "AU_spencer_gulf_wild_prawns",
+    "name": "Spencer Gulf & West Coast Prawn Fishermen's Association – Processing",
+    "tier": "landing_processor",
+    "country_iso2": "AU",
+    "canonical_company": "Spencer Gulf Wild Prawns",
+    "coordinates": {
+      "lat": -34.73,
+      "lon": 135.86
+    },
+    "downstream": [
+      {
+        "target_id": "AU_sgwp_packing",
+        "corridor_id": "AU_road_port-lincoln-adelaide",
+        "resource": "processed Spencer Gulf king prawns (frozen, graded)",
+        "quantity": 2600,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_spencer_gulf_prawn_fishery"
+    ],
+    "resources": [
+      "Shellfish (wild)"
+    ]
+  },
+  {
+    "id": "AU_austral_fisheries",
+    "name": "Austral Fisheries – Darwin Processing Facility",
+    "tier": "landing_processor",
+    "country_iso2": "AU",
+    "canonical_company": "Austral Fisheries",
+    "coordinates": {
+      "lat": -12.43,
+      "lon": 130.84
+    },
+    "downstream": [
+      {
+        "target_id": "AU_austral_packing",
+        "corridor_id": "AU_road_darwin-coldstore",
+        "resource": "processed NPF banana & tiger prawns (IQF / block frozen)",
+        "quantity": 3300,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_austral_packer_perth",
+        "corridor_id": "AU_road_fremantle_perth_cold",
+        "resource": "frozen prawns and toothfish (processed, packed)",
+        "quantity": 4500,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_markwell_foods",
+        "corridor_id": "AU_road_perth_adelaide",
+        "resource": "frozen prawns (graded, boxed)",
+        "quantity": 2500,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_npf_northern_prawn_fishery",
+      "AU_northern_prawn_fishery",
+      "AU_heard_island_patagonian_toothfish",
+      "AU_torres_strait_prawn_fishery"
+    ],
+    "resources": [
+      "Shellfish (wild)",
+      "Fish (wild)"
+    ]
+  },
+  {
+    "id": "AU_kailis_bros",
+    "name": "Kailis Bros – Darwin / Exmouth Processing",
+    "tier": "landing_processor",
+    "country_iso2": "AU",
+    "canonical_company": "Kailis Bros",
+    "coordinates": {
+      "lat": -12.45,
+      "lon": 130.85
+    },
+    "downstream": [
+      {
+        "target_id": "AU_kailis_packing",
+        "corridor_id": "AU_road_darwin-perth-coldchain",
+        "resource": "processed NPF banana & tiger prawns (IQF / whole frozen)",
+        "quantity": 1400,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_npf_northern_prawn_fishery"
+    ],
+    "resources": [
+      "Shellfish (wild)"
+    ]
+  },
+  {
+    "id": "AU_mfresh_seafood",
+    "name": "MG Kailis / MFresh Seafood – Carnarvon Processing",
+    "tier": "landing_processor",
+    "country_iso2": "AU",
+    "canonical_company": "MG Kailis Group",
+    "coordinates": {
+      "lat": -24.88,
+      "lon": 113.66
+    },
+    "downstream": [
+      {
+        "target_id": "AU_wa_prawn_packing",
+        "corridor_id": "AU_road_carnarvon-perth",
+        "resource": "processed Shark Bay & Exmouth prawns (IQF, head-on/head-off)",
+        "quantity": 2400,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_shark_bay_prawn_fishery",
+      "AU_exmouth_gulf_prawn_fishery"
+    ],
+    "resources": [
+      "Shellfish (wild)"
+    ]
+  },
+  {
+    "id": "AU_adelaide_seafood_processors",
+    "name": "Adelaide Seafood Processors (multiple)",
+    "tier": "landing_processor",
+    "country_iso2": "AU",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": -34.93,
+      "lon": 138.6
+    },
+    "downstream": [
+      {
+        "target_id": "AU_sa_shellfish_packing",
+        "corridor_id": "AU_road_adelaide-local",
+        "resource": "processed prawns and blue swimmer crabs (chilled, frozen)",
+        "quantity": 850,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_gulf_st_vincent_prawn_fishery",
+      "AU_sa_blue_crab_fishery"
+    ],
+    "resources": [
+      "Shellfish (wild)"
+    ]
+  },
+  {
+    "id": "AU_brisbane_fish_market_processors",
+    "name": "Brisbane Fish Market / QLD Coastal Processors",
+    "tier": "landing_processor",
+    "country_iso2": "AU",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": -27.38,
+      "lon": 153.17
+    },
+    "downstream": [
+      {
+        "target_id": "AU_qld_shellfish_packing",
+        "corridor_id": "AU_road_brisbane-local",
+        "resource": "processed Moreton Bay bugs, prawns, crabs (chilled / frozen)",
+        "quantity": 850,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_moreton_bay_prawn_fishery"
+    ],
+    "resources": [
+      "Shellfish (wild)"
+    ]
+  },
+  {
+    "id": "AU_tasmania_oyster_processors",
+    "name": "Tasmania Oyster Processors (Barilla Bay, etc.)",
+    "tier": "landing_processor",
+    "country_iso2": "AU",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": -42.8,
+      "lon": 147.5
+    },
+    "downstream": [
+      {
+        "target_id": "AU_tas_oyster_packing",
+        "corridor_id": "AU_road_hobart-local",
+        "resource": "graded Pacific oysters (half-shell / whole shell)",
+        "quantity": 950,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_tas_oyster_beds"
+    ],
+    "resources": [
+      "Shellfish (wild)"
+    ]
+  },
+  {
+    "id": "AU_vic_scallop_processors",
+    "name": "Victorian Scallop Processors (Lakes Entrance)",
+    "tier": "landing_processor",
+    "country_iso2": "AU",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": -37.88,
+      "lon": 147.98
+    },
+    "downstream": [
+      {
+        "target_id": "AU_vic_scallop_packing",
+        "corridor_id": "AU_road_lakes-entrance-melbourne",
+        "resource": "scallop meat (IQF roe-on and roe-off)",
+        "quantity": 450,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_lakes_entrance_scallop_fishery"
+    ],
+    "resources": [
+      "Shellfish (wild)"
+    ]
+  },
+  {
+    "id": "AU_qld_crab_processors",
+    "name": "QLD Mud Crab Processors (Cairns, Townsville, Bundaberg)",
+    "tier": "landing_processor",
+    "country_iso2": "AU",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": -19.25,
+      "lon": 146.8
+    },
+    "downstream": [
+      {
+        "target_id": "AU_qld_crab_packing",
+        "corridor_id": "AU_road_qld-coast-brisbane",
+        "resource": "live mud crabs (graded, held in tanks) and frozen crab",
+        "quantity": 1100,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_qld_mud_crab_fishery"
+    ],
+    "resources": [
+      "Shellfish (wild)"
+    ]
+  },
+  {
+    "id": "AU_nt_crab_processors",
+    "name": "NT Mud Crab Processors (Darwin)",
+    "tier": "landing_processor",
+    "country_iso2": "AU",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": -12.46,
+      "lon": 130.84
+    },
+    "downstream": [
+      {
+        "target_id": "AU_nt_crab_packing",
+        "corridor_id": "AU_road_darwin-local",
+        "resource": "live mud crabs (graded) and frozen crab portions",
+        "quantity": 450,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_nt_mud_crab_fishery"
+    ],
+    "resources": [
+      "Shellfish (wild)"
+    ]
+  },
+  {
+    "id": "AU_wa_crab_processors",
+    "name": "WA Blue Swimmer Crab Processors (Mandurah / Perth)",
+    "tier": "landing_processor",
+    "country_iso2": "AU",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": -32.53,
+      "lon": 115.74
+    },
+    "downstream": [
+      {
+        "target_id": "AU_wa_crab_packing",
+        "corridor_id": "AU_road_mandurah-perth",
+        "resource": "cooked blue swimmer crab (whole, picked meat)",
+        "quantity": 550,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_wa_blue_swimmer_crab_fishery"
+    ],
+    "resources": [
+      "Shellfish (wild)"
+    ]
+  },
+  {
+    "id": "AU_tas_live_abalone",
+    "name": "Tas Live Abalone / Yumbah Processing",
+    "tier": "landing_processor",
+    "country_iso2": "AU",
+    "canonical_company": "Tas Live Abalone",
+    "coordinates": {
+      "lat": -42.15,
+      "lon": 145.33
+    },
+    "downstream": [
+      {
+        "target_id": "AU_tas_abalone_packing",
+        "corridor_id": "AU_road_tas-west-coast-hobart",
+        "resource": "processed abalone (canned, frozen, IQF, live)",
+        "quantity": 2100,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_abalone_tas_fishery"
+    ],
+    "resources": [
+      "Shellfish (wild)"
+    ]
+  },
+  {
+    "id": "AU_vic_abalone_processors",
+    "name": "Victorian Abalone Processors (Portland / Warrnambool)",
+    "tier": "landing_processor",
+    "country_iso2": "AU",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": -38.35,
+      "lon": 141.6
+    },
+    "downstream": [
+      {
+        "target_id": "AU_vic_abalone_packing",
+        "corridor_id": "AU_road_portland-melbourne",
+        "resource": "processed blacklip abalone (canned, frozen, live)",
+        "quantity": 750,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_abalone_vic_fishery"
+    ],
+    "resources": [
+      "Shellfish (wild)"
+    ]
+  },
+  {
+    "id": "AU_sa_abalone_processors",
+    "name": "SA Abalone Processors (Port Lincoln / Adelaide)",
+    "tier": "landing_processor",
+    "country_iso2": "AU",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": -34.73,
+      "lon": 135.86
+    },
+    "downstream": [
+      {
+        "target_id": "AU_sa_abalone_packing",
+        "corridor_id": "AU_road_port-lincoln-adelaide",
+        "resource": "processed greenlip/blacklip abalone (canned, frozen, live)",
+        "quantity": 550,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_abalone_sa_fishery"
+    ],
+    "resources": [
+      "Shellfish (wild)"
+    ]
+  },
+  {
+    "id": "AU_sgwp_packing",
+    "name": "Spencer Gulf Wild Prawns – Packing & Branding",
+    "tier": "packer",
+    "country_iso2": "AU",
+    "canonical_company": "Spencer Gulf Wild Prawns",
+    "coordinates": {
+      "lat": -34.73,
+      "lon": 135.86
+    },
+    "downstream": [
+      {
+        "target_id": "AU_defelice_bros",
+        "corridor_id": "AU_road_port-lincoln-adelaide",
+        "resource": "branded Spencer Gulf king prawns (retail / foodservice packs)",
+        "quantity": 1200,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_bidvest_australia",
+        "corridor_id": "AU_road_adelaide-national",
+        "resource": "branded Spencer Gulf king prawns (foodservice packs)",
+        "quantity": 800,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_export_shellfish_packer",
+        "corridor_id": "AU_road_adelaide-airport",
+        "resource": "branded Spencer Gulf king prawns (export packs)",
+        "quantity": 600,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_spencer_gulf_wild_prawns"
+    ],
+    "resources": [
+      "Shellfish (wild)"
+    ]
+  },
+  {
+    "id": "AU_austral_packing",
+    "name": "Austral Fisheries – Packing (Eco-branded Skull Island / CreveRose)",
+    "tier": "packer",
+    "country_iso2": "AU",
+    "canonical_company": "Austral Fisheries",
+    "coordinates": {
+      "lat": -12.43,
+      "lon": 130.84
+    },
+    "downstream": [
+      {
+        "target_id": "AU_bidvest_australia",
+        "corridor_id": "AU_road_darwin-national",
+        "resource": "branded NPF prawns (IQF retail & foodservice packs)",
+        "quantity": 1500,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_defelice_bros",
+        "corridor_id": "AU_road_darwin-national",
+        "resource": "branded NPF prawns (retail packs)",
+        "quantity": 800,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_export_shellfish_packer",
+        "corridor_id": "AU_road_darwin-airport",
+        "resource": "NPF prawns (export packs for Japan, USA)",
+        "quantity": 1000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_austral_fisheries"
+    ],
+    "resources": [
+      "Shellfish (wild)"
+    ]
+  },
+  {
+    "id": "AU_kailis_packing",
+    "name": "Kailis Bros – Packing & Cold Storage",
+    "tier": "packer",
+    "country_iso2": "AU",
+    "canonical_company": "Kailis Bros",
+    "coordinates": {
+      "lat": -31.85,
+      "lon": 115.95
+    },
+    "downstream": [
+      {
+        "target_id": "AU_defelice_bros",
+        "corridor_id": "AU_road_perth-national",
+        "resource": "branded Kailis prawns (IQF retail packs)",
+        "quantity": 700,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_bidvest_australia",
+        "corridor_id": "AU_road_perth-national",
+        "resource": "branded Kailis prawns (foodservice packs)",
+        "quantity": 400,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_export_shellfish_packer",
+        "corridor_id": "AU_road_perth-airport",
+        "resource": "Kailis prawns (export packs)",
+        "quantity": 300,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_kailis_bros"
+    ],
+    "resources": [
+      "Shellfish (wild)"
+    ]
+  },
+  {
+    "id": "AU_wa_prawn_packing",
+    "name": "MG Kailis – WA Prawn Packing (Perth Cold Store)",
+    "tier": "packer",
+    "country_iso2": "AU",
+    "canonical_company": "MG Kailis Group",
+    "coordinates": {
+      "lat": -31.94,
+      "lon": 115.96
+    },
+    "downstream": [
+      {
+        "target_id": "AU_defelice_bros",
+        "corridor_id": "AU_road_perth-national",
+        "resource": "branded Shark Bay / Exmouth prawns (retail packs)",
+        "quantity": 1000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_bidvest_australia",
+        "corridor_id": "AU_road_perth-national",
+        "resource": "branded WA prawns (foodservice packs)",
+        "quantity": 600,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_export_shellfish_packer",
+        "corridor_id": "AU_road_perth-airport",
+        "resource": "WA prawns (export)",
+        "quantity": 800,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_mfresh_seafood"
+    ],
+    "resources": [
+      "Shellfish (wild)"
+    ]
+  },
+  {
+    "id": "AU_sa_shellfish_packing",
+    "name": "SA Shellfish Packers (Adelaide metro)",
+    "tier": "packer",
+    "country_iso2": "AU",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": -34.93,
+      "lon": 138.6
+    },
+    "downstream": [
+      {
+        "target_id": "AU_bidvest_australia",
+        "corridor_id": "AU_road_adelaide-national",
+        "resource": "packed SA prawns and blue swimmer crabs (chilled / frozen)",
+        "quantity": 500,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_defelice_bros",
+        "corridor_id": "AU_road_adelaide-local",
+        "resource": "packed SA shellfish (retail)",
+        "quantity": 350,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_adelaide_seafood_processors"
+    ],
+    "resources": [
+      "Shellfish (wild)"
+    ]
+  },
+  {
+    "id": "AU_qld_shellfish_packing",
+    "name": "QLD Shellfish Packers (Brisbane)",
+    "tier": "packer",
+    "country_iso2": "AU",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": -27.43,
+      "lon": 153.03
+    },
+    "downstream": [
+      {
+        "target_id": "AU_bidvest_australia",
+        "corridor_id": "AU_road_brisbane-national",
+        "resource": "packed Moreton Bay bugs, prawns, crabs (retail / foodservice)",
+        "quantity": 450,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_defelice_bros",
+        "corridor_id": "AU_road_brisbane-local",
+        "resource": "packed QLD shellfish (retail)",
+        "quantity": 400,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_brisbane_fish_market_processors"
+    ],
+    "resources": [
+      "Shellfish (wild)"
+    ]
+  },
+  {
+    "id": "AU_nsw_oyster_packing",
+    "name": "NSW Oyster Packers (Port Stephens / Sydney)",
+    "tier": "packer",
+    "country_iso2": "AU",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": -33.86,
+      "lon": 151.21
+    },
+    "downstream": [
+      {
+        "target_id": "AU_bidvest_australia",
+        "corridor_id": "AU_road_sydney-national",
+        "resource": "packed Sydney rock oysters (half-shell, retail & foodservice trays)",
+        "quantity": 1800,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_defelice_bros",
+        "corridor_id": "AU_road_sydney-local",
+        "resource": "packed Sydney rock oysters (retail)",
+        "quantity": 1200,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_export_shellfish_packer",
+        "corridor_id": "AU_road_sydney-airport",
+        "resource": "Sydney rock oysters (export packs)",
+        "quantity": 1000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_nsw_oyster_processors"
+    ],
+    "resources": [
+      "Shellfish (wild)"
+    ]
+  },
+  {
+    "id": "AU_tas_oyster_packing",
+    "name": "Tasmania Oyster Packers (Hobart)",
+    "tier": "packer",
+    "country_iso2": "AU",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": -42.88,
+      "lon": 147.33
+    },
+    "downstream": [
+      {
+        "target_id": "AU_bidvest_australia",
+        "corridor_id": "AU_ocean_hobart-melbourne",
+        "resource": "packed Tasmanian Pacific oysters (half-shell, trays)",
+        "quantity": 500,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_defelice_bros",
+        "corridor_id": "AU_ocean_hobart-melbourne",
+        "resource": "packed Tasmanian oysters (retail)",
+        "quantity": 300,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_export_shellfish_packer",
+        "corridor_id": "AU_road_hobart-airport",
+        "resource": "Tasmanian oysters (export)",
+        "quantity": 150,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_tasmania_oyster_processors"
+    ],
+    "resources": [
+      "Shellfish (wild)"
+    ]
+  },
+  {
+    "id": "AU_sa_oyster_packing",
+    "name": "SA Oyster Packers (Adelaide / Ceduna)",
+    "tier": "packer",
+    "country_iso2": "AU",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": -34.93,
+      "lon": 138.6
+    },
+    "downstream": [
+      {
+        "target_id": "AU_bidvest_australia",
+        "corridor_id": "AU_road_adelaide-national",
+        "resource": "packed SA Pacific oysters (half-shell, trays)",
+        "quantity": 400,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_defelice_bros",
+        "corridor_id": "AU_road_adelaide-local",
+        "resource": "packed SA oysters (retail)",
+        "quantity": 250,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_export_shellfish_packer",
+        "corridor_id": "AU_road_adelaide-airport",
+        "resource": "SA oysters (export)",
+        "quantity": 100,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_sa_oyster_processors"
+    ],
+    "resources": [
+      "Shellfish (wild)"
+    ]
+  },
+  {
+    "id": "AU_vic_scallop_packing",
+    "name": "Victorian Scallop Packers (Melbourne)",
+    "tier": "packer",
+    "country_iso2": "AU",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": -37.81,
+      "lon": 144.96
+    },
+    "downstream": [
+      {
+        "target_id": "AU_bidvest_australia",
+        "corridor_id": "AU_road_melbourne-local",
+        "resource": "packed scallop meat (IQF, retail & foodservice)",
+        "quantity": 250,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_defelice_bros",
+        "corridor_id": "AU_road_melbourne-local",
+        "resource": "packed scallop meat (retail)",
+        "quantity": 200,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_vic_scallop_processors"
+    ],
+    "resources": [
+      "Shellfish (wild)"
+    ]
+  },
+  {
+    "id": "AU_qld_crab_packing",
+    "name": "QLD Mud Crab Packers (Brisbane / Townsville)",
+    "tier": "packer",
+    "country_iso2": "AU",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": -27.47,
+      "lon": 153.02
+    },
+    "downstream": [
+      {
+        "target_id": "AU_bidvest_australia",
+        "corridor_id": "AU_road_brisbane-national",
+        "resource": "live & frozen mud crabs (foodservice packs)",
+        "quantity": 500,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_defelice_bros",
+        "corridor_id": "AU_road_brisbane-local",
+        "resource": "live & frozen mud crabs (retail)",
+        "quantity": 300,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_export_shellfish_packer",
+        "corridor_id": "AU_air_brisbane-international",
+        "resource": "live mud crabs (export, air-freighted)",
+        "quantity": 300,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_qld_crab_processors"
+    ],
+    "resources": [
+      "Shellfish (wild)"
+    ]
+  },
+  {
+    "id": "AU_nt_crab_packing",
+    "name": "NT Mud Crab Packers (Darwin)",
+    "tier": "packer",
+    "country_iso2": "AU",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": -12.46,
+      "lon": 130.84
+    },
+    "downstream": [
+      {
+        "target_id": "AU_bidvest_australia",
+        "corridor_id": "AU_road_darwin-national",
+        "resource": "live & frozen mud crabs (foodservice packs)",
+        "quantity": 200,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_export_shellfish_packer",
+        "corridor_id": "AU_air_darwin-international",
+        "resource": "live mud crabs (export)",
+        "quantity": 250,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_nt_crab_processors"
+    ],
+    "resources": [
+      "Shellfish (wild)"
+    ]
+  },
+  {
+    "id": "AU_wa_crab_packing",
+    "name": "WA Blue Swimmer Crab Packers (Perth)",
+    "tier": "packer",
+    "country_iso2": "AU",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": -31.95,
+      "lon": 115.86
+    },
+    "downstream": [
+      {
+        "target_id": "AU_bidvest_australia",
+        "corridor_id": "AU_road_perth-national",
+        "resource": "packed blue swimmer crab meat and whole crab (chilled/frozen)",
+        "quantity": 300,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_defelice_bros",
+        "corridor_id": "AU_road_perth-local",
+        "resource": "packed blue swimmer crabs (retail)",
+        "quantity": 250,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_wa_crab_processors"
+    ],
+    "resources": [
+      "Shellfish (wild)"
+    ]
+  },
+  {
+    "id": "AU_tas_abalone_packing",
+    "name": "Tasmanian Abalone Packers (Hobart – Tas Live Abalone / Yumbah)",
+    "tier": "packer",
+    "country_iso2": "AU",
+    "canonical_company": "Tas Live Abalone",
+    "coordinates": {
+      "lat": -42.88,
+      "lon": 147.33
+    },
+    "downstream": [
+      {
+        "target_id": "AU_export_shellfish_packer",
+        "corridor_id": "AU_air_hobart-melbourne",
+        "resource": "packed abalone (canned, frozen, live) for export",
+        "quantity": 1700,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_bidvest_australia",
+        "corridor_id": "AU_ocean_hobart-melbourne",
+        "resource": "packed abalone (frozen, canned) for domestic foodservice",
+        "quantity": 400,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_tas_live_abalone"
+    ],
+    "resources": [
+      "Shellfish (wild)"
+    ]
+  },
+  {
+    "id": "AU_vic_abalone_packing",
+    "name": "Victorian Abalone Packers (Portland / Melbourne)",
+    "tier": "packer",
+    "country_iso2": "AU",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": -37.81,
+      "lon": 144.96
+    },
+    "downstream": [
+      {
+        "target_id": "AU_export_shellfish_packer",
+        "corridor_id": "AU_road_melbourne-airport",
+        "resource": "packed abalone (canned, frozen, live) for export",
+        "quantity": 550,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_bidvest_australia",
+        "corridor_id": "AU_road_melbourne-local",
+        "resource": "packed abalone (frozen, canned) domestic",
+        "quantity": 200,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_vic_abalone_processors"
+    ],
+    "resources": [
+      "Shellfish (wild)"
+    ]
+  },
+  {
+    "id": "AU_sa_abalone_packing",
+    "name": "SA Abalone Packers (Adelaide)",
+    "tier": "packer",
+    "country_iso2": "AU",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": -34.93,
+      "lon": 138.6
+    },
+    "downstream": [
+      {
+        "target_id": "AU_export_shellfish_packer",
+        "corridor_id": "AU_road_adelaide-airport",
+        "resource": "packed abalone (canned, frozen) for export",
+        "quantity": 400,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_bidvest_australia",
+        "corridor_id": "AU_road_adelaide-national",
+        "resource": "packed abalone domestic",
+        "quantity": 150,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_sa_abalone_processors"
+    ],
+    "resources": [
+      "Shellfish (wild)"
+    ]
+  },
+  {
+    "id": "AU_export_shellfish_packer",
+    "name": "Export Consolidation – Australian Shellfish (Melbourne / Sydney Airports & Ports)",
+    "tier": "packer",
+    "country_iso2": "AU",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": -37.67,
+      "lon": 144.84
+    },
+    "downstream": [
+      {
+        "target_id": "HK_shellfish_importers",
+        "corridor_id": "INTL_air_melbourne-hongkong",
+        "resource": "Australian abalone (live, frozen, canned) and live crabs",
+        "quantity": 2500,
+        "metric": "t"
+      },
+      {
+        "target_id": "JP_shellfish_importers",
+        "corridor_id": "INTL_ocean_melbourne-tokyo",
+        "resource": "Australian prawns (frozen) and abalone (canned, frozen)",
+        "quantity": 1200,
+        "metric": "t"
+      },
+      {
+        "target_id": "CN_shellfish_importers",
+        "corridor_id": "INTL_ocean_melbourne-shanghai",
+        "resource": "Australian abalone (canned, frozen, live) and oysters",
+        "quantity": 1000,
+        "metric": "t"
+      },
+      {
+        "target_id": "SG_shellfish_importers",
+        "corridor_id": "INTL_air_sydney-singapore",
+        "resource": "Australian live crabs, oysters, prawns",
+        "quantity": 400,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_sgwp_packing",
+      "AU_austral_packing",
+      "AU_kailis_packing",
+      "AU_wa_prawn_packing",
+      "AU_nsw_oyster_packing",
+      "AU_tas_oyster_packing",
+      "AU_sa_oyster_packing",
+      "AU_qld_crab_packing",
+      "AU_nt_crab_packing",
+      "AU_tas_abalone_packing",
+      "AU_vic_abalone_packing",
+      "AU_sa_abalone_packing"
+    ],
+    "resources": [
+      "Shellfish (wild)"
+    ]
+  },
+  {
+    "id": "AU_bidvest_australia",
+    "name": "Bidfood Australia (Bidvest) – National Foodservice Distribution",
+    "tier": "distributor",
+    "country_iso2": "AU",
+    "canonical_company": "Bidfood Australia",
+    "coordinates": {
+      "lat": -33.87,
+      "lon": 151.21
+    },
+    "downstream": [
+      {
+        "target_id": "AU_independent_restaurants",
+        "corridor_id": "AU_road_national-coldchain",
+        "resource": "mixed Australian wild shellfish (prawns, oysters, crabs, abalone, scallops)",
+        "quantity": 4500,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_coles_group",
+        "corridor_id": "AU_road_national-coldchain",
+        "resource": "mixed Australian wild shellfish (retail-ready packs)",
+        "quantity": 1200,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_woolworths_group",
+        "corridor_id": "AU_road_national-coldchain",
+        "resource": "mixed Australian wild shellfish (retail-ready packs)",
+        "quantity": 1200,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_woolworths_group",
+        "corridor_id": "AU_road_national_woolworths",
+        "resource": "mixed wild-caught seafood (chilled & frozen)",
+        "quantity": 10000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_coles_group",
+        "corridor_id": "AU_road_national_coles",
+        "resource": "mixed wild-caught seafood (chilled & frozen)",
+        "quantity": 8000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_aldi_australia",
+        "corridor_id": "AU_road_national_aldi",
+        "resource": "frozen fish fillets, frozen prawns",
+        "quantity": 3000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_foodservice_operators",
+        "corridor_id": "AU_road_national_foodservice",
+        "resource": "foodservice wild-caught seafood (mixed species)",
+        "quantity": 8000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_sgwp_packing",
+      "AU_austral_packing",
+      "AU_kailis_packing",
+      "AU_wa_prawn_packing",
+      "AU_sa_shellfish_packing",
+      "AU_qld_shellfish_packing",
+      "AU_nsw_oyster_packing",
+      "AU_tas_oyster_packing",
+      "AU_sa_oyster_packing",
+      "AU_vic_scallop_packing",
+      "AU_qld_crab_packing",
+      "AU_nt_crab_packing",
+      "AU_wa_crab_packing",
+      "AU_tas_abalone_packing",
+      "AU_vic_abalone_packing",
+      "AU_sa_abalone_packing",
+      "AU_markwell_foods",
+      "AU_austral_packer_perth",
+      "AU_raptis_packer_brisbane",
+      "AU_sealord_packer_vic",
+      "AU_petuna_packer_devonport",
+      "AU_de_costi_packer_sydney",
+      "AU_gfc_packer_geraldton",
+      "AU_lobster_packer_fremantle",
+      "AU_tas_packer_hobart",
+      "AU_ferguson_packer_adelaide",
+      "AU_abalone_packer_vic",
+      "AU_nt_seafood_packer_darwin",
+      "AU_sardine_packer_pl",
+      "AU_sbt_packer_pl",
+      "AU_kailis_packer_perth"
+    ],
+    "resources": [
+      "Shellfish (wild)",
+      "Fish (wild)"
+    ]
+  },
+  {
+    "id": "AU_defelice_bros",
+    "name": "De Costi Seafoods / Peter's Fish Market / Independent Wholesale Distributors",
+    "tier": "distributor",
+    "country_iso2": "AU",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": -33.87,
+      "lon": 151.19
+    },
+    "downstream": [
+      {
+        "target_id": "AU_independent_restaurants",
+        "corridor_id": "AU_road_national-coldchain",
+        "resource": "Australian wild shellfish (prawns, oysters, crabs, scallops)",
+        "quantity": 2800,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_coles_group",
+        "corridor_id": "AU_road_national-coldchain",
+        "resource": "Australian wild shellfish (retail-ready)",
+        "quantity": 800,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_woolworths_group",
+        "corridor_id": "AU_road_national-coldchain",
+        "resource": "Australian wild shellfish (retail-ready)",
+        "quantity": 800,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_aldi_australia",
+        "corridor_id": "AU_road_national-coldchain",
+        "resource": "Australian wild shellfish (retail packs)",
+        "quantity": 300,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_sgwp_packing",
+      "AU_austral_packing",
+      "AU_kailis_packing",
+      "AU_wa_prawn_packing",
+      "AU_sa_shellfish_packing",
+      "AU_qld_shellfish_packing",
+      "AU_nsw_oyster_packing",
+      "AU_tas_oyster_packing",
+      "AU_sa_oyster_packing",
+      "AU_vic_scallop_packing",
+      "AU_qld_crab_packing",
+      "AU_wa_crab_packing"
+    ],
+    "resources": [
+      "Shellfish (wild)"
+    ]
+  },
+  {
+    "id": "HK_shellfish_importers",
+    "name": "Hong Kong Shellfish Importers & Distributors",
+    "tier": "distributor",
+    "country_iso2": "HK",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": 22.3,
+      "lon": 114.17
+    },
+    "downstream": [
+      {
+        "target_id": "HK_shellfish_retailers",
+        "corridor_id": "HK_road_local-distribution",
+        "resource": "Australian abalone, live crabs, oysters",
+        "quantity": 1500,
+        "metric": "t"
+      },
+      {
+        "target_id": "CN_shellfish_retailers",
+        "corridor_id": "INTL_road_hongkong-shenzhen",
+        "resource": "Australian abalone re-export to mainland China",
+        "quantity": 1000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_export_shellfish_packer"
+    ],
+    "resources": [
+      "Shellfish (wild)"
+    ]
+  },
+  {
+    "id": "JP_shellfish_importers",
+    "name": "Japanese Shellfish Importers (Tokyo / Osaka)",
+    "tier": "distributor",
+    "country_iso2": "JP",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": 35.65,
+      "lon": 139.84
+    },
+    "downstream": [
+      {
+        "target_id": "JP_shellfish_retailers",
+        "corridor_id": "JP_road_tokyo-national",
+        "resource": "Australian frozen prawns and abalone",
+        "quantity": 1200,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_export_shellfish_packer"
+    ],
+    "resources": [
+      "Shellfish (wild)"
+    ]
+  },
+  {
+    "id": "CN_shellfish_importers",
+    "name": "Chinese Shellfish Importers (Shanghai / Guangzhou)",
+    "tier": "distributor",
+    "country_iso2": "CN",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": 31.23,
+      "lon": 121.47
+    },
+    "downstream": [
+      {
+        "target_id": "CN_shellfish_retailers",
+        "corridor_id": "CN_road_shanghai-national",
+        "resource": "Australian abalone (canned, frozen) and oysters",
+        "quantity": 1000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_export_shellfish_packer"
+    ],
+    "resources": [
+      "Shellfish (wild)"
+    ]
+  },
+  {
+    "id": "SG_shellfish_importers",
+    "name": "Singapore Shellfish Importers",
+    "tier": "distributor",
+    "country_iso2": "SG",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": 1.29,
+      "lon": 103.85
+    },
+    "downstream": [
+      {
+        "target_id": "SG_shellfish_retailers",
+        "corridor_id": "SG_road_local-distribution",
+        "resource": "Australian live crabs, oysters, prawns",
+        "quantity": 400,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_export_shellfish_packer"
+    ],
+    "resources": [
+      "Shellfish (wild)"
+    ]
+  },
+  {
+    "id": "AU_independent_restaurants",
+    "name": "Australian Independent Restaurants & Hospitality",
+    "tier": "retailer",
+    "country_iso2": "AU",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": -33.87,
+      "lon": 151.21
+    },
+    "downstream": [
+      {
+        "target_id": "AU_commercial",
+        "corridor_id": "AU_road_last-mile-urban",
+        "resource": "prepared wild shellfish dishes",
+        "quantity": 7300,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_bidvest_australia",
+      "AU_defelice_bros"
+    ],
+    "resources": [
+      "Shellfish (wild)"
+    ]
+  },
+  {
+    "id": "HK_shellfish_retailers",
+    "name": "Hong Kong Seafood Restaurants & Wet Markets",
+    "tier": "retailer",
+    "country_iso2": "HK",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": 22.28,
+      "lon": 114.16
+    },
+    "downstream": [
+      {
+        "target_id": "HK_commercial",
+        "corridor_id": "HK_road_local-last-mile",
+        "resource": "Australian abalone and live crabs (restaurant-ready)",
+        "quantity": 1000,
+        "metric": "t"
+      },
+      {
+        "target_id": "HK_residential",
+        "corridor_id": "HK_road_local-last-mile",
+        "resource": "Australian abalone (canned, retail)",
+        "quantity": 500,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "HK_shellfish_importers"
+    ],
+    "resources": [
+      "Shellfish (wild)"
+    ]
+  },
+  {
+    "id": "CN_shellfish_retailers",
+    "name": "Chinese Retail & E-Commerce (JD, Tmall, Wet Markets)",
+    "tier": "retailer",
+    "country_iso2": "CN",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": 31.23,
+      "lon": 121.47
+    },
+    "downstream": [
+      {
+        "target_id": "CN_residential",
+        "corridor_id": "CN_road_last-mile-urban",
+        "resource": "Australian abalone (canned, frozen) and oysters",
+        "quantity": 1400,
+        "metric": "t"
+      },
+      {
+        "target_id": "CN_commercial",
+        "corridor_id": "CN_road_last-mile-urban",
+        "resource": "Australian abalone (live, frozen) for restaurants",
+        "quantity": 600,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "HK_shellfish_importers",
+      "CN_shellfish_importers"
+    ],
+    "resources": [
+      "Shellfish (wild)"
+    ]
+  },
+  {
+    "id": "JP_shellfish_retailers",
+    "name": "Japanese Supermarkets & Restaurants (Tsukiji / Toyosu supply chain)",
+    "tier": "retailer",
+    "country_iso2": "JP",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": 35.66,
+      "lon": 139.78
+    },
+    "downstream": [
+      {
+        "target_id": "JP_residential",
+        "corridor_id": "JP_road_last-mile-urban",
+        "resource": "Australian frozen prawns and abalone (retail)",
+        "quantity": 700,
+        "metric": "t"
+      },
+      {
+        "target_id": "JP_commercial",
+        "corridor_id": "JP_road_last-mile-urban",
+        "resource": "Australian prawns and abalone (foodservice)",
+        "quantity": 500,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "JP_shellfish_importers"
+    ],
+    "resources": [
+      "Shellfish (wild)"
+    ]
+  },
+  {
+    "id": "SG_shellfish_retailers",
+    "name": "Singapore Seafood Restaurants & Supermarkets",
+    "tier": "retailer",
+    "country_iso2": "SG",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": 1.3,
+      "lon": 103.85
+    },
+    "downstream": [
+      {
+        "target_id": "SG_commercial",
+        "corridor_id": "SG_road_local-last-mile",
+        "resource": "Australian live crabs, oysters, prawns (restaurant)",
+        "quantity": 250,
+        "metric": "t"
+      },
+      {
+        "target_id": "SG_residential",
+        "corridor_id": "SG_road_local-last-mile",
+        "resource": "Australian shellfish (supermarket retail)",
+        "quantity": 150,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "SG_shellfish_importers"
+    ],
+    "resources": [
+      "Shellfish (wild)"
+    ]
+  },
+  {
+    "id": "AU_road_gulf-st-vincent-adelaide",
+    "tier": "transport",
+    "name": "Road – Gulf St Vincent to Adelaide",
+    "country_iso2": "AU",
+    "operator_id": "AU_sa_road_freight",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "regional",
+    "coordinates": {
+      "lat": -34.85,
+      "lon": 138.4
+    }
+  },
+  {
+    "id": "AU_road_shark-bay-carnarvon",
+    "tier": "transport",
+    "name": "Road – Shark Bay to Carnarvon processing",
+    "country_iso2": "AU",
+    "operator_id": "AU_wa_road_freight",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "regional",
+    "coordinates": {
+      "lat": -25.1,
+      "lon": 113.6
+    }
+  },
+  {
+    "id": "AU_road_exmouth-carnarvon",
+    "tier": "transport",
+    "name": "Road – Exmouth Gulf to Carnarvon",
+    "country_iso2": "AU",
+    "operator_id": "AU_wa_road_freight",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "regional",
+    "coordinates": {
+      "lat": -23.5,
+      "lon": 113.8
+    }
+  },
+  {
+    "id": "AU_road_darwin-austral-plant",
+    "tier": "transport",
+    "name": "Road – Darwin wharf to Austral processing",
+    "country_iso2": "AU",
+    "operator_id": "AU_nt_road_freight",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "local",
+    "coordinates": {
+      "lat": -12.44,
+      "lon": 130.84
+    }
+  },
+  {
+    "id": "AU_road_darwin-kailis-plant",
+    "tier": "transport",
+    "name": "Road – Darwin wharf to Kailis processing",
+    "country_iso2": "AU",
+    "operator_id": "AU_nt_road_freight",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "local",
+    "coordinates": {
+      "lat": -12.45,
+      "lon": 130.85
+    }
+  },
+  {
+    "id": "AU_road_moreton-bay-brisbane",
+    "tier": "transport",
+    "name": "Road – Moreton Bay to Brisbane fish market",
+    "country_iso2": "AU",
+    "operator_id": "AU_qld_road_freight",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "local",
+    "coordinates": {
+      "lat": -27.35,
+      "lon": 153.25
+    }
+  },
+  {
+    "id": "AU_road_nsw-estuaries-sydney",
+    "tier": "transport",
+    "name": "Road – NSW estuaries to Sydney (cold chain)",
+    "country_iso2": "AU",
+    "operator_id": "AU_nsw_road_freight",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "regional",
+    "coordinates": {
+      "lat": -33.3,
+      "lon": 151.7
+    }
+  },
+  {
+    "id": "AU_road_tas-estuaries-hobart",
+    "tier": "transport",
+    "name": "Road – Tasmania estuaries to Hobart",
+    "country_iso2": "AU",
+    "operator_id": "AU_tas_road_freight",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "regional",
+    "coordinates": {
+      "lat": -42.85,
+      "lon": 147.4
+    }
+  },
+  {
+    "id": "AU_road_coffin-bay-adelaide",
+    "tier": "transport",
+    "name": "Road – Coffin Bay / Ceduna to Adelaide",
+    "country_iso2": "AU",
+    "operator_id": "AU_sa_road_freight",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "regional",
+    "coordinates": {
+      "lat": -34.7,
+      "lon": 136.5
+    }
+  },
+  {
+    "id": "AU_road_lakes-entrance-melbourne",
+    "tier": "transport",
+    "name": "Road – Lakes Entrance to Melbourne",
+    "country_iso2": "AU",
+    "operator_id": "AU_vic_road_freight",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "regional",
+    "coordinates": {
+      "lat": -38.3,
+      "lon": 146.5
+    }
+  },
+  {
+    "id": "AU_road_qld-coast-brisbane",
+    "tier": "transport",
+    "name": "Road – QLD coast to Brisbane",
+    "country_iso2": "AU",
+    "operator_id": "AU_qld_road_freight",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "regional",
+    "coordinates": {
+      "lat": -23,
+      "lon": 150
+    }
+  },
+  {
+    "id": "AU_road_nt-coast-darwin",
+    "tier": "transport",
+    "name": "Road – NT coast to Darwin",
+    "country_iso2": "AU",
+    "operator_id": "AU_nt_road_freight",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "regional",
+    "coordinates": {
+      "lat": -12.5,
+      "lon": 131
+    }
+  },
+  {
+    "id": "AU_road_mandurah-perth",
+    "tier": "transport",
+    "name": "Road – Mandurah / Peel-Harvey to Perth",
+    "country_iso2": "AU",
+    "operator_id": "AU_wa_road_freight",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "local",
+    "coordinates": {
+      "lat": -32.3,
+      "lon": 115.75
+    }
+  },
+  {
+    "id": "AU_road_tas-west-coast-hobart",
+    "tier": "transport",
+    "name": "Road – Tasmania west coast to Hobart",
+    "country_iso2": "AU",
+    "operator_id": "AU_tas_road_freight",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "regional",
+    "coordinates": {
+      "lat": -42.3,
+      "lon": 146
+    }
+  },
+  {
+    "id": "AU_road_sa-coast-adelaide",
+    "tier": "transport",
+    "name": "Road – SA coast to Adelaide",
+    "country_iso2": "AU",
+    "operator_id": "AU_sa_road_freight",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "regional",
+    "coordinates": {
+      "lat": -35,
+      "lon": 137
+    }
+  },
+  {
+    "id": "AU_road_sfm-inner-sydney",
+    "tier": "transport",
+    "name": "Road – SFM Pyrmont to inner Sydney processors",
+    "country_iso2": "AU",
+    "operator_id": "AU_nsw_road_freight",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "local",
+    "coordinates": {
+      "lat": -33.87,
+      "lon": 151.19
+    }
+  },
+  {
+    "id": "AU_road_darwin-coldstore",
+    "tier": "transport",
+    "name": "Road – Darwin cold store logistics",
+    "country_iso2": "AU",
+    "operator_id": "AU_nt_road_freight",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "local",
+    "coordinates": {
+      "lat": -12.43,
+      "lon": 130.84
+    }
+  },
+  {
+    "id": "AU_road_darwin-perth-coldchain",
+    "tier": "transport",
+    "name": "Road / Air – Darwin to Perth cold chain",
+    "country_iso2": "AU",
+    "operator_id": "AU_national_cold_freight",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "regional",
+    "coordinates": {
+      "lat": -20,
+      "lon": 125
+    }
+  },
+  {
+    "id": "AU_road_carnarvon-perth",
+    "tier": "transport",
+    "name": "Road – Carnarvon to Perth cold chain",
+    "country_iso2": "AU",
+    "operator_id": "AU_wa_road_freight",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "regional",
+    "coordinates": {
+      "lat": -28,
+      "lon": 114.5
+    }
+  },
+  {
+    "id": "AU_road_adelaide-airport",
+    "tier": "transport",
+    "name": "Road – Adelaide to Adelaide Airport cold store",
+    "country_iso2": "AU",
+    "operator_id": "AU_sa_road_freight",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "local",
+    "coordinates": {
+      "lat": -34.94,
+      "lon": 138.53
+    }
+  },
+  {
+    "id": "AU_road_darwin-airport",
+    "tier": "transport",
+    "name": "Road – Darwin to Darwin Airport cold store",
+    "country_iso2": "AU",
+    "operator_id": "AU_nt_road_freight",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "local",
+    "coordinates": {
+      "lat": -12.42,
+      "lon": 130.87
+    }
+  },
+  {
+    "id": "AU_road_perth-airport",
+    "tier": "transport",
+    "name": "Road – Perth to Perth Airport cold store",
+    "country_iso2": "AU",
+    "operator_id": "AU_wa_road_freight",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "local",
+    "coordinates": {
+      "lat": -31.94,
+      "lon": 115.97
+    }
+  },
+  {
+    "id": "AU_road_sydney-airport",
+    "tier": "transport",
+    "name": "Road – Sydney to Sydney Airport / Port Botany cold store",
+    "country_iso2": "AU",
+    "operator_id": "AU_nsw_road_freight",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "local",
+    "coordinates": {
+      "lat": -33.93,
+      "lon": 151.17
+    }
+  },
+  {
+    "id": "AU_road_brisbane-local",
+    "tier": "transport",
+    "name": "Road – Brisbane local distribution",
+    "country_iso2": "AU",
+    "operator_id": "AU_qld_road_freight",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "local",
+    "coordinates": {
+      "lat": -27.47,
+      "lon": 153.03
+    },
+    "resources": [
+      "Oxygen"
+    ],
+    "upstream": [],
+    "downstream": []
+  },
+  {
+    "id": "AU_road_nsw-coast-sydney",
+    "tier": "transport",
+    "name": "Road – NSW coast processors to Sydney",
+    "country_iso2": "AU",
+    "operator_id": "AU_nsw_road_freight",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "regional",
+    "coordinates": {
+      "lat": -33.5,
+      "lon": 151.5
+    }
+  },
+  {
+    "id": "AU_road_melbourne-airport",
+    "tier": "transport",
+    "name": "Road – Melbourne to Melbourne Airport cold store",
+    "country_iso2": "AU",
+    "operator_id": "AU_vic_road_freight",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "local",
+    "coordinates": {
+      "lat": -37.67,
+      "lon": 144.84
+    }
+  },
+  {
+    "id": "AU_road_hobart-airport",
+    "tier": "transport",
+    "name": "Road – Hobart to Hobart Airport",
+    "country_iso2": "AU",
+    "operator_id": "AU_tas_road_freight",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "local",
+    "coordinates": {
+      "lat": -42.84,
+      "lon": 147.51
+    }
+  },
+  {
+    "id": "AU_air_hobart-melbourne",
+    "tier": "transport",
+    "name": "Air Freight – Hobart to Melbourne (live abalone)",
+    "country_iso2": "AU",
+    "operator_id": "AU_qantas_freight",
+    "mode": "air_freight",
+    "form": "unit_load",
+    "range": "regional",
+    "coordinates": {
+      "lat": -41,
+      "lon": 146.5
+    }
+  },
+  {
+    "id": "AU_air_brisbane-international",
+    "tier": "transport",
+    "name": "Air Freight – Brisbane Airport international cargo",
+    "country_iso2": "AU",
+    "operator_id": "AU_brisbane_airport_cargo",
+    "mode": "air_freight",
+    "form": "unit_load",
+    "range": "international",
+    "coordinates": {
+      "lat": -27.39,
+      "lon": 153.12
+    }
+  },
+  {
+    "id": "AU_air_darwin-international",
+    "tier": "transport",
+    "name": "Air Freight – Darwin Airport international cargo",
+    "country_iso2": "AU",
+    "operator_id": "AU_darwin_airport_cargo",
+    "mode": "air_freight",
+    "form": "unit_load",
+    "range": "international",
+    "coordinates": {
+      "lat": -12.42,
+      "lon": 130.87
+    }
+  },
+  {
+    "id": "AU_road_national-coldchain",
+    "tier": "transport",
+    "name": "Road – National cold chain distribution network",
+    "country_iso2": "AU",
+    "operator_id": "AU_national_cold_freight",
+    "mode": "road",
+    "form": "containerised",
+    "range": "regional",
+    "coordinates": {
+      "lat": -33.87,
+      "lon": 151.21
+    }
+  },
+  {
+    "id": "AU_road_last-mile-urban",
+    "tier": "transport",
+    "name": "Road – Urban last-mile delivery (refrigerated vans)",
+    "country_iso2": "AU",
+    "operator_id": "AU_national_cold_freight",
+    "mode": "road",
+    "form": "unit_load",
+    "range": "local",
+    "coordinates": {
+      "lat": -33.87,
+      "lon": 151.21
+    }
+  },
+  {
+    "id": "INTL_ocean_melbourne-tokyo",
+    "tier": "transport",
+    "name": "Ocean Freight – Melbourne to Tokyo (reefer container)",
+    "country_iso2": "INTL",
+    "operator_id": "INTL_maersk",
+    "mode": "ocean_freight",
+    "form": "containerised",
+    "range": "international",
+    "coordinates": {
+      "lat": -10,
+      "lon": 145
+    },
+    "resources": [
+      "Pastureland"
+    ],
+    "upstream": [],
+    "downstream": []
+  },
+  {
+    "id": "INTL_road_hongkong-shenzhen",
+    "tier": "transport",
+    "name": "Road – Hong Kong to Shenzhen cross-border",
+    "country_iso2": "INTL",
+    "operator_id": "INTL_cross_border_logistics",
+    "mode": "road",
+    "form": "containerised",
+    "range": "international",
+    "coordinates": {
+      "lat": 22.5,
+      "lon": 114.1
+    }
+  },
+  {
+    "id": "SG_road_local-distribution",
+    "tier": "transport",
+    "name": "Road – Singapore local distribution",
+    "country_iso2": "SG",
+    "operator_id": "SG_local_logistics",
+    "mode": "road",
+    "form": "unit_load",
+    "range": "local",
+    "coordinates": {
+      "lat": 1.3,
+      "lon": 103.85
+    }
+  },
+  {
+    "id": "HK_road_local-last-mile",
+    "tier": "transport",
+    "name": "Road – Hong Kong last-mile delivery",
+    "country_iso2": "HK",
+    "operator_id": "HK_local_logistics",
+    "mode": "road",
+    "form": "unit_load",
+    "range": "local",
+    "coordinates": {
+      "lat": 22.28,
+      "lon": 114.16
+    }
+  },
+  {
+    "id": "CN_road_last-mile-urban",
+    "tier": "transport",
+    "name": "Road – China urban last-mile delivery",
+    "country_iso2": "CN",
+    "operator_id": "CN_sf_cold_chain",
+    "mode": "road",
+    "form": "unit_load",
+    "range": "local",
+    "coordinates": {
+      "lat": 31.23,
+      "lon": 121.47
+    }
+  },
+  {
+    "id": "JP_road_last-mile-urban",
+    "tier": "transport",
+    "name": "Road – Japan urban last-mile delivery",
+    "country_iso2": "JP",
+    "operator_id": "JP_yamato_logistics",
+    "mode": "road",
+    "form": "unit_load",
+    "range": "local",
+    "coordinates": {
+      "lat": 35.66,
+      "lon": 139.78
+    }
+  },
+  {
+    "id": "SG_road_local-last-mile",
+    "tier": "transport",
+    "name": "Road – Singapore last-mile delivery",
+    "country_iso2": "SG",
+    "operator_id": "SG_local_logistics",
+    "mode": "road",
+    "form": "unit_load",
+    "range": "local",
+    "coordinates": {
+      "lat": 1.3,
+      "lon": 103.85
+    }
+  }
+]

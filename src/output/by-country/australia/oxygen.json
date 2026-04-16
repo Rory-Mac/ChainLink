@@ -1,0 +1,2605 @@
+[
+  {
+    "id": "AU_linde_kooragang_island_asu",
+    "name": "Linde Kooragang Island Air Separation Unit",
+    "tier": "separation_capture",
+    "country_iso2": "AU",
+    "canonical_company": "Linde",
+    "coordinates": {
+      "lat": -32.868,
+      "lon": 151.784
+    },
+    "downstream": [
+      {
+        "target_id": "AU_linde_newcastle_purifier",
+        "corridor_id": "AU_pipeline_kooragang-newcastle",
+        "resource": "gaseous oxygen",
+        "quantity": 180000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_linde_kooragang_lox",
+        "corridor_id": "AU_pipeline_kooragang-lox",
+        "resource": "liquid oxygen (LOX)",
+        "quantity": 60000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Oxygen"
+    ]
+  },
+  {
+    "id": "AU_linde_deer_park_asu",
+    "name": "Linde Deer Park Air Separation Unit",
+    "tier": "separation_capture",
+    "country_iso2": "AU",
+    "canonical_company": "Linde",
+    "coordinates": {
+      "lat": -37.77,
+      "lon": 144.774
+    },
+    "downstream": [
+      {
+        "target_id": "AU_linde_deer_park_purifier",
+        "corridor_id": "AU_pipeline_deer-park-industrial",
+        "resource": "gaseous oxygen",
+        "quantity": 120000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_linde_deer_park_lox",
+        "corridor_id": "AU_pipeline_deer-park-lox",
+        "resource": "liquid oxygen (LOX)",
+        "quantity": 45000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Oxygen"
+    ]
+  },
+  {
+    "id": "AU_air_liquide_port_kembla_asu",
+    "name": "Air Liquide Port Kembla Air Separation Unit",
+    "tier": "separation_capture",
+    "country_iso2": "AU",
+    "canonical_company": "Air Liquide",
+    "coordinates": {
+      "lat": -34.474,
+      "lon": 150.9
+    },
+    "downstream": [
+      {
+        "target_id": "AU_air_liquide_port_kembla_purifier",
+        "corridor_id": "AU_pipeline_port-kembla-steelworks",
+        "resource": "gaseous oxygen",
+        "quantity": 250000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_air_liquide_port_kembla_lox",
+        "corridor_id": "AU_pipeline_port-kembla-lox",
+        "resource": "liquid oxygen (LOX)",
+        "quantity": 30000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Oxygen"
+    ]
+  },
+  {
+    "id": "AU_linde_whyalla_asu",
+    "name": "Linde Whyalla Air Separation Unit",
+    "tier": "separation_capture",
+    "country_iso2": "AU",
+    "canonical_company": "Linde",
+    "coordinates": {
+      "lat": -33.028,
+      "lon": 137.524
+    },
+    "downstream": [
+      {
+        "target_id": "AU_linde_whyalla_purifier",
+        "corridor_id": "AU_pipeline_whyalla-steelworks",
+        "resource": "gaseous oxygen",
+        "quantity": 140000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_linde_whyalla_lox",
+        "corridor_id": "AU_pipeline_whyalla-lox",
+        "resource": "liquid oxygen (LOX)",
+        "quantity": 15000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Oxygen"
+    ]
+  },
+  {
+    "id": "AU_soxal_adelaide_asu",
+    "name": "SOL (SOXAL) Adelaide Air Separation Unit",
+    "tier": "separation_capture",
+    "country_iso2": "AU",
+    "canonical_company": "SOL Group",
+    "coordinates": {
+      "lat": -34.835,
+      "lon": 138.596
+    },
+    "downstream": [
+      {
+        "target_id": "AU_soxal_adelaide_purifier",
+        "corridor_id": "AU_pipeline_adelaide-soxal",
+        "resource": "gaseous oxygen",
+        "quantity": 30000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_soxal_adelaide_lox",
+        "corridor_id": "AU_pipeline_adelaide-soxal-lox",
+        "resource": "liquid oxygen (LOX)",
+        "quantity": 20000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Oxygen"
+    ]
+  },
+  {
+    "id": "AU_coregas_yennora_asu",
+    "name": "Coregas Yennora Air Separation Unit",
+    "tier": "separation_capture",
+    "country_iso2": "AU",
+    "canonical_company": "Coregas",
+    "coordinates": {
+      "lat": -33.86,
+      "lon": 150.97
+    },
+    "downstream": [
+      {
+        "target_id": "AU_coregas_yennora_purifier",
+        "corridor_id": "AU_pipeline_yennora-local",
+        "resource": "gaseous oxygen",
+        "quantity": 20000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_coregas_yennora_lox",
+        "corridor_id": "AU_pipeline_yennora-lox",
+        "resource": "liquid oxygen (LOX)",
+        "quantity": 25000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Oxygen"
+    ]
+  },
+  {
+    "id": "AU_linde_newcastle_purifier",
+    "name": "Linde Newcastle Gaseous Oxygen Purification Hub",
+    "tier": "purifier_liquefier",
+    "country_iso2": "AU",
+    "canonical_company": "Linde",
+    "coordinates": {
+      "lat": -32.87,
+      "lon": 151.785
+    },
+    "downstream": [
+      {
+        "target_id": "AU_linde_nsw_distributor",
+        "corridor_id": "AU_pipeline_kooragang-newcastle",
+        "resource": "high-purity gaseous oxygen",
+        "quantity": 170000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_orica_kooragang",
+        "corridor_id": "AU_pipeline_kooragang-newcastle",
+        "resource": "high-purity gaseous oxygen for chemical process",
+        "quantity": 10000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_linde_kooragang_island_asu"
+    ],
+    "resources": [
+      "Oxygen"
+    ]
+  },
+  {
+    "id": "AU_linde_kooragang_lox",
+    "name": "Linde Kooragang LOX Liquefaction & Storage",
+    "tier": "purifier_liquefier",
+    "country_iso2": "AU",
+    "canonical_company": "Linde",
+    "coordinates": {
+      "lat": -32.867,
+      "lon": 151.783
+    },
+    "downstream": [
+      {
+        "target_id": "AU_linde_nsw_distributor",
+        "corridor_id": "AU_road_kooragang-sydney",
+        "resource": "liquid oxygen (LOX)",
+        "quantity": 60000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_linde_kooragang_island_asu"
+    ],
+    "resources": [
+      "Oxygen"
+    ]
+  },
+  {
+    "id": "AU_air_liquide_kwinana_lox",
+    "name": "Air Liquide Kwinana LOX Liquefaction & Storage",
+    "tier": "purifier_liquefier",
+    "country_iso2": "AU",
+    "canonical_company": "Air Liquide",
+    "coordinates": {
+      "lat": -32.233,
+      "lon": 115.769
+    },
+    "downstream": [
+      {
+        "target_id": "AU_air_liquide_wa_distributor",
+        "corridor_id": "AU_road_kwinana-perth",
+        "resource": "liquid oxygen (LOX)",
+        "quantity": 50000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_air_liquide_kwinana_asu"
+    ],
+    "resources": [
+      "Oxygen"
+    ]
+  },
+  {
+    "id": "AU_linde_deer_park_purifier",
+    "name": "Linde Deer Park Gaseous Oxygen Purification Hub",
+    "tier": "purifier_liquefier",
+    "country_iso2": "AU",
+    "canonical_company": "Linde",
+    "coordinates": {
+      "lat": -37.771,
+      "lon": 144.775
+    },
+    "downstream": [
+      {
+        "target_id": "AU_linde_vic_distributor",
+        "corridor_id": "AU_pipeline_deer-park-industrial",
+        "resource": "high-purity gaseous oxygen",
+        "quantity": 120000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_linde_deer_park_asu"
+    ],
+    "resources": [
+      "Oxygen"
+    ]
+  },
+  {
+    "id": "AU_linde_deer_park_lox",
+    "name": "Linde Deer Park LOX Liquefaction & Storage",
+    "tier": "purifier_liquefier",
+    "country_iso2": "AU",
+    "canonical_company": "Linde",
+    "coordinates": {
+      "lat": -37.769,
+      "lon": 144.773
+    },
+    "downstream": [
+      {
+        "target_id": "AU_linde_vic_distributor",
+        "corridor_id": "AU_road_deer-park-melbourne",
+        "resource": "liquid oxygen (LOX)",
+        "quantity": 45000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_linde_deer_park_asu"
+    ],
+    "resources": [
+      "Oxygen"
+    ]
+  },
+  {
+    "id": "AU_air_liquide_port_kembla_purifier",
+    "name": "Air Liquide Port Kembla Gaseous Oxygen Purification Hub",
+    "tier": "purifier_liquefier",
+    "country_iso2": "AU",
+    "canonical_company": "Air Liquide",
+    "coordinates": {
+      "lat": -34.475,
+      "lon": 150.901
+    },
+    "downstream": [
+      {
+        "target_id": "AU_bluescope_port_kembla",
+        "corridor_id": "AU_pipeline_port-kembla-steelworks",
+        "resource": "high-purity gaseous oxygen for steelmaking",
+        "quantity": 240000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_air_liquide_nsw_distributor",
+        "corridor_id": "AU_pipeline_port-kembla-steelworks",
+        "resource": "high-purity gaseous oxygen",
+        "quantity": 10000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_air_liquide_port_kembla_asu"
+    ],
+    "resources": [
+      "Oxygen"
+    ]
+  },
+  {
+    "id": "AU_air_liquide_port_kembla_lox",
+    "name": "Air Liquide Port Kembla LOX Liquefaction & Storage",
+    "tier": "purifier_liquefier",
+    "country_iso2": "AU",
+    "canonical_company": "Air Liquide",
+    "coordinates": {
+      "lat": -34.473,
+      "lon": 150.899
+    },
+    "downstream": [
+      {
+        "target_id": "AU_air_liquide_nsw_distributor",
+        "corridor_id": "AU_road_port-kembla-sydney",
+        "resource": "liquid oxygen (LOX)",
+        "quantity": 30000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_air_liquide_port_kembla_asu"
+    ],
+    "resources": [
+      "Oxygen"
+    ]
+  },
+  {
+    "id": "AU_linde_whyalla_purifier",
+    "name": "Linde Whyalla Gaseous Oxygen Purification Hub",
+    "tier": "purifier_liquefier",
+    "country_iso2": "AU",
+    "canonical_company": "Linde",
+    "coordinates": {
+      "lat": -33.029,
+      "lon": 137.525
+    },
+    "downstream": [
+      {
+        "target_id": "AU_liberty_primary_steel_whyalla",
+        "corridor_id": "AU_pipeline_whyalla-steelworks",
+        "resource": "high-purity gaseous oxygen for steelmaking",
+        "quantity": 140000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_linde_whyalla_asu"
+    ],
+    "resources": [
+      "Oxygen"
+    ]
+  },
+  {
+    "id": "AU_linde_whyalla_lox",
+    "name": "Linde Whyalla LOX Liquefaction & Storage",
+    "tier": "purifier_liquefier",
+    "country_iso2": "AU",
+    "canonical_company": "Linde",
+    "coordinates": {
+      "lat": -33.027,
+      "lon": 137.523
+    },
+    "downstream": [
+      {
+        "target_id": "AU_linde_sa_distributor",
+        "corridor_id": "AU_road_whyalla-adelaide",
+        "resource": "liquid oxygen (LOX)",
+        "quantity": 15000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_linde_whyalla_asu"
+    ],
+    "resources": [
+      "Oxygen"
+    ]
+  },
+  {
+    "id": "AU_soxal_adelaide_purifier",
+    "name": "SOL (SOXAL) Adelaide Gaseous Oxygen Purification",
+    "tier": "purifier_liquefier",
+    "country_iso2": "AU",
+    "canonical_company": "SOL Group",
+    "coordinates": {
+      "lat": -34.836,
+      "lon": 138.597
+    },
+    "downstream": [
+      {
+        "target_id": "AU_soxal_sa_distributor",
+        "corridor_id": "AU_road_adelaide-local",
+        "resource": "high-purity gaseous oxygen",
+        "quantity": 30000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_soxal_adelaide_asu"
+    ],
+    "resources": [
+      "Oxygen"
+    ]
+  },
+  {
+    "id": "AU_soxal_adelaide_lox",
+    "name": "SOL (SOXAL) Adelaide LOX Liquefaction & Storage",
+    "tier": "purifier_liquefier",
+    "country_iso2": "AU",
+    "canonical_company": "SOL Group",
+    "coordinates": {
+      "lat": -34.834,
+      "lon": 138.595
+    },
+    "downstream": [
+      {
+        "target_id": "AU_soxal_sa_distributor",
+        "corridor_id": "AU_road_adelaide-local",
+        "resource": "liquid oxygen (LOX)",
+        "quantity": 20000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_soxal_adelaide_asu"
+    ],
+    "resources": [
+      "Oxygen"
+    ]
+  },
+  {
+    "id": "AU_air_liquide_gladstone_lox",
+    "name": "Air Liquide Gladstone LOX Liquefaction & Storage",
+    "tier": "purifier_liquefier",
+    "country_iso2": "AU",
+    "canonical_company": "Air Liquide",
+    "coordinates": {
+      "lat": -23.846,
+      "lon": 151.267
+    },
+    "downstream": [
+      {
+        "target_id": "AU_air_liquide_qld_distributor",
+        "corridor_id": "AU_road_gladstone-brisbane",
+        "resource": "liquid oxygen (LOX)",
+        "quantity": 20000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_air_liquide_gladstone_asu"
+    ],
+    "resources": [
+      "Oxygen"
+    ]
+  },
+  {
+    "id": "AU_linde_brisbane_lox",
+    "name": "Linde Brisbane (Pinkenba) LOX Liquefaction & Storage",
+    "tier": "purifier_liquefier",
+    "country_iso2": "AU",
+    "canonical_company": "Linde",
+    "coordinates": {
+      "lat": -27.419,
+      "lon": 153.119
+    },
+    "downstream": [
+      {
+        "target_id": "AU_linde_qld_distributor",
+        "corridor_id": "AU_road_brisbane-local",
+        "resource": "liquid oxygen (LOX)",
+        "quantity": 35000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_linde_brisbane_asu"
+    ],
+    "resources": [
+      "Oxygen"
+    ]
+  },
+  {
+    "id": "AU_coregas_yennora_purifier",
+    "name": "Coregas Yennora Gaseous Oxygen Purification",
+    "tier": "purifier_liquefier",
+    "country_iso2": "AU",
+    "canonical_company": "Coregas",
+    "coordinates": {
+      "lat": -33.861,
+      "lon": 150.971
+    },
+    "downstream": [
+      {
+        "target_id": "AU_coregas_nsw_distributor",
+        "corridor_id": "AU_road_yennora-sydney",
+        "resource": "high-purity gaseous oxygen",
+        "quantity": 20000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_coregas_yennora_asu"
+    ],
+    "resources": [
+      "Oxygen"
+    ]
+  },
+  {
+    "id": "AU_coregas_yennora_lox",
+    "name": "Coregas Yennora LOX Liquefaction & Storage",
+    "tier": "purifier_liquefier",
+    "country_iso2": "AU",
+    "canonical_company": "Coregas",
+    "coordinates": {
+      "lat": -33.859,
+      "lon": 150.969
+    },
+    "downstream": [
+      {
+        "target_id": "AU_coregas_nsw_distributor",
+        "corridor_id": "AU_road_yennora-sydney",
+        "resource": "liquid oxygen (LOX)",
+        "quantity": 25000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_coregas_yennora_asu"
+    ],
+    "resources": [
+      "Oxygen"
+    ]
+  },
+  {
+    "id": "AU_air_liquide_melbourne_lox",
+    "name": "Air Liquide Melbourne (Altona) LOX Liquefaction & Storage",
+    "tier": "purifier_liquefier",
+    "country_iso2": "AU",
+    "canonical_company": "Air Liquide",
+    "coordinates": {
+      "lat": -37.865,
+      "lon": 144.829
+    },
+    "downstream": [
+      {
+        "target_id": "AU_air_liquide_vic_distributor",
+        "corridor_id": "AU_road_altona-melbourne",
+        "resource": "liquid oxygen (LOX)",
+        "quantity": 30000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_air_liquide_melbourne_asu"
+    ],
+    "resources": [
+      "Oxygen"
+    ]
+  },
+  {
+    "id": "AU_linde_nsw_distributor",
+    "name": "Linde NSW Distribution Hub (Sydney)",
+    "tier": "distributor",
+    "country_iso2": "AU",
+    "canonical_company": "Linde",
+    "coordinates": {
+      "lat": -33.87,
+      "lon": 151.21
+    },
+    "downstream": [
+      {
+        "target_id": "AU_linde_nsw_hospitals",
+        "corridor_id": "AU_road_sydney-metro",
+        "resource": "medical-grade oxygen (cylinders & LOX)",
+        "quantity": 18000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_linde_nsw_metal_fab",
+        "corridor_id": "AU_road_sydney-metro",
+        "resource": "industrial oxygen (cylinders & bulk LOX)",
+        "quantity": 60000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_linde_nsw_water_treatment",
+        "corridor_id": "AU_road_sydney-metro",
+        "resource": "oxygen for water/wastewater treatment",
+        "quantity": 12000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_orica_kooragang",
+        "corridor_id": "AU_road_kooragang-sydney",
+        "resource": "bulk LOX for chemical manufacturing",
+        "quantity": 15000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_linde_nsw_mining_customers",
+        "corridor_id": "AU_road_nsw-hunter-valley",
+        "resource": "bulk LOX for mining operations",
+        "quantity": 30000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_linde_nsw_food_beverage",
+        "corridor_id": "AU_road_sydney-metro",
+        "resource": "food-grade oxygen",
+        "quantity": 5000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_linde_newcastle_purifier",
+      "AU_linde_kooragang_lox"
+    ],
+    "resources": [
+      "Oxygen"
+    ]
+  },
+  {
+    "id": "AU_linde_vic_distributor",
+    "name": "Linde VIC Distribution Hub (Melbourne)",
+    "tier": "distributor",
+    "country_iso2": "AU",
+    "canonical_company": "Linde",
+    "coordinates": {
+      "lat": -37.815,
+      "lon": 144.96
+    },
+    "downstream": [
+      {
+        "target_id": "AU_linde_vic_hospitals",
+        "corridor_id": "AU_road_melbourne-metro",
+        "resource": "medical-grade oxygen",
+        "quantity": 15000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_linde_vic_metal_fab",
+        "corridor_id": "AU_road_melbourne-metro",
+        "resource": "industrial oxygen",
+        "quantity": 55000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_linde_vic_glass_manufacturing",
+        "corridor_id": "AU_road_melbourne-metro",
+        "resource": "oxygen for glass furnaces",
+        "quantity": 15000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_linde_vic_water_treatment",
+        "corridor_id": "AU_road_melbourne-metro",
+        "resource": "oxygen for water/wastewater treatment",
+        "quantity": 10000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_linde_vic_food_beverage",
+        "corridor_id": "AU_road_melbourne-metro",
+        "resource": "food-grade oxygen",
+        "quantity": 5000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_linde_deer_park_purifier",
+      "AU_linde_deer_park_lox"
+    ],
+    "resources": [
+      "Oxygen"
+    ]
+  },
+  {
+    "id": "AU_linde_sa_distributor",
+    "name": "Linde SA Distribution Hub (Adelaide)",
+    "tier": "distributor",
+    "country_iso2": "AU",
+    "canonical_company": "Linde",
+    "coordinates": {
+      "lat": -34.93,
+      "lon": 138.6
+    },
+    "downstream": [
+      {
+        "target_id": "AU_linde_sa_hospitals",
+        "corridor_id": "AU_road_adelaide-metro",
+        "resource": "medical-grade oxygen",
+        "quantity": 4000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_linde_sa_metal_fab",
+        "corridor_id": "AU_road_adelaide-metro",
+        "resource": "industrial oxygen",
+        "quantity": 8000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_linde_sa_mining_customers",
+        "corridor_id": "AU_road_adelaide-olympic-dam",
+        "resource": "bulk LOX for mining",
+        "quantity": 3000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_linde_whyalla_lox"
+    ],
+    "resources": [
+      "Oxygen"
+    ]
+  },
+  {
+    "id": "AU_soxal_sa_distributor",
+    "name": "SOL (SOXAL) SA Distribution Hub",
+    "tier": "distributor",
+    "country_iso2": "AU",
+    "canonical_company": "SOL Group",
+    "coordinates": {
+      "lat": -34.838,
+      "lon": 138.6
+    },
+    "downstream": [
+      {
+        "target_id": "AU_soxal_sa_hospitals",
+        "corridor_id": "AU_road_adelaide-metro",
+        "resource": "medical-grade oxygen",
+        "quantity": 5000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_soxal_sa_metal_fab",
+        "corridor_id": "AU_road_adelaide-metro",
+        "resource": "industrial oxygen",
+        "quantity": 25000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_soxal_sa_water_treatment",
+        "corridor_id": "AU_road_adelaide-metro",
+        "resource": "oxygen for water treatment",
+        "quantity": 5000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_soxal_sa_food_beverage",
+        "corridor_id": "AU_road_adelaide-metro",
+        "resource": "food-grade oxygen",
+        "quantity": 3000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_soxal_sa_mining",
+        "corridor_id": "AU_road_adelaide-olympic-dam",
+        "resource": "bulk LOX for mining",
+        "quantity": 12000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_soxal_adelaide_purifier",
+      "AU_soxal_adelaide_lox"
+    ],
+    "resources": [
+      "Oxygen"
+    ]
+  },
+  {
+    "id": "AU_air_liquide_qld_distributor",
+    "name": "Air Liquide QLD Distribution Hub (Gladstone/Brisbane)",
+    "tier": "distributor",
+    "country_iso2": "AU",
+    "canonical_company": "Air Liquide",
+    "coordinates": {
+      "lat": -25.5,
+      "lon": 152
+    },
+    "downstream": [
+      {
+        "target_id": "AU_air_liquide_qld_aluminium",
+        "corridor_id": "AU_road_gladstone-industrial",
+        "resource": "oxygen for alumina refining",
+        "quantity": 55000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_air_liquide_qld_hospitals",
+        "corridor_id": "AU_road_gladstone-brisbane",
+        "resource": "medical-grade oxygen",
+        "quantity": 8000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_air_liquide_qld_coal_mining",
+        "corridor_id": "AU_road_gladstone-bowen-basin",
+        "resource": "bulk LOX for coal mine rescue & oxy-cutting",
+        "quantity": 15000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_air_liquide_qld_welding",
+        "corridor_id": "AU_road_gladstone-brisbane",
+        "resource": "industrial oxygen (cylinders)",
+        "quantity": 12000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_air_liquide_qld_water_treatment",
+        "corridor_id": "AU_road_gladstone-brisbane",
+        "resource": "oxygen for water treatment",
+        "quantity": 10000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_air_liquide_gladstone_purifier",
+      "AU_air_liquide_gladstone_lox"
+    ],
+    "resources": [
+      "Oxygen"
+    ]
+  },
+  {
+    "id": "AU_linde_qld_distributor",
+    "name": "Linde QLD Distribution Hub (Brisbane)",
+    "tier": "distributor",
+    "country_iso2": "AU",
+    "canonical_company": "Linde",
+    "coordinates": {
+      "lat": -27.47,
+      "lon": 153.025
+    },
+    "downstream": [
+      {
+        "target_id": "AU_linde_qld_hospitals",
+        "corridor_id": "AU_road_brisbane-local",
+        "resource": "medical-grade oxygen",
+        "quantity": 8000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_linde_qld_metal_fab",
+        "corridor_id": "AU_road_brisbane-local",
+        "resource": "industrial oxygen",
+        "quantity": 35000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_linde_qld_mining_customers",
+        "corridor_id": "AU_road_brisbane-mt-isa",
+        "resource": "bulk LOX for mining",
+        "quantity": 20000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_linde_qld_food_beverage",
+        "corridor_id": "AU_road_brisbane-local",
+        "resource": "food-grade oxygen",
+        "quantity": 4000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_linde_qld_water_treatment",
+        "corridor_id": "AU_road_brisbane-local",
+        "resource": "oxygen for water treatment",
+        "quantity": 8000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_linde_brisbane_purifier",
+      "AU_linde_brisbane_lox"
+    ],
+    "resources": [
+      "Oxygen"
+    ]
+  },
+  {
+    "id": "AU_orica_kooragang",
+    "name": "Orica Kooragang Island Chemical Complex",
+    "tier": "point_of_use",
+    "country_iso2": "AU",
+    "canonical_company": "Orica",
+    "coordinates": {
+      "lat": -32.866,
+      "lon": 151.786
+    },
+    "downstream": [
+      {
+        "target_id": "AU_industrial",
+        "corridor_id": "AU_road_nsw-hunter-valley",
+        "resource": "ammonium nitrate (oxygen consumed in production)",
+        "quantity": 25000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_linde_newcastle_purifier",
+      "AU_linde_nsw_distributor"
+    ],
+    "resources": [
+      "Oxygen"
+    ]
+  },
+  {
+    "id": "AU_bluescope_port_kembla",
+    "name": "BlueScope Steel Port Kembla Steelworks",
+    "tier": "point_of_use",
+    "country_iso2": "AU",
+    "canonical_company": "BlueScope Steel",
+    "coordinates": {
+      "lat": -34.476,
+      "lon": 150.902
+    },
+    "downstream": [
+      {
+        "target_id": "AU_industrial",
+        "corridor_id": "AU_road_port-kembla-sydney",
+        "resource": "steel products (oxygen consumed in BOF/EAF steelmaking)",
+        "quantity": 200000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_infrastructure",
+        "corridor_id": "AU_road_port-kembla-sydney",
+        "resource": "structural steel (oxygen consumed in steelmaking)",
+        "quantity": 50000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_air_liquide_port_kembla_purifier",
+      "AU_air_liquide_nsw_distributor"
+    ],
+    "resources": [
+      "Oxygen"
+    ]
+  },
+  {
+    "id": "AU_linde_nsw_hospitals",
+    "name": "Linde NSW Medical Oxygen Customers (Hospitals)",
+    "tier": "point_of_use",
+    "country_iso2": "AU",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": -33.87,
+      "lon": 151.21
+    },
+    "downstream": [
+      {
+        "target_id": "AU_institutional",
+        "corridor_id": "AU_road_sydney-metro",
+        "resource": "medical oxygen consumed in patient care",
+        "quantity": 18000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_linde_nsw_distributor"
+    ],
+    "resources": [
+      "Oxygen"
+    ]
+  },
+  {
+    "id": "AU_linde_nsw_metal_fab",
+    "name": "Linde NSW Industrial Oxygen Customers (Metal Fabrication & Cutting)",
+    "tier": "point_of_use",
+    "country_iso2": "AU",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": -33.85,
+      "lon": 151.05
+    },
+    "downstream": [
+      {
+        "target_id": "AU_industrial",
+        "corridor_id": "AU_road_sydney-metro",
+        "resource": "oxygen consumed in oxy-fuel cutting/welding",
+        "quantity": 60000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_linde_nsw_distributor"
+    ],
+    "resources": [
+      "Oxygen"
+    ]
+  },
+  {
+    "id": "AU_linde_nsw_water_treatment",
+    "name": "Linde NSW Water Treatment Customers",
+    "tier": "point_of_use",
+    "country_iso2": "AU",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": -33.86,
+      "lon": 151.1
+    },
+    "downstream": [
+      {
+        "target_id": "AU_government",
+        "corridor_id": "AU_road_sydney-metro",
+        "resource": "oxygen consumed in municipal water treatment",
+        "quantity": 12000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_linde_nsw_distributor"
+    ],
+    "resources": [
+      "Oxygen"
+    ]
+  },
+  {
+    "id": "AU_linde_nsw_mining_customers",
+    "name": "Linde NSW Mining Customers (Hunter Valley & Beyond)",
+    "tier": "point_of_use",
+    "country_iso2": "AU",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": -32.5,
+      "lon": 151
+    },
+    "downstream": [
+      {
+        "target_id": "AU_industrial",
+        "corridor_id": "AU_road_nsw-hunter-valley",
+        "resource": "oxygen consumed in gold/copper leach & smelting",
+        "quantity": 30000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_linde_nsw_distributor"
+    ],
+    "resources": [
+      "Oxygen"
+    ]
+  },
+  {
+    "id": "AU_linde_nsw_food_beverage",
+    "name": "Linde NSW Food & Beverage Oxygen Customers",
+    "tier": "point_of_use",
+    "country_iso2": "AU",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": -33.88,
+      "lon": 151.2
+    },
+    "downstream": [
+      {
+        "target_id": "AU_commercial",
+        "corridor_id": "AU_road_sydney-metro",
+        "resource": "food-grade oxygen consumed in MAP packaging / aquaculture",
+        "quantity": 5000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_linde_nsw_distributor"
+    ],
+    "resources": [
+      "Oxygen"
+    ]
+  },
+  {
+    "id": "AU_air_liquide_wa_nickel_smelters",
+    "name": "Air Liquide WA Mining & Smelting Customers (Goldfields-Esperance)",
+    "tier": "point_of_use",
+    "country_iso2": "AU",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": -31,
+      "lon": 121.5
+    },
+    "downstream": [
+      {
+        "target_id": "AU_industrial",
+        "corridor_id": "AU_road_kwinana-goldfields",
+        "resource": "oxygen consumed in nickel/gold smelting & leaching",
+        "quantity": 100000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_air_liquide_wa_distributor"
+    ],
+    "resources": [
+      "Oxygen"
+    ]
+  },
+  {
+    "id": "AU_air_liquide_wa_hospitals",
+    "name": "Air Liquide WA Medical Oxygen Customers (Hospitals)",
+    "tier": "point_of_use",
+    "country_iso2": "AU",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": -31.955,
+      "lon": 115.862
+    },
+    "downstream": [
+      {
+        "target_id": "AU_institutional",
+        "corridor_id": "AU_road_perth-metro",
+        "resource": "medical oxygen consumed in patient care",
+        "quantity": 12000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_air_liquide_wa_distributor"
+    ],
+    "resources": [
+      "Oxygen"
+    ]
+  },
+  {
+    "id": "AU_air_liquide_wa_metal_fab",
+    "name": "Air Liquide WA Metal Fabrication & Cutting Customers",
+    "tier": "point_of_use",
+    "country_iso2": "AU",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": -31.96,
+      "lon": 115.87
+    },
+    "downstream": [
+      {
+        "target_id": "AU_industrial",
+        "corridor_id": "AU_road_perth-metro",
+        "resource": "oxygen consumed in oxy-fuel cutting/welding",
+        "quantity": 50000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_air_liquide_wa_distributor"
+    ],
+    "resources": [
+      "Oxygen"
+    ]
+  },
+  {
+    "id": "AU_air_liquide_wa_refinery",
+    "name": "Air Liquide WA Oil Refinery / Petrochemical Customers (Kwinana)",
+    "tier": "point_of_use",
+    "country_iso2": "AU",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": -32.236,
+      "lon": 115.772
+    },
+    "downstream": [
+      {
+        "target_id": "AU_industrial",
+        "corridor_id": "AU_pipeline_kwinana-industrial",
+        "resource": "oxygen consumed in refinery processes",
+        "quantity": 60000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_air_liquide_wa_distributor"
+    ],
+    "resources": [
+      "Oxygen"
+    ]
+  },
+  {
+    "id": "AU_air_liquide_wa_water_treatment",
+    "name": "Air Liquide WA Water Treatment Customers",
+    "tier": "point_of_use",
+    "country_iso2": "AU",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": -31.97,
+      "lon": 115.88
+    },
+    "downstream": [
+      {
+        "target_id": "AU_government",
+        "corridor_id": "AU_road_perth-metro",
+        "resource": "oxygen consumed in water treatment",
+        "quantity": 8000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_air_liquide_wa_distributor"
+    ],
+    "resources": [
+      "Oxygen"
+    ]
+  },
+  {
+    "id": "AU_air_liquide_wa_lng",
+    "name": "Air Liquide WA LNG & Energy Customers (Pilbara/NW Shelf)",
+    "tier": "point_of_use",
+    "country_iso2": "AU",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": -20.6,
+      "lon": 116.7
+    },
+    "downstream": [
+      {
+        "target_id": "AU_industrial",
+        "corridor_id": "AU_road_kwinana-pilbara",
+        "resource": "oxygen consumed in LNG/energy operations",
+        "quantity": 20000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_air_liquide_wa_distributor"
+    ],
+    "resources": [
+      "Oxygen"
+    ]
+  },
+  {
+    "id": "AU_linde_vic_hospitals",
+    "name": "Linde VIC Medical Oxygen Customers (Hospitals)",
+    "tier": "point_of_use",
+    "country_iso2": "AU",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": -37.815,
+      "lon": 144.96
+    },
+    "downstream": [
+      {
+        "target_id": "AU_institutional",
+        "corridor_id": "AU_road_melbourne-metro",
+        "resource": "medical oxygen consumed in patient care",
+        "quantity": 15000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_linde_vic_distributor"
+    ],
+    "resources": [
+      "Oxygen"
+    ]
+  },
+  {
+    "id": "AU_linde_vic_metal_fab",
+    "name": "Linde VIC Metal Fabrication & Industrial Customers",
+    "tier": "point_of_use",
+    "country_iso2": "AU",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": -37.8,
+      "lon": 144.9
+    },
+    "downstream": [
+      {
+        "target_id": "AU_industrial",
+        "corridor_id": "AU_road_melbourne-metro",
+        "resource": "oxygen consumed in oxy-fuel cutting/welding",
+        "quantity": 55000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_linde_vic_distributor"
+    ],
+    "resources": [
+      "Oxygen"
+    ]
+  },
+  {
+    "id": "AU_linde_vic_glass_manufacturing",
+    "name": "Linde VIC Glass Manufacturing Customers",
+    "tier": "point_of_use",
+    "country_iso2": "AU",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": -37.79,
+      "lon": 144.88
+    },
+    "downstream": [
+      {
+        "target_id": "AU_industrial",
+        "corridor_id": "AU_road_melbourne-metro",
+        "resource": "oxygen consumed in glass furnace oxy-firing",
+        "quantity": 15000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_linde_vic_distributor"
+    ],
+    "resources": [
+      "Oxygen"
+    ]
+  },
+  {
+    "id": "AU_linde_vic_water_treatment",
+    "name": "Linde VIC Water Treatment Customers",
+    "tier": "point_of_use",
+    "country_iso2": "AU",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": -37.83,
+      "lon": 144.97
+    },
+    "downstream": [
+      {
+        "target_id": "AU_government",
+        "corridor_id": "AU_road_melbourne-metro",
+        "resource": "oxygen consumed in water treatment",
+        "quantity": 10000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_linde_vic_distributor"
+    ],
+    "resources": [
+      "Oxygen"
+    ]
+  },
+  {
+    "id": "AU_linde_vic_food_beverage",
+    "name": "Linde VIC Food & Beverage Customers",
+    "tier": "point_of_use",
+    "country_iso2": "AU",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": -37.81,
+      "lon": 144.95
+    },
+    "downstream": [
+      {
+        "target_id": "AU_commercial",
+        "corridor_id": "AU_road_melbourne-metro",
+        "resource": "food-grade oxygen consumed in MAP packaging / aquaculture",
+        "quantity": 5000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_linde_vic_distributor"
+    ],
+    "resources": [
+      "Oxygen"
+    ]
+  },
+  {
+    "id": "AU_air_liquide_nsw_hospitals",
+    "name": "Air Liquide NSW Medical Oxygen Customers (Hospitals)",
+    "tier": "point_of_use",
+    "country_iso2": "AU",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": -33.87,
+      "lon": 151.2
+    },
+    "downstream": [
+      {
+        "target_id": "AU_institutional",
+        "corridor_id": "AU_road_sydney-metro",
+        "resource": "medical oxygen consumed in patient care",
+        "quantity": 10000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_air_liquide_nsw_distributor"
+    ],
+    "resources": [
+      "Oxygen"
+    ]
+  },
+  {
+    "id": "AU_air_liquide_nsw_welding",
+    "name": "Air Liquide NSW Welding & Industrial Customers",
+    "tier": "point_of_use",
+    "country_iso2": "AU",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": -33.86,
+      "lon": 151.08
+    },
+    "downstream": [
+      {
+        "target_id": "AU_industrial",
+        "corridor_id": "AU_road_sydney-metro",
+        "resource": "oxygen consumed in oxy-fuel cutting/welding",
+        "quantity": 20000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_air_liquide_nsw_distributor"
+    ],
+    "resources": [
+      "Oxygen"
+    ]
+  },
+  {
+    "id": "AU_linde_sa_hospitals",
+    "name": "Linde SA Medical Oxygen Customers (Hospitals)",
+    "tier": "point_of_use",
+    "country_iso2": "AU",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": -34.93,
+      "lon": 138.6
+    },
+    "downstream": [
+      {
+        "target_id": "AU_institutional",
+        "corridor_id": "AU_road_adelaide-metro",
+        "resource": "medical oxygen consumed in patient care",
+        "quantity": 4000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_linde_sa_distributor"
+    ],
+    "resources": [
+      "Oxygen"
+    ]
+  },
+  {
+    "id": "AU_linde_sa_metal_fab",
+    "name": "Linde SA Industrial Oxygen Customers",
+    "tier": "point_of_use",
+    "country_iso2": "AU",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": -34.925,
+      "lon": 138.59
+    },
+    "downstream": [
+      {
+        "target_id": "AU_industrial",
+        "corridor_id": "AU_road_adelaide-metro",
+        "resource": "oxygen consumed in oxy-fuel cutting/welding",
+        "quantity": 8000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_linde_sa_distributor"
+    ],
+    "resources": [
+      "Oxygen"
+    ]
+  },
+  {
+    "id": "AU_linde_sa_mining_customers",
+    "name": "Linde SA Mining Customers (Olympic Dam & Beyond)",
+    "tier": "point_of_use",
+    "country_iso2": "AU",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": -30.45,
+      "lon": 136.88
+    },
+    "downstream": [
+      {
+        "target_id": "AU_industrial",
+        "corridor_id": "AU_road_adelaide-olympic-dam",
+        "resource": "oxygen consumed in copper/uranium smelting & leaching",
+        "quantity": 3000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_linde_sa_distributor"
+    ],
+    "resources": [
+      "Oxygen"
+    ]
+  },
+  {
+    "id": "AU_soxal_sa_hospitals",
+    "name": "SOXAL SA Medical Oxygen Customers (Hospitals)",
+    "tier": "point_of_use",
+    "country_iso2": "AU",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": -34.93,
+      "lon": 138.61
+    },
+    "downstream": [
+      {
+        "target_id": "AU_institutional",
+        "corridor_id": "AU_road_adelaide-metro",
+        "resource": "medical oxygen consumed in patient care",
+        "quantity": 5000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_soxal_sa_distributor"
+    ],
+    "resources": [
+      "Oxygen"
+    ]
+  },
+  {
+    "id": "AU_soxal_sa_metal_fab",
+    "name": "SOXAL SA Industrial Oxygen Customers",
+    "tier": "point_of_use",
+    "country_iso2": "AU",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": -34.92,
+      "lon": 138.58
+    },
+    "downstream": [
+      {
+        "target_id": "AU_industrial",
+        "corridor_id": "AU_road_adelaide-metro",
+        "resource": "oxygen consumed in metal fabrication",
+        "quantity": 25000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_soxal_sa_distributor"
+    ],
+    "resources": [
+      "Oxygen"
+    ]
+  },
+  {
+    "id": "AU_soxal_sa_water_treatment",
+    "name": "SOXAL SA Water Treatment Customers",
+    "tier": "point_of_use",
+    "country_iso2": "AU",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": -34.94,
+      "lon": 138.62
+    },
+    "downstream": [
+      {
+        "target_id": "AU_government",
+        "corridor_id": "AU_road_adelaide-metro",
+        "resource": "oxygen consumed in water treatment",
+        "quantity": 5000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_soxal_sa_distributor"
+    ],
+    "resources": [
+      "Oxygen"
+    ]
+  },
+  {
+    "id": "AU_soxal_sa_food_beverage",
+    "name": "SOXAL SA Food & Beverage Customers",
+    "tier": "point_of_use",
+    "country_iso2": "AU",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": -34.935,
+      "lon": 138.615
+    },
+    "downstream": [
+      {
+        "target_id": "AU_commercial",
+        "corridor_id": "AU_road_adelaide-metro",
+        "resource": "food-grade oxygen",
+        "quantity": 3000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_soxal_sa_distributor"
+    ],
+    "resources": [
+      "Oxygen"
+    ]
+  },
+  {
+    "id": "AU_soxal_sa_mining",
+    "name": "SOXAL SA Mining Customers",
+    "tier": "point_of_use",
+    "country_iso2": "AU",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": -31.5,
+      "lon": 137
+    },
+    "downstream": [
+      {
+        "target_id": "AU_industrial",
+        "corridor_id": "AU_road_adelaide-olympic-dam",
+        "resource": "oxygen consumed in mining operations",
+        "quantity": 12000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_soxal_sa_distributor"
+    ],
+    "resources": [
+      "Oxygen"
+    ]
+  },
+  {
+    "id": "AU_air_liquide_qld_aluminium",
+    "name": "Air Liquide QLD Alumina/Aluminium Smelting Customers (Gladstone)",
+    "tier": "point_of_use",
+    "country_iso2": "AU",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": -23.85,
+      "lon": 151.27
+    },
+    "downstream": [
+      {
+        "target_id": "AU_industrial",
+        "corridor_id": "AU_road_gladstone-industrial",
+        "resource": "oxygen consumed in alumina refining",
+        "quantity": 55000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_air_liquide_qld_distributor"
+    ],
+    "resources": [
+      "Oxygen"
+    ]
+  },
+  {
+    "id": "AU_air_liquide_qld_hospitals",
+    "name": "Air Liquide QLD Medical Oxygen Customers (Hospitals)",
+    "tier": "point_of_use",
+    "country_iso2": "AU",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": -27.47,
+      "lon": 153.028
+    },
+    "downstream": [
+      {
+        "target_id": "AU_institutional",
+        "corridor_id": "AU_road_gladstone-brisbane",
+        "resource": "medical oxygen consumed in patient care",
+        "quantity": 8000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_air_liquide_qld_distributor"
+    ],
+    "resources": [
+      "Oxygen"
+    ]
+  },
+  {
+    "id": "AU_air_liquide_qld_coal_mining",
+    "name": "Air Liquide QLD Coal Mining Customers (Bowen Basin)",
+    "tier": "point_of_use",
+    "country_iso2": "AU",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": -22,
+      "lon": 148.2
+    },
+    "downstream": [
+      {
+        "target_id": "AU_industrial",
+        "corridor_id": "AU_road_gladstone-bowen-basin",
+        "resource": "oxygen consumed in mining rescue & oxy-cutting",
+        "quantity": 15000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_air_liquide_qld_distributor"
+    ],
+    "resources": [
+      "Oxygen"
+    ]
+  },
+  {
+    "id": "AU_air_liquide_qld_welding",
+    "name": "Air Liquide QLD Welding & Fabrication Customers",
+    "tier": "point_of_use",
+    "country_iso2": "AU",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": -27.465,
+      "lon": 153.02
+    },
+    "downstream": [
+      {
+        "target_id": "AU_industrial",
+        "corridor_id": "AU_road_gladstone-brisbane",
+        "resource": "oxygen consumed in welding/cutting",
+        "quantity": 12000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_air_liquide_qld_distributor"
+    ],
+    "resources": [
+      "Oxygen"
+    ]
+  },
+  {
+    "id": "AU_air_liquide_qld_water_treatment",
+    "name": "Air Liquide QLD Water Treatment Customers",
+    "tier": "point_of_use",
+    "country_iso2": "AU",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": -27.48,
+      "lon": 153.03
+    },
+    "downstream": [
+      {
+        "target_id": "AU_government",
+        "corridor_id": "AU_road_gladstone-brisbane",
+        "resource": "oxygen consumed in water treatment",
+        "quantity": 10000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_air_liquide_qld_distributor"
+    ],
+    "resources": [
+      "Oxygen"
+    ]
+  },
+  {
+    "id": "AU_linde_qld_hospitals",
+    "name": "Linde QLD Medical Oxygen Customers (Hospitals)",
+    "tier": "point_of_use",
+    "country_iso2": "AU",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": -27.475,
+      "lon": 153.03
+    },
+    "downstream": [
+      {
+        "target_id": "AU_institutional",
+        "corridor_id": "AU_road_brisbane-local",
+        "resource": "medical oxygen consumed in patient care",
+        "quantity": 8000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_linde_qld_distributor"
+    ],
+    "resources": [
+      "Oxygen"
+    ]
+  },
+  {
+    "id": "AU_linde_qld_metal_fab",
+    "name": "Linde QLD Metal Fabrication & Industrial Customers",
+    "tier": "point_of_use",
+    "country_iso2": "AU",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": -27.46,
+      "lon": 153.01
+    },
+    "downstream": [
+      {
+        "target_id": "AU_industrial",
+        "corridor_id": "AU_road_brisbane-local",
+        "resource": "oxygen consumed in oxy-fuel cutting/welding",
+        "quantity": 35000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_linde_qld_distributor"
+    ],
+    "resources": [
+      "Oxygen"
+    ]
+  },
+  {
+    "id": "AU_linde_qld_mining_customers",
+    "name": "Linde QLD Mining Customers (Mt Isa & NW QLD)",
+    "tier": "point_of_use",
+    "country_iso2": "AU",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": -20.73,
+      "lon": 139.49
+    },
+    "downstream": [
+      {
+        "target_id": "AU_industrial",
+        "corridor_id": "AU_road_brisbane-mt-isa",
+        "resource": "oxygen consumed in copper/zinc smelting",
+        "quantity": 20000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_linde_qld_distributor"
+    ],
+    "resources": [
+      "Oxygen"
+    ]
+  },
+  {
+    "id": "AU_linde_qld_food_beverage",
+    "name": "Linde QLD Food & Beverage Customers",
+    "tier": "point_of_use",
+    "country_iso2": "AU",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": -27.47,
+      "lon": 153.025
+    },
+    "downstream": [
+      {
+        "target_id": "AU_commercial",
+        "corridor_id": "AU_road_brisbane-local",
+        "resource": "food-grade oxygen",
+        "quantity": 4000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_linde_qld_distributor"
+    ],
+    "resources": [
+      "Oxygen"
+    ]
+  },
+  {
+    "id": "AU_linde_qld_water_treatment",
+    "name": "Linde QLD Water Treatment Customers",
+    "tier": "point_of_use",
+    "country_iso2": "AU",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": -27.485,
+      "lon": 153.035
+    },
+    "downstream": [
+      {
+        "target_id": "AU_government",
+        "corridor_id": "AU_road_brisbane-local",
+        "resource": "oxygen consumed in water treatment",
+        "quantity": 8000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_linde_qld_distributor"
+    ],
+    "resources": [
+      "Oxygen"
+    ]
+  },
+  {
+    "id": "AU_coregas_nsw_hospitals",
+    "name": "Coregas NSW Medical Oxygen Customers (Hospitals)",
+    "tier": "point_of_use",
+    "country_iso2": "AU",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": -33.868,
+      "lon": 151.2
+    },
+    "downstream": [
+      {
+        "target_id": "AU_institutional",
+        "corridor_id": "AU_road_sydney-metro",
+        "resource": "medical oxygen consumed in patient care",
+        "quantity": 8000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_coregas_nsw_distributor"
+    ],
+    "resources": [
+      "Oxygen"
+    ]
+  },
+  {
+    "id": "AU_coregas_nsw_metal_fab",
+    "name": "Coregas NSW Metal Fabrication Customers",
+    "tier": "point_of_use",
+    "country_iso2": "AU",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": -33.855,
+      "lon": 151.05
+    },
+    "downstream": [
+      {
+        "target_id": "AU_industrial",
+        "corridor_id": "AU_road_sydney-metro",
+        "resource": "oxygen consumed in oxy-fuel cutting/welding",
+        "quantity": 25000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_coregas_nsw_distributor"
+    ],
+    "resources": [
+      "Oxygen"
+    ]
+  },
+  {
+    "id": "AU_coregas_nsw_food",
+    "name": "Coregas NSW Food & Beverage Customers",
+    "tier": "point_of_use",
+    "country_iso2": "AU",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": -33.875,
+      "lon": 151.19
+    },
+    "downstream": [
+      {
+        "target_id": "AU_commercial",
+        "corridor_id": "AU_road_sydney-metro",
+        "resource": "food-grade oxygen",
+        "quantity": 4000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_coregas_nsw_distributor"
+    ],
+    "resources": [
+      "Oxygen"
+    ]
+  },
+  {
+    "id": "AU_coregas_nsw_water_treatment",
+    "name": "Coregas NSW Water Treatment Customers",
+    "tier": "point_of_use",
+    "country_iso2": "AU",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": -33.865,
+      "lon": 151.1
+    },
+    "downstream": [
+      {
+        "target_id": "AU_government",
+        "corridor_id": "AU_road_sydney-metro",
+        "resource": "oxygen consumed in water treatment",
+        "quantity": 8000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_coregas_nsw_distributor"
+    ],
+    "resources": [
+      "Oxygen"
+    ]
+  },
+  {
+    "id": "AU_air_liquide_vic_hospitals",
+    "name": "Air Liquide VIC Medical Oxygen Customers (Hospitals)",
+    "tier": "point_of_use",
+    "country_iso2": "AU",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": -37.82,
+      "lon": 144.955
+    },
+    "downstream": [
+      {
+        "target_id": "AU_institutional",
+        "corridor_id": "AU_road_melbourne-metro",
+        "resource": "medical oxygen consumed in patient care",
+        "quantity": 10000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_air_liquide_vic_distributor"
+    ],
+    "resources": [
+      "Oxygen"
+    ]
+  },
+  {
+    "id": "AU_air_liquide_vic_metal_fab",
+    "name": "Air Liquide VIC Metal Fabrication & Industrial Customers",
+    "tier": "point_of_use",
+    "country_iso2": "AU",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": -37.81,
+      "lon": 144.94
+    },
+    "downstream": [
+      {
+        "target_id": "AU_industrial",
+        "corridor_id": "AU_road_melbourne-metro",
+        "resource": "oxygen consumed in oxy-fuel cutting/welding",
+        "quantity": 35000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_air_liquide_vic_distributor"
+    ],
+    "resources": [
+      "Oxygen"
+    ]
+  },
+  {
+    "id": "AU_air_liquide_vic_glass",
+    "name": "Air Liquide VIC Glass Manufacturing Customers",
+    "tier": "point_of_use",
+    "country_iso2": "AU",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": -37.8,
+      "lon": 144.92
+    },
+    "downstream": [
+      {
+        "target_id": "AU_industrial",
+        "corridor_id": "AU_road_melbourne-metro",
+        "resource": "oxygen consumed in glass furnace oxy-firing",
+        "quantity": 10000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_air_liquide_vic_distributor"
+    ],
+    "resources": [
+      "Oxygen"
+    ]
+  },
+  {
+    "id": "AU_air_liquide_vic_water_treatment",
+    "name": "Air Liquide VIC Water Treatment Customers",
+    "tier": "point_of_use",
+    "country_iso2": "AU",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": -37.835,
+      "lon": 144.975
+    },
+    "downstream": [
+      {
+        "target_id": "AU_government",
+        "corridor_id": "AU_road_melbourne-metro",
+        "resource": "oxygen consumed in water treatment",
+        "quantity": 8000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_air_liquide_vic_distributor"
+    ],
+    "resources": [
+      "Oxygen"
+    ]
+  },
+  {
+    "id": "AU_air_liquide_vic_food",
+    "name": "Air Liquide VIC Food & Beverage Customers",
+    "tier": "point_of_use",
+    "country_iso2": "AU",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": -37.815,
+      "lon": 144.96
+    },
+    "downstream": [
+      {
+        "target_id": "AU_commercial",
+        "corridor_id": "AU_road_melbourne-metro",
+        "resource": "food-grade oxygen",
+        "quantity": 5000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_air_liquide_vic_distributor"
+    ],
+    "resources": [
+      "Oxygen"
+    ]
+  },
+  {
+    "id": "AU_pipeline_kooragang-newcastle",
+    "tier": "transport",
+    "name": "Kooragang Island – Newcastle Industrial Pipeline",
+    "country_iso2": "AU",
+    "operator_id": "AU_linde",
+    "mode": "pipeline",
+    "form": "gas",
+    "range": "local",
+    "coordinates": {
+      "lat": -32.869,
+      "lon": 151.784
+    }
+  },
+  {
+    "id": "AU_pipeline_kooragang-lox",
+    "tier": "transport",
+    "name": "Kooragang Island LOX Internal Transfer",
+    "country_iso2": "AU",
+    "operator_id": "AU_linde",
+    "mode": "pipeline",
+    "form": "bulk_liquid",
+    "range": "local",
+    "coordinates": {
+      "lat": -32.868,
+      "lon": 151.783
+    }
+  },
+  {
+    "id": "AU_pipeline_kwinana-lox",
+    "tier": "transport",
+    "name": "Kwinana LOX Internal Transfer",
+    "country_iso2": "AU",
+    "operator_id": "AU_air_liquide",
+    "mode": "pipeline",
+    "form": "bulk_liquid",
+    "range": "local",
+    "coordinates": {
+      "lat": -32.233,
+      "lon": 115.769
+    }
+  },
+  {
+    "id": "AU_pipeline_deer-park-industrial",
+    "tier": "transport",
+    "name": "Deer Park Industrial Oxygen Pipeline",
+    "country_iso2": "AU",
+    "operator_id": "AU_linde",
+    "mode": "pipeline",
+    "form": "gas",
+    "range": "local",
+    "coordinates": {
+      "lat": -37.77,
+      "lon": 144.774
+    }
+  },
+  {
+    "id": "AU_pipeline_deer-park-lox",
+    "tier": "transport",
+    "name": "Deer Park LOX Internal Transfer",
+    "country_iso2": "AU",
+    "operator_id": "AU_linde",
+    "mode": "pipeline",
+    "form": "bulk_liquid",
+    "range": "local",
+    "coordinates": {
+      "lat": -37.769,
+      "lon": 144.773
+    }
+  },
+  {
+    "id": "AU_pipeline_port-kembla-steelworks",
+    "tier": "transport",
+    "name": "Port Kembla Steelworks Oxygen Pipeline",
+    "country_iso2": "AU",
+    "operator_id": "AU_air_liquide",
+    "mode": "pipeline",
+    "form": "gas",
+    "range": "local",
+    "coordinates": {
+      "lat": -34.475,
+      "lon": 150.901
+    }
+  },
+  {
+    "id": "AU_pipeline_port-kembla-lox",
+    "tier": "transport",
+    "name": "Port Kembla LOX Internal Transfer",
+    "country_iso2": "AU",
+    "operator_id": "AU_air_liquide",
+    "mode": "pipeline",
+    "form": "bulk_liquid",
+    "range": "local",
+    "coordinates": {
+      "lat": -34.473,
+      "lon": 150.899
+    }
+  },
+  {
+    "id": "AU_pipeline_whyalla-steelworks",
+    "tier": "transport",
+    "name": "Whyalla Steelworks Oxygen Pipeline",
+    "country_iso2": "AU",
+    "operator_id": "AU_linde",
+    "mode": "pipeline",
+    "form": "gas",
+    "range": "local",
+    "coordinates": {
+      "lat": -33.029,
+      "lon": 137.525
+    }
+  },
+  {
+    "id": "AU_pipeline_whyalla-lox",
+    "tier": "transport",
+    "name": "Whyalla LOX Internal Transfer",
+    "country_iso2": "AU",
+    "operator_id": "AU_linde",
+    "mode": "pipeline",
+    "form": "bulk_liquid",
+    "range": "local",
+    "coordinates": {
+      "lat": -33.027,
+      "lon": 137.523
+    }
+  },
+  {
+    "id": "AU_pipeline_adelaide-soxal",
+    "tier": "transport",
+    "name": "SOXAL Adelaide Gaseous Oxygen Transfer",
+    "country_iso2": "AU",
+    "operator_id": "AU_soxal",
+    "mode": "pipeline",
+    "form": "gas",
+    "range": "local",
+    "coordinates": {
+      "lat": -34.836,
+      "lon": 138.597
+    }
+  },
+  {
+    "id": "AU_pipeline_adelaide-soxal-lox",
+    "tier": "transport",
+    "name": "SOXAL Adelaide LOX Transfer",
+    "country_iso2": "AU",
+    "operator_id": "AU_soxal",
+    "mode": "pipeline",
+    "form": "bulk_liquid",
+    "range": "local",
+    "coordinates": {
+      "lat": -34.834,
+      "lon": 138.595
+    }
+  },
+  {
+    "id": "AU_pipeline_gladstone-industrial",
+    "tier": "transport",
+    "name": "Gladstone Industrial Oxygen Pipeline",
+    "country_iso2": "AU",
+    "operator_id": "AU_air_liquide",
+    "mode": "pipeline",
+    "form": "gas",
+    "range": "local",
+    "coordinates": {
+      "lat": -23.848,
+      "lon": 151.269
+    }
+  },
+  {
+    "id": "AU_pipeline_gladstone-lox",
+    "tier": "transport",
+    "name": "Gladstone LOX Internal Transfer",
+    "country_iso2": "AU",
+    "operator_id": "AU_air_liquide",
+    "mode": "pipeline",
+    "form": "bulk_liquid",
+    "range": "local",
+    "coordinates": {
+      "lat": -23.846,
+      "lon": 151.267
+    }
+  },
+  {
+    "id": "AU_pipeline_brisbane-pinkenba",
+    "tier": "transport",
+    "name": "Brisbane Pinkenba Gaseous Oxygen Transfer",
+    "country_iso2": "AU",
+    "operator_id": "AU_linde",
+    "mode": "pipeline",
+    "form": "gas",
+    "range": "local",
+    "coordinates": {
+      "lat": -27.421,
+      "lon": 153.121
+    }
+  },
+  {
+    "id": "AU_pipeline_brisbane-lox",
+    "tier": "transport",
+    "name": "Brisbane Pinkenba LOX Transfer",
+    "country_iso2": "AU",
+    "operator_id": "AU_linde",
+    "mode": "pipeline",
+    "form": "bulk_liquid",
+    "range": "local",
+    "coordinates": {
+      "lat": -27.419,
+      "lon": 153.119
+    }
+  },
+  {
+    "id": "AU_pipeline_yennora-local",
+    "tier": "transport",
+    "name": "Coregas Yennora Gaseous Oxygen Transfer",
+    "country_iso2": "AU",
+    "operator_id": "AU_coregas",
+    "mode": "pipeline",
+    "form": "gas",
+    "range": "local",
+    "coordinates": {
+      "lat": -33.861,
+      "lon": 150.971
+    }
+  },
+  {
+    "id": "AU_pipeline_yennora-lox",
+    "tier": "transport",
+    "name": "Coregas Yennora LOX Transfer",
+    "country_iso2": "AU",
+    "operator_id": "AU_coregas",
+    "mode": "pipeline",
+    "form": "bulk_liquid",
+    "range": "local",
+    "coordinates": {
+      "lat": -33.859,
+      "lon": 150.969
+    }
+  },
+  {
+    "id": "AU_pipeline_altona-lox",
+    "tier": "transport",
+    "name": "Air Liquide Altona LOX Transfer",
+    "country_iso2": "AU",
+    "operator_id": "AU_air_liquide",
+    "mode": "pipeline",
+    "form": "bulk_liquid",
+    "range": "local",
+    "coordinates": {
+      "lat": -37.865,
+      "lon": 144.829
+    }
+  },
+  {
+    "id": "AU_road_kooragang-sydney",
+    "tier": "transport",
+    "name": "LOX Tanker Route Kooragang Island → Sydney Metro",
+    "country_iso2": "AU",
+    "operator_id": "AU_linde",
+    "mode": "road",
+    "form": "bulk_liquid",
+    "range": "regional",
+    "coordinates": {
+      "lat": -33.4,
+      "lon": 151.5
+    }
+  },
+  {
+    "id": "AU_road_port-kembla-sydney",
+    "tier": "transport",
+    "name": "LOX Tanker Route Port Kembla → Sydney / Illawarra",
+    "country_iso2": "AU",
+    "operator_id": "AU_air_liquide",
+    "mode": "road",
+    "form": "bulk_liquid",
+    "range": "regional",
+    "coordinates": {
+      "lat": -34.2,
+      "lon": 150.95
+    }
+  },
+  {
+    "id": "AU_road_whyalla-adelaide",
+    "tier": "transport",
+    "name": "LOX Tanker Route Whyalla → Adelaide",
+    "country_iso2": "AU",
+    "operator_id": "AU_linde",
+    "mode": "road",
+    "form": "bulk_liquid",
+    "range": "regional",
+    "coordinates": {
+      "lat": -33.9,
+      "lon": 138
+    }
+  },
+  {
+    "id": "AU_road_yennora-sydney",
+    "tier": "transport",
+    "name": "Coregas Yennora → Sydney Metro Road Distribution",
+    "country_iso2": "AU",
+    "operator_id": "AU_coregas",
+    "mode": "road",
+    "form": "bulk_liquid",
+    "range": "local",
+    "coordinates": {
+      "lat": -33.865,
+      "lon": 151
+    }
+  },
+  {
+    "id": "AU_road_adelaide-metro",
+    "tier": "transport",
+    "name": "Adelaide Metropolitan Cylinder & LOX Delivery Network",
+    "country_iso2": "AU",
+    "operator_id": "AU_soxal",
+    "mode": "road",
+    "form": "containerised",
+    "range": "local",
+    "coordinates": {
+      "lat": -34.93,
+      "lon": 138.6
+    }
+  },
+  {
+    "id": "AU_road_kwinana-goldfields",
+    "tier": "transport",
+    "name": "LOX Tanker Route Kwinana → Goldfields-Esperance",
+    "country_iso2": "AU",
+    "operator_id": "AU_air_liquide",
+    "mode": "road",
+    "form": "bulk_liquid",
+    "range": "regional",
+    "coordinates": {
+      "lat": -31.5,
+      "lon": 119
+    }
+  },
+  {
+    "id": "AU_road_nsw-hunter-valley",
+    "tier": "transport",
+    "name": "LOX Tanker Route Newcastle → Hunter Valley Mines",
+    "country_iso2": "AU",
+    "operator_id": "AU_linde",
+    "mode": "road",
+    "form": "bulk_liquid",
+    "range": "regional",
+    "coordinates": {
+      "lat": -32.6,
+      "lon": 151.2
+    }
+  },
+  {
+    "id": "AU_road_adelaide-olympic-dam",
+    "tier": "transport",
+    "name": "LOX Tanker Route Adelaide → Olympic Dam / SA Mines",
+    "country_iso2": "AU",
+    "operator_id": "AU_linde",
+    "mode": "road",
+    "form": "bulk_liquid",
+    "range": "regional",
+    "coordinates": {
+      "lat": -31.5,
+      "lon": 137
+    }
+  },
+  {
+    "id": "AU_road_gladstone-industrial",
+    "tier": "transport",
+    "name": "Gladstone Industrial Area Oxygen Delivery",
+    "country_iso2": "AU",
+    "operator_id": "AU_air_liquide",
+    "mode": "road",
+    "form": "bulk_liquid",
+    "range": "local",
+    "coordinates": {
+      "lat": -23.85,
+      "lon": 151.27
+    }
+  },
+  {
+    "id": "AU_road_gladstone-bowen-basin",
+    "tier": "transport",
+    "name": "LOX Tanker Route Gladstone → Bowen Basin Coal Mines",
+    "country_iso2": "AU",
+    "operator_id": "AU_air_liquide",
+    "mode": "road",
+    "form": "bulk_liquid",
+    "range": "regional",
+    "coordinates": {
+      "lat": -23,
+      "lon": 149.5
+    }
+  },
+  {
+    "id": "AU_road_brisbane-mt-isa",
+    "tier": "transport",
+    "name": "LOX Tanker Route Brisbane → Mt Isa / NW QLD Mines",
+    "country_iso2": "AU",
+    "operator_id": "AU_linde",
+    "mode": "road",
+    "form": "bulk_liquid",
+    "range": "regional",
+    "coordinates": {
+      "lat": -23,
+      "lon": 146
+    }
+  },
+  {
+    "id": "AU_road_kwinana-pilbara",
+    "tier": "transport",
+    "name": "LOX Tanker Route Kwinana → Pilbara / NW Shelf",
+    "country_iso2": "AU",
+    "operator_id": "AU_air_liquide",
+    "mode": "road",
+    "form": "bulk_liquid",
+    "range": "regional",
+    "coordinates": {
+      "lat": -24,
+      "lon": 116
+    }
+  },
+  {
+    "id": "AU_rail_whyalla-adelaide",
+    "tier": "transport",
+    "name": "Rail Freight Whyalla → Adelaide (steel products)",
+    "country_iso2": "AU",
+    "operator_id": "AU_aurizon",
+    "mode": "rail",
+    "form": "unit_load",
+    "range": "regional",
+    "coordinates": {
+      "lat": -33.5,
+      "lon": 138.1
+    }
+  }
+]

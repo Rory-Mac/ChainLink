@@ -1,0 +1,1838 @@
+[
+  {
+    "id": "AU_boral_deer_park_quarry",
+    "name": "Boral Deer Park Clay Quarry",
+    "tier": "extraction",
+    "country_iso2": "AU",
+    "canonical_company": "Boral",
+    "coordinates": {
+      "lat": -37.77,
+      "lon": 144.77
+    },
+    "downstream": [
+      {
+        "target_id": "AU_boral_brickworks_deer_park",
+        "corridor_id": "AU_road_deer-park-local",
+        "resource": "raw clay",
+        "quantity": 250000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Clay"
+    ]
+  },
+  {
+    "id": "AU_brickworks_horsley_park_quarry",
+    "name": "Brickworks Horsley Park Clay Quarry",
+    "tier": "extraction",
+    "country_iso2": "AU",
+    "canonical_company": "Brickworks Limited",
+    "coordinates": {
+      "lat": -33.84,
+      "lon": 150.85
+    },
+    "downstream": [
+      {
+        "target_id": "AU_austral_bricks_horsley_park",
+        "corridor_id": "AU_road_horsley-park-local",
+        "resource": "raw clay",
+        "quantity": 300000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Clay"
+    ]
+  },
+  {
+    "id": "AU_pgh_bricks_oxley_quarry",
+    "name": "PGH Bricks Oxley Vale Clay Quarry",
+    "tier": "extraction",
+    "country_iso2": "AU",
+    "canonical_company": "CSR Limited",
+    "coordinates": {
+      "lat": -31.06,
+      "lon": 150.93
+    },
+    "downstream": [
+      {
+        "target_id": "AU_pgh_bricks_ceramic_processor",
+        "corridor_id": "AU_road_oxley-vale-local",
+        "resource": "raw clay",
+        "quantity": 120000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Clay"
+    ]
+  },
+  {
+    "id": "AU_midland_brick_middle_swan_quarry",
+    "name": "Midland Brick Middle Swan Clay Quarry",
+    "tier": "extraction",
+    "country_iso2": "AU",
+    "canonical_company": "Brickworks Limited",
+    "coordinates": {
+      "lat": -31.88,
+      "lon": 116.02
+    },
+    "downstream": [
+      {
+        "target_id": "AU_midland_brick_processor",
+        "corridor_id": "AU_road_middle-swan-local",
+        "resource": "raw clay",
+        "quantity": 200000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Clay"
+    ]
+  },
+  {
+    "id": "AU_austral_bricks_badgerys_creek_quarry",
+    "name": "Austral Bricks Badgerys Creek Clay Quarry",
+    "tier": "extraction",
+    "country_iso2": "AU",
+    "canonical_company": "Brickworks Limited",
+    "coordinates": {
+      "lat": -33.88,
+      "lon": 150.74
+    },
+    "downstream": [
+      {
+        "target_id": "AU_austral_bricks_horsley_park",
+        "corridor_id": "AU_road_badgerys-creek-horsley-park",
+        "resource": "raw clay",
+        "quantity": 200000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Clay"
+    ]
+  },
+  {
+    "id": "AU_boral_scoresby_quarry",
+    "name": "Boral Scoresby Clay Quarry",
+    "tier": "extraction",
+    "country_iso2": "AU",
+    "canonical_company": "Boral",
+    "coordinates": {
+      "lat": -37.87,
+      "lon": 145.23
+    },
+    "downstream": [
+      {
+        "target_id": "AU_boral_brickworks_deer_park",
+        "corridor_id": "AU_road_scoresby-deer-park",
+        "resource": "raw clay",
+        "quantity": 150000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Clay"
+    ]
+  },
+  {
+    "id": "AU_dnl_unimin_mungalup_quarry",
+    "name": "Doral / Unimin Mungalup Kaolin Quarry",
+    "tier": "extraction",
+    "country_iso2": "AU",
+    "canonical_company": "Doral",
+    "coordinates": {
+      "lat": -33.35,
+      "lon": 115.67
+    },
+    "downstream": [
+      {
+        "target_id": "AU_doral_kaolin_processor",
+        "corridor_id": "AU_road_mungalup-bunbury",
+        "resource": "raw kaolin clay",
+        "quantity": 80000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Clay"
+    ]
+  },
+  {
+    "id": "AU_sibelco_pittong_quarry",
+    "name": "Sibelco Pittong Kaolin Quarry",
+    "tier": "extraction",
+    "country_iso2": "AU",
+    "canonical_company": "Sibelco",
+    "coordinates": {
+      "lat": -37.58,
+      "lon": 143.46
+    },
+    "downstream": [
+      {
+        "target_id": "AU_sibelco_kaolin_processor",
+        "corridor_id": "AU_road_pittong-local",
+        "resource": "raw kaolin clay",
+        "quantity": 60000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Clay"
+    ]
+  },
+  {
+    "id": "AU_boral_riverview_quarry",
+    "name": "Boral Riverview Clay Quarry (QLD)",
+    "tier": "extraction",
+    "country_iso2": "AU",
+    "canonical_company": "Boral",
+    "coordinates": {
+      "lat": -27.52,
+      "lon": 152.95
+    },
+    "downstream": [
+      {
+        "target_id": "AU_boral_qld_processor",
+        "corridor_id": "AU_road_riverview-local",
+        "resource": "raw clay",
+        "quantity": 180000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Clay"
+    ]
+  },
+  {
+    "id": "AU_austral_bricks_bowral_quarry",
+    "name": "Austral Bricks Bowral Clay Quarry",
+    "tier": "extraction",
+    "country_iso2": "AU",
+    "canonical_company": "Brickworks Limited",
+    "coordinates": {
+      "lat": -34.48,
+      "lon": 150.42
+    },
+    "downstream": [
+      {
+        "target_id": "AU_austral_bricks_bowral_processor",
+        "corridor_id": "AU_road_bowral-local",
+        "resource": "raw clay",
+        "quantity": 100000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Clay"
+    ]
+  },
+  {
+    "id": "AU_brickworks_craigieburn_quarry",
+    "name": "Austral Bricks Craigieburn Clay Quarry",
+    "tier": "extraction",
+    "country_iso2": "AU",
+    "canonical_company": "Brickworks Limited",
+    "coordinates": {
+      "lat": -37.6,
+      "lon": 144.94
+    },
+    "downstream": [
+      {
+        "target_id": "AU_austral_bricks_craigieburn_processor",
+        "corridor_id": "AU_road_craigieburn-local",
+        "resource": "raw clay",
+        "quantity": 180000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Clay"
+    ]
+  },
+  {
+    "id": "AU_sa_clay_dry_creek_quarry",
+    "name": "Brickworks Dry Creek Clay Quarry (SA)",
+    "tier": "extraction",
+    "country_iso2": "AU",
+    "canonical_company": "Brickworks Limited",
+    "coordinates": {
+      "lat": -34.79,
+      "lon": 138.57
+    },
+    "downstream": [
+      {
+        "target_id": "AU_austral_bricks_sa_processor",
+        "corridor_id": "AU_road_dry-creek-local",
+        "resource": "raw clay",
+        "quantity": 100000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Clay"
+    ]
+  },
+  {
+    "id": "AU_boral_qld_processor",
+    "name": "Boral Bricks & Roofing QLD Processing Plant",
+    "tier": "processor",
+    "country_iso2": "AU",
+    "canonical_company": "Boral",
+    "coordinates": {
+      "lat": -27.53,
+      "lon": 152.96
+    },
+    "downstream": [
+      {
+        "target_id": "AU_boral_bricks_qld",
+        "corridor_id": "AU_road_boral-qld-internal",
+        "resource": "processed clay body",
+        "quantity": 160000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_boral_riverview_quarry"
+    ],
+    "resources": [
+      "Clay"
+    ]
+  },
+  {
+    "id": "AU_boral_brickworks_deer_park",
+    "name": "Boral Bricks Deer Park Processing Plant",
+    "tier": "processor",
+    "country_iso2": "AU",
+    "canonical_company": "Boral",
+    "coordinates": {
+      "lat": -37.77,
+      "lon": 144.78
+    },
+    "downstream": [
+      {
+        "target_id": "AU_boral_bricks_vic",
+        "corridor_id": "AU_road_boral-vic-internal",
+        "resource": "processed clay body",
+        "quantity": 360000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_boral_deer_park_quarry",
+      "AU_boral_scoresby_quarry"
+    ],
+    "resources": [
+      "Clay"
+    ]
+  },
+  {
+    "id": "AU_austral_bricks_horsley_park",
+    "name": "Austral Bricks Horsley Park Processing Plant",
+    "tier": "processor",
+    "country_iso2": "AU",
+    "canonical_company": "Brickworks Limited",
+    "coordinates": {
+      "lat": -33.84,
+      "lon": 150.86
+    },
+    "downstream": [
+      {
+        "target_id": "AU_austral_bricks_nsw",
+        "corridor_id": "AU_road_austral-nsw-internal",
+        "resource": "processed clay body",
+        "quantity": 450000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_brickworks_horsley_park_quarry",
+      "AU_austral_bricks_badgerys_creek_quarry"
+    ],
+    "resources": [
+      "Clay"
+    ]
+  },
+  {
+    "id": "AU_pgh_bricks_ceramic_processor",
+    "name": "PGH Bricks & Pavers Ceramic Processing Plant",
+    "tier": "processor",
+    "country_iso2": "AU",
+    "canonical_company": "CSR Limited",
+    "coordinates": {
+      "lat": -33.87,
+      "lon": 151.02
+    },
+    "downstream": [
+      {
+        "target_id": "AU_pgh_bricks_nsw",
+        "corridor_id": "AU_road_pgh-nsw-internal",
+        "resource": "processed clay body",
+        "quantity": 110000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_pgh_bricks_oxley_quarry"
+    ],
+    "resources": [
+      "Clay"
+    ]
+  },
+  {
+    "id": "AU_midland_brick_processor",
+    "name": "Midland Brick Processing Plant (Middle Swan)",
+    "tier": "processor",
+    "country_iso2": "AU",
+    "canonical_company": "Brickworks Limited",
+    "coordinates": {
+      "lat": -31.88,
+      "lon": 116.03
+    },
+    "downstream": [
+      {
+        "target_id": "AU_midland_brick_wa",
+        "corridor_id": "AU_road_midland-wa-internal",
+        "resource": "processed clay body",
+        "quantity": 180000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_midland_brick_middle_swan_quarry"
+    ],
+    "resources": [
+      "Clay"
+    ]
+  },
+  {
+    "id": "AU_doral_kaolin_processor",
+    "name": "Doral Kaolin Processing Facility (Bunbury)",
+    "tier": "processor",
+    "country_iso2": "AU",
+    "canonical_company": "Doral",
+    "coordinates": {
+      "lat": -33.33,
+      "lon": 115.65
+    },
+    "downstream": [
+      {
+        "target_id": "AU_ceramics_manufacturers_wa",
+        "corridor_id": "AU_road_bunbury-perth",
+        "resource": "refined kaolin",
+        "quantity": 30000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_paper_coatings_manufacturers",
+        "corridor_id": "AU_road_bunbury-perth",
+        "resource": "refined kaolin for paper/coatings",
+        "quantity": 20000,
+        "metric": "t"
+      },
+      {
+        "target_id": "INTL_kaolin_export_customers",
+        "corridor_id": "INTL_ocean_bunbury-asia",
+        "resource": "refined kaolin",
+        "quantity": 25000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_dnl_unimin_mungalup_quarry"
+    ],
+    "resources": [
+      "Clay"
+    ]
+  },
+  {
+    "id": "AU_sibelco_kaolin_processor",
+    "name": "Sibelco Pittong Kaolin Processing Plant",
+    "tier": "processor",
+    "country_iso2": "AU",
+    "canonical_company": "Sibelco",
+    "coordinates": {
+      "lat": -37.58,
+      "lon": 143.47
+    },
+    "downstream": [
+      {
+        "target_id": "AU_ceramics_manufacturers_vic",
+        "corridor_id": "AU_road_pittong-melbourne",
+        "resource": "refined kaolin",
+        "quantity": 25000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_paper_coatings_manufacturers",
+        "corridor_id": "AU_road_pittong-melbourne",
+        "resource": "refined kaolin for paper/coatings",
+        "quantity": 15000,
+        "metric": "t"
+      },
+      {
+        "target_id": "INTL_kaolin_export_customers",
+        "corridor_id": "INTL_ocean_melbourne-asia",
+        "resource": "refined kaolin",
+        "quantity": 15000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_sibelco_pittong_quarry"
+    ],
+    "resources": [
+      "Clay"
+    ]
+  },
+  {
+    "id": "AU_austral_bricks_bowral_processor",
+    "name": "Austral Bricks Bowral Processing Plant",
+    "tier": "processor",
+    "country_iso2": "AU",
+    "canonical_company": "Brickworks Limited",
+    "coordinates": {
+      "lat": -34.48,
+      "lon": 150.43
+    },
+    "downstream": [
+      {
+        "target_id": "AU_austral_bricks_nsw",
+        "corridor_id": "AU_road_bowral-sydney",
+        "resource": "processed clay body",
+        "quantity": 90000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_austral_bricks_bowral_quarry"
+    ],
+    "resources": [
+      "Clay"
+    ]
+  },
+  {
+    "id": "AU_austral_bricks_craigieburn_processor",
+    "name": "Austral Bricks Craigieburn Processing Plant",
+    "tier": "processor",
+    "country_iso2": "AU",
+    "canonical_company": "Brickworks Limited",
+    "coordinates": {
+      "lat": -37.6,
+      "lon": 144.95
+    },
+    "downstream": [
+      {
+        "target_id": "AU_austral_bricks_vic",
+        "corridor_id": "AU_road_craigieburn-melbourne",
+        "resource": "processed clay body",
+        "quantity": 160000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_brickworks_craigieburn_quarry"
+    ],
+    "resources": [
+      "Clay"
+    ]
+  },
+  {
+    "id": "AU_austral_bricks_sa_processor",
+    "name": "Austral Bricks SA Processing Plant (Dry Creek)",
+    "tier": "processor",
+    "country_iso2": "AU",
+    "canonical_company": "Brickworks Limited",
+    "coordinates": {
+      "lat": -34.79,
+      "lon": 138.58
+    },
+    "downstream": [
+      {
+        "target_id": "AU_austral_bricks_sa",
+        "corridor_id": "AU_road_dry-creek-adelaide",
+        "resource": "processed clay body",
+        "quantity": 90000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_sa_clay_dry_creek_quarry"
+    ],
+    "resources": [
+      "Clay"
+    ]
+  },
+  {
+    "id": "AU_boral_bricks_vic",
+    "name": "Boral Bricks Victoria — Brick & Roof Tile Manufacturing",
+    "tier": "building_products",
+    "country_iso2": "AU",
+    "canonical_company": "Boral",
+    "coordinates": {
+      "lat": -37.78,
+      "lon": 144.78
+    },
+    "downstream": [
+      {
+        "target_id": "AU_simonds_homes",
+        "corridor_id": "AU_road_boral-vic-distribution",
+        "resource": "clay bricks and roof tiles",
+        "quantity": 120000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_metricon",
+        "corridor_id": "AU_road_boral-vic-distribution",
+        "resource": "clay bricks and roof tiles",
+        "quantity": 100000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_independent_builders_vic",
+        "corridor_id": "AU_road_boral-vic-distribution",
+        "resource": "clay bricks and pavers",
+        "quantity": 120000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_boral_brickworks_deer_park"
+    ],
+    "resources": [
+      "Clay"
+    ]
+  },
+  {
+    "id": "AU_boral_bricks_qld",
+    "name": "Boral Bricks Queensland — Brick & Roof Tile Manufacturing",
+    "tier": "building_products",
+    "country_iso2": "AU",
+    "canonical_company": "Boral",
+    "coordinates": {
+      "lat": -27.53,
+      "lon": 152.97
+    },
+    "downstream": [
+      {
+        "target_id": "AU_hutchinson_builders",
+        "corridor_id": "AU_road_boral-qld-distribution",
+        "resource": "clay bricks and roof tiles",
+        "quantity": 60000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_independent_builders_qld",
+        "corridor_id": "AU_road_boral-qld-distribution",
+        "resource": "clay bricks and pavers",
+        "quantity": 85000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_boral_qld_processor"
+    ],
+    "resources": [
+      "Clay"
+    ]
+  },
+  {
+    "id": "AU_austral_bricks_nsw",
+    "name": "Austral Bricks NSW — Brick & Paver Manufacturing",
+    "tier": "building_products",
+    "country_iso2": "AU",
+    "canonical_company": "Brickworks Limited",
+    "coordinates": {
+      "lat": -33.84,
+      "lon": 150.87
+    },
+    "downstream": [
+      {
+        "target_id": "AU_lendlease",
+        "corridor_id": "AU_road_austral-nsw-distribution",
+        "resource": "clay bricks and pavers",
+        "quantity": 100000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_multiplex",
+        "corridor_id": "AU_road_austral-nsw-distribution",
+        "resource": "clay bricks and facade elements",
+        "quantity": 80000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_independent_builders_nsw",
+        "corridor_id": "AU_road_austral-nsw-distribution",
+        "resource": "clay bricks and pavers",
+        "quantity": 330000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_austral_bricks_horsley_park",
+      "AU_austral_bricks_bowral_processor"
+    ],
+    "resources": [
+      "Clay"
+    ]
+  },
+  {
+    "id": "AU_pgh_bricks_nsw",
+    "name": "PGH Bricks & Pavers NSW — Manufacturing",
+    "tier": "building_products",
+    "country_iso2": "AU",
+    "canonical_company": "CSR Limited",
+    "coordinates": {
+      "lat": -33.87,
+      "lon": 151.03
+    },
+    "downstream": [
+      {
+        "target_id": "AU_lendlease",
+        "corridor_id": "AU_road_pgh-nsw-distribution",
+        "resource": "clay bricks and pavers",
+        "quantity": 50000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_independent_builders_nsw",
+        "corridor_id": "AU_road_pgh-nsw-distribution",
+        "resource": "clay bricks and pavers",
+        "quantity": 55000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_pgh_bricks_ceramic_processor"
+    ],
+    "resources": [
+      "Clay"
+    ]
+  },
+  {
+    "id": "AU_midland_brick_wa",
+    "name": "Midland Brick WA — Brick & Paver Manufacturing",
+    "tier": "building_products",
+    "country_iso2": "AU",
+    "canonical_company": "Brickworks Limited",
+    "coordinates": {
+      "lat": -31.88,
+      "lon": 116.04
+    },
+    "downstream": [
+      {
+        "target_id": "AU_bgc_construction",
+        "corridor_id": "AU_road_midland-wa-distribution",
+        "resource": "clay bricks and pavers",
+        "quantity": 70000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_independent_builders_wa",
+        "corridor_id": "AU_road_midland-wa-distribution",
+        "resource": "clay bricks and pavers",
+        "quantity": 100000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_midland_brick_processor"
+    ],
+    "resources": [
+      "Clay"
+    ]
+  },
+  {
+    "id": "AU_austral_bricks_vic",
+    "name": "Austral Bricks Victoria — Brick Manufacturing",
+    "tier": "building_products",
+    "country_iso2": "AU",
+    "canonical_company": "Brickworks Limited",
+    "coordinates": {
+      "lat": -37.61,
+      "lon": 144.95
+    },
+    "downstream": [
+      {
+        "target_id": "AU_metricon",
+        "corridor_id": "AU_road_austral-vic-distribution",
+        "resource": "clay bricks and pavers",
+        "quantity": 60000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_independent_builders_vic",
+        "corridor_id": "AU_road_austral-vic-distribution",
+        "resource": "clay bricks and pavers",
+        "quantity": 90000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_austral_bricks_craigieburn_processor"
+    ],
+    "resources": [
+      "Clay"
+    ]
+  },
+  {
+    "id": "AU_austral_bricks_sa",
+    "name": "Austral Bricks SA — Brick Manufacturing",
+    "tier": "building_products",
+    "country_iso2": "AU",
+    "canonical_company": "Brickworks Limited",
+    "coordinates": {
+      "lat": -34.8,
+      "lon": 138.58
+    },
+    "downstream": [
+      {
+        "target_id": "AU_independent_builders_sa",
+        "corridor_id": "AU_road_austral-sa-distribution",
+        "resource": "clay bricks and pavers",
+        "quantity": 85000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_austral_bricks_sa_processor"
+    ],
+    "resources": [
+      "Clay"
+    ]
+  },
+  {
+    "id": "AU_ceramics_manufacturers_wa",
+    "name": "WA Ceramics & Tile Manufacturers (Aggregate)",
+    "tier": "building_products",
+    "country_iso2": "AU",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": -31.95,
+      "lon": 115.86
+    },
+    "downstream": [
+      {
+        "target_id": "AU_independent_builders_wa",
+        "corridor_id": "AU_road_perth-metro-ceramics",
+        "resource": "ceramic tiles and sanitaryware",
+        "quantity": 28000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_doral_kaolin_processor"
+    ],
+    "resources": [
+      "Clay"
+    ]
+  },
+  {
+    "id": "AU_ceramics_manufacturers_vic",
+    "name": "VIC Ceramics & Tile Manufacturers (Aggregate)",
+    "tier": "building_products",
+    "country_iso2": "AU",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": -37.81,
+      "lon": 144.96
+    },
+    "downstream": [
+      {
+        "target_id": "AU_independent_builders_vic",
+        "corridor_id": "AU_road_melbourne-metro-ceramics",
+        "resource": "ceramic tiles and sanitaryware",
+        "quantity": 23000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_sibelco_kaolin_processor"
+    ],
+    "resources": [
+      "Clay"
+    ]
+  },
+  {
+    "id": "AU_paper_coatings_manufacturers",
+    "name": "Australian Paper & Coatings Manufacturers (Kaolin Users)",
+    "tier": "building_products",
+    "country_iso2": "AU",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": -37.81,
+      "lon": 144.96
+    },
+    "downstream": [
+      {
+        "target_id": "AU_industrial",
+        "corridor_id": "AU_road_kaolin-industrial-distribution",
+        "resource": "kaolin-coated paper and paint products",
+        "quantity": 33000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_doral_kaolin_processor",
+      "AU_sibelco_kaolin_processor"
+    ],
+    "resources": [
+      "Clay"
+    ]
+  },
+  {
+    "id": "INTL_kaolin_export_customers",
+    "name": "Asian Kaolin Import Customers (Ceramics/Paper)",
+    "tier": "building_products",
+    "country_iso2": "INTL",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": 22.3,
+      "lon": 114.17
+    },
+    "downstream": [
+      {
+        "target_id": "INTL_industrial",
+        "corridor_id": "INTL_road_asia-industrial-distribution",
+        "resource": "refined kaolin for ceramics/paper",
+        "quantity": 38000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_doral_kaolin_processor",
+      "AU_sibelco_kaolin_processor"
+    ],
+    "resources": [
+      "Clay"
+    ]
+  },
+  {
+    "id": "AU_multiplex",
+    "name": "Multiplex (Brookfield)",
+    "tier": "contractor",
+    "country_iso2": "AU",
+    "canonical_company": "Multiplex",
+    "coordinates": {
+      "lat": -33.86,
+      "lon": 151.2
+    },
+    "downstream": [
+      {
+        "target_id": "AU_commercial",
+        "corridor_id": "AU_road_nsw-construction-delivery",
+        "resource": "clay brick facade systems",
+        "quantity": 50000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_residential",
+        "corridor_id": "AU_road_nsw-construction-delivery",
+        "resource": "clay brick residential structures",
+        "quantity": 30000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_commercial",
+        "corridor_id": "AU_road_project-sites-multiplex",
+        "resource": "marble-containing commercial building projects",
+        "quantity": 15000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_residential",
+        "corridor_id": "AU_road_project-sites-multiplex",
+        "resource": "marble-containing residential building projects",
+        "quantity": 10000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_commercial",
+        "corridor_id": "AU_road_multiplex-project-sites",
+        "resource": "granite-based construction materials for commercial buildings",
+        "quantity": 600000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_residential",
+        "corridor_id": "AU_road_multiplex-project-sites",
+        "resource": "granite-based construction materials for residential buildings",
+        "quantity": 340000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_austral_bricks_nsw",
+      "AU_csr_building_products",
+      "AU_adbri_masonry",
+      "AU_hanson_concrete_products",
+      "AU_boral_concrete_products",
+      "AU_holcim_concrete_products",
+      "AU_australian_stone_suppliers"
+    ],
+    "resources": [
+      "Clay",
+      "Marble",
+      "Granite"
+    ]
+  },
+  {
+    "id": "AU_metricon",
+    "name": "Metricon Homes",
+    "tier": "contractor",
+    "country_iso2": "AU",
+    "canonical_company": "Metricon",
+    "coordinates": {
+      "lat": -37.82,
+      "lon": 145.06
+    },
+    "downstream": [
+      {
+        "target_id": "AU_residential",
+        "corridor_id": "AU_road_vic-construction-delivery",
+        "resource": "clay brick residential buildings",
+        "quantity": 150000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_boral_bricks_vic",
+      "AU_austral_bricks_vic"
+    ],
+    "resources": [
+      "Clay"
+    ]
+  },
+  {
+    "id": "AU_simonds_homes",
+    "name": "Simonds Homes",
+    "tier": "contractor",
+    "country_iso2": "AU",
+    "canonical_company": "Simonds Homes",
+    "coordinates": {
+      "lat": -37.81,
+      "lon": 144.97
+    },
+    "downstream": [
+      {
+        "target_id": "AU_residential",
+        "corridor_id": "AU_road_vic-construction-delivery",
+        "resource": "clay brick residential buildings",
+        "quantity": 110000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_boral_bricks_vic"
+    ],
+    "resources": [
+      "Clay"
+    ]
+  },
+  {
+    "id": "AU_hutchinson_builders",
+    "name": "Hutchinson Builders",
+    "tier": "contractor",
+    "country_iso2": "AU",
+    "canonical_company": "Hutchinson Builders",
+    "coordinates": {
+      "lat": -27.47,
+      "lon": 153.03
+    },
+    "downstream": [
+      {
+        "target_id": "AU_commercial",
+        "corridor_id": "AU_road_qld-construction-delivery",
+        "resource": "clay brick commercial buildings",
+        "quantity": 30000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_residential",
+        "corridor_id": "AU_road_qld-construction-delivery",
+        "resource": "clay brick residential buildings",
+        "quantity": 25000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_boral_bricks_qld"
+    ],
+    "resources": [
+      "Clay"
+    ]
+  },
+  {
+    "id": "AU_bgc_construction",
+    "name": "BGC Construction",
+    "tier": "contractor",
+    "country_iso2": "AU",
+    "canonical_company": "BGC",
+    "coordinates": {
+      "lat": -31.95,
+      "lon": 115.86
+    },
+    "downstream": [
+      {
+        "target_id": "AU_residential",
+        "corridor_id": "AU_road_wa-construction-delivery",
+        "resource": "clay brick residential buildings",
+        "quantity": 45000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_commercial",
+        "corridor_id": "AU_road_wa-construction-delivery",
+        "resource": "clay brick commercial buildings",
+        "quantity": 20000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_midland_brick_wa"
+    ],
+    "resources": [
+      "Clay"
+    ]
+  },
+  {
+    "id": "AU_independent_builders_nsw",
+    "name": "Independent Builders & Contractors NSW (Aggregate)",
+    "tier": "contractor",
+    "country_iso2": "AU",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": -33.87,
+      "lon": 151.21
+    },
+    "downstream": [
+      {
+        "target_id": "AU_residential",
+        "corridor_id": "AU_road_nsw-construction-delivery",
+        "resource": "clay brick residential construction",
+        "quantity": 280000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_commercial",
+        "corridor_id": "AU_road_nsw-construction-delivery",
+        "resource": "clay brick commercial construction",
+        "quantity": 70000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_infrastructure",
+        "corridor_id": "AU_road_nsw-construction-delivery",
+        "resource": "clay pavers for public infrastructure",
+        "quantity": 35000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_austral_bricks_nsw",
+      "AU_pgh_bricks_nsw"
+    ],
+    "resources": [
+      "Clay"
+    ]
+  },
+  {
+    "id": "AU_independent_builders_vic",
+    "name": "Independent Builders & Contractors VIC (Aggregate)",
+    "tier": "contractor",
+    "country_iso2": "AU",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": -37.81,
+      "lon": 144.96
+    },
+    "downstream": [
+      {
+        "target_id": "AU_residential",
+        "corridor_id": "AU_road_vic-construction-delivery",
+        "resource": "clay brick residential construction",
+        "quantity": 170000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_commercial",
+        "corridor_id": "AU_road_vic-construction-delivery",
+        "resource": "clay brick commercial construction",
+        "quantity": 50000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_infrastructure",
+        "corridor_id": "AU_road_vic-construction-delivery",
+        "resource": "clay pavers for public works",
+        "quantity": 13000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_boral_bricks_vic",
+      "AU_austral_bricks_vic",
+      "AU_ceramics_manufacturers_vic"
+    ],
+    "resources": [
+      "Clay"
+    ]
+  },
+  {
+    "id": "AU_independent_builders_qld",
+    "name": "Independent Builders & Contractors QLD (Aggregate)",
+    "tier": "contractor",
+    "country_iso2": "AU",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": -27.47,
+      "lon": 153.03
+    },
+    "downstream": [
+      {
+        "target_id": "AU_residential",
+        "corridor_id": "AU_road_qld-construction-delivery",
+        "resource": "clay brick residential construction",
+        "quantity": 60000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_commercial",
+        "corridor_id": "AU_road_qld-construction-delivery",
+        "resource": "clay brick commercial construction",
+        "quantity": 20000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_boral_bricks_qld"
+    ],
+    "resources": [
+      "Clay"
+    ]
+  },
+  {
+    "id": "AU_independent_builders_wa",
+    "name": "Independent Builders & Contractors WA (Aggregate)",
+    "tier": "contractor",
+    "country_iso2": "AU",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": -31.95,
+      "lon": 115.86
+    },
+    "downstream": [
+      {
+        "target_id": "AU_residential",
+        "corridor_id": "AU_road_wa-construction-delivery",
+        "resource": "clay brick residential construction",
+        "quantity": 90000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_commercial",
+        "corridor_id": "AU_road_wa-construction-delivery",
+        "resource": "clay brick commercial construction",
+        "quantity": 30000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_midland_brick_wa",
+      "AU_ceramics_manufacturers_wa"
+    ],
+    "resources": [
+      "Clay"
+    ]
+  },
+  {
+    "id": "AU_independent_builders_sa",
+    "name": "Independent Builders & Contractors SA (Aggregate)",
+    "tier": "contractor",
+    "country_iso2": "AU",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": -34.93,
+      "lon": 138.6
+    },
+    "downstream": [
+      {
+        "target_id": "AU_residential",
+        "corridor_id": "AU_road_sa-construction-delivery",
+        "resource": "clay brick residential construction",
+        "quantity": 60000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_commercial",
+        "corridor_id": "AU_road_sa-construction-delivery",
+        "resource": "clay brick commercial construction",
+        "quantity": 20000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_austral_bricks_sa"
+    ],
+    "resources": [
+      "Clay"
+    ]
+  },
+  {
+    "id": "AU_road_deer-park-local",
+    "tier": "transport",
+    "name": "Road haulage — Deer Park quarry to processing plant",
+    "country_iso2": "AU",
+    "operator_id": "AU_local_haulage",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "local",
+    "coordinates": {
+      "lat": -37.77,
+      "lon": 144.77
+    }
+  },
+  {
+    "id": "AU_road_horsley-park-local",
+    "tier": "transport",
+    "name": "Road haulage — Horsley Park quarry to processing plant",
+    "country_iso2": "AU",
+    "operator_id": "AU_local_haulage",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "local",
+    "coordinates": {
+      "lat": -33.84,
+      "lon": 150.85
+    }
+  },
+  {
+    "id": "AU_road_oxley-vale-local",
+    "tier": "transport",
+    "name": "Road haulage — Oxley Vale quarry to PGH processor",
+    "country_iso2": "AU",
+    "operator_id": "AU_local_haulage",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "local",
+    "coordinates": {
+      "lat": -31.06,
+      "lon": 150.93
+    }
+  },
+  {
+    "id": "AU_road_middle-swan-local",
+    "tier": "transport",
+    "name": "Road haulage — Middle Swan quarry to Midland Brick plant",
+    "country_iso2": "AU",
+    "operator_id": "AU_local_haulage",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "local",
+    "coordinates": {
+      "lat": -31.88,
+      "lon": 116.02
+    }
+  },
+  {
+    "id": "AU_road_badgerys-creek-horsley-park",
+    "tier": "transport",
+    "name": "Road haulage — Badgerys Creek to Horsley Park plant",
+    "country_iso2": "AU",
+    "operator_id": "AU_local_haulage",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "local",
+    "coordinates": {
+      "lat": -33.86,
+      "lon": 150.8
+    }
+  },
+  {
+    "id": "AU_road_scoresby-deer-park",
+    "tier": "transport",
+    "name": "Road haulage — Scoresby quarry to Deer Park plant",
+    "country_iso2": "AU",
+    "operator_id": "AU_local_haulage",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "local",
+    "coordinates": {
+      "lat": -37.82,
+      "lon": 145
+    }
+  },
+  {
+    "id": "AU_road_mungalup-bunbury",
+    "tier": "transport",
+    "name": "Road haulage — Mungalup quarry to Bunbury processing",
+    "country_iso2": "AU",
+    "operator_id": "AU_local_haulage",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "local",
+    "coordinates": {
+      "lat": -33.34,
+      "lon": 115.66
+    }
+  },
+  {
+    "id": "AU_road_pittong-local",
+    "tier": "transport",
+    "name": "Road haulage — Pittong quarry to processing plant",
+    "country_iso2": "AU",
+    "operator_id": "AU_local_haulage",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "local",
+    "coordinates": {
+      "lat": -37.58,
+      "lon": 143.46
+    }
+  },
+  {
+    "id": "AU_road_riverview-local",
+    "tier": "transport",
+    "name": "Road haulage — Riverview quarry to Boral QLD plant",
+    "country_iso2": "AU",
+    "operator_id": "AU_local_haulage",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "local",
+    "coordinates": {
+      "lat": -27.52,
+      "lon": 152.95
+    }
+  },
+  {
+    "id": "AU_road_bowral-local",
+    "tier": "transport",
+    "name": "Road haulage — Bowral quarry to processing plant",
+    "country_iso2": "AU",
+    "operator_id": "AU_local_haulage",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "local",
+    "coordinates": {
+      "lat": -34.48,
+      "lon": 150.42
+    }
+  },
+  {
+    "id": "AU_road_craigieburn-local",
+    "tier": "transport",
+    "name": "Road haulage — Craigieburn quarry to processing plant",
+    "country_iso2": "AU",
+    "operator_id": "AU_local_haulage",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "local",
+    "coordinates": {
+      "lat": -37.6,
+      "lon": 144.94
+    }
+  },
+  {
+    "id": "AU_road_dry-creek-local",
+    "tier": "transport",
+    "name": "Road haulage — Dry Creek quarry to SA plant",
+    "country_iso2": "AU",
+    "operator_id": "AU_local_haulage",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "local",
+    "coordinates": {
+      "lat": -34.79,
+      "lon": 138.57
+    }
+  },
+  {
+    "id": "AU_road_boral-qld-internal",
+    "tier": "transport",
+    "name": "Internal road transfer — Boral QLD processor to kiln",
+    "country_iso2": "AU",
+    "operator_id": "AU_boral",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "local",
+    "coordinates": {
+      "lat": -27.53,
+      "lon": 152.96
+    }
+  },
+  {
+    "id": "AU_road_boral-vic-internal",
+    "tier": "transport",
+    "name": "Internal road transfer — Boral VIC processor to kiln",
+    "country_iso2": "AU",
+    "operator_id": "AU_boral",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "local",
+    "coordinates": {
+      "lat": -37.77,
+      "lon": 144.78
+    }
+  },
+  {
+    "id": "AU_road_austral-nsw-internal",
+    "tier": "transport",
+    "name": "Internal road transfer — Austral NSW processor to kiln",
+    "country_iso2": "AU",
+    "operator_id": "AU_brickworks_limited",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "local",
+    "coordinates": {
+      "lat": -33.84,
+      "lon": 150.86
+    }
+  },
+  {
+    "id": "AU_road_pgh-nsw-internal",
+    "tier": "transport",
+    "name": "Internal transfer — PGH NSW processor to kiln",
+    "country_iso2": "AU",
+    "operator_id": "AU_csr_limited",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "local",
+    "coordinates": {
+      "lat": -33.87,
+      "lon": 151.02
+    }
+  },
+  {
+    "id": "AU_road_midland-wa-internal",
+    "tier": "transport",
+    "name": "Internal road transfer — Midland Brick processor to kiln",
+    "country_iso2": "AU",
+    "operator_id": "AU_brickworks_limited",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "local",
+    "coordinates": {
+      "lat": -31.88,
+      "lon": 116.03
+    }
+  },
+  {
+    "id": "AU_road_pittong-melbourne",
+    "tier": "transport",
+    "name": "Road haulage — Pittong to Melbourne metro (kaolin products)",
+    "country_iso2": "AU",
+    "operator_id": "AU_local_haulage",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "regional",
+    "coordinates": {
+      "lat": -37.7,
+      "lon": 144.2
+    }
+  },
+  {
+    "id": "INTL_ocean_melbourne-asia",
+    "tier": "transport",
+    "name": "Ocean freight — Melbourne to Asian ports (kaolin)",
+    "country_iso2": "INTL",
+    "operator_id": "INTL_ocean_carrier",
+    "mode": "ocean_freight",
+    "form": "bulk_dry",
+    "range": "international",
+    "coordinates": {
+      "lat": -25,
+      "lon": 125
+    },
+    "resources": [
+      "Pulpwood"
+    ],
+    "upstream": [],
+    "downstream": []
+  },
+  {
+    "id": "AU_road_bowral-sydney",
+    "tier": "transport",
+    "name": "Road haulage — Bowral to Sydney metro",
+    "country_iso2": "AU",
+    "operator_id": "AU_local_haulage",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "regional",
+    "coordinates": {
+      "lat": -34.18,
+      "lon": 150.82
+    }
+  },
+  {
+    "id": "AU_road_craigieburn-melbourne",
+    "tier": "transport",
+    "name": "Road haulage — Craigieburn to Melbourne metro",
+    "country_iso2": "AU",
+    "operator_id": "AU_local_haulage",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "local",
+    "coordinates": {
+      "lat": -37.7,
+      "lon": 144.95
+    }
+  },
+  {
+    "id": "AU_road_dry-creek-adelaide",
+    "tier": "transport",
+    "name": "Road haulage — Dry Creek to Adelaide metro",
+    "country_iso2": "AU",
+    "operator_id": "AU_local_haulage",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "local",
+    "coordinates": {
+      "lat": -34.85,
+      "lon": 138.58
+    },
+    "resources": [
+      "Salt (rock)"
+    ],
+    "upstream": [],
+    "downstream": []
+  },
+  {
+    "id": "AU_road_boral-vic-distribution",
+    "tier": "transport",
+    "name": "Road distribution — Boral Bricks VIC to builders",
+    "country_iso2": "AU",
+    "operator_id": "AU_boral",
+    "mode": "road",
+    "form": "unit_load",
+    "range": "regional",
+    "coordinates": {
+      "lat": -37.8,
+      "lon": 144.9
+    }
+  },
+  {
+    "id": "AU_road_boral-qld-distribution",
+    "tier": "transport",
+    "name": "Road distribution — Boral Bricks QLD to builders",
+    "country_iso2": "AU",
+    "operator_id": "AU_boral",
+    "mode": "road",
+    "form": "unit_load",
+    "range": "regional",
+    "coordinates": {
+      "lat": -27.5,
+      "lon": 153
+    }
+  },
+  {
+    "id": "AU_road_austral-nsw-distribution",
+    "tier": "transport",
+    "name": "Road distribution — Austral Bricks NSW to builders",
+    "country_iso2": "AU",
+    "operator_id": "AU_brickworks_limited",
+    "mode": "road",
+    "form": "unit_load",
+    "range": "regional",
+    "coordinates": {
+      "lat": -33.87,
+      "lon": 150.9
+    }
+  },
+  {
+    "id": "AU_road_pgh-nsw-distribution",
+    "tier": "transport",
+    "name": "Road distribution — PGH Bricks NSW to builders",
+    "country_iso2": "AU",
+    "operator_id": "AU_csr_limited",
+    "mode": "road",
+    "form": "unit_load",
+    "range": "regional",
+    "coordinates": {
+      "lat": -33.87,
+      "lon": 151.05
+    }
+  },
+  {
+    "id": "AU_road_midland-wa-distribution",
+    "tier": "transport",
+    "name": "Road distribution — Midland Brick WA to builders",
+    "country_iso2": "AU",
+    "operator_id": "AU_brickworks_limited",
+    "mode": "road",
+    "form": "unit_load",
+    "range": "regional",
+    "coordinates": {
+      "lat": -31.9,
+      "lon": 115.95
+    }
+  },
+  {
+    "id": "AU_road_austral-vic-distribution",
+    "tier": "transport",
+    "name": "Road distribution — Austral Bricks VIC to builders",
+    "country_iso2": "AU",
+    "operator_id": "AU_brickworks_limited",
+    "mode": "road",
+    "form": "unit_load",
+    "range": "regional",
+    "coordinates": {
+      "lat": -37.7,
+      "lon": 144.96
+    }
+  },
+  {
+    "id": "AU_road_austral-sa-distribution",
+    "tier": "transport",
+    "name": "Road distribution — Austral Bricks SA to builders",
+    "country_iso2": "AU",
+    "operator_id": "AU_brickworks_limited",
+    "mode": "road",
+    "form": "unit_load",
+    "range": "regional",
+    "coordinates": {
+      "lat": -34.9,
+      "lon": 138.6
+    }
+  },
+  {
+    "id": "AU_road_perth-metro-ceramics",
+    "tier": "transport",
+    "name": "Road distribution — WA ceramics to builders (Perth metro)",
+    "country_iso2": "AU",
+    "operator_id": "AU_local_haulage",
+    "mode": "road",
+    "form": "unit_load",
+    "range": "regional",
+    "coordinates": {
+      "lat": -31.95,
+      "lon": 115.86
+    }
+  },
+  {
+    "id": "AU_road_melbourne-metro-ceramics",
+    "tier": "transport",
+    "name": "Road distribution — VIC ceramics to builders (Melbourne metro)",
+    "country_iso2": "AU",
+    "operator_id": "AU_local_haulage",
+    "mode": "road",
+    "form": "unit_load",
+    "range": "regional",
+    "coordinates": {
+      "lat": -37.81,
+      "lon": 144.96
+    }
+  },
+  {
+    "id": "AU_road_kaolin-industrial-distribution",
+    "tier": "transport",
+    "name": "Road distribution — Kaolin products to industrial end users (AU)",
+    "country_iso2": "AU",
+    "operator_id": "AU_local_haulage",
+    "mode": "road",
+    "form": "unit_load",
+    "range": "regional",
+    "coordinates": {
+      "lat": -37.81,
+      "lon": 144.96
+    }
+  },
+  {
+    "id": "INTL_road_asia-industrial-distribution",
+    "tier": "transport",
+    "name": "Road distribution — Kaolin products to Asian industrial users",
+    "country_iso2": "INTL",
+    "operator_id": "INTL_local_haulage",
+    "mode": "road",
+    "form": "unit_load",
+    "range": "regional",
+    "coordinates": {
+      "lat": 22.3,
+      "lon": 114.17
+    }
+  },
+  {
+    "id": "AU_road_nsw-construction-delivery",
+    "tier": "transport",
+    "name": "Road delivery — NSW construction sites",
+    "country_iso2": "AU",
+    "operator_id": "AU_local_haulage",
+    "mode": "road",
+    "form": "unit_load",
+    "range": "regional",
+    "coordinates": {
+      "lat": -33.87,
+      "lon": 151.21
+    }
+  },
+  {
+    "id": "AU_road_vic-construction-delivery",
+    "tier": "transport",
+    "name": "Road delivery — VIC construction sites",
+    "country_iso2": "AU",
+    "operator_id": "AU_local_haulage",
+    "mode": "road",
+    "form": "unit_load",
+    "range": "regional",
+    "coordinates": {
+      "lat": -37.81,
+      "lon": 144.96
+    }
+  },
+  {
+    "id": "AU_road_qld-construction-delivery",
+    "tier": "transport",
+    "name": "Road delivery — QLD construction sites",
+    "country_iso2": "AU",
+    "operator_id": "AU_local_haulage",
+    "mode": "road",
+    "form": "unit_load",
+    "range": "regional",
+    "coordinates": {
+      "lat": -27.47,
+      "lon": 153.03
+    }
+  },
+  {
+    "id": "AU_road_wa-construction-delivery",
+    "tier": "transport",
+    "name": "Road delivery — WA construction sites",
+    "country_iso2": "AU",
+    "operator_id": "AU_local_haulage",
+    "mode": "road",
+    "form": "unit_load",
+    "range": "regional",
+    "coordinates": {
+      "lat": -31.95,
+      "lon": 115.86
+    }
+  },
+  {
+    "id": "AU_road_sa-construction-delivery",
+    "tier": "transport",
+    "name": "Road delivery — SA construction sites",
+    "country_iso2": "AU",
+    "operator_id": "AU_local_haulage",
+    "mode": "road",
+    "form": "unit_load",
+    "range": "regional",
+    "coordinates": {
+      "lat": -34.93,
+      "lon": 138.6
+    }
+  }
+]

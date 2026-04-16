@@ -1,0 +1,1999 @@
+[
+  {
+    "id": "AU_perth_seawater_desalination_plant",
+    "name": "Perth Seawater Desalination Plant (Kwinana)",
+    "tier": "source_capture",
+    "country_iso2": "AU",
+    "canonical_company": "Water Corporation",
+    "coordinates": {
+      "lat": -32.2364,
+      "lon": 115.7631
+    },
+    "downstream": [
+      {
+        "target_id": "AU_water_corporation_perth_treatment",
+        "corridor_id": "AU_pipeline_kwinana-tamworth-hill",
+        "resource": "desalinated potable water",
+        "quantity": 45000000,
+        "metric": "kL"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Saltwater"
+    ]
+  },
+  {
+    "id": "AU_southern_seawater_desalination_plant",
+    "name": "Southern Seawater Desalination Plant (Binningup)",
+    "tier": "source_capture",
+    "country_iso2": "AU",
+    "canonical_company": "Water Corporation",
+    "coordinates": {
+      "lat": -33.1453,
+      "lon": 115.6878
+    },
+    "downstream": [
+      {
+        "target_id": "AU_water_corporation_perth_treatment",
+        "corridor_id": "AU_pipeline_binningup-perth",
+        "resource": "desalinated potable water",
+        "quantity": 100000000,
+        "metric": "kL"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Saltwater"
+    ]
+  },
+  {
+    "id": "AU_victorian_desalination_plant",
+    "name": "Victorian Desalination Plant (Wonthaggi)",
+    "tier": "source_capture",
+    "country_iso2": "AU",
+    "canonical_company": "AquaSure",
+    "coordinates": {
+      "lat": -38.6256,
+      "lon": 145.7044
+    },
+    "downstream": [
+      {
+        "target_id": "AU_melbourne_water_treatment",
+        "corridor_id": "AU_pipeline_wonthaggi-cardinia",
+        "resource": "desalinated potable water",
+        "quantity": 125000000,
+        "metric": "kL"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Saltwater"
+    ]
+  },
+  {
+    "id": "AU_sydney_desalination_plant",
+    "name": "Sydney Desalination Plant (Kurnell)",
+    "tier": "source_capture",
+    "country_iso2": "AU",
+    "canonical_company": "Sydney Desalination Plant Pty Ltd",
+    "coordinates": {
+      "lat": -34.0089,
+      "lon": 151.2014
+    },
+    "downstream": [
+      {
+        "target_id": "AU_sydney_water_treatment",
+        "corridor_id": "AU_pipeline_kurnell-erskineville",
+        "resource": "desalinated potable water",
+        "quantity": 90000000,
+        "metric": "kL"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Saltwater"
+    ]
+  },
+  {
+    "id": "AU_gold_coast_desalination_plant",
+    "name": "Gold Coast Desalination Plant (Tugun)",
+    "tier": "source_capture",
+    "country_iso2": "AU",
+    "canonical_company": "Seqwater",
+    "coordinates": {
+      "lat": -28.1553,
+      "lon": 153.4964
+    },
+    "downstream": [
+      {
+        "target_id": "AU_seqwater_treatment",
+        "corridor_id": "AU_pipeline_tugun-molendinar",
+        "resource": "desalinated potable water",
+        "quantity": 49000000,
+        "metric": "kL"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Saltwater"
+    ]
+  },
+  {
+    "id": "AU_adelaide_desalination_plant",
+    "name": "Adelaide Desalination Plant (Port Stanvac)",
+    "tier": "source_capture",
+    "country_iso2": "AU",
+    "canonical_company": "SA Water",
+    "coordinates": {
+      "lat": -35.11,
+      "lon": 138.4978
+    },
+    "downstream": [
+      {
+        "target_id": "AU_sa_water_treatment",
+        "corridor_id": "AU_pipeline_port-stanvac-happy-valley",
+        "resource": "desalinated potable water",
+        "quantity": 100000000,
+        "metric": "kL"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Saltwater"
+    ]
+  },
+  {
+    "id": "AU_cape_preston_desalination_plant",
+    "name": "Cape Preston Desalination Plant",
+    "tier": "source_capture",
+    "country_iso2": "AU",
+    "canonical_company": "CITIC Pacific Mining",
+    "coordinates": {
+      "lat": -20.7885,
+      "lon": 116.6775
+    },
+    "downstream": [
+      {
+        "target_id": "AU_citic_pacific_mining_treatment",
+        "corridor_id": "AU_pipeline_cape-preston-sino-iron",
+        "resource": "desalinated process water",
+        "quantity": 30000000,
+        "metric": "kL"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Saltwater"
+    ]
+  },
+  {
+    "id": "AU_perth_airport_desalination_plant",
+    "name": "Mundijong / Wungong Desalination Plant",
+    "tier": "source_capture",
+    "country_iso2": "AU",
+    "canonical_company": "Water Corporation",
+    "coordinates": {
+      "lat": -32.29,
+      "lon": 115.885
+    },
+    "downstream": [
+      {
+        "target_id": "AU_water_corporation_perth_treatment",
+        "corridor_id": "AU_pipeline_wungong-perth-network",
+        "resource": "desalinated potable water",
+        "quantity": 5000000,
+        "metric": "kL"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Saltwater"
+    ]
+  },
+  {
+    "id": "AU_water_corporation_perth_treatment",
+    "name": "Water Corporation – Perth Water Treatment & Blending",
+    "tier": "treatment",
+    "country_iso2": "AU",
+    "canonical_company": "Water Corporation",
+    "coordinates": {
+      "lat": -31.9505,
+      "lon": 115.8605
+    },
+    "downstream": [
+      {
+        "target_id": "AU_water_corporation_perth_transmission",
+        "corridor_id": "AU_pipeline_perth-treatment-to-trunk",
+        "resource": "treated potable water",
+        "quantity": 150000000,
+        "metric": "kL"
+      }
+    ],
+    "upstream": [
+      "AU_perth_seawater_desalination_plant",
+      "AU_southern_seawater_desalination_plant",
+      "AU_perth_airport_desalination_plant"
+    ],
+    "resources": [
+      "Saltwater"
+    ]
+  },
+  {
+    "id": "AU_melbourne_water_treatment",
+    "name": "Melbourne Water – Cardinia Reservoir Treatment & Blending",
+    "tier": "treatment",
+    "country_iso2": "AU",
+    "canonical_company": "Melbourne Water",
+    "coordinates": {
+      "lat": -38.0667,
+      "lon": 145.4167
+    },
+    "downstream": [
+      {
+        "target_id": "AU_melbourne_water_transmission",
+        "corridor_id": "AU_pipeline_cardinia-to-melbourne-trunk",
+        "resource": "treated potable water",
+        "quantity": 125000000,
+        "metric": "kL"
+      }
+    ],
+    "upstream": [
+      "AU_victorian_desalination_plant"
+    ],
+    "resources": [
+      "Saltwater"
+    ]
+  },
+  {
+    "id": "AU_sydney_water_treatment",
+    "name": "Sydney Water – Erskineville Delivery Point & Network Blending",
+    "tier": "treatment",
+    "country_iso2": "AU",
+    "canonical_company": "Sydney Water",
+    "coordinates": {
+      "lat": -33.903,
+      "lon": 151.186
+    },
+    "downstream": [
+      {
+        "target_id": "AU_sydney_water_transmission",
+        "corridor_id": "AU_pipeline_erskineville-to-sydney-trunk",
+        "resource": "treated potable water",
+        "quantity": 90000000,
+        "metric": "kL"
+      }
+    ],
+    "upstream": [
+      "AU_sydney_desalination_plant"
+    ],
+    "resources": [
+      "Saltwater"
+    ]
+  },
+  {
+    "id": "AU_seqwater_treatment",
+    "name": "Seqwater – Molendinar Water Treatment Plant",
+    "tier": "treatment",
+    "country_iso2": "AU",
+    "canonical_company": "Seqwater",
+    "coordinates": {
+      "lat": -27.96,
+      "lon": 153.37
+    },
+    "downstream": [
+      {
+        "target_id": "AU_seqwater_transmission",
+        "corridor_id": "AU_pipeline_molendinar-to-seq-grid",
+        "resource": "treated potable water",
+        "quantity": 49000000,
+        "metric": "kL"
+      }
+    ],
+    "upstream": [
+      "AU_gold_coast_desalination_plant"
+    ],
+    "resources": [
+      "Saltwater"
+    ]
+  },
+  {
+    "id": "AU_sa_water_treatment",
+    "name": "SA Water – Happy Valley Water Treatment Plant",
+    "tier": "treatment",
+    "country_iso2": "AU",
+    "canonical_company": "SA Water",
+    "coordinates": {
+      "lat": -35.0481,
+      "lon": 138.55
+    },
+    "downstream": [
+      {
+        "target_id": "AU_sa_water_transmission",
+        "corridor_id": "AU_pipeline_happy-valley-to-adelaide-trunk",
+        "resource": "treated potable water",
+        "quantity": 100000000,
+        "metric": "kL"
+      },
+      {
+        "target_id": "AU_sa_water_transmission",
+        "corridor_id": "AU_pipeline_sa-treatment-trunk",
+        "resource": "treated potable water",
+        "quantity": 180000000,
+        "metric": "kL"
+      },
+      {
+        "target_id": "AU_infrastructure",
+        "corridor_id": "AU_road_sa-water-infra",
+        "resource": "water-treatment salt applications",
+        "quantity": 120000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_residential",
+        "corridor_id": "AU_road_sa-water-residential",
+        "resource": "treated water (salt inputs)",
+        "quantity": 50000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_adelaide_desalination_plant",
+      "AU_happy_valley_reservoir",
+      "AU_mount_bold_reservoir",
+      "AU_murray_bridge_offtake",
+      "AU_cheetham_salt_distribution_adelaide",
+      "AU_penrice_distribution_adelaide"
+    ],
+    "resources": [
+      "Saltwater",
+      "Surface Water",
+      "Salt (rock)"
+    ]
+  },
+  {
+    "id": "AU_citic_pacific_mining_treatment",
+    "name": "CITIC Pacific Mining – Sino Iron Process Water Treatment",
+    "tier": "treatment",
+    "country_iso2": "AU",
+    "canonical_company": "CITIC Pacific Mining",
+    "coordinates": {
+      "lat": -20.79,
+      "lon": 116.68
+    },
+    "downstream": [
+      {
+        "target_id": "AU_citic_pacific_mining_transmission",
+        "corridor_id": "AU_pipeline_sino-iron-internal",
+        "resource": "treated industrial process water",
+        "quantity": 30000000,
+        "metric": "kL"
+      }
+    ],
+    "upstream": [
+      "AU_cape_preston_desalination_plant"
+    ],
+    "resources": [
+      "Saltwater"
+    ]
+  },
+  {
+    "id": "AU_water_corporation_perth_transmission",
+    "name": "Water Corporation – Integrated Water Supply Scheme Trunk Mains",
+    "tier": "transmission",
+    "country_iso2": "AU",
+    "canonical_company": "Water Corporation",
+    "coordinates": {
+      "lat": -31.86,
+      "lon": 115.96
+    },
+    "downstream": [
+      {
+        "target_id": "AU_water_corporation_perth_distribution",
+        "corridor_id": "AU_pipeline_perth-trunk-to-distribution",
+        "resource": "potable water",
+        "quantity": 120000000,
+        "metric": "kL"
+      },
+      {
+        "target_id": "AU_water_corporation_mandurah_distribution",
+        "corridor_id": "AU_pipeline_perth-trunk-to-mandurah",
+        "resource": "potable water",
+        "quantity": 20000000,
+        "metric": "kL"
+      },
+      {
+        "target_id": "AU_water_corporation_goldfields_distribution",
+        "corridor_id": "AU_pipeline_mundaring-goldfields",
+        "resource": "potable water",
+        "quantity": 10000000,
+        "metric": "kL"
+      },
+      {
+        "target_id": "AU_water_corporation_perth_distribution",
+        "corridor_id": "AU_pipeline_perth_dist_network",
+        "resource": "treated drinking water (groundwater origin)",
+        "quantity": 225000000,
+        "metric": "kL"
+      }
+    ],
+    "upstream": [
+      "AU_water_corporation_perth_treatment",
+      "AU_water_corporation_wa_treatment"
+    ],
+    "resources": [
+      "Saltwater",
+      "Groundwater"
+    ]
+  },
+  {
+    "id": "AU_melbourne_water_transmission",
+    "name": "Melbourne Water – Bulk Water Transmission Network",
+    "tier": "transmission",
+    "country_iso2": "AU",
+    "canonical_company": "Melbourne Water",
+    "coordinates": {
+      "lat": -37.8136,
+      "lon": 144.9631
+    },
+    "downstream": [
+      {
+        "target_id": "AU_yarra_valley_water_distribution",
+        "corridor_id": "AU_pipeline_melbourne-trunk-east",
+        "resource": "potable water",
+        "quantity": 50000000,
+        "metric": "kL"
+      },
+      {
+        "target_id": "AU_south_east_water_distribution",
+        "corridor_id": "AU_pipeline_melbourne-trunk-southeast",
+        "resource": "potable water",
+        "quantity": 40000000,
+        "metric": "kL"
+      },
+      {
+        "target_id": "AU_city_west_water_distribution",
+        "corridor_id": "AU_pipeline_melbourne-trunk-west",
+        "resource": "potable water",
+        "quantity": 35000000,
+        "metric": "kL"
+      },
+      {
+        "target_id": "AU_yarra_valley_water",
+        "corridor_id": "AU_pipeline_melb-trunk-yarra",
+        "resource": "treated potable water",
+        "quantity": 165000000,
+        "metric": "kL"
+      },
+      {
+        "target_id": "AU_south_east_water",
+        "corridor_id": "AU_pipeline_melb-trunk-se",
+        "resource": "treated potable water",
+        "quantity": 145000000,
+        "metric": "kL"
+      },
+      {
+        "target_id": "AU_city_west_water",
+        "corridor_id": "AU_pipeline_melb-trunk-cw",
+        "resource": "treated potable water",
+        "quantity": 105000000,
+        "metric": "kL"
+      },
+      {
+        "target_id": "AU_greater_western_water",
+        "corridor_id": "AU_pipeline_melb-trunk-gw",
+        "resource": "treated potable water",
+        "quantity": 35000000,
+        "metric": "kL"
+      }
+    ],
+    "upstream": [
+      "AU_melbourne_water_treatment",
+      "AU_melbourne_water_bulk"
+    ],
+    "resources": [
+      "Saltwater",
+      "Surface Water"
+    ]
+  },
+  {
+    "id": "AU_sydney_water_transmission",
+    "name": "Sydney Water – Bulk Transfer System",
+    "tier": "transmission",
+    "country_iso2": "AU",
+    "canonical_company": "Sydney Water",
+    "coordinates": {
+      "lat": -33.8688,
+      "lon": 151.2093
+    },
+    "downstream": [
+      {
+        "target_id": "AU_sydney_water_distribution",
+        "corridor_id": "AU_pipeline_sydney-trunk-to-distribution",
+        "resource": "potable water",
+        "quantity": 90000000,
+        "metric": "kL"
+      },
+      {
+        "target_id": "AU_sydney_water_distribution",
+        "corridor_id": "AU_pipeline_sydney-trunk-distribution",
+        "resource": "treated potable water",
+        "quantity": 515000000,
+        "metric": "kL"
+      }
+    ],
+    "upstream": [
+      "AU_sydney_water_treatment",
+      "AU_sydney_water_prospect_wfp",
+      "AU_sydney_water_woronora_wfp"
+    ],
+    "resources": [
+      "Saltwater",
+      "Surface Water"
+    ]
+  },
+  {
+    "id": "AU_seqwater_transmission",
+    "name": "Seqwater – South East Queensland Water Grid",
+    "tier": "transmission",
+    "country_iso2": "AU",
+    "canonical_company": "Seqwater",
+    "coordinates": {
+      "lat": -27.56,
+      "lon": 153.05
+    },
+    "downstream": [
+      {
+        "target_id": "AU_urban_utilities_distribution",
+        "corridor_id": "AU_pipeline_seq-grid-to-brisbane",
+        "resource": "potable water",
+        "quantity": 28000000,
+        "metric": "kL"
+      },
+      {
+        "target_id": "AU_gold_coast_water_distribution",
+        "corridor_id": "AU_pipeline_seq-grid-to-goldcoast",
+        "resource": "potable water",
+        "quantity": 21000000,
+        "metric": "kL"
+      },
+      {
+        "target_id": "AU_urban_utilities_distribution",
+        "corridor_id": "AU_pipeline_seq-grid-urbanutil",
+        "resource": "treated potable water",
+        "quantity": 155000000,
+        "metric": "kL"
+      },
+      {
+        "target_id": "AU_unity_water_distribution",
+        "corridor_id": "AU_pipeline_seq-grid-unitywater",
+        "resource": "treated potable water",
+        "quantity": 60000000,
+        "metric": "kL"
+      },
+      {
+        "target_id": "AU_gold_coast_water_distribution",
+        "corridor_id": "AU_pipeline_seq-grid-goldcoast",
+        "resource": "treated potable water",
+        "quantity": 55000000,
+        "metric": "kL"
+      },
+      {
+        "target_id": "AU_logan_water_distribution",
+        "corridor_id": "AU_pipeline_seq-grid-logan",
+        "resource": "treated potable water",
+        "quantity": 20000000,
+        "metric": "kL"
+      }
+    ],
+    "upstream": [
+      "AU_seqwater_treatment",
+      "AU_seqwater_bulk"
+    ],
+    "resources": [
+      "Saltwater",
+      "Surface Water"
+    ]
+  },
+  {
+    "id": "AU_sa_water_transmission",
+    "name": "SA Water – Adelaide Metropolitan Trunk Mains",
+    "tier": "transmission",
+    "country_iso2": "AU",
+    "canonical_company": "SA Water",
+    "coordinates": {
+      "lat": -34.9285,
+      "lon": 138.6007
+    },
+    "downstream": [
+      {
+        "target_id": "AU_sa_water_distribution",
+        "corridor_id": "AU_pipeline_adelaide-trunk-to-distribution",
+        "resource": "potable water",
+        "quantity": 100000000,
+        "metric": "kL"
+      },
+      {
+        "target_id": "AU_sa_water_distribution",
+        "corridor_id": "AU_pipeline_sa-trunk-distribution",
+        "resource": "treated potable water",
+        "quantity": 180000000,
+        "metric": "kL"
+      }
+    ],
+    "upstream": [
+      "AU_sa_water_treatment"
+    ],
+    "resources": [
+      "Saltwater",
+      "Surface Water"
+    ]
+  },
+  {
+    "id": "AU_citic_pacific_mining_transmission",
+    "name": "CITIC Pacific Mining – Sino Iron On-Site Water Transmission",
+    "tier": "transmission",
+    "country_iso2": "AU",
+    "canonical_company": "CITIC Pacific Mining",
+    "coordinates": {
+      "lat": -20.791,
+      "lon": 116.682
+    },
+    "downstream": [
+      {
+        "target_id": "AU_citic_pacific_mining_distribution",
+        "corridor_id": "AU_pipeline_sino-iron-process-distribution",
+        "resource": "industrial process water",
+        "quantity": 30000000,
+        "metric": "kL"
+      }
+    ],
+    "upstream": [
+      "AU_citic_pacific_mining_treatment"
+    ],
+    "resources": [
+      "Saltwater"
+    ]
+  },
+  {
+    "id": "AU_water_corporation_perth_distribution",
+    "name": "Water Corporation – Perth Metropolitan Distribution Network",
+    "tier": "distribution",
+    "country_iso2": "AU",
+    "canonical_company": "Water Corporation",
+    "coordinates": {
+      "lat": -31.9505,
+      "lon": 115.8605
+    },
+    "downstream": [
+      {
+        "target_id": "AU_residential",
+        "corridor_id": "AU_pipeline_perth-metro-residential",
+        "resource": "potable water",
+        "quantity": 78000000,
+        "metric": "kL"
+      },
+      {
+        "target_id": "AU_commercial",
+        "corridor_id": "AU_pipeline_perth-metro-commercial",
+        "resource": "potable water",
+        "quantity": 24000000,
+        "metric": "kL"
+      },
+      {
+        "target_id": "AU_industrial",
+        "corridor_id": "AU_pipeline_perth-metro-industrial",
+        "resource": "potable water",
+        "quantity": 18000000,
+        "metric": "kL"
+      },
+      {
+        "target_id": "AU_residential",
+        "corridor_id": "AU_pipeline_perth_residential",
+        "resource": "potable drinking water (groundwater origin)",
+        "quantity": 140000000,
+        "metric": "kL"
+      },
+      {
+        "target_id": "AU_commercial",
+        "corridor_id": "AU_pipeline_perth_commercial",
+        "resource": "potable drinking water (groundwater origin)",
+        "quantity": 45000000,
+        "metric": "kL"
+      },
+      {
+        "target_id": "AU_industrial",
+        "corridor_id": "AU_pipeline_perth_industrial",
+        "resource": "potable drinking water (groundwater origin)",
+        "quantity": 25000000,
+        "metric": "kL"
+      },
+      {
+        "target_id": "AU_infrastructure",
+        "corridor_id": "AU_pipeline_perth_infrastructure",
+        "resource": "non-potable groundwater (irrigation of public spaces)",
+        "quantity": 15000000,
+        "metric": "kL"
+      }
+    ],
+    "upstream": [
+      "AU_water_corporation_perth_transmission"
+    ],
+    "resources": [
+      "Saltwater",
+      "Groundwater"
+    ]
+  },
+  {
+    "id": "AU_water_corporation_mandurah_distribution",
+    "name": "Water Corporation – Mandurah / Peel Distribution Network",
+    "tier": "distribution",
+    "country_iso2": "AU",
+    "canonical_company": "Water Corporation",
+    "coordinates": {
+      "lat": -32.5269,
+      "lon": 115.7217
+    },
+    "downstream": [
+      {
+        "target_id": "AU_residential",
+        "corridor_id": "AU_pipeline_mandurah-residential",
+        "resource": "potable water",
+        "quantity": 14000000,
+        "metric": "kL"
+      },
+      {
+        "target_id": "AU_commercial",
+        "corridor_id": "AU_pipeline_mandurah-commercial",
+        "resource": "potable water",
+        "quantity": 6000000,
+        "metric": "kL"
+      }
+    ],
+    "upstream": [
+      "AU_water_corporation_perth_transmission"
+    ],
+    "resources": [
+      "Saltwater"
+    ]
+  },
+  {
+    "id": "AU_water_corporation_goldfields_distribution",
+    "name": "Water Corporation – Goldfields & Agricultural Water Supply Scheme",
+    "tier": "distribution",
+    "country_iso2": "AU",
+    "canonical_company": "Water Corporation",
+    "coordinates": {
+      "lat": -31.18,
+      "lon": 121.45
+    },
+    "downstream": [
+      {
+        "target_id": "AU_industrial",
+        "corridor_id": "AU_pipeline_goldfields-mining-industrial",
+        "resource": "potable water",
+        "quantity": 6000000,
+        "metric": "kL"
+      },
+      {
+        "target_id": "AU_residential",
+        "corridor_id": "AU_pipeline_goldfields-residential",
+        "resource": "potable water",
+        "quantity": 3000000,
+        "metric": "kL"
+      },
+      {
+        "target_id": "AU_agricultural",
+        "corridor_id": "AU_pipeline_goldfields-agricultural",
+        "resource": "potable water",
+        "quantity": 1000000,
+        "metric": "kL"
+      },
+      {
+        "target_id": "AU_residential",
+        "corridor_id": "AU_pipeline_goldfields_residential",
+        "resource": "potable drinking water (groundwater origin)",
+        "quantity": 5000000,
+        "metric": "kL"
+      },
+      {
+        "target_id": "AU_industrial",
+        "corridor_id": "AU_pipeline_goldfields_industrial",
+        "resource": "industrial water (groundwater origin)",
+        "quantity": 10000000,
+        "metric": "kL"
+      }
+    ],
+    "upstream": [
+      "AU_water_corporation_perth_transmission",
+      "AU_water_corporation_goldfields_transmission"
+    ],
+    "resources": [
+      "Saltwater",
+      "Groundwater"
+    ]
+  },
+  {
+    "id": "AU_yarra_valley_water_distribution",
+    "name": "Yarra Valley Water – Distribution Network",
+    "tier": "distribution",
+    "country_iso2": "AU",
+    "canonical_company": "Yarra Valley Water",
+    "coordinates": {
+      "lat": -37.75,
+      "lon": 145.1
+    },
+    "downstream": [
+      {
+        "target_id": "AU_residential",
+        "corridor_id": "AU_pipeline_yarra-valley-residential",
+        "resource": "potable water",
+        "quantity": 35000000,
+        "metric": "kL"
+      },
+      {
+        "target_id": "AU_commercial",
+        "corridor_id": "AU_pipeline_yarra-valley-commercial",
+        "resource": "potable water",
+        "quantity": 10000000,
+        "metric": "kL"
+      },
+      {
+        "target_id": "AU_industrial",
+        "corridor_id": "AU_pipeline_yarra-valley-industrial",
+        "resource": "potable water",
+        "quantity": 5000000,
+        "metric": "kL"
+      }
+    ],
+    "upstream": [
+      "AU_melbourne_water_transmission"
+    ],
+    "resources": [
+      "Saltwater"
+    ]
+  },
+  {
+    "id": "AU_south_east_water_distribution",
+    "name": "South East Water – Distribution Network",
+    "tier": "distribution",
+    "country_iso2": "AU",
+    "canonical_company": "South East Water",
+    "coordinates": {
+      "lat": -37.95,
+      "lon": 145.15
+    },
+    "downstream": [
+      {
+        "target_id": "AU_residential",
+        "corridor_id": "AU_pipeline_south-east-water-residential",
+        "resource": "potable water",
+        "quantity": 28000000,
+        "metric": "kL"
+      },
+      {
+        "target_id": "AU_commercial",
+        "corridor_id": "AU_pipeline_south-east-water-commercial",
+        "resource": "potable water",
+        "quantity": 8000000,
+        "metric": "kL"
+      },
+      {
+        "target_id": "AU_industrial",
+        "corridor_id": "AU_pipeline_south-east-water-industrial",
+        "resource": "potable water",
+        "quantity": 4000000,
+        "metric": "kL"
+      }
+    ],
+    "upstream": [
+      "AU_melbourne_water_transmission"
+    ],
+    "resources": [
+      "Saltwater"
+    ]
+  },
+  {
+    "id": "AU_city_west_water_distribution",
+    "name": "City West Water – Distribution Network",
+    "tier": "distribution",
+    "country_iso2": "AU",
+    "canonical_company": "City West Water",
+    "coordinates": {
+      "lat": -37.8,
+      "lon": 144.88
+    },
+    "downstream": [
+      {
+        "target_id": "AU_residential",
+        "corridor_id": "AU_pipeline_city-west-water-residential",
+        "resource": "potable water",
+        "quantity": 20000000,
+        "metric": "kL"
+      },
+      {
+        "target_id": "AU_commercial",
+        "corridor_id": "AU_pipeline_city-west-water-commercial",
+        "resource": "potable water",
+        "quantity": 10000000,
+        "metric": "kL"
+      },
+      {
+        "target_id": "AU_industrial",
+        "corridor_id": "AU_pipeline_city-west-water-industrial",
+        "resource": "potable water",
+        "quantity": 5000000,
+        "metric": "kL"
+      }
+    ],
+    "upstream": [
+      "AU_melbourne_water_transmission"
+    ],
+    "resources": [
+      "Saltwater"
+    ]
+  },
+  {
+    "id": "AU_sydney_water_distribution",
+    "name": "Sydney Water – Metropolitan Distribution Network",
+    "tier": "distribution",
+    "country_iso2": "AU",
+    "canonical_company": "Sydney Water",
+    "coordinates": {
+      "lat": -33.8688,
+      "lon": 151.2093
+    },
+    "downstream": [
+      {
+        "target_id": "AU_residential",
+        "corridor_id": "AU_pipeline_sydney-distribution-residential",
+        "resource": "potable water",
+        "quantity": 55000000,
+        "metric": "kL"
+      },
+      {
+        "target_id": "AU_commercial",
+        "corridor_id": "AU_pipeline_sydney-distribution-commercial",
+        "resource": "potable water",
+        "quantity": 22000000,
+        "metric": "kL"
+      },
+      {
+        "target_id": "AU_industrial",
+        "corridor_id": "AU_pipeline_sydney-distribution-industrial",
+        "resource": "potable water",
+        "quantity": 13000000,
+        "metric": "kL"
+      },
+      {
+        "target_id": "AU_residential",
+        "corridor_id": "AU_pipeline_sydney-residential",
+        "resource": "potable water",
+        "quantity": 310000000,
+        "metric": "kL"
+      },
+      {
+        "target_id": "AU_commercial",
+        "corridor_id": "AU_pipeline_sydney-commercial",
+        "resource": "potable water",
+        "quantity": 105000000,
+        "metric": "kL"
+      },
+      {
+        "target_id": "AU_industrial",
+        "corridor_id": "AU_pipeline_sydney-industrial",
+        "resource": "potable water",
+        "quantity": 80000000,
+        "metric": "kL"
+      },
+      {
+        "target_id": "AU_government",
+        "corridor_id": "AU_pipeline_sydney-government",
+        "resource": "potable water",
+        "quantity": 20000000,
+        "metric": "kL"
+      }
+    ],
+    "upstream": [
+      "AU_sydney_water_transmission"
+    ],
+    "resources": [
+      "Saltwater",
+      "Surface Water"
+    ]
+  },
+  {
+    "id": "AU_urban_utilities_distribution",
+    "name": "Urban Utilities – Brisbane Distribution Network",
+    "tier": "distribution",
+    "country_iso2": "AU",
+    "canonical_company": "Urban Utilities",
+    "coordinates": {
+      "lat": -27.4698,
+      "lon": 153.0251
+    },
+    "downstream": [
+      {
+        "target_id": "AU_residential",
+        "corridor_id": "AU_pipeline_brisbane-residential",
+        "resource": "potable water",
+        "quantity": 18000000,
+        "metric": "kL"
+      },
+      {
+        "target_id": "AU_commercial",
+        "corridor_id": "AU_pipeline_brisbane-commercial",
+        "resource": "potable water",
+        "quantity": 7000000,
+        "metric": "kL"
+      },
+      {
+        "target_id": "AU_industrial",
+        "corridor_id": "AU_pipeline_brisbane-industrial",
+        "resource": "potable water",
+        "quantity": 3000000,
+        "metric": "kL"
+      },
+      {
+        "target_id": "AU_residential",
+        "corridor_id": "AU_pipeline_uu-residential",
+        "resource": "potable water",
+        "quantity": 100000000,
+        "metric": "kL"
+      },
+      {
+        "target_id": "AU_commercial",
+        "corridor_id": "AU_pipeline_uu-commercial",
+        "resource": "potable water",
+        "quantity": 35000000,
+        "metric": "kL"
+      },
+      {
+        "target_id": "AU_industrial",
+        "corridor_id": "AU_pipeline_uu-industrial",
+        "resource": "potable water",
+        "quantity": 20000000,
+        "metric": "kL"
+      }
+    ],
+    "upstream": [
+      "AU_seqwater_transmission"
+    ],
+    "resources": [
+      "Saltwater",
+      "Surface Water"
+    ]
+  },
+  {
+    "id": "AU_gold_coast_water_distribution",
+    "name": "Gold Coast Water – Distribution Network",
+    "tier": "distribution",
+    "country_iso2": "AU",
+    "canonical_company": "City of Gold Coast",
+    "coordinates": {
+      "lat": -28.0167,
+      "lon": 153.4
+    },
+    "downstream": [
+      {
+        "target_id": "AU_residential",
+        "corridor_id": "AU_pipeline_goldcoast-residential",
+        "resource": "potable water",
+        "quantity": 15000000,
+        "metric": "kL"
+      },
+      {
+        "target_id": "AU_commercial",
+        "corridor_id": "AU_pipeline_goldcoast-commercial",
+        "resource": "potable water",
+        "quantity": 6000000,
+        "metric": "kL"
+      },
+      {
+        "target_id": "AU_residential",
+        "corridor_id": "AU_pipeline_gc-residential",
+        "resource": "potable water",
+        "quantity": 38000000,
+        "metric": "kL"
+      },
+      {
+        "target_id": "AU_commercial",
+        "corridor_id": "AU_pipeline_gc-commercial",
+        "resource": "potable water",
+        "quantity": 12000000,
+        "metric": "kL"
+      },
+      {
+        "target_id": "AU_industrial",
+        "corridor_id": "AU_pipeline_gc-industrial",
+        "resource": "potable water",
+        "quantity": 5000000,
+        "metric": "kL"
+      }
+    ],
+    "upstream": [
+      "AU_seqwater_transmission"
+    ],
+    "resources": [
+      "Saltwater",
+      "Surface Water"
+    ]
+  },
+  {
+    "id": "AU_sa_water_distribution",
+    "name": "SA Water – Adelaide Metropolitan Distribution Network",
+    "tier": "distribution",
+    "country_iso2": "AU",
+    "canonical_company": "SA Water",
+    "coordinates": {
+      "lat": -34.9285,
+      "lon": 138.6007
+    },
+    "downstream": [
+      {
+        "target_id": "AU_residential",
+        "corridor_id": "AU_pipeline_adelaide-residential",
+        "resource": "potable water",
+        "quantity": 60000000,
+        "metric": "kL"
+      },
+      {
+        "target_id": "AU_commercial",
+        "corridor_id": "AU_pipeline_adelaide-commercial",
+        "resource": "potable water",
+        "quantity": 22000000,
+        "metric": "kL"
+      },
+      {
+        "target_id": "AU_industrial",
+        "corridor_id": "AU_pipeline_adelaide-industrial",
+        "resource": "potable water",
+        "quantity": 12000000,
+        "metric": "kL"
+      },
+      {
+        "target_id": "AU_agricultural",
+        "corridor_id": "AU_pipeline_adelaide-agricultural",
+        "resource": "potable water",
+        "quantity": 6000000,
+        "metric": "kL"
+      },
+      {
+        "target_id": "AU_residential",
+        "corridor_id": "AU_pipeline_sa-residential",
+        "resource": "potable water",
+        "quantity": 108000000,
+        "metric": "kL"
+      },
+      {
+        "target_id": "AU_commercial",
+        "corridor_id": "AU_pipeline_sa-commercial",
+        "resource": "potable water",
+        "quantity": 36000000,
+        "metric": "kL"
+      },
+      {
+        "target_id": "AU_industrial",
+        "corridor_id": "AU_pipeline_sa-industrial",
+        "resource": "potable water",
+        "quantity": 25000000,
+        "metric": "kL"
+      },
+      {
+        "target_id": "AU_government",
+        "corridor_id": "AU_pipeline_sa-government",
+        "resource": "potable water",
+        "quantity": 11000000,
+        "metric": "kL"
+      }
+    ],
+    "upstream": [
+      "AU_sa_water_transmission"
+    ],
+    "resources": [
+      "Saltwater",
+      "Surface Water"
+    ]
+  },
+  {
+    "id": "AU_citic_pacific_mining_distribution",
+    "name": "CITIC Pacific Mining – Sino Iron Plant Water Distribution",
+    "tier": "distribution",
+    "country_iso2": "AU",
+    "canonical_company": "CITIC Pacific Mining",
+    "coordinates": {
+      "lat": -20.792,
+      "lon": 116.684
+    },
+    "downstream": [
+      {
+        "target_id": "AU_industrial",
+        "corridor_id": "AU_pipeline_sino-iron-plant-use",
+        "resource": "industrial process water for iron ore processing",
+        "quantity": 30000000,
+        "metric": "kL"
+      }
+    ],
+    "upstream": [
+      "AU_citic_pacific_mining_transmission"
+    ],
+    "resources": [
+      "Saltwater"
+    ]
+  },
+  {
+    "id": "AU_pipeline_kwinana-tamworth-hill",
+    "tier": "transport",
+    "name": "Kwinana SWDP to Tamworth Hill Reservoir Pipeline",
+    "country_iso2": "AU",
+    "operator_id": "AU_water_corporation",
+    "mode": "pipeline",
+    "form": "bulk_liquid",
+    "range": "local",
+    "coordinates": {
+      "lat": -32.18,
+      "lon": 115.81
+    }
+  },
+  {
+    "id": "AU_pipeline_binningup-perth",
+    "tier": "transport",
+    "name": "Binningup to Perth Integrated Supply Scheme Pipeline",
+    "country_iso2": "AU",
+    "operator_id": "AU_water_corporation",
+    "mode": "pipeline",
+    "form": "bulk_liquid",
+    "range": "regional",
+    "coordinates": {
+      "lat": -32.6,
+      "lon": 115.75
+    }
+  },
+  {
+    "id": "AU_pipeline_wonthaggi-cardinia",
+    "tier": "transport",
+    "name": "Wonthaggi to Cardinia Reservoir Transfer Pipeline",
+    "country_iso2": "AU",
+    "operator_id": "AU_aquasure",
+    "mode": "pipeline",
+    "form": "bulk_liquid",
+    "range": "regional",
+    "coordinates": {
+      "lat": -38.35,
+      "lon": 145.55
+    }
+  },
+  {
+    "id": "AU_pipeline_kurnell-erskineville",
+    "tier": "transport",
+    "name": "Kurnell to Erskineville Delivery Pipeline",
+    "country_iso2": "AU",
+    "operator_id": "AU_sydney_desalination_plant_pty_ltd",
+    "mode": "pipeline",
+    "form": "bulk_liquid",
+    "range": "local",
+    "coordinates": {
+      "lat": -33.95,
+      "lon": 151.2
+    }
+  },
+  {
+    "id": "AU_pipeline_tugun-molendinar",
+    "tier": "transport",
+    "name": "Tugun to Molendinar Pipeline",
+    "country_iso2": "AU",
+    "operator_id": "AU_seqwater",
+    "mode": "pipeline",
+    "form": "bulk_liquid",
+    "range": "local",
+    "coordinates": {
+      "lat": -28.08,
+      "lon": 153.45
+    }
+  },
+  {
+    "id": "AU_pipeline_port-stanvac-happy-valley",
+    "tier": "transport",
+    "name": "Port Stanvac to Happy Valley WTP Pipeline",
+    "country_iso2": "AU",
+    "operator_id": "AU_sa_water",
+    "mode": "pipeline",
+    "form": "bulk_liquid",
+    "range": "local",
+    "coordinates": {
+      "lat": -35.08,
+      "lon": 138.52
+    }
+  },
+  {
+    "id": "AU_pipeline_cape-preston-sino-iron",
+    "tier": "transport",
+    "name": "Cape Preston Desal to Sino Iron Plant Pipeline",
+    "country_iso2": "AU",
+    "operator_id": "AU_citic_pacific_mining",
+    "mode": "pipeline",
+    "form": "bulk_liquid",
+    "range": "local",
+    "coordinates": {
+      "lat": -20.789,
+      "lon": 116.679
+    }
+  },
+  {
+    "id": "AU_pipeline_wungong-perth-network",
+    "tier": "transport",
+    "name": "Wungong to Perth Integrated Supply Scheme Pipeline",
+    "country_iso2": "AU",
+    "operator_id": "AU_water_corporation",
+    "mode": "pipeline",
+    "form": "bulk_liquid",
+    "range": "local",
+    "coordinates": {
+      "lat": -32.27,
+      "lon": 115.87
+    }
+  },
+  {
+    "id": "AU_pipeline_perth-treatment-to-trunk",
+    "tier": "transport",
+    "name": "Perth Treatment to Trunk Main System",
+    "country_iso2": "AU",
+    "operator_id": "AU_water_corporation",
+    "mode": "pipeline",
+    "form": "bulk_liquid",
+    "range": "local",
+    "coordinates": {
+      "lat": -31.94,
+      "lon": 115.87
+    }
+  },
+  {
+    "id": "AU_pipeline_cardinia-to-melbourne-trunk",
+    "tier": "transport",
+    "name": "Cardinia Reservoir to Melbourne Trunk Main System",
+    "country_iso2": "AU",
+    "operator_id": "AU_melbourne_water",
+    "mode": "pipeline",
+    "form": "bulk_liquid",
+    "range": "regional",
+    "coordinates": {
+      "lat": -37.92,
+      "lon": 145.2
+    }
+  },
+  {
+    "id": "AU_pipeline_erskineville-to-sydney-trunk",
+    "tier": "transport",
+    "name": "Erskineville to Sydney Bulk Water Trunk System",
+    "country_iso2": "AU",
+    "operator_id": "AU_sydney_water",
+    "mode": "pipeline",
+    "form": "bulk_liquid",
+    "range": "local",
+    "coordinates": {
+      "lat": -33.9,
+      "lon": 151.19
+    }
+  },
+  {
+    "id": "AU_pipeline_molendinar-to-seq-grid",
+    "tier": "transport",
+    "name": "Molendinar to SEQ Water Grid Pipeline",
+    "country_iso2": "AU",
+    "operator_id": "AU_seqwater",
+    "mode": "pipeline",
+    "form": "bulk_liquid",
+    "range": "regional",
+    "coordinates": {
+      "lat": -27.9,
+      "lon": 153.32
+    }
+  },
+  {
+    "id": "AU_pipeline_happy-valley-to-adelaide-trunk",
+    "tier": "transport",
+    "name": "Happy Valley to Adelaide Trunk Mains",
+    "country_iso2": "AU",
+    "operator_id": "AU_sa_water",
+    "mode": "pipeline",
+    "form": "bulk_liquid",
+    "range": "local",
+    "coordinates": {
+      "lat": -34.99,
+      "lon": 138.57
+    }
+  },
+  {
+    "id": "AU_pipeline_sino-iron-internal",
+    "tier": "transport",
+    "name": "Sino Iron Internal Water Treatment Pipeline",
+    "country_iso2": "AU",
+    "operator_id": "AU_citic_pacific_mining",
+    "mode": "pipeline",
+    "form": "bulk_liquid",
+    "range": "local",
+    "coordinates": {
+      "lat": -20.79,
+      "lon": 116.681
+    }
+  },
+  {
+    "id": "AU_pipeline_perth-trunk-to-distribution",
+    "tier": "transport",
+    "name": "Perth IWSS Trunk to Metropolitan Distribution",
+    "country_iso2": "AU",
+    "operator_id": "AU_water_corporation",
+    "mode": "pipeline",
+    "form": "bulk_liquid",
+    "range": "regional",
+    "coordinates": {
+      "lat": -31.92,
+      "lon": 115.88
+    }
+  },
+  {
+    "id": "AU_pipeline_perth-trunk-to-mandurah",
+    "tier": "transport",
+    "name": "Perth IWSS Trunk to Mandurah / Peel",
+    "country_iso2": "AU",
+    "operator_id": "AU_water_corporation",
+    "mode": "pipeline",
+    "form": "bulk_liquid",
+    "range": "regional",
+    "coordinates": {
+      "lat": -32.3,
+      "lon": 115.78
+    }
+  },
+  {
+    "id": "AU_pipeline_mundaring-goldfields",
+    "tier": "transport",
+    "name": "Mundaring to Goldfields Pipeline (Goldfields & Agricultural Water Supply Scheme)",
+    "country_iso2": "AU",
+    "operator_id": "AU_water_corporation",
+    "mode": "pipeline",
+    "form": "bulk_liquid",
+    "range": "regional",
+    "coordinates": {
+      "lat": -31.6,
+      "lon": 118.5
+    },
+    "resources": [
+      "Surface Water"
+    ],
+    "upstream": [],
+    "downstream": []
+  },
+  {
+    "id": "AU_pipeline_melbourne-trunk-east",
+    "tier": "transport",
+    "name": "Melbourne Bulk Water Trunk – Eastern System",
+    "country_iso2": "AU",
+    "operator_id": "AU_melbourne_water",
+    "mode": "pipeline",
+    "form": "bulk_liquid",
+    "range": "regional",
+    "coordinates": {
+      "lat": -37.78,
+      "lon": 145.05
+    }
+  },
+  {
+    "id": "AU_pipeline_melbourne-trunk-southeast",
+    "tier": "transport",
+    "name": "Melbourne Bulk Water Trunk – South-Eastern System",
+    "country_iso2": "AU",
+    "operator_id": "AU_melbourne_water",
+    "mode": "pipeline",
+    "form": "bulk_liquid",
+    "range": "regional",
+    "coordinates": {
+      "lat": -37.9,
+      "lon": 145.1
+    }
+  },
+  {
+    "id": "AU_pipeline_melbourne-trunk-west",
+    "tier": "transport",
+    "name": "Melbourne Bulk Water Trunk – Western System",
+    "country_iso2": "AU",
+    "operator_id": "AU_melbourne_water",
+    "mode": "pipeline",
+    "form": "bulk_liquid",
+    "range": "regional",
+    "coordinates": {
+      "lat": -37.8,
+      "lon": 144.85
+    }
+  },
+  {
+    "id": "AU_pipeline_sydney-trunk-to-distribution",
+    "tier": "transport",
+    "name": "Sydney Bulk Transfer to Distribution Network",
+    "country_iso2": "AU",
+    "operator_id": "AU_sydney_water",
+    "mode": "pipeline",
+    "form": "bulk_liquid",
+    "range": "regional",
+    "coordinates": {
+      "lat": -33.86,
+      "lon": 151.18
+    }
+  },
+  {
+    "id": "AU_pipeline_seq-grid-to-brisbane",
+    "tier": "transport",
+    "name": "SEQ Grid to Brisbane Urban Utilities",
+    "country_iso2": "AU",
+    "operator_id": "AU_seqwater",
+    "mode": "pipeline",
+    "form": "bulk_liquid",
+    "range": "regional",
+    "coordinates": {
+      "lat": -27.5,
+      "lon": 153.03
+    }
+  },
+  {
+    "id": "AU_pipeline_seq-grid-to-goldcoast",
+    "tier": "transport",
+    "name": "SEQ Grid to Gold Coast Distribution",
+    "country_iso2": "AU",
+    "operator_id": "AU_seqwater",
+    "mode": "pipeline",
+    "form": "bulk_liquid",
+    "range": "regional",
+    "coordinates": {
+      "lat": -27.8,
+      "lon": 153.25
+    }
+  },
+  {
+    "id": "AU_pipeline_adelaide-trunk-to-distribution",
+    "tier": "transport",
+    "name": "Adelaide Trunk to Distribution Network",
+    "country_iso2": "AU",
+    "operator_id": "AU_sa_water",
+    "mode": "pipeline",
+    "form": "bulk_liquid",
+    "range": "regional",
+    "coordinates": {
+      "lat": -34.94,
+      "lon": 138.59
+    }
+  },
+  {
+    "id": "AU_pipeline_sino-iron-process-distribution",
+    "tier": "transport",
+    "name": "Sino Iron Process Water Distribution Pipeline",
+    "country_iso2": "AU",
+    "operator_id": "AU_citic_pacific_mining",
+    "mode": "pipeline",
+    "form": "bulk_liquid",
+    "range": "local",
+    "coordinates": {
+      "lat": -20.792,
+      "lon": 116.684
+    }
+  },
+  {
+    "id": "AU_pipeline_perth-metro-residential",
+    "tier": "transport",
+    "name": "Perth Metro Residential Distribution Mains",
+    "country_iso2": "AU",
+    "operator_id": "AU_water_corporation",
+    "mode": "pipeline",
+    "form": "bulk_liquid",
+    "range": "local",
+    "coordinates": {
+      "lat": -31.9505,
+      "lon": 115.8605
+    }
+  },
+  {
+    "id": "AU_pipeline_perth-metro-commercial",
+    "tier": "transport",
+    "name": "Perth Metro Commercial Distribution Mains",
+    "country_iso2": "AU",
+    "operator_id": "AU_water_corporation",
+    "mode": "pipeline",
+    "form": "bulk_liquid",
+    "range": "local",
+    "coordinates": {
+      "lat": -31.9505,
+      "lon": 115.8605
+    }
+  },
+  {
+    "id": "AU_pipeline_perth-metro-industrial",
+    "tier": "transport",
+    "name": "Perth Metro Industrial Distribution Mains",
+    "country_iso2": "AU",
+    "operator_id": "AU_water_corporation",
+    "mode": "pipeline",
+    "form": "bulk_liquid",
+    "range": "local",
+    "coordinates": {
+      "lat": -31.9505,
+      "lon": 115.8605
+    }
+  },
+  {
+    "id": "AU_pipeline_mandurah-residential",
+    "tier": "transport",
+    "name": "Mandurah Residential Distribution Mains",
+    "country_iso2": "AU",
+    "operator_id": "AU_water_corporation",
+    "mode": "pipeline",
+    "form": "bulk_liquid",
+    "range": "local",
+    "coordinates": {
+      "lat": -32.5269,
+      "lon": 115.7217
+    }
+  },
+  {
+    "id": "AU_pipeline_mandurah-commercial",
+    "tier": "transport",
+    "name": "Mandurah Commercial Distribution Mains",
+    "country_iso2": "AU",
+    "operator_id": "AU_water_corporation",
+    "mode": "pipeline",
+    "form": "bulk_liquid",
+    "range": "local",
+    "coordinates": {
+      "lat": -32.5269,
+      "lon": 115.7217
+    }
+  },
+  {
+    "id": "AU_pipeline_goldfields-mining-industrial",
+    "tier": "transport",
+    "name": "Goldfields Mining & Industrial Distribution",
+    "country_iso2": "AU",
+    "operator_id": "AU_water_corporation",
+    "mode": "pipeline",
+    "form": "bulk_liquid",
+    "range": "local",
+    "coordinates": {
+      "lat": -31.18,
+      "lon": 121.45
+    }
+  },
+  {
+    "id": "AU_pipeline_goldfields-residential",
+    "tier": "transport",
+    "name": "Goldfields Residential Distribution",
+    "country_iso2": "AU",
+    "operator_id": "AU_water_corporation",
+    "mode": "pipeline",
+    "form": "bulk_liquid",
+    "range": "local",
+    "coordinates": {
+      "lat": -31.18,
+      "lon": 121.45
+    }
+  },
+  {
+    "id": "AU_pipeline_goldfields-agricultural",
+    "tier": "transport",
+    "name": "Goldfields Agricultural Distribution",
+    "country_iso2": "AU",
+    "operator_id": "AU_water_corporation",
+    "mode": "pipeline",
+    "form": "bulk_liquid",
+    "range": "local",
+    "coordinates": {
+      "lat": -31.3,
+      "lon": 121
+    }
+  },
+  {
+    "id": "AU_pipeline_yarra-valley-residential",
+    "tier": "transport",
+    "name": "Yarra Valley Water Residential Distribution Mains",
+    "country_iso2": "AU",
+    "operator_id": "AU_yarra_valley_water",
+    "mode": "pipeline",
+    "form": "bulk_liquid",
+    "range": "local",
+    "coordinates": {
+      "lat": -37.75,
+      "lon": 145.1
+    }
+  },
+  {
+    "id": "AU_pipeline_yarra-valley-commercial",
+    "tier": "transport",
+    "name": "Yarra Valley Water Commercial Distribution Mains",
+    "country_iso2": "AU",
+    "operator_id": "AU_yarra_valley_water",
+    "mode": "pipeline",
+    "form": "bulk_liquid",
+    "range": "local",
+    "coordinates": {
+      "lat": -37.75,
+      "lon": 145.1
+    }
+  },
+  {
+    "id": "AU_pipeline_yarra-valley-industrial",
+    "tier": "transport",
+    "name": "Yarra Valley Water Industrial Distribution Mains",
+    "country_iso2": "AU",
+    "operator_id": "AU_yarra_valley_water",
+    "mode": "pipeline",
+    "form": "bulk_liquid",
+    "range": "local",
+    "coordinates": {
+      "lat": -37.75,
+      "lon": 145.1
+    }
+  },
+  {
+    "id": "AU_pipeline_south-east-water-residential",
+    "tier": "transport",
+    "name": "South East Water Residential Distribution Mains",
+    "country_iso2": "AU",
+    "operator_id": "AU_south_east_water",
+    "mode": "pipeline",
+    "form": "bulk_liquid",
+    "range": "local",
+    "coordinates": {
+      "lat": -37.95,
+      "lon": 145.15
+    }
+  },
+  {
+    "id": "AU_pipeline_south-east-water-commercial",
+    "tier": "transport",
+    "name": "South East Water Commercial Distribution Mains",
+    "country_iso2": "AU",
+    "operator_id": "AU_south_east_water",
+    "mode": "pipeline",
+    "form": "bulk_liquid",
+    "range": "local",
+    "coordinates": {
+      "lat": -37.95,
+      "lon": 145.15
+    }
+  },
+  {
+    "id": "AU_pipeline_south-east-water-industrial",
+    "tier": "transport",
+    "name": "South East Water Industrial Distribution Mains",
+    "country_iso2": "AU",
+    "operator_id": "AU_south_east_water",
+    "mode": "pipeline",
+    "form": "bulk_liquid",
+    "range": "local",
+    "coordinates": {
+      "lat": -37.95,
+      "lon": 145.15
+    }
+  },
+  {
+    "id": "AU_pipeline_city-west-water-residential",
+    "tier": "transport",
+    "name": "City West Water Residential Distribution Mains",
+    "country_iso2": "AU",
+    "operator_id": "AU_city_west_water",
+    "mode": "pipeline",
+    "form": "bulk_liquid",
+    "range": "local",
+    "coordinates": {
+      "lat": -37.8,
+      "lon": 144.88
+    }
+  },
+  {
+    "id": "AU_pipeline_city-west-water-commercial",
+    "tier": "transport",
+    "name": "City West Water Commercial Distribution Mains",
+    "country_iso2": "AU",
+    "operator_id": "AU_city_west_water",
+    "mode": "pipeline",
+    "form": "bulk_liquid",
+    "range": "local",
+    "coordinates": {
+      "lat": -37.8,
+      "lon": 144.88
+    }
+  },
+  {
+    "id": "AU_pipeline_city-west-water-industrial",
+    "tier": "transport",
+    "name": "City West Water Industrial Distribution Mains",
+    "country_iso2": "AU",
+    "operator_id": "AU_city_west_water",
+    "mode": "pipeline",
+    "form": "bulk_liquid",
+    "range": "local",
+    "coordinates": {
+      "lat": -37.8,
+      "lon": 144.88
+    }
+  },
+  {
+    "id": "AU_pipeline_sydney-distribution-residential",
+    "tier": "transport",
+    "name": "Sydney Water Residential Distribution Mains",
+    "country_iso2": "AU",
+    "operator_id": "AU_sydney_water",
+    "mode": "pipeline",
+    "form": "bulk_liquid",
+    "range": "local",
+    "coordinates": {
+      "lat": -33.8688,
+      "lon": 151.2093
+    }
+  },
+  {
+    "id": "AU_pipeline_sydney-distribution-commercial",
+    "tier": "transport",
+    "name": "Sydney Water Commercial Distribution Mains",
+    "country_iso2": "AU",
+    "operator_id": "AU_sydney_water",
+    "mode": "pipeline",
+    "form": "bulk_liquid",
+    "range": "local",
+    "coordinates": {
+      "lat": -33.8688,
+      "lon": 151.2093
+    }
+  },
+  {
+    "id": "AU_pipeline_sydney-distribution-industrial",
+    "tier": "transport",
+    "name": "Sydney Water Industrial Distribution Mains",
+    "country_iso2": "AU",
+    "operator_id": "AU_sydney_water",
+    "mode": "pipeline",
+    "form": "bulk_liquid",
+    "range": "local",
+    "coordinates": {
+      "lat": -33.8688,
+      "lon": 151.2093
+    }
+  },
+  {
+    "id": "AU_pipeline_brisbane-residential",
+    "tier": "transport",
+    "name": "Urban Utilities Brisbane Residential Distribution Mains",
+    "country_iso2": "AU",
+    "operator_id": "AU_urban_utilities",
+    "mode": "pipeline",
+    "form": "bulk_liquid",
+    "range": "local",
+    "coordinates": {
+      "lat": -27.4698,
+      "lon": 153.0251
+    }
+  },
+  {
+    "id": "AU_pipeline_brisbane-commercial",
+    "tier": "transport",
+    "name": "Urban Utilities Brisbane Commercial Distribution Mains",
+    "country_iso2": "AU",
+    "operator_id": "AU_urban_utilities",
+    "mode": "pipeline",
+    "form": "bulk_liquid",
+    "range": "local",
+    "coordinates": {
+      "lat": -27.4698,
+      "lon": 153.0251
+    }
+  },
+  {
+    "id": "AU_pipeline_brisbane-industrial",
+    "tier": "transport",
+    "name": "Urban Utilities Brisbane Industrial Distribution Mains",
+    "country_iso2": "AU",
+    "operator_id": "AU_urban_utilities",
+    "mode": "pipeline",
+    "form": "bulk_liquid",
+    "range": "local",
+    "coordinates": {
+      "lat": -27.4698,
+      "lon": 153.0251
+    }
+  },
+  {
+    "id": "AU_pipeline_goldcoast-residential",
+    "tier": "transport",
+    "name": "Gold Coast Residential Distribution Mains",
+    "country_iso2": "AU",
+    "operator_id": "AU_city_of_gold_coast",
+    "mode": "pipeline",
+    "form": "bulk_liquid",
+    "range": "local",
+    "coordinates": {
+      "lat": -28.0167,
+      "lon": 153.4
+    }
+  },
+  {
+    "id": "AU_pipeline_goldcoast-commercial",
+    "tier": "transport",
+    "name": "Gold Coast Commercial Distribution Mains",
+    "country_iso2": "AU",
+    "operator_id": "AU_city_of_gold_coast",
+    "mode": "pipeline",
+    "form": "bulk_liquid",
+    "range": "local",
+    "coordinates": {
+      "lat": -28.0167,
+      "lon": 153.4
+    }
+  },
+  {
+    "id": "AU_pipeline_adelaide-residential",
+    "tier": "transport",
+    "name": "SA Water Adelaide Residential Distribution Mains",
+    "country_iso2": "AU",
+    "operator_id": "AU_sa_water",
+    "mode": "pipeline",
+    "form": "bulk_liquid",
+    "range": "local",
+    "coordinates": {
+      "lat": -34.9285,
+      "lon": 138.6007
+    }
+  },
+  {
+    "id": "AU_pipeline_adelaide-commercial",
+    "tier": "transport",
+    "name": "SA Water Adelaide Commercial Distribution Mains",
+    "country_iso2": "AU",
+    "operator_id": "AU_sa_water",
+    "mode": "pipeline",
+    "form": "bulk_liquid",
+    "range": "local",
+    "coordinates": {
+      "lat": -34.9285,
+      "lon": 138.6007
+    }
+  },
+  {
+    "id": "AU_pipeline_adelaide-industrial",
+    "tier": "transport",
+    "name": "SA Water Adelaide Industrial Distribution Mains",
+    "country_iso2": "AU",
+    "operator_id": "AU_sa_water",
+    "mode": "pipeline",
+    "form": "bulk_liquid",
+    "range": "local",
+    "coordinates": {
+      "lat": -34.9285,
+      "lon": 138.6007
+    }
+  },
+  {
+    "id": "AU_pipeline_adelaide-agricultural",
+    "tier": "transport",
+    "name": "SA Water Adelaide Agricultural Distribution Mains",
+    "country_iso2": "AU",
+    "operator_id": "AU_sa_water",
+    "mode": "pipeline",
+    "form": "bulk_liquid",
+    "range": "regional",
+    "coordinates": {
+      "lat": -35.1,
+      "lon": 138.7
+    }
+  },
+  {
+    "id": "AU_pipeline_sino-iron-plant-use",
+    "tier": "transport",
+    "name": "Sino Iron Magnetite Processing Plant Water Use",
+    "country_iso2": "AU",
+    "operator_id": "AU_citic_pacific_mining",
+    "mode": "pipeline",
+    "form": "bulk_liquid",
+    "range": "local",
+    "coordinates": {
+      "lat": -20.792,
+      "lon": 116.684
+    }
+  }
+]

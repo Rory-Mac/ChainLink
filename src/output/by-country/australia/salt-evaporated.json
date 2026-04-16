@@ -1,0 +1,1987 @@
+[
+  {
+    "id": "AU_rio_tinto_dampier_salt_lake_macleod",
+    "name": "Dampier Salt – Lake MacLeod",
+    "tier": "extraction",
+    "country_iso2": "AU",
+    "canonical_company": "Rio Tinto (Dampier Salt)",
+    "coordinates": {
+      "lat": -23.85,
+      "lon": 113.62
+    },
+    "downstream": [
+      {
+        "target_id": "AU_dampier_salt_cape_cuvier_export",
+        "corridor_id": "AU_road_lake-macleod-cape-cuvier",
+        "resource": "raw solar salt (bulk NaCl)",
+        "quantity": 2400000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Salt (evaporated)"
+    ]
+  },
+  {
+    "id": "AU_rio_tinto_dampier_salt_port_hedland",
+    "name": "Dampier Salt – Port Hedland",
+    "tier": "extraction",
+    "country_iso2": "AU",
+    "canonical_company": "Rio Tinto (Dampier Salt)",
+    "coordinates": {
+      "lat": -20.35,
+      "lon": 118.58
+    },
+    "downstream": [
+      {
+        "target_id": "AU_dampier_salt_port_hedland_export",
+        "corridor_id": "AU_conveyor_dampier-port-hedland",
+        "resource": "raw solar salt (bulk NaCl)",
+        "quantity": 3200000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Salt (evaporated)"
+    ]
+  },
+  {
+    "id": "AU_rio_tinto_dampier_salt_dampier",
+    "name": "Dampier Salt – Dampier",
+    "tier": "extraction",
+    "country_iso2": "AU",
+    "canonical_company": "Rio Tinto (Dampier Salt)",
+    "coordinates": {
+      "lat": -20.66,
+      "lon": 116.72
+    },
+    "downstream": [
+      {
+        "target_id": "AU_dampier_salt_dampier_export",
+        "corridor_id": "AU_conveyor_dampier-salt-dampier-port",
+        "resource": "raw solar salt (bulk NaCl)",
+        "quantity": 3900000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Salt (evaporated)"
+    ]
+  },
+  {
+    "id": "AU_orrcon_salt_dry_creek",
+    "name": "Penrice (now Orora/Orrcon) – Dry Creek Salt Fields",
+    "tier": "extraction",
+    "country_iso2": "AU",
+    "canonical_company": "Penrice Soda",
+    "coordinates": {
+      "lat": -34.78,
+      "lon": 138.58
+    },
+    "downstream": [
+      {
+        "target_id": "AU_penrice_soda_osborne",
+        "corridor_id": "AU_road_dry-creek-osborne",
+        "resource": "raw solar salt (bulk NaCl)",
+        "quantity": 400000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Salt (evaporated)"
+    ]
+  },
+  {
+    "id": "AU_ridley_corporation_lara",
+    "name": "Ridley Corporation – Lara Salt Works",
+    "tier": "extraction",
+    "country_iso2": "AU",
+    "canonical_company": "Ridley Corporation",
+    "coordinates": {
+      "lat": -38.02,
+      "lon": 144.42
+    },
+    "downstream": [
+      {
+        "target_id": "AU_ridley_salt_refinery_lara",
+        "corridor_id": "AU_conveyor_lara-salt-refinery",
+        "resource": "raw solar salt (bulk NaCl)",
+        "quantity": 200000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_ridley_salt_refinery_lara",
+        "corridor_id": "AU_conveyor_lara-refinery",
+        "resource": "raw rock salt",
+        "quantity": 200000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Salt (evaporated)",
+      "Salt (rock)"
+    ]
+  },
+  {
+    "id": "AU_cheetham_salt_laverton",
+    "name": "Cheetham Salt – Laverton",
+    "tier": "extraction",
+    "country_iso2": "AU",
+    "canonical_company": "Cheetham Salt",
+    "coordinates": {
+      "lat": -37.85,
+      "lon": 144.76
+    },
+    "downstream": [
+      {
+        "target_id": "AU_cheetham_salt_refinery_laverton",
+        "corridor_id": "AU_conveyor_laverton-salt-refinery",
+        "resource": "raw solar salt (bulk NaCl)",
+        "quantity": 250000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_cheetham_salt_refinery_laverton",
+        "corridor_id": "AU_conveyor_laverton-refinery",
+        "resource": "raw solar salt",
+        "quantity": 300000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Salt (evaporated)",
+      "Salt (rock)"
+    ]
+  },
+  {
+    "id": "AU_cheetham_salt_bajool",
+    "name": "Cheetham Salt – Bajool (Port Alma)",
+    "tier": "extraction",
+    "country_iso2": "AU",
+    "canonical_company": "Cheetham Salt",
+    "coordinates": {
+      "lat": -23.55,
+      "lon": 150.64
+    },
+    "downstream": [
+      {
+        "target_id": "AU_cheetham_salt_refinery_bajool",
+        "corridor_id": "AU_road_bajool-refinery",
+        "resource": "raw solar salt (bulk NaCl)",
+        "quantity": 300000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Salt (evaporated)"
+    ]
+  },
+  {
+    "id": "AU_cheetham_salt_price",
+    "name": "Cheetham Salt – Price (SA)",
+    "tier": "extraction",
+    "country_iso2": "AU",
+    "canonical_company": "Cheetham Salt",
+    "coordinates": {
+      "lat": -34.29,
+      "lon": 138.01
+    },
+    "downstream": [
+      {
+        "target_id": "AU_cheetham_salt_refinery_price",
+        "corridor_id": "AU_road_price-refinery",
+        "resource": "raw solar salt (bulk NaCl)",
+        "quantity": 200000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Salt (evaporated)"
+    ]
+  },
+  {
+    "id": "AU_esco_salt_lake_deborah",
+    "name": "WA Salt Supply (formerly K+S / Esco) – Lake Deborah",
+    "tier": "extraction",
+    "country_iso2": "AU",
+    "canonical_company": "WA Salt Supply",
+    "coordinates": {
+      "lat": -31.28,
+      "lon": 119.51
+    },
+    "downstream": [
+      {
+        "target_id": "AU_wa_salt_supply_refinery_kwinana",
+        "corridor_id": "AU_rail_lake-deborah-kwinana",
+        "resource": "raw solar salt (bulk NaCl)",
+        "quantity": 300000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Salt (evaporated)"
+    ]
+  },
+  {
+    "id": "AU_coogee_chemicals_salt_lake_lefroy",
+    "name": "Coogee Chemicals – Lake Lefroy",
+    "tier": "extraction",
+    "country_iso2": "AU",
+    "canonical_company": "Coogee Chemicals",
+    "coordinates": {
+      "lat": -31.72,
+      "lon": 121.73
+    },
+    "downstream": [
+      {
+        "target_id": "AU_coogee_chemicals_kwinana",
+        "corridor_id": "AU_rail_lake-lefroy-kwinana",
+        "resource": "raw solar salt (bulk NaCl)",
+        "quantity": 150000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Salt (evaporated)"
+    ]
+  },
+  {
+    "id": "AU_dampier_salt_cape_cuvier_export",
+    "name": "Dampier Salt – Cape Cuvier Export Terminal",
+    "tier": "refinery",
+    "country_iso2": "AU",
+    "canonical_company": "Rio Tinto (Dampier Salt)",
+    "coordinates": {
+      "lat": -24.22,
+      "lon": 113.39
+    },
+    "downstream": [
+      {
+        "target_id": "JP_jsc_japan_soda_industry",
+        "corridor_id": "INTL_ocean_cape-cuvier-japan",
+        "resource": "industrial solar salt (bulk NaCl)",
+        "quantity": 1400000,
+        "metric": "t"
+      },
+      {
+        "target_id": "KR_dc_chemical",
+        "corridor_id": "INTL_ocean_cape-cuvier-korea",
+        "resource": "industrial solar salt (bulk NaCl)",
+        "quantity": 600000,
+        "metric": "t"
+      },
+      {
+        "target_id": "ID_asahimas_chemical",
+        "corridor_id": "INTL_ocean_cape-cuvier-indonesia",
+        "resource": "industrial solar salt (bulk NaCl)",
+        "quantity": 400000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_rio_tinto_dampier_salt_lake_macleod"
+    ],
+    "resources": [
+      "Salt (evaporated)"
+    ]
+  },
+  {
+    "id": "AU_dampier_salt_port_hedland_export",
+    "name": "Dampier Salt – Port Hedland Export Terminal",
+    "tier": "refinery",
+    "country_iso2": "AU",
+    "canonical_company": "Rio Tinto (Dampier Salt)",
+    "coordinates": {
+      "lat": -20.31,
+      "lon": 118.57
+    },
+    "downstream": [
+      {
+        "target_id": "JP_jsc_japan_soda_industry",
+        "corridor_id": "INTL_ocean_port-hedland-japan",
+        "resource": "industrial solar salt (bulk NaCl)",
+        "quantity": 1800000,
+        "metric": "t"
+      },
+      {
+        "target_id": "KR_dc_chemical",
+        "corridor_id": "INTL_ocean_port-hedland-korea",
+        "resource": "industrial solar salt (bulk NaCl)",
+        "quantity": 800000,
+        "metric": "t"
+      },
+      {
+        "target_id": "CN_shandong_haihua",
+        "corridor_id": "INTL_ocean_port-hedland-china",
+        "resource": "industrial solar salt (bulk NaCl)",
+        "quantity": 600000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_rio_tinto_dampier_salt_port_hedland"
+    ],
+    "resources": [
+      "Salt (evaporated)"
+    ]
+  },
+  {
+    "id": "AU_dampier_salt_dampier_export",
+    "name": "Dampier Salt – Dampier Export Terminal",
+    "tier": "refinery",
+    "country_iso2": "AU",
+    "canonical_company": "Rio Tinto (Dampier Salt)",
+    "coordinates": {
+      "lat": -20.63,
+      "lon": 116.71
+    },
+    "downstream": [
+      {
+        "target_id": "JP_jsc_japan_soda_industry",
+        "corridor_id": "INTL_ocean_dampier-japan",
+        "resource": "industrial solar salt (bulk NaCl)",
+        "quantity": 2100000,
+        "metric": "t"
+      },
+      {
+        "target_id": "KR_dc_chemical",
+        "corridor_id": "INTL_ocean_dampier-korea",
+        "resource": "industrial solar salt (bulk NaCl)",
+        "quantity": 900000,
+        "metric": "t"
+      },
+      {
+        "target_id": "TW_formosa_plastics",
+        "corridor_id": "INTL_ocean_dampier-taiwan",
+        "resource": "industrial solar salt (bulk NaCl)",
+        "quantity": 500000,
+        "metric": "t"
+      },
+      {
+        "target_id": "MY_petronas_chemicals",
+        "corridor_id": "INTL_ocean_dampier-malaysia",
+        "resource": "industrial solar salt (bulk NaCl)",
+        "quantity": 400000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_rio_tinto_dampier_salt_dampier"
+    ],
+    "resources": [
+      "Salt (evaporated)"
+    ]
+  },
+  {
+    "id": "AU_penrice_soda_osborne",
+    "name": "Penrice Soda – Osborne Soda Ash Plant",
+    "tier": "refinery",
+    "country_iso2": "AU",
+    "canonical_company": "Penrice Soda",
+    "coordinates": {
+      "lat": -34.83,
+      "lon": 138.55
+    },
+    "downstream": [
+      {
+        "target_id": "AU_orica_chemicals",
+        "corridor_id": "AU_road_osborne-botany",
+        "resource": "soda ash (Na₂CO₃) / refined salt",
+        "quantity": 200000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_industrial",
+        "corridor_id": "AU_road_osborne-domestic",
+        "resource": "soda ash (Na₂CO₃) / sodium bicarbonate",
+        "quantity": 200000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_penrice_soda_refinery_osborne",
+        "corridor_id": "AU_road_price-osborne",
+        "resource": "raw solar salt",
+        "quantity": 500000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_orrcon_salt_dry_creek"
+    ],
+    "resources": [
+      "Salt (evaporated)",
+      "Salt (rock)"
+    ]
+  },
+  {
+    "id": "AU_ridley_salt_refinery_lara",
+    "name": "Ridley Corporation – Lara Salt Refinery",
+    "tier": "refinery",
+    "country_iso2": "AU",
+    "canonical_company": "Ridley Corporation",
+    "coordinates": {
+      "lat": -38.02,
+      "lon": 144.42
+    },
+    "downstream": [
+      {
+        "target_id": "AU_ridley_food_grade_distribution",
+        "corridor_id": "AU_road_lara-melbourne",
+        "resource": "refined food-grade salt",
+        "quantity": 60000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_industrial",
+        "corridor_id": "AU_road_lara-industrial",
+        "resource": "industrial refined salt",
+        "quantity": 100000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_agricultural",
+        "corridor_id": "AU_road_lara-agricultural",
+        "resource": "stock feed salt",
+        "quantity": 40000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_orica_chemical_deer_park",
+        "corridor_id": "AU_road_lara-deer-park",
+        "resource": "refined industrial salt",
+        "quantity": 80000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_ridley_salt_distribution_melbourne",
+        "corridor_id": "AU_road_lara-melbourne",
+        "resource": "food-grade refined salt",
+        "quantity": 60000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_ridley_salt_distribution_melbourne",
+        "corridor_id": "AU_road_lara-melbourne",
+        "resource": "industrial refined salt",
+        "quantity": 60000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_ridley_corporation_lara"
+    ],
+    "resources": [
+      "Salt (evaporated)",
+      "Salt (rock)"
+    ]
+  },
+  {
+    "id": "AU_cheetham_salt_refinery_laverton",
+    "name": "Cheetham Salt – Laverton Refinery",
+    "tier": "refinery",
+    "country_iso2": "AU",
+    "canonical_company": "Cheetham Salt",
+    "coordinates": {
+      "lat": -37.85,
+      "lon": 144.76
+    },
+    "downstream": [
+      {
+        "target_id": "AU_cheetham_food_grade_distribution",
+        "corridor_id": "AU_road_laverton-melbourne",
+        "resource": "refined table salt / food-grade salt",
+        "quantity": 80000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_industrial",
+        "corridor_id": "AU_road_laverton-industrial",
+        "resource": "industrial salt",
+        "quantity": 120000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_agricultural",
+        "corridor_id": "AU_road_laverton-agricultural",
+        "resource": "stock feed / dairy salt",
+        "quantity": 50000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_orica_chemical_deer_park",
+        "corridor_id": "AU_road_laverton-deer-park",
+        "resource": "refined industrial salt",
+        "quantity": 120000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_cheetham_salt_distribution_melbourne_food",
+        "corridor_id": "AU_road_laverton-melbourne",
+        "resource": "food-grade refined salt",
+        "quantity": 80000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_water_treatment_distributors_vic",
+        "corridor_id": "AU_road_laverton-regional-vic",
+        "resource": "water-treatment salt",
+        "quantity": 100000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_cheetham_salt_laverton"
+    ],
+    "resources": [
+      "Salt (evaporated)",
+      "Salt (rock)"
+    ]
+  },
+  {
+    "id": "AU_cheetham_salt_refinery_bajool",
+    "name": "Cheetham Salt – Bajool Refinery / Wash Plant",
+    "tier": "refinery",
+    "country_iso2": "AU",
+    "canonical_company": "Cheetham Salt",
+    "coordinates": {
+      "lat": -23.55,
+      "lon": 150.64
+    },
+    "downstream": [
+      {
+        "target_id": "AU_orica_chemicals",
+        "corridor_id": "AU_rail_bajool-gladstone",
+        "resource": "washed industrial salt",
+        "quantity": 200000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_industrial",
+        "corridor_id": "AU_road_bajool-qld-domestic",
+        "resource": "industrial salt",
+        "quantity": 100000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_cheetham_salt_distribution_brisbane",
+        "corridor_id": "AU_road_bajool-brisbane",
+        "resource": "food-grade and industrial refined salt",
+        "quantity": 150000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_orica_chemical_gladstone",
+        "corridor_id": "AU_road_bajool-gladstone",
+        "resource": "refined industrial salt",
+        "quantity": 100000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_cheetham_salt_bajool",
+      "AU_orrcon_salt_bajool"
+    ],
+    "resources": [
+      "Salt (evaporated)",
+      "Salt (rock)"
+    ]
+  },
+  {
+    "id": "AU_cheetham_salt_refinery_price",
+    "name": "Cheetham Salt – Price Refinery",
+    "tier": "refinery",
+    "country_iso2": "AU",
+    "canonical_company": "Cheetham Salt",
+    "coordinates": {
+      "lat": -34.29,
+      "lon": 138.01
+    },
+    "downstream": [
+      {
+        "target_id": "AU_cheetham_food_grade_distribution",
+        "corridor_id": "AU_road_price-adelaide",
+        "resource": "refined food-grade salt",
+        "quantity": 60000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_industrial",
+        "corridor_id": "AU_road_price-sa-domestic",
+        "resource": "industrial salt",
+        "quantity": 140000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_cheetham_salt_price"
+    ],
+    "resources": [
+      "Salt (evaporated)"
+    ]
+  },
+  {
+    "id": "AU_wa_salt_supply_refinery_kwinana",
+    "name": "WA Salt Supply – Kwinana Refinery",
+    "tier": "refinery",
+    "country_iso2": "AU",
+    "canonical_company": "WA Salt Supply",
+    "coordinates": {
+      "lat": -32.24,
+      "lon": 115.77
+    },
+    "downstream": [
+      {
+        "target_id": "AU_csbp_chemicals",
+        "corridor_id": "AU_road_kwinana-csbp",
+        "resource": "industrial salt for chlor-alkali",
+        "quantity": 150000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_industrial",
+        "corridor_id": "AU_road_kwinana-wa-domestic",
+        "resource": "industrial salt",
+        "quantity": 100000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_agricultural",
+        "corridor_id": "AU_road_kwinana-wa-agriculture",
+        "resource": "stock feed salt / mineral licks",
+        "quantity": 50000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_esco_salt_lake_deborah"
+    ],
+    "resources": [
+      "Salt (evaporated)"
+    ]
+  },
+  {
+    "id": "AU_coogee_chemicals_kwinana",
+    "name": "Coogee Chemicals – Kwinana Chlor-Alkali / Salt Depot",
+    "tier": "refinery",
+    "country_iso2": "AU",
+    "canonical_company": "Coogee Chemicals",
+    "coordinates": {
+      "lat": -32.24,
+      "lon": 115.78
+    },
+    "downstream": [
+      {
+        "target_id": "AU_coogee_chlor_alkali",
+        "corridor_id": "AU_pipeline_kwinana-coogee-plant",
+        "resource": "purified brine for electrolysis",
+        "quantity": 150000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_coogee_chemicals_salt_lake_lefroy"
+    ],
+    "resources": [
+      "Salt (evaporated)"
+    ]
+  },
+  {
+    "id": "JP_jsc_japan_soda_industry",
+    "name": "Japan Soda Industry Association Members (Chlor-Alkali)",
+    "tier": "chemical_processor",
+    "country_iso2": "JP",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": 35.45,
+      "lon": 139.63
+    },
+    "downstream": [
+      {
+        "target_id": "JP_pvc_manufacturers",
+        "corridor_id": "JP_road_yokohama-domestic",
+        "resource": "caustic soda / chlorine",
+        "quantity": 3500000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_dampier_salt_cape_cuvier_export",
+      "AU_dampier_salt_port_hedland_export",
+      "AU_dampier_salt_dampier_export"
+    ],
+    "resources": [
+      "Salt (evaporated)"
+    ]
+  },
+  {
+    "id": "KR_dc_chemical",
+    "name": "DC Chemical (Chlor-Alkali – South Korea)",
+    "tier": "chemical_processor",
+    "country_iso2": "KR",
+    "canonical_company": "DC Chemical",
+    "coordinates": {
+      "lat": 36.99,
+      "lon": 126.83
+    },
+    "downstream": [
+      {
+        "target_id": "KR_hanwha_solutions",
+        "corridor_id": "KR_road_seosan-domestic",
+        "resource": "caustic soda / chlorine / EDC",
+        "quantity": 1500000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_dampier_salt_cape_cuvier_export",
+      "AU_dampier_salt_port_hedland_export",
+      "AU_dampier_salt_dampier_export"
+    ],
+    "resources": [
+      "Salt (evaporated)"
+    ]
+  },
+  {
+    "id": "ID_asahimas_chemical",
+    "name": "Asahimas Chemical (Indonesia Chlor-Alkali)",
+    "tier": "chemical_processor",
+    "country_iso2": "ID",
+    "canonical_company": "Asahimas Chemical",
+    "coordinates": {
+      "lat": -6.02,
+      "lon": 106
+    },
+    "downstream": [
+      {
+        "target_id": "ID_industrial",
+        "corridor_id": "ID_road_cilegon-domestic",
+        "resource": "caustic soda / chlorine",
+        "quantity": 400000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_dampier_salt_cape_cuvier_export"
+    ],
+    "resources": [
+      "Salt (evaporated)"
+    ]
+  },
+  {
+    "id": "CN_shandong_haihua",
+    "name": "Shandong Haihua Group (China Chlor-Alkali)",
+    "tier": "chemical_processor",
+    "country_iso2": "CN",
+    "canonical_company": "Shandong Haihua",
+    "coordinates": {
+      "lat": 37.38,
+      "lon": 118.97
+    },
+    "downstream": [
+      {
+        "target_id": "CN_industrial",
+        "corridor_id": "CN_road_weifang-domestic",
+        "resource": "caustic soda / chlorine / soda ash",
+        "quantity": 600000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_dampier_salt_port_hedland_export"
+    ],
+    "resources": [
+      "Salt (evaporated)"
+    ]
+  },
+  {
+    "id": "TW_formosa_plastics",
+    "name": "Formosa Plastics – Mailiao Chlor-Alkali",
+    "tier": "chemical_processor",
+    "country_iso2": "TW",
+    "canonical_company": "Formosa Plastics",
+    "coordinates": {
+      "lat": 23.79,
+      "lon": 120.2
+    },
+    "downstream": [
+      {
+        "target_id": "TW_industrial",
+        "corridor_id": "TW_road_mailiao-domestic",
+        "resource": "VCM / PVC / caustic soda",
+        "quantity": 500000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_dampier_salt_dampier_export"
+    ],
+    "resources": [
+      "Salt (evaporated)"
+    ]
+  },
+  {
+    "id": "MY_petronas_chemicals",
+    "name": "Petronas Chemicals – Chlor-Alkali (Gebeng)",
+    "tier": "chemical_processor",
+    "country_iso2": "MY",
+    "canonical_company": "Petronas Chemicals",
+    "coordinates": {
+      "lat": 3.97,
+      "lon": 103.42
+    },
+    "downstream": [
+      {
+        "target_id": "MY_industrial",
+        "corridor_id": "MY_road_gebeng-domestic",
+        "resource": "caustic soda / chlorine",
+        "quantity": 400000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_dampier_salt_dampier_export"
+    ],
+    "resources": [
+      "Salt (evaporated)"
+    ]
+  },
+  {
+    "id": "AU_orica_chemicals",
+    "name": "Orica – Botany & Gladstone Chemical Plants",
+    "tier": "chemical_processor",
+    "country_iso2": "AU",
+    "canonical_company": "Orica",
+    "coordinates": {
+      "lat": -33.95,
+      "lon": 151.22
+    },
+    "downstream": [
+      {
+        "target_id": "AU_orica_explosives",
+        "corridor_id": "AU_road_botany-distribution",
+        "resource": "sodium cyanide / chlorine / caustic soda",
+        "quantity": 300000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_penrice_soda_osborne",
+      "AU_cheetham_salt_refinery_bajool"
+    ],
+    "resources": [
+      "Salt (evaporated)"
+    ]
+  },
+  {
+    "id": "AU_csbp_chemicals",
+    "name": "CSBP – Kwinana Chemical Plant",
+    "tier": "chemical_processor",
+    "country_iso2": "AU",
+    "canonical_company": "CSBP (Wesfarmers)",
+    "coordinates": {
+      "lat": -32.24,
+      "lon": 115.77
+    },
+    "downstream": [
+      {
+        "target_id": "AU_industrial",
+        "corridor_id": "AU_road_kwinana-csbp-distribution",
+        "resource": "chlorine / caustic soda / sodium hypochlorite",
+        "quantity": 100000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_agricultural",
+        "corridor_id": "AU_road_kwinana-agri-distribution",
+        "resource": "ammonium chloride fertilizer",
+        "quantity": 50000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_wa_salt_supply_refinery_kwinana"
+    ],
+    "resources": [
+      "Salt (evaporated)"
+    ]
+  },
+  {
+    "id": "AU_coogee_chlor_alkali",
+    "name": "Coogee Chemicals – Kwinana Chlor-Alkali Plant",
+    "tier": "chemical_processor",
+    "country_iso2": "AU",
+    "canonical_company": "Coogee Chemicals",
+    "coordinates": {
+      "lat": -32.24,
+      "lon": 115.78
+    },
+    "downstream": [
+      {
+        "target_id": "AU_industrial",
+        "corridor_id": "AU_road_coogee-industrial-distribution",
+        "resource": "chlorine / hydrochloric acid / caustic soda",
+        "quantity": 80000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_infrastructure",
+        "corridor_id": "AU_road_coogee-water-treatment",
+        "resource": "sodium hypochlorite (water treatment)",
+        "quantity": 70000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_coogee_chemicals_kwinana"
+    ],
+    "resources": [
+      "Salt (evaporated)"
+    ]
+  },
+  {
+    "id": "AU_ridley_food_grade_distribution",
+    "name": "Ridley Corporation – Food Salt Distribution",
+    "tier": "manufacturer",
+    "country_iso2": "AU",
+    "canonical_company": "Ridley Corporation",
+    "coordinates": {
+      "lat": -37.81,
+      "lon": 144.96
+    },
+    "downstream": [
+      {
+        "target_id": "AU_residential",
+        "corridor_id": "AU_road_melbourne-retail",
+        "resource": "packaged table salt / cooking salt",
+        "quantity": 20000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_commercial",
+        "corridor_id": "AU_road_melbourne-foodservice",
+        "resource": "food-grade salt (bulk & packaged)",
+        "quantity": 40000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_ridley_salt_refinery_lara"
+    ],
+    "resources": [
+      "Salt (evaporated)"
+    ]
+  },
+  {
+    "id": "AU_cheetham_food_grade_distribution",
+    "name": "Cheetham Salt – Food Salt Distribution / Packaging",
+    "tier": "manufacturer",
+    "country_iso2": "AU",
+    "canonical_company": "Cheetham Salt",
+    "coordinates": {
+      "lat": -37.81,
+      "lon": 144.96
+    },
+    "downstream": [
+      {
+        "target_id": "AU_residential",
+        "corridor_id": "AU_road_cheetham-retail-distribution",
+        "resource": "packaged table salt / sea salt flakes",
+        "quantity": 50000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_commercial",
+        "corridor_id": "AU_road_cheetham-foodservice-distribution",
+        "resource": "food-grade salt (hospitality & food processing)",
+        "quantity": 90000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_cheetham_salt_refinery_laverton",
+      "AU_cheetham_salt_refinery_price"
+    ],
+    "resources": [
+      "Salt (evaporated)"
+    ]
+  },
+  {
+    "id": "JP_pvc_manufacturers",
+    "name": "Japanese PVC & Chemical Manufacturers",
+    "tier": "manufacturer",
+    "country_iso2": "JP",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": 34.69,
+      "lon": 135.5
+    },
+    "downstream": [
+      {
+        "target_id": "JP_industrial",
+        "corridor_id": "JP_road_osaka-domestic-distribution",
+        "resource": "PVC / vinyl products / chemical intermediates",
+        "quantity": 2000000,
+        "metric": "t"
+      },
+      {
+        "target_id": "JP_infrastructure",
+        "corridor_id": "JP_road_osaka-construction",
+        "resource": "PVC pipe / de-icing salt",
+        "quantity": 1000000,
+        "metric": "t"
+      },
+      {
+        "target_id": "JP_residential",
+        "corridor_id": "JP_road_osaka-consumer",
+        "resource": "consumer chemical products",
+        "quantity": 500000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "JP_jsc_japan_soda_industry"
+    ],
+    "resources": [
+      "Salt (evaporated)"
+    ]
+  },
+  {
+    "id": "KR_hanwha_solutions",
+    "name": "Hanwha Solutions – PVC & Chemicals (South Korea)",
+    "tier": "manufacturer",
+    "country_iso2": "KR",
+    "canonical_company": "Hanwha Solutions",
+    "coordinates": {
+      "lat": 36.77,
+      "lon": 126.93
+    },
+    "downstream": [
+      {
+        "target_id": "KR_industrial",
+        "corridor_id": "KR_road_daesan-domestic",
+        "resource": "PVC / chemical intermediates",
+        "quantity": 1000000,
+        "metric": "t"
+      },
+      {
+        "target_id": "KR_infrastructure",
+        "corridor_id": "KR_road_daesan-construction",
+        "resource": "PVC pipe / construction materials",
+        "quantity": 500000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "KR_dc_chemical"
+    ],
+    "resources": [
+      "Salt (evaporated)"
+    ]
+  },
+  {
+    "id": "AU_orica_explosives",
+    "name": "Orica – Mining Services & Explosives Division",
+    "tier": "manufacturer",
+    "country_iso2": "AU",
+    "canonical_company": "Orica",
+    "coordinates": {
+      "lat": -33.95,
+      "lon": 151.22
+    },
+    "downstream": [
+      {
+        "target_id": "AU_industrial",
+        "corridor_id": "AU_road_orica-mining-distribution",
+        "resource": "sodium cyanide / ammonium nitrate / explosives",
+        "quantity": 200000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_infrastructure",
+        "corridor_id": "AU_road_orica-water-treatment",
+        "resource": "water treatment chemicals",
+        "quantity": 100000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_orica_chemicals"
+    ],
+    "resources": [
+      "Salt (evaporated)"
+    ]
+  },
+  {
+    "id": "AU_road_lake-macleod-cape-cuvier",
+    "tier": "transport",
+    "name": "Road: Lake MacLeod → Cape Cuvier Ship Loader",
+    "country_iso2": "AU",
+    "operator_id": "AU_dampier_salt",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "local",
+    "coordinates": {
+      "lat": -24.04,
+      "lon": 113.5
+    },
+    "resources": [
+      "Salt (rock)"
+    ],
+    "upstream": [],
+    "downstream": []
+  },
+  {
+    "id": "AU_conveyor_dampier-port-hedland",
+    "tier": "transport",
+    "name": "Conveyor: Dampier Salt Leslie (Pt Hedland) to Stockpile / Ship Loader",
+    "country_iso2": "AU",
+    "operator_id": "AU_dampier_salt",
+    "mode": "conveyor",
+    "form": "bulk_dry",
+    "range": "local",
+    "coordinates": {
+      "lat": -20.33,
+      "lon": 118.58
+    }
+  },
+  {
+    "id": "AU_conveyor_dampier-salt-dampier-port",
+    "tier": "transport",
+    "name": "Conveyor: Dampier Salt Field → Dampier Port Ship Loader",
+    "country_iso2": "AU",
+    "operator_id": "AU_dampier_salt",
+    "mode": "conveyor",
+    "form": "bulk_dry",
+    "range": "local",
+    "coordinates": {
+      "lat": -20.65,
+      "lon": 116.71
+    }
+  },
+  {
+    "id": "AU_road_dry-creek-osborne",
+    "tier": "transport",
+    "name": "Road: Dry Creek Salt Fields → Osborne Soda Ash Plant",
+    "country_iso2": "AU",
+    "operator_id": "AU_penrice_soda",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "local",
+    "coordinates": {
+      "lat": -34.8,
+      "lon": 138.56
+    },
+    "resources": [
+      "Salt (rock)"
+    ],
+    "upstream": [],
+    "downstream": []
+  },
+  {
+    "id": "AU_conveyor_lara-salt-refinery",
+    "tier": "transport",
+    "name": "Conveyor: Lara Salt Ponds → On-Site Refinery",
+    "country_iso2": "AU",
+    "operator_id": "AU_ridley_corporation",
+    "mode": "conveyor",
+    "form": "bulk_dry",
+    "range": "local",
+    "coordinates": {
+      "lat": -38.02,
+      "lon": 144.42
+    }
+  },
+  {
+    "id": "AU_conveyor_laverton-salt-refinery",
+    "tier": "transport",
+    "name": "Conveyor: Laverton Salt Ponds → On-Site Refinery",
+    "country_iso2": "AU",
+    "operator_id": "AU_cheetham_salt",
+    "mode": "conveyor",
+    "form": "bulk_dry",
+    "range": "local",
+    "coordinates": {
+      "lat": -37.85,
+      "lon": 144.76
+    }
+  },
+  {
+    "id": "AU_road_bajool-refinery",
+    "tier": "transport",
+    "name": "Road: Bajool Salt Ponds → On-Site Wash Plant",
+    "country_iso2": "AU",
+    "operator_id": "AU_cheetham_salt",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "local",
+    "coordinates": {
+      "lat": -23.55,
+      "lon": 150.64
+    },
+    "resources": [
+      "Salt (rock)"
+    ],
+    "upstream": [],
+    "downstream": []
+  },
+  {
+    "id": "AU_road_price-refinery",
+    "tier": "transport",
+    "name": "Road: Price Salt Fields → Price Refinery",
+    "country_iso2": "AU",
+    "operator_id": "AU_cheetham_salt",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "local",
+    "coordinates": {
+      "lat": -34.29,
+      "lon": 138.01
+    }
+  },
+  {
+    "id": "AU_rail_lake-deborah-kwinana",
+    "tier": "transport",
+    "name": "Rail: Lake Deborah → Kwinana (via Merredin)",
+    "country_iso2": "AU",
+    "operator_id": "AU_arc_infrastructure",
+    "mode": "rail",
+    "form": "bulk_dry",
+    "range": "regional",
+    "coordinates": {
+      "lat": -31.5,
+      "lon": 118
+    }
+  },
+  {
+    "id": "AU_rail_lake-lefroy-kwinana",
+    "tier": "transport",
+    "name": "Rail: Lake Lefroy (Kambalda) → Kwinana",
+    "country_iso2": "AU",
+    "operator_id": "AU_arc_infrastructure",
+    "mode": "rail",
+    "form": "bulk_dry",
+    "range": "regional",
+    "coordinates": {
+      "lat": -31.9,
+      "lon": 118.5
+    }
+  },
+  {
+    "id": "INTL_ocean_cape-cuvier-japan",
+    "tier": "transport",
+    "name": "Ocean Freight: Cape Cuvier → Japanese Ports",
+    "country_iso2": "INTL",
+    "operator_id": "INTL_bulk_carriers",
+    "mode": "ocean_freight",
+    "form": "bulk_dry",
+    "range": "international",
+    "coordinates": {
+      "lat": -10,
+      "lon": 125
+    },
+    "resources": [
+      "Salt (rock)"
+    ],
+    "upstream": [],
+    "downstream": []
+  },
+  {
+    "id": "INTL_ocean_cape-cuvier-korea",
+    "tier": "transport",
+    "name": "Ocean Freight: Cape Cuvier → South Korean Ports",
+    "country_iso2": "INTL",
+    "operator_id": "INTL_bulk_carriers",
+    "mode": "ocean_freight",
+    "form": "bulk_dry",
+    "range": "international",
+    "coordinates": {
+      "lat": -5,
+      "lon": 120
+    },
+    "resources": [
+      "Salt (rock)"
+    ],
+    "upstream": [],
+    "downstream": []
+  },
+  {
+    "id": "INTL_ocean_cape-cuvier-indonesia",
+    "tier": "transport",
+    "name": "Ocean Freight: Cape Cuvier → Indonesian Ports",
+    "country_iso2": "INTL",
+    "operator_id": "INTL_bulk_carriers",
+    "mode": "ocean_freight",
+    "form": "bulk_dry",
+    "range": "international",
+    "coordinates": {
+      "lat": -15,
+      "lon": 112
+    },
+    "resources": [
+      "Salt (rock)"
+    ],
+    "upstream": [],
+    "downstream": []
+  },
+  {
+    "id": "INTL_ocean_port-hedland-japan",
+    "tier": "transport",
+    "name": "Ocean Freight: Port Hedland → Japanese Ports",
+    "country_iso2": "INTL",
+    "operator_id": "INTL_bulk_carriers",
+    "mode": "ocean_freight",
+    "form": "bulk_dry",
+    "range": "international",
+    "coordinates": {
+      "lat": -5,
+      "lon": 128
+    },
+    "resources": [
+      "Salt (rock)"
+    ],
+    "upstream": [],
+    "downstream": []
+  },
+  {
+    "id": "INTL_ocean_port-hedland-korea",
+    "tier": "transport",
+    "name": "Ocean Freight: Port Hedland → South Korean Ports",
+    "country_iso2": "INTL",
+    "operator_id": "INTL_bulk_carriers",
+    "mode": "ocean_freight",
+    "form": "bulk_dry",
+    "range": "international",
+    "coordinates": {
+      "lat": -2,
+      "lon": 125
+    },
+    "resources": [
+      "Salt (rock)"
+    ],
+    "upstream": [],
+    "downstream": []
+  },
+  {
+    "id": "INTL_ocean_port-hedland-china",
+    "tier": "transport",
+    "name": "Ocean Freight: Port Hedland → Chinese Ports",
+    "country_iso2": "INTL",
+    "operator_id": "INTL_bulk_carriers",
+    "mode": "ocean_freight",
+    "form": "bulk_dry",
+    "range": "international",
+    "coordinates": {
+      "lat": 5,
+      "lon": 118
+    },
+    "resources": [
+      "Salt (rock)"
+    ],
+    "upstream": [],
+    "downstream": []
+  },
+  {
+    "id": "INTL_ocean_dampier-japan",
+    "tier": "transport",
+    "name": "Ocean Freight: Dampier → Japanese Ports",
+    "country_iso2": "INTL",
+    "operator_id": "INTL_bulk_carriers",
+    "mode": "ocean_freight",
+    "form": "bulk_dry",
+    "range": "international",
+    "coordinates": {
+      "lat": -5,
+      "lon": 126
+    },
+    "resources": [
+      "Salt (rock)"
+    ],
+    "upstream": [],
+    "downstream": []
+  },
+  {
+    "id": "INTL_ocean_dampier-korea",
+    "tier": "transport",
+    "name": "Ocean Freight: Dampier → South Korean Ports",
+    "country_iso2": "INTL",
+    "operator_id": "INTL_bulk_carriers",
+    "mode": "ocean_freight",
+    "form": "bulk_dry",
+    "range": "international",
+    "coordinates": {
+      "lat": 0,
+      "lon": 122
+    },
+    "resources": [
+      "Salt (rock)"
+    ],
+    "upstream": [],
+    "downstream": []
+  },
+  {
+    "id": "INTL_ocean_dampier-taiwan",
+    "tier": "transport",
+    "name": "Ocean Freight: Dampier → Taiwanese Ports (Mailiao)",
+    "country_iso2": "INTL",
+    "operator_id": "INTL_bulk_carriers",
+    "mode": "ocean_freight",
+    "form": "bulk_dry",
+    "range": "international",
+    "coordinates": {
+      "lat": 5,
+      "lon": 118
+    }
+  },
+  {
+    "id": "INTL_ocean_dampier-malaysia",
+    "tier": "transport",
+    "name": "Ocean Freight: Dampier → Malaysian Ports",
+    "country_iso2": "INTL",
+    "operator_id": "INTL_bulk_carriers",
+    "mode": "ocean_freight",
+    "form": "bulk_dry",
+    "range": "international",
+    "coordinates": {
+      "lat": -5,
+      "lon": 113
+    }
+  },
+  {
+    "id": "AU_road_osborne-botany",
+    "tier": "transport",
+    "name": "Road/Rail: Osborne → Orica Botany / Gladstone",
+    "country_iso2": "AU",
+    "operator_id": "AU_linfox",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "regional",
+    "coordinates": {
+      "lat": -34.5,
+      "lon": 145
+    }
+  },
+  {
+    "id": "AU_road_osborne-domestic",
+    "tier": "transport",
+    "name": "Road: Osborne → SA/VIC Industrial Customers",
+    "country_iso2": "AU",
+    "operator_id": "AU_linfox",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "regional",
+    "coordinates": {
+      "lat": -34.9,
+      "lon": 138.6
+    }
+  },
+  {
+    "id": "AU_road_lara-melbourne",
+    "tier": "transport",
+    "name": "Road: Lara → Melbourne Food Distribution",
+    "country_iso2": "AU",
+    "operator_id": "AU_ridley_corporation",
+    "mode": "road",
+    "form": "containerised",
+    "range": "regional",
+    "coordinates": {
+      "lat": -37.9,
+      "lon": 144.6
+    },
+    "resources": [
+      "Salt (rock)"
+    ],
+    "upstream": [],
+    "downstream": []
+  },
+  {
+    "id": "AU_road_lara-industrial",
+    "tier": "transport",
+    "name": "Road: Lara → VIC Industrial Customers",
+    "country_iso2": "AU",
+    "operator_id": "AU_ridley_corporation",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "regional",
+    "coordinates": {
+      "lat": -37.9,
+      "lon": 144.5
+    }
+  },
+  {
+    "id": "AU_road_lara-agricultural",
+    "tier": "transport",
+    "name": "Road: Lara → VIC Agricultural Customers",
+    "country_iso2": "AU",
+    "operator_id": "AU_ridley_corporation",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "regional",
+    "coordinates": {
+      "lat": -37.6,
+      "lon": 144.4
+    }
+  },
+  {
+    "id": "AU_road_laverton-melbourne",
+    "tier": "transport",
+    "name": "Road: Laverton → Melbourne Retail Distribution",
+    "country_iso2": "AU",
+    "operator_id": "AU_cheetham_salt",
+    "mode": "road",
+    "form": "containerised",
+    "range": "regional",
+    "coordinates": {
+      "lat": -37.82,
+      "lon": 144.8
+    },
+    "resources": [
+      "Salt (rock)"
+    ],
+    "upstream": [],
+    "downstream": []
+  },
+  {
+    "id": "AU_road_laverton-industrial",
+    "tier": "transport",
+    "name": "Road: Laverton → VIC Industrial Customers",
+    "country_iso2": "AU",
+    "operator_id": "AU_cheetham_salt",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "regional",
+    "coordinates": {
+      "lat": -37.82,
+      "lon": 144.8
+    }
+  },
+  {
+    "id": "AU_road_laverton-agricultural",
+    "tier": "transport",
+    "name": "Road: Laverton → Agricultural / Dairy Customers",
+    "country_iso2": "AU",
+    "operator_id": "AU_cheetham_salt",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "regional",
+    "coordinates": {
+      "lat": -38.1,
+      "lon": 144.5
+    }
+  },
+  {
+    "id": "AU_rail_bajool-gladstone",
+    "tier": "transport",
+    "name": "Rail: Bajool → Gladstone (Orica) / Brisbane",
+    "country_iso2": "AU",
+    "operator_id": "AU_aurizon",
+    "mode": "rail",
+    "form": "bulk_dry",
+    "range": "regional",
+    "coordinates": {
+      "lat": -23.8,
+      "lon": 151.2
+    }
+  },
+  {
+    "id": "AU_road_bajool-qld-domestic",
+    "tier": "transport",
+    "name": "Road: Bajool → QLD Domestic Industrial",
+    "country_iso2": "AU",
+    "operator_id": "AU_cheetham_salt",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "regional",
+    "coordinates": {
+      "lat": -23.3,
+      "lon": 150.5
+    }
+  },
+  {
+    "id": "AU_road_price-adelaide",
+    "tier": "transport",
+    "name": "Road: Price → Adelaide Distribution",
+    "country_iso2": "AU",
+    "operator_id": "AU_cheetham_salt",
+    "mode": "road",
+    "form": "containerised",
+    "range": "regional",
+    "coordinates": {
+      "lat": -34.6,
+      "lon": 138.3
+    }
+  },
+  {
+    "id": "AU_road_price-sa-domestic",
+    "tier": "transport",
+    "name": "Road: Price → SA Industrial Customers",
+    "country_iso2": "AU",
+    "operator_id": "AU_cheetham_salt",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "regional",
+    "coordinates": {
+      "lat": -34.5,
+      "lon": 138.2
+    }
+  },
+  {
+    "id": "AU_road_kwinana-csbp",
+    "tier": "transport",
+    "name": "Road: WA Salt Supply Kwinana → CSBP Plant",
+    "country_iso2": "AU",
+    "operator_id": "AU_wa_salt_supply",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "local",
+    "coordinates": {
+      "lat": -32.24,
+      "lon": 115.77
+    }
+  },
+  {
+    "id": "AU_road_kwinana-wa-domestic",
+    "tier": "transport",
+    "name": "Road: Kwinana → WA Industrial Customers",
+    "country_iso2": "AU",
+    "operator_id": "AU_wa_salt_supply",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "regional",
+    "coordinates": {
+      "lat": -32,
+      "lon": 115.8
+    }
+  },
+  {
+    "id": "AU_road_kwinana-wa-agriculture",
+    "tier": "transport",
+    "name": "Road: Kwinana → WA Agricultural Customers",
+    "country_iso2": "AU",
+    "operator_id": "AU_wa_salt_supply",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "regional",
+    "coordinates": {
+      "lat": -32.5,
+      "lon": 116.5
+    }
+  },
+  {
+    "id": "AU_pipeline_kwinana-coogee-plant",
+    "tier": "transport",
+    "name": "Pipeline: Coogee Brine → Chlor-Alkali Plant (on-site)",
+    "country_iso2": "AU",
+    "operator_id": "AU_coogee_chemicals",
+    "mode": "pipeline",
+    "form": "bulk_liquid",
+    "range": "local",
+    "coordinates": {
+      "lat": -32.24,
+      "lon": 115.78
+    }
+  },
+  {
+    "id": "AU_road_botany-distribution",
+    "tier": "transport",
+    "name": "Road/Rail: Orica Botany → Mining Customers",
+    "country_iso2": "AU",
+    "operator_id": "AU_orica",
+    "mode": "road",
+    "form": "containerised",
+    "range": "regional",
+    "coordinates": {
+      "lat": -33.95,
+      "lon": 151.22
+    }
+  },
+  {
+    "id": "AU_road_kwinana-csbp-distribution",
+    "tier": "transport",
+    "name": "Road: CSBP Kwinana → WA Industrial Customers",
+    "country_iso2": "AU",
+    "operator_id": "AU_csbp_chemicals",
+    "mode": "road",
+    "form": "bulk_liquid",
+    "range": "regional",
+    "coordinates": {
+      "lat": -32.2,
+      "lon": 115.8
+    }
+  },
+  {
+    "id": "AU_road_kwinana-agri-distribution",
+    "tier": "transport",
+    "name": "Road: CSBP Kwinana → WA Agricultural Markets",
+    "country_iso2": "AU",
+    "operator_id": "AU_csbp_chemicals",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "regional",
+    "coordinates": {
+      "lat": -32.5,
+      "lon": 116
+    }
+  },
+  {
+    "id": "AU_road_coogee-industrial-distribution",
+    "tier": "transport",
+    "name": "Road: Coogee Kwinana → WA Industrial Customers",
+    "country_iso2": "AU",
+    "operator_id": "AU_coogee_chemicals",
+    "mode": "road",
+    "form": "bulk_liquid",
+    "range": "regional",
+    "coordinates": {
+      "lat": -32,
+      "lon": 115.8
+    }
+  },
+  {
+    "id": "AU_road_coogee-water-treatment",
+    "tier": "transport",
+    "name": "Road: Coogee Kwinana → Water Utilities",
+    "country_iso2": "AU",
+    "operator_id": "AU_coogee_chemicals",
+    "mode": "road",
+    "form": "bulk_liquid",
+    "range": "regional",
+    "coordinates": {
+      "lat": -31.95,
+      "lon": 115.86
+    }
+  },
+  {
+    "id": "AU_road_melbourne-foodservice",
+    "tier": "transport",
+    "name": "Road: Ridley Melbourne → Food Processors",
+    "country_iso2": "AU",
+    "operator_id": "AU_ridley_corporation",
+    "mode": "road",
+    "form": "containerised",
+    "range": "regional",
+    "coordinates": {
+      "lat": -37.81,
+      "lon": 144.96
+    }
+  },
+  {
+    "id": "AU_road_cheetham-retail-distribution",
+    "tier": "transport",
+    "name": "Road: Cheetham → National Retail Distribution",
+    "country_iso2": "AU",
+    "operator_id": "AU_cheetham_salt",
+    "mode": "road",
+    "form": "containerised",
+    "range": "regional",
+    "coordinates": {
+      "lat": -37.81,
+      "lon": 144.96
+    }
+  },
+  {
+    "id": "AU_road_cheetham-foodservice-distribution",
+    "tier": "transport",
+    "name": "Road: Cheetham → Food Processors / Hospitality",
+    "country_iso2": "AU",
+    "operator_id": "AU_cheetham_salt",
+    "mode": "road",
+    "form": "containerised",
+    "range": "regional",
+    "coordinates": {
+      "lat": -37.81,
+      "lon": 144.96
+    }
+  },
+  {
+    "id": "JP_road_yokohama-domestic",
+    "tier": "transport",
+    "name": "Road/Rail: Japanese Chemical Plants → Domestic Customers",
+    "country_iso2": "JP",
+    "operator_id": "JP_domestic_logistics",
+    "mode": "road",
+    "form": "bulk_liquid",
+    "range": "regional",
+    "coordinates": {
+      "lat": 35.45,
+      "lon": 139.63
+    }
+  },
+  {
+    "id": "KR_road_seosan-domestic",
+    "tier": "transport",
+    "name": "Road: DC Chemical → Korean Chemical Buyers",
+    "country_iso2": "KR",
+    "operator_id": "KR_domestic_logistics",
+    "mode": "road",
+    "form": "bulk_liquid",
+    "range": "regional",
+    "coordinates": {
+      "lat": 36.8,
+      "lon": 126.85
+    }
+  },
+  {
+    "id": "ID_road_cilegon-domestic",
+    "tier": "transport",
+    "name": "Road: Asahimas Cilegon → Indonesian Domestic",
+    "country_iso2": "ID",
+    "operator_id": "ID_domestic_logistics",
+    "mode": "road",
+    "form": "bulk_liquid",
+    "range": "regional",
+    "coordinates": {
+      "lat": -6.02,
+      "lon": 106.05
+    }
+  },
+  {
+    "id": "CN_road_weifang-domestic",
+    "tier": "transport",
+    "name": "Road: Shandong Haihua → Chinese Domestic",
+    "country_iso2": "CN",
+    "operator_id": "CN_domestic_logistics",
+    "mode": "road",
+    "form": "bulk_liquid",
+    "range": "regional",
+    "coordinates": {
+      "lat": 37,
+      "lon": 119
+    }
+  },
+  {
+    "id": "TW_road_mailiao-domestic",
+    "tier": "transport",
+    "name": "Road: Formosa Plastics Mailiao → Domestic Distribution",
+    "country_iso2": "TW",
+    "operator_id": "TW_domestic_logistics",
+    "mode": "road",
+    "form": "containerised",
+    "range": "regional",
+    "coordinates": {
+      "lat": 23.79,
+      "lon": 120.2
+    }
+  },
+  {
+    "id": "MY_road_gebeng-domestic",
+    "tier": "transport",
+    "name": "Road: Petronas Chemicals Gebeng → Malaysian Domestic",
+    "country_iso2": "MY",
+    "operator_id": "MY_domestic_logistics",
+    "mode": "road",
+    "form": "bulk_liquid",
+    "range": "regional",
+    "coordinates": {
+      "lat": 3.97,
+      "lon": 103.42
+    }
+  },
+  {
+    "id": "JP_road_osaka-domestic-distribution",
+    "tier": "transport",
+    "name": "Road/Rail: Japanese PVC Manufacturers → Industrial Buyers",
+    "country_iso2": "JP",
+    "operator_id": "JP_domestic_logistics",
+    "mode": "road",
+    "form": "containerised",
+    "range": "regional",
+    "coordinates": {
+      "lat": 34.69,
+      "lon": 135.5
+    }
+  },
+  {
+    "id": "JP_road_osaka-construction",
+    "tier": "transport",
+    "name": "Road: Japanese Manufacturers → Construction / Infrastructure",
+    "country_iso2": "JP",
+    "operator_id": "JP_domestic_logistics",
+    "mode": "road",
+    "form": "containerised",
+    "range": "regional",
+    "coordinates": {
+      "lat": 35.68,
+      "lon": 139.77
+    }
+  },
+  {
+    "id": "JP_road_osaka-consumer",
+    "tier": "transport",
+    "name": "Road: Japanese Manufacturers → Consumer Markets",
+    "country_iso2": "JP",
+    "operator_id": "JP_domestic_logistics",
+    "mode": "road",
+    "form": "containerised",
+    "range": "regional",
+    "coordinates": {
+      "lat": 35.68,
+      "lon": 139.77
+    }
+  },
+  {
+    "id": "KR_road_daesan-domestic",
+    "tier": "transport",
+    "name": "Road: Hanwha Daesan → Korean Industrial Buyers",
+    "country_iso2": "KR",
+    "operator_id": "KR_domestic_logistics",
+    "mode": "road",
+    "form": "containerised",
+    "range": "regional",
+    "coordinates": {
+      "lat": 37,
+      "lon": 126.9
+    }
+  },
+  {
+    "id": "KR_road_daesan-construction",
+    "tier": "transport",
+    "name": "Road: Hanwha → Korean Construction / Infrastructure",
+    "country_iso2": "KR",
+    "operator_id": "KR_domestic_logistics",
+    "mode": "road",
+    "form": "containerised",
+    "range": "regional",
+    "coordinates": {
+      "lat": 37.55,
+      "lon": 127
+    }
+  },
+  {
+    "id": "AU_road_orica-mining-distribution",
+    "tier": "transport",
+    "name": "Road/Rail: Orica → Australian Mining Sites",
+    "country_iso2": "AU",
+    "operator_id": "AU_orica",
+    "mode": "road",
+    "form": "containerised",
+    "range": "regional",
+    "coordinates": {
+      "lat": -32,
+      "lon": 148
+    }
+  },
+  {
+    "id": "AU_road_orica-water-treatment",
+    "tier": "transport",
+    "name": "Road: Orica → Water Treatment / Municipal Infrastructure",
+    "country_iso2": "AU",
+    "operator_id": "AU_orica",
+    "mode": "road",
+    "form": "bulk_liquid",
+    "range": "regional",
+    "coordinates": {
+      "lat": -33.87,
+      "lon": 151.21
+    }
+  }
+]

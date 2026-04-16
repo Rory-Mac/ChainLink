@@ -1,0 +1,1921 @@
+[
+  {
+    "id": "AU_coregas_botany_capture",
+    "name": "Coregas Botany CO2 Capture Plant",
+    "tier": "separation_capture",
+    "country_iso2": "AU",
+    "canonical_company": "Coregas (Wesfarmers)",
+    "coordinates": {
+      "lat": -33.945,
+      "lon": 151.205
+    },
+    "downstream": [
+      {
+        "target_id": "AU_coregas_botany_purifier",
+        "corridor_id": "AU_pipeline_botany-co2",
+        "resource": "raw CO2 gas",
+        "quantity": 30000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Carbon Dioxide (industrial)"
+    ]
+  },
+  {
+    "id": "AU_vales_point_capture",
+    "name": "Vales Point Power Station CO2 Capture",
+    "tier": "separation_capture",
+    "country_iso2": "AU",
+    "canonical_company": "Delta Electricity",
+    "coordinates": {
+      "lat": -33.157,
+      "lon": 151.533
+    },
+    "downstream": [
+      {
+        "target_id": "AU_supagas_nsw_purifier",
+        "corridor_id": "AU_road_vales-point-to-somersby",
+        "resource": "raw CO2 gas",
+        "quantity": 15000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Carbon Dioxide (industrial)"
+    ]
+  },
+  {
+    "id": "AU_orica_kooragang_island",
+    "name": "Orica Kooragang Island Ammonium Nitrate / CO2 Plant",
+    "tier": "separation_capture",
+    "country_iso2": "AU",
+    "canonical_company": "Orica",
+    "coordinates": {
+      "lat": -32.868,
+      "lon": 151.755
+    },
+    "downstream": [
+      {
+        "target_id": "AU_boc_nsw_purifier",
+        "corridor_id": "AU_pipeline_kooragang-co2",
+        "resource": "raw CO2 from ammonia synthesis",
+        "quantity": 40000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Carbon Dioxide (industrial)"
+    ]
+  },
+  {
+    "id": "AU_santos_moomba_ccs",
+    "name": "Santos Moomba CCS / CO2 Separation Facility",
+    "tier": "separation_capture",
+    "country_iso2": "AU",
+    "canonical_company": "Santos",
+    "coordinates": {
+      "lat": -28.1,
+      "lon": 140.2
+    },
+    "downstream": [
+      {
+        "target_id": "AU_boc_sa_purifier",
+        "corridor_id": "AU_road_moomba-to-adelaide",
+        "resource": "raw CO2 gas separated from natural gas",
+        "quantity": 20000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Carbon Dioxide (industrial)"
+    ]
+  },
+  {
+    "id": "AU_qenos_altona_ethylene",
+    "name": "Qenos Altona Ethylene Plant CO2 Capture",
+    "tier": "separation_capture",
+    "country_iso2": "AU",
+    "canonical_company": "Qenos",
+    "coordinates": {
+      "lat": -37.829,
+      "lon": 144.828
+    },
+    "downstream": [
+      {
+        "target_id": "AU_supagas_vic_purifier",
+        "corridor_id": "AU_road_altona-to-dandenong",
+        "resource": "raw CO2 from ethylene cracker off-gas",
+        "quantity": 25000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Carbon Dioxide (industrial)"
+    ]
+  },
+  {
+    "id": "AU_csbp_kwinana_capture",
+    "name": "CSBP Kwinana Ammonium Nitrate / CO2 Plant",
+    "tier": "separation_capture",
+    "country_iso2": "AU",
+    "canonical_company": "CSBP (Wesfarmers)",
+    "coordinates": {
+      "lat": -32.237,
+      "lon": 115.767
+    },
+    "downstream": [
+      {
+        "target_id": "AU_boc_wa_purifier",
+        "corridor_id": "AU_pipeline_kwinana-co2",
+        "resource": "raw CO2 from ammonia synthesis",
+        "quantity": 35000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Carbon Dioxide (industrial)"
+    ]
+  },
+  {
+    "id": "AU_boc_deer_park_hydrogen",
+    "name": "BOC Deer Park Hydrogen / CO2 Plant",
+    "tier": "separation_capture",
+    "country_iso2": "AU",
+    "canonical_company": "BOC (Linde)",
+    "coordinates": {
+      "lat": -37.774,
+      "lon": 144.773
+    },
+    "downstream": [
+      {
+        "target_id": "AU_boc_vic_purifier",
+        "corridor_id": "AU_pipeline_deer-park-co2",
+        "resource": "raw CO2 from SMR hydrogen production",
+        "quantity": 45000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Carbon Dioxide (industrial)"
+    ]
+  },
+  {
+    "id": "AU_air_liquide_melbourne_smr",
+    "name": "Air Liquide Altona SMR CO2 Capture",
+    "tier": "separation_capture",
+    "country_iso2": "AU",
+    "canonical_company": "Air Liquide",
+    "coordinates": {
+      "lat": -37.832,
+      "lon": 144.835
+    },
+    "downstream": [
+      {
+        "target_id": "AU_air_liquide_vic_purifier",
+        "corridor_id": "AU_road_altona-al-to-laverton",
+        "resource": "raw CO2 from SMR hydrogen production",
+        "quantity": 30000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Carbon Dioxide (industrial)"
+    ]
+  },
+  {
+    "id": "AU_boc_nsw_purifier",
+    "name": "BOC NSW CO2 Purification & Liquefaction (Wetherill Park)",
+    "tier": "purifier_liquefier",
+    "country_iso2": "AU",
+    "canonical_company": "BOC (Linde)",
+    "coordinates": {
+      "lat": -33.845,
+      "lon": 150.896
+    },
+    "downstream": [
+      {
+        "target_id": "AU_boc_nsw_distributor",
+        "corridor_id": "AU_road_wetherill-park-nsw",
+        "resource": "food-grade liquid CO2",
+        "quantity": 25000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_supagas_nsw_distributor",
+        "corridor_id": "AU_road_wetherill-park-somersby",
+        "resource": "industrial-grade liquid CO2",
+        "quantity": 15000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_orica_kooragang_island"
+    ],
+    "resources": [
+      "Carbon Dioxide (industrial)"
+    ]
+  },
+  {
+    "id": "AU_coregas_botany_purifier",
+    "name": "Coregas Botany CO2 Purification & Liquefaction",
+    "tier": "purifier_liquefier",
+    "country_iso2": "AU",
+    "canonical_company": "Coregas (Wesfarmers)",
+    "coordinates": {
+      "lat": -33.947,
+      "lon": 151.207
+    },
+    "downstream": [
+      {
+        "target_id": "AU_coregas_nsw_distributor",
+        "corridor_id": "AU_road_botany-metro-sydney",
+        "resource": "food-grade and industrial-grade liquid CO2",
+        "quantity": 30000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_coregas_botany_capture"
+    ],
+    "resources": [
+      "Carbon Dioxide (industrial)"
+    ]
+  },
+  {
+    "id": "AU_supagas_nsw_purifier",
+    "name": "Supagas NSW CO2 Purification & Liquefaction (Somersby)",
+    "tier": "purifier_liquefier",
+    "country_iso2": "AU",
+    "canonical_company": "Supagas",
+    "coordinates": {
+      "lat": -33.355,
+      "lon": 151.275
+    },
+    "downstream": [
+      {
+        "target_id": "AU_supagas_nsw_distributor",
+        "corridor_id": "AU_road_somersby-nsw",
+        "resource": "food-grade liquid CO2",
+        "quantity": 15000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_vales_point_capture"
+    ],
+    "resources": [
+      "Carbon Dioxide (industrial)"
+    ]
+  },
+  {
+    "id": "AU_boc_qld_purifier",
+    "name": "BOC Queensland CO2 Purification & Liquefaction (Brisbane)",
+    "tier": "purifier_liquefier",
+    "country_iso2": "AU",
+    "canonical_company": "BOC (Linde)",
+    "coordinates": {
+      "lat": -27.44,
+      "lon": 153.12
+    },
+    "downstream": [
+      {
+        "target_id": "AU_boc_qld_distributor",
+        "corridor_id": "AU_road_brisbane-qld-co2",
+        "resource": "food-grade and industrial-grade liquid CO2",
+        "quantity": 50000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_incitec_pivot_gibson_island"
+    ],
+    "resources": [
+      "Carbon Dioxide (industrial)"
+    ]
+  },
+  {
+    "id": "AU_boc_vic_purifier",
+    "name": "BOC Victoria CO2 Purification & Liquefaction (Deer Park)",
+    "tier": "purifier_liquefier",
+    "country_iso2": "AU",
+    "canonical_company": "BOC (Linde)",
+    "coordinates": {
+      "lat": -37.775,
+      "lon": 144.774
+    },
+    "downstream": [
+      {
+        "target_id": "AU_boc_vic_distributor",
+        "corridor_id": "AU_road_deer-park-metro-melb",
+        "resource": "food-grade and industrial-grade liquid CO2",
+        "quantity": 45000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_boc_deer_park_hydrogen"
+    ],
+    "resources": [
+      "Carbon Dioxide (industrial)"
+    ]
+  },
+  {
+    "id": "AU_supagas_vic_purifier",
+    "name": "Supagas Victoria CO2 Purification & Liquefaction (Dandenong)",
+    "tier": "purifier_liquefier",
+    "country_iso2": "AU",
+    "canonical_company": "Supagas",
+    "coordinates": {
+      "lat": -37.98,
+      "lon": 145.21
+    },
+    "downstream": [
+      {
+        "target_id": "AU_supagas_vic_distributor",
+        "corridor_id": "AU_road_dandenong-metro-melb",
+        "resource": "food-grade liquid CO2",
+        "quantity": 25000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_qenos_altona_ethylene"
+    ],
+    "resources": [
+      "Carbon Dioxide (industrial)"
+    ]
+  },
+  {
+    "id": "AU_air_liquide_vic_purifier",
+    "name": "Air Liquide Victoria CO2 Purification & Liquefaction (Laverton)",
+    "tier": "purifier_liquefier",
+    "country_iso2": "AU",
+    "canonical_company": "Air Liquide",
+    "coordinates": {
+      "lat": -37.862,
+      "lon": 144.77
+    },
+    "downstream": [
+      {
+        "target_id": "AU_air_liquide_vic_distributor",
+        "corridor_id": "AU_road_laverton-metro-melb",
+        "resource": "food-grade and industrial-grade liquid CO2",
+        "quantity": 30000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_air_liquide_melbourne_smr"
+    ],
+    "resources": [
+      "Carbon Dioxide (industrial)"
+    ]
+  },
+  {
+    "id": "AU_boc_sa_purifier",
+    "name": "BOC South Australia CO2 Purification & Liquefaction (Adelaide)",
+    "tier": "purifier_liquefier",
+    "country_iso2": "AU",
+    "canonical_company": "BOC (Linde)",
+    "coordinates": {
+      "lat": -34.84,
+      "lon": 138.57
+    },
+    "downstream": [
+      {
+        "target_id": "AU_boc_sa_distributor",
+        "corridor_id": "AU_road_adelaide-sa-co2",
+        "resource": "food-grade and industrial-grade liquid CO2",
+        "quantity": 20000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_santos_moomba_ccs"
+    ],
+    "resources": [
+      "Carbon Dioxide (industrial)"
+    ]
+  },
+  {
+    "id": "AU_boc_wa_purifier",
+    "name": "BOC Western Australia CO2 Purification & Liquefaction (Kwinana)",
+    "tier": "purifier_liquefier",
+    "country_iso2": "AU",
+    "canonical_company": "BOC (Linde)",
+    "coordinates": {
+      "lat": -32.24,
+      "lon": 115.77
+    },
+    "downstream": [
+      {
+        "target_id": "AU_boc_wa_distributor",
+        "corridor_id": "AU_road_kwinana-perth-wa",
+        "resource": "food-grade and industrial-grade liquid CO2",
+        "quantity": 35000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_csbp_kwinana_capture"
+    ],
+    "resources": [
+      "Carbon Dioxide (industrial)"
+    ]
+  },
+  {
+    "id": "AU_boc_nsw_distributor",
+    "name": "BOC NSW CO2 Distribution Hub (Sydney)",
+    "tier": "distributor",
+    "country_iso2": "AU",
+    "canonical_company": "BOC (Linde)",
+    "coordinates": {
+      "lat": -33.87,
+      "lon": 151.21
+    },
+    "downstream": [
+      {
+        "target_id": "AU_cca_nsw_beverages",
+        "corridor_id": "AU_road_sydney-metro-co2-delivery",
+        "resource": "food-grade liquid CO2 for beverage carbonation",
+        "quantity": 8000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_boc_nsw_welding_supply",
+        "corridor_id": "AU_road_sydney-metro-co2-delivery",
+        "resource": "industrial-grade CO2 for welding shielding gas",
+        "quantity": 5000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_boc_nsw_water_treatment",
+        "corridor_id": "AU_road_sydney-metro-co2-delivery",
+        "resource": "industrial-grade liquid CO2 for water pH treatment",
+        "quantity": 6000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_boc_nsw_food_processing",
+        "corridor_id": "AU_road_sydney-metro-co2-delivery",
+        "resource": "food-grade liquid CO2 for food freezing and MAP",
+        "quantity": 6000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_boc_nsw_purifier"
+    ],
+    "resources": [
+      "Carbon Dioxide (industrial)"
+    ]
+  },
+  {
+    "id": "AU_supagas_nsw_distributor",
+    "name": "Supagas NSW CO2 Distribution (Sydney / Regional NSW)",
+    "tier": "distributor",
+    "country_iso2": "AU",
+    "canonical_company": "Supagas",
+    "coordinates": {
+      "lat": -33.8,
+      "lon": 151.1
+    },
+    "downstream": [
+      {
+        "target_id": "AU_supagas_nsw_hospitality",
+        "corridor_id": "AU_road_nsw-regional-co2",
+        "resource": "food-grade liquid CO2 for beverage and hospitality",
+        "quantity": 8000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_supagas_nsw_agri",
+        "corridor_id": "AU_road_nsw-regional-co2",
+        "resource": "CO2 for greenhouse enrichment and agriculture",
+        "quantity": 4000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_supagas_nsw_industrial",
+        "corridor_id": "AU_road_nsw-regional-co2",
+        "resource": "industrial-grade CO2 for welding and fabrication",
+        "quantity": 3000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_boc_nsw_purifier",
+      "AU_supagas_nsw_purifier"
+    ],
+    "resources": [
+      "Carbon Dioxide (industrial)"
+    ]
+  },
+  {
+    "id": "AU_supagas_vic_distributor",
+    "name": "Supagas Victoria CO2 Distribution (Melbourne)",
+    "tier": "distributor",
+    "country_iso2": "AU",
+    "canonical_company": "Supagas",
+    "coordinates": {
+      "lat": -37.83,
+      "lon": 145
+    },
+    "downstream": [
+      {
+        "target_id": "AU_supagas_vic_hospitality",
+        "corridor_id": "AU_road_melbourne-metro-co2-delivery",
+        "resource": "food-grade liquid CO2 for hospitality and beverage",
+        "quantity": 10000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_supagas_vic_industrial",
+        "corridor_id": "AU_road_vic-regional-co2",
+        "resource": "industrial-grade CO2",
+        "quantity": 8000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_supagas_vic_food",
+        "corridor_id": "AU_road_melbourne-metro-co2-delivery",
+        "resource": "food-grade CO2 for food processing",
+        "quantity": 7000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_supagas_vic_purifier"
+    ],
+    "resources": [
+      "Carbon Dioxide (industrial)"
+    ]
+  },
+  {
+    "id": "AU_boc_sa_distributor",
+    "name": "BOC South Australia CO2 Distribution Hub (Adelaide)",
+    "tier": "distributor",
+    "country_iso2": "AU",
+    "canonical_company": "BOC (Linde)",
+    "coordinates": {
+      "lat": -34.93,
+      "lon": 138.6
+    },
+    "downstream": [
+      {
+        "target_id": "AU_boc_sa_wine",
+        "corridor_id": "AU_road_sa-regional-co2",
+        "resource": "food-grade CO2 for winemaking (inerting and carbonation)",
+        "quantity": 6000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_boc_sa_beverages",
+        "corridor_id": "AU_road_adelaide-metro-co2-delivery",
+        "resource": "food-grade liquid CO2 for beverage carbonation",
+        "quantity": 5000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_boc_sa_water",
+        "corridor_id": "AU_road_adelaide-metro-co2-delivery",
+        "resource": "industrial-grade CO2 for water treatment",
+        "quantity": 5000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_boc_sa_industrial",
+        "corridor_id": "AU_road_sa-regional-co2",
+        "resource": "industrial-grade CO2",
+        "quantity": 4000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_boc_sa_purifier"
+    ],
+    "resources": [
+      "Carbon Dioxide (industrial)"
+    ]
+  },
+  {
+    "id": "AU_boc_wa_distributor",
+    "name": "BOC Western Australia CO2 Distribution Hub (Perth / Kwinana)",
+    "tier": "distributor",
+    "country_iso2": "AU",
+    "canonical_company": "BOC (Linde)",
+    "coordinates": {
+      "lat": -31.95,
+      "lon": 115.86
+    },
+    "downstream": [
+      {
+        "target_id": "AU_boc_wa_mining",
+        "corridor_id": "AU_road_wa-regional-co2",
+        "resource": "industrial-grade CO2 for gold mining (carbon-in-pulp) and nickel processing",
+        "quantity": 15000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_boc_wa_beverages",
+        "corridor_id": "AU_road_perth-metro-co2-delivery",
+        "resource": "food-grade liquid CO2 for beverage carbonation",
+        "quantity": 8000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_boc_wa_water",
+        "corridor_id": "AU_road_perth-metro-co2-delivery",
+        "resource": "industrial-grade CO2 for desalination and water treatment",
+        "quantity": 6000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_boc_wa_food",
+        "corridor_id": "AU_road_perth-metro-co2-delivery",
+        "resource": "food-grade CO2 for food processing",
+        "quantity": 6000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_boc_wa_purifier"
+    ],
+    "resources": [
+      "Carbon Dioxide (industrial)"
+    ]
+  },
+  {
+    "id": "AU_cca_nsw_beverages",
+    "name": "Coca-Cola Amatil / CCA NSW Bottling (Eastern Creek)",
+    "tier": "point_of_use",
+    "country_iso2": "AU",
+    "canonical_company": "Coca-Cola Europacific Partners",
+    "coordinates": {
+      "lat": -33.805,
+      "lon": 150.852
+    },
+    "downstream": [
+      {
+        "target_id": "AU_commercial",
+        "corridor_id": "AU_road_sydney-metro-co2-delivery",
+        "resource": "carbonated beverages",
+        "quantity": 8000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_boc_nsw_distributor"
+    ],
+    "resources": [
+      "Carbon Dioxide (industrial)"
+    ]
+  },
+  {
+    "id": "AU_boc_nsw_welding_supply",
+    "name": "BOC NSW Welding / Fabrication CO2 Customers",
+    "tier": "point_of_use",
+    "country_iso2": "AU",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": -33.87,
+      "lon": 151.21
+    },
+    "downstream": [
+      {
+        "target_id": "AU_industrial",
+        "corridor_id": "AU_road_sydney-metro-co2-delivery",
+        "resource": "CO2 shielding gas consumed in fabrication",
+        "quantity": 5000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_boc_nsw_distributor"
+    ],
+    "resources": [
+      "Carbon Dioxide (industrial)"
+    ]
+  },
+  {
+    "id": "AU_boc_nsw_water_treatment",
+    "name": "Sydney Water / NSW Water Utilities CO2 pH Control",
+    "tier": "point_of_use",
+    "country_iso2": "AU",
+    "canonical_company": "Sydney Water",
+    "coordinates": {
+      "lat": -33.86,
+      "lon": 151.2
+    },
+    "downstream": [
+      {
+        "target_id": "AU_infrastructure",
+        "corridor_id": "AU_road_sydney-metro-co2-delivery",
+        "resource": "CO2 consumed for water pH adjustment",
+        "quantity": 6000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_boc_nsw_distributor"
+    ],
+    "resources": [
+      "Carbon Dioxide (industrial)"
+    ]
+  },
+  {
+    "id": "AU_boc_nsw_food_processing",
+    "name": "NSW Food Processing CO2 Users (various)",
+    "tier": "point_of_use",
+    "country_iso2": "AU",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": -33.85,
+      "lon": 151.05
+    },
+    "downstream": [
+      {
+        "target_id": "AU_commercial",
+        "corridor_id": "AU_road_sydney-metro-co2-delivery",
+        "resource": "CO2 used in food freezing and MAP packaging",
+        "quantity": 6000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_boc_nsw_distributor"
+    ],
+    "resources": [
+      "Carbon Dioxide (industrial)"
+    ]
+  },
+  {
+    "id": "AU_coregas_nsw_beverage_customers",
+    "name": "Coregas NSW Beverage Carbonation Customers",
+    "tier": "point_of_use",
+    "country_iso2": "AU",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": -33.88,
+      "lon": 151.18
+    },
+    "downstream": [
+      {
+        "target_id": "AU_commercial",
+        "corridor_id": "AU_road_sydney-metro-co2-delivery",
+        "resource": "CO2 consumed in beverage carbonation",
+        "quantity": 10000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_coregas_nsw_distributor"
+    ],
+    "resources": [
+      "Carbon Dioxide (industrial)"
+    ]
+  },
+  {
+    "id": "AU_coregas_nsw_industrial_customers",
+    "name": "Coregas NSW Industrial CO2 Customers",
+    "tier": "point_of_use",
+    "country_iso2": "AU",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": -33.87,
+      "lon": 151.1
+    },
+    "downstream": [
+      {
+        "target_id": "AU_industrial",
+        "corridor_id": "AU_road_sydney-metro-co2-delivery",
+        "resource": "CO2 consumed in industrial processes",
+        "quantity": 12000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_coregas_nsw_distributor"
+    ],
+    "resources": [
+      "Carbon Dioxide (industrial)"
+    ]
+  },
+  {
+    "id": "AU_coregas_nsw_food_customers",
+    "name": "Coregas NSW Food Processing CO2 Customers",
+    "tier": "point_of_use",
+    "country_iso2": "AU",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": -33.86,
+      "lon": 151.08
+    },
+    "downstream": [
+      {
+        "target_id": "AU_commercial",
+        "corridor_id": "AU_road_sydney-metro-co2-delivery",
+        "resource": "CO2 consumed in food processing",
+        "quantity": 8000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_coregas_nsw_distributor"
+    ],
+    "resources": [
+      "Carbon Dioxide (industrial)"
+    ]
+  },
+  {
+    "id": "AU_supagas_nsw_hospitality",
+    "name": "Supagas NSW Hospitality & Beverage Customers",
+    "tier": "point_of_use",
+    "country_iso2": "AU",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": -33.87,
+      "lon": 151.2
+    },
+    "downstream": [
+      {
+        "target_id": "AU_commercial",
+        "corridor_id": "AU_road_nsw-regional-co2",
+        "resource": "CO2 consumed in beverage dispensing and carbonation",
+        "quantity": 8000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_supagas_nsw_distributor"
+    ],
+    "resources": [
+      "Carbon Dioxide (industrial)"
+    ]
+  },
+  {
+    "id": "AU_supagas_nsw_agri",
+    "name": "Supagas NSW Agriculture / Greenhouse Customers",
+    "tier": "point_of_use",
+    "country_iso2": "AU",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": -33.5,
+      "lon": 150.7
+    },
+    "downstream": [
+      {
+        "target_id": "AU_agricultural",
+        "corridor_id": "AU_road_nsw-regional-co2",
+        "resource": "CO2 consumed in greenhouse enrichment",
+        "quantity": 4000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_supagas_nsw_distributor"
+    ],
+    "resources": [
+      "Carbon Dioxide (industrial)"
+    ]
+  },
+  {
+    "id": "AU_supagas_nsw_industrial",
+    "name": "Supagas NSW Industrial CO2 Customers",
+    "tier": "point_of_use",
+    "country_iso2": "AU",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": -33.75,
+      "lon": 151
+    },
+    "downstream": [
+      {
+        "target_id": "AU_industrial",
+        "corridor_id": "AU_road_nsw-regional-co2",
+        "resource": "CO2 shielding gas consumed in welding/fabrication",
+        "quantity": 3000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_supagas_nsw_distributor"
+    ],
+    "resources": [
+      "Carbon Dioxide (industrial)"
+    ]
+  },
+  {
+    "id": "AU_boc_qld_beverages",
+    "name": "QLD Beverage Carbonation Customers (CCA, Lion, etc.)",
+    "tier": "point_of_use",
+    "country_iso2": "AU",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": -27.47,
+      "lon": 153.02
+    },
+    "downstream": [
+      {
+        "target_id": "AU_commercial",
+        "corridor_id": "AU_road_brisbane-metro-co2-delivery",
+        "resource": "CO2 consumed in beverage carbonation",
+        "quantity": 15000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_boc_qld_distributor"
+    ],
+    "resources": [
+      "Carbon Dioxide (industrial)"
+    ]
+  },
+  {
+    "id": "AU_boc_qld_meat_processing",
+    "name": "QLD Meat Processing CO2 Users (JBS, Teys, etc.)",
+    "tier": "point_of_use",
+    "country_iso2": "AU",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": -27.6,
+      "lon": 152.7
+    },
+    "downstream": [
+      {
+        "target_id": "AU_commercial",
+        "corridor_id": "AU_road_qld-regional-co2",
+        "resource": "CO2 consumed in meat stunning and modified atmosphere packaging",
+        "quantity": 12000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_boc_qld_distributor"
+    ],
+    "resources": [
+      "Carbon Dioxide (industrial)"
+    ]
+  },
+  {
+    "id": "AU_boc_qld_water",
+    "name": "QLD Water Utilities CO2 pH Control",
+    "tier": "point_of_use",
+    "country_iso2": "AU",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": -27.47,
+      "lon": 153.02
+    },
+    "downstream": [
+      {
+        "target_id": "AU_infrastructure",
+        "corridor_id": "AU_road_brisbane-metro-co2-delivery",
+        "resource": "CO2 consumed in water pH treatment",
+        "quantity": 8000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_boc_qld_distributor"
+    ],
+    "resources": [
+      "Carbon Dioxide (industrial)"
+    ]
+  },
+  {
+    "id": "AU_boc_qld_mining",
+    "name": "QLD Mining CO2 Users (gold leaching, coal processing)",
+    "tier": "point_of_use",
+    "country_iso2": "AU",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": -22,
+      "lon": 148
+    },
+    "downstream": [
+      {
+        "target_id": "AU_industrial",
+        "corridor_id": "AU_road_qld-regional-co2",
+        "resource": "CO2 consumed in mineral processing and gold leaching",
+        "quantity": 15000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_boc_qld_distributor"
+    ],
+    "resources": [
+      "Carbon Dioxide (industrial)"
+    ]
+  },
+  {
+    "id": "AU_boc_vic_beverages",
+    "name": "VIC Beverage Carbonation Customers (CCA, Carlton & United, etc.)",
+    "tier": "point_of_use",
+    "country_iso2": "AU",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": -37.81,
+      "lon": 144.96
+    },
+    "downstream": [
+      {
+        "target_id": "AU_commercial",
+        "corridor_id": "AU_road_melbourne-metro-co2-delivery",
+        "resource": "CO2 consumed in beverage carbonation",
+        "quantity": 12000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_boc_vic_distributor"
+    ],
+    "resources": [
+      "Carbon Dioxide (industrial)"
+    ]
+  },
+  {
+    "id": "AU_boc_vic_food_processing",
+    "name": "VIC Food Processing CO2 Users (various)",
+    "tier": "point_of_use",
+    "country_iso2": "AU",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": -37.82,
+      "lon": 144.97
+    },
+    "downstream": [
+      {
+        "target_id": "AU_commercial",
+        "corridor_id": "AU_road_melbourne-metro-co2-delivery",
+        "resource": "CO2 consumed in food processing, freezing and MAP",
+        "quantity": 10000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_boc_vic_distributor"
+    ],
+    "resources": [
+      "Carbon Dioxide (industrial)"
+    ]
+  },
+  {
+    "id": "AU_boc_vic_welding",
+    "name": "VIC Welding & Fabrication CO2 Users",
+    "tier": "point_of_use",
+    "country_iso2": "AU",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": -37.82,
+      "lon": 145
+    },
+    "downstream": [
+      {
+        "target_id": "AU_industrial",
+        "corridor_id": "AU_road_melbourne-metro-co2-delivery",
+        "resource": "CO2 shielding gas consumed in welding",
+        "quantity": 8000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_boc_vic_distributor"
+    ],
+    "resources": [
+      "Carbon Dioxide (industrial)"
+    ]
+  },
+  {
+    "id": "AU_boc_vic_water_treatment",
+    "name": "VIC Water Utilities CO2 pH Control (Melbourne Water, etc.)",
+    "tier": "point_of_use",
+    "country_iso2": "AU",
+    "canonical_company": "Melbourne Water",
+    "coordinates": {
+      "lat": -37.81,
+      "lon": 144.97
+    },
+    "downstream": [
+      {
+        "target_id": "AU_infrastructure",
+        "corridor_id": "AU_road_vic-regional-co2",
+        "resource": "CO2 consumed for water pH adjustment",
+        "quantity": 8000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_boc_vic_distributor"
+    ],
+    "resources": [
+      "Carbon Dioxide (industrial)"
+    ]
+  },
+  {
+    "id": "AU_boc_vic_greenhouses",
+    "name": "VIC Greenhouse / Horticulture CO2 Enrichment Customers",
+    "tier": "point_of_use",
+    "country_iso2": "AU",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": -38.1,
+      "lon": 145.3
+    },
+    "downstream": [
+      {
+        "target_id": "AU_agricultural",
+        "corridor_id": "AU_road_vic-regional-co2",
+        "resource": "CO2 consumed for greenhouse enrichment",
+        "quantity": 7000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_boc_vic_distributor"
+    ],
+    "resources": [
+      "Carbon Dioxide (industrial)"
+    ]
+  },
+  {
+    "id": "AU_supagas_vic_hospitality",
+    "name": "Supagas VIC Hospitality & Beverage Customers",
+    "tier": "point_of_use",
+    "country_iso2": "AU",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": -37.81,
+      "lon": 144.96
+    },
+    "downstream": [
+      {
+        "target_id": "AU_commercial",
+        "corridor_id": "AU_road_melbourne-metro-co2-delivery",
+        "resource": "CO2 consumed in beverage dispensing",
+        "quantity": 10000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_supagas_vic_distributor"
+    ],
+    "resources": [
+      "Carbon Dioxide (industrial)"
+    ]
+  },
+  {
+    "id": "AU_supagas_vic_industrial",
+    "name": "Supagas VIC Industrial CO2 Customers",
+    "tier": "point_of_use",
+    "country_iso2": "AU",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": -37.83,
+      "lon": 145.1
+    },
+    "downstream": [
+      {
+        "target_id": "AU_industrial",
+        "corridor_id": "AU_road_vic-regional-co2",
+        "resource": "CO2 consumed in industrial processes",
+        "quantity": 8000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_supagas_vic_distributor"
+    ],
+    "resources": [
+      "Carbon Dioxide (industrial)"
+    ]
+  },
+  {
+    "id": "AU_supagas_vic_food",
+    "name": "Supagas VIC Food Processing Customers",
+    "tier": "point_of_use",
+    "country_iso2": "AU",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": -37.82,
+      "lon": 144.98
+    },
+    "downstream": [
+      {
+        "target_id": "AU_commercial",
+        "corridor_id": "AU_road_melbourne-metro-co2-delivery",
+        "resource": "CO2 consumed in food processing",
+        "quantity": 7000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_supagas_vic_distributor"
+    ],
+    "resources": [
+      "Carbon Dioxide (industrial)"
+    ]
+  },
+  {
+    "id": "AU_al_vic_beverages",
+    "name": "Air Liquide VIC Beverage Carbonation Customers",
+    "tier": "point_of_use",
+    "country_iso2": "AU",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": -37.81,
+      "lon": 144.96
+    },
+    "downstream": [
+      {
+        "target_id": "AU_commercial",
+        "corridor_id": "AU_road_melbourne-metro-co2-delivery",
+        "resource": "CO2 consumed in beverage carbonation",
+        "quantity": 10000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_air_liquide_vic_distributor"
+    ],
+    "resources": [
+      "Carbon Dioxide (industrial)"
+    ]
+  },
+  {
+    "id": "AU_al_vic_industrial",
+    "name": "Air Liquide VIC Industrial CO2 Customers",
+    "tier": "point_of_use",
+    "country_iso2": "AU",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": -37.82,
+      "lon": 145.05
+    },
+    "downstream": [
+      {
+        "target_id": "AU_industrial",
+        "corridor_id": "AU_road_vic-regional-co2",
+        "resource": "CO2 consumed in manufacturing and fabrication",
+        "quantity": 12000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_air_liquide_vic_distributor"
+    ],
+    "resources": [
+      "Carbon Dioxide (industrial)"
+    ]
+  },
+  {
+    "id": "AU_al_vic_food",
+    "name": "Air Liquide VIC Food Processing Customers",
+    "tier": "point_of_use",
+    "country_iso2": "AU",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": -37.82,
+      "lon": 144.97
+    },
+    "downstream": [
+      {
+        "target_id": "AU_commercial",
+        "corridor_id": "AU_road_melbourne-metro-co2-delivery",
+        "resource": "CO2 consumed in food processing",
+        "quantity": 8000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_air_liquide_vic_distributor"
+    ],
+    "resources": [
+      "Carbon Dioxide (industrial)"
+    ]
+  },
+  {
+    "id": "AU_boc_sa_wine",
+    "name": "SA Winemaking CO2 Users (Barossa, McLaren Vale, etc.)",
+    "tier": "point_of_use",
+    "country_iso2": "AU",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": -34.55,
+      "lon": 138.95
+    },
+    "downstream": [
+      {
+        "target_id": "AU_commercial",
+        "corridor_id": "AU_road_sa-regional-co2",
+        "resource": "CO2 consumed in winemaking inerting and carbonation",
+        "quantity": 6000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_boc_sa_distributor"
+    ],
+    "resources": [
+      "Carbon Dioxide (industrial)"
+    ]
+  },
+  {
+    "id": "AU_boc_sa_beverages",
+    "name": "SA Beverage Carbonation Customers",
+    "tier": "point_of_use",
+    "country_iso2": "AU",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": -34.93,
+      "lon": 138.6
+    },
+    "downstream": [
+      {
+        "target_id": "AU_commercial",
+        "corridor_id": "AU_road_adelaide-metro-co2-delivery",
+        "resource": "CO2 consumed in beverage carbonation",
+        "quantity": 5000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_boc_sa_distributor"
+    ],
+    "resources": [
+      "Carbon Dioxide (industrial)"
+    ]
+  },
+  {
+    "id": "AU_boc_sa_water",
+    "name": "SA Water Utilities CO2 pH Control",
+    "tier": "point_of_use",
+    "country_iso2": "AU",
+    "canonical_company": "SA Water",
+    "coordinates": {
+      "lat": -34.92,
+      "lon": 138.6
+    },
+    "downstream": [
+      {
+        "target_id": "AU_infrastructure",
+        "corridor_id": "AU_road_adelaide-metro-co2-delivery",
+        "resource": "CO2 consumed for water pH adjustment",
+        "quantity": 5000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_boc_sa_distributor"
+    ],
+    "resources": [
+      "Carbon Dioxide (industrial)"
+    ]
+  },
+  {
+    "id": "AU_boc_sa_industrial",
+    "name": "SA Industrial CO2 Users",
+    "tier": "point_of_use",
+    "country_iso2": "AU",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": -34.93,
+      "lon": 138.6
+    },
+    "downstream": [
+      {
+        "target_id": "AU_industrial",
+        "corridor_id": "AU_road_sa-regional-co2",
+        "resource": "CO2 consumed in industrial processes",
+        "quantity": 4000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_boc_sa_distributor"
+    ],
+    "resources": [
+      "Carbon Dioxide (industrial)"
+    ]
+  },
+  {
+    "id": "AU_boc_wa_mining",
+    "name": "WA Mining CO2 Users (gold leaching, nickel processing)",
+    "tier": "point_of_use",
+    "country_iso2": "AU",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": -31,
+      "lon": 121.5
+    },
+    "downstream": [
+      {
+        "target_id": "AU_industrial",
+        "corridor_id": "AU_road_wa-regional-co2",
+        "resource": "CO2 consumed in gold leaching and mineral processing",
+        "quantity": 15000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_boc_wa_distributor"
+    ],
+    "resources": [
+      "Carbon Dioxide (industrial)"
+    ]
+  },
+  {
+    "id": "AU_boc_wa_beverages",
+    "name": "WA Beverage Carbonation Customers",
+    "tier": "point_of_use",
+    "country_iso2": "AU",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": -31.95,
+      "lon": 115.86
+    },
+    "downstream": [
+      {
+        "target_id": "AU_commercial",
+        "corridor_id": "AU_road_perth-metro-co2-delivery",
+        "resource": "CO2 consumed in beverage carbonation",
+        "quantity": 8000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_boc_wa_distributor"
+    ],
+    "resources": [
+      "Carbon Dioxide (industrial)"
+    ]
+  },
+  {
+    "id": "AU_boc_wa_water",
+    "name": "WA Water Utilities CO2 pH Control (Water Corp, etc.)",
+    "tier": "point_of_use",
+    "country_iso2": "AU",
+    "canonical_company": "Water Corporation",
+    "coordinates": {
+      "lat": -31.95,
+      "lon": 115.86
+    },
+    "downstream": [
+      {
+        "target_id": "AU_infrastructure",
+        "corridor_id": "AU_road_perth-metro-co2-delivery",
+        "resource": "CO2 consumed for desalination and water pH treatment",
+        "quantity": 6000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_boc_wa_distributor"
+    ],
+    "resources": [
+      "Carbon Dioxide (industrial)"
+    ]
+  },
+  {
+    "id": "AU_boc_wa_food",
+    "name": "WA Food Processing CO2 Users",
+    "tier": "point_of_use",
+    "country_iso2": "AU",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": -31.95,
+      "lon": 115.86
+    },
+    "downstream": [
+      {
+        "target_id": "AU_commercial",
+        "corridor_id": "AU_road_perth-metro-co2-delivery",
+        "resource": "CO2 consumed in food processing",
+        "quantity": 6000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_boc_wa_distributor"
+    ],
+    "resources": [
+      "Carbon Dioxide (industrial)"
+    ]
+  },
+  {
+    "id": "AU_pipeline_botany-co2",
+    "tier": "transport",
+    "name": "Botany Industrial Area CO2 Pipeline",
+    "country_iso2": "AU",
+    "operator_id": "AU_coregas",
+    "mode": "pipeline",
+    "form": "gas",
+    "range": "local",
+    "coordinates": {
+      "lat": -33.946,
+      "lon": 151.206
+    }
+  },
+  {
+    "id": "AU_road_vales-point-to-somersby",
+    "tier": "transport",
+    "name": "Road Tanker: Vales Point to Somersby NSW",
+    "country_iso2": "AU",
+    "operator_id": "AU_supagas",
+    "mode": "road",
+    "form": "bulk_liquid",
+    "range": "regional",
+    "coordinates": {
+      "lat": -33.26,
+      "lon": 151.4
+    }
+  },
+  {
+    "id": "AU_pipeline_gibson-island-co2",
+    "tier": "transport",
+    "name": "Gibson Island CO2 Pipeline to BOC QLD Facility",
+    "country_iso2": "AU",
+    "operator_id": "AU_boc",
+    "mode": "pipeline",
+    "form": "gas",
+    "range": "local",
+    "coordinates": {
+      "lat": -27.435,
+      "lon": 153.118
+    }
+  },
+  {
+    "id": "AU_pipeline_kooragang-co2",
+    "tier": "transport",
+    "name": "Kooragang Island CO2 Pipeline",
+    "country_iso2": "AU",
+    "operator_id": "AU_boc",
+    "mode": "pipeline",
+    "form": "gas",
+    "range": "local",
+    "coordinates": {
+      "lat": -32.868,
+      "lon": 151.756
+    }
+  },
+  {
+    "id": "AU_road_moomba-to-adelaide",
+    "tier": "transport",
+    "name": "Road Tanker: Moomba to Adelaide",
+    "country_iso2": "AU",
+    "operator_id": "AU_boc",
+    "mode": "road",
+    "form": "bulk_liquid",
+    "range": "regional",
+    "coordinates": {
+      "lat": -31.5,
+      "lon": 139.4
+    }
+  },
+  {
+    "id": "AU_road_altona-to-dandenong",
+    "tier": "transport",
+    "name": "Road Tanker: Altona to Dandenong VIC",
+    "country_iso2": "AU",
+    "operator_id": "AU_supagas",
+    "mode": "road",
+    "form": "bulk_liquid",
+    "range": "local",
+    "coordinates": {
+      "lat": -37.9,
+      "lon": 145.02
+    }
+  },
+  {
+    "id": "AU_pipeline_kwinana-co2",
+    "tier": "transport",
+    "name": "Kwinana Industrial CO2 Pipeline",
+    "country_iso2": "AU",
+    "operator_id": "AU_boc",
+    "mode": "pipeline",
+    "form": "gas",
+    "range": "local",
+    "coordinates": {
+      "lat": -32.238,
+      "lon": 115.768
+    }
+  },
+  {
+    "id": "AU_pipeline_deer-park-co2",
+    "tier": "transport",
+    "name": "Deer Park CO2 Pipeline to BOC Liquefier",
+    "country_iso2": "AU",
+    "operator_id": "AU_boc",
+    "mode": "pipeline",
+    "form": "gas",
+    "range": "local",
+    "coordinates": {
+      "lat": -37.774,
+      "lon": 144.773
+    }
+  },
+  {
+    "id": "AU_road_altona-al-to-laverton",
+    "tier": "transport",
+    "name": "Road / Pipeline: Altona SMR to Laverton Liquefier",
+    "country_iso2": "AU",
+    "operator_id": "AU_air_liquide",
+    "mode": "road",
+    "form": "bulk_liquid",
+    "range": "local",
+    "coordinates": {
+      "lat": -37.847,
+      "lon": 144.8
+    }
+  },
+  {
+    "id": "AU_road_wetherill-park-nsw",
+    "tier": "transport",
+    "name": "Road Tanker: Wetherill Park to Sydney Metro",
+    "country_iso2": "AU",
+    "operator_id": "AU_boc",
+    "mode": "road",
+    "form": "bulk_liquid",
+    "range": "local",
+    "coordinates": {
+      "lat": -33.85,
+      "lon": 150.9
+    }
+  },
+  {
+    "id": "AU_road_wetherill-park-somersby",
+    "tier": "transport",
+    "name": "Road Tanker: Wetherill Park to Somersby / Central Coast",
+    "country_iso2": "AU",
+    "operator_id": "AU_boc",
+    "mode": "road",
+    "form": "bulk_liquid",
+    "range": "regional",
+    "coordinates": {
+      "lat": -33.6,
+      "lon": 151.05
+    }
+  },
+  {
+    "id": "AU_road_botany-metro-sydney",
+    "tier": "transport",
+    "name": "Road Tanker: Botany to Sydney Metro",
+    "country_iso2": "AU",
+    "operator_id": "AU_coregas",
+    "mode": "road",
+    "form": "bulk_liquid",
+    "range": "local",
+    "coordinates": {
+      "lat": -33.92,
+      "lon": 151.2
+    }
+  },
+  {
+    "id": "AU_road_somersby-nsw",
+    "tier": "transport",
+    "name": "Road Tanker: Somersby to NSW Regional / Metro",
+    "country_iso2": "AU",
+    "operator_id": "AU_supagas",
+    "mode": "road",
+    "form": "bulk_liquid",
+    "range": "regional",
+    "coordinates": {
+      "lat": -33.36,
+      "lon": 151.28
+    }
+  },
+  {
+    "id": "AU_road_brisbane-qld-co2",
+    "tier": "transport",
+    "name": "Road Tanker: Brisbane CO2 Distribution",
+    "country_iso2": "AU",
+    "operator_id": "AU_boc",
+    "mode": "road",
+    "form": "bulk_liquid",
+    "range": "local",
+    "coordinates": {
+      "lat": -27.45,
+      "lon": 153.1
+    }
+  },
+  {
+    "id": "AU_road_deer-park-metro-melb",
+    "tier": "transport",
+    "name": "Road Tanker: Deer Park to Melbourne Metro",
+    "country_iso2": "AU",
+    "operator_id": "AU_boc",
+    "mode": "road",
+    "form": "bulk_liquid",
+    "range": "local",
+    "coordinates": {
+      "lat": -37.8,
+      "lon": 144.9
+    }
+  },
+  {
+    "id": "AU_road_dandenong-metro-melb",
+    "tier": "transport",
+    "name": "Road Tanker: Dandenong to Melbourne Metro",
+    "country_iso2": "AU",
+    "operator_id": "AU_supagas",
+    "mode": "road",
+    "form": "bulk_liquid",
+    "range": "local",
+    "coordinates": {
+      "lat": -37.93,
+      "lon": 145.15
+    }
+  },
+  {
+    "id": "AU_road_laverton-metro-melb",
+    "tier": "transport",
+    "name": "Road Tanker: Laverton to Melbourne Metro",
+    "country_iso2": "AU",
+    "operator_id": "AU_air_liquide",
+    "mode": "road",
+    "form": "bulk_liquid",
+    "range": "local",
+    "coordinates": {
+      "lat": -37.85,
+      "lon": 144.78
+    }
+  },
+  {
+    "id": "AU_road_adelaide-sa-co2",
+    "tier": "transport",
+    "name": "Road Tanker: Adelaide CO2 Distribution",
+    "country_iso2": "AU",
+    "operator_id": "AU_boc",
+    "mode": "road",
+    "form": "bulk_liquid",
+    "range": "local",
+    "coordinates": {
+      "lat": -34.92,
+      "lon": 138.6
+    }
+  },
+  {
+    "id": "AU_road_kwinana-perth-wa",
+    "tier": "transport",
+    "name": "Road Tanker: Kwinana to Perth Metro",
+    "country_iso2": "AU",
+    "operator_id": "AU_boc",
+    "mode": "road",
+    "form": "bulk_liquid",
+    "range": "local",
+    "coordinates": {
+      "lat": -32.1,
+      "lon": 115.82
+    }
+  },
+  {
+    "id": "AU_road_sydney-metro-co2-delivery",
+    "tier": "transport",
+    "name": "Road Tanker / Cylinder Delivery: Sydney Metro CO2",
+    "country_iso2": "AU",
+    "operator_id": "AU_boc",
+    "mode": "road",
+    "form": "bulk_liquid",
+    "range": "local",
+    "coordinates": {
+      "lat": -33.87,
+      "lon": 151.21
+    }
+  },
+  {
+    "id": "AU_road_nsw-regional-co2",
+    "tier": "transport",
+    "name": "Road Tanker: NSW Regional CO2 Distribution",
+    "country_iso2": "AU",
+    "operator_id": "AU_supagas",
+    "mode": "road",
+    "form": "bulk_liquid",
+    "range": "regional",
+    "coordinates": {
+      "lat": -33.6,
+      "lon": 150.8
+    }
+  },
+  {
+    "id": "AU_road_brisbane-metro-co2-delivery",
+    "tier": "transport",
+    "name": "Road Tanker: Brisbane Metro CO2 Delivery",
+    "country_iso2": "AU",
+    "operator_id": "AU_boc",
+    "mode": "road",
+    "form": "bulk_liquid",
+    "range": "local",
+    "coordinates": {
+      "lat": -27.47,
+      "lon": 153.03
+    }
+  },
+  {
+    "id": "AU_road_qld-regional-co2",
+    "tier": "transport",
+    "name": "Road Tanker: QLD Regional CO2 Distribution",
+    "country_iso2": "AU",
+    "operator_id": "AU_boc",
+    "mode": "road",
+    "form": "bulk_liquid",
+    "range": "regional",
+    "coordinates": {
+      "lat": -24,
+      "lon": 150
+    }
+  },
+  {
+    "id": "AU_road_melbourne-metro-co2-delivery",
+    "tier": "transport",
+    "name": "Road Tanker / Cylinder Delivery: Melbourne Metro CO2",
+    "country_iso2": "AU",
+    "operator_id": "AU_boc",
+    "mode": "road",
+    "form": "bulk_liquid",
+    "range": "local",
+    "coordinates": {
+      "lat": -37.81,
+      "lon": 144.96
+    }
+  },
+  {
+    "id": "AU_road_vic-regional-co2",
+    "tier": "transport",
+    "name": "Road Tanker: VIC Regional CO2 Distribution",
+    "country_iso2": "AU",
+    "operator_id": "AU_boc",
+    "mode": "road",
+    "form": "bulk_liquid",
+    "range": "regional",
+    "coordinates": {
+      "lat": -37.9,
+      "lon": 145.2
+    }
+  },
+  {
+    "id": "AU_road_adelaide-metro-co2-delivery",
+    "tier": "transport",
+    "name": "Road Tanker: Adelaide Metro CO2 Delivery",
+    "country_iso2": "AU",
+    "operator_id": "AU_boc",
+    "mode": "road",
+    "form": "bulk_liquid",
+    "range": "local",
+    "coordinates": {
+      "lat": -34.93,
+      "lon": 138.6
+    }
+  },
+  {
+    "id": "AU_road_sa-regional-co2",
+    "tier": "transport",
+    "name": "Road Tanker: SA Regional CO2 Distribution (Barossa, etc.)",
+    "country_iso2": "AU",
+    "operator_id": "AU_boc",
+    "mode": "road",
+    "form": "bulk_liquid",
+    "range": "regional",
+    "coordinates": {
+      "lat": -34.6,
+      "lon": 138.9
+    }
+  },
+  {
+    "id": "AU_road_perth-metro-co2-delivery",
+    "tier": "transport",
+    "name": "Road Tanker: Perth Metro CO2 Delivery",
+    "country_iso2": "AU",
+    "operator_id": "AU_boc",
+    "mode": "road",
+    "form": "bulk_liquid",
+    "range": "local",
+    "coordinates": {
+      "lat": -31.95,
+      "lon": 115.86
+    }
+  },
+  {
+    "id": "AU_road_wa-regional-co2",
+    "tier": "transport",
+    "name": "Road Tanker: WA Regional CO2 Distribution (Goldfields, etc.)",
+    "country_iso2": "AU",
+    "operator_id": "AU_boc",
+    "mode": "road",
+    "form": "bulk_liquid",
+    "range": "regional",
+    "coordinates": {
+      "lat": -31.5,
+      "lon": 119
+    }
+  }
+]

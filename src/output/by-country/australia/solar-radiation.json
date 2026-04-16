@@ -1,0 +1,2883 @@
+[
+  {
+    "id": "AU_bungala_solar_farm",
+    "name": "Bungala Solar Farm",
+    "tier": "generation",
+    "country_iso2": "AU",
+    "canonical_company": "ENEL Green Power / Reaching Sun Investments",
+    "coordinates": {
+      "lat": -31.88,
+      "lon": 137.35
+    },
+    "downstream": [
+      {
+        "target_id": "AU_electranet",
+        "corridor_id": "AU_electrical_grid_bungala-davenport",
+        "resource": "solar electricity",
+        "quantity": 570000,
+        "metric": "MWh"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Solar Radiation"
+    ]
+  },
+  {
+    "id": "AU_sunraysia_solar_farm",
+    "name": "Sunraysia Solar Farm",
+    "tier": "generation",
+    "country_iso2": "AU",
+    "canonical_company": "Maoneng Group",
+    "coordinates": {
+      "lat": -34.22,
+      "lon": 142.2
+    },
+    "downstream": [
+      {
+        "target_id": "AU_transgrid",
+        "corridor_id": "AU_electrical_grid_sunraysia-balranald",
+        "resource": "solar electricity",
+        "quantity": 400000,
+        "metric": "MWh"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Solar Radiation"
+    ]
+  },
+  {
+    "id": "AU_western_downs_green_power_hub",
+    "name": "Western Downs Green Power Hub",
+    "tier": "generation",
+    "country_iso2": "AU",
+    "canonical_company": "Neoen",
+    "coordinates": {
+      "lat": -26.85,
+      "lon": 150.8
+    },
+    "downstream": [
+      {
+        "target_id": "AU_powerlink_queensland",
+        "corridor_id": "AU_electrical_grid_wdgph-western-downs-sub",
+        "resource": "solar electricity",
+        "quantity": 900000,
+        "metric": "MWh"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Solar Radiation"
+    ]
+  },
+  {
+    "id": "AU_darling_downs_solar_farm",
+    "name": "Darling Downs Solar Farm",
+    "tier": "generation",
+    "country_iso2": "AU",
+    "canonical_company": "APA Group",
+    "coordinates": {
+      "lat": -27.42,
+      "lon": 151.27
+    },
+    "downstream": [
+      {
+        "target_id": "AU_powerlink_queensland",
+        "corridor_id": "AU_electrical_grid_ddsf-braemar",
+        "resource": "solar electricity",
+        "quantity": 340000,
+        "metric": "MWh"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Solar Radiation"
+    ]
+  },
+  {
+    "id": "AU_limondale_solar_farm",
+    "name": "Limondale Solar Farm",
+    "tier": "generation",
+    "country_iso2": "AU",
+    "canonical_company": "Innogy / RWE Renewables",
+    "coordinates": {
+      "lat": -33.6,
+      "lon": 142.86
+    },
+    "downstream": [
+      {
+        "target_id": "AU_transgrid",
+        "corridor_id": "AU_electrical_grid_limondale-balranald",
+        "resource": "solar electricity",
+        "quantity": 350000,
+        "metric": "MWh"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Solar Radiation"
+    ]
+  },
+  {
+    "id": "AU_coleambally_solar_farm",
+    "name": "Coleambally Solar Farm",
+    "tier": "generation",
+    "country_iso2": "AU",
+    "canonical_company": "Neoen",
+    "coordinates": {
+      "lat": -34.8,
+      "lon": 145.88
+    },
+    "downstream": [
+      {
+        "target_id": "AU_transgrid",
+        "corridor_id": "AU_electrical_grid_coleambally-sub",
+        "resource": "solar electricity",
+        "quantity": 260000,
+        "metric": "MWh"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Solar Radiation"
+    ]
+  },
+  {
+    "id": "AU_bluegrass_solar_farm",
+    "name": "Bluegrass Solar Farm",
+    "tier": "generation",
+    "country_iso2": "AU",
+    "canonical_company": "WIRSOL / Edify Energy",
+    "coordinates": {
+      "lat": -19.62,
+      "lon": 147.36
+    },
+    "downstream": [
+      {
+        "target_id": "AU_powerlink_queensland",
+        "corridor_id": "AU_electrical_grid_bluegrass-ross",
+        "resource": "solar electricity",
+        "quantity": 260000,
+        "metric": "MWh"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Solar Radiation"
+    ]
+  },
+  {
+    "id": "AU_daydream_solar_farm",
+    "name": "Daydream Solar Farm",
+    "tier": "generation",
+    "country_iso2": "AU",
+    "canonical_company": "Edify Energy",
+    "coordinates": {
+      "lat": -20.06,
+      "lon": 148.18
+    },
+    "downstream": [
+      {
+        "target_id": "AU_powerlink_queensland",
+        "corridor_id": "AU_electrical_grid_daydream-strathmore",
+        "resource": "solar electricity",
+        "quantity": 350000,
+        "metric": "MWh"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Solar Radiation"
+    ]
+  },
+  {
+    "id": "AU_hayman_solar_farm",
+    "name": "Hayman Solar Farm",
+    "tier": "generation",
+    "country_iso2": "AU",
+    "canonical_company": "Edify Energy",
+    "coordinates": {
+      "lat": -20.1,
+      "lon": 148.16
+    },
+    "downstream": [
+      {
+        "target_id": "AU_powerlink_queensland",
+        "corridor_id": "AU_electrical_grid_daydream-strathmore",
+        "resource": "solar electricity",
+        "quantity": 95000,
+        "metric": "MWh"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Solar Radiation"
+    ]
+  },
+  {
+    "id": "AU_sun_metals_solar_farm",
+    "name": "Sun Metals Solar Farm",
+    "tier": "generation",
+    "country_iso2": "AU",
+    "canonical_company": "Sun Metals / Korea Zinc",
+    "coordinates": {
+      "lat": -19.32,
+      "lon": 146.74
+    },
+    "downstream": [
+      {
+        "target_id": "AU_powerlink_queensland",
+        "corridor_id": "AU_electrical_grid_sun-metals-townsville",
+        "resource": "solar electricity",
+        "quantity": 235000,
+        "metric": "MWh"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Solar Radiation"
+    ]
+  },
+  {
+    "id": "AU_clermont_solar_farm",
+    "name": "Clermont Solar Farm",
+    "tier": "generation",
+    "country_iso2": "AU",
+    "canonical_company": "Wirsol Energy / Edify Energy",
+    "coordinates": {
+      "lat": -22.82,
+      "lon": 147.63
+    },
+    "downstream": [
+      {
+        "target_id": "AU_powerlink_queensland",
+        "corridor_id": "AU_electrical_grid_clermont-lilyvale",
+        "resource": "solar electricity",
+        "quantity": 260000,
+        "metric": "MWh"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Solar Radiation"
+    ]
+  },
+  {
+    "id": "AU_ross_river_solar_farm",
+    "name": "Ross River Solar Farm",
+    "tier": "generation",
+    "country_iso2": "AU",
+    "canonical_company": "Palisade Investment Partners",
+    "coordinates": {
+      "lat": -19.35,
+      "lon": 146.73
+    },
+    "downstream": [
+      {
+        "target_id": "AU_powerlink_queensland",
+        "corridor_id": "AU_electrical_grid_ross-river-ross",
+        "resource": "solar electricity",
+        "quantity": 280000,
+        "metric": "MWh"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Solar Radiation"
+    ]
+  },
+  {
+    "id": "AU_metz_solar_farm",
+    "name": "Metz Solar Farm",
+    "tier": "generation",
+    "country_iso2": "AU",
+    "canonical_company": "Canadian Solar / Recurrent Energy",
+    "coordinates": {
+      "lat": -31.68,
+      "lon": 151.04
+    },
+    "downstream": [
+      {
+        "target_id": "AU_transgrid",
+        "corridor_id": "AU_electrical_grid_metz-tamworth",
+        "resource": "solar electricity",
+        "quantity": 250000,
+        "metric": "MWh"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Solar Radiation"
+    ]
+  },
+  {
+    "id": "AU_moree_solar_farm",
+    "name": "Moree Solar Farm",
+    "tier": "generation",
+    "country_iso2": "AU",
+    "canonical_company": "Fotowatio Renewable Ventures",
+    "coordinates": {
+      "lat": -29.47,
+      "lon": 149.82
+    },
+    "downstream": [
+      {
+        "target_id": "AU_transgrid",
+        "corridor_id": "AU_electrical_grid_moree-sub",
+        "resource": "solar electricity",
+        "quantity": 120000,
+        "metric": "MWh"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Solar Radiation"
+    ]
+  },
+  {
+    "id": "AU_nyngan_solar_farm",
+    "name": "Nyngan Solar Farm",
+    "tier": "generation",
+    "country_iso2": "AU",
+    "canonical_company": "AGL Energy",
+    "coordinates": {
+      "lat": -31.53,
+      "lon": 147.18
+    },
+    "downstream": [
+      {
+        "target_id": "AU_transgrid",
+        "corridor_id": "AU_electrical_grid_nyngan-sub",
+        "resource": "solar electricity",
+        "quantity": 230000,
+        "metric": "MWh"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Solar Radiation"
+    ]
+  },
+  {
+    "id": "AU_broken_hill_solar_farm",
+    "name": "Broken Hill Solar Farm",
+    "tier": "generation",
+    "country_iso2": "AU",
+    "canonical_company": "AGL Energy",
+    "coordinates": {
+      "lat": -31.99,
+      "lon": 141.47
+    },
+    "downstream": [
+      {
+        "target_id": "AU_transgrid",
+        "corridor_id": "AU_electrical_grid_broken-hill-sub",
+        "resource": "solar electricity",
+        "quantity": 90000,
+        "metric": "MWh"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Solar Radiation"
+    ]
+  },
+  {
+    "id": "AU_finley_solar_farm",
+    "name": "Finley Solar Farm",
+    "tier": "generation",
+    "country_iso2": "AU",
+    "canonical_company": "John Laing / Risen Energy",
+    "coordinates": {
+      "lat": -35.63,
+      "lon": 145.6
+    },
+    "downstream": [
+      {
+        "target_id": "AU_transgrid",
+        "corridor_id": "AU_electrical_grid_finley-deniliquin-sub",
+        "resource": "solar electricity",
+        "quantity": 255000,
+        "metric": "MWh"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Solar Radiation"
+    ]
+  },
+  {
+    "id": "AU_beryl_solar_farm",
+    "name": "Beryl Solar Farm",
+    "tier": "generation",
+    "country_iso2": "AU",
+    "canonical_company": "Terrain Solar (First Solar)",
+    "coordinates": {
+      "lat": -32.99,
+      "lon": 149.62
+    },
+    "downstream": [
+      {
+        "target_id": "AU_transgrid",
+        "corridor_id": "AU_electrical_grid_beryl-mudgee-sub",
+        "resource": "solar electricity",
+        "quantity": 260000,
+        "metric": "MWh"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Solar Radiation"
+    ]
+  },
+  {
+    "id": "AU_glenrowan_solar_farm",
+    "name": "Glenrowan West Solar Farm",
+    "tier": "generation",
+    "country_iso2": "AU",
+    "canonical_company": "X-Elio / FRV",
+    "coordinates": {
+      "lat": -36.49,
+      "lon": 146.05
+    },
+    "downstream": [
+      {
+        "target_id": "AU_ausnet_services",
+        "corridor_id": "AU_electrical_grid_glenrowan-benalla-sub",
+        "resource": "solar electricity",
+        "quantity": 200000,
+        "metric": "MWh"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Solar Radiation"
+    ]
+  },
+  {
+    "id": "AU_karadoc_solar_farm",
+    "name": "Karadoc Solar Farm",
+    "tier": "generation",
+    "country_iso2": "AU",
+    "canonical_company": "Wirsol Energy",
+    "coordinates": {
+      "lat": -34.27,
+      "lon": 142.16
+    },
+    "downstream": [
+      {
+        "target_id": "AU_ausnet_services",
+        "corridor_id": "AU_electrical_grid_karadoc-red-cliffs-sub",
+        "resource": "solar electricity",
+        "quantity": 155000,
+        "metric": "MWh"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Solar Radiation"
+    ]
+  },
+  {
+    "id": "AU_merredin_solar_farm",
+    "name": "Merredin Solar Farm",
+    "tier": "generation",
+    "country_iso2": "AU",
+    "canonical_company": "Canadian Solar / Risen Energy",
+    "coordinates": {
+      "lat": -31.48,
+      "lon": 118.28
+    },
+    "downstream": [
+      {
+        "target_id": "AU_western_power",
+        "corridor_id": "AU_electrical_grid_merredin-sub",
+        "resource": "solar electricity",
+        "quantity": 220000,
+        "metric": "MWh"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Solar Radiation"
+    ]
+  },
+  {
+    "id": "AU_greenough_river_solar_farm",
+    "name": "Greenough River Solar Farm",
+    "tier": "generation",
+    "country_iso2": "AU",
+    "canonical_company": "Synergy (WA Govt)",
+    "coordinates": {
+      "lat": -28.95,
+      "lon": 114.75
+    },
+    "downstream": [
+      {
+        "target_id": "AU_western_power",
+        "corridor_id": "AU_electrical_grid_greenough-geraldton-sub",
+        "resource": "solar electricity",
+        "quantity": 150000,
+        "metric": "MWh"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Solar Radiation"
+    ]
+  },
+  {
+    "id": "AU_bungala_two_solar_farm",
+    "name": "Bungala Two Solar Farm",
+    "tier": "generation",
+    "country_iso2": "AU",
+    "canonical_company": "ENEL Green Power / Reaching Sun Investments",
+    "coordinates": {
+      "lat": -31.87,
+      "lon": 137.36
+    },
+    "downstream": [
+      {
+        "target_id": "AU_electranet",
+        "corridor_id": "AU_electrical_grid_bungala-davenport",
+        "resource": "solar electricity",
+        "quantity": 280000,
+        "metric": "MWh"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Solar Radiation"
+    ]
+  },
+  {
+    "id": "AU_tailem_bend_solar_farm",
+    "name": "Tailem Bend Solar Farm (Belectric)",
+    "tier": "generation",
+    "country_iso2": "AU",
+    "canonical_company": "Vena Energy",
+    "coordinates": {
+      "lat": -35.27,
+      "lon": 139.42
+    },
+    "downstream": [
+      {
+        "target_id": "AU_electranet",
+        "corridor_id": "AU_electrical_grid_tailem-bend-sub",
+        "resource": "solar electricity",
+        "quantity": 250000,
+        "metric": "MWh"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Solar Radiation"
+    ]
+  },
+  {
+    "id": "AU_rugby_run_solar_farm",
+    "name": "Rugby Run Solar Farm",
+    "tier": "generation",
+    "country_iso2": "AU",
+    "canonical_company": "FRV (Abdul Latif Jameel)",
+    "coordinates": {
+      "lat": -23.5,
+      "lon": 149.97
+    },
+    "downstream": [
+      {
+        "target_id": "AU_powerlink_queensland",
+        "corridor_id": "AU_electrical_grid_rugby-run-lilyvale",
+        "resource": "solar electricity",
+        "quantity": 170000,
+        "metric": "MWh"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Solar Radiation"
+    ]
+  },
+  {
+    "id": "AU_columboola_solar_farm",
+    "name": "Columboola Solar Farm",
+    "tier": "generation",
+    "country_iso2": "AU",
+    "canonical_company": "Neoen",
+    "coordinates": {
+      "lat": -26.35,
+      "lon": 150.02
+    },
+    "downstream": [
+      {
+        "target_id": "AU_powerlink_queensland",
+        "corridor_id": "AU_electrical_grid_columboola-wandoan",
+        "resource": "solar electricity",
+        "quantity": 320000,
+        "metric": "MWh"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Solar Radiation"
+    ]
+  },
+  {
+    "id": "AU_childers_solar_farm",
+    "name": "Childers Solar Farm",
+    "tier": "generation",
+    "country_iso2": "AU",
+    "canonical_company": "Risen Energy",
+    "coordinates": {
+      "lat": -25.26,
+      "lon": 152.28
+    },
+    "downstream": [
+      {
+        "target_id": "AU_powerlink_queensland",
+        "corridor_id": "AU_electrical_grid_childers-sub",
+        "resource": "solar electricity",
+        "quantity": 110000,
+        "metric": "MWh"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Solar Radiation"
+    ]
+  },
+  {
+    "id": "AU_sebastopol_solar_farm",
+    "name": "Sebastopol Solar Farm",
+    "tier": "generation",
+    "country_iso2": "AU",
+    "canonical_company": "Lightsource BP",
+    "coordinates": {
+      "lat": -37.54,
+      "lon": 143.82
+    },
+    "downstream": [
+      {
+        "target_id": "AU_ausnet_services",
+        "corridor_id": "AU_electrical_grid_sebastopol-ballarat-sub",
+        "resource": "solar electricity",
+        "quantity": 75000,
+        "metric": "MWh"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Solar Radiation"
+    ]
+  },
+  {
+    "id": "AU_wemen_solar_farm",
+    "name": "Wemen Solar Farm",
+    "tier": "generation",
+    "country_iso2": "AU",
+    "canonical_company": "Wirsol Energy",
+    "coordinates": {
+      "lat": -34.82,
+      "lon": 142.69
+    },
+    "downstream": [
+      {
+        "target_id": "AU_ausnet_services",
+        "corridor_id": "AU_electrical_grid_wemen-red-cliffs-sub",
+        "resource": "solar electricity",
+        "quantity": 130000,
+        "metric": "MWh"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Solar Radiation"
+    ]
+  },
+  {
+    "id": "AU_avonlie_solar_farm",
+    "name": "Avonlie Solar Farm",
+    "tier": "generation",
+    "country_iso2": "AU",
+    "canonical_company": "UPC / AC Energy (ACEN)",
+    "coordinates": {
+      "lat": -34.23,
+      "lon": 146.81
+    },
+    "downstream": [
+      {
+        "target_id": "AU_transgrid",
+        "corridor_id": "AU_electrical_grid_avonlie-darlington-sub",
+        "resource": "solar electricity",
+        "quantity": 300000,
+        "metric": "MWh"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Solar Radiation"
+    ]
+  },
+  {
+    "id": "AU_gangarri_solar_farm",
+    "name": "Gangarri Solar Farm",
+    "tier": "generation",
+    "country_iso2": "AU",
+    "canonical_company": "Acciona Energia",
+    "coordinates": {
+      "lat": -26.51,
+      "lon": 150.62
+    },
+    "downstream": [
+      {
+        "target_id": "AU_powerlink_queensland",
+        "corridor_id": "AU_electrical_grid_gangarri-wandoan",
+        "resource": "solar electricity",
+        "quantity": 250000,
+        "metric": "MWh"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Solar Radiation"
+    ]
+  },
+  {
+    "id": "AU_electranet",
+    "name": "ElectraNet (SA Transmission)",
+    "tier": "transmission",
+    "country_iso2": "AU",
+    "canonical_company": "ElectraNet",
+    "coordinates": {
+      "lat": -34.93,
+      "lon": 138.6
+    },
+    "downstream": [
+      {
+        "target_id": "AU_sa_power_networks",
+        "corridor_id": "AU_electrical_grid_sa-transmission-distribution",
+        "resource": "solar electricity",
+        "quantity": 1100000,
+        "metric": "MWh"
+      }
+    ],
+    "upstream": [
+      "AU_bungala_solar_farm",
+      "AU_bungala_two_solar_farm",
+      "AU_tailem_bend_solar_farm"
+    ],
+    "resources": [
+      "Solar Radiation"
+    ]
+  },
+  {
+    "id": "AU_transgrid",
+    "name": "TransGrid (NSW Transmission)",
+    "tier": "transmission",
+    "country_iso2": "AU",
+    "canonical_company": "TransGrid",
+    "coordinates": {
+      "lat": -33.87,
+      "lon": 151.21
+    },
+    "downstream": [
+      {
+        "target_id": "AU_ausgrid",
+        "corridor_id": "AU_electrical_grid_transgrid-ausgrid",
+        "resource": "solar electricity",
+        "quantity": 900000,
+        "metric": "MWh"
+      },
+      {
+        "target_id": "AU_endeavour_energy",
+        "corridor_id": "AU_electrical_grid_transgrid-endeavour",
+        "resource": "solar electricity",
+        "quantity": 500000,
+        "metric": "MWh"
+      },
+      {
+        "target_id": "AU_essential_energy",
+        "corridor_id": "AU_electrical_grid_transgrid-essential",
+        "resource": "solar electricity",
+        "quantity": 615000,
+        "metric": "MWh"
+      },
+      {
+        "target_id": "AU_ausgrid",
+        "corridor_id": "AU_electrical_grid_transgrid-ausgrid",
+        "resource": "hydroelectric electricity",
+        "quantity": 4500000,
+        "metric": "MWh"
+      },
+      {
+        "target_id": "AU_endeavour_energy",
+        "corridor_id": "AU_electrical_grid_transgrid-endeavour",
+        "resource": "hydroelectric electricity",
+        "quantity": 2200000,
+        "metric": "MWh"
+      },
+      {
+        "target_id": "AU_essential_energy",
+        "corridor_id": "AU_electrical_grid_transgrid-essential",
+        "resource": "hydroelectric electricity",
+        "quantity": 1150000,
+        "metric": "MWh"
+      }
+    ],
+    "upstream": [
+      "AU_sunraysia_solar_farm",
+      "AU_limondale_solar_farm",
+      "AU_coleambally_solar_farm",
+      "AU_metz_solar_farm",
+      "AU_moree_solar_farm",
+      "AU_nyngan_solar_farm",
+      "AU_broken_hill_solar_farm",
+      "AU_finley_solar_farm",
+      "AU_beryl_solar_farm",
+      "AU_avonlie_solar_farm",
+      "AU_snowy_hydro_tumut_3",
+      "AU_snowy_hydro_murray_1",
+      "AU_snowy_hydro_murray_2",
+      "AU_snowy_hydro_tumut_1",
+      "AU_snowy_hydro_tumut_2",
+      "AU_snowy_hydro_guthega",
+      "AU_origin_energy_shoalhaven",
+      "AU_snowy_hydro_blowering"
+    ],
+    "resources": [
+      "Solar Radiation",
+      "Hydropower"
+    ]
+  },
+  {
+    "id": "AU_powerlink_queensland",
+    "name": "Powerlink Queensland (QLD Transmission)",
+    "tier": "transmission",
+    "country_iso2": "AU",
+    "canonical_company": "Powerlink Queensland",
+    "coordinates": {
+      "lat": -27.47,
+      "lon": 153.03
+    },
+    "downstream": [
+      {
+        "target_id": "AU_energex",
+        "corridor_id": "AU_electrical_grid_powerlink-energex",
+        "resource": "solar electricity",
+        "quantity": 1800000,
+        "metric": "MWh"
+      },
+      {
+        "target_id": "AU_ergon_energy_network",
+        "corridor_id": "AU_electrical_grid_powerlink-ergon",
+        "resource": "solar electricity",
+        "quantity": 1570000,
+        "metric": "MWh"
+      }
+    ],
+    "upstream": [
+      "AU_western_downs_green_power_hub",
+      "AU_darling_downs_solar_farm",
+      "AU_bluegrass_solar_farm",
+      "AU_daydream_solar_farm",
+      "AU_hayman_solar_farm",
+      "AU_sun_metals_solar_farm",
+      "AU_clermont_solar_farm",
+      "AU_ross_river_solar_farm",
+      "AU_rugby_run_solar_farm",
+      "AU_columboola_solar_farm",
+      "AU_childers_solar_farm",
+      "AU_gangarri_solar_farm"
+    ],
+    "resources": [
+      "Solar Radiation"
+    ]
+  },
+  {
+    "id": "AU_ausnet_services",
+    "name": "AusNet Services (VIC Transmission)",
+    "tier": "transmission",
+    "country_iso2": "AU",
+    "canonical_company": "AusNet Services",
+    "coordinates": {
+      "lat": -37.81,
+      "lon": 144.96
+    },
+    "downstream": [
+      {
+        "target_id": "AU_citipower_powercor",
+        "corridor_id": "AU_electrical_grid_ausnet-citipower",
+        "resource": "solar electricity",
+        "quantity": 300000,
+        "metric": "MWh"
+      },
+      {
+        "target_id": "AU_jemena_electricity",
+        "corridor_id": "AU_electrical_grid_ausnet-jemena",
+        "resource": "solar electricity",
+        "quantity": 130000,
+        "metric": "MWh"
+      },
+      {
+        "target_id": "AU_united_energy",
+        "corridor_id": "AU_electrical_grid_ausnet-united",
+        "resource": "solar electricity",
+        "quantity": 130000,
+        "metric": "MWh"
+      },
+      {
+        "target_id": "AU_citipower",
+        "corridor_id": "AU_electrical_grid_ausnet-citipower",
+        "resource": "hydroelectric electricity",
+        "quantity": 800000,
+        "metric": "MWh"
+      },
+      {
+        "target_id": "AU_powercor",
+        "corridor_id": "AU_electrical_grid_ausnet-powercor",
+        "resource": "hydroelectric electricity",
+        "quantity": 1000000,
+        "metric": "MWh"
+      },
+      {
+        "target_id": "AU_jemena",
+        "corridor_id": "AU_electrical_grid_ausnet-jemena",
+        "resource": "hydroelectric electricity",
+        "quantity": 500000,
+        "metric": "MWh"
+      },
+      {
+        "target_id": "AU_united_energy",
+        "corridor_id": "AU_electrical_grid_ausnet-united-energy",
+        "resource": "hydroelectric electricity",
+        "quantity": 570000,
+        "metric": "MWh"
+      }
+    ],
+    "upstream": [
+      "AU_glenrowan_solar_farm",
+      "AU_karadoc_solar_farm",
+      "AU_sebastopol_solar_farm",
+      "AU_wemen_solar_farm",
+      "AU_agl_energy_dartmouth",
+      "AU_pacific_hydro_eildon",
+      "AU_agl_energy_kiewa",
+      "AU_tasnetworks_transmission"
+    ],
+    "resources": [
+      "Solar Radiation",
+      "Hydropower"
+    ]
+  },
+  {
+    "id": "AU_western_power",
+    "name": "Western Power (WA Transmission & Distribution)",
+    "tier": "transmission",
+    "country_iso2": "AU",
+    "canonical_company": "Western Power",
+    "coordinates": {
+      "lat": -31.95,
+      "lon": 115.86
+    },
+    "downstream": [
+      {
+        "target_id": "AU_synergy_retail",
+        "corridor_id": "AU_electrical_grid_western-power-dist",
+        "resource": "solar electricity",
+        "quantity": 370000,
+        "metric": "MWh"
+      }
+    ],
+    "upstream": [
+      "AU_merredin_solar_farm",
+      "AU_greenough_river_solar_farm"
+    ],
+    "resources": [
+      "Solar Radiation"
+    ]
+  },
+  {
+    "id": "AU_sa_power_networks",
+    "name": "SA Power Networks",
+    "tier": "distribution",
+    "country_iso2": "AU",
+    "canonical_company": "SA Power Networks",
+    "coordinates": {
+      "lat": -34.93,
+      "lon": 138.6
+    },
+    "downstream": [
+      {
+        "target_id": "AU_agl_energy_retail",
+        "corridor_id": "AU_electrical_grid_sapn-retailers",
+        "resource": "solar electricity",
+        "quantity": 500000,
+        "metric": "MWh"
+      },
+      {
+        "target_id": "AU_origin_energy_retail",
+        "corridor_id": "AU_electrical_grid_sapn-retailers",
+        "resource": "solar electricity",
+        "quantity": 350000,
+        "metric": "MWh"
+      },
+      {
+        "target_id": "AU_energyaustralia_retail",
+        "corridor_id": "AU_electrical_grid_sapn-retailers",
+        "resource": "solar electricity",
+        "quantity": 250000,
+        "metric": "MWh"
+      }
+    ],
+    "upstream": [
+      "AU_electranet"
+    ],
+    "resources": [
+      "Solar Radiation"
+    ]
+  },
+  {
+    "id": "AU_ausgrid",
+    "name": "Ausgrid (Sydney/Hunter/Central Coast Distribution)",
+    "tier": "distribution",
+    "country_iso2": "AU",
+    "canonical_company": "Ausgrid",
+    "coordinates": {
+      "lat": -33.87,
+      "lon": 151.21
+    },
+    "downstream": [
+      {
+        "target_id": "AU_agl_energy_retail",
+        "corridor_id": "AU_electrical_grid_ausgrid-retailers",
+        "resource": "solar electricity",
+        "quantity": 400000,
+        "metric": "MWh"
+      },
+      {
+        "target_id": "AU_origin_energy_retail",
+        "corridor_id": "AU_electrical_grid_ausgrid-retailers",
+        "resource": "solar electricity",
+        "quantity": 300000,
+        "metric": "MWh"
+      },
+      {
+        "target_id": "AU_energyaustralia_retail",
+        "corridor_id": "AU_electrical_grid_ausgrid-retailers",
+        "resource": "solar electricity",
+        "quantity": 200000,
+        "metric": "MWh"
+      },
+      {
+        "target_id": "AU_origin_energy_retail",
+        "corridor_id": "AU_electrical_grid_ausgrid-retail",
+        "resource": "hydroelectric electricity",
+        "quantity": 1800000,
+        "metric": "MWh"
+      },
+      {
+        "target_id": "AU_agl_retail",
+        "corridor_id": "AU_electrical_grid_ausgrid-retail",
+        "resource": "hydroelectric electricity",
+        "quantity": 1500000,
+        "metric": "MWh"
+      },
+      {
+        "target_id": "AU_energyaustralia_retail",
+        "corridor_id": "AU_electrical_grid_ausgrid-retail",
+        "resource": "hydroelectric electricity",
+        "quantity": 1200000,
+        "metric": "MWh"
+      }
+    ],
+    "upstream": [
+      "AU_transgrid"
+    ],
+    "resources": [
+      "Solar Radiation",
+      "Hydropower"
+    ]
+  },
+  {
+    "id": "AU_endeavour_energy",
+    "name": "Endeavour Energy (Western Sydney Distribution)",
+    "tier": "distribution",
+    "country_iso2": "AU",
+    "canonical_company": "Endeavour Energy",
+    "coordinates": {
+      "lat": -33.77,
+      "lon": 150.91
+    },
+    "downstream": [
+      {
+        "target_id": "AU_agl_energy_retail",
+        "corridor_id": "AU_electrical_grid_endeavour-retailers",
+        "resource": "solar electricity",
+        "quantity": 200000,
+        "metric": "MWh"
+      },
+      {
+        "target_id": "AU_origin_energy_retail",
+        "corridor_id": "AU_electrical_grid_endeavour-retailers",
+        "resource": "solar electricity",
+        "quantity": 180000,
+        "metric": "MWh"
+      },
+      {
+        "target_id": "AU_energyaustralia_retail",
+        "corridor_id": "AU_electrical_grid_endeavour-retailers",
+        "resource": "solar electricity",
+        "quantity": 120000,
+        "metric": "MWh"
+      },
+      {
+        "target_id": "AU_origin_energy_retail",
+        "corridor_id": "AU_electrical_grid_endeavour-retail",
+        "resource": "hydroelectric electricity",
+        "quantity": 800000,
+        "metric": "MWh"
+      },
+      {
+        "target_id": "AU_agl_retail",
+        "corridor_id": "AU_electrical_grid_endeavour-retail",
+        "resource": "hydroelectric electricity",
+        "quantity": 700000,
+        "metric": "MWh"
+      },
+      {
+        "target_id": "AU_energyaustralia_retail",
+        "corridor_id": "AU_electrical_grid_endeavour-retail",
+        "resource": "hydroelectric electricity",
+        "quantity": 700000,
+        "metric": "MWh"
+      }
+    ],
+    "upstream": [
+      "AU_transgrid"
+    ],
+    "resources": [
+      "Solar Radiation",
+      "Hydropower"
+    ]
+  },
+  {
+    "id": "AU_essential_energy",
+    "name": "Essential Energy (Regional NSW Distribution)",
+    "tier": "distribution",
+    "country_iso2": "AU",
+    "canonical_company": "Essential Energy",
+    "coordinates": {
+      "lat": -32.24,
+      "lon": 148.61
+    },
+    "downstream": [
+      {
+        "target_id": "AU_agl_energy_retail",
+        "corridor_id": "AU_electrical_grid_essential-retailers",
+        "resource": "solar electricity",
+        "quantity": 250000,
+        "metric": "MWh"
+      },
+      {
+        "target_id": "AU_origin_energy_retail",
+        "corridor_id": "AU_electrical_grid_essential-retailers",
+        "resource": "solar electricity",
+        "quantity": 200000,
+        "metric": "MWh"
+      },
+      {
+        "target_id": "AU_energyaustralia_retail",
+        "corridor_id": "AU_electrical_grid_essential-retailers",
+        "resource": "solar electricity",
+        "quantity": 165000,
+        "metric": "MWh"
+      },
+      {
+        "target_id": "AU_origin_energy_retail",
+        "corridor_id": "AU_electrical_grid_essential-retail",
+        "resource": "hydroelectric electricity",
+        "quantity": 500000,
+        "metric": "MWh"
+      },
+      {
+        "target_id": "AU_agl_retail",
+        "corridor_id": "AU_electrical_grid_essential-retail",
+        "resource": "hydroelectric electricity",
+        "quantity": 400000,
+        "metric": "MWh"
+      },
+      {
+        "target_id": "AU_red_energy_retail",
+        "corridor_id": "AU_electrical_grid_essential-retail",
+        "resource": "hydroelectric electricity",
+        "quantity": 250000,
+        "metric": "MWh"
+      }
+    ],
+    "upstream": [
+      "AU_transgrid"
+    ],
+    "resources": [
+      "Solar Radiation",
+      "Hydropower"
+    ]
+  },
+  {
+    "id": "AU_energex",
+    "name": "Energex (SEQ Distribution)",
+    "tier": "distribution",
+    "country_iso2": "AU",
+    "canonical_company": "Energy Queensland (Energex)",
+    "coordinates": {
+      "lat": -27.47,
+      "lon": 153.03
+    },
+    "downstream": [
+      {
+        "target_id": "AU_agl_energy_retail",
+        "corridor_id": "AU_electrical_grid_energex-retailers",
+        "resource": "solar electricity",
+        "quantity": 600000,
+        "metric": "MWh"
+      },
+      {
+        "target_id": "AU_origin_energy_retail",
+        "corridor_id": "AU_electrical_grid_energex-retailers",
+        "resource": "solar electricity",
+        "quantity": 700000,
+        "metric": "MWh"
+      },
+      {
+        "target_id": "AU_energyaustralia_retail",
+        "corridor_id": "AU_electrical_grid_energex-retailers",
+        "resource": "solar electricity",
+        "quantity": 500000,
+        "metric": "MWh"
+      },
+      {
+        "target_id": "AU_origin_energy_retail",
+        "corridor_id": "AU_electrical_grid_energex-retail",
+        "resource": "hydroelectric electricity",
+        "quantity": 400000,
+        "metric": "MWh"
+      },
+      {
+        "target_id": "AU_agl_retail",
+        "corridor_id": "AU_electrical_grid_energex-retail",
+        "resource": "hydroelectric electricity",
+        "quantity": 300000,
+        "metric": "MWh"
+      }
+    ],
+    "upstream": [
+      "AU_powerlink_queensland",
+      "AU_powerlink"
+    ],
+    "resources": [
+      "Solar Radiation",
+      "Hydropower"
+    ]
+  },
+  {
+    "id": "AU_ergon_energy_network",
+    "name": "Ergon Energy Network (Regional QLD Distribution)",
+    "tier": "distribution",
+    "country_iso2": "AU",
+    "canonical_company": "Energy Queensland (Ergon)",
+    "coordinates": {
+      "lat": -19.27,
+      "lon": 146.81
+    },
+    "downstream": [
+      {
+        "target_id": "AU_ergon_energy_retail",
+        "corridor_id": "AU_electrical_grid_ergon-net-retail",
+        "resource": "solar electricity",
+        "quantity": 1100000,
+        "metric": "MWh"
+      },
+      {
+        "target_id": "AU_origin_energy_retail",
+        "corridor_id": "AU_electrical_grid_ergon-net-retail",
+        "resource": "solar electricity",
+        "quantity": 270000,
+        "metric": "MWh"
+      },
+      {
+        "target_id": "AU_agl_energy_retail",
+        "corridor_id": "AU_electrical_grid_ergon-net-retail",
+        "resource": "solar electricity",
+        "quantity": 200000,
+        "metric": "MWh"
+      },
+      {
+        "target_id": "AU_ergon_energy_retail",
+        "corridor_id": "AU_electrical_grid_ergon-retail",
+        "resource": "hydroelectric electricity",
+        "quantity": 580000,
+        "metric": "MWh"
+      }
+    ],
+    "upstream": [
+      "AU_powerlink_queensland",
+      "AU_powerlink"
+    ],
+    "resources": [
+      "Solar Radiation",
+      "Hydropower"
+    ]
+  },
+  {
+    "id": "AU_citipower_powercor",
+    "name": "CitiPower & Powercor (VIC Distribution)",
+    "tier": "distribution",
+    "country_iso2": "AU",
+    "canonical_company": "CitiPower Powercor",
+    "coordinates": {
+      "lat": -37.81,
+      "lon": 144.96
+    },
+    "downstream": [
+      {
+        "target_id": "AU_agl_energy_retail",
+        "corridor_id": "AU_electrical_grid_citipower-retailers",
+        "resource": "solar electricity",
+        "quantity": 120000,
+        "metric": "MWh"
+      },
+      {
+        "target_id": "AU_origin_energy_retail",
+        "corridor_id": "AU_electrical_grid_citipower-retailers",
+        "resource": "solar electricity",
+        "quantity": 100000,
+        "metric": "MWh"
+      },
+      {
+        "target_id": "AU_energyaustralia_retail",
+        "corridor_id": "AU_electrical_grid_citipower-retailers",
+        "resource": "solar electricity",
+        "quantity": 80000,
+        "metric": "MWh"
+      }
+    ],
+    "upstream": [
+      "AU_ausnet_services"
+    ],
+    "resources": [
+      "Solar Radiation"
+    ]
+  },
+  {
+    "id": "AU_jemena_electricity",
+    "name": "Jemena Electricity Networks (VIC Distribution)",
+    "tier": "distribution",
+    "country_iso2": "AU",
+    "canonical_company": "Jemena",
+    "coordinates": {
+      "lat": -37.73,
+      "lon": 144.99
+    },
+    "downstream": [
+      {
+        "target_id": "AU_agl_energy_retail",
+        "corridor_id": "AU_electrical_grid_jemena-retailers",
+        "resource": "solar electricity",
+        "quantity": 50000,
+        "metric": "MWh"
+      },
+      {
+        "target_id": "AU_origin_energy_retail",
+        "corridor_id": "AU_electrical_grid_jemena-retailers",
+        "resource": "solar electricity",
+        "quantity": 50000,
+        "metric": "MWh"
+      },
+      {
+        "target_id": "AU_energyaustralia_retail",
+        "corridor_id": "AU_electrical_grid_jemena-retailers",
+        "resource": "solar electricity",
+        "quantity": 30000,
+        "metric": "MWh"
+      }
+    ],
+    "upstream": [
+      "AU_ausnet_services"
+    ],
+    "resources": [
+      "Solar Radiation"
+    ]
+  },
+  {
+    "id": "AU_united_energy",
+    "name": "United Energy (VIC Distribution)",
+    "tier": "distribution",
+    "country_iso2": "AU",
+    "canonical_company": "United Energy",
+    "coordinates": {
+      "lat": -37.95,
+      "lon": 145.05
+    },
+    "downstream": [
+      {
+        "target_id": "AU_agl_energy_retail",
+        "corridor_id": "AU_electrical_grid_united-retailers",
+        "resource": "solar electricity",
+        "quantity": 50000,
+        "metric": "MWh"
+      },
+      {
+        "target_id": "AU_origin_energy_retail",
+        "corridor_id": "AU_electrical_grid_united-retailers",
+        "resource": "solar electricity",
+        "quantity": 50000,
+        "metric": "MWh"
+      },
+      {
+        "target_id": "AU_energyaustralia_retail",
+        "corridor_id": "AU_electrical_grid_united-retailers",
+        "resource": "solar electricity",
+        "quantity": 30000,
+        "metric": "MWh"
+      },
+      {
+        "target_id": "AU_agl_retail",
+        "corridor_id": "AU_electrical_grid_united-energy-retail",
+        "resource": "hydroelectric electricity",
+        "quantity": 220000,
+        "metric": "MWh"
+      },
+      {
+        "target_id": "AU_origin_energy_retail",
+        "corridor_id": "AU_electrical_grid_united-energy-retail",
+        "resource": "hydroelectric electricity",
+        "quantity": 200000,
+        "metric": "MWh"
+      },
+      {
+        "target_id": "AU_energyaustralia_retail",
+        "corridor_id": "AU_electrical_grid_united-energy-retail",
+        "resource": "hydroelectric electricity",
+        "quantity": 150000,
+        "metric": "MWh"
+      }
+    ],
+    "upstream": [
+      "AU_ausnet_services"
+    ],
+    "resources": [
+      "Solar Radiation",
+      "Hydropower"
+    ]
+  },
+  {
+    "id": "AU_agl_energy_retail",
+    "name": "AGL Energy (Retail)",
+    "tier": "retailer",
+    "country_iso2": "AU",
+    "canonical_company": "AGL Energy",
+    "coordinates": {
+      "lat": -33.87,
+      "lon": 151.21
+    },
+    "downstream": [
+      {
+        "target_id": "AU_residential",
+        "corridor_id": "AU_electrical_grid_agl-residential",
+        "resource": "solar electricity",
+        "quantity": 1200000,
+        "metric": "MWh"
+      },
+      {
+        "target_id": "AU_commercial",
+        "corridor_id": "AU_electrical_grid_agl-commercial",
+        "resource": "solar electricity",
+        "quantity": 700000,
+        "metric": "MWh"
+      },
+      {
+        "target_id": "AU_industrial",
+        "corridor_id": "AU_electrical_grid_agl-industrial",
+        "resource": "solar electricity",
+        "quantity": 470000,
+        "metric": "MWh"
+      },
+      {
+        "target_id": "AU_residential",
+        "corridor_id": "AU_electrical_grid_agl_last_mile",
+        "resource": "wind electricity (retail supply)",
+        "quantity": 2200000,
+        "metric": "MWh"
+      },
+      {
+        "target_id": "AU_commercial",
+        "corridor_id": "AU_electrical_grid_agl_last_mile",
+        "resource": "wind electricity (retail supply)",
+        "quantity": 1800000,
+        "metric": "MWh"
+      },
+      {
+        "target_id": "AU_industrial",
+        "corridor_id": "AU_electrical_grid_agl_last_mile",
+        "resource": "wind electricity (retail supply)",
+        "quantity": 1430000,
+        "metric": "MWh"
+      }
+    ],
+    "upstream": [
+      "AU_sa_power_networks",
+      "AU_ausgrid",
+      "AU_endeavour_energy",
+      "AU_essential_energy",
+      "AU_energex",
+      "AU_ergon_energy_network",
+      "AU_citipower_powercor",
+      "AU_jemena_electricity",
+      "AU_united_energy",
+      "AU_ausnet_services_distribution",
+      "AU_powercor_distribution",
+      "AU_citipower_distribution",
+      "AU_sa_power_networks_distribution",
+      "AU_ausgrid_distribution",
+      "AU_endeavour_energy_distribution",
+      "AU_essential_energy_distribution",
+      "AU_energex_distribution",
+      "AU_tasnetworks_distribution"
+    ],
+    "resources": [
+      "Solar Radiation",
+      "Wind"
+    ]
+  },
+  {
+    "id": "AU_origin_energy_retail",
+    "name": "Origin Energy (Retail)",
+    "tier": "retailer",
+    "country_iso2": "AU",
+    "canonical_company": "Origin Energy",
+    "coordinates": {
+      "lat": -33.87,
+      "lon": 151.21
+    },
+    "downstream": [
+      {
+        "target_id": "AU_residential",
+        "corridor_id": "AU_electrical_grid_origin-residential",
+        "resource": "solar electricity",
+        "quantity": 1100000,
+        "metric": "MWh"
+      },
+      {
+        "target_id": "AU_commercial",
+        "corridor_id": "AU_electrical_grid_origin-commercial",
+        "resource": "solar electricity",
+        "quantity": 600000,
+        "metric": "MWh"
+      },
+      {
+        "target_id": "AU_industrial",
+        "corridor_id": "AU_electrical_grid_origin-industrial",
+        "resource": "solar electricity",
+        "quantity": 500000,
+        "metric": "MWh"
+      },
+      {
+        "target_id": "AU_residential",
+        "corridor_id": "AU_pipeline_origin_qld_reticulation",
+        "resource": "reticulated natural gas",
+        "quantity": 1800000,
+        "metric": "kL"
+      },
+      {
+        "target_id": "AU_commercial",
+        "corridor_id": "AU_pipeline_origin_qld_reticulation",
+        "resource": "reticulated natural gas",
+        "quantity": 1000000,
+        "metric": "kL"
+      },
+      {
+        "target_id": "AU_industrial",
+        "corridor_id": "AU_pipeline_origin_qld_reticulation",
+        "resource": "natural gas for industrial use",
+        "quantity": 2200000,
+        "metric": "kL"
+      },
+      {
+        "target_id": "AU_residential",
+        "corridor_id": "AU_electrical_grid_origin_last_mile",
+        "resource": "wind electricity (retail supply)",
+        "quantity": 1900000,
+        "metric": "MWh"
+      },
+      {
+        "target_id": "AU_commercial",
+        "corridor_id": "AU_electrical_grid_origin_last_mile",
+        "resource": "wind electricity (retail supply)",
+        "quantity": 1300000,
+        "metric": "MWh"
+      },
+      {
+        "target_id": "AU_industrial",
+        "corridor_id": "AU_electrical_grid_origin_last_mile",
+        "resource": "wind electricity (retail supply)",
+        "quantity": 1050000,
+        "metric": "MWh"
+      },
+      {
+        "target_id": "AU_residential",
+        "corridor_id": "AU_electrical_grid_origin-residential",
+        "resource": "hydroelectric electricity",
+        "quantity": 1500000,
+        "metric": "MWh"
+      },
+      {
+        "target_id": "AU_commercial",
+        "corridor_id": "AU_electrical_grid_origin-commercial",
+        "resource": "hydroelectric electricity",
+        "quantity": 1000000,
+        "metric": "MWh"
+      },
+      {
+        "target_id": "AU_industrial",
+        "corridor_id": "AU_electrical_grid_origin-industrial",
+        "resource": "hydroelectric electricity",
+        "quantity": 950000,
+        "metric": "MWh"
+      }
+    ],
+    "upstream": [
+      "AU_sa_power_networks",
+      "AU_ausgrid",
+      "AU_endeavour_energy",
+      "AU_essential_energy",
+      "AU_energex",
+      "AU_ergon_energy_network",
+      "AU_citipower_powercor",
+      "AU_jemena_electricity",
+      "AU_united_energy",
+      "AU_origin_domestic_gas",
+      "AU_ausnet_services_distribution",
+      "AU_powercor_distribution",
+      "AU_citipower_distribution",
+      "AU_sa_power_networks_distribution",
+      "AU_ausgrid_distribution",
+      "AU_endeavour_energy_distribution",
+      "AU_essential_energy_distribution",
+      "AU_energex_distribution",
+      "AU_ergon_energy_distribution",
+      "AU_tasnetworks_distribution",
+      "AU_citipower",
+      "AU_powercor",
+      "AU_jemena"
+    ],
+    "resources": [
+      "Solar Radiation",
+      "Natural Gas",
+      "Wind",
+      "Hydropower"
+    ]
+  },
+  {
+    "id": "AU_energyaustralia_retail",
+    "name": "EnergyAustralia (Retail)",
+    "tier": "retailer",
+    "country_iso2": "AU",
+    "canonical_company": "EnergyAustralia",
+    "coordinates": {
+      "lat": -37.81,
+      "lon": 144.96
+    },
+    "downstream": [
+      {
+        "target_id": "AU_residential",
+        "corridor_id": "AU_electrical_grid_ea-residential",
+        "resource": "solar electricity",
+        "quantity": 700000,
+        "metric": "MWh"
+      },
+      {
+        "target_id": "AU_commercial",
+        "corridor_id": "AU_electrical_grid_ea-commercial",
+        "resource": "solar electricity",
+        "quantity": 400000,
+        "metric": "MWh"
+      },
+      {
+        "target_id": "AU_industrial",
+        "corridor_id": "AU_electrical_grid_ea-industrial",
+        "resource": "solar electricity",
+        "quantity": 275000,
+        "metric": "MWh"
+      },
+      {
+        "target_id": "AU_residential",
+        "corridor_id": "AU_electrical_grid_ea_last_mile",
+        "resource": "wind electricity (retail supply)",
+        "quantity": 1100000,
+        "metric": "MWh"
+      },
+      {
+        "target_id": "AU_commercial",
+        "corridor_id": "AU_electrical_grid_ea_last_mile",
+        "resource": "wind electricity (retail supply)",
+        "quantity": 850000,
+        "metric": "MWh"
+      },
+      {
+        "target_id": "AU_industrial",
+        "corridor_id": "AU_electrical_grid_ea_last_mile",
+        "resource": "wind electricity (retail supply)",
+        "quantity": 930000,
+        "metric": "MWh"
+      },
+      {
+        "target_id": "AU_residential",
+        "corridor_id": "AU_electrical_grid_ea-residential",
+        "resource": "hydroelectric electricity",
+        "quantity": 1200000,
+        "metric": "MWh"
+      },
+      {
+        "target_id": "AU_commercial",
+        "corridor_id": "AU_electrical_grid_ea-commercial",
+        "resource": "hydroelectric electricity",
+        "quantity": 800000,
+        "metric": "MWh"
+      },
+      {
+        "target_id": "AU_industrial",
+        "corridor_id": "AU_electrical_grid_ea-industrial",
+        "resource": "hydroelectric electricity",
+        "quantity": 650000,
+        "metric": "MWh"
+      }
+    ],
+    "upstream": [
+      "AU_sa_power_networks",
+      "AU_ausgrid",
+      "AU_endeavour_energy",
+      "AU_essential_energy",
+      "AU_energex",
+      "AU_citipower_powercor",
+      "AU_jemena_electricity",
+      "AU_united_energy",
+      "AU_ausnet_services_distribution",
+      "AU_powercor_distribution",
+      "AU_sa_power_networks_distribution",
+      "AU_ausgrid_distribution",
+      "AU_endeavour_energy_distribution",
+      "AU_essential_energy_distribution",
+      "AU_energex_distribution",
+      "AU_citipower",
+      "AU_powercor",
+      "AU_jemena"
+    ],
+    "resources": [
+      "Solar Radiation",
+      "Wind",
+      "Hydropower"
+    ]
+  },
+  {
+    "id": "AU_ergon_energy_retail",
+    "name": "Ergon Energy (Retail)",
+    "tier": "retailer",
+    "country_iso2": "AU",
+    "canonical_company": "Ergon Energy",
+    "coordinates": {
+      "lat": -19.27,
+      "lon": 146.81
+    },
+    "downstream": [
+      {
+        "target_id": "AU_residential",
+        "corridor_id": "AU_electrical_grid_ergon-residential",
+        "resource": "solar electricity",
+        "quantity": 500000,
+        "metric": "MWh"
+      },
+      {
+        "target_id": "AU_agricultural",
+        "corridor_id": "AU_electrical_grid_ergon-agricultural",
+        "resource": "solar electricity",
+        "quantity": 300000,
+        "metric": "MWh"
+      },
+      {
+        "target_id": "AU_industrial",
+        "corridor_id": "AU_electrical_grid_ergon-industrial",
+        "resource": "solar electricity",
+        "quantity": 300000,
+        "metric": "MWh"
+      },
+      {
+        "target_id": "AU_residential",
+        "corridor_id": "AU_electrical_grid_ergon-residential",
+        "resource": "hydroelectric electricity",
+        "quantity": 250000,
+        "metric": "MWh"
+      },
+      {
+        "target_id": "AU_agricultural",
+        "corridor_id": "AU_electrical_grid_ergon-agricultural",
+        "resource": "hydroelectric electricity",
+        "quantity": 180000,
+        "metric": "MWh"
+      },
+      {
+        "target_id": "AU_industrial",
+        "corridor_id": "AU_electrical_grid_ergon-industrial",
+        "resource": "hydroelectric electricity",
+        "quantity": 150000,
+        "metric": "MWh"
+      }
+    ],
+    "upstream": [
+      "AU_ergon_energy_network"
+    ],
+    "resources": [
+      "Solar Radiation",
+      "Hydropower"
+    ]
+  },
+  {
+    "id": "AU_synergy_retail",
+    "name": "Synergy (WA Retail)",
+    "tier": "retailer",
+    "country_iso2": "AU",
+    "canonical_company": "Synergy",
+    "coordinates": {
+      "lat": -31.95,
+      "lon": 115.86
+    },
+    "downstream": [
+      {
+        "target_id": "AU_residential",
+        "corridor_id": "AU_electrical_grid_synergy-residential",
+        "resource": "solar electricity",
+        "quantity": 170000,
+        "metric": "MWh"
+      },
+      {
+        "target_id": "AU_commercial",
+        "corridor_id": "AU_electrical_grid_synergy-commercial",
+        "resource": "solar electricity",
+        "quantity": 120000,
+        "metric": "MWh"
+      },
+      {
+        "target_id": "AU_industrial",
+        "corridor_id": "AU_electrical_grid_synergy-industrial",
+        "resource": "solar electricity",
+        "quantity": 80000,
+        "metric": "MWh"
+      },
+      {
+        "target_id": "AU_residential",
+        "corridor_id": "AU_electrical_grid_synergy_last_mile",
+        "resource": "wind electricity (retail supply)",
+        "quantity": 900000,
+        "metric": "MWh"
+      },
+      {
+        "target_id": "AU_commercial",
+        "corridor_id": "AU_electrical_grid_synergy_last_mile",
+        "resource": "wind electricity (retail supply)",
+        "quantity": 600000,
+        "metric": "MWh"
+      },
+      {
+        "target_id": "AU_industrial",
+        "corridor_id": "AU_electrical_grid_synergy_last_mile",
+        "resource": "wind electricity (retail supply)",
+        "quantity": 500000,
+        "metric": "MWh"
+      }
+    ],
+    "upstream": [
+      "AU_western_power",
+      "AU_western_power_distribution"
+    ],
+    "resources": [
+      "Solar Radiation",
+      "Wind"
+    ]
+  },
+  {
+    "id": "AU_electrical_grid_bungala-davenport",
+    "tier": "transport",
+    "name": "Bungala to Davenport Substation 275 kV line",
+    "country_iso2": "AU",
+    "operator_id": "AU_electranet",
+    "mode": "electrical_grid",
+    "form": "electrical",
+    "range": "regional",
+    "coordinates": {
+      "lat": -31.9,
+      "lon": 137.4
+    }
+  },
+  {
+    "id": "AU_electrical_grid_sunraysia-balranald",
+    "tier": "transport",
+    "name": "Sunraysia to Balranald 220 kV line",
+    "country_iso2": "AU",
+    "operator_id": "AU_transgrid",
+    "mode": "electrical_grid",
+    "form": "electrical",
+    "range": "regional",
+    "coordinates": {
+      "lat": -34.1,
+      "lon": 143.1
+    }
+  },
+  {
+    "id": "AU_electrical_grid_wdgph-western-downs-sub",
+    "tier": "transport",
+    "name": "Western Downs GPH to Western Downs Substation 275 kV",
+    "country_iso2": "AU",
+    "operator_id": "AU_powerlink_queensland",
+    "mode": "electrical_grid",
+    "form": "electrical",
+    "range": "regional",
+    "coordinates": {
+      "lat": -26.83,
+      "lon": 150.78
+    }
+  },
+  {
+    "id": "AU_electrical_grid_ddsf-braemar",
+    "tier": "transport",
+    "name": "Darling Downs SF to Braemar Substation 275 kV",
+    "country_iso2": "AU",
+    "operator_id": "AU_powerlink_queensland",
+    "mode": "electrical_grid",
+    "form": "electrical",
+    "range": "regional",
+    "coordinates": {
+      "lat": -27.4,
+      "lon": 151.22
+    }
+  },
+  {
+    "id": "AU_electrical_grid_limondale-balranald",
+    "tier": "transport",
+    "name": "Limondale SF to Balranald 220 kV line",
+    "country_iso2": "AU",
+    "operator_id": "AU_transgrid",
+    "mode": "electrical_grid",
+    "form": "electrical",
+    "range": "regional",
+    "coordinates": {
+      "lat": -33.8,
+      "lon": 142.8
+    }
+  },
+  {
+    "id": "AU_electrical_grid_coleambally-sub",
+    "tier": "transport",
+    "name": "Coleambally SF to Coleambally Substation 132 kV",
+    "country_iso2": "AU",
+    "operator_id": "AU_transgrid",
+    "mode": "electrical_grid",
+    "form": "electrical",
+    "range": "regional",
+    "coordinates": {
+      "lat": -34.79,
+      "lon": 145.89
+    }
+  },
+  {
+    "id": "AU_electrical_grid_bluegrass-ross",
+    "tier": "transport",
+    "name": "Bluegrass SF to Ross Substation 275 kV",
+    "country_iso2": "AU",
+    "operator_id": "AU_powerlink_queensland",
+    "mode": "electrical_grid",
+    "form": "electrical",
+    "range": "regional",
+    "coordinates": {
+      "lat": -19.5,
+      "lon": 146.95
+    }
+  },
+  {
+    "id": "AU_electrical_grid_daydream-strathmore",
+    "tier": "transport",
+    "name": "Daydream/Hayman SF to Strathmore Substation 275 kV",
+    "country_iso2": "AU",
+    "operator_id": "AU_powerlink_queensland",
+    "mode": "electrical_grid",
+    "form": "electrical",
+    "range": "regional",
+    "coordinates": {
+      "lat": -20.08,
+      "lon": 148.17
+    }
+  },
+  {
+    "id": "AU_electrical_grid_sun-metals-townsville",
+    "tier": "transport",
+    "name": "Sun Metals SF to Townsville South Substation 132 kV",
+    "country_iso2": "AU",
+    "operator_id": "AU_powerlink_queensland",
+    "mode": "electrical_grid",
+    "form": "electrical",
+    "range": "local",
+    "coordinates": {
+      "lat": -19.33,
+      "lon": 146.75
+    }
+  },
+  {
+    "id": "AU_electrical_grid_clermont-lilyvale",
+    "tier": "transport",
+    "name": "Clermont SF to Lilyvale Substation 132 kV",
+    "country_iso2": "AU",
+    "operator_id": "AU_powerlink_queensland",
+    "mode": "electrical_grid",
+    "form": "electrical",
+    "range": "regional",
+    "coordinates": {
+      "lat": -22.9,
+      "lon": 147.7
+    }
+  },
+  {
+    "id": "AU_electrical_grid_ross-river-ross",
+    "tier": "transport",
+    "name": "Ross River SF to Ross Substation 132 kV",
+    "country_iso2": "AU",
+    "operator_id": "AU_powerlink_queensland",
+    "mode": "electrical_grid",
+    "form": "electrical",
+    "range": "local",
+    "coordinates": {
+      "lat": -19.36,
+      "lon": 146.74
+    }
+  },
+  {
+    "id": "AU_electrical_grid_metz-tamworth",
+    "tier": "transport",
+    "name": "Metz SF to Tamworth Substation 132 kV",
+    "country_iso2": "AU",
+    "operator_id": "AU_transgrid",
+    "mode": "electrical_grid",
+    "form": "electrical",
+    "range": "regional",
+    "coordinates": {
+      "lat": -31.7,
+      "lon": 150.8
+    }
+  },
+  {
+    "id": "AU_electrical_grid_moree-sub",
+    "tier": "transport",
+    "name": "Moree SF to Moree Substation 132 kV",
+    "country_iso2": "AU",
+    "operator_id": "AU_transgrid",
+    "mode": "electrical_grid",
+    "form": "electrical",
+    "range": "local",
+    "coordinates": {
+      "lat": -29.47,
+      "lon": 149.83
+    }
+  },
+  {
+    "id": "AU_electrical_grid_nyngan-sub",
+    "tier": "transport",
+    "name": "Nyngan SF to Nyngan Substation 132 kV",
+    "country_iso2": "AU",
+    "operator_id": "AU_transgrid",
+    "mode": "electrical_grid",
+    "form": "electrical",
+    "range": "local",
+    "coordinates": {
+      "lat": -31.55,
+      "lon": 147.18
+    }
+  },
+  {
+    "id": "AU_electrical_grid_broken-hill-sub",
+    "tier": "transport",
+    "name": "Broken Hill SF to Broken Hill Substation 220 kV",
+    "country_iso2": "AU",
+    "operator_id": "AU_transgrid",
+    "mode": "electrical_grid",
+    "form": "electrical",
+    "range": "local",
+    "coordinates": {
+      "lat": -31.97,
+      "lon": 141.47
+    }
+  },
+  {
+    "id": "AU_electrical_grid_finley-deniliquin-sub",
+    "tier": "transport",
+    "name": "Finley SF to Deniliquin Substation 132 kV",
+    "country_iso2": "AU",
+    "operator_id": "AU_transgrid",
+    "mode": "electrical_grid",
+    "form": "electrical",
+    "range": "regional",
+    "coordinates": {
+      "lat": -35.6,
+      "lon": 145.6
+    }
+  },
+  {
+    "id": "AU_electrical_grid_beryl-mudgee-sub",
+    "tier": "transport",
+    "name": "Beryl SF to Mudgee Substation 132 kV",
+    "country_iso2": "AU",
+    "operator_id": "AU_transgrid",
+    "mode": "electrical_grid",
+    "form": "electrical",
+    "range": "regional",
+    "coordinates": {
+      "lat": -33,
+      "lon": 149.6
+    }
+  },
+  {
+    "id": "AU_electrical_grid_glenrowan-benalla-sub",
+    "tier": "transport",
+    "name": "Glenrowan SF to Benalla Substation 66 kV",
+    "country_iso2": "AU",
+    "operator_id": "AU_ausnet_services",
+    "mode": "electrical_grid",
+    "form": "electrical",
+    "range": "local",
+    "coordinates": {
+      "lat": -36.5,
+      "lon": 146.05
+    }
+  },
+  {
+    "id": "AU_electrical_grid_karadoc-red-cliffs-sub",
+    "tier": "transport",
+    "name": "Karadoc SF to Red Cliffs Substation 66 kV",
+    "country_iso2": "AU",
+    "operator_id": "AU_ausnet_services",
+    "mode": "electrical_grid",
+    "form": "electrical",
+    "range": "local",
+    "coordinates": {
+      "lat": -34.28,
+      "lon": 142.17
+    }
+  },
+  {
+    "id": "AU_electrical_grid_merredin-sub",
+    "tier": "transport",
+    "name": "Merredin SF to Merredin Substation 132 kV",
+    "country_iso2": "AU",
+    "operator_id": "AU_western_power",
+    "mode": "electrical_grid",
+    "form": "electrical",
+    "range": "regional",
+    "coordinates": {
+      "lat": -31.48,
+      "lon": 118.28
+    }
+  },
+  {
+    "id": "AU_electrical_grid_greenough-geraldton-sub",
+    "tier": "transport",
+    "name": "Greenough River SF to Geraldton Substation 132 kV",
+    "country_iso2": "AU",
+    "operator_id": "AU_western_power",
+    "mode": "electrical_grid",
+    "form": "electrical",
+    "range": "regional",
+    "coordinates": {
+      "lat": -28.96,
+      "lon": 114.75
+    }
+  },
+  {
+    "id": "AU_electrical_grid_tailem-bend-sub",
+    "tier": "transport",
+    "name": "Tailem Bend SF to Tailem Bend Substation 275 kV",
+    "country_iso2": "AU",
+    "operator_id": "AU_electranet",
+    "mode": "electrical_grid",
+    "form": "electrical",
+    "range": "regional",
+    "coordinates": {
+      "lat": -35.27,
+      "lon": 139.42
+    }
+  },
+  {
+    "id": "AU_electrical_grid_rugby-run-lilyvale",
+    "tier": "transport",
+    "name": "Rugby Run SF to Lilyvale Substation 132 kV",
+    "country_iso2": "AU",
+    "operator_id": "AU_powerlink_queensland",
+    "mode": "electrical_grid",
+    "form": "electrical",
+    "range": "regional",
+    "coordinates": {
+      "lat": -23.55,
+      "lon": 149.9
+    }
+  },
+  {
+    "id": "AU_electrical_grid_columboola-wandoan",
+    "tier": "transport",
+    "name": "Columboola SF to Wandoan Substation 275 kV",
+    "country_iso2": "AU",
+    "operator_id": "AU_powerlink_queensland",
+    "mode": "electrical_grid",
+    "form": "electrical",
+    "range": "regional",
+    "coordinates": {
+      "lat": -26.4,
+      "lon": 150.1
+    }
+  },
+  {
+    "id": "AU_electrical_grid_childers-sub",
+    "tier": "transport",
+    "name": "Childers SF to Childers Substation 132 kV",
+    "country_iso2": "AU",
+    "operator_id": "AU_powerlink_queensland",
+    "mode": "electrical_grid",
+    "form": "electrical",
+    "range": "local",
+    "coordinates": {
+      "lat": -25.25,
+      "lon": 152.28
+    }
+  },
+  {
+    "id": "AU_electrical_grid_sebastopol-ballarat-sub",
+    "tier": "transport",
+    "name": "Sebastopol SF to Ballarat Substation 66 kV",
+    "country_iso2": "AU",
+    "operator_id": "AU_ausnet_services",
+    "mode": "electrical_grid",
+    "form": "electrical",
+    "range": "local",
+    "coordinates": {
+      "lat": -37.55,
+      "lon": 143.83
+    }
+  },
+  {
+    "id": "AU_electrical_grid_wemen-red-cliffs-sub",
+    "tier": "transport",
+    "name": "Wemen SF to Red Cliffs Substation 66 kV",
+    "country_iso2": "AU",
+    "operator_id": "AU_ausnet_services",
+    "mode": "electrical_grid",
+    "form": "electrical",
+    "range": "local",
+    "coordinates": {
+      "lat": -34.8,
+      "lon": 142.65
+    }
+  },
+  {
+    "id": "AU_electrical_grid_avonlie-darlington-sub",
+    "tier": "transport",
+    "name": "Avonlie SF to Darlington Point Substation 132 kV",
+    "country_iso2": "AU",
+    "operator_id": "AU_transgrid",
+    "mode": "electrical_grid",
+    "form": "electrical",
+    "range": "regional",
+    "coordinates": {
+      "lat": -34.25,
+      "lon": 146.8
+    }
+  },
+  {
+    "id": "AU_electrical_grid_gangarri-wandoan",
+    "tier": "transport",
+    "name": "Gangarri SF to Wandoan Substation 275 kV",
+    "country_iso2": "AU",
+    "operator_id": "AU_powerlink_queensland",
+    "mode": "electrical_grid",
+    "form": "electrical",
+    "range": "regional",
+    "coordinates": {
+      "lat": -26.5,
+      "lon": 150.55
+    }
+  },
+  {
+    "id": "AU_electrical_grid_sa-transmission-distribution",
+    "tier": "transport",
+    "name": "ElectraNet SA Transmission Network",
+    "country_iso2": "AU",
+    "operator_id": "AU_electranet",
+    "mode": "electrical_grid",
+    "form": "electrical",
+    "range": "regional",
+    "coordinates": {
+      "lat": -34.93,
+      "lon": 138.6
+    }
+  },
+  {
+    "id": "AU_electrical_grid_transgrid-ausgrid",
+    "tier": "transport",
+    "name": "TransGrid to Ausgrid bulk supply points",
+    "country_iso2": "AU",
+    "operator_id": "AU_transgrid",
+    "mode": "electrical_grid",
+    "form": "electrical",
+    "range": "regional",
+    "coordinates": {
+      "lat": -33.87,
+      "lon": 151.21
+    },
+    "resources": [
+      "Hydropower"
+    ],
+    "upstream": [],
+    "downstream": []
+  },
+  {
+    "id": "AU_electrical_grid_transgrid-endeavour",
+    "tier": "transport",
+    "name": "TransGrid to Endeavour Energy bulk supply points",
+    "country_iso2": "AU",
+    "operator_id": "AU_transgrid",
+    "mode": "electrical_grid",
+    "form": "electrical",
+    "range": "regional",
+    "coordinates": {
+      "lat": -33.77,
+      "lon": 150.91
+    },
+    "resources": [
+      "Hydropower"
+    ],
+    "upstream": [],
+    "downstream": []
+  },
+  {
+    "id": "AU_electrical_grid_transgrid-essential",
+    "tier": "transport",
+    "name": "TransGrid to Essential Energy bulk supply points",
+    "country_iso2": "AU",
+    "operator_id": "AU_transgrid",
+    "mode": "electrical_grid",
+    "form": "electrical",
+    "range": "regional",
+    "coordinates": {
+      "lat": -32.24,
+      "lon": 148.61
+    },
+    "resources": [
+      "Hydropower"
+    ],
+    "upstream": [],
+    "downstream": []
+  },
+  {
+    "id": "AU_electrical_grid_powerlink-energex",
+    "tier": "transport",
+    "name": "Powerlink to Energex bulk supply points (SEQ)",
+    "country_iso2": "AU",
+    "operator_id": "AU_powerlink_queensland",
+    "mode": "electrical_grid",
+    "form": "electrical",
+    "range": "regional",
+    "coordinates": {
+      "lat": -27.47,
+      "lon": 153.03
+    },
+    "resources": [
+      "Hydropower"
+    ],
+    "upstream": [],
+    "downstream": []
+  },
+  {
+    "id": "AU_electrical_grid_powerlink-ergon",
+    "tier": "transport",
+    "name": "Powerlink to Ergon Network bulk supply points (Regional QLD)",
+    "country_iso2": "AU",
+    "operator_id": "AU_powerlink_queensland",
+    "mode": "electrical_grid",
+    "form": "electrical",
+    "range": "regional",
+    "coordinates": {
+      "lat": -22,
+      "lon": 148
+    },
+    "resources": [
+      "Hydropower"
+    ],
+    "upstream": [],
+    "downstream": []
+  },
+  {
+    "id": "AU_electrical_grid_ausnet-citipower",
+    "tier": "transport",
+    "name": "AusNet to CitiPower/Powercor terminal stations",
+    "country_iso2": "AU",
+    "operator_id": "AU_ausnet_services",
+    "mode": "electrical_grid",
+    "form": "electrical",
+    "range": "regional",
+    "coordinates": {
+      "lat": -37.81,
+      "lon": 144.96
+    },
+    "resources": [
+      "Hydropower"
+    ],
+    "upstream": [],
+    "downstream": []
+  },
+  {
+    "id": "AU_electrical_grid_ausnet-jemena",
+    "tier": "transport",
+    "name": "AusNet to Jemena terminal stations",
+    "country_iso2": "AU",
+    "operator_id": "AU_ausnet_services",
+    "mode": "electrical_grid",
+    "form": "electrical",
+    "range": "regional",
+    "coordinates": {
+      "lat": -37.73,
+      "lon": 144.99
+    },
+    "resources": [
+      "Hydropower"
+    ],
+    "upstream": [],
+    "downstream": []
+  },
+  {
+    "id": "AU_electrical_grid_ausnet-united",
+    "tier": "transport",
+    "name": "AusNet to United Energy terminal stations",
+    "country_iso2": "AU",
+    "operator_id": "AU_ausnet_services",
+    "mode": "electrical_grid",
+    "form": "electrical",
+    "range": "regional",
+    "coordinates": {
+      "lat": -37.95,
+      "lon": 145.05
+    }
+  },
+  {
+    "id": "AU_electrical_grid_western-power-dist",
+    "tier": "transport",
+    "name": "Western Power SWIS Distribution Network",
+    "country_iso2": "AU",
+    "operator_id": "AU_western_power",
+    "mode": "electrical_grid",
+    "form": "electrical",
+    "range": "regional",
+    "coordinates": {
+      "lat": -31.95,
+      "lon": 115.86
+    }
+  },
+  {
+    "id": "AU_electrical_grid_sapn-retailers",
+    "tier": "transport",
+    "name": "SA Power Networks Distribution to Retailers",
+    "country_iso2": "AU",
+    "operator_id": "AU_sa_power_networks",
+    "mode": "electrical_grid",
+    "form": "electrical",
+    "range": "regional",
+    "coordinates": {
+      "lat": -34.93,
+      "lon": 138.6
+    }
+  },
+  {
+    "id": "AU_electrical_grid_ausgrid-retailers",
+    "tier": "transport",
+    "name": "Ausgrid Distribution to Retailers",
+    "country_iso2": "AU",
+    "operator_id": "AU_ausgrid",
+    "mode": "electrical_grid",
+    "form": "electrical",
+    "range": "regional",
+    "coordinates": {
+      "lat": -33.87,
+      "lon": 151.21
+    }
+  },
+  {
+    "id": "AU_electrical_grid_endeavour-retailers",
+    "tier": "transport",
+    "name": "Endeavour Energy Distribution to Retailers",
+    "country_iso2": "AU",
+    "operator_id": "AU_endeavour_energy",
+    "mode": "electrical_grid",
+    "form": "electrical",
+    "range": "regional",
+    "coordinates": {
+      "lat": -33.77,
+      "lon": 150.91
+    }
+  },
+  {
+    "id": "AU_electrical_grid_essential-retailers",
+    "tier": "transport",
+    "name": "Essential Energy Distribution to Retailers",
+    "country_iso2": "AU",
+    "operator_id": "AU_essential_energy",
+    "mode": "electrical_grid",
+    "form": "electrical",
+    "range": "regional",
+    "coordinates": {
+      "lat": -32.24,
+      "lon": 148.61
+    }
+  },
+  {
+    "id": "AU_electrical_grid_energex-retailers",
+    "tier": "transport",
+    "name": "Energex Distribution to Retailers (SEQ)",
+    "country_iso2": "AU",
+    "operator_id": "AU_energex",
+    "mode": "electrical_grid",
+    "form": "electrical",
+    "range": "regional",
+    "coordinates": {
+      "lat": -27.47,
+      "lon": 153.03
+    }
+  },
+  {
+    "id": "AU_electrical_grid_ergon-net-retail",
+    "tier": "transport",
+    "name": "Ergon Network Distribution to Retailers (Regional QLD)",
+    "country_iso2": "AU",
+    "operator_id": "AU_ergon_energy_network",
+    "mode": "electrical_grid",
+    "form": "electrical",
+    "range": "regional",
+    "coordinates": {
+      "lat": -19.27,
+      "lon": 146.81
+    }
+  },
+  {
+    "id": "AU_electrical_grid_citipower-retailers",
+    "tier": "transport",
+    "name": "CitiPower/Powercor Distribution to Retailers (VIC)",
+    "country_iso2": "AU",
+    "operator_id": "AU_citipower_powercor",
+    "mode": "electrical_grid",
+    "form": "electrical",
+    "range": "regional",
+    "coordinates": {
+      "lat": -37.81,
+      "lon": 144.96
+    }
+  },
+  {
+    "id": "AU_electrical_grid_jemena-retailers",
+    "tier": "transport",
+    "name": "Jemena Distribution to Retailers (VIC)",
+    "country_iso2": "AU",
+    "operator_id": "AU_jemena_electricity",
+    "mode": "electrical_grid",
+    "form": "electrical",
+    "range": "local",
+    "coordinates": {
+      "lat": -37.73,
+      "lon": 144.99
+    }
+  },
+  {
+    "id": "AU_electrical_grid_united-retailers",
+    "tier": "transport",
+    "name": "United Energy Distribution to Retailers (VIC)",
+    "country_iso2": "AU",
+    "operator_id": "AU_united_energy",
+    "mode": "electrical_grid",
+    "form": "electrical",
+    "range": "local",
+    "coordinates": {
+      "lat": -37.95,
+      "lon": 145.05
+    }
+  },
+  {
+    "id": "AU_electrical_grid_agl-residential",
+    "tier": "transport",
+    "name": "AGL last-mile to residential customers",
+    "country_iso2": "AU",
+    "operator_id": "AU_agl_energy_retail",
+    "mode": "electrical_grid",
+    "form": "electrical",
+    "range": "local",
+    "coordinates": {
+      "lat": -33.87,
+      "lon": 151.21
+    },
+    "resources": [
+      "Hydropower"
+    ],
+    "upstream": [],
+    "downstream": []
+  },
+  {
+    "id": "AU_electrical_grid_agl-commercial",
+    "tier": "transport",
+    "name": "AGL last-mile to commercial customers",
+    "country_iso2": "AU",
+    "operator_id": "AU_agl_energy_retail",
+    "mode": "electrical_grid",
+    "form": "electrical",
+    "range": "local",
+    "coordinates": {
+      "lat": -33.87,
+      "lon": 151.21
+    },
+    "resources": [
+      "Hydropower"
+    ],
+    "upstream": [],
+    "downstream": []
+  },
+  {
+    "id": "AU_electrical_grid_agl-industrial",
+    "tier": "transport",
+    "name": "AGL last-mile to industrial customers",
+    "country_iso2": "AU",
+    "operator_id": "AU_agl_energy_retail",
+    "mode": "electrical_grid",
+    "form": "electrical",
+    "range": "local",
+    "coordinates": {
+      "lat": -33.87,
+      "lon": 151.21
+    },
+    "resources": [
+      "Hydropower"
+    ],
+    "upstream": [],
+    "downstream": []
+  },
+  {
+    "id": "AU_electrical_grid_origin-residential",
+    "tier": "transport",
+    "name": "Origin last-mile to residential customers",
+    "country_iso2": "AU",
+    "operator_id": "AU_origin_energy_retail",
+    "mode": "electrical_grid",
+    "form": "electrical",
+    "range": "local",
+    "coordinates": {
+      "lat": -33.87,
+      "lon": 151.21
+    },
+    "resources": [
+      "Hydropower"
+    ],
+    "upstream": [],
+    "downstream": []
+  },
+  {
+    "id": "AU_electrical_grid_origin-commercial",
+    "tier": "transport",
+    "name": "Origin last-mile to commercial customers",
+    "country_iso2": "AU",
+    "operator_id": "AU_origin_energy_retail",
+    "mode": "electrical_grid",
+    "form": "electrical",
+    "range": "local",
+    "coordinates": {
+      "lat": -33.87,
+      "lon": 151.21
+    },
+    "resources": [
+      "Hydropower"
+    ],
+    "upstream": [],
+    "downstream": []
+  },
+  {
+    "id": "AU_electrical_grid_origin-industrial",
+    "tier": "transport",
+    "name": "Origin last-mile to industrial customers",
+    "country_iso2": "AU",
+    "operator_id": "AU_origin_energy_retail",
+    "mode": "electrical_grid",
+    "form": "electrical",
+    "range": "local",
+    "coordinates": {
+      "lat": -33.87,
+      "lon": 151.21
+    },
+    "resources": [
+      "Hydropower"
+    ],
+    "upstream": [],
+    "downstream": []
+  },
+  {
+    "id": "AU_electrical_grid_ea-residential",
+    "tier": "transport",
+    "name": "EnergyAustralia last-mile to residential customers",
+    "country_iso2": "AU",
+    "operator_id": "AU_energyaustralia_retail",
+    "mode": "electrical_grid",
+    "form": "electrical",
+    "range": "local",
+    "coordinates": {
+      "lat": -37.81,
+      "lon": 144.96
+    },
+    "resources": [
+      "Hydropower"
+    ],
+    "upstream": [],
+    "downstream": []
+  },
+  {
+    "id": "AU_electrical_grid_ea-commercial",
+    "tier": "transport",
+    "name": "EnergyAustralia last-mile to commercial customers",
+    "country_iso2": "AU",
+    "operator_id": "AU_energyaustralia_retail",
+    "mode": "electrical_grid",
+    "form": "electrical",
+    "range": "local",
+    "coordinates": {
+      "lat": -37.81,
+      "lon": 144.96
+    },
+    "resources": [
+      "Hydropower"
+    ],
+    "upstream": [],
+    "downstream": []
+  },
+  {
+    "id": "AU_electrical_grid_ea-industrial",
+    "tier": "transport",
+    "name": "EnergyAustralia last-mile to industrial customers",
+    "country_iso2": "AU",
+    "operator_id": "AU_energyaustralia_retail",
+    "mode": "electrical_grid",
+    "form": "electrical",
+    "range": "local",
+    "coordinates": {
+      "lat": -37.81,
+      "lon": 144.96
+    },
+    "resources": [
+      "Hydropower"
+    ],
+    "upstream": [],
+    "downstream": []
+  },
+  {
+    "id": "AU_electrical_grid_ergon-residential",
+    "tier": "transport",
+    "name": "Ergon Retail last-mile to residential customers (Regional QLD)",
+    "country_iso2": "AU",
+    "operator_id": "AU_ergon_energy_retail",
+    "mode": "electrical_grid",
+    "form": "electrical",
+    "range": "local",
+    "coordinates": {
+      "lat": -19.27,
+      "lon": 146.81
+    },
+    "resources": [
+      "Hydropower"
+    ],
+    "upstream": [],
+    "downstream": []
+  },
+  {
+    "id": "AU_electrical_grid_ergon-agricultural",
+    "tier": "transport",
+    "name": "Ergon Retail last-mile to agricultural customers (Regional QLD)",
+    "country_iso2": "AU",
+    "operator_id": "AU_ergon_energy_retail",
+    "mode": "electrical_grid",
+    "form": "electrical",
+    "range": "local",
+    "coordinates": {
+      "lat": -20,
+      "lon": 148
+    },
+    "resources": [
+      "Hydropower"
+    ],
+    "upstream": [],
+    "downstream": []
+  },
+  {
+    "id": "AU_electrical_grid_ergon-industrial",
+    "tier": "transport",
+    "name": "Ergon Retail last-mile to industrial customers (Regional QLD)",
+    "country_iso2": "AU",
+    "operator_id": "AU_ergon_energy_retail",
+    "mode": "electrical_grid",
+    "form": "electrical",
+    "range": "local",
+    "coordinates": {
+      "lat": -19.27,
+      "lon": 146.81
+    },
+    "resources": [
+      "Hydropower"
+    ],
+    "upstream": [],
+    "downstream": []
+  },
+  {
+    "id": "AU_electrical_grid_synergy-residential",
+    "tier": "transport",
+    "name": "Synergy last-mile to residential customers (WA)",
+    "country_iso2": "AU",
+    "operator_id": "AU_synergy_retail",
+    "mode": "electrical_grid",
+    "form": "electrical",
+    "range": "local",
+    "coordinates": {
+      "lat": -31.95,
+      "lon": 115.86
+    }
+  },
+  {
+    "id": "AU_electrical_grid_synergy-commercial",
+    "tier": "transport",
+    "name": "Synergy last-mile to commercial customers (WA)",
+    "country_iso2": "AU",
+    "operator_id": "AU_synergy_retail",
+    "mode": "electrical_grid",
+    "form": "electrical",
+    "range": "local",
+    "coordinates": {
+      "lat": -31.95,
+      "lon": 115.86
+    }
+  },
+  {
+    "id": "AU_electrical_grid_synergy-industrial",
+    "tier": "transport",
+    "name": "Synergy last-mile to industrial customers (WA)",
+    "country_iso2": "AU",
+    "operator_id": "AU_synergy_retail",
+    "mode": "electrical_grid",
+    "form": "electrical",
+    "range": "local",
+    "coordinates": {
+      "lat": -31.95,
+      "lon": 115.86
+    }
+  }
+]

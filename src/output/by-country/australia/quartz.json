@@ -1,0 +1,1558 @@
+[
+  {
+    "id": "AU_cape_flattery_silica_mines",
+    "name": "Cape Flattery Silica Mine",
+    "tier": "extraction",
+    "country_iso2": "AU",
+    "canonical_company": "Cape Flattery Silica Mines",
+    "coordinates": {
+      "lat": -14.95,
+      "lon": 145.32
+    },
+    "downstream": [
+      {
+        "target_id": "AU_cape_flattery_silica_mines_port",
+        "corridor_id": "AU_conveyor_cape-flattery-mine-to-port",
+        "resource": "high-purity silica sand",
+        "quantity": 2800000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Quartz"
+    ]
+  },
+  {
+    "id": "AU_sibelco_australia_north_stradbroke",
+    "name": "Sibelco North Stradbroke Island Silica Mine",
+    "tier": "extraction",
+    "country_iso2": "AU",
+    "canonical_company": "Sibelco Australia",
+    "coordinates": {
+      "lat": -27.5,
+      "lon": 153.44
+    },
+    "downstream": [
+      {
+        "target_id": "AU_sibelco_australia_pinkenba",
+        "corridor_id": "AU_inland_waterway_stradbroke-pinkenba",
+        "resource": "silica sand",
+        "quantity": 800000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Quartz"
+    ]
+  },
+  {
+    "id": "AU_australian_silica_quartz_springsure",
+    "name": "Australian Silica Quartz – Springsure Mine",
+    "tier": "extraction",
+    "country_iso2": "AU",
+    "canonical_company": "Australian Silica Quartz",
+    "coordinates": {
+      "lat": -24.1,
+      "lon": 148.09
+    },
+    "downstream": [
+      {
+        "target_id": "AU_gladstone_port_silica",
+        "corridor_id": "AU_road_springsure-gladstone",
+        "resource": "lump quartz / silica sand",
+        "quantity": 500000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Quartz"
+    ]
+  },
+  {
+    "id": "AU_diatreme_resources_northern_silica",
+    "name": "Diatreme Northern Silica Project (Galalar / Cape Bedford)",
+    "tier": "extraction",
+    "country_iso2": "AU",
+    "canonical_company": "Diatreme Resources",
+    "coordinates": {
+      "lat": -15.2,
+      "lon": 145.22
+    },
+    "downstream": [
+      {
+        "target_id": "AU_diatreme_port_facility",
+        "corridor_id": "AU_road_galalar-port",
+        "resource": "high-purity silica sand",
+        "quantity": 500000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Quartz"
+    ]
+  },
+  {
+    "id": "AU_vresources_whitehaven",
+    "name": "VRX Silica – Arrowsmith North Mine (WA)",
+    "tier": "extraction",
+    "country_iso2": "AU",
+    "canonical_company": "VRX Silica",
+    "coordinates": {
+      "lat": -29.64,
+      "lon": 115.1
+    },
+    "downstream": [
+      {
+        "target_id": "AU_geraldton_port_silica",
+        "corridor_id": "AU_road_arrowsmith-geraldton",
+        "resource": "high-purity silica sand",
+        "quantity": 400000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Quartz"
+    ]
+  },
+  {
+    "id": "AU_covalent_lithium_mt_holland_quartz",
+    "name": "Covalent Lithium – Mt Holland Quartz (spodumene byproduct quartz)",
+    "tier": "extraction",
+    "country_iso2": "AU",
+    "canonical_company": "Covalent Lithium",
+    "coordinates": {
+      "lat": -32.07,
+      "lon": 119.76
+    },
+    "downstream": [
+      {
+        "target_id": "AU_kwinana_quartz_processor",
+        "corridor_id": "AU_road_mt-holland-kwinana",
+        "resource": "quartz / silica byproduct",
+        "quantity": 100000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Quartz"
+    ]
+  },
+  {
+    "id": "AU_hanson_jandakot_silica",
+    "name": "Hanson Jandakot Silica Sand Quarry (WA)",
+    "tier": "extraction",
+    "country_iso2": "AU",
+    "canonical_company": "Hanson Australia",
+    "coordinates": {
+      "lat": -32.12,
+      "lon": 115.86
+    },
+    "downstream": [
+      {
+        "target_id": "AU_hanson_perth_processing",
+        "corridor_id": "AU_road_jandakot-perth",
+        "resource": "construction-grade silica sand",
+        "quantity": 300000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Quartz"
+    ]
+  },
+  {
+    "id": "AU_sibelco_australia_maryborough",
+    "name": "Sibelco Maryborough Silica Quarry (QLD)",
+    "tier": "extraction",
+    "country_iso2": "AU",
+    "canonical_company": "Sibelco Australia",
+    "coordinates": {
+      "lat": -25.54,
+      "lon": 152.7
+    },
+    "downstream": [
+      {
+        "target_id": "AU_sibelco_australia_pinkenba",
+        "corridor_id": "AU_rail_maryborough-brisbane",
+        "resource": "silica sand",
+        "quantity": 400000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Quartz"
+    ]
+  },
+  {
+    "id": "AU_cape_flattery_silica_mines_port",
+    "name": "Cape Flattery Wharf & Port Facility",
+    "tier": "processor",
+    "country_iso2": "AU",
+    "canonical_company": "Cape Flattery Silica Mines",
+    "coordinates": {
+      "lat": -14.97,
+      "lon": 145.35
+    },
+    "downstream": [
+      {
+        "target_id": "JP_agc_glass",
+        "corridor_id": "INTL_ocean_cape-flattery-japan",
+        "resource": "high-purity silica sand",
+        "quantity": 1200000,
+        "metric": "t"
+      },
+      {
+        "target_id": "CN_xinyi_glass",
+        "corridor_id": "INTL_ocean_cape-flattery-china",
+        "resource": "high-purity silica sand",
+        "quantity": 800000,
+        "metric": "t"
+      },
+      {
+        "target_id": "KR_hankuk_glass",
+        "corridor_id": "INTL_ocean_cape-flattery-korea",
+        "resource": "high-purity silica sand",
+        "quantity": 400000,
+        "metric": "t"
+      },
+      {
+        "target_id": "TW_taiwan_glass",
+        "corridor_id": "INTL_ocean_cape-flattery-taiwan",
+        "resource": "high-purity silica sand",
+        "quantity": 250000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_csr_glass",
+        "corridor_id": "AU_ocean_cape-flattery-sydney",
+        "resource": "silica sand for glass",
+        "quantity": 150000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_cape_flattery_silica_mines"
+    ],
+    "resources": [
+      "Quartz"
+    ]
+  },
+  {
+    "id": "AU_sibelco_australia_pinkenba",
+    "name": "Sibelco Pinkenba Processing Plant (Brisbane)",
+    "tier": "processor",
+    "country_iso2": "AU",
+    "canonical_company": "Sibelco Australia",
+    "coordinates": {
+      "lat": -27.42,
+      "lon": 153.13
+    },
+    "downstream": [
+      {
+        "target_id": "AU_csr_glass",
+        "corridor_id": "AU_road_pinkenba-sydney",
+        "resource": "processed silica sand (glass grade)",
+        "quantity": 250000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_orora_glass",
+        "corridor_id": "AU_road_pinkenba-brisbane-local",
+        "resource": "processed silica sand (glass grade)",
+        "quantity": 150000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_adelaide_brighton_cement",
+        "corridor_id": "AU_rail_pinkenba-adelaide",
+        "resource": "silica sand (cement additive grade)",
+        "quantity": 100000,
+        "metric": "t"
+      },
+      {
+        "target_id": "CN_xinyi_glass",
+        "corridor_id": "INTL_ocean_brisbane-china",
+        "resource": "high-purity silica sand",
+        "quantity": 300000,
+        "metric": "t"
+      },
+      {
+        "target_id": "JP_agc_glass",
+        "corridor_id": "INTL_ocean_brisbane-japan",
+        "resource": "high-purity silica sand",
+        "quantity": 200000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_agl_foundry_supplies",
+        "corridor_id": "AU_road_pinkenba-brisbane-local",
+        "resource": "foundry-grade silica sand",
+        "quantity": 100000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_sibelco_export_port_brisbane",
+        "corridor_id": "AU_road_pinkenba-port-brisbane",
+        "resource": "industrial silica sand (export)",
+        "quantity": 100000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_sibelco_australia_north_stradbroke",
+      "AU_sibelco_australia_maryborough"
+    ],
+    "resources": [
+      "Quartz"
+    ]
+  },
+  {
+    "id": "AU_gladstone_port_silica",
+    "name": "Port of Gladstone – Silica Export Terminal",
+    "tier": "processor",
+    "country_iso2": "AU",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": -23.85,
+      "lon": 151.28
+    },
+    "downstream": [
+      {
+        "target_id": "CN_longi_green_energy",
+        "corridor_id": "INTL_ocean_gladstone-china",
+        "resource": "high-purity lump quartz",
+        "quantity": 300000,
+        "metric": "t"
+      },
+      {
+        "target_id": "JP_tokuyama_corp",
+        "corridor_id": "INTL_ocean_gladstone-japan",
+        "resource": "high-purity lump quartz",
+        "quantity": 100000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_industrial",
+        "corridor_id": "AU_road_gladstone-domestic",
+        "resource": "silica sand / quartz aggregate",
+        "quantity": 100000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_australian_silica_quartz_springsure"
+    ],
+    "resources": [
+      "Quartz"
+    ]
+  },
+  {
+    "id": "AU_diatreme_port_facility",
+    "name": "Diatreme Export Port Facility (Cooktown region)",
+    "tier": "processor",
+    "country_iso2": "AU",
+    "canonical_company": "Diatreme Resources",
+    "coordinates": {
+      "lat": -15.47,
+      "lon": 145.25
+    },
+    "downstream": [
+      {
+        "target_id": "CN_xinyi_glass",
+        "corridor_id": "INTL_ocean_cooktown-china",
+        "resource": "high-purity silica sand",
+        "quantity": 300000,
+        "metric": "t"
+      },
+      {
+        "target_id": "JP_agc_glass",
+        "corridor_id": "INTL_ocean_cooktown-japan",
+        "resource": "high-purity silica sand",
+        "quantity": 200000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_diatreme_resources_northern_silica"
+    ],
+    "resources": [
+      "Quartz"
+    ]
+  },
+  {
+    "id": "AU_geraldton_port_silica",
+    "name": "Port of Geraldton – Silica Export Terminal",
+    "tier": "processor",
+    "country_iso2": "AU",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": -28.77,
+      "lon": 114.61
+    },
+    "downstream": [
+      {
+        "target_id": "CN_xinyi_glass",
+        "corridor_id": "INTL_ocean_geraldton-china",
+        "resource": "high-purity silica sand",
+        "quantity": 250000,
+        "metric": "t"
+      },
+      {
+        "target_id": "KR_hankuk_glass",
+        "corridor_id": "INTL_ocean_geraldton-korea",
+        "resource": "high-purity silica sand",
+        "quantity": 100000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_industrial",
+        "corridor_id": "AU_road_geraldton-perth",
+        "resource": "silica sand (domestic industrial)",
+        "quantity": 50000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_vresources_whitehaven"
+    ],
+    "resources": [
+      "Quartz"
+    ]
+  },
+  {
+    "id": "AU_kwinana_quartz_processor",
+    "name": "Kwinana Silica Processing (WA)",
+    "tier": "processor",
+    "country_iso2": "AU",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": -32.24,
+      "lon": 115.77
+    },
+    "downstream": [
+      {
+        "target_id": "AU_industrial",
+        "corridor_id": "AU_road_kwinana-perth",
+        "resource": "processed silica / quartz",
+        "quantity": 60000,
+        "metric": "t"
+      },
+      {
+        "target_id": "INTL_ocean_fremantle-asia",
+        "corridor_id": "AU_road_kwinana-fremantle",
+        "resource": "processed silica / quartz for export",
+        "quantity": 40000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_covalent_lithium_mt_holland_quartz"
+    ],
+    "resources": [
+      "Quartz"
+    ]
+  },
+  {
+    "id": "INTL_ocean_fremantle-asia",
+    "name": "Asia-bound Silica via Fremantle (aggregate destination)",
+    "tier": "processor",
+    "country_iso2": "INTL",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": -32.05,
+      "lon": 115.74
+    },
+    "downstream": [
+      {
+        "target_id": "CN_industrial",
+        "corridor_id": "INTL_ocean_fremantle-china",
+        "resource": "processed quartz / silica",
+        "quantity": 40000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_kwinana_quartz_processor"
+    ],
+    "resources": [
+      "Quartz",
+      "Mineral-Bearing Land"
+    ]
+  },
+  {
+    "id": "AU_hanson_perth_processing",
+    "name": "Hanson Perth Sand Processing Depot",
+    "tier": "processor",
+    "country_iso2": "AU",
+    "canonical_company": "Hanson Australia",
+    "coordinates": {
+      "lat": -31.95,
+      "lon": 115.86
+    },
+    "downstream": [
+      {
+        "target_id": "AU_boral_concrete",
+        "corridor_id": "AU_road_perth-local",
+        "resource": "construction-grade silica sand",
+        "quantity": 200000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_infrastructure",
+        "corridor_id": "AU_road_perth-wa-sites",
+        "resource": "construction-grade silica sand",
+        "quantity": 100000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_hanson_jandakot_silica"
+    ],
+    "resources": [
+      "Quartz"
+    ]
+  },
+  {
+    "id": "AU_sibelco_export_port_brisbane",
+    "name": "Sibelco Export via Port of Brisbane",
+    "tier": "processor",
+    "country_iso2": "AU",
+    "canonical_company": "Sibelco Australia",
+    "coordinates": {
+      "lat": -27.38,
+      "lon": 153.17
+    },
+    "downstream": [
+      {
+        "target_id": "IN_industrial",
+        "corridor_id": "INTL_ocean_brisbane-india",
+        "resource": "industrial silica sand",
+        "quantity": 100000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_sibelco_australia_pinkenba"
+    ],
+    "resources": [
+      "Quartz"
+    ]
+  },
+  {
+    "id": "JP_agc_glass",
+    "name": "AGC Inc. (Asahi Glass) – Japan",
+    "tier": "component_maker",
+    "country_iso2": "JP",
+    "canonical_company": "AGC Inc.",
+    "coordinates": {
+      "lat": 35.45,
+      "lon": 139.63
+    },
+    "downstream": [
+      {
+        "target_id": "JP_toyota_motor",
+        "corridor_id": "JP_road_agc-toyota-city",
+        "resource": "flat glass / automotive glass",
+        "quantity": 350000,
+        "metric": "t"
+      },
+      {
+        "target_id": "JP_industrial",
+        "corridor_id": "JP_road_agc-domestic",
+        "resource": "flat glass / specialty glass",
+        "quantity": 450000,
+        "metric": "t"
+      },
+      {
+        "target_id": "INTL_commercial",
+        "corridor_id": "INTL_ocean_japan-global",
+        "resource": "high-performance glass products",
+        "quantity": 800000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_cape_flattery_silica_mines_port",
+      "AU_sibelco_australia_pinkenba",
+      "AU_diatreme_port_facility"
+    ],
+    "resources": [
+      "Quartz"
+    ]
+  },
+  {
+    "id": "CN_xinyi_glass",
+    "name": "Xinyi Glass Holdings – China",
+    "tier": "component_maker",
+    "country_iso2": "CN",
+    "canonical_company": "Xinyi Glass Holdings",
+    "coordinates": {
+      "lat": 22.78,
+      "lon": 114.15
+    },
+    "downstream": [
+      {
+        "target_id": "CN_solar_panel_assemblers",
+        "corridor_id": "CN_road_xinyi-solar-assembly",
+        "resource": "solar cover glass",
+        "quantity": 600000,
+        "metric": "t"
+      },
+      {
+        "target_id": "CN_industrial",
+        "corridor_id": "CN_road_xinyi-domestic",
+        "resource": "flat glass / container glass",
+        "quantity": 700000,
+        "metric": "t"
+      },
+      {
+        "target_id": "INTL_commercial",
+        "corridor_id": "INTL_ocean_china-global",
+        "resource": "glass products",
+        "quantity": 350000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_cape_flattery_silica_mines_port",
+      "AU_sibelco_australia_pinkenba",
+      "AU_diatreme_port_facility",
+      "AU_geraldton_port_silica"
+    ],
+    "resources": [
+      "Quartz"
+    ]
+  },
+  {
+    "id": "KR_hankuk_glass",
+    "name": "Hankuk Glass Industries – South Korea",
+    "tier": "component_maker",
+    "country_iso2": "KR",
+    "canonical_company": "Hankuk Glass Industries",
+    "coordinates": {
+      "lat": 36.99,
+      "lon": 127.09
+    },
+    "downstream": [
+      {
+        "target_id": "KR_industrial",
+        "corridor_id": "KR_road_hankuk-domestic",
+        "resource": "flat glass / automotive glass",
+        "quantity": 350000,
+        "metric": "t"
+      },
+      {
+        "target_id": "INTL_commercial",
+        "corridor_id": "INTL_ocean_korea-global",
+        "resource": "specialty glass",
+        "quantity": 150000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_cape_flattery_silica_mines_port",
+      "AU_geraldton_port_silica"
+    ],
+    "resources": [
+      "Quartz"
+    ]
+  },
+  {
+    "id": "TW_taiwan_glass",
+    "name": "Taiwan Glass Industry Corp.",
+    "tier": "component_maker",
+    "country_iso2": "TW",
+    "canonical_company": "Taiwan Glass Industry",
+    "coordinates": {
+      "lat": 24.97,
+      "lon": 121.22
+    },
+    "downstream": [
+      {
+        "target_id": "TW_industrial",
+        "corridor_id": "TW_road_taiwan-glass-domestic",
+        "resource": "flat glass / container glass",
+        "quantity": 200000,
+        "metric": "t"
+      },
+      {
+        "target_id": "INTL_commercial",
+        "corridor_id": "INTL_ocean_taiwan-global",
+        "resource": "glass products",
+        "quantity": 50000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_cape_flattery_silica_mines_port"
+    ],
+    "resources": [
+      "Quartz"
+    ]
+  },
+  {
+    "id": "CN_longi_green_energy",
+    "name": "LONGi Green Energy Technology – Quartz Crucible Supply",
+    "tier": "component_maker",
+    "country_iso2": "CN",
+    "canonical_company": "LONGi Green Energy",
+    "coordinates": {
+      "lat": 34.26,
+      "lon": 108.94
+    },
+    "downstream": [
+      {
+        "target_id": "CN_longi_solar_module",
+        "corridor_id": "CN_road_longi-xian-module",
+        "resource": "monocrystalline silicon ingots / wafers",
+        "quantity": 80000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_gladstone_port_silica"
+    ],
+    "resources": [
+      "Quartz"
+    ]
+  },
+  {
+    "id": "JP_tokuyama_corp",
+    "name": "Tokuyama Corporation – High-Purity Silicon",
+    "tier": "component_maker",
+    "country_iso2": "JP",
+    "canonical_company": "Tokuyama Corporation",
+    "coordinates": {
+      "lat": 34.05,
+      "lon": 131.8
+    },
+    "downstream": [
+      {
+        "target_id": "JP_industrial",
+        "corridor_id": "JP_road_tokuyama-domestic",
+        "resource": "polycrystalline silicon / fumed silica",
+        "quantity": 50000,
+        "metric": "t"
+      },
+      {
+        "target_id": "INTL_industrial",
+        "corridor_id": "INTL_ocean_tokuyama-global",
+        "resource": "high-purity silicon products",
+        "quantity": 50000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_gladstone_port_silica"
+    ],
+    "resources": [
+      "Quartz"
+    ]
+  },
+  {
+    "id": "AU_orora_glass",
+    "name": "Orora Glass – Brisbane",
+    "tier": "component_maker",
+    "country_iso2": "AU",
+    "canonical_company": "Orora Limited",
+    "coordinates": {
+      "lat": -27.47,
+      "lon": 153.03
+    },
+    "downstream": [
+      {
+        "target_id": "AU_commercial",
+        "corridor_id": "AU_road_brisbane-domestic",
+        "resource": "container glass (bottles/jars)",
+        "quantity": 150000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_sibelco_australia_pinkenba"
+    ],
+    "resources": [
+      "Quartz"
+    ]
+  },
+  {
+    "id": "AU_agl_foundry_supplies",
+    "name": "Australian Foundry Supplies (aggregate domestic)",
+    "tier": "component_maker",
+    "country_iso2": "AU",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": -33.87,
+      "lon": 151.21
+    },
+    "downstream": [
+      {
+        "target_id": "AU_industrial",
+        "corridor_id": "AU_road_foundry-domestic",
+        "resource": "foundry-grade silica sand (moulds/cores)",
+        "quantity": 100000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_sibelco_australia_pinkenba"
+    ],
+    "resources": [
+      "Quartz"
+    ]
+  },
+  {
+    "id": "AU_boral_concrete",
+    "name": "Boral Limited – Concrete & Construction Materials",
+    "tier": "component_maker",
+    "country_iso2": "AU",
+    "canonical_company": "Boral Limited",
+    "coordinates": {
+      "lat": -33.83,
+      "lon": 151.14
+    },
+    "downstream": [
+      {
+        "target_id": "AU_infrastructure",
+        "corridor_id": "AU_road_boral-domestic",
+        "resource": "concrete / construction materials (silica aggregate)",
+        "quantity": 200000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_hanson_perth_processing"
+    ],
+    "resources": [
+      "Quartz"
+    ]
+  },
+  {
+    "id": "CN_solar_panel_assemblers",
+    "name": "Chinese Solar Panel Assemblers (aggregate)",
+    "tier": "component_maker",
+    "country_iso2": "CN",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": 31.23,
+      "lon": 121.47
+    },
+    "downstream": [
+      {
+        "target_id": "INTL_industrial",
+        "corridor_id": "INTL_ocean_china-global",
+        "resource": "solar panels (glass-covered)",
+        "quantity": 400000,
+        "metric": "t"
+      },
+      {
+        "target_id": "CN_industrial",
+        "corridor_id": "CN_road_solar-domestic",
+        "resource": "solar panels (domestic deployment)",
+        "quantity": 200000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "CN_xinyi_glass"
+    ],
+    "resources": [
+      "Quartz"
+    ]
+  },
+  {
+    "id": "CN_longi_solar_module",
+    "name": "LONGi Solar Module Assembly",
+    "tier": "manufacturer",
+    "country_iso2": "CN",
+    "canonical_company": "LONGi Green Energy",
+    "coordinates": {
+      "lat": 34.26,
+      "lon": 108.94
+    },
+    "downstream": [
+      {
+        "target_id": "INTL_industrial",
+        "corridor_id": "INTL_ocean_china-global",
+        "resource": "solar modules",
+        "quantity": 50000,
+        "metric": "t"
+      },
+      {
+        "target_id": "CN_industrial",
+        "corridor_id": "CN_road_longi-domestic",
+        "resource": "solar modules (domestic)",
+        "quantity": 30000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "CN_longi_green_energy"
+    ],
+    "resources": [
+      "Quartz"
+    ]
+  },
+  {
+    "id": "AU_conveyor_cape-flattery-mine-to-port",
+    "tier": "transport",
+    "name": "Cape Flattery Mine to Wharf Conveyor",
+    "country_iso2": "AU",
+    "operator_id": "AU_cape_flattery_silica_mines",
+    "mode": "conveyor",
+    "form": "bulk_dry",
+    "range": "local",
+    "coordinates": {
+      "lat": -14.96,
+      "lon": 145.33
+    }
+  },
+  {
+    "id": "AU_inland_waterway_stradbroke-pinkenba",
+    "tier": "transport",
+    "name": "Moreton Bay Barge – Stradbroke Island to Pinkenba",
+    "country_iso2": "AU",
+    "operator_id": "AU_sibelco_australia",
+    "mode": "inland_waterway",
+    "form": "bulk_dry",
+    "range": "local",
+    "coordinates": {
+      "lat": -27.45,
+      "lon": 153.28
+    }
+  },
+  {
+    "id": "AU_road_galalar-port",
+    "tier": "transport",
+    "name": "Road Haulage – Galalar to Cooktown Port",
+    "country_iso2": "AU",
+    "operator_id": "AU_diatreme_resources",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "local",
+    "coordinates": {
+      "lat": -15.3,
+      "lon": 145.23
+    }
+  },
+  {
+    "id": "AU_road_arrowsmith-geraldton",
+    "tier": "transport",
+    "name": "Road Haulage – Arrowsmith North to Geraldton Port",
+    "country_iso2": "AU",
+    "operator_id": "AU_vresources_whitehaven",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "regional",
+    "coordinates": {
+      "lat": -29.2,
+      "lon": 114.85
+    }
+  },
+  {
+    "id": "AU_road_mt-holland-kwinana",
+    "tier": "transport",
+    "name": "Road Haulage – Mt Holland to Kwinana",
+    "country_iso2": "AU",
+    "operator_id": "AU_covalent_lithium",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "regional",
+    "coordinates": {
+      "lat": -32.15,
+      "lon": 117.75
+    }
+  },
+  {
+    "id": "AU_rail_maryborough-brisbane",
+    "tier": "transport",
+    "name": "Rail – Maryborough to Brisbane (Pinkenba)",
+    "country_iso2": "AU",
+    "operator_id": "AU_aurizon",
+    "mode": "rail",
+    "form": "bulk_dry",
+    "range": "regional",
+    "coordinates": {
+      "lat": -26.5,
+      "lon": 152.9
+    }
+  },
+  {
+    "id": "INTL_ocean_cape-flattery-japan",
+    "tier": "transport",
+    "name": "Ocean Freight – Cape Flattery to Japan",
+    "country_iso2": "INTL",
+    "operator_id": "INTL_bulk_carriers",
+    "mode": "ocean_freight",
+    "form": "bulk_dry",
+    "range": "international",
+    "coordinates": {
+      "lat": -5,
+      "lon": 150
+    }
+  },
+  {
+    "id": "INTL_ocean_cape-flattery-china",
+    "tier": "transport",
+    "name": "Ocean Freight – Cape Flattery to China",
+    "country_iso2": "INTL",
+    "operator_id": "INTL_bulk_carriers",
+    "mode": "ocean_freight",
+    "form": "bulk_dry",
+    "range": "international",
+    "coordinates": {
+      "lat": 0,
+      "lon": 140
+    }
+  },
+  {
+    "id": "INTL_ocean_cape-flattery-korea",
+    "tier": "transport",
+    "name": "Ocean Freight – Cape Flattery to South Korea",
+    "country_iso2": "INTL",
+    "operator_id": "INTL_bulk_carriers",
+    "mode": "ocean_freight",
+    "form": "bulk_dry",
+    "range": "international",
+    "coordinates": {
+      "lat": 5,
+      "lon": 145
+    }
+  },
+  {
+    "id": "INTL_ocean_cape-flattery-taiwan",
+    "tier": "transport",
+    "name": "Ocean Freight – Cape Flattery to Taiwan",
+    "country_iso2": "INTL",
+    "operator_id": "INTL_bulk_carriers",
+    "mode": "ocean_freight",
+    "form": "bulk_dry",
+    "range": "international",
+    "coordinates": {
+      "lat": 2,
+      "lon": 143
+    }
+  },
+  {
+    "id": "AU_ocean_cape-flattery-sydney",
+    "tier": "transport",
+    "name": "Coastal Freight – Cape Flattery to Sydney",
+    "country_iso2": "AU",
+    "operator_id": "AU_coastal_shipping",
+    "mode": "ocean_freight",
+    "form": "bulk_dry",
+    "range": "regional",
+    "coordinates": {
+      "lat": -24,
+      "lon": 153
+    }
+  },
+  {
+    "id": "AU_road_pinkenba-sydney",
+    "tier": "transport",
+    "name": "Road/Rail – Pinkenba to Sydney",
+    "country_iso2": "AU",
+    "operator_id": "AU_aurizon",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "regional",
+    "coordinates": {
+      "lat": -30.5,
+      "lon": 152
+    }
+  },
+  {
+    "id": "AU_road_pinkenba-brisbane-local",
+    "tier": "transport",
+    "name": "Road – Pinkenba to Brisbane Metro",
+    "country_iso2": "AU",
+    "operator_id": "AU_sibelco_australia",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "local",
+    "coordinates": {
+      "lat": -27.44,
+      "lon": 153.1
+    }
+  },
+  {
+    "id": "AU_rail_pinkenba-adelaide",
+    "tier": "transport",
+    "name": "Rail – Pinkenba to Adelaide",
+    "country_iso2": "AU",
+    "operator_id": "AU_aurizon",
+    "mode": "rail",
+    "form": "bulk_dry",
+    "range": "regional",
+    "coordinates": {
+      "lat": -30,
+      "lon": 145
+    }
+  },
+  {
+    "id": "INTL_ocean_brisbane-china",
+    "tier": "transport",
+    "name": "Ocean Freight – Brisbane to China",
+    "country_iso2": "INTL",
+    "operator_id": "INTL_bulk_carriers",
+    "mode": "ocean_freight",
+    "form": "bulk_dry",
+    "range": "international",
+    "coordinates": {
+      "lat": -5,
+      "lon": 140
+    },
+    "resources": [
+      "Pulpwood"
+    ],
+    "upstream": [],
+    "downstream": []
+  },
+  {
+    "id": "AU_road_pinkenba-port-brisbane",
+    "tier": "transport",
+    "name": "Road – Pinkenba to Port of Brisbane Export Berth",
+    "country_iso2": "AU",
+    "operator_id": "AU_sibelco_australia",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "local",
+    "coordinates": {
+      "lat": -27.39,
+      "lon": 153.15
+    }
+  },
+  {
+    "id": "INTL_ocean_brisbane-india",
+    "tier": "transport",
+    "name": "Ocean Freight – Brisbane to India",
+    "country_iso2": "INTL",
+    "operator_id": "INTL_bulk_carriers",
+    "mode": "ocean_freight",
+    "form": "bulk_dry",
+    "range": "international",
+    "coordinates": {
+      "lat": -15,
+      "lon": 100
+    }
+  },
+  {
+    "id": "INTL_ocean_gladstone-china",
+    "tier": "transport",
+    "name": "Ocean Freight – Gladstone to China",
+    "country_iso2": "INTL",
+    "operator_id": "INTL_bulk_carriers",
+    "mode": "ocean_freight",
+    "form": "bulk_dry",
+    "range": "international",
+    "coordinates": {
+      "lat": -5,
+      "lon": 142
+    }
+  },
+  {
+    "id": "INTL_ocean_gladstone-japan",
+    "tier": "transport",
+    "name": "Ocean Freight – Gladstone to Japan",
+    "country_iso2": "INTL",
+    "operator_id": "INTL_bulk_carriers",
+    "mode": "ocean_freight",
+    "form": "bulk_dry",
+    "range": "international",
+    "coordinates": {
+      "lat": -2,
+      "lon": 147
+    }
+  },
+  {
+    "id": "AU_road_gladstone-domestic",
+    "tier": "transport",
+    "name": "Road – Gladstone to QLD Domestic Users",
+    "country_iso2": "AU",
+    "operator_id": "AU_local_haulage",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "regional",
+    "coordinates": {
+      "lat": -23.85,
+      "lon": 151.28
+    },
+    "resources": [
+      "Mineral-Bearing Land"
+    ],
+    "upstream": [],
+    "downstream": []
+  },
+  {
+    "id": "INTL_ocean_cooktown-china",
+    "tier": "transport",
+    "name": "Ocean Freight – Cooktown Region to China",
+    "country_iso2": "INTL",
+    "operator_id": "INTL_bulk_carriers",
+    "mode": "ocean_freight",
+    "form": "bulk_dry",
+    "range": "international",
+    "coordinates": {
+      "lat": -3,
+      "lon": 145
+    }
+  },
+  {
+    "id": "INTL_ocean_cooktown-japan",
+    "tier": "transport",
+    "name": "Ocean Freight – Cooktown Region to Japan",
+    "country_iso2": "INTL",
+    "operator_id": "INTL_bulk_carriers",
+    "mode": "ocean_freight",
+    "form": "bulk_dry",
+    "range": "international",
+    "coordinates": {
+      "lat": -2,
+      "lon": 148
+    }
+  },
+  {
+    "id": "INTL_ocean_geraldton-china",
+    "tier": "transport",
+    "name": "Ocean Freight – Geraldton to China",
+    "country_iso2": "INTL",
+    "operator_id": "INTL_bulk_carriers",
+    "mode": "ocean_freight",
+    "form": "bulk_dry",
+    "range": "international",
+    "coordinates": {
+      "lat": -10,
+      "lon": 115
+    }
+  },
+  {
+    "id": "INTL_ocean_geraldton-korea",
+    "tier": "transport",
+    "name": "Ocean Freight – Geraldton to South Korea",
+    "country_iso2": "INTL",
+    "operator_id": "INTL_bulk_carriers",
+    "mode": "ocean_freight",
+    "form": "bulk_dry",
+    "range": "international",
+    "coordinates": {
+      "lat": -5,
+      "lon": 120
+    }
+  },
+  {
+    "id": "AU_road_geraldton-perth",
+    "tier": "transport",
+    "name": "Road – Geraldton to Perth (Domestic)",
+    "country_iso2": "AU",
+    "operator_id": "AU_local_haulage",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "regional",
+    "coordinates": {
+      "lat": -30.5,
+      "lon": 115
+    }
+  },
+  {
+    "id": "AU_road_kwinana-fremantle",
+    "tier": "transport",
+    "name": "Road – Kwinana to Fremantle Port",
+    "country_iso2": "AU",
+    "operator_id": "AU_local_haulage",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "local",
+    "coordinates": {
+      "lat": -32.1,
+      "lon": 115.76
+    }
+  },
+  {
+    "id": "INTL_ocean_fremantle-china",
+    "tier": "transport",
+    "name": "Ocean Freight – Fremantle to China",
+    "country_iso2": "INTL",
+    "operator_id": "INTL_bulk_carriers",
+    "mode": "ocean_freight",
+    "form": "bulk_dry",
+    "range": "international",
+    "coordinates": {
+      "lat": -15,
+      "lon": 110
+    }
+  },
+  {
+    "id": "AU_road_perth-wa-sites",
+    "tier": "transport",
+    "name": "Road – Perth to WA Construction Sites",
+    "country_iso2": "AU",
+    "operator_id": "AU_local_haulage",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "regional",
+    "coordinates": {
+      "lat": -31.8,
+      "lon": 115.9
+    }
+  },
+  {
+    "id": "JP_road_agc-toyota-city",
+    "tier": "transport",
+    "name": "Road – AGC Plants to Toyota City",
+    "country_iso2": "JP",
+    "operator_id": "JP_agc_logistics",
+    "mode": "road",
+    "form": "unit_load",
+    "range": "regional",
+    "coordinates": {
+      "lat": 35.1,
+      "lon": 137.1
+    }
+  },
+  {
+    "id": "JP_road_agc-domestic",
+    "tier": "transport",
+    "name": "Road – AGC Domestic Distribution",
+    "country_iso2": "JP",
+    "operator_id": "JP_agc_logistics",
+    "mode": "road",
+    "form": "unit_load",
+    "range": "regional",
+    "coordinates": {
+      "lat": 35.68,
+      "lon": 139.69
+    }
+  },
+  {
+    "id": "INTL_ocean_japan-global",
+    "tier": "transport",
+    "name": "Ocean Freight – Japan to Global Markets",
+    "country_iso2": "INTL",
+    "operator_id": "INTL_nyk_line",
+    "mode": "ocean_freight",
+    "form": "containerised",
+    "range": "international",
+    "coordinates": {
+      "lat": 34.6,
+      "lon": 140
+    }
+  },
+  {
+    "id": "CN_road_xinyi-solar-assembly",
+    "tier": "transport",
+    "name": "Road – Xinyi Glass to Solar Assembly Plants",
+    "country_iso2": "CN",
+    "operator_id": "CN_xinyi_glass",
+    "mode": "road",
+    "form": "unit_load",
+    "range": "regional",
+    "coordinates": {
+      "lat": 23,
+      "lon": 114.5
+    }
+  },
+  {
+    "id": "CN_road_xinyi-domestic",
+    "tier": "transport",
+    "name": "Road – Xinyi Glass Domestic Distribution",
+    "country_iso2": "CN",
+    "operator_id": "CN_xinyi_glass",
+    "mode": "road",
+    "form": "unit_load",
+    "range": "regional",
+    "coordinates": {
+      "lat": 23,
+      "lon": 113.5
+    }
+  },
+  {
+    "id": "INTL_ocean_china-global",
+    "tier": "transport",
+    "name": "Ocean Freight – China to Global Markets",
+    "country_iso2": "INTL",
+    "operator_id": "INTL_cosco",
+    "mode": "ocean_freight",
+    "form": "containerised",
+    "range": "international",
+    "coordinates": {
+      "lat": 25,
+      "lon": 122
+    }
+  },
+  {
+    "id": "KR_road_hankuk-domestic",
+    "tier": "transport",
+    "name": "Road – Hankuk Glass Domestic Distribution",
+    "country_iso2": "KR",
+    "operator_id": "KR_hankuk_glass",
+    "mode": "road",
+    "form": "unit_load",
+    "range": "regional",
+    "coordinates": {
+      "lat": 37,
+      "lon": 127
+    }
+  },
+  {
+    "id": "INTL_ocean_korea-global",
+    "tier": "transport",
+    "name": "Ocean Freight – South Korea to Global",
+    "country_iso2": "INTL",
+    "operator_id": "INTL_hmm",
+    "mode": "ocean_freight",
+    "form": "containerised",
+    "range": "international",
+    "coordinates": {
+      "lat": 35,
+      "lon": 130
+    }
+  },
+  {
+    "id": "TW_road_taiwan-glass-domestic",
+    "tier": "transport",
+    "name": "Road – Taiwan Glass Domestic Distribution",
+    "country_iso2": "TW",
+    "operator_id": "TW_taiwan_glass",
+    "mode": "road",
+    "form": "unit_load",
+    "range": "regional",
+    "coordinates": {
+      "lat": 25,
+      "lon": 121.5
+    }
+  },
+  {
+    "id": "INTL_ocean_taiwan-global",
+    "tier": "transport",
+    "name": "Ocean Freight – Taiwan to Global",
+    "country_iso2": "INTL",
+    "operator_id": "INTL_evergreen",
+    "mode": "ocean_freight",
+    "form": "containerised",
+    "range": "international",
+    "coordinates": {
+      "lat": 24,
+      "lon": 121
+    }
+  },
+  {
+    "id": "CN_road_longi-xian-module",
+    "tier": "transport",
+    "name": "Road – LONGi Xi'an Ingot to Module Assembly",
+    "country_iso2": "CN",
+    "operator_id": "CN_longi_green_energy",
+    "mode": "road",
+    "form": "unit_load",
+    "range": "local",
+    "coordinates": {
+      "lat": 34.26,
+      "lon": 108.94
+    }
+  },
+  {
+    "id": "JP_road_tokuyama-domestic",
+    "tier": "transport",
+    "name": "Road – Tokuyama Domestic Distribution",
+    "country_iso2": "JP",
+    "operator_id": "JP_tokuyama_corp",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "regional",
+    "coordinates": {
+      "lat": 34.05,
+      "lon": 131.8
+    }
+  },
+  {
+    "id": "INTL_ocean_tokuyama-global",
+    "tier": "transport",
+    "name": "Ocean Freight – Tokuyama to Global",
+    "country_iso2": "INTL",
+    "operator_id": "INTL_nyk_line",
+    "mode": "ocean_freight",
+    "form": "containerised",
+    "range": "international",
+    "coordinates": {
+      "lat": 33,
+      "lon": 132
+    }
+  },
+  {
+    "id": "AU_road_adelaide-domestic",
+    "tier": "transport",
+    "name": "Road – Adelaide Cement Distribution",
+    "country_iso2": "AU",
+    "operator_id": "AU_adbri_limited",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "regional",
+    "coordinates": {
+      "lat": -34.92,
+      "lon": 138.6
+    }
+  },
+  {
+    "id": "AU_road_foundry-domestic",
+    "tier": "transport",
+    "name": "Road – Australian Foundry Sand Distribution",
+    "country_iso2": "AU",
+    "operator_id": "AU_local_haulage",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "regional",
+    "coordinates": {
+      "lat": -33.87,
+      "lon": 151.21
+    }
+  },
+  {
+    "id": "AU_road_boral-domestic",
+    "tier": "transport",
+    "name": "Road – Boral Concrete Distribution",
+    "country_iso2": "AU",
+    "operator_id": "AU_boral_limited",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "regional",
+    "coordinates": {
+      "lat": -33.83,
+      "lon": 151.14
+    }
+  },
+  {
+    "id": "CN_road_solar-domestic",
+    "tier": "transport",
+    "name": "Road – Chinese Solar Panel Domestic Distribution",
+    "country_iso2": "CN",
+    "operator_id": "CN_local_logistics",
+    "mode": "road",
+    "form": "unit_load",
+    "range": "regional",
+    "coordinates": {
+      "lat": 31.23,
+      "lon": 121.47
+    }
+  },
+  {
+    "id": "CN_road_longi-domestic",
+    "tier": "transport",
+    "name": "Road – LONGi Module Domestic Distribution",
+    "country_iso2": "CN",
+    "operator_id": "CN_longi_green_energy",
+    "mode": "road",
+    "form": "unit_load",
+    "range": "regional",
+    "coordinates": {
+      "lat": 34.26,
+      "lon": 108.94
+    }
+  }
+]

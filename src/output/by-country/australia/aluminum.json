@@ -1,0 +1,1588 @@
+[
+  {
+    "id": "AU_rio_tinto_weipa",
+    "name": "Weipa Bauxite Mine (Rio Tinto / RTA)",
+    "tier": "extraction",
+    "country_iso2": "AU",
+    "canonical_company": "Rio Tinto",
+    "coordinates": {
+      "lat": -12.65,
+      "lon": 141.87
+    },
+    "downstream": [
+      {
+        "target_id": "AU_rio_tinto_yarwun_refinery",
+        "corridor_id": "AU_ocean_weipa-gladstone",
+        "resource": "bauxite ore",
+        "quantity": 10000000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_rio_tinto_qar_refinery",
+        "corridor_id": "AU_ocean_weipa-gladstone",
+        "resource": "bauxite ore",
+        "quantity": 8500000,
+        "metric": "t"
+      },
+      {
+        "target_id": "INTL_bauxite_export_weipa",
+        "corridor_id": "INTL_ocean_weipa-shandong",
+        "resource": "bauxite ore",
+        "quantity": 16000000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_rio_tinto_weipa_management",
+        "corridor_id": "AU_conveyor_weipa-port",
+        "resource": "bauxite ore",
+        "quantity": 35000000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Aluminum",
+      "Mineral-Bearing Land"
+    ]
+  },
+  {
+    "id": "AU_south32_worsley_mine",
+    "name": "Worsley Bauxite Mine (South32)",
+    "tier": "extraction",
+    "country_iso2": "AU",
+    "canonical_company": "South32",
+    "coordinates": {
+      "lat": -32.92,
+      "lon": 116.35
+    },
+    "downstream": [
+      {
+        "target_id": "AU_south32_worsley_refinery",
+        "corridor_id": "AU_conveyor_worsley-refinery",
+        "resource": "bauxite ore",
+        "quantity": 15500000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Aluminum"
+    ]
+  },
+  {
+    "id": "AU_alcoa_huntly_mine",
+    "name": "Huntly Bauxite Mine (Alcoa)",
+    "tier": "extraction",
+    "country_iso2": "AU",
+    "canonical_company": "Alcoa",
+    "coordinates": {
+      "lat": -32.6,
+      "lon": 116.07
+    },
+    "downstream": [
+      {
+        "target_id": "AU_alcoa_pinjarra_refinery",
+        "corridor_id": "AU_conveyor_huntly-pinjarra",
+        "resource": "bauxite ore",
+        "quantity": 15000000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Aluminum"
+    ]
+  },
+  {
+    "id": "AU_alcoa_willowdale_mine",
+    "name": "Willowdale Bauxite Mine (Alcoa)",
+    "tier": "extraction",
+    "country_iso2": "AU",
+    "canonical_company": "Alcoa",
+    "coordinates": {
+      "lat": -32.67,
+      "lon": 116.1
+    },
+    "downstream": [
+      {
+        "target_id": "AU_alcoa_wagerup_refinery",
+        "corridor_id": "AU_conveyor_willowdale-wagerup",
+        "resource": "bauxite ore",
+        "quantity": 10000000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Aluminum"
+    ]
+  },
+  {
+    "id": "AU_rio_tinto_gove_mine",
+    "name": "Gove Bauxite Mine (Rio Tinto)",
+    "tier": "extraction",
+    "country_iso2": "AU",
+    "canonical_company": "Rio Tinto",
+    "coordinates": {
+      "lat": -12.27,
+      "lon": 136.82
+    },
+    "downstream": [
+      {
+        "target_id": "INTL_bauxite_export_gove",
+        "corridor_id": "INTL_ocean_gove-shandong",
+        "resource": "bauxite ore",
+        "quantity": 12000000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Aluminum"
+    ]
+  },
+  {
+    "id": "AU_metro_mining_bauxite_hills",
+    "name": "Bauxite Hills Mine (Metro Mining)",
+    "tier": "extraction",
+    "country_iso2": "AU",
+    "canonical_company": "Metro Mining",
+    "coordinates": {
+      "lat": -12.7,
+      "lon": 141.63
+    },
+    "downstream": [
+      {
+        "target_id": "INTL_bauxite_export_bauxite_hills",
+        "corridor_id": "INTL_ocean_bauxite_hills-china",
+        "resource": "bauxite ore",
+        "quantity": 3500000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Aluminum"
+    ]
+  },
+  {
+    "id": "AU_rio_tinto_yarwun_refinery",
+    "name": "Yarwun Alumina Refinery (Rio Tinto)",
+    "tier": "extraction",
+    "country_iso2": "AU",
+    "canonical_company": "Rio Tinto",
+    "coordinates": {
+      "lat": -23.86,
+      "lon": 151.3
+    },
+    "downstream": [
+      {
+        "target_id": "AU_rio_tinto_boyne_smelter",
+        "corridor_id": "AU_road_gladstone-boyne",
+        "resource": "alumina (smelter-grade)",
+        "quantity": 1200000,
+        "metric": "t"
+      },
+      {
+        "target_id": "INTL_alumina_export_gladstone",
+        "corridor_id": "INTL_ocean_gladstone-middle_east",
+        "resource": "alumina (smelter-grade)",
+        "quantity": 2200000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_rio_tinto_boyne_smelter",
+        "corridor_id": "AU_road_yarwun-boyne",
+        "resource": "smelter-grade alumina",
+        "quantity": 3400000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_rio_tinto_weipa",
+      "AU_rio_tinto_weipa_management"
+    ],
+    "resources": [
+      "Aluminum",
+      "Mineral-Bearing Land"
+    ]
+  },
+  {
+    "id": "AU_rio_tinto_qar_refinery",
+    "name": "QAL Refinery (Rio Tinto / QAL JV)",
+    "tier": "extraction",
+    "country_iso2": "AU",
+    "canonical_company": "Rio Tinto",
+    "coordinates": {
+      "lat": -23.84,
+      "lon": 151.28
+    },
+    "downstream": [
+      {
+        "target_id": "AU_rio_tinto_boyne_smelter",
+        "corridor_id": "AU_road_gladstone-boyne",
+        "resource": "alumina (smelter-grade)",
+        "quantity": 800000,
+        "metric": "t"
+      },
+      {
+        "target_id": "INTL_alumina_export_gladstone_qal",
+        "corridor_id": "INTL_ocean_gladstone-middle_east",
+        "resource": "alumina (smelter-grade)",
+        "quantity": 2900000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_rio_tinto_weipa"
+    ],
+    "resources": [
+      "Aluminum"
+    ]
+  },
+  {
+    "id": "AU_south32_worsley_refinery",
+    "name": "Worsley Alumina Refinery (South32)",
+    "tier": "extraction",
+    "country_iso2": "AU",
+    "canonical_company": "South32",
+    "coordinates": {
+      "lat": -33.24,
+      "lon": 116.05
+    },
+    "downstream": [
+      {
+        "target_id": "AU_alcoa_portland_smelter",
+        "corridor_id": "INTL_ocean_bunbury-portland",
+        "resource": "alumina (smelter-grade)",
+        "quantity": 500000,
+        "metric": "t"
+      },
+      {
+        "target_id": "INTL_alumina_export_bunbury",
+        "corridor_id": "INTL_ocean_bunbury-asia",
+        "resource": "alumina (smelter-grade)",
+        "quantity": 3700000,
+        "metric": "t"
+      },
+      {
+        "target_id": "INTL_aluminium_smelters",
+        "corridor_id": "INTL_ocean_bunbury-intl",
+        "resource": "smelter-grade alumina",
+        "quantity": 4600000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_south32_worsley_mine",
+      "AU_south32_worsley_management"
+    ],
+    "resources": [
+      "Aluminum",
+      "Mineral-Bearing Land"
+    ]
+  },
+  {
+    "id": "AU_alcoa_pinjarra_refinery",
+    "name": "Pinjarra Alumina Refinery (Alcoa)",
+    "tier": "extraction",
+    "country_iso2": "AU",
+    "canonical_company": "Alcoa",
+    "coordinates": {
+      "lat": -32.63,
+      "lon": 115.87
+    },
+    "downstream": [
+      {
+        "target_id": "AU_alcoa_portland_smelter",
+        "corridor_id": "INTL_ocean_kwinana-portland",
+        "resource": "alumina (smelter-grade)",
+        "quantity": 600000,
+        "metric": "t"
+      },
+      {
+        "target_id": "INTL_alumina_export_kwinana_pinjarra",
+        "corridor_id": "INTL_ocean_kwinana-asia",
+        "resource": "alumina (smelter-grade)",
+        "quantity": 4000000,
+        "metric": "t"
+      },
+      {
+        "target_id": "INTL_aluminium_smelters",
+        "corridor_id": "INTL_ocean_fremantle-intl",
+        "resource": "smelter-grade alumina",
+        "quantity": 4200000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_alcoa_huntly_mine",
+      "AU_alcoa_wa_management"
+    ],
+    "resources": [
+      "Aluminum",
+      "Mineral-Bearing Land"
+    ]
+  },
+  {
+    "id": "AU_alcoa_wagerup_refinery",
+    "name": "Wagerup Alumina Refinery (Alcoa)",
+    "tier": "extraction",
+    "country_iso2": "AU",
+    "canonical_company": "Alcoa",
+    "coordinates": {
+      "lat": -32.93,
+      "lon": 115.92
+    },
+    "downstream": [
+      {
+        "target_id": "AU_alcoa_portland_smelter",
+        "corridor_id": "INTL_ocean_kwinana-portland",
+        "resource": "alumina (smelter-grade)",
+        "quantity": 400000,
+        "metric": "t"
+      },
+      {
+        "target_id": "INTL_alumina_export_kwinana_wagerup",
+        "corridor_id": "INTL_ocean_kwinana-asia",
+        "resource": "alumina (smelter-grade)",
+        "quantity": 2200000,
+        "metric": "t"
+      },
+      {
+        "target_id": "INTL_aluminium_smelters",
+        "corridor_id": "INTL_ocean_fremantle-intl",
+        "resource": "smelter-grade alumina",
+        "quantity": 2800000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_alcoa_willowdale_mine",
+      "AU_alcoa_wa_management"
+    ],
+    "resources": [
+      "Aluminum",
+      "Mineral-Bearing Land"
+    ]
+  },
+  {
+    "id": "INTL_bauxite_export_weipa",
+    "name": "Chinese Alumina Refineries (Weipa bauxite receivers)",
+    "tier": "extraction",
+    "country_iso2": "CN",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": 36.8,
+      "lon": 118.5
+    },
+    "downstream": [
+      {
+        "target_id": "CN_smelters_shandong",
+        "corridor_id": "CN_rail_shandong-inland",
+        "resource": "alumina (smelter-grade)",
+        "quantity": 3500000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_rio_tinto_weipa"
+    ],
+    "resources": [
+      "Aluminum"
+    ]
+  },
+  {
+    "id": "INTL_bauxite_export_gove",
+    "name": "Chinese Alumina Refineries (Gove bauxite receivers)",
+    "tier": "extraction",
+    "country_iso2": "CN",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": 36.8,
+      "lon": 118.5
+    },
+    "downstream": [
+      {
+        "target_id": "CN_smelters_shandong",
+        "corridor_id": "CN_rail_shandong-inland",
+        "resource": "alumina (smelter-grade)",
+        "quantity": 2600000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_rio_tinto_gove_mine"
+    ],
+    "resources": [
+      "Aluminum"
+    ]
+  },
+  {
+    "id": "INTL_bauxite_export_bauxite_hills",
+    "name": "Chinese Alumina Refineries (Bauxite Hills receivers)",
+    "tier": "extraction",
+    "country_iso2": "CN",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": 36.8,
+      "lon": 118.5
+    },
+    "downstream": [
+      {
+        "target_id": "CN_smelters_shandong",
+        "corridor_id": "CN_rail_shandong-inland",
+        "resource": "alumina (smelter-grade)",
+        "quantity": 750000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_metro_mining_bauxite_hills"
+    ],
+    "resources": [
+      "Aluminum"
+    ]
+  },
+  {
+    "id": "INTL_alumina_export_gladstone",
+    "name": "Middle East / Asian Smelters (Yarwun alumina receivers)",
+    "tier": "extraction",
+    "country_iso2": "INTL",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": 24.45,
+      "lon": 54.65
+    },
+    "downstream": [
+      {
+        "target_id": "INTL_semi_fabricators_mideast",
+        "corridor_id": "AE_road_emal-jebel_ali",
+        "resource": "primary aluminum ingot",
+        "quantity": 420000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_rio_tinto_yarwun_refinery"
+    ],
+    "resources": [
+      "Aluminum"
+    ]
+  },
+  {
+    "id": "INTL_alumina_export_gladstone_qal",
+    "name": "International Smelters (QAL alumina receivers)",
+    "tier": "extraction",
+    "country_iso2": "INTL",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": 24.45,
+      "lon": 54.65
+    },
+    "downstream": [
+      {
+        "target_id": "INTL_semi_fabricators_mideast",
+        "corridor_id": "AE_road_emal-jebel_ali",
+        "resource": "primary aluminum ingot",
+        "quantity": 560000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_rio_tinto_qar_refinery"
+    ],
+    "resources": [
+      "Aluminum"
+    ]
+  },
+  {
+    "id": "INTL_alumina_export_bunbury",
+    "name": "International Smelters (Worsley alumina receivers)",
+    "tier": "extraction",
+    "country_iso2": "INTL",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": 24.45,
+      "lon": 54.65
+    },
+    "downstream": [
+      {
+        "target_id": "INTL_semi_fabricators_mideast",
+        "corridor_id": "AE_road_emal-jebel_ali",
+        "resource": "primary aluminum ingot",
+        "quantity": 700000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_south32_worsley_refinery"
+    ],
+    "resources": [
+      "Aluminum"
+    ]
+  },
+  {
+    "id": "INTL_alumina_export_kwinana_pinjarra",
+    "name": "International Smelters (Pinjarra alumina receivers)",
+    "tier": "extraction",
+    "country_iso2": "INTL",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": 24.45,
+      "lon": 54.65
+    },
+    "downstream": [
+      {
+        "target_id": "INTL_semi_fabricators_mideast",
+        "corridor_id": "AE_road_emal-jebel_ali",
+        "resource": "primary aluminum ingot",
+        "quantity": 760000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_alcoa_pinjarra_refinery"
+    ],
+    "resources": [
+      "Aluminum"
+    ]
+  },
+  {
+    "id": "INTL_alumina_export_kwinana_wagerup",
+    "name": "International Smelters (Wagerup alumina receivers)",
+    "tier": "extraction",
+    "country_iso2": "INTL",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": 24.45,
+      "lon": 54.65
+    },
+    "downstream": [
+      {
+        "target_id": "INTL_semi_fabricators_mideast",
+        "corridor_id": "AE_road_emal-jebel_ali",
+        "resource": "primary aluminum ingot",
+        "quantity": 420000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_alcoa_wagerup_refinery"
+    ],
+    "resources": [
+      "Aluminum"
+    ]
+  },
+  {
+    "id": "AU_rio_tinto_boyne_smelter",
+    "name": "Boyne Smelters Ltd (Rio Tinto JV)",
+    "tier": "smelter",
+    "country_iso2": "AU",
+    "canonical_company": "Rio Tinto",
+    "coordinates": {
+      "lat": -24.01,
+      "lon": 151.35
+    },
+    "downstream": [
+      {
+        "target_id": "AU_capral_aluminium",
+        "corridor_id": "AU_road_gladstone-sydney",
+        "resource": "primary aluminum ingot / billet",
+        "quantity": 200000,
+        "metric": "t"
+      },
+      {
+        "target_id": "INTL_semi_fabricators_asia",
+        "corridor_id": "INTL_ocean_gladstone-busan",
+        "resource": "primary aluminum ingot",
+        "quantity": 350000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_industrial",
+        "corridor_id": "AU_road_gladstone-domestic",
+        "resource": "primary aluminium ingot",
+        "quantity": 500000,
+        "metric": "t"
+      },
+      {
+        "target_id": "INTL_industrial",
+        "corridor_id": "INTL_ocean_gladstone-intl",
+        "resource": "primary aluminium",
+        "quantity": 50000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_rio_tinto_yarwun_refinery",
+      "AU_rio_tinto_qar_refinery"
+    ],
+    "resources": [
+      "Aluminum",
+      "Mineral-Bearing Land"
+    ]
+  },
+  {
+    "id": "AU_alcoa_portland_smelter",
+    "name": "Portland Aluminium Smelter (Alcoa JV)",
+    "tier": "smelter",
+    "country_iso2": "AU",
+    "canonical_company": "Alcoa",
+    "coordinates": {
+      "lat": -38.37,
+      "lon": 141.58
+    },
+    "downstream": [
+      {
+        "target_id": "AU_capral_aluminium",
+        "corridor_id": "AU_road_portland-melbourne",
+        "resource": "primary aluminum ingot / billet",
+        "quantity": 100000,
+        "metric": "t"
+      },
+      {
+        "target_id": "INTL_semi_fabricators_asia",
+        "corridor_id": "INTL_ocean_portland-busan",
+        "resource": "primary aluminum ingot",
+        "quantity": 250000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_south32_worsley_refinery",
+      "AU_alcoa_pinjarra_refinery",
+      "AU_alcoa_wagerup_refinery"
+    ],
+    "resources": [
+      "Aluminum"
+    ]
+  },
+  {
+    "id": "AU_rio_tinto_bell_bay_smelter",
+    "name": "Bell Bay Aluminium Smelter (Rio Tinto)",
+    "tier": "smelter",
+    "country_iso2": "AU",
+    "canonical_company": "Rio Tinto",
+    "coordinates": {
+      "lat": -41.11,
+      "lon": 146.85
+    },
+    "downstream": [
+      {
+        "target_id": "AU_capral_aluminium",
+        "corridor_id": "AU_ocean_bell_bay-sydney",
+        "resource": "primary aluminum ingot / billet",
+        "quantity": 80000,
+        "metric": "t"
+      },
+      {
+        "target_id": "INTL_semi_fabricators_asia",
+        "corridor_id": "INTL_ocean_bell_bay-japan",
+        "resource": "primary aluminum ingot",
+        "quantity": 110000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Aluminum"
+    ]
+  },
+  {
+    "id": "AU_tomago_aluminium_smelter",
+    "name": "Tomago Aluminium Smelter (Rio Tinto / Glencore JV)",
+    "tier": "smelter",
+    "country_iso2": "AU",
+    "canonical_company": "Tomago Aluminium",
+    "coordinates": {
+      "lat": -32.84,
+      "lon": 151.7
+    },
+    "downstream": [
+      {
+        "target_id": "AU_capral_aluminium",
+        "corridor_id": "AU_road_tomago-sydney",
+        "resource": "primary aluminum ingot / billet",
+        "quantity": 220000,
+        "metric": "t"
+      },
+      {
+        "target_id": "INTL_semi_fabricators_asia",
+        "corridor_id": "INTL_ocean_newcastle-japan",
+        "resource": "primary aluminum ingot",
+        "quantity": 310000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Aluminum"
+    ]
+  },
+  {
+    "id": "CN_smelters_shandong",
+    "name": "Shandong Province Aluminum Smelters (Aggregate)",
+    "tier": "smelter",
+    "country_iso2": "CN",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": 36.67,
+      "lon": 116.99
+    },
+    "downstream": [
+      {
+        "target_id": "CN_semi_fabricators_shandong",
+        "corridor_id": "CN_road_shandong-local",
+        "resource": "primary aluminum ingot",
+        "quantity": 6850000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "INTL_bauxite_export_weipa",
+      "INTL_bauxite_export_gove",
+      "INTL_bauxite_export_bauxite_hills"
+    ],
+    "resources": [
+      "Aluminum"
+    ]
+  },
+  {
+    "id": "INTL_semi_fabricators_mideast",
+    "name": "Middle East Semi-Fabricators (EGA / downstream)",
+    "tier": "semi_fabricator",
+    "country_iso2": "AE",
+    "canonical_company": "Emirates Global Aluminium",
+    "coordinates": {
+      "lat": 24.88,
+      "lon": 55.12
+    },
+    "downstream": [
+      {
+        "target_id": "INTL_manufacturers_mideast",
+        "corridor_id": "AE_road_jebel_ali-dubai",
+        "resource": "aluminum sheet / extrusion",
+        "quantity": 1800000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "INTL_alumina_export_gladstone",
+      "INTL_alumina_export_gladstone_qal",
+      "INTL_alumina_export_bunbury",
+      "INTL_alumina_export_kwinana_pinjarra",
+      "INTL_alumina_export_kwinana_wagerup"
+    ],
+    "resources": [
+      "Aluminum"
+    ]
+  },
+  {
+    "id": "INTL_semi_fabricators_asia",
+    "name": "Asian Semi-Fabricators (Japan / South Korea)",
+    "tier": "semi_fabricator",
+    "country_iso2": "JP",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": 34.69,
+      "lon": 135.5
+    },
+    "downstream": [
+      {
+        "target_id": "JP_manufacturers_general",
+        "corridor_id": "JP_road_osaka-nagoya",
+        "resource": "aluminum sheet / plate / extrusion",
+        "quantity": 700000,
+        "metric": "t"
+      },
+      {
+        "target_id": "KR_manufacturers_general",
+        "corridor_id": "KR_road_busan-ulsan",
+        "resource": "aluminum sheet / plate / extrusion",
+        "quantity": 320000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_rio_tinto_boyne_smelter",
+      "AU_alcoa_portland_smelter",
+      "AU_rio_tinto_bell_bay_smelter",
+      "AU_tomago_aluminium_smelter"
+    ],
+    "resources": [
+      "Aluminum"
+    ]
+  },
+  {
+    "id": "AU_capral_aluminium",
+    "name": "Capral Aluminium (major AU semi-fabricator)",
+    "tier": "semi_fabricator",
+    "country_iso2": "AU",
+    "canonical_company": "Capral Aluminium",
+    "coordinates": {
+      "lat": -33.84,
+      "lon": 151.06
+    },
+    "downstream": [
+      {
+        "target_id": "AU_manufacturer_building_products",
+        "corridor_id": "AU_road_sydney-national",
+        "resource": "aluminum extrusions / profiles",
+        "quantity": 400000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_manufacturer_transport",
+        "corridor_id": "AU_road_sydney-melbourne",
+        "resource": "aluminum extrusions / sheet",
+        "quantity": 200000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_rio_tinto_boyne_smelter",
+      "AU_alcoa_portland_smelter",
+      "AU_rio_tinto_bell_bay_smelter",
+      "AU_tomago_aluminium_smelter"
+    ],
+    "resources": [
+      "Aluminum"
+    ]
+  },
+  {
+    "id": "CN_semi_fabricators_shandong",
+    "name": "Chinese Semi-Fabricators (Shandong rolling / extrusion)",
+    "tier": "semi_fabricator",
+    "country_iso2": "CN",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": 36.67,
+      "lon": 116.99
+    },
+    "downstream": [
+      {
+        "target_id": "CN_manufacturers_general",
+        "corridor_id": "CN_road_shandong-national",
+        "resource": "aluminum sheet / foil / extrusion",
+        "quantity": 6850000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "CN_smelters_shandong"
+    ],
+    "resources": [
+      "Aluminum"
+    ]
+  },
+  {
+    "id": "AU_manufacturer_building_products",
+    "name": "Australian Building Products Manufacturers",
+    "tier": "manufacturer",
+    "country_iso2": "AU",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": -33.87,
+      "lon": 151.21
+    },
+    "downstream": [
+      {
+        "target_id": "AU_residential",
+        "corridor_id": "AU_road_sydney-national",
+        "resource": "aluminum windows / cladding / roofing",
+        "quantity": 200000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_commercial",
+        "corridor_id": "AU_road_sydney-national",
+        "resource": "aluminum curtain walls / structural products",
+        "quantity": 120000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_infrastructure",
+        "corridor_id": "AU_road_sydney-national",
+        "resource": "aluminum structural / railing products",
+        "quantity": 80000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_capral_aluminium"
+    ],
+    "resources": [
+      "Aluminum"
+    ]
+  },
+  {
+    "id": "AU_manufacturer_transport",
+    "name": "Australian Transport Equipment Manufacturers",
+    "tier": "manufacturer",
+    "country_iso2": "AU",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": -37.81,
+      "lon": 144.96
+    },
+    "downstream": [
+      {
+        "target_id": "AU_industrial",
+        "corridor_id": "AU_road_melbourne-national",
+        "resource": "aluminum automotive / marine / rail components",
+        "quantity": 120000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_commercial",
+        "corridor_id": "AU_road_melbourne-national",
+        "resource": "aluminum packaging / transport containers",
+        "quantity": 80000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_capral_aluminium"
+    ],
+    "resources": [
+      "Aluminum"
+    ]
+  },
+  {
+    "id": "INTL_manufacturers_mideast",
+    "name": "Middle East Manufacturers (construction / packaging)",
+    "tier": "manufacturer",
+    "country_iso2": "AE",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": 25.2,
+      "lon": 55.27
+    },
+    "downstream": [
+      {
+        "target_id": "AE_infrastructure",
+        "corridor_id": "AE_road_dubai-abudhabi",
+        "resource": "aluminum construction products",
+        "quantity": 900000,
+        "metric": "t"
+      },
+      {
+        "target_id": "INTL_industrial",
+        "corridor_id": "INTL_ocean_jebel_ali-global",
+        "resource": "aluminum finished goods",
+        "quantity": 900000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "INTL_semi_fabricators_mideast"
+    ],
+    "resources": [
+      "Aluminum"
+    ]
+  },
+  {
+    "id": "JP_manufacturers_general",
+    "name": "Japanese Aluminum Manufacturers (auto / electronics)",
+    "tier": "manufacturer",
+    "country_iso2": "JP",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": 35,
+      "lon": 136.9
+    },
+    "downstream": [
+      {
+        "target_id": "JP_industrial",
+        "corridor_id": "JP_road_nagoya-national",
+        "resource": "aluminum automotive / electronics components",
+        "quantity": 500000,
+        "metric": "t"
+      },
+      {
+        "target_id": "INTL_commercial",
+        "corridor_id": "INTL_ocean_yokohama-global",
+        "resource": "aluminum-containing finished goods",
+        "quantity": 200000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "INTL_semi_fabricators_asia"
+    ],
+    "resources": [
+      "Aluminum"
+    ]
+  },
+  {
+    "id": "KR_manufacturers_general",
+    "name": "South Korean Aluminum Manufacturers",
+    "tier": "manufacturer",
+    "country_iso2": "KR",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": 35.54,
+      "lon": 129.31
+    },
+    "downstream": [
+      {
+        "target_id": "KR_industrial",
+        "corridor_id": "KR_road_ulsan-national",
+        "resource": "aluminum automotive / shipbuilding components",
+        "quantity": 220000,
+        "metric": "t"
+      },
+      {
+        "target_id": "INTL_commercial",
+        "corridor_id": "INTL_ocean_busan-global",
+        "resource": "aluminum-containing finished goods",
+        "quantity": 100000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "INTL_semi_fabricators_asia"
+    ],
+    "resources": [
+      "Aluminum"
+    ]
+  },
+  {
+    "id": "CN_manufacturers_general",
+    "name": "Chinese Aluminum Product Manufacturers",
+    "tier": "manufacturer",
+    "country_iso2": "CN",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": 31.23,
+      "lon": 121.47
+    },
+    "downstream": [
+      {
+        "target_id": "CN_infrastructure",
+        "corridor_id": "CN_road_national",
+        "resource": "aluminum construction / grid products",
+        "quantity": 2500000,
+        "metric": "t"
+      },
+      {
+        "target_id": "CN_industrial",
+        "corridor_id": "CN_road_national",
+        "resource": "aluminum automotive / machinery components",
+        "quantity": 2000000,
+        "metric": "t"
+      },
+      {
+        "target_id": "CN_residential",
+        "corridor_id": "CN_road_national",
+        "resource": "aluminum packaging / appliance components",
+        "quantity": 1350000,
+        "metric": "t"
+      },
+      {
+        "target_id": "INTL_commercial",
+        "corridor_id": "INTL_ocean_shanghai-global",
+        "resource": "aluminum-containing finished goods",
+        "quantity": 1000000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "CN_semi_fabricators_shandong"
+    ],
+    "resources": [
+      "Aluminum"
+    ]
+  },
+  {
+    "id": "AU_ocean_weipa-gladstone",
+    "tier": "transport",
+    "name": "Coastal shipping: Weipa → Gladstone",
+    "country_iso2": "AU",
+    "operator_id": "AU_rio_tinto_shipping",
+    "mode": "ocean_freight",
+    "form": "bulk_dry",
+    "range": "regional",
+    "coordinates": {
+      "lat": -18.25,
+      "lon": 148
+    },
+    "resources": [
+      "Mineral-Bearing Land"
+    ],
+    "upstream": [],
+    "downstream": []
+  },
+  {
+    "id": "INTL_ocean_weipa-shandong",
+    "tier": "transport",
+    "name": "Ocean freight: Weipa → Shandong (China)",
+    "country_iso2": "INTL",
+    "operator_id": "INTL_bulk_carriers",
+    "mode": "ocean_freight",
+    "form": "bulk_dry",
+    "range": "international",
+    "coordinates": {
+      "lat": 5,
+      "lon": 130
+    }
+  },
+  {
+    "id": "INTL_ocean_gove-shandong",
+    "tier": "transport",
+    "name": "Ocean freight: Gove → Shandong (China)",
+    "country_iso2": "INTL",
+    "operator_id": "INTL_bulk_carriers",
+    "mode": "ocean_freight",
+    "form": "bulk_dry",
+    "range": "international",
+    "coordinates": {
+      "lat": 0,
+      "lon": 128
+    }
+  },
+  {
+    "id": "INTL_ocean_bauxite_hills-china",
+    "tier": "transport",
+    "name": "Ocean freight: Bauxite Hills → China",
+    "country_iso2": "INTL",
+    "operator_id": "INTL_bulk_carriers",
+    "mode": "ocean_freight",
+    "form": "bulk_dry",
+    "range": "international",
+    "coordinates": {
+      "lat": 0,
+      "lon": 135
+    }
+  },
+  {
+    "id": "AU_conveyor_worsley-refinery",
+    "tier": "transport",
+    "name": "Overland conveyor: Worsley mine → Worsley refinery",
+    "country_iso2": "AU",
+    "operator_id": "AU_south32",
+    "mode": "conveyor",
+    "form": "bulk_dry",
+    "range": "local",
+    "coordinates": {
+      "lat": -33.08,
+      "lon": 116.2
+    },
+    "resources": [
+      "Mineral-Bearing Land"
+    ],
+    "upstream": [],
+    "downstream": []
+  },
+  {
+    "id": "AU_conveyor_huntly-pinjarra",
+    "tier": "transport",
+    "name": "Overland conveyor: Huntly mine → Pinjarra refinery",
+    "country_iso2": "AU",
+    "operator_id": "AU_alcoa",
+    "mode": "conveyor",
+    "form": "bulk_dry",
+    "range": "local",
+    "coordinates": {
+      "lat": -32.62,
+      "lon": 115.97
+    },
+    "resources": [
+      "Mineral-Bearing Land"
+    ],
+    "upstream": [],
+    "downstream": []
+  },
+  {
+    "id": "AU_conveyor_willowdale-wagerup",
+    "tier": "transport",
+    "name": "Overland conveyor: Willowdale mine → Wagerup refinery",
+    "country_iso2": "AU",
+    "operator_id": "AU_alcoa",
+    "mode": "conveyor",
+    "form": "bulk_dry",
+    "range": "local",
+    "coordinates": {
+      "lat": -32.8,
+      "lon": 116.01
+    },
+    "resources": [
+      "Mineral-Bearing Land"
+    ],
+    "upstream": [],
+    "downstream": []
+  },
+  {
+    "id": "AU_road_gladstone-boyne",
+    "tier": "transport",
+    "name": "Road / pipeline: Gladstone refineries → Boyne smelter",
+    "country_iso2": "AU",
+    "operator_id": "AU_local_logistics",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "local",
+    "coordinates": {
+      "lat": -23.92,
+      "lon": 151.33
+    }
+  },
+  {
+    "id": "INTL_ocean_gladstone-middle_east",
+    "tier": "transport",
+    "name": "Ocean freight: Gladstone → Middle East / Asia",
+    "country_iso2": "INTL",
+    "operator_id": "INTL_bulk_carriers",
+    "mode": "ocean_freight",
+    "form": "bulk_dry",
+    "range": "international",
+    "coordinates": {
+      "lat": 0,
+      "lon": 105
+    }
+  },
+  {
+    "id": "INTL_ocean_bunbury-portland",
+    "tier": "transport",
+    "name": "Coastal shipping: Bunbury → Portland",
+    "country_iso2": "AU",
+    "operator_id": "AU_coastal_shipping",
+    "mode": "ocean_freight",
+    "form": "bulk_dry",
+    "range": "regional",
+    "coordinates": {
+      "lat": -36,
+      "lon": 135
+    }
+  },
+  {
+    "id": "INTL_ocean_bunbury-asia",
+    "tier": "transport",
+    "name": "Ocean freight: Bunbury → Asia",
+    "country_iso2": "INTL",
+    "operator_id": "INTL_bulk_carriers",
+    "mode": "ocean_freight",
+    "form": "bulk_dry",
+    "range": "international",
+    "coordinates": {
+      "lat": -15,
+      "lon": 110
+    },
+    "resources": [
+      "Sand",
+      "Clay"
+    ],
+    "upstream": [],
+    "downstream": []
+  },
+  {
+    "id": "INTL_ocean_kwinana-portland",
+    "tier": "transport",
+    "name": "Coastal shipping: Kwinana → Portland",
+    "country_iso2": "AU",
+    "operator_id": "AU_coastal_shipping",
+    "mode": "ocean_freight",
+    "form": "bulk_dry",
+    "range": "regional",
+    "coordinates": {
+      "lat": -36,
+      "lon": 132
+    }
+  },
+  {
+    "id": "INTL_ocean_kwinana-asia",
+    "tier": "transport",
+    "name": "Ocean freight: Kwinana → Asia",
+    "country_iso2": "INTL",
+    "operator_id": "INTL_bulk_carriers",
+    "mode": "ocean_freight",
+    "form": "bulk_dry",
+    "range": "international",
+    "coordinates": {
+      "lat": -15,
+      "lon": 108
+    }
+  },
+  {
+    "id": "CN_rail_shandong-inland",
+    "tier": "transport",
+    "name": "Rail: Shandong ports → inland refineries / smelters",
+    "country_iso2": "CN",
+    "operator_id": "CN_china_railway",
+    "mode": "rail",
+    "form": "bulk_dry",
+    "range": "regional",
+    "coordinates": {
+      "lat": 36.5,
+      "lon": 118
+    }
+  },
+  {
+    "id": "AU_road_gladstone-sydney",
+    "tier": "transport",
+    "name": "Road / rail: Gladstone → Sydney",
+    "country_iso2": "AU",
+    "operator_id": "AU_aurizon",
+    "mode": "rail",
+    "form": "bulk_dry",
+    "range": "regional",
+    "coordinates": {
+      "lat": -28.5,
+      "lon": 151
+    }
+  },
+  {
+    "id": "INTL_ocean_gladstone-busan",
+    "tier": "transport",
+    "name": "Ocean freight: Gladstone → Busan / Japan",
+    "country_iso2": "INTL",
+    "operator_id": "INTL_bulk_carriers",
+    "mode": "ocean_freight",
+    "form": "bulk_dry",
+    "range": "international",
+    "coordinates": {
+      "lat": 10,
+      "lon": 140
+    }
+  },
+  {
+    "id": "AU_road_portland-melbourne",
+    "tier": "transport",
+    "name": "Road: Portland → Melbourne",
+    "country_iso2": "AU",
+    "operator_id": "AU_local_logistics",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "regional",
+    "coordinates": {
+      "lat": -38.1,
+      "lon": 143.6
+    },
+    "resources": [
+      "Fish (farmed)",
+      "Shellfish (wild)"
+    ],
+    "upstream": [],
+    "downstream": []
+  },
+  {
+    "id": "INTL_ocean_portland-busan",
+    "tier": "transport",
+    "name": "Ocean freight: Portland → Busan / Japan",
+    "country_iso2": "INTL",
+    "operator_id": "INTL_bulk_carriers",
+    "mode": "ocean_freight",
+    "form": "bulk_dry",
+    "range": "international",
+    "coordinates": {
+      "lat": -20,
+      "lon": 145
+    }
+  },
+  {
+    "id": "AU_ocean_bell_bay-sydney",
+    "tier": "transport",
+    "name": "Coastal shipping: Bell Bay → Sydney",
+    "country_iso2": "AU",
+    "operator_id": "AU_coastal_shipping",
+    "mode": "ocean_freight",
+    "form": "bulk_dry",
+    "range": "regional",
+    "coordinates": {
+      "lat": -37.5,
+      "lon": 150
+    }
+  },
+  {
+    "id": "INTL_ocean_bell_bay-japan",
+    "tier": "transport",
+    "name": "Ocean freight: Bell Bay → Japan",
+    "country_iso2": "INTL",
+    "operator_id": "INTL_bulk_carriers",
+    "mode": "ocean_freight",
+    "form": "bulk_dry",
+    "range": "international",
+    "coordinates": {
+      "lat": -15,
+      "lon": 155
+    }
+  },
+  {
+    "id": "AU_road_tomago-sydney",
+    "tier": "transport",
+    "name": "Road: Tomago → Sydney",
+    "country_iso2": "AU",
+    "operator_id": "AU_local_logistics",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "regional",
+    "coordinates": {
+      "lat": -33.3,
+      "lon": 151.4
+    }
+  },
+  {
+    "id": "INTL_ocean_newcastle-japan",
+    "tier": "transport",
+    "name": "Ocean freight: Newcastle → Japan / Asia",
+    "country_iso2": "INTL",
+    "operator_id": "INTL_bulk_carriers",
+    "mode": "ocean_freight",
+    "form": "bulk_dry",
+    "range": "international",
+    "coordinates": {
+      "lat": -10,
+      "lon": 150
+    },
+    "resources": [
+      "Mineral-Bearing Land"
+    ],
+    "upstream": [],
+    "downstream": []
+  },
+  {
+    "id": "CN_road_shandong-local",
+    "tier": "transport",
+    "name": "Road: Shandong refineries → smelters",
+    "country_iso2": "CN",
+    "operator_id": "CN_local_logistics",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "local",
+    "coordinates": {
+      "lat": 36.7,
+      "lon": 117
+    }
+  },
+  {
+    "id": "AE_road_emal-jebel_ali",
+    "tier": "transport",
+    "name": "Road: EMAL / smelters → Jebel Ali / Dubai industrial",
+    "country_iso2": "AE",
+    "operator_id": "AE_local_logistics",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "local",
+    "coordinates": {
+      "lat": 24.95,
+      "lon": 55.05
+    }
+  },
+  {
+    "id": "CN_road_shandong-national",
+    "tier": "transport",
+    "name": "Road / rail: Shandong → national CN distribution",
+    "country_iso2": "CN",
+    "operator_id": "CN_local_logistics",
+    "mode": "road",
+    "form": "containerised",
+    "range": "regional",
+    "coordinates": {
+      "lat": 35,
+      "lon": 117.5
+    }
+  },
+  {
+    "id": "AE_road_jebel_ali-dubai",
+    "tier": "transport",
+    "name": "Road: Jebel Ali → Dubai industrial zone",
+    "country_iso2": "AE",
+    "operator_id": "AE_local_logistics",
+    "mode": "road",
+    "form": "containerised",
+    "range": "local",
+    "coordinates": {
+      "lat": 25,
+      "lon": 55.15
+    }
+  },
+  {
+    "id": "JP_road_osaka-nagoya",
+    "tier": "transport",
+    "name": "Road: Osaka → Nagoya industrial belt",
+    "country_iso2": "JP",
+    "operator_id": "JP_local_logistics",
+    "mode": "road",
+    "form": "containerised",
+    "range": "regional",
+    "coordinates": {
+      "lat": 34.85,
+      "lon": 136.2
+    },
+    "resources": [
+      "Tungsten"
+    ],
+    "upstream": [],
+    "downstream": []
+  },
+  {
+    "id": "KR_road_busan-ulsan",
+    "tier": "transport",
+    "name": "Road: Busan → Ulsan industrial zone",
+    "country_iso2": "KR",
+    "operator_id": "KR_local_logistics",
+    "mode": "road",
+    "form": "containerised",
+    "range": "local",
+    "coordinates": {
+      "lat": 35.4,
+      "lon": 129.2
+    }
+  },
+  {
+    "id": "AE_road_dubai-abudhabi",
+    "tier": "transport",
+    "name": "Road: Dubai → Abu Dhabi construction sites",
+    "country_iso2": "AE",
+    "operator_id": "AE_local_logistics",
+    "mode": "road",
+    "form": "containerised",
+    "range": "regional",
+    "coordinates": {
+      "lat": 24.6,
+      "lon": 54.9
+    }
+  },
+  {
+    "id": "INTL_ocean_jebel_ali-global",
+    "tier": "transport",
+    "name": "Ocean freight: Jebel Ali → global markets",
+    "country_iso2": "INTL",
+    "operator_id": "INTL_maersk",
+    "mode": "ocean_freight",
+    "form": "containerised",
+    "range": "international",
+    "coordinates": {
+      "lat": 15,
+      "lon": 60
+    }
+  },
+  {
+    "id": "INTL_ocean_yokohama-global",
+    "tier": "transport",
+    "name": "Ocean freight: Yokohama → global markets",
+    "country_iso2": "INTL",
+    "operator_id": "INTL_maersk",
+    "mode": "ocean_freight",
+    "form": "containerised",
+    "range": "international",
+    "coordinates": {
+      "lat": 30,
+      "lon": 150
+    }
+  },
+  {
+    "id": "CN_road_national",
+    "tier": "transport",
+    "name": "Road / rail: National CN distribution",
+    "country_iso2": "CN",
+    "operator_id": "CN_local_logistics",
+    "mode": "road",
+    "form": "containerised",
+    "range": "regional",
+    "coordinates": {
+      "lat": 32,
+      "lon": 118
+    }
+  }
+]

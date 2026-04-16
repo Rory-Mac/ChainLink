@@ -1,0 +1,616 @@
+[
+  {
+    "id": "AU_queensland_magnesia_kunwarara",
+    "name": "Kunwarara Magnesite Mine",
+    "tier": "extraction",
+    "country_iso2": "AU",
+    "canonical_company": "Queensland Magnesia (QMAG)",
+    "coordinates": {
+      "lat": -22.95,
+      "lon": 150.15
+    },
+    "downstream": [
+      {
+        "target_id": "AU_qmag_rockhampton_plant",
+        "corridor_id": "AU_road_kunwarara-rockhampton",
+        "resource": "raw magnesite ore (MgCO3)",
+        "quantity": 250000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Magnesium (mineral)"
+    ]
+  },
+  {
+    "id": "AU_causmag_international_young",
+    "name": "Young Magnesite Mine",
+    "tier": "extraction",
+    "country_iso2": "AU",
+    "canonical_company": "Causmag International",
+    "coordinates": {
+      "lat": -34.31,
+      "lon": 148.3
+    },
+    "downstream": [
+      {
+        "target_id": "AU_causmag_young_processing",
+        "corridor_id": "AU_road_young-mine-to-plant",
+        "resource": "raw magnesite ore (MgCO3)",
+        "quantity": 40000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Magnesium (mineral)"
+    ]
+  },
+  {
+    "id": "AU_qmag_rockhampton_plant",
+    "name": "QMAG Rockhampton Calcining & Processing Plant",
+    "tier": "refinery",
+    "country_iso2": "AU",
+    "canonical_company": "Queensland Magnesia (QMAG)",
+    "coordinates": {
+      "lat": -23.38,
+      "lon": 150.51
+    },
+    "downstream": [
+      {
+        "target_id": "AU_qmag_domestic_chemical",
+        "corridor_id": "AU_road_rockhampton-gladstone",
+        "resource": "calcined magnesia (MgO) and dead-burned magnesia",
+        "quantity": 50000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_qmag_domestic_refractory_mfg",
+        "corridor_id": "AU_road_rockhampton-brisbane",
+        "resource": "dead-burned magnesia for refractory use",
+        "quantity": 25000,
+        "metric": "t"
+      },
+      {
+        "target_id": "INTL_magnesia_traders",
+        "corridor_id": "INTL_ocean_gladstone-asia",
+        "resource": "calcined magnesia (MgO) and electro-fused magnesia",
+        "quantity": 60000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_queensland_magnesia_kunwarara"
+    ],
+    "resources": [
+      "Magnesium (mineral)"
+    ]
+  },
+  {
+    "id": "AU_causmag_young_processing",
+    "name": "Causmag Young Processing Plant",
+    "tier": "refinery",
+    "country_iso2": "AU",
+    "canonical_company": "Causmag International",
+    "coordinates": {
+      "lat": -34.31,
+      "lon": 148.3
+    },
+    "downstream": [
+      {
+        "target_id": "AU_causmag_domestic_chemical",
+        "corridor_id": "AU_road_young-sydney",
+        "resource": "calcined magnesia (MgO) and caustic calcined magnesia",
+        "quantity": 15000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_causmag_ag_users",
+        "corridor_id": "AU_road_young-regional-nsw",
+        "resource": "agricultural-grade magnesia and magnesium supplements",
+        "quantity": 8000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_causmag_international_young"
+    ],
+    "resources": [
+      "Magnesium (mineral)"
+    ]
+  },
+  {
+    "id": "AU_qmag_domestic_chemical",
+    "name": "Australian Magnesia Chemical Processors (Various)",
+    "tier": "chemical_processor",
+    "country_iso2": "AU",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": -23.85,
+      "lon": 151.27
+    },
+    "downstream": [
+      {
+        "target_id": "AU_magnesia_product_manufacturers",
+        "corridor_id": "AU_road_gladstone-brisbane",
+        "resource": "magnesium hydroxide, magnesium sulphate, magnesium chloride",
+        "quantity": 20000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_water_treatment_mfg",
+        "corridor_id": "AU_road_gladstone-se-qld",
+        "resource": "magnesium hydroxide slurry for water treatment",
+        "quantity": 15000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_qmag_rockhampton_plant"
+    ],
+    "resources": [
+      "Magnesium (mineral)"
+    ]
+  },
+  {
+    "id": "AU_causmag_domestic_chemical",
+    "name": "Causmag Downstream Chemical Customers (Various, NSW)",
+    "tier": "chemical_processor",
+    "country_iso2": "AU",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": -33.87,
+      "lon": 151.21
+    },
+    "downstream": [
+      {
+        "target_id": "AU_causmag_specialty_mfg",
+        "corridor_id": "AU_road_sydney-metro",
+        "resource": "magnesium compounds for industrial and pharmaceutical use",
+        "quantity": 10000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_causmag_young_processing"
+    ],
+    "resources": [
+      "Magnesium (mineral)"
+    ]
+  },
+  {
+    "id": "AU_causmag_ag_users",
+    "name": "Agricultural Magnesia Distributors (NSW/VIC)",
+    "tier": "chemical_processor",
+    "country_iso2": "AU",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": -34.75,
+      "lon": 149.7
+    },
+    "downstream": [
+      {
+        "target_id": "AU_agricultural",
+        "corridor_id": "AU_road_regional-nsw-farms",
+        "resource": "agricultural magnesia fertiliser and supplements",
+        "quantity": 8000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_causmag_young_processing"
+    ],
+    "resources": [
+      "Magnesium (mineral)"
+    ]
+  },
+  {
+    "id": "INTL_magnesia_traders",
+    "name": "International Magnesia Trading & Distribution (Asia-Pacific)",
+    "tier": "chemical_processor",
+    "country_iso2": "INTL",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": 1.26,
+      "lon": 103.84
+    },
+    "downstream": [
+      {
+        "target_id": "INTL_refractory_mfg_asia",
+        "corridor_id": "INTL_ocean_singapore-ne-asia",
+        "resource": "calcined and dead-burned magnesia for refractory production",
+        "quantity": 35000,
+        "metric": "t"
+      },
+      {
+        "target_id": "INTL_industrial",
+        "corridor_id": "INTL_ocean_singapore-global",
+        "resource": "magnesia products for steel, cement, and chemical industries",
+        "quantity": 25000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_qmag_rockhampton_plant"
+    ],
+    "resources": [
+      "Magnesium (mineral)"
+    ]
+  },
+  {
+    "id": "AU_magnesia_product_manufacturers",
+    "name": "Australian Industrial Magnesia Product Manufacturers",
+    "tier": "manufacturer",
+    "country_iso2": "AU",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": -27.47,
+      "lon": 153.03
+    },
+    "downstream": [
+      {
+        "target_id": "AU_industrial",
+        "corridor_id": "AU_road_brisbane-national",
+        "resource": "magnesia-based industrial products (flame retardants, fertiliser additives, animal feed supplements)",
+        "quantity": 12000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_commercial",
+        "corridor_id": "AU_road_brisbane-se-qld",
+        "resource": "magnesia-based commercial products (supplements, building materials)",
+        "quantity": 8000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_qmag_domestic_chemical"
+    ],
+    "resources": [
+      "Magnesium (mineral)"
+    ]
+  },
+  {
+    "id": "AU_water_treatment_mfg",
+    "name": "Water Treatment Magnesia Product Suppliers (QLD/NSW)",
+    "tier": "manufacturer",
+    "country_iso2": "AU",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": -27.4,
+      "lon": 153.05
+    },
+    "downstream": [
+      {
+        "target_id": "AU_infrastructure",
+        "corridor_id": "AU_road_se-qld-water-utilities",
+        "resource": "magnesium hydroxide for water and wastewater treatment",
+        "quantity": 10000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_government",
+        "corridor_id": "AU_road_qld-govt-utilities",
+        "resource": "magnesium hydroxide for municipal water systems",
+        "quantity": 5000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_qmag_domestic_chemical"
+    ],
+    "resources": [
+      "Magnesium (mineral)"
+    ]
+  },
+  {
+    "id": "AU_qmag_domestic_refractory_mfg",
+    "name": "Australian Refractory Manufacturers (Various)",
+    "tier": "manufacturer",
+    "country_iso2": "AU",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": -27.47,
+      "lon": 153.03
+    },
+    "downstream": [
+      {
+        "target_id": "AU_industrial",
+        "corridor_id": "AU_road_brisbane-steelworks",
+        "resource": "magnesia refractory bricks and linings for steel and cement kilns",
+        "quantity": 25000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_qmag_rockhampton_plant"
+    ],
+    "resources": [
+      "Magnesium (mineral)"
+    ]
+  },
+  {
+    "id": "AU_causmag_specialty_mfg",
+    "name": "Specialty Magnesia Product Manufacturers (NSW)",
+    "tier": "manufacturer",
+    "country_iso2": "AU",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": -33.87,
+      "lon": 151.21
+    },
+    "downstream": [
+      {
+        "target_id": "AU_industrial",
+        "corridor_id": "AU_road_sydney-industrial",
+        "resource": "magnesia compounds for pharmaceutical, environmental and industrial use",
+        "quantity": 6000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_commercial",
+        "corridor_id": "AU_road_sydney-commercial",
+        "resource": "magnesia-based consumer products (dietary supplements, antacids)",
+        "quantity": 4000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_causmag_domestic_chemical"
+    ],
+    "resources": [
+      "Magnesium (mineral)"
+    ]
+  },
+  {
+    "id": "INTL_refractory_mfg_asia",
+    "name": "Asian Refractory & Industrial Magnesia Manufacturers",
+    "tier": "manufacturer",
+    "country_iso2": "INTL",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": 31.23,
+      "lon": 121.47
+    },
+    "downstream": [
+      {
+        "target_id": "INTL_industrial",
+        "corridor_id": "INTL_road_asia-industrial-dist",
+        "resource": "magnesia refractory products for steelmaking and industrial furnaces",
+        "quantity": 35000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "INTL_magnesia_traders"
+    ],
+    "resources": [
+      "Magnesium (mineral)"
+    ]
+  },
+  {
+    "id": "AU_road_kunwarara-rockhampton",
+    "tier": "transport",
+    "name": "Road: Kunwarara Mine to Rockhampton Processing Plant",
+    "country_iso2": "AU",
+    "operator_id": "AU_qmag_transport",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "local",
+    "coordinates": {
+      "lat": -23.15,
+      "lon": 150.33
+    }
+  },
+  {
+    "id": "AU_road_young-mine-to-plant",
+    "tier": "transport",
+    "name": "Road: Young Magnesite Mine to Processing Plant",
+    "country_iso2": "AU",
+    "operator_id": "AU_causmag_transport",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "local",
+    "coordinates": {
+      "lat": -34.31,
+      "lon": 148.3
+    }
+  },
+  {
+    "id": "AU_road_rockhampton-gladstone",
+    "tier": "transport",
+    "name": "Road: Rockhampton to Gladstone Chemical Processors",
+    "country_iso2": "AU",
+    "operator_id": "AU_regional_haulage",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "regional",
+    "coordinates": {
+      "lat": -23.62,
+      "lon": 150.9
+    }
+  },
+  {
+    "id": "AU_road_rockhampton-brisbane",
+    "tier": "transport",
+    "name": "Road: Rockhampton to Brisbane (Refractory Customers)",
+    "country_iso2": "AU",
+    "operator_id": "AU_regional_haulage",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "regional",
+    "coordinates": {
+      "lat": -25.45,
+      "lon": 151.75
+    }
+  },
+  {
+    "id": "AU_road_young-sydney",
+    "tier": "transport",
+    "name": "Road: Young to Sydney Chemical Customers",
+    "country_iso2": "AU",
+    "operator_id": "AU_nsw_haulage",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "regional",
+    "coordinates": {
+      "lat": -34.1,
+      "lon": 149.75
+    }
+  },
+  {
+    "id": "AU_road_young-regional-nsw",
+    "tier": "transport",
+    "name": "Road: Young to Regional NSW Agricultural Distributors",
+    "country_iso2": "AU",
+    "operator_id": "AU_nsw_haulage",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "regional",
+    "coordinates": {
+      "lat": -34.5,
+      "lon": 149
+    }
+  },
+  {
+    "id": "AU_road_gladstone-se-qld",
+    "tier": "transport",
+    "name": "Road: Gladstone to SE QLD Water Treatment Facilities",
+    "country_iso2": "AU",
+    "operator_id": "AU_regional_haulage",
+    "mode": "road",
+    "form": "bulk_liquid",
+    "range": "regional",
+    "coordinates": {
+      "lat": -25,
+      "lon": 152
+    }
+  },
+  {
+    "id": "AU_road_regional-nsw-farms",
+    "tier": "transport",
+    "name": "Road: Regional NSW Agricultural Distribution",
+    "country_iso2": "AU",
+    "operator_id": "AU_nsw_haulage",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "regional",
+    "coordinates": {
+      "lat": -34.6,
+      "lon": 149.5
+    }
+  },
+  {
+    "id": "INTL_ocean_singapore-ne-asia",
+    "tier": "transport",
+    "name": "Ocean Freight: Singapore Hub to NE Asia Refractory Markets",
+    "country_iso2": "INTL",
+    "operator_id": "INTL_bulk_shipping",
+    "mode": "ocean_freight",
+    "form": "bulk_dry",
+    "range": "international",
+    "coordinates": {
+      "lat": 20,
+      "lon": 115
+    }
+  },
+  {
+    "id": "AU_road_brisbane-se-qld",
+    "tier": "transport",
+    "name": "Road: Brisbane Metro Commercial Distribution",
+    "country_iso2": "AU",
+    "operator_id": "AU_regional_haulage",
+    "mode": "road",
+    "form": "containerised",
+    "range": "local",
+    "coordinates": {
+      "lat": -27.47,
+      "lon": 153.03
+    }
+  },
+  {
+    "id": "AU_road_se-qld-water-utilities",
+    "tier": "transport",
+    "name": "Road: SE QLD Water Utility Infrastructure Sites",
+    "country_iso2": "AU",
+    "operator_id": "AU_regional_haulage",
+    "mode": "road",
+    "form": "bulk_liquid",
+    "range": "regional",
+    "coordinates": {
+      "lat": -27.5,
+      "lon": 153.1
+    }
+  },
+  {
+    "id": "AU_road_qld-govt-utilities",
+    "tier": "transport",
+    "name": "Road: QLD Government Municipal Water Treatment Sites",
+    "country_iso2": "AU",
+    "operator_id": "AU_regional_haulage",
+    "mode": "road",
+    "form": "bulk_liquid",
+    "range": "regional",
+    "coordinates": {
+      "lat": -27.45,
+      "lon": 153
+    }
+  },
+  {
+    "id": "AU_road_brisbane-steelworks",
+    "tier": "transport",
+    "name": "Road: Brisbane to Australian Steelworks and Cement Plants",
+    "country_iso2": "AU",
+    "operator_id": "AU_national_haulage",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "regional",
+    "coordinates": {
+      "lat": -29,
+      "lon": 152.5
+    }
+  },
+  {
+    "id": "AU_road_sydney-industrial",
+    "tier": "transport",
+    "name": "Road: Sydney Industrial Distribution",
+    "country_iso2": "AU",
+    "operator_id": "AU_nsw_haulage",
+    "mode": "road",
+    "form": "containerised",
+    "range": "regional",
+    "coordinates": {
+      "lat": -33.85,
+      "lon": 151.1
+    }
+  },
+  {
+    "id": "AU_road_sydney-commercial",
+    "tier": "transport",
+    "name": "Road: Sydney Commercial Distribution",
+    "country_iso2": "AU",
+    "operator_id": "AU_nsw_haulage",
+    "mode": "road",
+    "form": "containerised",
+    "range": "local",
+    "coordinates": {
+      "lat": -33.87,
+      "lon": 151.21
+    }
+  },
+  {
+    "id": "INTL_road_asia-industrial-dist",
+    "tier": "transport",
+    "name": "Road/Rail: Asian Industrial Refractory Distribution",
+    "country_iso2": "INTL",
+    "operator_id": "INTL_logistics",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "regional",
+    "coordinates": {
+      "lat": 31.23,
+      "lon": 121.47
+    }
+  }
+]

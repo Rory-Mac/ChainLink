@@ -1,0 +1,1541 @@
+[
+  {
+    "id": "AU_boral_lake_macdonnell",
+    "name": "Lake MacDonnell Gypsum Mine",
+    "tier": "extraction",
+    "country_iso2": "AU",
+    "canonical_company": "Boral Limited",
+    "coordinates": {
+      "lat": -31.44,
+      "lon": 131.08
+    },
+    "downstream": [
+      {
+        "target_id": "AU_boral_plasterboard_manufacturing",
+        "corridor_id": "AU_rail_lake-macdonnell-adelaide",
+        "resource": "natural gypsum rock",
+        "quantity": 350000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_adelaide_brighton_cement",
+        "corridor_id": "AU_rail_lake-macdonnell-adelaide",
+        "resource": "natural gypsum rock",
+        "quantity": 80000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_sibelco_gypsum_processing",
+        "corridor_id": "AU_road_lake-macdonnell-thevenard",
+        "resource": "natural gypsum rock",
+        "quantity": 100000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Gypsum"
+    ]
+  },
+  {
+    "id": "AU_knauf_carosue_dam",
+    "name": "Carosue Dam / Goldfields Gypsum Mine",
+    "tier": "extraction",
+    "country_iso2": "AU",
+    "canonical_company": "Knauf Gips KG",
+    "coordinates": {
+      "lat": -31.07,
+      "lon": 121.6
+    },
+    "downstream": [
+      {
+        "target_id": "AU_knauf_plasterboard_manufacturing",
+        "corridor_id": "AU_rail_goldfields-perth",
+        "resource": "natural gypsum rock",
+        "quantity": 250000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Gypsum"
+    ]
+  },
+  {
+    "id": "AU_windarling_gypsum",
+    "name": "Windarling / Yilgarn Gypsum Deposits",
+    "tier": "extraction",
+    "country_iso2": "AU",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": -30.6,
+      "lon": 119.4
+    },
+    "downstream": [
+      {
+        "target_id": "AU_wa_agricultural_gypsum_supply",
+        "corridor_id": "AU_road_yilgarn-perth",
+        "resource": "natural gypsum (agricultural grade)",
+        "quantity": 120000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Gypsum"
+    ]
+  },
+  {
+    "id": "AU_centennial_gypsum_mine",
+    "name": "Centennial Gypsum Mine (South Australia)",
+    "tier": "extraction",
+    "country_iso2": "AU",
+    "canonical_company": "Centennial Gypsum",
+    "coordinates": {
+      "lat": -32.1,
+      "lon": 137.8
+    },
+    "downstream": [
+      {
+        "target_id": "AU_sa_agricultural_gypsum_distributor",
+        "corridor_id": "AU_road_centennial-adelaide",
+        "resource": "natural gypsum (agricultural grade)",
+        "quantity": 80000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_adelaide_brighton_cement",
+        "corridor_id": "AU_road_centennial-adelaide",
+        "resource": "natural gypsum rock",
+        "quantity": 30000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Gypsum"
+    ]
+  },
+  {
+    "id": "AU_penrice_gypsum_operations",
+    "name": "Penrice / Murray Basin Gypsum Operations (SA)",
+    "tier": "extraction",
+    "country_iso2": "AU",
+    "canonical_company": "Penrice Soda Products",
+    "coordinates": {
+      "lat": -34.1,
+      "lon": 140.2
+    },
+    "downstream": [
+      {
+        "target_id": "AU_boral_plasterboard_manufacturing",
+        "corridor_id": "AU_road_penrice-adelaide",
+        "resource": "natural gypsum rock",
+        "quantity": 50000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_sa_agricultural_gypsum_distributor",
+        "corridor_id": "AU_road_penrice-adelaide",
+        "resource": "natural gypsum (agricultural grade)",
+        "quantity": 40000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Gypsum"
+    ]
+  },
+  {
+    "id": "AU_nsw_ivanhoe_gypsum",
+    "name": "Ivanhoe / Central NSW Gypsum Deposits",
+    "tier": "extraction",
+    "country_iso2": "AU",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": -32.9,
+      "lon": 144.3
+    },
+    "downstream": [
+      {
+        "target_id": "AU_nsw_agricultural_gypsum_distributor",
+        "corridor_id": "AU_road_ivanhoe-sydney",
+        "resource": "natural gypsum (agricultural grade)",
+        "quantity": 70000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_boral_plasterboard_manufacturing",
+        "corridor_id": "AU_road_ivanhoe-sydney",
+        "resource": "natural gypsum rock",
+        "quantity": 30000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Gypsum"
+    ]
+  },
+  {
+    "id": "AU_queensland_gypsum_deposits",
+    "name": "Queensland Gypsum Mines (Hughenden / Winton region)",
+    "tier": "extraction",
+    "country_iso2": "AU",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": -20.85,
+      "lon": 144.2
+    },
+    "downstream": [
+      {
+        "target_id": "AU_qld_agricultural_gypsum_distributor",
+        "corridor_id": "AU_road_hughenden-townsville",
+        "resource": "natural gypsum (agricultural grade)",
+        "quantity": 60000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Gypsum"
+    ]
+  },
+  {
+    "id": "AU_victoria_gypsum_deposits",
+    "name": "Western Victoria Gypsum Deposits (Horsham / Nhill region)",
+    "tier": "extraction",
+    "country_iso2": "AU",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": -36.3,
+      "lon": 141.65
+    },
+    "downstream": [
+      {
+        "target_id": "AU_vic_agricultural_gypsum_distributor",
+        "corridor_id": "AU_road_wimmera-melbourne",
+        "resource": "natural gypsum (agricultural grade)",
+        "quantity": 90000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_boral_plasterboard_manufacturing",
+        "corridor_id": "AU_road_wimmera-melbourne",
+        "resource": "natural gypsum rock",
+        "quantity": 30000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Gypsum"
+    ]
+  },
+  {
+    "id": "AU_boral_plasterboard_manufacturing",
+    "name": "Boral Plasterboard Manufacturing (multiple plants)",
+    "tier": "chemical_processor",
+    "country_iso2": "AU",
+    "canonical_company": "Boral Limited",
+    "coordinates": {
+      "lat": -33.84,
+      "lon": 151.04
+    },
+    "downstream": [
+      {
+        "target_id": "AU_boral_plasterboard_distribution",
+        "corridor_id": "AU_road_boral-national-distribution",
+        "resource": "plasterboard (gypsum board)",
+        "quantity": 300000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_boral_plaster_products_distribution",
+        "corridor_id": "AU_road_boral-national-distribution",
+        "resource": "plaster compounds and jointing products",
+        "quantity": 50000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_boral_lake_macdonnell",
+      "AU_penrice_gypsum_operations",
+      "AU_nsw_ivanhoe_gypsum",
+      "AU_victoria_gypsum_deposits"
+    ],
+    "resources": [
+      "Gypsum"
+    ]
+  },
+  {
+    "id": "AU_knauf_plasterboard_manufacturing",
+    "name": "Knauf Plasterboard Manufacturing (Matraville & Camellia, NSW / Pinkenba, QLD)",
+    "tier": "chemical_processor",
+    "country_iso2": "AU",
+    "canonical_company": "Knauf Gips KG",
+    "coordinates": {
+      "lat": -33.96,
+      "lon": 151.24
+    },
+    "downstream": [
+      {
+        "target_id": "AU_knauf_plasterboard_distribution",
+        "corridor_id": "AU_road_knauf-national-distribution",
+        "resource": "plasterboard (gypsum board)",
+        "quantity": 180000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_knauf_plaster_compounds_distribution",
+        "corridor_id": "AU_road_knauf-national-distribution",
+        "resource": "plaster compounds and jointing products",
+        "quantity": 30000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_knauf_carosue_dam"
+    ],
+    "resources": [
+      "Gypsum"
+    ]
+  },
+  {
+    "id": "AU_adelaide_brighton_cement",
+    "name": "Adelaide Brighton Cement (Adbri) — Cement Manufacturing",
+    "tier": "chemical_processor",
+    "country_iso2": "AU",
+    "canonical_company": "Adbri Limited",
+    "coordinates": {
+      "lat": -34.82,
+      "lon": 138.52
+    },
+    "downstream": [
+      {
+        "target_id": "AU_adbri_cement_distribution",
+        "corridor_id": "AU_road_adbri-national-distribution",
+        "resource": "Portland cement (gypsum as set retarder)",
+        "quantity": 100000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_construction_materials_sa",
+        "corridor_id": "AU_road_adelaide-local",
+        "resource": "cement and concrete products containing feldspar",
+        "quantity": 18000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_infrastructure",
+        "corridor_id": "AU_road_adelaide-domestic",
+        "resource": "cement / concrete (silica additive)",
+        "quantity": 100000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_boral_lake_macdonnell",
+      "AU_centennial_gypsum_mine",
+      "AU_unimin_processing_sa",
+      "AU_sibelco_australia_pinkenba"
+    ],
+    "resources": [
+      "Gypsum",
+      "Feldspar",
+      "Quartz"
+    ]
+  },
+  {
+    "id": "AU_sibelco_gypsum_processing",
+    "name": "Sibelco Gypsum Processing (Thevenard, SA)",
+    "tier": "chemical_processor",
+    "country_iso2": "AU",
+    "canonical_company": "Sibelco",
+    "coordinates": {
+      "lat": -32.15,
+      "lon": 133.64
+    },
+    "downstream": [
+      {
+        "target_id": "AU_sibelco_industrial_gypsum_distribution",
+        "corridor_id": "AU_road_thevenard-adelaide",
+        "resource": "processed gypsum powder (industrial grade)",
+        "quantity": 50000,
+        "metric": "t"
+      },
+      {
+        "target_id": "INTL_gypsum_export_customers",
+        "corridor_id": "INTL_ocean_thevenard-se-asia",
+        "resource": "natural gypsum rock (export)",
+        "quantity": 50000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_boral_lake_macdonnell"
+    ],
+    "resources": [
+      "Gypsum"
+    ]
+  },
+  {
+    "id": "AU_sa_agricultural_gypsum_distributor",
+    "name": "South Australia Agricultural Gypsum Distributors",
+    "tier": "chemical_processor",
+    "country_iso2": "AU",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": -34.93,
+      "lon": 138.6
+    },
+    "downstream": [
+      {
+        "target_id": "AU_sa_ag_gypsum_blender",
+        "corridor_id": "AU_road_sa-ag-gypsum-distribution",
+        "resource": "agricultural gypsum (crushed/screened)",
+        "quantity": 120000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_centennial_gypsum_mine",
+      "AU_penrice_gypsum_operations"
+    ],
+    "resources": [
+      "Gypsum"
+    ]
+  },
+  {
+    "id": "AU_wa_agricultural_gypsum_supply",
+    "name": "Western Australia Agricultural Gypsum Supply",
+    "tier": "chemical_processor",
+    "country_iso2": "AU",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": -31.95,
+      "lon": 115.86
+    },
+    "downstream": [
+      {
+        "target_id": "AU_wa_ag_gypsum_blender",
+        "corridor_id": "AU_road_wa-ag-gypsum-distribution",
+        "resource": "agricultural gypsum (crushed/screened)",
+        "quantity": 120000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_windarling_gypsum"
+    ],
+    "resources": [
+      "Gypsum"
+    ]
+  },
+  {
+    "id": "AU_nsw_agricultural_gypsum_distributor",
+    "name": "NSW Agricultural Gypsum Distributors",
+    "tier": "chemical_processor",
+    "country_iso2": "AU",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": -33.87,
+      "lon": 151.21
+    },
+    "downstream": [
+      {
+        "target_id": "AU_nsw_ag_gypsum_blender",
+        "corridor_id": "AU_road_nsw-ag-gypsum-distribution",
+        "resource": "agricultural gypsum (crushed/screened)",
+        "quantity": 70000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_nsw_ivanhoe_gypsum"
+    ],
+    "resources": [
+      "Gypsum"
+    ]
+  },
+  {
+    "id": "AU_qld_agricultural_gypsum_distributor",
+    "name": "Queensland Agricultural Gypsum Distributors",
+    "tier": "chemical_processor",
+    "country_iso2": "AU",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": -27.47,
+      "lon": 153.03
+    },
+    "downstream": [
+      {
+        "target_id": "AU_qld_ag_gypsum_blender",
+        "corridor_id": "AU_road_qld-ag-gypsum-distribution",
+        "resource": "agricultural gypsum (crushed/screened)",
+        "quantity": 60000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_queensland_gypsum_deposits"
+    ],
+    "resources": [
+      "Gypsum"
+    ]
+  },
+  {
+    "id": "AU_vic_agricultural_gypsum_distributor",
+    "name": "Victoria Agricultural Gypsum Distributors",
+    "tier": "chemical_processor",
+    "country_iso2": "AU",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": -37.81,
+      "lon": 144.96
+    },
+    "downstream": [
+      {
+        "target_id": "AU_vic_ag_gypsum_blender",
+        "corridor_id": "AU_road_vic-ag-gypsum-distribution",
+        "resource": "agricultural gypsum (crushed/screened)",
+        "quantity": 90000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_victoria_gypsum_deposits"
+    ],
+    "resources": [
+      "Gypsum"
+    ]
+  },
+  {
+    "id": "INTL_gypsum_export_customers",
+    "name": "SE Asia / International Gypsum Export Customers",
+    "tier": "chemical_processor",
+    "country_iso2": "INTL",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": -6.2,
+      "lon": 106.85
+    },
+    "downstream": [
+      {
+        "target_id": "INTL_industrial",
+        "corridor_id": "INTL_road_se-asia-industrial",
+        "resource": "natural gypsum rock",
+        "quantity": 50000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_sibelco_gypsum_processing"
+    ],
+    "resources": [
+      "Gypsum"
+    ]
+  },
+  {
+    "id": "AU_boral_plasterboard_distribution",
+    "name": "Boral Plasterboard Distribution Network",
+    "tier": "blender_distributor",
+    "country_iso2": "AU",
+    "canonical_company": "Boral Limited",
+    "coordinates": {
+      "lat": -33.87,
+      "lon": 151.21
+    },
+    "downstream": [
+      {
+        "target_id": "AU_plasterboard_commercial_installers",
+        "corridor_id": "AU_road_plasterboard-last-mile",
+        "resource": "plasterboard (gypsum board)",
+        "quantity": 210000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_plasterboard_residential_installers",
+        "corridor_id": "AU_road_plasterboard-last-mile",
+        "resource": "plasterboard (gypsum board)",
+        "quantity": 90000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_boral_plasterboard_manufacturing"
+    ],
+    "resources": [
+      "Gypsum"
+    ]
+  },
+  {
+    "id": "AU_boral_plaster_products_distribution",
+    "name": "Boral Plaster Products Distribution",
+    "tier": "blender_distributor",
+    "country_iso2": "AU",
+    "canonical_company": "Boral Limited",
+    "coordinates": {
+      "lat": -33.87,
+      "lon": 151.21
+    },
+    "downstream": [
+      {
+        "target_id": "AU_plasterboard_commercial_installers",
+        "corridor_id": "AU_road_plasterboard-last-mile",
+        "resource": "plaster compounds and jointing products",
+        "quantity": 30000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_plasterboard_residential_installers",
+        "corridor_id": "AU_road_plasterboard-last-mile",
+        "resource": "plaster compounds and jointing products",
+        "quantity": 20000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_boral_plasterboard_manufacturing"
+    ],
+    "resources": [
+      "Gypsum"
+    ]
+  },
+  {
+    "id": "AU_knauf_plasterboard_distribution",
+    "name": "Knauf Plasterboard Distribution Network",
+    "tier": "blender_distributor",
+    "country_iso2": "AU",
+    "canonical_company": "Knauf Gips KG",
+    "coordinates": {
+      "lat": -33.87,
+      "lon": 151.21
+    },
+    "downstream": [
+      {
+        "target_id": "AU_plasterboard_commercial_installers",
+        "corridor_id": "AU_road_plasterboard-last-mile",
+        "resource": "plasterboard (gypsum board)",
+        "quantity": 130000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_plasterboard_residential_installers",
+        "corridor_id": "AU_road_plasterboard-last-mile",
+        "resource": "plasterboard (gypsum board)",
+        "quantity": 50000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_knauf_plasterboard_manufacturing"
+    ],
+    "resources": [
+      "Gypsum"
+    ]
+  },
+  {
+    "id": "AU_knauf_plaster_compounds_distribution",
+    "name": "Knauf Plaster Compounds Distribution",
+    "tier": "blender_distributor",
+    "country_iso2": "AU",
+    "canonical_company": "Knauf Gips KG",
+    "coordinates": {
+      "lat": -33.87,
+      "lon": 151.21
+    },
+    "downstream": [
+      {
+        "target_id": "AU_plasterboard_commercial_installers",
+        "corridor_id": "AU_road_plasterboard-last-mile",
+        "resource": "plaster compounds and jointing products",
+        "quantity": 20000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_plasterboard_residential_installers",
+        "corridor_id": "AU_road_plasterboard-last-mile",
+        "resource": "plaster compounds and jointing products",
+        "quantity": 10000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_knauf_plasterboard_manufacturing"
+    ],
+    "resources": [
+      "Gypsum"
+    ]
+  },
+  {
+    "id": "AU_adbri_cement_distribution",
+    "name": "Adbri Cement Distribution Network",
+    "tier": "blender_distributor",
+    "country_iso2": "AU",
+    "canonical_company": "Adbri Limited",
+    "coordinates": {
+      "lat": -34.93,
+      "lon": 138.6
+    },
+    "downstream": [
+      {
+        "target_id": "AU_concrete_ready_mix_applicators",
+        "corridor_id": "AU_road_cement-distribution-national",
+        "resource": "Portland cement (containing gypsum)",
+        "quantity": 100000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_adelaide_brighton_cement"
+    ],
+    "resources": [
+      "Gypsum"
+    ]
+  },
+  {
+    "id": "AU_sibelco_industrial_gypsum_distribution",
+    "name": "Sibelco Industrial Gypsum Distribution",
+    "tier": "blender_distributor",
+    "country_iso2": "AU",
+    "canonical_company": "Sibelco",
+    "coordinates": {
+      "lat": -34.93,
+      "lon": 138.6
+    },
+    "downstream": [
+      {
+        "target_id": "AU_industrial_gypsum_applicators",
+        "corridor_id": "AU_road_industrial-gypsum-distribution",
+        "resource": "processed gypsum powder (industrial grade)",
+        "quantity": 50000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_sibelco_gypsum_processing"
+    ],
+    "resources": [
+      "Gypsum"
+    ]
+  },
+  {
+    "id": "AU_sa_ag_gypsum_blender",
+    "name": "SA Soil Amendment Blenders & Resellers",
+    "tier": "blender_distributor",
+    "country_iso2": "AU",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": -34.93,
+      "lon": 138.6
+    },
+    "downstream": [
+      {
+        "target_id": "AU_sa_farm_applicators",
+        "corridor_id": "AU_road_sa-farm-delivery",
+        "resource": "agricultural gypsum blend",
+        "quantity": 120000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_sa_agricultural_gypsum_distributor"
+    ],
+    "resources": [
+      "Gypsum"
+    ]
+  },
+  {
+    "id": "AU_wa_ag_gypsum_blender",
+    "name": "WA Soil Amendment Blenders & Resellers",
+    "tier": "blender_distributor",
+    "country_iso2": "AU",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": -31.95,
+      "lon": 115.86
+    },
+    "downstream": [
+      {
+        "target_id": "AU_wa_farm_applicators",
+        "corridor_id": "AU_road_wa-farm-delivery",
+        "resource": "agricultural gypsum blend",
+        "quantity": 120000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_wa_agricultural_gypsum_supply"
+    ],
+    "resources": [
+      "Gypsum"
+    ]
+  },
+  {
+    "id": "AU_nsw_ag_gypsum_blender",
+    "name": "NSW Soil Amendment Blenders & Resellers",
+    "tier": "blender_distributor",
+    "country_iso2": "AU",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": -33.87,
+      "lon": 151.21
+    },
+    "downstream": [
+      {
+        "target_id": "AU_nsw_farm_applicators",
+        "corridor_id": "AU_road_nsw-farm-delivery",
+        "resource": "agricultural gypsum blend",
+        "quantity": 70000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_nsw_agricultural_gypsum_distributor"
+    ],
+    "resources": [
+      "Gypsum"
+    ]
+  },
+  {
+    "id": "AU_qld_ag_gypsum_blender",
+    "name": "QLD Soil Amendment Blenders & Resellers",
+    "tier": "blender_distributor",
+    "country_iso2": "AU",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": -27.47,
+      "lon": 153.03
+    },
+    "downstream": [
+      {
+        "target_id": "AU_qld_farm_applicators",
+        "corridor_id": "AU_road_qld-farm-delivery",
+        "resource": "agricultural gypsum blend",
+        "quantity": 60000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_qld_agricultural_gypsum_distributor"
+    ],
+    "resources": [
+      "Gypsum"
+    ]
+  },
+  {
+    "id": "AU_vic_ag_gypsum_blender",
+    "name": "VIC Soil Amendment Blenders & Resellers",
+    "tier": "blender_distributor",
+    "country_iso2": "AU",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": -37.81,
+      "lon": 144.96
+    },
+    "downstream": [
+      {
+        "target_id": "AU_vic_farm_applicators",
+        "corridor_id": "AU_road_vic-farm-delivery",
+        "resource": "agricultural gypsum blend",
+        "quantity": 90000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_vic_agricultural_gypsum_distributor"
+    ],
+    "resources": [
+      "Gypsum"
+    ]
+  },
+  {
+    "id": "AU_plasterboard_commercial_installers",
+    "name": "Commercial Plasterboard Installers (Australia-wide)",
+    "tier": "applicator",
+    "country_iso2": "AU",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": -33.87,
+      "lon": 151.21
+    },
+    "downstream": [
+      {
+        "target_id": "AU_commercial",
+        "corridor_id": "AU_road_site-delivery-commercial",
+        "resource": "installed plasterboard systems",
+        "quantity": 390000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_boral_plasterboard_distribution",
+      "AU_boral_plaster_products_distribution",
+      "AU_knauf_plasterboard_distribution",
+      "AU_knauf_plaster_compounds_distribution"
+    ],
+    "resources": [
+      "Gypsum"
+    ]
+  },
+  {
+    "id": "AU_plasterboard_residential_installers",
+    "name": "Residential Plasterboard Installers (Australia-wide)",
+    "tier": "applicator",
+    "country_iso2": "AU",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": -33.87,
+      "lon": 151.21
+    },
+    "downstream": [
+      {
+        "target_id": "AU_residential",
+        "corridor_id": "AU_road_site-delivery-residential",
+        "resource": "installed plasterboard systems",
+        "quantity": 170000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_boral_plasterboard_distribution",
+      "AU_boral_plaster_products_distribution",
+      "AU_knauf_plasterboard_distribution",
+      "AU_knauf_plaster_compounds_distribution"
+    ],
+    "resources": [
+      "Gypsum"
+    ]
+  },
+  {
+    "id": "AU_concrete_ready_mix_applicators",
+    "name": "Ready-Mix Concrete / Construction Applicators",
+    "tier": "applicator",
+    "country_iso2": "AU",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": -33.87,
+      "lon": 151.21
+    },
+    "downstream": [
+      {
+        "target_id": "AU_infrastructure",
+        "corridor_id": "AU_road_cement-site-delivery",
+        "resource": "concrete containing cement (gypsum as retarder)",
+        "quantity": 70000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_commercial",
+        "corridor_id": "AU_road_cement-site-delivery",
+        "resource": "concrete containing cement (gypsum as retarder)",
+        "quantity": 30000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_adbri_cement_distribution"
+    ],
+    "resources": [
+      "Gypsum"
+    ]
+  },
+  {
+    "id": "AU_industrial_gypsum_applicators",
+    "name": "Industrial Gypsum End-Users (Ceramics, Moulds, Other)",
+    "tier": "applicator",
+    "country_iso2": "AU",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": -33.87,
+      "lon": 151.21
+    },
+    "downstream": [
+      {
+        "target_id": "AU_industrial",
+        "corridor_id": "AU_road_industrial-delivery",
+        "resource": "processed gypsum powder",
+        "quantity": 50000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_sibelco_industrial_gypsum_distribution"
+    ],
+    "resources": [
+      "Gypsum"
+    ]
+  },
+  {
+    "id": "AU_sa_farm_applicators",
+    "name": "SA Broadacre Farm Gypsum Applicators",
+    "tier": "applicator",
+    "country_iso2": "AU",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": -34.5,
+      "lon": 138.8
+    },
+    "downstream": [
+      {
+        "target_id": "AU_agricultural",
+        "corridor_id": "AU_road_sa-farm-spreading",
+        "resource": "agricultural gypsum (soil amendment)",
+        "quantity": 120000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_sa_ag_gypsum_blender"
+    ],
+    "resources": [
+      "Gypsum"
+    ]
+  },
+  {
+    "id": "AU_nsw_farm_applicators",
+    "name": "NSW Broadacre Farm Gypsum Applicators",
+    "tier": "applicator",
+    "country_iso2": "AU",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": -33.5,
+      "lon": 148
+    },
+    "downstream": [
+      {
+        "target_id": "AU_agricultural",
+        "corridor_id": "AU_road_nsw-farm-spreading",
+        "resource": "agricultural gypsum (soil amendment)",
+        "quantity": 70000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_nsw_ag_gypsum_blender"
+    ],
+    "resources": [
+      "Gypsum"
+    ]
+  },
+  {
+    "id": "AU_rail_lake-macdonnell-adelaide",
+    "tier": "transport",
+    "name": "Rail: Lake MacDonnell to Adelaide / Port Augusta corridor",
+    "country_iso2": "AU",
+    "operator_id": "AU_genesee_wyoming",
+    "mode": "rail",
+    "form": "bulk_dry",
+    "range": "regional",
+    "coordinates": {
+      "lat": -32.5,
+      "lon": 134
+    }
+  },
+  {
+    "id": "AU_road_lake-macdonnell-thevenard",
+    "tier": "transport",
+    "name": "Road: Lake MacDonnell to Thevenard Port",
+    "country_iso2": "AU",
+    "operator_id": "AU_local_haulage",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "local",
+    "coordinates": {
+      "lat": -31.8,
+      "lon": 132.1
+    }
+  },
+  {
+    "id": "AU_rail_goldfields-perth",
+    "tier": "transport",
+    "name": "Rail: Goldfields to Perth metro",
+    "country_iso2": "AU",
+    "operator_id": "AU_aurizon",
+    "mode": "rail",
+    "form": "bulk_dry",
+    "range": "regional",
+    "coordinates": {
+      "lat": -31.5,
+      "lon": 118.5
+    }
+  },
+  {
+    "id": "AU_road_yilgarn-perth",
+    "tier": "transport",
+    "name": "Road: Yilgarn region to Perth distribution",
+    "country_iso2": "AU",
+    "operator_id": "AU_local_haulage",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "regional",
+    "coordinates": {
+      "lat": -31.3,
+      "lon": 117.5
+    }
+  },
+  {
+    "id": "AU_road_centennial-adelaide",
+    "tier": "transport",
+    "name": "Road: Centennial deposits to Adelaide",
+    "country_iso2": "AU",
+    "operator_id": "AU_local_haulage",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "regional",
+    "coordinates": {
+      "lat": -33.5,
+      "lon": 138.2
+    }
+  },
+  {
+    "id": "AU_road_penrice-adelaide",
+    "tier": "transport",
+    "name": "Road: Penrice / Murray Basin to Adelaide",
+    "country_iso2": "AU",
+    "operator_id": "AU_local_haulage",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "regional",
+    "coordinates": {
+      "lat": -34.5,
+      "lon": 139.5
+    }
+  },
+  {
+    "id": "AU_road_ivanhoe-sydney",
+    "tier": "transport",
+    "name": "Road: Ivanhoe / Central NSW to Sydney and regional NSW",
+    "country_iso2": "AU",
+    "operator_id": "AU_local_haulage",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "regional",
+    "coordinates": {
+      "lat": -33.4,
+      "lon": 147.5
+    }
+  },
+  {
+    "id": "AU_road_hughenden-townsville",
+    "tier": "transport",
+    "name": "Road: Hughenden / Winton region to Townsville / Brisbane",
+    "country_iso2": "AU",
+    "operator_id": "AU_local_haulage",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "regional",
+    "coordinates": {
+      "lat": -20.5,
+      "lon": 145.5
+    }
+  },
+  {
+    "id": "AU_road_wimmera-melbourne",
+    "tier": "transport",
+    "name": "Road: Wimmera / Western VIC to Melbourne",
+    "country_iso2": "AU",
+    "operator_id": "AU_local_haulage",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "regional",
+    "coordinates": {
+      "lat": -37,
+      "lon": 143
+    }
+  },
+  {
+    "id": "AU_road_boral-national-distribution",
+    "tier": "transport",
+    "name": "Road: Boral national plasterboard distribution network",
+    "country_iso2": "AU",
+    "operator_id": "AU_boral_logistics",
+    "mode": "road",
+    "form": "unit_load",
+    "range": "regional",
+    "coordinates": {
+      "lat": -33.87,
+      "lon": 151.21
+    }
+  },
+  {
+    "id": "AU_road_knauf-national-distribution",
+    "tier": "transport",
+    "name": "Road: Knauf national plasterboard distribution network",
+    "country_iso2": "AU",
+    "operator_id": "AU_knauf_logistics",
+    "mode": "road",
+    "form": "unit_load",
+    "range": "regional",
+    "coordinates": {
+      "lat": -33.87,
+      "lon": 151.21
+    }
+  },
+  {
+    "id": "AU_road_adbri-national-distribution",
+    "tier": "transport",
+    "name": "Road: Adbri cement national distribution",
+    "country_iso2": "AU",
+    "operator_id": "AU_adbri_logistics",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "regional",
+    "coordinates": {
+      "lat": -34.93,
+      "lon": 138.6
+    }
+  },
+  {
+    "id": "AU_road_thevenard-adelaide",
+    "tier": "transport",
+    "name": "Road: Thevenard to Adelaide industrial customers",
+    "country_iso2": "AU",
+    "operator_id": "AU_local_haulage",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "regional",
+    "coordinates": {
+      "lat": -33.5,
+      "lon": 135.5
+    }
+  },
+  {
+    "id": "INTL_ocean_thevenard-se-asia",
+    "tier": "transport",
+    "name": "Ocean: Thevenard (SA) to Southeast Asia ports",
+    "country_iso2": "INTL",
+    "operator_id": "INTL_bulk_shipping",
+    "mode": "ocean_freight",
+    "form": "bulk_dry",
+    "range": "international",
+    "coordinates": {
+      "lat": -20,
+      "lon": 120
+    }
+  },
+  {
+    "id": "AU_road_sa-ag-gypsum-distribution",
+    "tier": "transport",
+    "name": "Road: SA agricultural gypsum distribution",
+    "country_iso2": "AU",
+    "operator_id": "AU_local_haulage",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "regional",
+    "coordinates": {
+      "lat": -34.5,
+      "lon": 138.6
+    }
+  },
+  {
+    "id": "AU_road_wa-ag-gypsum-distribution",
+    "tier": "transport",
+    "name": "Road: WA agricultural gypsum distribution",
+    "country_iso2": "AU",
+    "operator_id": "AU_local_haulage",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "regional",
+    "coordinates": {
+      "lat": -31.95,
+      "lon": 115.86
+    }
+  },
+  {
+    "id": "AU_road_nsw-ag-gypsum-distribution",
+    "tier": "transport",
+    "name": "Road: NSW agricultural gypsum distribution",
+    "country_iso2": "AU",
+    "operator_id": "AU_local_haulage",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "regional",
+    "coordinates": {
+      "lat": -33.87,
+      "lon": 151.21
+    }
+  },
+  {
+    "id": "AU_road_qld-ag-gypsum-distribution",
+    "tier": "transport",
+    "name": "Road: QLD agricultural gypsum distribution",
+    "country_iso2": "AU",
+    "operator_id": "AU_local_haulage",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "regional",
+    "coordinates": {
+      "lat": -27.47,
+      "lon": 153.03
+    }
+  },
+  {
+    "id": "AU_road_vic-ag-gypsum-distribution",
+    "tier": "transport",
+    "name": "Road: VIC agricultural gypsum distribution",
+    "country_iso2": "AU",
+    "operator_id": "AU_local_haulage",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "regional",
+    "coordinates": {
+      "lat": -37.81,
+      "lon": 144.96
+    }
+  },
+  {
+    "id": "AU_road_industrial-gypsum-distribution",
+    "tier": "transport",
+    "name": "Road: Industrial gypsum distribution national",
+    "country_iso2": "AU",
+    "operator_id": "AU_local_haulage",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "regional",
+    "coordinates": {
+      "lat": -33.87,
+      "lon": 151.21
+    }
+  },
+  {
+    "id": "AU_road_plasterboard-last-mile",
+    "tier": "transport",
+    "name": "Road: Plasterboard last-mile delivery to merchants / sites",
+    "country_iso2": "AU",
+    "operator_id": "AU_local_haulage",
+    "mode": "road",
+    "form": "unit_load",
+    "range": "local",
+    "coordinates": {
+      "lat": -33.87,
+      "lon": 151.21
+    }
+  },
+  {
+    "id": "AU_road_cement-distribution-national",
+    "tier": "transport",
+    "name": "Road: Cement distribution to batch plants",
+    "country_iso2": "AU",
+    "operator_id": "AU_adbri_logistics",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "regional",
+    "coordinates": {
+      "lat": -34.93,
+      "lon": 138.6
+    }
+  },
+  {
+    "id": "AU_road_sa-farm-delivery",
+    "tier": "transport",
+    "name": "Road: SA farm gypsum delivery",
+    "country_iso2": "AU",
+    "operator_id": "AU_local_haulage",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "local",
+    "coordinates": {
+      "lat": -34.5,
+      "lon": 138.8
+    }
+  },
+  {
+    "id": "AU_road_wa-farm-delivery",
+    "tier": "transport",
+    "name": "Road: WA farm gypsum delivery",
+    "country_iso2": "AU",
+    "operator_id": "AU_local_haulage",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "local",
+    "coordinates": {
+      "lat": -32,
+      "lon": 117
+    }
+  },
+  {
+    "id": "AU_road_nsw-farm-delivery",
+    "tier": "transport",
+    "name": "Road: NSW farm gypsum delivery",
+    "country_iso2": "AU",
+    "operator_id": "AU_local_haulage",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "local",
+    "coordinates": {
+      "lat": -33.5,
+      "lon": 148
+    }
+  },
+  {
+    "id": "AU_road_qld-farm-delivery",
+    "tier": "transport",
+    "name": "Road: QLD farm gypsum delivery",
+    "country_iso2": "AU",
+    "operator_id": "AU_local_haulage",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "local",
+    "coordinates": {
+      "lat": -24,
+      "lon": 150
+    }
+  },
+  {
+    "id": "AU_road_vic-farm-delivery",
+    "tier": "transport",
+    "name": "Road: VIC farm gypsum delivery",
+    "country_iso2": "AU",
+    "operator_id": "AU_local_haulage",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "local",
+    "coordinates": {
+      "lat": -37,
+      "lon": 144
+    }
+  },
+  {
+    "id": "AU_road_site-delivery-commercial",
+    "tier": "transport",
+    "name": "Road: Commercial construction site delivery",
+    "country_iso2": "AU",
+    "operator_id": "AU_local_haulage",
+    "mode": "road",
+    "form": "unit_load",
+    "range": "local",
+    "coordinates": {
+      "lat": -33.87,
+      "lon": 151.21
+    }
+  },
+  {
+    "id": "AU_road_site-delivery-residential",
+    "tier": "transport",
+    "name": "Road: Residential construction site delivery",
+    "country_iso2": "AU",
+    "operator_id": "AU_local_haulage",
+    "mode": "road",
+    "form": "unit_load",
+    "range": "local",
+    "coordinates": {
+      "lat": -33.87,
+      "lon": 151.21
+    }
+  },
+  {
+    "id": "AU_road_cement-site-delivery",
+    "tier": "transport",
+    "name": "Road: Cement / ready-mix concrete site delivery",
+    "country_iso2": "AU",
+    "operator_id": "AU_local_haulage",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "local",
+    "coordinates": {
+      "lat": -33.87,
+      "lon": 151.21
+    }
+  },
+  {
+    "id": "AU_road_industrial-delivery",
+    "tier": "transport",
+    "name": "Road: Industrial gypsum end-user delivery",
+    "country_iso2": "AU",
+    "operator_id": "AU_local_haulage",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "local",
+    "coordinates": {
+      "lat": -33.87,
+      "lon": 151.21
+    }
+  },
+  {
+    "id": "AU_road_sa-farm-spreading",
+    "tier": "transport",
+    "name": "Road: SA on-farm gypsum spreading",
+    "country_iso2": "AU",
+    "operator_id": "AU_local_haulage",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "local",
+    "coordinates": {
+      "lat": -34.5,
+      "lon": 138.8
+    }
+  },
+  {
+    "id": "AU_road_wa-farm-spreading",
+    "tier": "transport",
+    "name": "Road: WA on-farm gypsum spreading",
+    "country_iso2": "AU",
+    "operator_id": "AU_local_haulage",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "local",
+    "coordinates": {
+      "lat": -32,
+      "lon": 117
+    }
+  },
+  {
+    "id": "AU_road_nsw-farm-spreading",
+    "tier": "transport",
+    "name": "Road: NSW on-farm gypsum spreading",
+    "country_iso2": "AU",
+    "operator_id": "AU_local_haulage",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "local",
+    "coordinates": {
+      "lat": -33.5,
+      "lon": 148
+    }
+  },
+  {
+    "id": "AU_road_qld-farm-spreading",
+    "tier": "transport",
+    "name": "Road: QLD on-farm gypsum spreading",
+    "country_iso2": "AU",
+    "operator_id": "AU_local_haulage",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "local",
+    "coordinates": {
+      "lat": -24,
+      "lon": 150
+    }
+  },
+  {
+    "id": "AU_road_vic-farm-spreading",
+    "tier": "transport",
+    "name": "Road: VIC on-farm gypsum spreading",
+    "country_iso2": "AU",
+    "operator_id": "AU_local_haulage",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "local",
+    "coordinates": {
+      "lat": -37,
+      "lon": 144
+    }
+  },
+  {
+    "id": "INTL_road_se-asia-industrial",
+    "tier": "transport",
+    "name": "Road: SE Asia industrial delivery",
+    "country_iso2": "INTL",
+    "operator_id": "INTL_local_haulage",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "local",
+    "coordinates": {
+      "lat": -6.2,
+      "lon": 106.85
+    }
+  }
+]

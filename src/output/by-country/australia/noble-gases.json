@@ -1,0 +1,1351 @@
+[
+  {
+    "id": "AU_air_liquide_kooragang_asu",
+    "name": "Air Liquide Kooragang Island ASU",
+    "tier": "separation_capture",
+    "country_iso2": "AU",
+    "canonical_company": "Air Liquide",
+    "coordinates": {
+      "lat": -32.8685,
+      "lon": 151.758
+    },
+    "downstream": [
+      {
+        "target_id": "AU_air_liquide_kooragang_purifier",
+        "corridor_id": "AU_pipeline_kooragang-industrial",
+        "resource": "crude argon and mixed noble gas stream (argon, neon, krypton, xenon)",
+        "quantity": 3500,
+        "metric": "t"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Noble Gases"
+    ]
+  },
+  {
+    "id": "AU_linde_brisbane_asu",
+    "name": "Linde Brisbane / Pinkenba ASU",
+    "tier": "separation_capture",
+    "country_iso2": "AU",
+    "canonical_company": "Linde plc",
+    "coordinates": {
+      "lat": -27.4275,
+      "lon": 153.1167
+    },
+    "downstream": [
+      {
+        "target_id": "AU_linde_brisbane_purifier",
+        "corridor_id": "AU_pipeline_pinkenba-industrial",
+        "resource": "crude argon and mixed noble gas stream (argon, neon, krypton, xenon)",
+        "quantity": 2500,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_linde_brisbane_purifier",
+        "corridor_id": "AU_pipeline_brisbane-pinkenba",
+        "resource": "gaseous oxygen",
+        "quantity": 40000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_linde_brisbane_lox",
+        "corridor_id": "AU_pipeline_brisbane-lox",
+        "resource": "liquid oxygen (LOX)",
+        "quantity": 35000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Noble Gases",
+      "Oxygen"
+    ]
+  },
+  {
+    "id": "AU_linde_adelaide_asu",
+    "name": "Linde Adelaide / Gillman ASU",
+    "tier": "separation_capture",
+    "country_iso2": "AU",
+    "canonical_company": "Linde plc",
+    "coordinates": {
+      "lat": -34.8321,
+      "lon": 138.546
+    },
+    "downstream": [
+      {
+        "target_id": "AU_linde_adelaide_purifier",
+        "corridor_id": "AU_pipeline_gillman-industrial",
+        "resource": "crude argon and mixed noble gas stream (argon, neon, krypton, xenon)",
+        "quantity": 1500,
+        "metric": "t"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Noble Gases"
+    ]
+  },
+  {
+    "id": "AU_air_liquide_kooragang_purifier",
+    "name": "Air Liquide Kooragang Purification & Liquefaction",
+    "tier": "purifier_liquefier",
+    "country_iso2": "AU",
+    "canonical_company": "Air Liquide",
+    "coordinates": {
+      "lat": -32.869,
+      "lon": 151.7585
+    },
+    "downstream": [
+      {
+        "target_id": "AU_air_liquide_newcastle_dist",
+        "corridor_id": "AU_road_kooragang-newcastle",
+        "resource": "liquid argon (high purity), neon/krypton/xenon mix",
+        "quantity": 3500,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_air_liquide_kooragang_asu"
+    ],
+    "resources": [
+      "Noble Gases"
+    ]
+  },
+  {
+    "id": "AU_linde_brisbane_purifier",
+    "name": "Linde Brisbane Purification & Liquefaction",
+    "tier": "purifier_liquefier",
+    "country_iso2": "AU",
+    "canonical_company": "Linde plc",
+    "coordinates": {
+      "lat": -27.428,
+      "lon": 153.1172
+    },
+    "downstream": [
+      {
+        "target_id": "AU_linde_brisbane_dist",
+        "corridor_id": "AU_road_pinkenba-brisbane",
+        "resource": "liquid argon (high purity), neon/krypton/xenon concentrate",
+        "quantity": 2500,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_linde_qld_distributor",
+        "corridor_id": "AU_road_brisbane-local",
+        "resource": "high-purity gaseous oxygen",
+        "quantity": 40000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_linde_brisbane_asu"
+    ],
+    "resources": [
+      "Noble Gases",
+      "Oxygen"
+    ]
+  },
+  {
+    "id": "AU_linde_adelaide_purifier",
+    "name": "Linde Adelaide / Gillman Purification & Liquefaction",
+    "tier": "purifier_liquefier",
+    "country_iso2": "AU",
+    "canonical_company": "Linde plc",
+    "coordinates": {
+      "lat": -34.8325,
+      "lon": 138.5465
+    },
+    "downstream": [
+      {
+        "target_id": "AU_linde_adelaide_dist",
+        "corridor_id": "AU_road_gillman-adelaide",
+        "resource": "liquid argon (high purity), neon/krypton/xenon concentrate",
+        "quantity": 1500,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_linde_adelaide_asu"
+    ],
+    "resources": [
+      "Noble Gases"
+    ]
+  },
+  {
+    "id": "AU_linde_perth_dist",
+    "name": "Linde Gas Western Australia Distribution Hub",
+    "tier": "distributor",
+    "country_iso2": "AU",
+    "canonical_company": "Linde plc",
+    "coordinates": {
+      "lat": -31.9505,
+      "lon": 115.8605
+    },
+    "downstream": [
+      {
+        "target_id": "AU_welding_wa",
+        "corridor_id": "AU_road_perth-metro-delivery",
+        "resource": "argon cylinders and bulk liquid argon",
+        "quantity": 2400,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_linde_export_fremantle",
+        "corridor_id": "AU_road_perth-fremantle",
+        "resource": "liquid argon, compressed neon/krypton/xenon cylinders",
+        "quantity": 1800,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_linde_kwinana_purifier"
+    ],
+    "resources": [
+      "Noble Gases"
+    ]
+  },
+  {
+    "id": "AU_supagas_perth_dist",
+    "name": "Supagas Perth Distribution",
+    "tier": "distributor",
+    "country_iso2": "AU",
+    "canonical_company": "Coregas (Supagas)",
+    "coordinates": {
+      "lat": -31.944,
+      "lon": 115.962
+    },
+    "downstream": [
+      {
+        "target_id": "AU_welding_wa",
+        "corridor_id": "AU_road_perth-metro-delivery",
+        "resource": "argon cylinders (shielding gas blends)",
+        "quantity": 300,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_linde_kwinana_purifier"
+    ],
+    "resources": [
+      "Noble Gases"
+    ]
+  },
+  {
+    "id": "AU_air_liquide_perth_dist",
+    "name": "Air Liquide Perth Distribution Hub",
+    "tier": "distributor",
+    "country_iso2": "AU",
+    "canonical_company": "Air Liquide",
+    "coordinates": {
+      "lat": -31.96,
+      "lon": 115.87
+    },
+    "downstream": [
+      {
+        "target_id": "AU_welding_wa",
+        "corridor_id": "AU_road_perth-metro-delivery",
+        "resource": "argon cylinders and bulk liquid argon",
+        "quantity": 1500,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_mining_services_wa",
+        "corridor_id": "AU_road_perth-pilbara",
+        "resource": "bulk liquid argon, specialty gas cylinders",
+        "quantity": 1000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_air_liquide_export_fremantle",
+        "corridor_id": "AU_road_perth-fremantle",
+        "resource": "liquid argon, neon/krypton/xenon cylinders for export",
+        "quantity": 500,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_air_liquide_kwinana_purifier"
+    ],
+    "resources": [
+      "Noble Gases"
+    ]
+  },
+  {
+    "id": "AU_air_liquide_melbourne_dist",
+    "name": "Air Liquide Melbourne Distribution Hub",
+    "tier": "distributor",
+    "country_iso2": "AU",
+    "canonical_company": "Air Liquide",
+    "coordinates": {
+      "lat": -37.8136,
+      "lon": 144.9631
+    },
+    "downstream": [
+      {
+        "target_id": "AU_welding_vic",
+        "corridor_id": "AU_road_melbourne-metro-delivery",
+        "resource": "argon cylinders and bulk liquid argon",
+        "quantity": 2800,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_semiconductor_vic",
+        "corridor_id": "AU_road_melbourne-metro-delivery",
+        "resource": "ultra-high-purity argon, neon, krypton, xenon cylinders",
+        "quantity": 100,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_medical_vic",
+        "corridor_id": "AU_road_melbourne-metro-delivery",
+        "resource": "medical-grade xenon and argon",
+        "quantity": 20,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_air_liquide_export_melbourne",
+        "corridor_id": "AU_road_melbourne-port",
+        "resource": "liquid argon, neon/krypton/xenon for export",
+        "quantity": 1780,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_air_liquide_melbourne_purifier"
+    ],
+    "resources": [
+      "Noble Gases"
+    ]
+  },
+  {
+    "id": "AU_supagas_melbourne_dist",
+    "name": "Supagas Melbourne Distribution",
+    "tier": "distributor",
+    "country_iso2": "AU",
+    "canonical_company": "Coregas (Supagas)",
+    "coordinates": {
+      "lat": -37.82,
+      "lon": 144.95
+    },
+    "downstream": [
+      {
+        "target_id": "AU_welding_vic",
+        "corridor_id": "AU_road_melbourne-metro-delivery",
+        "resource": "argon shielding gas cylinders",
+        "quantity": 300,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_air_liquide_melbourne_purifier"
+    ],
+    "resources": [
+      "Noble Gases"
+    ]
+  },
+  {
+    "id": "AU_air_liquide_newcastle_dist",
+    "name": "Air Liquide Newcastle / Hunter Distribution",
+    "tier": "distributor",
+    "country_iso2": "AU",
+    "canonical_company": "Air Liquide",
+    "coordinates": {
+      "lat": -32.9283,
+      "lon": 151.7817
+    },
+    "downstream": [
+      {
+        "target_id": "AU_welding_nsw",
+        "corridor_id": "AU_road_newcastle-sydney-corridor",
+        "resource": "argon cylinders and bulk liquid argon",
+        "quantity": 2200,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_steelworks_nsw",
+        "corridor_id": "AU_road_kooragang-local",
+        "resource": "bulk liquid argon for steel refining",
+        "quantity": 800,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_air_liquide_export_sydney",
+        "corridor_id": "AU_road_newcastle-sydney-corridor",
+        "resource": "neon/krypton/xenon cylinders for export",
+        "quantity": 500,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_air_liquide_kooragang_purifier"
+    ],
+    "resources": [
+      "Noble Gases"
+    ]
+  },
+  {
+    "id": "AU_linde_brisbane_dist",
+    "name": "Linde Brisbane Distribution Hub",
+    "tier": "distributor",
+    "country_iso2": "AU",
+    "canonical_company": "Linde plc",
+    "coordinates": {
+      "lat": -27.4698,
+      "lon": 153.0251
+    },
+    "downstream": [
+      {
+        "target_id": "AU_welding_qld",
+        "corridor_id": "AU_road_brisbane-metro-delivery",
+        "resource": "argon cylinders and bulk liquid argon",
+        "quantity": 1600,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_mining_services_qld",
+        "corridor_id": "AU_road_brisbane-north-qld",
+        "resource": "bulk liquid argon, specialty gas packs",
+        "quantity": 600,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_linde_export_brisbane",
+        "corridor_id": "AU_road_brisbane-port",
+        "resource": "liquid argon, compressed noble gas cylinders for export",
+        "quantity": 300,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_linde_brisbane_purifier"
+    ],
+    "resources": [
+      "Noble Gases"
+    ]
+  },
+  {
+    "id": "AU_coregas_sydney_dist",
+    "name": "Coregas Sydney Distribution Hub",
+    "tier": "distributor",
+    "country_iso2": "AU",
+    "canonical_company": "Coregas (Supagas)",
+    "coordinates": {
+      "lat": -33.8688,
+      "lon": 151.2093
+    },
+    "downstream": [
+      {
+        "target_id": "AU_welding_nsw",
+        "corridor_id": "AU_road_sydney-metro-delivery",
+        "resource": "argon cylinders and bulk liquid argon",
+        "quantity": 1300,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_laboratory_nsw",
+        "corridor_id": "AU_road_sydney-metro-delivery",
+        "resource": "high-purity argon, neon, krypton, xenon cylinders",
+        "quantity": 50,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_coregas_export_sydney",
+        "corridor_id": "AU_road_sydney-port-botany",
+        "resource": "compressed noble gas cylinders for re-export",
+        "quantity": 450,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_coregas_sydney_purifier"
+    ],
+    "resources": [
+      "Noble Gases"
+    ]
+  },
+  {
+    "id": "AU_linde_adelaide_dist",
+    "name": "Linde Adelaide Distribution Hub",
+    "tier": "distributor",
+    "country_iso2": "AU",
+    "canonical_company": "Linde plc",
+    "coordinates": {
+      "lat": -34.9285,
+      "lon": 138.6007
+    },
+    "downstream": [
+      {
+        "target_id": "AU_welding_sa",
+        "corridor_id": "AU_road_adelaide-metro-delivery",
+        "resource": "argon cylinders and bulk liquid argon",
+        "quantity": 1000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_defence_sa",
+        "corridor_id": "AU_road_adelaide-metro-delivery",
+        "resource": "high-purity argon for welding (ASC shipyard), specialty noble gases",
+        "quantity": 400,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_linde_export_adelaide",
+        "corridor_id": "AU_road_adelaide-outer-harbor",
+        "resource": "liquid argon for export",
+        "quantity": 100,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_linde_adelaide_purifier"
+    ],
+    "resources": [
+      "Noble Gases"
+    ]
+  },
+  {
+    "id": "AU_welding_wa",
+    "name": "Welding & Fabrication End Users — Western Australia",
+    "tier": "point_of_use",
+    "country_iso2": "AU",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": -31.95,
+      "lon": 115.86
+    },
+    "downstream": [
+      {
+        "target_id": "AU_industrial",
+        "corridor_id": "AU_road_perth-metro-delivery",
+        "resource": "argon shielding gas consumed in metal fabrication and manufacturing",
+        "quantity": 4200,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_linde_perth_dist",
+      "AU_supagas_perth_dist",
+      "AU_air_liquide_perth_dist"
+    ],
+    "resources": [
+      "Noble Gases"
+    ]
+  },
+  {
+    "id": "AU_mining_services_wa",
+    "name": "Mining & Resources End Users — Western Australia",
+    "tier": "point_of_use",
+    "country_iso2": "AU",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": -23.36,
+      "lon": 119.73
+    },
+    "downstream": [
+      {
+        "target_id": "AU_industrial",
+        "corridor_id": "AU_road_perth-pilbara",
+        "resource": "argon and specialty gases consumed on mine sites",
+        "quantity": 1000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_air_liquide_perth_dist"
+    ],
+    "resources": [
+      "Noble Gases"
+    ]
+  },
+  {
+    "id": "AU_welding_vic",
+    "name": "Welding & Fabrication End Users — Victoria",
+    "tier": "point_of_use",
+    "country_iso2": "AU",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": -37.81,
+      "lon": 144.96
+    },
+    "downstream": [
+      {
+        "target_id": "AU_industrial",
+        "corridor_id": "AU_road_melbourne-metro-delivery",
+        "resource": "argon shielding gas consumed in metal fabrication and manufacturing",
+        "quantity": 3100,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_air_liquide_melbourne_dist",
+      "AU_supagas_melbourne_dist"
+    ],
+    "resources": [
+      "Noble Gases"
+    ]
+  },
+  {
+    "id": "AU_semiconductor_vic",
+    "name": "Semiconductor & Electronics End Users — Victoria",
+    "tier": "point_of_use",
+    "country_iso2": "AU",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": -37.82,
+      "lon": 145
+    },
+    "downstream": [
+      {
+        "target_id": "AU_industrial",
+        "corridor_id": "AU_road_melbourne-metro-delivery",
+        "resource": "ultra-high-purity argon, neon, krypton, xenon consumed in cleanrooms and laser/optics R&D",
+        "quantity": 100,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_air_liquide_melbourne_dist"
+    ],
+    "resources": [
+      "Noble Gases"
+    ]
+  },
+  {
+    "id": "AU_medical_vic",
+    "name": "Medical & Research End Users — Victoria",
+    "tier": "point_of_use",
+    "country_iso2": "AU",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": -37.8,
+      "lon": 144.96
+    },
+    "downstream": [
+      {
+        "target_id": "AU_institutional",
+        "corridor_id": "AU_road_melbourne-metro-delivery",
+        "resource": "medical-grade xenon (anaesthesia, neuroprotection) and research argon",
+        "quantity": 20,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_air_liquide_melbourne_dist"
+    ],
+    "resources": [
+      "Noble Gases"
+    ]
+  },
+  {
+    "id": "AU_welding_nsw",
+    "name": "Welding & Fabrication End Users — New South Wales",
+    "tier": "point_of_use",
+    "country_iso2": "AU",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": -33.87,
+      "lon": 151.21
+    },
+    "downstream": [
+      {
+        "target_id": "AU_industrial",
+        "corridor_id": "AU_road_sydney-metro-delivery",
+        "resource": "argon shielding gas consumed in metal fabrication",
+        "quantity": 3500,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_air_liquide_newcastle_dist",
+      "AU_coregas_sydney_dist"
+    ],
+    "resources": [
+      "Noble Gases"
+    ]
+  },
+  {
+    "id": "AU_steelworks_nsw",
+    "name": "Steelworks & Heavy Industry — Hunter Valley / Illawarra",
+    "tier": "point_of_use",
+    "country_iso2": "AU",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": -32.93,
+      "lon": 151.78
+    },
+    "downstream": [
+      {
+        "target_id": "AU_industrial",
+        "corridor_id": "AU_road_kooragang-local",
+        "resource": "bulk argon consumed in steel refining (AOD, ladle metallurgy)",
+        "quantity": 800,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_air_liquide_newcastle_dist"
+    ],
+    "resources": [
+      "Noble Gases"
+    ]
+  },
+  {
+    "id": "AU_laboratory_nsw",
+    "name": "Laboratory & Research End Users — NSW",
+    "tier": "point_of_use",
+    "country_iso2": "AU",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": -33.87,
+      "lon": 151.19
+    },
+    "downstream": [
+      {
+        "target_id": "AU_institutional",
+        "corridor_id": "AU_road_sydney-metro-delivery",
+        "resource": "high-purity argon, neon, krypton, xenon for laboratory and research use",
+        "quantity": 50,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_coregas_sydney_dist"
+    ],
+    "resources": [
+      "Noble Gases"
+    ]
+  },
+  {
+    "id": "AU_welding_qld",
+    "name": "Welding & Fabrication End Users — Queensland",
+    "tier": "point_of_use",
+    "country_iso2": "AU",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": -27.47,
+      "lon": 153.03
+    },
+    "downstream": [
+      {
+        "target_id": "AU_industrial",
+        "corridor_id": "AU_road_brisbane-metro-delivery",
+        "resource": "argon shielding gas consumed in metal fabrication",
+        "quantity": 1600,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_linde_brisbane_dist"
+    ],
+    "resources": [
+      "Noble Gases"
+    ]
+  },
+  {
+    "id": "AU_mining_services_qld",
+    "name": "Mining & Resources End Users — Queensland",
+    "tier": "point_of_use",
+    "country_iso2": "AU",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": -21.15,
+      "lon": 149.18
+    },
+    "downstream": [
+      {
+        "target_id": "AU_industrial",
+        "corridor_id": "AU_road_brisbane-north-qld",
+        "resource": "argon and specialty gases consumed on mine sites",
+        "quantity": 600,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_linde_brisbane_dist"
+    ],
+    "resources": [
+      "Noble Gases"
+    ]
+  },
+  {
+    "id": "AU_welding_sa",
+    "name": "Welding & Fabrication End Users — South Australia",
+    "tier": "point_of_use",
+    "country_iso2": "AU",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": -34.93,
+      "lon": 138.6
+    },
+    "downstream": [
+      {
+        "target_id": "AU_industrial",
+        "corridor_id": "AU_road_adelaide-metro-delivery",
+        "resource": "argon shielding gas consumed in metal fabrication",
+        "quantity": 1000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_linde_adelaide_dist"
+    ],
+    "resources": [
+      "Noble Gases"
+    ]
+  },
+  {
+    "id": "AU_defence_sa",
+    "name": "Defence & Shipbuilding End Users — South Australia",
+    "tier": "point_of_use",
+    "country_iso2": "AU",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": -34.79,
+      "lon": 138.5
+    },
+    "downstream": [
+      {
+        "target_id": "AU_government",
+        "corridor_id": "AU_road_adelaide-metro-delivery",
+        "resource": "high-purity argon for TIG/MIG welding of naval vessels, specialty noble gases",
+        "quantity": 400,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_linde_adelaide_dist"
+    ],
+    "resources": [
+      "Noble Gases"
+    ]
+  },
+  {
+    "id": "AU_linde_export_fremantle",
+    "name": "Linde Fremantle Export Terminal",
+    "tier": "point_of_use",
+    "country_iso2": "AU",
+    "canonical_company": "Linde plc",
+    "coordinates": {
+      "lat": -32.0569,
+      "lon": 115.744
+    },
+    "downstream": [
+      {
+        "target_id": "INTL_industrial",
+        "corridor_id": "INTL_ocean_fremantle-singapore",
+        "resource": "liquid argon, compressed neon/krypton/xenon isotank and cylinder exports",
+        "quantity": 1800,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_linde_perth_dist"
+    ],
+    "resources": [
+      "Noble Gases"
+    ]
+  },
+  {
+    "id": "AU_air_liquide_export_fremantle",
+    "name": "Air Liquide Fremantle Export Consolidation",
+    "tier": "point_of_use",
+    "country_iso2": "AU",
+    "canonical_company": "Air Liquide",
+    "coordinates": {
+      "lat": -32.056,
+      "lon": 115.743
+    },
+    "downstream": [
+      {
+        "target_id": "INTL_industrial",
+        "corridor_id": "INTL_ocean_fremantle-singapore",
+        "resource": "liquid argon, neon/krypton/xenon cylinders for SE Asia",
+        "quantity": 500,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_air_liquide_perth_dist"
+    ],
+    "resources": [
+      "Noble Gases"
+    ]
+  },
+  {
+    "id": "AU_air_liquide_export_melbourne",
+    "name": "Air Liquide Melbourne Port Export",
+    "tier": "point_of_use",
+    "country_iso2": "AU",
+    "canonical_company": "Air Liquide",
+    "coordinates": {
+      "lat": -37.829,
+      "lon": 144.912
+    },
+    "downstream": [
+      {
+        "target_id": "INTL_industrial",
+        "corridor_id": "INTL_ocean_melbourne-busan",
+        "resource": "liquid argon, neon, krypton, xenon exports to NE Asia",
+        "quantity": 1780,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_air_liquide_melbourne_dist"
+    ],
+    "resources": [
+      "Noble Gases"
+    ]
+  },
+  {
+    "id": "AU_air_liquide_export_sydney",
+    "name": "Air Liquide Sydney Port Botany Export",
+    "tier": "point_of_use",
+    "country_iso2": "AU",
+    "canonical_company": "Air Liquide",
+    "coordinates": {
+      "lat": -33.979,
+      "lon": 151.222
+    },
+    "downstream": [
+      {
+        "target_id": "INTL_industrial",
+        "corridor_id": "INTL_ocean_sydney-yokohama",
+        "resource": "compressed neon/krypton/xenon cylinders for Japan/Korea semiconductor industry",
+        "quantity": 500,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_air_liquide_newcastle_dist"
+    ],
+    "resources": [
+      "Noble Gases"
+    ]
+  },
+  {
+    "id": "AU_coregas_export_sydney",
+    "name": "Coregas Sydney Port Botany Export",
+    "tier": "point_of_use",
+    "country_iso2": "AU",
+    "canonical_company": "Coregas (Supagas)",
+    "coordinates": {
+      "lat": -33.9792,
+      "lon": 151.2225
+    },
+    "downstream": [
+      {
+        "target_id": "INTL_industrial",
+        "corridor_id": "INTL_ocean_sydney-yokohama",
+        "resource": "compressed noble gas cylinders for re-export",
+        "quantity": 450,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_coregas_sydney_dist"
+    ],
+    "resources": [
+      "Noble Gases"
+    ]
+  },
+  {
+    "id": "AU_linde_export_brisbane",
+    "name": "Linde Brisbane Port Export",
+    "tier": "point_of_use",
+    "country_iso2": "AU",
+    "canonical_company": "Linde plc",
+    "coordinates": {
+      "lat": -27.375,
+      "lon": 153.17
+    },
+    "downstream": [
+      {
+        "target_id": "INTL_industrial",
+        "corridor_id": "INTL_ocean_brisbane-kaohsiung",
+        "resource": "liquid argon, compressed noble gas cylinders for Taiwan/SE Asia",
+        "quantity": 300,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_linde_brisbane_dist"
+    ],
+    "resources": [
+      "Noble Gases"
+    ]
+  },
+  {
+    "id": "AU_linde_export_adelaide",
+    "name": "Linde Adelaide Outer Harbor Export",
+    "tier": "point_of_use",
+    "country_iso2": "AU",
+    "canonical_company": "Linde plc",
+    "coordinates": {
+      "lat": -34.78,
+      "lon": 138.49
+    },
+    "downstream": [
+      {
+        "target_id": "INTL_industrial",
+        "corridor_id": "INTL_ocean_adelaide-singapore",
+        "resource": "liquid argon for export",
+        "quantity": 100,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_linde_adelaide_dist"
+    ],
+    "resources": [
+      "Noble Gases"
+    ]
+  },
+  {
+    "id": "AU_pipeline_kwinana-industrial",
+    "tier": "transport",
+    "name": "Kwinana Industrial Pipeline (Linde)",
+    "country_iso2": "AU",
+    "operator_id": "AU_linde",
+    "mode": "pipeline",
+    "form": "gas",
+    "range": "local",
+    "coordinates": {
+      "lat": -32.237,
+      "lon": 115.772
+    },
+    "resources": [
+      "Oxygen"
+    ],
+    "upstream": [],
+    "downstream": []
+  },
+  {
+    "id": "AU_pipeline_altona-industrial",
+    "tier": "transport",
+    "name": "Altona Industrial Pipeline (Air Liquide)",
+    "country_iso2": "AU",
+    "operator_id": "AU_air_liquide",
+    "mode": "pipeline",
+    "form": "gas",
+    "range": "local",
+    "coordinates": {
+      "lat": -37.868,
+      "lon": 144.831
+    },
+    "resources": [
+      "Oxygen"
+    ],
+    "upstream": [],
+    "downstream": []
+  },
+  {
+    "id": "AU_pipeline_kooragang-industrial",
+    "tier": "transport",
+    "name": "Kooragang Island Industrial Pipeline",
+    "country_iso2": "AU",
+    "operator_id": "AU_air_liquide",
+    "mode": "pipeline",
+    "form": "gas",
+    "range": "local",
+    "coordinates": {
+      "lat": -32.869,
+      "lon": 151.758
+    }
+  },
+  {
+    "id": "AU_pipeline_pinkenba-industrial",
+    "tier": "transport",
+    "name": "Pinkenba Industrial Pipeline (Linde)",
+    "country_iso2": "AU",
+    "operator_id": "AU_linde",
+    "mode": "pipeline",
+    "form": "gas",
+    "range": "local",
+    "coordinates": {
+      "lat": -27.428,
+      "lon": 153.117
+    }
+  },
+  {
+    "id": "AU_pipeline_wetherill-park-local",
+    "tier": "transport",
+    "name": "Wetherill Park Local Pipeline (Coregas)",
+    "country_iso2": "AU",
+    "operator_id": "AU_coregas",
+    "mode": "pipeline",
+    "form": "gas",
+    "range": "local",
+    "coordinates": {
+      "lat": -33.846,
+      "lon": 150.904
+    }
+  },
+  {
+    "id": "AU_pipeline_gillman-industrial",
+    "tier": "transport",
+    "name": "Gillman Industrial Pipeline (Linde)",
+    "country_iso2": "AU",
+    "operator_id": "AU_linde",
+    "mode": "pipeline",
+    "form": "gas",
+    "range": "local",
+    "coordinates": {
+      "lat": -34.832,
+      "lon": 138.546
+    }
+  },
+  {
+    "id": "AU_pipeline_kwinana-al-industrial",
+    "tier": "transport",
+    "name": "Kwinana Industrial Pipeline (Air Liquide)",
+    "country_iso2": "AU",
+    "operator_id": "AU_air_liquide",
+    "mode": "pipeline",
+    "form": "gas",
+    "range": "local",
+    "coordinates": {
+      "lat": -32.241,
+      "lon": 115.77
+    }
+  },
+  {
+    "id": "AU_pipeline_kwinana-alcoa",
+    "tier": "transport",
+    "name": "Kwinana to Alcoa Refinery Pipeline",
+    "country_iso2": "AU",
+    "operator_id": "AU_air_liquide",
+    "mode": "pipeline",
+    "form": "gas",
+    "range": "local",
+    "coordinates": {
+      "lat": -32.24,
+      "lon": 115.771
+    }
+  },
+  {
+    "id": "AU_road_kooragang-newcastle",
+    "tier": "transport",
+    "name": "Kooragang to Newcastle / Hunter Region Road Transport",
+    "country_iso2": "AU",
+    "operator_id": "AU_air_liquide",
+    "mode": "road",
+    "form": "bulk_liquid",
+    "range": "regional",
+    "coordinates": {
+      "lat": -32.9,
+      "lon": 151.77
+    }
+  },
+  {
+    "id": "AU_road_pinkenba-brisbane",
+    "tier": "transport",
+    "name": "Pinkenba to Brisbane Metro Road Transport",
+    "country_iso2": "AU",
+    "operator_id": "AU_linde",
+    "mode": "road",
+    "form": "bulk_liquid",
+    "range": "regional",
+    "coordinates": {
+      "lat": -27.45,
+      "lon": 153.07
+    }
+  },
+  {
+    "id": "AU_road_wetherill-park-sydney",
+    "tier": "transport",
+    "name": "Wetherill Park to Sydney Metro Road Transport",
+    "country_iso2": "AU",
+    "operator_id": "AU_coregas",
+    "mode": "road",
+    "form": "bulk_liquid",
+    "range": "regional",
+    "coordinates": {
+      "lat": -33.86,
+      "lon": 151
+    }
+  },
+  {
+    "id": "AU_road_gillman-adelaide",
+    "tier": "transport",
+    "name": "Gillman to Adelaide Metro Road Transport",
+    "country_iso2": "AU",
+    "operator_id": "AU_linde",
+    "mode": "road",
+    "form": "bulk_liquid",
+    "range": "regional",
+    "coordinates": {
+      "lat": -34.88,
+      "lon": 138.57
+    }
+  },
+  {
+    "id": "AU_road_perth-fremantle",
+    "tier": "transport",
+    "name": "Perth to Fremantle Port Road Haulage",
+    "country_iso2": "AU",
+    "operator_id": "AU_linde",
+    "mode": "road",
+    "form": "containerised",
+    "range": "local",
+    "coordinates": {
+      "lat": -32,
+      "lon": 115.8
+    }
+  },
+  {
+    "id": "AU_road_perth-pilbara",
+    "tier": "transport",
+    "name": "Perth to Pilbara Long-Haul Road Transport",
+    "country_iso2": "AU",
+    "operator_id": "AU_air_liquide",
+    "mode": "road",
+    "form": "bulk_liquid",
+    "range": "regional",
+    "coordinates": {
+      "lat": -27,
+      "lon": 117.8
+    }
+  },
+  {
+    "id": "AU_road_melbourne-port",
+    "tier": "transport",
+    "name": "Melbourne to Port of Melbourne Road Haulage",
+    "country_iso2": "AU",
+    "operator_id": "AU_air_liquide",
+    "mode": "road",
+    "form": "containerised",
+    "range": "local",
+    "coordinates": {
+      "lat": -37.83,
+      "lon": 144.92
+    }
+  },
+  {
+    "id": "AU_road_newcastle-sydney-corridor",
+    "tier": "transport",
+    "name": "Newcastle to Sydney M1 Road Corridor",
+    "country_iso2": "AU",
+    "operator_id": "AU_air_liquide",
+    "mode": "road",
+    "form": "bulk_liquid",
+    "range": "regional",
+    "coordinates": {
+      "lat": -33.4,
+      "lon": 151.5
+    }
+  },
+  {
+    "id": "AU_road_kooragang-local",
+    "tier": "transport",
+    "name": "Kooragang Island Local Delivery",
+    "country_iso2": "AU",
+    "operator_id": "AU_air_liquide",
+    "mode": "road",
+    "form": "bulk_liquid",
+    "range": "local",
+    "coordinates": {
+      "lat": -32.87,
+      "lon": 151.76
+    }
+  },
+  {
+    "id": "AU_road_sydney-port-botany",
+    "tier": "transport",
+    "name": "Sydney to Port Botany Road Haulage",
+    "country_iso2": "AU",
+    "operator_id": "AU_coregas",
+    "mode": "road",
+    "form": "containerised",
+    "range": "local",
+    "coordinates": {
+      "lat": -33.98,
+      "lon": 151.22
+    }
+  },
+  {
+    "id": "AU_road_brisbane-north-qld",
+    "tier": "transport",
+    "name": "Brisbane to North Queensland Long-Haul Road Transport",
+    "country_iso2": "AU",
+    "operator_id": "AU_linde",
+    "mode": "road",
+    "form": "bulk_liquid",
+    "range": "regional",
+    "coordinates": {
+      "lat": -24.3,
+      "lon": 151.1
+    }
+  },
+  {
+    "id": "AU_road_brisbane-port",
+    "tier": "transport",
+    "name": "Brisbane to Port of Brisbane Road Haulage",
+    "country_iso2": "AU",
+    "operator_id": "AU_linde",
+    "mode": "road",
+    "form": "containerised",
+    "range": "local",
+    "coordinates": {
+      "lat": -27.38,
+      "lon": 153.17
+    }
+  },
+  {
+    "id": "AU_road_adelaide-outer-harbor",
+    "tier": "transport",
+    "name": "Adelaide to Outer Harbor Road Haulage",
+    "country_iso2": "AU",
+    "operator_id": "AU_linde",
+    "mode": "road",
+    "form": "containerised",
+    "range": "local",
+    "coordinates": {
+      "lat": -34.78,
+      "lon": 138.49
+    }
+  },
+  {
+    "id": "INTL_ocean_melbourne-busan",
+    "tier": "transport",
+    "name": "Ocean Freight Melbourne → Busan",
+    "country_iso2": "INTL",
+    "operator_id": "INTL_maersk",
+    "mode": "ocean_freight",
+    "form": "containerised",
+    "range": "international",
+    "coordinates": {
+      "lat": -10,
+      "lon": 140
+    }
+  },
+  {
+    "id": "INTL_ocean_sydney-yokohama",
+    "tier": "transport",
+    "name": "Ocean Freight Sydney → Yokohama",
+    "country_iso2": "INTL",
+    "operator_id": "INTL_msc",
+    "mode": "ocean_freight",
+    "form": "containerised",
+    "range": "international",
+    "coordinates": {
+      "lat": -15,
+      "lon": 155
+    }
+  },
+  {
+    "id": "INTL_ocean_adelaide-singapore",
+    "tier": "transport",
+    "name": "Ocean Freight Adelaide → Singapore",
+    "country_iso2": "INTL",
+    "operator_id": "INTL_maersk",
+    "mode": "ocean_freight",
+    "form": "containerised",
+    "range": "international",
+    "coordinates": {
+      "lat": -22,
+      "lon": 115
+    }
+  }
+]

@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>ChainLink — Supply Chain Globe</title>
+  <script src="/search-data.js"></script>
+  <script src="/cesium/Cesium.js"></script>
+  <link href="/cesium/Widgets/widgets.css" rel="stylesheet">
+  <link href="/styles.css" rel="stylesheet">
+</head>
+<body>
+
+<div id="cesiumContainer"></div>
+
+<div id="search-panel">
+  <div>
+    <div class="sp-title">Country</div>
+    <div class="sp-search-wrap">
+      <input id="country-input" class="sp-input" type="text" placeholder="Search countries…" autocomplete="off">
+      <div id="country-dropdown" class="sp-dropdown"></div>
+    </div>
+  </div>
+  <div>
+    <div class="sp-title">Resource</div>
+    <div class="sp-search-wrap">
+      <input id="resource-input" class="sp-input" type="text" placeholder="Search resources…" autocomplete="off">
+      <div id="resource-dropdown" class="sp-dropdown"></div>
+    </div>
+  </div>
+  <div class="sp-btn-row">
+    <button id="highlight-btn" class="sp-btn primary">Highlight</button>
+    <button id="clear-btn" class="sp-btn secondary">Clear</button>
+  </div>
+  <div id="highlight-status"></div>
+</div>
+
+<div id="insights-panel">
+  <div class="sp-title">Graph Insights</div>
+  <button class="insight-btn" data-analysis="betweenness">Betweenness Centrality</button>
+  <button class="insight-btn" data-analysis="pagerank">PageRank</button>
+  <button class="insight-btn" data-analysis="louvain">Louvain Communities</button>
+  <button class="insight-btn" data-analysis="degree">Degree Centrality</button>
+  <div id="insight-status"></div>
+</div>
+
+<div id="panel" class="hidden">
+  <button id="panel-close" title="Close">&times;</button>
+  <div id="panel-header">
+    <div id="panel-tier"></div>
+    <div id="panel-name"></div>
+    <div id="panel-meta"></div>
+  </div>
+  <div id="panel-body">
+    <div id="panel-content"></div>
+  </div>
+</div>
+
+<div id="legend">
+  <div class="legend-title">Node Type</div>
+  <div class="legend-row"><div class="legend-dot" style="background:#f97316"></div>Extraction</div>
+  <div class="legend-row"><div class="legend-dot" style="background:#a78bfa"></div>Delivery</div>
+  <div class="legend-row"><div class="legend-diamond"></div>Transport</div>
+</div>
+
+<div id="empty-state">
+  <h2>No output data found</h2>
+  <p>Run the orchestrator first to generate supply chain data.</p>
+</div>
+
+<script src="/app.js"></script>
+</body>
+</html>

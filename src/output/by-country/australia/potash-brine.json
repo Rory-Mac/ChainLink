@@ -1,0 +1,888 @@
+[
+  {
+    "id": "AU_kalium_lakes_beyondie",
+    "name": "Kalium Lakes Beyondie SOP Project",
+    "tier": "extraction",
+    "country_iso2": "AU",
+    "canonical_company": "Kalium Lakes",
+    "coordinates": {
+      "lat": -25.55,
+      "lon": 120.75
+    },
+    "downstream": [
+      {
+        "target_id": "AU_kalium_lakes_processing",
+        "corridor_id": "AU_road_beyondie-wiluna",
+        "resource": "potassium-rich brine concentrate",
+        "quantity": 90000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Potash (brine)"
+    ]
+  },
+  {
+    "id": "AU_agrimin_lake_mackay",
+    "name": "Agrimin Lake Mackay SOP Project",
+    "tier": "extraction",
+    "country_iso2": "AU",
+    "canonical_company": "Agrimin",
+    "coordinates": {
+      "lat": -22.45,
+      "lon": 128.9
+    },
+    "downstream": [
+      {
+        "target_id": "AU_agrimin_processing",
+        "corridor_id": "AU_road_lake-mackay-processing",
+        "resource": "potassium-rich brine concentrate",
+        "quantity": 50000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Potash (brine)"
+    ]
+  },
+  {
+    "id": "AU_australian_potash_lake_wells",
+    "name": "Australian Potash Lake Wells SOP Project",
+    "tier": "extraction",
+    "country_iso2": "AU",
+    "canonical_company": "Australian Potash",
+    "coordinates": {
+      "lat": -27,
+      "lon": 122.4
+    },
+    "downstream": [
+      {
+        "target_id": "AU_australian_potash_processing",
+        "corridor_id": "AU_road_lake-wells-processing",
+        "resource": "potassium-rich brine concentrate",
+        "quantity": 75000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Potash (brine)"
+    ]
+  },
+  {
+    "id": "AU_reward_minerals_lake_disappointment",
+    "name": "Reward Minerals Lake Disappointment SOP Project",
+    "tier": "extraction",
+    "country_iso2": "AU",
+    "canonical_company": "Reward Minerals",
+    "coordinates": {
+      "lat": -23.5,
+      "lon": 122.7
+    },
+    "downstream": [
+      {
+        "target_id": "AU_reward_minerals_processing",
+        "corridor_id": "AU_road_lake-disappointment-processing",
+        "resource": "potassium-rich brine concentrate",
+        "quantity": 50000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Potash (brine)"
+    ]
+  },
+  {
+    "id": "AU_kalium_lakes_processing",
+    "name": "Kalium Lakes Beyondie SOP Processing Plant",
+    "tier": "chemical_processor",
+    "country_iso2": "AU",
+    "canonical_company": "Kalium Lakes",
+    "coordinates": {
+      "lat": -25.55,
+      "lon": 120.76
+    },
+    "downstream": [
+      {
+        "target_id": "AU_elders_limited",
+        "corridor_id": "AU_road_beyondie-perth",
+        "resource": "sulphate of potash (SOP) granular",
+        "quantity": 40000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_nutrien_australia",
+        "corridor_id": "AU_road_beyondie-perth",
+        "resource": "sulphate of potash (SOP) granular",
+        "quantity": 30000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_csbp_fertilisers",
+        "corridor_id": "AU_road_beyondie-kwinana",
+        "resource": "sulphate of potash (SOP) granular",
+        "quantity": 20000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_kalium_lakes_beyondie"
+    ],
+    "resources": [
+      "Potash (brine)"
+    ]
+  },
+  {
+    "id": "AU_agrimin_processing",
+    "name": "Agrimin Lake Mackay SOP Processing Plant",
+    "tier": "chemical_processor",
+    "country_iso2": "AU",
+    "canonical_company": "Agrimin",
+    "coordinates": {
+      "lat": -22.44,
+      "lon": 128.91
+    },
+    "downstream": [
+      {
+        "target_id": "AU_nutrien_australia",
+        "corridor_id": "AU_road_lake-mackay-alice-springs",
+        "resource": "sulphate of potash (SOP) granular",
+        "quantity": 25000,
+        "metric": "t"
+      },
+      {
+        "target_id": "INTL_ocean_darwin-southeast-asia",
+        "corridor_id": "AU_road_lake-mackay-darwin",
+        "resource": "sulphate of potash (SOP) granular",
+        "quantity": 25000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_agrimin_lake_mackay"
+    ],
+    "resources": [
+      "Potash (brine)"
+    ]
+  },
+  {
+    "id": "AU_australian_potash_processing",
+    "name": "Australian Potash Lake Wells SOP Processing Plant",
+    "tier": "chemical_processor",
+    "country_iso2": "AU",
+    "canonical_company": "Australian Potash",
+    "coordinates": {
+      "lat": -26.99,
+      "lon": 122.41
+    },
+    "downstream": [
+      {
+        "target_id": "AU_elders_limited",
+        "corridor_id": "AU_road_lake-wells-perth",
+        "resource": "sulphate of potash (SOP) granular",
+        "quantity": 35000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_incitec_pivot",
+        "corridor_id": "AU_road_lake-wells-adelaide",
+        "resource": "sulphate of potash (SOP) granular",
+        "quantity": 20000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_export_hub_kwinana",
+        "corridor_id": "AU_road_lake-wells-kwinana",
+        "resource": "sulphate of potash (SOP) granular",
+        "quantity": 20000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_australian_potash_lake_wells"
+    ],
+    "resources": [
+      "Potash (brine)"
+    ]
+  },
+  {
+    "id": "AU_reward_minerals_processing",
+    "name": "Reward Minerals Lake Disappointment SOP Processing Plant",
+    "tier": "chemical_processor",
+    "country_iso2": "AU",
+    "canonical_company": "Reward Minerals",
+    "coordinates": {
+      "lat": -23.49,
+      "lon": 122.71
+    },
+    "downstream": [
+      {
+        "target_id": "AU_nutrien_australia",
+        "corridor_id": "AU_road_lake-disappointment-perth",
+        "resource": "sulphate of potash (SOP) granular",
+        "quantity": 25000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_csbp_fertilisers",
+        "corridor_id": "AU_road_lake-disappointment-kwinana",
+        "resource": "sulphate of potash (SOP) granular",
+        "quantity": 25000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_reward_minerals_lake_disappointment"
+    ],
+    "resources": [
+      "Potash (brine)"
+    ]
+  },
+  {
+    "id": "AU_export_hub_kwinana",
+    "name": "Kwinana Bulk Terminal Export Hub",
+    "tier": "chemical_processor",
+    "country_iso2": "AU",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": -32.23,
+      "lon": 115.77
+    },
+    "downstream": [
+      {
+        "target_id": "INTL_se_asia_sop_importers",
+        "corridor_id": "INTL_ocean_kwinana-southeast-asia",
+        "resource": "sulphate of potash (SOP) granular",
+        "quantity": 20000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_australian_potash_processing"
+    ],
+    "resources": [
+      "Potash (brine)"
+    ]
+  },
+  {
+    "id": "INTL_se_asia_sop_importers",
+    "name": "Southeast Asian SOP Blenders & Importers",
+    "tier": "blender_distributor",
+    "country_iso2": "INTL",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": 1.29,
+      "lon": 103.85
+    },
+    "downstream": [
+      {
+        "target_id": "INTL_agricultural",
+        "corridor_id": "INTL_road_se-asia-distribution",
+        "resource": "blended potash fertiliser (SOP-based)",
+        "quantity": 20000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_export_hub_kwinana"
+    ],
+    "resources": [
+      "Potash (brine)"
+    ]
+  },
+  {
+    "id": "AU_elders_limited",
+    "name": "Elders Limited — Fertiliser Distribution",
+    "tier": "blender_distributor",
+    "country_iso2": "AU",
+    "canonical_company": "Elders Limited",
+    "coordinates": {
+      "lat": -34.93,
+      "lon": 138.6
+    },
+    "downstream": [
+      {
+        "target_id": "AU_broadacre_applicators",
+        "corridor_id": "AU_road_elders-national-distribution",
+        "resource": "blended SOP fertiliser products",
+        "quantity": 50000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_horticulture_applicators",
+        "corridor_id": "AU_road_elders-regional-distribution",
+        "resource": "blended SOP fertiliser products",
+        "quantity": 25000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_kalium_lakes_processing",
+      "AU_australian_potash_processing"
+    ],
+    "resources": [
+      "Potash (brine)"
+    ]
+  },
+  {
+    "id": "AU_nutrien_australia",
+    "name": "Nutrien Ag Solutions Australia",
+    "tier": "blender_distributor",
+    "country_iso2": "AU",
+    "canonical_company": "Nutrien",
+    "coordinates": {
+      "lat": -37.81,
+      "lon": 144.96
+    },
+    "downstream": [
+      {
+        "target_id": "AU_broadacre_applicators",
+        "corridor_id": "AU_road_nutrien-national-distribution",
+        "resource": "blended SOP fertiliser products",
+        "quantity": 50000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_horticulture_applicators",
+        "corridor_id": "AU_road_nutrien-regional-distribution",
+        "resource": "blended SOP fertiliser products",
+        "quantity": 30000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_kalium_lakes_processing",
+      "AU_agrimin_processing",
+      "AU_reward_minerals_processing"
+    ],
+    "resources": [
+      "Potash (brine)"
+    ]
+  },
+  {
+    "id": "AU_incitec_pivot",
+    "name": "Incitec Pivot Fertilisers",
+    "tier": "blender_distributor",
+    "country_iso2": "AU",
+    "canonical_company": "Incitec Pivot",
+    "coordinates": {
+      "lat": -27.47,
+      "lon": 153.03
+    },
+    "downstream": [
+      {
+        "target_id": "AU_broadacre_applicators",
+        "corridor_id": "AU_road_incitec-east-distribution",
+        "resource": "blended SOP fertiliser products",
+        "quantity": 15000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_horticulture_applicators",
+        "corridor_id": "AU_road_incitec-regional-distribution",
+        "resource": "blended SOP fertiliser products",
+        "quantity": 5000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_agricultural",
+        "corridor_id": "AU_road_melbourne-rural",
+        "resource": "talc-based agricultural carrier products",
+        "quantity": 4500,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_australian_potash_processing",
+      "AU_imerys_three_springs_mill",
+      "AU_talc_resources_leigh_creek_mill"
+    ],
+    "resources": [
+      "Potash (brine)",
+      "Talc"
+    ]
+  },
+  {
+    "id": "AU_csbp_fertilisers",
+    "name": "CSBP Fertilisers (Wesfarmers)",
+    "tier": "blender_distributor",
+    "country_iso2": "AU",
+    "canonical_company": "CSBP",
+    "coordinates": {
+      "lat": -32.23,
+      "lon": 115.77
+    },
+    "downstream": [
+      {
+        "target_id": "AU_broadacre_applicators",
+        "corridor_id": "AU_road_csbp-wa-distribution",
+        "resource": "blended SOP fertiliser products",
+        "quantity": 30000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_horticulture_applicators",
+        "corridor_id": "AU_road_csbp-wa-regional",
+        "resource": "blended SOP fertiliser products",
+        "quantity": 15000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_kalium_lakes_processing",
+      "AU_reward_minerals_processing"
+    ],
+    "resources": [
+      "Potash (brine)"
+    ]
+  },
+  {
+    "id": "AU_broadacre_applicators",
+    "name": "Australian Broadacre Farming Applicators",
+    "tier": "applicator",
+    "country_iso2": "AU",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": -31.95,
+      "lon": 115.86
+    },
+    "downstream": [
+      {
+        "target_id": "AU_agricultural",
+        "corridor_id": "AU_road_farm-gate-broadacre",
+        "resource": "applied SOP fertiliser — broadacre crops (wheat, canola, barley)",
+        "quantity": 115000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_elders_limited",
+      "AU_nutrien_australia",
+      "AU_incitec_pivot",
+      "AU_csbp_fertilisers"
+    ],
+    "resources": [
+      "Potash (brine)"
+    ]
+  },
+  {
+    "id": "AU_horticulture_applicators",
+    "name": "Australian Horticulture & Viticulture Applicators",
+    "tier": "applicator",
+    "country_iso2": "AU",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": -34.75,
+      "lon": 138.63
+    },
+    "downstream": [
+      {
+        "target_id": "AU_agricultural",
+        "corridor_id": "AU_road_farm-gate-horticulture",
+        "resource": "applied SOP fertiliser — horticulture (grapes, fruits, vegetables)",
+        "quantity": 75000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_elders_limited",
+      "AU_nutrien_australia",
+      "AU_incitec_pivot",
+      "AU_csbp_fertilisers"
+    ],
+    "resources": [
+      "Potash (brine)"
+    ]
+  },
+  {
+    "id": "INTL_se_asia_applicators",
+    "name": "Southeast Asian Agricultural Applicators",
+    "tier": "applicator",
+    "country_iso2": "INTL",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": 3.14,
+      "lon": 101.69
+    },
+    "downstream": [
+      {
+        "target_id": "INTL_agricultural",
+        "corridor_id": "INTL_road_se-asia-farm-gate",
+        "resource": "applied SOP fertiliser — palm oil, rubber, tropical horticulture",
+        "quantity": 20000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Potash (brine)"
+    ]
+  },
+  {
+    "id": "AU_road_beyondie-wiluna",
+    "tier": "transport",
+    "name": "Beyondie to Wiluna Road Haulage",
+    "country_iso2": "AU",
+    "operator_id": "AU_centurion_transport",
+    "mode": "road",
+    "form": "bulk_liquid",
+    "range": "local",
+    "coordinates": {
+      "lat": -26.1,
+      "lon": 120.5
+    }
+  },
+  {
+    "id": "AU_road_beyondie-perth",
+    "tier": "transport",
+    "name": "Beyondie SOP Plant to Perth / WA Distribution",
+    "country_iso2": "AU",
+    "operator_id": "AU_centurion_transport",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "regional",
+    "coordinates": {
+      "lat": -29,
+      "lon": 118.5
+    }
+  },
+  {
+    "id": "AU_road_beyondie-kwinana",
+    "tier": "transport",
+    "name": "Beyondie SOP Plant to Kwinana Bulk Terminal",
+    "country_iso2": "AU",
+    "operator_id": "AU_centurion_transport",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "regional",
+    "coordinates": {
+      "lat": -29.5,
+      "lon": 118
+    }
+  },
+  {
+    "id": "AU_road_lake-mackay-processing",
+    "tier": "transport",
+    "name": "Lake Mackay Brine Ponds to On-Site Processing",
+    "country_iso2": "AU",
+    "operator_id": "AU_agrimin",
+    "mode": "conveyor",
+    "form": "bulk_liquid",
+    "range": "local",
+    "coordinates": {
+      "lat": -22.45,
+      "lon": 128.9
+    }
+  },
+  {
+    "id": "AU_road_lake-mackay-alice-springs",
+    "tier": "transport",
+    "name": "Lake Mackay to Alice Springs / Interstate Haulage",
+    "country_iso2": "AU",
+    "operator_id": "AU_toll_group",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "regional",
+    "coordinates": {
+      "lat": -23.5,
+      "lon": 131
+    }
+  },
+  {
+    "id": "AU_road_lake-mackay-darwin",
+    "tier": "transport",
+    "name": "Lake Mackay to Darwin Port Road/Rail",
+    "country_iso2": "AU",
+    "operator_id": "AU_toll_group",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "regional",
+    "coordinates": {
+      "lat": -17,
+      "lon": 130.5
+    }
+  },
+  {
+    "id": "INTL_ocean_darwin-southeast-asia",
+    "tier": "transport",
+    "name": "Darwin to Southeast Asia Ocean Freight",
+    "country_iso2": "INTL",
+    "operator_id": "INTL_swire_shipping",
+    "mode": "ocean_freight",
+    "form": "bulk_dry",
+    "range": "international",
+    "coordinates": {
+      "lat": -8,
+      "lon": 120
+    }
+  },
+  {
+    "id": "AU_road_lake-wells-processing",
+    "tier": "transport",
+    "name": "Lake Wells Brine Ponds to On-Site Processing",
+    "country_iso2": "AU",
+    "operator_id": "AU_australian_potash",
+    "mode": "conveyor",
+    "form": "bulk_liquid",
+    "range": "local",
+    "coordinates": {
+      "lat": -27,
+      "lon": 122.4
+    }
+  },
+  {
+    "id": "AU_road_lake-wells-perth",
+    "tier": "transport",
+    "name": "Lake Wells to Perth / WA Distribution",
+    "country_iso2": "AU",
+    "operator_id": "AU_centurion_transport",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "regional",
+    "coordinates": {
+      "lat": -30,
+      "lon": 120
+    }
+  },
+  {
+    "id": "AU_road_lake-wells-adelaide",
+    "tier": "transport",
+    "name": "Lake Wells to Adelaide Distribution",
+    "country_iso2": "AU",
+    "operator_id": "AU_toll_group",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "regional",
+    "coordinates": {
+      "lat": -31,
+      "lon": 130
+    }
+  },
+  {
+    "id": "AU_road_lake-wells-kwinana",
+    "tier": "transport",
+    "name": "Lake Wells to Kwinana Port",
+    "country_iso2": "AU",
+    "operator_id": "AU_centurion_transport",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "regional",
+    "coordinates": {
+      "lat": -30.5,
+      "lon": 119
+    }
+  },
+  {
+    "id": "AU_road_lake-disappointment-processing",
+    "tier": "transport",
+    "name": "Lake Disappointment Brine Ponds to On-Site Processing",
+    "country_iso2": "AU",
+    "operator_id": "AU_reward_minerals",
+    "mode": "conveyor",
+    "form": "bulk_liquid",
+    "range": "local",
+    "coordinates": {
+      "lat": -23.5,
+      "lon": 122.7
+    }
+  },
+  {
+    "id": "AU_road_lake-disappointment-perth",
+    "tier": "transport",
+    "name": "Lake Disappointment to Perth / WA Distribution",
+    "country_iso2": "AU",
+    "operator_id": "AU_centurion_transport",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "regional",
+    "coordinates": {
+      "lat": -28,
+      "lon": 120
+    }
+  },
+  {
+    "id": "AU_road_lake-disappointment-kwinana",
+    "tier": "transport",
+    "name": "Lake Disappointment to Kwinana Distribution",
+    "country_iso2": "AU",
+    "operator_id": "AU_centurion_transport",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "regional",
+    "coordinates": {
+      "lat": -28.5,
+      "lon": 119.5
+    }
+  },
+  {
+    "id": "INTL_ocean_kwinana-southeast-asia",
+    "tier": "transport",
+    "name": "Kwinana to Southeast Asia Ocean Freight",
+    "country_iso2": "INTL",
+    "operator_id": "INTL_swire_shipping",
+    "mode": "ocean_freight",
+    "form": "bulk_dry",
+    "range": "international",
+    "coordinates": {
+      "lat": -15,
+      "lon": 112
+    }
+  },
+  {
+    "id": "AU_road_elders-national-distribution",
+    "tier": "transport",
+    "name": "Elders National Road Distribution Network",
+    "country_iso2": "AU",
+    "operator_id": "AU_elders_limited",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "regional",
+    "coordinates": {
+      "lat": -33,
+      "lon": 135
+    }
+  },
+  {
+    "id": "AU_road_elders-regional-distribution",
+    "tier": "transport",
+    "name": "Elders Regional Road Distribution",
+    "country_iso2": "AU",
+    "operator_id": "AU_elders_limited",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "regional",
+    "coordinates": {
+      "lat": -35,
+      "lon": 139
+    }
+  },
+  {
+    "id": "AU_road_nutrien-national-distribution",
+    "tier": "transport",
+    "name": "Nutrien National Road Distribution Network",
+    "country_iso2": "AU",
+    "operator_id": "AU_nutrien_australia",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "regional",
+    "coordinates": {
+      "lat": -34,
+      "lon": 140
+    }
+  },
+  {
+    "id": "AU_road_nutrien-regional-distribution",
+    "tier": "transport",
+    "name": "Nutrien Regional Distribution",
+    "country_iso2": "AU",
+    "operator_id": "AU_nutrien_australia",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "regional",
+    "coordinates": {
+      "lat": -36,
+      "lon": 145
+    }
+  },
+  {
+    "id": "AU_road_incitec-east-distribution",
+    "tier": "transport",
+    "name": "Incitec Pivot Eastern Australia Distribution",
+    "country_iso2": "AU",
+    "operator_id": "AU_incitec_pivot",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "regional",
+    "coordinates": {
+      "lat": -30,
+      "lon": 148
+    }
+  },
+  {
+    "id": "AU_road_incitec-regional-distribution",
+    "tier": "transport",
+    "name": "Incitec Pivot Regional Distribution",
+    "country_iso2": "AU",
+    "operator_id": "AU_incitec_pivot",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "local",
+    "coordinates": {
+      "lat": -28,
+      "lon": 150
+    }
+  },
+  {
+    "id": "AU_road_csbp-wa-distribution",
+    "tier": "transport",
+    "name": "CSBP Western Australia Distribution",
+    "country_iso2": "AU",
+    "operator_id": "AU_csbp",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "regional",
+    "coordinates": {
+      "lat": -32,
+      "lon": 117
+    }
+  },
+  {
+    "id": "AU_road_csbp-wa-regional",
+    "tier": "transport",
+    "name": "CSBP WA Regional Horticulture Distribution",
+    "country_iso2": "AU",
+    "operator_id": "AU_csbp",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "local",
+    "coordinates": {
+      "lat": -33.5,
+      "lon": 116
+    }
+  },
+  {
+    "id": "AU_road_farm-gate-broadacre",
+    "tier": "transport",
+    "name": "Farm Gate Delivery — Broadacre",
+    "country_iso2": "AU",
+    "operator_id": "AU_local_haulage",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "local",
+    "coordinates": {
+      "lat": -32,
+      "lon": 120
+    }
+  },
+  {
+    "id": "AU_road_farm-gate-horticulture",
+    "tier": "transport",
+    "name": "Farm Gate Delivery — Horticulture",
+    "country_iso2": "AU",
+    "operator_id": "AU_local_haulage",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "local",
+    "coordinates": {
+      "lat": -34.5,
+      "lon": 138.5
+    }
+  },
+  {
+    "id": "INTL_road_se-asia-farm-gate",
+    "tier": "transport",
+    "name": "Southeast Asia Farm Gate Delivery",
+    "country_iso2": "INTL",
+    "operator_id": "INTL_local_distributors",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "local",
+    "coordinates": {
+      "lat": 3,
+      "lon": 102
+    }
+  }
+]

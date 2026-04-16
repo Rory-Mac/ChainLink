@@ -1,0 +1,8 @@
+.env
+node_modules/
+.claude/
+api_test.sh
+viewer/search-data.js
+*.raw.txt
+src/output/progress.json
+src/output/report.txt

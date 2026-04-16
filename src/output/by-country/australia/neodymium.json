@@ -1,0 +1,2080 @@
+[
+  {
+    "id": "AU_lynas_mount_weld",
+    "name": "Mount Weld Rare Earth Mine",
+    "tier": "extraction",
+    "country_iso2": "AU",
+    "canonical_company": "Lynas Rare Earths",
+    "coordinates": {
+      "lat": -28.7697,
+      "lon": 122.5553
+    },
+    "downstream": [
+      {
+        "target_id": "MY_lynas_kuantan",
+        "corridor_id": "AU_road_mount-weld-fremantle",
+        "resource": "rare earth concentrate containing neodymium and praseodymium",
+        "quantity": 4800,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_lynas_kalgoorlie",
+        "corridor_id": "AU_road_mount-weld-kalgoorlie",
+        "resource": "rare earth concentrate containing neodymium and praseodymium",
+        "quantity": 1200,
+        "metric": "t"
+      },
+      {
+        "target_id": "MY_lynas_kuantan",
+        "corridor_id": "AU_road_mount-weld-fremantle",
+        "resource": "rare earth concentrate containing cerium",
+        "quantity": 8500,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_lynas_kalgoorlie",
+        "corridor_id": "AU_road_mount-weld-kalgoorlie",
+        "resource": "rare earth concentrate containing cerium",
+        "quantity": 2500,
+        "metric": "t"
+      },
+      {
+        "target_id": "MY_lynas_lamp",
+        "corridor_id": "AU_road_mount-weld-fremantle",
+        "resource": "rare earth concentrate containing lanthanum",
+        "quantity": 5500,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_lynas_kalgoorlie",
+        "corridor_id": "AU_road_mount-weld-kalgoorlie",
+        "resource": "rare earth concentrate containing lanthanum",
+        "quantity": 2500,
+        "metric": "t"
+      },
+      {
+        "target_id": "MY_lynas_kuantan",
+        "corridor_id": "AU_road_mount-weld-fremantle",
+        "resource": "rare earth concentrate containing dysprosium",
+        "quantity": 85,
+        "metric": "t"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Neodymium",
+      "Cerium",
+      "Lanthanum",
+      "Dysprosium"
+    ]
+  },
+  {
+    "id": "AU_iluka_eneabba",
+    "name": "Eneabba Rare Earth Refinery (Phase 1 feedstock from stockpiles)",
+    "tier": "extraction",
+    "country_iso2": "AU",
+    "canonical_company": "Iluka Resources",
+    "coordinates": {
+      "lat": -29.8225,
+      "lon": 115.2672
+    },
+    "downstream": [
+      {
+        "target_id": "AU_iluka_eneabba_refinery",
+        "corridor_id": "AU_conveyor_eneabba-onsite",
+        "resource": "monazite/xenotime concentrate containing neodymium",
+        "quantity": 250,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_iluka_eneabba_refinery",
+        "corridor_id": "AU_conveyor_eneabba-onsite",
+        "resource": "monazite concentrate containing cerium",
+        "quantity": 700,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_iluka_eneabba_refinery",
+        "corridor_id": "AU_conveyor_eneabba-onsite",
+        "resource": "monazite/xenotime concentrate containing lanthanum",
+        "quantity": 350,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_iluka_eneabba_separation",
+        "corridor_id": "AU_conveyor_eneabba-internal",
+        "resource": "rare earth concentrate containing dysprosium",
+        "quantity": 12,
+        "metric": "t"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Neodymium",
+      "Cerium",
+      "Lanthanum",
+      "Dysprosium"
+    ]
+  },
+  {
+    "id": "AU_arafura_nolans",
+    "name": "Nolans Bore Rare Earth Project",
+    "tier": "extraction",
+    "country_iso2": "AU",
+    "canonical_company": "Arafura Rare Earths",
+    "coordinates": {
+      "lat": -22.59,
+      "lon": 133.24
+    },
+    "downstream": [
+      {
+        "target_id": "AU_arafura_nolans_separation",
+        "corridor_id": "AU_road_nolans-onsite",
+        "resource": "rare earth concentrate containing neodymium and praseodymium",
+        "quantity": 700,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_arafura_nolans_separation",
+        "corridor_id": "AU_road_nolans-alice-springs",
+        "resource": "rare earth concentrate containing cerium",
+        "quantity": 1200,
+        "metric": "t"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Neodymium",
+      "Cerium"
+    ]
+  },
+  {
+    "id": "MY_lynas_kuantan",
+    "name": "Lynas Advanced Materials Plant (LAMP), Kuantan",
+    "tier": "separation_plant",
+    "country_iso2": "MY",
+    "canonical_company": "Lynas Rare Earths",
+    "coordinates": {
+      "lat": 3.971,
+      "lon": 103.42
+    },
+    "downstream": [
+      {
+        "target_id": "JP_shin_etsu_chemical",
+        "corridor_id": "INTL_ocean_kuantan-kobe",
+        "resource": "NdPr oxide (neodymium-praseodymium oxide)",
+        "quantity": 1800,
+        "metric": "t"
+      },
+      {
+        "target_id": "JP_tdk_corporation",
+        "corridor_id": "INTL_ocean_kuantan-kobe",
+        "resource": "NdPr oxide (neodymium-praseodymium oxide)",
+        "quantity": 600,
+        "metric": "t"
+      },
+      {
+        "target_id": "DE_vacuumschmelze",
+        "corridor_id": "INTL_ocean_kuantan-hamburg",
+        "resource": "NdPr oxide (neodymium-praseodymium oxide)",
+        "quantity": 400,
+        "metric": "t"
+      },
+      {
+        "target_id": "US_neo_performance_materials",
+        "corridor_id": "INTL_ocean_kuantan-baltimore",
+        "resource": "NdPr oxide (neodymium-praseodymium oxide)",
+        "quantity": 350,
+        "metric": "t"
+      },
+      {
+        "target_id": "CN_baotou_traders",
+        "corridor_id": "INTL_ocean_kuantan-shanghai",
+        "resource": "NdPr oxide (neodymium-praseodymium oxide)",
+        "quantity": 800,
+        "metric": "t"
+      },
+      {
+        "target_id": "CN_baotou_steel_re",
+        "corridor_id": "INTL_ocean_kuantan-shanghai",
+        "resource": "cerium oxide (CeO2)",
+        "quantity": 2800,
+        "metric": "t"
+      },
+      {
+        "target_id": "JP_shin_etsu_chemical",
+        "corridor_id": "INTL_ocean_kuantan-tokyo",
+        "resource": "cerium oxide (CeO2)",
+        "quantity": 1800,
+        "metric": "t"
+      },
+      {
+        "target_id": "US_neo_performance",
+        "corridor_id": "INTL_ocean_kuantan-houston",
+        "resource": "cerium oxide (CeO2)",
+        "quantity": 1200,
+        "metric": "t"
+      },
+      {
+        "target_id": "DE_treibacher",
+        "corridor_id": "INTL_ocean_kuantan-hamburg",
+        "resource": "cerium oxide (CeO2) / cerium carbonate",
+        "quantity": 900,
+        "metric": "t"
+      },
+      {
+        "target_id": "KR_changsung",
+        "corridor_id": "INTL_ocean_kuantan-busan",
+        "resource": "cerium oxide (CeO2)",
+        "quantity": 600,
+        "metric": "t"
+      },
+      {
+        "target_id": "JP_shin_etsu_chemical",
+        "corridor_id": "INTL_ocean_kuantan-kobe",
+        "resource": "dysprosium oxide",
+        "quantity": 30,
+        "metric": "t"
+      },
+      {
+        "target_id": "JP_tdk_corporation",
+        "corridor_id": "INTL_ocean_kuantan-kobe",
+        "resource": "dysprosium oxide",
+        "quantity": 15,
+        "metric": "t"
+      },
+      {
+        "target_id": "DE_vacuumschmelze",
+        "corridor_id": "INTL_ocean_kuantan-hamburg",
+        "resource": "dysprosium oxide",
+        "quantity": 10,
+        "metric": "t"
+      },
+      {
+        "target_id": "US_neo_performance_materials",
+        "corridor_id": "INTL_ocean_kuantan-baltimore",
+        "resource": "dysprosium oxide",
+        "quantity": 8,
+        "metric": "t"
+      },
+      {
+        "target_id": "CN_baotou_traders",
+        "corridor_id": "INTL_ocean_kuantan-tianjin",
+        "resource": "dysprosium oxide",
+        "quantity": 20,
+        "metric": "t"
+      },
+      {
+        "target_id": "KR_star_group_ind",
+        "corridor_id": "INTL_ocean_kuantan-busan",
+        "resource": "dysprosium oxide",
+        "quantity": 5,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_lynas_mount_weld",
+      "AU_lynas_kalgoorlie",
+      "AU_northern_minerals_browns_range"
+    ],
+    "resources": [
+      "Neodymium",
+      "Cerium",
+      "Dysprosium"
+    ]
+  },
+  {
+    "id": "AU_lynas_kalgoorlie",
+    "name": "Lynas Kalgoorlie Rare Earth Processing Facility",
+    "tier": "separation_plant",
+    "country_iso2": "AU",
+    "canonical_company": "Lynas Rare Earths",
+    "coordinates": {
+      "lat": -30.7489,
+      "lon": 121.4658
+    },
+    "downstream": [
+      {
+        "target_id": "MY_lynas_kuantan",
+        "corridor_id": "INTL_ocean_fremantle-kuantan",
+        "resource": "mixed rare earth carbonate (cracking/leaching intermediate) containing neodymium",
+        "quantity": 1200,
+        "metric": "t"
+      },
+      {
+        "target_id": "MY_lynas_kuantan",
+        "corridor_id": "INTL_ocean_fremantle-kuantan",
+        "resource": "mixed rare earth carbonate containing cerium",
+        "quantity": 2500,
+        "metric": "t"
+      },
+      {
+        "target_id": "MY_lynas_lamp",
+        "corridor_id": "AU_road_kalgoorlie-fremantle",
+        "resource": "cracked and leached rare earth intermediate containing lanthanum",
+        "quantity": 2500,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_lynas_mount_weld"
+    ],
+    "resources": [
+      "Neodymium",
+      "Cerium",
+      "Lanthanum"
+    ]
+  },
+  {
+    "id": "AU_iluka_eneabba_refinery",
+    "name": "Iluka Eneabba Rare Earth Refinery",
+    "tier": "separation_plant",
+    "country_iso2": "AU",
+    "canonical_company": "Iluka Resources",
+    "coordinates": {
+      "lat": -29.819,
+      "lon": 115.27
+    },
+    "downstream": [
+      {
+        "target_id": "JP_shin_etsu_chemical",
+        "corridor_id": "INTL_ocean_geraldton-kobe",
+        "resource": "separated neodymium-praseodymium oxide",
+        "quantity": 120,
+        "metric": "t"
+      },
+      {
+        "target_id": "US_neo_performance_materials",
+        "corridor_id": "INTL_ocean_geraldton-baltimore",
+        "resource": "separated neodymium-praseodymium oxide",
+        "quantity": 80,
+        "metric": "t"
+      },
+      {
+        "target_id": "DE_vacuumschmelze",
+        "corridor_id": "INTL_ocean_geraldton-hamburg",
+        "resource": "separated neodymium-praseodymium oxide",
+        "quantity": 50,
+        "metric": "t"
+      },
+      {
+        "target_id": "JP_shin_etsu_chemical",
+        "corridor_id": "INTL_ocean_fremantle-tokyo",
+        "resource": "separated cerium oxide (CeO2)",
+        "quantity": 350,
+        "metric": "t"
+      },
+      {
+        "target_id": "DE_treibacher",
+        "corridor_id": "INTL_ocean_fremantle-hamburg",
+        "resource": "separated cerium oxide (CeO2)",
+        "quantity": 200,
+        "metric": "t"
+      },
+      {
+        "target_id": "US_neo_performance",
+        "corridor_id": "INTL_ocean_fremantle-houston",
+        "resource": "separated cerium oxide (CeO2)",
+        "quantity": 150,
+        "metric": "t"
+      },
+      {
+        "target_id": "JP_santoku_kobe",
+        "corridor_id": "INTL_ocean_fremantle-kobe",
+        "resource": "separated lanthanum oxide",
+        "quantity": 200,
+        "metric": "t"
+      },
+      {
+        "target_id": "DE_treibacher",
+        "corridor_id": "INTL_ocean_fremantle-hamburg",
+        "resource": "separated lanthanum oxide",
+        "quantity": 150,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_iluka_eneabba"
+    ],
+    "resources": [
+      "Neodymium",
+      "Cerium",
+      "Lanthanum"
+    ]
+  },
+  {
+    "id": "AU_arafura_nolans_separation",
+    "name": "Nolans Rare Earth Separation Plant (planned on-site)",
+    "tier": "separation_plant",
+    "country_iso2": "AU",
+    "canonical_company": "Arafura Rare Earths",
+    "coordinates": {
+      "lat": -22.59,
+      "lon": 133.24
+    },
+    "downstream": [
+      {
+        "target_id": "KR_hyundai_motor",
+        "corridor_id": "INTL_ocean_darwin-busan",
+        "resource": "NdPr oxide (neodymium-praseodymium oxide)",
+        "quantity": 350,
+        "metric": "t"
+      },
+      {
+        "target_id": "JP_shin_etsu_chemical",
+        "corridor_id": "INTL_ocean_darwin-kobe",
+        "resource": "NdPr oxide (neodymium-praseodymium oxide)",
+        "quantity": 200,
+        "metric": "t"
+      },
+      {
+        "target_id": "DE_vacuumschmelze",
+        "corridor_id": "INTL_ocean_darwin-hamburg",
+        "resource": "NdPr oxide (neodymium-praseodymium oxide)",
+        "quantity": 150,
+        "metric": "t"
+      },
+      {
+        "target_id": "JP_shin_etsu_chemical",
+        "corridor_id": "INTL_ocean_darwin-tokyo",
+        "resource": "cerium oxide (CeO2)",
+        "quantity": 500,
+        "metric": "t"
+      },
+      {
+        "target_id": "KR_changsung",
+        "corridor_id": "INTL_ocean_darwin-busan",
+        "resource": "cerium oxide (CeO2)",
+        "quantity": 350,
+        "metric": "t"
+      },
+      {
+        "target_id": "US_neo_performance",
+        "corridor_id": "INTL_ocean_darwin-houston",
+        "resource": "cerium oxide (CeO2)",
+        "quantity": 350,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_arafura_nolans"
+    ],
+    "resources": [
+      "Neodymium",
+      "Cerium"
+    ]
+  },
+  {
+    "id": "JP_shin_etsu_chemical",
+    "name": "Shin-Etsu Chemical NdFeB Magnet Division",
+    "tier": "alloy_producer",
+    "country_iso2": "JP",
+    "canonical_company": "Shin-Etsu Chemical",
+    "coordinates": {
+      "lat": 36.5658,
+      "lon": 139.8836
+    },
+    "downstream": [
+      {
+        "target_id": "JP_nidec_corporation",
+        "corridor_id": "JP_road_takefu-kyoto",
+        "resource": "NdFeB sintered magnet blocks",
+        "quantity": 900,
+        "metric": "t"
+      },
+      {
+        "target_id": "JP_toyota_motor",
+        "corridor_id": "JP_road_takefu-toyota-city",
+        "resource": "NdFeB sintered magnet blocks",
+        "quantity": 500,
+        "metric": "t"
+      },
+      {
+        "target_id": "DE_siemens_gamesa",
+        "corridor_id": "INTL_ocean_kobe-hamburg",
+        "resource": "NdFeB sintered magnet blocks",
+        "quantity": 350,
+        "metric": "t"
+      },
+      {
+        "target_id": "US_general_electric",
+        "corridor_id": "INTL_ocean_kobe-long-beach",
+        "resource": "NdFeB sintered magnet blocks",
+        "quantity": 250,
+        "metric": "t"
+      },
+      {
+        "target_id": "JP_hoya",
+        "corridor_id": "JP_road_joetsu-tokyo",
+        "resource": "cerium polishing compound",
+        "quantity": 800,
+        "metric": "t"
+      },
+      {
+        "target_id": "JP_agc_inc",
+        "corridor_id": "JP_road_joetsu-osaka",
+        "resource": "cerium polishing compound / cerium glass additive",
+        "quantity": 600,
+        "metric": "t"
+      },
+      {
+        "target_id": "JP_toyota",
+        "corridor_id": "JP_road_joetsu-nagoya",
+        "resource": "cerium-based automotive catalyst compound",
+        "quantity": 450,
+        "metric": "t"
+      },
+      {
+        "target_id": "JP_industrial",
+        "corridor_id": "JP_road_joetsu-domestic",
+        "resource": "cerium compounds",
+        "quantity": 800,
+        "metric": "t"
+      },
+      {
+        "target_id": "JP_nidec",
+        "corridor_id": "JP_road_takefu-kyoto",
+        "resource": "NdFeB sintered magnets with dysprosium",
+        "quantity": 18,
+        "metric": "t"
+      },
+      {
+        "target_id": "JP_mitsubishi_electric",
+        "corridor_id": "JP_road_takefu-nagoya",
+        "resource": "NdFeB sintered magnets with dysprosium",
+        "quantity": 8,
+        "metric": "t"
+      },
+      {
+        "target_id": "DE_siemens_gamesa",
+        "corridor_id": "INTL_ocean_kobe-hamburg",
+        "resource": "NdFeB sintered magnets with dysprosium",
+        "quantity": 9,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "MY_lynas_kuantan",
+      "AU_iluka_eneabba_refinery",
+      "AU_arafura_nolans_separation",
+      "AU_iluka_eneabba_separation"
+    ],
+    "resources": [
+      "Neodymium",
+      "Cerium",
+      "Dysprosium"
+    ]
+  },
+  {
+    "id": "JP_tdk_corporation",
+    "name": "TDK Corporation NdFeB Magnet Manufacturing",
+    "tier": "alloy_producer",
+    "country_iso2": "JP",
+    "canonical_company": "TDK Corporation",
+    "coordinates": {
+      "lat": 39.7164,
+      "lon": 140.0856
+    },
+    "downstream": [
+      {
+        "target_id": "JP_nidec_corporation",
+        "corridor_id": "JP_road_akita-kyoto",
+        "resource": "NdFeB sintered/bonded magnets",
+        "quantity": 250,
+        "metric": "t"
+      },
+      {
+        "target_id": "CN_byd_company",
+        "corridor_id": "INTL_ocean_yokohama-shenzhen",
+        "resource": "NdFeB sintered magnet blocks",
+        "quantity": 200,
+        "metric": "t"
+      },
+      {
+        "target_id": "JP_toyota_motor",
+        "corridor_id": "JP_road_akita-toyota-city",
+        "resource": "NdFeB sintered magnets with dysprosium",
+        "quantity": 8,
+        "metric": "t"
+      },
+      {
+        "target_id": "US_general_motors",
+        "corridor_id": "INTL_ocean_yokohama-losangeles",
+        "resource": "NdFeB sintered magnets with dysprosium",
+        "quantity": 7,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "MY_lynas_kuantan"
+    ],
+    "resources": [
+      "Neodymium",
+      "Dysprosium"
+    ]
+  },
+  {
+    "id": "DE_vacuumschmelze",
+    "name": "Vacuumschmelze GmbH (VAC) Hanau",
+    "tier": "alloy_producer",
+    "country_iso2": "DE",
+    "canonical_company": "Vacuumschmelze",
+    "coordinates": {
+      "lat": 50.126,
+      "lon": 8.9232
+    },
+    "downstream": [
+      {
+        "target_id": "DE_siemens_gamesa",
+        "corridor_id": "DE_road_hanau-hamburg",
+        "resource": "NdFeB sintered magnets",
+        "quantity": 250,
+        "metric": "t"
+      },
+      {
+        "target_id": "DE_bosch",
+        "corridor_id": "DE_road_hanau-stuttgart",
+        "resource": "NdFeB sintered magnets",
+        "quantity": 200,
+        "metric": "t"
+      },
+      {
+        "target_id": "DE_siemens_gamesa",
+        "corridor_id": "DE_road_hanau-hamburg",
+        "resource": "NdFeB sintered magnets with dysprosium",
+        "quantity": 7,
+        "metric": "t"
+      },
+      {
+        "target_id": "DE_bosch",
+        "corridor_id": "DE_road_hanau-stuttgart",
+        "resource": "NdFeB sintered magnets with dysprosium",
+        "quantity": 5,
+        "metric": "t"
+      },
+      {
+        "target_id": "SE_abb",
+        "corridor_id": "INTL_road_hanau-vasteras",
+        "resource": "NdFeB sintered magnets with dysprosium",
+        "quantity": 2,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "MY_lynas_kuantan",
+      "AU_iluka_eneabba_refinery",
+      "AU_arafura_nolans_separation",
+      "AU_iluka_eneabba_separation"
+    ],
+    "resources": [
+      "Neodymium",
+      "Dysprosium"
+    ]
+  },
+  {
+    "id": "US_neo_performance_materials",
+    "name": "Neo Performance Materials – Magnequench (Korat/Tianjin via US sales)",
+    "tier": "alloy_producer",
+    "country_iso2": "US",
+    "canonical_company": "Neo Performance Materials",
+    "coordinates": {
+      "lat": 43.6532,
+      "lon": -79.3832
+    },
+    "downstream": [
+      {
+        "target_id": "US_general_electric",
+        "corridor_id": "US_road_toronto-schenectady",
+        "resource": "NdFeB magnet powders and bonded magnets",
+        "quantity": 200,
+        "metric": "t"
+      },
+      {
+        "target_id": "US_tesla",
+        "corridor_id": "US_road_toronto-fremont",
+        "resource": "NdFeB magnet powders and bonded magnets",
+        "quantity": 150,
+        "metric": "t"
+      },
+      {
+        "target_id": "US_general_motors",
+        "corridor_id": "US_road_michigan-detroit",
+        "resource": "NdFeB sintered magnets with dysprosium",
+        "quantity": 5,
+        "metric": "t"
+      },
+      {
+        "target_id": "US_ge_vernova",
+        "corridor_id": "US_road_michigan-schenectady",
+        "resource": "NdFeB sintered magnets with dysprosium",
+        "quantity": 4,
+        "metric": "t"
+      },
+      {
+        "target_id": "US_honeywell",
+        "corridor_id": "US_road_michigan-phoenix",
+        "resource": "NdFeB sintered magnets with dysprosium",
+        "quantity": 2,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "MY_lynas_kuantan",
+      "AU_iluka_eneabba_refinery",
+      "AU_iluka_eneabba_separation"
+    ],
+    "resources": [
+      "Neodymium",
+      "Dysprosium"
+    ]
+  },
+  {
+    "id": "CN_baotou_traders",
+    "name": "Baotou / China Domestic NdPr Oxide Buyers",
+    "tier": "alloy_producer",
+    "country_iso2": "CN",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": 40.6571,
+      "lon": 109.84
+    },
+    "downstream": [
+      {
+        "target_id": "CN_byd_company",
+        "corridor_id": "CN_road_baotou-shenzhen",
+        "resource": "NdFeB sintered magnets",
+        "quantity": 400,
+        "metric": "t"
+      },
+      {
+        "target_id": "CN_goldwind",
+        "corridor_id": "CN_road_baotou-urumqi",
+        "resource": "NdFeB sintered magnets",
+        "quantity": 300,
+        "metric": "t"
+      },
+      {
+        "target_id": "CN_jl_mag",
+        "corridor_id": "CN_rail_baotou-ningbo",
+        "resource": "dysprosium metal / dysprosium-iron alloy",
+        "quantity": 12,
+        "metric": "t"
+      },
+      {
+        "target_id": "CN_zhong_ke_san_huan",
+        "corridor_id": "CN_road_baotou-beijing",
+        "resource": "dysprosium metal",
+        "quantity": 8,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "MY_lynas_kuantan"
+    ],
+    "resources": [
+      "Neodymium",
+      "Dysprosium"
+    ]
+  },
+  {
+    "id": "KR_hyundai_motor",
+    "name": "Hyundai Motor Group EV Powertrain Division",
+    "tier": "alloy_producer",
+    "country_iso2": "KR",
+    "canonical_company": "Hyundai Motor",
+    "coordinates": {
+      "lat": 37.3949,
+      "lon": 127.1122
+    },
+    "downstream": [
+      {
+        "target_id": "KR_hyundai_oem",
+        "corridor_id": "KR_road_hwaseong-ulsan",
+        "resource": "NdFeB magnet assemblies for EV traction motors",
+        "quantity": 350,
+        "metric": "t"
+      },
+      {
+        "target_id": "KR_residential",
+        "corridor_id": "KR_road_ulsan-nationwide",
+        "resource": "hybrid/FCEV vehicles containing lanthanum alloy",
+        "quantity": 150,
+        "metric": "t"
+      },
+      {
+        "target_id": "INTL_residential",
+        "corridor_id": "INTL_ocean_busan-worldwide",
+        "resource": "hybrid/FCEV vehicles containing lanthanum alloy",
+        "quantity": 100,
+        "metric": "t"
+      },
+      {
+        "target_id": "KR_residential",
+        "corridor_id": "KR_road_ulsan-domestic",
+        "resource": "battery-electric vehicles containing dysprosium magnets in traction motors",
+        "quantity": 3,
+        "metric": "t"
+      },
+      {
+        "target_id": "INTL_residential",
+        "corridor_id": "INTL_ocean_busan-global",
+        "resource": "battery-electric vehicles containing dysprosium magnets in traction motors",
+        "quantity": 2,
+        "metric": "t"
+      },
+      {
+        "target_id": "KR_residential",
+        "corridor_id": "KR_road_ulsan-domestic",
+        "resource": "passenger vehicles (zinc in body panels)",
+        "quantity": 70000,
+        "metric": "t"
+      },
+      {
+        "target_id": "INTL_commercial",
+        "corridor_id": "INTL_ocean_ulsan-global",
+        "resource": "exported vehicles (zinc content)",
+        "quantity": 60000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_arafura_nolans_separation",
+      "KR_posco_catalyst",
+      "KR_star_group_ind",
+      "KR_hyundai_steel"
+    ],
+    "resources": [
+      "Neodymium",
+      "Lanthanum",
+      "Dysprosium",
+      "Zinc"
+    ]
+  },
+  {
+    "id": "JP_nidec_corporation",
+    "name": "Nidec Corporation – Motor Division",
+    "tier": "oem",
+    "country_iso2": "JP",
+    "canonical_company": "Nidec Corporation",
+    "coordinates": {
+      "lat": 34.9692,
+      "lon": 135.7556
+    },
+    "downstream": [
+      {
+        "target_id": "JP_industrial",
+        "corridor_id": "JP_road_kyoto-domestic",
+        "resource": "precision motors with NdFeB magnets (HDD, HVAC, industrial)",
+        "quantity": 500,
+        "metric": "t"
+      },
+      {
+        "target_id": "INTL_industrial",
+        "corridor_id": "INTL_ocean_osaka-global",
+        "resource": "EV traction motors and industrial servo motors",
+        "quantity": 650,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "JP_shin_etsu_chemical",
+      "JP_tdk_corporation"
+    ],
+    "resources": [
+      "Neodymium"
+    ]
+  },
+  {
+    "id": "JP_toyota_motor",
+    "name": "Toyota Motor Corporation",
+    "tier": "oem",
+    "country_iso2": "JP",
+    "canonical_company": "Toyota Motor",
+    "coordinates": {
+      "lat": 35.0825,
+      "lon": 137.1561
+    },
+    "downstream": [
+      {
+        "target_id": "JP_residential",
+        "corridor_id": "JP_road_toyota-domestic",
+        "resource": "hybrid and battery electric vehicles (NdFeB motor content)",
+        "quantity": 250,
+        "metric": "t"
+      },
+      {
+        "target_id": "INTL_residential",
+        "corridor_id": "INTL_ocean_nagoya-global",
+        "resource": "hybrid and battery electric vehicles (NdFeB motor content)",
+        "quantity": 250,
+        "metric": "t"
+      },
+      {
+        "target_id": "JP_residential",
+        "corridor_id": "JP_road_toyota-city-domestic",
+        "resource": "hybrid & battery-electric vehicles containing dysprosium magnets in traction motors",
+        "quantity": 5,
+        "metric": "t"
+      },
+      {
+        "target_id": "INTL_residential",
+        "corridor_id": "INTL_ocean_nagoya-global",
+        "resource": "hybrid & battery-electric vehicles containing dysprosium magnets in traction motors",
+        "quantity": 3,
+        "metric": "t"
+      },
+      {
+        "target_id": "JP_residential",
+        "corridor_id": "JP_road_toyota-domestic",
+        "resource": "passenger vehicles (zinc in body panels)",
+        "quantity": 30000,
+        "metric": "t"
+      },
+      {
+        "target_id": "INTL_commercial",
+        "corridor_id": "INTL_ocean_nagoya-global",
+        "resource": "exported vehicles (zinc content)",
+        "quantity": 20000,
+        "metric": "t"
+      },
+      {
+        "target_id": "JP_residential",
+        "corridor_id": "JP_road_toyota-domestic",
+        "resource": "finished automobiles (with glass components)",
+        "quantity": 150000,
+        "metric": "t"
+      },
+      {
+        "target_id": "INTL_residential",
+        "corridor_id": "INTL_ocean_japan-global",
+        "resource": "finished automobiles (exported, glass components)",
+        "quantity": 200000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "JP_shin_etsu_chemical",
+      "JP_tdk_corporation",
+      "JP_jfe_steel",
+      "JP_agc_glass"
+    ],
+    "resources": [
+      "Neodymium",
+      "Dysprosium",
+      "Zinc",
+      "Quartz"
+    ]
+  },
+  {
+    "id": "DE_siemens_gamesa",
+    "name": "Siemens Gamesa Renewable Energy",
+    "tier": "oem",
+    "country_iso2": "DE",
+    "canonical_company": "Siemens Gamesa",
+    "coordinates": {
+      "lat": 53.5461,
+      "lon": 9.981
+    },
+    "downstream": [
+      {
+        "target_id": "DE_infrastructure",
+        "corridor_id": "DE_road_hamburg-north-sea-coast",
+        "resource": "direct-drive wind turbine generators (NdFeB magnet content)",
+        "quantity": 300,
+        "metric": "t"
+      },
+      {
+        "target_id": "INTL_infrastructure",
+        "corridor_id": "INTL_ocean_hamburg-global",
+        "resource": "direct-drive wind turbine generators (NdFeB magnet content)",
+        "quantity": 300,
+        "metric": "t"
+      },
+      {
+        "target_id": "DE_infrastructure",
+        "corridor_id": "DE_road_hamburg-domestic",
+        "resource": "direct-drive wind turbine generators containing dysprosium magnets",
+        "quantity": 10,
+        "metric": "t"
+      },
+      {
+        "target_id": "INTL_infrastructure",
+        "corridor_id": "INTL_ocean_hamburg-global",
+        "resource": "direct-drive wind turbine generators containing dysprosium magnets",
+        "quantity": 11,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "JP_shin_etsu_chemical",
+      "DE_vacuumschmelze",
+      "CN_jl_mag"
+    ],
+    "resources": [
+      "Neodymium",
+      "Dysprosium"
+    ]
+  },
+  {
+    "id": "DE_bosch",
+    "name": "Robert Bosch GmbH – Mobility Solutions",
+    "tier": "oem",
+    "country_iso2": "DE",
+    "canonical_company": "Robert Bosch",
+    "coordinates": {
+      "lat": 48.7758,
+      "lon": 9.1829
+    },
+    "downstream": [
+      {
+        "target_id": "DE_industrial",
+        "corridor_id": "DE_road_stuttgart-domestic",
+        "resource": "electric motors and automotive actuators (NdFeB magnet content)",
+        "quantity": 200,
+        "metric": "t"
+      },
+      {
+        "target_id": "DE_industrial",
+        "corridor_id": "DE_road_stuttgart-domestic",
+        "resource": "EV drivetrain components containing dysprosium magnets",
+        "quantity": 3,
+        "metric": "t"
+      },
+      {
+        "target_id": "INTL_industrial",
+        "corridor_id": "INTL_road_stuttgart-global",
+        "resource": "EV drivetrain components containing dysprosium magnets",
+        "quantity": 2,
+        "metric": "t"
+      },
+      {
+        "target_id": "DE_industrial",
+        "corridor_id": "DE_road_stuttgart-distribution",
+        "resource": "automotive electronics and industrial sensors",
+        "quantity": 20,
+        "metric": "t"
+      },
+      {
+        "target_id": "INTL_industrial",
+        "corridor_id": "INTL_ocean_hamburg-global",
+        "resource": "automotive electronics (export)",
+        "quantity": 10,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "DE_vacuumschmelze",
+      "US_kemet",
+      "DE_avx_tantalum"
+    ],
+    "resources": [
+      "Neodymium",
+      "Dysprosium",
+      "Tantalum"
+    ]
+  },
+  {
+    "id": "US_general_electric",
+    "name": "GE Vernova – Wind and Power Division",
+    "tier": "oem",
+    "country_iso2": "US",
+    "canonical_company": "GE Vernova",
+    "coordinates": {
+      "lat": 42.8142,
+      "lon": -73.9396
+    },
+    "downstream": [
+      {
+        "target_id": "US_infrastructure",
+        "corridor_id": "US_road_schenectady-domestic",
+        "resource": "wind turbine generators and industrial motors (NdFeB magnet content)",
+        "quantity": 350,
+        "metric": "t"
+      },
+      {
+        "target_id": "INTL_infrastructure",
+        "corridor_id": "INTL_ocean_newark-global",
+        "resource": "wind turbine generators (NdFeB magnet content)",
+        "quantity": 100,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "JP_shin_etsu_chemical",
+      "US_neo_performance_materials"
+    ],
+    "resources": [
+      "Neodymium"
+    ]
+  },
+  {
+    "id": "US_tesla",
+    "name": "Tesla Inc. – Drive Unit Manufacturing",
+    "tier": "oem",
+    "country_iso2": "US",
+    "canonical_company": "Tesla",
+    "coordinates": {
+      "lat": 37.4942,
+      "lon": -121.9449
+    },
+    "downstream": [
+      {
+        "target_id": "US_residential",
+        "corridor_id": "US_road_fremont-domestic",
+        "resource": "battery electric vehicles (NdFeB motor content)",
+        "quantity": 100,
+        "metric": "t"
+      },
+      {
+        "target_id": "INTL_residential",
+        "corridor_id": "INTL_ocean_sanfrancisco-global",
+        "resource": "battery electric vehicles (NdFeB motor content)",
+        "quantity": 50,
+        "metric": "t"
+      },
+      {
+        "target_id": "US_residential",
+        "corridor_id": "US_road_tesla-us-distribution",
+        "resource": "electric vehicles and energy storage products",
+        "quantity": 600,
+        "metric": "t"
+      },
+      {
+        "target_id": "INTL_residential",
+        "corridor_id": "INTL_ocean_losangeles-global",
+        "resource": "electric vehicles",
+        "quantity": 400,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "US_neo_performance_materials",
+      "KR_lg_energy_solution",
+      "CN_catl",
+      "JP_panasonic_energy"
+    ],
+    "resources": [
+      "Neodymium",
+      "Cobalt"
+    ]
+  },
+  {
+    "id": "CN_byd_company",
+    "name": "BYD Company – EV Powertrain",
+    "tier": "oem",
+    "country_iso2": "CN",
+    "canonical_company": "BYD",
+    "coordinates": {
+      "lat": 22.6482,
+      "lon": 114.0595
+    },
+    "downstream": [
+      {
+        "target_id": "CN_residential",
+        "corridor_id": "CN_road_shenzhen-domestic",
+        "resource": "battery electric vehicles (NdFeB motor content)",
+        "quantity": 400,
+        "metric": "t"
+      },
+      {
+        "target_id": "INTL_residential",
+        "corridor_id": "INTL_ocean_shenzhen-global",
+        "resource": "battery electric vehicles (NdFeB motor content)",
+        "quantity": 200,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "JP_tdk_corporation",
+      "CN_baotou_traders"
+    ],
+    "resources": [
+      "Neodymium"
+    ]
+  },
+  {
+    "id": "CN_goldwind",
+    "name": "Xinjiang Goldwind Science & Technology",
+    "tier": "oem",
+    "country_iso2": "CN",
+    "canonical_company": "Goldwind",
+    "coordinates": {
+      "lat": 43.8256,
+      "lon": 87.6168
+    },
+    "downstream": [
+      {
+        "target_id": "CN_infrastructure",
+        "corridor_id": "CN_road_urumqi-domestic",
+        "resource": "permanent-magnet direct-drive wind turbines (NdFeB magnet content)",
+        "quantity": 250,
+        "metric": "t"
+      },
+      {
+        "target_id": "INTL_infrastructure",
+        "corridor_id": "INTL_ocean_tianjin-global",
+        "resource": "permanent-magnet direct-drive wind turbines (NdFeB magnet content)",
+        "quantity": 50,
+        "metric": "t"
+      },
+      {
+        "target_id": "CN_infrastructure",
+        "corridor_id": "CN_road_urumqi-domestic",
+        "resource": "direct-drive wind turbine generators containing dysprosium magnets",
+        "quantity": 4,
+        "metric": "t"
+      },
+      {
+        "target_id": "INTL_infrastructure",
+        "corridor_id": "INTL_ocean_tianjin-global",
+        "resource": "direct-drive wind turbine generators containing dysprosium magnets",
+        "quantity": 1,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "CN_baotou_traders",
+      "CN_zhong_ke_san_huan"
+    ],
+    "resources": [
+      "Neodymium",
+      "Dysprosium"
+    ]
+  },
+  {
+    "id": "KR_hyundai_oem",
+    "name": "Hyundai Motor Group – EV Assembly (Ulsan)",
+    "tier": "oem",
+    "country_iso2": "KR",
+    "canonical_company": "Hyundai Motor",
+    "coordinates": {
+      "lat": 35.5384,
+      "lon": 129.3114
+    },
+    "downstream": [
+      {
+        "target_id": "KR_residential",
+        "corridor_id": "KR_road_ulsan-domestic",
+        "resource": "battery electric vehicles (NdFeB motor content)",
+        "quantity": 200,
+        "metric": "t"
+      },
+      {
+        "target_id": "INTL_residential",
+        "corridor_id": "INTL_ocean_busan-global",
+        "resource": "battery electric vehicles (NdFeB motor content)",
+        "quantity": 150,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "KR_hyundai_motor"
+    ],
+    "resources": [
+      "Neodymium"
+    ]
+  },
+  {
+    "id": "AU_road_mount-weld-fremantle",
+    "tier": "transport",
+    "name": "Road haulage Mount Weld → Fremantle Port",
+    "country_iso2": "AU",
+    "operator_id": "AU_centurion_transport",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "regional",
+    "coordinates": {
+      "lat": -31.5,
+      "lon": 119.5
+    },
+    "resources": [
+      "Cerium",
+      "Lanthanum",
+      "Dysprosium"
+    ],
+    "upstream": [],
+    "downstream": []
+  },
+  {
+    "id": "AU_road_mount-weld-kalgoorlie",
+    "tier": "transport",
+    "name": "Road haulage Mount Weld → Kalgoorlie",
+    "country_iso2": "AU",
+    "operator_id": "AU_centurion_transport",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "regional",
+    "coordinates": {
+      "lat": -29.8,
+      "lon": 122
+    },
+    "resources": [
+      "Cerium",
+      "Lanthanum"
+    ],
+    "upstream": [],
+    "downstream": []
+  },
+  {
+    "id": "AU_conveyor_eneabba-onsite",
+    "tier": "transport",
+    "name": "On-site conveyor/haulage Eneabba stockpile to refinery",
+    "country_iso2": "AU",
+    "operator_id": "AU_iluka_resources",
+    "mode": "conveyor",
+    "form": "bulk_dry",
+    "range": "local",
+    "coordinates": {
+      "lat": -29.821,
+      "lon": 115.2685
+    },
+    "resources": [
+      "Cerium",
+      "Lanthanum"
+    ],
+    "upstream": [],
+    "downstream": []
+  },
+  {
+    "id": "AU_road_nolans-onsite",
+    "tier": "transport",
+    "name": "On-site haulage Nolans Bore pit to separation plant",
+    "country_iso2": "AU",
+    "operator_id": "AU_arafura_rare_earths",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "local",
+    "coordinates": {
+      "lat": -22.59,
+      "lon": 133.24
+    }
+  },
+  {
+    "id": "INTL_ocean_fremantle-kuantan",
+    "tier": "transport",
+    "name": "Ocean freight Fremantle → Kuantan",
+    "country_iso2": "INTL",
+    "operator_id": "INTL_swire_shipping",
+    "mode": "ocean_freight",
+    "form": "containerised",
+    "range": "international",
+    "coordinates": {
+      "lat": -15,
+      "lon": 110
+    },
+    "resources": [
+      "Cerium",
+      "Mineral-Bearing Land"
+    ],
+    "upstream": [],
+    "downstream": []
+  },
+  {
+    "id": "INTL_ocean_kuantan-kobe",
+    "tier": "transport",
+    "name": "Ocean freight Kuantan → Kobe/Japan",
+    "country_iso2": "INTL",
+    "operator_id": "INTL_one_ocean_network_express",
+    "mode": "ocean_freight",
+    "form": "containerised",
+    "range": "international",
+    "coordinates": {
+      "lat": 18,
+      "lon": 120
+    },
+    "resources": [
+      "Lanthanum",
+      "Dysprosium"
+    ],
+    "upstream": [],
+    "downstream": []
+  },
+  {
+    "id": "INTL_ocean_kuantan-hamburg",
+    "tier": "transport",
+    "name": "Ocean freight Kuantan → Hamburg",
+    "country_iso2": "INTL",
+    "operator_id": "INTL_maersk",
+    "mode": "ocean_freight",
+    "form": "containerised",
+    "range": "international",
+    "coordinates": {
+      "lat": 15,
+      "lon": 70
+    },
+    "resources": [
+      "Cerium",
+      "Lanthanum",
+      "Dysprosium"
+    ],
+    "upstream": [],
+    "downstream": []
+  },
+  {
+    "id": "INTL_ocean_kuantan-baltimore",
+    "tier": "transport",
+    "name": "Ocean freight Kuantan → Baltimore/US East Coast",
+    "country_iso2": "INTL",
+    "operator_id": "INTL_maersk",
+    "mode": "ocean_freight",
+    "form": "containerised",
+    "range": "international",
+    "coordinates": {
+      "lat": 10,
+      "lon": -40
+    },
+    "resources": [
+      "Lanthanum",
+      "Dysprosium"
+    ],
+    "upstream": [],
+    "downstream": []
+  },
+  {
+    "id": "INTL_ocean_kuantan-shanghai",
+    "tier": "transport",
+    "name": "Ocean freight Kuantan → Shanghai",
+    "country_iso2": "INTL",
+    "operator_id": "INTL_cosco_shipping",
+    "mode": "ocean_freight",
+    "form": "containerised",
+    "range": "international",
+    "coordinates": {
+      "lat": 12,
+      "lon": 112
+    },
+    "resources": [
+      "Cerium"
+    ],
+    "upstream": [],
+    "downstream": []
+  },
+  {
+    "id": "INTL_ocean_geraldton-kobe",
+    "tier": "transport",
+    "name": "Ocean freight Geraldton → Kobe/Japan",
+    "country_iso2": "INTL",
+    "operator_id": "INTL_one_ocean_network_express",
+    "mode": "ocean_freight",
+    "form": "containerised",
+    "range": "international",
+    "coordinates": {
+      "lat": -5,
+      "lon": 125
+    }
+  },
+  {
+    "id": "INTL_ocean_geraldton-baltimore",
+    "tier": "transport",
+    "name": "Ocean freight Geraldton → Baltimore/US East Coast",
+    "country_iso2": "INTL",
+    "operator_id": "INTL_maersk",
+    "mode": "ocean_freight",
+    "form": "containerised",
+    "range": "international",
+    "coordinates": {
+      "lat": -20,
+      "lon": 60
+    }
+  },
+  {
+    "id": "INTL_ocean_geraldton-hamburg",
+    "tier": "transport",
+    "name": "Ocean freight Geraldton → Hamburg",
+    "country_iso2": "INTL",
+    "operator_id": "INTL_hapag_lloyd",
+    "mode": "ocean_freight",
+    "form": "containerised",
+    "range": "international",
+    "coordinates": {
+      "lat": -10,
+      "lon": 65
+    }
+  },
+  {
+    "id": "INTL_ocean_darwin-busan",
+    "tier": "transport",
+    "name": "Ocean freight Darwin → Busan",
+    "country_iso2": "INTL",
+    "operator_id": "INTL_one_ocean_network_express",
+    "mode": "ocean_freight",
+    "form": "containerised",
+    "range": "international",
+    "coordinates": {
+      "lat": 5,
+      "lon": 125
+    },
+    "resources": [
+      "Cerium"
+    ],
+    "upstream": [],
+    "downstream": []
+  },
+  {
+    "id": "INTL_ocean_darwin-kobe",
+    "tier": "transport",
+    "name": "Ocean freight Darwin → Kobe/Japan",
+    "country_iso2": "INTL",
+    "operator_id": "INTL_one_ocean_network_express",
+    "mode": "ocean_freight",
+    "form": "containerised",
+    "range": "international",
+    "coordinates": {
+      "lat": 2,
+      "lon": 130
+    }
+  },
+  {
+    "id": "INTL_ocean_darwin-hamburg",
+    "tier": "transport",
+    "name": "Ocean freight Darwin → Hamburg",
+    "country_iso2": "INTL",
+    "operator_id": "INTL_maersk",
+    "mode": "ocean_freight",
+    "form": "containerised",
+    "range": "international",
+    "coordinates": {
+      "lat": -5,
+      "lon": 80
+    }
+  },
+  {
+    "id": "JP_road_takefu-kyoto",
+    "tier": "transport",
+    "name": "Road/rail Takefu (Shin-Etsu plant) → Kyoto (Nidec)",
+    "country_iso2": "JP",
+    "operator_id": "JP_sagawa_express",
+    "mode": "road",
+    "form": "unit_load",
+    "range": "regional",
+    "coordinates": {
+      "lat": 35.7,
+      "lon": 136.5
+    },
+    "resources": [
+      "Dysprosium"
+    ],
+    "upstream": [],
+    "downstream": []
+  },
+  {
+    "id": "JP_road_takefu-toyota-city",
+    "tier": "transport",
+    "name": "Road haulage Takefu → Toyota City",
+    "country_iso2": "JP",
+    "operator_id": "JP_sagawa_express",
+    "mode": "road",
+    "form": "unit_load",
+    "range": "regional",
+    "coordinates": {
+      "lat": 35.5,
+      "lon": 137
+    }
+  },
+  {
+    "id": "INTL_ocean_kobe-hamburg",
+    "tier": "transport",
+    "name": "Ocean freight Kobe → Hamburg",
+    "country_iso2": "INTL",
+    "operator_id": "INTL_hapag_lloyd",
+    "mode": "ocean_freight",
+    "form": "containerised",
+    "range": "international",
+    "coordinates": {
+      "lat": 25,
+      "lon": 80
+    },
+    "resources": [
+      "Dysprosium"
+    ],
+    "upstream": [],
+    "downstream": []
+  },
+  {
+    "id": "INTL_ocean_kobe-long-beach",
+    "tier": "transport",
+    "name": "Ocean freight Kobe → Long Beach",
+    "country_iso2": "INTL",
+    "operator_id": "INTL_one_ocean_network_express",
+    "mode": "ocean_freight",
+    "form": "containerised",
+    "range": "international",
+    "coordinates": {
+      "lat": 35,
+      "lon": -160
+    }
+  },
+  {
+    "id": "JP_road_akita-kyoto",
+    "tier": "transport",
+    "name": "Road haulage Akita (TDK plant) → Kyoto",
+    "country_iso2": "JP",
+    "operator_id": "JP_yamato_transport",
+    "mode": "road",
+    "form": "unit_load",
+    "range": "regional",
+    "coordinates": {
+      "lat": 37.5,
+      "lon": 139.5
+    }
+  },
+  {
+    "id": "INTL_ocean_yokohama-shenzhen",
+    "tier": "transport",
+    "name": "Ocean freight Yokohama → Shenzhen",
+    "country_iso2": "INTL",
+    "operator_id": "INTL_cosco_shipping",
+    "mode": "ocean_freight",
+    "form": "containerised",
+    "range": "international",
+    "coordinates": {
+      "lat": 27,
+      "lon": 125
+    }
+  },
+  {
+    "id": "DE_road_hanau-hamburg",
+    "tier": "transport",
+    "name": "Road haulage Hanau → Hamburg (Siemens Gamesa)",
+    "country_iso2": "DE",
+    "operator_id": "DE_dhl_freight",
+    "mode": "road",
+    "form": "unit_load",
+    "range": "regional",
+    "coordinates": {
+      "lat": 51.5,
+      "lon": 9.5
+    },
+    "resources": [
+      "Dysprosium"
+    ],
+    "upstream": [],
+    "downstream": []
+  },
+  {
+    "id": "DE_road_hanau-stuttgart",
+    "tier": "transport",
+    "name": "Road haulage Hanau → Stuttgart (Bosch)",
+    "country_iso2": "DE",
+    "operator_id": "DE_dhl_freight",
+    "mode": "road",
+    "form": "unit_load",
+    "range": "regional",
+    "coordinates": {
+      "lat": 49.5,
+      "lon": 9
+    },
+    "resources": [
+      "Dysprosium"
+    ],
+    "upstream": [],
+    "downstream": []
+  },
+  {
+    "id": "US_road_toronto-schenectady",
+    "tier": "transport",
+    "name": "Road freight Toronto (Neo) → Schenectady (GE)",
+    "country_iso2": "US",
+    "operator_id": "US_xpo_logistics",
+    "mode": "road",
+    "form": "unit_load",
+    "range": "regional",
+    "coordinates": {
+      "lat": 43.3,
+      "lon": -76
+    }
+  },
+  {
+    "id": "US_road_toronto-fremont",
+    "tier": "transport",
+    "name": "Road/intermodal Toronto (Neo) → Fremont (Tesla)",
+    "country_iso2": "US",
+    "operator_id": "US_xpo_logistics",
+    "mode": "road",
+    "form": "unit_load",
+    "range": "regional",
+    "coordinates": {
+      "lat": 40,
+      "lon": -100
+    }
+  },
+  {
+    "id": "CN_road_baotou-shenzhen",
+    "tier": "transport",
+    "name": "Road/rail Baotou → Shenzhen (BYD)",
+    "country_iso2": "CN",
+    "operator_id": "CN_china_railway",
+    "mode": "rail",
+    "form": "containerised",
+    "range": "regional",
+    "coordinates": {
+      "lat": 32,
+      "lon": 113
+    }
+  },
+  {
+    "id": "CN_road_baotou-urumqi",
+    "tier": "transport",
+    "name": "Rail Baotou → Urumqi (Goldwind)",
+    "country_iso2": "CN",
+    "operator_id": "CN_china_railway",
+    "mode": "rail",
+    "form": "containerised",
+    "range": "regional",
+    "coordinates": {
+      "lat": 42,
+      "lon": 100
+    }
+  },
+  {
+    "id": "KR_road_hwaseong-ulsan",
+    "tier": "transport",
+    "name": "Road haulage Hwaseong → Ulsan EV assembly",
+    "country_iso2": "KR",
+    "operator_id": "KR_hyundai_glovis",
+    "mode": "road",
+    "form": "unit_load",
+    "range": "regional",
+    "coordinates": {
+      "lat": 36,
+      "lon": 128.5
+    }
+  },
+  {
+    "id": "JP_road_kyoto-domestic",
+    "tier": "transport",
+    "name": "Domestic road distribution from Nidec Kyoto",
+    "country_iso2": "JP",
+    "operator_id": "JP_yamato_transport",
+    "mode": "road",
+    "form": "unit_load",
+    "range": "regional",
+    "coordinates": {
+      "lat": 35.5,
+      "lon": 136.5
+    },
+    "resources": [
+      "Dysprosium"
+    ],
+    "upstream": [],
+    "downstream": []
+  },
+  {
+    "id": "INTL_ocean_osaka-global",
+    "tier": "transport",
+    "name": "Ocean freight Osaka → Global markets",
+    "country_iso2": "INTL",
+    "operator_id": "INTL_one_ocean_network_express",
+    "mode": "ocean_freight",
+    "form": "containerised",
+    "range": "international",
+    "coordinates": {
+      "lat": 34.65,
+      "lon": 135.45
+    },
+    "resources": [
+      "Cerium",
+      "Dysprosium"
+    ],
+    "upstream": [],
+    "downstream": []
+  },
+  {
+    "id": "JP_road_toyota-domestic",
+    "tier": "transport",
+    "name": "Domestic road distribution from Toyota City",
+    "country_iso2": "JP",
+    "operator_id": "JP_toyota_transport",
+    "mode": "road",
+    "form": "unit_load",
+    "range": "regional",
+    "coordinates": {
+      "lat": 35.08,
+      "lon": 137.15
+    },
+    "resources": [
+      "Zinc",
+      "Quartz"
+    ],
+    "upstream": [],
+    "downstream": []
+  },
+  {
+    "id": "INTL_ocean_nagoya-global",
+    "tier": "transport",
+    "name": "Ocean freight Nagoya → Global markets",
+    "country_iso2": "INTL",
+    "operator_id": "INTL_mitsui_osk_lines",
+    "mode": "ocean_freight",
+    "form": "unit_load",
+    "range": "international",
+    "coordinates": {
+      "lat": 34.75,
+      "lon": 136.85
+    },
+    "resources": [
+      "Cerium",
+      "Dysprosium",
+      "Manganese",
+      "Zinc",
+      "Tungsten",
+      "Cobalt",
+      "Tantalum"
+    ],
+    "upstream": [],
+    "downstream": []
+  },
+  {
+    "id": "DE_road_hamburg-north-sea-coast",
+    "tier": "transport",
+    "name": "Heavy haulage Hamburg → North Sea wind farm sites",
+    "country_iso2": "DE",
+    "operator_id": "DE_mammoet",
+    "mode": "road",
+    "form": "unit_load",
+    "range": "regional",
+    "coordinates": {
+      "lat": 54,
+      "lon": 8.5
+    }
+  },
+  {
+    "id": "INTL_ocean_hamburg-global",
+    "tier": "transport",
+    "name": "Ocean freight Hamburg → Global wind farm projects",
+    "country_iso2": "INTL",
+    "operator_id": "INTL_hapag_lloyd",
+    "mode": "ocean_freight",
+    "form": "unit_load",
+    "range": "international",
+    "coordinates": {
+      "lat": 53.55,
+      "lon": 9.95
+    },
+    "resources": [
+      "Cerium",
+      "Dysprosium",
+      "Lithium (hard-rock)",
+      "Tin",
+      "Platinum Group Metals",
+      "Cobalt",
+      "Tantalum",
+      "Graphite"
+    ],
+    "upstream": [],
+    "downstream": []
+  },
+  {
+    "id": "DE_road_stuttgart-domestic",
+    "tier": "transport",
+    "name": "Road distribution from Bosch Stuttgart/domestic",
+    "country_iso2": "DE",
+    "operator_id": "DE_dhl_freight",
+    "mode": "road",
+    "form": "unit_load",
+    "range": "regional",
+    "coordinates": {
+      "lat": 48.78,
+      "lon": 9.18
+    },
+    "resources": [
+      "Dysprosium"
+    ],
+    "upstream": [],
+    "downstream": []
+  },
+  {
+    "id": "US_road_schenectady-domestic",
+    "tier": "transport",
+    "name": "Road/rail from GE Schenectady to US project sites",
+    "country_iso2": "US",
+    "operator_id": "US_xpo_logistics",
+    "mode": "road",
+    "form": "unit_load",
+    "range": "regional",
+    "coordinates": {
+      "lat": 40,
+      "lon": -85
+    },
+    "resources": [
+      "Dysprosium"
+    ],
+    "upstream": [],
+    "downstream": []
+  },
+  {
+    "id": "INTL_ocean_newark-global",
+    "tier": "transport",
+    "name": "Ocean freight Newark → Global wind projects",
+    "country_iso2": "INTL",
+    "operator_id": "INTL_maersk",
+    "mode": "ocean_freight",
+    "form": "unit_load",
+    "range": "international",
+    "coordinates": {
+      "lat": 40.68,
+      "lon": -74.15
+    },
+    "resources": [
+      "Cerium"
+    ],
+    "upstream": [],
+    "downstream": []
+  },
+  {
+    "id": "US_road_fremont-domestic",
+    "tier": "transport",
+    "name": "Road distribution Tesla Fremont → US consumers",
+    "country_iso2": "US",
+    "operator_id": "US_tesla_logistics",
+    "mode": "road",
+    "form": "unit_load",
+    "range": "regional",
+    "coordinates": {
+      "lat": 37.5,
+      "lon": -122
+    }
+  },
+  {
+    "id": "INTL_ocean_sanfrancisco-global",
+    "tier": "transport",
+    "name": "Ocean freight San Francisco Bay → Global markets",
+    "country_iso2": "INTL",
+    "operator_id": "INTL_maersk",
+    "mode": "ocean_freight",
+    "form": "unit_load",
+    "range": "international",
+    "coordinates": {
+      "lat": 37.8,
+      "lon": -122.4
+    }
+  },
+  {
+    "id": "CN_road_shenzhen-domestic",
+    "tier": "transport",
+    "name": "Road/rail distribution BYD Shenzhen → China domestic",
+    "country_iso2": "CN",
+    "operator_id": "CN_sf_express",
+    "mode": "road",
+    "form": "unit_load",
+    "range": "regional",
+    "coordinates": {
+      "lat": 25,
+      "lon": 113
+    },
+    "resources": [
+      "Dysprosium",
+      "Zinc"
+    ],
+    "upstream": [],
+    "downstream": []
+  },
+  {
+    "id": "INTL_ocean_shenzhen-global",
+    "tier": "transport",
+    "name": "Ocean freight Shenzhen → Global markets",
+    "country_iso2": "INTL",
+    "operator_id": "INTL_cosco_shipping",
+    "mode": "ocean_freight",
+    "form": "unit_load",
+    "range": "international",
+    "coordinates": {
+      "lat": 15,
+      "lon": 110
+    },
+    "resources": [
+      "Dysprosium",
+      "Lithium (hard-rock)",
+      "Manganese",
+      "Zinc",
+      "Tin",
+      "Cobalt",
+      "Tantalum",
+      "Graphite",
+      "Mica"
+    ],
+    "upstream": [],
+    "downstream": []
+  },
+  {
+    "id": "CN_road_urumqi-domestic",
+    "tier": "transport",
+    "name": "Heavy haulage Goldwind Urumqi → Chinese wind farm sites",
+    "country_iso2": "CN",
+    "operator_id": "CN_sinotrans",
+    "mode": "road",
+    "form": "unit_load",
+    "range": "regional",
+    "coordinates": {
+      "lat": 40,
+      "lon": 95
+    },
+    "resources": [
+      "Dysprosium"
+    ],
+    "upstream": [],
+    "downstream": []
+  },
+  {
+    "id": "INTL_ocean_tianjin-global",
+    "tier": "transport",
+    "name": "Ocean freight Tianjin → Global wind projects",
+    "country_iso2": "INTL",
+    "operator_id": "INTL_cosco_shipping",
+    "mode": "ocean_freight",
+    "form": "unit_load",
+    "range": "international",
+    "coordinates": {
+      "lat": 38.98,
+      "lon": 117.73
+    },
+    "resources": [
+      "Dysprosium"
+    ],
+    "upstream": [],
+    "downstream": []
+  },
+  {
+    "id": "KR_road_ulsan-domestic",
+    "tier": "transport",
+    "name": "Road distribution Hyundai Ulsan → Korean consumers",
+    "country_iso2": "KR",
+    "operator_id": "KR_hyundai_glovis",
+    "mode": "road",
+    "form": "unit_load",
+    "range": "regional",
+    "coordinates": {
+      "lat": 35.87,
+      "lon": 128.68
+    },
+    "resources": [
+      "Dysprosium",
+      "Zinc"
+    ],
+    "upstream": [],
+    "downstream": []
+  },
+  {
+    "id": "INTL_ocean_busan-global",
+    "tier": "transport",
+    "name": "Ocean freight Busan → Global markets",
+    "country_iso2": "INTL",
+    "operator_id": "INTL_hmm",
+    "mode": "ocean_freight",
+    "form": "unit_load",
+    "range": "international",
+    "coordinates": {
+      "lat": 35.1,
+      "lon": 129.07
+    },
+    "resources": [
+      "Cerium",
+      "Dysprosium",
+      "Aluminum",
+      "Tin",
+      "Tantalum"
+    ],
+    "upstream": [],
+    "downstream": []
+  }
+]

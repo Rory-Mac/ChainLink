@@ -1,0 +1,482 @@
+[
+  {
+    "id": "AU_panoramic_resources_panton",
+    "name": "Panton PGM-Ni-Cu Project (Panoramic Resources)",
+    "tier": "extraction",
+    "country_iso2": "AU",
+    "canonical_company": "Panoramic Resources",
+    "coordinates": {
+      "lat": -18.02,
+      "lon": 128.22
+    },
+    "downstream": [
+      {
+        "target_id": "ZA_anglo_american_platinum_refineries",
+        "corridor_id": "INTL_ocean_darwin-durban",
+        "resource": "PGM-bearing concentrate (platinum, palladium, rhodium)",
+        "quantity": 0.3,
+        "metric": "t"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Platinum Group Metals"
+    ]
+  },
+  {
+    "id": "AU_chalice_mining_julimar",
+    "name": "Julimar (Gonneville) PGM-Ni-Cu-Co Deposit (Chalice Mining)",
+    "tier": "extraction",
+    "country_iso2": "AU",
+    "canonical_company": "Chalice Mining",
+    "coordinates": {
+      "lat": -31.25,
+      "lon": 116.15
+    },
+    "downstream": [
+      {
+        "target_id": "AU_bhp_nickel_west_kwinana",
+        "corridor_id": "AU_road_julimar-kwinana",
+        "resource": "PGM-bearing nickel-copper-cobalt concentrate (palladium, platinum)",
+        "quantity": 1.5,
+        "metric": "t"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Platinum Group Metals"
+    ]
+  },
+  {
+    "id": "AU_podium_minerals_parks_reef",
+    "name": "Parks Reef PGM Project (Podium Minerals)",
+    "tier": "extraction",
+    "country_iso2": "AU",
+    "canonical_company": "Podium Minerals",
+    "coordinates": {
+      "lat": -24.26,
+      "lon": 118.47
+    },
+    "downstream": [
+      {
+        "target_id": "AU_bhp_nickel_west_kwinana",
+        "corridor_id": "AU_road_meekatharra-kwinana",
+        "resource": "PGM-bearing concentrate (platinum, palladium)",
+        "quantity": 0.4,
+        "metric": "t"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Platinum Group Metals"
+    ]
+  },
+  {
+    "id": "AU_bhp_nickel_west_kwinana",
+    "name": "BHP Nickel West – Kwinana Refinery (PGM by-product recovery)",
+    "tier": "refinery",
+    "country_iso2": "AU",
+    "canonical_company": "BHP",
+    "coordinates": {
+      "lat": -32.24,
+      "lon": 115.77
+    },
+    "downstream": [
+      {
+        "target_id": "ZA_anglo_american_platinum_refineries",
+        "corridor_id": "INTL_ocean_fremantle-durban",
+        "resource": "PGM-rich residue (platinum, palladium, rhodium)",
+        "quantity": 1,
+        "metric": "t"
+      },
+      {
+        "target_id": "GB_johnson_matthey",
+        "corridor_id": "INTL_ocean_fremantle-southampton",
+        "resource": "PGM-rich residue (platinum, palladium, rhodium)",
+        "quantity": 0.6,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_chalice_mining_julimar",
+      "AU_podium_minerals_parks_reef"
+    ],
+    "resources": [
+      "Platinum Group Metals"
+    ]
+  },
+  {
+    "id": "ZA_anglo_american_platinum_refineries",
+    "name": "Anglo American Platinum Precious Metals Refinery (Rustenburg)",
+    "tier": "refinery",
+    "country_iso2": "ZA",
+    "canonical_company": "Anglo American Platinum",
+    "coordinates": {
+      "lat": -25.67,
+      "lon": 27.24
+    },
+    "downstream": [
+      {
+        "target_id": "GB_johnson_matthey",
+        "corridor_id": "INTL_ocean_durban-southampton",
+        "resource": "Refined PGM sponge (platinum, palladium, rhodium)",
+        "quantity": 0.8,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_abc_bullion",
+        "corridor_id": "INTL_ocean_durban-sydney",
+        "resource": "Refined platinum and palladium ingots",
+        "quantity": 0.3,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_panoramic_resources_panton",
+      "AU_bhp_nickel_west_kwinana"
+    ],
+    "resources": [
+      "Platinum Group Metals"
+    ]
+  },
+  {
+    "id": "GB_johnson_matthey",
+    "name": "Johnson Matthey PGM Refining & Fabrication (Royston)",
+    "tier": "refinery",
+    "country_iso2": "GB",
+    "canonical_company": "Johnson Matthey",
+    "coordinates": {
+      "lat": 52.05,
+      "lon": -0.02
+    },
+    "downstream": [
+      {
+        "target_id": "AU_heraeus_australia",
+        "corridor_id": "INTL_ocean_southampton-melbourne",
+        "resource": "Refined platinum group metals (Pt, Pd, Rh)",
+        "quantity": 0.5,
+        "metric": "t"
+      },
+      {
+        "target_id": "DE_heraeus_hanau",
+        "corridor_id": "GB_road_royston-southampton",
+        "resource": "Refined PGM for European fabrication",
+        "quantity": 0.4,
+        "metric": "t"
+      },
+      {
+        "target_id": "INTL_industrial",
+        "corridor_id": "INTL_ocean_southampton-global",
+        "resource": "PGM catalysts and fabricated products",
+        "quantity": 0.5,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_bhp_nickel_west_kwinana",
+      "ZA_anglo_american_platinum_refineries"
+    ],
+    "resources": [
+      "Platinum Group Metals"
+    ]
+  },
+  {
+    "id": "AU_abc_bullion",
+    "name": "ABC Bullion (ABC Refinery) – Sydney",
+    "tier": "dealer",
+    "country_iso2": "AU",
+    "canonical_company": "ABC Bullion",
+    "coordinates": {
+      "lat": -33.87,
+      "lon": 151.21
+    },
+    "downstream": [
+      {
+        "target_id": "AU_heraeus_australia",
+        "corridor_id": "AU_road_sydney-melbourne",
+        "resource": "Platinum and palladium bars and grain",
+        "quantity": 0.15,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_investment_dealers",
+        "corridor_id": "AU_road_sydney-domestic",
+        "resource": "Platinum and palladium investment bars",
+        "quantity": 0.15,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "ZA_anglo_american_platinum_refineries"
+    ],
+    "resources": [
+      "Platinum Group Metals"
+    ]
+  },
+  {
+    "id": "AU_heraeus_australia",
+    "name": "Heraeus Australia – Melbourne",
+    "tier": "fabricator",
+    "country_iso2": "AU",
+    "canonical_company": "Heraeus",
+    "coordinates": {
+      "lat": -37.81,
+      "lon": 144.96
+    },
+    "downstream": [
+      {
+        "target_id": "AU_industrial",
+        "corridor_id": "AU_road_melbourne-domestic",
+        "resource": "Autocatalysts, chemical catalysts, industrial PGM products",
+        "quantity": 0.35,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_commercial",
+        "corridor_id": "AU_road_melbourne-domestic",
+        "resource": "PGM dental, medical and electronic components",
+        "quantity": 0.1,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_institutional",
+        "corridor_id": "AU_road_melbourne-domestic",
+        "resource": "Laboratory and scientific PGM equipment",
+        "quantity": 0.05,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "GB_johnson_matthey",
+      "AU_abc_bullion"
+    ],
+    "resources": [
+      "Platinum Group Metals"
+    ]
+  },
+  {
+    "id": "DE_heraeus_hanau",
+    "name": "Heraeus Precious Metals – Hanau",
+    "tier": "fabricator",
+    "country_iso2": "DE",
+    "canonical_company": "Heraeus",
+    "coordinates": {
+      "lat": 50.13,
+      "lon": 8.92
+    },
+    "downstream": [
+      {
+        "target_id": "DE_industrial",
+        "corridor_id": "DE_road_hanau-domestic",
+        "resource": "PGM autocatalysts and industrial catalysts",
+        "quantity": 0.25,
+        "metric": "t"
+      },
+      {
+        "target_id": "INTL_industrial",
+        "corridor_id": "INTL_ocean_hamburg-global",
+        "resource": "PGM fabricated products for global industry",
+        "quantity": 0.15,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "GB_johnson_matthey"
+    ],
+    "resources": [
+      "Platinum Group Metals"
+    ]
+  },
+  {
+    "id": "AU_investment_dealers",
+    "name": "Australian PGM Investment Dealers (aggregated)",
+    "tier": "fabricator",
+    "country_iso2": "AU",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": -33.87,
+      "lon": 151.21
+    },
+    "downstream": [
+      {
+        "target_id": "AU_residential",
+        "corridor_id": "AU_road_sydney-domestic",
+        "resource": "Platinum and palladium investment bars and coins",
+        "quantity": 0.1,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_commercial",
+        "corridor_id": "AU_road_sydney-domestic",
+        "resource": "Platinum investment products for corporate portfolios",
+        "quantity": 0.05,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_abc_bullion"
+    ],
+    "resources": [
+      "Platinum Group Metals"
+    ]
+  },
+  {
+    "id": "INTL_ocean_darwin-durban",
+    "tier": "transport",
+    "name": "Ocean freight – Darwin to Durban",
+    "country_iso2": "INTL",
+    "operator_id": "INTL_maersk",
+    "mode": "ocean_freight",
+    "form": "containerised",
+    "range": "international",
+    "coordinates": {
+      "lat": -20,
+      "lon": 85
+    }
+  },
+  {
+    "id": "AU_road_julimar-kwinana",
+    "tier": "transport",
+    "name": "Road freight – Julimar to Kwinana (WA)",
+    "country_iso2": "AU",
+    "operator_id": "AU_centurion",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "regional",
+    "coordinates": {
+      "lat": -31.75,
+      "lon": 116
+    }
+  },
+  {
+    "id": "AU_road_meekatharra-kwinana",
+    "tier": "transport",
+    "name": "Road freight – Meekatharra area to Kwinana (WA)",
+    "country_iso2": "AU",
+    "operator_id": "AU_centurion",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "regional",
+    "coordinates": {
+      "lat": -28.5,
+      "lon": 117.5
+    }
+  },
+  {
+    "id": "INTL_ocean_fremantle-durban",
+    "tier": "transport",
+    "name": "Ocean freight – Fremantle to Durban",
+    "country_iso2": "INTL",
+    "operator_id": "INTL_msc",
+    "mode": "ocean_freight",
+    "form": "containerised",
+    "range": "international",
+    "coordinates": {
+      "lat": -35,
+      "lon": 80
+    }
+  },
+  {
+    "id": "INTL_ocean_fremantle-southampton",
+    "tier": "transport",
+    "name": "Ocean freight – Fremantle to Southampton",
+    "country_iso2": "INTL",
+    "operator_id": "INTL_maersk",
+    "mode": "ocean_freight",
+    "form": "containerised",
+    "range": "international",
+    "coordinates": {
+      "lat": -10,
+      "lon": 60
+    }
+  },
+  {
+    "id": "INTL_ocean_durban-southampton",
+    "tier": "transport",
+    "name": "Ocean freight – Durban to Southampton",
+    "country_iso2": "INTL",
+    "operator_id": "INTL_maersk",
+    "mode": "ocean_freight",
+    "form": "containerised",
+    "range": "international",
+    "coordinates": {
+      "lat": 5,
+      "lon": -10
+    }
+  },
+  {
+    "id": "INTL_ocean_durban-sydney",
+    "tier": "transport",
+    "name": "Ocean freight – Durban to Sydney",
+    "country_iso2": "INTL",
+    "operator_id": "INTL_msc",
+    "mode": "ocean_freight",
+    "form": "containerised",
+    "range": "international",
+    "coordinates": {
+      "lat": -35,
+      "lon": 120
+    }
+  },
+  {
+    "id": "INTL_ocean_southampton-melbourne",
+    "tier": "transport",
+    "name": "Ocean freight – Southampton to Melbourne",
+    "country_iso2": "INTL",
+    "operator_id": "INTL_maersk",
+    "mode": "ocean_freight",
+    "form": "containerised",
+    "range": "international",
+    "coordinates": {
+      "lat": -15,
+      "lon": 90
+    }
+  },
+  {
+    "id": "GB_road_royston-southampton",
+    "tier": "transport",
+    "name": "Road freight – Royston to Southampton",
+    "country_iso2": "GB",
+    "operator_id": "GB_dhl",
+    "mode": "road",
+    "form": "containerised",
+    "range": "regional",
+    "coordinates": {
+      "lat": 51.5,
+      "lon": -0.8
+    }
+  },
+  {
+    "id": "INTL_ocean_southampton-global",
+    "tier": "transport",
+    "name": "Ocean freight – Southampton to global destinations",
+    "country_iso2": "INTL",
+    "operator_id": "INTL_maersk",
+    "mode": "ocean_freight",
+    "form": "containerised",
+    "range": "international",
+    "coordinates": {
+      "lat": 50.9,
+      "lon": -1.4
+    },
+    "resources": [
+      "Medicinal-Plants"
+    ],
+    "upstream": [],
+    "downstream": []
+  },
+  {
+    "id": "DE_road_hanau-domestic",
+    "tier": "transport",
+    "name": "Road distribution – Hanau to German domestic",
+    "country_iso2": "DE",
+    "operator_id": "DE_dhl",
+    "mode": "road",
+    "form": "containerised",
+    "range": "local",
+    "coordinates": {
+      "lat": 50.13,
+      "lon": 8.92
+    }
+  }
+]

@@ -1,0 +1,1207 @@
+[
+  {
+    "id": "CN_baotou_steel_re",
+    "name": "Baotou Steel Rare Earth Hi-Tech (Cerium Alloy Division)",
+    "tier": "alloy_producer",
+    "country_iso2": "CN",
+    "canonical_company": "Baotou Steel Rare Earth",
+    "coordinates": {
+      "lat": 40.6563,
+      "lon": 109.8403
+    },
+    "downstream": [
+      {
+        "target_id": "CN_saint_gobain_shanghai",
+        "corridor_id": "CN_rail_baotou-shanghai",
+        "resource": "cerium mischmetal / cerium polishing powder",
+        "quantity": 1400,
+        "metric": "t"
+      },
+      {
+        "target_id": "CN_corning_hefei",
+        "corridor_id": "CN_rail_baotou-hefei",
+        "resource": "cerium polishing powder",
+        "quantity": 800,
+        "metric": "t"
+      },
+      {
+        "target_id": "CN_industrial",
+        "corridor_id": "CN_road_baotou-regional",
+        "resource": "cerium mischmetal / cerium compounds",
+        "quantity": 600,
+        "metric": "t"
+      },
+      {
+        "target_id": "CN_catl",
+        "corridor_id": "CN_rail_baotou-ningde",
+        "resource": "lanthanum-nickel hydrogen storage alloy / lanthanum metal",
+        "quantity": 500,
+        "metric": "t"
+      },
+      {
+        "target_id": "CN_fcc_catalyst_producers",
+        "corridor_id": "CN_road_baotou-lanzhou",
+        "resource": "lanthanum oxide for FCC catalyst",
+        "quantity": 700,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "MY_lynas_kuantan",
+      "MY_lynas_lamp"
+    ],
+    "resources": [
+      "Cerium",
+      "Lanthanum"
+    ]
+  },
+  {
+    "id": "US_neo_performance",
+    "name": "Neo Performance Materials (Silmet / US Processing)",
+    "tier": "alloy_producer",
+    "country_iso2": "US",
+    "canonical_company": "Neo Performance Materials",
+    "coordinates": {
+      "lat": 29.7604,
+      "lon": -95.3698
+    },
+    "downstream": [
+      {
+        "target_id": "US_basf_iselin",
+        "corridor_id": "US_road_houston-iselin",
+        "resource": "cerium oxide for automotive catalysts",
+        "quantity": 600,
+        "metric": "t"
+      },
+      {
+        "target_id": "US_cabot_microelectronics",
+        "corridor_id": "US_road_houston-aurora",
+        "resource": "cerium polishing slurry",
+        "quantity": 500,
+        "metric": "t"
+      },
+      {
+        "target_id": "US_industrial",
+        "corridor_id": "US_road_houston-domestic",
+        "resource": "cerium compounds and mischmetal",
+        "quantity": 600,
+        "metric": "t"
+      },
+      {
+        "target_id": "US_grace_catalyst",
+        "corridor_id": "US_road_peterborough-columbia",
+        "resource": "lanthanum oxide / lanthanum chloride for FCC catalysts",
+        "quantity": 300,
+        "metric": "t"
+      },
+      {
+        "target_id": "US_corning",
+        "corridor_id": "US_road_peterborough-corning",
+        "resource": "lanthanum oxide for optical glass & ceramics",
+        "quantity": 100,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "MY_lynas_kuantan",
+      "AU_iluka_eneabba_refinery",
+      "AU_arafura_nolans_separation",
+      "MY_lynas_lamp"
+    ],
+    "resources": [
+      "Cerium",
+      "Lanthanum"
+    ]
+  },
+  {
+    "id": "DE_treibacher",
+    "name": "Treibacher Industrie AG (Cerium Processing, Europe)",
+    "tier": "alloy_producer",
+    "country_iso2": "AT",
+    "canonical_company": "Treibacher Industrie",
+    "coordinates": {
+      "lat": 46.7482,
+      "lon": 13.4233
+    },
+    "downstream": [
+      {
+        "target_id": "DE_schott_ag",
+        "corridor_id": "AT_road_althofen-mainz",
+        "resource": "cerium polishing powder / glass additive",
+        "quantity": 450,
+        "metric": "t"
+      },
+      {
+        "target_id": "DE_basf_ludwigshafen",
+        "corridor_id": "AT_road_althofen-ludwigshafen",
+        "resource": "cerium oxide for automotive catalysts",
+        "quantity": 400,
+        "metric": "t"
+      },
+      {
+        "target_id": "DE_industrial",
+        "corridor_id": "AT_road_althofen-europe",
+        "resource": "cerium compounds",
+        "quantity": 250,
+        "metric": "t"
+      },
+      {
+        "target_id": "DE_basf_catalyst",
+        "corridor_id": "AT_road_althofen-ludwigshafen",
+        "resource": "lanthanum compounds for catalysts",
+        "quantity": 400,
+        "metric": "t"
+      },
+      {
+        "target_id": "DE_schott_ag",
+        "corridor_id": "AT_road_althofen-mainz",
+        "resource": "lanthanum oxide for optical glass",
+        "quantity": 200,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "MY_lynas_kuantan",
+      "AU_iluka_eneabba_refinery",
+      "MY_lynas_lamp"
+    ],
+    "resources": [
+      "Cerium",
+      "Lanthanum"
+    ]
+  },
+  {
+    "id": "KR_changsung",
+    "name": "Changsung Corporation (Cerium Processing)",
+    "tier": "alloy_producer",
+    "country_iso2": "KR",
+    "canonical_company": "Changsung Corporation",
+    "coordinates": {
+      "lat": 35.1028,
+      "lon": 129.0403
+    },
+    "downstream": [
+      {
+        "target_id": "KR_samsung_sdi",
+        "corridor_id": "KR_road_busan-suwon",
+        "resource": "cerium polishing compound for display glass",
+        "quantity": 500,
+        "metric": "t"
+      },
+      {
+        "target_id": "KR_industrial",
+        "corridor_id": "KR_road_busan-domestic",
+        "resource": "cerium compounds",
+        "quantity": 450,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "MY_lynas_kuantan",
+      "AU_arafura_nolans_separation"
+    ],
+    "resources": [
+      "Cerium"
+    ]
+  },
+  {
+    "id": "CN_saint_gobain_shanghai",
+    "name": "Saint-Gobain Shanghai (Glass & Polishing Products)",
+    "tier": "oem",
+    "country_iso2": "CN",
+    "canonical_company": "Saint-Gobain",
+    "coordinates": {
+      "lat": 31.2304,
+      "lon": 121.4737
+    },
+    "downstream": [
+      {
+        "target_id": "CN_industrial",
+        "corridor_id": "CN_road_shanghai-domestic",
+        "resource": "cerium-polished glass products / automotive glass",
+        "quantity": 800,
+        "metric": "t"
+      },
+      {
+        "target_id": "INTL_commercial",
+        "corridor_id": "INTL_ocean_shanghai-global",
+        "resource": "cerium-containing glass products",
+        "quantity": 600,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "CN_baotou_steel_re"
+    ],
+    "resources": [
+      "Cerium"
+    ]
+  },
+  {
+    "id": "CN_corning_hefei",
+    "name": "Corning Hefei Display Glass Plant",
+    "tier": "oem",
+    "country_iso2": "CN",
+    "canonical_company": "Corning Inc.",
+    "coordinates": {
+      "lat": 31.8206,
+      "lon": 117.2272
+    },
+    "downstream": [
+      {
+        "target_id": "CN_industrial",
+        "corridor_id": "CN_road_hefei-domestic",
+        "resource": "cerium-polished display glass substrates",
+        "quantity": 500,
+        "metric": "t"
+      },
+      {
+        "target_id": "INTL_commercial",
+        "corridor_id": "INTL_ocean_shanghai-global",
+        "resource": "cerium-polished display glass substrates",
+        "quantity": 300,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "CN_baotou_steel_re"
+    ],
+    "resources": [
+      "Cerium"
+    ]
+  },
+  {
+    "id": "JP_hoya",
+    "name": "Hoya Corporation (Optical Glass)",
+    "tier": "oem",
+    "country_iso2": "JP",
+    "canonical_company": "Hoya Corporation",
+    "coordinates": {
+      "lat": 35.6762,
+      "lon": 139.6503
+    },
+    "downstream": [
+      {
+        "target_id": "JP_commercial",
+        "corridor_id": "JP_road_tokyo-domestic",
+        "resource": "cerium-polished optical glass / lenses",
+        "quantity": 400,
+        "metric": "t"
+      },
+      {
+        "target_id": "INTL_commercial",
+        "corridor_id": "INTL_ocean_tokyo-global",
+        "resource": "cerium-polished optical products",
+        "quantity": 400,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "JP_shin_etsu_chemical"
+    ],
+    "resources": [
+      "Cerium"
+    ]
+  },
+  {
+    "id": "JP_agc_inc",
+    "name": "AGC Inc. (Asahi Glass)",
+    "tier": "oem",
+    "country_iso2": "JP",
+    "canonical_company": "AGC Inc.",
+    "coordinates": {
+      "lat": 34.6937,
+      "lon": 135.5023
+    },
+    "downstream": [
+      {
+        "target_id": "JP_industrial",
+        "corridor_id": "JP_road_osaka-domestic",
+        "resource": "cerium-decolorized flat glass / automotive glass",
+        "quantity": 350,
+        "metric": "t"
+      },
+      {
+        "target_id": "INTL_industrial",
+        "corridor_id": "INTL_ocean_osaka-global",
+        "resource": "cerium-containing flat glass",
+        "quantity": 250,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "JP_shin_etsu_chemical"
+    ],
+    "resources": [
+      "Cerium"
+    ]
+  },
+  {
+    "id": "JP_toyota",
+    "name": "Toyota Motor Corporation (Catalyst Systems)",
+    "tier": "oem",
+    "country_iso2": "JP",
+    "canonical_company": "Toyota Motor Corporation",
+    "coordinates": {
+      "lat": 35.0844,
+      "lon": 137.153
+    },
+    "downstream": [
+      {
+        "target_id": "JP_residential",
+        "corridor_id": "JP_road_nagoya-domestic",
+        "resource": "vehicles with cerium-based catalytic converters",
+        "quantity": 250,
+        "metric": "t"
+      },
+      {
+        "target_id": "INTL_residential",
+        "corridor_id": "INTL_ocean_nagoya-global",
+        "resource": "vehicles with cerium-based catalytic converters",
+        "quantity": 200,
+        "metric": "t"
+      },
+      {
+        "target_id": "JP_residential",
+        "corridor_id": "JP_road_toyota-nationwide",
+        "resource": "hybrid vehicles with NiMH batteries containing lanthanum",
+        "quantity": 700,
+        "metric": "t"
+      },
+      {
+        "target_id": "US_residential",
+        "corridor_id": "INTL_ocean_nagoya-long-beach",
+        "resource": "hybrid vehicles with NiMH batteries containing lanthanum",
+        "quantity": 400,
+        "metric": "t"
+      },
+      {
+        "target_id": "JP_residential",
+        "corridor_id": "JP_road_toyota-jp-distribution",
+        "resource": "hybrid and electric vehicles",
+        "quantity": 80,
+        "metric": "t"
+      },
+      {
+        "target_id": "INTL_residential",
+        "corridor_id": "INTL_ocean_nagoya-global",
+        "resource": "hybrid and electric vehicles",
+        "quantity": 70,
+        "metric": "t"
+      },
+      {
+        "target_id": "JP_commercial",
+        "corridor_id": "JP_road_toyota-city-distribution",
+        "resource": "automotive ECU and electronics assemblies",
+        "quantity": 8,
+        "metric": "t"
+      },
+      {
+        "target_id": "INTL_commercial",
+        "corridor_id": "INTL_ocean_nagoya-global",
+        "resource": "vehicles containing tantalum electronics (export)",
+        "quantity": 7,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "JP_shin_etsu_chemical",
+      "JP_santoku_kobe",
+      "JP_mitsui_kinzoku",
+      "JP_panasonic_energy",
+      "JP_tokin"
+    ],
+    "resources": [
+      "Cerium",
+      "Lanthanum",
+      "Cobalt",
+      "Tantalum"
+    ]
+  },
+  {
+    "id": "US_basf_iselin",
+    "name": "BASF Catalysts (Mobile Emissions Catalysts)",
+    "tier": "oem",
+    "country_iso2": "US",
+    "canonical_company": "BASF",
+    "coordinates": {
+      "lat": 40.5726,
+      "lon": -74.3223
+    },
+    "downstream": [
+      {
+        "target_id": "US_industrial",
+        "corridor_id": "US_road_iselin-detroit",
+        "resource": "cerium-based automotive catalytic converters",
+        "quantity": 400,
+        "metric": "t"
+      },
+      {
+        "target_id": "INTL_industrial",
+        "corridor_id": "INTL_ocean_newark-global",
+        "resource": "cerium-based catalytic converter systems",
+        "quantity": 200,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "US_neo_performance"
+    ],
+    "resources": [
+      "Cerium"
+    ]
+  },
+  {
+    "id": "US_cabot_microelectronics",
+    "name": "CMC Materials (CMP Slurries)",
+    "tier": "oem",
+    "country_iso2": "US",
+    "canonical_company": "CMC Materials",
+    "coordinates": {
+      "lat": 41.7606,
+      "lon": -88.3201
+    },
+    "downstream": [
+      {
+        "target_id": "US_industrial",
+        "corridor_id": "US_road_aurora-domestic",
+        "resource": "cerium oxide CMP slurry for semiconductor wafer polishing",
+        "quantity": 300,
+        "metric": "t"
+      },
+      {
+        "target_id": "INTL_industrial",
+        "corridor_id": "INTL_air_chicago-global",
+        "resource": "cerium oxide CMP slurry",
+        "quantity": 200,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "US_neo_performance"
+    ],
+    "resources": [
+      "Cerium"
+    ]
+  },
+  {
+    "id": "DE_schott_ag",
+    "name": "SCHOTT AG (Specialty Glass)",
+    "tier": "oem",
+    "country_iso2": "DE",
+    "canonical_company": "SCHOTT AG",
+    "coordinates": {
+      "lat": 49.9929,
+      "lon": 8.2473
+    },
+    "downstream": [
+      {
+        "target_id": "DE_industrial",
+        "corridor_id": "DE_road_mainz-domestic",
+        "resource": "cerium-containing specialty glass products",
+        "quantity": 250,
+        "metric": "t"
+      },
+      {
+        "target_id": "INTL_commercial",
+        "corridor_id": "INTL_ocean_hamburg-global",
+        "resource": "cerium-containing specialty glass products",
+        "quantity": 200,
+        "metric": "t"
+      },
+      {
+        "target_id": "DE_industrial",
+        "corridor_id": "DE_road_mainz-nationwide",
+        "resource": "high-refractive-index lanthanum optical glass",
+        "quantity": 100,
+        "metric": "t"
+      },
+      {
+        "target_id": "INTL_commercial",
+        "corridor_id": "INTL_air_frankfurt-worldwide",
+        "resource": "lanthanum optical glass products",
+        "quantity": 100,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "DE_treibacher"
+    ],
+    "resources": [
+      "Cerium",
+      "Lanthanum"
+    ]
+  },
+  {
+    "id": "DE_basf_ludwigshafen",
+    "name": "BASF Ludwigshafen (Catalyst Division)",
+    "tier": "oem",
+    "country_iso2": "DE",
+    "canonical_company": "BASF",
+    "coordinates": {
+      "lat": 49.4833,
+      "lon": 8.4333
+    },
+    "downstream": [
+      {
+        "target_id": "DE_industrial",
+        "corridor_id": "DE_road_ludwigshafen-domestic",
+        "resource": "cerium-based automotive / industrial catalysts",
+        "quantity": 250,
+        "metric": "t"
+      },
+      {
+        "target_id": "INTL_industrial",
+        "corridor_id": "INTL_ocean_hamburg-global",
+        "resource": "cerium-based catalysts",
+        "quantity": 150,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "DE_treibacher"
+    ],
+    "resources": [
+      "Cerium"
+    ]
+  },
+  {
+    "id": "KR_samsung_sdi",
+    "name": "Samsung SDI (Display Glass Polishing)",
+    "tier": "oem",
+    "country_iso2": "KR",
+    "canonical_company": "Samsung SDI",
+    "coordinates": {
+      "lat": 37.2636,
+      "lon": 127.0286
+    },
+    "downstream": [
+      {
+        "target_id": "KR_commercial",
+        "corridor_id": "KR_road_suwon-domestic",
+        "resource": "display panels with cerium-polished glass",
+        "quantity": 300,
+        "metric": "t"
+      },
+      {
+        "target_id": "INTL_commercial",
+        "corridor_id": "INTL_ocean_busan-global",
+        "resource": "display panels with cerium-polished glass",
+        "quantity": 200,
+        "metric": "t"
+      },
+      {
+        "target_id": "DE_bmw_ag",
+        "corridor_id": "INTL_ocean_busan-bremerhaven",
+        "resource": "NMC lithium-ion battery cells",
+        "quantity": 400,
+        "metric": "t"
+      },
+      {
+        "target_id": "US_stellantis",
+        "corridor_id": "INTL_ocean_busan-newark",
+        "resource": "NMC lithium-ion battery cells",
+        "quantity": 250,
+        "metric": "t"
+      },
+      {
+        "target_id": "US_rivian",
+        "corridor_id": "INTL_ocean_busan-losangeles",
+        "resource": "NMC lithium-ion battery cells",
+        "quantity": 200,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "KR_changsung",
+      "FI_umicore_kokkola",
+      "BE_umicore_olen"
+    ],
+    "resources": [
+      "Cerium",
+      "Cobalt"
+    ]
+  },
+  {
+    "id": "AU_road_nolans-alice-springs",
+    "tier": "transport",
+    "name": "Road: Nolans Bore to On-site Separation / Alice Springs",
+    "country_iso2": "AU",
+    "operator_id": "AU_arafura_rare_earths",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "local",
+    "coordinates": {
+      "lat": -22.8,
+      "lon": 133.5
+    }
+  },
+  {
+    "id": "INTL_ocean_kuantan-tokyo",
+    "tier": "transport",
+    "name": "Ocean Freight: Kuantan to Tokyo",
+    "country_iso2": "INTL",
+    "operator_id": "INTL_one_ocean_network_express",
+    "mode": "ocean_freight",
+    "form": "containerised",
+    "range": "international",
+    "coordinates": {
+      "lat": 20,
+      "lon": 125
+    }
+  },
+  {
+    "id": "INTL_ocean_kuantan-houston",
+    "tier": "transport",
+    "name": "Ocean Freight: Kuantan to Houston",
+    "country_iso2": "INTL",
+    "operator_id": "INTL_maersk",
+    "mode": "ocean_freight",
+    "form": "containerised",
+    "range": "international",
+    "coordinates": {
+      "lat": 10,
+      "lon": 80
+    }
+  },
+  {
+    "id": "INTL_ocean_kuantan-busan",
+    "tier": "transport",
+    "name": "Ocean Freight: Kuantan to Busan",
+    "country_iso2": "INTL",
+    "operator_id": "INTL_one_ocean_network_express",
+    "mode": "ocean_freight",
+    "form": "containerised",
+    "range": "international",
+    "coordinates": {
+      "lat": 18,
+      "lon": 118
+    },
+    "resources": [
+      "Lanthanum",
+      "Dysprosium"
+    ],
+    "upstream": [],
+    "downstream": []
+  },
+  {
+    "id": "INTL_ocean_fremantle-tokyo",
+    "tier": "transport",
+    "name": "Ocean Freight: Fremantle to Tokyo",
+    "country_iso2": "INTL",
+    "operator_id": "INTL_maersk",
+    "mode": "ocean_freight",
+    "form": "containerised",
+    "range": "international",
+    "coordinates": {
+      "lat": -5,
+      "lon": 130
+    }
+  },
+  {
+    "id": "INTL_ocean_fremantle-hamburg",
+    "tier": "transport",
+    "name": "Ocean Freight: Fremantle to Hamburg",
+    "country_iso2": "INTL",
+    "operator_id": "INTL_hapag_lloyd",
+    "mode": "ocean_freight",
+    "form": "containerised",
+    "range": "international",
+    "coordinates": {
+      "lat": -15,
+      "lon": 75
+    },
+    "resources": [
+      "Lanthanum",
+      "Dysprosium",
+      "Tantalum"
+    ],
+    "upstream": [],
+    "downstream": []
+  },
+  {
+    "id": "INTL_ocean_fremantle-houston",
+    "tier": "transport",
+    "name": "Ocean Freight: Fremantle to Houston",
+    "country_iso2": "INTL",
+    "operator_id": "INTL_maersk",
+    "mode": "ocean_freight",
+    "form": "containerised",
+    "range": "international",
+    "coordinates": {
+      "lat": -10,
+      "lon": 80
+    },
+    "resources": [
+      "Nickel"
+    ],
+    "upstream": [],
+    "downstream": []
+  },
+  {
+    "id": "INTL_ocean_darwin-tokyo",
+    "tier": "transport",
+    "name": "Ocean Freight: Darwin to Tokyo",
+    "country_iso2": "INTL",
+    "operator_id": "INTL_one_ocean_network_express",
+    "mode": "ocean_freight",
+    "form": "containerised",
+    "range": "international",
+    "coordinates": {
+      "lat": -2,
+      "lon": 135
+    }
+  },
+  {
+    "id": "INTL_ocean_darwin-houston",
+    "tier": "transport",
+    "name": "Ocean Freight: Darwin to Houston",
+    "country_iso2": "INTL",
+    "operator_id": "INTL_maersk",
+    "mode": "ocean_freight",
+    "form": "containerised",
+    "range": "international",
+    "coordinates": {
+      "lat": -5,
+      "lon": 100
+    }
+  },
+  {
+    "id": "CN_rail_baotou-shanghai",
+    "tier": "transport",
+    "name": "Rail: Baotou to Shanghai",
+    "country_iso2": "CN",
+    "operator_id": "CN_china_railway",
+    "mode": "rail",
+    "form": "containerised",
+    "range": "regional",
+    "coordinates": {
+      "lat": 36,
+      "lon": 115
+    }
+  },
+  {
+    "id": "CN_rail_baotou-hefei",
+    "tier": "transport",
+    "name": "Rail: Baotou to Hefei",
+    "country_iso2": "CN",
+    "operator_id": "CN_china_railway",
+    "mode": "rail",
+    "form": "containerised",
+    "range": "regional",
+    "coordinates": {
+      "lat": 37,
+      "lon": 113
+    }
+  },
+  {
+    "id": "CN_road_baotou-regional",
+    "tier": "transport",
+    "name": "Road: Baotou Regional Distribution",
+    "country_iso2": "CN",
+    "operator_id": "CN_sinotrans",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "regional",
+    "coordinates": {
+      "lat": 40.66,
+      "lon": 109.84
+    }
+  },
+  {
+    "id": "CN_road_shanghai-domestic",
+    "tier": "transport",
+    "name": "Road: Shanghai Domestic Distribution",
+    "country_iso2": "CN",
+    "operator_id": "CN_sinotrans",
+    "mode": "road",
+    "form": "containerised",
+    "range": "regional",
+    "coordinates": {
+      "lat": 31.23,
+      "lon": 121.47
+    },
+    "resources": [
+      "Zinc"
+    ],
+    "upstream": [],
+    "downstream": []
+  },
+  {
+    "id": "CN_road_hefei-domestic",
+    "tier": "transport",
+    "name": "Road: Hefei Domestic Distribution",
+    "country_iso2": "CN",
+    "operator_id": "CN_sinotrans",
+    "mode": "road",
+    "form": "containerised",
+    "range": "regional",
+    "coordinates": {
+      "lat": 31.82,
+      "lon": 117.23
+    }
+  },
+  {
+    "id": "INTL_ocean_shanghai-global",
+    "tier": "transport",
+    "name": "Ocean Freight: Shanghai to Global Markets",
+    "country_iso2": "INTL",
+    "operator_id": "INTL_cosco",
+    "mode": "ocean_freight",
+    "form": "containerised",
+    "range": "international",
+    "coordinates": {
+      "lat": 25,
+      "lon": 135
+    },
+    "resources": [
+      "Lithium (hard-rock)",
+      "Aluminum",
+      "Tin",
+      "Tungsten",
+      "Graphite"
+    ],
+    "upstream": [],
+    "downstream": []
+  },
+  {
+    "id": "JP_road_joetsu-tokyo",
+    "tier": "transport",
+    "name": "Road: Joetsu to Tokyo",
+    "country_iso2": "JP",
+    "operator_id": "JP_yamato_transport",
+    "mode": "road",
+    "form": "containerised",
+    "range": "regional",
+    "coordinates": {
+      "lat": 36.3,
+      "lon": 139.1
+    }
+  },
+  {
+    "id": "JP_road_joetsu-osaka",
+    "tier": "transport",
+    "name": "Road: Joetsu to Osaka",
+    "country_iso2": "JP",
+    "operator_id": "JP_yamato_transport",
+    "mode": "road",
+    "form": "containerised",
+    "range": "regional",
+    "coordinates": {
+      "lat": 35.8,
+      "lon": 136.5
+    }
+  },
+  {
+    "id": "JP_road_joetsu-nagoya",
+    "tier": "transport",
+    "name": "Road: Joetsu to Nagoya",
+    "country_iso2": "JP",
+    "operator_id": "JP_yamato_transport",
+    "mode": "road",
+    "form": "containerised",
+    "range": "regional",
+    "coordinates": {
+      "lat": 36.1,
+      "lon": 137.7
+    }
+  },
+  {
+    "id": "JP_road_joetsu-domestic",
+    "tier": "transport",
+    "name": "Road: Joetsu to Domestic Markets",
+    "country_iso2": "JP",
+    "operator_id": "JP_yamato_transport",
+    "mode": "road",
+    "form": "containerised",
+    "range": "regional",
+    "coordinates": {
+      "lat": 36.5,
+      "lon": 138.5
+    }
+  },
+  {
+    "id": "JP_road_tokyo-domestic",
+    "tier": "transport",
+    "name": "Road: Tokyo Domestic Distribution",
+    "country_iso2": "JP",
+    "operator_id": "JP_yamato_transport",
+    "mode": "road",
+    "form": "containerised",
+    "range": "regional",
+    "coordinates": {
+      "lat": 35.68,
+      "lon": 139.65
+    },
+    "resources": [
+      "Zinc"
+    ],
+    "upstream": [],
+    "downstream": []
+  },
+  {
+    "id": "JP_road_osaka-domestic",
+    "tier": "transport",
+    "name": "Road: Osaka Domestic Distribution",
+    "country_iso2": "JP",
+    "operator_id": "JP_yamato_transport",
+    "mode": "road",
+    "form": "containerised",
+    "range": "regional",
+    "coordinates": {
+      "lat": 34.69,
+      "lon": 135.5
+    },
+    "resources": [
+      "Nickel",
+      "Tungsten"
+    ],
+    "upstream": [],
+    "downstream": []
+  },
+  {
+    "id": "JP_road_nagoya-domestic",
+    "tier": "transport",
+    "name": "Road: Nagoya Domestic Distribution",
+    "country_iso2": "JP",
+    "operator_id": "JP_yamato_transport",
+    "mode": "road",
+    "form": "containerised",
+    "range": "regional",
+    "coordinates": {
+      "lat": 35.08,
+      "lon": 137.15
+    },
+    "resources": [
+      "Tungsten"
+    ],
+    "upstream": [],
+    "downstream": []
+  },
+  {
+    "id": "INTL_ocean_tokyo-global",
+    "tier": "transport",
+    "name": "Ocean Freight: Tokyo to Global Markets",
+    "country_iso2": "INTL",
+    "operator_id": "INTL_one_ocean_network_express",
+    "mode": "ocean_freight",
+    "form": "containerised",
+    "range": "international",
+    "coordinates": {
+      "lat": 30,
+      "lon": 150
+    },
+    "resources": [
+      "Tin",
+      "Tantalum"
+    ],
+    "upstream": [],
+    "downstream": []
+  },
+  {
+    "id": "US_road_houston-iselin",
+    "tier": "transport",
+    "name": "Road: Houston to Iselin, NJ",
+    "country_iso2": "US",
+    "operator_id": "US_xpo_logistics",
+    "mode": "road",
+    "form": "containerised",
+    "range": "regional",
+    "coordinates": {
+      "lat": 34,
+      "lon": -85
+    }
+  },
+  {
+    "id": "US_road_houston-aurora",
+    "tier": "transport",
+    "name": "Road: Houston to Aurora, IL",
+    "country_iso2": "US",
+    "operator_id": "US_xpo_logistics",
+    "mode": "road",
+    "form": "containerised",
+    "range": "regional",
+    "coordinates": {
+      "lat": 34.5,
+      "lon": -92
+    }
+  },
+  {
+    "id": "US_road_houston-domestic",
+    "tier": "transport",
+    "name": "Road: Houston Domestic Distribution",
+    "country_iso2": "US",
+    "operator_id": "US_xpo_logistics",
+    "mode": "road",
+    "form": "containerised",
+    "range": "regional",
+    "coordinates": {
+      "lat": 29.76,
+      "lon": -95.37
+    }
+  },
+  {
+    "id": "US_road_iselin-detroit",
+    "tier": "transport",
+    "name": "Road: Iselin to Detroit (Auto OEMs)",
+    "country_iso2": "US",
+    "operator_id": "US_xpo_logistics",
+    "mode": "road",
+    "form": "containerised",
+    "range": "regional",
+    "coordinates": {
+      "lat": 41,
+      "lon": -81
+    }
+  },
+  {
+    "id": "US_road_aurora-domestic",
+    "tier": "transport",
+    "name": "Road: Aurora Domestic Distribution",
+    "country_iso2": "US",
+    "operator_id": "US_xpo_logistics",
+    "mode": "road",
+    "form": "containerised",
+    "range": "regional",
+    "coordinates": {
+      "lat": 41.76,
+      "lon": -88.32
+    }
+  },
+  {
+    "id": "INTL_air_chicago-global",
+    "tier": "transport",
+    "name": "Air Freight: Chicago to Global Semiconductor Fabs",
+    "country_iso2": "INTL",
+    "operator_id": "INTL_fedex",
+    "mode": "air_freight",
+    "form": "containerised",
+    "range": "international",
+    "coordinates": {
+      "lat": 41.97,
+      "lon": -87.9
+    }
+  },
+  {
+    "id": "AT_road_althofen-mainz",
+    "tier": "transport",
+    "name": "Road: Althofen to Mainz",
+    "country_iso2": "AT",
+    "operator_id": "AT_lkw_walter",
+    "mode": "road",
+    "form": "containerised",
+    "range": "regional",
+    "coordinates": {
+      "lat": 48.5,
+      "lon": 11
+    },
+    "resources": [
+      "Lanthanum"
+    ],
+    "upstream": [],
+    "downstream": []
+  },
+  {
+    "id": "AT_road_althofen-ludwigshafen",
+    "tier": "transport",
+    "name": "Road: Althofen to Ludwigshafen",
+    "country_iso2": "AT",
+    "operator_id": "AT_lkw_walter",
+    "mode": "road",
+    "form": "containerised",
+    "range": "regional",
+    "coordinates": {
+      "lat": 48.2,
+      "lon": 11.5
+    },
+    "resources": [
+      "Lanthanum"
+    ],
+    "upstream": [],
+    "downstream": []
+  },
+  {
+    "id": "AT_road_althofen-europe",
+    "tier": "transport",
+    "name": "Road: Althofen to European Markets",
+    "country_iso2": "AT",
+    "operator_id": "AT_lkw_walter",
+    "mode": "road",
+    "form": "containerised",
+    "range": "regional",
+    "coordinates": {
+      "lat": 47.5,
+      "lon": 13
+    }
+  },
+  {
+    "id": "DE_road_mainz-domestic",
+    "tier": "transport",
+    "name": "Road: Mainz Domestic Distribution",
+    "country_iso2": "DE",
+    "operator_id": "DE_dhl_freight",
+    "mode": "road",
+    "form": "containerised",
+    "range": "regional",
+    "coordinates": {
+      "lat": 49.99,
+      "lon": 8.25
+    }
+  },
+  {
+    "id": "DE_road_ludwigshafen-domestic",
+    "tier": "transport",
+    "name": "Road: Ludwigshafen Domestic Distribution",
+    "country_iso2": "DE",
+    "operator_id": "DE_dhl_freight",
+    "mode": "road",
+    "form": "containerised",
+    "range": "regional",
+    "coordinates": {
+      "lat": 49.48,
+      "lon": 8.43
+    }
+  },
+  {
+    "id": "KR_road_busan-suwon",
+    "tier": "transport",
+    "name": "Road: Busan to Suwon",
+    "country_iso2": "KR",
+    "operator_id": "KR_cj_logistics",
+    "mode": "road",
+    "form": "containerised",
+    "range": "regional",
+    "coordinates": {
+      "lat": 36,
+      "lon": 128.5
+    }
+  },
+  {
+    "id": "KR_road_busan-domestic",
+    "tier": "transport",
+    "name": "Road: Busan Domestic Distribution",
+    "country_iso2": "KR",
+    "operator_id": "KR_cj_logistics",
+    "mode": "road",
+    "form": "containerised",
+    "range": "regional",
+    "coordinates": {
+      "lat": 35.8,
+      "lon": 128.8
+    }
+  },
+  {
+    "id": "KR_road_suwon-domestic",
+    "tier": "transport",
+    "name": "Road: Suwon Domestic Distribution",
+    "country_iso2": "KR",
+    "operator_id": "KR_cj_logistics",
+    "mode": "road",
+    "form": "containerised",
+    "range": "regional",
+    "coordinates": {
+      "lat": 37.26,
+      "lon": 127.03
+    }
+  }
+]

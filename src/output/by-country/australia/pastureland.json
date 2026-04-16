@@ -1,0 +1,2893 @@
+[
+  {
+    "id": "AU_kidman_stations",
+    "name": "S. Kidman & Co Pastoral Holdings",
+    "tier": "land_holder",
+    "country_iso2": "AU",
+    "canonical_company": "S. Kidman & Co",
+    "coordinates": {
+      "lat": -26.5,
+      "lon": 135
+    },
+    "downstream": [
+      {
+        "target_id": "AU_kidman_cattle_operations",
+        "corridor_id": "AU_road_outback-sa-nt",
+        "resource": "pastoral grazing access for beef cattle",
+        "quantity": 180000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Pastureland"
+    ]
+  },
+  {
+    "id": "AU_aaco_stations",
+    "name": "Australian Agricultural Company (AACo) Stations",
+    "tier": "land_holder",
+    "country_iso2": "AU",
+    "canonical_company": "Australian Agricultural Company",
+    "coordinates": {
+      "lat": -20.5,
+      "lon": 141
+    },
+    "downstream": [
+      {
+        "target_id": "AU_aaco_cattle_operations",
+        "corridor_id": "AU_road_qld-nt-pastoral",
+        "resource": "pastoral grazing access for beef cattle",
+        "quantity": 200000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Pastureland"
+    ]
+  },
+  {
+    "id": "AU_hancock_pastoral",
+    "name": "Hancock Prospecting Pastoral Stations",
+    "tier": "land_holder",
+    "country_iso2": "AU",
+    "canonical_company": "Hancock Prospecting",
+    "coordinates": {
+      "lat": -23,
+      "lon": 119.5
+    },
+    "downstream": [
+      {
+        "target_id": "AU_hancock_cattle_operations",
+        "corridor_id": "AU_road_wa-pilbara-kimberley",
+        "resource": "pastoral grazing access for beef cattle",
+        "quantity": 80000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Pastureland"
+    ]
+  },
+  {
+    "id": "AU_consolidated_pastoral",
+    "name": "Consolidated Pastoral Company Stations",
+    "tier": "land_holder",
+    "country_iso2": "AU",
+    "canonical_company": "Consolidated Pastoral Company",
+    "coordinates": {
+      "lat": -18.5,
+      "lon": 133.5
+    },
+    "downstream": [
+      {
+        "target_id": "AU_cpc_cattle_operations",
+        "corridor_id": "AU_road_nt-qld-pastoral",
+        "resource": "pastoral grazing access for beef cattle",
+        "quantity": 160000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Pastureland"
+    ]
+  },
+  {
+    "id": "AU_north_australian_pastoral",
+    "name": "North Australian Pastoral Company Stations",
+    "tier": "land_holder",
+    "country_iso2": "AU",
+    "canonical_company": "North Australian Pastoral Company",
+    "coordinates": {
+      "lat": -21,
+      "lon": 146
+    },
+    "downstream": [
+      {
+        "target_id": "AU_napco_cattle_operations",
+        "corridor_id": "AU_road_qld-central-pastoral",
+        "resource": "pastoral grazing access for beef cattle",
+        "quantity": 120000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Pastureland"
+    ]
+  },
+  {
+    "id": "AU_paraway_pastoral",
+    "name": "Paraway Pastoral Company Stations",
+    "tier": "land_holder",
+    "country_iso2": "AU",
+    "canonical_company": "Paraway Pastoral Company",
+    "coordinates": {
+      "lat": -30,
+      "lon": 148.5
+    },
+    "downstream": [
+      {
+        "target_id": "AU_paraway_livestock_operations",
+        "corridor_id": "AU_road_nsw-qld-pastoral",
+        "resource": "pastoral grazing access for beef cattle and sheep",
+        "quantity": 100000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Pastureland"
+    ]
+  },
+  {
+    "id": "AU_macquarie_downs_cluster",
+    "name": "MDH Pty Ltd Pastoral Stations (MacQuarie Downs Holdings)",
+    "tier": "land_holder",
+    "country_iso2": "AU",
+    "canonical_company": "MDH Pty Ltd",
+    "coordinates": {
+      "lat": -22,
+      "lon": 148
+    },
+    "downstream": [
+      {
+        "target_id": "AU_mdh_cattle_operations",
+        "corridor_id": "AU_road_qld-bowen-basin-pastoral",
+        "resource": "pastoral grazing access for beef cattle",
+        "quantity": 70000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Pastureland"
+    ]
+  },
+  {
+    "id": "AU_heytesbury_stations",
+    "name": "Heytesbury Cattle Company Stations",
+    "tier": "land_holder",
+    "country_iso2": "AU",
+    "canonical_company": "Heytesbury Cattle Company",
+    "coordinates": {
+      "lat": -17.5,
+      "lon": 130.5
+    },
+    "downstream": [
+      {
+        "target_id": "AU_heytesbury_cattle_operations",
+        "corridor_id": "AU_road_nt-kimberley-pastoral",
+        "resource": "pastoral grazing access for beef cattle",
+        "quantity": 90000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Pastureland"
+    ]
+  },
+  {
+    "id": "AU_gina_rinehart_stations_wa",
+    "name": "Gina Rinehart / S. Kidman & Co WA-NT Stations (Fossil Downs, Ruby Plains, etc.)",
+    "tier": "land_holder",
+    "country_iso2": "AU",
+    "canonical_company": "S. Kidman & Co",
+    "coordinates": {
+      "lat": -18.2,
+      "lon": 125.8
+    },
+    "downstream": [
+      {
+        "target_id": "AU_kidman_cattle_operations",
+        "corridor_id": "AU_road_wa-pilbara-kimberley",
+        "resource": "pastoral grazing access for beef cattle",
+        "quantity": 50000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Pastureland"
+    ]
+  },
+  {
+    "id": "AU_nsw_southern_tablelands_pastoral",
+    "name": "NSW Southern Tablelands & Riverina Pastoral Zone",
+    "tier": "land_holder",
+    "country_iso2": "AU",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": -34.5,
+      "lon": 148
+    },
+    "downstream": [
+      {
+        "target_id": "AU_nsw_sheep_cattle_operations",
+        "corridor_id": "AU_road_nsw-southern-pastoral",
+        "resource": "pastoral grazing access for sheep and cattle",
+        "quantity": 250000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Pastureland"
+    ]
+  },
+  {
+    "id": "AU_vic_western_district_pastoral",
+    "name": "Victoria Western District Pastoral Zone",
+    "tier": "land_holder",
+    "country_iso2": "AU",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": -37.8,
+      "lon": 142.5
+    },
+    "downstream": [
+      {
+        "target_id": "AU_vic_sheep_cattle_operations",
+        "corridor_id": "AU_road_vic-western-pastoral",
+        "resource": "pastoral grazing access for sheep and cattle",
+        "quantity": 220000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Pastureland"
+    ]
+  },
+  {
+    "id": "AU_qld_channel_country_pastoral",
+    "name": "Queensland Channel Country Pastoral Zone",
+    "tier": "land_holder",
+    "country_iso2": "AU",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": -25,
+      "lon": 141.5
+    },
+    "downstream": [
+      {
+        "target_id": "AU_qld_channel_cattle_operations",
+        "corridor_id": "AU_road_qld-channel-country",
+        "resource": "pastoral grazing access for beef cattle",
+        "quantity": 130000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Pastureland"
+    ]
+  },
+  {
+    "id": "AU_sa_pastoral_zone",
+    "name": "South Australia Arid Pastoral Zone",
+    "tier": "land_holder",
+    "country_iso2": "AU",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": -29.5,
+      "lon": 137
+    },
+    "downstream": [
+      {
+        "target_id": "AU_sa_cattle_sheep_operations",
+        "corridor_id": "AU_road_sa-pastoral",
+        "resource": "pastoral grazing access for cattle and sheep",
+        "quantity": 80000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Pastureland"
+    ]
+  },
+  {
+    "id": "AU_wa_pastoral_rangelands",
+    "name": "Western Australia Rangelands Pastoral Zone",
+    "tier": "land_holder",
+    "country_iso2": "AU",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": -25,
+      "lon": 118
+    },
+    "downstream": [
+      {
+        "target_id": "AU_wa_cattle_sheep_operations",
+        "corridor_id": "AU_road_wa-rangelands-pastoral",
+        "resource": "pastoral grazing access for cattle and sheep",
+        "quantity": 100000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Pastureland"
+    ]
+  },
+  {
+    "id": "AU_tas_midlands_pastoral",
+    "name": "Tasmania Midlands Pastoral Zone",
+    "tier": "land_holder",
+    "country_iso2": "AU",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": -42,
+      "lon": 147.2
+    },
+    "downstream": [
+      {
+        "target_id": "AU_tas_sheep_cattle_operations",
+        "corridor_id": "AU_road_tas-midlands-pastoral",
+        "resource": "pastoral grazing access for sheep and cattle",
+        "quantity": 40000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Pastureland"
+    ]
+  },
+  {
+    "id": "AU_kidman_cattle_operations",
+    "name": "S. Kidman & Co Cattle Operations",
+    "tier": "land_manager",
+    "country_iso2": "AU",
+    "canonical_company": "S. Kidman & Co",
+    "coordinates": {
+      "lat": -26,
+      "lon": 134.5
+    },
+    "downstream": [
+      {
+        "target_id": "AU_jbs_australia",
+        "corridor_id": "AU_road_outback-to-feedlot",
+        "resource": "live beef cattle",
+        "quantity": 85000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_live_export_darwin",
+        "corridor_id": "AU_road_nt-to-darwin-port",
+        "resource": "live beef cattle for export",
+        "quantity": 45000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_teys_australia",
+        "corridor_id": "AU_road_sa-to-qld-processing",
+        "resource": "live beef cattle",
+        "quantity": 60000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_nhf_feedlot_operators",
+        "corridor_id": "AU_road_central-to-feedlot",
+        "resource": "live store cattle for finishing",
+        "quantity": 40000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_kidman_stations",
+      "AU_gina_rinehart_stations_wa"
+    ],
+    "resources": [
+      "Pastureland"
+    ]
+  },
+  {
+    "id": "AU_aaco_cattle_operations",
+    "name": "AACo Cattle Operations & Branded Beef Program",
+    "tier": "land_manager",
+    "country_iso2": "AU",
+    "canonical_company": "Australian Agricultural Company",
+    "coordinates": {
+      "lat": -20,
+      "lon": 140
+    },
+    "downstream": [
+      {
+        "target_id": "AU_aaco_livingstone_processing",
+        "corridor_id": "AU_road_qld-to-livingstone",
+        "resource": "live beef cattle (Wagyu and Angus)",
+        "quantity": 100000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_live_export_townsville",
+        "corridor_id": "AU_road_qld-to-townsville-port",
+        "resource": "live beef cattle for export",
+        "quantity": 40000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_nhf_feedlot_operators",
+        "corridor_id": "AU_road_qld-to-darling-downs-feedlot",
+        "resource": "live store cattle for finishing",
+        "quantity": 60000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_aaco_stations"
+    ],
+    "resources": [
+      "Pastureland"
+    ]
+  },
+  {
+    "id": "AU_hancock_cattle_operations",
+    "name": "Hancock Prospecting Cattle Operations",
+    "tier": "land_manager",
+    "country_iso2": "AU",
+    "canonical_company": "Hancock Prospecting",
+    "coordinates": {
+      "lat": -22.5,
+      "lon": 119
+    },
+    "downstream": [
+      {
+        "target_id": "AU_live_export_broome",
+        "corridor_id": "AU_road_wa-to-broome-port",
+        "resource": "live beef cattle for export",
+        "quantity": 30000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_harvey_beef",
+        "corridor_id": "AU_road_wa-to-harvey",
+        "resource": "live beef cattle",
+        "quantity": 50000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_hancock_pastoral"
+    ],
+    "resources": [
+      "Pastureland"
+    ]
+  },
+  {
+    "id": "AU_cpc_cattle_operations",
+    "name": "Consolidated Pastoral Company Cattle Operations",
+    "tier": "land_manager",
+    "country_iso2": "AU",
+    "canonical_company": "Consolidated Pastoral Company",
+    "coordinates": {
+      "lat": -19,
+      "lon": 134
+    },
+    "downstream": [
+      {
+        "target_id": "AU_live_export_darwin",
+        "corridor_id": "AU_road_nt-to-darwin-port",
+        "resource": "live beef cattle for export",
+        "quantity": 50000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_jbs_australia",
+        "corridor_id": "AU_road_nt-qld-to-jbs",
+        "resource": "live beef cattle",
+        "quantity": 70000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_nhf_feedlot_operators",
+        "corridor_id": "AU_road_nt-to-feedlot",
+        "resource": "live store cattle for finishing",
+        "quantity": 40000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_consolidated_pastoral"
+    ],
+    "resources": [
+      "Pastureland"
+    ]
+  },
+  {
+    "id": "AU_napco_cattle_operations",
+    "name": "NAPCo Cattle Operations",
+    "tier": "land_manager",
+    "country_iso2": "AU",
+    "canonical_company": "North Australian Pastoral Company",
+    "coordinates": {
+      "lat": -21.5,
+      "lon": 146.5
+    },
+    "downstream": [
+      {
+        "target_id": "AU_teys_australia",
+        "corridor_id": "AU_road_qld-to-teys",
+        "resource": "live beef cattle",
+        "quantity": 55000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_nhf_feedlot_operators",
+        "corridor_id": "AU_road_qld-to-darling-downs-feedlot",
+        "resource": "live store cattle for finishing",
+        "quantity": 65000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_north_australian_pastoral"
+    ],
+    "resources": [
+      "Pastureland"
+    ]
+  },
+  {
+    "id": "AU_heytesbury_cattle_operations",
+    "name": "Heytesbury Cattle Company Operations",
+    "tier": "land_manager",
+    "country_iso2": "AU",
+    "canonical_company": "Heytesbury Cattle Company",
+    "coordinates": {
+      "lat": -17,
+      "lon": 131
+    },
+    "downstream": [
+      {
+        "target_id": "AU_live_export_darwin",
+        "corridor_id": "AU_road_nt-to-darwin-port",
+        "resource": "live beef cattle for export",
+        "quantity": 40000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_jbs_australia",
+        "corridor_id": "AU_road_nt-to-jbs-qld",
+        "resource": "live beef cattle",
+        "quantity": 50000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_heytesbury_stations"
+    ],
+    "resources": [
+      "Pastureland"
+    ]
+  },
+  {
+    "id": "AU_mdh_cattle_operations",
+    "name": "MDH Pty Ltd Cattle Operations",
+    "tier": "land_manager",
+    "country_iso2": "AU",
+    "canonical_company": "MDH Pty Ltd",
+    "coordinates": {
+      "lat": -22.5,
+      "lon": 148.5
+    },
+    "downstream": [
+      {
+        "target_id": "AU_teys_australia",
+        "corridor_id": "AU_road_qld-to-teys",
+        "resource": "live beef cattle",
+        "quantity": 35000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_nhf_feedlot_operators",
+        "corridor_id": "AU_road_qld-to-darling-downs-feedlot",
+        "resource": "live store cattle for finishing",
+        "quantity": 35000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_macquarie_downs_cluster"
+    ],
+    "resources": [
+      "Pastureland"
+    ]
+  },
+  {
+    "id": "AU_paraway_livestock_operations",
+    "name": "Paraway Pastoral Company Livestock Operations",
+    "tier": "land_manager",
+    "country_iso2": "AU",
+    "canonical_company": "Paraway Pastoral Company",
+    "coordinates": {
+      "lat": -30.5,
+      "lon": 149
+    },
+    "downstream": [
+      {
+        "target_id": "AU_jbs_australia",
+        "corridor_id": "AU_road_nsw-to-jbs",
+        "resource": "live beef cattle",
+        "quantity": 40000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_australian_lamb_company",
+        "corridor_id": "AU_road_nsw-to-alc",
+        "resource": "live sheep and lambs",
+        "quantity": 20000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_nhf_feedlot_operators",
+        "corridor_id": "AU_road_nsw-to-feedlot",
+        "resource": "live store cattle for finishing",
+        "quantity": 40000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_paraway_pastoral"
+    ],
+    "resources": [
+      "Pastureland"
+    ]
+  },
+  {
+    "id": "AU_nsw_sheep_cattle_operations",
+    "name": "NSW Southern Tablelands & Riverina Livestock Managers",
+    "tier": "land_manager",
+    "country_iso2": "AU",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": -34.5,
+      "lon": 148.5
+    },
+    "downstream": [
+      {
+        "target_id": "AU_jbs_australia",
+        "corridor_id": "AU_road_nsw-to-jbs",
+        "resource": "live beef cattle",
+        "quantity": 80000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_australian_lamb_company",
+        "corridor_id": "AU_road_nsw-to-alc",
+        "resource": "live sheep and lambs",
+        "quantity": 60000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_australian_wool_handlers",
+        "corridor_id": "AU_road_nsw-to-wool-store",
+        "resource": "greasy wool",
+        "quantity": 80000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_murray_dairy_processors",
+        "corridor_id": "AU_road_nsw-to-dairy",
+        "resource": "raw milk from dairy pastures",
+        "quantity": 30000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_nsw_southern_tablelands_pastoral"
+    ],
+    "resources": [
+      "Pastureland"
+    ]
+  },
+  {
+    "id": "AU_vic_sheep_cattle_operations",
+    "name": "Victoria Western District Livestock Managers",
+    "tier": "land_manager",
+    "country_iso2": "AU",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": -37.5,
+      "lon": 142
+    },
+    "downstream": [
+      {
+        "target_id": "AU_jbs_australia",
+        "corridor_id": "AU_road_vic-to-jbs",
+        "resource": "live beef cattle",
+        "quantity": 50000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_australian_lamb_company",
+        "corridor_id": "AU_road_vic-to-alc",
+        "resource": "live sheep and lambs",
+        "quantity": 70000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_australian_wool_handlers",
+        "corridor_id": "AU_road_vic-to-wool-store",
+        "resource": "greasy wool",
+        "quantity": 70000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_fonterra_australia",
+        "corridor_id": "AU_road_vic-to-fonterra",
+        "resource": "raw milk from dairy pastures",
+        "quantity": 30000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_vic_western_district_pastoral"
+    ],
+    "resources": [
+      "Pastureland"
+    ]
+  },
+  {
+    "id": "AU_qld_channel_cattle_operations",
+    "name": "Queensland Channel Country Cattle Operations",
+    "tier": "land_manager",
+    "country_iso2": "AU",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": -24.5,
+      "lon": 142
+    },
+    "downstream": [
+      {
+        "target_id": "AU_teys_australia",
+        "corridor_id": "AU_road_qld-to-teys",
+        "resource": "live beef cattle",
+        "quantity": 60000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_nhf_feedlot_operators",
+        "corridor_id": "AU_road_qld-to-darling-downs-feedlot",
+        "resource": "live store cattle for finishing",
+        "quantity": 70000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_qld_channel_country_pastoral"
+    ],
+    "resources": [
+      "Pastureland"
+    ]
+  },
+  {
+    "id": "AU_sa_cattle_sheep_operations",
+    "name": "South Australia Pastoral Livestock Managers",
+    "tier": "land_manager",
+    "country_iso2": "AU",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": -30,
+      "lon": 137.5
+    },
+    "downstream": [
+      {
+        "target_id": "AU_thomas_foods_international",
+        "corridor_id": "AU_road_sa-to-tfi",
+        "resource": "live beef cattle and sheep",
+        "quantity": 55000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_australian_wool_handlers",
+        "corridor_id": "AU_road_sa-to-wool-store",
+        "resource": "greasy wool",
+        "quantity": 25000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_sa_pastoral_zone"
+    ],
+    "resources": [
+      "Pastureland"
+    ]
+  },
+  {
+    "id": "AU_wa_cattle_sheep_operations",
+    "name": "Western Australia Rangelands Livestock Managers",
+    "tier": "land_manager",
+    "country_iso2": "AU",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": -25.5,
+      "lon": 118.5
+    },
+    "downstream": [
+      {
+        "target_id": "AU_harvey_beef",
+        "corridor_id": "AU_road_wa-to-harvey",
+        "resource": "live beef cattle",
+        "quantity": 55000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_live_export_fremantle",
+        "corridor_id": "AU_road_wa-to-fremantle-port",
+        "resource": "live sheep for export",
+        "quantity": 25000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_australian_wool_handlers",
+        "corridor_id": "AU_road_wa-to-wool-store",
+        "resource": "greasy wool",
+        "quantity": 20000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_wa_pastoral_rangelands"
+    ],
+    "resources": [
+      "Pastureland"
+    ]
+  },
+  {
+    "id": "AU_tas_sheep_cattle_operations",
+    "name": "Tasmania Midlands Livestock Managers",
+    "tier": "land_manager",
+    "country_iso2": "AU",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": -41.8,
+      "lon": 147
+    },
+    "downstream": [
+      {
+        "target_id": "AU_jbs_australia",
+        "corridor_id": "AU_road_tas-to-jbs-devonport",
+        "resource": "live beef cattle",
+        "quantity": 15000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_australian_lamb_company",
+        "corridor_id": "AU_road_tas-to-alc",
+        "resource": "live sheep and lambs",
+        "quantity": 15000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_australian_wool_handlers",
+        "corridor_id": "AU_road_tas-to-wool-store",
+        "resource": "superfine greasy wool",
+        "quantity": 10000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_tas_midlands_pastoral"
+    ],
+    "resources": [
+      "Pastureland"
+    ]
+  },
+  {
+    "id": "AU_nhf_feedlot_operators",
+    "name": "Australian Feedlot Sector (Rangers Valley, Smithfield, Mort & Co etc.)",
+    "tier": "production_user",
+    "country_iso2": "AU",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": -28.5,
+      "lon": 151
+    },
+    "downstream": [
+      {
+        "target_id": "AU_jbs_australia",
+        "corridor_id": "AU_road_feedlot-to-jbs",
+        "resource": "finished grain-fed beef cattle",
+        "quantity": 200000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_teys_australia",
+        "corridor_id": "AU_road_feedlot-to-teys",
+        "resource": "finished grain-fed beef cattle",
+        "quantity": 150000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_kidman_cattle_operations",
+      "AU_aaco_cattle_operations",
+      "AU_cpc_cattle_operations",
+      "AU_napco_cattle_operations",
+      "AU_mdh_cattle_operations",
+      "AU_paraway_livestock_operations",
+      "AU_qld_channel_cattle_operations"
+    ],
+    "resources": [
+      "Pastureland"
+    ]
+  },
+  {
+    "id": "AU_live_export_darwin",
+    "name": "Darwin Live Export Hub (East Arm Wharf)",
+    "tier": "production_user",
+    "country_iso2": "AU",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": -12.45,
+      "lon": 130.85
+    },
+    "downstream": [
+      {
+        "target_id": "INTL_indonesian_feedlots",
+        "corridor_id": "INTL_ocean_darwin-jakarta",
+        "resource": "live feeder cattle",
+        "quantity": 100000,
+        "metric": "t"
+      },
+      {
+        "target_id": "INTL_vietnamese_processors",
+        "corridor_id": "INTL_ocean_darwin-hochiminh",
+        "resource": "live feeder cattle",
+        "quantity": 35000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_kidman_cattle_operations",
+      "AU_cpc_cattle_operations",
+      "AU_heytesbury_cattle_operations"
+    ],
+    "resources": [
+      "Pastureland"
+    ]
+  },
+  {
+    "id": "AU_live_export_townsville",
+    "name": "Townsville Live Export Hub",
+    "tier": "production_user",
+    "country_iso2": "AU",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": -19.26,
+      "lon": 146.77
+    },
+    "downstream": [
+      {
+        "target_id": "INTL_indonesian_feedlots",
+        "corridor_id": "INTL_ocean_townsville-jakarta",
+        "resource": "live feeder cattle",
+        "quantity": 40000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_aaco_cattle_operations"
+    ],
+    "resources": [
+      "Pastureland"
+    ]
+  },
+  {
+    "id": "AU_live_export_broome",
+    "name": "Broome Live Export Hub",
+    "tier": "production_user",
+    "country_iso2": "AU",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": -17.96,
+      "lon": 122.24
+    },
+    "downstream": [
+      {
+        "target_id": "INTL_indonesian_feedlots",
+        "corridor_id": "INTL_ocean_broome-jakarta",
+        "resource": "live feeder cattle",
+        "quantity": 30000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_hancock_cattle_operations"
+    ],
+    "resources": [
+      "Pastureland"
+    ]
+  },
+  {
+    "id": "AU_live_export_fremantle",
+    "name": "Fremantle / Port Adelaide Live Export Hub",
+    "tier": "production_user",
+    "country_iso2": "AU",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": -32.05,
+      "lon": 115.75
+    },
+    "downstream": [
+      {
+        "target_id": "INTL_middle_east_importers",
+        "corridor_id": "INTL_ocean_fremantle-persian-gulf",
+        "resource": "live sheep",
+        "quantity": 25000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_wa_cattle_sheep_operations"
+    ],
+    "resources": [
+      "Pastureland"
+    ]
+  },
+  {
+    "id": "AU_aaco_livingstone_processing",
+    "name": "AACo Livingstone Beef Processing Facility",
+    "tier": "production_user",
+    "country_iso2": "AU",
+    "canonical_company": "Australian Agricultural Company",
+    "coordinates": {
+      "lat": -19.29,
+      "lon": 146.78
+    },
+    "downstream": [
+      {
+        "target_id": "AU_aaco_branded_beef_export",
+        "corridor_id": "AU_road_livingstone-to-port",
+        "resource": "chilled and frozen boxed beef (Wylarah, 1824 brands)",
+        "quantity": 55000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_domestic_retail",
+        "corridor_id": "AU_road_livingstone-to-retail",
+        "resource": "chilled boxed beef",
+        "quantity": 45000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_aaco_cattle_operations"
+    ],
+    "resources": [
+      "Pastureland"
+    ]
+  },
+  {
+    "id": "AU_australian_wool_handlers",
+    "name": "Australian Wool Handlers / Wool Stores (Sydney, Melbourne, Fremantle)",
+    "tier": "production_user",
+    "country_iso2": "AU",
+    "canonical_company": "Australian Wool Handlers",
+    "coordinates": {
+      "lat": -33.85,
+      "lon": 151.2
+    },
+    "downstream": [
+      {
+        "target_id": "INTL_chinese_wool_processors",
+        "corridor_id": "INTL_ocean_melbourne-shanghai",
+        "resource": "greasy and scoured wool",
+        "quantity": 140000,
+        "metric": "t"
+      },
+      {
+        "target_id": "INTL_indian_wool_processors",
+        "corridor_id": "INTL_ocean_melbourne-mumbai",
+        "resource": "greasy and scoured wool",
+        "quantity": 30000,
+        "metric": "t"
+      },
+      {
+        "target_id": "INTL_italian_wool_processors",
+        "corridor_id": "INTL_ocean_melbourne-naples",
+        "resource": "greasy and scoured wool",
+        "quantity": 20000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_domestic_wool_mills",
+        "corridor_id": "AU_road_wool-store-to-mills",
+        "resource": "greasy wool",
+        "quantity": 15000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_nsw_sheep_cattle_operations",
+      "AU_vic_sheep_cattle_operations",
+      "AU_sa_cattle_sheep_operations",
+      "AU_wa_cattle_sheep_operations",
+      "AU_tas_sheep_cattle_operations"
+    ],
+    "resources": [
+      "Pastureland"
+    ]
+  },
+  {
+    "id": "AU_murray_dairy_processors",
+    "name": "Murray-Riverina Dairy Processing (Saputo, Bega etc.)",
+    "tier": "production_user",
+    "country_iso2": "AU",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": -35.5,
+      "lon": 146.5
+    },
+    "downstream": [
+      {
+        "target_id": "AU_saputo_dairy",
+        "corridor_id": "AU_road_murray-to-saputo",
+        "resource": "raw milk",
+        "quantity": 30000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_nsw_sheep_cattle_operations"
+    ],
+    "resources": [
+      "Pastureland"
+    ]
+  },
+  {
+    "id": "AU_fonterra_australia",
+    "name": "Fonterra Australia (Stanhope, Darnum plants)",
+    "tier": "production_user",
+    "country_iso2": "AU",
+    "canonical_company": "Fonterra",
+    "coordinates": {
+      "lat": -38.3,
+      "lon": 145.7
+    },
+    "downstream": [
+      {
+        "target_id": "INTL_asian_dairy_importers",
+        "corridor_id": "INTL_ocean_melbourne-east-asia",
+        "resource": "milk powder and dairy ingredients",
+        "quantity": 20000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_domestic_retail",
+        "corridor_id": "AU_road_fonterra-to-retail",
+        "resource": "fresh milk and dairy products",
+        "quantity": 10000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_vic_sheep_cattle_operations"
+    ],
+    "resources": [
+      "Pastureland"
+    ]
+  },
+  {
+    "id": "AU_jbs_australia",
+    "name": "JBS Australia (Dinmore, Riverview, Brooklyn, Bordertown, Longford plants)",
+    "tier": "downstream_processor",
+    "country_iso2": "AU",
+    "canonical_company": "JBS Australia",
+    "coordinates": {
+      "lat": -27.62,
+      "lon": 152.83
+    },
+    "downstream": [
+      {
+        "target_id": "AU_residential",
+        "corridor_id": "AU_road_jbs-to-domestic-retail",
+        "resource": "chilled and frozen boxed beef",
+        "quantity": 180000,
+        "metric": "t"
+      },
+      {
+        "target_id": "US_industrial",
+        "corridor_id": "INTL_ocean_brisbane-los-angeles",
+        "resource": "frozen boxed beef",
+        "quantity": 80000,
+        "metric": "t"
+      },
+      {
+        "target_id": "JP_residential",
+        "corridor_id": "INTL_ocean_brisbane-tokyo",
+        "resource": "chilled boxed beef",
+        "quantity": 70000,
+        "metric": "t"
+      },
+      {
+        "target_id": "KR_residential",
+        "corridor_id": "INTL_ocean_brisbane-busan",
+        "resource": "chilled and frozen boxed beef",
+        "quantity": 40000,
+        "metric": "t"
+      },
+      {
+        "target_id": "CN_residential",
+        "corridor_id": "INTL_ocean_brisbane-shanghai",
+        "resource": "frozen boxed beef",
+        "quantity": 50000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_kidman_cattle_operations",
+      "AU_cpc_cattle_operations",
+      "AU_heytesbury_cattle_operations",
+      "AU_paraway_livestock_operations",
+      "AU_nsw_sheep_cattle_operations",
+      "AU_vic_sheep_cattle_operations",
+      "AU_tas_sheep_cattle_operations",
+      "AU_nhf_feedlot_operators"
+    ],
+    "resources": [
+      "Pastureland"
+    ]
+  },
+  {
+    "id": "AU_teys_australia",
+    "name": "Teys Australia (Beenleigh, Rockhampton, Naracoorte, Wagga plants)",
+    "tier": "downstream_processor",
+    "country_iso2": "AU",
+    "canonical_company": "Teys Australia",
+    "coordinates": {
+      "lat": -27.68,
+      "lon": 153.17
+    },
+    "downstream": [
+      {
+        "target_id": "AU_residential",
+        "corridor_id": "AU_road_teys-to-domestic-retail",
+        "resource": "chilled and frozen boxed beef",
+        "quantity": 120000,
+        "metric": "t"
+      },
+      {
+        "target_id": "US_industrial",
+        "corridor_id": "INTL_ocean_brisbane-los-angeles",
+        "resource": "frozen boxed beef",
+        "quantity": 60000,
+        "metric": "t"
+      },
+      {
+        "target_id": "JP_residential",
+        "corridor_id": "INTL_ocean_brisbane-tokyo",
+        "resource": "chilled boxed beef",
+        "quantity": 50000,
+        "metric": "t"
+      },
+      {
+        "target_id": "CN_residential",
+        "corridor_id": "INTL_ocean_brisbane-shanghai",
+        "resource": "frozen boxed beef",
+        "quantity": 40000,
+        "metric": "t"
+      },
+      {
+        "target_id": "KR_residential",
+        "corridor_id": "INTL_ocean_brisbane-busan",
+        "resource": "chilled and frozen boxed beef",
+        "quantity": 30000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_kidman_cattle_operations",
+      "AU_napco_cattle_operations",
+      "AU_mdh_cattle_operations",
+      "AU_qld_channel_cattle_operations",
+      "AU_nhf_feedlot_operators"
+    ],
+    "resources": [
+      "Pastureland"
+    ]
+  },
+  {
+    "id": "AU_harvey_beef",
+    "name": "Harvey Beef (Harvey, WA plant)",
+    "tier": "downstream_processor",
+    "country_iso2": "AU",
+    "canonical_company": "Harvey Beef",
+    "coordinates": {
+      "lat": -33.08,
+      "lon": 115.9
+    },
+    "downstream": [
+      {
+        "target_id": "AU_residential",
+        "corridor_id": "AU_road_harvey-to-perth-retail",
+        "resource": "chilled and frozen boxed beef",
+        "quantity": 50000,
+        "metric": "t"
+      },
+      {
+        "target_id": "ID_residential",
+        "corridor_id": "INTL_ocean_fremantle-jakarta",
+        "resource": "frozen boxed beef",
+        "quantity": 30000,
+        "metric": "t"
+      },
+      {
+        "target_id": "INTL_commercial",
+        "corridor_id": "INTL_ocean_fremantle-east-asia",
+        "resource": "frozen boxed beef",
+        "quantity": 25000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_hancock_cattle_operations",
+      "AU_wa_cattle_sheep_operations"
+    ],
+    "resources": [
+      "Pastureland"
+    ]
+  },
+  {
+    "id": "AU_australian_lamb_company",
+    "name": "Australian Lamb Company (Colac, VIC plant)",
+    "tier": "downstream_processor",
+    "country_iso2": "AU",
+    "canonical_company": "Australian Lamb Company",
+    "coordinates": {
+      "lat": -38.34,
+      "lon": 143.59
+    },
+    "downstream": [
+      {
+        "target_id": "AU_residential",
+        "corridor_id": "AU_road_alc-to-domestic-retail",
+        "resource": "chilled and frozen boxed lamb",
+        "quantity": 60000,
+        "metric": "t"
+      },
+      {
+        "target_id": "US_residential",
+        "corridor_id": "INTL_ocean_melbourne-los-angeles",
+        "resource": "frozen boxed lamb",
+        "quantity": 40000,
+        "metric": "t"
+      },
+      {
+        "target_id": "INTL_commercial",
+        "corridor_id": "INTL_ocean_melbourne-middle-east",
+        "resource": "frozen lamb and mutton",
+        "quantity": 30000,
+        "metric": "t"
+      },
+      {
+        "target_id": "CN_residential",
+        "corridor_id": "INTL_ocean_melbourne-shanghai",
+        "resource": "frozen boxed lamb",
+        "quantity": 25000,
+        "metric": "t"
+      },
+      {
+        "target_id": "JP_residential",
+        "corridor_id": "INTL_ocean_melbourne-tokyo",
+        "resource": "chilled lamb",
+        "quantity": 10000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_paraway_livestock_operations",
+      "AU_nsw_sheep_cattle_operations",
+      "AU_vic_sheep_cattle_operations",
+      "AU_tas_sheep_cattle_operations"
+    ],
+    "resources": [
+      "Pastureland"
+    ]
+  },
+  {
+    "id": "AU_aaco_branded_beef_export",
+    "name": "AACo Branded Beef Export (Townsville / Brisbane port)",
+    "tier": "downstream_processor",
+    "country_iso2": "AU",
+    "canonical_company": "Australian Agricultural Company",
+    "coordinates": {
+      "lat": -27.38,
+      "lon": 153.17
+    },
+    "downstream": [
+      {
+        "target_id": "JP_commercial",
+        "corridor_id": "INTL_ocean_brisbane-tokyo",
+        "resource": "premium chilled Wagyu beef",
+        "quantity": 20000,
+        "metric": "t"
+      },
+      {
+        "target_id": "KR_commercial",
+        "corridor_id": "INTL_ocean_brisbane-busan",
+        "resource": "premium chilled beef",
+        "quantity": 10000,
+        "metric": "t"
+      },
+      {
+        "target_id": "INTL_commercial",
+        "corridor_id": "INTL_ocean_brisbane-singapore",
+        "resource": "premium chilled Wagyu beef",
+        "quantity": 15000,
+        "metric": "t"
+      },
+      {
+        "target_id": "US_commercial",
+        "corridor_id": "INTL_ocean_brisbane-los-angeles",
+        "resource": "premium boxed beef",
+        "quantity": 10000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_aaco_livingstone_processing"
+    ],
+    "resources": [
+      "Pastureland"
+    ]
+  },
+  {
+    "id": "AU_domestic_retail",
+    "name": "Australian Domestic Retail Distribution (Coles, Woolworths, Aldi)",
+    "tier": "downstream_processor",
+    "country_iso2": "AU",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": -33.87,
+      "lon": 151.21
+    },
+    "downstream": [
+      {
+        "target_id": "AU_residential",
+        "corridor_id": "AU_road_distribution-to-consumer",
+        "resource": "retail beef, lamb, dairy products",
+        "quantity": 255000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_aaco_livingstone_processing",
+      "AU_fonterra_australia"
+    ],
+    "resources": [
+      "Pastureland"
+    ]
+  },
+  {
+    "id": "AU_domestic_wool_mills",
+    "name": "Australian Domestic Wool Processing (Michell Wool, etc.)",
+    "tier": "downstream_processor",
+    "country_iso2": "AU",
+    "canonical_company": "Michell Wool",
+    "coordinates": {
+      "lat": -34.93,
+      "lon": 138.6
+    },
+    "downstream": [
+      {
+        "target_id": "AU_industrial",
+        "corridor_id": "AU_road_wool-mills-to-industrial",
+        "resource": "processed wool tops and yarn",
+        "quantity": 15000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_australian_wool_handlers"
+    ],
+    "resources": [
+      "Pastureland"
+    ]
+  },
+  {
+    "id": "AU_saputo_dairy",
+    "name": "Saputo Dairy Australia (Allansford, Leongatha, Maffra plants)",
+    "tier": "downstream_processor",
+    "country_iso2": "AU",
+    "canonical_company": "Saputo Dairy Australia",
+    "coordinates": {
+      "lat": -38.39,
+      "lon": 142.59
+    },
+    "downstream": [
+      {
+        "target_id": "AU_residential",
+        "corridor_id": "AU_road_saputo-to-retail",
+        "resource": "cheese and dairy products",
+        "quantity": 15000,
+        "metric": "t"
+      },
+      {
+        "target_id": "INTL_commercial",
+        "corridor_id": "INTL_ocean_melbourne-east-asia",
+        "resource": "dairy ingredients and cheese",
+        "quantity": 15000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_murray_dairy_processors"
+    ],
+    "resources": [
+      "Pastureland"
+    ]
+  },
+  {
+    "id": "INTL_indonesian_feedlots",
+    "name": "Indonesian Feedlots & Abattoirs (Jakarta, East Java)",
+    "tier": "downstream_processor",
+    "country_iso2": "ID",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": -6.2,
+      "lon": 106.85
+    },
+    "downstream": [
+      {
+        "target_id": "ID_residential",
+        "corridor_id": "ID_road_jakarta-distribution",
+        "resource": "fresh beef",
+        "quantity": 170000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_live_export_darwin",
+      "AU_live_export_townsville",
+      "AU_live_export_broome"
+    ],
+    "resources": [
+      "Pastureland"
+    ]
+  },
+  {
+    "id": "INTL_vietnamese_processors",
+    "name": "Vietnamese Beef Processors (Ho Chi Minh City)",
+    "tier": "downstream_processor",
+    "country_iso2": "VN",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": 10.8,
+      "lon": 106.65
+    },
+    "downstream": [
+      {
+        "target_id": "VN_residential",
+        "corridor_id": "VN_road_hcmc-distribution",
+        "resource": "fresh beef",
+        "quantity": 35000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_live_export_darwin"
+    ],
+    "resources": [
+      "Pastureland"
+    ]
+  },
+  {
+    "id": "INTL_middle_east_importers",
+    "name": "Middle East Live Sheep Importers (Kuwait, Bahrain, Qatar)",
+    "tier": "downstream_processor",
+    "country_iso2": "INTL",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": 25.3,
+      "lon": 51.5
+    },
+    "downstream": [
+      {
+        "target_id": "INTL_residential",
+        "corridor_id": "INTL_road_gulf-distribution",
+        "resource": "fresh mutton and lamb",
+        "quantity": 25000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_live_export_fremantle"
+    ],
+    "resources": [
+      "Pastureland"
+    ]
+  },
+  {
+    "id": "INTL_chinese_wool_processors",
+    "name": "Chinese Wool Processing Mills (Zhangjiagang, Zhejiang)",
+    "tier": "downstream_processor",
+    "country_iso2": "CN",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": 31.87,
+      "lon": 120.56
+    },
+    "downstream": [
+      {
+        "target_id": "CN_industrial",
+        "corridor_id": "CN_road_wool-mills-to-garment",
+        "resource": "wool tops and yarn",
+        "quantity": 140000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_australian_wool_handlers"
+    ],
+    "resources": [
+      "Pastureland"
+    ]
+  },
+  {
+    "id": "INTL_indian_wool_processors",
+    "name": "Indian Wool Processing (Panipat, Ludhiana)",
+    "tier": "downstream_processor",
+    "country_iso2": "IN",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": 29.39,
+      "lon": 76.97
+    },
+    "downstream": [
+      {
+        "target_id": "IN_industrial",
+        "corridor_id": "IN_road_panipat-to-garment",
+        "resource": "wool tops and carpet yarn",
+        "quantity": 30000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_australian_wool_handlers"
+    ],
+    "resources": [
+      "Pastureland"
+    ]
+  },
+  {
+    "id": "INTL_italian_wool_processors",
+    "name": "Italian Wool Processing (Biella district)",
+    "tier": "downstream_processor",
+    "country_iso2": "IT",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": 45.56,
+      "lon": 8.05
+    },
+    "downstream": [
+      {
+        "target_id": "IT_industrial",
+        "corridor_id": "IT_road_biella-to-garment",
+        "resource": "luxury worsted wool fabric",
+        "quantity": 20000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_australian_wool_handlers"
+    ],
+    "resources": [
+      "Pastureland"
+    ]
+  },
+  {
+    "id": "INTL_asian_dairy_importers",
+    "name": "Asian Dairy Importers (China, Japan, SE Asia)",
+    "tier": "downstream_processor",
+    "country_iso2": "INTL",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": 31.23,
+      "lon": 121.47
+    },
+    "downstream": [
+      {
+        "target_id": "INTL_residential",
+        "corridor_id": "INTL_road_asian-dairy-distribution",
+        "resource": "milk powder, butter, cheese",
+        "quantity": 20000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_fonterra_australia"
+    ],
+    "resources": [
+      "Pastureland"
+    ]
+  },
+  {
+    "id": "AU_road_outback-sa-nt",
+    "tier": "transport",
+    "name": "Outback SA-NT Pastoral Road Network (Stuart Highway corridor)",
+    "country_iso2": "AU",
+    "operator_id": "AU_state_road_authorities",
+    "mode": "road",
+    "form": "live",
+    "range": "regional",
+    "coordinates": {
+      "lat": -26,
+      "lon": 134
+    }
+  },
+  {
+    "id": "AU_road_qld-nt-pastoral",
+    "tier": "transport",
+    "name": "QLD-NT Pastoral Road Network (Flinders & Barkly Highways)",
+    "country_iso2": "AU",
+    "operator_id": "AU_state_road_authorities",
+    "mode": "road",
+    "form": "live",
+    "range": "regional",
+    "coordinates": {
+      "lat": -20,
+      "lon": 140
+    }
+  },
+  {
+    "id": "AU_road_wa-pilbara-kimberley",
+    "tier": "transport",
+    "name": "WA Pilbara-Kimberley Pastoral Road Network (Great Northern Highway)",
+    "country_iso2": "AU",
+    "operator_id": "AU_main_roads_wa",
+    "mode": "road",
+    "form": "live",
+    "range": "regional",
+    "coordinates": {
+      "lat": -20,
+      "lon": 122
+    }
+  },
+  {
+    "id": "AU_road_nt-qld-pastoral",
+    "tier": "transport",
+    "name": "NT-QLD Pastoral Road Network (Tablelands Highway, Carpentaria Highway)",
+    "country_iso2": "AU",
+    "operator_id": "AU_state_road_authorities",
+    "mode": "road",
+    "form": "live",
+    "range": "regional",
+    "coordinates": {
+      "lat": -18,
+      "lon": 135
+    }
+  },
+  {
+    "id": "AU_road_qld-central-pastoral",
+    "tier": "transport",
+    "name": "QLD Central Pastoral Road Network (Capricorn & Peak Downs Highways)",
+    "country_iso2": "AU",
+    "operator_id": "AU_qld_transport",
+    "mode": "road",
+    "form": "live",
+    "range": "regional",
+    "coordinates": {
+      "lat": -22,
+      "lon": 147
+    }
+  },
+  {
+    "id": "AU_road_nsw-qld-pastoral",
+    "tier": "transport",
+    "name": "NSW-QLD Pastoral Road Network (Newell & Mitchell Highways)",
+    "country_iso2": "AU",
+    "operator_id": "AU_state_road_authorities",
+    "mode": "road",
+    "form": "live",
+    "range": "regional",
+    "coordinates": {
+      "lat": -30,
+      "lon": 149
+    }
+  },
+  {
+    "id": "AU_road_qld-bowen-basin-pastoral",
+    "tier": "transport",
+    "name": "QLD Bowen Basin Pastoral Road Network",
+    "country_iso2": "AU",
+    "operator_id": "AU_qld_transport",
+    "mode": "road",
+    "form": "live",
+    "range": "regional",
+    "coordinates": {
+      "lat": -22,
+      "lon": 148
+    }
+  },
+  {
+    "id": "AU_road_nt-kimberley-pastoral",
+    "tier": "transport",
+    "name": "NT-Kimberley Pastoral Road Network (Victoria Highway)",
+    "country_iso2": "AU",
+    "operator_id": "AU_state_road_authorities",
+    "mode": "road",
+    "form": "live",
+    "range": "regional",
+    "coordinates": {
+      "lat": -16.5,
+      "lon": 130
+    }
+  },
+  {
+    "id": "AU_road_nsw-southern-pastoral",
+    "tier": "transport",
+    "name": "NSW Southern Tablelands & Riverina Pastoral Road Network",
+    "country_iso2": "AU",
+    "operator_id": "AU_nsw_transport",
+    "mode": "road",
+    "form": "live",
+    "range": "regional",
+    "coordinates": {
+      "lat": -34.5,
+      "lon": 148
+    }
+  },
+  {
+    "id": "AU_road_vic-western-pastoral",
+    "tier": "transport",
+    "name": "Victoria Western District Pastoral Road Network",
+    "country_iso2": "AU",
+    "operator_id": "AU_vic_roads",
+    "mode": "road",
+    "form": "live",
+    "range": "regional",
+    "coordinates": {
+      "lat": -37.5,
+      "lon": 142.5
+    }
+  },
+  {
+    "id": "AU_road_qld-channel-country",
+    "tier": "transport",
+    "name": "QLD Channel Country Pastoral Road Network (Diamantina Development Road)",
+    "country_iso2": "AU",
+    "operator_id": "AU_qld_transport",
+    "mode": "road",
+    "form": "live",
+    "range": "regional",
+    "coordinates": {
+      "lat": -25,
+      "lon": 141.5
+    }
+  },
+  {
+    "id": "AU_road_sa-pastoral",
+    "tier": "transport",
+    "name": "SA Arid Pastoral Road Network (Strzelecki & Oodnadatta Tracks)",
+    "country_iso2": "AU",
+    "operator_id": "AU_sa_transport",
+    "mode": "road",
+    "form": "live",
+    "range": "regional",
+    "coordinates": {
+      "lat": -29.5,
+      "lon": 137
+    }
+  },
+  {
+    "id": "AU_road_wa-rangelands-pastoral",
+    "tier": "transport",
+    "name": "WA Rangelands Pastoral Road Network",
+    "country_iso2": "AU",
+    "operator_id": "AU_main_roads_wa",
+    "mode": "road",
+    "form": "live",
+    "range": "regional",
+    "coordinates": {
+      "lat": -25,
+      "lon": 118
+    }
+  },
+  {
+    "id": "AU_road_tas-midlands-pastoral",
+    "tier": "transport",
+    "name": "Tasmania Midlands Pastoral Road Network (Midland Highway)",
+    "country_iso2": "AU",
+    "operator_id": "AU_tas_state_growth",
+    "mode": "road",
+    "form": "live",
+    "range": "local",
+    "coordinates": {
+      "lat": -42,
+      "lon": 147.2
+    }
+  },
+  {
+    "id": "AU_road_outback-to-feedlot",
+    "tier": "transport",
+    "name": "Outback-to-Feedlot Road Haulage (Road trains SA-QLD)",
+    "country_iso2": "AU",
+    "operator_id": "AU_livestock_transporters",
+    "mode": "road",
+    "form": "live",
+    "range": "regional",
+    "coordinates": {
+      "lat": -28,
+      "lon": 145
+    }
+  },
+  {
+    "id": "AU_road_nt-to-darwin-port",
+    "tier": "transport",
+    "name": "NT Stuart Highway to Darwin East Arm Wharf",
+    "country_iso2": "AU",
+    "operator_id": "AU_livestock_transporters",
+    "mode": "road",
+    "form": "live",
+    "range": "regional",
+    "coordinates": {
+      "lat": -14,
+      "lon": 131.5
+    }
+  },
+  {
+    "id": "AU_road_sa-to-qld-processing",
+    "tier": "transport",
+    "name": "SA-QLD Road Haulage for Processing",
+    "country_iso2": "AU",
+    "operator_id": "AU_livestock_transporters",
+    "mode": "road",
+    "form": "live",
+    "range": "regional",
+    "coordinates": {
+      "lat": -28,
+      "lon": 142
+    }
+  },
+  {
+    "id": "AU_road_central-to-feedlot",
+    "tier": "transport",
+    "name": "Central Australia to Darling Downs Feedlot Road",
+    "country_iso2": "AU",
+    "operator_id": "AU_livestock_transporters",
+    "mode": "road",
+    "form": "live",
+    "range": "regional",
+    "coordinates": {
+      "lat": -27,
+      "lon": 148
+    }
+  },
+  {
+    "id": "AU_road_qld-to-livingstone",
+    "tier": "transport",
+    "name": "QLD Pastoral to Livingstone Processing Road",
+    "country_iso2": "AU",
+    "operator_id": "AU_livestock_transporters",
+    "mode": "road",
+    "form": "live",
+    "range": "regional",
+    "coordinates": {
+      "lat": -19.5,
+      "lon": 145
+    }
+  },
+  {
+    "id": "AU_road_qld-to-townsville-port",
+    "tier": "transport",
+    "name": "QLD Pastoral to Townsville Port Road",
+    "country_iso2": "AU",
+    "operator_id": "AU_livestock_transporters",
+    "mode": "road",
+    "form": "live",
+    "range": "regional",
+    "coordinates": {
+      "lat": -19.5,
+      "lon": 145.5
+    }
+  },
+  {
+    "id": "AU_road_qld-to-darling-downs-feedlot",
+    "tier": "transport",
+    "name": "QLD Pastoral to Darling Downs Feedlot Road",
+    "country_iso2": "AU",
+    "operator_id": "AU_livestock_transporters",
+    "mode": "road",
+    "form": "live",
+    "range": "regional",
+    "coordinates": {
+      "lat": -25,
+      "lon": 150
+    }
+  },
+  {
+    "id": "AU_road_wa-to-broome-port",
+    "tier": "transport",
+    "name": "WA Kimberley to Broome Port Road",
+    "country_iso2": "AU",
+    "operator_id": "AU_livestock_transporters",
+    "mode": "road",
+    "form": "live",
+    "range": "regional",
+    "coordinates": {
+      "lat": -18,
+      "lon": 122.5
+    }
+  },
+  {
+    "id": "AU_road_wa-to-harvey",
+    "tier": "transport",
+    "name": "WA Pastoral to Harvey Beef Plant Road",
+    "country_iso2": "AU",
+    "operator_id": "AU_livestock_transporters",
+    "mode": "road",
+    "form": "live",
+    "range": "regional",
+    "coordinates": {
+      "lat": -28,
+      "lon": 117
+    }
+  },
+  {
+    "id": "AU_road_nt-qld-to-jbs",
+    "tier": "transport",
+    "name": "NT-QLD Pastoral to JBS Processing Road",
+    "country_iso2": "AU",
+    "operator_id": "AU_livestock_transporters",
+    "mode": "road",
+    "form": "live",
+    "range": "regional",
+    "coordinates": {
+      "lat": -22,
+      "lon": 140
+    }
+  },
+  {
+    "id": "AU_road_nt-to-feedlot",
+    "tier": "transport",
+    "name": "NT Pastoral to QLD Feedlot Road",
+    "country_iso2": "AU",
+    "operator_id": "AU_livestock_transporters",
+    "mode": "road",
+    "form": "live",
+    "range": "regional",
+    "coordinates": {
+      "lat": -20,
+      "lon": 138
+    }
+  },
+  {
+    "id": "AU_road_qld-to-teys",
+    "tier": "transport",
+    "name": "QLD Pastoral to Teys Processing Plants Road",
+    "country_iso2": "AU",
+    "operator_id": "AU_livestock_transporters",
+    "mode": "road",
+    "form": "live",
+    "range": "regional",
+    "coordinates": {
+      "lat": -25,
+      "lon": 149
+    }
+  },
+  {
+    "id": "AU_road_nt-to-jbs-qld",
+    "tier": "transport",
+    "name": "NT to JBS QLD Processing Road",
+    "country_iso2": "AU",
+    "operator_id": "AU_livestock_transporters",
+    "mode": "road",
+    "form": "live",
+    "range": "regional",
+    "coordinates": {
+      "lat": -21,
+      "lon": 139
+    }
+  },
+  {
+    "id": "AU_road_nsw-to-jbs",
+    "tier": "transport",
+    "name": "NSW Pastoral to JBS Processing Road",
+    "country_iso2": "AU",
+    "operator_id": "AU_livestock_transporters",
+    "mode": "road",
+    "form": "live",
+    "range": "regional",
+    "coordinates": {
+      "lat": -33,
+      "lon": 149
+    }
+  },
+  {
+    "id": "AU_road_nsw-to-alc",
+    "tier": "transport",
+    "name": "NSW-VIC Pastoral to Australian Lamb Company Road",
+    "country_iso2": "AU",
+    "operator_id": "AU_livestock_transporters",
+    "mode": "road",
+    "form": "live",
+    "range": "regional",
+    "coordinates": {
+      "lat": -36,
+      "lon": 147
+    }
+  },
+  {
+    "id": "AU_road_nsw-to-feedlot",
+    "tier": "transport",
+    "name": "NSW Pastoral to Feedlot Road",
+    "country_iso2": "AU",
+    "operator_id": "AU_livestock_transporters",
+    "mode": "road",
+    "form": "live",
+    "range": "regional",
+    "coordinates": {
+      "lat": -31,
+      "lon": 149
+    }
+  },
+  {
+    "id": "AU_road_nsw-to-wool-store",
+    "tier": "transport",
+    "name": "NSW Pastoral to Sydney Wool Store Road",
+    "country_iso2": "AU",
+    "operator_id": "AU_livestock_transporters",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "regional",
+    "coordinates": {
+      "lat": -34,
+      "lon": 149.5
+    }
+  },
+  {
+    "id": "AU_road_nsw-to-dairy",
+    "tier": "transport",
+    "name": "NSW Riverina to Dairy Processing Road",
+    "country_iso2": "AU",
+    "operator_id": "AU_dairy_transporters",
+    "mode": "road",
+    "form": "bulk_liquid",
+    "range": "local",
+    "coordinates": {
+      "lat": -35.5,
+      "lon": 147
+    }
+  },
+  {
+    "id": "AU_road_vic-to-jbs",
+    "tier": "transport",
+    "name": "VIC Western District to JBS Brooklyn Road",
+    "country_iso2": "AU",
+    "operator_id": "AU_livestock_transporters",
+    "mode": "road",
+    "form": "live",
+    "range": "regional",
+    "coordinates": {
+      "lat": -37.8,
+      "lon": 144.8
+    }
+  },
+  {
+    "id": "AU_road_vic-to-alc",
+    "tier": "transport",
+    "name": "VIC Western District to Colac Lamb Processing Road",
+    "country_iso2": "AU",
+    "operator_id": "AU_livestock_transporters",
+    "mode": "road",
+    "form": "live",
+    "range": "local",
+    "coordinates": {
+      "lat": -38,
+      "lon": 143.5
+    }
+  },
+  {
+    "id": "AU_road_vic-to-wool-store",
+    "tier": "transport",
+    "name": "VIC Pastoral to Melbourne Wool Store Road",
+    "country_iso2": "AU",
+    "operator_id": "AU_livestock_transporters",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "regional",
+    "coordinates": {
+      "lat": -37.8,
+      "lon": 144.9
+    }
+  },
+  {
+    "id": "AU_road_vic-to-fonterra",
+    "tier": "transport",
+    "name": "VIC Western District to Fonterra Processing Road",
+    "country_iso2": "AU",
+    "operator_id": "AU_dairy_transporters",
+    "mode": "road",
+    "form": "bulk_liquid",
+    "range": "local",
+    "coordinates": {
+      "lat": -38,
+      "lon": 145
+    }
+  },
+  {
+    "id": "AU_road_sa-to-tfi",
+    "tier": "transport",
+    "name": "SA Pastoral to Thomas Foods International Processing Road",
+    "country_iso2": "AU",
+    "operator_id": "AU_livestock_transporters",
+    "mode": "road",
+    "form": "live",
+    "range": "regional",
+    "coordinates": {
+      "lat": -33,
+      "lon": 138
+    }
+  },
+  {
+    "id": "AU_road_sa-to-wool-store",
+    "tier": "transport",
+    "name": "SA Pastoral to Adelaide Wool Store Road",
+    "country_iso2": "AU",
+    "operator_id": "AU_livestock_transporters",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "regional",
+    "coordinates": {
+      "lat": -32,
+      "lon": 137.5
+    }
+  },
+  {
+    "id": "AU_road_wa-to-fremantle-port",
+    "tier": "transport",
+    "name": "WA Pastoral to Fremantle Port Live Export Road",
+    "country_iso2": "AU",
+    "operator_id": "AU_livestock_transporters",
+    "mode": "road",
+    "form": "live",
+    "range": "regional",
+    "coordinates": {
+      "lat": -30,
+      "lon": 116
+    }
+  },
+  {
+    "id": "AU_road_wa-to-wool-store",
+    "tier": "transport",
+    "name": "WA Pastoral to Fremantle Wool Store Road",
+    "country_iso2": "AU",
+    "operator_id": "AU_livestock_transporters",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "regional",
+    "coordinates": {
+      "lat": -30,
+      "lon": 117
+    }
+  },
+  {
+    "id": "AU_road_tas-to-jbs-devonport",
+    "tier": "transport",
+    "name": "TAS Midlands to JBS Longford & Devonport Shipping Road",
+    "country_iso2": "AU",
+    "operator_id": "AU_livestock_transporters",
+    "mode": "road",
+    "form": "live",
+    "range": "local",
+    "coordinates": {
+      "lat": -41.5,
+      "lon": 147
+    }
+  },
+  {
+    "id": "AU_road_tas-to-alc",
+    "tier": "transport",
+    "name": "TAS Midlands to Lamb Processing Road",
+    "country_iso2": "AU",
+    "operator_id": "AU_livestock_transporters",
+    "mode": "road",
+    "form": "live",
+    "range": "local",
+    "coordinates": {
+      "lat": -41.5,
+      "lon": 147
+    }
+  },
+  {
+    "id": "AU_road_tas-to-wool-store",
+    "tier": "transport",
+    "name": "TAS Pastoral to Launceston Wool Store Road",
+    "country_iso2": "AU",
+    "operator_id": "AU_livestock_transporters",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "local",
+    "coordinates": {
+      "lat": -41.5,
+      "lon": 147.1
+    }
+  },
+  {
+    "id": "AU_road_feedlot-to-jbs",
+    "tier": "transport",
+    "name": "Darling Downs Feedlot to JBS Dinmore Road",
+    "country_iso2": "AU",
+    "operator_id": "AU_livestock_transporters",
+    "mode": "road",
+    "form": "live",
+    "range": "local",
+    "coordinates": {
+      "lat": -27.6,
+      "lon": 152
+    }
+  },
+  {
+    "id": "AU_road_feedlot-to-teys",
+    "tier": "transport",
+    "name": "Darling Downs Feedlot to Teys Beenleigh/Rockhampton Road",
+    "country_iso2": "AU",
+    "operator_id": "AU_livestock_transporters",
+    "mode": "road",
+    "form": "live",
+    "range": "regional",
+    "coordinates": {
+      "lat": -27.7,
+      "lon": 152.5
+    }
+  },
+  {
+    "id": "AU_road_livingstone-to-port",
+    "tier": "transport",
+    "name": "Livingstone Beef to Townsville Port Road",
+    "country_iso2": "AU",
+    "operator_id": "AU_refrigerated_transporters",
+    "mode": "road",
+    "form": "containerised",
+    "range": "local",
+    "coordinates": {
+      "lat": -19.3,
+      "lon": 146.8
+    }
+  },
+  {
+    "id": "AU_road_livingstone-to-retail",
+    "tier": "transport",
+    "name": "Livingstone Beef to Domestic Retail Distribution Road",
+    "country_iso2": "AU",
+    "operator_id": "AU_refrigerated_transporters",
+    "mode": "road",
+    "form": "containerised",
+    "range": "regional",
+    "coordinates": {
+      "lat": -23,
+      "lon": 149
+    }
+  },
+  {
+    "id": "AU_road_murray-to-saputo",
+    "tier": "transport",
+    "name": "Murray-Riverina to Saputo Processing Road",
+    "country_iso2": "AU",
+    "operator_id": "AU_dairy_transporters",
+    "mode": "road",
+    "form": "bulk_liquid",
+    "range": "local",
+    "coordinates": {
+      "lat": -36,
+      "lon": 146
+    }
+  },
+  {
+    "id": "INTL_ocean_darwin-jakarta",
+    "tier": "transport",
+    "name": "Ocean Freight: Darwin → Jakarta (Live cattle carrier)",
+    "country_iso2": "INTL",
+    "operator_id": "INTL_wellard",
+    "mode": "ocean_freight",
+    "form": "live",
+    "range": "international",
+    "coordinates": {
+      "lat": -9,
+      "lon": 120
+    }
+  },
+  {
+    "id": "INTL_ocean_darwin-hochiminh",
+    "tier": "transport",
+    "name": "Ocean Freight: Darwin → Ho Chi Minh City (Live cattle carrier)",
+    "country_iso2": "INTL",
+    "operator_id": "INTL_wellard",
+    "mode": "ocean_freight",
+    "form": "live",
+    "range": "international",
+    "coordinates": {
+      "lat": -2,
+      "lon": 115
+    }
+  },
+  {
+    "id": "INTL_ocean_townsville-jakarta",
+    "tier": "transport",
+    "name": "Ocean Freight: Townsville → Jakarta (Live cattle carrier)",
+    "country_iso2": "INTL",
+    "operator_id": "INTL_wellard",
+    "mode": "ocean_freight",
+    "form": "live",
+    "range": "international",
+    "coordinates": {
+      "lat": -12,
+      "lon": 125
+    }
+  },
+  {
+    "id": "INTL_ocean_broome-jakarta",
+    "tier": "transport",
+    "name": "Ocean Freight: Broome → Jakarta (Live cattle carrier)",
+    "country_iso2": "INTL",
+    "operator_id": "INTL_wellard",
+    "mode": "ocean_freight",
+    "form": "live",
+    "range": "international",
+    "coordinates": {
+      "lat": -12,
+      "lon": 118
+    }
+  },
+  {
+    "id": "INTL_ocean_fremantle-persian-gulf",
+    "tier": "transport",
+    "name": "Ocean Freight: Fremantle → Persian Gulf (Live sheep carrier)",
+    "country_iso2": "INTL",
+    "operator_id": "INTL_livestock_shipping",
+    "mode": "ocean_freight",
+    "form": "live",
+    "range": "international",
+    "coordinates": {
+      "lat": -10,
+      "lon": 80
+    }
+  },
+  {
+    "id": "INTL_ocean_melbourne-mumbai",
+    "tier": "transport",
+    "name": "Ocean Freight: Melbourne → Mumbai (Containerised wool)",
+    "country_iso2": "INTL",
+    "operator_id": "INTL_maersk",
+    "mode": "ocean_freight",
+    "form": "containerised",
+    "range": "international",
+    "coordinates": {
+      "lat": -15,
+      "lon": 100
+    }
+  },
+  {
+    "id": "INTL_ocean_melbourne-naples",
+    "tier": "transport",
+    "name": "Ocean Freight: Melbourne → Naples (Containerised wool)",
+    "country_iso2": "INTL",
+    "operator_id": "INTL_msc",
+    "mode": "ocean_freight",
+    "form": "containerised",
+    "range": "international",
+    "coordinates": {
+      "lat": -5,
+      "lon": 70
+    }
+  },
+  {
+    "id": "INTL_ocean_melbourne-east-asia",
+    "tier": "transport",
+    "name": "Ocean Freight: Melbourne → East Asia (Dairy & meat containers)",
+    "country_iso2": "INTL",
+    "operator_id": "INTL_maersk",
+    "mode": "ocean_freight",
+    "form": "containerised",
+    "range": "international",
+    "coordinates": {
+      "lat": -10,
+      "lon": 135
+    }
+  },
+  {
+    "id": "AU_road_jbs-to-domestic-retail",
+    "tier": "transport",
+    "name": "JBS Plants to Australian Domestic Retail Distribution",
+    "country_iso2": "AU",
+    "operator_id": "AU_refrigerated_transporters",
+    "mode": "road",
+    "form": "containerised",
+    "range": "regional",
+    "coordinates": {
+      "lat": -30,
+      "lon": 150
+    }
+  },
+  {
+    "id": "INTL_ocean_brisbane-los-angeles",
+    "tier": "transport",
+    "name": "Ocean Freight: Brisbane → Los Angeles (Reefer containers)",
+    "country_iso2": "INTL",
+    "operator_id": "INTL_maersk",
+    "mode": "ocean_freight",
+    "form": "containerised",
+    "range": "international",
+    "coordinates": {
+      "lat": -10,
+      "lon": -170
+    }
+  },
+  {
+    "id": "INTL_ocean_brisbane-tokyo",
+    "tier": "transport",
+    "name": "Ocean Freight: Brisbane → Tokyo (Reefer containers)",
+    "country_iso2": "INTL",
+    "operator_id": "INTL_maersk",
+    "mode": "ocean_freight",
+    "form": "containerised",
+    "range": "international",
+    "coordinates": {
+      "lat": 0,
+      "lon": 150
+    }
+  },
+  {
+    "id": "INTL_ocean_brisbane-shanghai",
+    "tier": "transport",
+    "name": "Ocean Freight: Brisbane → Shanghai (Reefer containers)",
+    "country_iso2": "INTL",
+    "operator_id": "INTL_cosco",
+    "mode": "ocean_freight",
+    "form": "containerised",
+    "range": "international",
+    "coordinates": {
+      "lat": -5,
+      "lon": 140
+    }
+  },
+  {
+    "id": "AU_road_teys-to-domestic-retail",
+    "tier": "transport",
+    "name": "Teys Plants to Domestic Retail Distribution",
+    "country_iso2": "AU",
+    "operator_id": "AU_refrigerated_transporters",
+    "mode": "road",
+    "form": "containerised",
+    "range": "regional",
+    "coordinates": {
+      "lat": -28,
+      "lon": 152
+    }
+  },
+  {
+    "id": "AU_road_tfi-to-domestic-retail",
+    "tier": "transport",
+    "name": "TFI Murray Bridge to Domestic Retail Distribution",
+    "country_iso2": "AU",
+    "operator_id": "AU_refrigerated_transporters",
+    "mode": "road",
+    "form": "containerised",
+    "range": "regional",
+    "coordinates": {
+      "lat": -35,
+      "lon": 139
+    }
+  },
+  {
+    "id": "INTL_ocean_adelaide-los-angeles",
+    "tier": "transport",
+    "name": "Ocean Freight: Adelaide → Los Angeles (Reefer containers)",
+    "country_iso2": "INTL",
+    "operator_id": "INTL_maersk",
+    "mode": "ocean_freight",
+    "form": "containerised",
+    "range": "international",
+    "coordinates": {
+      "lat": -20,
+      "lon": -160
+    }
+  },
+  {
+    "id": "INTL_ocean_adelaide-middle-east",
+    "tier": "transport",
+    "name": "Ocean Freight: Adelaide → Middle East (Frozen meat containers)",
+    "country_iso2": "INTL",
+    "operator_id": "INTL_msc",
+    "mode": "ocean_freight",
+    "form": "containerised",
+    "range": "international",
+    "coordinates": {
+      "lat": -15,
+      "lon": 85
+    }
+  },
+  {
+    "id": "AU_road_harvey-to-perth-retail",
+    "tier": "transport",
+    "name": "Harvey to Perth Metro Retail Distribution Road",
+    "country_iso2": "AU",
+    "operator_id": "AU_refrigerated_transporters",
+    "mode": "road",
+    "form": "containerised",
+    "range": "local",
+    "coordinates": {
+      "lat": -32.5,
+      "lon": 115.8
+    }
+  },
+  {
+    "id": "INTL_ocean_fremantle-east-asia",
+    "tier": "transport",
+    "name": "Ocean Freight: Fremantle → East Asia (Frozen beef containers)",
+    "country_iso2": "INTL",
+    "operator_id": "INTL_cosco",
+    "mode": "ocean_freight",
+    "form": "containerised",
+    "range": "international",
+    "coordinates": {
+      "lat": -10,
+      "lon": 120
+    }
+  },
+  {
+    "id": "AU_road_alc-to-domestic-retail",
+    "tier": "transport",
+    "name": "ALC Colac to Domestic Retail Distribution Road",
+    "country_iso2": "AU",
+    "operator_id": "AU_refrigerated_transporters",
+    "mode": "road",
+    "form": "containerised",
+    "range": "regional",
+    "coordinates": {
+      "lat": -38,
+      "lon": 144.5
+    }
+  },
+  {
+    "id": "INTL_ocean_melbourne-los-angeles",
+    "tier": "transport",
+    "name": "Ocean Freight: Melbourne → Los Angeles (Frozen lamb reefer)",
+    "country_iso2": "INTL",
+    "operator_id": "INTL_maersk",
+    "mode": "ocean_freight",
+    "form": "containerised",
+    "range": "international",
+    "coordinates": {
+      "lat": -20,
+      "lon": -170
+    }
+  },
+  {
+    "id": "INTL_ocean_melbourne-middle-east",
+    "tier": "transport",
+    "name": "Ocean Freight: Melbourne → Middle East (Frozen lamb containers)",
+    "country_iso2": "INTL",
+    "operator_id": "INTL_msc",
+    "mode": "ocean_freight",
+    "form": "containerised",
+    "range": "international",
+    "coordinates": {
+      "lat": -15,
+      "lon": 80
+    }
+  },
+  {
+    "id": "INTL_ocean_brisbane-singapore",
+    "tier": "transport",
+    "name": "Ocean Freight: Brisbane → Singapore (Premium beef reefer)",
+    "country_iso2": "INTL",
+    "operator_id": "INTL_maersk",
+    "mode": "ocean_freight",
+    "form": "containerised",
+    "range": "international",
+    "coordinates": {
+      "lat": -5,
+      "lon": 130
+    }
+  },
+  {
+    "id": "AU_road_distribution-to-consumer",
+    "tier": "transport",
+    "name": "Australian Domestic Supermarket Distribution to Consumers",
+    "country_iso2": "AU",
+    "operator_id": "AU_linfox",
+    "mode": "road",
+    "form": "containerised",
+    "range": "regional",
+    "coordinates": {
+      "lat": -33.8,
+      "lon": 151
+    }
+  },
+  {
+    "id": "AU_road_wool-store-to-mills",
+    "tier": "transport",
+    "name": "Wool Store to Domestic Wool Mills Road",
+    "country_iso2": "AU",
+    "operator_id": "AU_general_freight",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "regional",
+    "coordinates": {
+      "lat": -34.9,
+      "lon": 138.6
+    }
+  },
+  {
+    "id": "AU_road_wool-mills-to-industrial",
+    "tier": "transport",
+    "name": "Domestic Wool Mills to Industrial Consumers Road",
+    "country_iso2": "AU",
+    "operator_id": "AU_general_freight",
+    "mode": "road",
+    "form": "containerised",
+    "range": "regional",
+    "coordinates": {
+      "lat": -34.9,
+      "lon": 138.7
+    }
+  },
+  {
+    "id": "AU_road_fonterra-to-retail",
+    "tier": "transport",
+    "name": "Fonterra to Domestic Retail Distribution Road",
+    "country_iso2": "AU",
+    "operator_id": "AU_refrigerated_transporters",
+    "mode": "road",
+    "form": "containerised",
+    "range": "regional",
+    "coordinates": {
+      "lat": -37.8,
+      "lon": 145
+    }
+  },
+  {
+    "id": "AU_road_saputo-to-retail",
+    "tier": "transport",
+    "name": "Saputo to Domestic Retail Distribution Road",
+    "country_iso2": "AU",
+    "operator_id": "AU_refrigerated_transporters",
+    "mode": "road",
+    "form": "containerised",
+    "range": "regional",
+    "coordinates": {
+      "lat": -37,
+      "lon": 144
+    }
+  },
+  {
+    "id": "INTL_ocean_melbourne-east-asia_dairy",
+    "tier": "transport",
+    "name": "Ocean Freight: Melbourne → East Asia (Dairy reefer containers)",
+    "country_iso2": "INTL",
+    "operator_id": "INTL_maersk",
+    "mode": "ocean_freight",
+    "form": "containerised",
+    "range": "international",
+    "coordinates": {
+      "lat": -10,
+      "lon": 140
+    }
+  },
+  {
+    "id": "ID_road_jakarta-distribution",
+    "tier": "transport",
+    "name": "Jakarta Metropolitan Beef Distribution Road",
+    "country_iso2": "ID",
+    "operator_id": "ID_domestic_logistics",
+    "mode": "road",
+    "form": "containerised",
+    "range": "local",
+    "coordinates": {
+      "lat": -6.2,
+      "lon": 106.8
+    }
+  },
+  {
+    "id": "VN_road_hcmc-distribution",
+    "tier": "transport",
+    "name": "Ho Chi Minh City Beef Distribution Road",
+    "country_iso2": "VN",
+    "operator_id": "VN_domestic_logistics",
+    "mode": "road",
+    "form": "containerised",
+    "range": "local",
+    "coordinates": {
+      "lat": 10.8,
+      "lon": 106.65
+    }
+  },
+  {
+    "id": "INTL_road_gulf-distribution",
+    "tier": "transport",
+    "name": "Gulf States Meat Distribution Road",
+    "country_iso2": "INTL",
+    "operator_id": "INTL_gulf_logistics",
+    "mode": "road",
+    "form": "containerised",
+    "range": "local",
+    "coordinates": {
+      "lat": 25.3,
+      "lon": 51.5
+    }
+  },
+  {
+    "id": "CN_road_wool-mills-to-garment",
+    "tier": "transport",
+    "name": "Zhangjiagang-Zhejiang Wool Mills to Garment Industry Road",
+    "country_iso2": "CN",
+    "operator_id": "CN_domestic_logistics",
+    "mode": "road",
+    "form": "containerised",
+    "range": "regional",
+    "coordinates": {
+      "lat": 30.5,
+      "lon": 120
+    }
+  },
+  {
+    "id": "IN_road_panipat-to-garment",
+    "tier": "transport",
+    "name": "Panipat-Ludhiana to Indian Garment Industry Road",
+    "country_iso2": "IN",
+    "operator_id": "IN_domestic_logistics",
+    "mode": "road",
+    "form": "containerised",
+    "range": "regional",
+    "coordinates": {
+      "lat": 29.5,
+      "lon": 77
+    }
+  },
+  {
+    "id": "IT_road_biella-to-garment",
+    "tier": "transport",
+    "name": "Biella to Italian Luxury Fashion Industry Road",
+    "country_iso2": "IT",
+    "operator_id": "IT_domestic_logistics",
+    "mode": "road",
+    "form": "containerised",
+    "range": "local",
+    "coordinates": {
+      "lat": 45.5,
+      "lon": 8.1
+    }
+  },
+  {
+    "id": "INTL_road_asian-dairy-distribution",
+    "tier": "transport",
+    "name": "Asian Markets Dairy Distribution Road",
+    "country_iso2": "INTL",
+    "operator_id": "INTL_cold_chain_logistics",
+    "mode": "road",
+    "form": "containerised",
+    "range": "regional",
+    "coordinates": {
+      "lat": 31.2,
+      "lon": 121.5
+    }
+  }
+]

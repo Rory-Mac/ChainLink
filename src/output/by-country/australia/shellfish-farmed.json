@@ -1,0 +1,2013 @@
+[
+  {
+    "id": "AU_tassal_group_barilla_bay",
+    "name": "Tassal Group — Barilla Bay Oyster Farm",
+    "tier": "harvester",
+    "country_iso2": "AU",
+    "canonical_company": "Tassal Group",
+    "coordinates": {
+      "lat": -42.83,
+      "lon": 147.5
+    },
+    "downstream": [
+      {
+        "target_id": "AU_tassal_group_dover",
+        "corridor_id": "AU_road_southeast-tas",
+        "resource": "farmed Pacific oysters (live/whole)",
+        "quantity": 800,
+        "metric": "t"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Shellfish (farmed)"
+    ]
+  },
+  {
+    "id": "AU_cameron_of_tasmania",
+    "name": "Cameron of Tasmania — Dunalley Oyster Farm",
+    "tier": "harvester",
+    "country_iso2": "AU",
+    "canonical_company": "Cameron of Tasmania",
+    "coordinates": {
+      "lat": -42.89,
+      "lon": 147.8
+    },
+    "downstream": [
+      {
+        "target_id": "AU_cameron_of_tasmania_processing",
+        "corridor_id": "AU_road_southeast-tas",
+        "resource": "farmed Pacific oysters (live/whole)",
+        "quantity": 600,
+        "metric": "t"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Shellfish (farmed)"
+    ]
+  },
+  {
+    "id": "AU_oyster_bay_tas",
+    "name": "Oyster Bay — Great Oyster Bay Farms",
+    "tier": "harvester",
+    "country_iso2": "AU",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": -42.13,
+      "lon": 148.2
+    },
+    "downstream": [
+      {
+        "target_id": "AU_tas_oyster_processors",
+        "corridor_id": "AU_road_east-tas-coast",
+        "resource": "farmed Pacific oysters (live/whole)",
+        "quantity": 500,
+        "metric": "t"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Shellfish (farmed)"
+    ]
+  },
+  {
+    "id": "AU_spring_bay_seafoods",
+    "name": "Spring Bay Seafoods — Triabunna",
+    "tier": "harvester",
+    "country_iso2": "AU",
+    "canonical_company": "Spring Bay Seafoods",
+    "coordinates": {
+      "lat": -42.51,
+      "lon": 147.91
+    },
+    "downstream": [
+      {
+        "target_id": "AU_spring_bay_seafoods_processing",
+        "corridor_id": "AU_road_east-tas-coast",
+        "resource": "farmed Pacific oysters (live/whole)",
+        "quantity": 400,
+        "metric": "t"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Shellfish (farmed)"
+    ]
+  },
+  {
+    "id": "AU_south_australia_oyster_coffin_bay",
+    "name": "Coffin Bay Oyster Farms (multiple lessees)",
+    "tier": "harvester",
+    "country_iso2": "AU",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": -34.62,
+      "lon": 135.48
+    },
+    "downstream": [
+      {
+        "target_id": "AU_angel_seafood_processing",
+        "corridor_id": "AU_road_eyre-peninsula",
+        "resource": "farmed Pacific oysters (live/whole)",
+        "quantity": 1200,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_sa_oyster_processors",
+        "corridor_id": "AU_road_eyre-peninsula",
+        "resource": "farmed Pacific oysters (live/whole)",
+        "quantity": 800,
+        "metric": "t"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Shellfish (farmed)"
+    ]
+  },
+  {
+    "id": "AU_angel_seafood_coffin_bay",
+    "name": "Angel Seafood — Coffin Bay Leases",
+    "tier": "harvester",
+    "country_iso2": "AU",
+    "canonical_company": "Angel Seafood",
+    "coordinates": {
+      "lat": -34.63,
+      "lon": 135.46
+    },
+    "downstream": [
+      {
+        "target_id": "AU_angel_seafood_processing",
+        "corridor_id": "AU_road_eyre-peninsula",
+        "resource": "farmed Pacific oysters (live/whole)",
+        "quantity": 1000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Shellfish (farmed)"
+    ]
+  },
+  {
+    "id": "AU_smoky_bay_oyster_farms",
+    "name": "Smoky Bay Oyster Farms (multiple growers)",
+    "tier": "harvester",
+    "country_iso2": "AU",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": -32.37,
+      "lon": 133.93
+    },
+    "downstream": [
+      {
+        "target_id": "AU_sa_oyster_processors",
+        "corridor_id": "AU_road_eyre-peninsula",
+        "resource": "farmed Pacific oysters (live/whole)",
+        "quantity": 1000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Shellfish (farmed)"
+    ]
+  },
+  {
+    "id": "AU_ceduna_denial_bay_oysters",
+    "name": "Ceduna / Denial Bay Oyster Farms",
+    "tier": "harvester",
+    "country_iso2": "AU",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": -32.13,
+      "lon": 133.68
+    },
+    "downstream": [
+      {
+        "target_id": "AU_sa_oyster_processors",
+        "corridor_id": "AU_road_eyre-peninsula",
+        "resource": "farmed Pacific oysters (live/whole)",
+        "quantity": 600,
+        "metric": "t"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Shellfish (farmed)"
+    ]
+  },
+  {
+    "id": "AU_nsw_port_stephens_oyster",
+    "name": "Port Stephens Sydney Rock Oyster Farms",
+    "tier": "harvester",
+    "country_iso2": "AU",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": -32.72,
+      "lon": 152.06
+    },
+    "downstream": [
+      {
+        "target_id": "AU_nsw_oyster_processors",
+        "corridor_id": "AU_road_nsw-hunter",
+        "resource": "farmed Sydney rock oysters (live/whole)",
+        "quantity": 800,
+        "metric": "t"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Shellfish (farmed)"
+    ]
+  },
+  {
+    "id": "AU_nsw_wallis_lake_oyster",
+    "name": "Wallis Lake Sydney Rock Oyster Farms",
+    "tier": "harvester",
+    "country_iso2": "AU",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": -32.18,
+      "lon": 152.48
+    },
+    "downstream": [
+      {
+        "target_id": "AU_nsw_oyster_processors",
+        "corridor_id": "AU_road_nsw-mid-north-coast",
+        "resource": "farmed Sydney rock oysters (live/whole)",
+        "quantity": 700,
+        "metric": "t"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Shellfish (farmed)"
+    ]
+  },
+  {
+    "id": "AU_nsw_clyde_river_oyster",
+    "name": "Clyde River (Batemans Bay) Oyster Farms",
+    "tier": "harvester",
+    "country_iso2": "AU",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": -35.71,
+      "lon": 150.19
+    },
+    "downstream": [
+      {
+        "target_id": "AU_nsw_oyster_processors",
+        "corridor_id": "AU_road_nsw-south-coast",
+        "resource": "farmed Sydney rock oysters (live/whole)",
+        "quantity": 500,
+        "metric": "t"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Shellfish (farmed)"
+    ]
+  },
+  {
+    "id": "AU_nsw_hawkesbury_river_oyster",
+    "name": "Hawkesbury River Sydney Rock Oyster Farms",
+    "tier": "harvester",
+    "country_iso2": "AU",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": -33.54,
+      "lon": 151.21
+    },
+    "downstream": [
+      {
+        "target_id": "AU_nsw_oyster_processors",
+        "corridor_id": "AU_road_nsw-sydney-metro",
+        "resource": "farmed Sydney rock oysters (live/whole)",
+        "quantity": 400,
+        "metric": "t"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Shellfish (farmed)"
+    ]
+  },
+  {
+    "id": "AU_nsw_merimbula_pambula_oyster",
+    "name": "Merimbula / Pambula Oyster Farms",
+    "tier": "harvester",
+    "country_iso2": "AU",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": -36.89,
+      "lon": 149.91
+    },
+    "downstream": [
+      {
+        "target_id": "AU_nsw_oyster_processors",
+        "corridor_id": "AU_road_nsw-south-coast",
+        "resource": "farmed Sydney rock oysters (live/whole)",
+        "quantity": 350,
+        "metric": "t"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Shellfish (farmed)"
+    ]
+  },
+  {
+    "id": "AU_yumbah_aquaculture_narrawong",
+    "name": "Yumbah Aquaculture — Narrawong Abalone Farm",
+    "tier": "harvester",
+    "country_iso2": "AU",
+    "canonical_company": "Yumbah Aquaculture",
+    "coordinates": {
+      "lat": -38.25,
+      "lon": 141.72
+    },
+    "downstream": [
+      {
+        "target_id": "AU_yumbah_aquaculture_processing",
+        "corridor_id": "AU_road_vic-western",
+        "resource": "farmed abalone (live/whole)",
+        "quantity": 450,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_yumbah_aquaculture_processing",
+        "corridor_id": "AU_road_narrawong-portland",
+        "resource": "whole farmed abalone",
+        "quantity": 600,
+        "metric": "t"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Shellfish (farmed)",
+      "Fish (farmed)"
+    ]
+  },
+  {
+    "id": "AU_yumbah_aquaculture_port_lincoln",
+    "name": "Yumbah Aquaculture — Port Lincoln Abalone Farm",
+    "tier": "harvester",
+    "country_iso2": "AU",
+    "canonical_company": "Yumbah Aquaculture",
+    "coordinates": {
+      "lat": -34.73,
+      "lon": 135.86
+    },
+    "downstream": [
+      {
+        "target_id": "AU_yumbah_aquaculture_processing",
+        "corridor_id": "AU_road_eyre-peninsula",
+        "resource": "farmed abalone (live/whole)",
+        "quantity": 250,
+        "metric": "t"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Shellfish (farmed)"
+    ]
+  },
+  {
+    "id": "AU_jade_tiger_abalone",
+    "name": "Jade Tiger Abalone — Indented Head Farm",
+    "tier": "harvester",
+    "country_iso2": "AU",
+    "canonical_company": "Jade Tiger Abalone",
+    "coordinates": {
+      "lat": -38.14,
+      "lon": 144.71
+    },
+    "downstream": [
+      {
+        "target_id": "AU_jade_tiger_abalone_processing",
+        "corridor_id": "AU_road_vic-bellarine",
+        "resource": "farmed abalone (live/whole)",
+        "quantity": 200,
+        "metric": "t"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Shellfish (farmed)"
+    ]
+  },
+  {
+    "id": "AU_ocean_grown_abalone",
+    "name": "Ocean Grown Abalone — Flinders Bay",
+    "tier": "harvester",
+    "country_iso2": "AU",
+    "canonical_company": "Ocean Grown Abalone",
+    "coordinates": {
+      "lat": -34.32,
+      "lon": 115.14
+    },
+    "downstream": [
+      {
+        "target_id": "AU_ocean_grown_abalone_processing",
+        "corridor_id": "AU_road_wa-south-west",
+        "resource": "farmed abalone (live/whole)",
+        "quantity": 120,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_abalone_packer_vic",
+        "corridor_id": "AU_road_portland_melbourne",
+        "resource": "canned abalone, frozen abalone, live abalone",
+        "quantity": 700,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_abalone_fishery_vic"
+    ],
+    "resources": [
+      "Shellfish (farmed)",
+      "Fish (wild)"
+    ]
+  },
+  {
+    "id": "AU_shellfish_culture_tas",
+    "name": "Shellfish Culture — Pipe Clay Lagoon Mussel & Oyster Farm",
+    "tier": "harvester",
+    "country_iso2": "AU",
+    "canonical_company": "Shellfish Culture",
+    "coordinates": {
+      "lat": -42.96,
+      "lon": 147.53
+    },
+    "downstream": [
+      {
+        "target_id": "AU_tas_oyster_processors",
+        "corridor_id": "AU_road_southeast-tas",
+        "resource": "farmed mussels and oysters (live/whole)",
+        "quantity": 300,
+        "metric": "t"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Shellfish (farmed)"
+    ]
+  },
+  {
+    "id": "AU_sa_mussel_farms_boston_bay",
+    "name": "Boston Bay Mussel Farms (SA)",
+    "tier": "harvester",
+    "country_iso2": "AU",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": -34.72,
+      "lon": 135.87
+    },
+    "downstream": [
+      {
+        "target_id": "AU_sa_mussel_processors",
+        "corridor_id": "AU_road_eyre-peninsula",
+        "resource": "farmed blue mussels (live/whole)",
+        "quantity": 1500,
+        "metric": "t"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Shellfish (farmed)"
+    ]
+  },
+  {
+    "id": "AU_kinkawooka_mussels",
+    "name": "Kinkawooka Mussels — Boston Bay",
+    "tier": "harvester",
+    "country_iso2": "AU",
+    "canonical_company": "Kinkawooka Shellfish",
+    "coordinates": {
+      "lat": -34.7,
+      "lon": 135.88
+    },
+    "downstream": [
+      {
+        "target_id": "AU_sa_mussel_processors",
+        "corridor_id": "AU_road_eyre-peninsula",
+        "resource": "farmed blue mussels (live/whole)",
+        "quantity": 800,
+        "metric": "t"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Shellfish (farmed)"
+    ]
+  },
+  {
+    "id": "AU_spring_bay_mussels_tas",
+    "name": "Spring Bay Mussels — Great Oyster Bay",
+    "tier": "harvester",
+    "country_iso2": "AU",
+    "canonical_company": "Spring Bay Seafoods",
+    "coordinates": {
+      "lat": -42.1,
+      "lon": 148.25
+    },
+    "downstream": [
+      {
+        "target_id": "AU_spring_bay_seafoods_processing",
+        "corridor_id": "AU_road_east-tas-coast",
+        "resource": "farmed blue mussels (live/whole)",
+        "quantity": 400,
+        "metric": "t"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Shellfish (farmed)"
+    ]
+  },
+  {
+    "id": "AU_qld_moreton_bay_oyster",
+    "name": "Moreton Bay Oyster Farms (QLD)",
+    "tier": "harvester",
+    "country_iso2": "AU",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": -27.4,
+      "lon": 153.15
+    },
+    "downstream": [
+      {
+        "target_id": "AU_qld_oyster_processors",
+        "corridor_id": "AU_road_qld-southeast",
+        "resource": "farmed Sydney rock oysters (live/whole)",
+        "quantity": 250,
+        "metric": "t"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Shellfish (farmed)"
+    ]
+  },
+  {
+    "id": "AU_pacific_reef_fisheries",
+    "name": "Pacific Reef Fisheries — Bowen Prawn & Shellfish Farm",
+    "tier": "harvester",
+    "country_iso2": "AU",
+    "canonical_company": "Pacific Reef Fisheries",
+    "coordinates": {
+      "lat": -20.02,
+      "lon": 148.23
+    },
+    "downstream": [
+      {
+        "target_id": "AU_qld_shellfish_processors",
+        "corridor_id": "AU_road_qld-north",
+        "resource": "farmed scallops and shellfish",
+        "quantity": 150,
+        "metric": "t"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Shellfish (farmed)"
+    ]
+  },
+  {
+    "id": "AU_tassal_group_dover",
+    "name": "Tassal Group — Dover Processing Facility",
+    "tier": "landing_processor",
+    "country_iso2": "AU",
+    "canonical_company": "Tassal Group",
+    "coordinates": {
+      "lat": -43.31,
+      "lon": 147.02
+    },
+    "downstream": [
+      {
+        "target_id": "AU_tassal_group_packing",
+        "corridor_id": "AU_road_southeast-tas",
+        "resource": "processed Pacific oysters (graded, cleaned)",
+        "quantity": 800,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_tassal_group_dover_processing",
+        "corridor_id": "AU_road_dover-huonville",
+        "resource": "whole Atlantic salmon",
+        "quantity": 8000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_tassal_group_barilla_bay"
+    ],
+    "resources": [
+      "Shellfish (farmed)",
+      "Fish (farmed)"
+    ]
+  },
+  {
+    "id": "AU_cameron_of_tasmania_processing",
+    "name": "Cameron of Tasmania — Dunalley Processing",
+    "tier": "landing_processor",
+    "country_iso2": "AU",
+    "canonical_company": "Cameron of Tasmania",
+    "coordinates": {
+      "lat": -42.89,
+      "lon": 147.8
+    },
+    "downstream": [
+      {
+        "target_id": "AU_cameron_of_tasmania_packing",
+        "corridor_id": "AU_road_southeast-tas",
+        "resource": "processed Pacific oysters (shucked and half-shell)",
+        "quantity": 600,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_cameron_of_tasmania"
+    ],
+    "resources": [
+      "Shellfish (farmed)"
+    ]
+  },
+  {
+    "id": "AU_tas_oyster_processors",
+    "name": "Tasmanian Oyster Processors (various)",
+    "tier": "landing_processor",
+    "country_iso2": "AU",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": -42.15,
+      "lon": 148.2
+    },
+    "downstream": [
+      {
+        "target_id": "AU_tas_shellfish_packers",
+        "corridor_id": "AU_road_east-tas-coast",
+        "resource": "processed oysters and mussels (graded, cleaned)",
+        "quantity": 800,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_oyster_bay_tas",
+      "AU_shellfish_culture_tas"
+    ],
+    "resources": [
+      "Shellfish (farmed)"
+    ]
+  },
+  {
+    "id": "AU_spring_bay_seafoods_processing",
+    "name": "Spring Bay Seafoods — Processing Plant",
+    "tier": "landing_processor",
+    "country_iso2": "AU",
+    "canonical_company": "Spring Bay Seafoods",
+    "coordinates": {
+      "lat": -42.51,
+      "lon": 147.92
+    },
+    "downstream": [
+      {
+        "target_id": "AU_tas_shellfish_packers",
+        "corridor_id": "AU_road_east-tas-coast",
+        "resource": "processed mussels and oysters",
+        "quantity": 800,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_spring_bay_seafoods",
+      "AU_spring_bay_mussels_tas"
+    ],
+    "resources": [
+      "Shellfish (farmed)"
+    ]
+  },
+  {
+    "id": "AU_angel_seafood_processing",
+    "name": "Angel Seafood — Coffin Bay Processing",
+    "tier": "landing_processor",
+    "country_iso2": "AU",
+    "canonical_company": "Angel Seafood",
+    "coordinates": {
+      "lat": -34.62,
+      "lon": 135.49
+    },
+    "downstream": [
+      {
+        "target_id": "AU_angel_seafood_packing",
+        "corridor_id": "AU_road_eyre-peninsula",
+        "resource": "processed Pacific oysters (half-shell, shucked)",
+        "quantity": 2200,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_south_australia_oyster_coffin_bay",
+      "AU_angel_seafood_coffin_bay"
+    ],
+    "resources": [
+      "Shellfish (farmed)"
+    ]
+  },
+  {
+    "id": "AU_sa_oyster_processors",
+    "name": "South Australian Oyster Processors (various)",
+    "tier": "landing_processor",
+    "country_iso2": "AU",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": -32.5,
+      "lon": 134
+    },
+    "downstream": [
+      {
+        "target_id": "AU_sa_shellfish_packers",
+        "corridor_id": "AU_road_sa-adelaide-highway",
+        "resource": "processed Pacific oysters (graded, live bags and shucked)",
+        "quantity": 2400,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_sa_oyster_packing",
+        "corridor_id": "AU_road_coffin-bay-adelaide",
+        "resource": "graded Pacific oysters (half-shell)",
+        "quantity": 750,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_south_australia_oyster_coffin_bay",
+      "AU_smoky_bay_oyster_farms",
+      "AU_ceduna_denial_bay_oysters",
+      "AU_sa_oyster_beds"
+    ],
+    "resources": [
+      "Shellfish (farmed)",
+      "Shellfish (wild)"
+    ]
+  },
+  {
+    "id": "AU_nsw_oyster_processors",
+    "name": "NSW Oyster Processors (various regional)",
+    "tier": "landing_processor",
+    "country_iso2": "AU",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": -33.5,
+      "lon": 151.5
+    },
+    "downstream": [
+      {
+        "target_id": "AU_nsw_shellfish_packers",
+        "corridor_id": "AU_road_nsw-sydney-metro",
+        "resource": "processed Sydney rock oysters (half-shell, bags)",
+        "quantity": 2750,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_nsw_oyster_packing",
+        "corridor_id": "AU_road_nsw-coast-sydney",
+        "resource": "graded Sydney rock oysters (half-shell / whole shell)",
+        "quantity": 4000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_nsw_port_stephens_oyster",
+      "AU_nsw_wallis_lake_oyster",
+      "AU_nsw_clyde_river_oyster",
+      "AU_nsw_hawkesbury_river_oyster",
+      "AU_nsw_merimbula_pambula_oyster",
+      "AU_sydney_rock_oyster_beds_nsw",
+      "AU_sydney_fish_market_auction"
+    ],
+    "resources": [
+      "Shellfish (farmed)",
+      "Shellfish (wild)"
+    ]
+  },
+  {
+    "id": "AU_yumbah_aquaculture_processing",
+    "name": "Yumbah Aquaculture — Narrawong Processing Plant",
+    "tier": "landing_processor",
+    "country_iso2": "AU",
+    "canonical_company": "Yumbah Aquaculture",
+    "coordinates": {
+      "lat": -38.25,
+      "lon": 141.73
+    },
+    "downstream": [
+      {
+        "target_id": "AU_yumbah_aquaculture_packing",
+        "corridor_id": "AU_road_vic-western",
+        "resource": "processed farmed abalone (live, canned, frozen)",
+        "quantity": 700,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_yumbah_aquaculture_packing",
+        "corridor_id": "AU_road_portland-melbourne",
+        "resource": "processed farmed abalone (live, frozen, canned)",
+        "quantity": 800,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_yumbah_aquaculture_narrawong",
+      "AU_yumbah_aquaculture_port_lincoln",
+      "AU_yumbah_aquaculture_kangaroo_island"
+    ],
+    "resources": [
+      "Shellfish (farmed)",
+      "Fish (farmed)"
+    ]
+  },
+  {
+    "id": "AU_jade_tiger_abalone_processing",
+    "name": "Jade Tiger Abalone — Processing Facility",
+    "tier": "landing_processor",
+    "country_iso2": "AU",
+    "canonical_company": "Jade Tiger Abalone",
+    "coordinates": {
+      "lat": -38.15,
+      "lon": 144.71
+    },
+    "downstream": [
+      {
+        "target_id": "AU_jade_tiger_abalone_packing",
+        "corridor_id": "AU_road_vic-bellarine",
+        "resource": "processed farmed abalone (live, frozen)",
+        "quantity": 200,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_jade_tiger_abalone"
+    ],
+    "resources": [
+      "Shellfish (farmed)"
+    ]
+  },
+  {
+    "id": "AU_ocean_grown_abalone_processing",
+    "name": "Ocean Grown Abalone — Augusta Processing",
+    "tier": "landing_processor",
+    "country_iso2": "AU",
+    "canonical_company": "Ocean Grown Abalone",
+    "coordinates": {
+      "lat": -34.31,
+      "lon": 115.16
+    },
+    "downstream": [
+      {
+        "target_id": "AU_ocean_grown_abalone_packing",
+        "corridor_id": "AU_road_wa-south-west",
+        "resource": "processed farmed abalone (live, frozen)",
+        "quantity": 120,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_ocean_grown_abalone"
+    ],
+    "resources": [
+      "Shellfish (farmed)"
+    ]
+  },
+  {
+    "id": "AU_sa_mussel_processors",
+    "name": "SA Mussel Processors — Port Lincoln",
+    "tier": "landing_processor",
+    "country_iso2": "AU",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": -34.73,
+      "lon": 135.86
+    },
+    "downstream": [
+      {
+        "target_id": "AU_sa_shellfish_packers",
+        "corridor_id": "AU_road_sa-adelaide-highway",
+        "resource": "processed blue mussels (de-bearded, cooked, vacuum-packed)",
+        "quantity": 2300,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_sa_mussel_farms_boston_bay",
+      "AU_kinkawooka_mussels"
+    ],
+    "resources": [
+      "Shellfish (farmed)"
+    ]
+  },
+  {
+    "id": "AU_qld_oyster_processors",
+    "name": "QLD Oyster Processors (various)",
+    "tier": "landing_processor",
+    "country_iso2": "AU",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": -27.4,
+      "lon": 153.1
+    },
+    "downstream": [
+      {
+        "target_id": "AU_qld_shellfish_packers",
+        "corridor_id": "AU_road_qld-southeast",
+        "resource": "processed Sydney rock oysters",
+        "quantity": 250,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_qld_moreton_bay_oyster"
+    ],
+    "resources": [
+      "Shellfish (farmed)"
+    ]
+  },
+  {
+    "id": "AU_qld_shellfish_processors",
+    "name": "QLD Shellfish Processors — North QLD",
+    "tier": "landing_processor",
+    "country_iso2": "AU",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": -20.05,
+      "lon": 148.25
+    },
+    "downstream": [
+      {
+        "target_id": "AU_qld_shellfish_packers",
+        "corridor_id": "AU_road_qld-north",
+        "resource": "processed scallops and shellfish",
+        "quantity": 150,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_pacific_reef_fisheries"
+    ],
+    "resources": [
+      "Shellfish (farmed)"
+    ]
+  },
+  {
+    "id": "AU_tassal_group_packing",
+    "name": "Tassal Group — Packing & Cold Storage",
+    "tier": "packer",
+    "country_iso2": "AU",
+    "canonical_company": "Tassal Group",
+    "coordinates": {
+      "lat": -42.88,
+      "lon": 147.33
+    },
+    "downstream": [
+      {
+        "target_id": "AU_pfd_food_services",
+        "corridor_id": "AU_road_tas-hobart-launceston",
+        "resource": "packed Pacific oysters (retail-ready, food-service)",
+        "quantity": 500,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_sydney_fish_market",
+        "corridor_id": "AU_road_tas-to-melbourne-ferry",
+        "resource": "packed Pacific oysters (wholesale lots)",
+        "quantity": 300,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_coles_group",
+        "corridor_id": "AU_road_tasmania-melbourne-freight",
+        "resource": "packed Atlantic salmon (retail & food-service packs)",
+        "quantity": 8000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_woolworths_group",
+        "corridor_id": "AU_road_tasmania-melbourne-freight",
+        "resource": "packed Atlantic salmon (retail & food-service packs)",
+        "quantity": 7000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_aldi_australia",
+        "corridor_id": "AU_road_tasmania-melbourne-freight",
+        "resource": "packed Atlantic salmon (retail packs)",
+        "quantity": 2000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_bidfood_australia",
+        "corridor_id": "AU_road_tasmania-melbourne-freight",
+        "resource": "packed Atlantic salmon (food-service packs)",
+        "quantity": 2500,
+        "metric": "t"
+      },
+      {
+        "target_id": "JP_import_distributors",
+        "corridor_id": "INTL_ocean_hobart-tokyo",
+        "resource": "packed Atlantic salmon (export boxes, frozen)",
+        "quantity": 2500,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_tassal_group_dover",
+      "AU_tassal_group_dover_processing"
+    ],
+    "resources": [
+      "Shellfish (farmed)",
+      "Fish (farmed)"
+    ]
+  },
+  {
+    "id": "AU_cameron_of_tasmania_packing",
+    "name": "Cameron of Tasmania — Packing Operations",
+    "tier": "packer",
+    "country_iso2": "AU",
+    "canonical_company": "Cameron of Tasmania",
+    "coordinates": {
+      "lat": -42.89,
+      "lon": 147.8
+    },
+    "downstream": [
+      {
+        "target_id": "AU_pfd_food_services",
+        "corridor_id": "AU_road_tas-to-melbourne-ferry",
+        "resource": "packed Pacific oysters",
+        "quantity": 350,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_sydney_fish_market",
+        "corridor_id": "AU_road_tas-to-melbourne-ferry",
+        "resource": "packed Pacific oysters",
+        "quantity": 250,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_cameron_of_tasmania_processing"
+    ],
+    "resources": [
+      "Shellfish (farmed)"
+    ]
+  },
+  {
+    "id": "AU_tas_shellfish_packers",
+    "name": "Tasmanian Shellfish Packers (aggregated)",
+    "tier": "packer",
+    "country_iso2": "AU",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": -42.2,
+      "lon": 147.8
+    },
+    "downstream": [
+      {
+        "target_id": "AU_pfd_food_services",
+        "corridor_id": "AU_road_tas-to-melbourne-ferry",
+        "resource": "packed mussels and oysters (chilled/frozen)",
+        "quantity": 900,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_sydney_fish_market",
+        "corridor_id": "AU_road_tas-to-melbourne-ferry",
+        "resource": "packed mussels and oysters",
+        "quantity": 400,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_delaicour_food_logistics",
+        "corridor_id": "AU_road_tas-to-melbourne-ferry",
+        "resource": "packed mussels and oysters",
+        "quantity": 300,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_tas_oyster_processors",
+      "AU_spring_bay_seafoods_processing"
+    ],
+    "resources": [
+      "Shellfish (farmed)"
+    ]
+  },
+  {
+    "id": "AU_angel_seafood_packing",
+    "name": "Angel Seafood — Packing & Distribution Centre",
+    "tier": "packer",
+    "country_iso2": "AU",
+    "canonical_company": "Angel Seafood",
+    "coordinates": {
+      "lat": -34.62,
+      "lon": 135.5
+    },
+    "downstream": [
+      {
+        "target_id": "AU_pfd_food_services",
+        "corridor_id": "AU_road_sa-adelaide-highway",
+        "resource": "packed premium Pacific oysters",
+        "quantity": 1200,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_sydney_fish_market",
+        "corridor_id": "AU_road_sa-to-sydney",
+        "resource": "packed Pacific oysters",
+        "quantity": 500,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_export_shellfish_hk_sg",
+        "corridor_id": "INTL_air_adelaide-hongkong",
+        "resource": "packed premium Pacific oysters (export)",
+        "quantity": 500,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_angel_seafood_processing"
+    ],
+    "resources": [
+      "Shellfish (farmed)"
+    ]
+  },
+  {
+    "id": "AU_sa_shellfish_packers",
+    "name": "SA Shellfish Packers (aggregated)",
+    "tier": "packer",
+    "country_iso2": "AU",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": -34.93,
+      "lon": 138.6
+    },
+    "downstream": [
+      {
+        "target_id": "AU_pfd_food_services",
+        "corridor_id": "AU_road_sa-adelaide-highway",
+        "resource": "packed oysters and mussels",
+        "quantity": 2500,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_sydney_fish_market",
+        "corridor_id": "AU_road_sa-to-sydney",
+        "resource": "packed oysters and mussels",
+        "quantity": 1000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_export_shellfish_hk_sg",
+        "corridor_id": "INTL_air_adelaide-hongkong",
+        "resource": "packed oysters and mussels (export)",
+        "quantity": 500,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_delaicour_food_logistics",
+        "corridor_id": "AU_road_sa-adelaide-highway",
+        "resource": "packed mussels (frozen, vacuum-packed)",
+        "quantity": 700,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_sa_oyster_processors",
+      "AU_sa_mussel_processors"
+    ],
+    "resources": [
+      "Shellfish (farmed)"
+    ]
+  },
+  {
+    "id": "AU_nsw_shellfish_packers",
+    "name": "NSW Shellfish Packers (aggregated)",
+    "tier": "packer",
+    "country_iso2": "AU",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": -33.87,
+      "lon": 151.21
+    },
+    "downstream": [
+      {
+        "target_id": "AU_sydney_fish_market",
+        "corridor_id": "AU_road_nsw-sydney-metro",
+        "resource": "packed Sydney rock oysters (live bags, half-shell)",
+        "quantity": 1200,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_pfd_food_services",
+        "corridor_id": "AU_road_nsw-sydney-metro",
+        "resource": "packed Sydney rock oysters",
+        "quantity": 800,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_delaicour_food_logistics",
+        "corridor_id": "AU_road_nsw-sydney-metro",
+        "resource": "packed Sydney rock oysters",
+        "quantity": 500,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_export_shellfish_hk_sg",
+        "corridor_id": "INTL_air_sydney-hongkong",
+        "resource": "packed Sydney rock oysters (export)",
+        "quantity": 250,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_nsw_oyster_processors"
+    ],
+    "resources": [
+      "Shellfish (farmed)"
+    ]
+  },
+  {
+    "id": "AU_yumbah_aquaculture_packing",
+    "name": "Yumbah Aquaculture — Packing Centre",
+    "tier": "packer",
+    "country_iso2": "AU",
+    "canonical_company": "Yumbah Aquaculture",
+    "coordinates": {
+      "lat": -37.81,
+      "lon": 144.96
+    },
+    "downstream": [
+      {
+        "target_id": "AU_export_abalone_china",
+        "corridor_id": "INTL_air_melbourne-shanghai",
+        "resource": "packed farmed abalone (live, canned, frozen)",
+        "quantity": 550,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_pfd_food_services",
+        "corridor_id": "AU_road_vic-melbourne-metro",
+        "resource": "packed farmed abalone (domestic)",
+        "quantity": 150,
+        "metric": "t"
+      },
+      {
+        "target_id": "CN_import_distributors",
+        "corridor_id": "INTL_ocean_melbourne-shanghai",
+        "resource": "packed farmed abalone (live, frozen, canned)",
+        "quantity": 550,
+        "metric": "t"
+      },
+      {
+        "target_id": "HK_import_distributors",
+        "corridor_id": "INTL_air_melbourne-hongkong",
+        "resource": "packed live farmed abalone",
+        "quantity": 150,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_bidfood_australia",
+        "corridor_id": "AU_road_melbourne-national",
+        "resource": "packed farmed abalone (food-service)",
+        "quantity": 100,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_yumbah_aquaculture_processing"
+    ],
+    "resources": [
+      "Shellfish (farmed)",
+      "Fish (farmed)"
+    ]
+  },
+  {
+    "id": "AU_jade_tiger_abalone_packing",
+    "name": "Jade Tiger Abalone — Packing",
+    "tier": "packer",
+    "country_iso2": "AU",
+    "canonical_company": "Jade Tiger Abalone",
+    "coordinates": {
+      "lat": -38.15,
+      "lon": 144.72
+    },
+    "downstream": [
+      {
+        "target_id": "AU_export_abalone_china",
+        "corridor_id": "INTL_air_melbourne-shanghai",
+        "resource": "packed farmed abalone (live, frozen)",
+        "quantity": 160,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_pfd_food_services",
+        "corridor_id": "AU_road_vic-melbourne-metro",
+        "resource": "packed farmed abalone (domestic)",
+        "quantity": 40,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_jade_tiger_abalone_processing"
+    ],
+    "resources": [
+      "Shellfish (farmed)"
+    ]
+  },
+  {
+    "id": "AU_ocean_grown_abalone_packing",
+    "name": "Ocean Grown Abalone — Packing",
+    "tier": "packer",
+    "country_iso2": "AU",
+    "canonical_company": "Ocean Grown Abalone",
+    "coordinates": {
+      "lat": -34.31,
+      "lon": 115.16
+    },
+    "downstream": [
+      {
+        "target_id": "AU_export_abalone_china",
+        "corridor_id": "INTL_air_perth-guangzhou",
+        "resource": "packed farmed abalone (live)",
+        "quantity": 90,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_pfd_food_services",
+        "corridor_id": "AU_road_wa-perth-metro",
+        "resource": "packed farmed abalone (domestic)",
+        "quantity": 30,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_ocean_grown_abalone_processing"
+    ],
+    "resources": [
+      "Shellfish (farmed)"
+    ]
+  },
+  {
+    "id": "AU_qld_shellfish_packers",
+    "name": "QLD Shellfish Packers (aggregated)",
+    "tier": "packer",
+    "country_iso2": "AU",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": -27.45,
+      "lon": 153.03
+    },
+    "downstream": [
+      {
+        "target_id": "AU_pfd_food_services",
+        "corridor_id": "AU_road_qld-southeast",
+        "resource": "packed oysters and shellfish",
+        "quantity": 300,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_sydney_fish_market",
+        "corridor_id": "AU_road_qld-to-sydney",
+        "resource": "packed oysters and shellfish",
+        "quantity": 100,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_qld_oyster_processors",
+      "AU_qld_shellfish_processors"
+    ],
+    "resources": [
+      "Shellfish (farmed)"
+    ]
+  },
+  {
+    "id": "AU_pfd_food_services",
+    "name": "PFD Food Services — National Seafood Distribution",
+    "tier": "distributor",
+    "country_iso2": "AU",
+    "canonical_company": "PFD Food Services",
+    "coordinates": {
+      "lat": -33.87,
+      "lon": 151.21
+    },
+    "downstream": [
+      {
+        "target_id": "AU_coles_group",
+        "corridor_id": "AU_road_national-cold-chain",
+        "resource": "shellfish (oysters, mussels, abalone — chilled/frozen)",
+        "quantity": 2500,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_woolworths_group",
+        "corridor_id": "AU_road_national-cold-chain",
+        "resource": "shellfish (oysters, mussels, abalone — chilled/frozen)",
+        "quantity": 2500,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_commercial",
+        "corridor_id": "AU_road_national-cold-chain",
+        "resource": "shellfish (food-service: restaurants, hotels)",
+        "quantity": 1750,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_tassal_group_packing",
+      "AU_cameron_of_tasmania_packing",
+      "AU_tas_shellfish_packers",
+      "AU_angel_seafood_packing",
+      "AU_sa_shellfish_packers",
+      "AU_nsw_shellfish_packers",
+      "AU_yumbah_aquaculture_packing",
+      "AU_jade_tiger_abalone_packing",
+      "AU_ocean_grown_abalone_packing",
+      "AU_qld_shellfish_packers"
+    ],
+    "resources": [
+      "Shellfish (farmed)"
+    ]
+  },
+  {
+    "id": "AU_sydney_fish_market",
+    "name": "Sydney Fish Market",
+    "tier": "distributor",
+    "country_iso2": "AU",
+    "canonical_company": "Sydney Fish Market",
+    "coordinates": {
+      "lat": -33.87,
+      "lon": 151.19
+    },
+    "downstream": [
+      {
+        "target_id": "AU_independent_fishmongers",
+        "corridor_id": "AU_road_nsw-sydney-metro",
+        "resource": "shellfish (oysters, mussels — auction and direct sale)",
+        "quantity": 1500,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_commercial",
+        "corridor_id": "AU_road_nsw-sydney-metro",
+        "resource": "shellfish (restaurant and food-service buyers)",
+        "quantity": 1000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_residential",
+        "corridor_id": "AU_road_nsw-sydney-metro",
+        "resource": "shellfish (retail direct to consumer at SFM)",
+        "quantity": 250,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_tassal_group_packing",
+      "AU_cameron_of_tasmania_packing",
+      "AU_tas_shellfish_packers",
+      "AU_angel_seafood_packing",
+      "AU_sa_shellfish_packers",
+      "AU_nsw_shellfish_packers",
+      "AU_qld_shellfish_packers"
+    ],
+    "resources": [
+      "Shellfish (farmed)"
+    ]
+  },
+  {
+    "id": "AU_delaicour_food_logistics",
+    "name": "De Costi Seafoods / Delaicour — Cold Chain Distribution",
+    "tier": "distributor",
+    "country_iso2": "AU",
+    "canonical_company": "De Costi Seafoods",
+    "coordinates": {
+      "lat": -33.89,
+      "lon": 151.07
+    },
+    "downstream": [
+      {
+        "target_id": "AU_woolworths_group",
+        "corridor_id": "AU_road_national-cold-chain",
+        "resource": "shellfish (processed, packed for retail)",
+        "quantity": 800,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_commercial",
+        "corridor_id": "AU_road_nsw-sydney-metro",
+        "resource": "shellfish (food-service distribution)",
+        "quantity": 700,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_tas_shellfish_packers",
+      "AU_sa_shellfish_packers",
+      "AU_nsw_shellfish_packers"
+    ],
+    "resources": [
+      "Shellfish (farmed)"
+    ]
+  },
+  {
+    "id": "AU_export_shellfish_hk_sg",
+    "name": "Australian Shellfish Export Hub — Hong Kong / Singapore",
+    "tier": "distributor",
+    "country_iso2": "AU",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": -33.95,
+      "lon": 151.18
+    },
+    "downstream": [
+      {
+        "target_id": "HK_commercial",
+        "corridor_id": "INTL_air_sydney-hongkong",
+        "resource": "premium Australian oysters (half-shell, live)",
+        "quantity": 800,
+        "metric": "t"
+      },
+      {
+        "target_id": "SG_commercial",
+        "corridor_id": "INTL_air_sydney-singapore",
+        "resource": "premium Australian oysters (half-shell, live)",
+        "quantity": 450,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_angel_seafood_packing",
+      "AU_sa_shellfish_packers",
+      "AU_nsw_shellfish_packers"
+    ],
+    "resources": [
+      "Shellfish (farmed)"
+    ]
+  },
+  {
+    "id": "AU_export_abalone_china",
+    "name": "Australian Abalone Export Hub — China",
+    "tier": "distributor",
+    "country_iso2": "AU",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": -37.67,
+      "lon": 144.84
+    },
+    "downstream": [
+      {
+        "target_id": "CN_commercial",
+        "corridor_id": "INTL_air_melbourne-shanghai",
+        "resource": "farmed abalone (live, canned, frozen)",
+        "quantity": 600,
+        "metric": "t"
+      },
+      {
+        "target_id": "HK_commercial",
+        "corridor_id": "INTL_air_melbourne-hongkong",
+        "resource": "farmed abalone (live, frozen)",
+        "quantity": 200,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_yumbah_aquaculture_packing",
+      "AU_jade_tiger_abalone_packing",
+      "AU_ocean_grown_abalone_packing"
+    ],
+    "resources": [
+      "Shellfish (farmed)"
+    ]
+  },
+  {
+    "id": "AU_independent_fishmongers",
+    "name": "Independent Fishmongers & Specialty Retailers",
+    "tier": "retailer",
+    "country_iso2": "AU",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": -33.87,
+      "lon": 151.2
+    },
+    "downstream": [
+      {
+        "target_id": "AU_residential",
+        "corridor_id": "AU_road_national-last-mile",
+        "resource": "retail shellfish (oysters, mussels)",
+        "quantity": 1500,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_sydney_fish_market"
+    ],
+    "resources": [
+      "Shellfish (farmed)"
+    ]
+  },
+  {
+    "id": "AU_road_southeast-tas",
+    "tier": "transport",
+    "name": "Road — Southeast Tasmania (Hobart–Dunalley–Dover)",
+    "country_iso2": "AU",
+    "operator_id": "AU_tas_state_roads",
+    "mode": "road",
+    "form": "containerised",
+    "range": "local",
+    "coordinates": {
+      "lat": -42.88,
+      "lon": 147.33
+    }
+  },
+  {
+    "id": "AU_road_east-tas-coast",
+    "tier": "transport",
+    "name": "Road — East Tasmania Coast (Triabunna–Great Oyster Bay)",
+    "country_iso2": "AU",
+    "operator_id": "AU_tas_state_roads",
+    "mode": "road",
+    "form": "containerised",
+    "range": "local",
+    "coordinates": {
+      "lat": -42.3,
+      "lon": 148.1
+    }
+  },
+  {
+    "id": "AU_road_eyre-peninsula",
+    "tier": "transport",
+    "name": "Road — Eyre Peninsula (Coffin Bay–Smoky Bay–Port Lincoln)",
+    "country_iso2": "AU",
+    "operator_id": "AU_sa_state_roads",
+    "mode": "road",
+    "form": "containerised",
+    "range": "regional",
+    "coordinates": {
+      "lat": -33.8,
+      "lon": 135
+    }
+  },
+  {
+    "id": "AU_road_nsw-hunter",
+    "tier": "transport",
+    "name": "Road — NSW Hunter Region (Port Stephens–Newcastle)",
+    "country_iso2": "AU",
+    "operator_id": "AU_nsw_state_roads",
+    "mode": "road",
+    "form": "containerised",
+    "range": "local",
+    "coordinates": {
+      "lat": -32.93,
+      "lon": 151.78
+    }
+  },
+  {
+    "id": "AU_road_nsw-mid-north-coast",
+    "tier": "transport",
+    "name": "Road — NSW Mid-North Coast (Wallis Lake–Taree)",
+    "country_iso2": "AU",
+    "operator_id": "AU_nsw_state_roads",
+    "mode": "road",
+    "form": "containerised",
+    "range": "local",
+    "coordinates": {
+      "lat": -32.2,
+      "lon": 152.5
+    }
+  },
+  {
+    "id": "AU_road_nsw-south-coast",
+    "tier": "transport",
+    "name": "Road — NSW South Coast (Batemans Bay–Merimbula)",
+    "country_iso2": "AU",
+    "operator_id": "AU_nsw_state_roads",
+    "mode": "road",
+    "form": "containerised",
+    "range": "regional",
+    "coordinates": {
+      "lat": -36,
+      "lon": 150
+    }
+  },
+  {
+    "id": "AU_road_nsw-sydney-metro",
+    "tier": "transport",
+    "name": "Road — NSW Sydney Metropolitan Cold Chain",
+    "country_iso2": "AU",
+    "operator_id": "AU_nsw_state_roads",
+    "mode": "road",
+    "form": "containerised",
+    "range": "local",
+    "coordinates": {
+      "lat": -33.87,
+      "lon": 151.21
+    }
+  },
+  {
+    "id": "AU_road_vic-western",
+    "tier": "transport",
+    "name": "Road — Victoria Western Highway (Narrawong–Melbourne)",
+    "country_iso2": "AU",
+    "operator_id": "AU_vic_state_roads",
+    "mode": "road",
+    "form": "containerised",
+    "range": "regional",
+    "coordinates": {
+      "lat": -37.8,
+      "lon": 143
+    }
+  },
+  {
+    "id": "AU_road_vic-bellarine",
+    "tier": "transport",
+    "name": "Road — Victoria Bellarine Peninsula (Indented Head–Melbourne)",
+    "country_iso2": "AU",
+    "operator_id": "AU_vic_state_roads",
+    "mode": "road",
+    "form": "containerised",
+    "range": "local",
+    "coordinates": {
+      "lat": -38.1,
+      "lon": 144.6
+    }
+  },
+  {
+    "id": "AU_road_wa-south-west",
+    "tier": "transport",
+    "name": "Road — WA South-West (Augusta–Perth)",
+    "country_iso2": "AU",
+    "operator_id": "AU_wa_state_roads",
+    "mode": "road",
+    "form": "containerised",
+    "range": "regional",
+    "coordinates": {
+      "lat": -33.5,
+      "lon": 115.7
+    }
+  },
+  {
+    "id": "AU_road_sa-adelaide-highway",
+    "tier": "transport",
+    "name": "Road — SA to Adelaide (Eyre Peninsula–Adelaide)",
+    "country_iso2": "AU",
+    "operator_id": "AU_sa_state_roads",
+    "mode": "road",
+    "form": "containerised",
+    "range": "regional",
+    "coordinates": {
+      "lat": -34.4,
+      "lon": 137
+    }
+  },
+  {
+    "id": "AU_road_tas-hobart-launceston",
+    "tier": "transport",
+    "name": "Road — Tasmania (Hobart–Launceston Midland Hwy)",
+    "country_iso2": "AU",
+    "operator_id": "AU_tas_state_roads",
+    "mode": "road",
+    "form": "containerised",
+    "range": "regional",
+    "coordinates": {
+      "lat": -42.1,
+      "lon": 147.2
+    }
+  },
+  {
+    "id": "AU_road_tas-to-melbourne-ferry",
+    "tier": "transport",
+    "name": "Road + Ferry — Tasmania to Melbourne (Spirit of Tasmania / Toll)",
+    "country_iso2": "AU",
+    "operator_id": "AU_toll_group",
+    "mode": "road",
+    "form": "containerised",
+    "range": "regional",
+    "coordinates": {
+      "lat": -41.05,
+      "lon": 146.8
+    }
+  },
+  {
+    "id": "AU_road_sa-to-sydney",
+    "tier": "transport",
+    "name": "Road — SA to Sydney (Barrier Hwy / Hume Hwy corridor)",
+    "country_iso2": "AU",
+    "operator_id": "AU_toll_group",
+    "mode": "road",
+    "form": "containerised",
+    "range": "regional",
+    "coordinates": {
+      "lat": -34,
+      "lon": 145
+    }
+  },
+  {
+    "id": "AU_road_qld-southeast",
+    "tier": "transport",
+    "name": "Road — QLD Southeast (Moreton Bay–Brisbane)",
+    "country_iso2": "AU",
+    "operator_id": "AU_qld_state_roads",
+    "mode": "road",
+    "form": "containerised",
+    "range": "local",
+    "coordinates": {
+      "lat": -27.47,
+      "lon": 153.02
+    }
+  },
+  {
+    "id": "AU_road_qld-north",
+    "tier": "transport",
+    "name": "Road — North QLD (Bowen–Townsville)",
+    "country_iso2": "AU",
+    "operator_id": "AU_qld_state_roads",
+    "mode": "road",
+    "form": "containerised",
+    "range": "regional",
+    "coordinates": {
+      "lat": -19.97,
+      "lon": 148.16
+    }
+  },
+  {
+    "id": "AU_road_qld-to-sydney",
+    "tier": "transport",
+    "name": "Road — Brisbane to Sydney (Pacific Hwy corridor)",
+    "country_iso2": "AU",
+    "operator_id": "AU_toll_group",
+    "mode": "road",
+    "form": "containerised",
+    "range": "regional",
+    "coordinates": {
+      "lat": -30.5,
+      "lon": 152.5
+    }
+  },
+  {
+    "id": "AU_road_national-cold-chain",
+    "tier": "transport",
+    "name": "Road — National Cold-Chain Distribution Network",
+    "country_iso2": "AU",
+    "operator_id": "AU_pfd_food_services",
+    "mode": "road",
+    "form": "containerised",
+    "range": "regional",
+    "coordinates": {
+      "lat": -33.87,
+      "lon": 151.21
+    }
+  },
+  {
+    "id": "AU_road_national-last-mile",
+    "tier": "transport",
+    "name": "Road — National Retail Last-Mile Delivery",
+    "country_iso2": "AU",
+    "operator_id": "AU_linfox",
+    "mode": "road",
+    "form": "containerised",
+    "range": "regional",
+    "coordinates": {
+      "lat": -33.87,
+      "lon": 151.21
+    }
+  },
+  {
+    "id": "AU_road_vic-melbourne-metro",
+    "tier": "transport",
+    "name": "Road — Melbourne Metropolitan Cold Chain",
+    "country_iso2": "AU",
+    "operator_id": "AU_vic_state_roads",
+    "mode": "road",
+    "form": "containerised",
+    "range": "local",
+    "coordinates": {
+      "lat": -37.81,
+      "lon": 144.96
+    }
+  },
+  {
+    "id": "AU_road_wa-perth-metro",
+    "tier": "transport",
+    "name": "Road — Perth Metropolitan Cold Chain",
+    "country_iso2": "AU",
+    "operator_id": "AU_wa_state_roads",
+    "mode": "road",
+    "form": "containerised",
+    "range": "local",
+    "coordinates": {
+      "lat": -31.95,
+      "lon": 115.86
+    }
+  },
+  {
+    "id": "INTL_air_adelaide-hongkong",
+    "tier": "transport",
+    "name": "Air Freight — Adelaide to Hong Kong",
+    "country_iso2": "INTL",
+    "operator_id": "INTL_cathay_pacific_cargo",
+    "mode": "air_freight",
+    "form": "containerised",
+    "range": "international",
+    "coordinates": {
+      "lat": -10,
+      "lon": 120
+    }
+  },
+  {
+    "id": "INTL_air_sydney-hongkong",
+    "tier": "transport",
+    "name": "Air Freight — Sydney to Hong Kong",
+    "country_iso2": "INTL",
+    "operator_id": "INTL_cathay_pacific_cargo",
+    "mode": "air_freight",
+    "form": "containerised",
+    "range": "international",
+    "coordinates": {
+      "lat": -10,
+      "lon": 130
+    }
+  },
+  {
+    "id": "INTL_air_sydney-singapore",
+    "tier": "transport",
+    "name": "Air Freight — Sydney to Singapore",
+    "country_iso2": "INTL",
+    "operator_id": "INTL_singapore_airlines_cargo",
+    "mode": "air_freight",
+    "form": "containerised",
+    "range": "international",
+    "coordinates": {
+      "lat": -15,
+      "lon": 125
+    },
+    "resources": [
+      "Shellfish (wild)"
+    ],
+    "upstream": [],
+    "downstream": []
+  },
+  {
+    "id": "INTL_air_melbourne-shanghai",
+    "tier": "transport",
+    "name": "Air Freight — Melbourne to Shanghai",
+    "country_iso2": "INTL",
+    "operator_id": "INTL_china_southern_cargo",
+    "mode": "air_freight",
+    "form": "containerised",
+    "range": "international",
+    "coordinates": {
+      "lat": -10,
+      "lon": 135
+    }
+  },
+  {
+    "id": "INTL_air_melbourne-hongkong",
+    "tier": "transport",
+    "name": "Air Freight — Melbourne to Hong Kong",
+    "country_iso2": "INTL",
+    "operator_id": "INTL_cathay_pacific_cargo",
+    "mode": "air_freight",
+    "form": "containerised",
+    "range": "international",
+    "coordinates": {
+      "lat": -12,
+      "lon": 132
+    },
+    "resources": [
+      "Fish (farmed)",
+      "Shellfish (wild)"
+    ],
+    "upstream": [],
+    "downstream": []
+  },
+  {
+    "id": "INTL_air_perth-guangzhou",
+    "tier": "transport",
+    "name": "Air Freight — Perth to Guangzhou",
+    "country_iso2": "INTL",
+    "operator_id": "INTL_china_southern_cargo",
+    "mode": "air_freight",
+    "form": "containerised",
+    "range": "international",
+    "coordinates": {
+      "lat": -15,
+      "lon": 115
+    }
+  }
+]

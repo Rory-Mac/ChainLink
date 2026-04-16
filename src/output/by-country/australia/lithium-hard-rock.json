@@ -1,0 +1,1843 @@
+[
+  {
+    "id": "AU_greenbushes_mine",
+    "name": "Greenbushes Lithium Mine",
+    "tier": "extraction",
+    "country_iso2": "AU",
+    "canonical_company": "Talison Lithium",
+    "coordinates": {
+      "lat": -33.85,
+      "lon": 116.06
+    },
+    "downstream": [
+      {
+        "target_id": "AU_tianqi_lithium_kwinana",
+        "corridor_id": "AU_road_greenbushes-kwinana",
+        "resource": "spodumene concentrate (6% Li2O)",
+        "quantity": 320000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_albemarle_kemerton",
+        "corridor_id": "AU_road_greenbushes-kemerton",
+        "resource": "spodumene concentrate (6% Li2O)",
+        "quantity": 200000,
+        "metric": "t"
+      },
+      {
+        "target_id": "CN_tianqi_lithium_shehong",
+        "corridor_id": "INTL_ocean_fremantle-zhanjiang",
+        "resource": "spodumene concentrate (6% Li2O)",
+        "quantity": 450000,
+        "metric": "t"
+      },
+      {
+        "target_id": "CN_ganfeng_lithium_xinyu",
+        "corridor_id": "INTL_ocean_fremantle-zhanjiang",
+        "resource": "spodumene concentrate (6% Li2O)",
+        "quantity": 250000,
+        "metric": "t"
+      },
+      {
+        "target_id": "CN_yahua_group",
+        "corridor_id": "INTL_ocean_fremantle-zhanjiang",
+        "resource": "spodumene concentrate (6% Li2O)",
+        "quantity": 180000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_talison_lithium_management",
+        "corridor_id": "AU_road_greenbushes-bunbury",
+        "resource": "spodumene bearing pegmatite ore",
+        "quantity": 5500000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Lithium (hard-rock)",
+      "Mineral-Bearing Land"
+    ]
+  },
+  {
+    "id": "AU_pilgangoora_mine_pilbara",
+    "name": "Pilgangoora Lithium-Tantalum Mine (Pilbara Minerals)",
+    "tier": "extraction",
+    "country_iso2": "AU",
+    "canonical_company": "Pilbara Minerals",
+    "coordinates": {
+      "lat": -21.3,
+      "lon": 119.26
+    },
+    "downstream": [
+      {
+        "target_id": "CN_ganfeng_lithium_xinyu",
+        "corridor_id": "INTL_ocean_port-hedland-zhanjiang",
+        "resource": "spodumene concentrate (5.5-6% Li2O)",
+        "quantity": 310000,
+        "metric": "t"
+      },
+      {
+        "target_id": "CN_great_wall_cathode",
+        "corridor_id": "INTL_ocean_port-hedland-zhanjiang",
+        "resource": "spodumene concentrate (5.5-6% Li2O)",
+        "quantity": 120000,
+        "metric": "t"
+      },
+      {
+        "target_id": "KR_posco_gwangyang",
+        "corridor_id": "INTL_ocean_port-hedland-gwangyang",
+        "resource": "spodumene concentrate (5.5-6% Li2O)",
+        "quantity": 160000,
+        "metric": "t"
+      },
+      {
+        "target_id": "CN_chengxin_lithium",
+        "corridor_id": "INTL_ocean_port-hedland-zhanjiang",
+        "resource": "spodumene concentrate (5.5-6% Li2O)",
+        "quantity": 100000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Lithium (hard-rock)"
+    ]
+  },
+  {
+    "id": "AU_wodgina_mine",
+    "name": "Wodgina Lithium Mine",
+    "tier": "extraction",
+    "country_iso2": "AU",
+    "canonical_company": "Mineral Resources / Albemarle JV",
+    "coordinates": {
+      "lat": -21.18,
+      "lon": 119.05
+    },
+    "downstream": [
+      {
+        "target_id": "AU_albemarle_kemerton",
+        "corridor_id": "AU_road_wodgina-port-hedland",
+        "resource": "spodumene concentrate (6% Li2O)",
+        "quantity": 250000,
+        "metric": "t"
+      },
+      {
+        "target_id": "CN_albemarle_chengdu",
+        "corridor_id": "INTL_ocean_port-hedland-shanghai",
+        "resource": "spodumene concentrate (6% Li2O)",
+        "quantity": 200000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Lithium (hard-rock)"
+    ]
+  },
+  {
+    "id": "AU_mt_cattlin_mine",
+    "name": "Mt Cattlin Lithium Mine",
+    "tier": "extraction",
+    "country_iso2": "AU",
+    "canonical_company": "Allkem (now Arcadium Lithium)",
+    "coordinates": {
+      "lat": -33.55,
+      "lon": 119.79
+    },
+    "downstream": [
+      {
+        "target_id": "CN_ganfeng_lithium_xinyu",
+        "corridor_id": "INTL_ocean_esperance-zhanjiang",
+        "resource": "spodumene concentrate (5.5-6% Li2O)",
+        "quantity": 60000,
+        "metric": "t"
+      },
+      {
+        "target_id": "CN_yahua_group",
+        "corridor_id": "INTL_ocean_esperance-zhanjiang",
+        "resource": "spodumene concentrate (5.5-6% Li2O)",
+        "quantity": 40000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_allkem_mt_cattlin_management",
+        "corridor_id": "AU_road_mt-cattlin-esperance",
+        "resource": "spodumene bearing pegmatite ore",
+        "quantity": 1100000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Lithium (hard-rock)",
+      "Mineral-Bearing Land"
+    ]
+  },
+  {
+    "id": "AU_mt_marion_mine",
+    "name": "Mt Marion Lithium Mine",
+    "tier": "extraction",
+    "country_iso2": "AU",
+    "canonical_company": "Mineral Resources / Ganfeng JV",
+    "coordinates": {
+      "lat": -31.61,
+      "lon": 121.6
+    },
+    "downstream": [
+      {
+        "target_id": "CN_ganfeng_lithium_xinyu",
+        "corridor_id": "INTL_ocean_esperance-zhanjiang",
+        "resource": "spodumene concentrate (5-6% Li2O)",
+        "quantity": 350000,
+        "metric": "t"
+      },
+      {
+        "target_id": "CN_ganfeng_lithium_fengcheng",
+        "corridor_id": "INTL_ocean_esperance-zhanjiang",
+        "resource": "spodumene concentrate (5-6% Li2O)",
+        "quantity": 200000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Lithium (hard-rock)"
+    ]
+  },
+  {
+    "id": "AU_finniss_mine",
+    "name": "Finniss Lithium Mine",
+    "tier": "extraction",
+    "country_iso2": "AU",
+    "canonical_company": "Core Lithium",
+    "coordinates": {
+      "lat": -13.1,
+      "lon": 131.19
+    },
+    "downstream": [
+      {
+        "target_id": "CN_yahua_group",
+        "corridor_id": "INTL_ocean_darwin-zhanjiang",
+        "resource": "spodumene concentrate (5.5% Li2O)",
+        "quantity": 50000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Lithium (hard-rock)"
+    ]
+  },
+  {
+    "id": "AU_kathleen_valley_mine",
+    "name": "Kathleen Valley Lithium Mine",
+    "tier": "extraction",
+    "country_iso2": "AU",
+    "canonical_company": "Liontown Resources",
+    "coordinates": {
+      "lat": -27.72,
+      "lon": 120.69
+    },
+    "downstream": [
+      {
+        "target_id": "KR_lg_energy_solution_ochang",
+        "corridor_id": "INTL_ocean_fremantle-ulsan",
+        "resource": "spodumene concentrate (5.5-6% Li2O)",
+        "quantity": 150000,
+        "metric": "t"
+      },
+      {
+        "target_id": "US_tesla_sparks",
+        "corridor_id": "INTL_ocean_fremantle-longbeach",
+        "resource": "spodumene concentrate (5.5-6% Li2O)",
+        "quantity": 100000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Lithium (hard-rock)"
+    ]
+  },
+  {
+    "id": "AU_tianqi_lithium_kwinana",
+    "name": "Tianqi Lithium Kwinana Refinery",
+    "tier": "chemical_processor",
+    "country_iso2": "AU",
+    "canonical_company": "Tianqi Lithium",
+    "coordinates": {
+      "lat": -32.24,
+      "lon": 115.77
+    },
+    "downstream": [
+      {
+        "target_id": "KR_lg_energy_solution_ochang",
+        "corridor_id": "INTL_ocean_fremantle-ulsan",
+        "resource": "battery-grade lithium hydroxide monohydrate",
+        "quantity": 20000,
+        "metric": "t"
+      },
+      {
+        "target_id": "JP_panasonic_energy_sumoto",
+        "corridor_id": "INTL_ocean_fremantle-kobe",
+        "resource": "battery-grade lithium hydroxide monohydrate",
+        "quantity": 8000,
+        "metric": "t"
+      },
+      {
+        "target_id": "KR_samsung_sdi_cheonan",
+        "corridor_id": "INTL_ocean_fremantle-ulsan",
+        "resource": "battery-grade lithium hydroxide monohydrate",
+        "quantity": 10000,
+        "metric": "t"
+      },
+      {
+        "target_id": "INTL_battery_cell_manufacturers",
+        "corridor_id": "INTL_ocean_fremantle-asia",
+        "resource": "battery-grade lithium hydroxide",
+        "quantity": 48000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_greenbushes_mine",
+      "AU_talison_lithium_management"
+    ],
+    "resources": [
+      "Lithium (hard-rock)",
+      "Mineral-Bearing Land"
+    ]
+  },
+  {
+    "id": "AU_albemarle_kemerton",
+    "name": "Albemarle Kemerton Lithium Hydroxide Plant",
+    "tier": "chemical_processor",
+    "country_iso2": "AU",
+    "canonical_company": "Albemarle",
+    "coordinates": {
+      "lat": -33.14,
+      "lon": 115.74
+    },
+    "downstream": [
+      {
+        "target_id": "KR_samsung_sdi_cheonan",
+        "corridor_id": "INTL_ocean_fremantle-ulsan",
+        "resource": "battery-grade lithium hydroxide monohydrate",
+        "quantity": 15000,
+        "metric": "t"
+      },
+      {
+        "target_id": "JP_panasonic_energy_sumoto",
+        "corridor_id": "INTL_ocean_fremantle-kobe",
+        "resource": "battery-grade lithium hydroxide monohydrate",
+        "quantity": 10000,
+        "metric": "t"
+      },
+      {
+        "target_id": "INTL_battery_cell_manufacturers",
+        "corridor_id": "INTL_ocean_fremantle-asia",
+        "resource": "battery-grade lithium hydroxide",
+        "quantity": 50000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_greenbushes_mine",
+      "AU_wodgina_mine",
+      "AU_talison_lithium_management",
+      "AU_albemarle_wodgina_management"
+    ],
+    "resources": [
+      "Lithium (hard-rock)",
+      "Mineral-Bearing Land"
+    ]
+  },
+  {
+    "id": "CN_tianqi_lithium_shehong",
+    "name": "Tianqi Lithium Shehong Processing Plant",
+    "tier": "chemical_processor",
+    "country_iso2": "CN",
+    "canonical_company": "Tianqi Lithium",
+    "coordinates": {
+      "lat": 30.97,
+      "lon": 105.38
+    },
+    "downstream": [
+      {
+        "target_id": "CN_catl_ningde",
+        "corridor_id": "CN_road_shehong-ningde",
+        "resource": "lithium hydroxide / lithium carbonate",
+        "quantity": 50000,
+        "metric": "t"
+      },
+      {
+        "target_id": "CN_byd_shenzhen",
+        "corridor_id": "CN_road_shehong-shenzhen",
+        "resource": "lithium carbonate",
+        "quantity": 30000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_greenbushes_mine"
+    ],
+    "resources": [
+      "Lithium (hard-rock)"
+    ]
+  },
+  {
+    "id": "CN_ganfeng_lithium_xinyu",
+    "name": "Ganfeng Lithium Xinyu Processing Complex",
+    "tier": "chemical_processor",
+    "country_iso2": "CN",
+    "canonical_company": "Ganfeng Lithium",
+    "coordinates": {
+      "lat": 27.8,
+      "lon": 114.93
+    },
+    "downstream": [
+      {
+        "target_id": "CN_catl_ningde",
+        "corridor_id": "CN_road_xinyu-ningde",
+        "resource": "lithium hydroxide / lithium carbonate",
+        "quantity": 60000,
+        "metric": "t"
+      },
+      {
+        "target_id": "KR_lg_energy_solution_ochang",
+        "corridor_id": "INTL_ocean_shanghai-busan",
+        "resource": "battery-grade lithium hydroxide",
+        "quantity": 15000,
+        "metric": "t"
+      },
+      {
+        "target_id": "DE_bmw_battery_cell_supply",
+        "corridor_id": "INTL_ocean_shanghai-hamburg",
+        "resource": "battery-grade lithium hydroxide",
+        "quantity": 8000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_greenbushes_mine",
+      "AU_pilgangoora_mine_pilbara",
+      "AU_mt_cattlin_mine",
+      "AU_mt_marion_mine"
+    ],
+    "resources": [
+      "Lithium (hard-rock)"
+    ]
+  },
+  {
+    "id": "CN_ganfeng_lithium_fengcheng",
+    "name": "Ganfeng Lithium Fengcheng Processing Plant",
+    "tier": "chemical_processor",
+    "country_iso2": "CN",
+    "canonical_company": "Ganfeng Lithium",
+    "coordinates": {
+      "lat": 28.2,
+      "lon": 115.77
+    },
+    "downstream": [
+      {
+        "target_id": "CN_catl_ningde",
+        "corridor_id": "CN_road_fengcheng-ningde",
+        "resource": "lithium hydroxide / lithium carbonate",
+        "quantity": 30000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_mt_marion_mine"
+    ],
+    "resources": [
+      "Lithium (hard-rock)"
+    ]
+  },
+  {
+    "id": "CN_yahua_group",
+    "name": "Yahua Group Yaan / Leshan Lithium Plants",
+    "tier": "chemical_processor",
+    "country_iso2": "CN",
+    "canonical_company": "Sichuan Yahua Industrial Group",
+    "coordinates": {
+      "lat": 29.98,
+      "lon": 103
+    },
+    "downstream": [
+      {
+        "target_id": "CN_catl_ningde",
+        "corridor_id": "CN_road_yaan-ningde",
+        "resource": "battery-grade lithium hydroxide",
+        "quantity": 20000,
+        "metric": "t"
+      },
+      {
+        "target_id": "US_tesla_sparks",
+        "corridor_id": "INTL_ocean_shanghai-longbeach",
+        "resource": "battery-grade lithium hydroxide",
+        "quantity": 15000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_greenbushes_mine",
+      "AU_mt_cattlin_mine",
+      "AU_finniss_mine"
+    ],
+    "resources": [
+      "Lithium (hard-rock)"
+    ]
+  },
+  {
+    "id": "CN_albemarle_chengdu",
+    "name": "Albemarle Chengdu (Meishan) Lithium Plant",
+    "tier": "chemical_processor",
+    "country_iso2": "CN",
+    "canonical_company": "Albemarle",
+    "coordinates": {
+      "lat": 30.07,
+      "lon": 103.83
+    },
+    "downstream": [
+      {
+        "target_id": "CN_catl_ningde",
+        "corridor_id": "CN_road_chengdu-ningde",
+        "resource": "battery-grade lithium hydroxide",
+        "quantity": 20000,
+        "metric": "t"
+      },
+      {
+        "target_id": "KR_samsung_sdi_cheonan",
+        "corridor_id": "INTL_ocean_shanghai-busan",
+        "resource": "battery-grade lithium hydroxide",
+        "quantity": 10000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_wodgina_mine"
+    ],
+    "resources": [
+      "Lithium (hard-rock)"
+    ]
+  },
+  {
+    "id": "CN_chengxin_lithium",
+    "name": "Chengxin Lithium Group Suining Plant",
+    "tier": "chemical_processor",
+    "country_iso2": "CN",
+    "canonical_company": "Chengxin Lithium Group",
+    "coordinates": {
+      "lat": 30.53,
+      "lon": 105.59
+    },
+    "downstream": [
+      {
+        "target_id": "CN_catl_ningde",
+        "corridor_id": "CN_road_suining-ningde",
+        "resource": "lithium carbonate / lithium hydroxide",
+        "quantity": 15000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_pilgangoora_mine_pilbara"
+    ],
+    "resources": [
+      "Lithium (hard-rock)"
+    ]
+  },
+  {
+    "id": "CN_great_wall_cathode",
+    "name": "Changzhou Liyuan (Great Wall / SVOLT) New Energy Materials",
+    "tier": "chemical_processor",
+    "country_iso2": "CN",
+    "canonical_company": "SVOLT / Great Wall Motor",
+    "coordinates": {
+      "lat": 31.81,
+      "lon": 119.97
+    },
+    "downstream": [
+      {
+        "target_id": "CN_svolt_changzhou",
+        "corridor_id": "CN_road_changzhou-local",
+        "resource": "lithium hydroxide",
+        "quantity": 18000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_pilgangoora_mine_pilbara"
+    ],
+    "resources": [
+      "Lithium (hard-rock)"
+    ]
+  },
+  {
+    "id": "KR_posco_gwangyang",
+    "name": "POSCO Future M Gwangyang Lithium Refinery",
+    "tier": "chemical_processor",
+    "country_iso2": "KR",
+    "canonical_company": "POSCO Future M",
+    "coordinates": {
+      "lat": 34.93,
+      "lon": 127.7
+    },
+    "downstream": [
+      {
+        "target_id": "KR_lg_energy_solution_ochang",
+        "corridor_id": "KR_road_gwangyang-ochang",
+        "resource": "battery-grade lithium hydroxide monohydrate",
+        "quantity": 15000,
+        "metric": "t"
+      },
+      {
+        "target_id": "KR_samsung_sdi_cheonan",
+        "corridor_id": "KR_road_gwangyang-cheonan",
+        "resource": "battery-grade lithium hydroxide monohydrate",
+        "quantity": 8000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_pilgangoora_mine_pilbara"
+    ],
+    "resources": [
+      "Lithium (hard-rock)"
+    ]
+  },
+  {
+    "id": "US_tesla_sparks",
+    "name": "Tesla / Panasonic Gigafactory Nevada (Sparks)",
+    "tier": "chemical_processor",
+    "country_iso2": "US",
+    "canonical_company": "Tesla",
+    "coordinates": {
+      "lat": 39.54,
+      "lon": -119.44
+    },
+    "downstream": [
+      {
+        "target_id": "US_tesla_fremont_oem",
+        "corridor_id": "US_road_sparks-fremont",
+        "resource": "lithium-ion battery cells & packs (NCA/NCM)",
+        "quantity": 30000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_kathleen_valley_mine",
+      "CN_yahua_group"
+    ],
+    "resources": [
+      "Lithium (hard-rock)"
+    ]
+  },
+  {
+    "id": "CN_catl_ningde",
+    "name": "CATL Ningde Battery Manufacturing Base",
+    "tier": "component_maker",
+    "country_iso2": "CN",
+    "canonical_company": "CATL",
+    "coordinates": {
+      "lat": 26.66,
+      "lon": 119.52
+    },
+    "downstream": [
+      {
+        "target_id": "CN_tesla_shanghai_oem",
+        "corridor_id": "CN_road_ningde-shanghai",
+        "resource": "lithium-ion battery cells & packs (LFP/NCM)",
+        "quantity": 60000,
+        "metric": "t"
+      },
+      {
+        "target_id": "DE_bmw_dingolfing_oem",
+        "corridor_id": "INTL_ocean_shanghai-hamburg",
+        "resource": "lithium-ion battery cells & packs (NCM)",
+        "quantity": 25000,
+        "metric": "t"
+      },
+      {
+        "target_id": "CN_byd_shenzhen_oem",
+        "corridor_id": "CN_road_ningde-shenzhen",
+        "resource": "lithium-ion battery cells (NCM)",
+        "quantity": 15000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "CN_tianqi_lithium_shehong",
+      "CN_ganfeng_lithium_xinyu",
+      "CN_ganfeng_lithium_fengcheng",
+      "CN_yahua_group",
+      "CN_albemarle_chengdu",
+      "CN_chengxin_lithium"
+    ],
+    "resources": [
+      "Lithium (hard-rock)"
+    ]
+  },
+  {
+    "id": "CN_byd_shenzhen",
+    "name": "BYD FinDreams Battery Shenzhen / Huizhou",
+    "tier": "component_maker",
+    "country_iso2": "CN",
+    "canonical_company": "BYD",
+    "coordinates": {
+      "lat": 22.65,
+      "lon": 114.06
+    },
+    "downstream": [
+      {
+        "target_id": "CN_byd_shenzhen_oem",
+        "corridor_id": "CN_road_shenzhen-local",
+        "resource": "Blade Battery cells & packs (LFP)",
+        "quantity": 45000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "CN_tianqi_lithium_shehong"
+    ],
+    "resources": [
+      "Lithium (hard-rock)"
+    ]
+  },
+  {
+    "id": "CN_svolt_changzhou",
+    "name": "SVOLT Changzhou Battery Plant",
+    "tier": "component_maker",
+    "country_iso2": "CN",
+    "canonical_company": "SVOLT Energy",
+    "coordinates": {
+      "lat": 31.8,
+      "lon": 119.95
+    },
+    "downstream": [
+      {
+        "target_id": "CN_great_wall_motor_baoding_oem",
+        "corridor_id": "CN_road_changzhou-baoding",
+        "resource": "lithium-ion battery cells & packs (NMx)",
+        "quantity": 14000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "CN_great_wall_cathode"
+    ],
+    "resources": [
+      "Lithium (hard-rock)"
+    ]
+  },
+  {
+    "id": "KR_lg_energy_solution_ochang",
+    "name": "LG Energy Solution Ochang Battery Plant",
+    "tier": "component_maker",
+    "country_iso2": "KR",
+    "canonical_company": "LG Energy Solution",
+    "coordinates": {
+      "lat": 36.72,
+      "lon": 127.43
+    },
+    "downstream": [
+      {
+        "target_id": "US_gm_detroit_oem",
+        "corridor_id": "INTL_ocean_busan-savannah",
+        "resource": "lithium-ion battery cells (pouch NCM/NCMA)",
+        "quantity": 20000,
+        "metric": "t"
+      },
+      {
+        "target_id": "DE_volkswagen_wolfsburg_oem",
+        "corridor_id": "INTL_ocean_busan-hamburg",
+        "resource": "lithium-ion battery cells (pouch NCM)",
+        "quantity": 12000,
+        "metric": "t"
+      },
+      {
+        "target_id": "KR_hyundai_ulsan_oem",
+        "corridor_id": "KR_road_ochang-ulsan",
+        "resource": "lithium-ion battery cells & packs (pouch NCM)",
+        "quantity": 15000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_kathleen_valley_mine",
+      "AU_tianqi_lithium_kwinana",
+      "CN_ganfeng_lithium_xinyu",
+      "KR_posco_gwangyang"
+    ],
+    "resources": [
+      "Lithium (hard-rock)"
+    ]
+  },
+  {
+    "id": "KR_samsung_sdi_cheonan",
+    "name": "Samsung SDI Cheonan Battery Plant",
+    "tier": "component_maker",
+    "country_iso2": "KR",
+    "canonical_company": "Samsung SDI",
+    "coordinates": {
+      "lat": 36.82,
+      "lon": 127.15
+    },
+    "downstream": [
+      {
+        "target_id": "DE_bmw_dingolfing_oem",
+        "corridor_id": "INTL_ocean_busan-hamburg",
+        "resource": "lithium-ion battery cells (prismatic NCA/NCM)",
+        "quantity": 15000,
+        "metric": "t"
+      },
+      {
+        "target_id": "US_rivian_normal_oem",
+        "corridor_id": "INTL_ocean_busan-savannah",
+        "resource": "lithium-ion battery cells (cylindrical)",
+        "quantity": 8000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_tianqi_lithium_kwinana",
+      "AU_albemarle_kemerton",
+      "CN_albemarle_chengdu",
+      "KR_posco_gwangyang"
+    ],
+    "resources": [
+      "Lithium (hard-rock)"
+    ]
+  },
+  {
+    "id": "JP_panasonic_energy_sumoto",
+    "name": "Panasonic Energy Sumoto / Tokushima Factories",
+    "tier": "component_maker",
+    "country_iso2": "JP",
+    "canonical_company": "Panasonic Energy",
+    "coordinates": {
+      "lat": 34.33,
+      "lon": 134.88
+    },
+    "downstream": [
+      {
+        "target_id": "US_tesla_fremont_oem",
+        "corridor_id": "INTL_ocean_kobe-longbeach",
+        "resource": "lithium-ion battery cells (cylindrical 2170/4680)",
+        "quantity": 18000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_tianqi_lithium_kwinana",
+      "AU_albemarle_kemerton"
+    ],
+    "resources": [
+      "Lithium (hard-rock)"
+    ]
+  },
+  {
+    "id": "DE_bmw_battery_cell_supply",
+    "name": "BMW Battery Cell Procurement Hub (Munich)",
+    "tier": "component_maker",
+    "country_iso2": "DE",
+    "canonical_company": "BMW Group",
+    "coordinates": {
+      "lat": 48.18,
+      "lon": 11.56
+    },
+    "downstream": [
+      {
+        "target_id": "DE_bmw_dingolfing_oem",
+        "corridor_id": "DE_road_munich-dingolfing",
+        "resource": "lithium hydroxide (passed to cell partners) / battery modules",
+        "quantity": 8000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "CN_ganfeng_lithium_xinyu"
+    ],
+    "resources": [
+      "Lithium (hard-rock)"
+    ]
+  },
+  {
+    "id": "US_tesla_fremont_oem",
+    "name": "Tesla Fremont Vehicle Assembly Plant",
+    "tier": "oem",
+    "country_iso2": "US",
+    "canonical_company": "Tesla",
+    "coordinates": {
+      "lat": 37.49,
+      "lon": -121.94
+    },
+    "downstream": [
+      {
+        "target_id": "US_residential",
+        "corridor_id": "US_road_fremont-national",
+        "resource": "electric vehicles (Model S/X/3/Y)",
+        "quantity": 28000,
+        "metric": "t"
+      },
+      {
+        "target_id": "INTL_residential",
+        "corridor_id": "INTL_ocean_longbeach-global",
+        "resource": "electric vehicles (export)",
+        "quantity": 10000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "US_tesla_sparks",
+      "JP_panasonic_energy_sumoto"
+    ],
+    "resources": [
+      "Lithium (hard-rock)"
+    ]
+  },
+  {
+    "id": "CN_tesla_shanghai_oem",
+    "name": "Tesla Giga Shanghai",
+    "tier": "oem",
+    "country_iso2": "CN",
+    "canonical_company": "Tesla",
+    "coordinates": {
+      "lat": 31.1,
+      "lon": 121.76
+    },
+    "downstream": [
+      {
+        "target_id": "CN_residential",
+        "corridor_id": "CN_road_shanghai-national",
+        "resource": "electric vehicles (Model 3/Y)",
+        "quantity": 35000,
+        "metric": "t"
+      },
+      {
+        "target_id": "INTL_residential",
+        "corridor_id": "INTL_ocean_shanghai-global",
+        "resource": "electric vehicles (export Model 3/Y)",
+        "quantity": 20000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "CN_catl_ningde"
+    ],
+    "resources": [
+      "Lithium (hard-rock)"
+    ]
+  },
+  {
+    "id": "CN_byd_shenzhen_oem",
+    "name": "BYD Auto Shenzhen / Changsha Assembly",
+    "tier": "oem",
+    "country_iso2": "CN",
+    "canonical_company": "BYD",
+    "coordinates": {
+      "lat": 22.67,
+      "lon": 114.07
+    },
+    "downstream": [
+      {
+        "target_id": "CN_residential",
+        "corridor_id": "CN_road_shenzhen-national",
+        "resource": "electric & plug-in hybrid vehicles",
+        "quantity": 40000,
+        "metric": "t"
+      },
+      {
+        "target_id": "INTL_residential",
+        "corridor_id": "INTL_ocean_shenzhen-global",
+        "resource": "electric vehicles (export)",
+        "quantity": 12000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "CN_catl_ningde",
+      "CN_byd_shenzhen"
+    ],
+    "resources": [
+      "Lithium (hard-rock)"
+    ]
+  },
+  {
+    "id": "CN_great_wall_motor_baoding_oem",
+    "name": "Great Wall Motor Baoding Assembly Plant",
+    "tier": "oem",
+    "country_iso2": "CN",
+    "canonical_company": "Great Wall Motor",
+    "coordinates": {
+      "lat": 38.87,
+      "lon": 115.46
+    },
+    "downstream": [
+      {
+        "target_id": "CN_residential",
+        "corridor_id": "CN_road_baoding-national",
+        "resource": "electric & hybrid vehicles (Ora / WEY brands)",
+        "quantity": 10000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "CN_svolt_changzhou"
+    ],
+    "resources": [
+      "Lithium (hard-rock)"
+    ]
+  },
+  {
+    "id": "DE_bmw_dingolfing_oem",
+    "name": "BMW Dingolfing Plant (iX, i4, i7 production)",
+    "tier": "oem",
+    "country_iso2": "DE",
+    "canonical_company": "BMW Group",
+    "coordinates": {
+      "lat": 48.63,
+      "lon": 12.5
+    },
+    "downstream": [
+      {
+        "target_id": "DE_residential",
+        "corridor_id": "DE_road_dingolfing-national",
+        "resource": "electric vehicles (iX, i4, i7)",
+        "quantity": 18000,
+        "metric": "t"
+      },
+      {
+        "target_id": "INTL_residential",
+        "corridor_id": "INTL_ocean_hamburg-global",
+        "resource": "electric vehicles (export)",
+        "quantity": 15000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "CN_catl_ningde",
+      "KR_samsung_sdi_cheonan",
+      "DE_bmw_battery_cell_supply"
+    ],
+    "resources": [
+      "Lithium (hard-rock)"
+    ]
+  },
+  {
+    "id": "DE_volkswagen_wolfsburg_oem",
+    "name": "Volkswagen Wolfsburg / Zwickau EV Assembly",
+    "tier": "oem",
+    "country_iso2": "DE",
+    "canonical_company": "Volkswagen Group",
+    "coordinates": {
+      "lat": 52.43,
+      "lon": 10.79
+    },
+    "downstream": [
+      {
+        "target_id": "DE_residential",
+        "corridor_id": "DE_road_wolfsburg-national",
+        "resource": "electric vehicles (ID.3, ID.4, ID.5)",
+        "quantity": 8000,
+        "metric": "t"
+      },
+      {
+        "target_id": "INTL_residential",
+        "corridor_id": "INTL_ocean_hamburg-global",
+        "resource": "electric vehicles (export)",
+        "quantity": 6000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "KR_lg_energy_solution_ochang"
+    ],
+    "resources": [
+      "Lithium (hard-rock)"
+    ]
+  },
+  {
+    "id": "US_gm_detroit_oem",
+    "name": "General Motors Detroit-Hamtramck (Factory ZERO)",
+    "tier": "oem",
+    "country_iso2": "US",
+    "canonical_company": "General Motors",
+    "coordinates": {
+      "lat": 42.37,
+      "lon": -83.06
+    },
+    "downstream": [
+      {
+        "target_id": "US_residential",
+        "corridor_id": "US_road_detroit-national",
+        "resource": "electric vehicles (Hummer EV, Silverado EV)",
+        "quantity": 15000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "KR_lg_energy_solution_ochang"
+    ],
+    "resources": [
+      "Lithium (hard-rock)"
+    ]
+  },
+  {
+    "id": "KR_hyundai_ulsan_oem",
+    "name": "Hyundai Ulsan Assembly Plant",
+    "tier": "oem",
+    "country_iso2": "KR",
+    "canonical_company": "Hyundai Motor",
+    "coordinates": {
+      "lat": 35.51,
+      "lon": 129.38
+    },
+    "downstream": [
+      {
+        "target_id": "KR_residential",
+        "corridor_id": "KR_road_ulsan-national",
+        "resource": "electric vehicles (IONIQ 5, IONIQ 6)",
+        "quantity": 8000,
+        "metric": "t"
+      },
+      {
+        "target_id": "INTL_residential",
+        "corridor_id": "INTL_ocean_ulsan-global",
+        "resource": "electric vehicles (export)",
+        "quantity": 10000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "KR_lg_energy_solution_ochang"
+    ],
+    "resources": [
+      "Lithium (hard-rock)"
+    ]
+  },
+  {
+    "id": "US_rivian_normal_oem",
+    "name": "Rivian Normal, IL Assembly Plant",
+    "tier": "oem",
+    "country_iso2": "US",
+    "canonical_company": "Rivian",
+    "coordinates": {
+      "lat": 40.52,
+      "lon": -88.99
+    },
+    "downstream": [
+      {
+        "target_id": "US_residential",
+        "corridor_id": "US_road_normal-national",
+        "resource": "electric vehicles (R1T, R1S)",
+        "quantity": 6000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "KR_samsung_sdi_cheonan"
+    ],
+    "resources": [
+      "Lithium (hard-rock)"
+    ]
+  },
+  {
+    "id": "AU_road_greenbushes-kwinana",
+    "tier": "transport",
+    "name": "Road: Greenbushes → Kwinana (WA)",
+    "country_iso2": "AU",
+    "operator_id": "AU_talison_logistics",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "regional",
+    "coordinates": {
+      "lat": -33.05,
+      "lon": 115.91
+    },
+    "resources": [
+      "Mineral-Bearing Land"
+    ],
+    "upstream": [],
+    "downstream": []
+  },
+  {
+    "id": "AU_road_greenbushes-kemerton",
+    "tier": "transport",
+    "name": "Road: Greenbushes → Kemerton (WA)",
+    "country_iso2": "AU",
+    "operator_id": "AU_talison_logistics",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "local",
+    "coordinates": {
+      "lat": -33.5,
+      "lon": 115.9
+    },
+    "resources": [
+      "Tantalum",
+      "Mineral-Bearing Land"
+    ],
+    "upstream": [],
+    "downstream": []
+  },
+  {
+    "id": "INTL_ocean_fremantle-zhanjiang",
+    "tier": "transport",
+    "name": "Ocean: Fremantle / Bunbury → Zhanjiang / Chinese ports",
+    "country_iso2": "INTL",
+    "operator_id": "INTL_bulk_shipping",
+    "mode": "ocean_freight",
+    "form": "bulk_dry",
+    "range": "international",
+    "coordinates": {
+      "lat": -10,
+      "lon": 112
+    }
+  },
+  {
+    "id": "INTL_ocean_port-hedland-zhanjiang",
+    "tier": "transport",
+    "name": "Ocean: Port Hedland → Zhanjiang / Chinese ports",
+    "country_iso2": "INTL",
+    "operator_id": "INTL_bulk_shipping",
+    "mode": "ocean_freight",
+    "form": "bulk_dry",
+    "range": "international",
+    "coordinates": {
+      "lat": -5,
+      "lon": 115
+    },
+    "resources": [
+      "Mineral-Bearing Land"
+    ],
+    "upstream": [],
+    "downstream": []
+  },
+  {
+    "id": "INTL_ocean_port-hedland-gwangyang",
+    "tier": "transport",
+    "name": "Ocean: Port Hedland → Gwangyang (South Korea)",
+    "country_iso2": "INTL",
+    "operator_id": "INTL_bulk_shipping",
+    "mode": "ocean_freight",
+    "form": "bulk_dry",
+    "range": "international",
+    "coordinates": {
+      "lat": 5,
+      "lon": 120
+    },
+    "resources": [
+      "Mineral-Bearing Land"
+    ],
+    "upstream": [],
+    "downstream": []
+  },
+  {
+    "id": "INTL_ocean_port-hedland-shanghai",
+    "tier": "transport",
+    "name": "Ocean: Port Hedland → Shanghai",
+    "country_iso2": "INTL",
+    "operator_id": "INTL_bulk_shipping",
+    "mode": "ocean_freight",
+    "form": "bulk_dry",
+    "range": "international",
+    "coordinates": {
+      "lat": 0,
+      "lon": 118
+    },
+    "resources": [
+      "Iron Ore"
+    ],
+    "upstream": [],
+    "downstream": []
+  },
+  {
+    "id": "AU_road_wodgina-port-hedland",
+    "tier": "transport",
+    "name": "Road: Wodgina → Kemerton via Port Hedland rail/road",
+    "country_iso2": "AU",
+    "operator_id": "AU_mineral_resources",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "regional",
+    "coordinates": {
+      "lat": -22,
+      "lon": 119
+    },
+    "resources": [
+      "Tantalum",
+      "Mineral-Bearing Land"
+    ],
+    "upstream": [],
+    "downstream": []
+  },
+  {
+    "id": "INTL_ocean_esperance-zhanjiang",
+    "tier": "transport",
+    "name": "Ocean: Esperance → Zhanjiang / Chinese ports",
+    "country_iso2": "INTL",
+    "operator_id": "INTL_bulk_shipping",
+    "mode": "ocean_freight",
+    "form": "bulk_dry",
+    "range": "international",
+    "coordinates": {
+      "lat": -15,
+      "lon": 110
+    }
+  },
+  {
+    "id": "INTL_ocean_darwin-zhanjiang",
+    "tier": "transport",
+    "name": "Ocean: Darwin → Zhanjiang / Chinese ports",
+    "country_iso2": "INTL",
+    "operator_id": "INTL_bulk_shipping",
+    "mode": "ocean_freight",
+    "form": "bulk_dry",
+    "range": "international",
+    "coordinates": {
+      "lat": -5,
+      "lon": 118
+    }
+  },
+  {
+    "id": "INTL_ocean_fremantle-ulsan",
+    "tier": "transport",
+    "name": "Ocean: Fremantle / Bunbury → Ulsan / Busan (South Korea)",
+    "country_iso2": "INTL",
+    "operator_id": "INTL_bulk_shipping",
+    "mode": "ocean_freight",
+    "form": "containerised",
+    "range": "international",
+    "coordinates": {
+      "lat": 5,
+      "lon": 118
+    }
+  },
+  {
+    "id": "INTL_ocean_fremantle-longbeach",
+    "tier": "transport",
+    "name": "Ocean: Fremantle → Long Beach, CA (USA)",
+    "country_iso2": "INTL",
+    "operator_id": "INTL_bulk_shipping",
+    "mode": "ocean_freight",
+    "form": "bulk_dry",
+    "range": "international",
+    "coordinates": {
+      "lat": -15,
+      "lon": 150
+    }
+  },
+  {
+    "id": "CN_road_shehong-ningde",
+    "tier": "transport",
+    "name": "Road/Rail: Shehong (Sichuan) → Ningde (Fujian)",
+    "country_iso2": "CN",
+    "operator_id": "CN_domestic_logistics",
+    "mode": "road",
+    "form": "containerised",
+    "range": "regional",
+    "coordinates": {
+      "lat": 28.8,
+      "lon": 112
+    }
+  },
+  {
+    "id": "CN_road_shehong-shenzhen",
+    "tier": "transport",
+    "name": "Road/Rail: Shehong (Sichuan) → Shenzhen (Guangdong)",
+    "country_iso2": "CN",
+    "operator_id": "CN_domestic_logistics",
+    "mode": "road",
+    "form": "containerised",
+    "range": "regional",
+    "coordinates": {
+      "lat": 26.5,
+      "lon": 110
+    }
+  },
+  {
+    "id": "CN_road_xinyu-ningde",
+    "tier": "transport",
+    "name": "Road: Xinyu (Jiangxi) → Ningde (Fujian)",
+    "country_iso2": "CN",
+    "operator_id": "CN_domestic_logistics",
+    "mode": "road",
+    "form": "containerised",
+    "range": "regional",
+    "coordinates": {
+      "lat": 27.2,
+      "lon": 117.2
+    }
+  },
+  {
+    "id": "CN_road_fengcheng-ningde",
+    "tier": "transport",
+    "name": "Road: Fengcheng (Jiangxi) → Ningde (Fujian)",
+    "country_iso2": "CN",
+    "operator_id": "CN_domestic_logistics",
+    "mode": "road",
+    "form": "containerised",
+    "range": "regional",
+    "coordinates": {
+      "lat": 27.4,
+      "lon": 117.6
+    }
+  },
+  {
+    "id": "CN_road_yaan-ningde",
+    "tier": "transport",
+    "name": "Road/Rail: Ya'an (Sichuan) → Ningde (Fujian)",
+    "country_iso2": "CN",
+    "operator_id": "CN_domestic_logistics",
+    "mode": "road",
+    "form": "containerised",
+    "range": "regional",
+    "coordinates": {
+      "lat": 28.5,
+      "lon": 113
+    }
+  },
+  {
+    "id": "CN_road_chengdu-ningde",
+    "tier": "transport",
+    "name": "Road/Rail: Chengdu area → Ningde (Fujian)",
+    "country_iso2": "CN",
+    "operator_id": "CN_domestic_logistics",
+    "mode": "road",
+    "form": "containerised",
+    "range": "regional",
+    "coordinates": {
+      "lat": 28.6,
+      "lon": 113.5
+    }
+  },
+  {
+    "id": "CN_road_suining-ningde",
+    "tier": "transport",
+    "name": "Road/Rail: Suining (Sichuan) → Ningde (Fujian)",
+    "country_iso2": "CN",
+    "operator_id": "CN_domestic_logistics",
+    "mode": "road",
+    "form": "containerised",
+    "range": "regional",
+    "coordinates": {
+      "lat": 28.8,
+      "lon": 113
+    }
+  },
+  {
+    "id": "CN_road_changzhou-local",
+    "tier": "transport",
+    "name": "Road: Changzhou intra-city logistics",
+    "country_iso2": "CN",
+    "operator_id": "CN_domestic_logistics",
+    "mode": "road",
+    "form": "containerised",
+    "range": "local",
+    "coordinates": {
+      "lat": 31.81,
+      "lon": 119.96
+    }
+  },
+  {
+    "id": "INTL_ocean_shanghai-longbeach",
+    "tier": "transport",
+    "name": "Ocean: Shanghai → Long Beach, CA (USA)",
+    "country_iso2": "INTL",
+    "operator_id": "INTL_container_shipping",
+    "mode": "ocean_freight",
+    "form": "containerised",
+    "range": "international",
+    "coordinates": {
+      "lat": 25,
+      "lon": -160
+    }
+  },
+  {
+    "id": "INTL_ocean_shanghai-busan",
+    "tier": "transport",
+    "name": "Ocean: Shanghai → Busan (South Korea)",
+    "country_iso2": "INTL",
+    "operator_id": "INTL_container_shipping",
+    "mode": "ocean_freight",
+    "form": "containerised",
+    "range": "international",
+    "coordinates": {
+      "lat": 33.5,
+      "lon": 125
+    },
+    "resources": [
+      "Cobalt"
+    ],
+    "upstream": [],
+    "downstream": []
+  },
+  {
+    "id": "KR_road_gwangyang-ochang",
+    "tier": "transport",
+    "name": "Road: Gwangyang → Ochang (South Korea)",
+    "country_iso2": "KR",
+    "operator_id": "KR_domestic_logistics",
+    "mode": "road",
+    "form": "containerised",
+    "range": "regional",
+    "coordinates": {
+      "lat": 35.8,
+      "lon": 127.6
+    }
+  },
+  {
+    "id": "KR_road_gwangyang-cheonan",
+    "tier": "transport",
+    "name": "Road: Gwangyang → Cheonan (South Korea)",
+    "country_iso2": "KR",
+    "operator_id": "KR_domestic_logistics",
+    "mode": "road",
+    "form": "containerised",
+    "range": "regional",
+    "coordinates": {
+      "lat": 35.9,
+      "lon": 127.3
+    }
+  },
+  {
+    "id": "US_road_sparks-fremont",
+    "tier": "transport",
+    "name": "Road: Sparks, NV → Fremont, CA",
+    "country_iso2": "US",
+    "operator_id": "US_tesla_logistics",
+    "mode": "road",
+    "form": "unit_load",
+    "range": "regional",
+    "coordinates": {
+      "lat": 38.5,
+      "lon": -120.7
+    }
+  },
+  {
+    "id": "CN_road_ningde-shanghai",
+    "tier": "transport",
+    "name": "Road/Rail: Ningde → Shanghai",
+    "country_iso2": "CN",
+    "operator_id": "CN_domestic_logistics",
+    "mode": "road",
+    "form": "containerised",
+    "range": "regional",
+    "coordinates": {
+      "lat": 29,
+      "lon": 120.5
+    }
+  },
+  {
+    "id": "CN_road_ningde-shenzhen",
+    "tier": "transport",
+    "name": "Road/Rail: Ningde → Shenzhen",
+    "country_iso2": "CN",
+    "operator_id": "CN_domestic_logistics",
+    "mode": "road",
+    "form": "containerised",
+    "range": "regional",
+    "coordinates": {
+      "lat": 24.6,
+      "lon": 117.5
+    }
+  },
+  {
+    "id": "CN_road_shenzhen-local",
+    "tier": "transport",
+    "name": "Road: BYD Shenzhen intra-city logistics",
+    "country_iso2": "CN",
+    "operator_id": "CN_byd_logistics",
+    "mode": "road",
+    "form": "unit_load",
+    "range": "local",
+    "coordinates": {
+      "lat": 22.66,
+      "lon": 114.07
+    },
+    "resources": [
+      "Gold"
+    ],
+    "upstream": [],
+    "downstream": []
+  },
+  {
+    "id": "CN_road_changzhou-baoding",
+    "tier": "transport",
+    "name": "Road/Rail: Changzhou → Baoding",
+    "country_iso2": "CN",
+    "operator_id": "CN_domestic_logistics",
+    "mode": "road",
+    "form": "containerised",
+    "range": "regional",
+    "coordinates": {
+      "lat": 35.3,
+      "lon": 117.7
+    }
+  },
+  {
+    "id": "INTL_ocean_busan-savannah",
+    "tier": "transport",
+    "name": "Ocean: Busan → Savannah / US East Coast",
+    "country_iso2": "INTL",
+    "operator_id": "INTL_container_shipping",
+    "mode": "ocean_freight",
+    "form": "containerised",
+    "range": "international",
+    "coordinates": {
+      "lat": 20,
+      "lon": -160
+    },
+    "resources": [
+      "Cobalt"
+    ],
+    "upstream": [],
+    "downstream": []
+  },
+  {
+    "id": "INTL_ocean_busan-hamburg",
+    "tier": "transport",
+    "name": "Ocean: Busan → Hamburg (Germany)",
+    "country_iso2": "INTL",
+    "operator_id": "INTL_container_shipping",
+    "mode": "ocean_freight",
+    "form": "containerised",
+    "range": "international",
+    "coordinates": {
+      "lat": 25,
+      "lon": 70
+    },
+    "resources": [
+      "Nickel",
+      "Cobalt"
+    ],
+    "upstream": [],
+    "downstream": []
+  },
+  {
+    "id": "KR_road_ochang-ulsan",
+    "tier": "transport",
+    "name": "Road: Ochang → Ulsan",
+    "country_iso2": "KR",
+    "operator_id": "KR_domestic_logistics",
+    "mode": "road",
+    "form": "containerised",
+    "range": "regional",
+    "coordinates": {
+      "lat": 36.1,
+      "lon": 128.4
+    }
+  },
+  {
+    "id": "INTL_ocean_kobe-longbeach",
+    "tier": "transport",
+    "name": "Ocean: Kobe → Long Beach, CA (USA)",
+    "country_iso2": "INTL",
+    "operator_id": "INTL_container_shipping",
+    "mode": "ocean_freight",
+    "form": "containerised",
+    "range": "international",
+    "coordinates": {
+      "lat": 30,
+      "lon": -170
+    }
+  },
+  {
+    "id": "DE_road_munich-dingolfing",
+    "tier": "transport",
+    "name": "Road: Munich → Dingolfing",
+    "country_iso2": "DE",
+    "operator_id": "DE_bmw_logistics",
+    "mode": "road",
+    "form": "containerised",
+    "range": "local",
+    "coordinates": {
+      "lat": 48.4,
+      "lon": 12.03
+    }
+  },
+  {
+    "id": "US_road_fremont-national",
+    "tier": "transport",
+    "name": "Road: Tesla Fremont → US dealer / delivery network",
+    "country_iso2": "US",
+    "operator_id": "US_tesla_logistics",
+    "mode": "road",
+    "form": "unit_load",
+    "range": "regional",
+    "coordinates": {
+      "lat": 38,
+      "lon": -110
+    }
+  },
+  {
+    "id": "INTL_ocean_longbeach-global",
+    "tier": "transport",
+    "name": "Ocean: Long Beach → international markets",
+    "country_iso2": "INTL",
+    "operator_id": "INTL_container_shipping",
+    "mode": "ocean_freight",
+    "form": "containerised",
+    "range": "international",
+    "coordinates": {
+      "lat": 30,
+      "lon": -140
+    }
+  },
+  {
+    "id": "CN_road_shanghai-national",
+    "tier": "transport",
+    "name": "Road: Tesla Giga Shanghai → Chinese domestic delivery",
+    "country_iso2": "CN",
+    "operator_id": "CN_domestic_logistics",
+    "mode": "road",
+    "form": "unit_load",
+    "range": "regional",
+    "coordinates": {
+      "lat": 31.2,
+      "lon": 121.5
+    },
+    "resources": [
+      "Manganese",
+      "Silver",
+      "Mica",
+      "Medicinal-Plants",
+      "Fish (farmed)",
+      "Shellfish (wild)"
+    ],
+    "upstream": [],
+    "downstream": []
+  },
+  {
+    "id": "CN_road_shenzhen-national",
+    "tier": "transport",
+    "name": "Road: BYD Shenzhen → Chinese domestic delivery",
+    "country_iso2": "CN",
+    "operator_id": "CN_domestic_logistics",
+    "mode": "road",
+    "form": "unit_load",
+    "range": "regional",
+    "coordinates": {
+      "lat": 25,
+      "lon": 113
+    },
+    "resources": [
+      "Mica"
+    ],
+    "upstream": [],
+    "downstream": []
+  },
+  {
+    "id": "CN_road_baoding-national",
+    "tier": "transport",
+    "name": "Road: Baoding → Chinese domestic delivery",
+    "country_iso2": "CN",
+    "operator_id": "CN_domestic_logistics",
+    "mode": "road",
+    "form": "unit_load",
+    "range": "regional",
+    "coordinates": {
+      "lat": 38,
+      "lon": 115
+    }
+  },
+  {
+    "id": "DE_road_dingolfing-national",
+    "tier": "transport",
+    "name": "Road: BMW Dingolfing → European dealer network",
+    "country_iso2": "DE",
+    "operator_id": "DE_bmw_logistics",
+    "mode": "road",
+    "form": "unit_load",
+    "range": "regional",
+    "coordinates": {
+      "lat": 49,
+      "lon": 11
+    }
+  },
+  {
+    "id": "DE_road_wolfsburg-national",
+    "tier": "transport",
+    "name": "Road/Rail: VW Wolfsburg/Zwickau → European dealer network",
+    "country_iso2": "DE",
+    "operator_id": "DE_volkswagen_logistics",
+    "mode": "road",
+    "form": "unit_load",
+    "range": "regional",
+    "coordinates": {
+      "lat": 51.5,
+      "lon": 11
+    }
+  },
+  {
+    "id": "US_road_detroit-national",
+    "tier": "transport",
+    "name": "Road/Rail: GM Factory ZERO → US dealer network",
+    "country_iso2": "US",
+    "operator_id": "US_gm_logistics",
+    "mode": "road",
+    "form": "unit_load",
+    "range": "regional",
+    "coordinates": {
+      "lat": 40,
+      "lon": -85
+    }
+  },
+  {
+    "id": "KR_road_ulsan-national",
+    "tier": "transport",
+    "name": "Road: Hyundai Ulsan → Korean domestic delivery",
+    "country_iso2": "KR",
+    "operator_id": "KR_hyundai_logistics",
+    "mode": "road",
+    "form": "unit_load",
+    "range": "regional",
+    "coordinates": {
+      "lat": 36,
+      "lon": 128
+    },
+    "resources": [
+      "Manganese",
+      "Aluminum"
+    ],
+    "upstream": [],
+    "downstream": []
+  },
+  {
+    "id": "INTL_ocean_ulsan-global",
+    "tier": "transport",
+    "name": "Ocean: Ulsan → global export markets",
+    "country_iso2": "INTL",
+    "operator_id": "INTL_container_shipping",
+    "mode": "ocean_freight",
+    "form": "unit_load",
+    "range": "international",
+    "coordinates": {
+      "lat": 25,
+      "lon": 140
+    },
+    "resources": [
+      "Manganese",
+      "Zinc"
+    ],
+    "upstream": [],
+    "downstream": []
+  },
+  {
+    "id": "US_road_normal-national",
+    "tier": "transport",
+    "name": "Road: Rivian Normal, IL → US delivery network",
+    "country_iso2": "US",
+    "operator_id": "US_rivian_logistics",
+    "mode": "road",
+    "form": "unit_load",
+    "range": "regional",
+    "coordinates": {
+      "lat": 40,
+      "lon": -89
+    }
+  }
+]

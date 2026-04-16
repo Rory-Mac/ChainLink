@@ -1,0 +1,1937 @@
+[
+  {
+    "id": "AU_cadia_valley",
+    "name": "Cadia Valley Mine (Cadia East)",
+    "tier": "extraction",
+    "country_iso2": "AU",
+    "canonical_company": "Newmont",
+    "coordinates": {
+      "lat": -33.4667,
+      "lon": 148.9833
+    },
+    "downstream": [
+      {
+        "target_id": "AU_port_kembla_export",
+        "corridor_id": "AU_road_cadia-port-kembla",
+        "resource": "copper-gold concentrate",
+        "quantity": 70000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Copper"
+    ]
+  },
+  {
+    "id": "AU_prominent_hill",
+    "name": "Prominent Hill Mine",
+    "tier": "extraction",
+    "country_iso2": "AU",
+    "canonical_company": "BHP",
+    "coordinates": {
+      "lat": -29.7167,
+      "lon": 135.5333
+    },
+    "downstream": [
+      {
+        "target_id": "AU_olympic_dam_smelter",
+        "corridor_id": "AU_road_prominent-hill-olympic-dam",
+        "resource": "copper concentrate",
+        "quantity": 55000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Copper"
+    ]
+  },
+  {
+    "id": "AU_ernest_henry",
+    "name": "Ernest Henry Mine",
+    "tier": "extraction",
+    "country_iso2": "AU",
+    "canonical_company": "Evolution Mining",
+    "coordinates": {
+      "lat": -20.4833,
+      "lon": 140.6833
+    },
+    "downstream": [
+      {
+        "target_id": "AU_mount_isa_smelter",
+        "corridor_id": "AU_road_ernest-henry-mount-isa",
+        "resource": "copper concentrate",
+        "quantity": 50000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Copper"
+    ]
+  },
+  {
+    "id": "AU_mount_isa_copper",
+    "name": "Mount Isa Copper Mine",
+    "tier": "extraction",
+    "country_iso2": "AU",
+    "canonical_company": "Glencore",
+    "coordinates": {
+      "lat": -20.7256,
+      "lon": 139.4927
+    },
+    "downstream": [
+      {
+        "target_id": "AU_mount_isa_smelter",
+        "corridor_id": "AU_conveyor_mount-isa-internal",
+        "resource": "copper concentrate",
+        "quantity": 80000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Copper"
+    ]
+  },
+  {
+    "id": "AU_degrussa",
+    "name": "DeGrussa Copper-Gold Mine",
+    "tier": "extraction",
+    "country_iso2": "AU",
+    "canonical_company": "Sandfire Resources",
+    "coordinates": {
+      "lat": -25.55,
+      "lon": 119.2833
+    },
+    "downstream": [
+      {
+        "target_id": "AU_geraldton_export",
+        "corridor_id": "AU_road_degrussa-geraldton",
+        "resource": "copper concentrate",
+        "quantity": 25000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Copper"
+    ]
+  },
+  {
+    "id": "AU_motheo",
+    "name": "Motheo Copper Mine (Motheo/T3)",
+    "tier": "extraction",
+    "country_iso2": "AU",
+    "canonical_company": "Sandfire Resources",
+    "coordinates": {
+      "lat": -22.12,
+      "lon": 23.38
+    },
+    "downstream": [],
+    "upstream": [],
+    "resources": [
+      "Copper"
+    ]
+  },
+  {
+    "id": "AU_carrapateena",
+    "name": "Carrapateena Mine",
+    "tier": "extraction",
+    "country_iso2": "AU",
+    "canonical_company": "BHP",
+    "coordinates": {
+      "lat": -31.318,
+      "lon": 137.01
+    },
+    "downstream": [
+      {
+        "target_id": "AU_olympic_dam_smelter",
+        "corridor_id": "AU_road_carrapateena-olympic-dam",
+        "resource": "copper concentrate",
+        "quantity": 35000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Copper"
+    ]
+  },
+  {
+    "id": "AU_northparkes",
+    "name": "Northparkes Mine",
+    "tier": "extraction",
+    "country_iso2": "AU",
+    "canonical_company": "CMOC Group",
+    "coordinates": {
+      "lat": -32.95,
+      "lon": 148.1333
+    },
+    "downstream": [
+      {
+        "target_id": "AU_port_kembla_export",
+        "corridor_id": "AU_road_northparkes-port-kembla",
+        "resource": "copper-gold concentrate",
+        "quantity": 25000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Copper"
+    ]
+  },
+  {
+    "id": "AU_rosebery",
+    "name": "Rosebery Mine",
+    "tier": "extraction",
+    "country_iso2": "AU",
+    "canonical_company": "MMG",
+    "coordinates": {
+      "lat": -41.7767,
+      "lon": 145.5367
+    },
+    "downstream": [
+      {
+        "target_id": "AU_burnie_export",
+        "corridor_id": "AU_road_rosebery-burnie",
+        "resource": "copper-zinc-lead concentrate",
+        "quantity": 12000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Copper"
+    ]
+  },
+  {
+    "id": "AU_golden_grove",
+    "name": "Golden Grove Mine",
+    "tier": "extraction",
+    "country_iso2": "AU",
+    "canonical_company": "29Metals",
+    "coordinates": {
+      "lat": -28.7333,
+      "lon": 116.2167
+    },
+    "downstream": [
+      {
+        "target_id": "AU_geraldton_export",
+        "corridor_id": "AU_road_golden-grove-geraldton",
+        "resource": "copper concentrate",
+        "quantity": 18000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Copper"
+    ]
+  },
+  {
+    "id": "AU_capricorn_copper",
+    "name": "Capricorn Copper Mine",
+    "tier": "extraction",
+    "country_iso2": "AU",
+    "canonical_company": "Aeris Resources",
+    "coordinates": {
+      "lat": -20.35,
+      "lon": 139.95
+    },
+    "downstream": [
+      {
+        "target_id": "AU_mount_isa_smelter",
+        "corridor_id": "AU_road_capricorn-mount-isa",
+        "resource": "copper concentrate",
+        "quantity": 20000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Copper"
+    ]
+  },
+  {
+    "id": "AU_olympic_dam_smelter",
+    "name": "Olympic Dam Copper Smelter & Refinery",
+    "tier": "smelter",
+    "country_iso2": "AU",
+    "canonical_company": "BHP",
+    "coordinates": {
+      "lat": -30.4461,
+      "lon": 136.8882
+    },
+    "downstream": [
+      {
+        "target_id": "AU_adelaide_semifab",
+        "corridor_id": "AU_road_olympic-dam-adelaide",
+        "resource": "refined copper cathode",
+        "quantity": 120000,
+        "metric": "t"
+      },
+      {
+        "target_id": "CN_yangshan_import",
+        "corridor_id": "INTL_ocean_adelaide-shanghai",
+        "resource": "refined copper cathode",
+        "quantity": 100000,
+        "metric": "t"
+      },
+      {
+        "target_id": "KR_onsan_import",
+        "corridor_id": "INTL_ocean_adelaide-busan",
+        "resource": "refined copper cathode",
+        "quantity": 30000,
+        "metric": "t"
+      },
+      {
+        "target_id": "JP_saganoseki_import",
+        "corridor_id": "INTL_ocean_adelaide-tokyo",
+        "resource": "refined copper cathode",
+        "quantity": 20000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_olympic_dam",
+      "AU_prominent_hill",
+      "AU_carrapateena"
+    ],
+    "resources": [
+      "Copper"
+    ]
+  },
+  {
+    "id": "AU_mount_isa_smelter",
+    "name": "Mount Isa Copper Smelter",
+    "tier": "smelter",
+    "country_iso2": "AU",
+    "canonical_company": "Glencore",
+    "coordinates": {
+      "lat": -20.7256,
+      "lon": 139.4927
+    },
+    "downstream": [
+      {
+        "target_id": "AU_townsville_refinery",
+        "corridor_id": "AU_rail_mount-isa-townsville",
+        "resource": "copper anode (blister copper)",
+        "quantity": 150000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_abc_refinery",
+        "corridor_id": "AU_rail_mount-isa-sydney",
+        "resource": "silver doré / anode slime",
+        "quantity": 100,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_perth_mint",
+        "corridor_id": "AU_rail_mount-isa-perth",
+        "resource": "silver doré",
+        "quantity": 80,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_ernest_henry",
+      "AU_mount_isa_copper",
+      "AU_capricorn_copper",
+      "AU_mount_isa_mines"
+    ],
+    "resources": [
+      "Copper",
+      "Silver"
+    ]
+  },
+  {
+    "id": "AU_townsville_refinery",
+    "name": "Townsville Copper Refinery",
+    "tier": "smelter",
+    "country_iso2": "AU",
+    "canonical_company": "Glencore",
+    "coordinates": {
+      "lat": -19.259,
+      "lon": 146.781
+    },
+    "downstream": [
+      {
+        "target_id": "AU_sydney_semifab",
+        "corridor_id": "AU_road_townsville-sydney",
+        "resource": "refined copper cathode",
+        "quantity": 40000,
+        "metric": "t"
+      },
+      {
+        "target_id": "CN_yangshan_import",
+        "corridor_id": "INTL_ocean_townsville-shanghai",
+        "resource": "refined copper cathode",
+        "quantity": 70000,
+        "metric": "t"
+      },
+      {
+        "target_id": "IN_mundra_import",
+        "corridor_id": "INTL_ocean_townsville-mundra",
+        "resource": "refined copper cathode",
+        "quantity": 25000,
+        "metric": "t"
+      },
+      {
+        "target_id": "KR_onsan_import",
+        "corridor_id": "INTL_ocean_townsville-busan",
+        "resource": "refined copper cathode",
+        "quantity": 15000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_mount_isa_smelter"
+    ],
+    "resources": [
+      "Copper"
+    ]
+  },
+  {
+    "id": "AU_port_kembla_export",
+    "name": "Port Kembla Concentrate Export Terminal",
+    "tier": "smelter",
+    "country_iso2": "AU",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": -34.474,
+      "lon": 150.899
+    },
+    "downstream": [
+      {
+        "target_id": "CN_jiangxi_smelter",
+        "corridor_id": "INTL_ocean_port-kembla-shanghai",
+        "resource": "copper-gold concentrate",
+        "quantity": 50000,
+        "metric": "t"
+      },
+      {
+        "target_id": "JP_saganoseki_smelter",
+        "corridor_id": "INTL_ocean_port-kembla-saganoseki",
+        "resource": "copper-gold concentrate",
+        "quantity": 25000,
+        "metric": "t"
+      },
+      {
+        "target_id": "KR_onsan_smelter",
+        "corridor_id": "INTL_ocean_port-kembla-onsan",
+        "resource": "copper-gold concentrate",
+        "quantity": 20000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_cadia_valley",
+      "AU_northparkes"
+    ],
+    "resources": [
+      "Copper"
+    ]
+  },
+  {
+    "id": "AU_geraldton_export",
+    "name": "Geraldton Port Concentrate Export",
+    "tier": "smelter",
+    "country_iso2": "AU",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": -28.7667,
+      "lon": 114.6167
+    },
+    "downstream": [
+      {
+        "target_id": "CN_jiangxi_smelter",
+        "corridor_id": "INTL_ocean_geraldton-shanghai",
+        "resource": "copper concentrate",
+        "quantity": 28000,
+        "metric": "t"
+      },
+      {
+        "target_id": "JP_saganoseki_smelter",
+        "corridor_id": "INTL_ocean_geraldton-saganoseki",
+        "resource": "copper concentrate",
+        "quantity": 15000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_degrussa",
+      "AU_golden_grove"
+    ],
+    "resources": [
+      "Copper"
+    ]
+  },
+  {
+    "id": "AU_burnie_export",
+    "name": "Burnie Port Concentrate Export",
+    "tier": "smelter",
+    "country_iso2": "AU",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": -41.05,
+      "lon": 145.9167
+    },
+    "downstream": [
+      {
+        "target_id": "CN_jiangxi_smelter",
+        "corridor_id": "INTL_ocean_burnie-shanghai",
+        "resource": "copper-zinc concentrate",
+        "quantity": 12000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_rosebery"
+    ],
+    "resources": [
+      "Copper"
+    ]
+  },
+  {
+    "id": "CN_yangshan_import",
+    "name": "Shanghai / Yangshan Copper Import Hub",
+    "tier": "smelter",
+    "country_iso2": "CN",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": 30.63,
+      "lon": 122.07
+    },
+    "downstream": [
+      {
+        "target_id": "CN_shanghai_semifab",
+        "corridor_id": "CN_road_yangshan-shanghai",
+        "resource": "refined copper cathode",
+        "quantity": 170000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_olympic_dam_smelter",
+      "AU_townsville_refinery"
+    ],
+    "resources": [
+      "Copper"
+    ]
+  },
+  {
+    "id": "CN_jiangxi_smelter",
+    "name": "Jiangxi Copper Smelter Complex (Guixi)",
+    "tier": "smelter",
+    "country_iso2": "CN",
+    "canonical_company": "Jiangxi Copper",
+    "coordinates": {
+      "lat": 28.2833,
+      "lon": 117.2333
+    },
+    "downstream": [
+      {
+        "target_id": "CN_shanghai_semifab",
+        "corridor_id": "CN_road_guixi-shanghai",
+        "resource": "refined copper cathode",
+        "quantity": 90000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_port_kembla_export",
+      "AU_geraldton_export",
+      "AU_burnie_export"
+    ],
+    "resources": [
+      "Copper"
+    ]
+  },
+  {
+    "id": "JP_saganoseki_smelter",
+    "name": "Saganoseki Smelter & Refinery",
+    "tier": "smelter",
+    "country_iso2": "JP",
+    "canonical_company": "JX Nippon Mining & Metals",
+    "coordinates": {
+      "lat": 33.25,
+      "lon": 131.8833
+    },
+    "downstream": [
+      {
+        "target_id": "JP_tokyo_semifab",
+        "corridor_id": "JP_road_saganoseki-tokyo",
+        "resource": "refined copper cathode",
+        "quantity": 40000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_port_kembla_export",
+      "AU_geraldton_export"
+    ],
+    "resources": [
+      "Copper"
+    ]
+  },
+  {
+    "id": "JP_saganoseki_import",
+    "name": "Saganoseki Copper Cathode Import (BHP cathode)",
+    "tier": "smelter",
+    "country_iso2": "JP",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": 33.25,
+      "lon": 131.8833
+    },
+    "downstream": [
+      {
+        "target_id": "JP_tokyo_semifab",
+        "corridor_id": "JP_road_saganoseki-tokyo",
+        "resource": "refined copper cathode",
+        "quantity": 20000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_olympic_dam_smelter"
+    ],
+    "resources": [
+      "Copper"
+    ]
+  },
+  {
+    "id": "KR_onsan_smelter",
+    "name": "Onsan Copper Smelter & Refinery",
+    "tier": "smelter",
+    "country_iso2": "KR",
+    "canonical_company": "LS-Nikko Copper",
+    "coordinates": {
+      "lat": 35.4167,
+      "lon": 129.3333
+    },
+    "downstream": [
+      {
+        "target_id": "KR_seoul_semifab",
+        "corridor_id": "KR_road_onsan-seoul",
+        "resource": "refined copper cathode",
+        "quantity": 20000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_port_kembla_export"
+    ],
+    "resources": [
+      "Copper"
+    ]
+  },
+  {
+    "id": "KR_onsan_import",
+    "name": "Onsan / Busan Copper Cathode Import",
+    "tier": "smelter",
+    "country_iso2": "KR",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": 35.1,
+      "lon": 129.04
+    },
+    "downstream": [
+      {
+        "target_id": "KR_seoul_semifab",
+        "corridor_id": "KR_road_onsan-seoul",
+        "resource": "refined copper cathode",
+        "quantity": 45000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_olympic_dam_smelter",
+      "AU_townsville_refinery"
+    ],
+    "resources": [
+      "Copper"
+    ]
+  },
+  {
+    "id": "IN_mundra_import",
+    "name": "Mundra Port Copper Import Terminal",
+    "tier": "smelter",
+    "country_iso2": "IN",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": 22.739,
+      "lon": 69.725
+    },
+    "downstream": [
+      {
+        "target_id": "IN_gujarat_semifab",
+        "corridor_id": "IN_road_mundra-ahmedabad",
+        "resource": "refined copper cathode",
+        "quantity": 25000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_townsville_refinery"
+    ],
+    "resources": [
+      "Copper"
+    ]
+  },
+  {
+    "id": "AU_adelaide_semifab",
+    "name": "SA Copper Semi-Fabrication (Wire Rod / Tube / Sheet)",
+    "tier": "semi_fabricator",
+    "country_iso2": "AU",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": -34.9285,
+      "lon": 138.6007
+    },
+    "downstream": [
+      {
+        "target_id": "AU_mm_electrical_cables",
+        "corridor_id": "AU_road_adelaide-melbourne",
+        "resource": "copper wire rod",
+        "quantity": 60000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_building_products_mfr",
+        "corridor_id": "AU_road_adelaide-sydney",
+        "resource": "copper tube and sheet",
+        "quantity": 30000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_electrical_equipment_mfr",
+        "corridor_id": "AU_road_adelaide-melbourne",
+        "resource": "copper wire rod",
+        "quantity": 30000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_olympic_dam_smelter"
+    ],
+    "resources": [
+      "Copper"
+    ]
+  },
+  {
+    "id": "AU_sydney_semifab",
+    "name": "Sydney Region Copper Semi-Fabrication",
+    "tier": "semi_fabricator",
+    "country_iso2": "AU",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": -33.8688,
+      "lon": 151.2093
+    },
+    "downstream": [
+      {
+        "target_id": "AU_mm_electrical_cables",
+        "corridor_id": "AU_road_sydney-melbourne",
+        "resource": "copper wire rod",
+        "quantity": 25000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_building_products_mfr",
+        "corridor_id": "AU_road_sydney-internal",
+        "resource": "copper tube and sheet",
+        "quantity": 15000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_townsville_refinery"
+    ],
+    "resources": [
+      "Copper"
+    ]
+  },
+  {
+    "id": "CN_shanghai_semifab",
+    "name": "Shanghai / Yangtze Delta Copper Semi-Fabrication Hub",
+    "tier": "semi_fabricator",
+    "country_iso2": "CN",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": 31.2304,
+      "lon": 121.4737
+    },
+    "downstream": [
+      {
+        "target_id": "CN_wire_cable_mfr",
+        "corridor_id": "CN_road_shanghai-jiangsu",
+        "resource": "copper wire rod and strip",
+        "quantity": 160000,
+        "metric": "t"
+      },
+      {
+        "target_id": "CN_electronics_mfr",
+        "corridor_id": "CN_road_shanghai-guangdong",
+        "resource": "copper foil and strip",
+        "quantity": 100000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "CN_yangshan_import",
+      "CN_jiangxi_smelter"
+    ],
+    "resources": [
+      "Copper"
+    ]
+  },
+  {
+    "id": "JP_tokyo_semifab",
+    "name": "Tokyo / Kanto Copper Semi-Fabrication",
+    "tier": "semi_fabricator",
+    "country_iso2": "JP",
+    "canonical_company": "Furukawa Electric",
+    "coordinates": {
+      "lat": 35.6762,
+      "lon": 139.6503
+    },
+    "downstream": [
+      {
+        "target_id": "JP_auto_electronics_mfr",
+        "corridor_id": "JP_road_tokyo-nagoya",
+        "resource": "copper wire rod, foil and strip",
+        "quantity": 60000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "JP_saganoseki_smelter",
+      "JP_saganoseki_import"
+    ],
+    "resources": [
+      "Copper"
+    ]
+  },
+  {
+    "id": "KR_seoul_semifab",
+    "name": "Seoul / Gyeonggi Copper Semi-Fabrication",
+    "tier": "semi_fabricator",
+    "country_iso2": "KR",
+    "canonical_company": "LS Cable & System",
+    "coordinates": {
+      "lat": 37.5665,
+      "lon": 126.978
+    },
+    "downstream": [
+      {
+        "target_id": "KR_electronics_mfr",
+        "corridor_id": "KR_road_seoul-gyeonggi",
+        "resource": "copper wire rod, foil and strip",
+        "quantity": 65000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "KR_onsan_smelter",
+      "KR_onsan_import"
+    ],
+    "resources": [
+      "Copper"
+    ]
+  },
+  {
+    "id": "IN_gujarat_semifab",
+    "name": "Gujarat Copper Semi-Fabrication",
+    "tier": "semi_fabricator",
+    "country_iso2": "IN",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": 23.0225,
+      "lon": 72.5714
+    },
+    "downstream": [
+      {
+        "target_id": "IN_wire_cable_mfr",
+        "corridor_id": "IN_road_ahmedabad-mumbai",
+        "resource": "copper wire rod",
+        "quantity": 25000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "IN_mundra_import"
+    ],
+    "resources": [
+      "Copper"
+    ]
+  },
+  {
+    "id": "AU_mm_electrical_cables",
+    "name": "MM Cables / Prysmian Australia (Cable Manufacturing)",
+    "tier": "manufacturer",
+    "country_iso2": "AU",
+    "canonical_company": "Prysmian Group",
+    "coordinates": {
+      "lat": -37.8136,
+      "lon": 144.9631
+    },
+    "downstream": [
+      {
+        "target_id": "AU_infrastructure",
+        "corridor_id": "AU_road_melbourne-national",
+        "resource": "copper power and communication cables",
+        "quantity": 50000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_industrial",
+        "corridor_id": "AU_road_melbourne-national",
+        "resource": "copper power cables",
+        "quantity": 20000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_residential",
+        "corridor_id": "AU_road_melbourne-national",
+        "resource": "copper building wire",
+        "quantity": 15000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_adelaide_semifab",
+      "AU_sydney_semifab"
+    ],
+    "resources": [
+      "Copper"
+    ]
+  },
+  {
+    "id": "AU_building_products_mfr",
+    "name": "Australian Copper Building Products Manufacturers",
+    "tier": "manufacturer",
+    "country_iso2": "AU",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": -33.8688,
+      "lon": 151.2093
+    },
+    "downstream": [
+      {
+        "target_id": "AU_residential",
+        "corridor_id": "AU_road_sydney-national",
+        "resource": "copper plumbing tube and roofing products",
+        "quantity": 25000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_commercial",
+        "corridor_id": "AU_road_sydney-national",
+        "resource": "copper HVAC tube and fittings",
+        "quantity": 20000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_adelaide_semifab",
+      "AU_sydney_semifab"
+    ],
+    "resources": [
+      "Copper"
+    ]
+  },
+  {
+    "id": "AU_electrical_equipment_mfr",
+    "name": "Australian Electrical Equipment Manufacturers",
+    "tier": "manufacturer",
+    "country_iso2": "AU",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": -37.8136,
+      "lon": 144.9631
+    },
+    "downstream": [
+      {
+        "target_id": "AU_infrastructure",
+        "corridor_id": "AU_road_melbourne-national",
+        "resource": "copper transformers and switchgear components",
+        "quantity": 15000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_industrial",
+        "corridor_id": "AU_road_melbourne-national",
+        "resource": "copper motor windings and busbars",
+        "quantity": 15000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_adelaide_semifab"
+    ],
+    "resources": [
+      "Copper"
+    ]
+  },
+  {
+    "id": "CN_wire_cable_mfr",
+    "name": "China Wire & Cable Manufacturers (Far East Cable, Hengtong, etc.)",
+    "tier": "manufacturer",
+    "country_iso2": "CN",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": 31.57,
+      "lon": 120.29
+    },
+    "downstream": [
+      {
+        "target_id": "CN_infrastructure",
+        "corridor_id": "CN_road_jiangsu-national",
+        "resource": "copper power and telecom cables",
+        "quantity": 100000,
+        "metric": "t"
+      },
+      {
+        "target_id": "CN_industrial",
+        "corridor_id": "CN_road_jiangsu-national",
+        "resource": "copper industrial cables",
+        "quantity": 60000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "CN_shanghai_semifab"
+    ],
+    "resources": [
+      "Copper"
+    ]
+  },
+  {
+    "id": "CN_electronics_mfr",
+    "name": "China Electronics & EV Manufacturers (Shenzhen / Guangdong Hub)",
+    "tier": "manufacturer",
+    "country_iso2": "CN",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": 22.5431,
+      "lon": 114.0579
+    },
+    "downstream": [
+      {
+        "target_id": "CN_industrial",
+        "corridor_id": "CN_road_guangdong-national",
+        "resource": "copper in electronics, EVs, renewable energy equipment",
+        "quantity": 60000,
+        "metric": "t"
+      },
+      {
+        "target_id": "INTL_commercial",
+        "corridor_id": "INTL_ocean_shanghai-rotterdam",
+        "resource": "copper-containing electronics and consumer goods",
+        "quantity": 40000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "CN_shanghai_semifab"
+    ],
+    "resources": [
+      "Copper"
+    ]
+  },
+  {
+    "id": "JP_auto_electronics_mfr",
+    "name": "Japan Automotive & Electronics Manufacturers (Toyota, Sony, etc.)",
+    "tier": "manufacturer",
+    "country_iso2": "JP",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": 35.1815,
+      "lon": 136.9066
+    },
+    "downstream": [
+      {
+        "target_id": "JP_industrial",
+        "corridor_id": "JP_road_nagoya-national",
+        "resource": "copper wiring harnesses and motor components",
+        "quantity": 35000,
+        "metric": "t"
+      },
+      {
+        "target_id": "INTL_commercial",
+        "corridor_id": "INTL_ocean_nagoya-losangeles",
+        "resource": "copper-containing vehicles and electronics",
+        "quantity": 25000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "JP_tokyo_semifab"
+    ],
+    "resources": [
+      "Copper"
+    ]
+  },
+  {
+    "id": "KR_electronics_mfr",
+    "name": "South Korea Electronics & Shipbuilding Manufacturers",
+    "tier": "manufacturer",
+    "country_iso2": "KR",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": 37.4563,
+      "lon": 126.7052
+    },
+    "downstream": [
+      {
+        "target_id": "KR_industrial",
+        "corridor_id": "KR_road_seoul-national",
+        "resource": "copper in semiconductors, displays, shipbuilding",
+        "quantity": 40000,
+        "metric": "t"
+      },
+      {
+        "target_id": "INTL_commercial",
+        "corridor_id": "INTL_ocean_busan-losangeles",
+        "resource": "copper-containing electronics and appliances",
+        "quantity": 25000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "KR_seoul_semifab"
+    ],
+    "resources": [
+      "Copper"
+    ]
+  },
+  {
+    "id": "IN_wire_cable_mfr",
+    "name": "India Wire & Cable Manufacturers (Havells, Polycab, etc.)",
+    "tier": "manufacturer",
+    "country_iso2": "IN",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": 19.076,
+      "lon": 72.8777
+    },
+    "downstream": [
+      {
+        "target_id": "IN_infrastructure",
+        "corridor_id": "IN_road_mumbai-national",
+        "resource": "copper power and building cables",
+        "quantity": 15000,
+        "metric": "t"
+      },
+      {
+        "target_id": "IN_residential",
+        "corridor_id": "IN_road_mumbai-national",
+        "resource": "copper household wiring and cables",
+        "quantity": 10000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "IN_gujarat_semifab"
+    ],
+    "resources": [
+      "Copper"
+    ]
+  },
+  {
+    "id": "AU_conveyor_olympic-dam-internal",
+    "tier": "transport",
+    "name": "Olympic Dam Internal Mine-to-Smelter Conveyor",
+    "country_iso2": "AU",
+    "operator_id": "AU_bhp",
+    "mode": "conveyor",
+    "form": "bulk_dry",
+    "range": "local",
+    "coordinates": {
+      "lat": -30.4461,
+      "lon": 136.8882
+    }
+  },
+  {
+    "id": "AU_road_cadia-port-kembla",
+    "tier": "transport",
+    "name": "Road Haulage Cadia Valley → Port Kembla",
+    "country_iso2": "AU",
+    "operator_id": "AU_toll_group",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "regional",
+    "coordinates": {
+      "lat": -33.97,
+      "lon": 149.94
+    }
+  },
+  {
+    "id": "AU_road_prominent-hill-olympic-dam",
+    "tier": "transport",
+    "name": "Road Haulage Prominent Hill → Olympic Dam",
+    "country_iso2": "AU",
+    "operator_id": "AU_bhp",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "regional",
+    "coordinates": {
+      "lat": -30.08,
+      "lon": 136.19
+    }
+  },
+  {
+    "id": "AU_road_ernest-henry-mount-isa",
+    "tier": "transport",
+    "name": "Road Haulage Ernest Henry → Mount Isa",
+    "country_iso2": "AU",
+    "operator_id": "AU_glencore",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "regional",
+    "coordinates": {
+      "lat": -20.6,
+      "lon": 140.09
+    }
+  },
+  {
+    "id": "AU_conveyor_mount-isa-internal",
+    "tier": "transport",
+    "name": "Mount Isa Internal Mine-to-Smelter Feed",
+    "country_iso2": "AU",
+    "operator_id": "AU_glencore",
+    "mode": "conveyor",
+    "form": "bulk_dry",
+    "range": "local",
+    "coordinates": {
+      "lat": -20.7256,
+      "lon": 139.4927
+    }
+  },
+  {
+    "id": "AU_road_degrussa-geraldton",
+    "tier": "transport",
+    "name": "Road Haulage DeGrussa → Geraldton Port",
+    "country_iso2": "AU",
+    "operator_id": "AU_sandfire_resources",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "regional",
+    "coordinates": {
+      "lat": -27.15,
+      "lon": 117.75
+    }
+  },
+  {
+    "id": "AU_road_carrapateena-olympic-dam",
+    "tier": "transport",
+    "name": "Road Haulage Carrapateena → Olympic Dam",
+    "country_iso2": "AU",
+    "operator_id": "AU_bhp",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "regional",
+    "coordinates": {
+      "lat": -30.88,
+      "lon": 136.95
+    }
+  },
+  {
+    "id": "AU_road_northparkes-port-kembla",
+    "tier": "transport",
+    "name": "Road Haulage Northparkes → Port Kembla",
+    "country_iso2": "AU",
+    "operator_id": "AU_toll_group",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "regional",
+    "coordinates": {
+      "lat": -33.71,
+      "lon": 149.52
+    }
+  },
+  {
+    "id": "AU_road_rosebery-burnie",
+    "tier": "transport",
+    "name": "Road Haulage Rosebery → Burnie Port",
+    "country_iso2": "AU",
+    "operator_id": "AU_mmg",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "regional",
+    "coordinates": {
+      "lat": -41.41,
+      "lon": 145.73
+    },
+    "resources": [
+      "Silver"
+    ],
+    "upstream": [],
+    "downstream": []
+  },
+  {
+    "id": "AU_road_golden-grove-geraldton",
+    "tier": "transport",
+    "name": "Road Haulage Golden Grove → Geraldton Port",
+    "country_iso2": "AU",
+    "operator_id": "AU_29metals",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "regional",
+    "coordinates": {
+      "lat": -28.75,
+      "lon": 115.49
+    }
+  },
+  {
+    "id": "AU_road_capricorn-mount-isa",
+    "tier": "transport",
+    "name": "Road Haulage Capricorn Copper → Mount Isa",
+    "country_iso2": "AU",
+    "operator_id": "AU_aeris_resources",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "regional",
+    "coordinates": {
+      "lat": -20.54,
+      "lon": 139.72
+    }
+  },
+  {
+    "id": "AU_rail_mount-isa-townsville",
+    "tier": "transport",
+    "name": "Queensland Rail Mount Isa → Townsville Line",
+    "country_iso2": "AU",
+    "operator_id": "AU_aurizon",
+    "mode": "rail",
+    "form": "bulk_dry",
+    "range": "regional",
+    "coordinates": {
+      "lat": -20,
+      "lon": 142.5
+    },
+    "resources": [
+      "Zinc",
+      "Mineral-Bearing Land"
+    ],
+    "upstream": [],
+    "downstream": []
+  },
+  {
+    "id": "INTL_ocean_adelaide-shanghai",
+    "tier": "transport",
+    "name": "Ocean Freight Adelaide → Shanghai",
+    "country_iso2": "INTL",
+    "operator_id": "INTL_maersk",
+    "mode": "ocean_freight",
+    "form": "bulk_dry",
+    "range": "international",
+    "coordinates": {
+      "lat": -10,
+      "lon": 130
+    },
+    "resources": [
+      "Mica"
+    ],
+    "upstream": [],
+    "downstream": []
+  },
+  {
+    "id": "INTL_ocean_adelaide-tokyo",
+    "tier": "transport",
+    "name": "Ocean Freight Adelaide → Tokyo",
+    "country_iso2": "INTL",
+    "operator_id": "INTL_maersk",
+    "mode": "ocean_freight",
+    "form": "bulk_dry",
+    "range": "international",
+    "coordinates": {
+      "lat": -5,
+      "lon": 140
+    },
+    "resources": [
+      "Fish (farmed)"
+    ],
+    "upstream": [],
+    "downstream": []
+  },
+  {
+    "id": "INTL_ocean_townsville-shanghai",
+    "tier": "transport",
+    "name": "Ocean Freight Townsville → Shanghai",
+    "country_iso2": "INTL",
+    "operator_id": "INTL_maersk",
+    "mode": "ocean_freight",
+    "form": "bulk_dry",
+    "range": "international",
+    "coordinates": {
+      "lat": -5,
+      "lon": 135
+    },
+    "resources": [
+      "Zinc",
+      "Lead"
+    ],
+    "upstream": [],
+    "downstream": []
+  },
+  {
+    "id": "INTL_ocean_townsville-mundra",
+    "tier": "transport",
+    "name": "Ocean Freight Townsville → Mundra",
+    "country_iso2": "INTL",
+    "operator_id": "INTL_maersk",
+    "mode": "ocean_freight",
+    "form": "bulk_dry",
+    "range": "international",
+    "coordinates": {
+      "lat": -10,
+      "lon": 105
+    }
+  },
+  {
+    "id": "INTL_ocean_townsville-busan",
+    "tier": "transport",
+    "name": "Ocean Freight Townsville → Busan",
+    "country_iso2": "INTL",
+    "operator_id": "INTL_maersk",
+    "mode": "ocean_freight",
+    "form": "bulk_dry",
+    "range": "international",
+    "coordinates": {
+      "lat": 0,
+      "lon": 140
+    },
+    "resources": [
+      "Cobalt"
+    ],
+    "upstream": [],
+    "downstream": []
+  },
+  {
+    "id": "INTL_ocean_port-kembla-shanghai",
+    "tier": "transport",
+    "name": "Ocean Freight Port Kembla → Shanghai",
+    "country_iso2": "INTL",
+    "operator_id": "INTL_maersk",
+    "mode": "ocean_freight",
+    "form": "bulk_dry",
+    "range": "international",
+    "coordinates": {
+      "lat": -15,
+      "lon": 140
+    }
+  },
+  {
+    "id": "INTL_ocean_port-kembla-saganoseki",
+    "tier": "transport",
+    "name": "Ocean Freight Port Kembla → Saganoseki",
+    "country_iso2": "INTL",
+    "operator_id": "INTL_maersk",
+    "mode": "ocean_freight",
+    "form": "bulk_dry",
+    "range": "international",
+    "coordinates": {
+      "lat": -10,
+      "lon": 145
+    }
+  },
+  {
+    "id": "INTL_ocean_port-kembla-onsan",
+    "tier": "transport",
+    "name": "Ocean Freight Port Kembla → Onsan",
+    "country_iso2": "INTL",
+    "operator_id": "INTL_maersk",
+    "mode": "ocean_freight",
+    "form": "bulk_dry",
+    "range": "international",
+    "coordinates": {
+      "lat": -10,
+      "lon": 142
+    },
+    "resources": [
+      "Zinc"
+    ],
+    "upstream": [],
+    "downstream": []
+  },
+  {
+    "id": "INTL_ocean_geraldton-shanghai",
+    "tier": "transport",
+    "name": "Ocean Freight Geraldton → Shanghai",
+    "country_iso2": "INTL",
+    "operator_id": "INTL_maersk",
+    "mode": "ocean_freight",
+    "form": "bulk_dry",
+    "range": "international",
+    "coordinates": {
+      "lat": -10,
+      "lon": 115
+    },
+    "resources": [
+      "Zinc"
+    ],
+    "upstream": [],
+    "downstream": []
+  },
+  {
+    "id": "INTL_ocean_geraldton-saganoseki",
+    "tier": "transport",
+    "name": "Ocean Freight Geraldton → Saganoseki",
+    "country_iso2": "INTL",
+    "operator_id": "INTL_maersk",
+    "mode": "ocean_freight",
+    "form": "bulk_dry",
+    "range": "international",
+    "coordinates": {
+      "lat": -5,
+      "lon": 125
+    }
+  },
+  {
+    "id": "INTL_ocean_burnie-shanghai",
+    "tier": "transport",
+    "name": "Ocean Freight Burnie → Shanghai",
+    "country_iso2": "INTL",
+    "operator_id": "INTL_maersk",
+    "mode": "ocean_freight",
+    "form": "bulk_dry",
+    "range": "international",
+    "coordinates": {
+      "lat": -20,
+      "lon": 140
+    }
+  },
+  {
+    "id": "CN_road_yangshan-shanghai",
+    "tier": "transport",
+    "name": "Road Yangshan Port → Shanghai Industrial Zone",
+    "country_iso2": "CN",
+    "operator_id": "CN_sinotrans",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "local",
+    "coordinates": {
+      "lat": 31,
+      "lon": 121.75
+    }
+  },
+  {
+    "id": "CN_road_guixi-shanghai",
+    "tier": "transport",
+    "name": "Road/Rail Guixi → Shanghai",
+    "country_iso2": "CN",
+    "operator_id": "CN_sinotrans",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "regional",
+    "coordinates": {
+      "lat": 29.75,
+      "lon": 119.33
+    }
+  },
+  {
+    "id": "JP_road_saganoseki-tokyo",
+    "tier": "transport",
+    "name": "Coastal Shipping / Road Saganoseki → Tokyo / Kanto",
+    "country_iso2": "JP",
+    "operator_id": "JP_jx_nippon",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "regional",
+    "coordinates": {
+      "lat": 34.46,
+      "lon": 135.77
+    }
+  },
+  {
+    "id": "KR_road_onsan-seoul",
+    "tier": "transport",
+    "name": "Road/Rail Onsan → Seoul / Gyeonggi",
+    "country_iso2": "KR",
+    "operator_id": "KR_ls_nikko",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "regional",
+    "coordinates": {
+      "lat": 36.49,
+      "lon": 128.18
+    }
+  },
+  {
+    "id": "IN_road_mundra-ahmedabad",
+    "tier": "transport",
+    "name": "Road Mundra Port → Ahmedabad / Gujarat Industrial Zone",
+    "country_iso2": "IN",
+    "operator_id": "IN_adani_logistics",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "regional",
+    "coordinates": {
+      "lat": 22.88,
+      "lon": 71.27
+    }
+  },
+  {
+    "id": "AU_road_adelaide-melbourne",
+    "tier": "transport",
+    "name": "Road Freight Adelaide → Melbourne",
+    "country_iso2": "AU",
+    "operator_id": "AU_toll_group",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "regional",
+    "coordinates": {
+      "lat": -36.37,
+      "lon": 141.75
+    },
+    "resources": [
+      "Marble",
+      "Mica",
+      "Feldspar"
+    ],
+    "upstream": [],
+    "downstream": []
+  },
+  {
+    "id": "AU_road_adelaide-sydney",
+    "tier": "transport",
+    "name": "Road Freight Adelaide → Sydney",
+    "country_iso2": "AU",
+    "operator_id": "AU_toll_group",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "regional",
+    "coordinates": {
+      "lat": -34.4,
+      "lon": 145.25
+    },
+    "resources": [
+      "Mica",
+      "Feldspar"
+    ],
+    "upstream": [],
+    "downstream": []
+  },
+  {
+    "id": "AU_road_townsville-sydney",
+    "tier": "transport",
+    "name": "Road/Coastal Freight Townsville → Sydney",
+    "country_iso2": "AU",
+    "operator_id": "AU_toll_group",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "regional",
+    "coordinates": {
+      "lat": -26.56,
+      "lon": 149
+    }
+  },
+  {
+    "id": "AU_road_sydney-melbourne",
+    "tier": "transport",
+    "name": "Road Freight Sydney → Melbourne",
+    "country_iso2": "AU",
+    "operator_id": "AU_toll_group",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "regional",
+    "coordinates": {
+      "lat": -35.84,
+      "lon": 148.5
+    },
+    "resources": [
+      "Aluminum",
+      "Platinum Group Metals"
+    ],
+    "upstream": [],
+    "downstream": []
+  },
+  {
+    "id": "AU_road_sydney-internal",
+    "tier": "transport",
+    "name": "Sydney Metropolitan Road Freight",
+    "country_iso2": "AU",
+    "operator_id": "AU_toll_group",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "local",
+    "coordinates": {
+      "lat": -33.8688,
+      "lon": 151.2093
+    }
+  },
+  {
+    "id": "CN_road_shanghai-jiangsu",
+    "tier": "transport",
+    "name": "Road Freight Shanghai → Jiangsu Wire & Cable Zone",
+    "country_iso2": "CN",
+    "operator_id": "CN_sinotrans",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "regional",
+    "coordinates": {
+      "lat": 31.4,
+      "lon": 120.65
+    }
+  },
+  {
+    "id": "CN_road_shanghai-guangdong",
+    "tier": "transport",
+    "name": "Road/Rail Freight Shanghai → Guangdong",
+    "country_iso2": "CN",
+    "operator_id": "CN_sinotrans",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "regional",
+    "coordinates": {
+      "lat": 26.89,
+      "lon": 117.65
+    }
+  },
+  {
+    "id": "JP_road_tokyo-nagoya",
+    "tier": "transport",
+    "name": "Road Freight Tokyo / Kanto → Nagoya / Chubu",
+    "country_iso2": "JP",
+    "operator_id": "JP_nippon_express",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "regional",
+    "coordinates": {
+      "lat": 35.43,
+      "lon": 138.27
+    }
+  },
+  {
+    "id": "KR_road_seoul-gyeonggi",
+    "tier": "transport",
+    "name": "Road Freight Seoul → Gyeonggi Industrial Zone",
+    "country_iso2": "KR",
+    "operator_id": "KR_cj_logistics",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "local",
+    "coordinates": {
+      "lat": 37.4,
+      "lon": 127
+    }
+  },
+  {
+    "id": "IN_road_ahmedabad-mumbai",
+    "tier": "transport",
+    "name": "Road Freight Ahmedabad → Mumbai",
+    "country_iso2": "IN",
+    "operator_id": "IN_tci_freight",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "regional",
+    "coordinates": {
+      "lat": 21.05,
+      "lon": 72.25
+    }
+  },
+  {
+    "id": "AU_road_melbourne-national",
+    "tier": "transport",
+    "name": "Melbourne National Road Distribution",
+    "country_iso2": "AU",
+    "operator_id": "AU_toll_group",
+    "mode": "road",
+    "form": "containerised",
+    "range": "regional",
+    "coordinates": {
+      "lat": -37.8136,
+      "lon": 144.9631
+    },
+    "resources": [
+      "Aluminum",
+      "Tin",
+      "Silver",
+      "Marble",
+      "Talc",
+      "Mica",
+      "Fiber-Crops",
+      "Medicinal-Plants",
+      "Fish (farmed)"
+    ],
+    "upstream": [],
+    "downstream": []
+  },
+  {
+    "id": "AU_road_sydney-national",
+    "tier": "transport",
+    "name": "Sydney National Road Distribution",
+    "country_iso2": "AU",
+    "operator_id": "AU_toll_group",
+    "mode": "road",
+    "form": "containerised",
+    "range": "regional",
+    "coordinates": {
+      "lat": -33.8688,
+      "lon": 151.2093
+    },
+    "resources": [
+      "Manganese",
+      "Aluminum",
+      "Tin",
+      "Silver",
+      "Talc",
+      "Mica",
+      "Medicinal-Plants",
+      "Shellfish (wild)"
+    ],
+    "upstream": [],
+    "downstream": []
+  },
+  {
+    "id": "CN_road_jiangsu-national",
+    "tier": "transport",
+    "name": "Jiangsu National Road Distribution",
+    "country_iso2": "CN",
+    "operator_id": "CN_sinotrans",
+    "mode": "road",
+    "form": "containerised",
+    "range": "regional",
+    "coordinates": {
+      "lat": 31.57,
+      "lon": 120.29
+    },
+    "resources": [
+      "Tin"
+    ],
+    "upstream": [],
+    "downstream": []
+  },
+  {
+    "id": "CN_road_guangdong-national",
+    "tier": "transport",
+    "name": "Guangdong / Pearl River Delta Distribution",
+    "country_iso2": "CN",
+    "operator_id": "CN_sinotrans",
+    "mode": "road",
+    "form": "containerised",
+    "range": "regional",
+    "coordinates": {
+      "lat": 22.54,
+      "lon": 114.06
+    }
+  },
+  {
+    "id": "INTL_ocean_shanghai-rotterdam",
+    "tier": "transport",
+    "name": "Ocean Freight Shanghai → Rotterdam (Finished Goods)",
+    "country_iso2": "INTL",
+    "operator_id": "INTL_cosco",
+    "mode": "ocean_freight",
+    "form": "containerised",
+    "range": "international",
+    "coordinates": {
+      "lat": 15,
+      "lon": 80
+    },
+    "resources": [
+      "Tungsten"
+    ],
+    "upstream": [],
+    "downstream": []
+  },
+  {
+    "id": "JP_road_nagoya-national",
+    "tier": "transport",
+    "name": "Nagoya / Chubu National Distribution",
+    "country_iso2": "JP",
+    "operator_id": "JP_nippon_express",
+    "mode": "road",
+    "form": "containerised",
+    "range": "regional",
+    "coordinates": {
+      "lat": 35.18,
+      "lon": 136.91
+    },
+    "resources": [
+      "Manganese",
+      "Aluminum"
+    ],
+    "upstream": [],
+    "downstream": []
+  },
+  {
+    "id": "INTL_ocean_nagoya-losangeles",
+    "tier": "transport",
+    "name": "Ocean Freight Nagoya → Los Angeles",
+    "country_iso2": "INTL",
+    "operator_id": "INTL_one_ocean_network",
+    "mode": "ocean_freight",
+    "form": "containerised",
+    "range": "international",
+    "coordinates": {
+      "lat": 30,
+      "lon": -170
+    }
+  },
+  {
+    "id": "KR_road_seoul-national",
+    "tier": "transport",
+    "name": "Seoul Metropolitan & National Distribution",
+    "country_iso2": "KR",
+    "operator_id": "KR_cj_logistics",
+    "mode": "road",
+    "form": "containerised",
+    "range": "regional",
+    "coordinates": {
+      "lat": 37.57,
+      "lon": 126.98
+    },
+    "resources": [
+      "Tin"
+    ],
+    "upstream": [],
+    "downstream": []
+  },
+  {
+    "id": "INTL_ocean_busan-losangeles",
+    "tier": "transport",
+    "name": "Ocean Freight Busan → Los Angeles",
+    "country_iso2": "INTL",
+    "operator_id": "INTL_hmm",
+    "mode": "ocean_freight",
+    "form": "containerised",
+    "range": "international",
+    "coordinates": {
+      "lat": 32,
+      "lon": -170
+    },
+    "resources": [
+      "Nickel",
+      "Cobalt"
+    ],
+    "upstream": [],
+    "downstream": []
+  },
+  {
+    "id": "IN_road_mumbai-national",
+    "tier": "transport",
+    "name": "Mumbai / Western India National Distribution",
+    "country_iso2": "IN",
+    "operator_id": "IN_tci_freight",
+    "mode": "road",
+    "form": "containerised",
+    "range": "regional",
+    "coordinates": {
+      "lat": 19.08,
+      "lon": 72.88
+    },
+    "resources": [
+      "Silver",
+      "Mica"
+    ],
+    "upstream": [],
+    "downstream": []
+  }
+]

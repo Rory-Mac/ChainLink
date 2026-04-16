@@ -1,0 +1,1084 @@
+[
+  {
+    "id": "AU_syrah_resources_balama",
+    "name": "Syrah Resources – Balama Graphite Mine (Australian HQ, Mozambique operations)",
+    "tier": "extraction",
+    "country_iso2": "MZ",
+    "canonical_company": "Syrah Resources",
+    "coordinates": {
+      "lat": -13.31,
+      "lon": 38.65
+    },
+    "downstream": [
+      {
+        "target_id": "US_syrah_resources_vidalia",
+        "corridor_id": "INTL_ocean_nacala-louisiana",
+        "resource": "natural flake graphite concentrate",
+        "quantity": 50000,
+        "metric": "t"
+      },
+      {
+        "target_id": "CN_graphite_traders",
+        "corridor_id": "INTL_ocean_nacala-china",
+        "resource": "natural flake graphite concentrate",
+        "quantity": 80000,
+        "metric": "t"
+      },
+      {
+        "target_id": "INTL_graphite_traders",
+        "corridor_id": "INTL_ocean_nacala-asia",
+        "resource": "natural flake graphite concentrate",
+        "quantity": 20000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Graphite"
+    ]
+  },
+  {
+    "id": "AU_renascor_resources_siviour",
+    "name": "Renascor Resources – Siviour Graphite Project",
+    "tier": "extraction",
+    "country_iso2": "AU",
+    "canonical_company": "Renascor Resources",
+    "coordinates": {
+      "lat": -33.95,
+      "lon": 135.82
+    },
+    "downstream": [
+      {
+        "target_id": "AU_renascor_resources_psp",
+        "corridor_id": "AU_road_siviour-port-adelaide",
+        "resource": "natural flake graphite concentrate",
+        "quantity": 2000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Graphite"
+    ]
+  },
+  {
+    "id": "AU_quantum_graphite_uley",
+    "name": "Quantum Graphite – Uley Graphite Mine",
+    "tier": "extraction",
+    "country_iso2": "AU",
+    "canonical_company": "Quantum Graphite",
+    "coordinates": {
+      "lat": -34.73,
+      "lon": 135.63
+    },
+    "downstream": [
+      {
+        "target_id": "AU_quantum_graphite_processing",
+        "corridor_id": "AU_road_uley-port-lincoln",
+        "resource": "natural flake graphite concentrate",
+        "quantity": 3000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Graphite"
+    ]
+  },
+  {
+    "id": "AU_lincoln_minerals_koppio",
+    "name": "Lincoln Minerals – Koppio Graphite Mine",
+    "tier": "extraction",
+    "country_iso2": "AU",
+    "canonical_company": "Lincoln Minerals",
+    "coordinates": {
+      "lat": -34.45,
+      "lon": 136.12
+    },
+    "downstream": [
+      {
+        "target_id": "AU_lincoln_minerals_processing",
+        "corridor_id": "AU_road_koppio-port-lincoln",
+        "resource": "natural flake graphite concentrate",
+        "quantity": 500,
+        "metric": "t"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Graphite"
+    ]
+  },
+  {
+    "id": "US_syrah_resources_vidalia",
+    "name": "Syrah Resources – Vidalia Active Anode Material Facility",
+    "tier": "processor",
+    "country_iso2": "US",
+    "canonical_company": "Syrah Resources",
+    "coordinates": {
+      "lat": 31.93,
+      "lon": -91.43
+    },
+    "downstream": [
+      {
+        "target_id": "US_tesla_gigafactory",
+        "corridor_id": "US_road_vidalia-tesla",
+        "resource": "coated spherical purified graphite (active anode material)",
+        "quantity": 30000,
+        "metric": "t"
+      },
+      {
+        "target_id": "US_sk_on_georgia",
+        "corridor_id": "US_road_vidalia-georgia",
+        "resource": "coated spherical purified graphite (active anode material)",
+        "quantity": 10000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_syrah_resources_balama"
+    ],
+    "resources": [
+      "Graphite"
+    ]
+  },
+  {
+    "id": "CN_graphite_traders",
+    "name": "Chinese Graphite Processors & Traders",
+    "tier": "processor",
+    "country_iso2": "CN",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": 31.23,
+      "lon": 121.47
+    },
+    "downstream": [
+      {
+        "target_id": "CN_catl",
+        "corridor_id": "CN_road_processors-catl",
+        "resource": "spherical graphite / purified graphite anode material",
+        "quantity": 45000,
+        "metric": "t"
+      },
+      {
+        "target_id": "CN_btr_new_material",
+        "corridor_id": "CN_road_processors-btr",
+        "resource": "spherical graphite / purified graphite anode material",
+        "quantity": 25000,
+        "metric": "t"
+      },
+      {
+        "target_id": "CN_industrial",
+        "corridor_id": "CN_road_processors-industrial",
+        "resource": "graphite for refractories, lubricants, foundries",
+        "quantity": 10000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_syrah_resources_balama"
+    ],
+    "resources": [
+      "Graphite"
+    ]
+  },
+  {
+    "id": "INTL_graphite_traders",
+    "name": "International Graphite Traders (Japan, South Korea, India)",
+    "tier": "processor",
+    "country_iso2": "INTL",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": 35.68,
+      "lon": 139.69
+    },
+    "downstream": [
+      {
+        "target_id": "JP_sumitomo_metal_mining",
+        "corridor_id": "INTL_ocean_asia-japan",
+        "resource": "purified graphite / processed flake graphite",
+        "quantity": 10000,
+        "metric": "t"
+      },
+      {
+        "target_id": "KR_posco_future_m",
+        "corridor_id": "INTL_ocean_asia-korea",
+        "resource": "purified graphite / processed flake graphite",
+        "quantity": 10000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_syrah_resources_balama"
+    ],
+    "resources": [
+      "Graphite"
+    ]
+  },
+  {
+    "id": "AU_renascor_resources_psp",
+    "name": "Renascor Resources – Purified Spherical Graphite Plant (planned, SA)",
+    "tier": "processor",
+    "country_iso2": "AU",
+    "canonical_company": "Renascor Resources",
+    "coordinates": {
+      "lat": -34.83,
+      "lon": 138.6
+    },
+    "downstream": [
+      {
+        "target_id": "INTL_battery_cell_makers",
+        "corridor_id": "INTL_ocean_adelaide-asia",
+        "resource": "purified spherical graphite (battery anode material)",
+        "quantity": 1500,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_renascor_resources_siviour"
+    ],
+    "resources": [
+      "Graphite"
+    ]
+  },
+  {
+    "id": "AU_quantum_graphite_processing",
+    "name": "Quantum Graphite – Processing Facility (Eyre Peninsula)",
+    "tier": "processor",
+    "country_iso2": "AU",
+    "canonical_company": "Quantum Graphite",
+    "coordinates": {
+      "lat": -34.73,
+      "lon": 135.86
+    },
+    "downstream": [
+      {
+        "target_id": "AU_industrial",
+        "corridor_id": "AU_road_eyre-adelaide",
+        "resource": "graphite for refractories, foundries, and industrial applications",
+        "quantity": 1500,
+        "metric": "t"
+      },
+      {
+        "target_id": "INTL_battery_cell_makers",
+        "corridor_id": "INTL_ocean_adelaide-asia_qg",
+        "resource": "high-purity graphite concentrate",
+        "quantity": 1500,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_quantum_graphite_uley"
+    ],
+    "resources": [
+      "Graphite"
+    ]
+  },
+  {
+    "id": "AU_lincoln_minerals_processing",
+    "name": "Lincoln Minerals – Graphite Processing (Eyre Peninsula)",
+    "tier": "processor",
+    "country_iso2": "AU",
+    "canonical_company": "Lincoln Minerals",
+    "coordinates": {
+      "lat": -34.45,
+      "lon": 136.12
+    },
+    "downstream": [
+      {
+        "target_id": "AU_industrial",
+        "corridor_id": "AU_road_koppio-adelaide",
+        "resource": "graphite concentrate for industrial use",
+        "quantity": 500,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_lincoln_minerals_koppio"
+    ],
+    "resources": [
+      "Graphite"
+    ]
+  },
+  {
+    "id": "US_tesla_gigafactory",
+    "name": "Tesla Gigafactory (Nevada / Texas)",
+    "tier": "component_maker",
+    "country_iso2": "US",
+    "canonical_company": "Tesla",
+    "coordinates": {
+      "lat": 39.54,
+      "lon": -119.44
+    },
+    "downstream": [
+      {
+        "target_id": "US_tesla_vehicle_assembly",
+        "corridor_id": "US_road_gigafactory-fremont",
+        "resource": "lithium-ion battery cells with graphite anodes",
+        "quantity": 20000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "US_syrah_resources_vidalia"
+    ],
+    "resources": [
+      "Graphite"
+    ]
+  },
+  {
+    "id": "US_sk_on_georgia",
+    "name": "SK On – Battery Cell Plant (Commerce, Georgia)",
+    "tier": "component_maker",
+    "country_iso2": "US",
+    "canonical_company": "SK On",
+    "coordinates": {
+      "lat": 34.2,
+      "lon": -83.46
+    },
+    "downstream": [
+      {
+        "target_id": "US_ford_ev_assembly",
+        "corridor_id": "US_road_georgia-michigan",
+        "resource": "lithium-ion battery cells with graphite anodes",
+        "quantity": 7000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "US_syrah_resources_vidalia"
+    ],
+    "resources": [
+      "Graphite"
+    ]
+  },
+  {
+    "id": "CN_btr_new_material",
+    "name": "BTR New Material Group",
+    "tier": "component_maker",
+    "country_iso2": "CN",
+    "canonical_company": "BTR New Material",
+    "coordinates": {
+      "lat": 22.55,
+      "lon": 114.06
+    },
+    "downstream": [
+      {
+        "target_id": "CN_byd",
+        "corridor_id": "CN_road_btr-byd",
+        "resource": "graphite anode material for battery cells",
+        "quantity": 25000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "CN_graphite_traders"
+    ],
+    "resources": [
+      "Graphite"
+    ]
+  },
+  {
+    "id": "KR_posco_future_m",
+    "name": "POSCO Future M – Anode Material Plant",
+    "tier": "component_maker",
+    "country_iso2": "KR",
+    "canonical_company": "POSCO Future M",
+    "coordinates": {
+      "lat": 35.99,
+      "lon": 129.36
+    },
+    "downstream": [
+      {
+        "target_id": "KR_lg_energy_solution",
+        "corridor_id": "KR_road_posco-lges",
+        "resource": "graphite anode material for battery cells",
+        "quantity": 10000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "INTL_graphite_traders"
+    ],
+    "resources": [
+      "Graphite"
+    ]
+  },
+  {
+    "id": "INTL_battery_cell_makers",
+    "name": "International Battery Cell Makers (Asia-Pacific)",
+    "tier": "component_maker",
+    "country_iso2": "INTL",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": 35,
+      "lon": 129
+    },
+    "downstream": [
+      {
+        "target_id": "INTL_industrial",
+        "corridor_id": "INTL_ocean_asia-global",
+        "resource": "battery cells and packs with graphite anodes",
+        "quantity": 3000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_renascor_resources_psp",
+      "AU_quantum_graphite_processing"
+    ],
+    "resources": [
+      "Graphite"
+    ]
+  },
+  {
+    "id": "US_tesla_vehicle_assembly",
+    "name": "Tesla – Vehicle Assembly (Fremont / Austin)",
+    "tier": "manufacturer",
+    "country_iso2": "US",
+    "canonical_company": "Tesla",
+    "coordinates": {
+      "lat": 37.49,
+      "lon": -121.94
+    },
+    "downstream": [
+      {
+        "target_id": "US_residential",
+        "corridor_id": "US_road_tesla-dealers",
+        "resource": "electric vehicles containing graphite-anode batteries",
+        "quantity": 12000,
+        "metric": "t"
+      },
+      {
+        "target_id": "US_commercial",
+        "corridor_id": "US_road_tesla-fleet",
+        "resource": "electric vehicles and energy storage products",
+        "quantity": 8000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "US_tesla_gigafactory"
+    ],
+    "resources": [
+      "Graphite"
+    ]
+  },
+  {
+    "id": "US_ford_ev_assembly",
+    "name": "Ford – EV Assembly (Dearborn / Louisville)",
+    "tier": "manufacturer",
+    "country_iso2": "US",
+    "canonical_company": "Ford Motor Company",
+    "coordinates": {
+      "lat": 42.32,
+      "lon": -83.18
+    },
+    "downstream": [
+      {
+        "target_id": "US_residential",
+        "corridor_id": "US_road_ford-dealers",
+        "resource": "electric vehicles containing graphite-anode batteries",
+        "quantity": 4000,
+        "metric": "t"
+      },
+      {
+        "target_id": "US_commercial",
+        "corridor_id": "US_road_ford-fleet-sales",
+        "resource": "electric vehicles containing graphite-anode batteries",
+        "quantity": 3000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "US_sk_on_georgia"
+    ],
+    "resources": [
+      "Graphite"
+    ]
+  },
+  {
+    "id": "CN_tesla_shanghai",
+    "name": "Tesla Gigafactory Shanghai",
+    "tier": "manufacturer",
+    "country_iso2": "CN",
+    "canonical_company": "Tesla",
+    "coordinates": {
+      "lat": 31.1,
+      "lon": 121.78
+    },
+    "downstream": [
+      {
+        "target_id": "CN_residential",
+        "corridor_id": "CN_road_tesla-shanghai-consumers",
+        "resource": "electric vehicles containing graphite-anode batteries",
+        "quantity": 15000,
+        "metric": "t"
+      },
+      {
+        "target_id": "INTL_residential",
+        "corridor_id": "INTL_ocean_shanghai-global",
+        "resource": "electric vehicles containing graphite-anode batteries",
+        "quantity": 10000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "CN_catl"
+    ],
+    "resources": [
+      "Graphite"
+    ]
+  },
+  {
+    "id": "DE_bmw_ev_assembly",
+    "name": "BMW – EV Assembly (Munich / Leipzig / Dingolfing)",
+    "tier": "manufacturer",
+    "country_iso2": "DE",
+    "canonical_company": "BMW",
+    "coordinates": {
+      "lat": 48.18,
+      "lon": 11.56
+    },
+    "downstream": [
+      {
+        "target_id": "DE_residential",
+        "corridor_id": "DE_road_bmw-dealers",
+        "resource": "electric vehicles containing graphite-anode batteries",
+        "quantity": 5000,
+        "metric": "t"
+      },
+      {
+        "target_id": "INTL_residential",
+        "corridor_id": "INTL_ocean_hamburg-global",
+        "resource": "electric vehicles containing graphite-anode batteries",
+        "quantity": 5000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "CN_catl"
+    ],
+    "resources": [
+      "Graphite"
+    ]
+  },
+  {
+    "id": "INTL_ocean_nacala-louisiana",
+    "tier": "transport",
+    "name": "Ocean freight: Nacala (Mozambique) → Louisiana (USA)",
+    "country_iso2": "INTL",
+    "operator_id": "INTL_bulk_carriers",
+    "mode": "ocean_freight",
+    "form": "bulk_dry",
+    "range": "international",
+    "coordinates": {
+      "lat": 0,
+      "lon": -20
+    }
+  },
+  {
+    "id": "INTL_ocean_nacala-china",
+    "tier": "transport",
+    "name": "Ocean freight: Nacala (Mozambique) → Chinese ports",
+    "country_iso2": "INTL",
+    "operator_id": "INTL_bulk_carriers",
+    "mode": "ocean_freight",
+    "form": "bulk_dry",
+    "range": "international",
+    "coordinates": {
+      "lat": 5,
+      "lon": 75
+    }
+  },
+  {
+    "id": "INTL_ocean_nacala-asia",
+    "tier": "transport",
+    "name": "Ocean freight: Nacala (Mozambique) → Asian markets (Japan, Korea, India)",
+    "country_iso2": "INTL",
+    "operator_id": "INTL_bulk_carriers",
+    "mode": "ocean_freight",
+    "form": "bulk_dry",
+    "range": "international",
+    "coordinates": {
+      "lat": 10,
+      "lon": 70
+    }
+  },
+  {
+    "id": "AU_road_siviour-port-adelaide",
+    "tier": "transport",
+    "name": "Road haulage: Siviour → Port Adelaide / processing site (SA)",
+    "country_iso2": "AU",
+    "operator_id": "AU_local_haulage",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "regional",
+    "coordinates": {
+      "lat": -34.4,
+      "lon": 137
+    }
+  },
+  {
+    "id": "AU_road_uley-port-lincoln",
+    "tier": "transport",
+    "name": "Road haulage: Uley Mine → Port Lincoln (SA)",
+    "country_iso2": "AU",
+    "operator_id": "AU_local_haulage",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "local",
+    "coordinates": {
+      "lat": -34.73,
+      "lon": 135.75
+    }
+  },
+  {
+    "id": "AU_road_koppio-port-lincoln",
+    "tier": "transport",
+    "name": "Road haulage: Koppio → Port Lincoln (SA)",
+    "country_iso2": "AU",
+    "operator_id": "AU_local_haulage",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "local",
+    "coordinates": {
+      "lat": -34.49,
+      "lon": 136
+    }
+  },
+  {
+    "id": "INTL_ocean_adelaide-asia",
+    "tier": "transport",
+    "name": "Ocean freight: Adelaide → Asian battery markets",
+    "country_iso2": "INTL",
+    "operator_id": "INTL_bulk_carriers",
+    "mode": "ocean_freight",
+    "form": "bulk_dry",
+    "range": "international",
+    "coordinates": {
+      "lat": -20,
+      "lon": 110
+    }
+  },
+  {
+    "id": "INTL_ocean_adelaide-asia_qg",
+    "tier": "transport",
+    "name": "Ocean freight: Port Adelaide → Asian markets (Quantum Graphite)",
+    "country_iso2": "INTL",
+    "operator_id": "INTL_bulk_carriers",
+    "mode": "ocean_freight",
+    "form": "bulk_dry",
+    "range": "international",
+    "coordinates": {
+      "lat": -18,
+      "lon": 108
+    }
+  },
+  {
+    "id": "AU_road_eyre-adelaide",
+    "tier": "transport",
+    "name": "Road haulage: Eyre Peninsula → Adelaide industrial customers",
+    "country_iso2": "AU",
+    "operator_id": "AU_local_haulage",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "regional",
+    "coordinates": {
+      "lat": -34.5,
+      "lon": 136.5
+    }
+  },
+  {
+    "id": "AU_road_koppio-adelaide",
+    "tier": "transport",
+    "name": "Road haulage: Koppio processing → Adelaide / SA industrial",
+    "country_iso2": "AU",
+    "operator_id": "AU_local_haulage",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "regional",
+    "coordinates": {
+      "lat": -34.6,
+      "lon": 136.5
+    }
+  },
+  {
+    "id": "US_road_vidalia-tesla",
+    "tier": "transport",
+    "name": "Road/rail: Vidalia (LA) → Tesla Gigafactory (NV/TX)",
+    "country_iso2": "US",
+    "operator_id": "US_freight_carriers",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "regional",
+    "coordinates": {
+      "lat": 34,
+      "lon": -105
+    }
+  },
+  {
+    "id": "US_road_vidalia-georgia",
+    "tier": "transport",
+    "name": "Road/rail: Vidalia (LA) → SK On (Commerce, GA)",
+    "country_iso2": "US",
+    "operator_id": "US_freight_carriers",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "regional",
+    "coordinates": {
+      "lat": 32.5,
+      "lon": -88
+    }
+  },
+  {
+    "id": "CN_road_processors-catl",
+    "tier": "transport",
+    "name": "Road/rail: Chinese graphite processors → CATL (Ningde)",
+    "country_iso2": "CN",
+    "operator_id": "CN_domestic_freight",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "regional",
+    "coordinates": {
+      "lat": 29,
+      "lon": 120
+    }
+  },
+  {
+    "id": "CN_road_processors-btr",
+    "tier": "transport",
+    "name": "Road/rail: Chinese graphite processors → BTR New Material (Shenzhen)",
+    "country_iso2": "CN",
+    "operator_id": "CN_domestic_freight",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "regional",
+    "coordinates": {
+      "lat": 27,
+      "lon": 117
+    }
+  },
+  {
+    "id": "CN_road_processors-industrial",
+    "tier": "transport",
+    "name": "Road: Chinese graphite processors → domestic industrial users",
+    "country_iso2": "CN",
+    "operator_id": "CN_domestic_freight",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "regional",
+    "coordinates": {
+      "lat": 31,
+      "lon": 121
+    }
+  },
+  {
+    "id": "INTL_ocean_asia-japan",
+    "tier": "transport",
+    "name": "Ocean freight: Asian trading hubs → Japanese ports",
+    "country_iso2": "INTL",
+    "operator_id": "INTL_bulk_carriers",
+    "mode": "ocean_freight",
+    "form": "bulk_dry",
+    "range": "international",
+    "coordinates": {
+      "lat": 30,
+      "lon": 135
+    }
+  },
+  {
+    "id": "INTL_ocean_asia-korea",
+    "tier": "transport",
+    "name": "Ocean freight: Asian trading hubs → South Korean ports",
+    "country_iso2": "INTL",
+    "operator_id": "INTL_bulk_carriers",
+    "mode": "ocean_freight",
+    "form": "bulk_dry",
+    "range": "international",
+    "coordinates": {
+      "lat": 33,
+      "lon": 130
+    }
+  },
+  {
+    "id": "US_road_gigafactory-fremont",
+    "tier": "transport",
+    "name": "Road/rail: Tesla Gigafactory → Tesla assembly plants",
+    "country_iso2": "US",
+    "operator_id": "US_freight_carriers",
+    "mode": "road",
+    "form": "containerised",
+    "range": "regional",
+    "coordinates": {
+      "lat": 38.5,
+      "lon": -120.5
+    }
+  },
+  {
+    "id": "US_road_georgia-michigan",
+    "tier": "transport",
+    "name": "Road/rail: SK On Georgia → Ford assembly (MI/KY)",
+    "country_iso2": "US",
+    "operator_id": "US_freight_carriers",
+    "mode": "road",
+    "form": "containerised",
+    "range": "regional",
+    "coordinates": {
+      "lat": 37,
+      "lon": -85
+    }
+  },
+  {
+    "id": "CN_road_catl-shanghai",
+    "tier": "transport",
+    "name": "Road/rail: CATL (Ningde) → Tesla Gigafactory Shanghai",
+    "country_iso2": "CN",
+    "operator_id": "CN_domestic_freight",
+    "mode": "road",
+    "form": "containerised",
+    "range": "regional",
+    "coordinates": {
+      "lat": 28.5,
+      "lon": 120.5
+    }
+  },
+  {
+    "id": "CN_road_catl-ess",
+    "tier": "transport",
+    "name": "Road: CATL → energy storage system customers (China)",
+    "country_iso2": "CN",
+    "operator_id": "CN_domestic_freight",
+    "mode": "road",
+    "form": "containerised",
+    "range": "regional",
+    "coordinates": {
+      "lat": 28,
+      "lon": 119
+    }
+  },
+  {
+    "id": "INTL_ocean_ningde-hamburg",
+    "tier": "transport",
+    "name": "Ocean freight: Ningde/Shanghai → Hamburg (Germany)",
+    "country_iso2": "INTL",
+    "operator_id": "INTL_maersk",
+    "mode": "ocean_freight",
+    "form": "containerised",
+    "range": "international",
+    "coordinates": {
+      "lat": 20,
+      "lon": 70
+    }
+  },
+  {
+    "id": "CN_road_btr-byd",
+    "tier": "transport",
+    "name": "Road: BTR New Material → BYD (Shenzhen/Huizhou)",
+    "country_iso2": "CN",
+    "operator_id": "CN_domestic_freight",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "local",
+    "coordinates": {
+      "lat": 22.6,
+      "lon": 114.1
+    }
+  },
+  {
+    "id": "JP_road_smm-panasonic",
+    "tier": "transport",
+    "name": "Road/rail: Sumitomo Metal Mining → Panasonic Energy plants",
+    "country_iso2": "JP",
+    "operator_id": "JP_domestic_freight",
+    "mode": "road",
+    "form": "containerised",
+    "range": "regional",
+    "coordinates": {
+      "lat": 34.5,
+      "lon": 134.5
+    }
+  },
+  {
+    "id": "KR_road_posco-lges",
+    "tier": "transport",
+    "name": "Road/rail: POSCO Future M → LG Energy Solution (Ochang/Nanjing)",
+    "country_iso2": "KR",
+    "operator_id": "KR_domestic_freight",
+    "mode": "road",
+    "form": "containerised",
+    "range": "regional",
+    "coordinates": {
+      "lat": 36.4,
+      "lon": 128
+    }
+  },
+  {
+    "id": "INTL_ocean_asia-global",
+    "tier": "transport",
+    "name": "Ocean freight: Asian battery makers → global EV/ESS markets",
+    "country_iso2": "INTL",
+    "operator_id": "INTL_bulk_carriers",
+    "mode": "ocean_freight",
+    "form": "containerised",
+    "range": "international",
+    "coordinates": {
+      "lat": 20,
+      "lon": 140
+    }
+  },
+  {
+    "id": "US_road_tesla-dealers",
+    "tier": "transport",
+    "name": "Road: Tesla assembly → US residential consumers / dealerships",
+    "country_iso2": "US",
+    "operator_id": "US_auto_logistics",
+    "mode": "road",
+    "form": "unit_load",
+    "range": "regional",
+    "coordinates": {
+      "lat": 37,
+      "lon": -120
+    }
+  },
+  {
+    "id": "US_road_tesla-fleet",
+    "tier": "transport",
+    "name": "Road: Tesla assembly → US fleet / commercial customers",
+    "country_iso2": "US",
+    "operator_id": "US_auto_logistics",
+    "mode": "road",
+    "form": "unit_load",
+    "range": "regional",
+    "coordinates": {
+      "lat": 36,
+      "lon": -100
+    }
+  },
+  {
+    "id": "US_road_ford-dealers",
+    "tier": "transport",
+    "name": "Road: Ford EV assembly → US residential consumers / dealerships",
+    "country_iso2": "US",
+    "operator_id": "US_auto_logistics",
+    "mode": "road",
+    "form": "unit_load",
+    "range": "regional",
+    "coordinates": {
+      "lat": 40,
+      "lon": -85
+    }
+  },
+  {
+    "id": "US_road_ford-fleet-sales",
+    "tier": "transport",
+    "name": "Road: Ford EV assembly → US fleet / commercial sales",
+    "country_iso2": "US",
+    "operator_id": "US_auto_logistics",
+    "mode": "road",
+    "form": "unit_load",
+    "range": "regional",
+    "coordinates": {
+      "lat": 39,
+      "lon": -86
+    }
+  },
+  {
+    "id": "CN_road_tesla-shanghai-consumers",
+    "tier": "transport",
+    "name": "Road: Tesla Shanghai → Chinese residential consumers",
+    "country_iso2": "CN",
+    "operator_id": "CN_auto_logistics",
+    "mode": "road",
+    "form": "unit_load",
+    "range": "regional",
+    "coordinates": {
+      "lat": 31,
+      "lon": 121
+    }
+  },
+  {
+    "id": "DE_road_bmw-dealers",
+    "tier": "transport",
+    "name": "Road: BMW assembly → European residential consumers / dealerships",
+    "country_iso2": "DE",
+    "operator_id": "DE_auto_logistics",
+    "mode": "road",
+    "form": "unit_load",
+    "range": "regional",
+    "coordinates": {
+      "lat": 49,
+      "lon": 11
+    }
+  },
+  {
+    "id": "CN_road_byd-domestic",
+    "tier": "transport",
+    "name": "Road: BYD assembly → Chinese residential consumers",
+    "country_iso2": "CN",
+    "operator_id": "CN_auto_logistics",
+    "mode": "road",
+    "form": "unit_load",
+    "range": "regional",
+    "coordinates": {
+      "lat": 25,
+      "lon": 113
+    }
+  },
+  {
+    "id": "JP_road_panasonic-industrial",
+    "tier": "transport",
+    "name": "Road: Panasonic Energy → Japanese industrial / EV manufacturers",
+    "country_iso2": "JP",
+    "operator_id": "JP_domestic_freight",
+    "mode": "road",
+    "form": "containerised",
+    "range": "regional",
+    "coordinates": {
+      "lat": 35,
+      "lon": 136
+    }
+  },
+  {
+    "id": "INTL_ocean_osaka-us",
+    "tier": "transport",
+    "name": "Ocean freight: Osaka → US industrial customers (battery cells)",
+    "country_iso2": "INTL",
+    "operator_id": "INTL_container_lines",
+    "mode": "ocean_freight",
+    "form": "containerised",
+    "range": "international",
+    "coordinates": {
+      "lat": 30,
+      "lon": -170
+    }
+  },
+  {
+    "id": "KR_road_lges-domestic",
+    "tier": "transport",
+    "name": "Road: LG Energy Solution → Korean industrial / EV manufacturers",
+    "country_iso2": "KR",
+    "operator_id": "KR_domestic_freight",
+    "mode": "road",
+    "form": "containerised",
+    "range": "regional",
+    "coordinates": {
+      "lat": 36.5,
+      "lon": 127.5
+    }
+  },
+  {
+    "id": "INTL_ocean_busan-us",
+    "tier": "transport",
+    "name": "Ocean freight: Busan → US industrial customers (LGES battery cells)",
+    "country_iso2": "INTL",
+    "operator_id": "INTL_container_lines",
+    "mode": "ocean_freight",
+    "form": "containerised",
+    "range": "international",
+    "coordinates": {
+      "lat": 35,
+      "lon": -170
+    }
+  }
+]

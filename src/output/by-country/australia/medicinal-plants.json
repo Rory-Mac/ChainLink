@@ -1,0 +1,2097 @@
+[
+  {
+    "id": "AU_tasmania_alkaloids_poppy_farm",
+    "name": "Tasmania Alkaloids Poppy Farms (Westbury/Northern Tasmania)",
+    "tier": "harvester",
+    "country_iso2": "AU",
+    "canonical_company": "Tasmania Alkaloids (Sun Pharmaceutical subsidiary)",
+    "coordinates": {
+      "lat": -41.53,
+      "lon": 146.84
+    },
+    "downstream": [
+      {
+        "target_id": "AU_tasmania_alkaloids_mill",
+        "corridor_id": "AU_road_northern-tas-westbury",
+        "resource": "dried opium poppy straw (Papaver somniferum)",
+        "quantity": 4000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Medicinal-Plants"
+    ]
+  },
+  {
+    "id": "AU_sun_pharma_poppy_farms_south_tas",
+    "name": "Sun Pharma / Tasmania Alkaloids Poppy Farms (Southern Tasmania)",
+    "tier": "harvester",
+    "country_iso2": "AU",
+    "canonical_company": "Tasmania Alkaloids (Sun Pharmaceutical subsidiary)",
+    "coordinates": {
+      "lat": -42.45,
+      "lon": 147.15
+    },
+    "downstream": [
+      {
+        "target_id": "AU_tasmania_alkaloids_mill",
+        "corridor_id": "AU_road_southern-tas-westbury",
+        "resource": "dried opium poppy straw (Papaver somniferum)",
+        "quantity": 2000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Medicinal-Plants"
+    ]
+  },
+  {
+    "id": "AU_sunnypharm_poppy_farms",
+    "name": "SunPharma / Poppies Australia Poppy Farms (Northern Tasmania)",
+    "tier": "harvester",
+    "country_iso2": "AU",
+    "canonical_company": "Poppies Australia (Sun Pharmaceutical subsidiary)",
+    "coordinates": {
+      "lat": -41.18,
+      "lon": 146.35
+    },
+    "downstream": [
+      {
+        "target_id": "AU_poppies_australia_mill",
+        "corridor_id": "AU_road_devonport-region-tas",
+        "resource": "dried opium poppy straw (Papaver somniferum)",
+        "quantity": 3000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Medicinal-Plants"
+    ]
+  },
+  {
+    "id": "AU_johnson_matthey_poppy_farms",
+    "name": "Johnson Matthey Macquarie Poppy Farms (Central/North Tasmania)",
+    "tier": "harvester",
+    "country_iso2": "AU",
+    "canonical_company": "Johnson Matthey",
+    "coordinates": {
+      "lat": -41.87,
+      "lon": 147.13
+    },
+    "downstream": [
+      {
+        "target_id": "AU_johnson_matthey_mill_tas",
+        "corridor_id": "AU_road_central-tas-campbelltown",
+        "resource": "dried opium poppy straw (Papaver somniferum)",
+        "quantity": 1500,
+        "metric": "t"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Medicinal-Plants"
+    ]
+  },
+  {
+    "id": "AU_botanix_tea_tree_farm_nsw",
+    "name": "Botanix / Main Camp Tea Tree Plantations (Casino-Coraki, NSW)",
+    "tier": "harvester",
+    "country_iso2": "AU",
+    "canonical_company": "Main Camp Natural Products",
+    "coordinates": {
+      "lat": -28.87,
+      "lon": 153.05
+    },
+    "downstream": [
+      {
+        "target_id": "AU_main_camp_distillery",
+        "corridor_id": "AU_road_casino-coraki-nsw",
+        "resource": "fresh Melaleuca alternifolia leaf biomass",
+        "quantity": 8000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Medicinal-Plants"
+    ]
+  },
+  {
+    "id": "AU_northern_rivers_tea_tree_farms",
+    "name": "Northern Rivers Tea Tree Cooperative Farms (Ballina-Lismore, NSW)",
+    "tier": "harvester",
+    "country_iso2": "AU",
+    "canonical_company": "Australian Tea Tree Industry Association members",
+    "coordinates": {
+      "lat": -28.8,
+      "lon": 153.3
+    },
+    "downstream": [
+      {
+        "target_id": "AU_northern_rivers_distillery",
+        "corridor_id": "AU_road_ballina-lismore-nsw",
+        "resource": "fresh Melaleuca alternifolia leaf biomass",
+        "quantity": 6000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Medicinal-Plants"
+    ]
+  },
+  {
+    "id": "AU_qld_tea_tree_farms_bundaberg",
+    "name": "Queensland Tea Tree Farms (Bundaberg region)",
+    "tier": "harvester",
+    "country_iso2": "AU",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": -24.87,
+      "lon": 152.35
+    },
+    "downstream": [
+      {
+        "target_id": "AU_qld_tea_tree_distillery",
+        "corridor_id": "AU_road_bundaberg-qld",
+        "resource": "fresh Melaleuca alternifolia leaf biomass",
+        "quantity": 3000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Medicinal-Plants"
+    ]
+  },
+  {
+    "id": "AU_eucalyptus_farms_vic",
+    "name": "Eucalyptus Medicinal Oil Plantations (North-East Victoria)",
+    "tier": "harvester",
+    "country_iso2": "AU",
+    "canonical_company": "GR Davis / Felton Grimwade & Bosisto's",
+    "coordinates": {
+      "lat": -36.75,
+      "lon": 146.4
+    },
+    "downstream": [
+      {
+        "target_id": "AU_bosistos_eucalyptus_distillery",
+        "corridor_id": "AU_road_ne-victoria-benalla",
+        "resource": "fresh Eucalyptus polybractea / radiata leaf biomass",
+        "quantity": 2500,
+        "metric": "t"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Medicinal-Plants"
+    ]
+  },
+  {
+    "id": "AU_eucalyptus_farms_nsw_west",
+    "name": "Eucalyptus Plantations (West Wyalong, NSW)",
+    "tier": "harvester",
+    "country_iso2": "AU",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": -33.93,
+      "lon": 147.21
+    },
+    "downstream": [
+      {
+        "target_id": "AU_nsw_eucalyptus_distillery",
+        "corridor_id": "AU_road_west-wyalong-nsw",
+        "resource": "fresh Eucalyptus polybractea leaf biomass",
+        "quantity": 1500,
+        "metric": "t"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Medicinal-Plants"
+    ]
+  },
+  {
+    "id": "AU_sandalwood_plantations_wa",
+    "name": "TFS / Quintis Indian Sandalwood Plantations (Kununurra, WA)",
+    "tier": "harvester",
+    "country_iso2": "AU",
+    "canonical_company": "Quintis (formerly TFS Corp)",
+    "coordinates": {
+      "lat": -15.77,
+      "lon": 128.74
+    },
+    "downstream": [
+      {
+        "target_id": "AU_quintis_distillery",
+        "corridor_id": "AU_road_kununurra-wa",
+        "resource": "sandalwood heartwood logs (Santalum album)",
+        "quantity": 2000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Medicinal-Plants"
+    ]
+  },
+  {
+    "id": "AU_native_sandalwood_wa",
+    "name": "WA Native Sandalwood Harvest (Goldfields, WA)",
+    "tier": "harvester",
+    "country_iso2": "AU",
+    "canonical_company": "Wescorp Group / Dutjahn Sandalwood Oils",
+    "coordinates": {
+      "lat": -31,
+      "lon": 121.5
+    },
+    "downstream": [
+      {
+        "target_id": "AU_wescorp_sandalwood_distillery",
+        "corridor_id": "AU_road_goldfields-perth-wa",
+        "resource": "sandalwood heartwood logs (Santalum spicatum)",
+        "quantity": 1500,
+        "metric": "t"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Medicinal-Plants"
+    ]
+  },
+  {
+    "id": "AU_lavender_farms_tas",
+    "name": "Bridestowe / Tasmania Lavender Farms",
+    "tier": "harvester",
+    "country_iso2": "AU",
+    "canonical_company": "Bridestowe Lavender Estate",
+    "coordinates": {
+      "lat": -41.1,
+      "lon": 147.85
+    },
+    "downstream": [
+      {
+        "target_id": "AU_bridestowe_distillery",
+        "corridor_id": "AU_road_nabowla-launceston-tas",
+        "resource": "fresh Lavandula angustifolia flower biomass",
+        "quantity": 250,
+        "metric": "t"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Medicinal-Plants"
+    ]
+  },
+  {
+    "id": "AU_hemp_farms_tas",
+    "name": "Tasmania Industrial & Medicinal Hemp Farms",
+    "tier": "harvester",
+    "country_iso2": "AU",
+    "canonical_company": "Tasmanian Hemp Company / Ecofibre",
+    "coordinates": {
+      "lat": -41.45,
+      "lon": 147.14
+    },
+    "downstream": [
+      {
+        "target_id": "AU_ecofibre_extraction",
+        "corridor_id": "AU_road_launceston-region-tas",
+        "resource": "dried Cannabis sativa (hemp) flower and biomass",
+        "quantity": 500,
+        "metric": "t"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Medicinal-Plants"
+    ]
+  },
+  {
+    "id": "AU_cann_group_cannabis_farm",
+    "name": "Cann Group Medicinal Cannabis Facility (Mildura, VIC)",
+    "tier": "harvester",
+    "country_iso2": "AU",
+    "canonical_company": "Cann Group",
+    "coordinates": {
+      "lat": -34.19,
+      "lon": 142.16
+    },
+    "downstream": [
+      {
+        "target_id": "AU_cann_group_extraction",
+        "corridor_id": "AU_road_mildura-melbourne-vic",
+        "resource": "dried medicinal cannabis flower and trim",
+        "quantity": 75,
+        "metric": "t"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Medicinal-Plants"
+    ]
+  },
+  {
+    "id": "AU_cannatrek_cannabis_farm",
+    "name": "Cannatrek Medicinal Cannabis Facility (Shepparton, VIC)",
+    "tier": "harvester",
+    "country_iso2": "AU",
+    "canonical_company": "Cannatrek",
+    "coordinates": {
+      "lat": -36.38,
+      "lon": 145.4
+    },
+    "downstream": [
+      {
+        "target_id": "AU_cannatrek_extraction",
+        "corridor_id": "AU_road_shepparton-melbourne-vic",
+        "resource": "dried medicinal cannabis flower and trim",
+        "quantity": 60,
+        "metric": "t"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Medicinal-Plants"
+    ]
+  },
+  {
+    "id": "AU_levin_cannabis_farm",
+    "name": "Little Green Pharma Cannabis Facility (Perth Hills, WA)",
+    "tier": "harvester",
+    "country_iso2": "AU",
+    "canonical_company": "Little Green Pharma",
+    "coordinates": {
+      "lat": -32.05,
+      "lon": 116.18
+    },
+    "downstream": [
+      {
+        "target_id": "AU_little_green_pharma_extraction",
+        "corridor_id": "AU_road_perth-hills-wa",
+        "resource": "dried medicinal cannabis flower and trim",
+        "quantity": 30,
+        "metric": "t"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Medicinal-Plants"
+    ]
+  },
+  {
+    "id": "AU_lemon_myrtle_farm_nsw",
+    "name": "Australian Rainforest Products Lemon Myrtle Farm (Lismore, NSW)",
+    "tier": "harvester",
+    "country_iso2": "AU",
+    "canonical_company": "Australian Rainforest Products",
+    "coordinates": {
+      "lat": -28.81,
+      "lon": 153.27
+    },
+    "downstream": [
+      {
+        "target_id": "AU_australian_rainforest_products_distillery",
+        "corridor_id": "AU_road_lismore-nsw",
+        "resource": "fresh Backhousia citriodora (lemon myrtle) leaf biomass",
+        "quantity": 400,
+        "metric": "t"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Medicinal-Plants"
+    ]
+  },
+  {
+    "id": "AU_tasmania_alkaloids_mill",
+    "name": "Tasmania Alkaloids Processing Plant (Westbury, TAS)",
+    "tier": "primary_mill",
+    "country_iso2": "AU",
+    "canonical_company": "Tasmania Alkaloids (Sun Pharmaceutical subsidiary)",
+    "coordinates": {
+      "lat": -41.53,
+      "lon": 146.84
+    },
+    "downstream": [
+      {
+        "target_id": "AU_sun_pharma_melbourne",
+        "corridor_id": "AU_ocean_devonport-melbourne",
+        "resource": "crude opiate alkaloid concentrate (codeine, thebaine, oripavine)",
+        "quantity": 250,
+        "metric": "t"
+      },
+      {
+        "target_id": "US_johnson_and_johnson_import",
+        "corridor_id": "INTL_ocean_melbourne-newark",
+        "resource": "refined narcotic alkaloid intermediates",
+        "quantity": 80,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_tasmania_alkaloids_poppy_farm",
+      "AU_sun_pharma_poppy_farms_south_tas"
+    ],
+    "resources": [
+      "Medicinal-Plants"
+    ]
+  },
+  {
+    "id": "AU_poppies_australia_mill",
+    "name": "Poppies Australia Processing Plant (Devonport, TAS)",
+    "tier": "primary_mill",
+    "country_iso2": "AU",
+    "canonical_company": "Poppies Australia (Sun Pharmaceutical subsidiary)",
+    "coordinates": {
+      "lat": -41.18,
+      "lon": 146.35
+    },
+    "downstream": [
+      {
+        "target_id": "AU_sun_pharma_melbourne",
+        "corridor_id": "AU_ocean_devonport-melbourne",
+        "resource": "crude opiate alkaloid concentrate",
+        "quantity": 180,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_sunnypharm_poppy_farms"
+    ],
+    "resources": [
+      "Medicinal-Plants"
+    ]
+  },
+  {
+    "id": "AU_johnson_matthey_mill_tas",
+    "name": "Johnson Matthey Alkaloid Processing (Latrobe, TAS)",
+    "tier": "primary_mill",
+    "country_iso2": "AU",
+    "canonical_company": "Johnson Matthey",
+    "coordinates": {
+      "lat": -41.24,
+      "lon": 146.42
+    },
+    "downstream": [
+      {
+        "target_id": "GB_johnson_matthey_pharma_uk",
+        "corridor_id": "INTL_ocean_melbourne-southampton",
+        "resource": "refined narcotic alkaloid intermediates (oripavine, thebaine)",
+        "quantity": 90,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_johnson_matthey_poppy_farms"
+    ],
+    "resources": [
+      "Medicinal-Plants"
+    ]
+  },
+  {
+    "id": "AU_main_camp_distillery",
+    "name": "Main Camp Tea Tree Oil Distillery (Casino, NSW)",
+    "tier": "primary_mill",
+    "country_iso2": "AU",
+    "canonical_company": "Main Camp Natural Products",
+    "coordinates": {
+      "lat": -28.86,
+      "lon": 153.04
+    },
+    "downstream": [
+      {
+        "target_id": "AU_integria_healthcare",
+        "corridor_id": "AU_road_casino-brisbane-nsw-qld",
+        "resource": "tea tree essential oil (Melaleuca alternifolia)",
+        "quantity": 120,
+        "metric": "t"
+      },
+      {
+        "target_id": "US_tea_tree_oil_importers",
+        "corridor_id": "INTL_ocean_sydney-losangeles",
+        "resource": "tea tree essential oil (bulk)",
+        "quantity": 80,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_botanix_tea_tree_farm_nsw"
+    ],
+    "resources": [
+      "Medicinal-Plants"
+    ]
+  },
+  {
+    "id": "AU_northern_rivers_distillery",
+    "name": "Northern Rivers Tea Tree Oil Distillery (Ballina, NSW)",
+    "tier": "primary_mill",
+    "country_iso2": "AU",
+    "canonical_company": "Northern Rivers Tea Tree Oil",
+    "coordinates": {
+      "lat": -28.83,
+      "lon": 153.56
+    },
+    "downstream": [
+      {
+        "target_id": "AU_thursday_plantation",
+        "corridor_id": "AU_road_ballina-sydney-nsw",
+        "resource": "tea tree essential oil (Melaleuca alternifolia)",
+        "quantity": 100,
+        "metric": "t"
+      },
+      {
+        "target_id": "EU_essential_oil_importers",
+        "corridor_id": "INTL_ocean_sydney-rotterdam",
+        "resource": "tea tree essential oil (bulk)",
+        "quantity": 50,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_northern_rivers_tea_tree_farms"
+    ],
+    "resources": [
+      "Medicinal-Plants"
+    ]
+  },
+  {
+    "id": "AU_qld_tea_tree_distillery",
+    "name": "Queensland Tea Tree Distillery (Bundaberg, QLD)",
+    "tier": "primary_mill",
+    "country_iso2": "AU",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": -24.87,
+      "lon": 152.35
+    },
+    "downstream": [
+      {
+        "target_id": "AU_integria_healthcare",
+        "corridor_id": "AU_road_bundaberg-brisbane-qld",
+        "resource": "tea tree essential oil",
+        "quantity": 60,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_qld_tea_tree_farms_bundaberg"
+    ],
+    "resources": [
+      "Medicinal-Plants"
+    ]
+  },
+  {
+    "id": "AU_bosistos_eucalyptus_distillery",
+    "name": "Bosisto's / G.R. Davis Eucalyptus Distillery (North-East VIC)",
+    "tier": "primary_mill",
+    "country_iso2": "AU",
+    "canonical_company": "Felton Grimwade & Bosisto's",
+    "coordinates": {
+      "lat": -36.55,
+      "lon": 146.32
+    },
+    "downstream": [
+      {
+        "target_id": "AU_bosistos_product_facility",
+        "corridor_id": "AU_road_benalla-melbourne-vic",
+        "resource": "eucalyptus essential oil (cineole-rich)",
+        "quantity": 80,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_eucalyptus_farms_vic"
+    ],
+    "resources": [
+      "Medicinal-Plants"
+    ]
+  },
+  {
+    "id": "AU_nsw_eucalyptus_distillery",
+    "name": "NSW Eucalyptus Distillery (West Wyalong, NSW)",
+    "tier": "primary_mill",
+    "country_iso2": "AU",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": -33.93,
+      "lon": 147.21
+    },
+    "downstream": [
+      {
+        "target_id": "AU_bosistos_product_facility",
+        "corridor_id": "AU_road_westwyalong-melbourne",
+        "resource": "eucalyptus essential oil (cineole-rich)",
+        "quantity": 40,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_eucalyptus_farms_nsw_west"
+    ],
+    "resources": [
+      "Medicinal-Plants"
+    ]
+  },
+  {
+    "id": "AU_quintis_distillery",
+    "name": "Quintis Sandalwood Oil Distillery (Albany, WA)",
+    "tier": "primary_mill",
+    "country_iso2": "AU",
+    "canonical_company": "Quintis",
+    "coordinates": {
+      "lat": -35.02,
+      "lon": 117.88
+    },
+    "downstream": [
+      {
+        "target_id": "AU_quintis_pharma_division",
+        "corridor_id": "AU_road_albany-perth-wa",
+        "resource": "Indian sandalwood essential oil (Santalum album)",
+        "quantity": 60,
+        "metric": "t"
+      },
+      {
+        "target_id": "INTL_fragrance_pharma_buyers",
+        "corridor_id": "INTL_ocean_fremantle-singapore",
+        "resource": "Indian sandalwood essential oil (pharma/fragrance grade)",
+        "quantity": 40,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_sandalwood_plantations_wa"
+    ],
+    "resources": [
+      "Medicinal-Plants"
+    ]
+  },
+  {
+    "id": "AU_wescorp_sandalwood_distillery",
+    "name": "Wescorp / Dutjahn Sandalwood Oil Distillery (Perth, WA)",
+    "tier": "primary_mill",
+    "country_iso2": "AU",
+    "canonical_company": "Wescorp Group",
+    "coordinates": {
+      "lat": -31.95,
+      "lon": 115.86
+    },
+    "downstream": [
+      {
+        "target_id": "CN_sandalwood_importers",
+        "corridor_id": "INTL_ocean_fremantle-shanghai",
+        "resource": "Australian sandalwood oil (Santalum spicatum)",
+        "quantity": 30,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_natural_health_manufacturers",
+        "corridor_id": "AU_road_perth-metro-wa",
+        "resource": "Australian sandalwood essential oil",
+        "quantity": 15,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_native_sandalwood_wa"
+    ],
+    "resources": [
+      "Medicinal-Plants"
+    ]
+  },
+  {
+    "id": "AU_bridestowe_distillery",
+    "name": "Bridestowe Lavender Distillery (Nabowla, TAS)",
+    "tier": "primary_mill",
+    "country_iso2": "AU",
+    "canonical_company": "Bridestowe Lavender Estate",
+    "coordinates": {
+      "lat": -41.1,
+      "lon": 147.85
+    },
+    "downstream": [
+      {
+        "target_id": "AU_natural_health_manufacturers",
+        "corridor_id": "AU_ocean_devonport-melbourne",
+        "resource": "lavender essential oil (Lavandula angustifolia)",
+        "quantity": 8,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_lavender_farms_tas"
+    ],
+    "resources": [
+      "Medicinal-Plants"
+    ]
+  },
+  {
+    "id": "AU_ecofibre_extraction",
+    "name": "Ecofibre / Ananda Hemp Extract Facility",
+    "tier": "primary_mill",
+    "country_iso2": "AU",
+    "canonical_company": "Ecofibre",
+    "coordinates": {
+      "lat": -27.47,
+      "lon": 153.03
+    },
+    "downstream": [
+      {
+        "target_id": "AU_ecofibre_product_making",
+        "corridor_id": "AU_road_brisbane-metro-qld",
+        "resource": "hemp seed oil and CBD isolate",
+        "quantity": 120,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_hemp_farms_tas"
+    ],
+    "resources": [
+      "Medicinal-Plants"
+    ]
+  },
+  {
+    "id": "AU_cann_group_extraction",
+    "name": "Cann Group GMP Extraction & Manufacturing (Mildura, VIC)",
+    "tier": "primary_mill",
+    "country_iso2": "AU",
+    "canonical_company": "Cann Group",
+    "coordinates": {
+      "lat": -34.19,
+      "lon": 142.16
+    },
+    "downstream": [
+      {
+        "target_id": "AU_cann_group_product_making",
+        "corridor_id": "AU_road_mildura-melbourne-vic",
+        "resource": "medicinal cannabis extract (THC/CBD oils, dried flower)",
+        "quantity": 60,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_cann_group_cannabis_farm"
+    ],
+    "resources": [
+      "Medicinal-Plants"
+    ]
+  },
+  {
+    "id": "AU_cannatrek_extraction",
+    "name": "Cannatrek GMP Processing (Shepparton, VIC)",
+    "tier": "primary_mill",
+    "country_iso2": "AU",
+    "canonical_company": "Cannatrek",
+    "coordinates": {
+      "lat": -36.38,
+      "lon": 145.4
+    },
+    "downstream": [
+      {
+        "target_id": "AU_cannatrek_product_making",
+        "corridor_id": "AU_road_shepparton-melbourne-vic",
+        "resource": "medicinal cannabis extract and dried flower",
+        "quantity": 50,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_cannatrek_cannabis_farm"
+    ],
+    "resources": [
+      "Medicinal-Plants"
+    ]
+  },
+  {
+    "id": "AU_little_green_pharma_extraction",
+    "name": "Little Green Pharma GMP Facility (Perth, WA)",
+    "tier": "primary_mill",
+    "country_iso2": "AU",
+    "canonical_company": "Little Green Pharma",
+    "coordinates": {
+      "lat": -32.05,
+      "lon": 116.18
+    },
+    "downstream": [
+      {
+        "target_id": "AU_little_green_pharma_product_making",
+        "corridor_id": "AU_road_perth-hills-wa",
+        "resource": "medicinal cannabis extract and dried flower",
+        "quantity": 25,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_levin_cannabis_farm"
+    ],
+    "resources": [
+      "Medicinal-Plants"
+    ]
+  },
+  {
+    "id": "AU_australian_rainforest_products_distillery",
+    "name": "Australian Rainforest Products Distillery (Lismore, NSW)",
+    "tier": "primary_mill",
+    "country_iso2": "AU",
+    "canonical_company": "Australian Rainforest Products",
+    "coordinates": {
+      "lat": -28.81,
+      "lon": 153.27
+    },
+    "downstream": [
+      {
+        "target_id": "AU_natural_health_manufacturers",
+        "corridor_id": "AU_road_lismore-sydney-nsw",
+        "resource": "lemon myrtle essential oil and dried leaf",
+        "quantity": 30,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_lemon_myrtle_farm_nsw"
+    ],
+    "resources": [
+      "Medicinal-Plants"
+    ]
+  },
+  {
+    "id": "AU_sun_pharma_melbourne",
+    "name": "Sun Pharma Australia Pharmaceutical Manufacturing (Melbourne, VIC)",
+    "tier": "secondary_maker",
+    "country_iso2": "AU",
+    "canonical_company": "Sun Pharmaceutical Industries (Australia)",
+    "coordinates": {
+      "lat": -37.81,
+      "lon": 144.96
+    },
+    "downstream": [
+      {
+        "target_id": "AU_sigma_healthcare",
+        "corridor_id": "AU_road_melbourne-national",
+        "resource": "finished opiate pharmaceuticals (codeine, oxycodone tablets)",
+        "quantity": 200,
+        "metric": "t"
+      },
+      {
+        "target_id": "INTL_pharma_export_buyers",
+        "corridor_id": "INTL_ocean_melbourne-global",
+        "resource": "narcotic API and finished dose forms",
+        "quantity": 150,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_tasmania_alkaloids_mill",
+      "AU_poppies_australia_mill"
+    ],
+    "resources": [
+      "Medicinal-Plants"
+    ]
+  },
+  {
+    "id": "US_johnson_and_johnson_import",
+    "name": "Johnson & Johnson / Noramco Pharmaceutical (USA)",
+    "tier": "secondary_maker",
+    "country_iso2": "US",
+    "canonical_company": "Johnson & Johnson (Noramco)",
+    "coordinates": {
+      "lat": 40.72,
+      "lon": -74.17
+    },
+    "downstream": [
+      {
+        "target_id": "US_industrial",
+        "corridor_id": "US_road_newark-national",
+        "resource": "finished opioid pharmaceutical products",
+        "quantity": 80,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_tasmania_alkaloids_mill"
+    ],
+    "resources": [
+      "Medicinal-Plants"
+    ]
+  },
+  {
+    "id": "GB_johnson_matthey_pharma_uk",
+    "name": "Johnson Matthey Pharmaceutical Division (Edinburgh, UK)",
+    "tier": "secondary_maker",
+    "country_iso2": "GB",
+    "canonical_company": "Johnson Matthey",
+    "coordinates": {
+      "lat": 55.95,
+      "lon": -3.19
+    },
+    "downstream": [
+      {
+        "target_id": "GB_industrial",
+        "corridor_id": "GB_road_edinburgh-national",
+        "resource": "refined narcotic API for pharmaceutical use",
+        "quantity": 50,
+        "metric": "t"
+      },
+      {
+        "target_id": "INTL_commercial",
+        "corridor_id": "INTL_ocean_southampton-global",
+        "resource": "narcotic API intermediates",
+        "quantity": 40,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_johnson_matthey_mill_tas"
+    ],
+    "resources": [
+      "Medicinal-Plants"
+    ]
+  },
+  {
+    "id": "AU_integria_healthcare",
+    "name": "Integria Healthcare (Thursday Plantation parent) (Brisbane, QLD)",
+    "tier": "secondary_maker",
+    "country_iso2": "AU",
+    "canonical_company": "Integria Healthcare",
+    "coordinates": {
+      "lat": -27.47,
+      "lon": 153.02
+    },
+    "downstream": [
+      {
+        "target_id": "AU_chemist_warehouse",
+        "corridor_id": "AU_road_brisbane-national",
+        "resource": "tea tree oil personal care and medicinal products",
+        "quantity": 100,
+        "metric": "t"
+      },
+      {
+        "target_id": "INTL_tea_tree_distributors",
+        "corridor_id": "INTL_ocean_brisbane-global",
+        "resource": "tea tree oil medicinal products (branded)",
+        "quantity": 60,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_main_camp_distillery",
+      "AU_qld_tea_tree_distillery"
+    ],
+    "resources": [
+      "Medicinal-Plants"
+    ]
+  },
+  {
+    "id": "AU_thursday_plantation",
+    "name": "Thursday Plantation Manufacturing (Ballina, NSW)",
+    "tier": "secondary_maker",
+    "country_iso2": "AU",
+    "canonical_company": "Thursday Plantation (Integria Healthcare)",
+    "coordinates": {
+      "lat": -28.87,
+      "lon": 153.56
+    },
+    "downstream": [
+      {
+        "target_id": "AU_chemist_warehouse",
+        "corridor_id": "AU_road_ballina-sydney-nsw",
+        "resource": "Thursday Plantation tea tree medicinal products",
+        "quantity": 60,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_northern_rivers_distillery"
+    ],
+    "resources": [
+      "Medicinal-Plants"
+    ]
+  },
+  {
+    "id": "EU_essential_oil_importers",
+    "name": "European Essential Oil & Pharma Importers (Rotterdam hub)",
+    "tier": "secondary_maker",
+    "country_iso2": "NL",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": 51.92,
+      "lon": 4.48
+    },
+    "downstream": [
+      {
+        "target_id": "INTL_commercial",
+        "corridor_id": "NL_road_rotterdam-eu-distribution",
+        "resource": "tea tree oil ingredient and finished products",
+        "quantity": 50,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_northern_rivers_distillery"
+    ],
+    "resources": [
+      "Medicinal-Plants"
+    ]
+  },
+  {
+    "id": "US_tea_tree_oil_importers",
+    "name": "US Tea Tree Oil / Essential Oil Importers (Los Angeles, CA)",
+    "tier": "secondary_maker",
+    "country_iso2": "US",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": 33.74,
+      "lon": -118.27
+    },
+    "downstream": [
+      {
+        "target_id": "US_commercial",
+        "corridor_id": "US_road_losangeles-national",
+        "resource": "tea tree oil in natural health and personal care products",
+        "quantity": 80,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_main_camp_distillery"
+    ],
+    "resources": [
+      "Medicinal-Plants"
+    ]
+  },
+  {
+    "id": "AU_bosistos_product_facility",
+    "name": "Bosisto's Product Manufacturing (Melbourne, VIC)",
+    "tier": "secondary_maker",
+    "country_iso2": "AU",
+    "canonical_company": "Felton Grimwade & Bosisto's",
+    "coordinates": {
+      "lat": -37.81,
+      "lon": 145
+    },
+    "downstream": [
+      {
+        "target_id": "AU_chemist_warehouse",
+        "corridor_id": "AU_road_melbourne-national",
+        "resource": "Bosisto's eucalyptus oil medicinal products",
+        "quantity": 70,
+        "metric": "t"
+      },
+      {
+        "target_id": "CN_sandalwood_importers",
+        "corridor_id": "INTL_ocean_melbourne-shanghai",
+        "resource": "eucalyptus essential oil (bulk pharmaceutical grade)",
+        "quantity": 30,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_bosistos_eucalyptus_distillery",
+      "AU_nsw_eucalyptus_distillery"
+    ],
+    "resources": [
+      "Medicinal-Plants"
+    ]
+  },
+  {
+    "id": "AU_quintis_pharma_division",
+    "name": "Quintis Pharmaceutical & Fragrance Division (Perth, WA)",
+    "tier": "secondary_maker",
+    "country_iso2": "AU",
+    "canonical_company": "Quintis",
+    "coordinates": {
+      "lat": -31.95,
+      "lon": 115.86
+    },
+    "downstream": [
+      {
+        "target_id": "AU_chemist_warehouse",
+        "corridor_id": "AU_road_perth-national",
+        "resource": "sandalwood oil medicinal and cosmeceutical products",
+        "quantity": 25,
+        "metric": "t"
+      },
+      {
+        "target_id": "INTL_fragrance_pharma_final",
+        "corridor_id": "INTL_ocean_fremantle-singapore",
+        "resource": "sandalwood oil for pharmaceutical and fragrance formulations",
+        "quantity": 35,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_quintis_distillery"
+    ],
+    "resources": [
+      "Medicinal-Plants"
+    ]
+  },
+  {
+    "id": "INTL_fragrance_pharma_buyers",
+    "name": "International Fragrance & Pharma Buyers (Singapore hub)",
+    "tier": "secondary_maker",
+    "country_iso2": "SG",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": 1.26,
+      "lon": 103.84
+    },
+    "downstream": [
+      {
+        "target_id": "INTL_commercial",
+        "corridor_id": "SG_road_singapore-distribution",
+        "resource": "sandalwood-based pharmaceutical and fragrance products",
+        "quantity": 40,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_quintis_distillery"
+    ],
+    "resources": [
+      "Medicinal-Plants"
+    ]
+  },
+  {
+    "id": "CN_sandalwood_importers",
+    "name": "Chinese Traditional Medicine & Oil Importers (Shanghai)",
+    "tier": "secondary_maker",
+    "country_iso2": "CN",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": 31.23,
+      "lon": 121.47
+    },
+    "downstream": [
+      {
+        "target_id": "CN_commercial",
+        "corridor_id": "CN_road_shanghai-national",
+        "resource": "sandalwood and eucalyptus based TCM and cosmeceutical products",
+        "quantity": 60,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_wescorp_sandalwood_distillery",
+      "AU_bosistos_product_facility"
+    ],
+    "resources": [
+      "Medicinal-Plants"
+    ]
+  },
+  {
+    "id": "AU_natural_health_manufacturers",
+    "name": "Australian Natural Health Product Manufacturers (Sydney/Melbourne)",
+    "tier": "secondary_maker",
+    "country_iso2": "AU",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": -33.87,
+      "lon": 151.21
+    },
+    "downstream": [
+      {
+        "target_id": "AU_chemist_warehouse",
+        "corridor_id": "AU_road_sydney-national",
+        "resource": "natural health products (lavender, lemon myrtle, sandalwood blends)",
+        "quantity": 40,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_wescorp_sandalwood_distillery",
+      "AU_bridestowe_distillery",
+      "AU_australian_rainforest_products_distillery"
+    ],
+    "resources": [
+      "Medicinal-Plants"
+    ]
+  },
+  {
+    "id": "AU_ecofibre_product_making",
+    "name": "Ecofibre / Ananda Health Product Manufacturing (Brisbane, QLD)",
+    "tier": "secondary_maker",
+    "country_iso2": "AU",
+    "canonical_company": "Ecofibre",
+    "coordinates": {
+      "lat": -27.47,
+      "lon": 153.03
+    },
+    "downstream": [
+      {
+        "target_id": "AU_chemist_warehouse",
+        "corridor_id": "AU_road_brisbane-national",
+        "resource": "hemp seed oil supplements and CBD products",
+        "quantity": 80,
+        "metric": "t"
+      },
+      {
+        "target_id": "US_commercial",
+        "corridor_id": "INTL_ocean_brisbane-losangeles",
+        "resource": "hemp-derived wellness products",
+        "quantity": 30,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_ecofibre_extraction"
+    ],
+    "resources": [
+      "Medicinal-Plants"
+    ]
+  },
+  {
+    "id": "AU_cann_group_product_making",
+    "name": "Cann Group Finished Product Manufacturing (Melbourne, VIC)",
+    "tier": "secondary_maker",
+    "country_iso2": "AU",
+    "canonical_company": "Cann Group",
+    "coordinates": {
+      "lat": -37.81,
+      "lon": 144.96
+    },
+    "downstream": [
+      {
+        "target_id": "AU_sigma_healthcare",
+        "corridor_id": "AU_road_melbourne-national",
+        "resource": "medicinal cannabis oils and dried flower (TGA-approved)",
+        "quantity": 50,
+        "metric": "t"
+      },
+      {
+        "target_id": "GB_industrial",
+        "corridor_id": "INTL_ocean_melbourne-southampton",
+        "resource": "medicinal cannabis API export",
+        "quantity": 10,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_cann_group_extraction"
+    ],
+    "resources": [
+      "Medicinal-Plants"
+    ]
+  },
+  {
+    "id": "AU_cannatrek_product_making",
+    "name": "Cannatrek Finished Product Manufacturing (Melbourne, VIC)",
+    "tier": "secondary_maker",
+    "country_iso2": "AU",
+    "canonical_company": "Cannatrek",
+    "coordinates": {
+      "lat": -37.81,
+      "lon": 145
+    },
+    "downstream": [
+      {
+        "target_id": "AU_sigma_healthcare",
+        "corridor_id": "AU_road_melbourne-national",
+        "resource": "medicinal cannabis oils and dried flower (TGA-approved)",
+        "quantity": 40,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_cannatrek_extraction"
+    ],
+    "resources": [
+      "Medicinal-Plants"
+    ]
+  },
+  {
+    "id": "AU_little_green_pharma_product_making",
+    "name": "Little Green Pharma Product Manufacturing (Perth, WA)",
+    "tier": "secondary_maker",
+    "country_iso2": "AU",
+    "canonical_company": "Little Green Pharma",
+    "coordinates": {
+      "lat": -31.95,
+      "lon": 115.86
+    },
+    "downstream": [
+      {
+        "target_id": "AU_sigma_healthcare",
+        "corridor_id": "AU_road_perth-national",
+        "resource": "medicinal cannabis oils and capsules",
+        "quantity": 20,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_little_green_pharma_extraction"
+    ],
+    "resources": [
+      "Medicinal-Plants"
+    ]
+  },
+  {
+    "id": "INTL_pharma_export_buyers",
+    "name": "International Pharmaceutical Buyers (Global)",
+    "tier": "secondary_maker",
+    "country_iso2": "INTL",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": 46.2,
+      "lon": 6.14
+    },
+    "downstream": [
+      {
+        "target_id": "INTL_industrial",
+        "corridor_id": "INTL_road_geneva-global",
+        "resource": "opiate-based pharmaceutical finished products",
+        "quantity": 150,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_sun_pharma_melbourne"
+    ],
+    "resources": [
+      "Medicinal-Plants"
+    ]
+  },
+  {
+    "id": "INTL_fragrance_pharma_final",
+    "name": "International Fragrance & Pharma Final Product Makers",
+    "tier": "secondary_maker",
+    "country_iso2": "INTL",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": 1.3,
+      "lon": 103.85
+    },
+    "downstream": [
+      {
+        "target_id": "INTL_commercial",
+        "corridor_id": "SG_road_singapore-distribution",
+        "resource": "sandalwood pharmaceutical and fragrance finished goods",
+        "quantity": 35,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_quintis_pharma_division"
+    ],
+    "resources": [
+      "Medicinal-Plants"
+    ]
+  },
+  {
+    "id": "INTL_tea_tree_distributors",
+    "name": "International Tea Tree Product Distributors",
+    "tier": "secondary_maker",
+    "country_iso2": "INTL",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": 1.3,
+      "lon": 103.8
+    },
+    "downstream": [
+      {
+        "target_id": "INTL_commercial",
+        "corridor_id": "INTL_road_asia-distribution",
+        "resource": "branded tea tree oil medicinal products",
+        "quantity": 60,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_integria_healthcare"
+    ],
+    "resources": [
+      "Medicinal-Plants"
+    ]
+  },
+  {
+    "id": "AU_sigma_healthcare",
+    "name": "Sigma Healthcare / Chemist Warehouse Group Pharmaceutical Distribution",
+    "tier": "distributor",
+    "country_iso2": "AU",
+    "canonical_company": "Sigma Healthcare",
+    "coordinates": {
+      "lat": -37.82,
+      "lon": 145.05
+    },
+    "downstream": [
+      {
+        "target_id": "AU_residential",
+        "corridor_id": "AU_road_melbourne-national",
+        "resource": "opiate pharmaceuticals and medicinal cannabis to pharmacies",
+        "quantity": 250,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_institutional",
+        "corridor_id": "AU_road_melbourne-national",
+        "resource": "opiate pharmaceuticals to hospitals and institutions",
+        "quantity": 60,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_sun_pharma_melbourne",
+      "AU_cann_group_product_making",
+      "AU_cannatrek_product_making",
+      "AU_little_green_pharma_product_making"
+    ],
+    "resources": [
+      "Medicinal-Plants"
+    ]
+  },
+  {
+    "id": "AU_chemist_warehouse",
+    "name": "Chemist Warehouse / Pharmacy Retail Networks (Australia-wide)",
+    "tier": "distributor",
+    "country_iso2": "AU",
+    "canonical_company": "Chemist Warehouse Group",
+    "coordinates": {
+      "lat": -37.82,
+      "lon": 145.05
+    },
+    "downstream": [
+      {
+        "target_id": "AU_residential",
+        "corridor_id": "AU_road_melbourne-national",
+        "resource": "OTC medicinal plant products (tea tree, eucalyptus, sandalwood, hemp, natural health)",
+        "quantity": 250,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_commercial",
+        "corridor_id": "AU_road_melbourne-national",
+        "resource": "medicinal plant products to spas, clinics, practitioners",
+        "quantity": 45,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_integria_healthcare",
+      "AU_thursday_plantation",
+      "AU_bosistos_product_facility",
+      "AU_quintis_pharma_division",
+      "AU_natural_health_manufacturers",
+      "AU_ecofibre_product_making"
+    ],
+    "resources": [
+      "Medicinal-Plants"
+    ]
+  },
+  {
+    "id": "AU_road_northern-tas-westbury",
+    "tier": "transport",
+    "name": "Road: Northern Tasmania to Westbury",
+    "country_iso2": "AU",
+    "operator_id": "AU_tas_road_freight",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "local",
+    "coordinates": {
+      "lat": -41.53,
+      "lon": 146.84
+    }
+  },
+  {
+    "id": "AU_road_southern-tas-westbury",
+    "tier": "transport",
+    "name": "Road: Southern Tasmania to Westbury",
+    "country_iso2": "AU",
+    "operator_id": "AU_tas_road_freight",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "regional",
+    "coordinates": {
+      "lat": -42,
+      "lon": 147
+    }
+  },
+  {
+    "id": "AU_road_devonport-region-tas",
+    "tier": "transport",
+    "name": "Road: North-West Tasmania Poppy Farms to Devonport",
+    "country_iso2": "AU",
+    "operator_id": "AU_tas_road_freight",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "local",
+    "coordinates": {
+      "lat": -41.18,
+      "lon": 146.35
+    }
+  },
+  {
+    "id": "AU_road_central-tas-campbelltown",
+    "tier": "transport",
+    "name": "Road: Central Tasmania Poppy Farms to Latrobe",
+    "country_iso2": "AU",
+    "operator_id": "AU_tas_road_freight",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "regional",
+    "coordinates": {
+      "lat": -41.55,
+      "lon": 146.73
+    }
+  },
+  {
+    "id": "AU_road_casino-coraki-nsw",
+    "tier": "transport",
+    "name": "Road: Casino-Coraki Region Tea Tree Farms to Distillery (NSW)",
+    "country_iso2": "AU",
+    "operator_id": "AU_nsw_road_freight",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "local",
+    "coordinates": {
+      "lat": -28.87,
+      "lon": 153.05
+    }
+  },
+  {
+    "id": "AU_road_ballina-lismore-nsw",
+    "tier": "transport",
+    "name": "Road: Ballina-Lismore Tea Tree Farms to Distillery (NSW)",
+    "country_iso2": "AU",
+    "operator_id": "AU_nsw_road_freight",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "local",
+    "coordinates": {
+      "lat": -28.82,
+      "lon": 153.4
+    }
+  },
+  {
+    "id": "AU_road_bundaberg-qld",
+    "tier": "transport",
+    "name": "Road: Bundaberg Region Tea Tree Farms to Distillery (QLD)",
+    "country_iso2": "AU",
+    "operator_id": "AU_qld_road_freight",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "local",
+    "coordinates": {
+      "lat": -24.87,
+      "lon": 152.35
+    }
+  },
+  {
+    "id": "AU_road_ne-victoria-benalla",
+    "tier": "transport",
+    "name": "Road: North-East Victoria Eucalyptus Farms to Distillery",
+    "country_iso2": "AU",
+    "operator_id": "AU_vic_road_freight",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "local",
+    "coordinates": {
+      "lat": -36.65,
+      "lon": 146.36
+    }
+  },
+  {
+    "id": "AU_road_west-wyalong-nsw",
+    "tier": "transport",
+    "name": "Road: West Wyalong Eucalyptus Farms to Distillery (NSW)",
+    "country_iso2": "AU",
+    "operator_id": "AU_nsw_road_freight",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "local",
+    "coordinates": {
+      "lat": -33.93,
+      "lon": 147.21
+    }
+  },
+  {
+    "id": "AU_road_kununurra-wa",
+    "tier": "transport",
+    "name": "Road: Kununurra Sandalwood Plantations to Albany (WA)",
+    "country_iso2": "AU",
+    "operator_id": "AU_wa_road_freight",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "regional",
+    "coordinates": {
+      "lat": -25,
+      "lon": 123
+    }
+  },
+  {
+    "id": "AU_road_goldfields-perth-wa",
+    "tier": "transport",
+    "name": "Road: Goldfields Sandalwood Harvest to Perth (WA)",
+    "country_iso2": "AU",
+    "operator_id": "AU_wa_road_freight",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "regional",
+    "coordinates": {
+      "lat": -31.5,
+      "lon": 118.5
+    }
+  },
+  {
+    "id": "AU_road_nabowla-launceston-tas",
+    "tier": "transport",
+    "name": "Road: Nabowla Lavender Farm to Launceston (TAS)",
+    "country_iso2": "AU",
+    "operator_id": "AU_tas_road_freight",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "local",
+    "coordinates": {
+      "lat": -41.1,
+      "lon": 147.5
+    }
+  },
+  {
+    "id": "AU_road_launceston-region-tas",
+    "tier": "transport",
+    "name": "Road: Tasmania Hemp Farms to Extraction Facility",
+    "country_iso2": "AU",
+    "operator_id": "AU_tas_road_freight",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "local",
+    "coordinates": {
+      "lat": -41.45,
+      "lon": 147.14
+    }
+  },
+  {
+    "id": "AU_road_mildura-melbourne-vic",
+    "tier": "transport",
+    "name": "Road: Mildura to Melbourne (VIC)",
+    "country_iso2": "AU",
+    "operator_id": "AU_vic_road_freight",
+    "mode": "road",
+    "form": "containerised",
+    "range": "regional",
+    "coordinates": {
+      "lat": -36,
+      "lon": 143.5
+    }
+  },
+  {
+    "id": "AU_road_shepparton-melbourne-vic",
+    "tier": "transport",
+    "name": "Road: Shepparton to Melbourne (VIC)",
+    "country_iso2": "AU",
+    "operator_id": "AU_vic_road_freight",
+    "mode": "road",
+    "form": "containerised",
+    "range": "regional",
+    "coordinates": {
+      "lat": -37.1,
+      "lon": 145.2
+    }
+  },
+  {
+    "id": "AU_road_perth-hills-wa",
+    "tier": "transport",
+    "name": "Road: Perth Hills Cannabis Facility to Perth (WA)",
+    "country_iso2": "AU",
+    "operator_id": "AU_wa_road_freight",
+    "mode": "road",
+    "form": "containerised",
+    "range": "local",
+    "coordinates": {
+      "lat": -32,
+      "lon": 116.1
+    }
+  },
+  {
+    "id": "AU_road_lismore-nsw",
+    "tier": "transport",
+    "name": "Road: Lismore Lemon Myrtle Farm to Distillery (NSW)",
+    "country_iso2": "AU",
+    "operator_id": "AU_nsw_road_freight",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "local",
+    "coordinates": {
+      "lat": -28.81,
+      "lon": 153.27
+    }
+  },
+  {
+    "id": "INTL_ocean_melbourne-newark",
+    "tier": "transport",
+    "name": "Ocean Freight: Melbourne to Newark (USA)",
+    "country_iso2": "INTL",
+    "operator_id": "INTL_maersk",
+    "mode": "ocean_freight",
+    "form": "containerised",
+    "range": "international",
+    "coordinates": {
+      "lat": -10,
+      "lon": -170
+    }
+  },
+  {
+    "id": "INTL_ocean_melbourne-southampton",
+    "tier": "transport",
+    "name": "Ocean Freight: Melbourne to Southampton (UK)",
+    "country_iso2": "INTL",
+    "operator_id": "INTL_maersk",
+    "mode": "ocean_freight",
+    "form": "containerised",
+    "range": "international",
+    "coordinates": {
+      "lat": -5,
+      "lon": 70
+    }
+  },
+  {
+    "id": "AU_road_casino-brisbane-nsw-qld",
+    "tier": "transport",
+    "name": "Road: Casino (NSW) to Brisbane (QLD)",
+    "country_iso2": "AU",
+    "operator_id": "AU_nsw_road_freight",
+    "mode": "road",
+    "form": "bulk_liquid",
+    "range": "regional",
+    "coordinates": {
+      "lat": -28.3,
+      "lon": 153.1
+    }
+  },
+  {
+    "id": "INTL_ocean_sydney-losangeles",
+    "tier": "transport",
+    "name": "Ocean Freight: Sydney to Los Angeles (USA)",
+    "country_iso2": "INTL",
+    "operator_id": "INTL_maersk",
+    "mode": "ocean_freight",
+    "form": "containerised",
+    "range": "international",
+    "coordinates": {
+      "lat": -15,
+      "lon": -170
+    },
+    "resources": [
+      "Wild-Game"
+    ],
+    "upstream": [],
+    "downstream": []
+  },
+  {
+    "id": "AU_road_ballina-sydney-nsw",
+    "tier": "transport",
+    "name": "Road: Ballina to Sydney (NSW)",
+    "country_iso2": "AU",
+    "operator_id": "AU_nsw_road_freight",
+    "mode": "road",
+    "form": "containerised",
+    "range": "regional",
+    "coordinates": {
+      "lat": -30.85,
+      "lon": 153.1
+    }
+  },
+  {
+    "id": "INTL_ocean_sydney-rotterdam",
+    "tier": "transport",
+    "name": "Ocean Freight: Sydney to Rotterdam (Netherlands)",
+    "country_iso2": "INTL",
+    "operator_id": "INTL_maersk",
+    "mode": "ocean_freight",
+    "form": "containerised",
+    "range": "international",
+    "coordinates": {
+      "lat": 5,
+      "lon": 80
+    }
+  },
+  {
+    "id": "AU_road_bundaberg-brisbane-qld",
+    "tier": "transport",
+    "name": "Road: Bundaberg to Brisbane (QLD)",
+    "country_iso2": "AU",
+    "operator_id": "AU_qld_road_freight",
+    "mode": "road",
+    "form": "bulk_liquid",
+    "range": "regional",
+    "coordinates": {
+      "lat": -26,
+      "lon": 152.6
+    }
+  },
+  {
+    "id": "AU_road_benalla-melbourne-vic",
+    "tier": "transport",
+    "name": "Road: Benalla to Melbourne (VIC)",
+    "country_iso2": "AU",
+    "operator_id": "AU_vic_road_freight",
+    "mode": "road",
+    "form": "bulk_liquid",
+    "range": "regional",
+    "coordinates": {
+      "lat": -37.2,
+      "lon": 145.6
+    }
+  },
+  {
+    "id": "AU_road_westwyalong-melbourne",
+    "tier": "transport",
+    "name": "Road: West Wyalong (NSW) to Melbourne (VIC)",
+    "country_iso2": "AU",
+    "operator_id": "AU_nsw_road_freight",
+    "mode": "road",
+    "form": "bulk_liquid",
+    "range": "regional",
+    "coordinates": {
+      "lat": -35.9,
+      "lon": 146.1
+    }
+  },
+  {
+    "id": "AU_road_albany-perth-wa",
+    "tier": "transport",
+    "name": "Road: Albany to Perth (WA)",
+    "country_iso2": "AU",
+    "operator_id": "AU_wa_road_freight",
+    "mode": "road",
+    "form": "bulk_liquid",
+    "range": "regional",
+    "coordinates": {
+      "lat": -33.5,
+      "lon": 116.9
+    }
+  },
+  {
+    "id": "AU_road_perth-metro-wa",
+    "tier": "transport",
+    "name": "Road: Perth Metro Distribution (WA)",
+    "country_iso2": "AU",
+    "operator_id": "AU_wa_road_freight",
+    "mode": "road",
+    "form": "containerised",
+    "range": "local",
+    "coordinates": {
+      "lat": -31.95,
+      "lon": 115.86
+    }
+  },
+  {
+    "id": "AU_road_brisbane-metro-qld",
+    "tier": "transport",
+    "name": "Road: Brisbane Metro Distribution (QLD)",
+    "country_iso2": "AU",
+    "operator_id": "AU_qld_road_freight",
+    "mode": "road",
+    "form": "containerised",
+    "range": "local",
+    "coordinates": {
+      "lat": -27.47,
+      "lon": 153.03
+    }
+  },
+  {
+    "id": "AU_road_lismore-sydney-nsw",
+    "tier": "transport",
+    "name": "Road: Lismore to Sydney (NSW)",
+    "country_iso2": "AU",
+    "operator_id": "AU_nsw_road_freight",
+    "mode": "road",
+    "form": "containerised",
+    "range": "regional",
+    "coordinates": {
+      "lat": -31,
+      "lon": 153
+    }
+  },
+  {
+    "id": "INTL_ocean_melbourne-global",
+    "tier": "transport",
+    "name": "Ocean Freight: Melbourne to Global Pharma Markets",
+    "country_iso2": "INTL",
+    "operator_id": "INTL_maersk",
+    "mode": "ocean_freight",
+    "form": "containerised",
+    "range": "international",
+    "coordinates": {
+      "lat": -20,
+      "lon": 100
+    }
+  },
+  {
+    "id": "US_road_newark-national",
+    "tier": "transport",
+    "name": "Road: Newark NJ National US Distribution",
+    "country_iso2": "US",
+    "operator_id": "US_fedex_freight",
+    "mode": "road",
+    "form": "containerised",
+    "range": "regional",
+    "coordinates": {
+      "lat": 40.72,
+      "lon": -74.17
+    }
+  },
+  {
+    "id": "GB_road_edinburgh-national",
+    "tier": "transport",
+    "name": "Road: Edinburgh UK National Distribution",
+    "country_iso2": "GB",
+    "operator_id": "GB_dhl_uk",
+    "mode": "road",
+    "form": "containerised",
+    "range": "regional",
+    "coordinates": {
+      "lat": 55.95,
+      "lon": -3.19
+    }
+  },
+  {
+    "id": "AU_road_brisbane-national",
+    "tier": "transport",
+    "name": "Road: Brisbane National Distribution Network",
+    "country_iso2": "AU",
+    "operator_id": "AU_linfox",
+    "mode": "road",
+    "form": "containerised",
+    "range": "regional",
+    "coordinates": {
+      "lat": -27.47,
+      "lon": 153.02
+    },
+    "resources": [
+      "Shellfish (wild)",
+      "Magnesium (mineral)"
+    ],
+    "upstream": [],
+    "downstream": []
+  },
+  {
+    "id": "INTL_ocean_brisbane-global",
+    "tier": "transport",
+    "name": "Ocean Freight: Brisbane to Global Markets",
+    "country_iso2": "INTL",
+    "operator_id": "INTL_maersk",
+    "mode": "ocean_freight",
+    "form": "containerised",
+    "range": "international",
+    "coordinates": {
+      "lat": -10,
+      "lon": 160
+    }
+  },
+  {
+    "id": "NL_road_rotterdam-eu-distribution",
+    "tier": "transport",
+    "name": "Road: Rotterdam EU Distribution",
+    "country_iso2": "NL",
+    "operator_id": "NL_dhl_europe",
+    "mode": "road",
+    "form": "containerised",
+    "range": "regional",
+    "coordinates": {
+      "lat": 51.92,
+      "lon": 4.48
+    }
+  },
+  {
+    "id": "US_road_losangeles-national",
+    "tier": "transport",
+    "name": "Road: Los Angeles US National Distribution",
+    "country_iso2": "US",
+    "operator_id": "US_fedex_freight",
+    "mode": "road",
+    "form": "containerised",
+    "range": "regional",
+    "coordinates": {
+      "lat": 33.74,
+      "lon": -118.27
+    }
+  },
+  {
+    "id": "INTL_ocean_melbourne-shanghai",
+    "tier": "transport",
+    "name": "Ocean Freight: Melbourne to Shanghai",
+    "country_iso2": "INTL",
+    "operator_id": "INTL_cosco",
+    "mode": "ocean_freight",
+    "form": "containerised",
+    "range": "international",
+    "coordinates": {
+      "lat": -5,
+      "lon": 120
+    },
+    "resources": [
+      "Fish (farmed)",
+      "Shellfish (wild)",
+      "Pastureland"
+    ],
+    "upstream": [],
+    "downstream": []
+  },
+  {
+    "id": "SG_road_singapore-distribution",
+    "tier": "transport",
+    "name": "Road: Singapore Regional Distribution",
+    "country_iso2": "SG",
+    "operator_id": "SG_dhl_asia",
+    "mode": "road",
+    "form": "containerised",
+    "range": "regional",
+    "coordinates": {
+      "lat": 1.3,
+      "lon": 103.84
+    }
+  },
+  {
+    "id": "INTL_ocean_brisbane-losangeles",
+    "tier": "transport",
+    "name": "Ocean Freight: Brisbane to Los Angeles",
+    "country_iso2": "INTL",
+    "operator_id": "INTL_maersk",
+    "mode": "ocean_freight",
+    "form": "containerised",
+    "range": "international",
+    "coordinates": {
+      "lat": -5,
+      "lon": -170
+    },
+    "resources": [
+      "Fish (farmed)",
+      "Wild-Game"
+    ],
+    "upstream": [],
+    "downstream": []
+  },
+  {
+    "id": "INTL_road_geneva-global",
+    "tier": "transport",
+    "name": "Road/Air: Geneva Global Pharmaceutical Distribution",
+    "country_iso2": "INTL",
+    "operator_id": "INTL_dhl_global",
+    "mode": "road",
+    "form": "containerised",
+    "range": "international",
+    "coordinates": {
+      "lat": 46.2,
+      "lon": 6.14
+    }
+  },
+  {
+    "id": "INTL_road_asia-distribution",
+    "tier": "transport",
+    "name": "Road: Asia-Pacific Regional Distribution",
+    "country_iso2": "INTL",
+    "operator_id": "INTL_dhl_global",
+    "mode": "road",
+    "form": "containerised",
+    "range": "international",
+    "coordinates": {
+      "lat": 1.3,
+      "lon": 103.8
+    }
+  }
+]

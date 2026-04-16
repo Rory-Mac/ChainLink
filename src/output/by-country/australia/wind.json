@@ -1,0 +1,2122 @@
+[
+  {
+    "id": "AU_macarthur_wind_farm",
+    "name": "Macarthur Wind Farm",
+    "tier": "generation",
+    "country_iso2": "AU",
+    "canonical_company": "Macquarie Asset Management",
+    "coordinates": {
+      "lat": -38.07,
+      "lon": 142.15
+    },
+    "downstream": [
+      {
+        "target_id": "AU_aemo_vic",
+        "corridor_id": "AU_electrical_grid_macarthur_moorabool",
+        "resource": "wind electricity",
+        "quantity": 1400000,
+        "metric": "MWh"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Wind"
+    ]
+  },
+  {
+    "id": "AU_goldwind_stockyard_hill",
+    "name": "Stockyard Hill Wind Farm",
+    "tier": "generation",
+    "country_iso2": "AU",
+    "canonical_company": "Goldwind",
+    "coordinates": {
+      "lat": -37.57,
+      "lon": 143.35
+    },
+    "downstream": [
+      {
+        "target_id": "AU_aemo_vic",
+        "corridor_id": "AU_electrical_grid_stockyard_hill_ballarat",
+        "resource": "wind electricity",
+        "quantity": 1500000,
+        "metric": "MWh"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Wind"
+    ]
+  },
+  {
+    "id": "AU_coopers_gap_wind_farm",
+    "name": "Coopers Gap Wind Farm",
+    "tier": "generation",
+    "country_iso2": "AU",
+    "canonical_company": "AGL Energy",
+    "coordinates": {
+      "lat": -26.75,
+      "lon": 151.55
+    },
+    "downstream": [
+      {
+        "target_id": "AU_aemo_qld",
+        "corridor_id": "AU_electrical_grid_coopers_gap_western_downs",
+        "resource": "wind electricity",
+        "quantity": 1510000,
+        "metric": "MWh"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Wind"
+    ]
+  },
+  {
+    "id": "AU_moorabool_wind_farm",
+    "name": "Moorabool Wind Farm (Goldwind)",
+    "tier": "generation",
+    "country_iso2": "AU",
+    "canonical_company": "Goldwind",
+    "coordinates": {
+      "lat": -37.73,
+      "lon": 144.05
+    },
+    "downstream": [
+      {
+        "target_id": "AU_aemo_vic",
+        "corridor_id": "AU_electrical_grid_moorabool_elaine",
+        "resource": "wind electricity",
+        "quantity": 900000,
+        "metric": "MWh"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Wind"
+    ]
+  },
+  {
+    "id": "AU_dundonnell_wind_farm",
+    "name": "Dundonnell Wind Farm",
+    "tier": "generation",
+    "country_iso2": "AU",
+    "canonical_company": "Tilt Renewables",
+    "coordinates": {
+      "lat": -37.85,
+      "lon": 142.65
+    },
+    "downstream": [
+      {
+        "target_id": "AU_aemo_vic",
+        "corridor_id": "AU_electrical_grid_dundonnell_mortlake",
+        "resource": "wind electricity",
+        "quantity": 900000,
+        "metric": "MWh"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Wind"
+    ]
+  },
+  {
+    "id": "AU_murra_warra_wind_farm",
+    "name": "Murra Warra Wind Farm (I & II)",
+    "tier": "generation",
+    "country_iso2": "AU",
+    "canonical_company": "RES Group",
+    "coordinates": {
+      "lat": -36.72,
+      "lon": 141.92
+    },
+    "downstream": [
+      {
+        "target_id": "AU_aemo_vic",
+        "corridor_id": "AU_electrical_grid_murra_warra_horsham",
+        "resource": "wind electricity",
+        "quantity": 900000,
+        "metric": "MWh"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Wind"
+    ]
+  },
+  {
+    "id": "AU_hornsdale_wind_farm",
+    "name": "Hornsdale Wind Farm",
+    "tier": "generation",
+    "country_iso2": "AU",
+    "canonical_company": "Neoen",
+    "coordinates": {
+      "lat": -33.07,
+      "lon": 138.55
+    },
+    "downstream": [
+      {
+        "target_id": "AU_aemo_sa",
+        "corridor_id": "AU_electrical_grid_hornsdale_davenport",
+        "resource": "wind electricity",
+        "quantity": 1050000,
+        "metric": "MWh"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Wind"
+    ]
+  },
+  {
+    "id": "AU_snowtown_wind_farm",
+    "name": "Snowtown Wind Farm (I & II)",
+    "tier": "generation",
+    "country_iso2": "AU",
+    "canonical_company": "Tilt Renewables",
+    "coordinates": {
+      "lat": -33.77,
+      "lon": 138.22
+    },
+    "downstream": [
+      {
+        "target_id": "AU_aemo_sa",
+        "corridor_id": "AU_electrical_grid_snowtown_bungama",
+        "resource": "wind electricity",
+        "quantity": 1100000,
+        "metric": "MWh"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Wind"
+    ]
+  },
+  {
+    "id": "AU_lincoln_gap_wind_farm",
+    "name": "Lincoln Gap Wind Farm",
+    "tier": "generation",
+    "country_iso2": "AU",
+    "canonical_company": "Nexif Energy",
+    "coordinates": {
+      "lat": -33.68,
+      "lon": 136.8
+    },
+    "downstream": [
+      {
+        "target_id": "AU_aemo_sa",
+        "corridor_id": "AU_electrical_grid_lincoln_gap_davenport",
+        "resource": "wind electricity",
+        "quantity": 680000,
+        "metric": "MWh"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Wind"
+    ]
+  },
+  {
+    "id": "AU_willogoleche_wind_farm",
+    "name": "Willogoleche Wind Farm",
+    "tier": "generation",
+    "country_iso2": "AU",
+    "canonical_company": "ENGIE",
+    "coordinates": {
+      "lat": -32.8,
+      "lon": 138.6
+    },
+    "downstream": [
+      {
+        "target_id": "AU_aemo_sa",
+        "corridor_id": "AU_electrical_grid_willogoleche_davenport",
+        "resource": "wind electricity",
+        "quantity": 340000,
+        "metric": "MWh"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Wind"
+    ]
+  },
+  {
+    "id": "AU_sapphire_wind_farm",
+    "name": "Sapphire Wind Farm",
+    "tier": "generation",
+    "country_iso2": "AU",
+    "canonical_company": "CWP Renewables",
+    "coordinates": {
+      "lat": -29.73,
+      "lon": 151.59
+    },
+    "downstream": [
+      {
+        "target_id": "AU_aemo_nsw",
+        "corridor_id": "AU_electrical_grid_sapphire_glen_innes",
+        "resource": "wind electricity",
+        "quantity": 900000,
+        "metric": "MWh"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Wind"
+    ]
+  },
+  {
+    "id": "AU_silverton_wind_farm",
+    "name": "Silverton Wind Farm",
+    "tier": "generation",
+    "country_iso2": "AU",
+    "canonical_company": "AGL Energy",
+    "coordinates": {
+      "lat": -31.88,
+      "lon": 141.23
+    },
+    "downstream": [
+      {
+        "target_id": "AU_aemo_nsw",
+        "corridor_id": "AU_electrical_grid_silverton_broken_hill",
+        "resource": "wind electricity",
+        "quantity": 780000,
+        "metric": "MWh"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Wind"
+    ]
+  },
+  {
+    "id": "AU_bango_wind_farm",
+    "name": "Bango Wind Farm",
+    "tier": "generation",
+    "country_iso2": "AU",
+    "canonical_company": "CWP Renewables",
+    "coordinates": {
+      "lat": -34.63,
+      "lon": 148.73
+    },
+    "downstream": [
+      {
+        "target_id": "AU_aemo_nsw",
+        "corridor_id": "AU_electrical_grid_bango_yass",
+        "resource": "wind electricity",
+        "quantity": 600000,
+        "metric": "MWh"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Wind"
+    ]
+  },
+  {
+    "id": "AU_bodangora_wind_farm",
+    "name": "Bodangora Wind Farm",
+    "tier": "generation",
+    "country_iso2": "AU",
+    "canonical_company": "Infigen Energy",
+    "coordinates": {
+      "lat": -32.61,
+      "lon": 148.81
+    },
+    "downstream": [
+      {
+        "target_id": "AU_aemo_nsw",
+        "corridor_id": "AU_electrical_grid_bodangora_wellington",
+        "resource": "wind electricity",
+        "quantity": 360000,
+        "metric": "MWh"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Wind"
+    ]
+  },
+  {
+    "id": "AU_coppabella_wind_farm",
+    "name": "Coppabella Wind Farm",
+    "tier": "generation",
+    "country_iso2": "AU",
+    "canonical_company": "Tilt Renewables",
+    "coordinates": {
+      "lat": -34.83,
+      "lon": 148.6
+    },
+    "downstream": [
+      {
+        "target_id": "AU_aemo_nsw",
+        "corridor_id": "AU_electrical_grid_coppabella_yass",
+        "resource": "wind electricity",
+        "quantity": 540000,
+        "metric": "MWh"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Wind"
+    ]
+  },
+  {
+    "id": "AU_collgar_wind_farm",
+    "name": "Collgar Wind Farm",
+    "tier": "generation",
+    "country_iso2": "AU",
+    "canonical_company": "RATCH Australia",
+    "coordinates": {
+      "lat": -31.68,
+      "lon": 118.62
+    },
+    "downstream": [
+      {
+        "target_id": "AU_aemo_wa_swis",
+        "corridor_id": "AU_electrical_grid_collgar_merredin",
+        "resource": "wind electricity",
+        "quantity": 750000,
+        "metric": "MWh"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Wind"
+    ]
+  },
+  {
+    "id": "AU_yandin_wind_farm",
+    "name": "Yandin Wind Farm",
+    "tier": "generation",
+    "country_iso2": "AU",
+    "canonical_company": "Alinta Energy",
+    "coordinates": {
+      "lat": -31.13,
+      "lon": 115.73
+    },
+    "downstream": [
+      {
+        "target_id": "AU_aemo_wa_swis",
+        "corridor_id": "AU_electrical_grid_yandin_three_springs",
+        "resource": "wind electricity",
+        "quantity": 1000000,
+        "metric": "MWh"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Wind"
+    ]
+  },
+  {
+    "id": "AU_warradarge_wind_farm",
+    "name": "Warradarge Wind Farm",
+    "tier": "generation",
+    "country_iso2": "AU",
+    "canonical_company": "Bright Energy Investments",
+    "coordinates": {
+      "lat": -30.5,
+      "lon": 115.37
+    },
+    "downstream": [
+      {
+        "target_id": "AU_aemo_wa_swis",
+        "corridor_id": "AU_electrical_grid_warradarge_eneabba",
+        "resource": "wind electricity",
+        "quantity": 700000,
+        "metric": "MWh"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Wind"
+    ]
+  },
+  {
+    "id": "AU_cattle_hill_wind_farm",
+    "name": "Cattle Hill Wind Farm",
+    "tier": "generation",
+    "country_iso2": "AU",
+    "canonical_company": "Goldwind",
+    "coordinates": {
+      "lat": -42.03,
+      "lon": 146.1
+    },
+    "downstream": [
+      {
+        "target_id": "AU_aemo_tas",
+        "corridor_id": "AU_electrical_grid_cattle_hill_waddamana",
+        "resource": "wind electricity",
+        "quantity": 530000,
+        "metric": "MWh"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Wind"
+    ]
+  },
+  {
+    "id": "AU_musselroe_wind_farm",
+    "name": "Musselroe Wind Farm",
+    "tier": "generation",
+    "country_iso2": "AU",
+    "canonical_company": "Woolnorth Wind Farm Holding",
+    "coordinates": {
+      "lat": -40.8,
+      "lon": 148.07
+    },
+    "downstream": [
+      {
+        "target_id": "AU_aemo_tas",
+        "corridor_id": "AU_electrical_grid_musselroe_derby",
+        "resource": "wind electricity",
+        "quantity": 400000,
+        "metric": "MWh"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Wind"
+    ]
+  },
+  {
+    "id": "AU_lake_bonney_wind_farm",
+    "name": "Lake Bonney Wind Farm (Stages 1-3)",
+    "tier": "generation",
+    "country_iso2": "AU",
+    "canonical_company": "Infigen Energy",
+    "coordinates": {
+      "lat": -37.32,
+      "lon": 140.42
+    },
+    "downstream": [
+      {
+        "target_id": "AU_aemo_sa",
+        "corridor_id": "AU_electrical_grid_lake_bonney_se_sa",
+        "resource": "wind electricity",
+        "quantity": 750000,
+        "metric": "MWh"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Wind"
+    ]
+  },
+  {
+    "id": "AU_mt_mercer_wind_farm",
+    "name": "Mount Mercer Wind Farm",
+    "tier": "generation",
+    "country_iso2": "AU",
+    "canonical_company": "Meridian Energy",
+    "coordinates": {
+      "lat": -37.78,
+      "lon": 143.78
+    },
+    "downstream": [
+      {
+        "target_id": "AU_aemo_vic",
+        "corridor_id": "AU_electrical_grid_mt_mercer_elaine",
+        "resource": "wind electricity",
+        "quantity": 400000,
+        "metric": "MWh"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Wind"
+    ]
+  },
+  {
+    "id": "AU_waubra_wind_farm",
+    "name": "Waubra Wind Farm",
+    "tier": "generation",
+    "country_iso2": "AU",
+    "canonical_company": "Acciona Energia",
+    "coordinates": {
+      "lat": -37.36,
+      "lon": 143.6
+    },
+    "downstream": [
+      {
+        "target_id": "AU_aemo_vic",
+        "corridor_id": "AU_electrical_grid_waubra_ballarat",
+        "resource": "wind electricity",
+        "quantity": 550000,
+        "metric": "MWh"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Wind"
+    ]
+  },
+  {
+    "id": "AU_hallett_wind_farm",
+    "name": "Hallett Wind Farm Complex",
+    "tier": "generation",
+    "country_iso2": "AU",
+    "canonical_company": "AGL Energy",
+    "coordinates": {
+      "lat": -33.38,
+      "lon": 138.82
+    },
+    "downstream": [
+      {
+        "target_id": "AU_aemo_sa",
+        "corridor_id": "AU_electrical_grid_hallett_davenport",
+        "resource": "wind electricity",
+        "quantity": 920000,
+        "metric": "MWh"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Wind"
+    ]
+  },
+  {
+    "id": "AU_waterloo_wind_farm",
+    "name": "Waterloo Wind Farm",
+    "tier": "generation",
+    "country_iso2": "AU",
+    "canonical_company": "Tilt Renewables",
+    "coordinates": {
+      "lat": -33.98,
+      "lon": 138.87
+    },
+    "downstream": [
+      {
+        "target_id": "AU_aemo_sa",
+        "corridor_id": "AU_electrical_grid_waterloo_robertstown",
+        "resource": "wind electricity",
+        "quantity": 350000,
+        "metric": "MWh"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Wind"
+    ]
+  },
+  {
+    "id": "AU_aemo_vic",
+    "name": "AEMO NEM — Victoria Transmission Network",
+    "tier": "transmission",
+    "country_iso2": "AU",
+    "canonical_company": "AEMO",
+    "coordinates": {
+      "lat": -37.81,
+      "lon": 144.96
+    },
+    "downstream": [
+      {
+        "target_id": "AU_ausnet_services_distribution",
+        "corridor_id": "AU_electrical_grid_vic_transmission",
+        "resource": "wind electricity (high voltage AC)",
+        "quantity": 2700000,
+        "metric": "MWh"
+      },
+      {
+        "target_id": "AU_powercor_distribution",
+        "corridor_id": "AU_electrical_grid_vic_transmission",
+        "resource": "wind electricity (high voltage AC)",
+        "quantity": 2050000,
+        "metric": "MWh"
+      },
+      {
+        "target_id": "AU_citipower_distribution",
+        "corridor_id": "AU_electrical_grid_vic_transmission",
+        "resource": "wind electricity (high voltage AC)",
+        "quantity": 400000,
+        "metric": "MWh"
+      }
+    ],
+    "upstream": [
+      "AU_macarthur_wind_farm",
+      "AU_goldwind_stockyard_hill",
+      "AU_moorabool_wind_farm",
+      "AU_dundonnell_wind_farm",
+      "AU_murra_warra_wind_farm",
+      "AU_mt_mercer_wind_farm",
+      "AU_waubra_wind_farm"
+    ],
+    "resources": [
+      "Wind"
+    ]
+  },
+  {
+    "id": "AU_aemo_sa",
+    "name": "AEMO NEM — South Australia Transmission Network",
+    "tier": "transmission",
+    "country_iso2": "AU",
+    "canonical_company": "AEMO",
+    "coordinates": {
+      "lat": -34.93,
+      "lon": 138.6
+    },
+    "downstream": [
+      {
+        "target_id": "AU_sa_power_networks_distribution",
+        "corridor_id": "AU_electrical_grid_sa_transmission",
+        "resource": "wind electricity (high voltage AC)",
+        "quantity": 4190000,
+        "metric": "MWh"
+      }
+    ],
+    "upstream": [
+      "AU_hornsdale_wind_farm",
+      "AU_snowtown_wind_farm",
+      "AU_lincoln_gap_wind_farm",
+      "AU_willogoleche_wind_farm",
+      "AU_lake_bonney_wind_farm",
+      "AU_hallett_wind_farm",
+      "AU_waterloo_wind_farm"
+    ],
+    "resources": [
+      "Wind"
+    ]
+  },
+  {
+    "id": "AU_aemo_nsw",
+    "name": "AEMO NEM — New South Wales Transmission Network",
+    "tier": "transmission",
+    "country_iso2": "AU",
+    "canonical_company": "AEMO",
+    "coordinates": {
+      "lat": -33.87,
+      "lon": 151.21
+    },
+    "downstream": [
+      {
+        "target_id": "AU_ausgrid_distribution",
+        "corridor_id": "AU_electrical_grid_nsw_transmission",
+        "resource": "wind electricity (high voltage AC)",
+        "quantity": 1600000,
+        "metric": "MWh"
+      },
+      {
+        "target_id": "AU_endeavour_energy_distribution",
+        "corridor_id": "AU_electrical_grid_nsw_transmission",
+        "resource": "wind electricity (high voltage AC)",
+        "quantity": 800000,
+        "metric": "MWh"
+      },
+      {
+        "target_id": "AU_essential_energy_distribution",
+        "corridor_id": "AU_electrical_grid_nsw_transmission",
+        "resource": "wind electricity (high voltage AC)",
+        "quantity": 780000,
+        "metric": "MWh"
+      }
+    ],
+    "upstream": [
+      "AU_sapphire_wind_farm",
+      "AU_silverton_wind_farm",
+      "AU_bango_wind_farm",
+      "AU_bodangora_wind_farm",
+      "AU_coppabella_wind_farm"
+    ],
+    "resources": [
+      "Wind"
+    ]
+  },
+  {
+    "id": "AU_aemo_qld",
+    "name": "AEMO NEM — Queensland Transmission Network",
+    "tier": "transmission",
+    "country_iso2": "AU",
+    "canonical_company": "AEMO",
+    "coordinates": {
+      "lat": -27.47,
+      "lon": 153.03
+    },
+    "downstream": [
+      {
+        "target_id": "AU_energex_distribution",
+        "corridor_id": "AU_electrical_grid_qld_transmission",
+        "resource": "wind electricity (high voltage AC)",
+        "quantity": 900000,
+        "metric": "MWh"
+      },
+      {
+        "target_id": "AU_ergon_energy_distribution",
+        "corridor_id": "AU_electrical_grid_qld_transmission",
+        "resource": "wind electricity (high voltage AC)",
+        "quantity": 610000,
+        "metric": "MWh"
+      }
+    ],
+    "upstream": [
+      "AU_coopers_gap_wind_farm"
+    ],
+    "resources": [
+      "Wind"
+    ]
+  },
+  {
+    "id": "AU_aemo_tas",
+    "name": "AEMO NEM — Tasmania Transmission Network",
+    "tier": "transmission",
+    "country_iso2": "AU",
+    "canonical_company": "AEMO",
+    "coordinates": {
+      "lat": -42.88,
+      "lon": 147.33
+    },
+    "downstream": [
+      {
+        "target_id": "AU_tasnetworks_distribution",
+        "corridor_id": "AU_electrical_grid_tas_transmission",
+        "resource": "wind electricity (high voltage AC)",
+        "quantity": 930000,
+        "metric": "MWh"
+      }
+    ],
+    "upstream": [
+      "AU_cattle_hill_wind_farm",
+      "AU_musselroe_wind_farm"
+    ],
+    "resources": [
+      "Wind"
+    ]
+  },
+  {
+    "id": "AU_aemo_wa_swis",
+    "name": "AEMO WEM — SWIS Transmission Network (Western Power)",
+    "tier": "transmission",
+    "country_iso2": "AU",
+    "canonical_company": "Western Power",
+    "coordinates": {
+      "lat": -31.95,
+      "lon": 115.86
+    },
+    "downstream": [
+      {
+        "target_id": "AU_western_power_distribution",
+        "corridor_id": "AU_electrical_grid_wa_swis_transmission",
+        "resource": "wind electricity (high voltage AC)",
+        "quantity": 2450000,
+        "metric": "MWh"
+      }
+    ],
+    "upstream": [
+      "AU_collgar_wind_farm",
+      "AU_yandin_wind_farm",
+      "AU_warradarge_wind_farm"
+    ],
+    "resources": [
+      "Wind"
+    ]
+  },
+  {
+    "id": "AU_ausnet_services_distribution",
+    "name": "AusNet Services Distribution (VIC)",
+    "tier": "distribution",
+    "country_iso2": "AU",
+    "canonical_company": "AusNet Services",
+    "coordinates": {
+      "lat": -37.82,
+      "lon": 145.1
+    },
+    "downstream": [
+      {
+        "target_id": "AU_agl_energy_retail",
+        "corridor_id": "AU_electrical_grid_vic_distribution_ausnet",
+        "resource": "wind electricity (medium/low voltage)",
+        "quantity": 1100000,
+        "metric": "MWh"
+      },
+      {
+        "target_id": "AU_origin_energy_retail",
+        "corridor_id": "AU_electrical_grid_vic_distribution_ausnet",
+        "resource": "wind electricity (medium/low voltage)",
+        "quantity": 900000,
+        "metric": "MWh"
+      },
+      {
+        "target_id": "AU_energyaustralia_retail",
+        "corridor_id": "AU_electrical_grid_vic_distribution_ausnet",
+        "resource": "wind electricity (medium/low voltage)",
+        "quantity": 700000,
+        "metric": "MWh"
+      }
+    ],
+    "upstream": [
+      "AU_aemo_vic"
+    ],
+    "resources": [
+      "Wind"
+    ]
+  },
+  {
+    "id": "AU_powercor_distribution",
+    "name": "Powercor Distribution (VIC)",
+    "tier": "distribution",
+    "country_iso2": "AU",
+    "canonical_company": "CitiPower Powercor",
+    "coordinates": {
+      "lat": -37.56,
+      "lon": 143.86
+    },
+    "downstream": [
+      {
+        "target_id": "AU_agl_energy_retail",
+        "corridor_id": "AU_electrical_grid_vic_distribution_powercor",
+        "resource": "wind electricity (medium/low voltage)",
+        "quantity": 850000,
+        "metric": "MWh"
+      },
+      {
+        "target_id": "AU_origin_energy_retail",
+        "corridor_id": "AU_electrical_grid_vic_distribution_powercor",
+        "resource": "wind electricity (medium/low voltage)",
+        "quantity": 700000,
+        "metric": "MWh"
+      },
+      {
+        "target_id": "AU_energyaustralia_retail",
+        "corridor_id": "AU_electrical_grid_vic_distribution_powercor",
+        "resource": "wind electricity (medium/low voltage)",
+        "quantity": 500000,
+        "metric": "MWh"
+      }
+    ],
+    "upstream": [
+      "AU_aemo_vic"
+    ],
+    "resources": [
+      "Wind"
+    ]
+  },
+  {
+    "id": "AU_citipower_distribution",
+    "name": "CitiPower Distribution (Melbourne CBD, VIC)",
+    "tier": "distribution",
+    "country_iso2": "AU",
+    "canonical_company": "CitiPower Powercor",
+    "coordinates": {
+      "lat": -37.81,
+      "lon": 144.96
+    },
+    "downstream": [
+      {
+        "target_id": "AU_agl_energy_retail",
+        "corridor_id": "AU_electrical_grid_vic_distribution_citipower",
+        "resource": "wind electricity (medium/low voltage)",
+        "quantity": 200000,
+        "metric": "MWh"
+      },
+      {
+        "target_id": "AU_origin_energy_retail",
+        "corridor_id": "AU_electrical_grid_vic_distribution_citipower",
+        "resource": "wind electricity (medium/low voltage)",
+        "quantity": 200000,
+        "metric": "MWh"
+      }
+    ],
+    "upstream": [
+      "AU_aemo_vic"
+    ],
+    "resources": [
+      "Wind"
+    ]
+  },
+  {
+    "id": "AU_sa_power_networks_distribution",
+    "name": "SA Power Networks Distribution (SA)",
+    "tier": "distribution",
+    "country_iso2": "AU",
+    "canonical_company": "SA Power Networks",
+    "coordinates": {
+      "lat": -34.93,
+      "lon": 138.6
+    },
+    "downstream": [
+      {
+        "target_id": "AU_agl_energy_retail",
+        "corridor_id": "AU_electrical_grid_sa_distribution",
+        "resource": "wind electricity (medium/low voltage)",
+        "quantity": 1400000,
+        "metric": "MWh"
+      },
+      {
+        "target_id": "AU_origin_energy_retail",
+        "corridor_id": "AU_electrical_grid_sa_distribution",
+        "resource": "wind electricity (medium/low voltage)",
+        "quantity": 1300000,
+        "metric": "MWh"
+      },
+      {
+        "target_id": "AU_energyaustralia_retail",
+        "corridor_id": "AU_electrical_grid_sa_distribution",
+        "resource": "wind electricity (medium/low voltage)",
+        "quantity": 700000,
+        "metric": "MWh"
+      },
+      {
+        "target_id": "AU_simply_energy_retail",
+        "corridor_id": "AU_electrical_grid_sa_distribution",
+        "resource": "wind electricity (medium/low voltage)",
+        "quantity": 790000,
+        "metric": "MWh"
+      }
+    ],
+    "upstream": [
+      "AU_aemo_sa"
+    ],
+    "resources": [
+      "Wind"
+    ]
+  },
+  {
+    "id": "AU_ausgrid_distribution",
+    "name": "Ausgrid Distribution (Sydney/Newcastle/Central Coast, NSW)",
+    "tier": "distribution",
+    "country_iso2": "AU",
+    "canonical_company": "Ausgrid",
+    "coordinates": {
+      "lat": -33.87,
+      "lon": 151.21
+    },
+    "downstream": [
+      {
+        "target_id": "AU_agl_energy_retail",
+        "corridor_id": "AU_electrical_grid_nsw_distribution_ausgrid",
+        "resource": "wind electricity (medium/low voltage)",
+        "quantity": 650000,
+        "metric": "MWh"
+      },
+      {
+        "target_id": "AU_origin_energy_retail",
+        "corridor_id": "AU_electrical_grid_nsw_distribution_ausgrid",
+        "resource": "wind electricity (medium/low voltage)",
+        "quantity": 550000,
+        "metric": "MWh"
+      },
+      {
+        "target_id": "AU_energyaustralia_retail",
+        "corridor_id": "AU_electrical_grid_nsw_distribution_ausgrid",
+        "resource": "wind electricity (medium/low voltage)",
+        "quantity": 400000,
+        "metric": "MWh"
+      }
+    ],
+    "upstream": [
+      "AU_aemo_nsw"
+    ],
+    "resources": [
+      "Wind"
+    ]
+  },
+  {
+    "id": "AU_endeavour_energy_distribution",
+    "name": "Endeavour Energy Distribution (Western Sydney, NSW)",
+    "tier": "distribution",
+    "country_iso2": "AU",
+    "canonical_company": "Endeavour Energy",
+    "coordinates": {
+      "lat": -33.8,
+      "lon": 150.95
+    },
+    "downstream": [
+      {
+        "target_id": "AU_agl_energy_retail",
+        "corridor_id": "AU_electrical_grid_nsw_distribution_endeavour",
+        "resource": "wind electricity (medium/low voltage)",
+        "quantity": 350000,
+        "metric": "MWh"
+      },
+      {
+        "target_id": "AU_origin_energy_retail",
+        "corridor_id": "AU_electrical_grid_nsw_distribution_endeavour",
+        "resource": "wind electricity (medium/low voltage)",
+        "quantity": 250000,
+        "metric": "MWh"
+      },
+      {
+        "target_id": "AU_energyaustralia_retail",
+        "corridor_id": "AU_electrical_grid_nsw_distribution_endeavour",
+        "resource": "wind electricity (medium/low voltage)",
+        "quantity": 200000,
+        "metric": "MWh"
+      }
+    ],
+    "upstream": [
+      "AU_aemo_nsw"
+    ],
+    "resources": [
+      "Wind"
+    ]
+  },
+  {
+    "id": "AU_essential_energy_distribution",
+    "name": "Essential Energy Distribution (Regional NSW)",
+    "tier": "distribution",
+    "country_iso2": "AU",
+    "canonical_company": "Essential Energy",
+    "coordinates": {
+      "lat": -32.25,
+      "lon": 148.6
+    },
+    "downstream": [
+      {
+        "target_id": "AU_agl_energy_retail",
+        "corridor_id": "AU_electrical_grid_nsw_distribution_essential",
+        "resource": "wind electricity (medium/low voltage)",
+        "quantity": 350000,
+        "metric": "MWh"
+      },
+      {
+        "target_id": "AU_origin_energy_retail",
+        "corridor_id": "AU_electrical_grid_nsw_distribution_essential",
+        "resource": "wind electricity (medium/low voltage)",
+        "quantity": 250000,
+        "metric": "MWh"
+      },
+      {
+        "target_id": "AU_energyaustralia_retail",
+        "corridor_id": "AU_electrical_grid_nsw_distribution_essential",
+        "resource": "wind electricity (medium/low voltage)",
+        "quantity": 180000,
+        "metric": "MWh"
+      }
+    ],
+    "upstream": [
+      "AU_aemo_nsw"
+    ],
+    "resources": [
+      "Wind"
+    ]
+  },
+  {
+    "id": "AU_energex_distribution",
+    "name": "Energex Distribution (SE Queensland)",
+    "tier": "distribution",
+    "country_iso2": "AU",
+    "canonical_company": "Energex",
+    "coordinates": {
+      "lat": -27.47,
+      "lon": 153.03
+    },
+    "downstream": [
+      {
+        "target_id": "AU_agl_energy_retail",
+        "corridor_id": "AU_electrical_grid_qld_distribution_energex",
+        "resource": "wind electricity (medium/low voltage)",
+        "quantity": 350000,
+        "metric": "MWh"
+      },
+      {
+        "target_id": "AU_origin_energy_retail",
+        "corridor_id": "AU_electrical_grid_qld_distribution_energex",
+        "resource": "wind electricity (medium/low voltage)",
+        "quantity": 350000,
+        "metric": "MWh"
+      },
+      {
+        "target_id": "AU_energyaustralia_retail",
+        "corridor_id": "AU_electrical_grid_qld_distribution_energex",
+        "resource": "wind electricity (medium/low voltage)",
+        "quantity": 200000,
+        "metric": "MWh"
+      }
+    ],
+    "upstream": [
+      "AU_aemo_qld"
+    ],
+    "resources": [
+      "Wind"
+    ]
+  },
+  {
+    "id": "AU_ergon_energy_distribution",
+    "name": "Ergon Energy Distribution (Regional QLD)",
+    "tier": "distribution",
+    "country_iso2": "AU",
+    "canonical_company": "Ergon Energy",
+    "coordinates": {
+      "lat": -23.38,
+      "lon": 150.51
+    },
+    "downstream": [
+      {
+        "target_id": "AU_ergon_energy_retail_qld",
+        "corridor_id": "AU_electrical_grid_qld_distribution_ergon",
+        "resource": "wind electricity (medium/low voltage)",
+        "quantity": 350000,
+        "metric": "MWh"
+      },
+      {
+        "target_id": "AU_origin_energy_retail",
+        "corridor_id": "AU_electrical_grid_qld_distribution_ergon",
+        "resource": "wind electricity (medium/low voltage)",
+        "quantity": 260000,
+        "metric": "MWh"
+      }
+    ],
+    "upstream": [
+      "AU_aemo_qld"
+    ],
+    "resources": [
+      "Wind"
+    ]
+  },
+  {
+    "id": "AU_tasnetworks_distribution",
+    "name": "TasNetworks Distribution (TAS)",
+    "tier": "distribution",
+    "country_iso2": "AU",
+    "canonical_company": "TasNetworks",
+    "coordinates": {
+      "lat": -42.88,
+      "lon": 147.33
+    },
+    "downstream": [
+      {
+        "target_id": "AU_aurora_energy_retail",
+        "corridor_id": "AU_electrical_grid_tas_distribution",
+        "resource": "wind electricity (medium/low voltage)",
+        "quantity": 600000,
+        "metric": "MWh"
+      },
+      {
+        "target_id": "AU_agl_energy_retail",
+        "corridor_id": "AU_electrical_grid_tas_distribution",
+        "resource": "wind electricity (medium/low voltage)",
+        "quantity": 180000,
+        "metric": "MWh"
+      },
+      {
+        "target_id": "AU_origin_energy_retail",
+        "corridor_id": "AU_electrical_grid_tas_distribution",
+        "resource": "wind electricity (medium/low voltage)",
+        "quantity": 150000,
+        "metric": "MWh"
+      },
+      {
+        "target_id": "AU_aurora_energy_retail",
+        "corridor_id": "AU_electrical_grid_tasnetworks-aurora",
+        "resource": "hydroelectric electricity",
+        "quantity": 5500000,
+        "metric": "MWh"
+      },
+      {
+        "target_id": "AU_1st_energy_retail",
+        "corridor_id": "AU_electrical_grid_tasnetworks-retail-other",
+        "resource": "hydroelectric electricity",
+        "quantity": 1700000,
+        "metric": "MWh"
+      }
+    ],
+    "upstream": [
+      "AU_aemo_tas",
+      "AU_tasnetworks_transmission"
+    ],
+    "resources": [
+      "Wind",
+      "Hydropower"
+    ]
+  },
+  {
+    "id": "AU_western_power_distribution",
+    "name": "Western Power Distribution (SWIS, WA)",
+    "tier": "distribution",
+    "country_iso2": "AU",
+    "canonical_company": "Western Power",
+    "coordinates": {
+      "lat": -31.95,
+      "lon": 115.86
+    },
+    "downstream": [
+      {
+        "target_id": "AU_synergy_retail",
+        "corridor_id": "AU_electrical_grid_wa_distribution",
+        "resource": "wind electricity (medium/low voltage)",
+        "quantity": 2000000,
+        "metric": "MWh"
+      },
+      {
+        "target_id": "AU_alinta_energy_retail",
+        "corridor_id": "AU_electrical_grid_wa_distribution",
+        "resource": "wind electricity (medium/low voltage)",
+        "quantity": 450000,
+        "metric": "MWh"
+      }
+    ],
+    "upstream": [
+      "AU_aemo_wa_swis"
+    ],
+    "resources": [
+      "Wind"
+    ]
+  },
+  {
+    "id": "AU_simply_energy_retail",
+    "name": "Simply Energy (Retail)",
+    "tier": "retailer",
+    "country_iso2": "AU",
+    "canonical_company": "Simply Energy",
+    "coordinates": {
+      "lat": -37.82,
+      "lon": 144.97
+    },
+    "downstream": [
+      {
+        "target_id": "AU_residential",
+        "corridor_id": "AU_electrical_grid_simply_last_mile",
+        "resource": "wind electricity (retail supply)",
+        "quantity": 450000,
+        "metric": "MWh"
+      },
+      {
+        "target_id": "AU_commercial",
+        "corridor_id": "AU_electrical_grid_simply_last_mile",
+        "resource": "wind electricity (retail supply)",
+        "quantity": 340000,
+        "metric": "MWh"
+      }
+    ],
+    "upstream": [
+      "AU_sa_power_networks_distribution"
+    ],
+    "resources": [
+      "Wind"
+    ]
+  },
+  {
+    "id": "AU_aurora_energy_retail",
+    "name": "Aurora Energy (Retail, TAS)",
+    "tier": "retailer",
+    "country_iso2": "AU",
+    "canonical_company": "Aurora Energy",
+    "coordinates": {
+      "lat": -42.88,
+      "lon": 147.33
+    },
+    "downstream": [
+      {
+        "target_id": "AU_residential",
+        "corridor_id": "AU_electrical_grid_aurora_last_mile",
+        "resource": "wind electricity (retail supply)",
+        "quantity": 350000,
+        "metric": "MWh"
+      },
+      {
+        "target_id": "AU_commercial",
+        "corridor_id": "AU_electrical_grid_aurora_last_mile",
+        "resource": "wind electricity (retail supply)",
+        "quantity": 250000,
+        "metric": "MWh"
+      },
+      {
+        "target_id": "AU_residential",
+        "corridor_id": "AU_electrical_grid_aurora-residential",
+        "resource": "hydroelectric electricity",
+        "quantity": 2600000,
+        "metric": "MWh"
+      },
+      {
+        "target_id": "AU_commercial",
+        "corridor_id": "AU_electrical_grid_aurora-commercial",
+        "resource": "hydroelectric electricity",
+        "quantity": 1400000,
+        "metric": "MWh"
+      },
+      {
+        "target_id": "AU_industrial",
+        "corridor_id": "AU_electrical_grid_aurora-industrial",
+        "resource": "hydroelectric electricity",
+        "quantity": 1500000,
+        "metric": "MWh"
+      }
+    ],
+    "upstream": [
+      "AU_tasnetworks_distribution"
+    ],
+    "resources": [
+      "Wind",
+      "Hydropower"
+    ]
+  },
+  {
+    "id": "AU_alinta_energy_retail",
+    "name": "Alinta Energy (Retail, WA)",
+    "tier": "retailer",
+    "country_iso2": "AU",
+    "canonical_company": "Alinta Energy",
+    "coordinates": {
+      "lat": -31.95,
+      "lon": 115.86
+    },
+    "downstream": [
+      {
+        "target_id": "AU_residential",
+        "corridor_id": "AU_electrical_grid_alinta_last_mile",
+        "resource": "wind electricity (retail supply)",
+        "quantity": 200000,
+        "metric": "MWh"
+      },
+      {
+        "target_id": "AU_commercial",
+        "corridor_id": "AU_electrical_grid_alinta_last_mile",
+        "resource": "wind electricity (retail supply)",
+        "quantity": 150000,
+        "metric": "MWh"
+      },
+      {
+        "target_id": "AU_industrial",
+        "corridor_id": "AU_electrical_grid_alinta_last_mile",
+        "resource": "wind electricity (retail supply)",
+        "quantity": 100000,
+        "metric": "MWh"
+      }
+    ],
+    "upstream": [
+      "AU_western_power_distribution"
+    ],
+    "resources": [
+      "Wind"
+    ]
+  },
+  {
+    "id": "AU_ergon_energy_retail_qld",
+    "name": "Ergon Energy Retail (Regional QLD)",
+    "tier": "retailer",
+    "country_iso2": "AU",
+    "canonical_company": "Ergon Energy",
+    "coordinates": {
+      "lat": -19.29,
+      "lon": 146.79
+    },
+    "downstream": [
+      {
+        "target_id": "AU_residential",
+        "corridor_id": "AU_electrical_grid_ergon_last_mile",
+        "resource": "wind electricity (retail supply)",
+        "quantity": 180000,
+        "metric": "MWh"
+      },
+      {
+        "target_id": "AU_agricultural",
+        "corridor_id": "AU_electrical_grid_ergon_last_mile",
+        "resource": "wind electricity (retail supply)",
+        "quantity": 100000,
+        "metric": "MWh"
+      },
+      {
+        "target_id": "AU_industrial",
+        "corridor_id": "AU_electrical_grid_ergon_last_mile",
+        "resource": "wind electricity (retail supply)",
+        "quantity": 70000,
+        "metric": "MWh"
+      }
+    ],
+    "upstream": [
+      "AU_ergon_energy_distribution"
+    ],
+    "resources": [
+      "Wind"
+    ]
+  },
+  {
+    "id": "AU_electrical_grid_macarthur_moorabool",
+    "tier": "transport",
+    "name": "220 kV Line — Macarthur WF to Moorabool Terminal Station",
+    "country_iso2": "AU",
+    "operator_id": "AU_ausnet_services",
+    "mode": "electrical_grid",
+    "form": "electrical",
+    "range": "regional",
+    "coordinates": {
+      "lat": -37.9,
+      "lon": 142.6
+    }
+  },
+  {
+    "id": "AU_electrical_grid_stockyard_hill_ballarat",
+    "tier": "transport",
+    "name": "220 kV Line — Stockyard Hill WF to Ballarat TS",
+    "country_iso2": "AU",
+    "operator_id": "AU_ausnet_services",
+    "mode": "electrical_grid",
+    "form": "electrical",
+    "range": "regional",
+    "coordinates": {
+      "lat": -37.55,
+      "lon": 143.6
+    }
+  },
+  {
+    "id": "AU_electrical_grid_coopers_gap_western_downs",
+    "tier": "transport",
+    "name": "275 kV Line — Coopers Gap WF to Western Downs Substation",
+    "country_iso2": "AU",
+    "operator_id": "AU_powerlink_qld",
+    "mode": "electrical_grid",
+    "form": "electrical",
+    "range": "regional",
+    "coordinates": {
+      "lat": -26.8,
+      "lon": 151.3
+    }
+  },
+  {
+    "id": "AU_electrical_grid_moorabool_elaine",
+    "tier": "transport",
+    "name": "220 kV Line — Moorabool WF to Elaine TS",
+    "country_iso2": "AU",
+    "operator_id": "AU_ausnet_services",
+    "mode": "electrical_grid",
+    "form": "electrical",
+    "range": "local",
+    "coordinates": {
+      "lat": -37.76,
+      "lon": 144
+    }
+  },
+  {
+    "id": "AU_electrical_grid_dundonnell_mortlake",
+    "tier": "transport",
+    "name": "220 kV Line — Dundonnell WF to Mortlake TS",
+    "country_iso2": "AU",
+    "operator_id": "AU_ausnet_services",
+    "mode": "electrical_grid",
+    "form": "electrical",
+    "range": "regional",
+    "coordinates": {
+      "lat": -37.9,
+      "lon": 142.8
+    }
+  },
+  {
+    "id": "AU_electrical_grid_murra_warra_horsham",
+    "tier": "transport",
+    "name": "220 kV Line — Murra Warra WF to Horsham TS",
+    "country_iso2": "AU",
+    "operator_id": "AU_ausnet_services",
+    "mode": "electrical_grid",
+    "form": "electrical",
+    "range": "regional",
+    "coordinates": {
+      "lat": -36.75,
+      "lon": 142.1
+    }
+  },
+  {
+    "id": "AU_electrical_grid_hornsdale_davenport",
+    "tier": "transport",
+    "name": "275 kV Line — Hornsdale WF to Davenport TS",
+    "country_iso2": "AU",
+    "operator_id": "AU_electranet",
+    "mode": "electrical_grid",
+    "form": "electrical",
+    "range": "regional",
+    "coordinates": {
+      "lat": -33.15,
+      "lon": 138.6
+    }
+  },
+  {
+    "id": "AU_electrical_grid_snowtown_bungama",
+    "tier": "transport",
+    "name": "275 kV Line — Snowtown WF to Bungama TS",
+    "country_iso2": "AU",
+    "operator_id": "AU_electranet",
+    "mode": "electrical_grid",
+    "form": "electrical",
+    "range": "regional",
+    "coordinates": {
+      "lat": -33.5,
+      "lon": 138.3
+    }
+  },
+  {
+    "id": "AU_electrical_grid_lincoln_gap_davenport",
+    "tier": "transport",
+    "name": "275 kV Line — Lincoln Gap WF to Davenport TS",
+    "country_iso2": "AU",
+    "operator_id": "AU_electranet",
+    "mode": "electrical_grid",
+    "form": "electrical",
+    "range": "regional",
+    "coordinates": {
+      "lat": -33.5,
+      "lon": 137.5
+    }
+  },
+  {
+    "id": "AU_electrical_grid_willogoleche_davenport",
+    "tier": "transport",
+    "name": "132 kV Line — Willogoleche WF to Davenport TS",
+    "country_iso2": "AU",
+    "operator_id": "AU_electranet",
+    "mode": "electrical_grid",
+    "form": "electrical",
+    "range": "regional",
+    "coordinates": {
+      "lat": -32.9,
+      "lon": 138.7
+    }
+  },
+  {
+    "id": "AU_electrical_grid_sapphire_glen_innes",
+    "tier": "transport",
+    "name": "330 kV Line — Sapphire WF to Glen Innes Substation",
+    "country_iso2": "AU",
+    "operator_id": "AU_transgrid",
+    "mode": "electrical_grid",
+    "form": "electrical",
+    "range": "regional",
+    "coordinates": {
+      "lat": -29.73,
+      "lon": 151.6
+    }
+  },
+  {
+    "id": "AU_electrical_grid_silverton_broken_hill",
+    "tier": "transport",
+    "name": "220 kV Line — Silverton WF to Broken Hill Substation",
+    "country_iso2": "AU",
+    "operator_id": "AU_transgrid",
+    "mode": "electrical_grid",
+    "form": "electrical",
+    "range": "regional",
+    "coordinates": {
+      "lat": -31.95,
+      "lon": 141.4
+    }
+  },
+  {
+    "id": "AU_electrical_grid_bango_yass",
+    "tier": "transport",
+    "name": "330 kV Line — Bango WF to Yass Substation",
+    "country_iso2": "AU",
+    "operator_id": "AU_transgrid",
+    "mode": "electrical_grid",
+    "form": "electrical",
+    "range": "regional",
+    "coordinates": {
+      "lat": -34.7,
+      "lon": 148.9
+    }
+  },
+  {
+    "id": "AU_electrical_grid_bodangora_wellington",
+    "tier": "transport",
+    "name": "132 kV Line — Bodangora WF to Wellington Substation",
+    "country_iso2": "AU",
+    "operator_id": "AU_transgrid",
+    "mode": "electrical_grid",
+    "form": "electrical",
+    "range": "local",
+    "coordinates": {
+      "lat": -32.55,
+      "lon": 148.8
+    }
+  },
+  {
+    "id": "AU_electrical_grid_coppabella_yass",
+    "tier": "transport",
+    "name": "330 kV Line — Coppabella WF to Yass Substation",
+    "country_iso2": "AU",
+    "operator_id": "AU_transgrid",
+    "mode": "electrical_grid",
+    "form": "electrical",
+    "range": "regional",
+    "coordinates": {
+      "lat": -34.8,
+      "lon": 148.7
+    }
+  },
+  {
+    "id": "AU_electrical_grid_collgar_merredin",
+    "tier": "transport",
+    "name": "220 kV Line — Collgar WF to Merredin Substation",
+    "country_iso2": "AU",
+    "operator_id": "AU_western_power",
+    "mode": "electrical_grid",
+    "form": "electrical",
+    "range": "regional",
+    "coordinates": {
+      "lat": -31.5,
+      "lon": 118.3
+    }
+  },
+  {
+    "id": "AU_electrical_grid_yandin_three_springs",
+    "tier": "transport",
+    "name": "330 kV Line — Yandin WF to Three Springs Substation",
+    "country_iso2": "AU",
+    "operator_id": "AU_western_power",
+    "mode": "electrical_grid",
+    "form": "electrical",
+    "range": "regional",
+    "coordinates": {
+      "lat": -31,
+      "lon": 115.7
+    }
+  },
+  {
+    "id": "AU_electrical_grid_warradarge_eneabba",
+    "tier": "transport",
+    "name": "330 kV Line — Warradarge WF to Eneabba Substation",
+    "country_iso2": "AU",
+    "operator_id": "AU_western_power",
+    "mode": "electrical_grid",
+    "form": "electrical",
+    "range": "regional",
+    "coordinates": {
+      "lat": -30.3,
+      "lon": 115.3
+    }
+  },
+  {
+    "id": "AU_electrical_grid_cattle_hill_waddamana",
+    "tier": "transport",
+    "name": "220 kV Line — Cattle Hill WF to Waddamana Substation",
+    "country_iso2": "AU",
+    "operator_id": "AU_tasnetworks",
+    "mode": "electrical_grid",
+    "form": "electrical",
+    "range": "regional",
+    "coordinates": {
+      "lat": -42.1,
+      "lon": 146.2
+    }
+  },
+  {
+    "id": "AU_electrical_grid_musselroe_derby",
+    "tier": "transport",
+    "name": "220 kV Line — Musselroe WF to Derby Substation",
+    "country_iso2": "AU",
+    "operator_id": "AU_tasnetworks",
+    "mode": "electrical_grid",
+    "form": "electrical",
+    "range": "regional",
+    "coordinates": {
+      "lat": -41.2,
+      "lon": 147.8
+    }
+  },
+  {
+    "id": "AU_electrical_grid_lake_bonney_se_sa",
+    "tier": "transport",
+    "name": "132 kV Line — Lake Bonney WF to South East SA Substation",
+    "country_iso2": "AU",
+    "operator_id": "AU_electranet",
+    "mode": "electrical_grid",
+    "form": "electrical",
+    "range": "regional",
+    "coordinates": {
+      "lat": -37.3,
+      "lon": 140.5
+    }
+  },
+  {
+    "id": "AU_electrical_grid_mt_mercer_elaine",
+    "tier": "transport",
+    "name": "132 kV Line — Mount Mercer WF to Elaine TS",
+    "country_iso2": "AU",
+    "operator_id": "AU_ausnet_services",
+    "mode": "electrical_grid",
+    "form": "electrical",
+    "range": "local",
+    "coordinates": {
+      "lat": -37.78,
+      "lon": 143.85
+    }
+  },
+  {
+    "id": "AU_electrical_grid_waubra_ballarat",
+    "tier": "transport",
+    "name": "220 kV Line — Waubra WF to Ballarat TS",
+    "country_iso2": "AU",
+    "operator_id": "AU_ausnet_services",
+    "mode": "electrical_grid",
+    "form": "electrical",
+    "range": "local",
+    "coordinates": {
+      "lat": -37.42,
+      "lon": 143.7
+    }
+  },
+  {
+    "id": "AU_electrical_grid_hallett_davenport",
+    "tier": "transport",
+    "name": "275 kV Line — Hallett WF Complex to Davenport TS",
+    "country_iso2": "AU",
+    "operator_id": "AU_electranet",
+    "mode": "electrical_grid",
+    "form": "electrical",
+    "range": "regional",
+    "coordinates": {
+      "lat": -33.3,
+      "lon": 138.7
+    }
+  },
+  {
+    "id": "AU_electrical_grid_waterloo_robertstown",
+    "tier": "transport",
+    "name": "132 kV Line — Waterloo WF to Robertstown Substation",
+    "country_iso2": "AU",
+    "operator_id": "AU_electranet",
+    "mode": "electrical_grid",
+    "form": "electrical",
+    "range": "regional",
+    "coordinates": {
+      "lat": -33.9,
+      "lon": 138.9
+    }
+  },
+  {
+    "id": "AU_electrical_grid_vic_transmission",
+    "tier": "transport",
+    "name": "Victoria 500/220 kV Transmission Network",
+    "country_iso2": "AU",
+    "operator_id": "AU_ausnet_services",
+    "mode": "electrical_grid",
+    "form": "electrical",
+    "range": "regional",
+    "coordinates": {
+      "lat": -37.5,
+      "lon": 144.5
+    }
+  },
+  {
+    "id": "AU_electrical_grid_sa_transmission",
+    "tier": "transport",
+    "name": "South Australia 275/132 kV Transmission Network",
+    "country_iso2": "AU",
+    "operator_id": "AU_electranet",
+    "mode": "electrical_grid",
+    "form": "electrical",
+    "range": "regional",
+    "coordinates": {
+      "lat": -34.5,
+      "lon": 138.5
+    }
+  },
+  {
+    "id": "AU_electrical_grid_nsw_transmission",
+    "tier": "transport",
+    "name": "NSW 500/330 kV Transmission Network",
+    "country_iso2": "AU",
+    "operator_id": "AU_transgrid",
+    "mode": "electrical_grid",
+    "form": "electrical",
+    "range": "regional",
+    "coordinates": {
+      "lat": -33.5,
+      "lon": 149.5
+    }
+  },
+  {
+    "id": "AU_electrical_grid_qld_transmission",
+    "tier": "transport",
+    "name": "Queensland 275/132 kV Transmission Network",
+    "country_iso2": "AU",
+    "operator_id": "AU_powerlink_qld",
+    "mode": "electrical_grid",
+    "form": "electrical",
+    "range": "regional",
+    "coordinates": {
+      "lat": -26.5,
+      "lon": 152
+    }
+  },
+  {
+    "id": "AU_electrical_grid_tas_transmission",
+    "tier": "transport",
+    "name": "Tasmania 220/110 kV Transmission Network",
+    "country_iso2": "AU",
+    "operator_id": "AU_tasnetworks",
+    "mode": "electrical_grid",
+    "form": "electrical",
+    "range": "regional",
+    "coordinates": {
+      "lat": -42,
+      "lon": 146.5
+    }
+  },
+  {
+    "id": "AU_electrical_grid_wa_swis_transmission",
+    "tier": "transport",
+    "name": "WA SWIS 330/132 kV Transmission Network",
+    "country_iso2": "AU",
+    "operator_id": "AU_western_power",
+    "mode": "electrical_grid",
+    "form": "electrical",
+    "range": "regional",
+    "coordinates": {
+      "lat": -31.5,
+      "lon": 116.5
+    }
+  },
+  {
+    "id": "AU_electrical_grid_vic_distribution_ausnet",
+    "tier": "transport",
+    "name": "AusNet Services Distribution Network (VIC)",
+    "country_iso2": "AU",
+    "operator_id": "AU_ausnet_services",
+    "mode": "electrical_grid",
+    "form": "electrical",
+    "range": "local",
+    "coordinates": {
+      "lat": -37.82,
+      "lon": 145.1
+    }
+  },
+  {
+    "id": "AU_electrical_grid_vic_distribution_powercor",
+    "tier": "transport",
+    "name": "Powercor Distribution Network (Western VIC)",
+    "country_iso2": "AU",
+    "operator_id": "AU_citipower_powercor",
+    "mode": "electrical_grid",
+    "form": "electrical",
+    "range": "local",
+    "coordinates": {
+      "lat": -37.56,
+      "lon": 143.86
+    }
+  },
+  {
+    "id": "AU_electrical_grid_vic_distribution_citipower",
+    "tier": "transport",
+    "name": "CitiPower Distribution Network (Melbourne CBD)",
+    "country_iso2": "AU",
+    "operator_id": "AU_citipower_powercor",
+    "mode": "electrical_grid",
+    "form": "electrical",
+    "range": "local",
+    "coordinates": {
+      "lat": -37.81,
+      "lon": 144.96
+    }
+  },
+  {
+    "id": "AU_electrical_grid_sa_distribution",
+    "tier": "transport",
+    "name": "SA Power Networks Distribution Network (SA)",
+    "country_iso2": "AU",
+    "operator_id": "AU_sa_power_networks",
+    "mode": "electrical_grid",
+    "form": "electrical",
+    "range": "local",
+    "coordinates": {
+      "lat": -34.93,
+      "lon": 138.6
+    }
+  },
+  {
+    "id": "AU_electrical_grid_nsw_distribution_ausgrid",
+    "tier": "transport",
+    "name": "Ausgrid Distribution Network (Sydney/Hunter/CC)",
+    "country_iso2": "AU",
+    "operator_id": "AU_ausgrid",
+    "mode": "electrical_grid",
+    "form": "electrical",
+    "range": "local",
+    "coordinates": {
+      "lat": -33.87,
+      "lon": 151.21
+    }
+  },
+  {
+    "id": "AU_electrical_grid_nsw_distribution_endeavour",
+    "tier": "transport",
+    "name": "Endeavour Energy Distribution Network (W Sydney)",
+    "country_iso2": "AU",
+    "operator_id": "AU_endeavour_energy",
+    "mode": "electrical_grid",
+    "form": "electrical",
+    "range": "local",
+    "coordinates": {
+      "lat": -33.8,
+      "lon": 150.95
+    }
+  },
+  {
+    "id": "AU_electrical_grid_nsw_distribution_essential",
+    "tier": "transport",
+    "name": "Essential Energy Distribution Network (Regional NSW)",
+    "country_iso2": "AU",
+    "operator_id": "AU_essential_energy",
+    "mode": "electrical_grid",
+    "form": "electrical",
+    "range": "regional",
+    "coordinates": {
+      "lat": -32.25,
+      "lon": 148.6
+    }
+  },
+  {
+    "id": "AU_electrical_grid_qld_distribution_energex",
+    "tier": "transport",
+    "name": "Energex Distribution Network (SE QLD)",
+    "country_iso2": "AU",
+    "operator_id": "AU_energex",
+    "mode": "electrical_grid",
+    "form": "electrical",
+    "range": "local",
+    "coordinates": {
+      "lat": -27.47,
+      "lon": 153.03
+    }
+  },
+  {
+    "id": "AU_electrical_grid_qld_distribution_ergon",
+    "tier": "transport",
+    "name": "Ergon Energy Distribution Network (Regional QLD)",
+    "country_iso2": "AU",
+    "operator_id": "AU_ergon_energy",
+    "mode": "electrical_grid",
+    "form": "electrical",
+    "range": "regional",
+    "coordinates": {
+      "lat": -23.38,
+      "lon": 150.51
+    }
+  },
+  {
+    "id": "AU_electrical_grid_tas_distribution",
+    "tier": "transport",
+    "name": "TasNetworks Distribution Network (TAS)",
+    "country_iso2": "AU",
+    "operator_id": "AU_tasnetworks",
+    "mode": "electrical_grid",
+    "form": "electrical",
+    "range": "local",
+    "coordinates": {
+      "lat": -42.88,
+      "lon": 147.33
+    }
+  },
+  {
+    "id": "AU_electrical_grid_wa_distribution",
+    "tier": "transport",
+    "name": "Western Power Distribution Network (SWIS, WA)",
+    "country_iso2": "AU",
+    "operator_id": "AU_western_power",
+    "mode": "electrical_grid",
+    "form": "electrical",
+    "range": "regional",
+    "coordinates": {
+      "lat": -31.95,
+      "lon": 115.86
+    }
+  },
+  {
+    "id": "AU_electrical_grid_agl_last_mile",
+    "tier": "transport",
+    "name": "AGL Energy Retail — Last Mile Delivery (multi-state)",
+    "country_iso2": "AU",
+    "operator_id": "AU_agl_energy",
+    "mode": "electrical_grid",
+    "form": "electrical",
+    "range": "local",
+    "coordinates": {
+      "lat": -33.86,
+      "lon": 151.21
+    }
+  },
+  {
+    "id": "AU_electrical_grid_origin_last_mile",
+    "tier": "transport",
+    "name": "Origin Energy Retail — Last Mile Delivery (multi-state)",
+    "country_iso2": "AU",
+    "operator_id": "AU_origin_energy",
+    "mode": "electrical_grid",
+    "form": "electrical",
+    "range": "local",
+    "coordinates": {
+      "lat": -33.87,
+      "lon": 151.21
+    }
+  },
+  {
+    "id": "AU_electrical_grid_ea_last_mile",
+    "tier": "transport",
+    "name": "EnergyAustralia Retail — Last Mile Delivery (multi-state)",
+    "country_iso2": "AU",
+    "operator_id": "AU_energyaustralia",
+    "mode": "electrical_grid",
+    "form": "electrical",
+    "range": "local",
+    "coordinates": {
+      "lat": -37.82,
+      "lon": 144.97
+    }
+  },
+  {
+    "id": "AU_electrical_grid_simply_last_mile",
+    "tier": "transport",
+    "name": "Simply Energy Retail — Last Mile Delivery (SA/VIC)",
+    "country_iso2": "AU",
+    "operator_id": "AU_simply_energy",
+    "mode": "electrical_grid",
+    "form": "electrical",
+    "range": "local",
+    "coordinates": {
+      "lat": -37.82,
+      "lon": 144.97
+    }
+  },
+  {
+    "id": "AU_electrical_grid_aurora_last_mile",
+    "tier": "transport",
+    "name": "Aurora Energy Retail — Last Mile Delivery (TAS)",
+    "country_iso2": "AU",
+    "operator_id": "AU_aurora_energy",
+    "mode": "electrical_grid",
+    "form": "electrical",
+    "range": "local",
+    "coordinates": {
+      "lat": -42.88,
+      "lon": 147.33
+    }
+  },
+  {
+    "id": "AU_electrical_grid_synergy_last_mile",
+    "tier": "transport",
+    "name": "Synergy Retail — Last Mile Delivery (WA)",
+    "country_iso2": "AU",
+    "operator_id": "AU_synergy",
+    "mode": "electrical_grid",
+    "form": "electrical",
+    "range": "local",
+    "coordinates": {
+      "lat": -31.95,
+      "lon": 115.86
+    }
+  },
+  {
+    "id": "AU_electrical_grid_alinta_last_mile",
+    "tier": "transport",
+    "name": "Alinta Energy Retail — Last Mile Delivery (WA)",
+    "country_iso2": "AU",
+    "operator_id": "AU_alinta_energy",
+    "mode": "electrical_grid",
+    "form": "electrical",
+    "range": "local",
+    "coordinates": {
+      "lat": -31.95,
+      "lon": 115.86
+    }
+  },
+  {
+    "id": "AU_electrical_grid_ergon_last_mile",
+    "tier": "transport",
+    "name": "Ergon Energy Retail — Last Mile Delivery (Regional QLD)",
+    "country_iso2": "AU",
+    "operator_id": "AU_ergon_energy",
+    "mode": "electrical_grid",
+    "form": "electrical",
+    "range": "local",
+    "coordinates": {
+      "lat": -19.29,
+      "lon": 146.79
+    }
+  }
+]

@@ -1,0 +1,29 @@
+{
+  "name": "stratcom2-orchestrator",
+  "version": "1.0.0",
+  "description": "Resource extraction site research orchestrator using Claude subagents",
+  "private": true,
+  "scripts": {
+    "orchestrate": "ts-node src/orchestrate.ts",
+    "orchestrate:dry": "ts-node src/orchestrate.ts --dry-run",
+    "viewer": "ts-node viewer/server.ts"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.54.0",
+    "@types/express": "^5.0.6",
+    "cesium": "^1.140.0",
+    "dotenv": "^17.4.1",
+    "express": "^5.2.1",
+    "graphology": "^0.26.0",
+    "graphology-communities-louvain": "^2.0.2",
+    "graphology-indices": "^0.17.0",
+    "graphology-metrics": "^2.4.0",
+    "graphology-shortest-path": "^2.1.0",
+    "graphology-utils": "^2.5.2"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.7.0"
+  }
+}

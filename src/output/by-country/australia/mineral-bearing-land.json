@@ -1,0 +1,3034 @@
+[
+  {
+    "id": "AU_bhp_olympic_dam",
+    "name": "Olympic Dam Mine",
+    "tier": "land_holder",
+    "country_iso2": "AU",
+    "canonical_company": "BHP",
+    "coordinates": {
+      "lat": -30.435,
+      "lon": 136.888
+    },
+    "downstream": [
+      {
+        "target_id": "AU_bhp_olympic_dam_ops",
+        "corridor_id": "AU_road_olympic-dam-roxby-downs",
+        "resource": "copper-uranium-gold bearing ore",
+        "quantity": 32000000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Mineral-Bearing Land"
+    ]
+  },
+  {
+    "id": "AU_rio_tinto_pilbara_tom_price",
+    "name": "Tom Price Iron Ore Mine",
+    "tier": "land_holder",
+    "country_iso2": "AU",
+    "canonical_company": "Rio Tinto",
+    "coordinates": {
+      "lat": -22.693,
+      "lon": 117.793
+    },
+    "downstream": [
+      {
+        "target_id": "AU_rio_tinto_pilbara_management",
+        "corridor_id": "AU_rail_pilbara-dampier",
+        "resource": "iron ore (hematite)",
+        "quantity": 70000000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Mineral-Bearing Land"
+    ]
+  },
+  {
+    "id": "AU_rio_tinto_pilbara_brockman",
+    "name": "Brockman 4 Iron Ore Mine",
+    "tier": "land_holder",
+    "country_iso2": "AU",
+    "canonical_company": "Rio Tinto",
+    "coordinates": {
+      "lat": -22.489,
+      "lon": 117.338
+    },
+    "downstream": [
+      {
+        "target_id": "AU_rio_tinto_pilbara_management",
+        "corridor_id": "AU_rail_pilbara-dampier",
+        "resource": "iron ore (hematite)",
+        "quantity": 55000000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Mineral-Bearing Land"
+    ]
+  },
+  {
+    "id": "AU_rio_tinto_pilbara_yandicoogina",
+    "name": "Yandicoogina Iron Ore Mine",
+    "tier": "land_holder",
+    "country_iso2": "AU",
+    "canonical_company": "Rio Tinto",
+    "coordinates": {
+      "lat": -22.73,
+      "lon": 119.28
+    },
+    "downstream": [
+      {
+        "target_id": "AU_rio_tinto_pilbara_management",
+        "corridor_id": "AU_rail_pilbara-dampier",
+        "resource": "iron ore (pisolite)",
+        "quantity": 56000000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Mineral-Bearing Land"
+    ]
+  },
+  {
+    "id": "AU_rio_tinto_pilbara_marandoo",
+    "name": "Marandoo Iron Ore Mine",
+    "tier": "land_holder",
+    "country_iso2": "AU",
+    "canonical_company": "Rio Tinto",
+    "coordinates": {
+      "lat": -22.635,
+      "lon": 118.139
+    },
+    "downstream": [
+      {
+        "target_id": "AU_rio_tinto_pilbara_management",
+        "corridor_id": "AU_rail_pilbara-dampier",
+        "resource": "iron ore (hematite)",
+        "quantity": 30000000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Mineral-Bearing Land"
+    ]
+  },
+  {
+    "id": "AU_bhp_jimblebar",
+    "name": "Jimblebar Iron Ore Mine",
+    "tier": "land_holder",
+    "country_iso2": "AU",
+    "canonical_company": "BHP",
+    "coordinates": {
+      "lat": -23.38,
+      "lon": 119.798
+    },
+    "downstream": [
+      {
+        "target_id": "AU_bhp_waio_management",
+        "corridor_id": "AU_rail_bhp-newman-port-hedland",
+        "resource": "iron ore",
+        "quantity": 60000000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Mineral-Bearing Land"
+    ]
+  },
+  {
+    "id": "AU_bhp_mining_area_c",
+    "name": "Mining Area C (MAC)",
+    "tier": "land_holder",
+    "country_iso2": "AU",
+    "canonical_company": "BHP",
+    "coordinates": {
+      "lat": -23.406,
+      "lon": 119.427
+    },
+    "downstream": [
+      {
+        "target_id": "AU_bhp_waio_management",
+        "corridor_id": "AU_rail_bhp-newman-port-hedland",
+        "resource": "iron ore",
+        "quantity": 100000000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Mineral-Bearing Land"
+    ]
+  },
+  {
+    "id": "AU_bhp_yandi",
+    "name": "Yandi Iron Ore Mine",
+    "tier": "land_holder",
+    "country_iso2": "AU",
+    "canonical_company": "BHP",
+    "coordinates": {
+      "lat": -22.72,
+      "lon": 119.09
+    },
+    "downstream": [
+      {
+        "target_id": "AU_bhp_waio_management",
+        "corridor_id": "AU_rail_bhp-newman-port-hedland",
+        "resource": "iron ore (pisolite)",
+        "quantity": 50000000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Mineral-Bearing Land"
+    ]
+  },
+  {
+    "id": "AU_fmg_chichester_hub",
+    "name": "Fortescue Chichester Hub (Christmas Creek & Cloudbreak)",
+    "tier": "land_holder",
+    "country_iso2": "AU",
+    "canonical_company": "Fortescue",
+    "coordinates": {
+      "lat": -22.35,
+      "lon": 119.72
+    },
+    "downstream": [
+      {
+        "target_id": "AU_fortescue_pilbara_management",
+        "corridor_id": "AU_rail_fmg-chichester-herb-elliott",
+        "resource": "iron ore",
+        "quantity": 100000000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Mineral-Bearing Land"
+    ]
+  },
+  {
+    "id": "AU_fmg_solomon_hub",
+    "name": "Fortescue Solomon Hub (Firetail & Kings Valley)",
+    "tier": "land_holder",
+    "country_iso2": "AU",
+    "canonical_company": "Fortescue",
+    "coordinates": {
+      "lat": -22.56,
+      "lon": 118.22
+    },
+    "downstream": [
+      {
+        "target_id": "AU_fortescue_pilbara_management",
+        "corridor_id": "AU_rail_fmg-solomon-herb-elliott",
+        "resource": "iron ore (hematite)",
+        "quantity": 70000000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Mineral-Bearing Land"
+    ]
+  },
+  {
+    "id": "AU_fmg_iron_bridge",
+    "name": "Iron Bridge Magnetite Mine",
+    "tier": "land_holder",
+    "country_iso2": "AU",
+    "canonical_company": "Fortescue",
+    "coordinates": {
+      "lat": -20.67,
+      "lon": 118.94
+    },
+    "downstream": [
+      {
+        "target_id": "AU_fortescue_pilbara_management",
+        "corridor_id": "AU_road_iron-bridge-port-hedland",
+        "resource": "magnetite concentrate",
+        "quantity": 22000000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Mineral-Bearing Land"
+    ]
+  },
+  {
+    "id": "AU_hancock_roy_hill",
+    "name": "Roy Hill Iron Ore Mine",
+    "tier": "land_holder",
+    "country_iso2": "AU",
+    "canonical_company": "Hancock Prospecting",
+    "coordinates": {
+      "lat": -22.6,
+      "lon": 119.95
+    },
+    "downstream": [
+      {
+        "target_id": "AU_roy_hill_management",
+        "corridor_id": "AU_rail_roy-hill-port-hedland",
+        "resource": "iron ore",
+        "quantity": 65000000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Mineral-Bearing Land"
+    ]
+  },
+  {
+    "id": "AU_mineral_resources_wodgina",
+    "name": "Wodgina Lithium Mine",
+    "tier": "land_holder",
+    "country_iso2": "AU",
+    "canonical_company": "Mineral Resources",
+    "coordinates": {
+      "lat": -20.78,
+      "lon": 118.67
+    },
+    "downstream": [
+      {
+        "target_id": "AU_albemarle_wodgina_management",
+        "corridor_id": "AU_road_wodgina-port-hedland",
+        "resource": "spodumene bearing pegmatite ore",
+        "quantity": 3000000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Mineral-Bearing Land"
+    ]
+  },
+  {
+    "id": "AU_pilgangoora_mine",
+    "name": "Pilgangoora Lithium-Tantalum Mine",
+    "tier": "land_holder",
+    "country_iso2": "AU",
+    "canonical_company": "Pilbara Minerals",
+    "coordinates": {
+      "lat": -20.88,
+      "lon": 118.82
+    },
+    "downstream": [
+      {
+        "target_id": "AU_pilbara_minerals_management",
+        "corridor_id": "AU_road_pilgangoora-port-hedland",
+        "resource": "spodumene bearing pegmatite ore",
+        "quantity": 5200000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Mineral-Bearing Land"
+    ]
+  },
+  {
+    "id": "AU_glencore_mount_isa",
+    "name": "Mount Isa Mines (Copper-Zinc-Lead-Silver)",
+    "tier": "land_holder",
+    "country_iso2": "AU",
+    "canonical_company": "Glencore",
+    "coordinates": {
+      "lat": -20.726,
+      "lon": 139.493
+    },
+    "downstream": [
+      {
+        "target_id": "AU_glencore_mount_isa_management",
+        "corridor_id": "AU_rail_mount-isa-townsville",
+        "resource": "copper-zinc-lead bearing ore",
+        "quantity": 10000000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Mineral-Bearing Land"
+    ]
+  },
+  {
+    "id": "AU_south32_worsley",
+    "name": "Worsley Bauxite Mine",
+    "tier": "land_holder",
+    "country_iso2": "AU",
+    "canonical_company": "South32",
+    "coordinates": {
+      "lat": -32.85,
+      "lon": 116.3
+    },
+    "downstream": [
+      {
+        "target_id": "AU_south32_worsley_management",
+        "corridor_id": "AU_conveyor_worsley-refinery",
+        "resource": "bauxite ore",
+        "quantity": 16000000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Mineral-Bearing Land"
+    ]
+  },
+  {
+    "id": "AU_alcoa_huntly",
+    "name": "Huntly Bauxite Mine",
+    "tier": "land_holder",
+    "country_iso2": "AU",
+    "canonical_company": "Alcoa",
+    "coordinates": {
+      "lat": -32.6,
+      "lon": 116.09
+    },
+    "downstream": [
+      {
+        "target_id": "AU_alcoa_wa_management",
+        "corridor_id": "AU_conveyor_huntly-pinjarra",
+        "resource": "bauxite ore",
+        "quantity": 25000000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Mineral-Bearing Land"
+    ]
+  },
+  {
+    "id": "AU_alcoa_willowdale",
+    "name": "Willowdale Bauxite Mine",
+    "tier": "land_holder",
+    "country_iso2": "AU",
+    "canonical_company": "Alcoa",
+    "coordinates": {
+      "lat": -32.68,
+      "lon": 116.08
+    },
+    "downstream": [
+      {
+        "target_id": "AU_alcoa_wa_management",
+        "corridor_id": "AU_conveyor_willowdale-wagerup",
+        "resource": "bauxite ore",
+        "quantity": 10000000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Mineral-Bearing Land"
+    ]
+  },
+  {
+    "id": "AU_bhp_mt_whaleback",
+    "name": "Mt Whaleback Iron Ore Mine (Newman)",
+    "tier": "land_holder",
+    "country_iso2": "AU",
+    "canonical_company": "BHP",
+    "coordinates": {
+      "lat": -23.35,
+      "lon": 119.68
+    },
+    "downstream": [
+      {
+        "target_id": "AU_bhp_waio_management",
+        "corridor_id": "AU_rail_bhp-newman-port-hedland",
+        "resource": "iron ore (hematite)",
+        "quantity": 40000000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Mineral-Bearing Land"
+    ]
+  },
+  {
+    "id": "AU_iluka_jacinth_ambrosia",
+    "name": "Jacinth-Ambrosia Mineral Sands Mine",
+    "tier": "land_holder",
+    "country_iso2": "AU",
+    "canonical_company": "Iluka Resources",
+    "coordinates": {
+      "lat": -31.26,
+      "lon": 131.4
+    },
+    "downstream": [
+      {
+        "target_id": "AU_iluka_resources_management",
+        "corridor_id": "AU_road_jacinth-ceduna",
+        "resource": "heavy mineral sands (zircon, rutile, ilmenite bearing)",
+        "quantity": 2500000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Mineral-Bearing Land"
+    ]
+  },
+  {
+    "id": "AU_bhp_nickel_west_mt_keith",
+    "name": "Mt Keith Nickel Mine",
+    "tier": "land_holder",
+    "country_iso2": "AU",
+    "canonical_company": "BHP",
+    "coordinates": {
+      "lat": -27.23,
+      "lon": 120.54
+    },
+    "downstream": [
+      {
+        "target_id": "AU_bhp_nickel_west_management",
+        "corridor_id": "AU_road_mt-keith-leinster",
+        "resource": "nickel sulphide ore",
+        "quantity": 10000000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Mineral-Bearing Land"
+    ]
+  },
+  {
+    "id": "AU_bhp_goonyella",
+    "name": "Goonyella Riverside Coking Coal Mine",
+    "tier": "land_holder",
+    "country_iso2": "AU",
+    "canonical_company": "BHP",
+    "coordinates": {
+      "lat": -21.82,
+      "lon": 148.1
+    },
+    "downstream": [
+      {
+        "target_id": "AU_bhp_bma_management",
+        "corridor_id": "AU_rail_goonyella-hay-point",
+        "resource": "premium coking coal bearing material",
+        "quantity": 15000000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Mineral-Bearing Land"
+    ]
+  },
+  {
+    "id": "AU_lynas_mt_weld",
+    "name": "Mt Weld Rare Earths Mine",
+    "tier": "land_holder",
+    "country_iso2": "AU",
+    "canonical_company": "Lynas Rare Earths",
+    "coordinates": {
+      "lat": -28.77,
+      "lon": 122.54
+    },
+    "downstream": [
+      {
+        "target_id": "AU_lynas_rare_earths_management",
+        "corridor_id": "AU_road_mt-weld-fremantle",
+        "resource": "rare earth bearing ore (monazite/xenotime)",
+        "quantity": 1200000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [],
+    "resources": [
+      "Mineral-Bearing Land"
+    ]
+  },
+  {
+    "id": "AU_rio_tinto_pilbara_management",
+    "name": "Rio Tinto Iron Ore (Pilbara Operations Management)",
+    "tier": "land_manager",
+    "country_iso2": "AU",
+    "canonical_company": "Rio Tinto",
+    "coordinates": {
+      "lat": -20.73,
+      "lon": 116.84
+    },
+    "downstream": [
+      {
+        "target_id": "AU_rio_tinto_dampier_port",
+        "corridor_id": "AU_rail_pilbara-dampier",
+        "resource": "iron ore (crushed and screened)",
+        "quantity": 211000000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_rio_tinto_cape_lambert_port",
+        "corridor_id": "AU_rail_pilbara-cape-lambert",
+        "resource": "iron ore (blended lump and fines)",
+        "quantity": 120000000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_rio_tinto_pilbara_tom_price",
+      "AU_rio_tinto_pilbara_brockman",
+      "AU_rio_tinto_pilbara_yandicoogina",
+      "AU_rio_tinto_pilbara_marandoo"
+    ],
+    "resources": [
+      "Mineral-Bearing Land"
+    ]
+  },
+  {
+    "id": "AU_bhp_waio_management",
+    "name": "BHP Western Australia Iron Ore (WAIO) Management",
+    "tier": "land_manager",
+    "country_iso2": "AU",
+    "canonical_company": "BHP",
+    "coordinates": {
+      "lat": -20.31,
+      "lon": 118.6
+    },
+    "downstream": [
+      {
+        "target_id": "AU_bhp_port_hedland_terminal",
+        "corridor_id": "AU_rail_bhp-newman-port-hedland",
+        "resource": "iron ore (lump and fines)",
+        "quantity": 250000000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_bhp_jimblebar",
+      "AU_bhp_mining_area_c",
+      "AU_bhp_yandi",
+      "AU_bhp_mt_whaleback"
+    ],
+    "resources": [
+      "Mineral-Bearing Land"
+    ]
+  },
+  {
+    "id": "AU_fortescue_pilbara_management",
+    "name": "Fortescue Pilbara Operations Management",
+    "tier": "land_manager",
+    "country_iso2": "AU",
+    "canonical_company": "Fortescue",
+    "coordinates": {
+      "lat": -20.3,
+      "lon": 118.58
+    },
+    "downstream": [
+      {
+        "target_id": "AU_fortescue_herb_elliott_port",
+        "corridor_id": "AU_rail_fmg-herb-elliott-port",
+        "resource": "iron ore (fines and magnetite concentrate)",
+        "quantity": 192000000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_fmg_chichester_hub",
+      "AU_fmg_solomon_hub",
+      "AU_fmg_iron_bridge"
+    ],
+    "resources": [
+      "Mineral-Bearing Land"
+    ]
+  },
+  {
+    "id": "AU_roy_hill_management",
+    "name": "Roy Hill Holdings Operations Management",
+    "tier": "land_manager",
+    "country_iso2": "AU",
+    "canonical_company": "Hancock Prospecting",
+    "coordinates": {
+      "lat": -22.6,
+      "lon": 119.95
+    },
+    "downstream": [
+      {
+        "target_id": "AU_roy_hill_port_hedland_terminal",
+        "corridor_id": "AU_rail_roy-hill-port-hedland",
+        "resource": "iron ore",
+        "quantity": 65000000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_hancock_roy_hill"
+    ],
+    "resources": [
+      "Mineral-Bearing Land"
+    ]
+  },
+  {
+    "id": "AU_bhp_olympic_dam_ops",
+    "name": "BHP Olympic Dam Operations Management",
+    "tier": "land_manager",
+    "country_iso2": "AU",
+    "canonical_company": "BHP",
+    "coordinates": {
+      "lat": -30.435,
+      "lon": 136.888
+    },
+    "downstream": [
+      {
+        "target_id": "AU_bhp_olympic_dam_processing",
+        "corridor_id": "AU_conveyor_olympic-dam-mill",
+        "resource": "copper-uranium-gold concentrate",
+        "quantity": 600000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_bhp_olympic_dam"
+    ],
+    "resources": [
+      "Mineral-Bearing Land"
+    ]
+  },
+  {
+    "id": "AU_talison_lithium_management",
+    "name": "Talison Lithium Operations Management (Greenbushes)",
+    "tier": "land_manager",
+    "country_iso2": "AU",
+    "canonical_company": "Talison Lithium",
+    "coordinates": {
+      "lat": -33.859,
+      "lon": 116.059
+    },
+    "downstream": [
+      {
+        "target_id": "AU_tianqi_lithium_kwinana",
+        "corridor_id": "AU_road_greenbushes-kwinana",
+        "resource": "spodumene concentrate (6% Li2O)",
+        "quantity": 800000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_albemarle_kemerton",
+        "corridor_id": "AU_road_greenbushes-kemerton",
+        "resource": "spodumene concentrate (6% Li2O)",
+        "quantity": 600000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_greenbushes_mine"
+    ],
+    "resources": [
+      "Mineral-Bearing Land"
+    ]
+  },
+  {
+    "id": "AU_pilbara_minerals_management",
+    "name": "Pilbara Minerals Operations Management (Pilgangoora)",
+    "tier": "land_manager",
+    "country_iso2": "AU",
+    "canonical_company": "Pilbara Minerals",
+    "coordinates": {
+      "lat": -20.88,
+      "lon": 118.82
+    },
+    "downstream": [
+      {
+        "target_id": "AU_pilbara_minerals_port_hedland_export",
+        "corridor_id": "AU_road_pilgangoora-port-hedland",
+        "resource": "spodumene concentrate (5.5-6% Li2O)",
+        "quantity": 700000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_pilgangoora_mine"
+    ],
+    "resources": [
+      "Mineral-Bearing Land"
+    ]
+  },
+  {
+    "id": "AU_albemarle_wodgina_management",
+    "name": "Albemarle/MinRes Wodgina Operations Management",
+    "tier": "land_manager",
+    "country_iso2": "AU",
+    "canonical_company": "Albemarle",
+    "coordinates": {
+      "lat": -20.78,
+      "lon": 118.67
+    },
+    "downstream": [
+      {
+        "target_id": "AU_albemarle_kemerton",
+        "corridor_id": "AU_road_wodgina-kemerton",
+        "resource": "spodumene concentrate",
+        "quantity": 250000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_mineral_resources_wodgina"
+    ],
+    "resources": [
+      "Mineral-Bearing Land"
+    ]
+  },
+  {
+    "id": "AU_allkem_mt_cattlin_management",
+    "name": "Allkem Mt Cattlin Operations Management",
+    "tier": "land_manager",
+    "country_iso2": "AU",
+    "canonical_company": "Allkem",
+    "coordinates": {
+      "lat": -33.54,
+      "lon": 119.71
+    },
+    "downstream": [
+      {
+        "target_id": "AU_allkem_esperance_export",
+        "corridor_id": "AU_road_mt-cattlin-esperance",
+        "resource": "spodumene concentrate",
+        "quantity": 150000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_mt_cattlin_mine"
+    ],
+    "resources": [
+      "Mineral-Bearing Land"
+    ]
+  },
+  {
+    "id": "AU_newmont_cadia_management",
+    "name": "Newmont Cadia Operations Management",
+    "tier": "land_manager",
+    "country_iso2": "AU",
+    "canonical_company": "Newmont",
+    "coordinates": {
+      "lat": -33.474,
+      "lon": 148.998
+    },
+    "downstream": [
+      {
+        "target_id": "AU_newmont_cadia_processing",
+        "corridor_id": "AU_conveyor_cadia-mill",
+        "resource": "gold-copper concentrate",
+        "quantity": 500000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_newcrest_cadia"
+    ],
+    "resources": [
+      "Mineral-Bearing Land"
+    ]
+  },
+  {
+    "id": "AU_newmont_boddington_management",
+    "name": "Newmont Boddington Operations Management",
+    "tier": "land_manager",
+    "country_iso2": "AU",
+    "canonical_company": "Newmont",
+    "coordinates": {
+      "lat": -32.747,
+      "lon": 116.376
+    },
+    "downstream": [
+      {
+        "target_id": "AU_newmont_boddington_processing",
+        "corridor_id": "AU_conveyor_boddington-mill",
+        "resource": "gold-copper concentrate and doré",
+        "quantity": 400000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_newmont_boddington"
+    ],
+    "resources": [
+      "Mineral-Bearing Land"
+    ]
+  },
+  {
+    "id": "AU_northern_star_kalgoorlie_management",
+    "name": "Northern Star KCGM Operations Management",
+    "tier": "land_manager",
+    "country_iso2": "AU",
+    "canonical_company": "Northern Star Resources",
+    "coordinates": {
+      "lat": -30.78,
+      "lon": 121.5
+    },
+    "downstream": [
+      {
+        "target_id": "AU_northern_star_fimiston_processing",
+        "corridor_id": "AU_conveyor_kcgm-fimiston",
+        "resource": "gold bearing concentrate and doré",
+        "quantity": 200000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_northern_star_kalgoorlie"
+    ],
+    "resources": [
+      "Mineral-Bearing Land"
+    ]
+  },
+  {
+    "id": "AU_glencore_mount_isa_management",
+    "name": "Glencore Mount Isa Operations Management",
+    "tier": "land_manager",
+    "country_iso2": "AU",
+    "canonical_company": "Glencore",
+    "coordinates": {
+      "lat": -20.726,
+      "lon": 139.493
+    },
+    "downstream": [
+      {
+        "target_id": "AU_glencore_mount_isa_smelter",
+        "corridor_id": "AU_conveyor_mount-isa-smelter",
+        "resource": "copper-lead-zinc concentrate",
+        "quantity": 700000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_glencore_mount_isa"
+    ],
+    "resources": [
+      "Mineral-Bearing Land"
+    ]
+  },
+  {
+    "id": "AU_south32_worsley_management",
+    "name": "South32 Worsley Alumina Operations Management",
+    "tier": "land_manager",
+    "country_iso2": "AU",
+    "canonical_company": "South32",
+    "coordinates": {
+      "lat": -32.93,
+      "lon": 116.42
+    },
+    "downstream": [
+      {
+        "target_id": "AU_south32_worsley_refinery",
+        "corridor_id": "AU_conveyor_worsley-refinery",
+        "resource": "bauxite ore",
+        "quantity": 16000000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_south32_worsley"
+    ],
+    "resources": [
+      "Mineral-Bearing Land"
+    ]
+  },
+  {
+    "id": "AU_alcoa_wa_management",
+    "name": "Alcoa Western Australia Operations Management",
+    "tier": "land_manager",
+    "country_iso2": "AU",
+    "canonical_company": "Alcoa",
+    "coordinates": {
+      "lat": -32.6,
+      "lon": 116.09
+    },
+    "downstream": [
+      {
+        "target_id": "AU_alcoa_pinjarra_refinery",
+        "corridor_id": "AU_conveyor_huntly-pinjarra",
+        "resource": "bauxite ore",
+        "quantity": 25000000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_alcoa_wagerup_refinery",
+        "corridor_id": "AU_conveyor_willowdale-wagerup",
+        "resource": "bauxite ore",
+        "quantity": 10000000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_alcoa_huntly",
+      "AU_alcoa_willowdale"
+    ],
+    "resources": [
+      "Mineral-Bearing Land"
+    ]
+  },
+  {
+    "id": "AU_rio_tinto_weipa_management",
+    "name": "Rio Tinto Weipa Bauxite Operations Management",
+    "tier": "land_manager",
+    "country_iso2": "AU",
+    "canonical_company": "Rio Tinto",
+    "coordinates": {
+      "lat": -12.64,
+      "lon": 141.87
+    },
+    "downstream": [
+      {
+        "target_id": "AU_rio_tinto_yarwun_refinery",
+        "corridor_id": "AU_ocean_weipa-gladstone",
+        "resource": "bauxite ore",
+        "quantity": 23000000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_rio_tinto_weipa_export",
+        "corridor_id": "AU_ocean_weipa-export",
+        "resource": "bauxite ore (export grade)",
+        "quantity": 12000000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_rio_tinto_weipa"
+    ],
+    "resources": [
+      "Mineral-Bearing Land"
+    ]
+  },
+  {
+    "id": "AU_iluka_resources_management",
+    "name": "Iluka Resources Operations Management",
+    "tier": "land_manager",
+    "country_iso2": "AU",
+    "canonical_company": "Iluka Resources",
+    "coordinates": {
+      "lat": -31.26,
+      "lon": 131.4
+    },
+    "downstream": [
+      {
+        "target_id": "AU_iluka_narngulu_processing",
+        "corridor_id": "AU_rail_ceduna-narngulu",
+        "resource": "heavy mineral concentrate",
+        "quantity": 700000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_iluka_jacinth_ambrosia"
+    ],
+    "resources": [
+      "Mineral-Bearing Land"
+    ]
+  },
+  {
+    "id": "AU_bhp_nickel_west_management",
+    "name": "BHP Nickel West Operations Management",
+    "tier": "land_manager",
+    "country_iso2": "AU",
+    "canonical_company": "BHP",
+    "coordinates": {
+      "lat": -27.23,
+      "lon": 120.54
+    },
+    "downstream": [
+      {
+        "target_id": "AU_bhp_nickel_west_kwinana_refinery",
+        "corridor_id": "AU_road_leinster-kwinana",
+        "resource": "nickel concentrate and matte",
+        "quantity": 200000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_bhp_nickel_west_mt_keith"
+    ],
+    "resources": [
+      "Mineral-Bearing Land"
+    ]
+  },
+  {
+    "id": "AU_whitehaven_coal_management",
+    "name": "Whitehaven Coal Operations Management",
+    "tier": "land_manager",
+    "country_iso2": "AU",
+    "canonical_company": "Whitehaven Coal",
+    "coordinates": {
+      "lat": -30.98,
+      "lon": 150.25
+    },
+    "downstream": [
+      {
+        "target_id": "AU_whitehaven_newcastle_export",
+        "corridor_id": "AU_rail_gunnedah-newcastle",
+        "resource": "washed coal product",
+        "quantity": 10000000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_whitehaven_maules_creek"
+    ],
+    "resources": [
+      "Mineral-Bearing Land"
+    ]
+  },
+  {
+    "id": "AU_bhp_coal_nsw_management",
+    "name": "BHP NSW Coal Operations Management",
+    "tier": "land_manager",
+    "country_iso2": "AU",
+    "canonical_company": "BHP",
+    "coordinates": {
+      "lat": -32.34,
+      "lon": 150.87
+    },
+    "downstream": [
+      {
+        "target_id": "AU_bhp_ncig_newcastle_export",
+        "corridor_id": "AU_rail_hunter-valley-newcastle",
+        "resource": "thermal coal",
+        "quantity": 12000000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_bhp_mt_arthur"
+    ],
+    "resources": [
+      "Mineral-Bearing Land"
+    ]
+  },
+  {
+    "id": "AU_bhp_bma_management",
+    "name": "BHP Mitsubishi Alliance (BMA) Operations Management",
+    "tier": "land_manager",
+    "country_iso2": "AU",
+    "canonical_company": "BHP",
+    "coordinates": {
+      "lat": -21.82,
+      "lon": 148.1
+    },
+    "downstream": [
+      {
+        "target_id": "AU_bhp_bma_hay_point_export",
+        "corridor_id": "AU_rail_goonyella-hay-point",
+        "resource": "premium hard coking coal",
+        "quantity": 15000000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_bhp_goonyella"
+    ],
+    "resources": [
+      "Mineral-Bearing Land"
+    ]
+  },
+  {
+    "id": "AU_lynas_rare_earths_management",
+    "name": "Lynas Rare Earths Operations Management",
+    "tier": "land_manager",
+    "country_iso2": "AU",
+    "canonical_company": "Lynas Rare Earths",
+    "coordinates": {
+      "lat": -28.77,
+      "lon": 122.54
+    },
+    "downstream": [
+      {
+        "target_id": "AU_lynas_kalgoorlie_processing",
+        "corridor_id": "AU_road_mt-weld-kalgoorlie",
+        "resource": "rare earth concentrate",
+        "quantity": 280000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_lynas_mt_weld"
+    ],
+    "resources": [
+      "Mineral-Bearing Land"
+    ]
+  },
+  {
+    "id": "AU_bhp_port_hedland_terminal",
+    "name": "BHP Port Hedland (Nelson Point / Finucane Island)",
+    "tier": "production_user",
+    "country_iso2": "AU",
+    "canonical_company": "BHP",
+    "coordinates": {
+      "lat": -20.31,
+      "lon": 118.58
+    },
+    "downstream": [
+      {
+        "target_id": "CN_chinese_steel_mills",
+        "corridor_id": "INTL_ocean_port-hedland-tianjin",
+        "resource": "iron ore (lump and fines)",
+        "quantity": 175000000,
+        "metric": "t"
+      },
+      {
+        "target_id": "JP_japanese_steel_mills",
+        "corridor_id": "INTL_ocean_port-hedland-kashima",
+        "resource": "iron ore",
+        "quantity": 35000000,
+        "metric": "t"
+      },
+      {
+        "target_id": "KR_korean_steel_mills",
+        "corridor_id": "INTL_ocean_port-hedland-pohang",
+        "resource": "iron ore",
+        "quantity": 25000000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_bhp_waio_management"
+    ],
+    "resources": [
+      "Mineral-Bearing Land"
+    ]
+  },
+  {
+    "id": "AU_fortescue_herb_elliott_port",
+    "name": "Fortescue Herb Elliott Port (Port Hedland)",
+    "tier": "production_user",
+    "country_iso2": "AU",
+    "canonical_company": "Fortescue",
+    "coordinates": {
+      "lat": -20.28,
+      "lon": 118.56
+    },
+    "downstream": [
+      {
+        "target_id": "CN_chinese_steel_mills",
+        "corridor_id": "INTL_ocean_port-hedland-rizhao",
+        "resource": "iron ore (fines and magnetite concentrate)",
+        "quantity": 170000000,
+        "metric": "t"
+      },
+      {
+        "target_id": "IN_indian_steel_mills",
+        "corridor_id": "INTL_ocean_port-hedland-visakhapatnam",
+        "resource": "iron ore",
+        "quantity": 12000000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_fortescue_pilbara_management"
+    ],
+    "resources": [
+      "Mineral-Bearing Land"
+    ]
+  },
+  {
+    "id": "AU_bhp_olympic_dam_processing",
+    "name": "BHP Olympic Dam Concentrator & Smelter-Refinery",
+    "tier": "production_user",
+    "country_iso2": "AU",
+    "canonical_company": "BHP",
+    "coordinates": {
+      "lat": -30.44,
+      "lon": 136.89
+    },
+    "downstream": [
+      {
+        "target_id": "AU_bhp_olympic_dam_refined_metals",
+        "corridor_id": "AU_road_olympic-dam-adelaide",
+        "resource": "refined copper cathode, uranium oxide, gold doré",
+        "quantity": 250000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_bhp_olympic_dam_ops"
+    ],
+    "resources": [
+      "Mineral-Bearing Land"
+    ]
+  },
+  {
+    "id": "AU_pilbara_minerals_port_hedland_export",
+    "name": "Pilbara Minerals Port Hedland Export Terminal",
+    "tier": "production_user",
+    "country_iso2": "AU",
+    "canonical_company": "Pilbara Minerals",
+    "coordinates": {
+      "lat": -20.31,
+      "lon": 118.58
+    },
+    "downstream": [
+      {
+        "target_id": "CN_chinese_lithium_converters",
+        "corridor_id": "INTL_ocean_port-hedland-zhanjiang",
+        "resource": "spodumene concentrate",
+        "quantity": 500000,
+        "metric": "t"
+      },
+      {
+        "target_id": "KR_korean_lithium_converters",
+        "corridor_id": "INTL_ocean_port-hedland-ulsan",
+        "resource": "spodumene concentrate",
+        "quantity": 200000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_pilbara_minerals_management"
+    ],
+    "resources": [
+      "Mineral-Bearing Land"
+    ]
+  },
+  {
+    "id": "AU_allkem_esperance_export",
+    "name": "Allkem Esperance Port Export",
+    "tier": "production_user",
+    "country_iso2": "AU",
+    "canonical_company": "Allkem",
+    "coordinates": {
+      "lat": -33.86,
+      "lon": 121.89
+    },
+    "downstream": [
+      {
+        "target_id": "CN_chinese_lithium_converters",
+        "corridor_id": "INTL_ocean_esperance-china",
+        "resource": "spodumene concentrate",
+        "quantity": 150000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_allkem_mt_cattlin_management"
+    ],
+    "resources": [
+      "Mineral-Bearing Land"
+    ]
+  },
+  {
+    "id": "AU_newmont_cadia_processing",
+    "name": "Newmont Cadia Concentrator",
+    "tier": "production_user",
+    "country_iso2": "AU",
+    "canonical_company": "Newmont",
+    "coordinates": {
+      "lat": -33.474,
+      "lon": 148.998
+    },
+    "downstream": [
+      {
+        "target_id": "INTL_copper_smelters",
+        "corridor_id": "INTL_ocean_sydney-asia",
+        "resource": "gold-copper concentrate",
+        "quantity": 480000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_newmont_cadia_management"
+    ],
+    "resources": [
+      "Mineral-Bearing Land"
+    ]
+  },
+  {
+    "id": "AU_newmont_boddington_processing",
+    "name": "Newmont Boddington Processing Plant",
+    "tier": "production_user",
+    "country_iso2": "AU",
+    "canonical_company": "Newmont",
+    "coordinates": {
+      "lat": -32.747,
+      "lon": 116.376
+    },
+    "downstream": [
+      {
+        "target_id": "AU_perth_mint",
+        "corridor_id": "AU_road_boddington-perth",
+        "resource": "gold doré",
+        "quantity": 25,
+        "metric": "t"
+      },
+      {
+        "target_id": "INTL_copper_smelters",
+        "corridor_id": "INTL_ocean_fremantle-asia",
+        "resource": "gold-copper concentrate",
+        "quantity": 350000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_newmont_boddington_management"
+    ],
+    "resources": [
+      "Mineral-Bearing Land"
+    ]
+  },
+  {
+    "id": "AU_northern_star_fimiston_processing",
+    "name": "Northern Star Fimiston Processing Plant",
+    "tier": "production_user",
+    "country_iso2": "AU",
+    "canonical_company": "Northern Star Resources",
+    "coordinates": {
+      "lat": -30.77,
+      "lon": 121.49
+    },
+    "downstream": [
+      {
+        "target_id": "AU_perth_mint",
+        "corridor_id": "AU_road_kalgoorlie-perth",
+        "resource": "gold doré",
+        "quantity": 20,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_northern_star_kalgoorlie_management"
+    ],
+    "resources": [
+      "Mineral-Bearing Land"
+    ]
+  },
+  {
+    "id": "AU_rio_tinto_weipa_export",
+    "name": "Rio Tinto Weipa Export Bauxite Terminal",
+    "tier": "production_user",
+    "country_iso2": "AU",
+    "canonical_company": "Rio Tinto",
+    "coordinates": {
+      "lat": -12.64,
+      "lon": 141.87
+    },
+    "downstream": [
+      {
+        "target_id": "CN_chinese_alumina_refineries",
+        "corridor_id": "INTL_ocean_weipa-china",
+        "resource": "bauxite ore (export)",
+        "quantity": 12000000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_rio_tinto_weipa_management"
+    ],
+    "resources": [
+      "Mineral-Bearing Land"
+    ]
+  },
+  {
+    "id": "AU_iluka_narngulu_processing",
+    "name": "Iluka Narngulu Mineral Separation Plant",
+    "tier": "production_user",
+    "country_iso2": "AU",
+    "canonical_company": "Iluka Resources",
+    "coordinates": {
+      "lat": -28.77,
+      "lon": 114.67
+    },
+    "downstream": [
+      {
+        "target_id": "INTL_zircon_ceramic_manufacturers",
+        "corridor_id": "INTL_ocean_geraldton-intl",
+        "resource": "zircon, rutile, synthetic rutile",
+        "quantity": 400000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_iluka_resources_management"
+    ],
+    "resources": [
+      "Mineral-Bearing Land"
+    ]
+  },
+  {
+    "id": "AU_whitehaven_newcastle_export",
+    "name": "Whitehaven Coal Newcastle Export via NCIG/PWCS",
+    "tier": "production_user",
+    "country_iso2": "AU",
+    "canonical_company": "Whitehaven Coal",
+    "coordinates": {
+      "lat": -32.92,
+      "lon": 151.78
+    },
+    "downstream": [
+      {
+        "target_id": "JP_japanese_power_and_steel",
+        "corridor_id": "INTL_ocean_newcastle-japan",
+        "resource": "high-CV thermal and semi-soft coking coal",
+        "quantity": 6000000,
+        "metric": "t"
+      },
+      {
+        "target_id": "KR_korean_power_and_steel",
+        "corridor_id": "INTL_ocean_newcastle-korea",
+        "resource": "high-CV thermal coal",
+        "quantity": 2500000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_whitehaven_coal_management"
+    ],
+    "resources": [
+      "Mineral-Bearing Land"
+    ]
+  },
+  {
+    "id": "AU_bhp_ncig_newcastle_export",
+    "name": "BHP Newcastle Coal Export (NCIG)",
+    "tier": "production_user",
+    "country_iso2": "AU",
+    "canonical_company": "BHP",
+    "coordinates": {
+      "lat": -32.91,
+      "lon": 151.78
+    },
+    "downstream": [
+      {
+        "target_id": "JP_japanese_power_and_steel",
+        "corridor_id": "INTL_ocean_newcastle-japan",
+        "resource": "thermal coal",
+        "quantity": 7000000,
+        "metric": "t"
+      },
+      {
+        "target_id": "IN_indian_power_plants",
+        "corridor_id": "INTL_ocean_newcastle-india",
+        "resource": "thermal coal",
+        "quantity": 3000000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_bhp_coal_nsw_management"
+    ],
+    "resources": [
+      "Mineral-Bearing Land"
+    ]
+  },
+  {
+    "id": "AU_bhp_bma_hay_point_export",
+    "name": "BHP BMA Hay Point Coal Export Terminal",
+    "tier": "production_user",
+    "country_iso2": "AU",
+    "canonical_company": "BHP",
+    "coordinates": {
+      "lat": -21.28,
+      "lon": 149.3
+    },
+    "downstream": [
+      {
+        "target_id": "CN_chinese_steel_mills",
+        "corridor_id": "INTL_ocean_hay-point-china",
+        "resource": "premium hard coking coal",
+        "quantity": 7000000,
+        "metric": "t"
+      },
+      {
+        "target_id": "JP_japanese_power_and_steel",
+        "corridor_id": "INTL_ocean_hay-point-japan",
+        "resource": "premium hard coking coal",
+        "quantity": 4000000,
+        "metric": "t"
+      },
+      {
+        "target_id": "IN_indian_steel_mills",
+        "corridor_id": "INTL_ocean_hay-point-india",
+        "resource": "premium hard coking coal",
+        "quantity": 2500000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_bhp_bma_management"
+    ],
+    "resources": [
+      "Mineral-Bearing Land"
+    ]
+  },
+  {
+    "id": "AU_lynas_kalgoorlie_processing",
+    "name": "Lynas Kalgoorlie Rare Earths Cracking & Leaching Plant",
+    "tier": "production_user",
+    "country_iso2": "AU",
+    "canonical_company": "Lynas Rare Earths",
+    "coordinates": {
+      "lat": -30.75,
+      "lon": 121.47
+    },
+    "downstream": [
+      {
+        "target_id": "MY_lynas_kuantan_refinery",
+        "corridor_id": "INTL_ocean_fremantle-kuantan",
+        "resource": "mixed rare earth carbonate / chloride",
+        "quantity": 45000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_lynas_rare_earths_management"
+    ],
+    "resources": [
+      "Mineral-Bearing Land"
+    ]
+  },
+  {
+    "id": "CN_chinese_steel_mills",
+    "name": "Chinese Integrated Steel Mills (collective)",
+    "tier": "downstream_processor",
+    "country_iso2": "CN",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": 36.07,
+      "lon": 120.38
+    },
+    "downstream": [
+      {
+        "target_id": "CN_industrial",
+        "corridor_id": "CN_road_steel-distribution",
+        "resource": "finished steel products",
+        "quantity": 300000000,
+        "metric": "t"
+      },
+      {
+        "target_id": "CN_infrastructure",
+        "corridor_id": "CN_rail_steel-infrastructure",
+        "resource": "construction steel",
+        "quantity": 200000000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_rio_tinto_dampier_port",
+      "AU_rio_tinto_cape_lambert_port",
+      "AU_bhp_port_hedland_terminal",
+      "AU_fortescue_herb_elliott_port",
+      "AU_roy_hill_port_hedland_terminal",
+      "AU_bhp_bma_hay_point_export"
+    ],
+    "resources": [
+      "Mineral-Bearing Land"
+    ]
+  },
+  {
+    "id": "JP_japanese_steel_mills",
+    "name": "Japanese Integrated Steel Mills (Nippon Steel, JFE)",
+    "tier": "downstream_processor",
+    "country_iso2": "JP",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": 34.77,
+      "lon": 136.72
+    },
+    "downstream": [
+      {
+        "target_id": "JP_industrial",
+        "corridor_id": "JP_road_steel-distribution",
+        "resource": "finished steel products",
+        "quantity": 45000000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_rio_tinto_dampier_port",
+      "AU_bhp_port_hedland_terminal"
+    ],
+    "resources": [
+      "Mineral-Bearing Land"
+    ]
+  },
+  {
+    "id": "KR_korean_steel_mills",
+    "name": "Korean Steel Mills (POSCO, Hyundai Steel)",
+    "tier": "downstream_processor",
+    "country_iso2": "KR",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": 36.02,
+      "lon": 129.37
+    },
+    "downstream": [
+      {
+        "target_id": "KR_industrial",
+        "corridor_id": "KR_road_steel-distribution",
+        "resource": "finished steel products",
+        "quantity": 35000000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_rio_tinto_dampier_port",
+      "AU_bhp_port_hedland_terminal",
+      "AU_roy_hill_port_hedland_terminal"
+    ],
+    "resources": [
+      "Mineral-Bearing Land"
+    ]
+  },
+  {
+    "id": "TW_taiwanese_steel_mills",
+    "name": "Taiwanese Steel Mills (China Steel Corp)",
+    "tier": "downstream_processor",
+    "country_iso2": "TW",
+    "canonical_company": "China Steel Corporation",
+    "coordinates": {
+      "lat": 22.57,
+      "lon": 120.34
+    },
+    "downstream": [
+      {
+        "target_id": "TW_industrial",
+        "corridor_id": "TW_road_steel-distribution",
+        "resource": "finished steel products",
+        "quantity": 10000000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_rio_tinto_cape_lambert_port"
+    ],
+    "resources": [
+      "Mineral-Bearing Land"
+    ]
+  },
+  {
+    "id": "IN_indian_steel_mills",
+    "name": "Indian Steel Mills (Tata Steel, JSW, SAIL)",
+    "tier": "downstream_processor",
+    "country_iso2": "IN",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": 22.8,
+      "lon": 86.2
+    },
+    "downstream": [
+      {
+        "target_id": "IN_industrial",
+        "corridor_id": "IN_rail_steel-distribution",
+        "resource": "finished steel products",
+        "quantity": 15000000,
+        "metric": "t"
+      },
+      {
+        "target_id": "IN_infrastructure",
+        "corridor_id": "IN_road_steel-infrastructure",
+        "resource": "construction steel",
+        "quantity": 10000000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_fortescue_herb_elliott_port",
+      "AU_bhp_bma_hay_point_export"
+    ],
+    "resources": [
+      "Mineral-Bearing Land"
+    ]
+  },
+  {
+    "id": "AU_bhp_olympic_dam_refined_metals",
+    "name": "BHP Olympic Dam Refined Metals Dispatch",
+    "tier": "downstream_processor",
+    "country_iso2": "AU",
+    "canonical_company": "BHP",
+    "coordinates": {
+      "lat": -34.93,
+      "lon": 138.6
+    },
+    "downstream": [
+      {
+        "target_id": "INTL_industrial",
+        "corridor_id": "INTL_ocean_adelaide-intl",
+        "resource": "refined copper, uranium yellowcake, gold",
+        "quantity": 220000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_bhp_olympic_dam_processing"
+    ],
+    "resources": [
+      "Mineral-Bearing Land"
+    ]
+  },
+  {
+    "id": "INTL_battery_cell_manufacturers",
+    "name": "Global Battery Cell Manufacturers (CATL, LG, Samsung SDI, Panasonic)",
+    "tier": "downstream_processor",
+    "country_iso2": "INTL",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": 30,
+      "lon": 115
+    },
+    "downstream": [
+      {
+        "target_id": "INTL_industrial",
+        "corridor_id": "INTL_ocean_battery-ev-supply",
+        "resource": "lithium-ion battery cells",
+        "quantity": 300000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_tianqi_lithium_kwinana",
+      "AU_albemarle_kemerton",
+      "AU_bhp_nickel_west_kwinana_refinery"
+    ],
+    "resources": [
+      "Mineral-Bearing Land"
+    ]
+  },
+  {
+    "id": "CN_chinese_lithium_converters",
+    "name": "Chinese Lithium Converters (Ganfeng, Tianqi, SQM-Sichuan)",
+    "tier": "downstream_processor",
+    "country_iso2": "CN",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": 29.35,
+      "lon": 104.78
+    },
+    "downstream": [
+      {
+        "target_id": "CN_industrial",
+        "corridor_id": "CN_road_lithium-domestic",
+        "resource": "lithium carbonate and lithium hydroxide",
+        "quantity": 200000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_pilbara_minerals_port_hedland_export",
+      "AU_allkem_esperance_export"
+    ],
+    "resources": [
+      "Mineral-Bearing Land"
+    ]
+  },
+  {
+    "id": "KR_korean_lithium_converters",
+    "name": "Korean Lithium Converters",
+    "tier": "downstream_processor",
+    "country_iso2": "KR",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": 35.54,
+      "lon": 129.31
+    },
+    "downstream": [
+      {
+        "target_id": "KR_industrial",
+        "corridor_id": "KR_road_lithium-domestic",
+        "resource": "lithium hydroxide",
+        "quantity": 50000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_pilbara_minerals_port_hedland_export"
+    ],
+    "resources": [
+      "Mineral-Bearing Land"
+    ]
+  },
+  {
+    "id": "INTL_copper_smelters",
+    "name": "International Copper Smelters (Asia-Pacific)",
+    "tier": "downstream_processor",
+    "country_iso2": "INTL",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": 30,
+      "lon": 120
+    },
+    "downstream": [
+      {
+        "target_id": "INTL_industrial",
+        "corridor_id": "INTL_ocean_copper-refined-supply",
+        "resource": "refined copper cathode",
+        "quantity": 600000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_newmont_cadia_processing",
+      "AU_newmont_boddington_processing"
+    ],
+    "resources": [
+      "Mineral-Bearing Land"
+    ]
+  },
+  {
+    "id": "AU_glencore_townsville_refinery",
+    "name": "Glencore Townsville Copper Refinery & Zinc Refinery",
+    "tier": "downstream_processor",
+    "country_iso2": "AU",
+    "canonical_company": "Glencore",
+    "coordinates": {
+      "lat": -19.26,
+      "lon": 146.77
+    },
+    "downstream": [
+      {
+        "target_id": "INTL_industrial",
+        "corridor_id": "INTL_ocean_townsville-asia",
+        "resource": "refined copper cathode, refined zinc, refined lead",
+        "quantity": 350000,
+        "metric": "t"
+      },
+      {
+        "target_id": "AU_industrial",
+        "corridor_id": "AU_road_townsville-domestic",
+        "resource": "refined copper, zinc, lead",
+        "quantity": 50000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_glencore_mount_isa_smelter"
+    ],
+    "resources": [
+      "Mineral-Bearing Land"
+    ]
+  },
+  {
+    "id": "INTL_aluminium_smelters",
+    "name": "International Aluminium Smelters (Middle East, Asia)",
+    "tier": "downstream_processor",
+    "country_iso2": "INTL",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": 24,
+      "lon": 54
+    },
+    "downstream": [
+      {
+        "target_id": "INTL_industrial",
+        "corridor_id": "INTL_ocean_aluminium-global",
+        "resource": "primary aluminium",
+        "quantity": 8000000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_south32_worsley_refinery",
+      "AU_alcoa_pinjarra_refinery",
+      "AU_alcoa_wagerup_refinery"
+    ],
+    "resources": [
+      "Mineral-Bearing Land"
+    ]
+  },
+  {
+    "id": "CN_chinese_alumina_refineries",
+    "name": "Chinese Alumina Refineries (Chalco, China Hongqiao)",
+    "tier": "downstream_processor",
+    "country_iso2": "CN",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": 36.67,
+      "lon": 116.99
+    },
+    "downstream": [
+      {
+        "target_id": "CN_industrial",
+        "corridor_id": "CN_road_alumina-domestic",
+        "resource": "smelter-grade alumina and primary aluminium",
+        "quantity": 10000000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_rio_tinto_weipa_export"
+    ],
+    "resources": [
+      "Mineral-Bearing Land"
+    ]
+  },
+  {
+    "id": "INTL_zircon_ceramic_manufacturers",
+    "name": "International Zircon & Titanium Dioxide Processors",
+    "tier": "downstream_processor",
+    "country_iso2": "INTL",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": 23.13,
+      "lon": 113.26
+    },
+    "downstream": [
+      {
+        "target_id": "INTL_industrial",
+        "corridor_id": "INTL_road_zircon-distribution",
+        "resource": "zircon flour, TiO2 pigment, zirconia ceramics",
+        "quantity": 400000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_iluka_narngulu_processing"
+    ],
+    "resources": [
+      "Mineral-Bearing Land"
+    ]
+  },
+  {
+    "id": "JP_japanese_power_and_steel",
+    "name": "Japanese Power Utilities & Steel Mills",
+    "tier": "downstream_processor",
+    "country_iso2": "JP",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": 35.69,
+      "lon": 139.69
+    },
+    "downstream": [
+      {
+        "target_id": "JP_industrial",
+        "corridor_id": "JP_electrical_grid_kanto",
+        "resource": "electricity and steel products",
+        "quantity": 10000000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_whitehaven_newcastle_export",
+      "AU_bhp_ncig_newcastle_export",
+      "AU_bhp_bma_hay_point_export"
+    ],
+    "resources": [
+      "Mineral-Bearing Land"
+    ]
+  },
+  {
+    "id": "KR_korean_power_and_steel",
+    "name": "Korean Power Utilities & Steel Mills",
+    "tier": "downstream_processor",
+    "country_iso2": "KR",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": 37.57,
+      "lon": 126.98
+    },
+    "downstream": [
+      {
+        "target_id": "KR_industrial",
+        "corridor_id": "KR_electrical_grid_national",
+        "resource": "electricity and steel products",
+        "quantity": 3000000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_whitehaven_newcastle_export"
+    ],
+    "resources": [
+      "Mineral-Bearing Land"
+    ]
+  },
+  {
+    "id": "IN_indian_power_plants",
+    "name": "Indian Thermal Power Plants",
+    "tier": "downstream_processor",
+    "country_iso2": "IN",
+    "canonical_company": null,
+    "coordinates": {
+      "lat": 19.08,
+      "lon": 72.88
+    },
+    "downstream": [
+      {
+        "target_id": "IN_residential",
+        "corridor_id": "IN_electrical_grid_national",
+        "resource": "electricity (coal-fired)",
+        "quantity": 3000000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_bhp_ncig_newcastle_export"
+    ],
+    "resources": [
+      "Mineral-Bearing Land"
+    ]
+  },
+  {
+    "id": "MY_lynas_kuantan_refinery",
+    "name": "Lynas Advanced Materials Plant (LAMP) Kuantan",
+    "tier": "downstream_processor",
+    "country_iso2": "MY",
+    "canonical_company": "Lynas Rare Earths",
+    "coordinates": {
+      "lat": 3.97,
+      "lon": 103.43
+    },
+    "downstream": [
+      {
+        "target_id": "INTL_industrial",
+        "corridor_id": "INTL_ocean_kuantan-intl",
+        "resource": "separated rare earth oxides (NdPr, La, Ce, Dy)",
+        "quantity": 12000,
+        "metric": "t"
+      }
+    ],
+    "upstream": [
+      "AU_lynas_kalgoorlie_processing"
+    ],
+    "resources": [
+      "Mineral-Bearing Land"
+    ]
+  },
+  {
+    "id": "AU_road_olympic-dam-roxby-downs",
+    "tier": "transport",
+    "name": "Olympic Dam haul roads to Roxby Downs",
+    "country_iso2": "AU",
+    "operator_id": "AU_bhp",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "local",
+    "coordinates": {
+      "lat": -30.56,
+      "lon": 136.87
+    }
+  },
+  {
+    "id": "AU_rail_pilbara-dampier",
+    "tier": "transport",
+    "name": "Rio Tinto Pilbara Railway (Dampier line)",
+    "country_iso2": "AU",
+    "operator_id": "AU_rio_tinto",
+    "mode": "rail",
+    "form": "bulk_dry",
+    "range": "regional",
+    "coordinates": {
+      "lat": -21.64,
+      "lon": 117.25
+    }
+  },
+  {
+    "id": "AU_rail_pilbara-cape-lambert",
+    "tier": "transport",
+    "name": "Rio Tinto Pilbara Railway (Cape Lambert line)",
+    "country_iso2": "AU",
+    "operator_id": "AU_rio_tinto",
+    "mode": "rail",
+    "form": "bulk_dry",
+    "range": "regional",
+    "coordinates": {
+      "lat": -21.4,
+      "lon": 117.5
+    }
+  },
+  {
+    "id": "AU_rail_fmg-chichester-herb-elliott",
+    "tier": "transport",
+    "name": "Fortescue Chichester to Herb Elliott Port Rail",
+    "country_iso2": "AU",
+    "operator_id": "AU_fortescue",
+    "mode": "rail",
+    "form": "bulk_dry",
+    "range": "regional",
+    "coordinates": {
+      "lat": -21.3,
+      "lon": 119
+    }
+  },
+  {
+    "id": "AU_rail_fmg-solomon-herb-elliott",
+    "tier": "transport",
+    "name": "Fortescue Solomon to Herb Elliott Port Rail",
+    "country_iso2": "AU",
+    "operator_id": "AU_fortescue",
+    "mode": "rail",
+    "form": "bulk_dry",
+    "range": "regional",
+    "coordinates": {
+      "lat": -21.4,
+      "lon": 118.4
+    }
+  },
+  {
+    "id": "AU_road_iron-bridge-port-hedland",
+    "tier": "transport",
+    "name": "Iron Bridge to Port Hedland road haulage",
+    "country_iso2": "AU",
+    "operator_id": "AU_fortescue",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "regional",
+    "coordinates": {
+      "lat": -20.5,
+      "lon": 118.75
+    }
+  },
+  {
+    "id": "AU_rail_fmg-herb-elliott-port",
+    "tier": "transport",
+    "name": "Fortescue Railway to Herb Elliott Port",
+    "country_iso2": "AU",
+    "operator_id": "AU_fortescue",
+    "mode": "rail",
+    "form": "bulk_dry",
+    "range": "regional",
+    "coordinates": {
+      "lat": -20.3,
+      "lon": 118.57
+    }
+  },
+  {
+    "id": "AU_road_greenbushes-bunbury",
+    "tier": "transport",
+    "name": "Greenbushes to Bunbury road haulage",
+    "country_iso2": "AU",
+    "operator_id": "AU_talison_lithium",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "local",
+    "coordinates": {
+      "lat": -33.4,
+      "lon": 115.8
+    }
+  },
+  {
+    "id": "AU_road_mt-cattlin-esperance",
+    "tier": "transport",
+    "name": "Mt Cattlin to Esperance road haulage",
+    "country_iso2": "AU",
+    "operator_id": "AU_allkem",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "regional",
+    "coordinates": {
+      "lat": -33.7,
+      "lon": 120.8
+    }
+  },
+  {
+    "id": "AU_road_wodgina-kemerton",
+    "tier": "transport",
+    "name": "Wodgina to Kemerton road haulage (via ship)",
+    "country_iso2": "AU",
+    "operator_id": "AU_albemarle",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "regional",
+    "coordinates": {
+      "lat": -27,
+      "lon": 117
+    }
+  },
+  {
+    "id": "AU_road_cadia-orange",
+    "tier": "transport",
+    "name": "Cadia to Orange road haulage",
+    "country_iso2": "AU",
+    "operator_id": "AU_newmont",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "local",
+    "coordinates": {
+      "lat": -33.4,
+      "lon": 149
+    }
+  },
+  {
+    "id": "AU_road_kalgoorlie-local",
+    "tier": "transport",
+    "name": "Kalgoorlie local mine roads",
+    "country_iso2": "AU",
+    "operator_id": "AU_northern_star_resources",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "local",
+    "coordinates": {
+      "lat": -30.75,
+      "lon": 121.47
+    }
+  },
+  {
+    "id": "AU_conveyor_weipa-port",
+    "tier": "transport",
+    "name": "Weipa Mine to Weipa Port conveyor",
+    "country_iso2": "AU",
+    "operator_id": "AU_rio_tinto",
+    "mode": "conveyor",
+    "form": "bulk_dry",
+    "range": "local",
+    "coordinates": {
+      "lat": -12.64,
+      "lon": 141.88
+    }
+  },
+  {
+    "id": "AU_conveyor_olympic-dam-mill",
+    "tier": "transport",
+    "name": "Olympic Dam underground to processing mill conveyor",
+    "country_iso2": "AU",
+    "operator_id": "AU_bhp",
+    "mode": "conveyor",
+    "form": "bulk_dry",
+    "range": "local",
+    "coordinates": {
+      "lat": -30.44,
+      "lon": 136.89
+    }
+  },
+  {
+    "id": "AU_road_jacinth-ceduna",
+    "tier": "transport",
+    "name": "Jacinth-Ambrosia to Ceduna road haulage",
+    "country_iso2": "AU",
+    "operator_id": "AU_iluka_resources",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "regional",
+    "coordinates": {
+      "lat": -31.5,
+      "lon": 132
+    }
+  },
+  {
+    "id": "AU_rail_goonyella-hay-point",
+    "tier": "transport",
+    "name": "Goonyella System Railway to Hay Point",
+    "country_iso2": "AU",
+    "operator_id": "AU_aurizon",
+    "mode": "rail",
+    "form": "bulk_dry",
+    "range": "regional",
+    "coordinates": {
+      "lat": -21.5,
+      "lon": 148.7
+    }
+  },
+  {
+    "id": "AU_road_mt-weld-fremantle",
+    "tier": "transport",
+    "name": "Mt Weld to Fremantle road haulage",
+    "country_iso2": "AU",
+    "operator_id": "AU_lynas_rare_earths",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "regional",
+    "coordinates": {
+      "lat": -30,
+      "lon": 119
+    }
+  },
+  {
+    "id": "AU_road_mt-weld-kalgoorlie",
+    "tier": "transport",
+    "name": "Mt Weld to Kalgoorlie road haulage",
+    "country_iso2": "AU",
+    "operator_id": "AU_lynas_rare_earths",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "regional",
+    "coordinates": {
+      "lat": -29.8,
+      "lon": 121.5
+    }
+  },
+  {
+    "id": "INTL_ocean_dampier-tianjin",
+    "tier": "transport",
+    "name": "Ocean route Dampier → Tianjin",
+    "country_iso2": "INTL",
+    "operator_id": "INTL_bulk_carriers",
+    "mode": "ocean_freight",
+    "form": "bulk_dry",
+    "range": "international",
+    "coordinates": {
+      "lat": 0,
+      "lon": 115
+    }
+  },
+  {
+    "id": "INTL_ocean_dampier-kobe",
+    "tier": "transport",
+    "name": "Ocean route Dampier → Kobe",
+    "country_iso2": "INTL",
+    "operator_id": "INTL_bulk_carriers",
+    "mode": "ocean_freight",
+    "form": "bulk_dry",
+    "range": "international",
+    "coordinates": {
+      "lat": 5,
+      "lon": 125
+    }
+  },
+  {
+    "id": "INTL_ocean_cape-lambert-qingdao",
+    "tier": "transport",
+    "name": "Ocean route Cape Lambert → Qingdao",
+    "country_iso2": "INTL",
+    "operator_id": "INTL_bulk_carriers",
+    "mode": "ocean_freight",
+    "form": "bulk_dry",
+    "range": "international",
+    "coordinates": {
+      "lat": 0,
+      "lon": 116
+    }
+  },
+  {
+    "id": "INTL_ocean_cape-lambert-kaohsiung",
+    "tier": "transport",
+    "name": "Ocean route Cape Lambert → Kaohsiung",
+    "country_iso2": "INTL",
+    "operator_id": "INTL_bulk_carriers",
+    "mode": "ocean_freight",
+    "form": "bulk_dry",
+    "range": "international",
+    "coordinates": {
+      "lat": 0,
+      "lon": 118
+    }
+  },
+  {
+    "id": "INTL_ocean_port-hedland-rizhao",
+    "tier": "transport",
+    "name": "Ocean route Port Hedland → Rizhao",
+    "country_iso2": "INTL",
+    "operator_id": "INTL_bulk_carriers",
+    "mode": "ocean_freight",
+    "form": "bulk_dry",
+    "range": "international",
+    "coordinates": {
+      "lat": 0,
+      "lon": 116
+    }
+  },
+  {
+    "id": "INTL_ocean_port-hedland-visakhapatnam",
+    "tier": "transport",
+    "name": "Ocean route Port Hedland → Visakhapatnam",
+    "country_iso2": "INTL",
+    "operator_id": "INTL_bulk_carriers",
+    "mode": "ocean_freight",
+    "form": "bulk_dry",
+    "range": "international",
+    "coordinates": {
+      "lat": -5,
+      "lon": 105
+    }
+  },
+  {
+    "id": "INTL_ocean_port-hedland-zhoushan",
+    "tier": "transport",
+    "name": "Ocean route Port Hedland → Zhoushan",
+    "country_iso2": "INTL",
+    "operator_id": "INTL_bulk_carriers",
+    "mode": "ocean_freight",
+    "form": "bulk_dry",
+    "range": "international",
+    "coordinates": {
+      "lat": 0,
+      "lon": 115
+    }
+  },
+  {
+    "id": "INTL_ocean_port-hedland-ulsan",
+    "tier": "transport",
+    "name": "Ocean route Port Hedland → Ulsan",
+    "country_iso2": "INTL",
+    "operator_id": "INTL_bulk_carriers",
+    "mode": "ocean_freight",
+    "form": "bulk_dry",
+    "range": "international",
+    "coordinates": {
+      "lat": 5,
+      "lon": 122
+    }
+  },
+  {
+    "id": "INTL_ocean_esperance-china",
+    "tier": "transport",
+    "name": "Ocean route Esperance → China",
+    "country_iso2": "INTL",
+    "operator_id": "INTL_bulk_carriers",
+    "mode": "ocean_freight",
+    "form": "bulk_dry",
+    "range": "international",
+    "coordinates": {
+      "lat": -15,
+      "lon": 110
+    }
+  },
+  {
+    "id": "AU_conveyor_cadia-mill",
+    "tier": "transport",
+    "name": "Cadia underground to processing mill conveyor",
+    "country_iso2": "AU",
+    "operator_id": "AU_newmont",
+    "mode": "conveyor",
+    "form": "bulk_dry",
+    "range": "local",
+    "coordinates": {
+      "lat": -33.47,
+      "lon": 149
+    }
+  },
+  {
+    "id": "AU_conveyor_boddington-mill",
+    "tier": "transport",
+    "name": "Boddington pit to processing plant conveyor",
+    "country_iso2": "AU",
+    "operator_id": "AU_newmont",
+    "mode": "conveyor",
+    "form": "bulk_dry",
+    "range": "local",
+    "coordinates": {
+      "lat": -32.75,
+      "lon": 116.38
+    }
+  },
+  {
+    "id": "AU_conveyor_kcgm-fimiston",
+    "tier": "transport",
+    "name": "KCGM Super Pit to Fimiston plant conveyor",
+    "country_iso2": "AU",
+    "operator_id": "AU_northern_star_resources",
+    "mode": "conveyor",
+    "form": "bulk_dry",
+    "range": "local",
+    "coordinates": {
+      "lat": -30.78,
+      "lon": 121.49
+    }
+  },
+  {
+    "id": "AU_conveyor_mount-isa-smelter",
+    "tier": "transport",
+    "name": "Mount Isa mine to smelter conveyor",
+    "country_iso2": "AU",
+    "operator_id": "AU_glencore",
+    "mode": "conveyor",
+    "form": "bulk_dry",
+    "range": "local",
+    "coordinates": {
+      "lat": -20.73,
+      "lon": 139.49
+    }
+  },
+  {
+    "id": "INTL_ocean_sydney-asia",
+    "tier": "transport",
+    "name": "Ocean route Sydney → East Asia (copper concentrate)",
+    "country_iso2": "INTL",
+    "operator_id": "INTL_bulk_carriers",
+    "mode": "ocean_freight",
+    "form": "bulk_dry",
+    "range": "international",
+    "coordinates": {
+      "lat": -10,
+      "lon": 130
+    }
+  },
+  {
+    "id": "AU_ocean_weipa-export",
+    "tier": "transport",
+    "name": "Weipa Port export berth",
+    "country_iso2": "AU",
+    "operator_id": "AU_rio_tinto",
+    "mode": "ocean_freight",
+    "form": "bulk_dry",
+    "range": "international",
+    "coordinates": {
+      "lat": -12.64,
+      "lon": 141.87
+    }
+  },
+  {
+    "id": "AU_road_yarwun-boyne",
+    "tier": "transport",
+    "name": "Yarwun Refinery to Boyne Smelter road",
+    "country_iso2": "AU",
+    "operator_id": "AU_rio_tinto",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "local",
+    "coordinates": {
+      "lat": -23.95,
+      "lon": 151.33
+    }
+  },
+  {
+    "id": "INTL_ocean_weipa-china",
+    "tier": "transport",
+    "name": "Ocean route Weipa → China",
+    "country_iso2": "INTL",
+    "operator_id": "INTL_bulk_carriers",
+    "mode": "ocean_freight",
+    "form": "bulk_dry",
+    "range": "international",
+    "coordinates": {
+      "lat": -5,
+      "lon": 130
+    }
+  },
+  {
+    "id": "INTL_ocean_bunbury-intl",
+    "tier": "transport",
+    "name": "Ocean route Bunbury → international alumina markets",
+    "country_iso2": "INTL",
+    "operator_id": "INTL_bulk_carriers",
+    "mode": "ocean_freight",
+    "form": "bulk_dry",
+    "range": "international",
+    "coordinates": {
+      "lat": -20,
+      "lon": 100
+    }
+  },
+  {
+    "id": "INTL_ocean_fremantle-intl",
+    "tier": "transport",
+    "name": "Ocean route Fremantle / Kwinana → international alumina markets",
+    "country_iso2": "INTL",
+    "operator_id": "INTL_bulk_carriers",
+    "mode": "ocean_freight",
+    "form": "bulk_dry",
+    "range": "international",
+    "coordinates": {
+      "lat": -20,
+      "lon": 95
+    }
+  },
+  {
+    "id": "AU_rail_ceduna-narngulu",
+    "tier": "transport",
+    "name": "Ceduna to Narngulu rail/road haulage",
+    "country_iso2": "AU",
+    "operator_id": "AU_iluka_resources",
+    "mode": "rail",
+    "form": "bulk_dry",
+    "range": "regional",
+    "coordinates": {
+      "lat": -30,
+      "lon": 123
+    }
+  },
+  {
+    "id": "INTL_ocean_geraldton-intl",
+    "tier": "transport",
+    "name": "Ocean route Geraldton → international markets",
+    "country_iso2": "INTL",
+    "operator_id": "INTL_bulk_carriers",
+    "mode": "ocean_freight",
+    "form": "bulk_dry",
+    "range": "international",
+    "coordinates": {
+      "lat": -15,
+      "lon": 105
+    }
+  },
+  {
+    "id": "INTL_ocean_newcastle-korea",
+    "tier": "transport",
+    "name": "Ocean route Newcastle → Korea",
+    "country_iso2": "INTL",
+    "operator_id": "INTL_bulk_carriers",
+    "mode": "ocean_freight",
+    "form": "bulk_dry",
+    "range": "international",
+    "coordinates": {
+      "lat": -5,
+      "lon": 140
+    }
+  },
+  {
+    "id": "INTL_ocean_newcastle-india",
+    "tier": "transport",
+    "name": "Ocean route Newcastle → India",
+    "country_iso2": "INTL",
+    "operator_id": "INTL_bulk_carriers",
+    "mode": "ocean_freight",
+    "form": "bulk_dry",
+    "range": "international",
+    "coordinates": {
+      "lat": -15,
+      "lon": 105
+    }
+  },
+  {
+    "id": "INTL_ocean_hay-point-china",
+    "tier": "transport",
+    "name": "Ocean route Hay Point → China",
+    "country_iso2": "INTL",
+    "operator_id": "INTL_bulk_carriers",
+    "mode": "ocean_freight",
+    "form": "bulk_dry",
+    "range": "international",
+    "coordinates": {
+      "lat": -5,
+      "lon": 135
+    }
+  },
+  {
+    "id": "INTL_ocean_hay-point-japan",
+    "tier": "transport",
+    "name": "Ocean route Hay Point → Japan",
+    "country_iso2": "INTL",
+    "operator_id": "INTL_bulk_carriers",
+    "mode": "ocean_freight",
+    "form": "bulk_dry",
+    "range": "international",
+    "coordinates": {
+      "lat": 0,
+      "lon": 140
+    }
+  },
+  {
+    "id": "INTL_ocean_hay-point-india",
+    "tier": "transport",
+    "name": "Ocean route Hay Point → India",
+    "country_iso2": "INTL",
+    "operator_id": "INTL_bulk_carriers",
+    "mode": "ocean_freight",
+    "form": "bulk_dry",
+    "range": "international",
+    "coordinates": {
+      "lat": -10,
+      "lon": 110
+    }
+  },
+  {
+    "id": "CN_road_steel-distribution",
+    "tier": "transport",
+    "name": "Chinese domestic steel distribution network (road)",
+    "country_iso2": "CN",
+    "operator_id": "CN_logistics",
+    "mode": "road",
+    "form": "unit_load",
+    "range": "regional",
+    "coordinates": {
+      "lat": 35,
+      "lon": 117
+    }
+  },
+  {
+    "id": "CN_rail_steel-infrastructure",
+    "tier": "transport",
+    "name": "Chinese domestic steel rail distribution",
+    "country_iso2": "CN",
+    "operator_id": "CN_china_railway",
+    "mode": "rail",
+    "form": "unit_load",
+    "range": "regional",
+    "coordinates": {
+      "lat": 34,
+      "lon": 113
+    }
+  },
+  {
+    "id": "JP_road_steel-distribution",
+    "tier": "transport",
+    "name": "Japanese domestic steel distribution",
+    "country_iso2": "JP",
+    "operator_id": "JP_logistics",
+    "mode": "road",
+    "form": "unit_load",
+    "range": "regional",
+    "coordinates": {
+      "lat": 35,
+      "lon": 137
+    }
+  },
+  {
+    "id": "KR_road_steel-distribution",
+    "tier": "transport",
+    "name": "Korean domestic steel distribution",
+    "country_iso2": "KR",
+    "operator_id": "KR_logistics",
+    "mode": "road",
+    "form": "unit_load",
+    "range": "regional",
+    "coordinates": {
+      "lat": 36,
+      "lon": 128
+    }
+  },
+  {
+    "id": "TW_road_steel-distribution",
+    "tier": "transport",
+    "name": "Taiwanese domestic steel distribution",
+    "country_iso2": "TW",
+    "operator_id": "TW_logistics",
+    "mode": "road",
+    "form": "unit_load",
+    "range": "regional",
+    "coordinates": {
+      "lat": 23,
+      "lon": 120.5
+    }
+  },
+  {
+    "id": "IN_rail_steel-distribution",
+    "tier": "transport",
+    "name": "Indian domestic steel rail distribution",
+    "country_iso2": "IN",
+    "operator_id": "IN_indian_railways",
+    "mode": "rail",
+    "form": "unit_load",
+    "range": "regional",
+    "coordinates": {
+      "lat": 23,
+      "lon": 85
+    }
+  },
+  {
+    "id": "IN_road_steel-infrastructure",
+    "tier": "transport",
+    "name": "Indian domestic steel road distribution",
+    "country_iso2": "IN",
+    "operator_id": "IN_logistics",
+    "mode": "road",
+    "form": "unit_load",
+    "range": "regional",
+    "coordinates": {
+      "lat": 22,
+      "lon": 83
+    }
+  },
+  {
+    "id": "INTL_ocean_adelaide-intl",
+    "tier": "transport",
+    "name": "Ocean route Adelaide → international",
+    "country_iso2": "INTL",
+    "operator_id": "INTL_bulk_carriers",
+    "mode": "ocean_freight",
+    "form": "containerised",
+    "range": "international",
+    "coordinates": {
+      "lat": -30,
+      "lon": 120
+    }
+  },
+  {
+    "id": "INTL_ocean_battery-ev-supply",
+    "tier": "transport",
+    "name": "Global battery cell distribution (ocean + land)",
+    "country_iso2": "INTL",
+    "operator_id": "INTL_logistics",
+    "mode": "ocean_freight",
+    "form": "containerised",
+    "range": "international",
+    "coordinates": {
+      "lat": 25,
+      "lon": 115
+    }
+  },
+  {
+    "id": "CN_road_lithium-domestic",
+    "tier": "transport",
+    "name": "Chinese domestic lithium chemicals distribution",
+    "country_iso2": "CN",
+    "operator_id": "CN_logistics",
+    "mode": "road",
+    "form": "containerised",
+    "range": "regional",
+    "coordinates": {
+      "lat": 30,
+      "lon": 105
+    }
+  },
+  {
+    "id": "KR_road_lithium-domestic",
+    "tier": "transport",
+    "name": "Korean domestic lithium chemicals distribution",
+    "country_iso2": "KR",
+    "operator_id": "KR_logistics",
+    "mode": "road",
+    "form": "containerised",
+    "range": "regional",
+    "coordinates": {
+      "lat": 36,
+      "lon": 128
+    }
+  },
+  {
+    "id": "INTL_ocean_copper-refined-supply",
+    "tier": "transport",
+    "name": "International refined copper distribution",
+    "country_iso2": "INTL",
+    "operator_id": "INTL_logistics",
+    "mode": "ocean_freight",
+    "form": "containerised",
+    "range": "international",
+    "coordinates": {
+      "lat": 20,
+      "lon": 120
+    }
+  },
+  {
+    "id": "INTL_air_perth-london",
+    "tier": "transport",
+    "name": "Air freight Perth → London (gold)",
+    "country_iso2": "INTL",
+    "operator_id": "INTL_air_cargo",
+    "mode": "air_freight",
+    "form": "unit_load",
+    "range": "international",
+    "coordinates": {
+      "lat": 20,
+      "lon": 70
+    }
+  },
+  {
+    "id": "AU_road_perth-domestic",
+    "tier": "transport",
+    "name": "Perth domestic gold distribution",
+    "country_iso2": "AU",
+    "operator_id": "AU_perth_mint",
+    "mode": "road",
+    "form": "unit_load",
+    "range": "local",
+    "coordinates": {
+      "lat": -31.96,
+      "lon": 115.86
+    }
+  },
+  {
+    "id": "INTL_ocean_townsville-asia",
+    "tier": "transport",
+    "name": "Ocean route Townsville → Asia",
+    "country_iso2": "INTL",
+    "operator_id": "INTL_bulk_carriers",
+    "mode": "ocean_freight",
+    "form": "bulk_dry",
+    "range": "international",
+    "coordinates": {
+      "lat": -5,
+      "lon": 135
+    }
+  },
+  {
+    "id": "INTL_ocean_aluminium-global",
+    "tier": "transport",
+    "name": "Global aluminium distribution (ocean)",
+    "country_iso2": "INTL",
+    "operator_id": "INTL_bulk_carriers",
+    "mode": "ocean_freight",
+    "form": "bulk_dry",
+    "range": "international",
+    "coordinates": {
+      "lat": 15,
+      "lon": 60
+    }
+  },
+  {
+    "id": "INTL_ocean_gladstone-intl",
+    "tier": "transport",
+    "name": "Ocean route Gladstone → international",
+    "country_iso2": "INTL",
+    "operator_id": "INTL_bulk_carriers",
+    "mode": "ocean_freight",
+    "form": "bulk_dry",
+    "range": "international",
+    "coordinates": {
+      "lat": -10,
+      "lon": 145
+    }
+  },
+  {
+    "id": "CN_road_alumina-domestic",
+    "tier": "transport",
+    "name": "Chinese domestic alumina/aluminium distribution",
+    "country_iso2": "CN",
+    "operator_id": "CN_logistics",
+    "mode": "road",
+    "form": "bulk_dry",
+    "range": "regional",
+    "coordinates": {
+      "lat": 36,
+      "lon": 117
+    }
+  },
+  {
+    "id": "INTL_road_zircon-distribution",
+    "tier": "transport",
+    "name": "International zircon/TiO2 distribution",
+    "country_iso2": "INTL",
+    "operator_id": "INTL_logistics",
+    "mode": "road",
+    "form": "containerised",
+    "range": "international",
+    "coordinates": {
+      "lat": 23,
+      "lon": 113
+    }
+  },
+  {
+    "id": "JP_electrical_grid_kanto",
+    "tier": "transport",
+    "name": "Japanese electrical grid and industrial distribution",
+    "country_iso2": "JP",
+    "operator_id": "JP_tepco",
+    "mode": "electrical_grid",
+    "form": "electrical",
+    "range": "regional",
+    "coordinates": {
+      "lat": 35.69,
+      "lon": 139.69
+    }
+  },
+  {
+    "id": "KR_electrical_grid_national",
+    "tier": "transport",
+    "name": "Korean national electrical grid",
+    "country_iso2": "KR",
+    "operator_id": "KR_kepco",
+    "mode": "electrical_grid",
+    "form": "electrical",
+    "range": "regional",
+    "coordinates": {
+      "lat": 37,
+      "lon": 127
+    }
+  },
+  {
+    "id": "IN_electrical_grid_national",
+    "tier": "transport",
+    "name": "Indian national power grid",
+    "country_iso2": "IN",
+    "operator_id": "IN_powergrid",
+    "mode": "electrical_grid",
+    "form": "electrical",
+    "range": "regional",
+    "coordinates": {
+      "lat": 28,
+      "lon": 77
+    }
+  },
+  {
+    "id": "INTL_ocean_kuantan-intl",
+    "tier": "transport",
+    "name": "Ocean route Kuantan → international rare earth markets",
+    "country_iso2": "INTL",
+    "operator_id": "INTL_bulk_carriers",
+    "mode": "ocean_freight",
+    "form": "containerised",
+    "range": "international",
+    "coordinates": {
+      "lat": 10,
+      "lon": 110
+    }
+  }
+]
