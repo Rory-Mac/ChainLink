@@ -2,6 +2,8 @@
 
 ChainLink maps the world's natural resource supply chains as a navigable graph. For every country-resource pair, agentic AI discovers the significant extraction sites in that country and traces the flow of that resource through processing, manufacturing, and distribution to its end consumers. The result is a unified, deduplicated graph of nodes and directed edges that can be explored interactively on a 3D globe.
 
+![ChainLink Home Page](./images/homescreen.png)
+
 ## What it does
 
 1. **Orchestrates AI research at scale.** For each combination of ~195 countries x 89 resources (spanning 18 categories from petroleum to rare earths to atmospheric gases), a Claude agent is dispatched to research the real supply chain and return it as structured JSON.
